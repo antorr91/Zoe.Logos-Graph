@@ -178,7 +178,7 @@ def export_graphml(G: nx.DiGraph, path: Path) -> None:
 
 def export_json(G: nx.DiGraph, path: Path) -> None:
     """Export graph to node-link JSON format."""
-    data = nx.node_link_data(G)
+    data = nx.node_link_data(G, edges="edges")
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"JSON written: {path}")
 
