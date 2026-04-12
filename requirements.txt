@@ -1,0 +1,25 @@
+# Zoe.Logos-Graph — dependencies
+
+# Core
+anthropic>=0.25.0
+pydantic>=2.0.0
+networkx>=3.0
+
+# Configuration
+pyyaml>=6.0
+
+# Notebooks and exploration
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Visualisation (graph)
+matplotlib>=3.7.0
+pyvis>=0.3.2
+
+# Data handling
+pandas>=2.0.0
+
+# Development
+pytest>=7.0.0
+black>=23.0.0
+ruff>=0.1.0
