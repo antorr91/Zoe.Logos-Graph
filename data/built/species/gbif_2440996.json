@@ -1,0 +1,545 @@
+{
+  "species_id": "gbif_2440996",
+  "gbif_usage_key": 2440996,
+  "scientific_name": "Equus caballus",
+  "common_name_en": "domestic horse",
+  "common_names": {
+    "en": "domestic horse",
+    "it": "cavallo domestico",
+    "es": "caballo doméstico",
+    "fr": "cheval domestique",
+    "de": "pferd"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Perissodactyla",
+    "family": "Equidae",
+    "genus": "Equus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 18,
+    "claim_count": 12,
+    "doi_count": 19,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Domestic horse (Equus caballus) is a species of Mammalia in the order Perissodactyla, family Equidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Horse",
+  "wiki_title": "Horse",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "neigh",
+    "nicker",
+    "snort",
+    "squeal"
+  ],
+  "contexts": [
+    "alarm",
+    "contact",
+    "play",
+    "threat"
+  ],
+  "functions": [
+    "contact maintenance",
+    "predator alarm",
+    "social play",
+    "threat display"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "neigh",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "nicker",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "snort",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "squeal",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "contact",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "play",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "threat",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social play",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "threat display",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "freesound",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.46439/biomedres.4.034",
+      "url": "https://doi.org/10.46439/biomedres.4.034",
+      "title": "Chronic fluoride poisoning in domestic equines, horses (Equus caballus) and donkeys (Equus asinus",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3389/fvets.2020.590867",
+      "url": "https://doi.org/10.3389/fvets.2020.590867",
+      "title": "The Power of a Positive Human–Animal Relationship for Animal Welfare",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.84019",
+      "url": "https://doi.org/10.1079/cabicompendium.84019",
+      "title": "Equus caballus (horses)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3389/fvets.2019.00024",
+      "url": "https://doi.org/10.3389/fvets.2019.00024",
+      "title": "Farm Animal Cognition—Linking Behavior, Welfare and Ethics",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-016-1064-4",
+      "url": "https://doi.org/10.1007/s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1126/sciadv.1701742",
+      "url": "https://doi.org/10.1126/sciadv.1701742",
+      "title": "Vocalizing in chimpanzees is influenced by social-cognitive processes",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rsbl.2015.0883",
+      "url": "https://doi.org/10.1098/rsbl.2015.0883",
+      "title": "Dogs recognize dog and human emotions",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.4238/gmr.15038895",
+      "url": "https://doi.org/10.4238/gmr.15038895",
+      "title": "Short Communication Quick method for identifying horse (Equus caballus) and donkey (Equus asinus) hybrids",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/srep09989",
+      "url": "https://doi.org/10.1038/srep09989",
+      "title": "Segregation of information about emotional arousal and valence in horse whinnies",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pbio.1001821",
+      "url": "https://doi.org/10.1371/journal.pbio.1001821",
+      "title": "The Evolutionary Biology of Musical Rhythm: Was Darwin Wrong?",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.119345",
+      "url": "https://doi.org/10.1079/cabicompendium.119345",
+      "title": "Equus caballus [ISC] (horse)",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-12-388437-4.00008-9",
+      "url": "https://doi.org/10.1016/b978-0-12-388437-4.00008-9",
+      "title": "Horse (Equus caballus)",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.jveb.2011.08.004",
+      "url": "https://doi.org/10.1016/j.jveb.2011.08.004",
+      "title": "Acoustic communication in the domestic horse (Equus caballus)",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/czoolo/58.5.698",
+      "url": "https://doi.org/10.1093/czoolo/58.5.698",
+      "title": "What makes a cry a cry? A review of infant distress vocalizations",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/978-3-662-06820-5_25",
+      "url": "https://doi.org/10.1007/978-3-662-06820-5_25",
+      "title": "Przewalski’s Horse — Equus caballus",
+      "year": 2003,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/s0168-1591(05)80001-2",
+      "url": "https://doi.org/10.1016/s0168-1591(05)80001-2",
+      "title": "Maternal behavior of draft mares (Equus caballus) with mule foals (Equus asinus × Equus caballus)",
+      "year": 1992,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-1-4613-4470-4_16",
+      "url": "https://doi.org/10.1007/978-1-4613-4470-4_16",
+      "title": "The Horse, Equus caballus, and the Donkey, Equus asinus",
+      "year": 1975,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.applanim.2020.104945",
+      "url": "https://doi.org/10.1016/j.applanim.2020.104945",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.11606/d.10.2003.tde-23062004-171625",
+      "url": "https://doi.org/10.11606/d.10.2003.tde-23062004-171625",
+      "title": "Mensuração da sobressaliência incisal e dos diastemas em potros (Equus caballus)",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_46439_biomedres_4_034",
+      "title": "Chronic fluoride poisoning in domestic equines, horses (Equus caballus) and donkeys (Equus asinus",
+      "year": 2023,
+      "doi": "10.46439/biomedres.4.034",
+      "abstract": "<jats:p>Repeated chronic fluoride (F) exposure for prolonged duration through water, air, and food causes F poisoning in the form of fluorosis in both humans and domestic and wild animals. However, among domestic equine animals, horses (Equus caballus) and donkeys (Equus asinus), chronic F poisoning caused by industrial fluoride pollution and fluoridated drinking water has been well studied. But these studies in these animals are still very limited. On the other hand, the sample size of these animals in these studies is also very small. Nevertheless, these studies are important from the point of view of veterinary medicine and toxicology. In these animals, F-induced diverse toxic effects or pathognomonic signs such as dental mottling or light to deep brownish staining on enamel surface of teeth, lameness, stiffness, skeletal abnormalities, crooked legs, hoof deformities, pain in joints, weight loss, unthriftiness, poor health, standing with an arched back, difficulty eating, rough hair",
+      "journal": "Journal of Biomed Research",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fvets_2020_590867",
+      "title": "The Power of a Positive Human–Animal Relationship for Animal Welfare",
+      "year": 2020,
+      "doi": "10.3389/fvets.2020.590867",
+      "abstract": "Domestic animals often seek and enjoy interacting with humans. Positive human-animal relationships can elicit positive emotions and other positive welfare outcomes. Nevertheless, our understanding of the underlying processes that govern the positive perception of humans by animals is incomplete. We cover the potential mechanisms involved in the development and maintenance of positive human-animal relationships from the perspective of the animal. This encompasses habituation, associative learning, and possibly attachment or bonding based on communication and social cognition. We review the indicators from the literature to assess a positive human-animal relationship. We operationally define this positive relationship as the animal showing voluntary approach and spatial proximity (seeking) and signs of anticipation, pleasure, relaxation, or other indicators of a rewarding experience from interacting with the human. For research, we recommend accounting for the baseline human-animal relat",
+      "journal": "Frontiers in Veterinary Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_84019",
+      "title": "Equus caballus (horses)",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.84019",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fvets_2019_00024",
+      "title": "Farm Animal Cognition—Linking Behavior, Welfare and Ethics",
+      "year": 2019,
+      "doi": "10.3389/fvets.2019.00024",
+      "abstract": "Farm animal welfare is a major concern for society and food production. To more accurately evaluate animal farming in general and to avoid exposing farm animals to poor welfare situations, it is necessary to understand not only their behavioral but also their cognitive needs and capacities. Thus, general knowledge of how farm animals perceive and interact with their environment is of major importance for a range of stakeholders, from citizens to politicians to cognitive ethologists to philosophers. This review aims to outline the current state of farm animal cognition research and focuses on ungulate livestock species, such as cattle, horses, pigs and small ruminants, and reflects upon a defined set of cognitive capacities (physical cognition: categorization, numerical ability, object permanence, reasoning, tool use; social cognition: individual discrimination and recognition, communication with humans, social learning, attribution of attention, prosociality, fairness). We identify a l",
+      "journal": "Frontiers in Veterinary Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1126_sciadv_1701742",
+      "title": "Vocalizing in chimpanzees is influenced by social-cognitive processes",
+      "year": 2017,
+      "doi": "10.1126/sciadv.1701742",
+      "abstract": "Adjusting communication to take into account information available to one's audience is routine in humans but is assumed absent in other animals, representing a recent development on the lineage leading to humans. This assumption may be premature. Recent studies show changes in primate alarm signaling to threats according to the receivers' risk. However, a classic problem in these and other perspective-taking studies is discerning whether signalers understand the receivers' mental states or simply are responding to their behavior. We designed experiments to exclude concurrent reading of the receivers' behavior by simulating receivers using prerecorded calls of other group members. Specifically, we tested whether wild chimpanzees emitted differing signals in response to a snake model when simulated receivers previously emitted either snake-related calls (indicating knowledge) or acoustically similar non-snake-related calls (indicating ignorance). Signalers showed more vocal and nonvocal",
+      "journal": "Science Advances",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "doi": "10.1007/s10071-016-1064-4",
+      "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
+      "journal": "Animal Cognition",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_4238_gmr_15038895",
+      "title": "Short Communication Quick method for identifying horse (Equus caballus) and donkey (Equus asinus) hybrids",
+      "year": 2016,
+      "doi": "10.4238/gmr.15038895",
+      "abstract": "",
+      "journal": "Genetics and Molecular Research",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsbl_2015_0883",
+      "title": "Dogs recognize dog and human emotions",
+      "year": 2016,
+      "doi": "10.1098/rsbl.2015.0883",
+      "abstract": "The perception of emotional expressions allows animals to evaluate the social intentions and motivations of each other. This usually takes place within species; however, in the case of domestic dogs, it might be advantageous to recognize the emotions of humans as well as other dogs. In this sense, the combination of visual and auditory cues to categorize others' emotions facilitates the information processing and indicates high-level cognitive representations. Using a cross-modal preferential looking paradigm, we presented dogs with either human or dog faces with different emotional valences (happy/playful versus angry/aggressive) paired with a single vocalization from the same individual with either a positive or negative valence or Brownian noise. Dogs looked significantly longer at the face whose expression was congruent to the valence of vocalization, for both conspecifics and heterospecifics, an ability previously known only in humans. These results demonstrate that dogs can extra",
+      "journal": "Biology Letters",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_srep09989",
+      "title": "Segregation of information about emotional arousal and valence in horse whinnies",
+      "year": 2015,
+      "doi": "10.1038/srep09989",
+      "abstract": "Studying vocal correlates of emotions is important to provide a better understanding of the evolution of emotion expression through cross-species comparisons. Emotions are composed of two main dimensions: emotional arousal (calm versus excited) and valence (negative versus positive). These two dimensions could be encoded in different vocal parameters (segregation of information) or in the same parameters, inducing a trade-off between cues indicating emotional arousal and valence. We investigated these two hypotheses in horses. We placed horses in five situations eliciting several arousal levels and positive as well as negative valence. Physiological and behavioral measures collected during the tests suggested the presence of different underlying emotions. First, using detailed vocal analyses, we discovered that all whinnies contained two fundamental frequencies (\"F0\" and \"G0\"), which were not harmonically related, suggesting biphonation. Second, we found that F0 and the energy spectrum",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pbio_1001821",
+      "title": "The Evolutionary Biology of Musical Rhythm: Was Darwin Wrong?",
+      "year": 2014,
+      "doi": "10.1371/journal.pbio.1001821",
+      "abstract": "In The Descent of Man, Darwin speculated that our capacity for musical rhythm reflects basic aspects of brain function broadly shared among animals. Although this remains an appealing idea, it is being challenged by modern cross-species research. This research hints that our capacity to synchronize to a beat, i.e., to move in time with a perceived pulse in a manner that is predictive and flexible across a broad range of tempi, may be shared by only a few other species. Is this really the case? If so, it would have important implications for our understanding of the evolution of human musicality.",
+      "journal": "PLoS Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_119345",
+      "title": "Equus caballus [ISC] (horse)",
+      "year": 2013,
+      "doi": "10.1079/cabicompendium.119345",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-388437-4_00008-9",
+      "title": "Horse (Equus caballus)",
+      "year": 2012,
+      "doi": "10.1016/b978-0-12-388437-4.00008-9",
+      "abstract": "",
+      "journal": "Comparative Osteology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_jveb_2011_08_004",
+      "title": "Acoustic communication in the domestic horse (Equus caballus)",
+      "year": 2012,
+      "doi": "10.1016/j.jveb.2011.08.004",
+      "abstract": "",
+      "journal": "Journal of Veterinary Behavior",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_czoolo_58_5_698",
+      "title": "What makes a cry a cry? A review of infant distress vocalizations",
+      "year": 2012,
+      "doi": "10.1093/czoolo/58.5.698",
+      "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
+      "journal": "Current Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-3-662-06820-5_25",
+      "title": "Przewalski’s Horse — Equus caballus",
+      "year": 2003,
+      "doi": "10.1007/978-3-662-06820-5_25",
+      "abstract": "",
+      "journal": "Ecology of Ungulates",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0168-1591(05)80001-2",
+      "title": "Maternal behavior of draft mares (Equus caballus) with mule foals (Equus asinus × Equus caballus)",
+      "year": 1992,
+      "doi": "10.1016/s0168-1591(05)80001-2",
+      "abstract": "",
+      "journal": "Applied Animal Behaviour Science",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-1-4613-4470-4_16",
+      "title": "The Horse, Equus caballus, and the Donkey, Equus asinus",
+      "year": 1975,
+      "doi": "10.1007/978-1-4613-4470-4_16",
+      "abstract": "",
+      "journal": "Handbook of Genetics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11606_d_10_2003_tde-23062004-171625",
+      "title": "Mensuração da sobressaliência incisal e dos diastemas em potros (Equus caballus)",
+      "year": null,
+      "doi": "10.11606/d.10.2003.tde-23062004-171625",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 18,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

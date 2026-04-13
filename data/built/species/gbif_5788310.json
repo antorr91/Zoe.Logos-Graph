@@ -1,0 +1,503 @@
+{
+  "species_id": "gbif_5788310",
+  "gbif_usage_key": 5788310,
+  "scientific_name": "Fringilla coelebs",
+  "common_name_en": "common chaffinch",
+  "common_names": {
+    "en": "common chaffinch",
+    "it": "fringuello comune",
+    "es": "pinzón vulgar",
+    "fr": "pinson des arbres",
+    "de": "buchfink"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Fringillidae",
+    "genus": "Fringilla",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 9,
+    "doi_count": 18,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Common chaffinch (Fringilla coelebs) is a species of Aves in the order Passeriformes, family Fringillidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Common_chaffinch",
+  "wiki_title": "Common_chaffinch",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "alarm call",
+    "call",
+    "song"
+  ],
+  "contexts": [
+    "alarm",
+    "mate attraction",
+    "territorial defence"
+  ],
+  "functions": [
+    "mate attraction",
+    "predator warning",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Fringilla coelebs",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1111/jav.02341",
+      "url": "https://doi.org/10.1111/jav.02341",
+      "title": "Anthropogenic noise reduces avian feeding efficiency and increases vigilance along an urban–rural gradient regardless of species’ tolerances to urbanisation",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.82981",
+      "url": "https://doi.org/10.1079/cabicompendium.82981",
+      "title": "Fringilla coelebs",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31862/2500-2961-2019-9-1-113-120",
+      "url": "https://doi.org/10.31862/2500-2961-2019-9-1-113-120",
+      "title": "Lichens in birds nest construction of chaffinch (Fringilla coelebs)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2478/vzoo-2013-0034",
+      "url": "https://doi.org/10.2478/vzoo-2013-0034",
+      "title": "Rain-Call Dialects of the Chaffinch, Fringilla coelebs (Fringillidae), in Ukraine",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1525/bio.2011.61.3.6",
+      "url": "https://doi.org/10.1525/bio.2011.61.3.6",
+      "title": "Soundscape Ecology: The Science of Sound in the Landscape",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.tree.2010.04.005",
+      "url": "https://doi.org/10.1016/j.tree.2010.04.005",
+      "title": "A noisy spring: the impact of globally rising underwater sound levels on fish",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1365-2664.2010.01914.x",
+      "url": "https://doi.org/10.1111/j.1365-2664.2010.01914.x",
+      "title": "Negative impact of traffic noise on avian reproductive success",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0004065",
+      "url": "https://doi.org/10.1371/journal.pone.0004065",
+      "title": "Rapid Acoustic Survey for Biodiversity Appraisal",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1365-2435.2006.01207.x",
+      "url": "https://doi.org/10.1111/j.1365-2435.2006.01207.x",
+      "title": "Habitat structure and the evolution of bird song: a meta‐analysis of the evidence for the acoustic adaptation hypothesis",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf01918464",
+      "url": "https://doi.org/10.1007/bf01918464",
+      "title": "Experimente über sensible Phasen und Gesangsvariabilität beim Buchfinken (Fringilla coelebs) Experiments on sensitive phases and song variation in the Chaffinch (Fringilla coelebs)",
+      "year": 1989,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf01641532",
+      "url": "https://doi.org/10.1007/bf01641532",
+      "title": "Neue Befunde bestätigen BaronPernaus (1660–1731) Angaben über Lautäußerungen des Buchfinken (Fringilla coelebs) New results confirm BaronPernau's (1660–1731) statements about Chaffinch (Fringilla coelebs) vocalizations",
+      "year": 1988,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf01641533",
+      "url": "https://doi.org/10.1007/bf01641533",
+      "title": "Die Gesangszeiten des Buchfinken (Fringilla coelebs): Eine Regionalstudie The song period of the Chaffinch (Fringilla coelebs): a regional study",
+      "year": 1988,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/4085493",
+      "url": "https://doi.org/10.2307/4085493",
+      "title": "Vocal Repertoire of the Black-Capped Chickadee",
+      "year": 1978,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1515/9783112588529-006",
+      "url": "https://doi.org/10.1515/9783112588529-006",
+      "title": "Brütet Fringilla coelebs coelebs L. in Mitteleuropa?",
+      "year": 1975,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1365510",
+      "url": "https://doi.org/10.2307/1365510",
+      "title": "A Spectrographic Analysis of the Vocal Repertoire of the African Village Weaverbird",
+      "year": 1963,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1163/9789004629844",
+      "url": "https://doi.org/10.1163/9789004629844",
+      "title": "Behaviour of the chaffinch (Fringilla coelebs)",
+      "year": 1956,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf02537929",
+      "url": "https://doi.org/10.1007/bf02537929",
+      "title": "Buchfink (Fringilla coelebs)",
+      "year": 1919,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1469-7998.1958.tb05528.x",
+      "url": "https://doi.org/10.1111/j.1469-7998.1958.tb05528.x",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1111_jav_02341",
+      "title": "Anthropogenic noise reduces avian feeding efficiency and increases vigilance along an urban–rural gradient regardless of species’ tolerances to urbanisation",
+      "year": 2020,
+      "doi": "10.1111/jav.02341",
+      "abstract": "Anthropogenic noise can adversely impact urban bird populations by interfering with vocal communication. Less research has addressed if anthropogenic noise masks the adventitious sounds that birds use to aid predator detection, which may lead to increased vigilance and reduced feeding efficiency. We test this hypothesis using a controlled playback experiment along an urban–rural gradient in Sheffield (UK). We also test the related predictions that anthropogenic noise has the greatest impacts on vigilance and feeding efficiency in rural populations, and on species that are more sensitive to urbanisation. We focus on six passerines, in order from most to least urbanised (based on how urbanisation influences population densities): blue tit Cyanistes caeruleus , robin Erithacus rubeculla , great tit Parus major , chaffinch Fringilla coelebs , coal tit Periparus ater and nuthatch Sitta europaea . We used play‐back of anthropogenic urban noise and a control treatment at 46 feeding stations l",
+      "journal": "Journal of Avian Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_82981",
+      "title": "Fringilla coelebs",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.82981",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31862_2500-2961-2019-9-1-113-120",
+      "title": "Lichens in birds nest construction of chaffinch (Fringilla coelebs)",
+      "year": 2019,
+      "doi": "10.31862/2500-2961-2019-9-1-113-120",
+      "abstract": "<jats:p>Chaffinch used epiphytic foliose lichen Hypogymnia physodes for construction of nest. The living fragments of thallus were tenuously attached by their lower black surface to the outward side of the birds nest. Abundance of this species on the trees around the bird’s nest of chaffinch showed that lichen was used for camouflage of birds’ nest. In addition single thallus fragments of foliose lichen Parmelia sulcata were used with this purpose too.</jats:p>",
+      "journal": "SOCIALNO-ECOLOGICHESKIE TECHNOLOGII",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2478_vzoo-2013-0034",
+      "title": "Rain-Call Dialects of the Chaffinch, Fringilla coelebs (Fringillidae), in Ukraine",
+      "year": 2013,
+      "doi": "10.2478/vzoo-2013-0034",
+      "abstract": "<jats:title>Abstract</jats:title>\n\t\t\t\t<jats:p> Four types of Chaffinch rain-calls were found in Ukraine: “rülsch” - a trill signal widely spread in Europe; “hui” - a whistle signal that occurs in North-Western and Central Europe; “Crimean” whistle signal known only from Crimean peninsula and “Caucasian” signal occurring in Caucasus, Asia Minor and Balkans. Sonograms of rendition versions are given for all of the call types. Distribution of dialects of Chaffinch rain-calls in Ukraine was examined. “Rülsch”- dialect occurs at most of the plane Ukraine and Carpathians. Owing to colonizing artificial afforestations in steppe zone this dialect population’s range expanded southward to the coast of the Black and Azov seas. “Hui”-dialect is spread in the Lower Danube region. At the North-Eastern Danube delta Chaffinch’s with “hui”- and “rülsch”- rain-calls are found together and a bird was found that uttered both signals alternately but hybrid signals were not registered. It may attest to rece",
+      "journal": "Vestnik Zoologii",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1525_bio_2011_61_3_6",
+      "title": "Soundscape Ecology: The Science of Sound in the Landscape",
+      "year": 2011,
+      "doi": "10.1525/bio.2011.61.3.6",
+      "abstract": "This article presents a unifying theory of soundscape ecology, which brings the idea of the soundscape-the collection of sounds that emanate from landscapes-into a research and application focus. Our conceptual framework of soundscape ecology is based on the causes and consequences of biological (biophony), geophysical (geophony), and human-produced (anthrophony) sounds. We argue that soundscape ecology shares many parallels with landscape ecology, and it should therefore be considered a branch of this maturing field. We propose a research agenda for soundscape ecology that includes six areas: (1) measurement and analytical challenges, (2) spatial-temporal dynamics, (3) soundscape linkage to environmental covariates, ( We present case studies that illustrate different approaches to understanding soundscape dynamics. Because soundscapes are our auditory link to nature, we also argue for their protection, using the knowledge of how sounds are produced by the environment and humans.",
+      "journal": "BioScience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_tree_2010_04_005",
+      "title": "A noisy spring: the impact of globally rising underwater sound levels on fish",
+      "year": 2010,
+      "doi": "10.1016/j.tree.2010.04.005",
+      "abstract": "",
+      "journal": "Trends in Ecology & Evolution",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1365-2664_2010_01914_x",
+      "title": "Negative impact of traffic noise on avian reproductive success",
+      "year": 2010,
+      "doi": "10.1111/j.1365-2664.2010.01914.x",
+      "abstract": "Summary 1. Traffic affects large areas of natural habitat worldwide. As a result, the acoustic signals used by birds and other animals are increasingly masked by traffic noise. Masking of signals important to territory defence and mate attraction may have a negative impact on reproductive success. Depending on the overlap in space, time and frequency between noise and vocalizations, such impact may ultimately exclude species from suitable breeding habitat. However a direct impact of traffic noise on reproductive success has not previously been reported. 2. We monitored traffic noise and avian vocal activity during the breeding season alongside a busy Dutch motorway. We measured variation in space, time and spectrum of noise and tested for negative effects on avian reproductive success using long‐term breeding data on great tits Parus major . 3. Noise levels decreased with distance from the motorway, but we also found substantial spatial variation independent of distance. Noise also var",
+      "journal": "Journal of Applied Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0004065",
+      "title": "Rapid Acoustic Survey for Biodiversity Appraisal",
+      "year": 2008,
+      "doi": "10.1371/journal.pone.0004065",
+      "abstract": "Biodiversity assessment remains one of the most difficult challenges encountered by ecologists and conservation biologists. This task is becoming even more urgent with the current increase of habitat loss. Many methods-from rapid biodiversity assessments (RBA) to all-taxa biodiversity inventories (ATBI)-have been developed for decades to estimate local species richness. However, these methods are costly and invasive. Several animals-birds, mammals, amphibians, fishes and arthropods-produce sounds when moving, communicating or sensing their environment. Here we propose a new concept and method to describe biodiversity. We suggest to forego species or morphospecies identification used by ATBI and RBA respectively but rather to tackle the problem at another evolutionary unit, the community level. We also propose that a part of diversity can be estimated and compared through a rapid acoustic analysis of the sound produced by animal communities. We produced alpha and beta diversity indexes ",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1365-2435_2006_01207_x",
+      "title": "Habitat structure and the evolution of bird song: a meta‐analysis of the evidence for the acoustic adaptation hypothesis",
+      "year": 2006,
+      "doi": "10.1111/j.1365-2435.2006.01207.x",
+      "abstract": "1 Habitat structure has been considered as a main factor shaping the evolution of bird song acoustics. 2 Based on expected differential patterns of sound degradation in different habitats, the acoustic adaptation hypothesis (AAH) proposes that songs with lower frequencies, narrower frequency ranges and longer inter-element intervals should occur more frequently in densely vegetated compared with herbaceous habitats. 3 Empirical tests of the AAH have provided mixed results. Here, we review for the first time the literature on this topic using a meta-analytical, quantitative approach. 4 Maximum, minimum, peak frequency and frequency range were found to be significantly lower in closed compared with open habitats, but the mean size of the effect of habitat was small. Inter-element intervals were not affected by habitat structure. 5 The AAH implicitly assumes that birds are selected to maximize song broadcast range and minimize degradation, while it neglects the potential role of energetic",
+      "journal": "Functional Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01918464",
+      "title": "Experimente über sensible Phasen und Gesangsvariabilität beim Buchfinken (Fringilla coelebs) Experiments on sensitive phases and song variation in the Chaffinch (Fringilla coelebs)",
+      "year": 1989,
+      "doi": "10.1007/bf01918464",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01641533",
+      "title": "Die Gesangszeiten des Buchfinken (Fringilla coelebs): Eine Regionalstudie The song period of the Chaffinch (Fringilla coelebs): a regional study",
+      "year": 1988,
+      "doi": "10.1007/bf01641533",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01641532",
+      "title": "Neue Befunde bestätigen BaronPernaus (1660–1731) Angaben über Lautäußerungen des Buchfinken (Fringilla coelebs) New results confirm BaronPernau's (1660–1731) statements about Chaffinch (Fringilla coelebs) vocalizations",
+      "year": 1988,
+      "doi": "10.1007/bf01641532",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_4085493",
+      "title": "Vocal Repertoire of the Black-Capped Chickadee",
+      "year": 1978,
+      "doi": "10.2307/4085493",
+      "abstract": "Describes the physical characteristics, usages, and probable functions of 11 vocalizations of adult Black-capped Chickadees and 2 of the young. Some modifications of the vocal repertoire as compared with other passerines are associated with sociality and hole-nesting. The Fee-bee, usually considered the song of this chickadee, is less complex than some call notes and also has some differences in function compared to the songs of other passerines. The two most complex calls (Chick-a-dee and Gargle) are associated with social activities. Vocal signals tend toward sexual segregation, which may be important in a monomorphic species. The vocalizations of this species are compared with those of other parids, and selection pressures acting on the structure of vocalizations are discussed. The more complex vocalizations of this species are being studied extensively as mentioned in the accounts below, and are only generally described in this paper.",
+      "journal": "The Auk",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1515_9783112588529-006",
+      "title": "Brütet Fringilla coelebs coelebs L. in Mitteleuropa?",
+      "year": 1975,
+      "doi": "10.1515/9783112588529-006",
+      "abstract": "",
+      "journal": "25. Juni 1975",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1365510",
+      "title": "A Spectrographic Analysis of the Vocal Repertoire of the African Village Weaverbird",
+      "year": 1963,
+      "doi": "10.2307/1365510",
+      "abstract": "The object of this report is to make a contribution toward the understanding and objective portrayal of the vocabulary of a passerine bird. In 19.53, the author, together with a specialist on human linguistics (Collias and Joos, 1953), published a report on the spectrographic analysis of the vocalizations of chickens. There seems to have been no previous spectrographic study of the vocal repertoire of a bird. Since that time the acoustic spectrograph has become quite widely used as an instrumental aid to the study of animal sounds and communication. However, most authors dealing with birds have largely restricted their attentions to the detailed analysis of song patterns. Quite recently, Poulsen (19.58)) working in Denmark, has presented a spectrographic study of the calls of the Chaffinch (Fringilla coelebs), using Marler’s (1956) names of the calls as based on an intensive field study in England. The paper by Marler emphasizes song analysis, but it does not include spectrograms of so",
+      "journal": "Ornithological Applications",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_9789004629844",
+      "title": "Behaviour of the chaffinch (Fringilla coelebs)",
+      "year": 1956,
+      "doi": "10.1163/9789004629844",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf02537929",
+      "title": "Buchfink (Fringilla coelebs)",
+      "year": 1919,
+      "doi": "10.1007/bf02537929",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "species_id": "gbif_2455974",
+  "gbif_usage_key": 2455974,
+  "scientific_name": "Anolis carolinensis",
+  "common_name_en": "green anole",
+  "common_names": {
+    "en": "green anole",
+    "it": "anole verde americano",
+    "es": "anolis verde",
+    "fr": "anole vert",
+    "de": "grüner anolis"
+  },
+  "taxonomy": {
+    "class_": "Reptilia",
+    "order_": "Squamata",
+    "family": "Dactyloidae",
+    "genus": "Anolis",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 16,
+    "claim_count": 5,
+    "doi_count": 17,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Green anole (Anolis carolinensis) is a species of Reptilia in the order Squamata, family Dactyloidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Green_anole",
+  "wiki_title": "Green_anole",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "call"
+  ],
+  "contexts": [
+    "courtship",
+    "territorial defence"
+  ],
+  "functions": [
+    "mate attraction",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1079/cabicompendium.5491",
+      "url": "https://doi.org/10.1079/cabicompendium.5491",
+      "title": "Anolis carolinensis",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/cz/zoy043",
+      "url": "https://doi.org/10.1093/cz/zoy043",
+      "title": "25 Years of sensory drive: the evidence and its watery bias",
+      "year": 2018,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3389/fendo.2017.00186",
+      "url": "https://doi.org/10.3389/fendo.2017.00186",
+      "title": "Arginine Vasotocin, the Social Neuropeptide of Amphibians and Reptiles",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1073/pnas.1407190111",
+      "url": "https://doi.org/10.1073/pnas.1407190111",
+      "title": "Predation-associated modulation of movement-based signals by a Bahamian lizard",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rstb.2011.0213",
+      "url": "https://doi.org/10.1098/rstb.2011.0213",
+      "title": "Social complexity as a proximate and ultimate factor in communicative complexity",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3819/ccbr.2012.70006",
+      "url": "https://doi.org/10.3819/ccbr.2012.70006",
+      "title": "Cerebral and Behavioural Asymmetries in Animal Social Recognition",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0020313",
+      "url": "https://doi.org/10.1371/journal.pone.0020313",
+      "title": "Visual Information Alone Changes Behavior and Physiology during Social Interactions in a Cichlid Fish (Astatotilapia burtoni)",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arq143",
+      "url": "https://doi.org/10.1093/beheco/arq143",
+      "title": "Sophistication and simplicity: conventional communication in a rudimentary system",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1095-8312.1996.tb01442.x",
+      "url": "https://doi.org/10.1111/j.1095-8312.1996.tb01442.x",
+      "title": "Armaments and ornaments: an evolutionary explanation of traits of dual utility",
+      "year": 1996,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/1442932",
+      "url": "https://doi.org/10.2307/1442932",
+      "title": "Growth Rates in Anolis carolinensis",
+      "year": 1972,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1438587",
+      "url": "https://doi.org/10.2307/1438587",
+      "title": "Anolis carolinensis Eaten by Eumeces laticeps",
+      "year": 1940,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1436816",
+      "url": "https://doi.org/10.2307/1436816",
+      "title": "Anolis carolinensis in Tennessee",
+      "year": 1939,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1086/660118",
+      "url": "https://doi.org/10.1086/660118",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.31390/gradschool_disstheses.2166",
+      "url": "https://doi.org/10.31390/gradschool_disstheses.2166",
+      "title": "Effects of Blinding and Parietalectomy on the Testes of Male Lizards (Anolis Carolinensis).",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31390/gradschool_disstheses.3455",
+      "url": "https://doi.org/10.31390/gradschool_disstheses.3455",
+      "title": "Thermoperiodic and Photoperiodic Interaction in the Annual Cycle of the Male Green Anole, Anolis Carolinensis.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31390/gradschool_disstheses.648",
+      "url": "https://doi.org/10.31390/gradschool_disstheses.648",
+      "title": "Hormonal Regulation of Growth in a Lizard, Anolis Carolinensis.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31390/gradschool_disstheses.8019",
+      "url": "https://doi.org/10.31390/gradschool_disstheses.8019",
+      "title": "Biochemical Studies on Anolis Carolinensis.",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1079_cabicompendium_5491",
+      "title": "Anolis carolinensis",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.5491",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_cz_zoy043",
+      "title": "25 Years of sensory drive: the evidence and its watery bias",
+      "year": 2018,
+      "doi": "10.1093/cz/zoy043",
+      "abstract": "It has been 25 years since the formalization of the Sensory Drive hypothesis was published in the <i>American Naturalist</i> (1992). Since then, there has been an explosion of research identifying its utility in contributing to our understanding of inter- and intra-specific variation in sensory systems and signaling properties. The main tenet of Sensory Drive is that environmental characteristics will influence the evolutionary trajectory of both sensory (detecting capabilities) and signaling (detectable features and behaviors) traits in predictable directions. We review the accumulating evidence in 154 studies addressing these questions and categorized their approach in terms of testing for environmental influence on sensory tuning, signal characteristics, or both. For the subset of studies that examined sensory tuning, there was greater support for Sensory Drive processes shaping visual than auditory tuning, and it was more prevalent in aquatic than terrestrial habitats. Terrestrial ",
+      "journal": "Current Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fendo_2017_00186",
+      "title": "Arginine Vasotocin, the Social Neuropeptide of Amphibians and Reptiles",
+      "year": 2017,
+      "doi": "10.3389/fendo.2017.00186",
+      "abstract": "Arginine vasotocin (AVT) is the non-mammalian homolog of arginine vasopressin (AVP) and, like vasopressin, serves as an important modulator of social behavior in addition to its peripheral functions related to osmoregulation, reproductive physiology, and stress hormone release. In amphibians and reptiles, the neuroanatomical organization of brain AVT cells and fibers broadly resembles that seen in mammals and other taxa. Both parvocellular and magnocellular AVT-containing neurons are present in multiple populations located mainly in the basal forebrain from the accumbens-amygdala area to the preoptic area and hypothalamus, from which originate widespread fiber connections spanning the brain with a particularly heavy innervation of areas associated with social behavior and decision-making. As for mammalian AVP, AVT is present in greater amounts in males in many brain areas, and its presence varies seasonally, with hormonal state, and in males with differing social status. AVT's social i",
+      "journal": "Frontiers in Endocrinology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1073_pnas_1407190111",
+      "title": "Predation-associated modulation of movement-based signals by a Bahamian lizard",
+      "year": 2014,
+      "doi": "10.1073/pnas.1407190111",
+      "abstract": "Signaling individuals must effectively capture and hold the attention of intended conspecific receivers while limiting eavesdropping by potential predators. A possible mechanism for achieving this balance is for individuals to modulate the physical properties of their signals or to alter the proportion of time spent signaling, depending upon local levels of predation pressure. We test the hypothesis that prey can alter their visual signaling behavior to decrease conspicuousness and potentially limit predation risk via modulation of signal properties or display rate. To do so, we conducted a manipulative experiment in nature to evaluate the possible effect of predation pressure on the physical properties of movement-based signals and on the proportion of time spent signaling by using a well-understood predator-prey system in the Bahamas, the semiarboreal lizard Anolis sagrei, and one of its main predators, the curly-tailed lizard Leiocephalus carinatus. We find that on islands onto whic",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rstb_2011_0213",
+      "title": "Social complexity as a proximate and ultimate factor in communicative complexity",
+      "year": 2012,
+      "doi": "10.1098/rstb.2011.0213",
+      "abstract": "The 'social complexity hypothesis' for communication posits that groups with complex social systems require more complex communicative systems to regulate interactions and relations among group members. Complex social systems, compared with simple social systems, are those in which individuals frequently interact in many different contexts with many different individuals, and often repeatedly interact with many of the same individuals in networks over time. Complex communicative systems, compared with simple communicative systems, are those that contain a large number of structurally and functionally distinct elements or possess a high amount of bits of information. Here, we describe some of the historical arguments that led to the social complexity hypothesis, and review evidence in support of the hypothesis. We discuss social complexity as a driver of communication and possible causal factor in human language origins. Finally, we discuss some of the key current limitations to the soc",
+      "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3819_ccbr_2012_70006",
+      "title": "Cerebral and Behavioural Asymmetries in Animal Social Recognition",
+      "year": 2012,
+      "doi": "10.3819/ccbr.2012.70006",
+      "abstract": "Evidence is here summarized that animal species belonging to distant taxa show forms of social recognition, a sophisticated cognitive ability adaptive in most social interactions. The paper then proceeds to review evidence of functional lateralization for this cognitive ability. The main focus of this review is evidence obtained in domestic chickens, the animal model employed in the authors' laboratories, but we also discuss comparisons with data from species ranging from fishes, amphibians and reptiles, to other birds and mammals. A consistent pattern emerges, pointing toward a right hemisphere dominance, in particular for discrimination of social companions and individual (or familiarity-based) recognition, whereas the left hemisphere could be specialized for \"category-based\" distinctions (e.g., conspecifics versus heterospecifics). This pattern of results is discussed in relation to a more general specialization and processing styles of the two sides of the brain, with the right hem",
+      "journal": "Comparative Cognition & Behavior Reviews",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0020313",
+      "title": "Visual Information Alone Changes Behavior and Physiology during Social Interactions in a Cichlid Fish (Astatotilapia burtoni)",
+      "year": 2011,
+      "doi": "10.1371/journal.pone.0020313",
+      "abstract": "Social behavior can influence physiological systems dramatically yet the sensory cues responsible are not well understood. Behavior of male African cichlid fish, Astatotilapia burtoni, in their natural habitat suggests that visual cues from conspecifics contribute significantly to regulation of social behavior. Using a novel paradigm, we asked whether visual cues alone from a larger conspecific male could influence behavior, reproductive physiology and the physiological stress response of a smaller male. Here we show that just seeing a larger, threatening male through a clear barrier can suppress dominant behavior of a smaller male for up to 7 days. Smaller dominant males being \"attacked\" visually by larger dominant males through a clear barrier also showed physiological changes for up to 3 days, including up-regulation of reproductive- and stress-related gene expression levels and lowered plasma 11-ketotestesterone concentrations as compared to control animals. The smaller males modif",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arq143",
+      "title": "Sophistication and simplicity: conventional communication in a rudimentary system",
+      "year": 2010,
+      "doi": "10.1093/beheco/arq143",
+      "abstract": "Conventional communication, like human speech or the bee dance, consists of arbitrary signals associated with meaning through convention. Acoustic conventions seem to be frequent among passerine birds having song repertoire variability, but such behaviors are unknown in nonpasserine species producing simple calls. Because the variability of vocalizations is relatively small in nonpasserine birds, no study has investigated their ability to create conventional signals. We experimentally show here that Corncrake males (Crex crex), modifying rhythm in simple 2-syllable calls, signal their neighbors about their aggressive motivation. Males responded more aggressively (approached the speaker and attacked it) to playbacks with intermittent than with monotonous rhythm, and males calling with a more intermittent rhythm were more aggressive. The presence of convention in this system requires that the production of alternative signals is not linked with differential production costs. In Corncrake",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1095-8312_1996_tb01442_x",
+      "title": "Armaments and ornaments: an evolutionary explanation of traits of dual utility",
+      "year": 1996,
+      "doi": "10.1111/j.1095-8312.1996.tb01442.x",
+      "abstract": "Secondary sexual characters in many species function both in male-male competition and as cues for female choice.Based on a literature compilation of existing knowledge of traits with this dual function, we propose that they commonly arise through intrasexual selection processes and serve as honest signals to other males regarding fighting ability or dominance.Faking these traits, here called armaments, (i.e.weapons and status badges) is difficult, as they are constantly put to trial in male-male contests.Females that subsequently utilize them as indicators of male phenotypic quality when selecting a partner Wiu benefit by acquiring males of higher quality to father their offspring.Thus, evolution of armaments through male-male competition is seen as a usually initiating process, whereas female choice later may assume a role as an additional selective factor.The reverse, that males use information from traits evolved through female choice, is, however, also possible.The traditional vie",
+      "journal": "Biological Journal of the Linnean Society",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1442932",
+      "title": "Growth Rates in Anolis carolinensis",
+      "year": 1972,
+      "doi": "10.2307/1442932",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1438587",
+      "title": "Anolis carolinensis Eaten by Eumeces laticeps",
+      "year": 1940,
+      "doi": "10.2307/1438587",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1436816",
+      "title": "Anolis carolinensis in Tennessee",
+      "year": 1939,
+      "doi": "10.2307/1436816",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31390_gradschool_disstheses_8019",
+      "title": "Biochemical Studies on Anolis Carolinensis.",
+      "year": null,
+      "doi": "10.31390/gradschool_disstheses.8019",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31390_gradschool_disstheses_648",
+      "title": "Hormonal Regulation of Growth in a Lizard, Anolis Carolinensis.",
+      "year": null,
+      "doi": "10.31390/gradschool_disstheses.648",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31390_gradschool_disstheses_2166",
+      "title": "Effects of Blinding and Parietalectomy on the Testes of Male Lizards (Anolis Carolinensis).",
+      "year": null,
+      "doi": "10.31390/gradschool_disstheses.2166",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31390_gradschool_disstheses_3455",
+      "title": "Thermoperiodic and Photoperiodic Interaction in the Annual Cycle of the Male Green Anole, Anolis Carolinensis.",
+      "year": null,
+      "doi": "10.31390/gradschool_disstheses.3455",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 16,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

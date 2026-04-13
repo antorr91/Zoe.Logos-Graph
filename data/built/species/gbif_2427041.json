@@ -1,0 +1,608 @@
+{
+  "species_id": "gbif_2427041",
+  "gbif_usage_key": 2427041,
+  "scientific_name": "Xenopus laevis",
+  "common_name_en": "african clawed frog",
+  "common_names": {
+    "en": "african clawed frog",
+    "it": "rana artigliata africana",
+    "es": "rana de uñas africana",
+    "fr": "xénope lisse",
+    "de": "krallenfrosch"
+  },
+  "taxonomy": {
+    "class_": "Amphibia",
+    "order_": "Anura",
+    "family": "Pipidae",
+    "genus": "Xenopus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 23,
+    "claim_count": 6,
+    "doi_count": 24,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "African clawed frog (Xenopus laevis) is a species of Amphibia in the order Anura, family Pipidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/African_clawed_frog",
+  "wiki_title": "African_clawed_frog",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "advertisement call",
+    "click"
+  ],
+  "contexts": [
+    "mate attraction",
+    "underwater communication"
+  ],
+  "functions": [
+    "mate attraction",
+    "species recognition"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "advertisement call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "click",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "underwater communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "species recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1016/j.ibneur.2023.08.1920",
+      "url": "https://doi.org/10.1016/j.ibneur.2023.08.1920",
+      "title": "INVESTIGATING VOCAL NEURONS IN XENOPUS LAEVIS AND SILURANA TROPICALIS",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-12-815160-0.00009-8",
+      "url": "https://doi.org/10.1016/b978-0-12-815160-0.00009-8",
+      "title": "Endocrine modulation of acoustic communication: Xenopus laevis as a model system",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1523/jneurosci.0736-19.2019",
+      "url": "https://doi.org/10.1523/jneurosci.0736-19.2019",
+      "title": "Generation, Coordination, and Evolution of Neural Circuits for Vocal Communication",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.32388/r0l0ws",
+      "url": "https://doi.org/10.32388/r0l0ws",
+      "title": "Xenopus laevis",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.17504/protocols.io.ifxcbpn",
+      "url": "https://doi.org/10.17504/protocols.io.ifxcbpn",
+      "title": "Preparation of Xenopus laevis oocytes v1",
+      "year": 2017,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1523/jneurosci.1190-13.2013",
+      "url": "https://doi.org/10.1523/jneurosci.1190-13.2013",
+      "title": "The<i>Xenopus</i>Amygdala Mediates Socially Appropriate Vocal Communication Signals",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3389/conf.fnbeh.2012.27.00186",
+      "url": "https://doi.org/10.3389/conf.fnbeh.2012.27.00186",
+      "title": "Sex differences in the control of vocal pattern-generating circuitry in Xenopus laevis",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3389/conf.fnbeh.2012.27.00302",
+      "url": "https://doi.org/10.3389/conf.fnbeh.2012.27.00302",
+      "title": "Neuromodulation of fictive vocal patterns in the isolated Xenopus laevis brain",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1152/jn.00883.2010",
+      "url": "https://doi.org/10.1152/jn.00883.2010",
+      "title": "Vocal Pathway Degradation in Gonadectomized <i>Xenopus laevis</i> Adults",
+      "year": 2011,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-008088783-8.00020-6",
+      "url": "https://doi.org/10.1016/b978-008088783-8.00020-6",
+      "title": "Hormones and the Regulation of Vocal Patterns in Amphibians: Xenopus laevis Vocalizations as a Model System",
+      "year": 2009,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1749-4877.2008.00131.x",
+      "url": "https://doi.org/10.1111/j.1749-4877.2008.00131.x",
+      "title": "Lateral line system of fish",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pbio.0030386",
+      "url": "https://doi.org/10.1371/journal.pbio.0030386",
+      "title": "Ultrasonic Songs of Male Mice",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1523/jneurosci.1220-04.2004",
+      "url": "https://doi.org/10.1523/jneurosci.1220-04.2004",
+      "title": "Rapid, Hierarchical Modulation of Vocal Patterning by Steroid Hormones",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2003.03.016",
+      "url": "https://doi.org/10.1016/j.anbehav.2003.03.016",
+      "title": "Vocal communication between male Xenopus laevis",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.7551/mitpress/2359.003.0003",
+      "url": "https://doi.org/10.7551/mitpress/2359.003.0003",
+      "title": "Vocal Communication in Xenopus laevis",
+      "year": 1999,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/(sici)1097-4695(19981115)37:3<441::aid-neu9>3.3.co;2-x",
+      "url": "https://doi.org/10.1002/(sici)1097-4695(19981115)37:3<441::aid-neu9>3.3.co;2-x",
+      "title": "Attaining and maintaining strong vocal synapses in female Xenopus laevis",
+      "year": 1998,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/s0091-679x(08)60273-3",
+      "url": "https://doi.org/10.1016/s0091-679x(08)60273-3",
+      "title": "Chapter 5 Early Embryonic Development of Xenopus laevis",
+      "year": 1991,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/s0091-679x(08)60303-9",
+      "url": "https://doi.org/10.1016/s0091-679x(08)60303-9",
+      "title": "Appendix C: Mutants of Xenopus laevis",
+      "year": 1991,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/s0091-679x(08)60304-0",
+      "url": "https://doi.org/10.1016/s0091-679x(08)60304-0",
+      "title": "Appendix D: Codon Usage Table for Xenopus laevis",
+      "year": 1991,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/0022-2836(73)90168-x",
+      "url": "https://doi.org/10.1016/0022-2836(73)90168-x",
+      "title": "Preferential transcription of Xenopus laevis ribosomal RNA in interspecies hybrids between Xenopus laevis and Xenopus mulleri",
+      "year": 1973,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/springerreference_37206",
+      "url": "https://doi.org/10.1007/springerreference_37206",
+      "title": "Xenopus Laevis",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1242/jeb.234070",
+      "url": "https://doi.org/10.1242/jeb.234070",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.31274/rtd-180813-10414",
+      "url": "https://doi.org/10.31274/rtd-180813-10414",
+      "title": "Regulation of DNA replication in Xenopus laevis",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.53846/goediss-5835",
+      "url": "https://doi.org/10.53846/goediss-5835",
+      "title": "Glomerular information processing in Xenopus laevis",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1016_j_ibneur_2023_08_1920",
+      "title": "INVESTIGATING VOCAL NEURONS IN XENOPUS LAEVIS AND SILURANA TROPICALIS",
+      "year": 2023,
+      "doi": "10.1016/j.ibneur.2023.08.1920",
+      "abstract": "",
+      "journal": "IBRO Neuroscience Reports",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-815160-0_00009-8",
+      "title": "Endocrine modulation of acoustic communication: Xenopus laevis as a model system",
+      "year": 2021,
+      "doi": "10.1016/b978-0-12-815160-0.00009-8",
+      "abstract": "",
+      "journal": "Elsevier eBooks",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32388_r0l0ws",
+      "title": "Xenopus laevis",
+      "year": 2020,
+      "doi": "10.32388/r0l0ws",
+      "abstract": "",
+      "journal": "Definitions",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_0736-19_2019",
+      "title": "Generation, Coordination, and Evolution of Neural Circuits for Vocal Communication",
+      "year": 2020,
+      "doi": "10.1523/jneurosci.0736-19.2019",
+      "abstract": "In many species, vocal communication is essential for coordinating social behaviors including courtship, mating, parenting, rivalry, and alarm signaling. Effective communication requires accurate production, detection, and classification of signals, as well as selection of socially appropriate responses. Understanding how signals are generated and how acoustic signals are perceived is key to understanding the neurobiology of social behaviors. Here we review our long-standing research program focused on <i>Xenopus</i>, a frog genus which has provided valuable insights into the mechanisms and evolution of vertebrate social behaviors. In <i>Xenopus laevis</i>, vocal signals differ between the sexes, through development, and across the genus, reflecting evolutionary divergence in sensory and motor circuits that can be interrogated mechanistically. Using two <i>ex vivo</i> preparations, the isolated brain and vocal organ, we have identified essential components of the vocal production syste",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_17504_protocols_io_ifxcbpn",
+      "title": "Preparation of Xenopus laevis oocytes v1",
+      "year": 2017,
+      "doi": "10.17504/protocols.io.ifxcbpn",
+      "abstract": "<p> Xenopus laevis were put in ice water until it is unconscious, (without any reaction to a leg pinch), then the ovary lobes were carefully dissected and washed 4 times in a Petri dish (50 mm) with ND96 medium (96 mM NaCl, 2 mM KCl, 1 mM MgCl2, 1.8 mM CaCl2, 5 mM HEPES adjusted to pH 7.4 with NaOH, supplemented with 50 μg/ml streptomycin/penicillin, 225 μg/ml sodium pyruvate) to remove all traces of blood and debris. The wounded body wall and skin of Xenopus laevis were closed with a 3-0 silk suture on a 24 mm curved needle. And the recovery of female was proceeding in 1 g/L aquarium salt in water. The isolated Xenopus laevis oocytes were digested with 2 mg/mL of collagenase A (SigmaTM) without Ca2 + modified Barth’s solution (88 mM NaCl, 1 mM KCl, 2.4 mM NaHCO3, 10 mM Hepes-NaOH, 0.82 mM MgSO4, pH 7.4, 200 mOsm/kg) at room temperature for 2 hours. </p>",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_1190-13_2013",
+      "title": "The<i>Xenopus</i>Amygdala Mediates Socially Appropriate Vocal Communication Signals",
+      "year": 2013,
+      "doi": "10.1523/jneurosci.1190-13.2013",
+      "abstract": "Social interaction requires that relevant sensory information is collected, classified, and distributed to the motor areas that initiate an appropriate behavioral response. Vocal exchanges, in particular, depend on linking auditory processing to an appropriate motor expression. Because of its role in integrating sensory information for the purpose of action selection, the amygdala has been implicated in social behavior in many mammalian species. Here, we show that two nuclei of the extended amygdala play essential roles in vocal communication in the African clawed frog, Xenopus laevis. Transport of fluorescent dextran amines identifies the X. laevis central amygdala (CeA) as a target for ascending auditory information from the central thalamic nucleus and as a major afferent to the vocal pattern generator of the hindbrain. In the isolated (ex vivo) brain, electrical stimulation of the CeA, or the neighboring bed nucleus of the stria terminalis (BNST), initiates bouts of fictive calling",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_conf_fnbeh_2012_27_00302",
+      "title": "Neuromodulation of fictive vocal patterns in the isolated Xenopus laevis brain",
+      "year": 2012,
+      "doi": "10.3389/conf.fnbeh.2012.27.00302",
+      "abstract": "",
+      "journal": "Frontiers in Behavioral Neuroscience",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_conf_fnbeh_2012_27_00186",
+      "title": "Sex differences in the control of vocal pattern-generating circuitry in Xenopus laevis",
+      "year": 2012,
+      "doi": "10.3389/conf.fnbeh.2012.27.00186",
+      "abstract": "",
+      "journal": "Frontiers in Behavioral Neuroscience",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1152_jn_00883_2010",
+      "title": "Vocal Pathway Degradation in Gonadectomized <i>Xenopus laevis</i> Adults",
+      "year": 2011,
+      "doi": "10.1152/jn.00883.2010",
+      "abstract": "<jats:p> Reproductive behaviors of many vertebrate species are activated in adult males by elevated androgen levels and abolished by castration. Neural and muscular components controlling these behaviors contain numerous hormone-sensitive sites including motor initiation centers (such as the basal ganglia), central pattern generators (CPGs), and muscles; therefore it is difficult to confirm the role of each hormone-activated target using behavioral assays alone. Our goal was to address this issue by determining the site of androgen-induced vocal activation using male Xenopus laevis, a species in which androgen dependence of vocal activation has been previously determined. We compared in vivo calling patterns and functionality of two in vitro preparations—the isolated larynx and an isolated brain from which fictive courtship vocalizations can be evoked—in castrated and control males. The isolated larynx allowed us to test whether castrated males were capable of transducing male-typical ",
+      "journal": "Journal of Neurophysiology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-008088783-8_00020-6",
+      "title": "Hormones and the Regulation of Vocal Patterns in Amphibians: Xenopus laevis Vocalizations as a Model System",
+      "year": 2009,
+      "doi": "10.1016/b978-008088783-8.00020-6",
+      "abstract": "",
+      "journal": "Hormones, Brain and Behavior",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1749-4877_2008_00131_x",
+      "title": "Lateral line system of fish",
+      "year": 2009,
+      "doi": "10.1111/j.1749-4877.2008.00131.x",
+      "abstract": "The lateral line is a sensory system that allows fishes to detect weak water motions and pressure gradients. The smallest functional unit of the lateral line is the neuromast, a sensory structure that consists of a hair cell epithelium and a cupula that connects the ciliary bundles of the hair cells with the water surrounding the fish. The lateral line of most fishes consists of hundreds of superficial neuromasts spread over the head, trunk and tail fin. In addition, many fish have neuromasts embedded in lateral line canals that open to the environment through a series of pores. The present paper reviews some more recent aspects of the morphology, behavioral relevance and physiology of the fish lateral line. In addition, it reports some new findings with regard to the coding of bulk water flow.",
+      "journal": "Integrative Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pbio_0030386",
+      "title": "Ultrasonic Songs of Male Mice",
+      "year": 2005,
+      "doi": "10.1371/journal.pbio.0030386",
+      "abstract": "Previously it was shown that male mice, when they encounter female mice or their pheromones, emit ultrasonic vocalizations with frequencies ranging over 30-110 kHz. Here, we show that these vocalizations have the characteristics of song, consisting of several different syllable types, whose temporal sequencing includes the utterance of repeated phrases. Individual males produce songs with characteristic syllabic and temporal structure. This study provides a quantitative initial description of male mouse songs, and opens the possibility of studying song production and perception in an established genetic model organism.",
+      "journal": "PLoS Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_1220-04_2004",
+      "title": "Rapid, Hierarchical Modulation of Vocal Patterning by Steroid Hormones",
+      "year": 2004,
+      "doi": "10.1523/jneurosci.1220-04.2004",
+      "abstract": "Vocal control systems have been identified in all major groups of jawed vertebrates. Although steroid hormones are instrumental in the long-term development and maintenance of neural structures underlying vocalization, it is unknown whether steroids rapidly modulate the neural activity of vocal motor systems. The midshipman fish generates advertisement and agonistic calls that mainly differ in duration. A descending midbrain pathway activates a hindbrain-spinal vocal circuit that directly establishes the discharge frequency and duration of the rhythmic vocal motor volley. This vocal motor output, which can be monitored from occipital nerve roots, directly determines the rate and duration of contraction of a pair of sonic muscles and, in turn, the fundamental frequency and duration of vocalizations. Here, we demonstrate that the duration of the vocal motor volley, or fictive vocalization, is rapidly responsive to steroid hormones, including androgens, estrogens, and glucocorticoids. The",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2003_03_016",
+      "title": "Vocal communication between male Xenopus laevis",
+      "year": 2003,
+      "doi": "10.1016/j.anbehav.2003.03.016",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7551_mitpress_2359_003_0003",
+      "title": "Vocal Communication in Xenopus laevis",
+      "year": 1999,
+      "doi": "10.7551/mitpress/2359.003.0003",
+      "abstract": "",
+      "journal": "The Design of Animal Communication",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_(sici)1097-4695(19981115)37:3<441::aid-neu9>3_3_co;2-x",
+      "title": "Attaining and maintaining strong vocal synapses in female Xenopus laevis",
+      "year": 1998,
+      "doi": "10.1002/(sici)1097-4695(19981115)37:3<441::aid-neu9>3.3.co;2-x",
+      "abstract": "",
+      "journal": "Journal of Neurobiology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0091-679x(08)60303-9",
+      "title": "Appendix C: Mutants of Xenopus laevis",
+      "year": 1991,
+      "doi": "10.1016/s0091-679x(08)60303-9",
+      "abstract": "",
+      "journal": "Methods in Cell Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0091-679x(08)60273-3",
+      "title": "Chapter 5 Early Embryonic Development of Xenopus laevis",
+      "year": 1991,
+      "doi": "10.1016/s0091-679x(08)60273-3",
+      "abstract": "",
+      "journal": "Methods in Cell Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0091-679x(08)60304-0",
+      "title": "Appendix D: Codon Usage Table for Xenopus laevis",
+      "year": 1991,
+      "doi": "10.1016/s0091-679x(08)60304-0",
+      "abstract": "",
+      "journal": "Methods in Cell Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_0022-2836(73)90168-x",
+      "title": "Preferential transcription of Xenopus laevis ribosomal RNA in interspecies hybrids between Xenopus laevis and Xenopus mulleri",
+      "year": 1973,
+      "doi": "10.1016/0022-2836(73)90168-x",
+      "abstract": "",
+      "journal": "Journal of Molecular Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_springerreference_37206",
+      "title": "Xenopus Laevis",
+      "year": null,
+      "doi": "10.1007/springerreference_37206",
+      "abstract": "",
+      "journal": "SpringerReference",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_53846_goediss-5835",
+      "title": "Glomerular information processing in Xenopus laevis",
+      "year": null,
+      "doi": "10.53846/goediss-5835",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31274_rtd-180813-10414",
+      "title": "Regulation of DNA replication in Xenopus laevis",
+      "year": null,
+      "doi": "10.31274/rtd-180813-10414",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 23,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

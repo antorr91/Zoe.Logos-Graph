@@ -1,0 +1,552 @@
+{
+  "species_id": "gbif_5789817",
+  "gbif_usage_key": 5789817,
+  "scientific_name": "Luscinia megarhynchos",
+  "common_name_en": "common nightingale",
+  "common_names": {
+    "en": "common nightingale",
+    "it": "usignolo",
+    "es": "ruiseñor común",
+    "fr": "rossignol philomèle",
+    "de": "nachtigall"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Muscicapidae",
+    "genus": "Luscinia",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 20,
+    "claim_count": 7,
+    "doi_count": 21,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Common nightingale (Luscinia megarhynchos) is a species of Aves in the order Passeriformes, family Muscicapidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Common_nightingale",
+  "wiki_title": "Common_nightingale",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "song"
+  ],
+  "contexts": [
+    "mate attraction",
+    "nocturnal singing",
+    "territorial defence"
+  ],
+  "functions": [
+    "female assessment",
+    "mate attraction",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "nocturnal singing",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "female assessment",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Luscinia megarhynchos",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1111/jav.03061/v1/review1",
+      "url": "https://doi.org/10.1111/jav.03061/v1/review1",
+      "title": "Review for \"Patterns of hybridization in a secondary contact zone between two passerine species, the common nightingale &lt;i&gt;Luscinia megarhynchos&lt;/i&gt; and the thrush nightingale &lt;i&gt;Luscinia luscinia&lt;/i&gt;\"",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jav.03061/v1/review2",
+      "url": "https://doi.org/10.1111/jav.03061/v1/review2",
+      "title": "Review for \"Patterns of hybridization in a secondary contact zone between two passerine species, the common nightingale &lt;i&gt;Luscinia megarhynchos&lt;/i&gt; and the thrush nightingale &lt;i&gt;Luscinia luscinia&lt;/i&gt;\"",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jav.03061/v2/decision1",
+      "url": "https://doi.org/10.1111/jav.03061/v2/decision1",
+      "title": "Decision letter for \"Patterns of hybridization in a secondary contact zone between two passerine species, the common nightingale &lt;i&gt;Luscinia megarhynchos&lt;/i&gt; and the thrush nightingale &lt;i&gt;Luscinia luscinia&lt;/i&gt;\"",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2021-3.rlts.t22709696a166351180.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2021-3.rlts.t22709696a166351180.en",
+      "title": "Luscinia megarhynchos: BirdLife International",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.76801",
+      "url": "https://doi.org/10.1079/cabicompendium.76801",
+      "title": "Luscinia megarhynchos",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2014.11.011",
+      "url": "https://doi.org/10.1016/j.anbehav.2014.11.011",
+      "title": "Female calling? Song responses to conspecific call playbacks in nightingales, Luscinia megarhynchos",
+      "year": 2015,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-12-380896-7.00005-8",
+      "url": "https://doi.org/10.1016/b978-0-12-380896-7.00005-8",
+      "title": "Communication Networks and Spatial Ecology in Nightingales",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2005.08.014",
+      "url": "https://doi.org/10.1016/j.anbehav.2005.08.014",
+      "title": "Vocal interactions in nightingales, Luscinia megarhynchos: more aggressive males have higher pairing success",
+      "year": 2006,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1365-2656.2006.01182.x",
+      "url": "https://doi.org/10.1111/j.1365-2656.2006.01182.x",
+      "title": "The day after: effects of vocal interactions on territory defence in nightingales",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arh108",
+      "url": "https://doi.org/10.1093/beheco/arh108",
+      "title": "Effects of territorial intrusions on eavesdropping neighbors: communication networks in nightingales",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.0021-8790.2004.00814.x",
+      "url": "https://doi.org/10.1111/j.0021-8790.2004.00814.x",
+      "title": "The impact of environmental noise on song amplitude in a territorial bird",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1590/s0001-37652004000200017",
+      "url": "https://doi.org/10.1590/s0001-37652004000200017",
+      "title": "Causes and consequences of song amplitude adjustment in a territorial bird: a case study in nightingales",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1163/156853903763999881",
+      "url": "https://doi.org/10.1163/156853903763999881",
+      "title": "FACING THE RIVAL: DIRECTIONAL SINGING BEHAVIOUR IN NIGHTINGALES",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1006/anbe.2001.1968",
+      "url": "https://doi.org/10.1006/anbe.2001.1968",
+      "title": "Noise-dependent song amplitude regulation in a territorial songbird",
+      "year": 2002,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s00265-002-0511-1",
+      "url": "https://doi.org/10.1007/s00265-002-0511-1",
+      "title": "Responses to playback of whistle songs and normal songs in male nightingales: effects of song category, whistle pitch, and distance",
+      "year": 2002,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf01647285",
+      "url": "https://doi.org/10.1007/bf01647285",
+      "title": "Art- und Mischgesang von Nachtigall und Sprosser (Luscinia megarhynchos, L. luscinia)",
+      "year": 1988,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf00299302",
+      "url": "https://doi.org/10.1007/bf00299302",
+      "title": "Temporal performance roles during vocal interactions in nightingales (Luscinia megarhynchos B.)",
+      "year": 1982,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf01645339",
+      "url": "https://doi.org/10.1007/bf01645339",
+      "title": "Untersuchungen über das Revier der Nachtigall(Luscinia megarhynchos) Investigations on the territory of the Nightingale(Luscinia megarhynchos)",
+      "year": 1981,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf00298139",
+      "url": "https://doi.org/10.1007/bf00298139",
+      "title": "�quivalente und konvalente gesangliche Reaktionen einer extrem regelm��ig singenden Nachtigall (Luscinia megarhynchos L.) Equivalent and convalent vocal reactions of a nightingale (Luscinia megarhynchos L.) with an extremely consistent song pattern",
+      "year": 1971,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0038864",
+      "url": "https://doi.org/10.1371/journal.pone.0038864",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.5040/9781472927019.0234",
+      "url": "https://doi.org/10.5040/9781472927019.0234",
+      "title": "Luscinia megarhynchos C. L. Brehm. Nightingale. Rossignol philomèle.",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1111_jav_03061_v1_review2",
+      "title": "Review for \"Patterns of hybridization in a secondary contact zone between two passerine species, the common nightingale &lt;i&gt;Luscinia megarhynchos&lt;/i&gt; and the thrush nightingale &lt;i&gt;Luscinia luscinia&lt;/i&gt;\"",
+      "year": 2022,
+      "doi": "10.1111/jav.03061/v1/review2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jav_03061_v1_review1",
+      "title": "Review for \"Patterns of hybridization in a secondary contact zone between two passerine species, the common nightingale &lt;i&gt;Luscinia megarhynchos&lt;/i&gt; and the thrush nightingale &lt;i&gt;Luscinia luscinia&lt;/i&gt;\"",
+      "year": 2022,
+      "doi": "10.1111/jav.03061/v1/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jav_03061_v2_decision1",
+      "title": "Decision letter for \"Patterns of hybridization in a secondary contact zone between two passerine species, the common nightingale &lt;i&gt;Luscinia megarhynchos&lt;/i&gt; and the thrush nightingale &lt;i&gt;Luscinia luscinia&lt;/i&gt;\"",
+      "year": 2022,
+      "doi": "10.1111/jav.03061/v2/decision1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2021-3_rlts_t22709696a166351180_en",
+      "title": "Luscinia megarhynchos: BirdLife International",
+      "year": 2020,
+      "doi": "10.2305/iucn.uk.2021-3.rlts.t22709696a166351180.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_76801",
+      "title": "Luscinia megarhynchos",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.76801",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2014_11_011",
+      "title": "Female calling? Song responses to conspecific call playbacks in nightingales, Luscinia megarhynchos",
+      "year": 2015,
+      "doi": "10.1016/j.anbehav.2014.11.011",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-380896-7_00005-8",
+      "title": "Communication Networks and Spatial Ecology in Nightingales",
+      "year": 2011,
+      "doi": "10.1016/b978-0-12-380896-7.00005-8",
+      "abstract": "",
+      "journal": "Advances in the study of behavior",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2005_08_014",
+      "title": "Vocal interactions in nightingales, Luscinia megarhynchos: more aggressive males have higher pairing success",
+      "year": 2006,
+      "doi": "10.1016/j.anbehav.2005.08.014",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1365-2656_2006_01182_x",
+      "title": "The day after: effects of vocal interactions on territory defence in nightingales",
+      "year": 2006,
+      "doi": "10.1111/j.1365-2656.2006.01182.x",
+      "abstract": "1. Models on territory acquisition and tenure predict that territorial animals benefit by adjusting territorial defence behaviour to previous challenges they had experienced within the socially complex environment of communication networks. 2. Here, we addressed such issues of social cognition by investigating persisting effects of vocal contests on territory defence behaviour in nightingales Luscinia megarhynchos (Brehm). 3. Using interactive playback during nocturnal song of subjects, a rival was simulated to countersing either aggressively (by song overlapping) or moderately (by song alternating) from outside the subjects' territory. Thereby, the time-specific singing strategy provided an experimentally controlled source of information on the motivation of an unfamiliar rival. 4. Expecting that nightingales integrate information with time, the same rival was simulated to return as a moderately singing intruder on the following morning. 5. The results show that the vigour with which ",
+      "journal": "Journal of Animal Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_0021-8790_2004_00814_x",
+      "title": "The impact of environmental noise on song amplitude in a territorial bird",
+      "year": 2004,
+      "doi": "10.1111/j.0021-8790.2004.00814.x",
+      "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
+      "journal": "Journal of Animal Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arh108",
+      "title": "Effects of territorial intrusions on eavesdropping neighbors: communication networks in nightingales",
+      "year": 2004,
+      "doi": "10.1093/beheco/arh108",
+      "abstract": "Animal communication often occurs in communication networks in which multiple signalers and receivers are within signaling range of each other. In such networks, individuals can obtain information on the quality and motivation of territorial neighbors by eavesdropping on their signaling interactions. In songbirds, extracting information from interactions involving neighbors is thought to be an important factor in the evolution of strategies of territory defense. In a playback experiment with radio-tagged nightingales &lt;it&gt;Luscinia megarhynchos&lt;/it&gt; we here demonstrate that territorial males use their familiar neighbors' performance in a vocal interaction with an unfamiliar intruder as a standard for their own response. Males were attracted by a vocal interaction between their neighbor and a simulated stranger and intruded into the neighbor's territory. The more intensely the neighbor had interacted with playback, the earlier the intrusions were made, indicating that males ea",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1590_s0001-37652004000200017",
+      "title": "Causes and consequences of song amplitude adjustment in a territorial bird: a case study in nightingales",
+      "year": 2004,
+      "doi": "10.1590/s0001-37652004000200017",
+      "abstract": "Vocal amplitude, one of the crucial factors for the exchange of acoustic signals, has been neglected in studies of animal communication, but recent studies on song variation in Common Nightingales Luscinia megarhynchos have revealed new insights into its importance in the singing behavior of territorial birds. In nightingales song amplitude is not maximized per se, but is individually regulated according to the level of masking background noise. Also, birds adjust their vocal intensity according to social variables, as in male-male interactions. Moreover, during such interactions, males exploited the directionality of their songs to broadcast them in the direction of the intended receivers ensuring the most effective signal transmission. Studies of the development of this typical long-range signaling suggest that sound level is highly interrelated with overall developmental progression and learning, and thus should be viewed as an integral part of song ontogeny. I conclude that song am",
+      "journal": "Anais da Academia Brasileira de Ciências",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_156853903763999881",
+      "title": "FACING THE RIVAL: DIRECTIONAL SINGING BEHAVIOUR IN NIGHTINGALES",
+      "year": 2003,
+      "doi": "10.1163/156853903763999881",
+      "abstract": "Many animal vocalizations are directional, i.e. the sound energy is not emitted omnidirectionally but focused in one direction. Such signal property could be advantageous in order to direct the vocalization towards the addressee, provided its position is known to the sender. On the other hand, a directional signal could be disadvantageous when the position of addressees is not known. Thus, some animals may adjust their behaviour to either counteract or exploit the directionality of their vocalizations depending on the context of communication. We tested this hypotheses in territorial male nightingales (Luscinia megarhynchos) demonstrating the behavioural significance of vocal directionality for the first time. While interacting with the playback of a rival, the birds increased the strength of singing directionality by orientating themselves towards the playback loudspeaker. At the same time, subjects showed less lateral head movements per song during the playback procedure suggesting t",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_2001_1968",
+      "title": "Noise-dependent song amplitude regulation in a territorial songbird",
+      "year": 2002,
+      "doi": "10.1006/anbe.2001.1968",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00265-002-0511-1",
+      "title": "Responses to playback of whistle songs and normal songs in male nightingales: effects of song category, whistle pitch, and distance",
+      "year": 2002,
+      "doi": "10.1007/s00265-002-0511-1",
+      "abstract": "",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01647285",
+      "title": "Art- und Mischgesang von Nachtigall und Sprosser (Luscinia megarhynchos, L. luscinia)",
+      "year": 1988,
+      "doi": "10.1007/bf01647285",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf00299302",
+      "title": "Temporal performance roles during vocal interactions in nightingales (Luscinia megarhynchos B.)",
+      "year": 1982,
+      "doi": "10.1007/bf00299302",
+      "abstract": "",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01645339",
+      "title": "Untersuchungen über das Revier der Nachtigall(Luscinia megarhynchos) Investigations on the territory of the Nightingale(Luscinia megarhynchos)",
+      "year": 1981,
+      "doi": "10.1007/bf01645339",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf00298139",
+      "title": "�quivalente und konvalente gesangliche Reaktionen einer extrem regelm��ig singenden Nachtigall (Luscinia megarhynchos L.) Equivalent and convalent vocal reactions of a nightingale (Luscinia megarhynchos L.) with an extremely consistent song pattern",
+      "year": 1971,
+      "doi": "10.1007/bf00298139",
+      "abstract": "",
+      "journal": "Zeitschrift f�r Vergleichende Physiologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472927019_0234",
+      "title": "Luscinia megarhynchos C. L. Brehm. Nightingale. Rossignol philomèle.",
+      "year": null,
+      "doi": "10.5040/9781472927019.0234",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 20,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

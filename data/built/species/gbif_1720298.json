@@ -1,0 +1,524 @@
+{
+  "species_id": "gbif_1720298",
+  "gbif_usage_key": 1720298,
+  "scientific_name": "Acheta domesticus",
+  "common_name_en": "house cricket",
+  "common_names": {
+    "en": "house cricket",
+    "it": "grillo domestico",
+    "es": "grillo doméstico",
+    "fr": "grillon domestique",
+    "de": "hausgrille"
+  },
+  "taxonomy": {
+    "class_": "Insecta",
+    "order_": "Orthoptera",
+    "family": "Gryllidae",
+    "genus": "Acheta",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 18,
+    "claim_count": 9,
+    "doi_count": 19,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "House cricket (Acheta domesticus) is a species of Insecta in the order Orthoptera, family Gryllidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/House_cricket",
+  "wiki_title": "House_cricket",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "aggression song",
+    "calling song",
+    "courtship song"
+  ],
+  "contexts": [
+    "courtship",
+    "male combat",
+    "mate attraction"
+  ],
+  "functions": [
+    "female assessment",
+    "mate attraction",
+    "rival deterrence"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "aggression song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "calling song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "courtship song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "male combat",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "female assessment",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "rival deterrence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1016/j.yhbeh.2022.105191",
+      "url": "https://doi.org/10.1016/j.yhbeh.2022.105191",
+      "title": "Octopamine affects courtship call structure in male Acheta domesticus crickets",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3920/jiff2020.0061",
+      "url": "https://doi.org/10.3920/jiff2020.0061",
+      "title": "Welfare of farmed insects",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.2661",
+      "url": "https://doi.org/10.1079/cabicompendium.2661",
+      "title": "Acheta domesticus",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/srep27585",
+      "url": "https://doi.org/10.1038/srep27585",
+      "title": "Information content and acoustic structure of male African elephant social rumbles",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pgen.1005009",
+      "url": "https://doi.org/10.1371/journal.pgen.1005009",
+      "title": "An Essential Role of the Arginine Vasotocin System in Mate-Guarding Behaviors in Triadic Relationships of Medaka Fish (Oryzias latipes)",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0103452",
+      "url": "https://doi.org/10.1371/journal.pone.0103452",
+      "title": "Female Mate Choice Can Drive the Evolution of High Frequency Echolocation in Bats: A Case Study with Rhinolophus mehelyi",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s00265-009-0743-4",
+      "url": "https://doi.org/10.1007/s00265-009-0743-4",
+      "title": "Song amplitude and body size in birds",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1186/1472-6785-4-1",
+      "url": "https://doi.org/10.1186/1472-6785-4-1",
+      "title": "An acoustic postconflict display in the duetting tropical boubou (Laniarius aethiopicus): a signal of victory?",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.00634",
+      "url": "https://doi.org/10.1242/jeb.00634",
+      "title": "Seismic signals in a courting male jumping spider (Araneae:Salticidae)",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3758/bf03200077",
+      "url": "https://doi.org/10.3758/bf03200077",
+      "title": "The evolution of learned and innate behavior: Contributions from genetics and neurobiology to a theory of behavioral evolution",
+      "year": 1986,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/0022-1910(76)90181-5",
+      "url": "https://doi.org/10.1016/0022-1910(76)90181-5",
+      "title": "Fourier and electrophysiological analyses of acoustic communication in Acheta domesticus",
+      "year": 1976,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2004.06.021",
+      "url": "https://doi.org/10.1016/j.anbehav.2004.06.021",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.31390/gradschool_disstheses.4046",
+      "url": "https://doi.org/10.31390/gradschool_disstheses.4046",
+      "title": "The Biology of Egg Production in the House Cricket, Acheta Domesticus L.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31390/gradschool_disstheses.6548",
+      "url": "https://doi.org/10.31390/gradschool_disstheses.6548",
+      "title": "Flight Muscle Histolysis in the Female House Cricket, Acheta Domesticus.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32597/honors/165/",
+      "url": "https://doi.org/10.32597/honors/165/",
+      "title": "Chelerythrine Chloride And Its Effects On Phonotactic Behavior In Female Crickets Acheta Domesticus",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32597/honors/202",
+      "url": "https://doi.org/10.32597/honors/202",
+      "title": "Neuronal and Behavioral Response Relationships in Virgin Females of Acheta Domesticus",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32597/honors/246/",
+      "url": "https://doi.org/10.32597/honors/246/",
+      "title": "Evaluation of Phonotactic Behavior in Male-Exposed Female Cricket Acheta domesticus",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32597/honors/56/",
+      "url": "https://doi.org/10.32597/honors/56/",
+      "title": "Light Intensity and Time of Day Influence Female Acheta Domesticus Phonotaxis",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32597/honors/96/",
+      "url": "https://doi.org/10.32597/honors/96/",
+      "title": "Factors Affecting Phonotaxis in Male House Crickets, Acheta domesticus",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1016_j_yhbeh_2022_105191",
+      "title": "Octopamine affects courtship call structure in male Acheta domesticus crickets",
+      "year": 2022,
+      "doi": "10.1016/j.yhbeh.2022.105191",
+      "abstract": "",
+      "journal": "Hormones and Behavior",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3920_jiff2020_0061",
+      "title": "Welfare of farmed insects",
+      "year": 2020,
+      "doi": "10.3920/jiff2020.0061",
+      "abstract": "The recent interest in using insects as food and feed is based on their capacity to be a sustainable alternative to other protein sources. When farmed as mini livestock, the question is raised as to whether they are ‘sentient beings’ (self-conscious)? In researching this topic, the problem is that humans often expect animals to have the same subjective experience as we do (anthropomorphic) and consider themselves as the centre of the universe (anthropocentric). We discuss insects’ sentience by looking at their brain, behaviour, and communicative abilities. The miniature brains of insects seem to be arranged in a very efficient functional way due to their very long evolutionary history. As for their behaviour, insects are capable of social and associative learning. Even dopamine, a neurotransmitter involved in reward and pleasure, plays a role. Human communication is mainly verbal, while for insects other means of information exchange are more important, such as tactile, chemical, visua",
+      "journal": "Journal of Insects as Food and Feed",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_2661",
+      "title": "Acheta domesticus",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.2661",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_srep27585",
+      "title": "Information content and acoustic structure of male African elephant social rumbles",
+      "year": 2016,
+      "doi": "10.1038/srep27585",
+      "abstract": "Until recently, the prevailing theory about male African elephants (Loxodonta africana) was that, once adult and sexually mature, males are solitary and targeted only at finding estrous females. While this is true during the state of 'musth' (a condition characterized by aggressive behavior and elevated androgen levels), 'non-musth' males exhibit a social system seemingly based on companionship, dominance and established hierarchies. Research on elephant vocal communication has so far focused on females, and very little is known about the acoustic structure and the information content of male vocalizations. Using the source and filter theory approach, we analyzed social rumbles of 10 male African elephants. Our results reveal that male rumbles encode information about individuality and maturity (age and size), with formant frequencies and absolute fundamental frequency values having the most informative power. This first comprehensive study on male elephant vocalizations gives importan",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pgen_1005009",
+      "title": "An Essential Role of the Arginine Vasotocin System in Mate-Guarding Behaviors in Triadic Relationships of Medaka Fish (Oryzias latipes)",
+      "year": 2015,
+      "doi": "10.1371/journal.pgen.1005009",
+      "abstract": "To increase individual male fitness, males of various species remain near a (potential) mating partner and repel their rivals (mate-guarding). Mate-guarding is assumed to be mediated by two different types of motivation: sexual motivation toward the opposite sex and competitive motivation toward the same sex. The genetic/molecular mechanisms underlying how mate presence affects male competitive motivation in a triadic relationship has remained largely unknown. Here we showed that male medaka fish prominently exhibit mate-guarding behavior. The presence of a female robustly triggers male-male competition for the female in a triadic relationship (2 males and 1 female). The male-male competition resulted in one male occupying a dominant position near the female while interfering with the other male's approach of the female. Paternity testing revealed that the dominant male had a significantly higher mating success rate than the other male in a triadic relationship. We next generated medak",
+      "journal": "PLoS Genetics",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0103452",
+      "title": "Female Mate Choice Can Drive the Evolution of High Frequency Echolocation in Bats: A Case Study with Rhinolophus mehelyi",
+      "year": 2014,
+      "doi": "10.1371/journal.pone.0103452",
+      "abstract": "Animals employ an array of signals (i.e. visual, acoustic, olfactory) for communication. Natural selection favours signals, receptors, and signalling behaviour that optimise the received signal relative to background noise. When the signal is used for more than one function, antagonisms amongst the different signalling functions may constrain the optimisation of the signal for any one function. Sexual selection through mate choice can strongly modify the effects of natural selection on signalling systems ultimately causing maladaptive signals to evolve. Echolocating bats represent a fascinating group in which to study the evolution of signalling systems as unlike bird songs or frog calls, echolocation has a dual role in foraging and communication. The function of bat echolocation is to generate echoes that the calling bat uses for orientation and food detection with call characteristics being directly related to the exploitation of particular ecological niches. Therefore, it is commonl",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00265-009-0743-4",
+      "title": "Song amplitude and body size in birds",
+      "year": 2009,
+      "doi": "10.1007/s00265-009-0743-4",
+      "abstract": "Bird song is a sexually selected multidimensional signal. A fundamental question regarding the evolution of sexually selected signals is what information they convey and how their honesty is maintained. Song amplitude is a performance-related signal trait that varies considerably between individuals, but this signal dimension has been neglected in past studies. I found that median song amplitude in male nightingales (Luscinia megarhynchos) and zebra finches (Taeniopygia guttata) did not vary significantly with body size or residual body mass. In contrast, I found a significant negative correlation between body size (and also residual mass) and the maximum song amplitude during interactive singing in nightingales. However, the function of these more subtle differences in song amplitude remains to be investigated. By and large, the results of this study suggest that mean song amplitude is unlikely to indicate a bird’s body size or current condition (measured as residual mass).",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1186_1472-6785-4-1",
+      "title": "An acoustic postconflict display in the duetting tropical boubou (Laniarius aethiopicus): a signal of victory?",
+      "year": 2004,
+      "doi": "10.1186/1472-6785-4-1",
+      "abstract": "We conclude that, most likely, the investigated duet type is a postconflict victory display - a novel function of duets. Furthermore the duet is a rare example among birds of a context-specific song. The conspicuousness of the display suggests that it is directed not only to losers of an agonistic encounter but also to other pairs of birds in neighbouring territories.",
+      "journal": "BMC Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_00634",
+      "title": "Seismic signals in a courting male jumping spider (Araneae:Salticidae)",
+      "year": 2003,
+      "doi": "10.1242/jeb.00634",
+      "abstract": "Visual displays in jumping spiders have long been known to be among the most elaborate animal communication behaviours. We now show that one species, Habronattus dossenus, also exhibits an unprecedented complexity of signalling behaviour in the vibratory (seismic) modality. We videotaped courtship behaviour and used laser vibrometry to record seismic signals and observed that each prominent visual signal is accompanied by a subsequent seismic component. Three broad categories of seismic signals were observed ('thumps', 'scrapes' and 'buzzes'). To further characterize these signals we used synchronous high-speed video and laser vibrometry and observed that only one seismic signal component was produced concurrently with visual signals. We examined the mechanisms by which seismic signals are produced through a series of signal ablation experiments. Preventing abdominal movements effectively 'silenced' seismic signals but did not affect any visual component of courtship behaviour. Prevent",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3758_bf03200077",
+      "title": "The evolution of learned and innate behavior: Contributions from genetics and neurobiology to a theory of behavioral evolution",
+      "year": 1986,
+      "doi": "10.3758/bf03200077",
+      "abstract": "",
+      "journal": "Animal Learning & Behavior",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_0022-1910(76)90181-5",
+      "title": "Fourier and electrophysiological analyses of acoustic communication in Acheta domesticus",
+      "year": 1976,
+      "doi": "10.1016/0022-1910(76)90181-5",
+      "abstract": "",
+      "journal": "Journal of Insect Physiology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32597_honors_202",
+      "title": "Neuronal and Behavioral Response Relationships in Virgin Females of Acheta Domesticus",
+      "year": null,
+      "doi": "10.32597/honors/202",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32597_honors_96_",
+      "title": "Factors Affecting Phonotaxis in Male House Crickets, Acheta domesticus",
+      "year": null,
+      "doi": "10.32597/honors/96/",
+      "abstract": "<jats:p>This research addresses some of the possible factors that affect male Acheta domesticus phonotactic responses to calls of males of the same species. The study examines cricket age and social interaction with females as possible factors affecting this behavior. Through Friedman rank test analysis, the study attempts to demonstrate a link between these factors and the responsiveness of the male crickets in the study. As the crickets aged, they responded to a wider ranges of syllable periods, which may imply that they follow a similar pattern of decreasing selectivity in their response with age as their female counterparts. A Friedman's rank test was done on the data to determine whether there was a statistically significant difference within any of the syllable period as the crickets aged. This test showed slight significance in the syllable periods 50ms and 90 ms. Socializaion with females had minimal effects on male phonotactic behavior.</jats:p>",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31390_gradschool_disstheses_6548",
+      "title": "Flight Muscle Histolysis in the Female House Cricket, Acheta Domesticus.",
+      "year": null,
+      "doi": "10.31390/gradschool_disstheses.6548",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31390_gradschool_disstheses_4046",
+      "title": "The Biology of Egg Production in the House Cricket, Acheta Domesticus L.",
+      "year": null,
+      "doi": "10.31390/gradschool_disstheses.4046",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32597_honors_246_",
+      "title": "Evaluation of Phonotactic Behavior in Male-Exposed Female Cricket Acheta domesticus",
+      "year": null,
+      "doi": "10.32597/honors/246/",
+      "abstract": "<jats:p>Phonotaxis is defined as the movement of organisms in response to an auditory stimulus. It plays an important role in helping animals find a potential mate, and thus it is worthwhile to understand what factors may influence phonotaxis. Phonotactic behavior in virgin female cricket Acheta domesticus has been the focus of multiple studies, which have reported a degree of variability among individuals. Several factors that have been reported to influence such variability include age, environmental temperature, and the presence of certain neuromodulators. This study investigated possible changes in the behavioral responses of young females when raised with males but not allowed to mate. The results of this study showed a significant difference in the behavioral response of young male-exposed females compared to young virgin females. These results suggest that factors other than mating may alter selectivity in the females’ phonotactic response and its underlying neural elements cont",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32597_honors_56_",
+      "title": "Light Intensity and Time of Day Influence Female Acheta Domesticus Phonotaxis",
+      "year": null,
+      "doi": "10.32597/honors/56/",
+      "abstract": "<jats:p>Positive phonotaxis occurs when a female cricket walks toward the source of an auditory stimulus. This study tested the effects of light intensity and time of day on phonotaxis of female Acheta domesticus. First, females were tested at four times of day; second, under three light intensities; and third, under four combinations of light intensity and time of day. Our results show that these two factors combined exert a more pronounced effect on female A. domesticus selectivity than either factor individually, and subsequent research will test these factors against the current neuronal model for SP-selective phonotaxis.</jats:p>",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32597_honors_165_",
+      "title": "Chelerythrine Chloride And Its Effects On Phonotactic Behavior In Female Crickets Acheta Domesticus",
+      "year": null,
+      "doi": "10.32597/honors/165/",
+      "abstract": "<jats:p>Selective phonotaxis by female crickets has been shown to be variable. Mechanisms which underlie such behavioral variability are being studied. Juvenile Hormone III is a neuromodulator that has been shown to increase selectivity in phonotactic behavior of female crickets. In an attempt to further explore its effects on the behavioral responses of femaile crickets, experiments have been performed with chelerythrine cloride that is known to have an opposite effect of Juvenile Hormone III. Chelerythrine chloride, a potent protein kinase C blocker, has been hypothesized to block the effect of Juvenile Hormone III which acts through a protein kinase C pathway, leading to a reduced selectiveness in the female's behavioral response.</jats:p>",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 18,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "species_id": "gbif_2311476",
+  "gbif_usage_key": 2311476,
+  "scientific_name": "Mus musculus",
+  "common_name_en": "house mouse",
+  "common_names": {
+    "en": "house mouse",
+    "it": "topo domestico",
+    "es": "ratón doméstico",
+    "fr": "souris domestique",
+    "de": "hausmaus"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Rodentia",
+    "family": "Muridae",
+    "genus": "Mus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "evidence_backed",
+  "profile_badge": {
+    "label": "evidence backed",
+    "color": "amber"
+  },
+  "stats": {
+    "paper_count": 20,
+    "claim_count": 10,
+    "doi_count": 20,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "House mouse (Mus musculus) is a species of Mammalia in the order Rodentia, family Muridae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/House_mouse",
+  "wiki_title": "House_mouse",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "ultrasonic vocalisation"
+  ],
+  "contexts": [
+    "isolation",
+    "parent-offspring interaction",
+    "courtship"
+  ],
+  "functions": [
+    "distress signalling",
+    "maternal retrieval",
+    "mate attraction"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "ultrasonic vocalisation",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      }
+    ],
+    "contexts": [
+      {
+        "value": "isolation",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      },
+      {
+        "value": "parent-offspring interaction",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      },
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "distress signalling",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      },
+      {
+        "value": "maternal retrieval",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": [
+      {
+        "value": "MUPET",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 1
+      },
+      {
+        "value": "UMAP",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 1
+      },
+      {
+        "value": "k-means clustering",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 1
+      }
+    ]
+  },
+  "audio": {
+    "provider": "freesound",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1016/j.anbehav.2025.123376",
+      "url": "https://doi.org/10.1016/j.anbehav.2025.123376",
+      "title": "Vocal ontogeny in Mus musculus",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1101/2025.03.24.644972",
+      "url": "https://doi.org/10.1101/2025.03.24.644972",
+      "title": "Vocal ontogeny in\n                  <i>Mus musculus</i>",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.cub.2023.02.045",
+      "url": "https://doi.org/10.1016/j.cub.2023.02.045",
+      "title": "Two pup vocalization types are genetically and functionally separable in deer mice",
+      "year": 2023,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3389/fnbeh.2022.833168",
+      "url": "https://doi.org/10.3389/fnbeh.2022.833168",
+      "title": "From Mating to Milk Access: A Review of Reproductive Vocal Communication in Mice",
+      "year": 2022,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.34756/geos.2021.17.38169",
+      "url": "https://doi.org/10.34756/geos.2021.17.38169",
+      "title": "Акустическая коммуникация домовых мышей (Mus musculus)",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1044/2020_jslhr-20-00070",
+      "url": "https://doi.org/10.1044/2020_jslhr-20-00070",
+      "title": "Postnatal Development of the Mouse Larynx: Negative Allometry, Age-Dependent Shape Changes, Morphological Integration, and a Size-Dependent Spectral Feature",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.32388/fxh43c",
+      "url": "https://doi.org/10.32388/fxh43c",
+      "title": "Mus musculus castaneus",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32388/wwabdj",
+      "url": "https://doi.org/10.32388/wwabdj",
+      "title": "Mus musculus",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2017.01.021",
+      "url": "https://doi.org/10.1016/j.anbehav.2017.01.021",
+      "title": "What's in a squeak? Female vocal signals predict the sexual behaviour of male house mice during courtship",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0169705",
+      "url": "https://doi.org/10.1371/journal.pone.0169705",
+      "title": "Early-Life Social Isolation Influences Mouse Ultrasonic Vocalizations during Male-Male Social Encounters",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.129361",
+      "url": "https://doi.org/10.1242/jeb.129361",
+      "title": "Evidence for an audience effect in mice: male social partners alter the male vocal response to female cues",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1201/b16511-19",
+      "url": "https://doi.org/10.1201/b16511-19",
+      "title": "Influence of Cat Odor on Reproductive Behavior and Physiology in the House Mouse (Mus Musculus)",
+      "year": 2014,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pbio.0030386",
+      "url": "https://doi.org/10.1371/journal.pbio.0030386",
+      "title": "Ultrasonic Songs of Male Mice",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.15760/etd.7102",
+      "url": "https://doi.org/10.15760/etd.7102",
+      "title": "Chemical Communication in House Mice (Mus musculus): Can They Recognize Gender from the Anogenital, Harderian Gland or Mouth/Nose Odor?",
+      "year": 2000,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1515/mamm-1996-0301",
+      "url": "https://doi.org/10.1515/mamm-1996-0301",
+      "title": "Divergence comportementale et isolement sexuel des souris est-européennes Mus macedonicus et Mus musculus musculus",
+      "year": 1996,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1210/me.9.12.1645",
+      "url": "https://doi.org/10.1210/me.9.12.1645",
+      "title": "Functional comparison of the Mus musculus molossinus and Mus musculus domesticus Sry genes",
+      "year": 1995,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/0888-7543(92)90234-j",
+      "url": "https://doi.org/10.1016/0888-7543(92)90234-j",
+      "title": "Nucleotide sequence of mouse Sry gene is different between Y chromosomes originating from Mus musculus musculus and Mus musculus domesticus",
+      "year": 1992,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/springerreference_101205",
+      "url": "https://doi.org/10.1007/springerreference_101205",
+      "title": "Mouse (Mus musculus, 2n = 40)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pbio.1001893",
+      "url": "https://doi.org/10.1371/journal.pbio.1001893",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.59852/tpe-a216v6i5",
+      "url": "https://doi.org/10.59852/tpe-a216v6i5",
+      "title": "The Influence of Scented Live-Traps on Catchability of Albino Mice (Mus musculus)",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1101_2025_03_24_644972",
+      "title": "Vocal ontogeny in\n                  <i>Mus musculus</i>",
+      "year": 2025,
+      "doi": "10.1101/2025.03.24.644972",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Infants of many species produce distress calls when in need of parental care. As they mature and gain independence from caregivers, juveniles stop producing infant calls and begin producing adult-like vocalizations in a variety of species-typical contexts. Neonatal mice (\n                  <jats:italic>Mus musculus</jats:italic>\n                  ) produce “isolation” ultrasonic vocalizations (USVs) when separated from the nest, and in contrast, adolescent and adult mice produce “social” USVs during interactions with conspecifics. Although this transition in vocal behavior is known to occur, its developmental timing remains poorly described. In the current study, we performed longitudinal measurements of mouse USVs to establish the age at which juvenile mice begin producing social USVs. Every 4 days (postnatal day (P)12-P28), USVs were first recorded from individual mice in solo sessions to establish rates of ",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2025_123376",
+      "title": "Vocal ontogeny in Mus musculus",
+      "year": 2025,
+      "doi": "10.1016/j.anbehav.2025.123376",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_cub_2023_02_045",
+      "title": "Two pup vocalization types are genetically and functionally separable in deer mice",
+      "year": 2023,
+      "doi": "10.1016/j.cub.2023.02.045",
+      "abstract": "Vocalization is a widespread social behavior in vertebrates that can affect fitness in the wild. Although many vocal behaviors are highly conserved, heritable features of specific vocalization types can vary both within and between species, raising the questions of why and how some vocal behaviors evolve. Here, using new computational tools to automatically detect and cluster vocalizations into distinct acoustic categories, we compare pup isolation calls across neonatal development in eight taxa of deer mice (genus Peromyscus) and compare them with laboratory mice (C57BL6/J strain) and free-living, wild house mice (Mus musculus domesticus). Whereas both Peromyscus and Mus pups produce ultrasonic vocalizations (USVs), Peromyscus pups also produce a second call type with acoustic features, temporal rhythms, and developmental trajectories that are distinct from those of USVs. In deer mice, these lower frequency \"cries\" are predominantly emitted in postnatal days one through nine, whereas ",
+      "journal": "Current Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_34756_geos_2021_17_38169",
+      "title": "Акустическая коммуникация домовых мышей (Mus musculus)",
+      "year": 2022,
+      "doi": "10.34756/geos.2021.17.38169",
+      "abstract": "",
+      "journal": "Сборник Трудов XXXIV сессии Российского акустического общества",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fnbeh_2022_833168",
+      "title": "From Mating to Milk Access: A Review of Reproductive Vocal Communication in Mice",
+      "year": 2022,
+      "doi": "10.3389/fnbeh.2022.833168",
+      "abstract": "Vocalisations play a central role in rodent communication, especially in reproduction related behaviours. In adult mice (<i>Mus musculus</i>) the emission of ultrasonic vocalisations (USVs) has been observed in courtship and mating behaviour, especially by males. These have been found to have distinctive individual signatures that influence female choice of mating partner. The most recent findings show that vocal communication also has a role in parental cooperation, in that female mice communicate with male partners in ultrasonic frequencies to induce paternal behaviour. Infant vocalisations form the other important part of reproductive vocal communication. Although born deaf, neonatal mice are capable of producing vocalisations since birth. As an altricial species, successful mother-infant communication is essential for survival, and these vocalisations are important modulators of maternal behaviour. Three main types of infant vocalisations have been identified and characterised. Mos",
+      "journal": "Frontiers in Behavioral Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "paper_005",
+      "title": "Ultrasonic vocalisations in infant mice during maternal separation",
+      "year": 2020,
+      "doi": null,
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "pilot",
+      "developmental_stage": "early-life",
+      "main_outcome": "Infant mice produce acoustically heterogeneous ultrasonic vocalisations during separation; distinct call types cluster by developmental age and predict maternal retrieval probability.",
+      "dataset_available": "yes",
+      "dataset_name": "Dryad_MouseUSV_2020"
+    },
+    {
+      "paper_id": "10_32388_wwabdj",
+      "title": "Mus musculus",
+      "year": 2020,
+      "doi": "10.32388/wwabdj",
+      "abstract": "",
+      "journal": "Definitions",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32388_fxh43c",
+      "title": "Mus musculus castaneus",
+      "year": 2020,
+      "doi": "10.32388/fxh43c",
+      "abstract": "",
+      "journal": "Definitions",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1044_2020_jslhr-20-00070",
+      "title": "Postnatal Development of the Mouse Larynx: Negative Allometry, Age-Dependent Shape Changes, Morphological Integration, and a Size-Dependent Spectral Feature",
+      "year": 2020,
+      "doi": "10.1044/2020_jslhr-20-00070",
+      "abstract": "Purpose The larynx plays a role in swallowing, respiration, and voice production. All three functions change during ontogeny. We investigated ontogenetic shape changes using a mouse model to inform our understanding of how laryngeal form and function are integrated. We understand the characterization of developmental changes to larynx anatomy as a critical step toward using rodent models to study human vocal communication disorders. Method Contrast-enhanced micro-computed tomography image stacks were used to generate three-dimensional reconstructions of the CD-1 mouse (<i>Mus musculus</i>) laryngeal cartilaginous framework. Then, we quantified size and shape in four age groups: pups, weanlings, young, and old adults using a combination of landmark and linear morphometrics. We analyzed postnatal patterns of growth and shape in the laryngeal skeleton, as well as morphological integration among four laryngeal cartilages using geometric morphometric methods. Acoustic analysis of vocal patt",
+      "journal": "Journal of Speech Language and Hearing Research",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0169705",
+      "title": "Early-Life Social Isolation Influences Mouse Ultrasonic Vocalizations during Male-Male Social Encounters",
+      "year": 2017,
+      "doi": "10.1371/journal.pone.0169705",
+      "abstract": "Early-life social isolation has profound effects on adult social competence. This is often expressed as increased aggression or inappropriate displays of courtship-related behaviors. The social incompetence exhibited by isolated animals could be in part due to an altered ability to participate in communicatory exchanges. House mice (Mus musculus) present an excellent model for exploring this idea, because social isolation has a well-established influence on their social behavior, and mice engage in communication via multiple sensory modalities. Here, we tested the prediction that social isolation during early life would influence ultrasonic vocalizations (USVs) emitted by adult male mice during same-sex social encounters. Starting at three weeks of age, male mice were housed individually or in social groups of four males for five weeks, after which they were placed in one of three types of paired social encounters. Pair types consisted of: two individually housed males, two socially ho",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2017_01_021",
+      "title": "What's in a squeak? Female vocal signals predict the sexual behaviour of male house mice during courtship",
+      "year": 2017,
+      "doi": "10.1016/j.anbehav.2017.01.021",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_129361",
+      "title": "Evidence for an audience effect in mice: male social partners alter the male vocal response to female cues",
+      "year": 2016,
+      "doi": "10.1242/jeb.129361",
+      "abstract": "Mice (Mus musculus) form large and dynamic social groups and emit ultrasonic vocalizations in a variety of social contexts. Surprisingly, these vocalizations have been studied almost exclusively in the context of cues from only one social partner, despite the observation that in many social species the presence of additional listeners changes the structure of communication signals. Here, we show that male vocal behavior elicited by female odor is affected by the presence of a male audience - with changes in vocalization count, acoustic structure and syllable complexity. We further show that single sensory cues are not sufficient to elicit this audience effect, indicating that multiple cues may be necessary for an audience to be apparent. Together, these experiments reveal that some features of mouse vocal behavior are only expressed in more complex social situations, and introduce a powerful new assay for measuring detection of the presence of social partners in mice.",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1201_b16511-19",
+      "title": "Influence of Cat Odor on Reproductive Behavior and Physiology in the House Mouse (Mus Musculus)",
+      "year": 2014,
+      "doi": "10.1201/b16511-19",
+      "abstract": "",
+      "journal": "Neurobiology of Chemical Communication",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pbio_0030386",
+      "title": "Ultrasonic Songs of Male Mice",
+      "year": 2005,
+      "doi": "10.1371/journal.pbio.0030386",
+      "abstract": "Previously it was shown that male mice, when they encounter female mice or their pheromones, emit ultrasonic vocalizations with frequencies ranging over 30-110 kHz. Here, we show that these vocalizations have the characteristics of song, consisting of several different syllable types, whose temporal sequencing includes the utterance of repeated phrases. Individual males produce songs with characteristic syllabic and temporal structure. This study provides a quantitative initial description of male mouse songs, and opens the possibility of studying song production and perception in an established genetic model organism.",
+      "journal": "PLoS Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_15760_etd_7102",
+      "title": "Chemical Communication in House Mice (Mus musculus): Can They Recognize Gender from the Anogenital, Harderian Gland or Mouth/Nose Odor?",
+      "year": 2000,
+      "doi": "10.15760/etd.7102",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1515_mamm-1996-0301",
+      "title": "Divergence comportementale et isolement sexuel des souris est-européennes Mus macedonicus et Mus musculus musculus",
+      "year": 1996,
+      "doi": "10.1515/mamm-1996-0301",
+      "abstract": "",
+      "journal": "Mammalia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1210_me_9_12_1645",
+      "title": "Functional comparison of the Mus musculus molossinus and Mus musculus domesticus Sry genes",
+      "year": 1995,
+      "doi": "10.1210/me.9.12.1645",
+      "abstract": "",
+      "journal": "Molecular Endocrinology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_0888-7543(92)90234-j",
+      "title": "Nucleotide sequence of mouse Sry gene is different between Y chromosomes originating from Mus musculus musculus and Mus musculus domesticus",
+      "year": 1992,
+      "doi": "10.1016/0888-7543(92)90234-j",
+      "abstract": "",
+      "journal": "Genomics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_springerreference_101205",
+      "title": "Mouse (Mus musculus, 2n = 40)",
+      "year": null,
+      "doi": "10.1007/springerreference_101205",
+      "abstract": "",
+      "journal": "SpringerReference",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_59852_tpe-a216v6i5",
+      "title": "The Influence of Scented Live-Traps on Catchability of Albino Mice (Mus musculus)",
+      "year": null,
+      "doi": "10.59852/tpe-a216v6i5",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 20,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

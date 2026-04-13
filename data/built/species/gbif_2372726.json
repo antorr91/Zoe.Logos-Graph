@@ -1,0 +1,419 @@
+{
+  "species_id": "gbif_2372726",
+  "gbif_usage_key": 2372726,
+  "scientific_name": "Sebastes mystinus",
+  "common_name_en": "blue rockfish",
+  "common_names": {
+    "en": "blue rockfish",
+    "it": "pesce roccia blu",
+    "es": "pez roca azul",
+    "fr": "sebaste mystinus",
+    "de": "blauer felsenbarsch"
+  },
+  "taxonomy": {
+    "class_": "Actinopterygii",
+    "order_": "Scorpaeniformes",
+    "family": "Sebastidae",
+    "genus": "Sebastes",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 15,
+    "claim_count": 6,
+    "doi_count": 13,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Blue rockfish (Sebastes mystinus) is a species of Actinopterygii in the order Scorpaeniformes, family Sebastidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Blue_rockfish",
+  "wiki_title": "Blue_rockfish",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "knocking",
+    "thumping"
+  ],
+  "contexts": [
+    "social communication",
+    "territorial defence"
+  ],
+  "functions": [
+    "dominance communication",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "knocking",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "thumping",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "dominance communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1038/s41598-023-50194-1",
+      "url": "https://doi.org/10.1038/s41598-023-50194-1",
+      "title": "Movements and spatial distribution of an endangered fish (Sciaena umbra) within a marine protected area",
+      "year": 2024,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1038/s41598-021-84261-2",
+      "url": "https://doi.org/10.1038/s41598-021-84261-2",
+      "title": "A state-space model to derive motorboat noise effects on fish movement from acoustic tracking data",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1038/s41598-021-92633-x",
+      "url": "https://doi.org/10.1038/s41598-021-92633-x",
+      "title": "Seasonal influence on the bathymetric distribution of an endangered fish within a marine protected area",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3389/fnana.2020.00011",
+      "url": "https://doi.org/10.3389/fnana.2020.00011",
+      "title": "Brain and Behavioral Asymmetry: A Lesson From Fish",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.7755/fb.118.1.4s1",
+      "url": "https://doi.org/10.7755/fb.118.1.4s1",
+      "title": "Genetic identification of blue rockfish (Sebastes mystinus) and deacon rockfish (S. diaconus) to enable life history analyses for stock assessment: suppl. table 1",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7755/fb.118.1.4s2",
+      "url": "https://doi.org/10.7755/fb.118.1.4s2",
+      "title": "Genetic identification of blue rockfish (Sebastes mystinus) and deacon rockfish (S. diaconus) to enable life history analyses for stock assessment: suppl. table 2",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7755/fb.118.1.4s3",
+      "url": "https://doi.org/10.7755/fb.118.1.4s3",
+      "title": "Genetic identification of blue rockfish (Sebastes mystinus) and deacon rockfish (S. diaconus) to enable life history analyses for stock assessment: suppl. figure",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.64921",
+      "url": "https://doi.org/10.1079/cabicompendium.64921",
+      "title": "Sebastes mystinus",
+      "year": 2017,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0098976",
+      "url": "https://doi.org/10.1371/journal.pone.0098976",
+      "title": "Movements of Blue Rockfish (Sebastes mystinus) off Central California with Comparisons to Similar Species",
+      "year": 2014,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3147/jsfp.21.81",
+      "url": "https://doi.org/10.3147/jsfp.21.81",
+      "title": "Experimental infection of blue rockfish (Sebastes mystinus) with larval anisakid nematodes.",
+      "year": 1986,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3147/jsfp.21.85",
+      "url": "https://doi.org/10.3147/jsfp.21.85",
+      "title": "Tubercular lesions in a central California rockfish (Sebastes mystinus).",
+      "year": 1986,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/ary118",
+      "url": "https://doi.org/10.1093/beheco/ary118",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.31979/etd.9dtg-ebfp",
+      "url": "https://doi.org/10.31979/etd.9dtg-ebfp",
+      "title": "The role of olfaction in the homing ability of the blue rockfish, Sebastes mystinus in Carmel Bay, California",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1038_s41598-023-50194-1",
+      "title": "Movements and spatial distribution of an endangered fish (Sciaena umbra) within a marine protected area",
+      "year": 2024,
+      "doi": "10.1038/s41598-023-50194-1",
+      "abstract": "The brown meagre (Sciaena umbra) is an endangered species, which requires specific protection measures to ensure its conservation. These measures need to be informed by high-quality scientific knowledge on their space use patterns. Here, we used acoustic telemetry to assess its seasonal movement patterns and habitat use within a marine protected area (MPA). Our results suggested that S. umbra is a highly sedentary species (home range < 1.0 km<sup>2</sup>) and, therefore, the MPA is extensive enough to protect the local population. Their population was discretely distributed in two main areas within the MPA, which was likely a result of habitat segregation and density-dependent movements. The temporal variability of their movements further uncovered when and where spawning occurs (mainly, but probably not only, in the fully protected area in June) and indicated that spillover of this species is limited but still possible. Overall, we highlight the importance of MPAs in the recovery of S",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "lit_gbif_2372726_14",
+      "title": "Caractérisation de la distribution spatiale et temporelle d'une espèce vulnérable, Sciaena umbra, au sein d'une aire marine protégée en vue de sa conservation : apport de la télémétrie acoustique",
+      "year": 2023,
+      "doi": null,
+      "abstract": "Ce travail de thèse apporte des connaissances fondamentales sur les schémas de déplacement d'une espèce vulnérable, le corb. Pour ce faire, 20 individus ont été suivis par télémétrie acoustique au sein d'une aire marine protégée (AMP) pendant 3 ans.Nos résultats suggèrent une grande fidélité au site avec des domaines vitaux relativement petits, ce qui implique que cette AMP (bien que petite) est suffisamment grande pour fournir une protection efficace aux populations de corb. Cependant, des déplacements ont été observés, mettant en évidence la capacité de cette espèce à se déplacer. Ils semblent être associés au comportement reproducteur pendant les mois chauds et à l'activité trophique (alimentation) pendant les mois plus froids. Ces déplacements sont essentiels pour le rétablissement des populations de corbeille en dehors des AMP. Le renforcement des mesures de protection (moratoire, création et/ou extension d'AMP) semble indispensable pour assurer la recolonisation de nouveaux sites",
+      "journal": "theses.fr (ABES)",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_s41598-021-92633-x",
+      "title": "Seasonal influence on the bathymetric distribution of an endangered fish within a marine protected area",
+      "year": 2021,
+      "doi": "10.1038/s41598-021-92633-x",
+      "abstract": "The spatio-temporal variability of fish distribution is important to better manage and protect the populations of endangered species. In this sense, the vertical movements of a vulnerable and protected species, Sciaena umbra, were assessed in a marine protected area (the Réserve Naturelle Marine de Cerbère-Banyuls, south of France) to study the variability of their bathymetric distribution at different time scales. Twenty adults were marked with acoustic transmitters and acoustically monitored over 2.5 years. This revealed that some individuals remained at shallow waters (< 8 m) all year round, while others presented vertical segregation at deeper waters during the cold months (mean depth of 22.5 ± 0.04 m) and all aggregated in shallow waters during the warm months. The brown meagre was more active during the night, except in June and July when peaks of activity were observed at dusk. These patterns are likely associated with foraging and reproductive behavior during the cold and warm ",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_s41598-021-84261-2",
+      "title": "A state-space model to derive motorboat noise effects on fish movement from acoustic tracking data",
+      "year": 2021,
+      "doi": "10.1038/s41598-021-84261-2",
+      "abstract": "Motorboat noise is recognized as a major source of marine pollution, however little is known about its ecological consequences on coastal systems. We developed a State Space Model (SSM) that incorporates an explicit dependency on motorboat noise to derive its effects on the movement of resident fish that transition between two behavioural states (swimming vs. hidden). To explore the performance of our model, we carried out an experiment where free-living Serranus scriba were tracked with acoustic tags, while motorboat noise was simultaneously recorded. We fitted the generated tracking and noise data into our SSM and explored if the noise generated by motorboats passing at close range affected the movement pattern and the probability of transition between the two states using a Bayesian approach. Our results suggest high among individual variability in movement patterns and transition between states, as well as in fish response to the presence of passing motorboats. These findings sugge",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7755_fb_118_1_4s2",
+      "title": "Genetic identification of blue rockfish (Sebastes mystinus) and deacon rockfish (S. diaconus) to enable life history analyses for stock assessment: suppl. table 2",
+      "year": 2020,
+      "doi": "10.7755/fb.118.1.4s2",
+      "abstract": "",
+      "journal": "Fishery Bulletin",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7755_fb_118_1_4s1",
+      "title": "Genetic identification of blue rockfish (Sebastes mystinus) and deacon rockfish (S. diaconus) to enable life history analyses for stock assessment: suppl. table 1",
+      "year": 2020,
+      "doi": "10.7755/fb.118.1.4s1",
+      "abstract": "",
+      "journal": "Fishery Bulletin",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7755_fb_118_1_4s3",
+      "title": "Genetic identification of blue rockfish (Sebastes mystinus) and deacon rockfish (S. diaconus) to enable life history analyses for stock assessment: suppl. figure",
+      "year": 2020,
+      "doi": "10.7755/fb.118.1.4s3",
+      "abstract": "",
+      "journal": "Fishery Bulletin",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fnana_2020_00011",
+      "title": "Brain and Behavioral Asymmetry: A Lesson From Fish",
+      "year": 2020,
+      "doi": "10.3389/fnana.2020.00011",
+      "abstract": "It is widely acknowledged that the left and right hemispheres of human brains display both anatomical and functional asymmetries. For more than a century, brain and behavioral lateralization have been considered a uniquely human feature linked to language and handedness. However, over the past decades this idea has been challenged by an increasing number of studies describing structural asymmetries and lateralized behaviors in non-human species extending from primates to fish. Evidence suggesting that a similar pattern of brain lateralization occurs in all vertebrates, humans included, has allowed the emergence of different model systems to investigate the development of brain asymmetries and their impact on behavior. Among animal models, fish have contributed much to the research on lateralization as several fish species exhibit lateralized behaviors. For instance, behavioral studies have shown that the advantages of having an asymmetric brain, such as the ability of simultaneously pr",
+      "journal": "Frontiers in Neuroanatomy",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_64921",
+      "title": "Sebastes mystinus",
+      "year": 2017,
+      "doi": "10.1079/cabicompendium.64921",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0098976",
+      "title": "Movements of Blue Rockfish (Sebastes mystinus) off Central California with Comparisons to Similar Species",
+      "year": 2014,
+      "doi": "10.1371/journal.pone.0098976",
+      "abstract": "",
+      "journal": "PLoS ONE",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "lit_gbif_2372726_12",
+      "title": "Species Composition of Rocky Intertidal and Subtidal Fish Assemblages in Central and Northern California, British Columbia-Southeast Alaska",
+      "year": 1987,
+      "doi": null,
+      "abstract": "We summarized data on species abundances for subtidal and shoreline fish assemblages from two areas in California and from the Alexander Archipelago in northern British Columbia-southeast Alaska. For the northern California and British Columbia-Alaska areas, the combined shoreline and subtidal collections were dominated numerically by cottids and stichaeids. At the central California survey area, scorpaenids were the predominant group, followed by cottids, stichaeids, pholids, and bothids. Within each region, individual species tended to occur either mostly in the intertidal/shoreline zone or mostly subtidally; rarely were species abundant in both habitats. Because intertidal species are largely confined to that habitat, populations at widely separated locations could be demographically and genetically isolated, unless gene flow (immigration) via planktonic larval dispersal occurs.",
+      "journal": "Occidental College Scholar (Occidental College)",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "lit_gbif_2372726_13",
+      "title": "Accelerator Mass Spectrometry 14C Determinations on Human Remains from Schuiling Cave, Mojave Desert, California",
+      "year": 1987,
+      "doi": null,
+      "abstract": "",
+      "journal": "Occidental College Scholar (Occidental College)",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3147_jsfp_21_85",
+      "title": "Tubercular lesions in a central California rockfish (Sebastes mystinus).",
+      "year": 1986,
+      "doi": "10.3147/jsfp.21.85",
+      "abstract": "",
+      "journal": "Fish Pathology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3147_jsfp_21_81",
+      "title": "Experimental infection of blue rockfish (Sebastes mystinus) with larval anisakid nematodes.",
+      "year": 1986,
+      "doi": "10.3147/jsfp.21.81",
+      "abstract": "",
+      "journal": "Fish Pathology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31979_etd_9dtg-ebfp",
+      "title": "The role of olfaction in the homing ability of the blue rockfish, Sebastes mystinus in Carmel Bay, California",
+      "year": null,
+      "doi": "10.31979/etd.9dtg-ebfp",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 15,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

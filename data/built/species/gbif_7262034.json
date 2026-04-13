@@ -1,0 +1,440 @@
+{
+  "species_id": "gbif_7262034",
+  "gbif_usage_key": 7262034,
+  "scientific_name": "Chlorocebus pygerythrus",
+  "common_name_en": "vervet monkey",
+  "common_names": {
+    "en": "vervet monkey",
+    "it": "cercopiteco verde",
+    "es": "mono verde",
+    "fr": "vervet",
+    "de": "grüne meerkatze"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Primates",
+    "family": "Cercopithecidae",
+    "genus": "Chlorocebus",
+    "gbif_match_confidence": 99,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 16,
+    "claim_count": 4,
+    "doi_count": 16,
+    "media_count": 0
+  },
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cercopiteco_verde_%28Chlorocebus_pygerythrus%29%2C_parque_nacional_del_lago_Nakuru%2C_Kenia%2C_2024-05-18%2C_DD_77.jpg/330px-Cercopiteco_verde_%28Chlorocebus_pygerythrus%29%2C_parque_nacional_del_lago_Nakuru%2C_Kenia%2C_2024-05-18%2C_DD_77.jpg",
+    "url_full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cercopiteco_verde_%28Chlorocebus_pygerythrus%29%2C_parque_nacional_del_lago_Nakuru%2C_Kenia%2C_2024-05-18%2C_DD_77.jpg",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons page",
+    "attribution": ""
+  },
+  "summary": "The vervet monkey, or simply vervet, is an Old World monkey of the family Cercopithecidae native to Africa. The term \"vervet\" is also used to refer to all the members of the genus Chlorocebus. The five distinct subspecies can be found mostly throughout Southern Africa, as well as some of the eastern countries.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Vervet_monkey",
+  "wiki_title": "Vervet_monkey",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "alarm call"
+  ],
+  "contexts": [
+    "predator response"
+  ],
+  "functions": [
+    "information transfer",
+    "predator warning"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "predator response",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "information transfer",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.2305/iucn.uk.2025-1.rlts.t92252770a205896566.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2025-1.rlts.t92252770a205896566.en",
+      "title": "Chlorocebus pygerythrus ssp. pygerythrus: Butynski, T.M. &amp; De Jong, Y.A.",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2022-1.rlts.t136271a205998680.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2022-1.rlts.t136271a205998680.en",
+      "title": "Chlorocebus pygerythrus: Butynski, T.M. &amp; De Jong, Y.A.",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.26451/abc.07.02.05.2020",
+      "url": "https://doi.org/10.26451/abc.07.02.05.2020",
+      "title": "Nonhuman primate alarm calls then and now",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1017/9781139019941.012",
+      "url": "https://doi.org/10.1017/9781139019941.012",
+      "title": "Predation and Food Competition in Vervet Monkeys (<i>Chlorocebus pygerythrus</i>)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.11575/prism/37261",
+      "url": "https://doi.org/10.11575/prism/37261",
+      "title": "The Acoustic Structure and Ontogeny of Vervet Monkey Vocalizations",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.32521/2074-8132.2019.4.105-113",
+      "url": "https://doi.org/10.32521/2074-8132.2019.4.105-113",
+      "title": "To the problem of the craniological differentiation of the two species of green monkeys: Chlorocebus pygerythrus, Chlorocebus aethiops (family Cercopithecidae, ordo Primates)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2019-3.rlts.t92252770a92252777.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2019-3.rlts.t92252770a92252777.en",
+      "title": "Chlorocebus pygerythrus ssp. pygerythrus: Butynski, T.M. &amp; de Jong, Y.A.",
+      "year": 2018,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7287/peerj.4953v0.1/reviews/3",
+      "url": "https://doi.org/10.7287/peerj.4953v0.1/reviews/3",
+      "title": "Peer Review #3 of \"Adaptive genetic variation at three loci in South African vervet monkeys (Chlorocebus pygerythrus) and the role of selection within primates (v0.1)\"",
+      "year": 2018,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-016-1064-4",
+      "url": "https://doi.org/10.1007/s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2017.01.006",
+      "url": "https://doi.org/10.1016/j.anbehav.2017.01.006",
+      "title": "Formidable females and the power trajectories of socially integrated male vervet monkeys",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/j.ctt19b9jmw.69",
+      "url": "https://doi.org/10.2307/j.ctt19b9jmw.69",
+      "title": "Vervet (Monkey)",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3758/s13423-016-1076-8",
+      "url": "https://doi.org/10.3758/s13423-016-1076-8",
+      "title": "Primate vocal production and the riddle of language evolution",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1038/srep13220",
+      "url": "https://doi.org/10.1038/srep13220",
+      "title": "Vervets revisited: A quantitative analysis of alarm call structure and context specificity",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2013.07.006",
+      "url": "https://doi.org/10.1016/j.anbehav.2013.07.006",
+      "title": "Semantic communication in vervet monkeys and other animals",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.53846/goediss-4042",
+      "url": "https://doi.org/10.53846/goediss-4042",
+      "title": "Vocal Communication within the Genus Chlorocebus: Insights into Mechanisms of Call Production and Call Perception",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.5040/9781472926920.0050",
+      "url": "https://doi.org/10.5040/9781472926920.0050",
+      "title": "Chlorocebus pygerythrus Vervet monkey : Fr. Vervet; Ger. Südliche Grünmeerkatze",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_2305_iucn_uk_2025-1_rlts_t92252770a205896566_en",
+      "title": "Chlorocebus pygerythrus ssp. pygerythrus: Butynski, T.M. &amp; De Jong, Y.A.",
+      "year": 2024,
+      "doi": "10.2305/iucn.uk.2025-1.rlts.t92252770a205896566.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2022-1_rlts_t136271a205998680_en",
+      "title": "Chlorocebus pygerythrus: Butynski, T.M. &amp; De Jong, Y.A.",
+      "year": 2022,
+      "doi": "10.2305/iucn.uk.2022-1.rlts.t136271a205998680.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_26451_abc_07_02_05_2020",
+      "title": "Nonhuman primate alarm calls then and now",
+      "year": 2020,
+      "doi": "10.26451/abc.07.02.05.2020",
+      "abstract": "Against the background of the seminal papers on the vervet monkey alarm call system by Seyfarth, Cheney and Marler (1980a. 1980b), I provide an overview of context specificity in calling and call comprehension learning in the genus Chlorocebus, and to which degree these findings inform the reconstruction of the evolution of speech and language. The alarm calls of vervet monkeys (Chlorocebus pygerythrus) and West African green monkeys (Chlorocebus sabaeus) are astoundingly similar in terms of the structure of calls given in response to their main predator types. Green monkeys also spontaneously produced calls that sounded like 'eagle alarms' in response to a novel aerial threat (a drone), supporting the view that both the link between the predator category and the call, as well as the call structure itself are largely hard-wired. In contrast, learning shapes the responses to sounds. As recent field experiments showed, monkeys are able to rapidly attach meaning to a novel sound, and they",
+      "journal": "Animal Behavior and Cognition",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32521_2074-8132_2019_4_105-113",
+      "title": "To the problem of the craniological differentiation of the two species of green monkeys: Chlorocebus pygerythrus, Chlorocebus aethiops (family Cercopithecidae, ordo Primates)",
+      "year": 2019,
+      "doi": "10.32521/2074-8132.2019.4.105-113",
+      "abstract": "",
+      "journal": "Moscow University Anthropology Bulletin (Vestnik Moskovskogo Universiteta. Seria XXIII. Antropologia)",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1017_9781139019941_012",
+      "title": "Predation and Food Competition in Vervet Monkeys (<i>Chlorocebus pygerythrus</i>)",
+      "year": 2019,
+      "doi": "10.1017/9781139019941.012",
+      "abstract": "",
+      "journal": "Savanna Monkeys",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11575_prism_37261",
+      "title": "The Acoustic Structure and Ontogeny of Vervet Monkey Vocalizations",
+      "year": 2019,
+      "doi": "10.11575/prism/37261",
+      "abstract": "Vervet monkey (Chlorocebus pygerythrus) vocalizations have been the subject of considerable research, most notably for their putative language-like qualities. While this focus has inspired a productive research effort investigating vocal communication in non-human primates, it has diverted attention away from other, non-linguistically inspired mechanisms by which vocal signals exert their effects on receivers. My research focuses on two vocal classes, grunts and alarm calls, and how their acoustic structures vary according to sender-specific attributes, including age, sex, body size, and identity - all of which have the potential to influence receiver response. I recorded calls from three wild groups of vervet monkeys over a 7-month period on the Samara Game Reserve, South Africa. I used random forest models to determine whether grunts varied in structure in relation to caller age, sex, identity and context, and whether alarms varied with sex and caller identity. I performed a cluster ",
+      "journal": "PRISM (University of Calgary)",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2019-3_rlts_t92252770a92252777_en",
+      "title": "Chlorocebus pygerythrus ssp. pygerythrus: Butynski, T.M. &amp; de Jong, Y.A.",
+      "year": 2018,
+      "doi": "10.2305/iucn.uk.2019-3.rlts.t92252770a92252777.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7287_peerj_4953v0_1_reviews_3",
+      "title": "Peer Review #3 of \"Adaptive genetic variation at three loci in South African vervet monkeys (Chlorocebus pygerythrus) and the role of selection within primates (v0.1)\"",
+      "year": 2018,
+      "doi": "10.7287/peerj.4953v0.1/reviews/3",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2017_01_006",
+      "title": "Formidable females and the power trajectories of socially integrated male vervet monkeys",
+      "year": 2017,
+      "doi": "10.1016/j.anbehav.2017.01.006",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "doi": "10.1007/s10071-016-1064-4",
+      "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
+      "journal": "Animal Cognition",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_j_ctt19b9jmw_69",
+      "title": "Vervet (Monkey)",
+      "year": 2016,
+      "doi": "10.2307/j.ctt19b9jmw.69",
+      "abstract": "",
+      "journal": "Animals of Kruger National Park",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3758_s13423-016-1076-8",
+      "title": "Primate vocal production and the riddle of language evolution",
+      "year": 2016,
+      "doi": "10.3758/s13423-016-1076-8",
+      "abstract": "Trying to uncover the roots of human speech and language has been the premier motivation to study the signalling behaviour of nonhuman primates for several decades. Focussing on the question of whether we find evidence for linguistic reference in the production of nonhuman primate vocalizations, I will first discuss how the criteria used to diagnose referential signalling have changed over time, and will then turn to the paradigmatic case of semantic communication in animals, the alarm calls of vervet monkeys, Chlorocebus pygerythrus. A recent in-depth analysis of the original material revealed that, while the alarm calls could be well distinguished, calls of similar structure were also used in within- and between-group aggression. This finding is difficult to reconcile with the idea that calls denote objects in the environment. Furthermore, nonhuman primates show only minimal signs of vocal production learning, one key prerequisite for conventionalized and symbolic communication. In a",
+      "journal": "Psychonomic Bulletin & Review",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_srep13220",
+      "title": "Vervets revisited: A quantitative analysis of alarm call structure and context specificity",
+      "year": 2015,
+      "doi": "10.1038/srep13220",
+      "abstract": "The alarm calls of vervet monkeys (Chlorocebus pygerythrus) constitute the classic textbook example of semantic communication in nonhuman animals, as vervet monkeys give acoustically distinct calls to different predators and these calls elicit appropriate responses in conspecifics. They also give similar sounding calls in aggressive contexts, however. Despite the central role the vervet alarm calls have played for understanding the evolution of communication, a comprehensive, quantitative analysis of the acoustic structure of these calls was lacking. We used 2-step cluster analysis to identify objective call types and discriminant function analysis to assess context specificity. Alarm calls given in response to leopards, eagles, and snakes could be well distinguished, while the inclusion of calls given in aggressive contexts yielded some overlap, specifically between female calls given to snakes, eagles and during aggression, as well as between male vervet barks (additionally recorded ",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2013_07_006",
+      "title": "Semantic communication in vervet monkeys and other animals",
+      "year": 2013,
+      "doi": "10.1016/j.anbehav.2013.07.006",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_53846_goediss-4042",
+      "title": "Vocal Communication within the Genus Chlorocebus: Insights into Mechanisms of Call Production and Call Perception",
+      "year": 2013,
+      "doi": "10.53846/goediss-4042",
+      "abstract": "It is difficult to overestimate the influence of language in day to day life, and language is often proposed as the clearest feature to distinguish us, Homo sapiens, from all other animals. The origin of language has long been the subject of speculation and myth, and more recently, together with the development of Darwinian evolutionary concepts, the evolution of language has become the focus of multidisciplinary scientific investigation. The emerging picture is that the language faculty is a complex multi-component system, with the possibility of each subcomponent having arisen from a different evolutionary pathway. Comparative studies of communication and cognition in non-human animals have the potential to identify whether these subcomponents, or biological precursors to them, are shared with other species, offering insights into the communicative abilities of our pre-linguistic ancestors and the evolutionary pre-cursors to language. To date there is no comprehensive list of what co",
+      "journal": "",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472926920_0050",
+      "title": "Chlorocebus pygerythrus Vervet monkey : Fr. Vervet; Ger. Südliche Grünmeerkatze",
+      "year": null,
+      "doi": "10.5040/9781472926920.0050",
+      "abstract": "",
+      "journal": "Mammals of Africa : Primates",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 16,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

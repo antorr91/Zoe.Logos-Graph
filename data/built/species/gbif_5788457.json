@@ -1,0 +1,482 @@
+{
+  "species_id": "gbif_5788457",
+  "gbif_usage_key": 5788457,
+  "scientific_name": "Sitta europaea",
+  "common_name_en": "eurasian nuthatch",
+  "common_names": {
+    "en": "eurasian nuthatch",
+    "it": "picchio muratore",
+    "es": "trepador azul",
+    "fr": "sittelle torchepot",
+    "de": "kleiber"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Sittidae",
+    "genus": "Sitta",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 16,
+    "claim_count": 9,
+    "doi_count": 17,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Eurasian nuthatch (Sitta europaea) is a species of Aves in the order Passeriformes, family Sittidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Eurasian_nuthatch",
+  "wiki_title": "Eurasian_nuthatch",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "alarm call",
+    "call",
+    "song"
+  ],
+  "contexts": [
+    "alarm",
+    "mate attraction",
+    "territorial defence"
+  ],
+  "functions": [
+    "mate attraction",
+    "predator warning",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Sitta europaea",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1111/brv.12845",
+      "url": "https://doi.org/10.1111/brv.12845",
+      "title": "A comprehensive overview of the effects of urbanisation on sexual selection and sexual traits",
+      "year": 2022,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/jav.02341",
+      "url": "https://doi.org/10.1111/jav.02341",
+      "title": "Anthropogenic noise reduces avian feeding efficiency and increases vigilance along an urban–rural gradient regardless of species’ tolerances to urbanisation",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2021-3.rlts.t103879804a199569378.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2021-3.rlts.t103879804a199569378.en",
+      "title": "Sitta europaea: BirdLife International",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.63526",
+      "url": "https://doi.org/10.1079/cabicompendium.63526",
+      "title": "Sitta europaea (nuthatch)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2018-2.rlts.t103879804a132199203.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2018-2.rlts.t103879804a132199203.en",
+      "title": "Sitta europaea: BirdLife International",
+      "year": 2018,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2016-3.rlts.t103879804a87790162.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2016-3.rlts.t103879804a87790162.en",
+      "title": "Sitta europaea: BirdLife International",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2013.1436",
+      "url": "https://doi.org/10.1098/rspb.2013.1436",
+      "title": "Post-hatch heat warms adult beaks: irreversible physiological plasticity in Japanese quail",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/jeb.12101",
+      "url": "https://doi.org/10.1111/jeb.12101",
+      "title": "Recent northward range expansion promotes song evolution in a passerine bird, the Light‐vented Bulbul",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.15845/on.v35i0.269",
+      "url": "https://doi.org/10.15845/on.v35i0.269",
+      "title": "Do passerine birds utilise artificial light to prolong their diurnal activity during winter at northern latitudes?",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1439-0310.1958.tb00564.x",
+      "url": "https://doi.org/10.1111/j.1439-0310.1958.tb00564.x",
+      "title": "Das Verhalten des Kleibers (Sitta europaea caesia Wolf)",
+      "year": 2010,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.0908-8857.2005.03285.x",
+      "url": "https://doi.org/10.1111/j.0908-8857.2005.03285.x",
+      "title": "Singing as a handicap: the effects of food availability and weather on song output in the Australian reed warbler <i>Acrocephalus australis</i>",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1650/0010-5422(2002)104[0482:nbotri]2.0.co;2",
+      "url": "https://doi.org/10.1650/0010-5422(2002)104[0482:nbotri]2.0.co;2",
+      "title": "NESTING BIOLOGY OF TAPACULOS (RHINOCRYPTIDAE) IN FRAGMENTED SOUTH-TEMPERATE RAINFORESTS OF CHILE",
+      "year": 2002,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.34080/os.v3.23043",
+      "url": "https://doi.org/10.34080/os.v3.23043",
+      "title": "Food caching in the European Nuthatch Sitta europaea",
+      "year": 1993,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/3676492",
+      "url": "https://doi.org/10.2307/3676492",
+      "title": "Nuthatch Sitta europaea Demography, Beech Mast, and Territoriality",
+      "year": 1989,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1364160",
+      "url": "https://doi.org/10.2307/1364160",
+      "title": "Pair-Formation in Birds",
+      "year": 1940,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s00265-016-2185-4",
+      "url": "https://doi.org/10.1007/s00265-016-2185-4",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.5040/9781472926975.0073",
+      "url": "https://doi.org/10.5040/9781472926975.0073",
+      "title": "Sitta europaea Linnaeus. Eurasian Nuthatch. Sittelle torchepot",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1111_brv_12845",
+      "title": "A comprehensive overview of the effects of urbanisation on sexual selection and sexual traits",
+      "year": 2022,
+      "doi": "10.1111/brv.12845",
+      "abstract": "Urbanisation can affect mating opportunities and thereby alter inter- and intra-sexual selection pressures on sexual traits. Biotic and abiotic urban conditions can influence an individual's success in pre- and post-copulatory mating, for example through impacts on mate attraction and mate preference, fertilisation success, resource competition or rival interactions. Divergent sexual selection pressures can lead to differences in behavioural, physiological, morphological or life-history traits between urban and non-urban populations, ultimately driving adaptation and speciation. Most studies on urban sexual selection and mating interactions report differences between urban and non-urban populations or correlations between sexual traits and factors associated with increased urbanisation, such as pollution, food availability and risk of predation and parasitism. Here we review the literature on sexual selection and sexual traits in relation to urbanisation or urban-associated conditions.",
+      "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2021-3_rlts_t103879804a199569378_en",
+      "title": "Sitta europaea: BirdLife International",
+      "year": 2020,
+      "doi": "10.2305/iucn.uk.2021-3.rlts.t103879804a199569378.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jav_02341",
+      "title": "Anthropogenic noise reduces avian feeding efficiency and increases vigilance along an urban–rural gradient regardless of species’ tolerances to urbanisation",
+      "year": 2020,
+      "doi": "10.1111/jav.02341",
+      "abstract": "Anthropogenic noise can adversely impact urban bird populations by interfering with vocal communication. Less research has addressed if anthropogenic noise masks the adventitious sounds that birds use to aid predator detection, which may lead to increased vigilance and reduced feeding efficiency. We test this hypothesis using a controlled playback experiment along an urban–rural gradient in Sheffield (UK). We also test the related predictions that anthropogenic noise has the greatest impacts on vigilance and feeding efficiency in rural populations, and on species that are more sensitive to urbanisation. We focus on six passerines, in order from most to least urbanised (based on how urbanisation influences population densities): blue tit Cyanistes caeruleus , robin Erithacus rubeculla , great tit Parus major , chaffinch Fringilla coelebs , coal tit Periparus ater and nuthatch Sitta europaea . We used play‐back of anthropogenic urban noise and a control treatment at 46 feeding stations l",
+      "journal": "Journal of Avian Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_63526",
+      "title": "Sitta europaea (nuthatch)",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.63526",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2018-2_rlts_t103879804a132199203_en",
+      "title": "Sitta europaea: BirdLife International",
+      "year": 2018,
+      "doi": "10.2305/iucn.uk.2018-2.rlts.t103879804a132199203.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2016-3_rlts_t103879804a87790162_en",
+      "title": "Sitta europaea: BirdLife International",
+      "year": 2016,
+      "doi": "10.2305/iucn.uk.2016-3.rlts.t103879804a87790162.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2013_1436",
+      "title": "Post-hatch heat warms adult beaks: irreversible physiological plasticity in Japanese quail",
+      "year": 2013,
+      "doi": "10.1098/rspb.2013.1436",
+      "abstract": "Across taxa, the early rearing environment contributes to adult morphological and physiological variation. For example, in birds, environmental temperature plays a key role in shaping bill size and clinal trends across latitudinal/thermal gradients. Such patterns support the role of the bill as a thermal window and in thermal balance. It remains unknown whether bill size and thermal function are reversibly plastic. We raised Japanese quail in warm (30°C) or cold (15°C) environments and then at a common intermediate temperature. We predicted that birds raised in cold temperatures would develop smaller bills than warm-reared individuals, and that regulation of blood flow to the bill in response to changing temperatures would parallel the bill's role in thermal balance. Cold-reared birds developed shorter bills, although bill size exhibited 'catch-up' growth once adults were placed at a common temperature. Despite having lived in a common thermal environment as adults, individuals that we",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jeb_12101",
+      "title": "Recent northward range expansion promotes song evolution in a passerine bird, the Light‐vented Bulbul",
+      "year": 2013,
+      "doi": "10.1111/jeb.12101",
+      "abstract": "In common with human speech, song is culturally inherited in oscine passerine birds ('songbirds'). Intraspecific divergence in birdsong, such as development of local dialects, might be an important early step in the speciation process. It is therefore vital to understand how songs diverge, especially in founding populations. The northward expansion of the Light-vented Bulbul Pycnonotus sinensis (J. F. Gmelin, 1789) into north China in the last 30 years provides an excellent opportunity to study birdsong evolution. We compared ~4400 songs from newly established northern populations with ~2900 songs from southern populations to evaluate song divergence after recent expansion. The total pool of syllables and especially song types was considerably smaller in the north than in the south, indicating 'founder effects' in the new population. The ancestral pattern of mosaic song dialects changed into a pattern of wide geographical sharing of a few song types and syllables, likely the result of ",
+      "journal": "Journal of Evolutionary Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_15845_on_v35i0_269",
+      "title": "Do passerine birds utilise artificial light to prolong their diurnal activity during winter at northern latitudes?",
+      "year": 2012,
+      "doi": "10.15845/on.v35i0.269",
+      "abstract": "Boreal regions with a mild winter climate, such as the western coastal area of Norway, may hold a number of wintering passerine birds, in spite of the short day length in mid winter. To determine whether birds wintering under such conditions were able to use artificial light to increase their activity periods, day-time and night-time bird censuses were done from October to March in a residential area in Bergen, western Norway, along roads lit by street lights. Situated at latitude 60N, the area has 18 hours of darkness in mid winter. Twenty-four passerine species were recorded. Of these European Robin Erithacus rubecula, Common Blackbird Turdus merula, and Eurasian Wren Troglodytes troglodytes regularly started their activity several hours before sunrise, whereas Great Tits Parus major and Blue Tits Cyanistes caeruleus did so to some extent. The other species did not start their activity until morning civil twilight. Measurements of distance from street lights for European Robins durin",
+      "journal": "Ornis Norvegica",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1439-0310_1958_tb00564_x",
+      "title": "Das Verhalten des Kleibers (Sitta europaea caesia Wolf)",
+      "year": 2010,
+      "doi": "10.1111/j.1439-0310.1958.tb00564.x",
+      "abstract": "",
+      "journal": "Zeitschrift für Tierpsychologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_0908-8857_2005_03285_x",
+      "title": "Singing as a handicap: the effects of food availability and weather on song output in the Australian reed warbler <i>Acrocephalus australis</i>",
+      "year": 2005,
+      "doi": "10.1111/j.0908-8857.2005.03285.x",
+      "abstract": "Bird song is generally regarded as a sexually selected trait, and may represent a reliable handicap signal under at least certain conditions. Females may use the degree of male song production as a reliable cue to male condition or territory quality. We investigated the effect of supplementary feeding on song output in the migratory Australian reed warbler Acrocephalus australis . We experimentally increased the food availability on alternate days, and recorded several weather variables. We measured song rate and song length independently. Supplementary fed birds sang more on feeding days than on non‐feeding days, while control birds did not show this effect. Song output was not significantly associated with any of the weather variables examined. Our results indicate that singing has the potential to serve as a reliable handicap signal to territorial food availability irrespective of the prevailing weather conditions. We discuss the role of energetic constraints and behavioural flexibi",
+      "journal": "Journal of Avian Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1650_0010-5422(2002)104[0482:nbotri]2_0_co;2",
+      "title": "NESTING BIOLOGY OF TAPACULOS (RHINOCRYPTIDAE) IN FRAGMENTED SOUTH-TEMPERATE RAINFORESTS OF CHILE",
+      "year": 2002,
+      "doi": "10.1650/0010-5422(2002)104[0482:nbotri]2.0.co;2",
+      "abstract": "We studied the effect of forest fragmentation on the nesting biology and reproductive success of three species of tapaculos (Rhinocryptidae) in relation to forest size, edge effects, and disturbance from livestock or logging over a 6-year period (1993–1999) in Chilean temperate rainforest. Overall, Mayfield nest success (n = 360) among the three species ranged from 64% to 85%, and predation accounted for 64% of nest losses. Considering all types of losses, nest mortality was similar in fragmented and unfragmented forest, but predation was higher in fragmented forest. Successful nest sites of the Chucao Tapaculo (Sclerochilus rubecula; the species with the largest sample size) were nearer forest edges, better concealed, closer to the ground, and had longer entrance tunnels, on average, than depredated nests. Reuse of nest sites by chucaos was more common in forest fragments with livestock or logging than in undisturbed forests, but reuse was independent of forest size. Success of second",
+      "journal": "Ornithological Applications",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_34080_os_v3_23043",
+      "title": "Food caching in the European Nuthatch Sitta europaea",
+      "year": 1993,
+      "doi": "10.34080/os.v3.23043",
+      "abstract": "<jats:p>The behaviour and cache sites of European Nuthatches storing naturally occurring beech Fagus sylvatica and hazel Corylus avellana nuts in a South Swedish wood are described. Data are also given on the retrieval of cached nuts in winter and on recaching. On average it took a Nuthatch about 1 min to cache a beech nut. A third of all caches were below 1 m, 20% in the ground. Of those in trees, most were at heights between 5 and 15 m and less than 20% on branches thinner than 4 cm; of caches made above ground, 43% were in dead, often rotten wood. The choice of cache site was related to the kind of item to be cached: a higher proportion of hazel than beech nuts was cached in the ground. Oak was used proportionally more, and other species of tree proportionally less for caching than suggested by their abundance, perhaps because oak presented much dead wood which was extensively used for caching. More than 80% of all caches were covered with material from the immediate surroundings of",
+      "journal": "Ornis Svecica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_3676492",
+      "title": "Nuthatch Sitta europaea Demography, Beech Mast, and Territoriality",
+      "year": 1989,
+      "doi": "10.2307/3676492",
+      "abstract": "",
+      "journal": "Ornis Scandinavica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1364160",
+      "title": "Pair-Formation in Birds",
+      "year": 1940,
+      "doi": "10.2307/1364160",
+      "abstract": "There is probably more ignorance concerning pair-formation than there is of any other aspect of bird behavior.This paper attempts to summarize existing knowledge on this subject in order to stimulate further work.I am greatly indebted to Dr. Ernst Mayr and Dr. G. Kingsley Noble for their stimulating discussions with me, and to Dr. Alden H. Miller for seeing the paper through the press, an undertaking which was rendered necessary by the international situation.A review such as the present one involves a large number of references.Papers contributing to the general discussion are cited in the standard way, but if those dealing primarily with a particular species were treated in the same manner, the text would be heavily encumbered with authors' names and years of publication.Hence papers of the latter type are listed at the end of the paper (p.284) under the species concerned and are not referred to elsewhere.While this means a little extra trouble for the reader, it saves considerable s",
+      "journal": "Ornithological Applications",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472926975_0073",
+      "title": "Sitta europaea Linnaeus. Eurasian Nuthatch. Sittelle torchepot",
+      "year": null,
+      "doi": "10.5040/9781472926975.0073",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 16,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "species_id": "gbif_2427018",
+  "gbif_usage_key": 2427018,
+  "scientific_name": "Hyla arborea",
+  "common_name_en": "european treefrog",
+  "common_names": {
+    "en": "european treefrog",
+    "it": "raganella europea",
+    "es": "ranita meridional",
+    "fr": "rainette verte",
+    "de": "europäischer laubfrosch"
+  },
+  "taxonomy": {
+    "class_": "Amphibia",
+    "order_": "Anura",
+    "family": "Hylidae",
+    "genus": "Hyla",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 18,
+    "claim_count": 5,
+    "doi_count": 19,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "European treefrog (Hyla arborea) is a species of Amphibia in the order Anura, family Hylidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/European_tree_frog",
+  "wiki_title": "European_tree_frog",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "advertisement call"
+  ],
+  "contexts": [
+    "chorus",
+    "mate attraction"
+  ],
+  "functions": [
+    "mate attraction",
+    "species recognition"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "advertisement call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "chorus",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "species recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Hyla arborea",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.12775/eq.2019.006",
+      "url": "https://doi.org/10.12775/eq.2019.006",
+      "title": "Effect of anthropogenic noise on call parameters of Hyla arborea (Anura: Hylidae)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1163/1568539x-00003255",
+      "url": "https://doi.org/10.1163/1568539x-00003255",
+      "title": "Traffic noise affects colouration but not calls in the European treefrog (Hyla arborea)",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s00359-014-0923-1",
+      "url": "https://doi.org/10.1007/s00359-014-0923-1",
+      "title": "From uni- to multimodality: towards an integrative view on anuran communication",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1163/000579511x566979",
+      "url": "https://doi.org/10.1163/000579511x566979",
+      "title": "Support for a role of colour vision in mate choice in the nocturnal European treefrog (Hyla arborea)",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0017009",
+      "url": "https://doi.org/10.1371/journal.pone.0017009",
+      "title": "Beaked Whales Respond to Simulated and Actual Navy Sonar",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rsbl.2010.0038",
+      "url": "https://doi.org/10.1098/rsbl.2010.0038",
+      "title": "Hearing is not necessarily believing in nocturnal anurans",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2009.0168",
+      "url": "https://doi.org/10.1098/rspb.2009.0168",
+      "title": "The role of nocturnal vision in mate choice: females prefer conspicuous males in the European tree frog ( <i>Hyla arborea</i> )",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.biocon.2008.05.017",
+      "url": "https://doi.org/10.1016/j.biocon.2008.05.017",
+      "title": "Traffic noise affects communication behaviour in a breeding anuran, Hyla arborea",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0004065",
+      "url": "https://doi.org/10.1371/journal.pone.0004065",
+      "title": "Rapid Acoustic Survey for Biodiversity Appraisal",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1163/15685390252902319",
+      "url": "https://doi.org/10.1163/15685390252902319",
+      "title": "THE VOCAL BEHAVIOUR OF MALE EUROPEAN TREEFROGS (HYLA ARBOREA): IMPLICATIONS FOR INTER- AND INTRASEXUAL SELECTION",
+      "year": 2002,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1092/1b66-44ep-pjh8-gd7k",
+      "url": "https://doi.org/10.1092/1b66-44ep-pjh8-gd7k",
+      "title": "MORPHOLOGICAL INVESTIGATION OF TURKISH TREE FROGS, HYLA ARBOREA AND HYLA SAVIGNYI (ANURA: HYLIDAE)",
+      "year": 2001,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf00311355",
+      "url": "https://doi.org/10.1007/bf00311355",
+      "title": "Die Feinstruktur der Kehlkopfmuskeln des Laubfrosches, Hyla arborea arborea (L.), im Vergleich zu einem Skelettmuskel The fine structure of the laryngeal muscles of the tree frog, Hyla arborea arborea (L.), compared with that of a skeletal muscle",
+      "year": 1973,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf00346477",
+      "url": "https://doi.org/10.1007/bf00346477",
+      "title": "Die steuerung des täglichen rufbeginns beim Laubfrosch, Hyla arborea arborea (L.)",
+      "year": 1971,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf00305704",
+      "url": "https://doi.org/10.1007/bf00305704",
+      "title": "Morphologie des Larynx von Hyla a. arborea (L.) und Hyla meridionalis Boettger (Amphibia, Anura) Morphology of the larynx in Hyla a. arborea (L.) and Hyla meridionalis boettger (Amphibia, Anura)",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1080/00087114.1965.10796165",
+      "url": "https://doi.org/10.1080/00087114.1965.10796165",
+      "title": "Il Corredo Cromosomico di<i>Hyla Arborea Arborea</i>(L.) e di<i>Hyla Regula</i>Baird and Girard: Il Problema dei Cromosomi Sessuali e L'Evoluzione del Cariotipo di<i>Hyla</i>",
+      "year": 1965,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5962/bhl.title.82448",
+      "url": "https://doi.org/10.5962/bhl.title.82448",
+      "title": "The biology of the amphibia /",
+      "year": 1931,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1080/01650521.2019.1663050",
+      "url": "https://doi.org/10.1080/01650521.2019.1663050",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.70675/6eabbfe5zbbe8z4fe8z8760z1e499e7f0186",
+      "url": "https://doi.org/10.70675/6eabbfe5zbbe8z4fe8z8760z1e499e7f0186",
+      "title": "La testostérone, médiateur de l'honnêteté des signaux sexuels chez le mâle Hyla arborea?",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/8b6e3f5dzaac3z47c6z8fd0z83803006436d",
+      "url": "https://doi.org/10.70675/8b6e3f5dzaac3z47c6z8fd0z83803006436d",
+      "title": "Bruit de trafic routier : implications comportementales et écophysiologiques chez la rainette verte Hyla arborea",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_12775_eq_2019_006",
+      "title": "Effect of anthropogenic noise on call parameters of Hyla arborea (Anura: Hylidae)",
+      "year": 2019,
+      "doi": "10.12775/eq.2019.006",
+      "abstract": "",
+      "journal": "Ecological Questions",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_1568539x-00003255",
+      "title": "Traffic noise affects colouration but not calls in the European treefrog (Hyla arborea)",
+      "year": 2015,
+      "doi": "10.1163/1568539x-00003255",
+      "abstract": "In terrestrial habitats, traffic noise is responsible for chronic noise exposure and impacts both signal detection and acoustic signal structure. Several species are known to adapt their call structures to cope with noise. However, compromised hearing affects more than acoustic communication, and noise should be consider as a stress factor that can also alter visual communication in the case of carotenoid-based signals. Here, we experimentally investigated the impact of traffic noise on the expression of secondary sexual signals in the European treefrog, Hyla arborea . Treefrogs use multimodal communication in the sexual selection process (mating calls and vocal sac colouration). We found that treefrogs seem unable to adjust their call structure. Nonetheless, males showed a significant decrease in colouration intensity. Our findings highlight for the first time the negative effect of traffic noise on colour signals. This suggests that anthropogenic noise could affect a wider range of s",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00359-014-0923-1",
+      "title": "From uni- to multimodality: towards an integrative view on anuran communication",
+      "year": 2014,
+      "doi": "10.1007/s00359-014-0923-1",
+      "abstract": "Undeniably, acoustic signals are the predominant mode of communication in frogs and toads. Acoustically active species are found throughout the vast diversity of anuran families. However, additional or alternative signal modalities have gained increasing attention. In several anurans, seismic, visual and chemical communications have convergently evolved due to ecological constraints such as noisy environments. The production of a visual cue, like the inevitably moving vocal sac of acoustically advertising males, is emphasized by conspicuously coloured throats. Limb movements accompanied by dynamic displays of bright colours are additional examples of striking visual signals independent of vocalizations. In some multimodal anuran communication systems, the acoustic component acts as an alert signal, which alters the receiver attention to the following visual display. Recent findings of colourful glands on vocal sacs, producing volatile species-specific scent bouquets suggest the possibi",
+      "journal": "Journal of Comparative Physiology A",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_000579511x566979",
+      "title": "Support for a role of colour vision in mate choice in the nocturnal European treefrog (Hyla arborea)",
+      "year": 2011,
+      "doi": "10.1163/000579511x566979",
+      "abstract": "Although nocturnal anurans use vision for reproductive communication, it remains unknown whether they see colours at night. Here, we explored this question in the European treefrog (Hyla arborea), by conducting two mate choice experiments under controlled light conditions. Experiments involved static male models with identical calls but different vocal sac colouration combining chromatic (red/orange) and brightness (dark/light) information. We found that females preferred dark red over light orange, evidencing for the first time a visually-guided mate choice in nocturnal diffuse light conditions. Conversely, females did not discriminate between dark orange and light red. The preference for dark over light in the first but not in the second experiment suggested that females had not only access to brightness cues but also to chromatic cues. The absence of preference may originate from females choosing at random in a situation where colour and brightness cues may convey contradictory info",
+      "journal": "Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0017009",
+      "title": "Beaked Whales Respond to Simulated and Actual Navy Sonar",
+      "year": 2011,
+      "doi": "10.1371/journal.pone.0017009",
+      "abstract": "Beaked whales have mass stranded during some naval sonar exercises, but the cause is unknown. They are difficult to sight but can reliably be detected by listening for echolocation clicks produced during deep foraging dives. Listening for these clicks, we documented Blainville's beaked whales, Mesoplodon densirostris, in a naval underwater range where sonars are in regular use near Andros Island, Bahamas. An array of bottom-mounted hydrophones can detect beaked whales when they click anywhere within the range. We used two complementary methods to investigate behavioral responses of beaked whales to sonar: an opportunistic approach that monitored whale responses to multi-day naval exercises involving tactical mid-frequency sonars, and an experimental approach using playbacks of simulated sonar and control sounds to whales tagged with a device that records sound, movement, and orientation. Here we show that in both exposure conditions beaked whales stopped echolocating during deep foragi",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsbl_2010_0038",
+      "title": "Hearing is not necessarily believing in nocturnal anurans",
+      "year": 2010,
+      "doi": "10.1098/rsbl.2010.0038",
+      "abstract": "The recent discovery of the use of visual cues for mate choice by nocturnal acoustic species raises the important, and to date unaddressed, question of how these signals affect the outcome of mate choice predicted by female preference for male calls. In order to address this question, we presented female Hyla arborea tree frogs with a series of choices between combinations of acoustic and visual cues of varying quality in nocturnal conditions. While females exhibited the expected preference for a combination of attractive values for visual and acoustic signals over combinations of unattractive values for both signals, when presented with conflicting acoustic and visual cues, they equally adopted one of two strategies, preferring either attractive calls or intense vocal sac coloration. This constitutes novel evidence that the outcome of mate choice, as predicted on the basis of male calling quality, can be drastically different when additional communication modalities--in this case visi",
+      "journal": "Biology Letters",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2009_0168",
+      "title": "The role of nocturnal vision in mate choice: females prefer conspicuous males in the European tree frog ( <i>Hyla arborea</i> )",
+      "year": 2009,
+      "doi": "10.1098/rspb.2009.0168",
+      "abstract": "Nocturnal frog species rely extensively on vocalization for reproduction. But recent studies provide evidence for an important, though long overlooked, role of visual communication. In many species, calling males exhibit a conspicuous pulsing vocal sac, a signal bearing visually important dynamic components. Here, we investigate female preference for male vocal sac coloration-a question hitherto unexplored-and male colour pattern in the European tree frog (Hyla arborea). Under nocturnal conditions, we conducted two-choice experiments involving video playbacks of calling males with identical calls and showing various naturally encountered colour signals, differing in their chromatic and brightness components. We adjusted video colours to match the frogs' visual perception, a crucial aspect not considered in previous experiments. Females prefer males with a colourful sac and a pronounced flank stripe. Both signals probably enhance male conspicuousness and facilitate detection and localiz",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_biocon_2008_05_017",
+      "title": "Traffic noise affects communication behaviour in a breeding anuran, Hyla arborea",
+      "year": 2008,
+      "doi": "10.1016/j.biocon.2008.05.017",
+      "abstract": "",
+      "journal": "Biological Conservation",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0004065",
+      "title": "Rapid Acoustic Survey for Biodiversity Appraisal",
+      "year": 2008,
+      "doi": "10.1371/journal.pone.0004065",
+      "abstract": "Biodiversity assessment remains one of the most difficult challenges encountered by ecologists and conservation biologists. This task is becoming even more urgent with the current increase of habitat loss. Many methods-from rapid biodiversity assessments (RBA) to all-taxa biodiversity inventories (ATBI)-have been developed for decades to estimate local species richness. However, these methods are costly and invasive. Several animals-birds, mammals, amphibians, fishes and arthropods-produce sounds when moving, communicating or sensing their environment. Here we propose a new concept and method to describe biodiversity. We suggest to forego species or morphospecies identification used by ATBI and RBA respectively but rather to tackle the problem at another evolutionary unit, the community level. We also propose that a part of diversity can be estimated and compared through a rapid acoustic analysis of the sound produced by animal communities. We produced alpha and beta diversity indexes ",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_15685390252902319",
+      "title": "THE VOCAL BEHAVIOUR OF MALE EUROPEAN TREEFROGS (HYLA ARBOREA): IMPLICATIONS FOR INTER- AND INTRASEXUAL SELECTION",
+      "year": 2002,
+      "doi": "10.1163/15685390252902319",
+      "abstract": "",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1092_1b66-44ep-pjh8-gd7k",
+      "title": "MORPHOLOGICAL INVESTIGATION OF TURKISH TREE FROGS, HYLA ARBOREA AND HYLA SAVIGNYI (ANURA: HYLIDAE)",
+      "year": 2001,
+      "doi": "10.1092/1b66-44ep-pjh8-gd7k",
+      "abstract": "",
+      "journal": "Israel Journal of Zoology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf00311355",
+      "title": "Die Feinstruktur der Kehlkopfmuskeln des Laubfrosches, Hyla arborea arborea (L.), im Vergleich zu einem Skelettmuskel The fine structure of the laryngeal muscles of the tree frog, Hyla arborea arborea (L.), compared with that of a skeletal muscle",
+      "year": 1973,
+      "doi": "10.1007/bf00311355",
+      "abstract": "",
+      "journal": "Zeitschrift f�r Zellforschung und mikroskopische Anatomie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf00346477",
+      "title": "Die steuerung des täglichen rufbeginns beim Laubfrosch, Hyla arborea arborea (L.)",
+      "year": 1971,
+      "doi": "10.1007/bf00346477",
+      "abstract": "",
+      "journal": "Oecologia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf00305704",
+      "title": "Morphologie des Larynx von Hyla a. arborea (L.) und Hyla meridionalis Boettger (Amphibia, Anura) Morphology of the larynx in Hyla a. arborea (L.) and Hyla meridionalis boettger (Amphibia, Anura)",
+      "year": 1970,
+      "doi": "10.1007/bf00305704",
+      "abstract": "",
+      "journal": "Zeitschrift für Morphologie der Tiere",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_00087114_1965_10796165",
+      "title": "Il Corredo Cromosomico di<i>Hyla Arborea Arborea</i>(L.) e di<i>Hyla Regula</i>Baird and Girard: Il Problema dei Cromosomi Sessuali e L'Evoluzione del Cariotipo di<i>Hyla</i>",
+      "year": 1965,
+      "doi": "10.1080/00087114.1965.10796165",
+      "abstract": "",
+      "journal": "Caryologia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5962_bhl_title_82448",
+      "title": "The biology of the amphibia /",
+      "year": 1931,
+      "doi": "10.5962/bhl.title.82448",
+      "abstract": "THE AMPHIBIA and birds. Further, the embryo as it develops is never sur- rounded by the protective amnion or equipped with a respiratory allantois as in the case of higher vertebrates.",
+      "journal": "McGraw-Hill eBooks",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_6eabbfe5zbbe8z4fe8z8760z1e499e7f0186",
+      "title": "La testostérone, médiateur de l'honnêteté des signaux sexuels chez le mâle Hyla arborea?",
+      "year": null,
+      "doi": "10.70675/6eabbfe5zbbe8z4fe8z8760z1e499e7f0186",
+      "abstract": "<jats:p xml:lang=\"fr\">Chez les mâles, la testostérone joue un rôle important dans l'expression des signaux sexuels attractifs pour la femelle. Cependant, de nombreuses études mettent en évidence l'effet négatif de la testostérone sur les défenses immunitaires ou la résistance aux parasites. Selon l'hypothèse du handicap immunitaire (ICHH, Folstad et Karter, 1992), ce compromis permettrait d'assurer l'honnêteté du signal sexuel ; les mauvais mâles ne pouvant pas exprimer de signaux sexuels de bonne qualité tout en gérant l'immunosuppression due à la testostérone. Ma thèse a pour objectif de définir le rôle de la testostérone dans l'honnêteté des signaux sexuels dans un contexte de communication multimodale. Elle permet également de comprendre les mécanismes physiologiques par lesquels la testostérone module les signaux sexuels acoustiques et visuels chez les mâles Hyla arborea, un amphibien connu pour utiliser ces deux types de signaux pour attirer les femelles. Nos résultats montrent q",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_8b6e3f5dzaac3z47c6z8fd0z83803006436d",
+      "title": "Bruit de trafic routier : implications comportementales et écophysiologiques chez la rainette verte Hyla arborea",
+      "year": null,
+      "doi": "10.70675/8b6e3f5dzaac3z47c6z8fd0z83803006436d",
+      "abstract": "<jats:p xml:lang=\"fr\">Le bruit engendré par le trafic routier est aujourd'hui une des nuisances sonores d'origine anthropique les plus importantes en milieu terrestre. Cette thèse, à l'interface entre comportement et écophysiologie, a eu pour but de déterminer expérimentalement les impacts d'une exposition à du bruit de trafic routier tant sur les systèmes de communication (acoustique et visuelle) que sur la physiologie (stress, immunité…) animale. Le choix de Hyla arborea, espèce utilisant à la fois des signaux acoustiques et colorés pour la communication, nous a permis de tester efficacement nos différentes hypothèses. Alors que chez de nombreuses espèces d'oiseaux des modifications du système de communication acoustique ont été observées (tant chez l'émetteur que le récepteur), mes travaux n'ont pas mis en évidence de telles perturbations chez Hyla arborea. Cependant, et pour la première fois, j'ai pu mettre en évidence un impact du bruit de trafic routier sur la communication visue",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 18,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

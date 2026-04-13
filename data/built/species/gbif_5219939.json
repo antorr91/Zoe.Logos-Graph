@@ -1,0 +1,524 @@
+{
+  "species_id": "gbif_5219939",
+  "gbif_usage_key": 5219939,
+  "scientific_name": "Cervus elaphus",
+  "common_name_en": "red deer",
+  "common_names": {
+    "en": "red deer",
+    "it": "cervo rosso",
+    "es": "ciervo rojo",
+    "fr": "cerf élaphe",
+    "de": "rothirsch"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Artiodactyla",
+    "family": "Cervidae",
+    "genus": "Cervus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 18,
+    "claim_count": 9,
+    "doi_count": 19,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Red deer (Cervus elaphus) is a species of Mammalia in the order Artiodactyla, family Cervidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Red_deer",
+  "wiki_title": "Red_deer",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "bark",
+    "bellow",
+    "roar"
+  ],
+  "contexts": [
+    "alarm",
+    "rutting",
+    "territorial defence"
+  ],
+  "functions": [
+    "mate competition",
+    "predator warning",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "bark",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "bellow",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "roar",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "rutting",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "macaulay",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.20506/rst.39.3.3197",
+      "url": "https://doi.org/10.20506/rst.39.3.3197",
+      "title": "Nasopharyngeal bot flies in red deer (Cervus elaphus) from southern Spain",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32388/i9kjro",
+      "url": "https://doi.org/10.32388/i9kjro",
+      "title": "Cervus elaphus Horn Oil",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.89929",
+      "url": "https://doi.org/10.1079/cabicompendium.89929",
+      "title": "Cervus elaphus hippelaphus",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.89934",
+      "url": "https://doi.org/10.1079/cabicompendium.89934",
+      "title": "Cervus elaphus nannodes",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.89932",
+      "url": "https://doi.org/10.1079/cabicompendium.89932",
+      "title": "Cervus elaphus nelsoni",
+      "year": 2017,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/ncomms12739",
+      "url": "https://doi.org/10.1038/ncomms12739",
+      "title": "The evolution of acoustic size exaggeration in terrestrial mammals",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.15298/rusjtheriol.15.2.03",
+      "url": "https://doi.org/10.15298/rusjtheriol.15.2.03",
+      "title": "Automated monitoring of vocal rutting activity in red deer (Cervus elaphus)",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.mambio.2015.09.002",
+      "url": "https://doi.org/10.1016/j.mambio.2015.09.002",
+      "title": "Sex and age-class differences in calls of Siberian wapiti Cervus elaphus sibiricus",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0063841",
+      "url": "https://doi.org/10.1371/journal.pone.0063841",
+      "title": "Roaring High and Low: Composition and Possible Functions of the Iberian Stag's Vocal Repertoire",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pcbi.1000897",
+      "url": "https://doi.org/10.1371/journal.pcbi.1000897",
+      "title": "A Cervid Vocal Fold Model Suggests Greater Glottal Efficiency in Calling at High Frequencies",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1469-7998.2009.00661.x",
+      "url": "https://doi.org/10.1111/j.1469-7998.2009.00661.x",
+      "title": "The contribution of source–filter theory to mammal vocal communication research",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.017004",
+      "url": "https://doi.org/10.1242/jeb.017004",
+      "title": "Vocal fold elasticity of the Rocky Mountain elk (<i>Cervus elaphus nelsoni</i>) – producing high fundamental frequency vocalization with a very long vocal fold",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0003113",
+      "url": "https://doi.org/10.1371/journal.pone.0003113",
+      "title": "Low Frequency Groans Indicate Larger and More Dominant Fallow Deer (Dama dama) Males",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf02189696",
+      "url": "https://doi.org/10.1007/bf02189696",
+      "title": "Abnormal teeth in the Spanish red deer (Cervus elaphus hispanicus) Zahnanomalien hei spanischen Rothirschen (Cervus elaphus hispanicus) Anomalies dentaires chez le cerf élaphe ibérique (Cervus elaphus hispanicus) Anomalías dentales en el ciervo ibérico (Cervus elaphus hispanicus)",
+      "year": 2002,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.4098/at.arch.89-37",
+      "url": "https://doi.org/10.4098/at.arch.89-37",
+      "title": "Age determination in the red deer ( Cervus elaphus )",
+      "year": 1989,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf00329611",
+      "url": "https://doi.org/10.1007/bf00329611",
+      "title": "Demodikose beim Rothirsch (Cervus elaphus) Demodicoses at a red-deer (Cervus elaphus)",
+      "year": 1972,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1044/jshr.0302.156",
+      "url": "https://doi.org/10.1044/jshr.0302.156",
+      "title": "Vocal Pitch Variation Related to Changes in Vocal Fold Length",
+      "year": 1960,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1044/jshr.0302.157",
+      "url": "https://doi.org/10.1044/jshr.0302.157",
+      "title": "Measurements of the Vocal Folds during Changes in Pitch",
+      "year": 1960,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arh110",
+      "url": "https://doi.org/10.1093/beheco/arh110",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_32388_i9kjro",
+      "title": "Cervus elaphus Horn Oil",
+      "year": 2020,
+      "doi": "10.32388/i9kjro",
+      "abstract": "",
+      "journal": "Definitions",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_20506_rst_39_3_3197",
+      "title": "Nasopharyngeal bot flies in red deer (Cervus elaphus) from southern Spain",
+      "year": 2020,
+      "doi": "10.20506/rst.39.3.3197",
+      "abstract": "",
+      "journal": "Revue Scientifique et Technique de l'OIE",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_89934",
+      "title": "Cervus elaphus nannodes",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.89934",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_89929",
+      "title": "Cervus elaphus hippelaphus",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.89929",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_89932",
+      "title": "Cervus elaphus nelsoni",
+      "year": 2017,
+      "doi": "10.1079/cabicompendium.89932",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_15298_rusjtheriol_15_2_03",
+      "title": "Automated monitoring of vocal rutting activity in red deer (Cervus elaphus)",
+      "year": 2016,
+      "doi": "10.15298/rusjtheriol.15.2.03",
+      "abstract": "",
+      "journal": "Russian Journal of Theriology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_ncomms12739",
+      "title": "The evolution of acoustic size exaggeration in terrestrial mammals",
+      "year": 2016,
+      "doi": "10.1038/ncomms12739",
+      "abstract": "Recent studies have revealed that some mammals possess adaptations that enable them to produce vocal signals with much lower fundamental frequency (F0) and formant frequency spacing (ΔF) than expected for their size. Although these adaptations are assumed to reflect selection pressures for males to lower frequency components and exaggerate body size in reproductive contexts, this hypothesis has not been tested across a broad range of species. Here we show that male terrestrial mammals produce vocal signals with lower ΔF (but not F0) than expected for their size in mating systems with greater sexual size dimorphism. We also reveal that males produce calls with higher than expected F0 and ΔF in species with increased sperm competition. This investigation confirms that sexual selection favours the use of ΔF as an acoustic size exaggerator and supports the notion of an evolutionary trade-off between pre-copulatory signalling displays and sperm production.",
+      "journal": "Nature Communications",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_mambio_2015_09_002",
+      "title": "Sex and age-class differences in calls of Siberian wapiti Cervus elaphus sibiricus",
+      "year": 2015,
+      "doi": "10.1016/j.mambio.2015.09.002",
+      "abstract": "",
+      "journal": "Mammalian Biology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0063841",
+      "title": "Roaring High and Low: Composition and Possible Functions of the Iberian Stag's Vocal Repertoire",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0063841",
+      "abstract": "We provide a detailed description of the rutting vocalisations of free-ranging male Iberian deer (Cervus elaphus hispanicus, Hilzheimer 1909), a geographically isolated and morphologically differentiated subspecies of red deer Cervus elaphus. We combine spectrographic examinations, spectral analyses and automated classifications to identify different call types, and compare the composition of the vocal repertoire with that of other red deer subspecies. Iberian stags give bouts of roars (and more rarely, short series of barks) that are typically composed of two different types of calls. Long Common Roars are mostly given at the beginning or at the end of the bout, and are characterised by a high fundamental frequency (F0) resulting in poorly defined formant frequencies but a relatively high amplitude. In contrast, Short Common Roars are typically given in the middle or at the end of the bout, and are characterised by a lower F0 resulting in relatively well defined vocal tract resonances",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pcbi_1000897",
+      "title": "A Cervid Vocal Fold Model Suggests Greater Glottal Efficiency in Calling at High Frequencies",
+      "year": 2010,
+      "doi": "10.1371/journal.pcbi.1000897",
+      "abstract": "Male Rocky Mountain elk (Cervus elaphus nelsoni) produce loud and high fundamental frequency bugles during the mating season, in contrast to the male European Red Deer (Cervus elaphus scoticus) who produces loud and low fundamental frequency roaring calls. A critical step in understanding vocal communication is to relate sound complexity to anatomy and physiology in a causal manner. Experimentation at the sound source, often difficult in vivo in mammals, is simulated here by a finite element model of the larynx and a wave propagation model of the vocal tract, both based on the morphology and biomechanics of the elk. The model can produce a wide range of fundamental frequencies. Low fundamental frequencies require low vocal fold strain, but large lung pressure and large glottal flow if sound intensity level is to exceed 70 dB at 10 m distance. A high-frequency bugle requires both large muscular effort (to strain the vocal ligament) and high lung pressure (to overcome phonation threshold",
+      "journal": "PLoS Computational Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1469-7998_2009_00661_x",
+      "title": "The contribution of source–filter theory to mammal vocal communication research",
+      "year": 2009,
+      "doi": "10.1111/j.1469-7998.2009.00661.x",
+      "abstract": "The field of animal vocal communication has benefited greatly from improved understanding of vocal production mechanisms and specifically from the generalization of the source-filter theory of speech production to non-human mammals. The application of the source-filter theory has enabled researchers to decompose the acoustic structure of vocal signals according to their mode of production and thereby to predict the acoustic variation that is caused by anatomical or physiological attributes of the caller. The source-filter theory states that vocal signals result from a two-stage production, with the glottal wave generated in the larynx (the source), being subsequently filtered in the supralaryngeal vocal tract (the filter). This theory predicts that independent indexical information such as body size, weight, age and sex can be contained in both the glottal wave (mostly characterized by its fundamental frequency), and the spectral envelope of the radiated vocalization (mostly characteri",
+      "journal": "Journal of Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_017004",
+      "title": "Vocal fold elasticity of the Rocky Mountain elk (<i>Cervus elaphus nelsoni</i>) – producing high fundamental frequency vocalization with a very long vocal fold",
+      "year": 2008,
+      "doi": "10.1242/jeb.017004",
+      "abstract": "<jats:title>SUMMARY</jats:title>\n               <jats:p>The vocal folds of male Rocky Mountain elk (Cervus elaphus nelsoni) are about 3 cm long. If fundamental frequency were to be predicted by a simple vibrating string formula, as is often done for the human larynx, such long vocal folds would bear enormous stress to produce the species-specific mating call with an average fundamental frequency of 1 kHz. Predictions would be closer to 50 Hz. Vocal fold histology revealed the presence of a large vocal ligament between the vocal fold epithelium and the thyroarytenoid muscle. In tensile tests, the stress–strain response of vocal fold epithelium and the vocal ligament were determined. Elasticity of both tissue structures reached quantitative values similar to human tissue. It seems unlikely that the longitudinal stress in elk vocal folds can exceed that in human vocal folds by an order of magnitude to overcome the drop in fundamental frequency due to a 3:1 increase in vocal fold length. A",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0003113",
+      "title": "Low Frequency Groans Indicate Larger and More Dominant Fallow Deer (Dama dama) Males",
+      "year": 2008,
+      "doi": "10.1371/journal.pone.0003113",
+      "abstract": "Our study is the first to show that sexually selected vocalisations can signal social dominance in mammals other than primates, and reveals that independent acoustic components encode accurate information on different phenotypic aspects of male quality.",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf02189696",
+      "title": "Abnormal teeth in the Spanish red deer (Cervus elaphus hispanicus) Zahnanomalien hei spanischen Rothirschen (Cervus elaphus hispanicus) Anomalies dentaires chez le cerf élaphe ibérique (Cervus elaphus hispanicus) Anomalías dentales en el ciervo ibérico (Cervus elaphus hispanicus)",
+      "year": 2002,
+      "doi": "10.1007/bf02189696",
+      "abstract": "",
+      "journal": "Zeitschrift für Jagdwissenschaft",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_4098_at_arch_89-37",
+      "title": "Age determination in the red deer ( Cervus elaphus )",
+      "year": 1989,
+      "doi": "10.4098/at.arch.89-37",
+      "abstract": "",
+      "journal": "Acta Theriologica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf00329611",
+      "title": "Demodikose beim Rothirsch (Cervus elaphus) Demodicoses at a red-deer (Cervus elaphus)",
+      "year": 1972,
+      "doi": "10.1007/bf00329611",
+      "abstract": "",
+      "journal": "Zeitschrift f�r Parasitenkunde",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1044_jshr_0302_156",
+      "title": "Vocal Pitch Variation Related to Changes in Vocal Fold Length",
+      "year": 1960,
+      "doi": "10.1044/jshr.0302.156",
+      "abstract": "No AccessJournal of Speech and Hearing ResearchResearch Article1 Jun 1960Vocal Pitch Variation Related to Changes in Vocal Fold Length Harry Hollien Harry Hollien Google Scholar More articles by this author https://doi.org/10.1044/jshr.0302.156 SectionsAboutPDF ToolsAdd to favoritesDownload CitationTrack Citations ShareFacebookTwitterLinked In Additional Resources FiguresReferencesRelatedDetailsCited by Musicae Scientiae27:1 (70-93)1 Mar 2023Time-of-day practices echo circadian physiological arousal: An enculturated embodied practice in Hindustani classical musicTanushree Agrawal, Daniel Shanahan, David Huron and Hannah Keller Concurrency and Computation: Practice and Experience34:2630 Nov 2022Automated gender‐Parkinson's disease detection at the same time via a hybrid deep model using human voiceDuygu Kaya European Journal of Neurology29:1 (81-90)1 Jan 2022Automated speech analysis in early untreated Parkinson's disease: Relation to gender and dopaminergic transporter imagingJan Rusz,",
+      "journal": "Journal of Speech and Hearing Research",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1044_jshr_0302_157",
+      "title": "Measurements of the Vocal Folds during Changes in Pitch",
+      "year": 1960,
+      "doi": "10.1044/jshr.0302.157",
+      "abstract": "No AccessJournal of Speech and Hearing ResearchResearch Article1 Jun 1960Measurements of the Vocal Folds during Changes in Pitch Harry Hollien, and G. Paul Moore Harry Hollien Google Scholar and G. Paul Moore Google Scholar https://doi.org/10.1044/jshr.0302.157 SectionsAboutPDF ToolsAdd to favoritesDownload CitationTrack Citations ShareFacebookTwitterLinked In Additional Resources FiguresReferencesRelatedDetailsCited by Hearing Research427 (108665)1 Jan 2023Age-related changes in auditory temporal processing assessed using forward maskingParisa Heidari, Ghassem Mohammadkhani, Arash Bayat, Nematollah Rouhbakhsh and Brian C.J. Moore Vibration5:4 (692-710)13 Oct 2022Prediction of Voice Fundamental Frequency and Intensity from Surface Electromyographic Signals of the Face and NeckJennifer M. Vojtech, Claire L. Mitchell, Laura Raiff, Joshua C. Kline and Gianluca De Luca NeuroImage (118326)1 Jun 2021Human larynx motor cortices coordinate respiration for vocal-motor controlMichel Belyk, Rache",
+      "journal": "Journal of Speech and Hearing Research",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 18,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "species_id": "gbif_2489583",
+  "gbif_usage_key": 2489583,
+  "scientific_name": "Tyto alba",
+  "common_name_en": "barn owl",
+  "common_names": {
+    "en": "barn owl",
+    "it": "barbagianni",
+    "es": "lechuza común",
+    "fr": "effraie des clochers",
+    "de": "schleiereule"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Strigiformes",
+    "family": "Tytonidae",
+    "genus": "Tyto",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 6,
+    "doi_count": 18,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Barn owl (Tyto alba) is a species of Aves in the order Strigiformes, family Tytonidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Barn_owl",
+  "wiki_title": "Barn_owl",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "hiss",
+    "screech"
+  ],
+  "contexts": [
+    "contact",
+    "territorial defence"
+  ],
+  "functions": [
+    "pair bond maintenance",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "hiss",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "screech",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "contact",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "pair bond maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Tyto alba",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.2307/jj.6230179.65",
+      "url": "https://doi.org/10.2307/jj.6230179.65",
+      "title": "Barn Owl",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.59517/oc.e198",
+      "url": "https://doi.org/10.59517/oc.e198",
+      "title": "Presas de la lechuza común (Tyto alba) en Jardín, Antioquia, Colombia Prey of the Barn Owl (Tyto alba) in Jardín, Antioquia, Colombia",
+      "year": 2021,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3389/fevo.2019.00351",
+      "url": "https://doi.org/10.3389/fevo.2019.00351",
+      "title": "The Art of Diplomacy in Vocally Negotiating Barn Owl Siblings",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s00265-016-2114-2",
+      "url": "https://doi.org/10.1007/s00265-016-2114-2",
+      "title": "Vocal communication regulates sibling competition over food stock",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2013.04.019",
+      "url": "https://doi.org/10.1016/j.anbehav.2013.04.019",
+      "title": "Barn owls do not interrupt their siblings",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/jeb.12277",
+      "url": "https://doi.org/10.1111/jeb.12277",
+      "title": "Individual vocal signatures in barn owl nestlings: does individual recognition have an adaptive role in sibling vocal competition?",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.55507",
+      "url": "https://doi.org/10.1079/cabicompendium.55507",
+      "title": "Tyto alba (Barn owl)",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s11692-011-9152-5",
+      "url": "https://doi.org/10.1007/s11692-011-9152-5",
+      "title": "Corticosterone Promotes Scramble Competition Over Sibling Negotiation in Barn Owl Nestlings (Tyto alba)",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2010.09.012",
+      "url": "https://doi.org/10.1016/j.anbehav.2010.09.012",
+      "title": "How siblings adjust sib–sib communication and begging signals to each other",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2008.12.004",
+      "url": "https://doi.org/10.1016/j.anbehav.2008.12.004",
+      "title": "Vocal sib–sib interactions: how siblings adjust signalling level to each other",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1600-048x.2008.04472.x",
+      "url": "https://doi.org/10.1111/j.1600-048x.2008.04472.x",
+      "title": "Sib‐sib communication and the risk of prey theft in the barn owl <i>Tyto alba</i>",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf02465519",
+      "url": "https://doi.org/10.1007/bf02465519",
+      "title": "Zur Entwicklung der Tagesrhythmik bei Schleiereulen (Tyto alba) The development of daily rhythmicity in Barn Owls (Tyto alba)",
+      "year": 2003,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5962/bhl.part.10818",
+      "url": "https://doi.org/10.5962/bhl.part.10818",
+      "title": "On various forms of the genus Tyto. Tyto alba and T. longimembris and their subspecies",
+      "year": 1929,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2020.0498",
+      "url": "https://doi.org/10.1098/rspb.2020.0498",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.2307/j.ctt20q1vqp.27",
+      "url": "https://doi.org/10.2307/j.ctt20q1vqp.27",
+      "title": "BARN OWL",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472597175.ch-007",
+      "url": "https://doi.org/10.5040/9781472597175.ch-007",
+      "title": "Barn Owl Tyto Alba",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472927002.0070",
+      "url": "https://doi.org/10.5040/9781472927002.0070",
+      "title": "Tyto alba (Scopoli). Barn Owl. Chouette effraie.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472927040.0304",
+      "url": "https://doi.org/10.5040/9781472927040.0304",
+      "title": "Tyto alba Barn Owl Effraie des clochers",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_2307_jj_6230179_65",
+      "title": "Barn Owl",
+      "year": 2023,
+      "doi": "10.2307/jj.6230179.65",
+      "abstract": "",
+      "journal": "The Birds of Ancient Egypt",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_59517_oc_e198",
+      "title": "Presas de la lechuza común (Tyto alba) en Jardín, Antioquia, Colombia Prey of the Barn Owl (Tyto alba) in Jardín, Antioquia, Colombia",
+      "year": 2021,
+      "doi": "10.59517/oc.e198",
+      "abstract": "<jats:p>Based on the analysis of 52 pellets collected in November 2006, we present a preliminary assessment of the prey taken by Barn Owl (Tyto alba) in Jardín, Antioquia, Colombia. This is the first information available for a high Andean locality in Colombia. Barn owl preyed mainly on vertebrates (80.4%), especially small rodents (36.2%), shrews (21.9%), and frogs (19.1%). Marsupials (2.2%), bats (0.5%) and birds (0.5%) were preyed less often. Undetermined Hemiptera (15.9%) were the most frequent insects in the sample.</jats:p>",
+      "journal": "Ornitología Colombiana",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fevo_2019_00351",
+      "title": "The Art of Diplomacy in Vocally Negotiating Barn Owl Siblings",
+      "year": 2019,
+      "doi": "10.3389/fevo.2019.00351",
+      "abstract": "To resolve conflicts over limited resources, animals often communicate about their motivation to compete. When signals are transient, the resolution of conflicts may be achieved after an interactive process, with each contestant adjusting its signalling level according to the rival’s behaviour. Unfortunately, the importance of the real-time signal adjustment in conflict resolution remains understudied, especially using experimental approaches. Here we developed a novel “automatic interactive playback” that interacts real-time with a live individual. It allowed us to experimentally test the efficacy of different behavioural strategies to dominate conflicts in nestling barn owls (Tyto alba). In this species, nestlings vocally negotiate for priority access to the impending food item in the absence of parents. Two opposite vocal strategies were tested for their prospects of success: under the “matching” vs. “mismatching” strategy, the playback behaves in the same vs. opposed way as the nes",
+      "journal": "Frontiers in Ecology and Evolution",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00265-016-2114-2",
+      "title": "Vocal communication regulates sibling competition over food stock",
+      "year": 2016,
+      "doi": "10.1007/s00265-016-2114-2",
+      "abstract": "",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jeb_12277",
+      "title": "Individual vocal signatures in barn owl nestlings: does individual recognition have an adaptive role in sibling vocal competition?",
+      "year": 2013,
+      "doi": "10.1111/jeb.12277",
+      "abstract": "To compete over limited parental resources, young animals communicate with their parents and siblings by producing honest vocal signals of need. Components of begging calls that are sensitive to food deprivation may honestly signal need, whereas other components may be associated with individual-specific attributes that do not change with time such as identity, sex, absolute age and hierarchy. In a sib-sib communication system where barn owl (Tyto alba) nestlings vocally negotiate priority access to food resources, we show that calls have individual signatures that are used by nestlings to recognize which siblings are motivated to compete, even if most vocalization features vary with hunger level. Nestlings were more identifiable when food-deprived than food-satiated, suggesting that vocal identity is emphasized when the benefit of winning a vocal contest is higher. In broods where siblings interact iteratively, we speculate that individual-specific signature permits siblings to verify",
+      "journal": "Journal of Evolutionary Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2013_04_019",
+      "title": "Barn owls do not interrupt their siblings",
+      "year": 2013,
+      "doi": "10.1016/j.anbehav.2013.04.019",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_55507",
+      "title": "Tyto alba (Barn owl)",
+      "year": 2012,
+      "doi": "10.1079/cabicompendium.55507",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s11692-011-9152-5",
+      "title": "Corticosterone Promotes Scramble Competition Over Sibling Negotiation in Barn Owl Nestlings (Tyto alba)",
+      "year": 2011,
+      "doi": "10.1007/s11692-011-9152-5",
+      "abstract": "",
+      "journal": "Evolutionary Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2010_09_012",
+      "title": "How siblings adjust sib–sib communication and begging signals to each other",
+      "year": 2010,
+      "doi": "10.1016/j.anbehav.2010.09.012",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2008_12_004",
+      "title": "Vocal sib–sib interactions: how siblings adjust signalling level to each other",
+      "year": 2009,
+      "doi": "10.1016/j.anbehav.2008.12.004",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1600-048x_2008_04472_x",
+      "title": "Sib‐sib communication and the risk of prey theft in the barn owl <i>Tyto alba</i>",
+      "year": 2008,
+      "doi": "10.1111/j.1600-048x.2008.04472.x",
+      "abstract": "Conflicts among siblings are widespread and their resolution involves complex physical and communication tools. Observations in the barn owl Tyto alba showed that siblings vocally communicate in the absence of parents to negotiate priority of access to the impending food resources that parents will bring. In the present paper, we hypothesize and provide correlative evidence that after a parent brought a food item to their progeny, sibling competition involves vocal sib‐sib communication. A food item takes a long time to be entirely consumed, and hence siblings continue to compete over prey monopolization even after parents gave a food item to a single offspring. When physical competition is pronounced and thereby the risk of prey theft is high, the individual that received a prey item consumes it in a concealed place. Concomitantly, nestlings vocalize intensely probably to indicate their motivation to siblings to not share their food item, since this vocal behaviour was particularly fr",
+      "journal": "Journal of Avian Biology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf02465519",
+      "title": "Zur Entwicklung der Tagesrhythmik bei Schleiereulen (Tyto alba) The development of daily rhythmicity in Barn Owls (Tyto alba)",
+      "year": 2003,
+      "doi": "10.1007/bf02465519",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5962_bhl_part_10818",
+      "title": "On various forms of the genus Tyto. Tyto alba and T. longimembris and their subspecies",
+      "year": 1929,
+      "doi": "10.5962/bhl.part.10818",
+      "abstract": "",
+      "journal": "Novitates Zoologicae.",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472597175_ch-007",
+      "title": "Barn Owl Tyto Alba",
+      "year": null,
+      "doi": "10.5040/9781472597175.ch-007",
+      "abstract": "",
+      "journal": "Owls of Europe",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_j_ctt20q1vqp_27",
+      "title": "BARN OWL",
+      "year": null,
+      "doi": "10.2307/j.ctt20q1vqp.27",
+      "abstract": "",
+      "journal": "The Raptors of Iowa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472927002_0070",
+      "title": "Tyto alba (Scopoli). Barn Owl. Chouette effraie.",
+      "year": null,
+      "doi": "10.5040/9781472927002.0070",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472927040_0304",
+      "title": "Tyto alba Barn Owl Effraie des clochers",
+      "year": null,
+      "doi": "10.5040/9781472927040.0304",
+      "abstract": "",
+      "journal": "The Birds of Africa : The Malagasy Region",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

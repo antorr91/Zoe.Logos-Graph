@@ -1,0 +1,517 @@
+{
+  "species_id": "gbif_4689635",
+  "gbif_usage_key": 4689635,
+  "scientific_name": "Loxodonta africana",
+  "common_name_en": "african elephant",
+  "common_names": {
+    "en": "african elephant",
+    "it": "elefante africano",
+    "es": "elefante africano",
+    "fr": "éléphant de savane africain",
+    "de": "afrikanischer elefant"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Proboscidea",
+    "family": "Elephantidae",
+    "genus": "Loxodonta",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 11,
+    "doi_count": 18,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "African elephant (Loxodonta africana) is a species of Mammalia in the order Proboscidea, family Elephantidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/African_bush_elephant",
+  "wiki_title": "African_bush_elephant",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "infrasonic call",
+    "rumble",
+    "trumpet"
+  ],
+  "contexts": [
+    "alarm",
+    "bee alarm",
+    "long-distance communication",
+    "social bonding"
+  ],
+  "functions": [
+    "bee avoidance",
+    "contact maintenance",
+    "group coordination",
+    "predator warning"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "infrasonic call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "rumble",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "trumpet",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "bee alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "long-distance communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social bonding",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "bee avoidance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "group coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "macaulay",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1079/cabicompendium.31399",
+      "url": "https://doi.org/10.1079/cabicompendium.31399",
+      "title": "Loxodonta africana",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/mam.12106",
+      "url": "https://doi.org/10.1111/mam.12106",
+      "title": "Social associations and vocal communication in wild and captive male savannah elephants<i>Loxodonta africana</i>",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/j.ctt19b9jmw.42",
+      "url": "https://doi.org/10.2307/j.ctt19b9jmw.42",
+      "title": "African Elephant",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/acprof:oso/9780199583560.003.0007",
+      "url": "https://doi.org/10.1093/acprof:oso/9780199583560.003.0007",
+      "title": "Emotional communication in African elephants (<i>Loxodonta africana</i>)",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3106/041.038.0210",
+      "url": "https://doi.org/10.3106/041.038.0210",
+      "title": "Distribution of Muscle Fibers in Skeletal Muscles of the African Elephant (Loxodonta africana africana)",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/zoo.20251",
+      "url": "https://doi.org/10.1002/zoo.20251",
+      "title": "Vocal communication in African Elephants (<i>Loxodonta africana</i>)",
+      "year": 2010,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1080/09524622.2009.9753603",
+      "url": "https://doi.org/10.1080/09524622.2009.9753603",
+      "title": "INFANT AFRICAN ELEPHANT RUMBLE VOCALIZATIONS VARY ACCORDING TO SOCIAL INTERACTIONS WITH ADULT FEMALES",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1002/zoo.20063",
+      "url": "https://doi.org/10.1002/zoo.20063",
+      "title": "Effects of reproductive and social context on vocal communication in captive female African elephants (Loxodonta africana)",
+      "year": 2005,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/434455a",
+      "url": "https://doi.org/10.1038/434455a",
+      "title": "Elephants are capable of vocal learning",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1121/1.4783860",
+      "url": "https://doi.org/10.1121/1.4783860",
+      "title": "Interactive patterns of vocal communication in African elephant herds (<i>Loxodonta africana</i>)",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1006/anbe.2003.2047",
+      "url": "https://doi.org/10.1006/anbe.2003.2047",
+      "title": "Long-distance communication of acoustic cues to social identity in African elephants",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1006/anbe.2000.1406",
+      "url": "https://doi.org/10.1006/anbe.2000.1406",
+      "title": "Unusually extensive networks of vocal recognition in African elephants",
+      "year": 2000,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.69649/pachyderm.v16i1.761",
+      "url": "https://doi.org/10.69649/pachyderm.v16i1.761",
+      "title": "Number and migration patterns of savanna elephants (Loxodonta africana africana) in northern Cameroon",
+      "year": 1993,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1080/00445096.1970.11447400",
+      "url": "https://doi.org/10.1080/00445096.1970.11447400",
+      "title": "The Epidermis and its Keratinisation in the African Elephant (<i>Loxodonta Africana</i>)",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1073/pnas.1606919113",
+      "url": "https://doi.org/10.1073/pnas.1606919113",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.51415/10321/377",
+      "url": "https://doi.org/10.51415/10321/377",
+      "title": "A homoeopathic drug proving of ivory from the male African elephant (Loxodonta africana) with a subsequent comparison to Lac Loxodonta africana",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/4ca94175z453ez4752z8648z3e9e95ec7a2b",
+      "url": "https://doi.org/10.70675/4ca94175z453ez4752z8648z3e9e95ec7a2b",
+      "title": "Towards a multidimensional indicator of the welfare of African Savanna elephants (Loxodonta africana)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.6260/table-2",
+      "url": "https://doi.org/10.7717/peerj.6260/table-2",
+      "title": "Table 2: Reported dietary mineral recommendations for African elephants (\n                      <i>Loxodonta africana</i>\n                      ).",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1079_cabicompendium_31399",
+      "title": "Loxodonta africana",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.31399",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_mam_12106",
+      "title": "Social associations and vocal communication in wild and captive male savannah elephants<i>Loxodonta africana</i>",
+      "year": 2017,
+      "doi": "10.1111/mam.12106",
+      "abstract": "Abstract Despite growing evidence that males often associate in all‐male groups, there has been no review of male savannah elephant Loxodonta africana social relationships or of the use of vocal communication within these male groups. We assess the evidence for all‐male group formation and for the use of vocal communication by males throughout the savannah elephant range of southern and eastern Africa, as well as in ex‐situ studies of captive animals. We derived data from two quantitative reviews of the published literature, for associations and for vocalisations, respectively. We supplemented these structured reviews with searches for books and of bibliographies. We compiled evidence from 30 studies on associative groups, and found that group size was the most commonly reported variable (mean group size reported 2–4.9; range reported 2–40 when excluding studies that included lone males). We found 22 studies reporting evidence of vocal communication in males. A total of four studies we",
+      "journal": "Mammal Review",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_j_ctt19b9jmw_42",
+      "title": "African Elephant",
+      "year": 2016,
+      "doi": "10.2307/j.ctt19b9jmw.42",
+      "abstract": "",
+      "journal": "Animals of Kruger National Park",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3106_041_038_0210",
+      "title": "Distribution of Muscle Fibers in Skeletal Muscles of the African Elephant (Loxodonta africana africana)",
+      "year": 2013,
+      "doi": "10.3106/041.038.0210",
+      "abstract": "",
+      "journal": "Mammal Study",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_acprof:oso_9780199583560_003_0007",
+      "title": "Emotional communication in African elephants (<i>Loxodonta africana</i>)",
+      "year": 2013,
+      "doi": "10.1093/acprof:oso/9780199583560.003.0007",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>African elephants (Loxodonta africana) are thought by many to experience rich emotional lives. One window into the emotional lives of animals is through an examination of emotion as expressed in the voice. Here I review the evidence for the vocal expression of emotions in African elephants. In doing so, I also speculate as to how complex vocal communication systems in elephants and other animals could have evolved from simple vocal expressions of basic emotions.</jats:p>",
+      "journal": "Evolution of Emotional Communication",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_zoo_20251",
+      "title": "Vocal communication in African Elephants (<i>Loxodonta africana</i>)",
+      "year": 2010,
+      "doi": "10.1002/zoo.20251",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Research on vocal communication in African elephants has increased in recent years, both in the wild and in captivity, providing an opportunity to present a comprehensive review of research related to their vocal behavior. Current data indicate that the vocal repertoire consists of perhaps nine acoustically distinct call types, “rumbles” being the most common and acoustically variable. Large vocal production anatomy is responsible for the low‐frequency nature of rumbles, with fundamental frequencies in the infrasonic range. Additionally, resonant frequencies of rumbles implicate the trunk in addition to the oral cavity in shaping the acoustic structure of rumbles. Long‐distance communication is thought possible because low‐frequency sounds propagate more faithfully than high‐frequency sounds, and elephants respond to rumbles at distances of up to 2.5 km. Elephant ear anatomy appears designed for detecting low frequencies, and experiments demonst",
+      "journal": "Zoo Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_09524622_2009_9753603",
+      "title": "INFANT AFRICAN ELEPHANT RUMBLE VOCALIZATIONS VARY ACCORDING TO SOCIAL INTERACTIONS WITH ADULT FEMALES",
+      "year": 2009,
+      "doi": "10.1080/09524622.2009.9753603",
+      "abstract": "ABSTRACT Research on African elephant (Loxodonta africana) vocal communication has increased in recent years, yet there has been very little data collected on the vocal production of infant African elephants. Vocalizations were recorded from a group of five adult female African elephants and 3 dependent offspring (1 male and 2 female) at Disney's Animal Kingdom, Florida, U.S.A., using custom-designed audio-recording collars worn by the adult females. We measured both source and filter features of infant ‘rumble’ vocalizations made during affiliative social interactions and after cessation of nursing from adult females. Rumble vocalizations produced in the ‘nurse cessation’ context exhibited an upward shift in formant frequency locations, compared to rumbles produced during the ‘affiliation’ context. Additionally, call duration increased and fundamental frequencies decreased after nurse cessations for the male, but both females showed the opposite acoustic response. When infant rumbles ",
+      "journal": "Bioacoustics",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_zoo_20063",
+      "title": "Effects of reproductive and social context on vocal communication in captive female African elephants (Loxodonta africana)",
+      "year": 2005,
+      "doi": "10.1002/zoo.20063",
+      "abstract": "",
+      "journal": "Zoo Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_434455a",
+      "title": "Elephants are capable of vocal learning",
+      "year": 2005,
+      "doi": "10.1038/434455a",
+      "abstract": "",
+      "journal": "Nature",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_4783860",
+      "title": "Interactive patterns of vocal communication in African elephant herds (<i>Loxodonta africana</i>)",
+      "year": 2004,
+      "doi": "10.1121/1.4783860",
+      "abstract": "<jats:p>This study examines the interactive nature of vocalizations produced within African elephant herds during waterhole visits at Etosha National Park, Namibia. The temporal organization and physical characteristics of 1025 vocalizations, documented within 14.8 h of acoustic field recordings, were analyzed using a variety of statistical tests. Temporal distribution analyses indicated that calls were clumped in time (Kologorov–Smirnov, average significant p=0.001&amp;lt;th&amp;gt;58) and the majority of the calls occurred after herds began the process of departing a waterhole (Wilcoxon signed rank, p=0.0012). In addition, 84% of all calls began within 30 s of another call. Based on the analysis of the temporal patterning of calls, a conversational series of vocalizations was defined as calls separated by less than 30 s of silence. The majority of calls in a conversational series are overlapping or contiguous, indicating that multiple elephants are involved in the exchange. A variety",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_2003_2047",
+      "title": "Long-distance communication of acoustic cues to social identity in African elephants",
+      "year": 2003,
+      "doi": "10.1006/anbe.2003.2047",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_2000_1406",
+      "title": "Unusually extensive networks of vocal recognition in African elephants",
+      "year": 2000,
+      "doi": "10.1006/anbe.2000.1406",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_69649_pachyderm_v16i1_761",
+      "title": "Number and migration patterns of savanna elephants (Loxodonta africana africana) in northern Cameroon",
+      "year": 1993,
+      "doi": "10.69649/pachyderm.v16i1.761",
+      "abstract": "<jats:p>The Sudanian region of Cameroon covers about 198,000 sq kms and comprises two major domains; the Sahelian and the Sudanian. The Waza-Logone floodplain, which lies in the sahelian domain, contains about 1100 elephant, one of the largest populations of the this region of west and central Africa.  Waza NP is the core for elephant  migrations in the sahelian region of northern Cameroon. Three subpopulations have been indentified in Waza: one  migrates between the two Parks tending to be in Kalamaloue in the dry season and Waza during the wet season; a second one is resident throughout the year but moves to different habitat areas according to seasons; and, a third uses the southern part of the Park in the dry season and  moves into agricultural areas to the south during the wet season.  Recently an influx of elephants, probably from Chad, brings the number in the Kaele area to over 320. (Tchamba 1995). Populations in Faro, Benoue, Boubandjidah NPs are 60, 540 and 660 giving a total",
+      "journal": "Pachyderm",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_00445096_1970_11447400",
+      "title": "The Epidermis and its Keratinisation in the African Elephant (<i>Loxodonta Africana</i>)",
+      "year": 1970,
+      "doi": "10.1080/00445096.1970.11447400",
+      "abstract": "",
+      "journal": "Zoologica Africana",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_51415_10321_377",
+      "title": "A homoeopathic drug proving of ivory from the male African elephant (Loxodonta africana) with a subsequent comparison to Lac Loxodonta africana",
+      "year": null,
+      "doi": "10.51415/10321/377",
+      "abstract": "<jats:p>Introduction This dissertation entails a homoeopathic proving of ivory from the male African elephant (Loxodonta africana) 30CH with a subsequent comparison to Lac Loxodonta africana. Objectives The primary objective of this proving was to determine the effects of homoeopathically prepared ivory from the male African elephant (Loxodonta africana) in a 30CH dilution and was achieved by administering the remedy to a group of healthy individuals (provers) who will document all symptoms that arise as a result of taking the remedy. These symptoms will be used to identify the therapeutic indications of homoeopathic ivory. With these specific indications being documented the remedy can then be utilized in the sick individual, that present with similar symptoms, to induce a cure. A further objective of this proving is to report any variation that may exist in the comparison of two remedies, namely Lac Loxodonta africana (milk derived from the African elephant) and the remedy used in th",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_6260_table-2",
+      "title": "Table 2: Reported dietary mineral recommendations for African elephants (\n                      <i>Loxodonta africana</i>\n                      ).",
+      "year": null,
+      "doi": "10.7717/peerj.6260/table-2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_4ca94175z453ez4752z8648z3e9e95ec7a2b",
+      "title": "Towards a multidimensional indicator of the welfare of African Savanna elephants (Loxodonta africana)",
+      "year": null,
+      "doi": "10.70675/4ca94175z453ez4752z8648z3e9e95ec7a2b",
+      "abstract": "<jats:title>Vers un indicateur multidimensionnel du bien-être des éléphants d'Afrique de Savane (Loxodonta africana)</jats:title>\n                <jats:p xml:lang=\"fr\">Il existe un gradient de stratégies de gestion de la faune sauvage en Afrique du Sud, démontrant une intensification des méthodes de gestion des populations animales avec la réduction de la taille de l'aire de conservation. Cette approche pose des questions éthiques en terme de bien-être animal. L'éléphant de Savane d'Afrique (Loxodonta africana), autrefois décimé en Afrique du Sud, a été réintroduit dans les aires de conservation donnant lieu à d'une part, une myriade de petites populations sauvages fragmentées et à la hiérarchie sociale souvent incomplète, et d'autre part des populations non contrôlées à la densité devenue très forte, accusées de dommages environnementaux. L'exposition touristique est aussi une caractéristique particulière de ces populations sud-africaines dont les conséquences physiologiques et compor",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

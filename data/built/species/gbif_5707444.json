@@ -1,0 +1,566 @@
+{
+  "species_id": "gbif_5707444",
+  "gbif_usage_key": 5707444,
+  "scientific_name": "Gorilla gorilla",
+  "common_name_en": "western gorilla",
+  "common_names": {
+    "en": "western gorilla",
+    "it": "gorilla occidentale",
+    "es": "gorila occidental",
+    "fr": "gorille de l'ouest",
+    "de": "westlicher gorilla"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Primates",
+    "family": "Hominidae",
+    "genus": "Gorilla",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 20,
+    "claim_count": 9,
+    "doi_count": 21,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Western gorilla (Gorilla gorilla) is a species of Mammalia in the order Primates, family Hominidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Western_gorilla",
+  "wiki_title": "Western_gorilla",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "belch vocalisation",
+    "chest beat",
+    "scream"
+  ],
+  "contexts": [
+    "alarm",
+    "dominance display",
+    "social communication"
+  ],
+  "functions": [
+    "alarm",
+    "social coordination",
+    "status signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "belch vocalisation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "chest beat",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "scream",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "dominance display",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "status signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "macaulay",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1038/s41598-021-86261-8",
+      "url": "https://doi.org/10.1038/s41598-021-86261-8",
+      "title": "Chest beats as an honest signal of body size in male mountain gorillas (Gorilla beringei beringei)",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/brv.12821",
+      "url": "https://doi.org/10.1111/brv.12821",
+      "title": "Social pressure drives “conversational rules” in great apes",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.4324/9781003064541-5",
+      "url": "https://doi.org/10.4324/9781003064541-5",
+      "title": "Gestures in Subadult Gorillas (Gorilla gorilla)",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.81647",
+      "url": "https://doi.org/10.1079/cabicompendium.81647",
+      "title": "Gorilla gorilla",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.81648",
+      "url": "https://doi.org/10.1079/cabicompendium.81648",
+      "title": "Gorilla gorilla beringei",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0144197",
+      "url": "https://doi.org/10.1371/journal.pone.0144197",
+      "title": "Food-Associated Calling in Gorillas (Gorilla g. gorilla) in the Wild",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1002/ajp.22462",
+      "url": "https://doi.org/10.1002/ajp.22462",
+      "title": "Audience effects, but not environmental influences, explain variation in gorilla close distance vocalizations—A test of the acoustic adaptation hypothesis",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.5040/9781350962613",
+      "url": "https://doi.org/10.5040/9781350962613",
+      "title": "Gorilla Pull-Up",
+      "year": 2015,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1163/1568539x-00003175",
+      "url": "https://doi.org/10.1163/1568539x-00003175",
+      "title": "Acoustic structure and variation in mountain and western gorilla close calls: a syntactic approach",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/eth.12122",
+      "url": "https://doi.org/10.1111/eth.12122",
+      "title": "Western Gorilla Vocal Repertoire and Contextual Use of Vocalizations",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.7287/peerj.158v0.1/reviews/1",
+      "url": "https://doi.org/10.7287/peerj.158v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Matching based on biological categories in Orangutans (Pongo abelii) and a Gorilla (Gorilla gorilla gorilla) (v0.1)\"",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7287/peerj.158v0.1/reviews/2",
+      "url": "https://doi.org/10.7287/peerj.158v0.1/reviews/2",
+      "title": "Peer Review #2 of \"Matching based on biological categories in Orangutans (Pongo abelii) and a Gorilla (Gorilla gorilla gorilla) (v0.1)\"",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1037/e685842012-222",
+      "url": "https://doi.org/10.1037/e685842012-222",
+      "title": "Audible Communication Comparison of Western Lowland Gorillas (Gorilla gorilla gorilla) and Virunga Mountain Gorillas (Gorilla beringei beringei)",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7282/t3154gbx",
+      "url": "https://doi.org/10.7282/t3154gbx",
+      "title": "Personality, subjective well-being, and vocal communication in captive male western lowland gorillas",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1037/e604012013-038",
+      "url": "https://doi.org/10.1037/e604012013-038",
+      "title": "Communication Of Where An Event Occurred By A Gorilla (Gorilla gorilla gorilla)",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/ajp.10097",
+      "url": "https://doi.org/10.1002/ajp.10097",
+      "title": "Gestural communication in young gorillas (<i>Gorilla gorilla</i>): Gestural repertoire, learning, and use",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1080/02109395.1989.10821113",
+      "url": "https://doi.org/10.1080/02109395.1989.10821113",
+      "title": "Estudio socio-espacial de las relaciones de afinidad en un grupo de gorilas<i>(Gorilla, gorilla, gorilla)</i>cautivos",
+      "year": 1989,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s00265-011-1252-y",
+      "url": "https://doi.org/10.1007/s00265-011-1252-y",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.25148/etd.fi13101588",
+      "url": "https://doi.org/10.25148/etd.fi13101588",
+      "title": "Mirror self-recognition in a gorilla (gorilla gorilla gorilla)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31274/etd-180810-5367",
+      "url": "https://doi.org/10.31274/etd-180810-5367",
+      "title": "Visitor Effects on Western Lowland Gorillas (Gorilla gorilla gorilla)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472926920.0007",
+      "url": "https://doi.org/10.5040/9781472926920.0007",
+      "title": "Gorilla gorilla Western Gorilla : Fr. Gorille de l’Ouest; Ger. Westlicher Gorilla",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1111_brv_12821",
+      "title": "Social pressure drives “conversational rules” in great apes",
+      "year": 2021,
+      "doi": "10.1111/brv.12821",
+      "abstract": "In the last decade, two hypotheses, one on the evolution of animal vocal communication in general and the other on the origins of human language, have gained ground. The first hypothesis argues that the complexity of communication co-evolved with the complexity of sociality. Species forming larger groups with complex social networks have more elaborate vocal repertoires. The second hypothesis posits that the core of communication is represented not only by what can be expressed by an isolated caller, but also by the way that vocal interactions are structured, language being above all a social act. Primitive forms of conversational rules based on a vocal turn-taking principle are thought to exist in primates. To support and bring together these hypotheses, more comparative studies of socially diverse species at different levels of the primate phylogeny are needed. However, the majority of available studies focus on monkeys, primates that are distant from the human lineage. Great apes re",
+      "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_s41598-021-86261-8",
+      "title": "Chest beats as an honest signal of body size in male mountain gorillas (Gorilla beringei beringei)",
+      "year": 2021,
+      "doi": "10.1038/s41598-021-86261-8",
+      "abstract": "Acoustic signals that reliably indicate body size, which usually determines competitive ability, are of particular interest for understanding how animals assess rivals and choose mates. Whereas body size tends to be negatively associated with formant dispersion in animal vocalizations, non-vocal signals have received little attention. Among the most emblematic sounds in the animal kingdom is the chest beat of gorillas, a non-vocal signal that is thought to be important in intra and inter-sexual competition, yet it is unclear whether it reliably indicates body size. We examined the relationship among body size (back breadth), peak frequency, and three temporal characteristics of the chest beat: duration, number of beats and beat rate from sound recordings of wild adult male mountain gorillas. Using linear mixed models, we found that larger males had significantly lower peak frequencies than smaller ones, but we found no consistent relationship between body size and the temporal characte",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_4324_9781003064541-5",
+      "title": "Gestures in Subadult Gorillas (Gorilla gorilla)",
+      "year": 2020,
+      "doi": "10.4324/9781003064541-5",
+      "abstract": "",
+      "journal": "The Gestural Communication of Apes and Monkeys",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_81647",
+      "title": "Gorilla gorilla",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.81647",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_81648",
+      "title": "Gorilla gorilla beringei",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.81648",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0144197",
+      "title": "Food-Associated Calling in Gorillas (Gorilla g. gorilla) in the Wild",
+      "year": 2016,
+      "doi": "10.1371/journal.pone.0144197",
+      "abstract": "Many nonhuman primates produce food-associated vocalizations upon encountering or ingesting particular food. Concerning the great apes, only food-associated vocalizations of chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) have been studied in detail, providing evidence that these vocalizations can be produced flexibly in relation to a variety of factors, such as the quantity and quality of food and/or the type of audience. Only anecdotal evidence exists of eastern (Gorilla beringei) and western gorillas (Gorilla gorilla) producing food-associated vocalizations, termed SINGING or HUMMING. To enable a better understanding of the context in which these calls are produced, we investigated and compared the vocal behavior of two free-ranging groups of western lowland gorillas (Gorilla g. gorilla) at Mondika, Republic of Congo. Our results show that (a) food-associated call production occurs only during feeding and not in other contexts; (b) calling is not uniformly distributed acros",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781350962613",
+      "title": "Gorilla Pull-Up",
+      "year": 2015,
+      "doi": "10.5040/9781350962613",
+      "abstract": "",
+      "journal": "Gorilla Pull-Up",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_ajp_22462",
+      "title": "Audience effects, but not environmental influences, explain variation in gorilla close distance vocalizations—A test of the acoustic adaptation hypothesis",
+      "year": 2015,
+      "doi": "10.1002/ajp.22462",
+      "abstract": "Close distance vocalizations are an integral part of primate vocal communication. They exhibit large acoustic variation which has been suggested to constitute flexible responses to the highly variable social setting of group living animals. However, a recent study suggested that acoustic variation in close distance calls of baboons may also arise from acoustic adaptations to environmental factors in order to counteract sound degradation. We tested whether the variation in calling rate and acoustic structure of gorilla close distance vocalizations may serve to counteract distorting effects of vegetation during sound propagation. Using focal animal sampling we recorded the vocal behavior of 15 adult individuals living in two groups: one group of western lowland gorillas Gorilla gorilla gorilla and one group of mountain gorillas Gorilla beringei beringei. We considered the distance between the caller and its nearest neighbor as the minimum transmission distance of calls; while vegetation ",
+      "journal": "American Journal of Primatology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_1568539x-00003175",
+      "title": "Acoustic structure and variation in mountain and western gorilla close calls: a syntactic approach",
+      "year": 2014,
+      "doi": "10.1163/1568539x-00003175",
+      "abstract": "Our understanding of the functioning of a species’ vocal repertoire can be greatly improved by investigating acoustic variation and using objective classification schemes based on acoustic structure. Here we used a syntactic approach to investigate the acoustic structure of the gorilla close distance vocalizations (‘close calls’), which remain as yet little understood. We examined 2130 calls of 10 mountain gorillas ( Gorilla beringei beringei ) from Bwindi Impenetrable National Park, Uganda, and 5 western lowland gorillas ( Gorilla gorilla gorilla ) from Bai Hokou, Central African Republic. We segmented calls into units using distinct acoustic features and employed model-based cluster analyses to define the repertoire of unit types. We then examined how unit types were combined into calls. Lastly, we compared unit type use between age–sex classes and the two study groups. We found that the gorilla close calls consist of 5 intergraded acoustic unit types which were flexibly but yet non-",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7287_peerj_158v0_1_reviews_2",
+      "title": "Peer Review #2 of \"Matching based on biological categories in Orangutans (Pongo abelii) and a Gorilla (Gorilla gorilla gorilla) (v0.1)\"",
+      "year": 2013,
+      "doi": "10.7287/peerj.158v0.1/reviews/2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7287_peerj_158v0_1_reviews_1",
+      "title": "Peer Review #1 of \"Matching based on biological categories in Orangutans (Pongo abelii) and a Gorilla (Gorilla gorilla gorilla) (v0.1)\"",
+      "year": 2013,
+      "doi": "10.7287/peerj.158v0.1/reviews/1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_eth_12122",
+      "title": "Western Gorilla Vocal Repertoire and Contextual Use of Vocalizations",
+      "year": 2013,
+      "doi": "10.1111/eth.12122",
+      "abstract": "Abstract Despite considerable interest in the vocal communication of non‐human primates and its possible relevance to theories of language evolution, we know surprisingly little about how vocal communication varies between closely related species inhabiting differing environments. Here, we provide the first quantitative description of the vocal repertoire, calling rates, and call usage in wild western gorillas and compare it to the previous work on mountain gorilla vocal behavior. During 1572 h of focal follows (n = 533), we collected behavioral data on and recorded vocalizations (n = 2163) of eight individuals in one group at M ondika R esearch C enter ( R epublic of C ongo). We supplemented these data with opportunistic recordings of an additional adult male in a second group. We used discriminant function analysis to test how well calls can be categorized by their acoustic structure and used behavioral data to determine the typical usage of western gorilla call types. The vocal repe",
+      "journal": "Ethology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_e685842012-222",
+      "title": "Audible Communication Comparison of Western Lowland Gorillas (Gorilla gorilla gorilla) and Virunga Mountain Gorillas (Gorilla beringei beringei)",
+      "year": 2012,
+      "doi": "10.1037/e685842012-222",
+      "abstract": "",
+      "journal": "PsycEXTRA Dataset",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7282_t3154gbx",
+      "title": "Personality, subjective well-being, and vocal communication in captive male western lowland gorillas",
+      "year": 2011,
+      "doi": "10.7282/t3154gbx",
+      "abstract": "Although there have been studies on the meaning or function of gorilla vocalizations, they have focused on correlations between calls and basic activity states. If gorilla vocalizations, like human speech, provide information that is both semantic and emotional, then we can expect to get a richer understanding of the meaning or function of gorilla vocalizations by looking at the novel association between an individual’s personality and its vocal profile (i.e. the types of calls predominantly given). Personality drives and channels behavior and is therefore a higher level of analysis than basic activity states. Four hypotheses are tested in this dissertation: 1) Personality predicts behavior in captive gorillas; 2) Personality predicts vocal behavior (i.e. the vocal profile) in captive gorillas; 3) Personality predicts subjective well-being in captive gorillas; 4) Subjective well being predicts vocal behavior (i.e. the vocal profile) in captive gorillas. To test these hypotheses, I used",
+      "journal": "Rutgers University Community Repository (Rutgers University)",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_e604012013-038",
+      "title": "Communication Of Where An Event Occurred By A Gorilla (Gorilla gorilla gorilla)",
+      "year": 2004,
+      "doi": "10.1037/e604012013-038",
+      "abstract": "",
+      "journal": "PsycEXTRA Dataset",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_ajp_10097",
+      "title": "Gestural communication in young gorillas (<i>Gorilla gorilla</i>): Gestural repertoire, learning, and use",
+      "year": 2003,
+      "doi": "10.1002/ajp.10097",
+      "abstract": "In the present study we investigated the gestural communication of gorillas (Gorilla gorilla). The subjects were 13 gorillas (1-6 years old) living in two different groups in captivity. Our goal was to compile the gestural repertoire of subadult gorillas, with a special focus on processes of social cognition, including attention to individual and developmental variability, group variability, and flexibility of use. Thirty-three different gestures (six auditory, 11 tactile, and 16 visual gestures) were recorded. We found idiosyncratic gestures, individual differences, and similar degrees of concordance between and within groups, as well as some group-specific gestures. These results provide evidence that ontogenetic ritualization is the main learning process involved, but some form of social learning may also be responsible for the acquisition of special gestures. The present study establishes that gorillas have a multifaceted gestural repertoire, characterized by a great deal of flexib",
+      "journal": "American Journal of Primatology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_02109395_1989_10821113",
+      "title": "Estudio socio-espacial de las relaciones de afinidad en un grupo de gorilas<i>(Gorilla, gorilla, gorilla)</i>cautivos",
+      "year": 1989,
+      "doi": "10.1080/02109395.1989.10821113",
+      "abstract": "",
+      "journal": "Estudios de Psicología",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_25148_etd_fi13101588",
+      "title": "Mirror self-recognition in a gorilla (gorilla gorilla gorilla)",
+      "year": null,
+      "doi": "10.25148/etd.fi13101588",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472926920_0007",
+      "title": "Gorilla gorilla Western Gorilla : Fr. Gorille de l’Ouest; Ger. Westlicher Gorilla",
+      "year": null,
+      "doi": "10.5040/9781472926920.0007",
+      "abstract": "",
+      "journal": "Mammals of Africa : Primates",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31274_etd-180810-5367",
+      "title": "Visitor Effects on Western Lowland Gorillas (Gorilla gorilla gorilla)",
+      "year": null,
+      "doi": "10.31274/etd-180810-5367",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 20,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

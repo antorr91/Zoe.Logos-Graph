@@ -1,0 +1,629 @@
+{
+  "species_id": "gbif_2493633",
+  "gbif_usage_key": 2493633,
+  "scientific_name": "Taeniopygia guttata",
+  "common_name_en": "zebra finch",
+  "common_names": {
+    "en": "zebra finch",
+    "it": "diamante mandarino",
+    "es": "diamante cebra",
+    "fr": "diamant mandarin",
+    "de": "zebrafinke"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Estrildidae",
+    "genus": "Taeniopygia",
+    "gbif_match_confidence": 99,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 24,
+    "claim_count": 7,
+    "doi_count": 24,
+    "media_count": 0
+  },
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Zebra_finch_group.png/330px-Zebra_finch_group.png",
+    "url_full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Zebra_finch_group.png",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons page",
+    "attribution": ""
+  },
+  "summary": "The zebra finches are two species of estrildid finch in the genus Taeniopygia found in Australia and Indonesia. They are seed-eaters that travel in large flocks.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Zebra_finch",
+  "wiki_title": "Zebra_finch",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "plastic song",
+    "song",
+    "subsong"
+  ],
+  "contexts": [
+    "courtship",
+    "vocal learning"
+  ],
+  "functions": [
+    "mate attraction",
+    "social learning"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "plastic song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "subsong",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "vocal learning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social learning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Taeniopygia guttata",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1111/jne.70022/v2/review1",
+      "url": "https://doi.org/10.1111/jne.70022/v2/review1",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jne.70022/v2/review3",
+      "url": "https://doi.org/10.1111/jne.70022/v2/review3",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jne.70022/v1/review1",
+      "url": "https://doi.org/10.1111/jne.70022/v1/review1",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jne.70022/v1/review2",
+      "url": "https://doi.org/10.1111/jne.70022/v1/review2",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jne.70022/v1/review3",
+      "url": "https://doi.org/10.1111/jne.70022/v1/review3",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.62734",
+      "url": "https://doi.org/10.1079/cabicompendium.62734",
+      "title": "Taeniopygia guttata",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.cub.2015.12.037",
+      "url": "https://doi.org/10.1016/j.cub.2015.12.037",
+      "title": "The Forebrain Song System Mediates Predictive Call Timing in Female and Male Zebra Finches",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-015-0933-6",
+      "url": "https://doi.org/10.1007/s10071-015-0933-6",
+      "title": "The vocal repertoire of the domesticated zebra finch: a data-driven approach to decipher the information-bearing acoustic features of communication signals",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1037/a0039646",
+      "url": "https://doi.org/10.1037/a0039646",
+      "title": "A comparison of spontaneous problem-solving abilities in three estrildid finch (Taeniopygia guttata, Lonchura striata var. domestica, Stagonopleura guttata) species.",
+      "year": 2015,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.4197/sci.27-1.4",
+      "url": "https://doi.org/10.4197/sci.27-1.4",
+      "title": "Effect of Thyroxine Treatment on the Testicular Structure of Male Zebra Birds (Taeniopygia guttata) تأثير المعالجة بالثيروكسين على بنية الخصية عند طائر الزيبرا  Taeniopygia Guttata",
+      "year": 2015,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/nature08819",
+      "url": "https://doi.org/10.1038/nature08819",
+      "title": "The genome of a songbird",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pbio.0060062",
+      "url": "https://doi.org/10.1371/journal.pbio.0060062",
+      "title": "Social Context–Induced Song Variation Affects Female Behavior and Gene Expression",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2006.01.020",
+      "url": "https://doi.org/10.1016/j.anbehav.2006.01.020",
+      "title": "Animals can vary signal amplitude with receiver distance: evidence from zebra finch song",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1523/jneurosci.1662-06.2006",
+      "url": "https://doi.org/10.1523/jneurosci.1662-06.2006",
+      "title": "<i>FoxP2</i>Regulation during Undirected Singing in Adult Songbirds",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf02703417",
+      "url": "https://doi.org/10.1007/bf02703417",
+      "title": "Acetylcholinesterase in central vocal control nuclei of the zebra finch (Taeniopygia guttata)",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2003.04.008",
+      "url": "https://doi.org/10.1016/j.anbehav.2003.04.008",
+      "title": "Social mediation of vocal amplitude in a songbird, Taeniopygia guttata",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/nature02645",
+      "url": "https://doi.org/10.1038/nature02645",
+      "title": "Audience drives male songbird response to partner's voice",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1006/anbe.2003.2093",
+      "url": "https://doi.org/10.1006/anbe.2003.2093",
+      "title": "Detection and discrimination of natural calls in masking noise by birds: estimating the active space of a signal",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1037//0735-7036.100.3.248",
+      "url": "https://doi.org/10.1037//0735-7036.100.3.248",
+      "title": "Sexual preferences in zebra finch (Taeniopygia guttata) males raised by two species (Lonchura striata and Taeniopygia guttata): I. A case of double imprinting.",
+      "year": 1986,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1021/pr060428i.s002",
+      "url": "https://doi.org/10.1021/pr060428i.s002",
+      "title": "Proteomic Analyses of Songbird (Zebra Finch; Taeniopygia guttata) Retina",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1021/pr060428i.s003",
+      "url": "https://doi.org/10.1021/pr060428i.s003",
+      "title": "Proteomic Analyses of Songbird (Zebra Finch; Taeniopygia guttata) Retina",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.14264/106757",
+      "url": "https://doi.org/10.14264/106757",
+      "title": "Ecological immunology of the zebra finch (Taeniopygia guttata)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/1598a404z7742z48eaz980fze728e132f5c7",
+      "url": "https://doi.org/10.70675/1598a404z7742z48eaz980fze728e132f5c7",
+      "title": "Rôle de la communication acoustique dans l’organisation des soins biparentaux chez les oiseaux : étude chez le diamant mandarin (Taeniopygia guttata) et la mésange charbonnière (Parus major)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/1bca020ez5f40z46ddz92bcz265cd7598846",
+      "url": "https://doi.org/10.70675/1bca020ez5f40z46ddz92bcz265cd7598846",
+      "title": "Personnalité, stratégies d'approvisionnement et d'appariement chez les Diamants Mandarins (taeniopygia guttata)",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1111_jne_70022_v2_review1",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2025,
+      "doi": "10.1111/jne.70022/v2/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jne_70022_v2_review3",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2025,
+      "doi": "10.1111/jne.70022/v2/review3",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jne_70022_v1_review2",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2024,
+      "doi": "10.1111/jne.70022/v1/review2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jne_70022_v1_review3",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2024,
+      "doi": "10.1111/jne.70022/v1/review3",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jne_70022_v1_review1",
+      "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
+      "year": 2024,
+      "doi": "10.1111/jne.70022/v1/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_62734",
+      "title": "Taeniopygia guttata",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.62734",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_cub_2015_12_037",
+      "title": "The Forebrain Song System Mediates Predictive Call Timing in Female and Male Zebra Finches",
+      "year": 2016,
+      "doi": "10.1016/j.cub.2015.12.037",
+      "abstract": "",
+      "journal": "Current Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_4197_sci_27-1_4",
+      "title": "Effect of Thyroxine Treatment on the Testicular Structure of Male Zebra Birds (Taeniopygia guttata) تأثير المعالجة بالثيروكسين على بنية الخصية عند طائر الزيبرا  Taeniopygia Guttata",
+      "year": 2015,
+      "doi": "10.4197/sci.27-1.4",
+      "abstract": "",
+      "journal": "Journal of King Abdulaziz University-Science",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_a0039646",
+      "title": "A comparison of spontaneous problem-solving abilities in three estrildid finch (Taeniopygia guttata, Lonchura striata var. domestica, Stagonopleura guttata) species.",
+      "year": 2015,
+      "doi": "10.1037/a0039646",
+      "abstract": "",
+      "journal": "Journal of Comparative Psychology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-015-0933-6",
+      "title": "The vocal repertoire of the domesticated zebra finch: a data-driven approach to decipher the information-bearing acoustic features of communication signals",
+      "year": 2015,
+      "doi": "10.1007/s10071-015-0933-6",
+      "abstract": "",
+      "journal": "Animal Cognition",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_nature08819",
+      "title": "The genome of a songbird",
+      "year": 2010,
+      "doi": "10.1038/nature08819",
+      "abstract": "",
+      "journal": "Nature",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pbio_0060062",
+      "title": "Social Context–Induced Song Variation Affects Female Behavior and Gene Expression",
+      "year": 2008,
+      "doi": "10.1371/journal.pbio.0060062",
+      "abstract": "Social cues modulate the performance of communicative behaviors in a range of species, including humans, and such changes can make the communication signal more salient. In songbirds, males use song to attract females, and song organization can differ depending on the audience to which a male sings. For example, male zebra finches (Taeniopygia guttata) change their songs in subtle ways when singing to a female (directed song) compared with when they sing in isolation (undirected song), and some of these changes depend on altered neural activity from a specialized forebrain-basal ganglia circuit, the anterior forebrain pathway (AFP). In particular, variable activity in the AFP during undirected song is thought to actively enable syllable variability, whereas the lower and less-variable AFP firing during directed singing is associated with more stereotyped song. Consequently, directed song has been suggested to reflect a \"performance\" state, and undirected song a form of vocal motor \"exp",
+      "journal": "PLoS Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_1662-06_2006",
+      "title": "<i>FoxP2</i>Regulation during Undirected Singing in Adult Songbirds",
+      "year": 2006,
+      "doi": "10.1523/jneurosci.1662-06.2006",
+      "abstract": "Learned vocal communication, including human speech, is a socially influenced behavior limited to certain animals. This ability requires auditory feedback during vocalization, which allows for on-line evaluation, to achieve the desired vocal output. To date, FOXP2 (forkhead box P2), a transcriptional repressor, is the only molecule directly linked to human speech. Identified FOXP2 mutations cause orofacial dyspraxia accompanied by abnormalities in corticostriatal circuitry controlling voluntary orofacial movements. These observations implicate FOXP2 in the developmental formation of neural circuits used in speech, but whether FOXP2 additionally plays an active role in mature circuitry was unknown. To address this question, we use a songbird, the zebra finch (Taeniopygia guttata), whose learned song and underlying circuitry are well characterized. We show that, when adult males sing, FoxP2 mRNA is acutely downregulated within area X, the specific region of the songbird striatum dedicate",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2006_01_020",
+      "title": "Animals can vary signal amplitude with receiver distance: evidence from zebra finch song",
+      "year": 2006,
+      "doi": "10.1016/j.anbehav.2006.01.020",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2003_04_008",
+      "title": "Social mediation of vocal amplitude in a songbird, Taeniopygia guttata",
+      "year": 2004,
+      "doi": "10.1016/j.anbehav.2003.04.008",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf02703417",
+      "title": "Acetylcholinesterase in central vocal control nuclei of the zebra finch (Taeniopygia guttata)",
+      "year": 2004,
+      "doi": "10.1007/bf02703417",
+      "abstract": "",
+      "journal": "Journal of Biosciences",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_nature02645",
+      "title": "Audience drives male songbird response to partner's voice",
+      "year": 2004,
+      "doi": "10.1038/nature02645",
+      "abstract": "",
+      "journal": "Nature",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_2003_2093",
+      "title": "Detection and discrimination of natural calls in masking noise by birds: estimating the active space of a signal",
+      "year": 2003,
+      "doi": "10.1006/anbe.2003.2093",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037__0735-7036_100_3_248",
+      "title": "Sexual preferences in zebra finch (Taeniopygia guttata) males raised by two species (Lonchura striata and Taeniopygia guttata): I. A case of double imprinting.",
+      "year": 1986,
+      "doi": "10.1037//0735-7036.100.3.248",
+      "abstract": "",
+      "journal": "Journal of Comparative Psychology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_14264_106757",
+      "title": "Ecological immunology of the zebra finch (Taeniopygia guttata)",
+      "year": null,
+      "doi": "10.14264/106757",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_1bca020ez5f40z46ddz92bcz265cd7598846",
+      "title": "Personnalité, stratégies d'approvisionnement et d'appariement chez les Diamants Mandarins (taeniopygia guttata)",
+      "year": null,
+      "doi": "10.70675/1bca020ez5f40z46ddz92bcz265cd7598846",
+      "abstract": "<jats:p xml:lang=\"fr\">En biologie évolutive, la variation phénotypique a longtemps été réduite au substrat sur lequel agissait la sélection naturelle. Toutefois, la constance intra-individuelle et le maintien intra-populationnel de certains comportements conduisirent au milieu des années 90 au développement du concept de personnalité animale, basé sur la caractérisation de traits tels que la néophobie, l’agressivité, les tendances exploratoires ou la prise de risque. De nombreuses études montrent que la personnalité est soumise à la sélection naturelle et est reliée à certaines stratégies biodémographiques, telles que la dispersion ou le comportement anti-prédateur.Les liens entre la personnalité animale et les stratégies d’appariement et d’approvisionnement, deux composantes fondamentales de la vie des organismes, ont pourtant été négligés jusqu’ici. Nous nous sommes donc attachés au cours de cette thèse à déterminer l’influence de la personnalité sur certains comportements sexuels et",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_1598a404z7742z48eaz980fze728e132f5c7",
+      "title": "Rôle de la communication acoustique dans l’organisation des soins biparentaux chez les oiseaux : étude chez le diamant mandarin (Taeniopygia guttata) et la mésange charbonnière (Parus major)",
+      "year": null,
+      "doi": "10.70675/1598a404z7742z48eaz980fze728e132f5c7",
+      "abstract": "<jats:p xml:lang=\"fr\">Les soins biparentaux impliquent que mâles et femelles travaillent ensemble et ajustent leur comportement l’un à l’autre. De nombreuses études théoriques et empiriques se sont intéressées à la façon dont un parent réagit face à une augmentation ou une diminution de l’effort parental de son partenaire. Mais très peu se sont intéressées aux mécanismes qui permettent cet ajustement. C’est chez les oiseaux qu’on trouve le plus d’espèces à soins biparentaux. Parce que ce sont des animaux qui produisent beaucoup de sons, la communication acoustique pourrait jouer un rôle dans l’organisation des soins parentaux. Le but de cette thèse est de contribuer à vérifier cette hypothèse en comparant deux espèces d’oiseaux qui diffèrent dans la façon dont le mâle et la femelle se partagent les soins parentaux. Chez le diamant mandarin, le mâle et la femelle participent tous les deux à l’incubation des oeufs tandis que c’est la femelle seule qui se charge de cette tâche chez la més",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1021_pr060428i_s002",
+      "title": "Proteomic Analyses of Songbird (Zebra Finch; Taeniopygia guttata) Retina",
+      "year": null,
+      "doi": "10.1021/pr060428i.s002",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1021_pr060428i_s003",
+      "title": "Proteomic Analyses of Songbird (Zebra Finch; Taeniopygia guttata) Retina",
+      "year": null,
+      "doi": "10.1021/pr060428i.s003",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 24,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

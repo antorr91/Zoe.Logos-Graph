@@ -1,0 +1,496 @@
+{
+  "species_id": "gbif_2493560",
+  "gbif_usage_key": 2493560,
+  "scientific_name": "Serinus canaria",
+  "common_name_en": "domestic canary",
+  "common_names": {
+    "en": "domestic canary",
+    "it": "canarino domestico",
+    "es": "canario",
+    "fr": "canari domestique",
+    "de": "kanarienvogel"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Fringillidae",
+    "genus": "Serinus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 18,
+    "claim_count": 5,
+    "doi_count": 19,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Domestic canary (Serinus canaria) is a species of Aves in the order Passeriformes, family Fringillidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Domestic_canary",
+  "wiki_title": "Domestic_canary",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "song"
+  ],
+  "contexts": [
+    "courtship",
+    "vocal learning"
+  ],
+  "functions": [
+    "mate attraction",
+    "social learning"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "vocal learning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social learning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Serinus canaria",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1111/jne.13449/v1/review1",
+      "url": "https://doi.org/10.1111/jne.13449/v1/review1",
+      "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jne.13449/v2/review1",
+      "url": "https://doi.org/10.1111/jne.13449/v2/review1",
+      "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jne.13449/v2/review3",
+      "url": "https://doi.org/10.1111/jne.13449/v2/review3",
+      "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2023.02.008",
+      "url": "https://doi.org/10.1016/j.anbehav.2023.02.008",
+      "title": "Prenatal sound experience affects song preferences in male zebra finches",
+      "year": 2023,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.beproc.2022.104818",
+      "url": "https://doi.org/10.1016/j.beproc.2022.104818",
+      "title": "Prosociality and reciprocity according to parental status, communication, and personality in domestic canaries (Serinus canaria)",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/ejn.15552",
+      "url": "https://doi.org/10.1111/ejn.15552",
+      "title": "Neural oscillations are locked to birdsong rhythms in canaries",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.64048",
+      "url": "https://doi.org/10.1079/cabicompendium.64048",
+      "title": "Serinus canaria",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/brv.12160",
+      "url": "https://doi.org/10.1111/brv.12160",
+      "title": "Acoustic sequences in non‐human animals: a tutorial review and prospectus",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.jphysparis.2012.08.004",
+      "url": "https://doi.org/10.1016/j.jphysparis.2012.08.004",
+      "title": "A species-specific view of song representation in a sensorimotor nucleus",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-010-0353-6",
+      "url": "https://doi.org/10.1007/s10071-010-0353-6",
+      "title": "Closed-loop bird–computer interactions: a new method to study the role of bird calls",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pbio.0030164",
+      "url": "https://doi.org/10.1371/journal.pbio.0030164",
+      "title": "The Neural Basis of Birdsong",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1523/jneurosci.4369-03.2004",
+      "url": "https://doi.org/10.1523/jneurosci.4369-03.2004",
+      "title": "<i>FoxP2</i>Expression in Avian Vocal Learners and Non-Learners",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1006/anbe.2003.2093",
+      "url": "https://doi.org/10.1006/anbe.2003.2093",
+      "title": "Detection and discrimination of natural calls in masking noise by birds: estimating the active space of a signal",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf02465520",
+      "url": "https://doi.org/10.1007/bf02465520",
+      "title": "Mate fidelity in a population of Island Canaries (Serinus canaria) in the Madeiran Archipelago Partnertreue bei einer Population von Kanarengirlitzen (Serinus canaria) im Madeira-Archipel",
+      "year": 2003,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.2973-20.2021",
+      "url": "https://doi.org/10.1523/JNEUROSCI.2973-20.2021",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.70675/04b73aa6z3f5dz4b9fz87a7z207bd996ec59",
+      "url": "https://doi.org/10.70675/04b73aa6z3f5dz4b9fz87a7z207bd996ec59",
+      "title": "Plasticité individuelle : influence du statut social et de l’ontogenèse chez le canari domestique, serinus canaria",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/08b563eazbc94z4d0dzb12dz3a2aaed8987b",
+      "url": "https://doi.org/10.70675/08b563eazbc94z4d0dzb12dz3a2aaed8987b",
+      "title": "Causes de la variabilité du choix de partenaire chez les femelles de canaris domestiques Serinus canaria",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/49362b71zaad6z4e35z9a43zb50eb7635202",
+      "url": "https://doi.org/10.70675/49362b71zaad6z4e35z9a43zb50eb7635202",
+      "title": "Discrimination de parentèle et interactions sociales chez le canari domestique, Serinus canaria",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/4fdbec8cz2160z4215z8b8dz7ae9ba86adac",
+      "url": "https://doi.org/10.70675/4fdbec8cz2160z4215z8b8dz7ae9ba86adac",
+      "title": "Les signaux des femelles dans la communication intersexuelle ; études chez le canari domestique, Serinus canaria",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1111_jne_13449_v1_review1",
+      "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
+      "year": 2024,
+      "doi": "10.1111/jne.13449/v1/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jne_13449_v2_review1",
+      "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
+      "year": 2024,
+      "doi": "10.1111/jne.13449/v2/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_jne_13449_v2_review3",
+      "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
+      "year": 2024,
+      "doi": "10.1111/jne.13449/v2/review3",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_beproc_2022_104818",
+      "title": "Prosociality and reciprocity according to parental status, communication, and personality in domestic canaries (Serinus canaria)",
+      "year": 2023,
+      "doi": "10.1016/j.beproc.2022.104818",
+      "abstract": "",
+      "journal": "Behavioural Processes",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2023_02_008",
+      "title": "Prenatal sound experience affects song preferences in male zebra finches",
+      "year": 2023,
+      "doi": "10.1016/j.anbehav.2023.02.008",
+      "abstract": "Songbird vocal learning is a popular model for understanding the evolution of complex communication. When multiple tutors are available, juvenile songbirds prefer to learn vocalizations from some tutors over others, their preferences partly guided by postnatal acoustic experience and social interactions. The potential for prenatal sound to also influence song tutor choice remains largely untested, despite recent evidence that prenatal sound affects other aspects of songbird development. Previously, we showed that Australian zebra finches, Taeniopygia castanotis, learnt more song syllables from nonpaternal tutors if they had previously experienced ‘heat calls’ (parental vocalizations produced at high ambient temperatures) as embryos. This suggests that heat call exposure may trigger changes in offsprings' social behaviour or learning strategy as juveniles, thereby indirectly affecting their song tutor preferences. In this study, we tested this hypothesis by prenatally exposing male zebr",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_ejn_15552",
+      "title": "Neural oscillations are locked to birdsong rhythms in canaries",
+      "year": 2021,
+      "doi": "10.1111/ejn.15552",
+      "abstract": "How vocal communication signals are represented in the cortex is a major challenge for behavioural neuroscience. Beyond a descriptive code, it is relevant to unveil the dynamical mechanism responsible for the neural representation of auditory stimuli. In this work, we report evidence of synchronous neural activity in nucleus HVC, a telencephalic area of canaries (Serinus canaria), in response to auditory playback of the bird's own song. The rhythmic features of canary song allowed us to show that this large-scale synchronization was locked to defined features of the behaviour. We recorded neural activity in a brain region where sensorimotor integration occurs, showing the presence of well-defined oscillations in the local field potentials, which are locked to song rhythm. We also show a correspondence between local field potentials, multiunit activity and single unit activity within the same brain region. Overall, our results show that the rhythmic features of the vocal behaviour are r",
+      "journal": "European Journal of Neuroscience",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_64048",
+      "title": "Serinus canaria",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.64048",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_brv_12160",
+      "title": "Acoustic sequences in non‐human animals: a tutorial review and prospectus",
+      "year": 2014,
+      "doi": "10.1111/brv.12160",
+      "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
+      "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_jphysparis_2012_08_004",
+      "title": "A species-specific view of song representation in a sensorimotor nucleus",
+      "year": 2012,
+      "doi": "10.1016/j.jphysparis.2012.08.004",
+      "abstract": "",
+      "journal": "Journal of Physiology-Paris",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-010-0353-6",
+      "title": "Closed-loop bird–computer interactions: a new method to study the role of bird calls",
+      "year": 2010,
+      "doi": "10.1007/s10071-010-0353-6",
+      "abstract": "",
+      "journal": "Animal Cognition",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pbio_0030164",
+      "title": "The Neural Basis of Birdsong",
+      "year": 2005,
+      "doi": "10.1371/journal.pbio.0030164",
+      "abstract": "Songbirds represent an excellent model system for understanding the neural mechanisms underlying learning.",
+      "journal": "PLoS Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_4369-03_2004",
+      "title": "<i>FoxP2</i>Expression in Avian Vocal Learners and Non-Learners",
+      "year": 2004,
+      "doi": "10.1523/jneurosci.4369-03.2004",
+      "abstract": "Most vertebrates communicate acoustically, but few, among them humans, dolphins and whales, bats, and three orders of birds, learn this trait. FOXP2 is the first gene linked to human speech and has been the target of positive selection during recent primate evolution. To test whether the expression pattern of FOXP2 is consistent with a role in learned vocal communication, we cloned zebra finch FoxP2 and its close relative FoxP1 and compared mRNA and protein distribution in developing and adult brains of a variety of avian vocal learners and non-learners, and a crocodile. We found that the protein sequence of zebra finch FoxP2 is 98% identical with mouse and human FOXP2. In the avian and crocodilian forebrain, FoxP2 was expressed predominantly in the striatum, a basal ganglia brain region affected in patients with FOXP2 mutations. Strikingly, in zebra finches, the striatal nucleus Area X, necessary for vocal learning, expressed more FoxP2 than the surrounding tissue at post-hatch days 3",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf02465520",
+      "title": "Mate fidelity in a population of Island Canaries (Serinus canaria) in the Madeiran Archipelago Partnertreue bei einer Population von Kanarengirlitzen (Serinus canaria) im Madeira-Archipel",
+      "year": 2003,
+      "doi": "10.1007/bf02465520",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_2003_2093",
+      "title": "Detection and discrimination of natural calls in masking noise by birds: estimating the active space of a signal",
+      "year": 2003,
+      "doi": "10.1006/anbe.2003.2093",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_49362b71zaad6z4e35z9a43zb50eb7635202",
+      "title": "Discrimination de parentèle et interactions sociales chez le canari domestique, Serinus canaria",
+      "year": null,
+      "doi": "10.70675/49362b71zaad6z4e35z9a43zb50eb7635202",
+      "abstract": "<jats:p xml:lang=\"fr\">De nombreuses études ont montré que les individus étaient capables de discriminer leurs apparentés. Cette discrimination de parentèle intervient pour les femelles et les mâles dans le choix de partenaire sexuel et pour les mâles dans la défense de leur territoire. L’expérience sociale précoce (familiarité) intervient également dans les interactions sociales. L’objectif de cette thèse est d’étudier la capacité des canaris domestiques à discriminer des individus ayant différents degrés de parenté (frères, cousins et non-apparentés) et ayant des expériences sociales précoces de durée différente. Nos résultats indiquent que lors de rencontres directes, les mâles copulent avec des femelles moins familières et montrent des préférences sexuelles pour des cousines. Ensuite, les femelles montrent un choix et des préférences sexuelles pour des mâles et des chants de mâles avec lesquels elles ont eu une courte expérience sociale précoce. En revanche, le degré de parenté des ",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_08b563eazbc94z4d0dzb12dz3a2aaed8987b",
+      "title": "Causes de la variabilité du choix de partenaire chez les femelles de canaris domestiques Serinus canaria",
+      "year": null,
+      "doi": "10.70675/08b563eazbc94z4d0dzb12dz3a2aaed8987b",
+      "abstract": "<jats:p xml:lang=\"fr\">Le fil conducteur de cette thèse est la variabilité du choix de partenaire chez les femelles de canaris domestiques Serinus canaria. Elle s’articule autours de trois axes. Lors des deux premiers chapitres, les femelles sont exposées à deux types de chants de mâles : un chant A16, hautement attractif et un chant A8, faiblement attractif. Le nombre de Postures de Sollicitation à l’Accouplement (PSA) que prennent les femelles permet de déterminer leur motivation sexuelle (le nombre total de PSA), leur préférence pour un des deux types de chant, ainsi que leur sélectivité (la proportion de PSA pour A16 ramené au nombre total de PSA). Dans le premier chapitre, deux types de traitements ont permis de modifier la condition des femelles. Dans une première expérience, les plumes des ailes de certaines femelles ont été raccourcies et dans une seconde, les deux groupes de femelles ont été nourris avec des régimes alimentaires différents. Les résultats présentés témoignent du",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_04b73aa6z3f5dz4b9fz87a7z207bd996ec59",
+      "title": "Plasticité individuelle : influence du statut social et de l’ontogenèse chez le canari domestique, serinus canaria",
+      "year": null,
+      "doi": "10.70675/04b73aa6z3f5dz4b9fz87a7z207bd996ec59",
+      "abstract": "<jats:p xml:lang=\"fr\">Cette étude a demontré l’influence du statut social sur différentes caractéristiques individuelles telles que le chant, la personnalité ou les capacités cognitives chez le canari domestique commun, Serinus canaria. Celui-ci associé à la familiarité jouent un rôle non négligeable dans les stratégies de fourragement. Il est considéré comme étant un trait de personnalité. L’existence de syndromes comportementaux et l’influence de la photopériode sur les différents traits répétables de personnalité ont également été mis en évidence. L’ontogénèse des individus, à savoir les conditions acousiques de développement a une influence sur les profils comportementaux. Ces derniers semblent liés à la production vocale telle que le chant, ainsi qu’avec les capacités cognitives à savoir l’apprentissage d’une tâche de recherche alimentaire. Le statut social semble également avoir un impact sur la cognition chez les canaris domestiques communs. Néanmoins aucun résultat n’a pu mettr",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_4fdbec8cz2160z4215z8b8dz7ae9ba86adac",
+      "title": "Les signaux des femelles dans la communication intersexuelle ; études chez le canari domestique, Serinus canaria",
+      "year": null,
+      "doi": "10.70675/4fdbec8cz2160z4215z8b8dz7ae9ba86adac",
+      "abstract": "<jats:p xml:lang=\"fr\">Pendant de nombreuses années, les femelles ont été décrites comme passives dans les interactions mâles-femelles et ont parfois été négligées dans les études sur les comportements reproducteurs et la communication animale. Pourtant, il est de plus en plus évident que les comportements des femelles influencent ceux des mâles et que les mâles peuvent ajuster leurs comportements de parades aux comportements des femelles. L’objectif principal de cette thèse est de mieux comprendre les signaux que les femelles émettent lors d’interactions avec un mâle dans un contexte de reproduction chez le canari domestique. L’ensemble de mes résultats montre tout d’abord que les femelles utilisent des signaux de parades visuels et acoustiques, c’est-à-dire des postures de sollicitation à l’accouplement et des trilles-spécifiques de femelles, comme une invitation à s’accoupler, mais qu’elles peuvent aussi les utiliser pour inciter le mâle à parader et l’aider à échantillonner la quali",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 18,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "species_id": "gbif_2440527",
+  "gbif_usage_key": 2440527,
+  "scientific_name": "Phocoena phocoena",
+  "common_name_en": "harbour porpoise",
+  "common_names": {
+    "en": "harbour porpoise",
+    "it": "focena comune",
+    "es": "marsopa común",
+    "fr": "marsouin commun",
+    "de": "schweinswal"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Cetacea",
+    "family": "Phocoenidae",
+    "genus": "Phocoena",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 16,
+    "claim_count": 5,
+    "doi_count": 17,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Harbour porpoise (Phocoena phocoena) is a species of Mammalia in the order Cetacea, family Phocoenidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Harbour_porpoise",
+  "wiki_title": "Harbour_porpoise",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "click"
+  ],
+  "contexts": [
+    "echolocation",
+    "social communication"
+  ],
+  "functions": [
+    "individual recognition",
+    "prey detection"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "click",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "echolocation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "prey detection",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "macaulay",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1079/cabicompendium.69609",
+      "url": "https://doi.org/10.1079/cabicompendium.69609",
+      "title": "Phocoena phocoena",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3389/fmars.2019.00606",
+      "url": "https://doi.org/10.3389/fmars.2019.00606",
+      "title": "The Effects of Ship Noise on Marine Mammals—A Review",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1038/s41598-018-28022-8",
+      "url": "https://doi.org/10.1038/s41598-018-28022-8",
+      "title": "Click communication in wild harbour porpoises (Phocoena phocoena)",
+      "year": 2018,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2017.2314",
+      "url": "https://doi.org/10.1098/rspb.2017.2314",
+      "title": "High rates of vessel noise disrupt foraging in wild harbour porpoises ( <i>Phocoena phocoena</i> )",
+      "year": 2018,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1080/09524622.2015.1023848",
+      "url": "https://doi.org/10.1080/09524622.2015.1023848",
+      "title": "Synthetic communication signals influence wild harbour porpoise (<i>Phocoena phocoena</i>) behaviour",
+      "year": 2015,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1186/2046-9063-10-8",
+      "url": "https://doi.org/10.1186/2046-9063-10-8",
+      "title": "Assessing environmental impacts of offshore wind farms: lessons learned and recommendations for the future",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3354/meps08402",
+      "url": "https://doi.org/10.3354/meps08402",
+      "title": "Acoustic masking in marine ecosystems: intuitions, analysis, and implication",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1644/07-mamm-s-307r.1",
+      "url": "https://doi.org/10.1644/07-mamm-s-307r.1",
+      "title": "Implications for marine mammals of large-scale changes in the marine acoustic environment",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.01327",
+      "url": "https://doi.org/10.1242/jeb.01327",
+      "title": "Biosonar performance of foraging beaked whales (<i>Mesoplodon densirostris</i>)",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/978-1-4615-3406-8_11",
+      "url": "https://doi.org/10.1007/978-1-4615-3406-8_11",
+      "title": "Auditory Brainstem Responses in the Harbor Porpoise (Phocoena Phocoena)",
+      "year": 1992,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/ar.1092210413",
+      "url": "https://doi.org/10.1002/ar.1092210413",
+      "title": "Existence of vocal folds in the larynx of odontoceti (toothed whales)",
+      "year": 1988,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/0.42.1",
+      "url": "https://doi.org/10.2307/0.42.1",
+      "title": "Phocoena phocoena",
+      "year": 1974,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0111807",
+      "url": "https://doi.org/10.1371/journal.pone.0111807",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.31979/etd.bb4q-cksy",
+      "url": "https://doi.org/10.31979/etd.bb4q-cksy",
+      "title": "Distribution, behavior, and food habits of harbor porpoises (Phocoena phocoena) in Monterey Bay",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31979/etd.evkq-q2ff",
+      "url": "https://doi.org/10.31979/etd.evkq-q2ff",
+      "title": "Facial anatomy of the Harbor Porpoise (Phocoena phocoena) and Dall's Porpoise (Phocoenoides dalli)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.46569/20.500.12680/n009w774m",
+      "url": "https://doi.org/10.46569/20.500.12680/n009w774m",
+      "title": "Changes in Harbor Porpoise (Phocoena phocoena) Nutrition During an Ocean Warming Event",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.12284/table-1",
+      "url": "https://doi.org/10.7717/peerj.12284/table-1",
+      "title": "Table 1: Bycatch of harbor porpoise (\n                      <i>Phocoena phocoena</i>\n                      ) per region.",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1079_cabicompendium_69609",
+      "title": "Phocoena phocoena",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.69609",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fmars_2019_00606",
+      "title": "The Effects of Ship Noise on Marine Mammals—A Review",
+      "year": 2019,
+      "doi": "10.3389/fmars.2019.00606",
+      "abstract": "The number of marine watercraft is on the rise-from private boats in coastal areas to commercial ships crossing oceans. A concomitant increase in underwater noise has been reported in several regions around the globe. Given the important role sound plays in the life functions of marine mammals, research on the potential effects of vessel noise has grown-in particular since the year 2000. We provide an overview of this literature, showing that studies have been patchy in terms of their coverage of species, habitats, vessel types, and types of impact investigated. The documented effects include behavioral and acoustic responses, auditory masking, and stress. We identify knowledge gaps: There appears a bias to more easily accessible species (i.e., bottlenose dolphins and humpback whales), whereas there is a paucity of literature addressing vessel noise impacts on river dolphins, even though some of these species experience chronic noise from boats. Similarly, little is known about the pot",
+      "journal": "Frontiers in Marine Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_s41598-018-28022-8",
+      "title": "Click communication in wild harbour porpoises (Phocoena phocoena)",
+      "year": 2018,
+      "doi": "10.1038/s41598-018-28022-8",
+      "abstract": "Social delphinids employ a vocal repertoire of clicks for echolocation and whistles for communication. Conversely, the less social and acoustically cryptic harbour porpoises (Phocoena phocoena) only produce narrow-band high-frequency (NBHF) clicks with properties that appear poorly suited for communication. Nevertheless, these small odontocetes likely mediate social interactions, such as mate choice and mother-calf contact, with sound. Here, we deployed six tags (DTAG3) on wild porpoises in Danish waters for a total of 96 hours to investigate if the patterns and use of stereotyped NBHF click trains are consistent with a communication function. We show that wild porpoises produce frequent (up to 27 • min<sup>-1</sup>), high-repetition rate click series with repetition rates and output levels different from those of foraging buzzes. These sounds are produced in bouts and frequently co-occur with emission of similar sounds by nearby conspecifics, audible on the tags for >10% of the time. ",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2017_2314",
+      "title": "High rates of vessel noise disrupt foraging in wild harbour porpoises ( <i>Phocoena phocoena</i> )",
+      "year": 2018,
+      "doi": "10.1098/rspb.2017.2314",
+      "abstract": "Shipping is the dominant marine anthropogenic noise source in the world's oceans, yet we know little about vessel encounter rates, exposure levels and behavioural reactions for cetaceans in the wild, many of which rely on sound for foraging, communication and social interactions. Here, we used animal-borne acoustic tags to measure vessel noise exposure and foraging efforts in seven harbour porpoises in highly trafficked coastal waters. Tagged porpoises encountered vessel noise 17-89% of the time and occasional high-noise levels coincided with vigorous fluking, bottom diving, interrupted foraging and even cessation of echolocation, leading to significantly fewer prey capture attempts at received levels greater than 96 dB re 1 µPa (16 kHz third-octave). If such exposures occur frequently, porpoises, which have high metabolic requirements, may be unable to compensate energetically with negative long-term fitness consequences. That shipping noise disrupts foraging in the high-frequency-hea",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_09524622_2015_1023848",
+      "title": "Synthetic communication signals influence wild harbour porpoise (<i>Phocoena phocoena</i>) behaviour",
+      "year": 2015,
+      "doi": "10.1080/09524622.2015.1023848",
+      "abstract": "",
+      "journal": "Bioacoustics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1186_2046-9063-10-8",
+      "title": "Assessing environmental impacts of offshore wind farms: lessons learned and recommendations for the future",
+      "year": 2014,
+      "doi": "10.1186/2046-9063-10-8",
+      "abstract": "Offshore wind power provides a valuable source of renewable energy that can help reduce carbon emissions. Technological advances are allowing higher capacity turbines to be installed and in deeper water, but there is still much that is unknown about the effects on the environment. Here we describe the lessons learned based on the recent literature and our experience with assessing impacts of offshore wind developments on marine mammals and seabirds, and make recommendations for future monitoring and assessment as interest in offshore wind energy grows around the world. The four key lessons learned that we discuss are: 1) Identifying the area over which biological effects may occur to inform baseline data collection and determining the connectivity between key populations and proposed wind energy sites, 2) The need to put impacts into a population level context to determine whether they are biologically significant, 3) Measuring responses to wind farm construction and operation to deter",
+      "journal": "Aquatic Biosystems",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3354_meps08402",
+      "title": "Acoustic masking in marine ecosystems: intuitions, analysis, and implication",
+      "year": 2009,
+      "doi": "10.3354/meps08402",
+      "abstract": "Acoustic masking from anthropogenic noise is increasingly being considered as a threat to marine mammals, particularly low-frequency specialists such as baleen whales. Low-frequency ocean noise has increased in recent decades, often in habitats with seasonally resident populations of marine mammals, raising concerns that noise chronically influences life histories of individuals and populations. In contrast to physical harm from intense anthropogenic sources, which can have acute impacts on individuals, masking from chronic noise sources has been difficult to quantify at individual or population levels, and resulting effects have been even more difficult to assess. This paper presents an analytical paradigm to quantify changes in an animal's acoustic communication space as a result of spatial, spectral, and temporal changes in background noise, providing a functional definition of communication masking for free-ranging animals and a metric to quantify the potential for communication ma",
+      "journal": "Marine Ecology Progress Series",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1644_07-mamm-s-307r_1",
+      "title": "Implications for marine mammals of large-scale changes in the marine acoustic environment",
+      "year": 2008,
+      "doi": "10.1644/07-mamm-s-307r.1",
+      "abstract": "Abstract The amount of underwater sound from ship traffic, commercial, research, and military sound sources has increased significantly over the past century. Marine mammals and many other marine animals rely on sound for short- and long-range communication, for orientation, and for locating prey. This reliance has raised concern that elevated sound levels from human sources may interfere with the behavior and physiology of marine animals. The dominant source of human sound in the sea stems from propulsion of ships. Shipping noise centers in the 20- to 200-Hz band. Frequencies this low propagate efficiently in the sea, and shipping has elevated the global deepwater ambient noise 10- to 100-fold in this frequency band. Baleen whales use the same frequency band for some of their communication signals, and concern has been raised that elevated ambient noise may reduce the range over which they can communicate. Marine mammals have a variety of mechanisms to compensate for increased noise, ",
+      "journal": "Journal of Mammalogy",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_01327",
+      "title": "Biosonar performance of foraging beaked whales (<i>Mesoplodon densirostris</i>)",
+      "year": 2005,
+      "doi": "10.1242/jeb.01327",
+      "abstract": "Toothed whales (Cetacea, odontoceti) emit sound pulses to probe their surroundings by active echolocation. Non-invasive, acoustic Dtags were placed on deep-diving Blainville's beaked whales (Mesoplodon densirostris) to record their ultrasonic clicks and the returning echoes from prey items, providing a unique view on how a whale operates its biosonar during foraging in the wild. The process of echolocation during prey capture in this species can be divided into search, approach and terminal phases, as in echolocating bats. The approach phase, defined by the onset of detectable echoes recorded on the tag for click sequences terminated by a buzz, has interclick intervals (ICI) of 300-400 ms. These ICIs are more than a magnitude longer than the decreasing two-way travel time to the targets, showing that ICIs are not given by the two-way-travel times plus a fixed, short lag time. During the approach phase, the received echo energy increases by 10.4(+/-2) dB when the target range is halved,",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-1-4615-3406-8_11",
+      "title": "Auditory Brainstem Responses in the Harbor Porpoise (Phocoena Phocoena)",
+      "year": 1992,
+      "doi": "10.1007/978-1-4615-3406-8_11",
+      "abstract": "",
+      "journal": "Marine Mammal Sensory Systems",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_ar_1092210413",
+      "title": "Existence of vocal folds in the larynx of odontoceti (toothed whales)",
+      "year": 1988,
+      "doi": "10.1002/ar.1092210413",
+      "abstract": "Abstract Odontocetes (toothed whales) vocalize for communication and echolocation. The mechanisms of sound production, however, remain unclear. Their larynx has long been thought to lack vocal folds and, thus, was considered incapable of generating sounds. This study investigates internal anatomy of the odontocete larynx to: 1) describe the morphology of any fold found, 2) determine any structural homologies between these folds and the vocal folds of terrestrial mammals, and 3) assess their possible function in sound production. Larynges of 24 odontocetes representin ten genera ( Delphinus, Stenella, Lagenorhynchus, Tursiops, Grampus, Delphinapterus, Globicephala, Kogia, Mesoplodon , and Phocoena ) were studied post mortem. Nine specimens were cut midsagittally, and the remainder were dorsally opened to reveal internal anatomy. Results show that, contrary to established belief, vocal folds are consistently present. They are not isolated bands or “cords” but appear continuous with the i",
+      "journal": "The Anatomical Record",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_0_42_1",
+      "title": "Phocoena phocoena",
+      "year": 1974,
+      "doi": "10.2307/0.42.1",
+      "abstract": "",
+      "journal": "Mammalian Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31979_etd_evkq-q2ff",
+      "title": "Facial anatomy of the Harbor Porpoise (Phocoena phocoena) and Dall's Porpoise (Phocoenoides dalli)",
+      "year": null,
+      "doi": "10.31979/etd.evkq-q2ff",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_12284_table-1",
+      "title": "Table 1: Bycatch of harbor porpoise (\n                      <i>Phocoena phocoena</i>\n                      ) per region.",
+      "year": null,
+      "doi": "10.7717/peerj.12284/table-1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_46569_20_500_12680_n009w774m",
+      "title": "Changes in Harbor Porpoise (Phocoena phocoena) Nutrition During an Ocean Warming Event",
+      "year": null,
+      "doi": "10.46569/20.500.12680/n009w774m",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31979_etd_bb4q-cksy",
+      "title": "Distribution, behavior, and food habits of harbor porpoises (Phocoena phocoena) in Monterey Bay",
+      "year": null,
+      "doi": "10.31979/etd.bb4q-cksy",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 16,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

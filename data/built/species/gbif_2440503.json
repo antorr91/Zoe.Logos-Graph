@@ -1,0 +1,622 @@
+{
+  "species_id": "gbif_2440503",
+  "gbif_usage_key": 2440503,
+  "scientific_name": "Tursiops truncatus",
+  "common_name_en": "bottlenose dolphin",
+  "common_names": {
+    "en": "bottlenose dolphin",
+    "it": "delfino tursiope",
+    "es": "delfín mular",
+    "fr": "grand dauphin",
+    "de": "großer tümmler"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Cetacea",
+    "family": "Delphinidae",
+    "genus": "Tursiops",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 22,
+    "claim_count": 10,
+    "doi_count": 24,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Bottlenose dolphin (Tursiops truncatus) is a species of Mammalia in the order Cetacea, family Delphinidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin",
+  "wiki_title": "Common_bottlenose_dolphin",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "click",
+    "signature whistle",
+    "whistle"
+  ],
+  "contexts": [
+    "echolocation",
+    "group cohesion",
+    "individual recognition"
+  ],
+  "functions": [
+    "individual identity",
+    "individual identity signalling",
+    "prey detection",
+    "social affiliation"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "click",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "signature whistle",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "whistle",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "echolocation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "group cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "individual identity",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "individual identity signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "prey detection",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social affiliation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "macaulay",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.32416/2500-4379-2025-1-14-19",
+      "url": "https://doi.org/10.32416/2500-4379-2025-1-14-19",
+      "title": "Some anatomical features, tonometry and fundus examination of pacific bottlenose dolphins (Tursiops truncatus)",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.62135/hqqe4209",
+      "url": "https://doi.org/10.62135/hqqe4209",
+      "title": "Dofí mular (Tursiops truncatus)",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.60964",
+      "url": "https://doi.org/10.1079/cabicompendium.60964",
+      "title": "Tursiops truncatus",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/mms.12125",
+      "url": "https://doi.org/10.1111/mms.12125",
+      "title": "Changes in the acoustic behavior of resident bottlenose dolphins near operating vessels",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1578/am.40.2.2014.173",
+      "url": "https://doi.org/10.1578/am.40.2.2014.173",
+      "title": "Passive Acoustic Monitoring of Bottlenose Dolphins (Tursiops truncatus) on the Uruguayan Coast: Vocal Characteristics and Seasonal Cycles",
+      "year": 2014,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s00359-013-0817-7",
+      "url": "https://doi.org/10.1007/s00359-013-0817-7",
+      "title": "Communication in bottlenose dolphins: 50 years of signature whistle research",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1073/pnas.1304459110",
+      "url": "https://doi.org/10.1073/pnas.1304459110",
+      "title": "Bottlenose dolphins can use learned vocal labels to address each other",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10164-010-0259-4",
+      "url": "https://doi.org/10.1007/s10164-010-0259-4",
+      "title": "Vocal exchanges of signature whistles in bottlenose dolphins (Tursiops truncatus)",
+      "year": 2011,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.mambio.2010.06.006",
+      "url": "https://doi.org/10.1016/j.mambio.2010.06.006",
+      "title": "Whistle characteristics in free-ranging bottlenose dolphins (Tursiops truncatus) in the Mediterranean Sea: Influence of behaviour",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1037/0735-7036.122.3.305",
+      "url": "https://doi.org/10.1037/0735-7036.122.3.305",
+      "title": "Whistle rates of wild bottlenose dolphins (Tursiops truncatus): Influences of group size and behavior.",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.47536/jcrm.v2i3.504",
+      "url": "https://doi.org/10.47536/jcrm.v2i3.504",
+      "title": "Bottlenose dolphins (Tursiops truncatus) increase whistling in the presence of ‘swim-with-dolphin’ tour operations",
+      "year": 2000,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1006/anbe.1998.1000",
+      "url": "https://doi.org/10.1006/anbe.1998.1000",
+      "title": "Quantitative tools for comparing animal communication systems: information theory applied to bottlenose dolphin whistle repertoires",
+      "year": 1999,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/jhered/90.1.228",
+      "url": "https://doi.org/10.1093/jhered/90.1.228",
+      "title": "Brief communication. Microsatellite diversity in captive bottlenose dolphins (Tursiops truncatus)",
+      "year": 1999,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1575/1912/4744",
+      "url": "https://doi.org/10.1575/1912/4744",
+      "title": "Techniques for studying vocal learning in bottlenose dolphins, Tursiops truncatus",
+      "year": 1999,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1037/0735-7036.107.3.301",
+      "url": "https://doi.org/10.1037/0735-7036.107.3.301",
+      "title": "Spontaneous vocal mimicry and production by bottlenose dolphins (Tursiops truncatus): Evidence for vocal learning.",
+      "year": 1993,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-1-4899-0858-2_42",
+      "url": "https://doi.org/10.1007/978-1-4899-0858-2_42",
+      "title": "Organization of Communication System in Tursiops Truncatus Montagu",
+      "year": 1990,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1126/science.147.3655.300",
+      "url": "https://doi.org/10.1126/science.147.3655.300",
+      "title": "Vocal Mimicry in <i>Tursiops</i> : Ability to Match Numbers and Durations of Human Vocal Bursts",
+      "year": 1965,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1021/acs.jproteome.5c00718.s002",
+      "url": "https://doi.org/10.1021/acs.jproteome.5c00718.s002",
+      "title": "Proteomic Characterization of Bottlenose Dolphin (Tursiops truncatus) Urine",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/nature04828",
+      "url": "https://doi.org/10.1038/nature04828",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.1098/rspb.2006.3517",
+      "url": "https://doi.org/10.1098/rspb.2006.3517",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.23860/diss-1631",
+      "url": "https://doi.org/10.23860/diss-1631",
+      "title": "BOTTLENOSE DOLPHINS (TURSIOPS TRUNCATUS) IN BULL CREEK, SOUTH CAROLINA",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31979/etd.avbn-sgz6",
+      "url": "https://doi.org/10.31979/etd.avbn-sgz6",
+      "title": "Pacific coast bottlenose dophins (Tursiops truncatus gilli) in Monterey Bay, California",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.58837/chula.the.2003.1725",
+      "url": "https://doi.org/10.58837/chula.the.2003.1725",
+      "title": "การประยุกต์ใช้เทคนิค indirect ELISA ในการวินิจฉัยโรคเมลิออยโดซิสในโลมาปากขวด (Tursiops truncatus)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/9d884599za28cz4e29z9206z92a488fcd019",
+      "url": "https://doi.org/10.70675/9d884599za28cz4e29z9206z92a488fcd019",
+      "title": "Acoustic Communication and Social Behavior in Bottlenose Dolphins (Tursiops truncatus)",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_32416_2500-4379-2025-1-14-19",
+      "title": "Some anatomical features, tonometry and fundus examination of pacific bottlenose dolphins (Tursiops truncatus)",
+      "year": 2025,
+      "doi": "10.32416/2500-4379-2025-1-14-19",
+      "abstract": "<jats:p>Sensory systems of dolphins have been studied for a long time, but their visual system is extremely insufficiently described. In the clinical veterinary ophthalmology in cetaceans there are no protocols for tonometric examinations of the eyes of toothed whales, and the understanding of how to prevent eye diseases affecting dolphins under human care (or wild individuals undergoing rehabilitation) is extremely limited.\r\nThe aim of the work is to consider the anatomical features of cetacean eyes, as well as to introduce tonometric data and fundus examination in dolphins into the practice of routine veterinary examinations, which in the future may provide preventive detection of ophthalmological pathologies.\r\nThe fundus of four Pacific bottlenose dolphins (Tursiops truncatus) kept in artificial conditions were examined using a portable and mobile fundus camera Optomed Smartscope PRO, and their intraocular pressure was measured using a veterinary tonometer TONOVET Plus. The obtained",
+      "journal": "Russian veterinary journal",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_62135_hqqe4209",
+      "title": "Dofí mular (Tursiops truncatus)",
+      "year": 2022,
+      "doi": "10.62135/hqqe4209",
+      "abstract": "<jats:p>El dofí mular és el cetaci més costaner de la Mediterrània. És un animal que, de manera habitual, es pot albirar des de la costa, especialment durant els mesos d’hivern, en què s’hi aproxima més. No és estrany que entri dins ports i badies tancades. Tot i això, aquesta alta freqüència d’albiraments no està lligada a una població nombrosa, que s’ha estimat en devers 700 exemplars a la primavera i 1.300 a la tardor.1 En general, viu en petits grups molt dinàmics, caracteritzats per la dinàmica de fusió-fissió d’individus.</jats:p>",
+      "journal": "Informe Mar Balear",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_60964",
+      "title": "Tursiops truncatus",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.60964",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1578_am_40_2_2014_173",
+      "title": "Passive Acoustic Monitoring of Bottlenose Dolphins (Tursiops truncatus) on the Uruguayan Coast: Vocal Characteristics and Seasonal Cycles",
+      "year": 2014,
+      "doi": "10.1578/am.40.2.2014.173",
+      "abstract": "",
+      "journal": "Aquatic Mammals",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_mms_12125",
+      "title": "Changes in the acoustic behavior of resident bottlenose dolphins near operating vessels",
+      "year": 2014,
+      "doi": "10.1111/mms.12125",
+      "abstract": "Abstract Maritime traffic is an issue of major ecological concern, and vessel noise may be an important source of disturbance for coastal cetaceans. In the Sado estuary, Portugal, core habitat areas of a small resident population of bottlenose dolphins ( Tursiops truncatus ) overlap with routes of intense maritime traffic, which presents an opportunity to assess vocal responses of these dolphins to specific vessel noise sources. Field recordings of dolphin vocalizations were made from April to November 2011, using a calibrated system. Dolphin behavior and group size were recorded, as well as the operating boat condition (no boats or specific boat type) in a 1,000 m radius. Spectral analyses of vocalizations allowed the categorization and quantitative analysis of echolocation click trains and social calls, including whistles. Mean overall call rates decreased significantly in the presence of operating vessels. Creaks (fast click trains) were significantly reduced in the presence of ferr",
+      "journal": "Marine Mammal Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00359-013-0817-7",
+      "title": "Communication in bottlenose dolphins: 50 years of signature whistle research",
+      "year": 2013,
+      "doi": "10.1007/s00359-013-0817-7",
+      "abstract": "",
+      "journal": "Journal of Comparative Physiology A",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1073_pnas_1304459110",
+      "title": "Bottlenose dolphins can use learned vocal labels to address each other",
+      "year": 2013,
+      "doi": "10.1073/pnas.1304459110",
+      "abstract": "In animal communication research, vocal labeling refers to incidents in which an animal consistently uses a specific acoustic signal when presented with a specific object or class of objects. Labeling with learned signals is a foundation of human language but is notably rare in nonhuman communication systems. In natural animal systems, labeling often occurs with signals that are not influenced by learning, such as in alarm and food calling. There is a suggestion, however, that some species use learned signals to label conspecific individuals in their own communication system when mimicking individually distinctive calls. Bottlenose dolphins (Tursiops truncatus) are a promising animal for exploration in this area because they are capable of vocal production learning and can learn to use arbitrary signals to report the presence or absence of objects. Bottlenose dolphins develop their own unique identity signal, the signature whistle. This whistle encodes individual identity independently",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10164-010-0259-4",
+      "title": "Vocal exchanges of signature whistles in bottlenose dolphins (Tursiops truncatus)",
+      "year": 2011,
+      "doi": "10.1007/s10164-010-0259-4",
+      "abstract": "",
+      "journal": "Journal of Ethology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_mambio_2010_06_006",
+      "title": "Whistle characteristics in free-ranging bottlenose dolphins (Tursiops truncatus) in the Mediterranean Sea: Influence of behaviour",
+      "year": 2010,
+      "doi": "10.1016/j.mambio.2010.06.006",
+      "abstract": "",
+      "journal": "Mammalian Biology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_0735-7036_122_3_305",
+      "title": "Whistle rates of wild bottlenose dolphins (Tursiops truncatus): Influences of group size and behavior.",
+      "year": 2008,
+      "doi": "10.1037/0735-7036.122.3.305",
+      "abstract": "In large social groups acoustic communication signals are prone to signal masking by conspecific sounds. Bottlenose dolphins (Tursiops truncatus) use highly distinctive signature whistles that counter masking effects. However, they can be found in very large groups where masking by conspecific sounds may become unavoidable. In this study we used passive acoustic localization to investigate how whistle rates of wild bottlenose dolphins change in relation to group size and behavioral context. We found that individual whistle rates decreased when group sizes got larger. Dolphins displayed higher whistle rates in contexts when group members were more dispersed as in socializing and in nonpolarized movement than during coordinated surface travel. Using acoustic localization showed that many whistles were produced by groups nearby and not by our focal group. Thus, previous studies based on single hydrophone recordings may have been overestimating whistle rates. Our results show that although",
+      "journal": "Journal of comparative psychology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_47536_jcrm_v2i3_504",
+      "title": "Bottlenose dolphins (Tursiops truncatus) increase whistling in the presence of ‘swim-with-dolphin’ tour operations",
+      "year": 2000,
+      "doi": "10.47536/jcrm.v2i3.504",
+      "abstract": "The impact of cetacean eco-tourism on subject animals is not clearly understood. Studies that monitor this impact have traditionally concentrated on observable surface behaviour despite the fact that sound is the primary communication channel for cetaceans. This study monitored whistle production in free ranging bottlenose dolphins (Tursiops truncatus) to evaluate if dolphins vocalise at different rates in response to commercial dolphin-swim boats. Thirty-two hours of sound were recorded in the austral spring and summer of 1995/96. Results indicate that whistle production is significantly greater in the presence of commercial dolphin swim boats, regardless of dolphins’ behavioural state prior to the arrival of the vessels. The increase in whistle production suggests that group cohesion may be affected during approaches made by commercial dolphin swim tour-operators or may serve some other social function. Monitoring vocal behaviour offers another insight into short-term human impacts o",
+      "journal": "The journal of cetacean research and management. Special issue",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1575_1912_4744",
+      "title": "Techniques for studying vocal learning in bottlenose dolphins, Tursiops truncatus",
+      "year": 1999,
+      "doi": "10.1575/1912/4744",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_jhered_90_1_228",
+      "title": "Brief communication. Microsatellite diversity in captive bottlenose dolphins (Tursiops truncatus)",
+      "year": 1999,
+      "doi": "10.1093/jhered/90.1.228",
+      "abstract": "",
+      "journal": "Journal of Heredity",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_1998_1000",
+      "title": "Quantitative tools for comparing animal communication systems: information theory applied to bottlenose dolphin whistle repertoires",
+      "year": 1999,
+      "doi": "10.1006/anbe.1998.1000",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_0735-7036_107_3_301",
+      "title": "Spontaneous vocal mimicry and production by bottlenose dolphins (Tursiops truncatus): Evidence for vocal learning.",
+      "year": 1993,
+      "doi": "10.1037/0735-7036.107.3.301",
+      "abstract": "",
+      "journal": "Journal of Comparative Psychology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-1-4899-0858-2_42",
+      "title": "Organization of Communication System in Tursiops Truncatus Montagu",
+      "year": 1990,
+      "doi": "10.1007/978-1-4899-0858-2_42",
+      "abstract": "",
+      "journal": "Sensory Abilities of Cetaceans",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1126_science_147_3655_300",
+      "title": "Vocal Mimicry in <i>Tursiops</i> : Ability to Match Numbers and Durations of Human Vocal Bursts",
+      "year": 1965,
+      "doi": "10.1126/science.147.3655.300",
+      "abstract": "In addition to its normal underwater sonic communication path, the dolphin (Tursiops truncatus) can be trained to emit sounds from the blow-hole opened in air. By proper rewarding (positive reinforcement) and evocative techniques, such vocal emissions can be changed from the natural patterns. One such group of new sounds is said to resemble the human voice (\"vocal mimicry\"). Apects of these sounds which are physically determinable, specifiable, and demonstrable are the similarities in numbers of bursts of sound emitted by man and dolphin and in durations of successive emissions. In 92 percent of the exchanges the number of bursts emitted by Tursiops equalled, +/-1, the number just previously emitted by a man in sequences of one to ten bursts.",
+      "journal": "Science",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_58837_chula_the_2003_1725",
+      "title": "การประยุกต์ใช้เทคนิค indirect ELISA ในการวินิจฉัยโรคเมลิออยโดซิสในโลมาปากขวด (Tursiops truncatus)",
+      "year": null,
+      "doi": "10.58837/chula.the.2003.1725",
+      "abstract": "<jats:p>การทดลองครั้งนี้ได้ทำการศึกษาเปรียบเทียบคุณสมบัติต่างๆ ของเชื้อ Burkholderia pseudomallei ที่แยกได้จากเลือดผู้ป่วยในประเทศไทย และเลือดโลมาปากขวดที่ป่วยในเกาะฮ่องกง เพื่อนำเทคนิค indirect ELISA ที่ถูกพัฒนาขึ้นเพื่อการวินิจฉัยโรคเมลิออยโดซิสในมนุษย์ นำมาประยุกต์ในโลมาปากขวด สิ่งที่ศึกษา ได้แก่คุณสมบัติทางชีวเคมีของเชื้อโดยใช้ API 20NE พบว่า เชื้อที่แยกได้จากผู้ป่วยและโลมามีคุณสมบัติเหมือนกัน ผลการศึกษาองค์ประกอบโปรตีนของเชื้อด้วยวิธี SDS-PAGE พบว่าเชื้อทั้งสองมีองค์ประกอบโปรตีนเหมือนกัน ผลการศึกษาการมี 200 kDa Exopolysaccharide (EPS) ของเชื้อด้วยวิธี Western blot พบว่าเชื้อทั้งสองมี 200 kDa EPS เหมือนกัน เมื่อทำการสกัดแยก 200 kDa EPS ด้วยวิธี Affinity purified chromatography โดยใช้ MAb 5F8 เปรียบเทียบกับ MAb 4B11แล้วนำมาประยุกต์ใช้วิธีindirect ELISAเพื่อวัดระดับ IgG พบว่าการใช้แอนติเจนที่สกัดโดย MAb ทั้ง 2 ชนิดให้ผลเหมือนกันคือ มี sensitivity ที่ดีที่สุดเท่ากับ 75% ที่เวลา 1 เดือนหลังโลมาแสดงอาการป่วยในโลมากลุ่ม positive และ 75% ที่เวลา 2 สัปดาห์หลังโลมาแสดงอาการป่วยในโลมากลุ่ม s",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_23860_diss-1631",
+      "title": "BOTTLENOSE DOLPHINS (TURSIOPS TRUNCATUS) IN BULL CREEK, SOUTH CAROLINA",
+      "year": null,
+      "doi": "10.23860/diss-1631",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_9d884599za28cz4e29z9206z92a488fcd019",
+      "title": "Acoustic Communication and Social Behavior in Bottlenose Dolphins (Tursiops truncatus)",
+      "year": null,
+      "doi": "10.70675/9d884599za28cz4e29z9206z92a488fcd019",
+      "abstract": "<jats:title>Communication acoustique et comportement social chez les grands dauphins (Tursiops truncatus)</jats:title>\n                <jats:p xml:lang=\"fr\">Les grands dauphins sont des cétacés sociaux qui se servent principalement du canal acoustique pour communiquer sur de longues distances ou dans des habitats dont la visibilité est limitée. Il y a un manque général d’information concernant l’utilisation de cettecommunication acoustique au sein de son groupe social. Cependant, la production vocale des grands dauphins comprend des sifflements, des clics et des sons pulsés en rafale, avec certains sifflements appelés « signatures sifflées » qui pourraient être utilisés pour s’adresser les uns aux autres. Au cours de cette thèse, nous avons développé un système facilement déployable qui identifie l'animal produisant le son et permet des observations comportementales sous-marines simultanées. Nous avons testé cette méthodologie avec des grands dauphins en liberté et en captivité. La pré",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1021_acs_jproteome_5c00718_s002",
+      "title": "Proteomic Characterization of Bottlenose Dolphin (Tursiops truncatus) Urine",
+      "year": null,
+      "doi": "10.1021/acs.jproteome.5c00718.s002",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31979_etd_avbn-sgz6",
+      "title": "Pacific coast bottlenose dophins (Tursiops truncatus gilli) in Monterey Bay, California",
+      "year": null,
+      "doi": "10.31979/etd.avbn-sgz6",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 22,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

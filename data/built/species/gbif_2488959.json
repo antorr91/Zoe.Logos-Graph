@@ -1,0 +1,496 @@
+{
+  "species_id": "gbif_2488959",
+  "gbif_usage_key": 2488959,
+  "scientific_name": "Bubo bubo",
+  "common_name_en": "eurasian eagle-owl",
+  "common_names": {
+    "en": "eurasian eagle-owl",
+    "it": "gufo reale",
+    "es": "búho real",
+    "fr": "grand-duc d'europe",
+    "de": "uhu"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Strigiformes",
+    "family": "Strigidae",
+    "genus": "Bubo",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 18,
+    "claim_count": 5,
+    "doi_count": 19,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Eurasian eagle-owl (Bubo bubo) is a species of Aves in the order Strigiformes, family Strigidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Eurasian_eagle-owl",
+  "wiki_title": "Eurasian_eagle-owl",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "hooting"
+  ],
+  "contexts": [
+    "mate attraction",
+    "territorial defence"
+  ],
+  "functions": [
+    "pair bonding",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "hooting",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "pair bonding",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Bubo bubo",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.2307/jj.6230179.66",
+      "url": "https://doi.org/10.2307/jj.6230179.66",
+      "title": "“Eared” Owl",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2478/orhu-2023-0019",
+      "url": "https://doi.org/10.2478/orhu-2023-0019",
+      "title": "Vocal interaction between Eurasian Eagle-Owl <i>(Bubo bubo)</i> and canines (Carnivora, Canidae)",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.17475/kastorman.1000378",
+      "url": "https://doi.org/10.17475/kastorman.1000378",
+      "title": "Winter Diet of an Eurasian Eagle Owl (Bubo bubo) Near the Yedikır Dam, Amasya (Turkey) Amasya, Yedikır Barajı’nda Bir Puhu (Bubo bubo)’nun Kış Diyeti",
+      "year": 2021,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.10277",
+      "url": "https://doi.org/10.1079/cabicompendium.10277",
+      "title": "Bubo bubo",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.121884",
+      "url": "https://doi.org/10.1079/cabicompendium.121884",
+      "title": "Alcidodes bubo",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3917/poesi.162.0041",
+      "url": "https://doi.org/10.3917/poesi.162.0041",
+      "title": "Bubo bubo",
+      "year": 2018,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.17721/1728_2748.2016.71.27-31",
+      "url": "https://doi.org/10.17721/1728_2748.2016.71.27-31",
+      "title": "Birds in nourishment of eagle-owl (Bubo bubo L.) in Ciscaucasia region",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0077557",
+      "url": "https://doi.org/10.1371/journal.pone.0077557",
+      "title": "Population Characteristics May Reduce the Levels of Individual Call Identity",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arq086",
+      "url": "https://doi.org/10.1093/beheco/arq086",
+      "title": "Alarm calls of tufted titmice convey information about predator size and threat",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.5253/078.097.0403",
+      "url": "https://doi.org/10.5253/078.097.0403",
+      "title": "Great Horned Owl<i>Bubo virginianus</i>Vocalizations and Associated Behaviours",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1439-0310.2007.01414.x",
+      "url": "https://doi.org/10.1111/j.1439-0310.2007.01414.x",
+      "title": "The Importance of Visual Cues for Nocturnal Species: Eagle Owl Fledglings Signal with White Mouth Feathers",
+      "year": 2007,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arl060",
+      "url": "https://doi.org/10.1093/beheco/arl060",
+      "title": "The importance of visual cues for nocturnal species: eagle owls signal by badge brightness",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1469-7998.2006.00205.x",
+      "url": "https://doi.org/10.1111/j.1469-7998.2006.00205.x",
+      "title": "Vocal behaviour and neighbour spatial arrangement during vocal displays in eagle owls (<i>Bubo bubo</i>)",
+      "year": 2006,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1186/1742-9994-2-10",
+      "url": "https://doi.org/10.1186/1742-9994-2-10",
+      "title": "The role of vocal individuality in conservation",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf01643587",
+      "url": "https://doi.org/10.1007/bf01643587",
+      "title": "Zur Ernährung und Nahrungswahl des Uhus(Bubo bubo) On the diet of the eagle owl (Bubo bubo)",
+      "year": 1976,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/jmor.1051380103",
+      "url": "https://doi.org/10.1002/jmor.1051380103",
+      "title": "The anatomy, physiology, functional significance and evolution of specialized hearing organs of gerbilline rodents",
+      "year": 1972,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arx107",
+      "url": "https://doi.org/10.1093/beheco/arx107",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.5040/9781472597175.ch-010",
+      "url": "https://doi.org/10.5040/9781472597175.ch-010",
+      "title": "Eagle Owl Bubo Bubo",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472927002.0079",
+      "url": "https://doi.org/10.5040/9781472927002.0079",
+      "title": "Bubo bubo (Linnaeus). Eurasian Eagle-Owl; Desert Eagle-Owl. Hibou grand-duc.",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_2478_orhu-2023-0019",
+      "title": "Vocal interaction between Eurasian Eagle-Owl <i>(Bubo bubo)</i> and canines (Carnivora, Canidae)",
+      "year": 2023,
+      "doi": "10.2478/orhu-2023-0019",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>We recorded vocal interaction in the natural environment of an Eurasian Eagle-Owl <jats:italic>(Bubo bubo)</jats:italic> with canines Gray Wolves <jats:italic>(Canis lupus)</jats:italic>, Red Foxes <jats:italic>(Vulpes vulpes)</jats:italic> and domestic dogs <jats:italic>(Canis familiaris)</jats:italic>. Vocalization was recorded using Olympus digital voice recorders. The calls of the male Eurasian Eagle-Owl were recorded by us in the frequency range of 200–420 Hz. The howl of a Gray Wolf was recorded in the frequency range from 300 to 1,100 Hz. Red Fox barking was recorded in the frequency range from 750 to 1,000 Hz. Barking of domestic dogs was recorded in the frequency range from 250 to 1,500 Hz. The vocalization of the Eurasian Eagle-Owl had an independent character inherent in the biology of the species. The Eurasian Eagle-Owl, with its cries, involuntarily provoked the entry of canines into joint vocal interaction, which ca",
+      "journal": "Ornis Hungarica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_jj_6230179_66",
+      "title": "“Eared” Owl",
+      "year": 2023,
+      "doi": "10.2307/jj.6230179.66",
+      "abstract": "",
+      "journal": "The Birds of Ancient Egypt",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_17475_kastorman_1000378",
+      "title": "Winter Diet of an Eurasian Eagle Owl (Bubo bubo) Near the Yedikır Dam, Amasya (Turkey) Amasya, Yedikır Barajı’nda Bir Puhu (Bubo bubo)’nun Kış Diyeti",
+      "year": 2021,
+      "doi": "10.17475/kastorman.1000378",
+      "abstract": "<jats:p xml:lang=\"en\">Abstract&#x0D;\nAim of study: The aim of this study was to contribute to the data on the diet of Eurasian Eagle Owl (Bubo bubo) in Turkey.&#x0D;\nArea of study: This study was conducted near the Yedikır Dam (Amasya)&#x0D;\nMaterial and methods: A total of 12 pellets of the Eurasian Eagle Owl collected in Yedikır Dam was analyzed. The remains of the skull and lower jaw were used for the identification of mammals. &#x0D;\nMain results: 60 preys were identified to belong to 6 different taxa (5 Rodents and 1 Passerine). The main prey was Mus spp. (35.0%). Only one bird remain was recorded from pellets.&#x0D;\nHighlights: Pellet analyses were the first step for understanding the diet of B. bubo. Considering, B. bubo is an opportunistic predator and can consume medium-sized mammals and large-sized birds. Hence, a diet study supported with remains that are directly collected from the nest or perching site and their surroundings will reveal more objectively prey preferences fo",
+      "journal": "Kastamonu Üniversitesi Orman Fakültesi Dergisi",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_10277",
+      "title": "Bubo bubo",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.10277",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_121884",
+      "title": "Alcidodes bubo",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.121884",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3917_poesi_162_0041",
+      "title": "Bubo bubo",
+      "year": 2018,
+      "doi": "10.3917/poesi.162.0041",
+      "abstract": "",
+      "journal": "Po&amp;sie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_17721_1728_2748_2016_71_27-31",
+      "title": "Birds in nourishment of eagle-owl (Bubo bubo L.) in Ciscaucasia region",
+      "year": 2016,
+      "doi": "10.17721/1728_2748.2016.71.27-31",
+      "abstract": "<jats:p>The article deals with the results of research into species composition of birds whose remains were discovered in Eagle-owl pellets in Ciscaucasia region. The materials collected in three locations of the region have very low similarity index which doesn't exceed 0,1 (Sørensen index). This fact indicates a high level of Eagle-owl polyphagia. During the research, the birds of prey (ex. Goshawk and a Rough-legged buzzard) as well as rare Tawny owl and Long-eared owl were identified. A part of birds in the nourishment of eagle-owls increases during autumnal migrations. The poultry is extremely rare found among Eagle-owl prey.</jats:p>",
+      "journal": "Bulletin of Taras Shevchenko National University of Kyiv. Series: Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0077557",
+      "title": "Population Characteristics May Reduce the Levels of Individual Call Identity",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0077557",
+      "abstract": "Individual variability influences the demographic and evolutionary dynamics of spatially structured populations, and conversely ecological and evolutionary dynamics provide the context under which variations at the individual level occur. Therefore, it is essential to identify and characterize the importance of the different factors that may promote or hinder individual variability. Animal signaling is a prime example of a type of behavior that is largely dependent on both the features of individuals and the characteristics of the population to which they belong. After 10 years studying the dynamics of a population of a long-lived species, the eagle owl (Bubo bubo), we investigated the emergence and maintenance of traits that reveal individual identity by focusing on vocal features. We found that individuals inhabiting a high density population characterized by a relative lack of heterogeneity (in terms of prey availability and breeding success) among breeding sites might be selected f",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arq086",
+      "title": "Alarm calls of tufted titmice convey information about predator size and threat",
+      "year": 2010,
+      "doi": "10.1093/beheco/arq086",
+      "abstract": "Many birds utter alarm calls when they encounter predators, and previous work has revealed that variation in the characteristics of the alarm, or ''chick-a-dee,'' calls of black-capped (Poecile atricapilla) and Carolina (P. carolinensis) chickadees conveys information about predator size and threat. Little is known, however, about possible information conveyed by the similar ''chick-a-dee'' alarm call of tufted titmice (Baeolophus bicolor). During the winters of 2008 and 2009, free-ranging flocks (N 8) of tufted titmice were presented with models of several species of raptors that varied in size, and titmice responses were monitored. Smaller, higher threat predators (e.g., eastern screech-owl, Megascops asio) elicited longer mobbing bouts and alarm calls with more notes (D-notes) than larger lower threat predators (e.g., red-tailed hawk, Buteo jamaicensis). During playback experiments, titmice took longer to return to feeding after playbacks of alarm calls given in response to a small ",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5253_078_097_0403",
+      "title": "Great Horned Owl<i>Bubo virginianus</i>Vocalizations and Associated Behaviours",
+      "year": 2009,
+      "doi": "10.5253/078.097.0403",
+      "abstract": "Visual observations of nocturnal species such as owls can be difficult. Knowledge of vocalizations associated with particular behaviours is therefore an extremely useful tool in studying owls in the field. For this purpose, I studied the vocalizations and behaviours of the Great Horned Owl Bubo virginianus, collecting observations on a female human-imprinted individual and wild pairs. Spectrographically, Great Horned Owl calls were divided into three main categories: hoots, chitters, and squawks. These categories were further subdivided into five types of hoots, four types of chitters, and five types of squawks based on inflection, number of syllables, duration, pitch, volume, and behavioural context. Two types of non-vocal communication were also distinguished: hisses and bill clacking. Although owl vocalizations are generally considered innate and variation between individuals should not differ in basic makeup and behavioural context, further verification on wild owls is encouraged.",
+      "journal": "Ardea",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1439-0310_2007_01414_x",
+      "title": "The Importance of Visual Cues for Nocturnal Species: Eagle Owl Fledglings Signal with White Mouth Feathers",
+      "year": 2007,
+      "doi": "10.1111/j.1439-0310.2007.01414.x",
+      "abstract": "Abstract Complex begging display by bird offspring has predominantly been investigated in diurnal species, which have conspicuous gape colours or plumage features. In nocturnal species, in contrast, such visual communication has received little attention because the assumption is that they exclusively rely on vocal communication. Here, we use a field experiment to investigate whether eagle owls, Bubo bubo, communicate through visual signals at night. We artificially decreased the brightness of the white feathers surrounding fledgling eagle owls’ mouths during the post‐fledging dependence period, and investigated the effect of this treatment by comparing the condition of these birds to that of birds who received a control treatment. Several physiological parameters considered in our analyses indicate that control owlets were in better condition than owlets with brightness‐reduced mouth feathers, which suggests that they received more or better food from feeding parents who discriminated",
+      "journal": "Ethology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1469-7998_2006_00205_x",
+      "title": "Vocal behaviour and neighbour spatial arrangement during vocal displays in eagle owls (<i>Bubo bubo</i>)",
+      "year": 2006,
+      "doi": "10.1111/j.1469-7998.2006.00205.x",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>We quantified temporal and spatial patterns of adult eagle owl <jats:italic>Bubo bubo</jats:italic> vocal behaviour throughout an entire year. The duration of adult eagle owl vocal displays showed significant differences during different periods of the year: there was one major peak in the pre‐laying period, when duets of mates were also more frequent. The daily distribution of adult vocalizations showed a similar pattern among the different periods, with vocal activity being most intense at sunset and sunrise. Analyses of the characteristics of call posts showed that the choice of such focal points was guided by the trade‐off between the need to defend the territory and within‐pair communication inside the core areas, as well as efficient communication with neighbours.</jats:p>",
+      "journal": "Journal of Zoology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arl060",
+      "title": "The importance of visual cues for nocturnal species: eagle owls signal by badge brightness",
+      "year": 2006,
+      "doi": "10.1093/beheco/arl060",
+      "abstract": "Nocturnal species may communicate by visual signals more frequently than previously thought. In fact, such species are habitually active around sunset and sunrise, when light conditions are still suitable for visual communication. We investigated the communication function of a visual cue in the eagle owl Bubo bubo, a nocturnal predator. In this species, territorial and courtship displays peak during the sunset and sunrise periods and involve the display of a white badge located on the throat whose reflectance properties are sex and period dependent. Experimental intrusions were conducted at 30 eagle owl territories in order to understand the function of the white badge during contests. We analyzed the reactions of both male and female owners toward a taxidermic mount with a normal brightness and a brightness-reduced white badge, with both male and female territorial calls. Our results indicate that the white badge of eagle owls plays an important role in visual communication during co",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1186_1742-9994-2-10",
+      "title": "The role of vocal individuality in conservation",
+      "year": 2005,
+      "doi": "10.1186/1742-9994-2-10",
+      "abstract": "Identifying the individuals within a population can generate information on life history parameters, generate input data for conservation models, and highlight behavioural traits that may affect management decisions and error or bias within census methods. Individual animals can be discriminated by features of their vocalisations. This vocal individuality can be utilised as an alternative marking technique in situations where the marks are difficult to detect or animals are sensitive to disturbance. Vocal individuality can also be used in cases were the capture and handling of an animal is either logistically or ethically problematic. Many studies have suggested that vocal individuality can be used to count and monitor populations over time; however, few have explicitly tested the method in this role. In this review we discuss methods for extracting individuality information from vocalisations and techniques for using this to count and monitor populations over time. We present case stu",
+      "journal": "Frontiers in Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01643587",
+      "title": "Zur Ernährung und Nahrungswahl des Uhus(Bubo bubo) On the diet of the eagle owl (Bubo bubo)",
+      "year": 1976,
+      "doi": "10.1007/bf01643587",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_jmor_1051380103",
+      "title": "The anatomy, physiology, functional significance and evolution of specialized hearing organs of gerbilline rodents",
+      "year": 1972,
+      "doi": "10.1002/jmor.1051380103",
+      "abstract": "Abstract Middle and inner ear anatomy correlates with neurophysiological responses to a wide range of sound frequencies for species of the Gerbillinae representing generalized, intermediate, and specialized anatomical conditions. Neurophysiological data were recorded from 81 specimens of 13 species representing six genera. Anatomical parameters involved in the process of hearing were correlated with the neurophysiological data to assess the effects of different degrees of anatomical specialization on hearing. The 13 species tested in this manner have graphic curves of auditory sensitivity of remarkably similar disposition over the frequencies tested and to those published for Kangaroo Rats. Ears with anatomical specializations show greater auditory sensitivity. The natural history of the Gerbillinae, particularly the kinds of predators, degree of predation, and habitat is reviewed and utilized to interpret the significance of the degree of auditory specialization in the forms studied a",
+      "journal": "Journal of Morphology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472597175_ch-010",
+      "title": "Eagle Owl Bubo Bubo",
+      "year": null,
+      "doi": "10.5040/9781472597175.ch-010",
+      "abstract": "",
+      "journal": "Owls of Europe",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472927002_0079",
+      "title": "Bubo bubo (Linnaeus). Eurasian Eagle-Owl; Desert Eagle-Owl. Hibou grand-duc.",
+      "year": null,
+      "doi": "10.5040/9781472927002.0079",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 18,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

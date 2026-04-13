@@ -1,0 +1,664 @@
+{
+  "species_id": "gbif_2436567",
+  "gbif_usage_key": 2436567,
+  "scientific_name": "Macaca mulatta",
+  "common_name_en": "rhesus macaque",
+  "common_names": {
+    "en": "rhesus macaque",
+    "it": "macaco reso",
+    "es": "macaco rhesus",
+    "fr": "macaque rhésus",
+    "de": "rhesusaffe"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Primates",
+    "family": "Cercopithecidae",
+    "genus": "Macaca",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 25,
+    "claim_count": 9,
+    "doi_count": 25,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Rhesus macaque (Macaca mulatta) is a species of Mammalia in the order Primates, family Cercopithecidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Rhesus_macaque",
+  "wiki_title": "Rhesus_macaque",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "coo",
+    "grunt",
+    "scream"
+  ],
+  "contexts": [
+    "alarm",
+    "dominance",
+    "social communication"
+  ],
+  "functions": [
+    "affiliation signalling",
+    "individual recognition",
+    "status display"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "coo",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "grunt",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "scream",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "dominance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "affiliation signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "status display",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "macaulay",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1098/rsos.250243/v2/decision1",
+      "url": "https://doi.org/10.1098/rsos.250243/v2/decision1",
+      "title": "Decision letter for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsos.250243/v2/review1",
+      "url": "https://doi.org/10.1098/rsos.250243/v2/review1",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsos.250243/v2/review2",
+      "url": "https://doi.org/10.1098/rsos.250243/v2/review2",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsos.250243/v3/decision1",
+      "url": "https://doi.org/10.1098/rsos.250243/v3/decision1",
+      "title": "Decision letter for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsos.250243/v3/review1",
+      "url": "https://doi.org/10.1098/rsos.250243/v3/review1",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsos.250243/v1/decision1",
+      "url": "https://doi.org/10.1098/rsos.250243/v1/decision1",
+      "title": "Decision letter for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsos.250243/v1/review1",
+      "url": "https://doi.org/10.1098/rsos.250243/v1/review1",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsos.250243/v1/review2",
+      "url": "https://doi.org/10.1098/rsos.250243/v1/review2",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.76105",
+      "url": "https://doi.org/10.1079/cabicompendium.76105",
+      "title": "Macaca mulatta (rhesus macaque)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10764-012-9652-x",
+      "url": "https://doi.org/10.1007/s10764-012-9652-x",
+      "title": "OrangFACS: A Muscle-Based Facial Movement Coding System for Orangutans (Pongo spp.)",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1038/nn2043",
+      "url": "https://doi.org/10.1038/nn2043",
+      "title": "A voice region in the monkey brain",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1006/anbe.1999.1312",
+      "url": "https://doi.org/10.1006/anbe.1999.1312",
+      "title": "Cheap talk when interests conflict",
+      "year": 2000,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf02557587",
+      "url": "https://doi.org/10.1007/bf02557587",
+      "title": "The effect of inter-opponent distance on the occurrence of reconciliation in stumptail (Macaca arctoides) and rhesus macaques (Macaca mulatta)",
+      "year": 1999,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/s0166-2236(98)01260-0",
+      "url": "https://doi.org/10.1016/s0166-2236(98)01260-0",
+      "title": "Language within our grasp",
+      "year": 1998,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1006/anbe.1996.0103",
+      "url": "https://doi.org/10.1006/anbe.1996.0103",
+      "title": "Vocal recognition of individuals and kin in free-ranging rhesus monkeys",
+      "year": 1996,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/s0003-3472(84)80325-5",
+      "url": "https://doi.org/10.1016/s0003-3472(84)80325-5",
+      "title": "Hearing and communication in blue monkeys (Cercopithecus mitis)",
+      "year": 1984,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/b978-0-12-469350-0.50001-6",
+      "url": "https://doi.org/10.1016/b978-0-12-469350-0.50001-6",
+      "title": "Front Matter",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-12-469350-0.50002-8",
+      "url": "https://doi.org/10.1016/b978-0-12-469350-0.50002-8",
+      "title": "Copyright",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-12-469350-0.50003-x",
+      "url": "https://doi.org/10.1016/b978-0-12-469350-0.50003-x",
+      "title": "FOREWORD",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-12-469350-0.50004-1",
+      "url": "https://doi.org/10.1016/b978-0-12-469350-0.50004-1",
+      "title": "PREFACE",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-12-469350-0.50018-1",
+      "url": "https://doi.org/10.1016/b978-0-12-469350-0.50018-1",
+      "title": "AUTHOR INDEX",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-12-469350-0.50019-3",
+      "url": "https://doi.org/10.1016/b978-0-12-469350-0.50019-3",
+      "title": "SUBJECT INDEX",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/b978-0-124-69350-0.x5001-7",
+      "url": "https://doi.org/10.1016/b978-0-124-69350-0.x5001-7",
+      "title": "Macaca Mulatta",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1469-7998.1962.tb05698.x",
+      "url": "https://doi.org/10.1111/j.1469-7998.1962.tb05698.x",
+      "title": "VOCAL COMMUNICATION BY THE RHESUS MOJSXEY (<i>MACACA MULATTA</i>)",
+      "year": 1962,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.cub.2015.02.065",
+      "url": "https://doi.org/10.1016/j.cub.2015.02.065",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1098_rsos_250243_v2_review1",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "doi": "10.1098/rsos.250243/v2/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsos_250243_v2_review2",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "doi": "10.1098/rsos.250243/v2/review2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsos_250243_v3_review1",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "doi": "10.1098/rsos.250243/v3/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsos_250243_v3_decision1",
+      "title": "Decision letter for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "doi": "10.1098/rsos.250243/v3/decision1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsos_250243_v2_decision1",
+      "title": "Decision letter for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2025,
+      "doi": "10.1098/rsos.250243/v2/decision1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsos_250243_v1_review2",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2024,
+      "doi": "10.1098/rsos.250243/v1/review2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsos_250243_v1_review1",
+      "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2024,
+      "doi": "10.1098/rsos.250243/v1/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsos_250243_v1_decision1",
+      "title": "Decision letter for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
+      "year": 2024,
+      "doi": "10.1098/rsos.250243/v1/decision1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_76105",
+      "title": "Macaca mulatta (rhesus macaque)",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.76105",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10764-012-9652-x",
+      "title": "OrangFACS: A Muscle-Based Facial Movement Coding System for Orangutans (Pongo spp.)",
+      "year": 2012,
+      "doi": "10.1007/s10764-012-9652-x",
+      "abstract": "",
+      "journal": "International Journal of Primatology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_nn2043",
+      "title": "A voice region in the monkey brain",
+      "year": 2008,
+      "doi": "10.1038/nn2043",
+      "abstract": "",
+      "journal": "Nature Neuroscience",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_1999_1312",
+      "title": "Cheap talk when interests conflict",
+      "year": 2000,
+      "doi": "10.1006/anbe.1999.1312",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf02557587",
+      "title": "The effect of inter-opponent distance on the occurrence of reconciliation in stumptail (Macaca arctoides) and rhesus macaques (Macaca mulatta)",
+      "year": 1999,
+      "doi": "10.1007/bf02557587",
+      "abstract": "",
+      "journal": "Primates",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0166-2236(98)01260-0",
+      "title": "Language within our grasp",
+      "year": 1998,
+      "doi": "10.1016/s0166-2236(98)01260-0",
+      "abstract": "",
+      "journal": "Trends in Neurosciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "lit_gbif_2436567_18",
+      "title": "Social communication and vocal recognition in free-ranging rhesus monkeys (Macaca mulatta)",
+      "year": 1996,
+      "doi": null,
+      "abstract": "",
+      "journal": "Medical Entomology and Zoology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_1996_0103",
+      "title": "Vocal recognition of individuals and kin in free-ranging rhesus monkeys",
+      "year": 1996,
+      "doi": "10.1006/anbe.1996.0103",
+      "abstract": "The social behaviour of many species of non-human primates suggests a capacity for both individual and kin recognition. In these species, the ability to signal and perceive identity at a distance may be an important adaptation facilitating intra-group social communication. Variation in vocalizations is hypothesized to provide a basis for this ability. Playback experiments were conducted to test for vocal recognition of contact calls between adult female rhesus macaques,Macaca mulatta. Single-trial playbacks of the contact call of either a matrilineal relative or a familiar, non-relative group member were used to test for discrimination of kin from non-kin. Females responded significantly faster and longer to the contact calls of matrilineal relatives. A habituation–discrimination paradigm was then used to test for individual recognition. Females habituated to successive presentations of different exemplars of the contact calls of one matrilineal relative, then showed a significant rebo",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0003-3472(84)80325-5",
+      "title": "Hearing and communication in blue monkeys (Cercopithecus mitis)",
+      "year": 1984,
+      "doi": "10.1016/s0003-3472(84)80325-5",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-124-69350-0_x5001-7",
+      "title": "Macaca Mulatta",
+      "year": 1970,
+      "doi": "10.1016/b978-0-124-69350-0.x5001-7",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-469350-0_50001-6",
+      "title": "Front Matter",
+      "year": 1970,
+      "doi": "10.1016/b978-0-12-469350-0.50001-6",
+      "abstract": "",
+      "journal": "Macaca Mulatta",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-469350-0_50002-8",
+      "title": "Copyright",
+      "year": 1970,
+      "doi": "10.1016/b978-0-12-469350-0.50002-8",
+      "abstract": "",
+      "journal": "Macaca Mulatta",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-469350-0_50004-1",
+      "title": "PREFACE",
+      "year": 1970,
+      "doi": "10.1016/b978-0-12-469350-0.50004-1",
+      "abstract": "",
+      "journal": "Macaca Mulatta",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-469350-0_50018-1",
+      "title": "AUTHOR INDEX",
+      "year": 1970,
+      "doi": "10.1016/b978-0-12-469350-0.50018-1",
+      "abstract": "",
+      "journal": "Macaca Mulatta",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-469350-0_50019-3",
+      "title": "SUBJECT INDEX",
+      "year": 1970,
+      "doi": "10.1016/b978-0-12-469350-0.50019-3",
+      "abstract": "",
+      "journal": "Macaca Mulatta",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_b978-0-12-469350-0_50003-x",
+      "title": "FOREWORD",
+      "year": 1970,
+      "doi": "10.1016/b978-0-12-469350-0.50003-x",
+      "abstract": "",
+      "journal": "Macaca Mulatta",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1469-7998_1962_tb05698_x",
+      "title": "VOCAL COMMUNICATION BY THE RHESUS MOJSXEY (<i>MACACA MULATTA</i>)",
+      "year": 1962,
+      "doi": "10.1111/j.1469-7998.1962.tb05698.x",
+      "abstract": "Noises are difficult to describe, and this has been a barrier to understanding their meanings and using them in studies of behaviour. In the present study tape recordings and spectro‐graphic analysis were used to learn the properties of the noises and help to describe them. Noises fall into two groups, harsh noises and clear calls, which are considered seprately. Eight harsh noises associated with agonistic behaviour and four occurring in “friendly” situations are described. Clear calls show more individual variation and examples typical of five situations are given. A wide range of intermediates between the basic noises make a large “vocabulary” available to express small differences of mood.",
+      "journal": "Proceedings of the Zoological Society of London",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 25,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

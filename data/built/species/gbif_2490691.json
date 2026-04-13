@@ -1,0 +1,496 @@
+{
+  "species_id": "gbif_2490691",
+  "gbif_usage_key": 2490691,
+  "scientific_name": "Melospiza melodia",
+  "common_name_en": "song sparrow",
+  "common_names": {
+    "en": "song sparrow",
+    "it": "passero cantore",
+    "es": "gorrión cantor",
+    "fr": "bruant chanteur",
+    "de": "singammer"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Passerellidae",
+    "genus": "Melospiza",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 8,
+    "doi_count": 18,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Song sparrow (Melospiza melodia) is a species of Aves in the order Passeriformes, family Passerellidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Song_sparrow",
+  "wiki_title": "Song_sparrow",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "call",
+    "song"
+  ],
+  "contexts": [
+    "mate attraction",
+    "territorial defence",
+    "vocal learning"
+  ],
+  "functions": [
+    "mate attraction",
+    "song dialects",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "vocal learning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "song dialects",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Melospiza melodia",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.22541/au.176733923.38290332/v1",
+      "url": "https://doi.org/10.22541/au.176733923.38290332/v1",
+      "title": "Machine Learning Reveals Microdialect Variations in Salish Sea Melospiza melodia",
+      "year": 2026,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.13297",
+      "url": "https://doi.org/10.7717/peerj.13297",
+      "title": "Experimentally broadcast ocean surf and river noise alters birdsong",
+      "year": 2022,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.75451",
+      "url": "https://doi.org/10.1079/cabicompendium.75451",
+      "title": "Melospiza melodia",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/brv.12160",
+      "url": "https://doi.org/10.1111/brv.12160",
+      "title": "Acoustic sequences in non‐human animals: a tutorial review and prospectus",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.7717/peerj.396",
+      "url": "https://doi.org/10.7717/peerj.396",
+      "title": "Brain transcriptome sequencing and assembly of three songbird model systems for the study of social behavior",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1525/bio.2011.61.3.6",
+      "url": "https://doi.org/10.1525/bio.2011.61.3.6",
+      "title": "Soundscape Ecology: The Science of Sound in the Landscape",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1365-2435.2006.01207.x",
+      "url": "https://doi.org/10.1111/j.1365-2435.2006.01207.x",
+      "title": "Habitat structure and the evolution of bird song: a meta‐analysis of the evidence for the acoustic adaptation hypothesis",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "url": "https://doi.org/10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "title": "AVIAN COMMUNICATION IN URBAN NOISE: CAUSES AND CONSEQUENCES OF VOCAL ADJUSTMENT",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1523/jneurosci.17-15-06001.1997",
+      "url": "https://doi.org/10.1523/jneurosci.17-15-06001.1997",
+      "title": "Seasonal Changes in Testosterone, Neural Attributes of Song Control Nuclei, and Song Structure in Wild Songbirds",
+      "year": 1997,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/s0003-3472(88)80155-6",
+      "url": "https://doi.org/10.1016/s0003-3472(88)80155-6",
+      "title": "Hearing in the swamp sparrow, Melospiza georgiana, and the song sparrow, Melospiza melodia",
+      "year": 1988,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1523/jneurosci.03-03-00517.1983",
+      "url": "https://doi.org/10.1523/jneurosci.03-03-00517.1983",
+      "title": "Song structure without auditory feedback: emendations of the auditory template hypothesis",
+      "year": 1983,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.5962/bhl.title.60743",
+      "url": "https://doi.org/10.5962/bhl.title.60743",
+      "title": "On Melospiza melodia in Ontario /",
+      "year": 1939,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/4076483",
+      "url": "https://doi.org/10.2307/4076483",
+      "title": "A Study of the Eastern Song Sparrow, Melospiza melodia melodia",
+      "year": 1931,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/arq148",
+      "url": "https://doi.org/10.1093/beheco/arq148",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.2307/j.ctt20ks130.45",
+      "url": "https://doi.org/10.2307/j.ctt20ks130.45",
+      "title": "Song Sparrow",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.19986/fig-1",
+      "url": "https://doi.org/10.7717/peerj.19986/fig-1",
+      "title": "Figure 1: Distribution of five subspecies of song sparrow (\n                      <i>Melospiza melodia</i>\n                      ) in Alaska.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.19986/fig-2",
+      "url": "https://doi.org/10.7717/peerj.19986/fig-2",
+      "title": "Figure 2: Boxplots of phenotypic data for five\n                      <i>Melospiza melodia</i>\n                      subspecies:.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.19986/fig-3",
+      "url": "https://doi.org/10.7717/peerj.19986/fig-3",
+      "title": "Figure 3: PCA plot of phenotypic data for the five\n                      <i>Melospiza melodia</i>\n                      subspecies.",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_22541_au_176733923_38290332_v1",
+      "title": "Machine Learning Reveals Microdialect Variations in Salish Sea Melospiza melodia",
+      "year": 2026,
+      "doi": "10.22541/au.176733923.38290332/v1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_13297",
+      "title": "Experimentally broadcast ocean surf and river noise alters birdsong",
+      "year": 2022,
+      "doi": "10.7717/peerj.13297",
+      "abstract": "Anthropogenic noise and its effects on acoustic communication have received considerable attention in recent decades. Yet, the natural acoustic environment's influence on communication and its role in shaping acoustic signals remains unclear. We used large-scale playbacks of ocean surf in coastal areas and whitewater river noise in riparian areas to investigate how natural sounds influences song structure in six songbird species. We recorded individuals defending territories in a variety of acoustic conditions across 19 study sites in California and 18 sites in Idaho. Acoustic characteristics across the sites included naturally quiet 'control' sites, 'positive control' sites that were adjacent to the ocean or a whitewater river and thus were naturally noisy, 'phantom' playback sites that were exposed to continuous broadcast of low-frequency ocean surf or whitewater noise, and 'shifted' playback sites with continuous broadcast of ocean surf or whitewater noise shifted up in frequency. W",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_75451",
+      "title": "Melospiza melodia",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.75451",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_396",
+      "title": "Brain transcriptome sequencing and assembly of three songbird model systems for the study of social behavior",
+      "year": 2014,
+      "doi": "10.7717/peerj.396",
+      "abstract": "Emberizid sparrows (emberizidae) have played a prominent role in the study of avian vocal communication and social behavior. We present here brain transcriptomes for three emberizid model systems, song sparrow Melospiza melodia, white-throated sparrow Zonotrichia albicollis, and Gambel's white-crowned sparrow Zonotrichia leucophrys gambelii. Each of the assemblies covered fully or in part, over 89% of the previously annotated protein coding genes in the zebra finch Taeniopygia guttata, with 16,846, 15,805, and 16,646 unique BLAST hits in song, white-throated and white-crowned sparrows, respectively. As in previous studies, we find tissue of origin (auditory forebrain versus hypothalamus and whole brain) as an important determinant of overall expression profile. We also demonstrate the successful isolation of RNA and RNA-sequencing from post-mortem samples from building strikes and suggest that such an approach could be useful when traditional sampling opportunities are limited. These t",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_brv_12160",
+      "title": "Acoustic sequences in non‐human animals: a tutorial review and prospectus",
+      "year": 2014,
+      "doi": "10.1111/brv.12160",
+      "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
+      "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1525_bio_2011_61_3_6",
+      "title": "Soundscape Ecology: The Science of Sound in the Landscape",
+      "year": 2011,
+      "doi": "10.1525/bio.2011.61.3.6",
+      "abstract": "This article presents a unifying theory of soundscape ecology, which brings the idea of the soundscape-the collection of sounds that emanate from landscapes-into a research and application focus. Our conceptual framework of soundscape ecology is based on the causes and consequences of biological (biophony), geophysical (geophony), and human-produced (anthrophony) sounds. We argue that soundscape ecology shares many parallels with landscape ecology, and it should therefore be considered a branch of this maturing field. We propose a research agenda for soundscape ecology that includes six areas: (1) measurement and analytical challenges, (2) spatial-temporal dynamics, (3) soundscape linkage to environmental covariates, ( We present case studies that illustrate different approaches to understanding soundscape dynamics. Because soundscapes are our auditory link to nature, we also argue for their protection, using the knowledge of how sounds are produced by the environment and humans.",
+      "journal": "BioScience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1642_0004-8038(2006)123[639:aciunc]2_0_co;2",
+      "title": "AVIAN COMMUNICATION IN URBAN NOISE: CAUSES AND CONSEQUENCES OF VOCAL ADJUSTMENT",
+      "year": 2006,
+      "doi": "10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "abstract": "SUCCESSFUL ACOUSTIC COMMUNICATION requires that sounds propagate through the environment between the sender and receiver; vocalizations that transmit effectively in the habitat in which they are used are favored by natural selection. This adaptation hypothesis (Morton 1975, Wiley and Richards 1978, Richards and Wiley 1980, Ryan and Brenowitz 1985) laid the groundwork for the drive concept (Endler 1992), which describes how environment affects the evolution of sensory systems and signals in all modalities. By allowing us to examine animal signals as adaptations shaped by selection, this framework has lead to a greater understanding of the bewildering diversity of animal signals. One of the environmental factors that exerts selection pressure on acoustic signals is ambient noise (Ryan and Brenowitz 1985). To elicit a response from a receiver, signals must be detectable in background noise; the detectability of a signal is determined by the signal-to-noise ratio (SNR) and the masked audit",
+      "journal": "The Auk",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1365-2435_2006_01207_x",
+      "title": "Habitat structure and the evolution of bird song: a meta‐analysis of the evidence for the acoustic adaptation hypothesis",
+      "year": 2006,
+      "doi": "10.1111/j.1365-2435.2006.01207.x",
+      "abstract": "1 Habitat structure has been considered as a main factor shaping the evolution of bird song acoustics. 2 Based on expected differential patterns of sound degradation in different habitats, the acoustic adaptation hypothesis (AAH) proposes that songs with lower frequencies, narrower frequency ranges and longer inter-element intervals should occur more frequently in densely vegetated compared with herbaceous habitats. 3 Empirical tests of the AAH have provided mixed results. Here, we review for the first time the literature on this topic using a meta-analytical, quantitative approach. 4 Maximum, minimum, peak frequency and frequency range were found to be significantly lower in closed compared with open habitats, but the mean size of the effect of habitat was small. Inter-element intervals were not affected by habitat structure. 5 The AAH implicitly assumes that birds are selected to maximize song broadcast range and minimize degradation, while it neglects the potential role of energetic",
+      "journal": "Functional Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_17-15-06001_1997",
+      "title": "Seasonal Changes in Testosterone, Neural Attributes of Song Control Nuclei, and Song Structure in Wild Songbirds",
+      "year": 1997,
+      "doi": "10.1523/jneurosci.17-15-06001.1997",
+      "abstract": "Seasonal changes in the neural attributes of brain nuclei that control song in songbirds are among the most pronounced examples of naturally occurring plasticity in the adult brain of any vertebrate. The behavioral correlates of this seasonal neural plasticity have not been well characterized, particularly in songbird species that lack adult song learning. To address this question, we investigated the relationship between seasonal changes in gonadal steroids, song nuclei, and song behavior in adult male song sparrows (Melospiza melodia). At four times of the year, we measured plasma concentrations of testosterone, neural attributes of song nuclei, and several aspects of song structure in wild song sparrows of a nonmigratory population. We found seasonal changes in the song nuclei that were temporally correlated with changes in testosterone concentrations and with changes in song stereotypy. Male song sparrows sang songs that were more variable in structure in the fall, when testosteron",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0003-3472(88)80155-6",
+      "title": "Hearing in the swamp sparrow, Melospiza georgiana, and the song sparrow, Melospiza melodia",
+      "year": 1988,
+      "doi": "10.1016/s0003-3472(88)80155-6",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_03-03-00517_1983",
+      "title": "Song structure without auditory feedback: emendations of the auditory template hypothesis",
+      "year": 1983,
+      "doi": "10.1523/jneurosci.03-03-00517.1983",
+      "abstract": "Motor patterns of songs of swamp and song sparrows, Melospiza georgiana and M. melodia, deafened early in life display a significant degree of species-specific structure. Normal songs of the two species differ in the degree to which they are segmented. Swamp sparrow song consists of a single segment, and song sparrow songs are multisegmental. Song and swamp sparrows were deafened at 17 to 23 days, prior to the onset of song or subsong. The song sparrows developed more segments in their singing than the swamp sparrows. Species-specific trends were also evident in song durations and frequency characteristics. Abnormalities were found, however, in the morphology of the notes and syllables from which songs of early deafened sparrows are constructed. These results require emendation of the auditory template hypothesis of song learning in birds.",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5962_bhl_title_60743",
+      "title": "On Melospiza melodia in Ontario /",
+      "year": 1939,
+      "doi": "10.5962/bhl.title.60743",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_4076483",
+      "title": "A Study of the Eastern Song Sparrow, Melospiza melodia melodia",
+      "year": 1931,
+      "doi": "10.2307/4076483",
+      "abstract": "",
+      "journal": "The Auk",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_19986_fig-2",
+      "title": "Figure 2: Boxplots of phenotypic data for five\n                      <i>Melospiza melodia</i>\n                      subspecies:.",
+      "year": null,
+      "doi": "10.7717/peerj.19986/fig-2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_j_ctt20ks130_45",
+      "title": "Song Sparrow",
+      "year": null,
+      "doi": "10.2307/j.ctt20ks130.45",
+      "abstract": "",
+      "journal": "Fifty Common Birds of the Upper Midwest",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_19986_fig-3",
+      "title": "Figure 3: PCA plot of phenotypic data for the five\n                      <i>Melospiza melodia</i>\n                      subspecies.",
+      "year": null,
+      "doi": "10.7717/peerj.19986/fig-3",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_19986_fig-1",
+      "title": "Figure 1: Distribution of five subspecies of song sparrow (\n                      <i>Melospiza melodia</i>\n                      ) in Alaska.",
+      "year": null,
+      "doi": "10.7717/peerj.19986/fig-1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

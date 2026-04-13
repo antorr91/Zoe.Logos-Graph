@@ -1,0 +1,503 @@
+{
+  "species_id": "gbif_5789422",
+  "gbif_usage_key": 5789422,
+  "scientific_name": "Hirundo rustica",
+  "common_name_en": "barn swallow",
+  "common_names": {
+    "en": "barn swallow",
+    "it": "rondine comune",
+    "es": "golondrina común",
+    "fr": "hirondelle rustique",
+    "de": "rauchschwalbe"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Hirundinidae",
+    "genus": "Hirundo",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 9,
+    "doi_count": 18,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Barn swallow (Hirundo rustica) is a species of Aves in the order Passeriformes, family Hirundinidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Barn_swallow",
+  "wiki_title": "Barn_swallow",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "alarm call",
+    "contact call",
+    "song"
+  ],
+  "contexts": [
+    "alarm",
+    "flock coordination",
+    "mate attraction"
+  ],
+  "functions": [
+    "flock cohesion",
+    "mate attraction",
+    "predator warning"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "contact call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "flock coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "flock cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Hirundo rustica",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.2307/jj.6230179.73",
+      "url": "https://doi.org/10.2307/jj.6230179.73",
+      "title": "Swallow",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.37002/salve.ficha.28314.2",
+      "url": "https://doi.org/10.37002/salve.ficha.28314.2",
+      "title": "Ficha de Hirundo rustica",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.79601",
+      "url": "https://doi.org/10.1079/cabicompendium.79601",
+      "title": "Hirundo rustica (barn swallow (USA))",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-ecolsys-110617-062646",
+      "url": "https://doi.org/10.1146/annurev-ecolsys-110617-062646",
+      "title": "Behavioral Isolation and Incipient Speciation in Birds",
+      "year": 2018,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2015.2889",
+      "url": "https://doi.org/10.1098/rspb.2015.2889",
+      "title": "A systems approach to animal communication",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1017/cbo9781107358478.010",
+      "url": "https://doi.org/10.1017/cbo9781107358478.010",
+      "title": "THE MIGRATIONS OF THE SWALLOW, <i>Hirundo rustica</i>",
+      "year": 2014,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rstb.2011.0280",
+      "url": "https://doi.org/10.1098/rstb.2011.0280",
+      "title": "The evolution of female ornaments and weaponry: social selection, sexual selection and ecological competition",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/jhered/esr114",
+      "url": "https://doi.org/10.1093/jhered/esr114",
+      "title": "Population Genetics and Morphological Comparisons of Migratory European (Hirundo rustica rustica) and Sedentary East-Mediterranean (Hirundo rustica transitiva) Barn Swallows",
+      "year": 2011,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1365-2435.2006.01207.x",
+      "url": "https://doi.org/10.1111/j.1365-2435.2006.01207.x",
+      "title": "Habitat structure and the evolution of bird song: a meta‐analysis of the evidence for the acoustic adaptation hypothesis",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/ari029",
+      "url": "https://doi.org/10.1093/beheco/ari029",
+      "title": "Age-dependent health status and song characteristics in the barn swallow",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/12.4.506",
+      "url": "https://doi.org/10.1093/beheco/12.4.506",
+      "title": "On the cost of begging vocalization: implications of vigilance",
+      "year": 2001,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3758/bf03205051",
+      "url": "https://doi.org/10.3758/bf03205051",
+      "title": "Acquisition of the same/different concept by an African Grey parrot (Psittacus erithacus): Learning with respect to categories of color, shape, and material",
+      "year": 1987,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/3671263",
+      "url": "https://doi.org/10.2307/3671263",
+      "title": "Vocalizations of Barn and Cliff Swallows",
+      "year": 1985,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.5962/p.323821",
+      "url": "https://doi.org/10.5962/p.323821",
+      "title": "Swallow, Hirundo rustica [Pl. 5]",
+      "year": 1873,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/arw003",
+      "url": "https://doi.org/10.1093/beheco/arw003",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.2307/j.ctt20ks130.31",
+      "url": "https://doi.org/10.2307/j.ctt20ks130.31",
+      "title": "Barn Swallow",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472927019.0116",
+      "url": "https://doi.org/10.5040/9781472927019.0116",
+      "title": "Hirundo rustica Linnaeus. Barn Swallow. Hirondelle de cheminée.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472927040.0354",
+      "url": "https://doi.org/10.5040/9781472927040.0354",
+      "title": "Hirundo rustica Barn Swallow Hirondelle rustique",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_37002_salve_ficha_28314_2",
+      "title": "Ficha de Hirundo rustica",
+      "year": 2023,
+      "doi": "10.37002/salve.ficha.28314.2",
+      "abstract": "",
+      "journal": "Datasets - Sistema SALVE - ICMBio",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_jj_6230179_73",
+      "title": "Swallow",
+      "year": 2023,
+      "doi": "10.2307/jj.6230179.73",
+      "abstract": "",
+      "journal": "The Birds of Ancient Egypt",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_79601",
+      "title": "Hirundo rustica (barn swallow (USA))",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.79601",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1146_annurev-ecolsys-110617-062646",
+      "title": "Behavioral Isolation and Incipient Speciation in Birds",
+      "year": 2018,
+      "doi": "10.1146/annurev-ecolsys-110617-062646",
+      "abstract": "Behavioral changes, such as those involved in mating, foraging, and migration, can generate reproductive barriers between populations. Birds, in particular, are known for their great diversity in these behaviors, and so behavioral isolation is often proposed to be the major driver of speciation. Here, we review empirical evidence to evaluate the importance of behavioral isolation in the early stages of avian speciation. Experimentally measured mating preferences indicate that changes in mating behavior can result in premating barriers, with their strength depending on the extent of divergence in mating signals. Differences in migratory and foraging behavior also can play important roles in generating reproductive barriers in the early stages of speciation. However, because premating behavioral isolation is imperfect, extrinsic postzygotic barriers, in the form of selection against hybrids having intermediate phenotypes, also play an important role in avian diversification, especially i",
+      "journal": "Annual Review of Ecology Evolution and Systematics",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2015_2889",
+      "title": "A systems approach to animal communication",
+      "year": 2016,
+      "doi": "10.1098/rspb.2015.2889",
+      "abstract": "Why animal communication displays are so complex and how they have evolved are active foci of research with a long and rich history. Progress towards an evolutionary analysis of signal complexity, however, has been constrained by a lack of hypotheses to explain similarities and/or differences in signalling systems across taxa. To address this, we advocate incorporating a systems approach into studies of animal communication--an approach that includes comprehensive experimental designs and data collection in combination with the implementation of systems concepts and tools. A systems approach evaluates overall display architecture, including how components interact to alter function, and how function varies in different states of the system. We provide a brief overview of the current state of the field, including a focus on select studies that highlight the dynamic nature of animal signalling. We then introduce core concepts from systems biology (redundancy, degeneracy, pluripotentialit",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1017_cbo9781107358478_010",
+      "title": "THE MIGRATIONS OF THE SWALLOW, <i>Hirundo rustica</i>",
+      "year": 2014,
+      "doi": "10.1017/cbo9781107358478.010",
+      "abstract": "",
+      "journal": "Studies in Bird Migration",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rstb_2011_0280",
+      "title": "The evolution of female ornaments and weaponry: social selection, sexual selection and ecological competition",
+      "year": 2012,
+      "doi": "10.1098/rstb.2011.0280",
+      "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
+      "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_jhered_esr114",
+      "title": "Population Genetics and Morphological Comparisons of Migratory European (Hirundo rustica rustica) and Sedentary East-Mediterranean (Hirundo rustica transitiva) Barn Swallows",
+      "year": 2011,
+      "doi": "10.1093/jhered/esr114",
+      "abstract": "",
+      "journal": "Journal of Heredity",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1365-2435_2006_01207_x",
+      "title": "Habitat structure and the evolution of bird song: a meta‐analysis of the evidence for the acoustic adaptation hypothesis",
+      "year": 2006,
+      "doi": "10.1111/j.1365-2435.2006.01207.x",
+      "abstract": "1 Habitat structure has been considered as a main factor shaping the evolution of bird song acoustics. 2 Based on expected differential patterns of sound degradation in different habitats, the acoustic adaptation hypothesis (AAH) proposes that songs with lower frequencies, narrower frequency ranges and longer inter-element intervals should occur more frequently in densely vegetated compared with herbaceous habitats. 3 Empirical tests of the AAH have provided mixed results. Here, we review for the first time the literature on this topic using a meta-analytical, quantitative approach. 4 Maximum, minimum, peak frequency and frequency range were found to be significantly lower in closed compared with open habitats, but the mean size of the effect of habitat was small. Inter-element intervals were not affected by habitat structure. 5 The AAH implicitly assumes that birds are selected to maximize song broadcast range and minimize degradation, while it neglects the potential role of energetic",
+      "journal": "Functional Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_ari029",
+      "title": "Age-dependent health status and song characteristics in the barn swallow",
+      "year": 2005,
+      "doi": "10.1093/beheco/ari029",
+      "abstract": "Bird song has been hypothesized to evolve, partly, to signal health status of males, and song features should therefore correlate with parasite load. Immune function, parasitism, and secondary sexual characters can, however, differ between age classes, and any apparent relationship between song and parasite loads can be the result of systematic age effects. We tested for an agedependent relationship between sexually selected characters and measures of parasitism in a Spanish population of the barn swallow Hirundo rustica. A comparison across age classes revealed that chewing lice load, song duration, mean peak amplitude frequency of songs, and tail length differed significantly between yearlings and adults. In a longitudinal analysis, we found significant evidence for mean peak amplitude frequency of songs, tail length and chewing louse parasitism, and a nonsignificant tendency for song duration to change with age of an individual. We found a significant association between song durati",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_12_4_506",
+      "title": "On the cost of begging vocalization: implications of vigilance",
+      "year": 2001,
+      "doi": "10.1093/beheco/12.4.506",
+      "abstract": "Begging vocalization is thought to have evolved as a consequence of the parent-offspring conflict over parental investment (Mock and Parker, 1997). Under this conflict, parents are reluctant to provide all the resources requested by current offspring because they are saving resources for future broods (Trivers, 1974). In this scenario, begging has evolved as an honest signal of need with the most hungry offspring begging most conspicuously. This information allows parents to optimally adjust reproductive investment, since they can accurately assess offspring food requirement (Godfray, 1991). Given the conflict of interest over resources between parents and offspring, the evolutionary stability of begging would be ensured by its cost for two reasons. First, the benefit of obtaining additional resources from the parents increases with need, and hence the benefit to be fed outweighs the cost of begging only when hungry. Second, if all offspring, independent of need, were to beg at the sam",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3758_bf03205051",
+      "title": "Acquisition of the same/different concept by an African Grey parrot (Psittacus erithacus): Learning with respect to categories of color, shape, and material",
+      "year": 1987,
+      "doi": "10.3758/bf03205051",
+      "abstract": "",
+      "journal": "Animal Learning & Behavior",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_3671263",
+      "title": "Vocalizations of Barn and Cliff Swallows",
+      "year": 1985,
+      "doi": "10.2307/3671263",
+      "abstract": "-Vocalizations of barn (Hirundo rustica) and cliff (H. pyrrhonota) swallows in north central Texas-south central Oklahoma are described. Eight vocalizations in barn swallows and four in cliff swallows were found. Barn swallows possess a greater vocal repertoire than cliff swallows, perhaps because barn swallows nest in smaller colonies where acoustics allow greater reliance on vocal communication. It is suggested that increasing barn swallow colony sizes and sound distortion of twitter songs may be partly responsible for hybridization within the genus Hirundo presently observed in parts of Texas. The barn (Hirundo rustica) and cliff (H. pyrrhonota) swallows occur sympatrically throughout a large part of North America, including much of the Southwest. In many areas they forage together in similar habitats and nest together in mixed colonies. However, the vocalizations of these species have been little studied. Their vocalizations have special relevance in Texas, where Martin (1980, 1982",
+      "journal": "The Southwestern Naturalist",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5962_p_323821",
+      "title": "Swallow, Hirundo rustica [Pl. 5]",
+      "year": 1873,
+      "doi": "10.5962/p.323821",
+      "abstract": "",
+      "journal": "The birds of Great Britain",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472927040_0354",
+      "title": "Hirundo rustica Barn Swallow Hirondelle rustique",
+      "year": null,
+      "doi": "10.5040/9781472927040.0354",
+      "abstract": "",
+      "journal": "The Birds of Africa : The Malagasy Region",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_j_ctt20ks130_31",
+      "title": "Barn Swallow",
+      "year": null,
+      "doi": "10.2307/j.ctt20ks130.31",
+      "abstract": "",
+      "journal": "Fifty Common Birds of the Upper Midwest",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472927019_0116",
+      "title": "Hirundo rustica Linnaeus. Barn Swallow. Hirondelle de cheminée.",
+      "year": null,
+      "doi": "10.5040/9781472927019.0116",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

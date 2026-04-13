@@ -1,0 +1,454 @@
+{
+  "species_id": "gbif_2493052",
+  "gbif_usage_key": 2493052,
+  "scientific_name": "Phylloscopus trochilus",
+  "common_name_en": "willow warbler",
+  "common_names": {
+    "en": "willow warbler",
+    "it": "luì grosso",
+    "es": "mosquitero musical",
+    "fr": "pouillot fitis",
+    "de": "fitis"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Phylloscopidae",
+    "genus": "Phylloscopus",
+    "gbif_match_confidence": 99,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 16,
+    "claim_count": 6,
+    "doi_count": 16,
+    "media_count": 0
+  },
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Willow_Warbler_Phylloscopus_trochilus.jpg/330px-Willow_Warbler_Phylloscopus_trochilus.jpg",
+    "url_full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Willow_Warbler_Phylloscopus_trochilus.jpg",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons page",
+    "attribution": ""
+  },
+  "summary": "The willow warbler is a very common and widespread leaf warbler which breeds throughout northern and temperate Europe and the Palearctic, from Ireland east to the Anadyr River basin in eastern Siberia. It is strongly migratory, with almost all of the population wintering in sub-Saharan Africa.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Willow_warbler",
+  "wiki_title": "Willow_warbler",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "song"
+  ],
+  "contexts": [
+    "mate attraction",
+    "migration",
+    "territorial defence"
+  ],
+  "functions": [
+    "mate attraction",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "migration",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Phylloscopus trochilus",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.7287/peerj.12964v0.1/reviews/3",
+      "url": "https://doi.org/10.7287/peerj.12964v0.1/reviews/3",
+      "title": "Peer Review #3 of \"Climate in Africa sequentially shapes spring passage of Willow Warbler Phylloscopus trochilus across the Baltic coast (v0.1)\"",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7287/peerj.12964v0.2/reviews/2",
+      "url": "https://doi.org/10.7287/peerj.12964v0.2/reviews/2",
+      "title": "Peer Review #2 of \"Climate in Africa sequentially shapes spring passage of Willow Warbler Phylloscopus trochilus across the Baltic coast (v0.2)\"",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.69766",
+      "url": "https://doi.org/10.1079/cabicompendium.69766",
+      "title": "Phylloscopus trochilus",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.34080/os.v24.22555",
+      "url": "https://doi.org/10.34080/os.v24.22555",
+      "title": "Tätheten av gransångare Phylloscopus c. collybita och lövsångare Phylloscopus trochilus i ett sydsvenskt villaområde",
+      "year": 2014,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.tree.2010.04.005",
+      "url": "https://doi.org/10.1016/j.tree.2010.04.005",
+      "title": "A noisy spring: the impact of globally rising underwater sound levels on fish",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1365-2664.2010.01914.x",
+      "url": "https://doi.org/10.1111/j.1365-2664.2010.01914.x",
+      "title": "Negative impact of traffic noise on avian reproductive success",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.5751/es-02761-140129",
+      "url": "https://doi.org/10.5751/es-02761-140129",
+      "title": "Impacts of Traffic Noise and Traffic Volume on Birds of Roadside Habitats",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0001822",
+      "url": "https://doi.org/10.1371/journal.pone.0001822",
+      "title": "Song Diversity Predicts the Viability of Fragmented Bird Populations",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0002647",
+      "url": "https://doi.org/10.1371/journal.pone.0002647",
+      "title": "Birds Reveal their Personality when Singing",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arl058",
+      "url": "https://doi.org/10.1093/beheco/arl058",
+      "title": "Extrapair paternity in chestnut-sided warblers is correlated with consistent vocal performance",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "url": "https://doi.org/10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "title": "AVIAN COMMUNICATION IN URBAN NOISE: CAUSES AND CONSEQUENCES OF VOCAL ADJUSTMENT",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1046/j.1365-2656.2001.00522.x",
+      "url": "https://doi.org/10.1046/j.1365-2656.2001.00522.x",
+      "title": "Effects of food availability on the distribution of migratory warblers among habitats in Jamaica",
+      "year": 2001,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2000.0964",
+      "url": "https://doi.org/10.1098/rspb.2000.0964",
+      "title": "Stable isotopes examined across a migratory divide in Scandinavian willow warblers (<i>Phylloscopus trochilus trochilus</i>and<i>Phylloscopus trochilus acredula</i>) reflect their African winter quarters",
+      "year": 2000,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf01647251",
+      "url": "https://doi.org/10.1007/bf01647251",
+      "title": "Untersuchungen zur Jahresperiodik von Laubsängern. III Investigations on annual rhythms in Warblers. III",
+      "year": 1972,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472927026.0195",
+      "url": "https://doi.org/10.5040/9781472927026.0195",
+      "title": "Phylloscopus trochilus (Linnaeus). Willow Warbler. Pouillot fitis.",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472927040.0423",
+      "url": "https://doi.org/10.5040/9781472927040.0423",
+      "title": "Phylloscopus trochilus Willow Warbler Pouillot fitis",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_7287_peerj_12964v0_2_reviews_2",
+      "title": "Peer Review #2 of \"Climate in Africa sequentially shapes spring passage of Willow Warbler Phylloscopus trochilus across the Baltic coast (v0.2)\"",
+      "year": 2022,
+      "doi": "10.7287/peerj.12964v0.2/reviews/2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7287_peerj_12964v0_1_reviews_3",
+      "title": "Peer Review #3 of \"Climate in Africa sequentially shapes spring passage of Willow Warbler Phylloscopus trochilus across the Baltic coast (v0.1)\"",
+      "year": 2022,
+      "doi": "10.7287/peerj.12964v0.1/reviews/3",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_69766",
+      "title": "Phylloscopus trochilus",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.69766",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_34080_os_v24_22555",
+      "title": "Tätheten av gransångare Phylloscopus c. collybita och lövsångare Phylloscopus trochilus i ett sydsvenskt villaområde",
+      "year": 2014,
+      "doi": "10.34080/os.v24.22555",
+      "abstract": "<jats:p>The expansion of the Chiffchaff Phylloscopus c. collybita in southern Sweden during the last decades is well documented. Regionally the densities of the Chiffchaff now even exceed the densities of the ubiquitous Willow Warbler Phylloscopus trochilus. However, there are few quantitative studies on Chiffchaff densities, not least from urban areas. During spring 2013 a survey of singing Chiffchaffs and Willow Warblers, complemented by territory mapping, was conducted in three villa suburb areas (total ea 1.27 km2) and a nearby recreational area in the southwestern parts of the city of Malmö, Sweden. The villa areas held a substantially higher number of Chiffchaffs (16.5 pairs/km2) than Willow Warblers (6.3 pairs/ km2). In one villa sub-area, with little undergrowth and denser housing, there were no Willow Warblers at all, in contrast to the recreational area close to the villa areas, where the Willow Warbler dominated (10.9 pairs/km2). The Chiffchaff had its highest density (18.7 ",
+      "journal": "Ornis Svecica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_tree_2010_04_005",
+      "title": "A noisy spring: the impact of globally rising underwater sound levels on fish",
+      "year": 2010,
+      "doi": "10.1016/j.tree.2010.04.005",
+      "abstract": "",
+      "journal": "Trends in Ecology & Evolution",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1365-2664_2010_01914_x",
+      "title": "Negative impact of traffic noise on avian reproductive success",
+      "year": 2010,
+      "doi": "10.1111/j.1365-2664.2010.01914.x",
+      "abstract": "Summary 1. Traffic affects large areas of natural habitat worldwide. As a result, the acoustic signals used by birds and other animals are increasingly masked by traffic noise. Masking of signals important to territory defence and mate attraction may have a negative impact on reproductive success. Depending on the overlap in space, time and frequency between noise and vocalizations, such impact may ultimately exclude species from suitable breeding habitat. However a direct impact of traffic noise on reproductive success has not previously been reported. 2. We monitored traffic noise and avian vocal activity during the breeding season alongside a busy Dutch motorway. We measured variation in space, time and spectrum of noise and tested for negative effects on avian reproductive success using long‐term breeding data on great tits Parus major . 3. Noise levels decreased with distance from the motorway, but we also found substantial spatial variation independent of distance. Noise also var",
+      "journal": "Journal of Applied Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5751_es-02761-140129",
+      "title": "Impacts of Traffic Noise and Traffic Volume on Birds of Roadside Habitats",
+      "year": 2009,
+      "doi": "10.5751/es-02761-140129",
+      "abstract": "Roadside habitats are important for a range of taxa including plants, insects, mammals, and birds, particularly in developed countries in which large expanses of native vegetation have been cleared for agriculture or urban development. Although roadside vegetation may provide suitable habitat for many species, resident animals can be exposed to high levels of traffic noise, visual disturbance from passing vehicles, and the risk of collision with cars and trucks. Traffic noise can reduce the distance over which acoustic signals such as song can be detected, an effect known as acoustic interference or masking. Studies from the northern hemisphere show that the singing behavior of birds changes in the presence of traffic noise. We investigated the impact of traffic noise and traffic volume on two species of birds, the Grey Shrike-thrush (Colluricincla harmonica) and the Grey Fantail (Rhipidura fuliginosa), at 58 roadside sites on the Mornington Peninsula, southeastern Australia. The lower",
+      "journal": "Ecology and Society",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0002647",
+      "title": "Birds Reveal their Personality when Singing",
+      "year": 2008,
+      "doi": "10.1371/journal.pone.0002647",
+      "abstract": "Our results may demonstrate that risk taking during singing correlates with risk taking during aggression and with exploration, thus personality may be manifested in different contexts involving sexual advertisement. These findings are in accordance with the hypothesis that the male's balance between investment in reproduction and risk taking is reflected in sexual displays, and it may be important information for choosy females that seek partners with personality traits enhancing breeding success.",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0001822",
+      "title": "Song Diversity Predicts the Viability of Fragmented Bird Populations",
+      "year": 2008,
+      "doi": "10.1371/journal.pone.0001822",
+      "abstract": "In the global scenario of increasing habitat fragmentation, finding appropriate indicators of population viability is a priority for conservation. We explored the potential of learned behaviours, specifically acoustic signals, to predict the persistence over time of fragmented bird populations. We found an association between male song diversity and the annual rate of population change, population productivity and population size, resulting in birds singing poor repertoires in populations more prone to extinction. This is the first demonstration that population viability can be predicted by a cultural trait (acquired via social learning). Our results emphasise that cultural attributes can reflect not only individual-level characteristics, but also the emergent population-level properties. This opens the way to the study of animal cultural diversity in the increasingly common human-altered landscapes.",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1642_0004-8038(2006)123[639:aciunc]2_0_co;2",
+      "title": "AVIAN COMMUNICATION IN URBAN NOISE: CAUSES AND CONSEQUENCES OF VOCAL ADJUSTMENT",
+      "year": 2006,
+      "doi": "10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "abstract": "SUCCESSFUL ACOUSTIC COMMUNICATION requires that sounds propagate through the environment between the sender and receiver; vocalizations that transmit effectively in the habitat in which they are used are favored by natural selection. This adaptation hypothesis (Morton 1975, Wiley and Richards 1978, Richards and Wiley 1980, Ryan and Brenowitz 1985) laid the groundwork for the drive concept (Endler 1992), which describes how environment affects the evolution of sensory systems and signals in all modalities. By allowing us to examine animal signals as adaptations shaped by selection, this framework has lead to a greater understanding of the bewildering diversity of animal signals. One of the environmental factors that exerts selection pressure on acoustic signals is ambient noise (Ryan and Brenowitz 1985). To elicit a response from a receiver, signals must be detectable in background noise; the detectability of a signal is determined by the signal-to-noise ratio (SNR) and the masked audit",
+      "journal": "The Auk",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arl058",
+      "title": "Extrapair paternity in chestnut-sided warblers is correlated with consistent vocal performance",
+      "year": 2006,
+      "doi": "10.1093/beheco/arl058",
+      "abstract": "The elaborateness of many bird songs is commonly presumed to have evolved under the influence of sexual selection by female mate choice. Thus, aspects of acoustic diversity, such as song repertoire size, are seen as likely targets of female choice. In many songbird species with song repertoires, however, the repertoires are small. In such species, female choice might be based on song features other than, or in addition to, song diversity. To investigate this conjecture, I assessed singing and paternity in a population of chestnut-sided warblers (Dendroica pensylvanica), a species in which song repertoires are of modest size. Twenty-two song traits were evaluated to determine which ones best predicted male extrapair reproductive success. The candidate traits encompassed measures of song diversity (e.g., song repertoire size), gross-scale song performance (e.g., singing rate), and fine-scale song performance (e.g., variability among songs in a bout). Regression analysis revealed that the",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1046_j_1365-2656_2001_00522_x",
+      "title": "Effects of food availability on the distribution of migratory warblers among habitats in Jamaica",
+      "year": 2001,
+      "doi": "10.1046/j.1365-2656.2001.00522.x",
+      "abstract": "Summary Theoretical arguments suggest that distributions of migratory birds in winter should match patterns of food availability, but in reality the match between migrants and their food may be imperfect because, for various reasons, birds may be unable to ‘track’ food resources. We tested the hypothesis that food availability influences the distribution of migratory canopy‐foraging insectivorous warblers wintering in Jamaica. Over a wide spatial scale (24 sites on the island), warbler abundance varied significantly among sites and habitats and was significantly dependent on measures of arthropod biomass. Alternative factors (vegetation characteristics, resident bird competitor abundance, predator abundance) were not correlated with warbler abundance. Over a short temporal scale (about 2 weeks) at a single site, warbler abundance increased as predicted quantitatively after a natural, rapid increase in arthropod biomass. Over a longer temporal scale (the duration of a winter), changes i",
+      "journal": "Journal of Animal Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2000_0964",
+      "title": "Stable isotopes examined across a migratory divide in Scandinavian willow warblers (<i>Phylloscopus trochilus trochilus</i>and<i>Phylloscopus trochilus acredula</i>) reflect their African winter quarters",
+      "year": 2000,
+      "doi": "10.1098/rspb.2000.0964",
+      "abstract": "",
+      "journal": "Proceedings of the Royal Society of London. Series B: Biological Sciences",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01647251",
+      "title": "Untersuchungen zur Jahresperiodik von Laubsängern. III Investigations on annual rhythms in Warblers. III",
+      "year": 1972,
+      "doi": "10.1007/bf01647251",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472927040_0423",
+      "title": "Phylloscopus trochilus Willow Warbler Pouillot fitis",
+      "year": null,
+      "doi": "10.5040/9781472927040.0423",
+      "abstract": "",
+      "journal": "The Birds of Africa : The Malagasy Region",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472927026_0195",
+      "title": "Phylloscopus trochilus (Linnaeus). Willow Warbler. Pouillot fitis.",
+      "year": null,
+      "doi": "10.5040/9781472927026.0195",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 16,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "species_id": "gbif_5220086",
+  "gbif_usage_key": 5220086,
+  "scientific_name": "Megaptera novaeangliae",
+  "common_name_en": "humpback whale",
+  "common_names": {
+    "en": "humpback whale",
+    "it": "megattera",
+    "es": "ballena jorobada",
+    "fr": "baleine à bosse",
+    "de": "buckelwal"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Cetacea",
+    "family": "Balaenopteridae",
+    "genus": "Megaptera",
+    "gbif_match_confidence": 97,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 21,
+    "claim_count": 5,
+    "doi_count": 21,
+    "media_count": 0
+  },
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/330px-Humpback_Whale_underwater_shot.jpg",
+    "url_full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons page",
+    "attribution": ""
+  },
+  "summary": "The humpback whale is a species of baleen whale. It is a rorqual and is the only species in the genus Megaptera. Adults range in length from 14–17 m (46–56 ft) and weigh up to 40 metric tons.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Humpback_whale",
+  "wiki_title": "Humpback_whale",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "song"
+  ],
+  "contexts": [
+    "courtship",
+    "long-distance communication"
+  ],
+  "functions": [
+    "male competition",
+    "mate attraction"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "long-distance communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "male competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1016/j.marenvres.2025.107415",
+      "url": "https://doi.org/10.1016/j.marenvres.2025.107415",
+      "title": "Changes in call rate and call level of migrating humpback whales (Megaptera novaeangliae) in response to seismic air guns",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1101/2025.06.12.658025",
+      "url": "https://doi.org/10.1101/2025.06.12.658025",
+      "title": "Vocal Interactions Between Singing Humpback Whales (\n                  <i>Megaptera novaeangliae</i>\n                  )",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/arab031",
+      "url": "https://doi.org/10.1093/beheco/arab031",
+      "title": "The conspecific avoidance strategies of adult female-calf humpback whales",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1121/10.0005111",
+      "url": "https://doi.org/10.1121/10.0005111",
+      "title": "Fuzzy clustering as a tool to differentiate between discrete and graded call types",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1080/09524622.2020.1858450",
+      "url": "https://doi.org/10.1080/09524622.2020.1858450",
+      "title": "Humpback whale ( <i>Megaptera novaeangliae</i> ) social call production reflects both motivational state and arousal",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rsos.190337",
+      "url": "https://doi.org/10.1098/rsos.190337",
+      "title": "Migratory convergence facilitates cultural transmission of humpback whale song",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2019.2014",
+      "url": "https://doi.org/10.1098/rspb.2019.2014",
+      "title": "Network analysis reveals underlying syntactic features in a vocally learnt mammalian display, humpback whale song",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3389/fmars.2019.00606",
+      "url": "https://doi.org/10.3389/fmars.2019.00606",
+      "title": "The Effects of Ship Noise on Marine Mammals—A Review",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/brv.12160",
+      "url": "https://doi.org/10.1111/brv.12160",
+      "title": "Acoustic sequences in non‐human animals: a tutorial review and prospectus",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1121/1.4830539",
+      "url": "https://doi.org/10.1121/1.4830539",
+      "title": "Vocal repertoire of Southeast Alaskan humpback whales (<i>Megaptera novaeangliae</i>)",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1748-7692.2010.00451.x",
+      "url": "https://doi.org/10.1111/j.1748-7692.2010.00451.x",
+      "title": "Annual changes in the winter song of bowhead whales (<i>Balaena mysticetus</i>) in Disko Bay, Western Greenland",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/3504352",
+      "url": "https://doi.org/10.2307/3504352",
+      "title": "Megaptera novaeangliae",
+      "year": 1999,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1121/1.420833",
+      "url": "https://doi.org/10.1121/1.420833",
+      "title": "A source–filter model of humpback whale (<i>Megaptera novaeangliae</i>) vocal sound production",
+      "year": 1997,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.11606/t.10.2014.tde-26092014-092253",
+      "url": "https://doi.org/10.11606/t.10.2014.tde-26092014-092253",
+      "title": "Interação antropogênica e sanidade de baleias-jubarte (Megaptera novaeangliae) na costa brasileira",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.14264/955027c",
+      "url": "https://doi.org/10.14264/955027c",
+      "title": "The effects of noise on the vocal behaviour of singing humpback whales (Megaptera novaeangliae)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.14264/c210294",
+      "url": "https://doi.org/10.14264/c210294",
+      "title": "Understanding the population health of the eastern Australian humpback whale (Megaptera novaeangliae)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.14264/uql.2015.947",
+      "url": "https://doi.org/10.14264/uql.2015.947",
+      "title": "The Simple and Complex Phrase Types of Humpback Whale (Megaptera novaeangliae) Song",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.23860/diss-3120",
+      "url": "https://doi.org/10.23860/diss-3120",
+      "title": "TEMPORAL CHARACTERISTICS OF HUMPBACK WHALE (MEGAPTERA NOVAEANGLIAE) SONGS",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31979/etd.3gwp-mu5r",
+      "url": "https://doi.org/10.31979/etd.3gwp-mu5r",
+      "title": "Intra-annual changes in population parameters as indicators of humpback whale (Megaptera novaeangliae) migratory behavior",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31979/etd.h5y6-b2cp",
+      "url": "https://doi.org/10.31979/etd.h5y6-b2cp",
+      "title": "Effects of boat noise on the singing behavior of humpback whales (Megaptera novaeangliae)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/438047d1z9e23z44aeza6f5zedab85e65baa",
+      "url": "https://doi.org/10.70675/438047d1z9e23z44aeza6f5zedab85e65baa",
+      "title": "Humpback whales (Megaptera novaeangliae) mother-calf interactions",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1101_2025_06_12_658025",
+      "title": "Vocal Interactions Between Singing Humpback Whales (\n                  <i>Megaptera novaeangliae</i>\n                  )",
+      "year": 2025,
+      "doi": "10.1101/2025.06.12.658025",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Humpback whales construct predictably patterned sequences within multi-hour sessions of sound production. These sequences (called “songs”) are some of the most structurally and acoustically complex vocal patterns produced by any mammal. Humpback whale song production is highly dynamic in that individuals constantly modify the properties of songs across multiple time scales throughout their adult lives. Past analyses of co-vocalizing humpback whales suggest that singers within earshot of one another may dynamically and interactively adjust their vocalizations in reaction to what they hear. The current study investigated whether singing humpback whales coordinate their production of overlapping sound patterns either by modulating how long they produce similar patterns or by dynamically adjusting the spectral properties of individual sounds and/or sound sequences. Our results show that the vocal adjustments singing humpback whales ",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_marenvres_2025_107415",
+      "title": "Changes in call rate and call level of migrating humpback whales (Megaptera novaeangliae) in response to seismic air guns",
+      "year": 2025,
+      "doi": "10.1016/j.marenvres.2025.107415",
+      "abstract": "",
+      "journal": "Marine Environmental Research",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_10_0005111",
+      "title": "Fuzzy clustering as a tool to differentiate between discrete and graded call types",
+      "year": 2021,
+      "doi": "10.1121/10.0005111",
+      "abstract": "Animals may communicate potential information to conspecifics using stereotyped \"discrete\" calls and variable \"graded\" calls. However, animal vocal research often centers on identifying the number of call types in a repertoire rather than quantifying the amount of gradation. Here, fuzzy clustering was applied to the social call repertoire of a species with a complex communication system, the humpback whale (Megaptera novaeangliae). Of 26 call types, 6 were classified as discrete, 7 as graded, and 13 as intermediate. These results indicate that humpback whales have a graded call repertoire, and fuzzy clustering may be a useful approach to investigate this variability.",
+      "journal": "JASA Express Letters",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arab031",
+      "title": "The conspecific avoidance strategies of adult female-calf humpback whales",
+      "year": 2021,
+      "doi": "10.1093/beheco/arab031",
+      "abstract": "Abstract During migration, humpback whale (Megaptera novaeangliae) adult females and their calves use acoustic calling to help maintain contact. The signals produced by these pairs, however, may unintentionally attract nearby breeding males, which can result in interactions that have negative physical and physiological effects on the calf. Therefore, maternal females must choose the vocal and/or behavioral strategy that most effectively balances intra-pair communication with male avoidance. Here, we analyzed differences in adult female-calf vocal activity and movement behavior according to the presence of, and distance to, singing whales and other groups likely to contain males. The results of this study found that these pairs make only minimal changes to their vocal behavior in response to nearby males, suggesting that they have instead evolved calls that are naturally difficult to detect (i.e., produced at significantly lower rates and acoustic levels than other whale groups, resulti",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_09524622_2020_1858450",
+      "title": "Humpback whale ( <i>Megaptera novaeangliae</i> ) social call production reflects both motivational state and arousal",
+      "year": 2020,
+      "doi": "10.1080/09524622.2020.1858450",
+      "abstract": "In many terrestrial species, there is a relationship between the acoustic features of vocal signals and the underlying motivational state and arousal level of the signaller. This information may be particularly important during complex social interactions, which are common in species where males compete for access to females during the breeding season. However, research into how information on motivation and arousal is used in marine mammals during these interactions is limited. Here, we examined changes in the calling behaviour of humpback whale (Megaptera novaeangliae) female-calf groups with the addition of escorts to investigate if and how potential information on motivation and arousal is encoded within their non-song vocal signals. Female-calf pairs had low overall call rates and used primarily single calls. However, the addition of one or more escorts to the group resulted in a significant increase in individual call rates, the use of long bouts of calls, and a more variable voc",
+      "journal": "Bioacoustics",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rsos_190337",
+      "title": "Migratory convergence facilitates cultural transmission of humpback whale song",
+      "year": 2019,
+      "doi": "10.1098/rsos.190337",
+      "abstract": "Cultural transmission of behaviour is important in a wide variety of vertebrate taxa from birds to humans. Vocal traditions and vocal learning provide a strong foundation for studying culture and its transmission in both humans and cetaceans. Male humpback whales (<i>Megaptera novaeangliae</i>) perform complex, culturally transmitted song displays that can change both evolutionarily (through accumulations of small changes) or revolutionarily (where a population rapidly adopts a novel song). The degree of coordination and conformity underlying song revolutions makes their study of particular interest. Acoustic contact on migratory routes may provide a mechanism for cultural revolutions of song, yet these areas of contact remain uncertain. Here, we compared songs recorded from the Kermadec Islands, a recently discovered migratory stopover, to multiple South Pacific wintering grounds. Similarities in song themes from the Kermadec Islands and multiple wintering locations (from New Caledoni",
+      "journal": "Royal Society Open Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2019_2014",
+      "title": "Network analysis reveals underlying syntactic features in a vocally learnt mammalian display, humpback whale song",
+      "year": 2019,
+      "doi": "10.1098/rspb.2019.2014",
+      "abstract": "Vocal communication systems have a set of rules that govern the arrangement of acoustic signals, broadly defined as 'syntax'. However, there is a limited understanding of potentially shared or analogous rules across vocal displays in different taxa. Recent work on songbirds has investigated syntax using network-based modelling. This technique quantifies features such as connectivity (adjacent signals in a sequence) and recurring patterns. Here, we apply network-based modelling to the complex, hierarchically structured songs of humpback whales (<i>Megaptera novaeangliae</i>) from east Australia. Given the song's annual evolving pattern and the cultural conformity of males within a population, network modelling captured the patterns of multiple song types over 13 consecutive years. Song arrangements in each year displayed clear 'small-world' network structure, characterized by clusters of highly connected sounds. Transitions between these connected sounds further suggested a combination ",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fmars_2019_00606",
+      "title": "The Effects of Ship Noise on Marine Mammals—A Review",
+      "year": 2019,
+      "doi": "10.3389/fmars.2019.00606",
+      "abstract": "The number of marine watercraft is on the rise-from private boats in coastal areas to commercial ships crossing oceans. A concomitant increase in underwater noise has been reported in several regions around the globe. Given the important role sound plays in the life functions of marine mammals, research on the potential effects of vessel noise has grown-in particular since the year 2000. We provide an overview of this literature, showing that studies have been patchy in terms of their coverage of species, habitats, vessel types, and types of impact investigated. The documented effects include behavioral and acoustic responses, auditory masking, and stress. We identify knowledge gaps: There appears a bias to more easily accessible species (i.e., bottlenose dolphins and humpback whales), whereas there is a paucity of literature addressing vessel noise impacts on river dolphins, even though some of these species experience chronic noise from boats. Similarly, little is known about the pot",
+      "journal": "Frontiers in Marine Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_brv_12160",
+      "title": "Acoustic sequences in non‐human animals: a tutorial review and prospectus",
+      "year": 2014,
+      "doi": "10.1111/brv.12160",
+      "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
+      "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_4830539",
+      "title": "Vocal repertoire of Southeast Alaskan humpback whales (<i>Megaptera novaeangliae</i>)",
+      "year": 2013,
+      "doi": "10.1121/1.4830539",
+      "abstract": "<jats:p>Humpback whales (Megaptera novaeangliae) are vocal baleen whales that exhibit complex social interactions across broad spatial and temporal scales. On low latitude breeding grounds, humpback whales produce complex and highly stereotyped “songs” as well as a range of “social sounds” associated with breeding behaviors. While on their Southeast Alaskan foraging grounds, humpback whales produce vocalizations during cooperative foraging events as well as a range of unclassified vocalizations for which the social context remains unknown. This study investigates the vocal repertoire of Southeast Alaskan humpback whales from a sample of 366 vocalizations collected over a three-month period on foraging grounds in Frederick Sound, Southeast Alaska. We used a two-part classification system, which included aural-spectrogram and statistical cluster analyses, to describe and classify vocalizations. Vocalizations were classified into 19 individual call types nested within four call classes. T",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1748-7692_2010_00451_x",
+      "title": "Annual changes in the winter song of bowhead whales (<i>Balaena mysticetus</i>) in Disko Bay, Western Greenland",
+      "year": 2011,
+      "doi": "10.1111/j.1748-7692.2010.00451.x",
+      "abstract": "Marine Mammal ScienceVolume 27, Issue 3 p. E241-E252 Annual changes in the winter song of bowhead whales (Balaena mysticetus) in Disko Bay, Western Greenland Outi M. Tervo, Outi M. Tervo Arctic Station, University of Copenhagen,P.O. Box 504, 3953 Qeqertarsuaq, GreenlandE-mail: [email protected]Search for more papers by this authorSusan E. Parks, Susan E. Parks Applied Research Laboratory,Pennsylvania State University,P.O. Box 30,State College, Pennsylvania 16804-0030, U.S.A.Search for more papers by this authorMads Fage Christoffersen, Mads Fage Christoffersen Arctic Station, University of Copenhagen,P.O. Box 504,3953 Qeqertarsuaq, GreenlandSearch for more papers by this authorLee A. Miller, Lee A. Miller Institute of Biology,University of Southern Denmark,DK-5230 Odense M, DenmarkSearch for more papers by this authorReinhardt Møbjerg Kristensen, Reinhardt Møbjerg Kristensen Zoological Museum,Natural History Museum of Denmark,University of Copenhagen,Universitetsparken 15, DK-2100 Cope",
+      "journal": "Marine Mammal Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_3504352",
+      "title": "Megaptera novaeangliae",
+      "year": 1999,
+      "doi": "10.2307/3504352",
+      "abstract": "",
+      "journal": "Mammalian Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_420833",
+      "title": "A source–filter model of humpback whale (<i>Megaptera novaeangliae</i>) vocal sound production",
+      "year": 1997,
+      "doi": "10.1121/1.420833",
+      "abstract": "<jats:p>Acoustic waveforms produced by vocalizing humpback whales are well described by a source–filter model. This model characterizes vocalizations as the output of a time-varying signal generator (the source) passed through a time-varying resonator (the filter). For most humpback whale vocalizations, the source can be modeled as either a quasiperiodic impulse train, white noise, or a combination of these two signal types; the resonator can be modeled as an all-pole filter. The source–filter model is useful because it (a) provides a way to quantitatively characterize humpback whale vocalizations that can be automated and that allows for the ‘‘resynthesis’’ of sounds; (b) facilitates the application of advanced speech processing technologies to the analysis of humpback vocalizations; and (c) can potentially provide clues about the actual mechanisms humpback whales use to produce sounds. Currently, it is not known how humpback whales internally produce sounds, although structures in th",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_14264_955027c",
+      "title": "The effects of noise on the vocal behaviour of singing humpback whales (Megaptera novaeangliae)",
+      "year": null,
+      "doi": "10.14264/955027c",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_438047d1z9e23z44aeza6f5zedab85e65baa",
+      "title": "Humpback whales (Megaptera novaeangliae) mother-calf interactions",
+      "year": null,
+      "doi": "10.70675/438047d1z9e23z44aeza6f5zedab85e65baa",
+      "abstract": "<jats:title>Etude des interactions mère/jeune chez la baleine à bosse</jats:title>\n                <jats:p xml:lang=\"fr\">Chez les baleines à bosse (Megaptera novaeangliae), le maintien des liens sociaux entre les femelles et leurs nouveau-nés implique différentes modalités sensorielles telles que l'ouïe, le toucher et la vision. Si la communication acoustique chez les mâles chanteurs de cette espèce a été largement étudiée, les sons sociaux, en particulier ceux produits par les femelles et leurs nouveau-nés, ont été peu reportés. Cette étude décrit les sons sociaux présents dans les enregistrements acoustiques axés sur les groupes mère-baleineau et discute des vocalisations produites par les femelles et les baleineaux dans les interactions mère-jeune. En considérant les sons les plus fréquents de ce répertoire vocal, une analyse centrée sur la détermination de la source des sons de bass fréquence produits par la mère a été effectuée et des analyses ont été réalisées pour mettre en évid",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_23860_diss-3120",
+      "title": "TEMPORAL CHARACTERISTICS OF HUMPBACK WHALE (MEGAPTERA NOVAEANGLIAE) SONGS",
+      "year": null,
+      "doi": "10.23860/diss-3120",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_14264_uql_2015_947",
+      "title": "The Simple and Complex Phrase Types of Humpback Whale (Megaptera novaeangliae) Song",
+      "year": null,
+      "doi": "10.14264/uql.2015.947",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11606_t_10_2014_tde-26092014-092253",
+      "title": "Interação antropogênica e sanidade de baleias-jubarte (Megaptera novaeangliae) na costa brasileira",
+      "year": null,
+      "doi": "10.11606/t.10.2014.tde-26092014-092253",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31979_etd_3gwp-mu5r",
+      "title": "Intra-annual changes in population parameters as indicators of humpback whale (Megaptera novaeangliae) migratory behavior",
+      "year": null,
+      "doi": "10.31979/etd.3gwp-mu5r",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_14264_c210294",
+      "title": "Understanding the population health of the eastern Australian humpback whale (Megaptera novaeangliae)",
+      "year": null,
+      "doi": "10.14264/c210294",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31979_etd_h5y6-b2cp",
+      "title": "Effects of boat noise on the singing behavior of humpback whales (Megaptera novaeangliae)",
+      "year": null,
+      "doi": "10.31979/etd.h5y6-b2cp",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 21,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "species_id": "gbif_2435194",
+  "gbif_usage_key": 2435194,
+  "scientific_name": "Felis catus",
+  "common_name_en": "domestic cat",
+  "common_names": {
+    "en": "domestic cat",
+    "it": "gatto domestico",
+    "es": "gato doméstico",
+    "fr": "chat domestique",
+    "de": "hauskatze"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Carnivora",
+    "family": "Felidae",
+    "genus": "Felis",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 19,
+    "claim_count": 13,
+    "doi_count": 20,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Domestic cat (Felis catus) is a species of Mammalia in the order Carnivora, family Felidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Cat",
+  "wiki_title": "Cat",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "chirp",
+    "hiss",
+    "meow",
+    "purr",
+    "trill"
+  ],
+  "contexts": [
+    "alarm",
+    "contact",
+    "hunting",
+    "play",
+    "solicitation"
+  ],
+  "functions": [
+    "attention solicitation",
+    "contact maintenance",
+    "predator response"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "chirp",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "hiss",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "meow",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "purr",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "trill",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "contact",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "hunting",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "play",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "solicitation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "attention solicitation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator response",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "freesound",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.7213/acad.2026.2481",
+      "url": "https://doi.org/10.7213/acad.2026.2481",
+      "title": "Diagnóstico coproparasitológico de Lagochilascaris sp. em gato doméstico (Felis catus): Resenha Crítica Coproparasitological diagnosis of Lagochilascaris sp. in domestic cat (Felis catus): Critical Review",
+      "year": 2026,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1037/com0000418.supp",
+      "url": "https://doi.org/10.1037/com0000418.supp",
+      "title": "Supplemental Material for Vocal Signals Produced by the Domestic Cat (Felis silvestris catus) in Highly Motivating Contexts",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.30782/jrvm.1342716",
+      "url": "https://doi.org/10.30782/jrvm.1342716",
+      "title": "Kedi (Felis Catus) Ovaryumlarında TGF-α’nın İmmunohistokimyasal Yerleşimi Immunohistochemical Localization of TGF-α in Cat’s (Felis Catus) Ovary",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3390/ani10122390",
+      "url": "https://doi.org/10.3390/ani10122390",
+      "title": "What’s in a Meow? A Study on Human Classification and Interpretation of Domestic Cat Vocalizations",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.31533/pubvet.v13n8a387.1-6",
+      "url": "https://doi.org/10.31533/pubvet.v13n8a387.1-6",
+      "title": "Perfil bioquímico sérico de gatos (Felis catus domesticus) domésticos submetidos ao consumo exclusivo de dieta seca ou dieta mista Serum biochemical profile of domestic cats (Felis catus domesticus) submitted to the exclusive consumption of dry or mixed diet Perfil bioquímico sérico de gatos (Felis catus domesticus) domésticos sometidos al consumo exclusivo de dieta seca o dieta mixta",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31533/pubvet.v12n10a190.1-9",
+      "url": "https://doi.org/10.31533/pubvet.v12n10a190.1-9",
+      "title": "Anestesia dissociativa e anestesia balanceada em gatas (Felis catus) submetidas a ovariohisterectomia Dissociative e anesthesia and balanced anesthesia in cats (Felis catus) submitted ovariohysterectomy Anestesia disociativa y anestesia equilibrada em gatos (Felis catus) sometidos a ovariohisterectomía",
+      "year": 2018,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.22256/pubvet.v12n1a12.1-3",
+      "url": "https://doi.org/10.22256/pubvet.v12n1a12.1-3",
+      "title": "Infestação em Felis catus por Felicola subrostratus: Relato de Caso Infestation in Felis catus by Felicola subrostratus: Case report Infestación en Felis catus por Felicola subrostratus: Reporte de caso",
+      "year": 2017,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/ncomms12739",
+      "url": "https://doi.org/10.1038/ncomms12739",
+      "title": "The evolution of acoustic size exaggeration in terrestrial mammals",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.18258/7011",
+      "url": "https://doi.org/10.18258/7011",
+      "title": "Reputation Formation in Domestic Cats (Felis silvestris catus)",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-015-0897-6",
+      "url": "https://doi.org/10.1007/s10071-015-0897-6",
+      "title": "What’s inside your cat’s head? A review of cat (Felis silvestris catus) cognition research past, present and future",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.17109/azh.61.4.373.2015",
+      "url": "https://doi.org/10.17109/azh.61.4.373.2015",
+      "title": "Habitat urbanization and its effects on birds",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-013-0620-4",
+      "url": "https://doi.org/10.1007/s10071-013-0620-4",
+      "title": "Vocal recognition of owners by domestic cats (Felis catus)",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/czoolo/58.5.698",
+      "url": "https://doi.org/10.1093/czoolo/58.5.698",
+      "title": "What makes a cry a cry? A review of infant distress vocalizations",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.82598",
+      "url": "https://doi.org/10.1079/cabicompendium.82598",
+      "title": "Felis catus (cat)",
+      "year": 2010,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.cognition.2005.02.005",
+      "url": "https://doi.org/10.1016/j.cognition.2005.02.005",
+      "title": "The evolution of the language faculty: Clarifications and implications",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.jfms.2003.09.013",
+      "url": "https://doi.org/10.1016/j.jfms.2003.09.013",
+      "title": "Social organization in the cat: A modern understanding",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.5962/bhl.title.57410",
+      "url": "https://doi.org/10.5962/bhl.title.57410",
+      "title": "The wild cat of Europe (Felis catus.)",
+      "year": 1896,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.applanim.2020.105048",
+      "url": "https://doi.org/10.1016/j.applanim.2020.105048",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.1073/pnas.0905043106",
+      "url": "https://doi.org/10.1073/pnas.0905043106",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.21708/bdtd.ppgca.tese.11458",
+      "url": "https://doi.org/10.21708/bdtd.ppgca.tese.11458",
+      "title": "Bacterioma em útero de gatas domésticas (Felis catus)",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_7213_acad_2026_2481",
+      "title": "Diagnóstico coproparasitológico de Lagochilascaris sp. em gato doméstico (Felis catus): Resenha Crítica Coproparasitological diagnosis of Lagochilascaris sp. in domestic cat (Felis catus): Critical Review",
+      "year": 2026,
+      "doi": "10.7213/acad.2026.2481",
+      "abstract": "<jats:p>Resenha crítica da obra original: Ferraz A, Barwaldt ET, Castro TA, Lima CM, Sapin CF, Pinto DM, et al. Diagnóstico coproparasitológico de Lagochilascaris sp. em gato doméstico (Felis catus). Rev Acad Cienc Anim. 2021;19:e19203. https://doi.org/10.7213/acad.2021.19203\n </jats:p>",
+      "journal": "Revista Acadêmica Ciência Animal",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_com0000418_supp",
+      "title": "Supplemental Material for Vocal Signals Produced by the Domestic Cat (Felis silvestris catus) in Highly Motivating Contexts",
+      "year": 2025,
+      "doi": "10.1037/com0000418.supp",
+      "abstract": "",
+      "journal": "Journal of Comparative Psychology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_30782_jrvm_1342716",
+      "title": "Kedi (Felis Catus) Ovaryumlarında TGF-α’nın İmmunohistokimyasal Yerleşimi Immunohistochemical Localization of TGF-α in Cat’s (Felis Catus) Ovary",
+      "year": 2023,
+      "doi": "10.30782/jrvm.1342716",
+      "abstract": "<jats:p xml:lang=\"tr\">Transforme edici büyüme faktörü alfa (TGF-α), ovaryumlarda ovositlerin olgunlaşmasında, granüloza hücrelerinin proliferasyonunda ve diferansiyasyonunda önemli roller oynayan bir büyüme faktörüdür. Bu çalışma, erişkin kedi ovaryumlarında ilk defa TGF-α’nın immunohistokimyasal yerleşiminin belirlenmesi amacıyla yapıldı. Çalışmada 10 adet, evcil, erişkin kedi ovaryumu kullanıldı. Dokular %10’luk tamponlanmış nötr formol solüsyonunda tespit edildi ve rutin histolojik prosedür uygulandı. Kesitlere Crossman’ın üçlü boyaması uygulanarak ovaryumların genel histolojik yapısı ve indirekt streptavidin-biotin-peroksidaz kompleks yöntemi uygulanarak TGF-α’nın immunohistokimyasal yerleşimi incelendi. Ovaryumlarda TGF-α’ya ait pozitif boyamaların sadece granüloza hücrelerinde, teka interna hücrelerinde, folliküllerin ovositlerinde ve teka lutein hücrelerinde olduğu görüldü. Primordiyal folliküllerin ovositlerinde, büyük antral ve atretik foliküllerin granüloza hücrelerinde şidde",
+      "journal": "Journal of Research in Veterinary Medicine",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3390_ani10122390",
+      "title": "What’s in a Meow? A Study on Human Classification and Interpretation of Domestic Cat Vocalizations",
+      "year": 2020,
+      "doi": "10.3390/ani10122390",
+      "abstract": "Although the domestic cat (<i>Felis catus</i>) is probably the most widespread companion animal in the world and interacts in a complex and multifaceted way with humans, the human-cat relationship and reciprocal communication have received far less attention compared, for example, to the human-dog relationship. Only a limited number of studies have considered what people understand of cats' human-directed vocal signals during daily cat-owner interactions. The aim of the current study was to investigate to what extent adult humans recognize cat vocalizations, namely meows, emitted in three different contexts: waiting for food, isolation, and brushing. A second aim was to evaluate whether the level of human empathy toward animals and cats and the participant's gender would positively influence the recognition of cat vocalizations. Finally, some insights on which acoustic features are relevant for the main investigation are provided as a serendipitous result. Two hundred twenty-five adult",
+      "journal": "Animals",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31533_pubvet_v13n8a387_1-6",
+      "title": "Perfil bioquímico sérico de gatos (Felis catus domesticus) domésticos submetidos ao consumo exclusivo de dieta seca ou dieta mista Serum biochemical profile of domestic cats (Felis catus domesticus) submitted to the exclusive consumption of dry or mixed diet Perfil bioquímico sérico de gatos (Felis catus domesticus) domésticos sometidos al consumo exclusivo de dieta seca o dieta mixta",
+      "year": 2019,
+      "doi": "10.31533/pubvet.v13n8a387.1-6",
+      "abstract": "<jats:p>The objective of this study was to compare the serum biochemical profile of cats (Felis catus domesticus) submitted to a dry diet and fed a mixed diet (dry damp diet). Eight domestic cats residing in the São Luís city were selected, based on the type of diet consumed (dry or mixed), being determined the serum concentrations of urea, creatinine, total serum protein and fractions, glucose, cholesterol, activities serum levels of ALT, AST and FA. The results obtained showed statistically significant differences only for urea (P &lt; 0.05), which may or may not be the result of dietary influence. The use of moist food as part of the feline diet was therefore a good strategy for the organic balance of these animals, necessitating a larger sample number to determine the real influence of the diet on the biochemical profiles, since other factors may have influenced the observed results.</jats:p>",
+      "journal": "Pubvet",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31533_pubvet_v12n10a190_1-9",
+      "title": "Anestesia dissociativa e anestesia balanceada em gatas (Felis catus) submetidas a ovariohisterectomia Dissociative e anesthesia and balanced anesthesia in cats (Felis catus) submitted ovariohysterectomy Anestesia disociativa y anestesia equilibrada em gatos (Felis catus) sometidos a ovariohisterectomía",
+      "year": 2018,
+      "doi": "10.31533/pubvet.v12n10a190.1-9",
+      "abstract": "<jats:p>Felines present peculiarities, among them the recognizement of pain is a big challenge for the clinical and surgical routine of veterinary medicine, as well the metabolism of some drugs in their bodies. This study’s objective was to evaluate and compare the efficiency of two anesthetic protocols: association of dexmedetomidine-dextrocetamine-methadone and the continuous infusion of alfentanil and dexmedetomidine midazolam-methadone and continuous infusion of fentanyl, during procedures of ovariohysterectomy on cats. The parametric cardiorespiratory, oxycapnometric variants, response to nociceptive stimuli, latency period, anesthetic plane quality and possible side effects were evaluated. Both protocols can be recommended to perform the ovariohysterectomy surgery on cats since they don’t significantly alter the physiological responses from the animals. The exploratory analysis of this experiment based itself on verifications of the presuppositions of the experimental model, the ",
+      "journal": "Pubvet",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_22256_pubvet_v12n1a12_1-3",
+      "title": "Infestação em Felis catus por Felicola subrostratus: Relato de Caso Infestation in Felis catus by Felicola subrostratus: Case report Infestación en Felis catus por Felicola subrostratus: Reporte de caso",
+      "year": 2017,
+      "doi": "10.22256/pubvet.v12n1a12.1-3",
+      "abstract": "<jats:p>Pediculosis in cats is uncommon and poorly reported. There is a very high host specificity that facilitates identification. No other report of this parasite was found in the southern state of Rio de Janeiro (Quatis city), which describes the incidence of Felicola subrostratus in this region of Brazil. The clinical signs observed were: Alopecia, tricorrexia, intense pruritus, irritability, behavioral changes, etc. Identification of the parasite was made and the treatment was proposed, which was successful with elimination of the parasites, and improvement of the clinical signs.</jats:p>",
+      "journal": "Pubvet",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "lit_gbif_2435194_13",
+      "title": "Phonetic Characteristics of Domestic Cat Vocalisations",
+      "year": 2017,
+      "doi": null,
+      "abstract": "The cat (Felis catus, Linneaus 1758) has lived around or with humans for at least 10,000 years, and is now one of the most popular pets of the world with more than 600 millionindividuals. Domestic cats have developed a more extensive, variable and complex vocal repertoire than most other members of the Carnivora, which may be explained by their social organisation, their nocturnal activity and the long period of association between mother and young. Still, we know surprisingly little about the phonetic characteristics of these sounds, and about the interaction between cats and humans. Members of the research project Melody in human–cat communication (Meowsic) investigate the prosodic characteristics of cat vocalisations as well as the communication between human and cat. The first step includes a categorisation of cat vocalisations. In the next step it will be investigated how humans perceive the vocal signals of domestic cats. This paper presents an outline of the project which has on",
+      "journal": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_18258_7011",
+      "title": "Reputation Formation in Domestic Cats (Felis silvestris catus)",
+      "year": 2016,
+      "doi": "10.18258/7011",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_ncomms12739",
+      "title": "The evolution of acoustic size exaggeration in terrestrial mammals",
+      "year": 2016,
+      "doi": "10.1038/ncomms12739",
+      "abstract": "Recent studies have revealed that some mammals possess adaptations that enable them to produce vocal signals with much lower fundamental frequency (F0) and formant frequency spacing (ΔF) than expected for their size. Although these adaptations are assumed to reflect selection pressures for males to lower frequency components and exaggerate body size in reproductive contexts, this hypothesis has not been tested across a broad range of species. Here we show that male terrestrial mammals produce vocal signals with lower ΔF (but not F0) than expected for their size in mating systems with greater sexual size dimorphism. We also reveal that males produce calls with higher than expected F0 and ΔF in species with increased sperm competition. This investigation confirms that sexual selection favours the use of ΔF as an acoustic size exaggerator and supports the notion of an evolutionary trade-off between pre-copulatory signalling displays and sperm production.",
+      "journal": "Nature Communications",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-015-0897-6",
+      "title": "What’s inside your cat’s head? A review of cat (Felis silvestris catus) cognition research past, present and future",
+      "year": 2015,
+      "doi": "10.1007/s10071-015-0897-6",
+      "abstract": "",
+      "journal": "Animal Cognition",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_17109_azh_61_4_373_2015",
+      "title": "Habitat urbanization and its effects on birds",
+      "year": 2015,
+      "doi": "10.17109/azh.61.4.373.2015",
+      "abstract": "By transforming landscapes, human activity creates new types of habitats with altered environmental characteristics that never existed before. As the process of habitat urbanization bears impact on more and more natural habitats, it is essential for us to understand the changes we bring forth in the ecological forces shaping urban animal communities. Birds are perhaps the most frequently studied model organisms by urban ecologists. It is a well known general pattern that urban avian communities have typically reduced species richness, while the density of a few successful species is often higher in cities than in adjacent more natural habitats. But it is less understood which mechanisms generate and uphold these community-level changes. In this review we discuss the most important components of the urban environment influencing birds' physiology, behaviour or morphology, and compile several recent studies to illustrate their effects. To understand urban food webs we also review the res",
+      "journal": "Acta Zoologica Academiae Scientiarum Hungaricae",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-013-0620-4",
+      "title": "Vocal recognition of owners by domestic cats (Felis catus)",
+      "year": 2013,
+      "doi": "10.1007/s10071-013-0620-4",
+      "abstract": "",
+      "journal": "Animal Cognition",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_czoolo_58_5_698",
+      "title": "What makes a cry a cry? A review of infant distress vocalizations",
+      "year": 2012,
+      "doi": "10.1093/czoolo/58.5.698",
+      "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
+      "journal": "Current Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_82598",
+      "title": "Felis catus (cat)",
+      "year": 2010,
+      "doi": "10.1079/cabicompendium.82598",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_cognition_2005_02_005",
+      "title": "The evolution of the language faculty: Clarifications and implications",
+      "year": 2005,
+      "doi": "10.1016/j.cognition.2005.02.005",
+      "abstract": "",
+      "journal": "Cognition",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_jfms_2003_09_013",
+      "title": "Social organization in the cat: A modern understanding",
+      "year": 2004,
+      "doi": "10.1016/j.jfms.2003.09.013",
+      "abstract": "An increasing body of research work has made it clear that, while Felis catus can survive in the solitary state, social groups with an internal structure, are formed whenever there are sufficient food resources to support them. Most people who have cats have two or more cats. Failure to understand what will promote either friendly or aggressive behavior can lead to various behavior problems, including aggression and conflict over resources, such as food, resting sites and litterboxes. An understanding of the natural social organization, relationships and communication between cats is therefore essential, and is the subject of this paper.",
+      "journal": "Journal of Feline Medicine and Surgery",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5962_bhl_title_57410",
+      "title": "The wild cat of Europe (Felis catus.)",
+      "year": 1896,
+      "doi": "10.5962/bhl.title.57410",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_21708_bdtd_ppgca_tese_11458",
+      "title": "Bacterioma em útero de gatas domésticas (Felis catus)",
+      "year": null,
+      "doi": "10.21708/bdtd.ppgca.tese.11458",
+      "abstract": "<jats:p>O sequenciamento do gene 16S RNA ribossômico (16S rRNA) permitiu maior\nabrangência nos estudos de comunidades bacterianas em sistemas orgânicos saudáveis,\ncomo também em condições patológicas. Assim, tivemos dois objetivos neste estudo,\ntais como: investigar o bacterioma em amostras de úteros felino saudável; e descrever a\ncomunidade bacteriana em um ambiente materno-fetal em quadro de falha reprodutiva\n(FR). Para isso, foram coletados fragmentos uterinos de cinco gatas (não gestantes e\nsadias) e fragmentos uterinos e de órgãos fetais oriundos de uma gata com morte fetal\nno último terço de gestação. Após a extração de DNA de todas as amostras, foi\nrealizado reação para amplificação para sequenciamento genômico para regiões\nvariáveis V3 e V4 do gene 16S rRNA. As amostras das gatas sadias não amplificaram\npara o gene 16S rRNA, porém foi descrito o bacterioma no quadro de FR. Foram\nidentificados 119 OTUs (OTU - Operational Taxonomic Unit) de 5 filos e 15 e 13\ngêneros do útero e do",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 19,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

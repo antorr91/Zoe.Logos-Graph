@@ -1,0 +1,482 @@
+{
+  "species_id": "gbif_5228897",
+  "gbif_usage_key": 5228897,
+  "scientific_name": "Bos taurus",
+  "common_name_en": "domestic cattle",
+  "common_names": {
+    "en": "domestic cattle",
+    "it": "mucca domestica",
+    "es": "vaca doméstica",
+    "fr": "vache domestique",
+    "de": "hausrind"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Bos",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 16,
+    "claim_count": 9,
+    "doi_count": 17,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Domestic cattle (Bos taurus) is a species of Mammalia in the order Artiodactyla, family Bovidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Cattle",
+  "wiki_title": "Cattle",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "bellow",
+    "moo",
+    "rumble"
+  ],
+  "contexts": [
+    "alarm",
+    "contact",
+    "mother-calf"
+  ],
+  "functions": [
+    "contact maintenance",
+    "individual recognition",
+    "separation distress"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "bellow",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "moo",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "rumble",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "contact",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mother-calf",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "separation distress",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "freesound",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1016/j.applanim.2021.105264",
+      "url": "https://doi.org/10.1016/j.applanim.2021.105264",
+      "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0185306",
+      "url": "https://doi.org/10.1371/journal.pone.0185306",
+      "title": "Self-domestication in Homo sapiens: Insights from comparative genomics",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3168/jds.2017-12651",
+      "url": "https://doi.org/10.3168/jds.2017-12651",
+      "title": "Invited review: Effects of heat stress on dairy cattle welfare",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2016.02.004",
+      "url": "https://doi.org/10.1016/j.anbehav.2016.02.004",
+      "title": "Mother–offspring recognition via contact calls in cattle, Bos taurus",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3168/jds.2015-10144",
+      "url": "https://doi.org/10.3168/jds.2015-10144",
+      "title": "Invited review: Effects of group housing of dairy calves on behavior, cognition, performance, and health",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1073/pnas.1321543111",
+      "url": "https://doi.org/10.1073/pnas.1321543111",
+      "title": "Elephants can determine ethnicity, gender, and age from acoustic cues in human voices",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/czoolo/58.5.698",
+      "url": "https://doi.org/10.1093/czoolo/58.5.698",
+      "title": "What makes a cry a cry? A review of infant distress vocalizations",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1186/1751-0147-53-28",
+      "url": "https://doi.org/10.1186/1751-0147-53-28",
+      "title": "Minimising the stress of weaning of beef calves: a review",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anireprosci.2008.09.008",
+      "url": "https://doi.org/10.1016/j.anireprosci.2008.09.008",
+      "title": "Influence of the breed of bull (Bos taurus indicus vs. Bos taurus taurus) and the breed of cow (Bos taurus indicus, Bos taurus taurus and crossbred) on the resistance of bovine embryos to heat",
+      "year": 2009,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31533/pubvet.v02n10a398",
+      "url": "https://doi.org/10.31533/pubvet.v02n10a398",
+      "title": "Variações de cortisol sérico em bovinos de corte (Bos taurus indicus) Nelore e (Bos taurus indicus x Bos taurus taurus) cruzamento industrial, durante o processo de abate",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2527/1991.6983156x",
+      "url": "https://doi.org/10.2527/1991.6983156x",
+      "title": "Output/input differences among nonpregnant, lactating Bos indicus-Bos taurus and Bos taurus-Bos taurus F1 cross cows.",
+      "year": 1991,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.11606/d.10.2008.tde-18072008-154438",
+      "url": "https://doi.org/10.11606/d.10.2008.tde-18072008-154438",
+      "title": "Emprego de um novo dispositivo intravaginal para liberação sustentada de progesterona em programas de TETF em receptoras de embrião (Bos taurus taurus x Bos taurus indicus)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.11606/d.10.2009.tde-17122009-143738",
+      "url": "https://doi.org/10.11606/d.10.2009.tde-17122009-143738",
+      "title": "Perfil oxidativo e avaliação funcional de sêmen criopreservado de touros (Bos taurus taurus e Bos taurus indicus) criados em clima tropical",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.11606/d.74.2005.tde-18102006-153309",
+      "url": "https://doi.org/10.11606/d.74.2005.tde-18102006-153309",
+      "title": "Efeito do fotoperíodo na detecção do estro em fêmeas bovinas Nelore (Bos taurus indicus) e cruzadas Red Angus x Nelore e Limousin x Nelore (Bos taurus taurus x Bos taurus indicus) manejadas em diferentes regiões do Brasil",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.11606/t.10.2004.tde-12092007-130341",
+      "url": "https://doi.org/10.11606/t.10.2004.tde-12092007-130341",
+      "title": "Sincronização da ovulação com dispositivo intravaginal de progesterona (CIDR®) em novilhas Bos indicus, Bos indicus x Bos taurus e Bos taurus",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0215999",
+      "url": "https://doi.org/10.1371/journal.pone.0215999",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.31857/s2500-26272019364-67-11614",
+      "url": "https://doi.org/10.31857/s2500-26272019364-67-11614",
+      "title": "Characteristic of the oocyte population of Bos taurus and Bos indicus.",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1016_j_applanim_2021_105264",
+      "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
+      "year": 2021,
+      "doi": "10.1016/j.applanim.2021.105264",
+      "abstract": "Public concern for farm animal welfare is increasing. Animal welfare is defined as the balance of positive and negative emotions, where positive emotions are key to a good animal life. Emotion is defined as an experience that varies in valence and arousal. Many methods developed to identify positive emotions in animals involve disadvantages. For example, they require training the animals, are age specific or invasive. Vocalisations are a promising indicator of positive emotions. We aimed to review current knowledge on farm animal vocalisations putatively associated with positive emotions and discuss the potential of vocalisations as an on-farm tool to assess positive emotions in farm animals. Vocalisation types and acoustic structures that can potentially be used to identify positive emotions depend upon species. In pigs, lower frequency vocalisations are produced more in positive situations, however, within grunts, higher frequencies reflect positive situations. In horses, more snorts",
+      "journal": "Applied Animal Behaviour Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3168_jds_2017-12651",
+      "title": "Invited review: Effects of heat stress on dairy cattle welfare",
+      "year": 2017,
+      "doi": "10.3168/jds.2017-12651",
+      "abstract": "The effects of high ambient temperatures on production animals, once thought to be limited to tropical areas, has extended into northern latitudes in response to the increasing global temperature. The number of days where the temperature-humidity index (THI) exceeds the comfort threshold (>72) is increasing in the northern United States, Canada, and Europe. Compounded by the increasing number of dairy animals and the intensification of production, heat stress has become one of the most important challenges facing the dairy industry today. The objectives of this review were to present an overview of the effects of heat stress on dairy cattle welfare and highlight important research gaps in the literature. We will also briefly discuss current heat abatement strategies, as well as the sustainability of future heat stress management. Heat stress has negative effects on the health and biological functioning of dairy cows through depressed milk production and reduced reproductive performance",
+      "journal": "Journal of Dairy Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0185306",
+      "title": "Self-domestication in Homo sapiens: Insights from comparative genomics",
+      "year": 2017,
+      "doi": "10.1371/journal.pone.0185306",
+      "abstract": "This study identifies and analyzes statistically significant overlaps between selective sweep screens in anatomically modern humans and several domesticated species. The results obtained suggest that (paleo-)genomic data can be exploited to complement the fossil record and support the idea of self-domestication in Homo sapiens, a process that likely intensified as our species populated its niche. Our analysis lends support to attempts to capture the \"domestication syndrome\" in terms of alterations to certain signaling pathways and cell lineages, such as the neural crest.",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2016_02_004",
+      "title": "Mother–offspring recognition via contact calls in cattle, Bos taurus",
+      "year": 2016,
+      "doi": "10.1016/j.anbehav.2016.02.004",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3168_jds_2015-10144",
+      "title": "Invited review: Effects of group housing of dairy calves on behavior, cognition, performance, and health",
+      "year": 2016,
+      "doi": "10.3168/jds.2015-10144",
+      "abstract": "Standard practice in the dairy industry is to separate the calf and dam immediately after birth and raise calves in individual pens during the milk-feeding period. In nature and in extensive beef systems, the young calf lives in a complex social environment. Social isolation during infancy has been associated with negative effects, including abnormal behavior and developmental problems, in a range of species. Here, we review empirical work on the social development of calves and the effects of social isolation in calves and other species; this evidence indicates that calves reared in isolation have deficient social skills, difficulties in coping with novel situations, as well as specific cognitive deficits. We also review the practices associated with group housing of dairy calves, and discuss problems and suggested solutions, especially related to cross-sucking, competition, aggression, and disease. The studies reviewed indicate that social housing improves solid feed intakes and calf",
+      "journal": "Journal of Dairy Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1073_pnas_1321543111",
+      "title": "Elephants can determine ethnicity, gender, and age from acoustic cues in human voices",
+      "year": 2014,
+      "doi": "10.1073/pnas.1321543111",
+      "abstract": "Animals can accrue direct fitness benefits by accurately classifying predatory threat according to the species of predator and the magnitude of risk associated with an encounter. Human predators present a particularly interesting cognitive challenge, as it is typically the case that different human subgroups pose radically different levels of danger to animals living around them. Although a number of prey species have proved able to discriminate between certain human categories on the basis of visual and olfactory cues, vocalizations potentially provide a much richer source of information. We now use controlled playback experiments to investigate whether family groups of free-ranging African elephants (Loxodonta africana) in Amboseli National Park, Kenya can use acoustic characteristics of speech to make functionally relevant distinctions between human subcategories differing not only in ethnicity but also in sex and age. Our results demonstrate that elephants can reliably discriminate",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_czoolo_58_5_698",
+      "title": "What makes a cry a cry? A review of infant distress vocalizations",
+      "year": 2012,
+      "doi": "10.1093/czoolo/58.5.698",
+      "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
+      "journal": "Current Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1186_1751-0147-53-28",
+      "title": "Minimising the stress of weaning of beef calves: a review",
+      "year": 2011,
+      "doi": "10.1186/1751-0147-53-28",
+      "abstract": "Weaning of beef calves is usually done abruptly and early compared to the natural weaning of the species, and is associated with simultaneous exposure of calves to a range of social and environmental stressors. Behavioural and physiological responses to weaning indicate detrimental effects on the welfare of these animals. The development and assessment of weaning methods aiming at reducing or avoiding this problem must be supported by scientific knowledge of the morphological, physiological and psychological mechanisms involved in the establishment, maintenance and braking of the cow-calf bond. Solutions also depend on the understanding of the various stressors associated with weaning, among which are the change in diet, cessation of nursing, separation from the dam, the change to a new spatial environment and the need for social reorganization following removal of the adults from the group. This review discusses these issues and assesses the effectiveness of the methods so far propose",
+      "journal": "Acta veterinaria Scandinavica",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anireprosci_2008_09_008",
+      "title": "Influence of the breed of bull (Bos taurus indicus vs. Bos taurus taurus) and the breed of cow (Bos taurus indicus, Bos taurus taurus and crossbred) on the resistance of bovine embryos to heat",
+      "year": 2009,
+      "doi": "10.1016/j.anireprosci.2008.09.008",
+      "abstract": "",
+      "journal": "Animal Reproduction Science",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31533_pubvet_v02n10a398",
+      "title": "Variações de cortisol sérico em bovinos de corte (Bos taurus indicus) Nelore e (Bos taurus indicus x Bos taurus taurus) cruzamento industrial, durante o processo de abate",
+      "year": 2008,
+      "doi": "10.31533/pubvet.v02n10a398",
+      "abstract": "<jats:p>O experimento realizado teve como objetivo verificar os níveis de cortisol sérico em bovinos de corte durante o processo de abate. Foram avaliadas as concentrações de cortisol sérico em (Bos taurus indicus) Nelore e (Bos taurus indicus x Bos taurus taurus) Cruzamento Industrial. Os resultados indicaram que em situações de estresse o nível sérico de cortisol aumentou significativamente em ambos os casos. A determinação dos valores séricos de cortisol mostra-se útil, como método para avaliar os níveis de estresse bovino, pois neste trabalho, os valores avaliados foram significativos durante o processo de atordoamento, comparados com os valores de referências (0,05 a 1,80 mcg/dl). No entanto os resultados mostraram que não houve diferenças expressivas entre os genótipos avaliados.</jats:p>",
+      "journal": "Pubvet",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2527_1991_6983156x",
+      "title": "Output/input differences among nonpregnant, lactating Bos indicus-Bos taurus and Bos taurus-Bos taurus F1 cross cows.",
+      "year": 1991,
+      "doi": "10.2527/1991.6983156x",
+      "abstract": "",
+      "journal": "Journal of Animal Science",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11606_t_10_2004_tde-12092007-130341",
+      "title": "Sincronização da ovulação com dispositivo intravaginal de progesterona (CIDR®) em novilhas Bos indicus, Bos indicus x Bos taurus e Bos taurus",
+      "year": null,
+      "doi": "10.11606/t.10.2004.tde-12092007-130341",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11606_d_10_2009_tde-17122009-143738",
+      "title": "Perfil oxidativo e avaliação funcional de sêmen criopreservado de touros (Bos taurus taurus e Bos taurus indicus) criados em clima tropical",
+      "year": null,
+      "doi": "10.11606/d.10.2009.tde-17122009-143738",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11606_d_74_2005_tde-18102006-153309",
+      "title": "Efeito do fotoperíodo na detecção do estro em fêmeas bovinas Nelore (Bos taurus indicus) e cruzadas Red Angus x Nelore e Limousin x Nelore (Bos taurus taurus x Bos taurus indicus) manejadas em diferentes regiões do Brasil",
+      "year": null,
+      "doi": "10.11606/d.74.2005.tde-18102006-153309",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11606_d_10_2008_tde-18072008-154438",
+      "title": "Emprego de um novo dispositivo intravaginal para liberação sustentada de progesterona em programas de TETF em receptoras de embrião (Bos taurus taurus x Bos taurus indicus)",
+      "year": null,
+      "doi": "10.11606/d.10.2008.tde-18072008-154438",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31857_s2500-26272019364-67-11614",
+      "title": "Characteristic of the oocyte population of Bos taurus and Bos indicus.",
+      "year": null,
+      "doi": "10.31857/s2500-26272019364-67-11614",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 16,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

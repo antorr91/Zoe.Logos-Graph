@@ -1,0 +1,559 @@
+{
+  "species_id": "gbif_5788217",
+  "gbif_usage_key": 5788217,
+  "scientific_name": "Sturnus vulgaris",
+  "common_name_en": "european starling",
+  "common_names": {
+    "en": "european starling",
+    "it": "storno",
+    "es": "estornino pinto",
+    "fr": "étourneau sansonnet",
+    "de": "star"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Sturnidae",
+    "genus": "Sturnus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 20,
+    "claim_count": 8,
+    "doi_count": 21,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "European starling (Sturnus vulgaris) is a species of Aves in the order Passeriformes, family Sturnidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Common_starling",
+  "wiki_title": "Common_starling",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "call",
+    "song"
+  ],
+  "contexts": [
+    "courtship",
+    "murmuration",
+    "territory"
+  ],
+  "functions": [
+    "collective coordination",
+    "individual recognition",
+    "mate attraction"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "murmuration",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "collective coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Sturnus vulgaris",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.13164/eeict.2021.33",
+      "url": "https://doi.org/10.13164/eeict.2021.33",
+      "title": "Signal Processing For Vocal Recognition Of Sturnus Vulgaris",
+      "year": 2021,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.physbeh.2015.07.019",
+      "url": "https://doi.org/10.1016/j.physbeh.2015.07.019",
+      "title": "Neurotensin neural mRNA expression correlates with vocal communication and other highly-motivated social behaviors in male European starlings",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-014-0732-5",
+      "url": "https://doi.org/10.1007/s10071-014-0732-5",
+      "title": "Auditory temporal pattern learning by songbirds using maximal stimulus diversity and minimal repetition",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.51979",
+      "url": "https://doi.org/10.1079/cabicompendium.51979",
+      "title": "Sturnus vulgaris (common starling)",
+      "year": 2010,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.physbeh.2008.06.009",
+      "url": "https://doi.org/10.1016/j.physbeh.2008.06.009",
+      "title": "Evidence that dopamine within motivation and song control brain regions regulates birdsong context-dependently",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1002/neu.20181",
+      "url": "https://doi.org/10.1002/neu.20181",
+      "title": "Immediate early gene activity in song control nuclei and brain areas regulating motivation relates positively to singing behavior during, but not outside of, a breeding context",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1037/0735-7044.119.1.245",
+      "url": "https://doi.org/10.1037/0735-7044.119.1.245",
+      "title": "Evidence for Opioid Involvement in the Regulation of Song Production in Male European Starlings (Sturnus vulgaris).",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1159/000087854",
+      "url": "https://doi.org/10.1159/000087854",
+      "title": "Auditory Stream Segregation in the Songbird Forebrain: Effects of Time Intervals on Responses to Interleaved Tone Sequences",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1002/(sici)1097-4695(200001)42:1<117::aid-neu11>3.0.co;2-m",
+      "url": "https://doi.org/10.1002/(sici)1097-4695(200001)42:1<117::aid-neu11>3.0.co;2-m",
+      "title": "Individual vocal recognition and the effect of partial lesions to HVc on discrimination, learning, and categorization of conspecific song in adult songbirds",
+      "year": 2000,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1121/1.429408",
+      "url": "https://doi.org/10.1121/1.429408",
+      "title": "Perceptual classification based on the component structure of song in European starlings",
+      "year": 2000,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1006/anbe.1998.0810",
+      "url": "https://doi.org/10.1006/anbe.1998.0810",
+      "title": "Perceptual mechanisms for individual vocal recognition in European starlings,Sturnus vulgaris",
+      "year": 1998,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1017/cbo9780511758843.008",
+      "url": "https://doi.org/10.1017/cbo9780511758843.008",
+      "title": "Social influences on song acquisition and sharing in the European starling (<i>Sturnus vulgaris</i>)",
+      "year": 1997,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2173/tbna.48.p",
+      "url": "https://doi.org/10.2173/tbna.48.p",
+      "title": "European Starling (Sturnus vulgaris)",
+      "year": 1993,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1163/156853992x00570",
+      "url": "https://doi.org/10.1163/156853992x00570",
+      "title": "Perception of Distress Call Harmonic Structure By the Starling (Sturnus Vulgaris)",
+      "year": 1992,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf01647358",
+      "url": "https://doi.org/10.1007/bf01647358",
+      "title": "Circadiane Rhythmik und photoperiodische Zeitmessung beim Star(Sturnus vulgaris) Circadian rhythms and photoperiodic time measurement in the starling(Sturnus vulgaris)",
+      "year": 1977,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1073/pnas.1911115116",
+      "url": "https://doi.org/10.1073/pnas.1911115116",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.18174/172095",
+      "url": "https://doi.org/10.18174/172095",
+      "title": "Bijdrage tot de biologie en de ecologie van den spreeuw (Sturnus vulgaris vulgaris L.) gedurende zijn voortplantingstijd",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.23860/thesis-pomeroy-harold-1973",
+      "url": "https://doi.org/10.23860/thesis-pomeroy-harold-1973",
+      "title": "Startle Reaction Times in the Starling (Sturnus vulgaris)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.30707/etd2015.hanser.j",
+      "url": "https://doi.org/10.30707/etd2015.hanser.j",
+      "title": "Hatching Asynchrony in European Starlings (Sturnus vulgaris)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32469/10355/8088",
+      "url": "https://doi.org/10.32469/10355/8088",
+      "title": "Effects of socioeconomics on European starling (Sturnus vulgaris) abundance in Baltimore, Maryland",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472926975.0325",
+      "url": "https://doi.org/10.5040/9781472926975.0325",
+      "title": "Sturnus vulgaris Linnaeus. Common Starling. Étourneau sansonnet",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_13164_eeict_2021_33",
+      "title": "Signal Processing For Vocal Recognition Of Sturnus Vulgaris",
+      "year": 2021,
+      "doi": "10.13164/eeict.2021.33",
+      "abstract": "",
+      "journal": "Proceedings II of the 27st Conference STUDENT EEICT 2021",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_physbeh_2015_07_019",
+      "title": "Neurotensin neural mRNA expression correlates with vocal communication and other highly-motivated social behaviors in male European starlings",
+      "year": 2015,
+      "doi": "10.1016/j.physbeh.2015.07.019",
+      "abstract": "",
+      "journal": "Physiology & Behavior",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-014-0732-5",
+      "title": "Auditory temporal pattern learning by songbirds using maximal stimulus diversity and minimal repetition",
+      "year": 2014,
+      "doi": "10.1007/s10071-014-0732-5",
+      "abstract": "",
+      "journal": "Animal Cognition",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_51979",
+      "title": "Sturnus vulgaris (common starling)",
+      "year": 2010,
+      "doi": "10.1079/cabicompendium.51979",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_physbeh_2008_06_009",
+      "title": "Evidence that dopamine within motivation and song control brain regions regulates birdsong context-dependently",
+      "year": 2008,
+      "doi": "10.1016/j.physbeh.2008.06.009",
+      "abstract": "",
+      "journal": "Physiology & Behavior",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_neu_20181",
+      "title": "Immediate early gene activity in song control nuclei and brain areas regulating motivation relates positively to singing behavior during, but not outside of, a breeding context",
+      "year": 2005,
+      "doi": "10.1002/neu.20181",
+      "abstract": "In some species, such as songbirds, much is known about how the brain regulates vocal learning, production, and perception. What remains a mystery is what regulates the motivation to communicate. European starlings (Sturnus vulgaris) sing throughout most of the year, but the social and environmental factors that motivate singing behavior differ seasonally. Male song is highly sexually motivated during, but not outside of, the breeding season. Brain areas outside the song control system, such as the medial preoptic nucleus (POM) and ventral tegmental area (VTA), have been implicated in regulating sexually motivated behaviors in birds, including song. The present study was designed to explore whether these regions, as well as three song control nuclei [area X, the high vocal center (HVC), and the robust nucleus of the arcopallium (RA)], might be involved differentially in song produced within compared to outside of a breeding context. We recorded the behavioral responses of breeding and ",
+      "journal": "Journal of Neurobiology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_0735-7044_119_1_245",
+      "title": "Evidence for Opioid Involvement in the Regulation of Song Production in Male European Starlings (Sturnus vulgaris).",
+      "year": 2005,
+      "doi": "10.1037/0735-7044.119.1.245",
+      "abstract": "Many social animals vocalize at high rates, suggesting that vocal communication is highly motivated and rewarding. In songbirds, much is known about the neural control of vocal behavior; however, little is known about neurobiological mechanisms regulating the motivation to communicate. This study examined a possible role for opioid neuropeptides in motivation and reward associated with song production in male European starlings (Sturnus vulgaris). Peripheral opioid blockade facilitated male song production. Furthermore, methionine-enkephalin immunolabeled fiber densities within brain regions in which opioids are known to regulate motivation and reward (i.e., the medial preoptic nucleus and ventral tegmental area) related positively to male song production. These data suggest that song production might be regulated by opioid activity within motivation and reward neural systems.",
+      "journal": "Behavioral Neuroscience",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1159_000087854",
+      "title": "Auditory Stream Segregation in the Songbird Forebrain: Effects of Time Intervals on Responses to Interleaved Tone Sequences",
+      "year": 2005,
+      "doi": "10.1159/000087854",
+      "abstract": "For both humans and other animals, the abilities to integrate separate sound elements over time into coherent perceptual representations, or 'auditory streams', and to segregate these auditory streams from other interleaved sounds are critical for hearing and vocal communication. In humans and European starlings (Sturnus vulgaris) the ability to perceptually segregate a simple interleaved tone sequence comprised of two alternating tones differing in frequency (ABA-ABA-ABA-...) into separate auditory streams of A and B tones is promoted at larger frequency separations (DeltaF) between the A and B tones. In humans, segregating A and B tones into different streams also appears to be promoted at shorter interstimulus intervals (ISI) between tones within a stream (e.g., between consecutive A tones). Here, we used the ABA experimental paradigm to investigate the influence of different time intervals between A and B tones in repeated ABA triplets on neural responses in the starling forebrain.",
+      "journal": "Brain Behavior and Evolution",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_(sici)1097-4695(200001)42:1<117::aid-neu11>3_0_co;2-m",
+      "title": "Individual vocal recognition and the effect of partial lesions to HVc on discrimination, learning, and categorization of conspecific song in adult songbirds",
+      "year": 2000,
+      "doi": "10.1002/(sici)1097-4695(200001)42:1<117::aid-neu11>3.0.co;2-m",
+      "abstract": "Among songbirds, the capacity to associate particular songs with particular singers (i.e., vocal recognition) forms the cognitive basis for more complex communication behaviors such as female choice and territoriality. In the present study, we combine operant conditioning techniques and excitotoxic lesions to the forebrain nucleus HVc to examine the role of this region in the discrimination, associative learning, and categorization of conspecific song. We trained adult male and female European starlings, Sturnus vulgaris, to recognize simultaneously the songs of several conspecific males. Then, using a series of transfer procedures, we demonstrate that correct recognition does not generalize to song bouts containing novel motifs from familiar singers. This suggests that starlings do not make use of individually invariant source or filter characteristics for vocal recognition. We then lesioned a portion of HVc bilaterally with ibotenic acid, and exposed the birds to a series of manipula",
+      "journal": "Journal of Neurobiology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_429408",
+      "title": "Perceptual classification based on the component structure of song in European starlings",
+      "year": 2000,
+      "doi": "10.1121/1.429408",
+      "abstract": "The ability to recognize individuals based on their vocalizations is common among many species of songbirds. Examining the psychological and neural basis of this functionally relevant behavior can provide insight into the perceptual processing of acoustically complex, real-world, communication signals. In one species of songbird, European starlings (Sturnus vulgaris), males sing long and acoustically complex songs composed of small stereotyped note clusters called motifs. Previous studies demonstrate that starlings are capable of individual vocal recognition, and suggest that vocal recognition results from the association of specific motifs with specific individuals. The present study tests this possibility by examining how variation among the motifs that comprise a song affect its discrimination and classification. Starlings were trained, using operant techniques, to associate multiple songs from a single male starling with one response, and songs from four other male starlings with a",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1006_anbe_1998_0810",
+      "title": "Perceptual mechanisms for individual vocal recognition in European starlings,Sturnus vulgaris",
+      "year": 1998,
+      "doi": "10.1006/anbe.1998.0810",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1017_cbo9780511758843_008",
+      "title": "Social influences on song acquisition and sharing in the European starling (<i>Sturnus vulgaris</i>)",
+      "year": 1997,
+      "doi": "10.1017/cbo9780511758843.008",
+      "abstract": "",
+      "journal": "Social Influences on Vocal Development",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2173_tbna_48_p",
+      "title": "European Starling (Sturnus vulgaris)",
+      "year": 1993,
+      "doi": "10.2173/tbna.48.p",
+      "abstract": "",
+      "journal": "Birds of North America (print)",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_156853992x00570",
+      "title": "Perception of Distress Call Harmonic Structure By the Starling (Sturnus Vulgaris)",
+      "year": 1992,
+      "doi": "10.1163/156853992x00570",
+      "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>To examine the ethological role of signal composition in the distress calls of starlings (Sturnus vulgaris), we conducted a series of playback experiments in the field. Earlier researches revealed that frequency modulations are important features of distress calls for triggering the responses of starlings. Another feature, the harmonic structure, was thought to play a role in the coding/decoding process of the call. The aim of this work was to investigate the role of this structure. Four points emerge from these experiments: 1) Ethological message is effectively encoded in the harmonic structure. 2) Wide-band frequency spectra are preferred to narrow-band spectra. 3) Starlings examine the width of the spectrum but not the interval between frequency bands. 4) Spectra with a high intensity upper part produce a stronger response than other types of spectra. Such a coding/decoding process is discussed regarding transmission of information ",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01647358",
+      "title": "Circadiane Rhythmik und photoperiodische Zeitmessung beim Star(Sturnus vulgaris) Circadian rhythms and photoperiodic time measurement in the starling(Sturnus vulgaris)",
+      "year": 1977,
+      "doi": "10.1007/bf01647358",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_30707_etd2015_hanser_j",
+      "title": "Hatching Asynchrony in European Starlings (Sturnus vulgaris)",
+      "year": null,
+      "doi": "10.30707/etd2015.hanser.j",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_23860_thesis-pomeroy-harold-1973",
+      "title": "Startle Reaction Times in the Starling (Sturnus vulgaris)",
+      "year": null,
+      "doi": "10.23860/thesis-pomeroy-harold-1973",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472926975_0325",
+      "title": "Sturnus vulgaris Linnaeus. Common Starling. Étourneau sansonnet",
+      "year": null,
+      "doi": "10.5040/9781472926975.0325",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_18174_172095",
+      "title": "Bijdrage tot de biologie en de ecologie van den spreeuw (Sturnus vulgaris vulgaris L.) gedurende zijn voortplantingstijd",
+      "year": null,
+      "doi": "10.18174/172095",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32469_10355_8088",
+      "title": "Effects of socioeconomics on European starling (Sturnus vulgaris) abundance in Baltimore, Maryland",
+      "year": null,
+      "doi": "10.32469/10355/8088",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 20,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "species_id": "gbif_2366788",
+  "gbif_usage_key": 2366788,
+  "scientific_name": "Gadus morhua",
+  "common_name_en": "atlantic cod",
+  "common_names": {
+    "en": "atlantic cod",
+    "it": "merluzzo atlantico",
+    "es": "bacalao del Atlántico",
+    "fr": "morue de l'Atlantique",
+    "de": "atlantischer kabeljau"
+  },
+  "taxonomy": {
+    "class_": "Actinopterygii",
+    "order_": "Gadiformes",
+    "family": "Gadidae",
+    "genus": "Gadus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 15,
+    "claim_count": 8,
+    "doi_count": 16,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Atlantic cod (Gadus morhua) is a species of Actinopterygii in the order Gadiformes, family Gadidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Atlantic_cod",
+  "wiki_title": "Atlantic_cod",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "grunt",
+    "knock"
+  ],
+  "contexts": [
+    "courtship",
+    "male competition",
+    "spawning"
+  ],
+  "functions": [
+    "male competition",
+    "mate attraction",
+    "spawning coordination"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "grunt",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "knock",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "male competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "spawning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "male competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "spawning coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1007/s11160-020-09598-9",
+      "url": "https://doi.org/10.1007/s11160-020-09598-9",
+      "title": "Predicting the effects of anthropogenic noise on fish reproduction",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.81933",
+      "url": "https://doi.org/10.1079/cabicompendium.81933",
+      "title": "Gadus morhua (Atlantic cod)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-3-319-25582-8_10069",
+      "url": "https://doi.org/10.1007/978-3-319-25582-8_10069",
+      "title": "Atlantic Cod (Gadus morhua)",
+      "year": 2017,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/s41598-017-14743-9",
+      "url": "https://doi.org/10.1038/s41598-017-14743-9",
+      "title": "Underwater sound from vessel traffic reduces the effective communication range in Atlantic cod and haddock",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2016.0839",
+      "url": "https://doi.org/10.1098/rspb.2016.0839",
+      "title": "Aquatic noise pollution: implications for individuals, populations, and ecosystems",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3389/fevo.2016.00028",
+      "url": "https://doi.org/10.3389/fevo.2016.00028",
+      "title": "Diversity in Fish Auditory Systems: One of the Riddles of Sensory Biology",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/aru029",
+      "url": "https://doi.org/10.1093/beheco/aru029",
+      "title": "Acoustic communication in a noisy world: can fish compete with anthropogenic noise?",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.7287/peerj.20v0.1/reviews/2",
+      "url": "https://doi.org/10.7287/peerj.20v0.1/reviews/2",
+      "title": "Peer Review #2 of \"Iodine nutrition and toxicity in Atlantic cod (Gadus morhua) larvae (v0.1)\"",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.tree.2010.04.005",
+      "url": "https://doi.org/10.1016/j.tree.2010.04.005",
+      "title": "A noisy spring: the impact of globally rising underwater sound levels on fish",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/icb/icp055",
+      "url": "https://doi.org/10.1093/icb/icp055",
+      "title": "Social behavior in context: Hormonal modulation of behavioral plasticity and social competence",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1601-5223.1988.tb00678.x",
+      "url": "https://doi.org/10.1111/j.1601-5223.1988.tb00678.x",
+      "title": "Description of electrophoretic loci in Atlantic cod, Gadus morhua, and comparison with Pacific cod, Gadus macrocephalus",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1242/jeb.01809",
+      "url": "https://doi.org/10.1242/jeb.01809",
+      "title": "Are hearing sensitivities of freshwater fish adapted to the ambient noise in their habitats?",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.15366/archaeofauna2002.11.002",
+      "url": "https://doi.org/10.15366/archaeofauna2002.11.002",
+      "title": "Atlantic Cod in The Missouri River: Gadus morhua from the Steamboat Bertrand",
+      "year": 2002,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/0305-0491(81)90084-5",
+      "url": "https://doi.org/10.1016/0305-0491(81)90084-5",
+      "title": "Differentiation of Atlantic cod Gadus morhua morhua and pacific cod Gadus morhua macrocephalus by electrophoresis and by isoelectric focusing of water-soluble proteins of muscle tissue",
+      "year": 1981,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1006/anbe.2001.1925",
+      "url": "https://doi.org/10.1006/anbe.2001.1925",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.23860/diss-1790",
+      "url": "https://doi.org/10.23860/diss-1790",
+      "title": "Aspects of the physiology of early juvenile cod (Gadus morhua L.) and haddock (Melanogrammus aeglefinus L.)",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1007_s11160-020-09598-9",
+      "title": "Predicting the effects of anthropogenic noise on fish reproduction",
+      "year": 2020,
+      "doi": "10.1007/s11160-020-09598-9",
+      "abstract": "Abstract Aquatic animals use and produce sound for critical life functions, including reproduction. Anthropogenic noise is recognized as a global source of environmental pollution and adequate conservation and management strategies are urgently needed. It becomes therefore critical to identify the reproductive traits that render a species vulnerable to acoustic disturbances, and the types of anthropogenic noise that are most likely to impact reproduction. Here, we provide predictions about noise impact on fish reproduction following a two-step approach: first, we grouped documented effects of noise into three mechanistic categories: stress, masking and hearing-loss, and test which type of noise (continuous vs intermittent and regular vs irregular) was most likely to produce a significant response in each category with either a meta-analysis or a quantitative review, depending on data availability. Second, we reviewed existing literature to predict which reproductive traits would render",
+      "journal": "Reviews in Fish Biology and Fisheries",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_81933",
+      "title": "Gadus morhua (Atlantic cod)",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.81933",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-3-319-25582-8_10069",
+      "title": "Atlantic Cod (Gadus morhua)",
+      "year": 2017,
+      "doi": "10.1007/978-3-319-25582-8_10069",
+      "abstract": "",
+      "journal": "The Western Arctic Seas Encyclopedia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_s41598-017-14743-9",
+      "title": "Underwater sound from vessel traffic reduces the effective communication range in Atlantic cod and haddock",
+      "year": 2017,
+      "doi": "10.1038/s41598-017-14743-9",
+      "abstract": "Stellwagen Bank National Marine Sanctuary is located in Massachusetts Bay off the densely populated northeast coast of the United States; subsequently, the marine inhabitants of the area are exposed to elevated levels of anthropogenic underwater sound, particularly due to commercial shipping. The current study investigated the alteration of estimated effective communication spaces at three spawning locations for populations of the commercially and ecologically important fishes, Atlantic cod (Gadus morhua) and haddock (Melanogrammus aeglefinus). Both the ambient sound pressure levels and the estimated effective vocalization radii, estimated through spherical spreading models, fluctuated dramatically during the three-month recording periods. Increases in sound pressure level appeared to be largely driven by large vessel activity, and accordingly exhibited a significant positive correlation with the number of Automatic Identification System tracked vessels at the two of the three sites. T",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2016_0839",
+      "title": "Aquatic noise pollution: implications for individuals, populations, and ecosystems",
+      "year": 2016,
+      "doi": "10.1098/rspb.2016.0839",
+      "abstract": "Anthropogenically driven environmental changes affect our planet at an unprecedented scale and are considered to be a key threat to biodiversity. According to the World Health Organization, anthropogenic noise is one of the most hazardous forms of anthropogenically driven environmental change and is recognized as a major global pollutant. However, crucial advances in the rapidly emerging research on noise pollution focus exclusively on single aspects of noise pollution, e.g. on behaviour, physiology, terrestrial ecosystems, or on certain taxa. Given that more than two-thirds of our planet is covered with water, there is a pressing need to get a holistic understanding of the effects of anthropogenic noise in aquatic ecosystems. We found experimental evidence for negative effects of anthropogenic noise on an individual's development, physiology, and/or behaviour in both invertebrates and vertebrates. We also found that species differ in their response to noise, and highlight the potentia",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fevo_2016_00028",
+      "title": "Diversity in Fish Auditory Systems: One of the Riddles of Sensory Biology",
+      "year": 2016,
+      "doi": "10.3389/fevo.2016.00028",
+      "abstract": "An astonishing diversity of inner ears and accessory hearing structures (AHS) that can enhance hearing has evolved in fishes. Inner ears mainly differ in the size of the otolith end organs, the shape and orientation of the sensory epithelia, and the orientation patterns of ciliary bundles of sensory hair cells. Despite our profound morphological knowledge of inner ear variation, two main questions remain widely unanswered. (i) What selective forces and/or constraints led to the evolution of this inner ear diversity? (ii) How is the morphological variability linked to hearing abilities? Improved hearing is mainly based on the ability of many fish species to transmit oscillations of swim bladder walls or other gas-filled bladders to the inner ears. Swim bladders may be linked to the inner ears via a chain of ossicles (in otophysans), anterior extensions (e.g. some cichlids, squirrelfishes), or the gas bladders may touch the inner ears directly (labyrinth fishes). Studies on catfishes and",
+      "journal": "Frontiers in Ecology and Evolution",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_aru029",
+      "title": "Acoustic communication in a noisy world: can fish compete with anthropogenic noise?",
+      "year": 2014,
+      "doi": "10.1093/beheco/aru029",
+      "abstract": "Anthropogenic (man-made) noise has changed the acoustic environment both on land and underwater and is now recognized as a pollutant of international concern. Increasing numbers of studies are assessing how noise pollution affects animals across a range of scales, from individuals to communities, but the topic receiving the most research attention has been acoustic communication.",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7287_peerj_20v0_1_reviews_2",
+      "title": "Peer Review #2 of \"Iodine nutrition and toxicity in Atlantic cod (Gadus morhua) larvae (v0.1)\"",
+      "year": 2013,
+      "doi": "10.7287/peerj.20v0.1/reviews/2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_tree_2010_04_005",
+      "title": "A noisy spring: the impact of globally rising underwater sound levels on fish",
+      "year": 2010,
+      "doi": "10.1016/j.tree.2010.04.005",
+      "abstract": "",
+      "journal": "Trends in Ecology & Evolution",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_icb_icp055",
+      "title": "Social behavior in context: Hormonal modulation of behavioral plasticity and social competence",
+      "year": 2009,
+      "doi": "10.1093/icb/icp055",
+      "abstract": "In social species animals should fine-tune the expression of their social behavior to social environments in order to avoid the costs of engaging in costly social interactions. Therefore, social competence, defined as the ability of an animal to optimize the expression of its social behavior as a function of the available social information, should be considered as a performance trait that impacts on the Darwinian fitness of the animal. Social competence is based on behavioral plasticity which, in turn, can be achieved by different neural mechanisms of plasticity, namely by rewiring or by biochemically switching nodes of a putative neural network underlying social behavior. Since steroid hormones respond to social interactions and have receptors extensively expressed in the social behavioral neural network, it is proposed that steroids play a key role in the hormonal modulation of social plasticity. Here, we propose a reciprocal model for the action of androgens on short-term behaviora",
+      "journal": "Integrative and Comparative Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1601-5223_1988_tb00678_x",
+      "title": "Description of electrophoretic loci in Atlantic cod, Gadus morhua, and comparison with Pacific cod, Gadus macrocephalus",
+      "year": 2008,
+      "doi": "10.1111/j.1601-5223.1988.tb00678.x",
+      "abstract": "",
+      "journal": "Hereditas",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_01809",
+      "title": "Are hearing sensitivities of freshwater fish adapted to the ambient noise in their habitats?",
+      "year": 2005,
+      "doi": "10.1242/jeb.01809",
+      "abstract": "Several groups of fishes, among them two thirds of all freshwater fishes, have developed hearing specializations that enhance auditory sensitivity and broaden frequency ranges compared with hearing non-specialists (generalists), which lack such adaptations. It has been speculated that the enhanced sensitivities of these so-called hearing specialists have evolved in quiet habitats such as lakes, backwaters of rivers, slowly flowing streams or the deep sea. To test this hypothesis, noise levels and frequency spectra of four different freshwater habitats near Vienna, Austria (Danube River, Triesting stream, Lake Neusiedl, backwaters of the Danube River), were recorded and played back to native fish species while simultaneously measuring their auditory thresholds using the auditory evoked potential (AEP) recording technique. As a representative of hearing specialists, we chose the common carp (Cyprinus carpio, Cyprinidae) and for the hearing generalists the European perch (Perca fluviatili",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_15366_archaeofauna2002_11_002",
+      "title": "Atlantic Cod in The Missouri River: Gadus morhua from the Steamboat Bertrand",
+      "year": 2002,
+      "doi": "10.15366/archaeofauna2002.11.002",
+      "abstract": "<jats:p>Resumen</jats:p>",
+      "journal": "Archaeofauna",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_0305-0491(81)90084-5",
+      "title": "Differentiation of Atlantic cod Gadus morhua morhua and pacific cod Gadus morhua macrocephalus by electrophoresis and by isoelectric focusing of water-soluble proteins of muscle tissue",
+      "year": 1981,
+      "doi": "10.1016/0305-0491(81)90084-5",
+      "abstract": "",
+      "journal": "Comparative Biochemistry and Physiology Part B: Comparative Biochemistry",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_23860_diss-1790",
+      "title": "Aspects of the physiology of early juvenile cod (Gadus morhua L.) and haddock (Melanogrammus aeglefinus L.)",
+      "year": null,
+      "doi": "10.23860/diss-1790",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 15,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

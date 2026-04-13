@@ -1,0 +1,461 @@
+{
+  "species_id": "gbif_2438513",
+  "gbif_usage_key": 2438513,
+  "scientific_name": "Spermophilus beecheyi",
+  "common_name_en": "california ground squirrel",
+  "common_names": {
+    "en": "california ground squirrel",
+    "it": "scoiattolo di terra californiano",
+    "es": "ardilla de tierra californiana",
+    "fr": "spermophile de californie",
+    "de": "kalifornischer ziesel"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Rodentia",
+    "family": "Sciuridae",
+    "genus": "Spermophilus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 16,
+    "claim_count": 6,
+    "doi_count": 17,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "California ground squirrel (Spermophilus beecheyi) is a species of Mammalia in the order Rodentia, family Sciuridae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/California_ground_squirrel",
+  "wiki_title": "California_ground_squirrel",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "alarm call",
+    "trill"
+  ],
+  "contexts": [
+    "predator response",
+    "social communication"
+  ],
+  "functions": [
+    "individual recognition",
+    "predator warning"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "trill",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "predator response",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "freesound",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1079/cabicompendium.63851",
+      "url": "https://doi.org/10.1079/cabicompendium.63851",
+      "title": "Spermophilus beecheyi",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/aru029",
+      "url": "https://doi.org/10.1093/beheco/aru029",
+      "title": "Acoustic communication in a noisy world: can fish compete with anthropogenic noise?",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0050462",
+      "url": "https://doi.org/10.1371/journal.pone.0050462",
+      "title": "Experimental Chronic Noise Is Related to Elevated Fecal Corticosteroid Metabolites in Lekking Male Greater Sage-Grouse (Centrocercus urophasianus)",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2011.02.002",
+      "url": "https://doi.org/10.1016/j.anbehav.2011.02.002",
+      "title": "The language void: the need for multimodality in primate communication research",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1439-0310.1978.tb01438.x",
+      "url": "https://doi.org/10.1111/j.1439-0310.1978.tb01438.x",
+      "title": "Alarm Calls of California Ground Squirrels (Spermophilus beecheyi)",
+      "year": 2010,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.cropro.2009.04.002",
+      "url": "https://doi.org/10.1016/j.cropro.2009.04.002",
+      "title": "Assessing the effectiveness of bait stations for controlling California ground squirrels (Spermophilus beecheyi)",
+      "year": 2009,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "url": "https://doi.org/10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "title": "AVIAN COMMUNICATION IN URBAN NOISE: CAUSES AND CONSEQUENCES OF VOCAL ADJUSTMENT",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.5070/v422110120",
+      "url": "https://doi.org/10.5070/v422110120",
+      "title": "Grower Evaluation of California Ground Squirrel (Spermophilus beecheyi) Control using Anticoagulant Baits",
+      "year": 2006,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.46867/c4f59p",
+      "url": "https://doi.org/10.46867/c4f59p",
+      "title": "Anthropogenic Noise and its Effect on Animal Communication: An Interface Between Comparative Psychology and Conservation Biology",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1523/jneurosci.22-16-07308.2002",
+      "url": "https://doi.org/10.1523/jneurosci.22-16-07308.2002",
+      "title": "Positive and Negative Motivation in Nucleus Accumbens Shell: Bivalent Rostrocaudal Gradients for GABA-Elicited Eating, Taste “Liking”/“Disliking” Reactions, Place Preference/Avoidance, and Fear",
+      "year": 2002,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1676/0043-5643(2002)114[0510:mcobcc]2.0.co;2",
+      "url": "https://doi.org/10.1676/0043-5643(2002)114[0510:mcobcc]2.0.co;2",
+      "title": "MOBBING CALLS OF BLACK-CAPPED CHICKADEES: EFFECTS OF URGENCY ON CALL PRODUCTION",
+      "year": 2002,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1530/jrf.0.0930415",
+      "url": "https://doi.org/10.1530/jrf.0.0930415",
+      "title": "Seasonal variation in circulating testosterone and oestrogens of wild-caught California ground squirrels (\n                    <i>Spermophilus beecheyi</i>\n                    )",
+      "year": 1991,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1163/156853990x00211",
+      "url": "https://doi.org/10.1163/156853990x00211",
+      "title": "Development of Antisnake Defenses in California Ground Squirrels (Spermophilus Beecheyi): I. Behavioral and Immunological Relationships",
+      "year": 1990,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1439-0310.1980.tb01070.x",
+      "url": "https://doi.org/10.1111/j.1439-0310.1980.tb01070.x",
+      "title": "Chatter Vocalizations of California Ground Squirrels: Predator‐ and Social‐role Specificity",
+      "year": 1980,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf00485669",
+      "url": "https://doi.org/10.1007/bf00485669",
+      "title": "Electrophoretic variants of hemoglobin in the California ground squirrel, Spermophilus beecheyi beecheyi (Richardson)",
+      "year": 1971,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1378755",
+      "url": "https://doi.org/10.2307/1378755",
+      "title": "Breeding Ground Squirrels, Spermophilus beecheyi, in Captivity",
+      "year": 1968,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2016.10.009",
+      "url": "https://doi.org/10.1016/j.anbehav.2016.10.009",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1079_cabicompendium_63851",
+      "title": "Spermophilus beecheyi",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.63851",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_aru029",
+      "title": "Acoustic communication in a noisy world: can fish compete with anthropogenic noise?",
+      "year": 2014,
+      "doi": "10.1093/beheco/aru029",
+      "abstract": "Anthropogenic (man-made) noise has changed the acoustic environment both on land and underwater and is now recognized as a pollutant of international concern. Increasing numbers of studies are assessing how noise pollution affects animals across a range of scales, from individuals to communities, but the topic receiving the most research attention has been acoustic communication.",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0050462",
+      "title": "Experimental Chronic Noise Is Related to Elevated Fecal Corticosteroid Metabolites in Lekking Male Greater Sage-Grouse (Centrocercus urophasianus)",
+      "year": 2012,
+      "doi": "10.1371/journal.pone.0050462",
+      "abstract": "There is increasing evidence that individuals in many species avoid areas exposed to chronic anthropogenic noise, but the impact of noise on those who remain in these habitats is unclear. One potential impact is chronic physiological stress, which can affect disease resistance, survival and reproductive success. Previous studies have found evidence of elevated stress-related hormones (glucocorticoids) in wildlife exposed to human activities, but the impacts of noise alone are difficult to separate from confounding factors. Here we used an experimental playback study to isolate the impacts of noise from industrial activity (natural gas drilling and road noise) on glucocorticoid levels in greater sage-grouse (Centrocercus urophasianus), a species of conservation concern. We non-invasively measured immunoreactive corticosterone metabolites from fecal samples (FCMs) of males on both noise-treated and control leks (display grounds) in two breeding seasons. We found strong support for an imp",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2011_02_002",
+      "title": "The language void: the need for multimodality in primate communication research",
+      "year": 2011,
+      "doi": "10.1016/j.anbehav.2011.02.002",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1439-0310_1978_tb01438_x",
+      "title": "Alarm Calls of California Ground Squirrels (Spermophilus beecheyi)",
+      "year": 2010,
+      "doi": "10.1111/j.1439-0310.1978.tb01438.x",
+      "abstract": "",
+      "journal": "Zeitschrift für Tierpsychologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_cropro_2009_04_002",
+      "title": "Assessing the effectiveness of bait stations for controlling California ground squirrels (Spermophilus beecheyi)",
+      "year": 2009,
+      "doi": "10.1016/j.cropro.2009.04.002",
+      "abstract": "",
+      "journal": "Crop Protection",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5070_v422110120",
+      "title": "Grower Evaluation of California Ground Squirrel (Spermophilus beecheyi) Control using Anticoagulant Baits",
+      "year": 2006,
+      "doi": "10.5070/v422110120",
+      "abstract": "",
+      "journal": "Proceedings of the Vertebrate Pest Conference",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1642_0004-8038(2006)123[639:aciunc]2_0_co;2",
+      "title": "AVIAN COMMUNICATION IN URBAN NOISE: CAUSES AND CONSEQUENCES OF VOCAL ADJUSTMENT",
+      "year": 2006,
+      "doi": "10.1642/0004-8038(2006)123[639:aciunc]2.0.co;2",
+      "abstract": "SUCCESSFUL ACOUSTIC COMMUNICATION requires that sounds propagate through the environment between the sender and receiver; vocalizations that transmit effectively in the habitat in which they are used are favored by natural selection. This adaptation hypothesis (Morton 1975, Wiley and Richards 1978, Richards and Wiley 1980, Ryan and Brenowitz 1985) laid the groundwork for the drive concept (Endler 1992), which describes how environment affects the evolution of sensory systems and signals in all modalities. By allowing us to examine animal signals as adaptations shaped by selection, this framework has lead to a greater understanding of the bewildering diversity of animal signals. One of the environmental factors that exerts selection pressure on acoustic signals is ambient noise (Ryan and Brenowitz 1985). To elicit a response from a receiver, signals must be detectable in background noise; the detectability of a signal is determined by the signal-to-noise ratio (SNR) and the masked audit",
+      "journal": "The Auk",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_46867_c4f59p",
+      "title": "Anthropogenic Noise and its Effect on Animal Communication: An Interface Between Comparative Psychology and Conservation Biology",
+      "year": 2003,
+      "doi": "10.46867/c4f59p",
+      "abstract": "Conservation biology and comparative psychology rarely intersect, in part because conservation biology typically emphasizes populations whereas comparative psychology concentrates on individual organisms. However, both fields could benefit from their integration. Conservation biology can profit from an enhanced understanding of individual-level impacts of habitat alteration and the resulting implications for conservation mitigation strategies. Comparative psychology can gain from increased attention to the mechanisms of adjustment used by organisms to “in vivo experiments” created by anthropogenic change. In this paper, we describe a conceptual framework useful for applying our understanding of animal communication to conservation biology. We then review studies of animal communication with conservation implications, and report our own preliminary work that demonstrates our framework in action.",
+      "journal": "International Journal of Comparative Psychology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1676_0043-5643(2002)114[0510:mcobcc]2_0_co;2",
+      "title": "MOBBING CALLS OF BLACK-CAPPED CHICKADEES: EFFECTS OF URGENCY ON CALL PRODUCTION",
+      "year": 2002,
+      "doi": "10.1676/0043-5643(2002)114[0510:mcobcc]2.0.co;2",
+      "abstract": "Many animals advertise the presence of a predator threat through vocal signals. Black-capped Chickadees (Poecile atricapilla) use their chick-a-dee call as a mobbing call when encountering a perched hawk or owl. This social signal appears to serve as an alert to other chickadees, causing them to rally to the vicinity of the predator and join in a chorus of calling. We asked the question: do chickadees vary the mobbing call in a manner that could convey the immediacy of threat from a potential predator? We examined the responses of chickadees to a taxidermic mount of an avian predator presented at distances of 1 m and 6 m from each subject. Vocal responses were recorded and analyzed for response latency, calling rate, and syllable composition of calls. During 5-min trials, the subjects responded more quickly and produced significantly more chick-a-dee calls for predator presentations at the 1-m distance than at the 6-m distance. Alterations of syllable composition of the call also were ",
+      "journal": "The Wilson Bulletin",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_22-16-07308_2002",
+      "title": "Positive and Negative Motivation in Nucleus Accumbens Shell: Bivalent Rostrocaudal Gradients for GABA-Elicited Eating, Taste “Liking”/“Disliking” Reactions, Place Preference/Avoidance, and Fear",
+      "year": 2002,
+      "doi": "10.1523/jneurosci.22-16-07308.2002",
+      "abstract": "Microinjection of the GABA(A) agonist muscimol in the rostral medial accumbens shell in rats elicits appetitive eating behavior, but in the caudal shell instead elicits fearful defensive treading behavior. To further test the hypothesis that rostral shell muscimol microinjections produce positive motivational states, whereas caudal shell muscimol produces negative states, we measured behavioral place preference/avoidance conditioning and affective hedonic and aversive orofacial expressions of taste-elicited \"liking\" and \"disliking\" (gapes, etc.) in addition to fear and feeding behaviors. Farthest rostral muscimol microinjections (75 ng) caused increased eating behavior and also caused positive conditioned place preferences and increased positive hedonic reactions to the taste of sucrose. By contrast, caudal shell microinjections elicited negative defensive treading and caused robust negative conditioned place avoidance and negative aversive reactions to sucrose or quinine tastes. Inter",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1530_jrf_0_0930415",
+      "title": "Seasonal variation in circulating testosterone and oestrogens of wild-caught California ground squirrels (\n                    <i>Spermophilus beecheyi</i>\n                    )",
+      "year": 1991,
+      "doi": "10.1530/jrf.0.0930415",
+      "abstract": "<jats:p>Summary. Blood samples were obtained each month for 18 months in 1984–85 from wild-caught California ground squirrels. Circulating testosterone and total oestrogens were extracted from the plasma, measured by radioimmunoassay and compared with concurrent changes in plasma progesterone and prolactin in the same individuals. Male plasma testosterone concentrations peaked in January, shortly before mating, whereas female testosterone concentrations were low throughout the year. Female plasma oestrogen concentrations peaked in February, during the mating period. Juvenile males exhibited a transient increase in circulating testosterone in September, followed by testis growth, preputial separation, and the appearance of epididymal spermatozoa. Juvenile females exhibited a transient increase in circulating oestrogens in November. By the start of the first mating season after their births, neither juvenile males nor females differed significantly from same-sex adults with respect to pl",
+      "journal": "Reproduction",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_156853990x00211",
+      "title": "Development of Antisnake Defenses in California Ground Squirrels (Spermophilus Beecheyi): I. Behavioral and Immunological Relationships",
+      "year": 1990,
+      "doi": "10.1163/156853990x00211",
+      "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>The development of antisnake behavioral and immunological defenses was investigated in laboratory born California ground squirrels (Spermophilus beecheyi) from an area in California where Northern Pacific rattlesnakes (Crotalus viridis oreganus) and Pacific gopher snakes (Pituophis melanoleucus catenifer) are abundant. Previous studies have shown that adult ground squirrels from this area possess innate physiological resistance to rattlesnake venom while pups are highly vulnerable to predation from snakes. Pups from other areas are known to exhibit snake recognition and adult-like antisnake behaviors on first encounter, a finding that prompted further study of pups from this area. The present study had four objectives: 1) to determine if inexperienced pups can distinguish rattlesnakes from gopher snakes, 2) to determine what role mothers play in shaping their pups' behavior during their first encounters with snakes, 3) to determine if ",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1439-0310_1980_tb01070_x",
+      "title": "Chatter Vocalizations of California Ground Squirrels: Predator‐ and Social‐role Specificity",
+      "year": 1980,
+      "doi": "10.1111/j.1439-0310.1980.tb01070.x",
+      "abstract": "Abstract Multiple‐note chatter vocalizations, recorded in the field, occurred in response to mammals, snakes, raptors, and during agonistic chases. Discriminant function analyses of sonagram‐derived data revealed that: (1) Chatters evoked by terrestrial predators, raptors, and agonistic encounters are discriminably distinct from each other; (2) snake‐evoked chatters are distinct from those evoked by carnivores; (3) a small number of chatters given in response to a badger differ from those elicited by bobcats, coyotes, and dogs. The latter three species elicit essentially identical chatters; (4) ♂ and ♀ chatters are not statistically discriminable; (5) small samples of chaser and chasee chatters are discriminable; (6) individual ground squirrels modified their calls, thereby reflecting different eliciting situations; (7) inter‐individual differences are usually present among calls elicited by a particular predator type. ♂♂ are at least as likely as ♀♀ to call in the presence of mammalia",
+      "journal": "Zeitschrift für Tierpsychologie",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf00485669",
+      "title": "Electrophoretic variants of hemoglobin in the California ground squirrel, Spermophilus beecheyi beecheyi (Richardson)",
+      "year": 1971,
+      "doi": "10.1007/bf00485669",
+      "abstract": "",
+      "journal": "Biochemical Genetics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1378755",
+      "title": "Breeding Ground Squirrels, Spermophilus beecheyi, in Captivity",
+      "year": 1968,
+      "doi": "10.2307/1378755",
+      "abstract": "",
+      "journal": "Journal of Mammalogy",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 16,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

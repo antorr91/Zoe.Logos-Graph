@@ -1,0 +1,671 @@
+{
+  "species_id": "gbif_2440520",
+  "gbif_usage_key": 2440520,
+  "scientific_name": "Orcinus orca",
+  "common_name_en": "orca",
+  "common_names": {
+    "en": "orca",
+    "it": "orca",
+    "es": "orca",
+    "fr": "orque",
+    "de": "schwertwal"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Cetacea",
+    "family": "Delphinidae",
+    "genus": "Orcinus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 25,
+    "claim_count": 9,
+    "doi_count": 26,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Orca (Orcinus orca) is a species of Mammalia in the order Cetacea, family Delphinidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Killer_whale",
+  "wiki_title": "Killer_whale",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "call",
+    "click",
+    "whistle"
+  ],
+  "contexts": [
+    "cultural transmission",
+    "echolocation",
+    "social communication"
+  ],
+  "functions": [
+    "group identity",
+    "pod coordination",
+    "prey detection"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "click",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "whistle",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "cultural transmission",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "echolocation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "group identity",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "pod coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "prey detection",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "macaulay",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.35267/978-5-9904294-8-2-2023-103-110",
+      "url": "https://doi.org/10.35267/978-5-9904294-8-2-2023-103-110",
+      "title": "Fish-eating killer whales (Orcinus orca) increase vocal activity after playback of biphonic discrete calls of their dialect",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.47611/jsrhs.v11i3.2713",
+      "url": "https://doi.org/10.47611/jsrhs.v11i3.2713",
+      "title": "Acoustic Communication of the Killer Whale, Orcinus orca",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-1008677/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-1008677/v1",
+      "title": "Towards automatic detection and classification of orca (Orcinus orca) calls using cross-correlation methods",
+      "year": 2021,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.72032",
+      "url": "https://doi.org/10.1079/cabicompendium.72032",
+      "title": "Orcinus orca",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-3-319-25582-8_110043",
+      "url": "https://doi.org/10.1007/978-3-319-25582-8_110043",
+      "title": "Killer Whale (Orcinus orca)",
+      "year": 2017,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2014.1370",
+      "url": "https://doi.org/10.1098/rspb.2014.1370",
+      "title": "Animal vocal sequences: not the Markov chains we thought they were",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.094300",
+      "url": "https://doi.org/10.1242/jeb.094300",
+      "title": "Evidence for vocal learning in juvenile male killer whales,<i>Orcinus orca</i>, from an adventitious cross-socializing experiment",
+      "year": 2014,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-012-0546-2",
+      "url": "https://doi.org/10.1007/s10071-012-0546-2",
+      "title": "Experimental evidence for action imitation in killer whales (Orcinus orca)",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s00265-011-1148-8",
+      "url": "https://doi.org/10.1007/s00265-011-1148-8",
+      "title": "Whistle communication in mammal-eating killer whales (Orcinus orca): further evidence for acoustic divergence between ecotypes",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3354/ab00353",
+      "url": "https://doi.org/10.3354/ab00353",
+      "title": "Vocal behaviour and feeding ecology of killer whales Orcinus orca around Shetland, UK",
+      "year": 2011,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1748-7692.2010.00397.x",
+      "url": "https://doi.org/10.1111/j.1748-7692.2010.00397.x",
+      "title": "Call sharing across vocal clans of killer whales: Evidence for vocal imitation?",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1080/09524622.2008.9753802",
+      "url": "https://doi.org/10.1080/09524622.2008.9753802",
+      "title": "NOISE EFFECTS ON THE CALL AMPLITUDE OF SOUTHERN RESIDENT KILLER WHALES (<i>ORCINUS ORCA</i>)",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1121/1.2932512",
+      "url": "https://doi.org/10.1121/1.2932512",
+      "title": "Investigating noise effects on the call amplitude of endangered Southern Resident killer whales (Orcinus orca)",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1575/1912/2421",
+      "url": "https://doi.org/10.1575/1912/2421",
+      "title": "Orchestration : the movement and vocal behavior of free-ranging Norwegian killer whales (Orcinus orca)",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1121/1.2799907",
+      "url": "https://doi.org/10.1121/1.2799907",
+      "title": "Intra- and intergroup vocal behavior in resident killer whales, <i>Orcinus orca</i>",
+      "year": 2007,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.46867/ijcp.2007.20.02.09",
+      "url": "https://doi.org/10.46867/ijcp.2007.20.02.09",
+      "title": "A Brief Review of Known Effects of Noise on Marine Mammals",
+      "year": 2007,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2003.06.017",
+      "url": "https://doi.org/10.1016/j.anbehav.2003.06.017",
+      "title": "Call-type matching in vocal exchanges of free-ranging resident killer whales, Orcinus orca",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2004.04.014",
+      "url": "https://doi.org/10.1016/j.anbehav.2004.04.014",
+      "title": "The vocal behaviour of mammal-eating killer whales: communicating with costly calls",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1575/1912/1765",
+      "url": "https://doi.org/10.1575/1912/1765",
+      "title": "Maintaining contact : design and use of acoustic signals in killer whales, Orcinus orca",
+      "year": 2000,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.15760/etd.5812",
+      "url": "https://doi.org/10.15760/etd.5812",
+      "title": "Analysis of mitochondrial DNA restriction fragment patterns in killer whales, Orcinus orca",
+      "year": 2000,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/s0967-0645(98)00028-9",
+      "url": "https://doi.org/10.1016/s0967-0645(98)00028-9",
+      "title": "A small towed beamforming array to identify vocalizing resident killer whales (Orcinus orca) concurrent with focal behavioral observations",
+      "year": 1998,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1139/z91-206",
+      "url": "https://doi.org/10.1139/z91-206",
+      "title": "Vocal traditions among resident killer whales (<i>Orcinus orca</i>) in coastal waters of British Columbia",
+      "year": 1991,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/3504225",
+      "url": "https://doi.org/10.2307/3504225",
+      "title": "Orcinus orca",
+      "year": 1988,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2006.09.004",
+      "url": "https://doi.org/10.1016/j.anbehav.2006.09.004",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.1021/es0702519.s001",
+      "url": "https://doi.org/10.1021/es0702519.s001",
+      "title": "Killer Whales (Orcinus orca) Face Protracted Health Risks Associated with Lifetime Exposure to PCBs",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.53846/goediss-6292",
+      "url": "https://doi.org/10.53846/goediss-6292",
+      "title": "Vocal repertoires of two matrilineal social whale species Long-finned Pilot whales (Globicephala melas) &amp; Killer whales (Orcinus orca) in northern Norway",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_35267_978-5-9904294-8-2-2023-103-110",
+      "title": "Fish-eating killer whales (Orcinus orca) increase vocal activity after playback of biphonic discrete calls of their dialect",
+      "year": 2023,
+      "doi": "10.35267/978-5-9904294-8-2-2023-103-110",
+      "abstract": "",
+      "journal": "Marine Mammals of the Holarctic",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_47611_jsrhs_v11i3_2713",
+      "title": "Acoustic Communication of the Killer Whale, Orcinus orca",
+      "year": 2022,
+      "doi": "10.47611/jsrhs.v11i3.2713",
+      "abstract": "<jats:p>Functional use of killer whale pulsed calls is an important facet of their communication. The complexity of their vocalizations presents opportunities for theoretical and structural analysis of such calls. This study seeks to answer questions regarding social and behavioral context of monophonic and biphonic calls, how they can be classified using computer science technology, and what possible mechanisms for sound modulation exist anatomically in varying populations of Orcinus orca. The method used to guide this review is described by Arksey and O’Malley as the scoping review method (Pham et al., 2014). All research included in this review is organized into a data table for reference. Features of killer whale communication were broken down into multiple definitive groups including clicks, whistles, pulsed, discrete, aberrant, variable, monophonic, and biphonic calls. Computer network analysis of the vocalizations has provided a framework for comparing and classifying both simil",
+      "journal": "Journal of Student Research",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_21203_rs_3_rs-1008677_v1",
+      "title": "Towards automatic detection and classification of orca (Orcinus orca) calls using cross-correlation methods",
+      "year": 2021,
+      "doi": "10.21203/rs.3.rs-1008677/v1",
+      "abstract": "<title>Abstract</title>\n        <p>Orca (<italic>Orcinus orca</italic>) is known for complex vocalisation. Their social structure consists of pods and clans sharing unique dialects due to geographic isolation. Sound type repertoires are fundamental for monitoring orca populations and are typically created visually and aurally. An orca pod occurring in the Ligurian Sea (Pelagos Sanctuary) in December 2019 provided a unique occasion for long-term recordings. The numerous data collected with the bottom recorder were analysed with a traditional human-driven inspection to create a repertoire of this pod and to compare it to catalogues from different orca populations (Icelandic and Antarctic) investigating its origins. Automatic signal detection and cross-correlation methods (R package warbleR) were used for the first time in orca studies. We found the Pearson cross-correlation method to be efficient for most pairwise calculations (&gt; 85%) but with false positives. One sound type from our ",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_72032",
+      "title": "Orcinus orca",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.72032",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_53846_goediss-6292",
+      "title": "Vocal repertoires of two matrilineal social whale species Long-finned Pilot whales (Globicephala melas) &amp; Killer whales (Orcinus orca) in northern Norway",
+      "year": 2017,
+      "doi": "10.53846/goediss-6292",
+      "abstract": "The aim of this study was to describe and investigate the vocal repertoire and possible factors influencing the size and composition of two matrilineal social whale species: long-finned pilot whales and killer whales in Norway. I was not able to describe the entire vocal repertoire due to the large number of animals in this population and the limitations of fieldwork and time. In this thesis I describe a vocal repertoire subset from seven groups of pilot whales and 11 groups of killer whales recorded in the Vestfjord in northern Norway during the time period 2004 until 2011. Using observer-based acoustic analysis I could discern 129 call types and 25 subtypes for long-finned pilot whales, and 60 call types and 25 subtypes for killer whales. Per group, pilot whales used an average of 36 call types and killer whales just 25. The general structure of call types was similar, with most call types consisting of one segment and two elements with different structures. The main element structur",
+      "journal": "",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-3-319-25582-8_110043",
+      "title": "Killer Whale (Orcinus orca)",
+      "year": 2017,
+      "doi": "10.1007/978-3-319-25582-8_110043",
+      "abstract": "",
+      "journal": "The Western Arctic Seas Encyclopedia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_094300",
+      "title": "Evidence for vocal learning in juvenile male killer whales,<i>Orcinus orca</i>, from an adventitious cross-socializing experiment",
+      "year": 2014,
+      "doi": "10.1242/jeb.094300",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Killer whales (Orcinus orca) are thought to learn their vocal dialect. Dispersal in the species is rare, but effects of shifts in social association on the dialect can be studied under controlled conditions. Individual call repertoires and social association were measured in three adult female killer whales and three males (two juveniles and an adult) during two periods, 2001-2003 and 2005-2006. Three distinct dialect repertoires were represented among the subjects. An adventitious experiment in social change resulted from the birth of a calf and the transfer of two non-focal subjects in 2004. Across the two periods, 1691 calls were collected, categorized, and attributed to individuals. Repertoire overlap for each subject dyad was compared with an index of association. During 2005-2006, the two juvenile males increased association with the unrelated adult male. By the end of the period, both had begun producing novel calls and call features char",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2014_1370",
+      "title": "Animal vocal sequences: not the Markov chains we thought they were",
+      "year": 2014,
+      "doi": "10.1098/rspb.2014.1370",
+      "abstract": "Many animals produce vocal sequences that appear complex. Most researchers assume that these sequences are well characterized as Markov chains (i.e. that the probability of a particular vocal element can be calculated from the history of only a finite number of preceding elements). However, this assumption has never been explicitly tested. Furthermore, it is unclear how language could evolve in a single step from a Markovian origin, as is frequently assumed, as no intermediate forms have been found between animal communication and human language. Here, we assess whether animal taxa produce vocal sequences that are better described by Markov chains, or by non-Markovian dynamics such as the 'renewal process' (RP), characterized by a strong tendency to repeat elements. We examined vocal sequences of seven taxa: Bengalese finches Lonchura striata domestica, Carolina chickadees Poecile carolinensis, free-tailed bats Tadarida brasiliensis, rock hyraxes Procavia capensis, pilot whales Globice",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-012-0546-2",
+      "title": "Experimental evidence for action imitation in killer whales (Orcinus orca)",
+      "year": 2012,
+      "doi": "10.1007/s10071-012-0546-2",
+      "abstract": "",
+      "journal": "Animal Cognition",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3354_ab00353",
+      "title": "Vocal behaviour and feeding ecology of killer whales Orcinus orca around Shetland, UK",
+      "year": 2011,
+      "doi": "10.3354/ab00353",
+      "abstract": "",
+      "journal": "Aquatic Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00265-011-1148-8",
+      "title": "Whistle communication in mammal-eating killer whales (Orcinus orca): further evidence for acoustic divergence between ecotypes",
+      "year": 2011,
+      "doi": "10.1007/s00265-011-1148-8",
+      "abstract": "",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1748-7692_2010_00397_x",
+      "title": "Call sharing across vocal clans of killer whales: Evidence for vocal imitation?",
+      "year": 2010,
+      "doi": "10.1111/j.1748-7692.2010.00397.x",
+      "abstract": "Abstract In killer whales or orcas ( Orcinus orca ) vocal matching appears to be an important aspect of within‐group communication, but fish‐eating “resident” orcas frequently associate with whales that share little or none of their repertoire. The production of calls belonging to another group's repertoire would allow vocal matching in such contexts and has been observed in captive and free‐living orcas. However, reports were largely descriptive and neither structure nor usage of such “resemblance calls” have been investigated in detail. We analyzed resemblance calls in free‐living orcas when groups known to produce the respective call types were absent. In this context, they made up only 0.2% of the recorded calls. Time and frequency parameters of resemblance calls differed significantly from the “original” calls, and the accuracy of the resemblance calls ranged from rough renditions of a call type to the resemblance of call subtypes. Our results show that call sharing across vocal c",
+      "journal": "Marine Mammal Science",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1575_1912_2421",
+      "title": "Orchestration : the movement and vocal behavior of free-ranging Norwegian killer whales (Orcinus orca)",
+      "year": 2008,
+      "doi": "10.1575/1912/2421",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_09524622_2008_9753802",
+      "title": "NOISE EFFECTS ON THE CALL AMPLITUDE OF SOUTHERN RESIDENT KILLER WHALES (<i>ORCINUS ORCA</i>)",
+      "year": 2008,
+      "doi": "10.1080/09524622.2008.9753802",
+      "abstract": "",
+      "journal": "Bioacoustics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_2932512",
+      "title": "Investigating noise effects on the call amplitude of endangered Southern Resident killer whales (Orcinus orca)",
+      "year": 2008,
+      "doi": "10.1121/1.2932512",
+      "abstract": "<jats:p>Anthropogenic sound exposure has been identified as a potential threat to endangered Southern Resident killer whales (SRKWs). Such exposure can mask important biological sounds including those used for social functions. Vocal animals might compensate for increased background noise by calling louder (the Lombard effect). In this study, amplitude compensation was investigated in SRKW communication calls recorded off of San Juan Island, WA, U.S.A. Data were obtained from two calibrated recording systems, a shore-based hydrophone array [V. Veirs, J. Acoust. Soc. Am., 116, 2615 (2004)] and a boat-based vertical array. Calls were localized using time of arrival differences to estimate range and apparent source levels after background levels were subtracted from the signal. Call levels were calculated assuming spreading loss functions determined from sound propagation observations made in situ. Results demonstrated a positive relationship between call levels and background levels. Cos",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_2799907",
+      "title": "Intra- and intergroup vocal behavior in resident killer whales, <i>Orcinus orca</i>",
+      "year": 2007,
+      "doi": "10.1121/1.2799907",
+      "abstract": "<jats:p>Vocal communication within and between groups of individuals has been described extensively in birds and terrestrial mammals, however, little is known about how cetaceans utilize their sounds in their natural environment. Resident killer whales, Orcinus orca, live in highly stable matrilines and exhibit group-specific vocal dialects. Single call types cannot exclusively be associated with particular behaviors and calls are thought to function in group identification and intragroup communication. In the present study call usage of three closely related matrilines of the Northern resident community was compared in various intra- and intergroup contexts. In two out of the three matrilines significant changes in vocal behavior depending both on the presence and identity of accompanying whales were found. Most evidently, family-specific call subtypes, as well as aberrant and variable calls, were emitted at higher rates, whereas “low arousal” call types were used less in the presence",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_46867_ijcp_2007_20_02_09",
+      "title": "A Brief Review of Known Effects of Noise on Marine Mammals",
+      "year": 2007,
+      "doi": "10.46867/ijcp.2007.20.02.09",
+      "abstract": "Marine mammals, especially cetaceans, are highly vocal and dependent on sound for almost all aspects of their lives, e.g. food-finding, reproduction, communication, detection of predators/hazards, and navigation. They are thus likely sensitive to anthropogenic noise. Sound has a large potential area of impact, sometimes covering millions of square kilometers of ocean with levels high enough to cause possible disturbance in marine mammals. There can be great variation in the reaction of marine mammals to noise, depending on such factors as species, individual, age, sex, prior experience with noise, and behavioral state. Species with similar hearing capabilities can respond differently to the same noise. Observed effects of noise on marine mammals include: changes in vocalizations, respiration, swim speed, diving, and foraging behavior; displacement, avoidance, shifts in migration path, stress, hearing damage, and strandings. Responses of marine mammals to noise can often be subtle and b",
+      "journal": "International Journal of Comparative Psychology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2003_06_017",
+      "title": "Call-type matching in vocal exchanges of free-ranging resident killer whales, Orcinus orca",
+      "year": 2004,
+      "doi": "10.1016/j.anbehav.2003.06.017",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2004_04_014",
+      "title": "The vocal behaviour of mammal-eating killer whales: communicating with costly calls",
+      "year": 2004,
+      "doi": "10.1016/j.anbehav.2004.04.014",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_15760_etd_5812",
+      "title": "Analysis of mitochondrial DNA restriction fragment patterns in killer whales, Orcinus orca",
+      "year": 2000,
+      "doi": "10.15760/etd.5812",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1575_1912_1765",
+      "title": "Maintaining contact : design and use of acoustic signals in killer whales, Orcinus orca",
+      "year": 2000,
+      "doi": "10.1575/1912/1765",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0967-0645(98)00028-9",
+      "title": "A small towed beamforming array to identify vocalizing resident killer whales (Orcinus orca) concurrent with focal behavioral observations",
+      "year": 1998,
+      "doi": "10.1016/s0967-0645(98)00028-9",
+      "abstract": "",
+      "journal": "Deep Sea Research Part II Topical Studies in Oceanography",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1139_z91-206",
+      "title": "Vocal traditions among resident killer whales (<i>Orcinus orca</i>) in coastal waters of British Columbia",
+      "year": 1991,
+      "doi": "10.1139/z91-206",
+      "abstract": "Underwater vocalizations were recorded during repeated encounters with 16 pods, or stable kin groups, of resident killer whales (Orcinus orca) off the coast of British Columbia. Pods were identified from unique natural markings on individuals. Vocal exchanges within pods were dominated by repetitious, discrete calls. Pods each produced 7–17 (mean 10.7) types of discrete calls. Individuals appear to acquire their pod's call repertoire by learning, and repertoires can persist with little change for over 25 years. Call repertoires differed significantly among pods in the resident population. The 16 pods formed four distinct acoustic associations, or clans, each having a unique repertoire of discrete calls, or vocal tradition. Pods within a clan shared several call types, but no sharing took place among clans. Shared calls often contained structural variations specific to each pod or group of pods in the clan. These variants and other differences in acoustic behaviour formed a system of re",
+      "journal": "Canadian Journal of Zoology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_3504225",
+      "title": "Orcinus orca",
+      "year": 1988,
+      "doi": "10.2307/3504225",
+      "abstract": "",
+      "journal": "Mammalian Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1021_es0702519_s001",
+      "title": "Killer Whales (Orcinus orca) Face Protracted Health Risks Associated with Lifetime Exposure to PCBs",
+      "year": null,
+      "doi": "10.1021/es0702519.s001",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 25,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

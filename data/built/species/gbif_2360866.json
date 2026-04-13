@@ -1,0 +1,475 @@
+{
+  "species_id": "gbif_2360866",
+  "gbif_usage_key": 2360866,
+  "scientific_name": "Danio rerio",
+  "common_name_en": "zebrafish",
+  "common_names": {
+    "en": "zebrafish",
+    "it": "pesce zebra",
+    "es": "pez cebra",
+    "fr": "poisson zèbre",
+    "de": "zebrabärbling"
+  },
+  "taxonomy": {
+    "class_": "Actinopterygii",
+    "order_": "Cypriniformes",
+    "family": "Danionidae",
+    "genus": "Danio",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 5,
+    "doi_count": 18,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Zebrafish (Danio rerio) is a species of Actinopterygii in the order Cypriniformes, family Danionidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Zebrafish",
+  "wiki_title": "Zebrafish",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "pulse"
+  ],
+  "contexts": [
+    "alarm",
+    "social communication"
+  ],
+  "functions": [
+    "alarm communication",
+    "shoal cohesion"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "pulse",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "alarm communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "shoal cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.30546/300045.2026.03.1.511",
+      "url": "https://doi.org/10.30546/300045.2026.03.1.511",
+      "title": "STUDY OF THE EMBRYONIC AND POST-EMBRYONIC STAGES OF DANIO RERIO (DANIO RERIO HAMILTON 1822) IN AQUARIUM CONDITIONS",
+      "year": 2026,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.47820/recima21.v6i12.7001",
+      "url": "https://doi.org/10.47820/recima21.v6i12.7001",
+      "title": "SUPLEMENTAÇÃO DE SELÊNIO EM ZEBRAFISH (Danio rerio): UMA REVISÃO INTEGRATIVA SELENIUM SUPPLEMENTATION IN ZEBRAFISH (Danio rerio): AN  INTEGRATIVE REVIEW SUPLEMENTACIÓN DE SELENIO EN PEZ CEBRA (Danio rerio): UNA REVISIÓN INTEGRADORA",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.heares.2020.107952",
+      "url": "https://doi.org/10.1016/j.heares.2020.107952",
+      "title": "Noise-induced hearing loss in zebrafish: investigating structural and functional inner ear damage and recovery",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.86419",
+      "url": "https://doi.org/10.1079/cabicompendium.86419",
+      "title": "Danio rerio (zebra danio)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.48086/asd0012",
+      "url": "https://doi.org/10.48086/asd0012",
+      "title": "Model Organizma: Zebra Balıkları (Danio rerio Hamilton, 1822) \nModel Organism: Zebrafish (Danio rerio Hamilton, 1822)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3389/fncir.2015.00039",
+      "url": "https://doi.org/10.3389/fncir.2015.00039",
+      "title": "Development of social behavior in young zebrafish",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3389/fnins.2015.00414",
+      "url": "https://doi.org/10.3389/fnins.2015.00414",
+      "title": "I'll take the low road: the evolutionary underpinnings of visually triggered fear",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s11160-012-9297-z",
+      "url": "https://doi.org/10.1007/s11160-012-9297-z",
+      "title": "Auditory evoked potential audiometry in fish",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2210/pdb4bxr/pdb",
+      "url": "https://doi.org/10.2210/pdb4bxr/pdb",
+      "title": "Structure of the wild-type TCP10 domain of Danio rerio CPAP in complex with a peptide of Danio rerio STIL",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1186/1471-2202-11-58",
+      "url": "https://doi.org/10.1186/1471-2202-11-58",
+      "title": "Steroid receptor expression in the fish inner earvaries with sex, social status, and reproductive state",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.008474",
+      "url": "https://doi.org/10.1242/jeb.008474",
+      "title": "Development of vocalization, auditory sensitivity and acoustic communication in the Lusitanian toadfish<i>Halobatrachus didactylus</i>",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3354/meps285213",
+      "url": "https://doi.org/10.3354/meps285213",
+      "title": "Auditory sensitivity of sergeant major damselfish Abudefduf saxatilis from post-settlement juvenile to adult",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1523/jneurosci.21-22-08943.2001",
+      "url": "https://doi.org/10.1523/jneurosci.21-22-08943.2001",
+      "title": "Anatomical Distribution and Cellular Basis for High Levels of Aromatase Activity in the Brain of Teleost Fish: Aromatase Enzyme and mRNA Expression Identify Glia as Source",
+      "year": 2001,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0030962",
+      "url": "https://doi.org/10.1371/journal.pone.0030962",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.18002/10612/3354",
+      "url": "https://doi.org/10.18002/10612/3354",
+      "title": "Aplicación de nuevas herramientas biotecnológicas en la línea germinal del pez cebra (Danio rerio) = Application of new biotechnological tools in zebrafish (Danio rerio) germ line",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.2988/table-5",
+      "url": "https://doi.org/10.7717/peerj.2988/table-5",
+      "title": "Table 5: Compaction vs gene representation on\n                      <i>Danio rerio</i>\n                      simulated dataset (Ds) and\n                      <i>Danio rerio</i>\n                      dataset (Dr).",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.2988/table-6",
+      "url": "https://doi.org/10.7717/peerj.2988/table-6",
+      "title": "Table 6: Structure validation on Danio rerio simulated dataset (Ds).",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.7094/fig-3",
+      "url": "https://doi.org/10.7717/peerj.7094/fig-3",
+      "title": "Figure 3: Danio rerio embryos at 24 hpf.",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_30546_300045_2026_03_1_511",
+      "title": "STUDY OF THE EMBRYONIC AND POST-EMBRYONIC STAGES OF DANIO RERIO (DANIO RERIO HAMILTON 1822) IN AQUARIUM CONDITIONS",
+      "year": 2026,
+      "doi": "10.30546/300045.2026.03.1.511",
+      "abstract": "",
+      "journal": "BAKU STATE UNIVERSITY JOURNAL of LIFE SCIENCES &amp; BIOLOGY",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_47820_recima21_v6i12_7001",
+      "title": "SUPLEMENTAÇÃO DE SELÊNIO EM ZEBRAFISH (Danio rerio): UMA REVISÃO INTEGRATIVA SELENIUM SUPPLEMENTATION IN ZEBRAFISH (Danio rerio): AN  INTEGRATIVE REVIEW SUPLEMENTACIÓN DE SELENIO EN PEZ CEBRA (Danio rerio): UNA REVISIÓN INTEGRADORA",
+      "year": 2025,
+      "doi": "10.47820/recima21.v6i12.7001",
+      "abstract": "<jats:p>O selênio (Se) é essencial para o funcionamento celular de todos os organismos e desempenha papel protetor dos efeitos nocivos causados pelos radicais livres. O Danio rerio (zebrafish) é um modelo animal muito utilizado em muitas pesquisas, possui diversas vantagens como: semelhança fisiológica com mamíferos, facilidade de manipulação genética, larvas opticamente claras, além disso, são animais altamente férteis, de baixo custo e manutenção devido ao seu tamanho. O objetivo deste trabalho é realizar uma revisão integrativa da literatura disponível sobre o papel e a suplementação de Se em Danio rerio. A revisão foi realizada nas bases de dados Pubmed, BVS, Scopus, Web of Science e Periódico da Capes, realizando uma busca avançada por meio das palavras chaves selecionadas. Mais de 700 artigos foram identificados. Os artigos incluídos foram publicados em inglês, português ou espanhol, a partir do ano de 2005 até 2023, também foram considerados artigos que avaliaram o papel do Se e",
+      "journal": "RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_heares_2020_107952",
+      "title": "Noise-induced hearing loss in zebrafish: investigating structural and functional inner ear damage and recovery",
+      "year": 2020,
+      "doi": "10.1016/j.heares.2020.107952",
+      "abstract": "",
+      "journal": "Hearing Research",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_86419",
+      "title": "Danio rerio (zebra danio)",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.86419",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_48086_asd0012",
+      "title": "Model Organizma: Zebra Balıkları (Danio rerio Hamilton, 1822) \nModel Organism: Zebrafish (Danio rerio Hamilton, 1822)",
+      "year": 2019,
+      "doi": "10.48086/asd0012",
+      "abstract": "",
+      "journal": "FUTURE BIOCHEMISTRY AND BIOSCIENCE",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fncir_2015_00039",
+      "title": "Development of social behavior in young zebrafish",
+      "year": 2015,
+      "doi": "10.3389/fncir.2015.00039",
+      "abstract": "Adult zebrafish are robustly social animals whereas larva is not. We designed an assay to determine at what stage of development zebrafish begin to interact with and prefer other fish. One week old zebrafish do not show significant social preference whereas most 3 weeks old zebrafish strongly prefer to remain in a compartment where they can view conspecifics. However, for some individuals, the presence of conspecifics drives avoidance instead of attraction. Social preference is dependent on vision and requires viewing fish of a similar age/size. In addition, over the same 1-3 weeks period larval zebrafish increasingly tend to coordinate their movements, a simple form of social interaction. Finally, social preference and coupled interactions are differentially modified by an NMDAR antagonist and acute exposure to ethanol, both of which are known to alter social behavior in adult zebrafish.",
+      "journal": "Frontiers in Neural Circuits",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fnins_2015_00414",
+      "title": "I'll take the low road: the evolutionary underpinnings of visually triggered fear",
+      "year": 2015,
+      "doi": "10.3389/fnins.2015.00414",
+      "abstract": "Although there is general agreement that the central nucleus of the amygdala (CeA) is critical for triggering the neuroendocrine response to visual threats, there is uncertainty about the role of subcortical visual pathways in this process. Primates in general appear to depend less on subcortical visual pathways than other mammals. Yet, imaging studies continue to indicate a role for the superior colliculus and pulvinar nucleus in fear activation, despite disconnects in how these brain structures communicate not only with each other but with the amygdala. Studies in fish and amphibians suggest that the neuroendocrine response to visual threats has remained relatively unchanged for hundreds of millions of years, yet there are still significant data gaps with respect to how visual information is relayed to telencephalic areas homologous to the CeA, particularly in fish. In fact ray finned fishes may have evolved an entirely different mechanism for relaying visual information to the telen",
+      "journal": "Frontiers in Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2210_pdb4bxr_pdb",
+      "title": "Structure of the wild-type TCP10 domain of Danio rerio CPAP in complex with a peptide of Danio rerio STIL",
+      "year": 2013,
+      "doi": "10.2210/pdb4bxr/pdb",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s11160-012-9297-z",
+      "title": "Auditory evoked potential audiometry in fish",
+      "year": 2013,
+      "doi": "10.1007/s11160-012-9297-z",
+      "abstract": "A recent survey lists more than 100 papers utilizing the auditory evoked potential (AEP) recording technique for studying hearing in fishes. More than 95 % of these AEP-studies were published after Kenyon et al. introduced a non-invasive electrophysiological approach in 1998 allowing rapid evaluation of hearing and repeated testing of animals. First, our review compares AEP hearing thresholds to behaviorally gained thresholds. Second, baseline hearing abilities are described and compared in 111 fish species out of 51 families. Following this, studies investigating the functional significance of various accessory hearing structures (Weberian ossicles, swim bladder, otic bladders) by eliminating these morphological structures in various ways are dealt with. Furthermore, studies on the ontogenetic development of hearing are summarized. The AEP-technique was frequently used to study the effects of high sound/noise levels on hearing in particular by measuring the temporary threshold shifts ",
+      "journal": "Reviews in Fish Biology and Fisheries",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1186_1471-2202-11-58",
+      "title": "Steroid receptor expression in the fish inner earvaries with sex, social status, and reproductive state",
+      "year": 2010,
+      "doi": "10.1186/1471-2202-11-58",
+      "abstract": "This is the most comprehensive study of sex-, social-, and reproductive-related steroid receptor mRNA expression in the peripheral auditory system of any single vertebrate. Our data suggest that changes in steroid receptor mRNA expression in the inner ear could be a regulatory mechanism for physiological state-dependent auditory plasticity across vertebrates.",
+      "journal": "BMC Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_008474",
+      "title": "Development of vocalization, auditory sensitivity and acoustic communication in the Lusitanian toadfish<i>Halobatrachus didactylus</i>",
+      "year": 2008,
+      "doi": "10.1242/jeb.008474",
+      "abstract": "The ontogenetic development of acoustic communication has so far only been investigated in one fish species. In order to determine whether detectability of conspecific sounds changes during growth in a species with limited hearing abilities (generalist), we investigated the development of auditory sensitivity and agonistic vocalizations in the Lusitanian toadfish Halobatrachus didactylus. Agonistic grunts were recorded, their sound pressure levels determined, and auditory sensitivities measured in five different size groups ranging from 3 to 32 cm standard length. Hearing thresholds were obtained using the auditory evoked potentials (AEP) recording technique. Dominant frequency, sound duration and number of pulses decreased, whereas pulse period and sound level increased with increasing fish size. The best hearing was below 300 Hz in all groups. Lower hearing sensitivity was found in the smallest juveniles at 100 Hz as well as at higher frequencies (800 and 1000 Hz). Comparisons betwee",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3354_meps285213",
+      "title": "Auditory sensitivity of sergeant major damselfish Abudefduf saxatilis from post-settlement juvenile to adult",
+      "year": 2005,
+      "doi": "10.3354/meps285213",
+      "abstract": "Recent evidence suggests that pelagic larvae of coral reef fishes are active in their dispersal and return to a reef; however, the mechanisms used to navigate are unknown. Sound is a potentially important cue for organisms in marine environments, especially in noisy environments like coral reefs. The auditory brainstem response (ABR) technique was used to measure hearing of a wide size range of sergeant major damselfish Abudefduf saxatilis. Complete audiograms were measured for 32 fish ranging in size from 11 to 121 mm. Significant effects of standard length on hearing thresholds at 100 and 200 Hz were detected. at these lower frequencies, thresholds increased with an increase in size. All fish were most sensitive to the lower frequencies (100 to 400 Hz). The frequency range over which fish could detect sounds was dependent upon the size of the fish; the larger fish (&gt;50 mm) were more likely to respond to higher frequencies (1000 to 1600 Hz). A. saxatilis has poor hearing sensitivit",
+      "journal": "Marine Ecology Progress Series",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_21-22-08943_2001",
+      "title": "Anatomical Distribution and Cellular Basis for High Levels of Aromatase Activity in the Brain of Teleost Fish: Aromatase Enzyme and mRNA Expression Identify Glia as Source",
+      "year": 2001,
+      "doi": "10.1523/jneurosci.21-22-08943.2001",
+      "abstract": "Although teleost fish have higher levels of brain aromatase activity than any other vertebrate group, its function remains speculative, and no study has identified its cellular basis. A previous study determined aromatase activity in a vocal fish, the plainfin midshipman (Porichthys notatus), and found highest levels in the telencephalon and lower levels in the sonic hindbrain, which was dimorphic between and within (males) sexes. We have now localized aromatase-containing cells in the midshipman brain both by immunocytochemistry using teleost-specific aromatase antibodies and by in situ hybridization using midshipman-specific aromatase probes. Aromatase-immuno-reactivity and mRNA hybridization signal are consistent with relative levels of aromatase activity in different brain regions: concentrated in the dimorphic sonic motor nucleus, in a band just beneath the periaqueductal gray in the midbrain, in ventricular regions in the hypothalamus, and highest levels in the telencephalon espe",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_2988_table-5",
+      "title": "Table 5: Compaction vs gene representation on\n                      <i>Danio rerio</i>\n                      simulated dataset (Ds) and\n                      <i>Danio rerio</i>\n                      dataset (Dr).",
+      "year": null,
+      "doi": "10.7717/peerj.2988/table-5",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_18002_10612_3354",
+      "title": "Aplicación de nuevas herramientas biotecnológicas en la línea germinal del pez cebra (Danio rerio) = Application of new biotechnological tools in zebrafish (Danio rerio) germ line",
+      "year": null,
+      "doi": "10.18002/10612/3354",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_7094_fig-3",
+      "title": "Figure 3: Danio rerio embryos at 24 hpf.",
+      "year": null,
+      "doi": "10.7717/peerj.7094/fig-3",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_2988_table-6",
+      "title": "Table 6: Structure validation on Danio rerio simulated dataset (Ds).",
+      "year": null,
+      "doi": "10.7717/peerj.2988/table-6",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "species_id": "gbif_5226729",
+  "gbif_usage_key": 5226729,
+  "scientific_name": "Ovis aries",
+  "common_name_en": "domestic sheep",
+  "common_names": {
+    "en": "domestic sheep",
+    "it": "pecora",
+    "es": "oveja doméstica",
+    "fr": "mouton",
+    "de": "hausschaf"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Ovis",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 7,
+    "doi_count": 18,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Domestic sheep (Ovis aries) is a species of Mammalia in the order Artiodactyla, family Bovidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Sheep",
+  "wiki_title": "Sheep",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "bleat"
+  ],
+  "contexts": [
+    "alarm",
+    "mother-offspring",
+    "social contact"
+  ],
+  "functions": [
+    "contact maintenance",
+    "individual recognition",
+    "separation distress"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "bleat",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mother-offspring",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social contact",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "separation distress",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "freesound",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1016/j.applanim.2021.105264",
+      "url": "https://doi.org/10.1016/j.applanim.2021.105264",
+      "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.32388/fc05mk",
+      "url": "https://doi.org/10.32388/fc05mk",
+      "title": "Ovis aries",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.22256/pubvet.v11n12.1210-1219",
+      "url": "https://doi.org/10.22256/pubvet.v11n12.1210-1219",
+      "title": "Fungos de armazenagem e micotoxinas em dieta para ovinos (Ovis aries L.): Estudo de caso Storage fungi and mycotoxins in sheep diet (Ovis aries L.): a case study Hongos de almacenamiento y micotoxinas en la dieta para ovinos (Ovis aries L.): estudio de caso",
+      "year": 2017,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.71353",
+      "url": "https://doi.org/10.1079/cabicompendium.71353",
+      "title": "Ovis aries musimon (European mouflon)",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rstb.2011.0280",
+      "url": "https://doi.org/10.1098/rstb.2011.0280",
+      "title": "The evolution of female ornaments and weaponry: social selection, sexual selection and ecological competition",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1186/1751-0147-53-28",
+      "url": "https://doi.org/10.1186/1751-0147-53-28",
+      "title": "Minimising the stress of weaning of beef calves: a review",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2010.01.021",
+      "url": "https://doi.org/10.1016/j.anbehav.2010.01.021",
+      "title": "Early vocal recognition of mother by lambs: contribution of low- and high-frequency vocalizations",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.71349",
+      "url": "https://doi.org/10.1079/cabicompendium.71349",
+      "title": "Ovis aries (sheep)",
+      "year": 2010,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1186/1471-2202-11-58",
+      "url": "https://doi.org/10.1186/1471-2202-11-58",
+      "title": "Steroid receptor expression in the fish inner earvaries with sex, social status, and reproductive state",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.9775/kvfd.2009.385",
+      "url": "https://doi.org/10.9775/kvfd.2009.385",
+      "title": "Anadolu Yaban Koyunu (Ovis gmelini anatolica) ve Akkaraman Koyununun (Ovis aries) Altçene Kemikleri Üzerinde Karşılaştırmalı Geometrik Morfometri",
+      "year": 2009,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1601-5223.1985.tb00497.x",
+      "url": "https://doi.org/10.1111/j.1601-5223.1985.tb00497.x",
+      "title": "Standard nomenclature for the G-band karyotype of the domestic sheep (Ovis aries)",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1051/rnd:2006023",
+      "url": "https://doi.org/10.1051/rnd:2006023",
+      "title": "From birth to colostrum: early steps leading to lamb survival",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1086/506971",
+      "url": "https://doi.org/10.1086/506971",
+      "title": "Mother‐Young Recognition in an Ungulate Hider Species: A Unidirectional Process",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/978-3-662-06820-5_21",
+      "url": "https://doi.org/10.1007/978-3-662-06820-5_21",
+      "title": "Mouflon — Ovis aries",
+      "year": 2003,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/bjn2002743",
+      "url": "https://doi.org/10.1079/bjn2002743",
+      "title": "Ewe–lamb bonding behaviours at birth are affected by maternal undernutrition in pregnancy",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1046/j.1365-2052.1999.00455.x",
+      "url": "https://doi.org/10.1046/j.1365-2052.1999.00455.x",
+      "title": "A diagnostic assay discriminating between two major <i>Ovis aries</i>\n mitochondrial DNA haplogroups",
+      "year": 1999,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2003.05.002",
+      "url": "https://doi.org/10.1016/j.anbehav.2003.05.002",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.11606/d.10.2006.tde-15062007-165924",
+      "url": "https://doi.org/10.11606/d.10.2006.tde-15062007-165924",
+      "title": "Padronização do alergoteste da tuberculina em ovinos (Ovis aries)",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1016_j_applanim_2021_105264",
+      "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
+      "year": 2021,
+      "doi": "10.1016/j.applanim.2021.105264",
+      "abstract": "Public concern for farm animal welfare is increasing. Animal welfare is defined as the balance of positive and negative emotions, where positive emotions are key to a good animal life. Emotion is defined as an experience that varies in valence and arousal. Many methods developed to identify positive emotions in animals involve disadvantages. For example, they require training the animals, are age specific or invasive. Vocalisations are a promising indicator of positive emotions. We aimed to review current knowledge on farm animal vocalisations putatively associated with positive emotions and discuss the potential of vocalisations as an on-farm tool to assess positive emotions in farm animals. Vocalisation types and acoustic structures that can potentially be used to identify positive emotions depend upon species. In pigs, lower frequency vocalisations are produced more in positive situations, however, within grunts, higher frequencies reflect positive situations. In horses, more snorts",
+      "journal": "Applied Animal Behaviour Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32388_fc05mk",
+      "title": "Ovis aries",
+      "year": 2020,
+      "doi": "10.32388/fc05mk",
+      "abstract": "",
+      "journal": "Definitions",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_22256_pubvet_v11n12_1210-1219",
+      "title": "Fungos de armazenagem e micotoxinas em dieta para ovinos (Ovis aries L.): Estudo de caso Storage fungi and mycotoxins in sheep diet (Ovis aries L.): a case study Hongos de almacenamiento y micotoxinas en la dieta para ovinos (Ovis aries L.): estudio de caso",
+      "year": 2017,
+      "doi": "10.22256/pubvet.v11n12.1210-1219",
+      "abstract": "<jats:p>Fungi and their storage conditions (moisture) and contamination by mycotoxins in foods offered to sheep were evaluated. Crioula animals created at Farm Ressacada – UFSC and with weakened health. The samples of alfalfa hay (Medicago sativa L.) were stored at 3 points (entrance of the shed, sheepfold and room), besides (b) pasture (B. decumbens) obtained in the field and (c) ration (Corn and soybean) stored in the sheepfold. The most detected fungal genus was Aspergillus, followed by Penicillium in 75 and 40% of the samples, respectively. Toxigenic strains (AFLs producers) were identified. As regards moisture (mc and aw) the contents ranged from 12-40% (mean: 12%) and aw: 0.5029-0.9888 (mean: 0.5783), considered adequate for fungal growth. Mycotoxins (AFLs: AFB1, AFB2, AFG1, AFG2) were detected at levels of 128 μg/kg in the hay samples. Cleaning conditions (warehouse and machinery) are of the utmost importance, since samples newly arrived at the shelter of the sheep are contamina",
+      "journal": "Pubvet",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_71353",
+      "title": "Ovis aries musimon (European mouflon)",
+      "year": 2016,
+      "doi": "10.1079/cabicompendium.71353",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rstb_2011_0280",
+      "title": "The evolution of female ornaments and weaponry: social selection, sexual selection and ecological competition",
+      "year": 2012,
+      "doi": "10.1098/rstb.2011.0280",
+      "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
+      "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1186_1751-0147-53-28",
+      "title": "Minimising the stress of weaning of beef calves: a review",
+      "year": 2011,
+      "doi": "10.1186/1751-0147-53-28",
+      "abstract": "Weaning of beef calves is usually done abruptly and early compared to the natural weaning of the species, and is associated with simultaneous exposure of calves to a range of social and environmental stressors. Behavioural and physiological responses to weaning indicate detrimental effects on the welfare of these animals. The development and assessment of weaning methods aiming at reducing or avoiding this problem must be supported by scientific knowledge of the morphological, physiological and psychological mechanisms involved in the establishment, maintenance and braking of the cow-calf bond. Solutions also depend on the understanding of the various stressors associated with weaning, among which are the change in diet, cessation of nursing, separation from the dam, the change to a new spatial environment and the need for social reorganization following removal of the adults from the group. This review discusses these issues and assesses the effectiveness of the methods so far propose",
+      "journal": "Acta veterinaria Scandinavica",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_71349",
+      "title": "Ovis aries (sheep)",
+      "year": 2010,
+      "doi": "10.1079/cabicompendium.71349",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2010_01_021",
+      "title": "Early vocal recognition of mother by lambs: contribution of low- and high-frequency vocalizations",
+      "year": 2010,
+      "doi": "10.1016/j.anbehav.2010.01.021",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1186_1471-2202-11-58",
+      "title": "Steroid receptor expression in the fish inner earvaries with sex, social status, and reproductive state",
+      "year": 2010,
+      "doi": "10.1186/1471-2202-11-58",
+      "abstract": "This is the most comprehensive study of sex-, social-, and reproductive-related steroid receptor mRNA expression in the peripheral auditory system of any single vertebrate. Our data suggest that changes in steroid receptor mRNA expression in the inner ear could be a regulatory mechanism for physiological state-dependent auditory plasticity across vertebrates.",
+      "journal": "BMC Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_9775_kvfd_2009_385",
+      "title": "Anadolu Yaban Koyunu (Ovis gmelini anatolica) ve Akkaraman Koyununun (Ovis aries) Altçene Kemikleri Üzerinde Karşılaştırmalı Geometrik Morfometri",
+      "year": 2009,
+      "doi": "10.9775/kvfd.2009.385",
+      "abstract": "",
+      "journal": "Kafkas Universitesi Veteriner Fakultesi Dergisi",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1601-5223_1985_tb00497_x",
+      "title": "Standard nomenclature for the G-band karyotype of the domestic sheep (Ovis aries)",
+      "year": 2008,
+      "doi": "10.1111/j.1601-5223.1985.tb00497.x",
+      "abstract": "",
+      "journal": "Hereditas",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1051_rnd:2006023",
+      "title": "From birth to colostrum: early steps leading to lamb survival",
+      "year": 2006,
+      "doi": "10.1051/rnd:2006023",
+      "abstract": "New-born lambs have limited energy reserves and need a rapid access to colostrum to maintain homeothermy and survive. In addition to energy, colostrum provides immunoglobulins which ensure passive systemic immunity. Therefore, getting early access to the udder is essential for the neonate. The results from the literature reviewed here highlight the importance of the birth site as the location where the mutual bonding between the mother and her young takes place. Attraction to birth fluids by the periparturient ewe leads to intense licking of the lamb. Grooming not only dries, cleans and stimulates the newborn it also facilitates bonding through learning of its individual odour. Ewes having twins should ideally stay on the birth site for at least six hours in order to establish a strong bond with both lambs and favour lambs survival. However, primiparous ewes or ewes having high levels of emotivity are more likely to exhibit poor maternal behaviour. In addition, difficult parturition an",
+      "journal": "annales de biologie animale biochimie biophysique",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1086_506971",
+      "title": "Mother‐Young Recognition in an Ungulate Hider Species: A Unidirectional Process",
+      "year": 2006,
+      "doi": "10.1086/506971",
+      "abstract": "Parent-offspring recognition is usually crucial for survival of young. In mammals, olfaction often only permits identification at short range, and vocalizations are important at longer distances. Following and hiding antipredator strategies found in newborn mammals may also affect parental recognition mechanisms. We investigated mother-offspring recognition in fallow deer, an ungulate hider species. We analyzed the structure of adult female and fawn contact calls to determine whether they are individually distinctive and tested for mother-offspring recognition. Only females (and not fawns) have individualized vocalizations, with the fundamental frequency as the most distinctive parameter. Playback experiments showed that fawns can distinguish the calls of their mothers from those of other females, but mothers could not discriminate their own and alien fawn calls. Thus, the vocal identification process is unidirectional. In followers, mother-offspring acoustic recognition is mutual, and",
+      "journal": "The American Naturalist",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-3-662-06820-5_21",
+      "title": "Mouflon — Ovis aries",
+      "year": 2003,
+      "doi": "10.1007/978-3-662-06820-5_21",
+      "abstract": "",
+      "journal": "Ecology of Ungulates",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_bjn2002743",
+      "title": "Ewe–lamb bonding behaviours at birth are affected by maternal undernutrition in pregnancy",
+      "year": 2003,
+      "doi": "10.1079/bjn2002743",
+      "abstract": "Maternal undernutrition in pregnancy results in low birth-weights and impaired postnatal survival in sheep. Largely anecdotal evidence suggests that the expression of appropriate maternal and neonate behaviours may also be disrupted by undernutrition. In the present study, we investigated the effect of a moderate (35 %) reduction in ewe nutritional intake in pregnancy on the expression of ewe-lamb bonding behaviours in primiparous Scottish Blackface ewes. Low-intake (L) ewes had significantly higher plasma progesterone than high-intake (H) ewes from mid-gestation onwards (e.g. plasma progesterone at 20 weeks (ng/ml): H 15.72, L 22.38, sed 1.80, P<0.001), and a lower oestradiol: progesterone value than H ewes at delivery (H 0.46, L 0.35, sed 0.05, P<0.05). Lamb birth-weight was reduced in the L lambs compared with H lambs (mean body weight (kg): H 3.31, L 3.00, sed 0.14, P<0.05), but the incidence of malpresentation at delivery was greater in L lambs. L ewes spent significantly less tim",
+      "journal": "British Journal Of Nutrition",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1046_j_1365-2052_1999_00455_x",
+      "title": "A diagnostic assay discriminating between two major <i>Ovis aries</i>\n mitochondrial DNA haplogroups",
+      "year": 1999,
+      "doi": "10.1046/j.1365-2052.1999.00455.x",
+      "abstract": "",
+      "journal": "Animal Genetics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11606_d_10_2006_tde-15062007-165924",
+      "title": "Padronização do alergoteste da tuberculina em ovinos (Ovis aries)",
+      "year": null,
+      "doi": "10.11606/d.10.2006.tde-15062007-165924",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

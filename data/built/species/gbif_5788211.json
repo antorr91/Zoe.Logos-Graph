@@ -1,0 +1,599 @@
+{
+  "species_id": "gbif_5788211",
+  "gbif_usage_key": 5788211,
+  "scientific_name": "Parus minor",
+  "common_name_en": "japanese tit",
+  "common_names": {
+    "en": "japanese tit",
+    "it": "cincia giapponese",
+    "es": "carbonero japonés",
+    "fr": "mésange du japon",
+    "de": "japanmeise"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Paridae",
+    "genus": "Parus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "evidence_backed",
+  "profile_badge": {
+    "label": "evidence backed",
+    "color": "amber"
+  },
+  "stats": {
+    "paper_count": 22,
+    "claim_count": 9,
+    "doi_count": 22,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Japanese tit (Parus minor) is a species of Aves in the order Passeriformes, family Paridae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Japanese_tit",
+  "wiki_title": "Japanese_tit",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "alarm call",
+    "call"
+  ],
+  "contexts": [
+    "group coordination",
+    "predator response"
+  ],
+  "functions": [
+    "alarm and recruitment",
+    "composite signal"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "alarm call",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      },
+      {
+        "value": "call",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      }
+    ],
+    "contexts": [
+      {
+        "value": "group coordination",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      },
+      {
+        "value": "predator response",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      }
+    ],
+    "functions": [
+      {
+        "value": "alarm and recruitment",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      },
+      {
+        "value": "composite signal",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 2
+      }
+    ],
+    "methods": [
+      {
+        "value": "playback experiment",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 1
+      },
+      {
+        "value": "sequence analysis",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 1
+      },
+      {
+        "value": "video tracking",
+        "confidence": 0.9,
+        "source": "extraction",
+        "evidence_count": 1
+      }
+    ]
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Parus minor",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.2173/bow.gretit4.02",
+      "url": "https://doi.org/10.2173/bow.gretit4.02",
+      "title": "Japanese Tit (Parus minor)",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3838/jjo.71.171",
+      "url": "https://doi.org/10.3838/jjo.71.171",
+      "title": "A record of mixed brood of the Japanese Tit &lt;i&gt;Parus minor&lt;/i&gt; revealed by DNA analysis DNA多型解析から明らかになったシジュウカラ&lt;i&gt;Parus minor&lt;/i&gt;のmixed broodの存在",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/1440-1703.12200",
+      "url": "https://doi.org/10.1111/1440-1703.12200",
+      "title": "Animal linguistics: Exploring referentiality and compositionality in bird calls",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2173/bow.gretit4.01",
+      "url": "https://doi.org/10.2173/bow.gretit4.01",
+      "title": "Japanese Tit (Parus minor)",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-3-319-91689-7_13",
+      "url": "https://doi.org/10.1007/978-3-319-91689-7_13",
+      "title": "Impact of Urbanization on Birds",
+      "year": 2018,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1073/pnas.1718884115",
+      "url": "https://doi.org/10.1073/pnas.1718884115",
+      "title": "Alarm calls evoke a visual search image of a predator in birds",
+      "year": 2018,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.cub.2017.06.031",
+      "url": "https://doi.org/10.1016/j.cub.2017.06.031",
+      "title": "Wild Birds Use an Ordering Rule to Decode Novel Call Sequences",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1134/s1062359011090044",
+      "url": "https://doi.org/10.1134/s1062359011090044",
+      "title": "The history of ranges of the great tit (Parus major) and Japanese tit (Parus minor) in the Amur Region",
+      "year": 2011,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1439-0310.2008.01514.x",
+      "url": "https://doi.org/10.1111/j.1439-0310.2008.01514.x",
+      "title": "Effects of Cover on Loud Trill-Call and Soft Seet-Call Use in the Crested tit Parus Cristatus",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1644/07-mamm-s-307r.1",
+      "url": "https://doi.org/10.1644/07-mamm-s-307r.1",
+      "title": "Implications for marine mammals of large-scale changes in the marine acoustic environment",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.0021-8790.2004.00814.x",
+      "url": "https://doi.org/10.1111/j.0021-8790.2004.00814.x",
+      "title": "The impact of environmental noise on song amplitude in a territorial bird",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1163/1568539042360152",
+      "url": "https://doi.org/10.1163/1568539042360152",
+      "title": "Degradation of Great Tit (Parus Major) Song Before And After Foliation: Implications for Vocal Communication in a Deciduous Forest",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s004420050475",
+      "url": "https://doi.org/10.1007/s004420050475",
+      "title": "Caterpillar abundance in the territory affects the breeding performance of great tit Parus major minor",
+      "year": 1998,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1080/09524622.1997.9753339",
+      "url": "https://doi.org/10.1080/09524622.1997.9753339",
+      "title": "A UNIQUE LOCAL CALL IN THE WILLOW TIT<i>PARUS MONTANOS</i>",
+      "year": 1997,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1523/jneurosci.17-15-06001.1997",
+      "url": "https://doi.org/10.1523/jneurosci.17-15-06001.1997",
+      "title": "Seasonal Changes in Testosterone, Neural Attributes of Song Control Nuclei, and Song Structure in Wild Songbirds",
+      "year": 1997,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1523/jneurosci.13-11-04737.1993",
+      "url": "https://doi.org/10.1523/jneurosci.13-11-04737.1993",
+      "title": "Development of neural selectivity for birdsong during vocal learning",
+      "year": 1993,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/3676789",
+      "url": "https://doi.org/10.2307/3676789",
+      "title": "Ontogeny of the Vocal Repertoire in the Willow Tit Parus montanus",
+      "year": 1993,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3312/jyio1952.11.1",
+      "url": "https://doi.org/10.3312/jyio1952.11.1",
+      "title": "Food and food consumption of nestling tits, Parus major minor and Parus varius varius, in the ever-green broad leaved forests in northern Kyushu",
+      "year": 1979,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5962/bhl.title.155043",
+      "url": "https://doi.org/10.5962/bhl.title.155043",
+      "title": "Communication and other social behavior in Parus carolinensis",
+      "year": 1972,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5962/p.323242",
+      "url": "https://doi.org/10.5962/p.323242",
+      "title": "Chinese Tit, Parus minor, Temm. et Schleg. [Pl. 56]",
+      "year": 1858,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/nature16537",
+      "url": "https://doi.org/10.1038/nature16537",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.31979/etd.db37-msmd",
+      "url": "https://doi.org/10.31979/etd.db37-msmd",
+      "title": "Vocal recognition by little penguins (Eudyptula minor) on Phillip Island, Victoria, Australia",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_2173_bow_gretit4_02",
+      "title": "Japanese Tit (Parus minor)",
+      "year": 2024,
+      "doi": "10.2173/bow.gretit4.02",
+      "abstract": "",
+      "journal": "Birds of the World",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3838_jjo_71_171",
+      "title": "A record of mixed brood of the Japanese Tit &lt;i&gt;Parus minor&lt;/i&gt; revealed by DNA analysis DNA多型解析から明らかになったシジュウカラ&lt;i&gt;Parus minor&lt;/i&gt;のmixed broodの存在",
+      "year": 2022,
+      "doi": "10.3838/jjo.71.171",
+      "abstract": "",
+      "journal": "Japanese Journal of Ornithology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_1440-1703_12200",
+      "title": "Animal linguistics: Exploring referentiality and compositionality in bird calls",
+      "year": 2021,
+      "doi": "10.1111/1440-1703.12200",
+      "abstract": "Abstract Establishing the theory of language evolution is an ongoing challenge in science. One profitable approach in this regard is to seek the origins of linguistic capabilities by comparing language with the vocal communication systems of closely related relatives (i.e., the great apes). However, several key capabilities of language appear to be absent in non‐human primates, which limits the range of studies, such as direct phylogenetic comparison. A further informative approach lies in identifying convergent features in phylogenetically distant animals and conducting comparative studies. This approach is particularly useful with respect to establishing general rules for the evolution of linguistic capabilities. In this article, I review recent findings on linguistic capabilities in a passerine bird species, the Japanese tit ( Parus minor ). Field experiments have revealed that Japanese tits produce unique alarm calls when encountering predatory snakes, which serve to enhance the vi",
+      "journal": "Ecological Research",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2173_bow_gretit4_01",
+      "title": "Japanese Tit (Parus minor)",
+      "year": 2020,
+      "doi": "10.2173/bow.gretit4.01",
+      "abstract": "",
+      "journal": "Birds of the World",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1073_pnas_1718884115",
+      "title": "Alarm calls evoke a visual search image of a predator in birds",
+      "year": 2018,
+      "doi": "10.1073/pnas.1718884115",
+      "abstract": "One of the core features of human speech is that words cause listeners to retrieve corresponding visual mental images. However, whether vocalizations similarly evoke mental images in animal communication systems is surprisingly unknown. Japanese tits (<i>Parus minor</i>) produce specific alarm calls when and only when encountering a predatory snake. Here, I show that simply hearing these calls causes tits to become more visually perceptive to objects resembling snakes. During playback of snake-specific alarm calls, tits approach a wooden stick being moved in a snake-like fashion. However, tits do not respond to the same stick when hearing other call types or if the stick's movement is dissimilar to that of a snake. Thus, before detecting a real snake, tits retrieve its visual image from snake-specific alarm calls and use this to search out snakes. This study provides evidence for a call-evoked visual search image in a nonhuman animal, offering a paradigm to explore the cognitive basis ",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-3-319-91689-7_13",
+      "title": "Impact of Urbanization on Birds",
+      "year": 2018,
+      "doi": "10.1007/978-3-319-91689-7_13",
+      "abstract": "Urban habitats and landscapes are markedly different from nonurban “natural” habitats. The major difference is the transformation of the land, from natural green areas to anthropogenic structures and impervious surfaces. To survive in the urban habitat, birds are forced to either accept or avoid the new conditions. In addition, the urban sprawl has led to a highly fragmented landscape, with islets of suitable bird habitat surrounded by highways and buildings that frequently act as barriers, even for mobile creatures such as birds. These altered conditions have changed the avifauna dramatically, with many species vanishing once an area is urbanized, thus resulting in a significant loss of local biodiversity. However, some species seem to thrive in the city, and these urban-dwelling species often show pronounced phenotypic differences (e.g., in behavior, physiology, and morphology) to their rural conspecifics. These phenotypic changes have been linked to specific urban selective drivers ",
+      "journal": "Fascinating life sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_cub_2017_06_031",
+      "title": "Wild Birds Use an Ordering Rule to Decode Novel Call Sequences",
+      "year": 2017,
+      "doi": "10.1016/j.cub.2017.06.031",
+      "abstract": "",
+      "journal": "Current Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "paper_009",
+      "title": "Vocal syntax and combinatorial rules in Japanese tits",
+      "year": 2016,
+      "doi": null,
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "pilot",
+      "developmental_stage": "adult",
+      "main_outcome": "Japanese tits combine two call types into a fixed-order sequence that elicits a distinct behavioural response not produced by either call alone, suggesting compositional syntax.",
+      "dataset_available": "no",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1134_s1062359011090044",
+      "title": "The history of ranges of the great tit (Parus major) and Japanese tit (Parus minor) in the Amur Region",
+      "year": 2011,
+      "doi": "10.1134/s1062359011090044",
+      "abstract": "",
+      "journal": "Biology Bulletin",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1439-0310_2008_01514_x",
+      "title": "Effects of Cover on Loud Trill-Call and Soft Seet-Call Use in the Crested tit Parus Cristatus",
+      "year": 2008,
+      "doi": "10.1111/j.1439-0310.2008.01514.x",
+      "abstract": "",
+      "journal": "Ethology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1644_07-mamm-s-307r_1",
+      "title": "Implications for marine mammals of large-scale changes in the marine acoustic environment",
+      "year": 2008,
+      "doi": "10.1644/07-mamm-s-307r.1",
+      "abstract": "Abstract The amount of underwater sound from ship traffic, commercial, research, and military sound sources has increased significantly over the past century. Marine mammals and many other marine animals rely on sound for short- and long-range communication, for orientation, and for locating prey. This reliance has raised concern that elevated sound levels from human sources may interfere with the behavior and physiology of marine animals. The dominant source of human sound in the sea stems from propulsion of ships. Shipping noise centers in the 20- to 200-Hz band. Frequencies this low propagate efficiently in the sea, and shipping has elevated the global deepwater ambient noise 10- to 100-fold in this frequency band. Baleen whales use the same frequency band for some of their communication signals, and concern has been raised that elevated ambient noise may reduce the range over which they can communicate. Marine mammals have a variety of mechanisms to compensate for increased noise, ",
+      "journal": "Journal of Mammalogy",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_1568539042360152",
+      "title": "Degradation of Great Tit (Parus Major) Song Before And After Foliation: Implications for Vocal Communication in a Deciduous Forest",
+      "year": 2004,
+      "doi": "10.1163/1568539042360152",
+      "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>Songbirds living in temperate forests experience great seasonal changes in habitat acoustics during the part of the breeding season when singing activity is high. These changes, which are brought about by accelerated vegetation growth and leaf burst in spring, affect sound propagation and potentially render vocal communication more difficult as the total number of scattering and absorbing obstacles increases. We investigated this in a sound transmission experiment in which representative great tit (Parus major) songs were broadcast in a typical forest habitat before and after foliation. Speaker and microphone were placed at natural separation distances and in typical sender and receiver positions. For each song note we quantified several aspects of sound degradation and found that they all increased considerably when leaves were present. Before foliation the same amount of degradation would only be obtained by doubling the transmission",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_0021-8790_2004_00814_x",
+      "title": "The impact of environmental noise on song amplitude in a territorial bird",
+      "year": 2004,
+      "doi": "10.1111/j.0021-8790.2004.00814.x",
+      "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
+      "journal": "Journal of Animal Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s004420050475",
+      "title": "Caterpillar abundance in the territory affects the breeding performance of great tit Parus major minor",
+      "year": 1998,
+      "doi": "10.1007/s004420050475",
+      "abstract": "",
+      "journal": "Oecologia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_09524622_1997_9753339",
+      "title": "A UNIQUE LOCAL CALL IN THE WILLOW TIT<i>PARUS MONTANOS</i>",
+      "year": 1997,
+      "doi": "10.1080/09524622.1997.9753339",
+      "abstract": "",
+      "journal": "Bioacoustics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_17-15-06001_1997",
+      "title": "Seasonal Changes in Testosterone, Neural Attributes of Song Control Nuclei, and Song Structure in Wild Songbirds",
+      "year": 1997,
+      "doi": "10.1523/jneurosci.17-15-06001.1997",
+      "abstract": "Seasonal changes in the neural attributes of brain nuclei that control song in songbirds are among the most pronounced examples of naturally occurring plasticity in the adult brain of any vertebrate. The behavioral correlates of this seasonal neural plasticity have not been well characterized, particularly in songbird species that lack adult song learning. To address this question, we investigated the relationship between seasonal changes in gonadal steroids, song nuclei, and song behavior in adult male song sparrows (Melospiza melodia). At four times of the year, we measured plasma concentrations of testosterone, neural attributes of song nuclei, and several aspects of song structure in wild song sparrows of a nonmigratory population. We found seasonal changes in the song nuclei that were temporally correlated with changes in testosterone concentrations and with changes in song stereotypy. Male song sparrows sang songs that were more variable in structure in the fall, when testosteron",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_3676789",
+      "title": "Ontogeny of the Vocal Repertoire in the Willow Tit Parus montanus",
+      "year": 1993,
+      "doi": "10.2307/3676789",
+      "abstract": "",
+      "journal": "Ornis Scandinavica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_13-11-04737_1993",
+      "title": "Development of neural selectivity for birdsong during vocal learning",
+      "year": 1993,
+      "doi": "10.1523/jneurosci.13-11-04737.1993",
+      "abstract": "Juvenile white-crowned sparrows learn to sing by first memorizing an adult's song and then progressively matching their vocalizations to this model during plastic song. Previous studies have shown that neurons in the song-system nucleus HVC of adult sparrows respond preferentially to a bird's own song. In this study, the auditory selectivity of HVC neurons in subadult birds was examined. In young, nonsinging birds who had been song tutored, these cells responded to song stimuli, and at some recording sites had distinct preferences for one song or another. As a population, however, HVC neurons in these birds showed no preference for familiar song. They were no more likely to prefer normal tutor song to reversed tutor song or to the song of another white-crowned subspecies. By contrast, in birds producing plastic song, HVC neurons were selective for the bird's own songs, even in preference to their tutor song. Therefore, during song learning the response properties of HVC neurons appear ",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3312_jyio1952_11_1",
+      "title": "Food and food consumption of nestling tits, Parus major minor and Parus varius varius, in the ever-green broad leaved forests in northern Kyushu",
+      "year": 1979,
+      "doi": "10.3312/jyio1952.11.1",
+      "abstract": "",
+      "journal": "Journal of the Yamashina Institute for Ornithology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5962_bhl_title_155043",
+      "title": "Communication and other social behavior in Parus carolinensis",
+      "year": 1972,
+      "doi": "10.5962/bhl.title.155043",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5962_p_323242",
+      "title": "Chinese Tit, Parus minor, Temm. et Schleg. [Pl. 56]",
+      "year": 1858,
+      "doi": "10.5962/p.323242",
+      "abstract": "",
+      "journal": "The Birds of Asia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31979_etd_db37-msmd",
+      "title": "Vocal recognition by little penguins (Eudyptula minor) on Phillip Island, Victoria, Australia",
+      "year": null,
+      "doi": "10.31979/etd.db37-msmd",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 22,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

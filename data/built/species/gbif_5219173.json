@@ -1,0 +1,531 @@
+{
+  "species_id": "gbif_5219173",
+  "gbif_usage_key": 5219173,
+  "scientific_name": "Canis lupus",
+  "common_name_en": "grey wolf",
+  "common_names": {
+    "en": "grey wolf",
+    "it": "lupo grigio",
+    "es": "lobo gris",
+    "fr": "loup gris",
+    "de": "wolf"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Carnivora",
+    "family": "Canidae",
+    "genus": "Canis",
+    "gbif_match_confidence": 99,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 19,
+    "claim_count": 9,
+    "doi_count": 18,
+    "media_count": 0
+  },
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/330px-Eurasian_wolf_2.jpg",
+    "url_full": "https://upload.wikimedia.org/wikipedia/commons/6/68/Eurasian_wolf_2.jpg",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons page",
+    "attribution": ""
+  },
+  "summary": "The wolf, also known as the grey wolf or gray wolf, is a canine native to Eurasia and North America. More than thirty subspecies of Canis lupus have been recognized, including the dog and dingo, though grey wolves, as popularly understood, include only naturally occurring wild subspecies. The wolf is the largest wild extant member of the family Canidae, and is further distinguished from other Canis species by its less pointed ears and muzzle, as well as a shorter torso and a longer tail.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Wolf",
+  "wiki_title": "Wolf",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "bark",
+    "growl",
+    "howl"
+  ],
+  "contexts": [
+    "group cohesion",
+    "social communication",
+    "territorial defence"
+  ],
+  "functions": [
+    "individual recognition",
+    "long-distance communication",
+    "pack coordination"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "bark",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "growl",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "howl",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "group cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "long-distance communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "pack coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1038/s42003-023-04450-9",
+      "url": "https://doi.org/10.1038/s42003-023-04450-9",
+      "title": "Genetic distance from wolves affects family dogs’ reactions towards howls",
+      "year": 2023,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.119418",
+      "url": "https://doi.org/10.1079/cabicompendium.119418",
+      "title": "Canis lupus (wolf)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1101/612507",
+      "url": "https://doi.org/10.1101/612507",
+      "title": "Characterising the vocal repertoire of the Indian wolf (Canis lupus pallipes)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1163/1568539x-00003495",
+      "url": "https://doi.org/10.1163/1568539x-00003495",
+      "title": "The function of play bows in Canis lupus and its variants: a comparison of dingo (Canis lupus dingo), dog (Canis lupus familiaris) and wolf puppies (Canis lupus)",
+      "year": 2018,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.12987/yale/9780300226164.003.0007",
+      "url": "https://doi.org/10.12987/yale/9780300226164.003.0007",
+      "title": "“Dingo Makes Us Human”",
+      "year": 2017,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.19052/mv.3857",
+      "url": "https://doi.org/10.19052/mv.3857",
+      "title": "Diagnóstico histopatológico de arterioesclerosis en perros (Canis lupus familiaris) Histopathological diagnosis of arteriosclerosis in dogs (Canis lupus familiaris) Diagnóstico histopatológico de arteriosclerose em cachorros (Canis lupus familiaris)",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-015-0897-6",
+      "url": "https://doi.org/10.1007/s10071-015-0897-6",
+      "title": "What’s inside your cat’s head? A review of cat (Felis silvestris catus) cognition research past, present and future",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.beproc.2014.08.019",
+      "url": "https://doi.org/10.1016/j.beproc.2014.08.019",
+      "title": "Shut up and pet me! Domestic dogs (Canis lupus familiaris) prefer petting to vocal praise in concurrent and single-alternative choice procedures",
+      "year": 2015,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.15372/sej20150306",
+      "url": "https://doi.org/10.15372/sej20150306",
+      "title": "Philopatry and Dispersion in Wolf Populations (Canis lupus L.)",
+      "year": 2015,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-3-642-53994-7_6",
+      "url": "https://doi.org/10.1007/978-3-642-53994-7_6",
+      "title": "Visual Attention in Dogs and the Evolution of Non-Verbal Communication",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2981/12-022",
+      "url": "https://doi.org/10.2981/12-022",
+      "title": "Factors affecting the elicitation of vocal responses from coyotes <i>Canis latrans</i>",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/eth.12044",
+      "url": "https://doi.org/10.1111/eth.12044",
+      "title": "A Comparison of the Sensory Development of Wolves (<i>Canis lupus lupus</i>) and Dogs (<i>Canis lupus familiaris</i>)",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1017/s2040470010002529",
+      "url": "https://doi.org/10.1017/s2040470010002529",
+      "title": "Behavioural and vocal responses in Canis Lupus in response to transposed playbacks",
+      "year": 2010,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.90295",
+      "url": "https://doi.org/10.1079/cabicompendium.90295",
+      "title": "Canis lupus familiaris (dogs)",
+      "year": 2010,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10164-006-0015-y",
+      "url": "https://doi.org/10.1007/s10164-006-0015-y",
+      "title": "Howling activity of free-ranging wolves (Canis lupus) in the Białowieża Primeval Forest and the Western Beskidy Mountains (Poland)",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1037/0735-7036.116.2.189",
+      "url": "https://doi.org/10.1037/0735-7036.116.2.189",
+      "title": "A new perspective on barking in dogs (Canis familaris.).",
+      "year": 2002,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1163/156853977x00298",
+      "url": "https://doi.org/10.1163/156853977x00298",
+      "title": "Determinants of Response of Wolf Pups To Auditory Signals",
+      "year": 1977,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.7717/peerj.19219/supp-9",
+      "url": "https://doi.org/10.7717/peerj.19219/supp-9",
+      "title": "Supplemental Information 9: MALDI-TOF spectra for\n                      <i>Aenocyon dirus</i>\n                      ,\n                      <i>Canis lupus</i>\n                      , and\n                      <i>Canis latrans</i>\n                      ..",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1038_s42003-023-04450-9",
+      "title": "Genetic distance from wolves affects family dogs’ reactions towards howls",
+      "year": 2023,
+      "doi": "10.1038/s42003-023-04450-9",
+      "abstract": "Domestication dramatically changes behaviour, including communication, as seen in the case of dogs (Canis familiaris) and wolves (Canis lupus). We tested the hypothesis that domestication may affect an ancient, shared communication form of canids, the howling which seems to have higher individual variation in dogs: the perception and usage of howls may be affected by the genetic relatedness of the breeds to their last common ancestor with wolves ('root distance') and by other individual features like age, sex, and reproductive status. We exposed 68 purebred dogs to wolf howl playbacks and recorded their responses. We identified an interaction between root distance and age on the dogs' vocal and behavioural responses: older dogs from more ancient breeds responded longer with howls and showed more stress behaviours. Our results suggest that domestication impacts vocal behaviour significantly: disintegrating howling, a central, species-specific communication form of canids and gradually e",
+      "journal": "Communications Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1101_612507",
+      "title": "Characterising the vocal repertoire of the Indian wolf (Canis lupus pallipes)",
+      "year": 2019,
+      "doi": "10.1101/612507",
+      "abstract": "<jats:p>Vocal communication in social animals plays a crucial role in mate choice, maintaining social structure, and foraging strategy. The Indian grey wolf, among the less studied subspecies, is a social carnivore that lives in groups called packs and has many types of vocal communication. In this study, we characterise harmonic vocalisation types in the Indian wolf using howl survey responses and opportunistic recordings from captive and nine packs (each pack contains 2-9 individuals) of free-ranging Indian wolves. Using principal component analysis, hierarchical clustering, and discriminant function analysis, we found four vocal types using 270 recorded vocalisations (Average Silhouette width Si = 0.598) which include howls and howl-bark (N=238), whimper (N=2), social squeak (N=28), and whine (N=2). Although having a smaller body size, Indian wolf howls have an average mean fundamental frequency of 0.422KHz (±0.126), which is similar to other Holarctic clade subspecies. The whimper ",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_119418",
+      "title": "Canis lupus (wolf)",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.119418",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_1568539x-00003495",
+      "title": "The function of play bows in Canis lupus and its variants: a comparison of dingo (Canis lupus dingo), dog (Canis lupus familiaris) and wolf puppies (Canis lupus)",
+      "year": 2018,
+      "doi": "10.1163/1568539x-00003495",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Play bows represent a common, highly stereotyped behaviour across the genus<jats:italic>Canis</jats:italic>. However, much of what we know is limited to the wolf and its domestic derivative, the domestic dog. Here we continue to look at the function of play bows among subspecies/variants of<jats:italic>Canis lupus</jats:italic>by including the dingo. Comparing dingoes to wolves and dogs may provide further insight into the impact of domestication on play behaviour. We analysed play bows in three-to-six month old dingo puppies and compared the results to previous studies of wolves and dogs. The function of play bows in dingoes appears consistent with those observed in dogs and wolf puppies. However, subtle intraspecific differences (such as the frequency and duration of play bows, and vocalizations during play) were apparent, and warrant further investigation in the genus<jats:italic>Canis</jats:italic>, as well as the Family Canidae more broadly",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_12987_yale_9780300226164_003_0007",
+      "title": "“Dingo Makes Us Human”",
+      "year": 2017,
+      "doi": "10.12987/yale/9780300226164.003.0007",
+      "abstract": "<p>\n                    This chapter examines the distinctive situation in Australia, where\n                    <italic>Homo sapiens</italic>\n                    and dingoes coexisted for several thousand years. These two species were the only large placental mammals on a continent dominated by marsupial mammals and large reptiles. The dingo group represents a unique branch of canid domestication; they live independently, either wild or semi-wild, but also associate with humans, including hunting and even sleeping with them. Dingoes demonstrate that it is possible for an animal previously domesticated to live and reproduce successfully without humans. The relationship between dingoes and the Aboriginals provides a model for investigating the process of domestication in canids, strongly suggesting that domestication is a multistep and potentially reversible process. It also reveals how a canid can exist in a situation where it may or may not choose to live with humans, functioning well ",
+      "journal": "The First Domestication",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_19052_mv_3857",
+      "title": "Diagnóstico histopatológico de arterioesclerosis en perros (Canis lupus familiaris) Histopathological diagnosis of arteriosclerosis in dogs (Canis lupus familiaris) Diagnóstico histopatológico de arteriosclerose em cachorros (Canis lupus familiaris)",
+      "year": 2016,
+      "doi": "10.19052/mv.3857",
+      "abstract": "<jats:p>Arteriosclerosis means the hardening of the arteries due to changes in the histological structure of the vascular wall, such as muscle hypertrophy, connective tissue, calcium deposit, lipids, etc. Atherosclerosis is characterized by the formation of fibrous intimal plaques which often have a rich lipid core this disease is the most common type of Arteriosclerosis in humans and, therefore, of great importance for study. Some authors report that Arteriosclerosis is common, but of little importance, in domestic animals they also describe the dog (&lt;em&gt;Canis lupus familiaris&lt;/em&gt;) as athero-resistant however, at present there are several reports presenting vascular lesions similar to those observed in humans, related to close cohabitation in their role as pets. Therefore, this study focuses on the research and description of histopathological lesions related to Arteriosclerosis in dogs, based on a retrospective study of casuistry at the Laboratory of Veterinary Pathology",
+      "journal": "Revista de Medicina Veterinaria",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_15372_sej20150306",
+      "title": "Philopatry and Dispersion in Wolf Populations (Canis lupus L.)",
+      "year": 2015,
+      "doi": "10.15372/sej20150306",
+      "abstract": "",
+      "journal": "Сибирский экологический журнал",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_beproc_2014_08_019",
+      "title": "Shut up and pet me! Domestic dogs (Canis lupus familiaris) prefer petting to vocal praise in concurrent and single-alternative choice procedures",
+      "year": 2015,
+      "doi": "10.1016/j.beproc.2014.08.019",
+      "abstract": "",
+      "journal": "Behavioural Processes",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-015-0897-6",
+      "title": "What’s inside your cat’s head? A review of cat (Felis silvestris catus) cognition research past, present and future",
+      "year": 2015,
+      "doi": "10.1007/s10071-015-0897-6",
+      "abstract": "",
+      "journal": "Animal Cognition",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-3-642-53994-7_6",
+      "title": "Visual Attention in Dogs and the Evolution of Non-Verbal Communication",
+      "year": 2014,
+      "doi": "10.1007/978-3-642-53994-7_6",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2981_12-022",
+      "title": "Factors affecting the elicitation of vocal responses from coyotes <i>Canis latrans</i>",
+      "year": 2013,
+      "doi": "10.2981/12-022",
+      "abstract": "Long‐distance vocalizations by canids play an important role in communication among individuals, and researchers have elicited these vocalizations to estimate canid occurrence and relative abundance. We evaluated the efficacy of broadcasted coyote Canis latrans group‐yip calls and gray wolf C. lupus lone howls to elicit vocal responses from 18 GPS‐collared coyotes on 144 occasions in Michigan's Upper Peninsula during August‐September 2009 and June‐September 2010‐2011. We evaluated coyote responses to each call type using mixed‐effects logistic regression models with time (month), residency status (resident or transient), presence in wolf territory, sex, distance, movement and call type as fixed effects hypothesized to influence coyote vocal response rates. The individual coyote and year were included as random effects. Overall, call type, sex and presence of wolf territory did not affect coyote response rates; however, coyotes did not respond to wolf calls broadcasted at distances of &",
+      "journal": "Wildlife Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_eth_12044",
+      "title": "A Comparison of the Sensory Development of Wolves (<i>Canis lupus lupus</i>) and Dogs (<i>Canis lupus familiaris</i>)",
+      "year": 2012,
+      "doi": "10.1111/eth.12044",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Little is known about the development of the sensory systems of wolves. The timing of sensory development in wolves is usually extrapolated from studies on dogs, since they are members of the same species. However, early developmental differences between these two subspecies have already been identified. For example, wolves tend to approach and investigate objects in their environment 2 wk before dogs. These changes in developmental timing may play an important role in the behavioral differences between adult wolves and dogs. The purpose of this study is to compare the development of the sensory systems in wolves and dogs.</jats:p><jats:p>Responses of seven wolf pups and 43 dog pups to familiar and novel olfactory, auditory, and visual stimuli were tested weekly from 2–7 wk of age. Eleven wolf pups were also observed for orientation towards auditory and visual stimuli during 2‐h sessions, 5 d a week, from 2–8 wk of age. These observations were s",
+      "journal": "Ethology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1017_s2040470010002529",
+      "title": "Behavioural and vocal responses in Canis Lupus in response to transposed playbacks",
+      "year": 2010,
+      "doi": "10.1017/s2040470010002529",
+      "abstract": "",
+      "journal": "Advances in Animal Biosciences",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_90295",
+      "title": "Canis lupus familiaris (dogs)",
+      "year": 2010,
+      "doi": "10.1079/cabicompendium.90295",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10164-006-0015-y",
+      "title": "Howling activity of free-ranging wolves (Canis lupus) in the Białowieża Primeval Forest and the Western Beskidy Mountains (Poland)",
+      "year": 2006,
+      "doi": "10.1007/s10164-006-0015-y",
+      "abstract": "",
+      "journal": "Journal of Ethology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_0735-7036_116_2_189",
+      "title": "A new perspective on barking in dogs (Canis familaris.).",
+      "year": 2002,
+      "doi": "10.1037/0735-7036.116.2.189",
+      "abstract": "The disparity in bark frequency and context between dogs (Canis familiaris) and wolves (Canis lupus) has led some researchers to conclude that barking in the domestic dog is nonfunctional. This conclusion attributes the differences primarily to genetic variation caused by domestication rather than to the influence of social environment on ontogeny. Other researchers, however, have concluded that vocal usage and response to vocalizations in mammals are strongly guided by social interactions. Closer evaluation of dog vocalizations with respect to social environment reveals developmental factors that lead to both frequent barking and barking in many contexts. Additionally, spectrographic analysis indicates that bark structure varies predictably with context, suggesting that barks can be divided into contextual subtypes and may be a more complex form of communication than given credit.",
+      "journal": "Journal of comparative psychology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "lit_gbif_5219173_11",
+      "title": "Vocal communication in the timber wolf, Canis lupus, Linnaeus. Structure, motivation, and ontogeny",
+      "year": 1993,
+      "doi": null,
+      "abstract": "",
+      "journal": "Advances in Ethology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_156853977x00298",
+      "title": "Determinants of Response of Wolf Pups To Auditory Signals",
+      "year": 1977,
+      "doi": "10.1163/156853977x00298",
+      "abstract": "Abstract Two naive wolf pups (Canis lupus) were presented a variety of sound stimuli, including standardized recordings of natural and synthetic adult howls. The greatest and most consistent vocal response was elicited by the \"real\" howls. The nature of the response depended in part upon the i) type of stimulus, 2) number of stimulus presentations, 3) associated manipulations of context, and 4) individual differences in vocal responsiveness. Neither specific ongoing behaviors nor general activity levels of the pups appears to have mediated their vocal behavior. Differential responses demonstrated their ability to distinguish between recorded howls of adult wolves. Manipulation of the context, through presentation of either a human observer, live dog, or live mice increased the pups' vocalizations to the recordings. The results are discussed in terms of both extrinsic and intrinsic determinants of an animal's response to communication signals.",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_7717_peerj_19219_supp-9",
+      "title": "Supplemental Information 9: MALDI-TOF spectra for\n                      <i>Aenocyon dirus</i>\n                      ,\n                      <i>Canis lupus</i>\n                      , and\n                      <i>Canis latrans</i>\n                      ..",
+      "year": null,
+      "doi": "10.7717/peerj.19219/supp-9",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 19,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

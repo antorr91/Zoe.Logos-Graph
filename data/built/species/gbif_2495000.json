@@ -1,0 +1,468 @@
+{
+  "species_id": "gbif_2495000",
+  "gbif_usage_key": 2495000,
+  "scientific_name": "Aegithalos caudatus",
+  "common_name_en": "long-tailed tit",
+  "common_names": {
+    "en": "long-tailed tit",
+    "it": "codibugnolo",
+    "es": "mito europeo",
+    "fr": "mésange à longue queue",
+    "de": "schwanzmeise"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Aegithalidae",
+    "genus": "Aegithalos",
+    "gbif_match_confidence": 97,
+    "gbif_match_status": "DOUBTFUL"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 5,
+    "doi_count": 17,
+    "media_count": 0
+  },
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Long-tailed_tit_%2874940%29.jpg/330px-Long-tailed_tit_%2874940%29.jpg",
+    "url_full": "https://upload.wikimedia.org/wikipedia/commons/6/68/Long-tailed_tit_%2874940%29.jpg",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons page",
+    "attribution": ""
+  },
+  "summary": "The long-tailed tit or long-tailed bushtit is a common bird species belonging to the bushtit family found throughout Eurasia. An insectivore, it inhabits deciduous and mixed woodlands as well as scrub, heathland, farmland, parks and gardens. The plumage of this small long-tailed bird is predominantly black and white with varying amounts of pink and grey.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Long-tailed_tit",
+  "wiki_title": "Long-tailed_tit",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "contact call"
+  ],
+  "contexts": [
+    "foraging",
+    "group cohesion"
+  ],
+  "functions": [
+    "group coordination",
+    "individual recognition"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "contact call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "foraging",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "group cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "group coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Aegithalos caudatus",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.2305/iucn.uk.2024-2.rlts.t103871923a264587236.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2024-2.rlts.t103871923a264587236.en",
+      "title": "Aegithalos caudatus: BirdLife International",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.30980/kjo.2023.6.30.1.51",
+      "url": "https://doi.org/10.30980/kjo.2023.6.30.1.51",
+      "title": "The First Successful Case of Hybridization Breeding Between Two Subspecies of Long-tailed Tit (Aegithalos caudatus) in South Korea",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.ecoinf.2022.101952",
+      "url": "https://doi.org/10.1016/j.ecoinf.2022.101952",
+      "title": "Unsupervised classification to improve the quality of a bird song recording dataset",
+      "year": 2022,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2021-3.rlts.t103871923a200205305.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2021-3.rlts.t103871923a200205305.en",
+      "title": "Aegithalos caudatus: BirdLife International",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.3389/fevo.2020.00077",
+      "url": "https://doi.org/10.3389/fevo.2020.00077",
+      "title": "Kith or Kin? Familiarity as a Cue to Kinship in Social Birds",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.94959",
+      "url": "https://doi.org/10.1079/cabicompendium.94959",
+      "title": "Aegithalos caudatus",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.12657/ornis.2019.2.5",
+      "url": "https://doi.org/10.12657/ornis.2019.2.5",
+      "title": "Gniazdowanie raniuszka Aegithalos caudatus w Dolinie Dolnej Iny",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/arv240",
+      "url": "https://doi.org/10.1093/beheco/arv240",
+      "title": "Sentinel dominance status influences forager use of social information",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2173/bow-on.100259",
+      "url": "https://doi.org/10.2173/bow-on.100259",
+      "title": "259. Notes on the vocalizations of Long-tailed Tit (Aegithalos caudatus)",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1186/s40657-015-0023-0",
+      "url": "https://doi.org/10.1186/s40657-015-0023-0",
+      "title": "The structure of mixed-species bird flocks, and their response to anthropogenic disturbance, with special reference to East Asia",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.115295",
+      "url": "https://doi.org/10.1242/jeb.115295",
+      "title": "Vocalisations of the bigeye <i>Pempheris adspersa</i>: characteristics, source level and active space",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.12657/ornis.2015.1.2",
+      "url": "https://doi.org/10.12657/ornis.2015.1.2",
+      "title": "Gniazdowanie raniuszka Aegithalos caudatus w grądach odrzańskich na Opolszczyźnie",
+      "year": 2015,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1642/auk-14-151.1",
+      "url": "https://doi.org/10.1642/auk-14-151.1",
+      "title": "On the existence and potential functions of low-amplitude vocalizations in North American birds",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.15845/on.v35i0.269",
+      "url": "https://doi.org/10.15845/on.v35i0.269",
+      "title": "Do passerine birds utilise artificial light to prolong their diurnal activity during winter at northern latitudes?",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.46867/ijcp.2010.23.03.08",
+      "url": "https://doi.org/10.46867/ijcp.2010.23.03.08",
+      "title": "What can Captive Whales tell us About their Wild Counterparts? Identification, Usage, and Ontogeny of Contact Calls in Belugas (Delphinapterus leucas)",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.11646/zootaxa.691.1.1",
+      "url": "https://doi.org/10.11646/zootaxa.691.1.1",
+      "title": "Quill mites (Acari: Syringophilidae) from Aegithalos caudatus (Passeriformes: Aegithalidae)",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5040/9781472926975.0046",
+      "url": "https://doi.org/10.5040/9781472926975.0046",
+      "title": "Aegithalos caudatus (Linnaeus). Long-tailed Tit. Mésange à longue queue",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_2305_iucn_uk_2024-2_rlts_t103871923a264587236_en",
+      "title": "Aegithalos caudatus: BirdLife International",
+      "year": 2024,
+      "doi": "10.2305/iucn.uk.2024-2.rlts.t103871923a264587236.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_30980_kjo_2023_6_30_1_51",
+      "title": "The First Successful Case of Hybridization Breeding Between Two Subspecies of Long-tailed Tit (Aegithalos caudatus) in South Korea",
+      "year": 2023,
+      "doi": "10.30980/kjo.2023.6.30.1.51",
+      "abstract": "",
+      "journal": "The Korean Journal of Ornithology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_ecoinf_2022_101952",
+      "title": "Unsupervised classification to improve the quality of a bird song recording dataset",
+      "year": 2022,
+      "doi": "10.1016/j.ecoinf.2022.101952",
+      "abstract": "",
+      "journal": "Ecological Informatics",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2021-3_rlts_t103871923a200205305_en",
+      "title": "Aegithalos caudatus: BirdLife International",
+      "year": 2020,
+      "doi": "10.2305/iucn.uk.2021-3.rlts.t103871923a200205305.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3389_fevo_2020_00077",
+      "title": "Kith or Kin? Familiarity as a Cue to Kinship in Social Birds",
+      "year": 2020,
+      "doi": "10.3389/fevo.2020.00077",
+      "abstract": "Interacting with relatives provides opportunities for fitness benefits via kin-selected cooperation, but also creates potential costs through kin competition and inbreeding. Therefore, a mechanism for the discrimination of kin from non-kin is likely to be critical for individuals of many social species to maximize their inclusive fitness. Evidence suggests that genetic cues to kinship are rare and that learned or environmental cues offer a more parsimonious explanation for kin recognition in most contexts. This is particularly true among cooperatively breeding birds, where recognition of familiar individuals is usually regarded as the most plausible mechanism for kin discrimination. In this article, we first review the evidence that familiarity provides an effective decision rule for discrimination of kin from non-kin in social birds. We then consider some of the complexities of familiarity as a cue to kinship, especially the problems of how individuals become familiar, and how familia",
+      "journal": "Frontiers in Ecology and Evolution",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_94959",
+      "title": "Aegithalos caudatus",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.94959",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_12657_ornis_2019_2_5",
+      "title": "Gniazdowanie raniuszka Aegithalos caudatus w Dolinie Dolnej Iny",
+      "year": 2019,
+      "doi": "10.12657/ornis.2019.2.5",
+      "abstract": "",
+      "journal": "Ornis Polonica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2173_bow-on_100259",
+      "title": "259. Notes on the vocalizations of Long-tailed Tit (Aegithalos caudatus)",
+      "year": 2016,
+      "doi": "10.2173/bow-on.100259",
+      "abstract": "",
+      "journal": "Ornithological Notes",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arv240",
+      "title": "Sentinel dominance status influences forager use of social information",
+      "year": 2016,
+      "doi": "10.1093/beheco/arv240",
+      "abstract": "Animals in social groups can acquire information about the need for antipredator behavior by personally sampling the environment or from information provided by others. Use of such social information is expected to be adjusted according to its reliability, but experimental tests are rare and tend to focus just on alarm calls. We use detailed behavioral observations, acoustic analyses, and playback experiments to investigate how differences in sentinel dominance status affect the behavioral decisions of foraging dwarf mongooses (Helogale parvula). Dominant individuals acted as sentinels considerably more often than subordinate group members and used higher sentinel posts for guarding, making them potentially higher-quality sentinels in terms of experience and optimal positioning for predator detection. Surveillance calls produced during sentinel bouts contained vocal information about dominance status. Playback experiments showed that foragers used surveillance calls to detect sentinel ",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_12657_ornis_2015_1_2",
+      "title": "Gniazdowanie raniuszka Aegithalos caudatus w grądach odrzańskich na Opolszczyźnie",
+      "year": 2015,
+      "doi": "10.12657/ornis.2015.1.2",
+      "abstract": "",
+      "journal": "Ornis Polonica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1186_s40657-015-0023-0",
+      "title": "The structure of mixed-species bird flocks, and their response to anthropogenic disturbance, with special reference to East Asia",
+      "year": 2015,
+      "doi": "10.1186/s40657-015-0023-0",
+      "abstract": "Mixed-species flocks of birds are distributed world-wide and can be especially dominant in temperate forests during the non-breeding season and in tropical rainforests year-round. We review from a community ecology perspective what is known about the structure and organization of flocks, emphasizing that flocking species tend to be those particularly vulnerable to predation, and flocks tend to be led by species that are able to act as sources of information about predators for other species. Studies on how flocks respond to fragmentation and land-use intensification continue to accumulate, but the question of whether the flock phenomenon makes species more vulnerable to anthropogenic change remains unclear. We review the literature on flocks in East Asia and demonstrate there is a good foundation of knowledge on which to build. We then outline potentially fruitful future directions, focusing on studies that can investigate how dependent species are on each other in flocks, and how such",
+      "journal": "Avian Research",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_115295",
+      "title": "Vocalisations of the bigeye <i>Pempheris adspersa</i>: characteristics, source level and active space",
+      "year": 2015,
+      "doi": "10.1242/jeb.115295",
+      "abstract": "Fish sounds are an important biological component of the underwater soundscape. Understanding species-specific sounds and their associated behaviour is critical for determining how animals use the biological component of the soundscape. Using both field and laboratory experiments, we describe the sound production of a nocturnal planktivore, Pempheris adspersa (New Zealand bigeye), and provide calculations for the potential effective distance of the sound for intraspecific communication. Bigeye vocalisations recorded in the field were confirmed as such by tank recordings. They can be described as popping sounds, with individual pops of short duration (7.9±0.3 ms) and a peak frequency of 405±12 Hz. Sound production varied during a 24 h period, with peak vocalisation activity occurring during the night, when the fish are most active. The source level of the bigeye vocalisation was 115.8±0.2 dB re. 1 µPa at 1 m, which is relatively quiet compared with other soniferous fish. Effective calli",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1642_auk-14-151_1",
+      "title": "On the existence and potential functions of low-amplitude vocalizations in North American birds",
+      "year": 2014,
+      "doi": "10.1642/auk-14-151.1",
+      "abstract": "Research on acoustic communication has focused predominantly on high-amplitude, long-range vocalizations that are easily recognized from a distance by the human ear. However, attention has recently expanded to the more enigmatic low-amplitude (quiet) vocalizations produced during close-proximity interactions associated with a variety of social behaviors such as aggression, courtship, group movements, and predator avoidance. The existence of low-amplitude vocalizations has been identified in a number of individual avian and nonavian species (e.g., crickets, fish, and primates), but how common these signals are within larger taxonomic groups such as orders and classes remains poorly understood. Here, we used the Birds of North America Online archive to perform a survey of the existence and putative functions of low-amplitude vocalizations across 749 species accounts of breeding birds in North America. By searching with keywords such as soft, quiet, low-amplitude, and whispered, we found ",
+      "journal": "The Auk",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_15845_on_v35i0_269",
+      "title": "Do passerine birds utilise artificial light to prolong their diurnal activity during winter at northern latitudes?",
+      "year": 2012,
+      "doi": "10.15845/on.v35i0.269",
+      "abstract": "Boreal regions with a mild winter climate, such as the western coastal area of Norway, may hold a number of wintering passerine birds, in spite of the short day length in mid winter. To determine whether birds wintering under such conditions were able to use artificial light to increase their activity periods, day-time and night-time bird censuses were done from October to March in a residential area in Bergen, western Norway, along roads lit by street lights. Situated at latitude 60N, the area has 18 hours of darkness in mid winter. Twenty-four passerine species were recorded. Of these European Robin Erithacus rubecula, Common Blackbird Turdus merula, and Eurasian Wren Troglodytes troglodytes regularly started their activity several hours before sunrise, whereas Great Tits Parus major and Blue Tits Cyanistes caeruleus did so to some extent. The other species did not start their activity until morning civil twilight. Measurements of distance from street lights for European Robins durin",
+      "journal": "Ornis Norvegica",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_46867_ijcp_2010_23_03_08",
+      "title": "What can Captive Whales tell us About their Wild Counterparts? Identification, Usage, and Ontogeny of Contact Calls in Belugas (Delphinapterus leucas)",
+      "year": 2010,
+      "doi": "10.46867/ijcp.2010.23.03.08",
+      "abstract": "Contact calls are ubiquitous in social birds and mammals. Belugas are among the most vocal of cetaceans, but the function of their calls is poorly understood. In a previous study we hypothesized that a broad band pulsed call type labeled “Type A,” serves as a contact call between mothers and their calves. Here we examined context-specific use of call types recorded from a captive beluga social group at the Vancouver Aquarium, and found that the Type A call comprised 24% to 97% of the vocalizations during isolation, births, death of a calf, presence of external stressors, and re-union of animals after separation. In contrast it comprised 4.4% of the vocalizations produced during regular sessions. We grouped 2835 Type A calls into five variants, A1 to A5. A discriminant function analysis classified 87% of calls in the same groupings that we assigned them to by ear and visual examination of spectrograms. The variants do not represent individual signatures. One variant, A1, was used by thr",
+      "journal": "International Journal of Comparative Psychology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11646_zootaxa_691_1_1",
+      "title": "Quill mites (Acari: Syringophilidae) from Aegithalos caudatus (Passeriformes: Aegithalidae)",
+      "year": 2004,
+      "doi": "10.11646/zootaxa.691.1.1",
+      "abstract": "<jats:p>Three species of syringophilid mites (Acari: Syringophilidae) were collected from quills of Aegithalos caudatus (Passeriformes: Aegithalidae) in Poland, Picobia caudati sp. n. from body feathers, Dissonus scirpaceus Skoracki, 1999 from rectrices, and Syringophilopsis aegithali Bochkov et al., 2001 from secondaries.</jats:p>",
+      "journal": "Zootaxa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472926975_0046",
+      "title": "Aegithalos caudatus (Linnaeus). Long-tailed Tit. Mésange à longue queue",
+      "year": null,
+      "doi": "10.5040/9781472926975.0046",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "species_id": "gbif_5788204",
+  "gbif_usage_key": 5788204,
+  "scientific_name": "Parus major",
+  "common_name_en": "great tit",
+  "common_names": {
+    "en": "great tit",
+    "it": "cinciallegra",
+    "es": "carbonero común",
+    "fr": "mésange charbonnière",
+    "de": "kohlmeise"
+  },
+  "taxonomy": {
+    "class_": "Aves",
+    "order_": "Passeriformes",
+    "family": "Paridae",
+    "genus": "Parus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 19,
+    "claim_count": 9,
+    "doi_count": 19,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Great tit (Parus major) is a species of Aves in the order Passeriformes, family Paridae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Great_tit",
+  "wiki_title": "Great_tit",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "alarm call",
+    "call",
+    "song"
+  ],
+  "contexts": [
+    "mate attraction",
+    "predator response",
+    "territorial defence"
+  ],
+  "functions": [
+    "mate attraction",
+    "predator warning",
+    "territory signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator response",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Parus major",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.30980/kjo.2023.12.30.2.175",
+      "url": "https://doi.org/10.30980/kjo.2023.12.30.2.175",
+      "title": "A mixed brood following the usurpation of a Great Tit Parus major nest by Varied Tit Parus varius",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.31433/2618-9593-2023-26-2-44-48",
+      "url": "https://doi.org/10.31433/2618-9593-2023-26-2-44-48",
+      "title": "PFENOLOGY OF THE GREAT TIT  (PARUS MAJOR) IN BIROBIDZHAN (JEWISH AUTONOMOUS REGION)",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1079/cabicompendium.71673",
+      "url": "https://doi.org/10.1079/cabicompendium.71673",
+      "title": "Parus major",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/ece3.2686",
+      "url": "https://doi.org/10.1002/ece3.2686",
+      "title": "Sex‐specific responses to territorial intrusions in a communication network: Evidence from radio‐tagged great tits",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.cub.2016.09.058",
+      "url": "https://doi.org/10.1016/j.cub.2016.09.058",
+      "title": "Traffic noise drowns out great tit alarm calls",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/ibi.12374",
+      "url": "https://doi.org/10.1111/ibi.12374",
+      "title": "Interactive vocal communication at the nest by parent Great Tits<i>Parus major</i>",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2173/bow-on.100217",
+      "url": "https://doi.org/10.2173/bow-on.100217",
+      "title": "217. Notes on the vocalizations of Great Tit (Parus major), Turkestan Tit (Parus bokharensis) and Green-backed Tit (Parus monticolus)",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/arv210",
+      "url": "https://doi.org/10.1093/beheco/arv210",
+      "title": "Immediate and carry-over effects of perceived predation risk on communication behavior in wild birds",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1086/656275",
+      "url": "https://doi.org/10.1086/656275",
+      "title": "Birds and Anthropogenic Noise: Are Urban Songs Adaptive?",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2010.0598",
+      "url": "https://doi.org/10.1098/rspb.2010.0598",
+      "title": "Effects of personality on territory defence in communication networks: a playback experiment with radio-tagged great tits",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arm142",
+      "url": "https://doi.org/10.1093/beheco/arm142",
+      "title": "Ultraviolet reflectance of plumage for parent–offspring communication in the great tit (Parus major)",
+      "year": 2008,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1163/1568539042360152",
+      "url": "https://doi.org/10.1163/1568539042360152",
+      "title": "Degradation of Great Tit (Parus Major) Song Before And After Foliation: Implications for Vocal Communication in a Deciduous Forest",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/3676789",
+      "url": "https://doi.org/10.2307/3676789",
+      "title": "Ontogeny of the Vocal Repertoire in the Willow Tit Parus montanus",
+      "year": 1993,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/dev.420150204",
+      "url": "https://doi.org/10.1002/dev.420150204",
+      "title": "Selective resistance to approach: A precursor to fear responses to an alarm call in great tit nestlings <i>Parus major</i>",
+      "year": 1982,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/bf01644359",
+      "url": "https://doi.org/10.1007/bf01644359",
+      "title": "Fortpflanzungswert und „Brutwert“ der Kohlmeise(Parus major) Reproductive value and “brood value” of the Great Tit(Parus major)",
+      "year": 1982,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1037/h0077680",
+      "url": "https://doi.org/10.1037/h0077680",
+      "title": "Heart rate response in great tit nestlings (Parus major) to an alarm call.",
+      "year": 1980,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.cub.2021.11.056",
+      "url": "https://doi.org/10.1016/j.cub.2021.11.056",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.5040/9781472926975.0052",
+      "url": "https://doi.org/10.5040/9781472926975.0052",
+      "title": "Parus major Linnaeus. Great Tit. Mésange charbonnière",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.70675/1598a404z7742z48eaz980fze728e132f5c7",
+      "url": "https://doi.org/10.70675/1598a404z7742z48eaz980fze728e132f5c7",
+      "title": "Rôle de la communication acoustique dans l’organisation des soins biparentaux chez les oiseaux : étude chez le diamant mandarin (Taeniopygia guttata) et la mésange charbonnière (Parus major)",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_30980_kjo_2023_12_30_2_175",
+      "title": "A mixed brood following the usurpation of a Great Tit Parus major nest by Varied Tit Parus varius",
+      "year": 2023,
+      "doi": "10.30980/kjo.2023.12.30.2.175",
+      "abstract": "",
+      "journal": "The Korean Journal of Ornithology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_31433_2618-9593-2023-26-2-44-48",
+      "title": "PFENOLOGY OF THE GREAT TIT  (PARUS MAJOR) IN BIROBIDZHAN (JEWISH AUTONOMOUS REGION)",
+      "year": 2023,
+      "doi": "10.31433/2618-9593-2023-26-2-44-48",
+      "abstract": "<jats:p>The author reveals phenological parameters of the Great Tit in Birobidzhan (Jewish Autonomous region) and shows the dates for the first, mass, and early morning singing of males; the period of courtship and competition for females, laying eggs and incubation of full clutches; the appearance of chicks and fledglings, migrations, late broods and autumn singing. In the period from the end of December to the third decade of March, there occurs a distribution of birds over nesting territories and formation of pairs. The period of early morning singing of males, from the third decade of March to the third decade of June, is the height of the breeding season.</jats:p>",
+      "journal": "Regional problems",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_71673",
+      "title": "Parus major",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.71673",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_ece3_2686",
+      "title": "Sex‐specific responses to territorial intrusions in a communication network: Evidence from radio‐tagged great tits",
+      "year": 2017,
+      "doi": "10.1002/ece3.2686",
+      "abstract": "Signals play a key role in the ecology and evolution of animal populations, influencing processes such as sexual selection and conflict resolution. In many species, sexually selected signals have a dual function: attracting mates and repelling rivals. Yet, to what extent males and females under natural conditions differentially respond to such signals remains poorly understood, due to a lack of field studies that simultaneously track both sexes. Using a novel spatial tracking system, we tested whether or not the spatial behavior of male and female great tits (<i>Parus major</i>) changes in relation to the vocal response of a territorial male neighbor to an intruder. We tracked the spatial behavior of male and female great tits (<i>N </i>=<i> </i>44), 1 hr before and 1 hr after simulating territory intrusions, employing automatized Encounternet radio-tracking technology. We recorded the spatial and vocal response of the challenged males and quantified attraction and repulsion of neighbo",
+      "journal": "Ecology and Evolution",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2173_bow-on_100217",
+      "title": "217. Notes on the vocalizations of Great Tit (Parus major), Turkestan Tit (Parus bokharensis) and Green-backed Tit (Parus monticolus)",
+      "year": 2016,
+      "doi": "10.2173/bow-on.100217",
+      "abstract": "",
+      "journal": "Ornithological Notes",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_ibi_12374",
+      "title": "Interactive vocal communication at the nest by parent Great Tits<i>Parus major</i>",
+      "year": 2016,
+      "doi": "10.1111/ibi.12374",
+      "abstract": "Although most bird species show monogamous pair bonds and bi‐parental care, little is known of how mated birds coordinate their activities. Whether or not partners communicate with each other to adjust their behaviour remains an open question. During incubation and the first days after hatching, one parent – generally the female – stays in the nest for extended periods, and might depend on acoustic communication to exchange information with its mate outside. The Great Tit Parus major is an interesting study system to investigate intra‐pair communication at the nest because males address songs to their mate while she is in the nest cavity, and females answer the male from the cavity with calls. However, the function of this communication remains unknown. In this study, we recorded the vocalizations and observed the resulting behaviour of Great Tit pairs around the nest at different breeding stages (laying, incubation and chick‐rearing). We observed vocal exchanges (vocalization bouts, a",
+      "journal": "Ibis",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_cub_2016_09_058",
+      "title": "Traffic noise drowns out great tit alarm calls",
+      "year": 2016,
+      "doi": "10.1016/j.cub.2016.09.058",
+      "abstract": "Anthropogenic noise is one of the fastest growing and most ubiquitous types of environmental pollution and can impair acoustic communication in a variety of animals [1]. Recent research has shown that birds can adjust acoustic parameters of their sexual signals (songs) in noisy environments [2,3], yet we know little about other types of vocalizations. Anti-predator signals contain subtle information that is critical for avoiding predation [4,5], and failure to detect these calls [6,7] as a result of anthropogenic noise pollution could have large fitness consequences by negatively impacting survival. We investigated whether traffic noise impacts both the production and perception of avian alarm calls using a combination of lab and field experiments with great tits (Parus major), a songbird that frequently inhabits noise-polluted environments. In response to experimental noise manipulation in controlled laboratory conditions, great tits increased the amplitude, but not the frequency para",
+      "journal": "Current Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arv210",
+      "title": "Immediate and carry-over effects of perceived predation risk on communication behavior in wild birds",
+      "year": 2015,
+      "doi": "10.1093/beheco/arv210",
+      "abstract": "Predation induces strong selection on phenotypic traits, affecting prey via consumptive and nonconsumptive effects. Communication is important for territorial behavior, but can increase susceptibility to predators. Therefore, predation risk should influence prey communication patterns, territoriality, and fitness. We evaluated how this trade-off is resolved via 2 manipulations of perceived predation risk using audio playback in wild great tits ( Parus major ). In the first experiment, we examined the immediate response of individuals to playback; the second experiment, replicated across 2 years, examined both immediate and carry-over effects (over days) of playback broadcast for a 5-month period (March–July) in 12 nest box populations. Birds exposed to predator sounds showed decreased singing and increased alarming compared to controls, both immediately and on days without play back exposure (carry-over effects). Perceived predation risk did not affect how birds responded to simulated ",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1086_656275",
+      "title": "Birds and Anthropogenic Noise: Are Urban Songs Adaptive?",
+      "year": 2010,
+      "doi": "10.1086/656275",
+      "abstract": "In cities with intense low-frequency traffic noise, birds have been observed to sing louder and at a higher pitch. Several studies argue that higher song pitch is an adaptation to reduce masking from noise, and it has even been suggested that the song divergence between urban and nonurban songs might lead to reproductive isolation. Here we present models of signal transmission to compare the benefits of raised song amplitude and song pitch in terms of sound transmission. We chose two bird species that sing with higher pitch in urban areas, the great tit (Parus major) and the blackbird (Turdus merula). For both species, we calculated communication distances in response to different levels of urban noise and in their natural forest habitats. We found that an increase in vocal pitch increased communication distance only marginally. In contrast, vocal amplitude adjustments had a strong and significantly larger effect. Our results indicate that frequency changes of urban songs are not very ",
+      "journal": "The American Naturalist",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2010_0598",
+      "title": "Effects of personality on territory defence in communication networks: a playback experiment with radio-tagged great tits",
+      "year": 2010,
+      "doi": "10.1098/rspb.2010.0598",
+      "abstract": "Individuals often differ consistently in behaviour across time and contexts, and such consistent behavioural differences are commonly described as personality. Personality can play a central role in social behaviour both in dyadic interactions and in social networks. We investigated whether explorative behaviour, as proxy of personality of territorial male great tits (Parus major), predicts their own and their neighbours' territorial responses towards simulated intruders. Several weeks prior to playback, subjects were taken from the wild to test their exploratory behaviour in a standard context in the laboratory. Exploratory behaviour provides a proxy of personality along a slow-fast explorer continuum. Upon release, males were radio-tracked and subsequently exposed to interactive playback simulating a more or a less aggressive territorial intruder (by either overlapping or alternating broadcast songs with the subjects' songs). At the same time, we radio-tracked a neighbour of the play",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_arm142",
+      "title": "Ultraviolet reflectance of plumage for parent–offspring communication in the great tit (Parus major)",
+      "year": 2008,
+      "doi": "10.1093/beheco/arm142",
+      "abstract": "",
+      "journal": "Behavioral Ecology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1163_1568539042360152",
+      "title": "Degradation of Great Tit (Parus Major) Song Before And After Foliation: Implications for Vocal Communication in a Deciduous Forest",
+      "year": 2004,
+      "doi": "10.1163/1568539042360152",
+      "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>Songbirds living in temperate forests experience great seasonal changes in habitat acoustics during the part of the breeding season when singing activity is high. These changes, which are brought about by accelerated vegetation growth and leaf burst in spring, affect sound propagation and potentially render vocal communication more difficult as the total number of scattering and absorbing obstacles increases. We investigated this in a sound transmission experiment in which representative great tit (Parus major) songs were broadcast in a typical forest habitat before and after foliation. Speaker and microphone were placed at natural separation distances and in typical sender and receiver positions. For each song note we quantified several aspects of sound degradation and found that they all increased considerably when leaves were present. Before foliation the same amount of degradation would only be obtained by doubling the transmission",
+      "journal": "Behaviour",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_3676789",
+      "title": "Ontogeny of the Vocal Repertoire in the Willow Tit Parus montanus",
+      "year": 1993,
+      "doi": "10.2307/3676789",
+      "abstract": "",
+      "journal": "Ornis Scandinavica",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "lit_gbif_5788204_15",
+      "title": "Identification of nest predators by photography, dummy eggs, and adhesive tape",
+      "year": 1991,
+      "doi": null,
+      "abstract": "Pp. 95-131 in Acoustic communication in birds, vol. 1 (D. E. Kroodsma and E. H. Miller, Eds.). New York, Academic Press. DOOLING, R. J., T. J. PARK, D. D. BROWN, K. OKANOYA, & S. D. SOLI. 1987. Perceptual organization of acoustic stimuli by Budgerigars (Melopsittacus undulatus): II. vocal signals. J. Comp. Psychol. 101: 367-381. FALLS, J. B., A. G. HORN, & T. E. DICKINSON. 1988. How Western Meadowlarks classify their songs: evidence from song matching. Anim. Behav. 36: 579-585. LAMBRECHTS, M., & A. A. DHONDT. 1986. Male quality, reproduction, and survival in the Great Tit (Parus major). Behav. Ecol. Sociobiol. 19: 57-63. McGREGOR, P. K., & J. R. KREBS. 1982. Song types in a population of Great Tits (Parus major): their distribution, abundance, and acquisition by individuals. Behaviour 79: 126-152. NELSON, D. A. 1988. Feature weighting in species song recognition by the Field Sparrow (Spizella pusilla). Behaviour 106: 158-182. SAS INSTnuTE INC. 1986. SAS user's guide: statistics, 1986 e",
+      "journal": "",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_bf01644359",
+      "title": "Fortpflanzungswert und „Brutwert“ der Kohlmeise(Parus major) Reproductive value and “brood value” of the Great Tit(Parus major)",
+      "year": 1982,
+      "doi": "10.1007/bf01644359",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_dev_420150204",
+      "title": "Selective resistance to approach: A precursor to fear responses to an alarm call in great tit nestlings <i>Parus major</i>",
+      "year": 1982,
+      "doi": "10.1002/dev.420150204",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>The reactions of 10‐day‐old great tit nestlings to 3 auditory stimuli were studied. The stimuli, presented on a series of feeding occasions, were (1) the species' “seeet” alarm call, (2) a song strophe of the great tit, and (3) a song strophe of the tree‐creeper (<jats:italic>Certhia familiaris</jats:italic>). In contrast to earlier findings in studies of older nestlings, these younger nestlings did not respond to the alarm call with cessation of begging. However, a significant differential effect of the alarm call was demonstrated when the conditioning rates for the nestlings' begging response to each of the 3 stimuli were determined. Thus, conditioning was significantly slower to the alarm call than to the other stimuli. The results agree with the general conception that responses to species‐specific calls develop gradually during early ontogenesis. Thus fear responses to the alarm call, such as cessation of begging and “freezing,” which are e",
+      "journal": "Developmental Psychobiology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1037_h0077680",
+      "title": "Heart rate response in great tit nestlings (Parus major) to an alarm call.",
+      "year": 1980,
+      "doi": "10.1037/h0077680",
+      "abstract": "",
+      "journal": "Journal of Comparative and Physiological Psychology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5040_9781472926975_0052",
+      "title": "Parus major Linnaeus. Great Tit. Mésange charbonnière",
+      "year": null,
+      "doi": "10.5040/9781472926975.0052",
+      "abstract": "",
+      "journal": "The Birds of Africa",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_70675_1598a404z7742z48eaz980fze728e132f5c7",
+      "title": "Rôle de la communication acoustique dans l’organisation des soins biparentaux chez les oiseaux : étude chez le diamant mandarin (Taeniopygia guttata) et la mésange charbonnière (Parus major)",
+      "year": null,
+      "doi": "10.70675/1598a404z7742z48eaz980fze728e132f5c7",
+      "abstract": "<jats:p xml:lang=\"fr\">Les soins biparentaux impliquent que mâles et femelles travaillent ensemble et ajustent leur comportement l’un à l’autre. De nombreuses études théoriques et empiriques se sont intéressées à la façon dont un parent réagit face à une augmentation ou une diminution de l’effort parental de son partenaire. Mais très peu se sont intéressées aux mécanismes qui permettent cet ajustement. C’est chez les oiseaux qu’on trouve le plus d’espèces à soins biparentaux. Parce que ce sont des animaux qui produisent beaucoup de sons, la communication acoustique pourrait jouer un rôle dans l’organisation des soins parentaux. Le but de cette thèse est de contribuer à vérifier cette hypothèse en comparant deux espèces d’oiseaux qui diffèrent dans la façon dont le mâle et la femelle se partagent les soins parentaux. Chez le diamant mandarin, le mâle et la femelle participent tous les deux à l’incubation des oeufs tandis que c’est la femelle seule qui se charge de cette tâche chez la més",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 19,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

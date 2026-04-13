@@ -1,0 +1,531 @@
+{
+  "species_id": "gbif_2427549",
+  "gbif_usage_key": 2427549,
+  "scientific_name": "Hyla chrysoscelis",
+  "common_name_en": "gray treefrog",
+  "common_names": {
+    "en": "gray treefrog",
+    "it": "raganella grigia",
+    "es": "rana arbórea gris",
+    "fr": "rainette criarde",
+    "de": "grauer laubfrosch"
+  },
+  "taxonomy": {
+    "class_": "Amphibia",
+    "order_": "Anura",
+    "family": "Hylidae",
+    "genus": "Dryophytes",
+    "gbif_match_confidence": 98,
+    "gbif_match_status": "SYNONYM"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 20,
+    "claim_count": 5,
+    "doi_count": 20,
+    "media_count": 0
+  },
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hyla_chrysoscelis_UMFS_2016_1.jpg/330px-Hyla_chrysoscelis_UMFS_2016_1.jpg",
+    "url_full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Hyla_chrysoscelis_UMFS_2016_1.jpg",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons page",
+    "attribution": ""
+  },
+  "summary": "Cope's gray treefrog is a species of treefrog found in the United States and Canada. It is almost indistinguishable from the gray treefrog, and shares much of its geographic range. Both species are variable in color, mottled gray to gray-green, resembling the bark of trees.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Cope's_gray_treefrog",
+  "wiki_title": "Cope's_gray_treefrog",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "advertisement call"
+  ],
+  "contexts": [
+    "chorus",
+    "mate attraction"
+  ],
+  "functions": [
+    "mate attraction",
+    "species recognition"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "advertisement call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "chorus",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "species recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "xeno_canto",
+    "xc_query": "Hyla chrysoscelis",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1016/j.anbehav.2022.05.003",
+      "url": "https://doi.org/10.1016/j.anbehav.2022.05.003",
+      "title": "Vocal sacs do not function in multimodal mate attraction under nocturnal illumination in Cope's grey treefrog",
+      "year": 2022,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1101/2022.03.31.486641",
+      "url": "https://doi.org/10.1101/2022.03.31.486641",
+      "title": "Informational Masking Constrains Vocal Communication in Nonhuman Animals",
+      "year": 2022,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1159/000520913",
+      "url": "https://doi.org/10.1159/000520913",
+      "title": "Anuran Vocal Communication: Effects of Genome Size, Cell Number and Cell Size",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1079/cabicompendium.78877",
+      "url": "https://doi.org/10.1079/cabicompendium.78877",
+      "title": "Hyla chrysoscelis",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/aru029",
+      "url": "https://doi.org/10.1093/beheco/aru029",
+      "title": "Acoustic communication in a noisy world: can fish compete with anthropogenic noise?",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s00265-013-1489-6",
+      "url": "https://doi.org/10.1007/s00265-013-1489-6",
+      "title": "Multimodal signaling in the Small Torrent Frog (Micrixalus saxicola) in a complex acoustic environment",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1121/1.4800670",
+      "url": "https://doi.org/10.1121/1.4800670",
+      "title": "Auditory object formation in Cope's gray treefrogs (Hyla chrysoscelis)",
+      "year": 2013,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1121/1.3699271",
+      "url": "https://doi.org/10.1121/1.3699271",
+      "title": "Sound level discrimination by gray treefrogs in the presence and absence of chorus-shaped noise",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0021191",
+      "url": "https://doi.org/10.1371/journal.pone.0021191",
+      "title": "Finding Your Mate at a Cocktail Party: Frequency Separation Promotes Auditory Stream Segregation of Concurrent Voices in Multi-Species Frog Choruses",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.0014-3820.2005.tb00998.x",
+      "url": "https://doi.org/10.1111/j.0014-3820.2005.tb00998.x",
+      "title": "ADVERTISEMENT-CALL PREFERENCES IN DIPLOID-TETRAPLOID TREEFROGS (HYLA CHRYSOSCELIS AND HYLA VERSICOLOR): IMPLICATIONS FOR MATE CHOICE AND THE EVOLUTION OF COMMUNICATION SYSTEMS",
+      "year": 2005,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1554/04-471",
+      "url": "https://doi.org/10.1554/04-471",
+      "title": "ADVERTISEMENT-CALL PREFERENCES IN DIPLOID-TETRAPLOID TREEFROGS (HYLA CHRYSOSCELIS AND HYLA VERSICOLOR): IMPLICATIONS FOR MATE CHOICE AND THE EVOLUTION OF COMMUNICATION SYSTEMS",
+      "year": 2005,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/sj.hdy.6885270",
+      "url": "https://doi.org/10.1038/sj.hdy.6885270",
+      "title": "Sexual imprinting, learning and speciation",
+      "year": 1999,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2307/1446670",
+      "url": "https://doi.org/10.2307/1446670",
+      "title": "Hybridization in the Diploid-Tetraploid Treefrogs Hyla chrysoscelis and Hyla versicolor",
+      "year": 1994,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1564278",
+      "url": "https://doi.org/10.2307/1564278",
+      "title": "Observations on Satellite Males in Hyla chrysoscelis, Hyla picta, and Pseudacris triseriata",
+      "year": 1985,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1444428",
+      "url": "https://doi.org/10.2307/1444428",
+      "title": "Erratum: Chromosome Polymorphism in Hyla chrysoscelis",
+      "year": 1983,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1444732",
+      "url": "https://doi.org/10.2307/1444732",
+      "title": "Chromosome Polymorphism in Hyla chrysoscelis",
+      "year": 1983,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.5962/bhl.title.52057",
+      "url": "https://doi.org/10.5962/bhl.title.52057",
+      "title": "Distribution and call parameters of Hyla chrysoscelis and Hyla versicolor in Michigan",
+      "year": 1979,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1442547",
+      "url": "https://doi.org/10.2307/1442547",
+      "title": "Mating Call Differences between Eastern and Western Populations of the Treefrog Hyla chrysoscelis",
+      "year": 1974,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1350483",
+      "url": "https://doi.org/10.2307/1350483",
+      "title": "Distribution and Mating Call of the Treefrog, Hyla chrysoscelis, at the Northeastern Edge of Its Range",
+      "year": 1970,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32469/10355/71297",
+      "url": "https://doi.org/10.32469/10355/71297",
+      "title": "Behavioral consequences of polyploidy in hyla chrysoscelis treefrogs : implications for speciation and underlying mechanisms",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1016_j_anbehav_2022_05_003",
+      "title": "Vocal sacs do not function in multimodal mate attraction under nocturnal illumination in Cope's grey treefrog",
+      "year": 2022,
+      "doi": "10.1016/j.anbehav.2022.05.003",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1101_2022_03_31_486641",
+      "title": "Informational Masking Constrains Vocal Communication in Nonhuman Animals",
+      "year": 2022,
+      "doi": "10.1101/2022.03.31.486641",
+      "abstract": "Abstract Animals often communicate acoustically in noisy social environments, yet how receivers extract relevant information from overlapping sounds is poorly understood. Studies of animal communication in noise are typically based on a traditional filterbank model of hearing focused on energetic masking , where spectrotemporal overlap in peripheral auditory filters limits signal audibility. By contrast, studies of human speech show that background sounds can also interfere with selecting and attending to otherwise audible signals in a phenomenon known as informational masking . Whether informational masking constrains acoustic communication in nonhuman animals remains poorly understood. Through controlled laboratory experiments with treefrogs ( Hyla chrysoscelis ), we demonstrate, for the first time in a nonhuman animal, that informational masking can impair crucial mate-choice decisions when vocal signals and other concurrent sounds share similar temporal features. These impacts span",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1159_000520913",
+      "title": "Anuran Vocal Communication: Effects of Genome Size, Cell Number and Cell Size",
+      "year": 2021,
+      "doi": "10.1159/000520913",
+      "abstract": "Significant variation in genome size occurs among anuran amphibians and can affect cell size and number. In the gray treefrog complex in North America, increases in cell size in autotriploids of the diploid (Hyla chrysoscelis) altered the temporal structure of mate-attracting vocalizations and auditory selectivity for these properties. Here, we show that the tetraploid species (Hyla versicolor) also has significantly fewer brain neurons than H. chrysoscelis. With regard to cell size in tissues involved in vocal communication, spinal motor neurons were larger in tetraploids than in diploids and comparable to differences in erythrocyte size; smaller increases were found in one of the three auditory centers in the torus semicircularis. Future studies should address questions about how environmental conditions during development affect cell numbers and size and the causal relationships between these cellular changes and the vocal communication system.",
+      "journal": "Brain Behavior and Evolution",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1079_cabicompendium_78877",
+      "title": "Hyla chrysoscelis",
+      "year": 2019,
+      "doi": "10.1079/cabicompendium.78877",
+      "abstract": "",
+      "journal": "CABI Compendium",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_beheco_aru029",
+      "title": "Acoustic communication in a noisy world: can fish compete with anthropogenic noise?",
+      "year": 2014,
+      "doi": "10.1093/beheco/aru029",
+      "abstract": "Anthropogenic (man-made) noise has changed the acoustic environment both on land and underwater and is now recognized as a pollutant of international concern. Increasing numbers of studies are assessing how noise pollution affects animals across a range of scales, from individuals to communities, but the topic receiving the most research attention has been acoustic communication.",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_4800670",
+      "title": "Auditory object formation in Cope's gray treefrogs (Hyla chrysoscelis)",
+      "year": 2013,
+      "doi": "10.1121/1.4800670",
+      "abstract": "",
+      "journal": "Proceedings of Meetings on Acoustics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00265-013-1489-6",
+      "title": "Multimodal signaling in the Small Torrent Frog (Micrixalus saxicola) in a complex acoustic environment",
+      "year": 2013,
+      "doi": "10.1007/s00265-013-1489-6",
+      "abstract": "Many animals use multimodal (both visual and acoustic) components in courtship signals. The acoustic communication of anuran amphibians can be masked by the presence of environmental background noise, and multimodal displays may enhance receiver detection in complex acoustic environments. In the present study, we measured sound pressure levels of concurrently calling males of the Small Torrent Frog (<i>Micrixalus saxicola</i>) and used acoustic playbacks and an inflatable balloon mimicking a vocal sac to investigate male responses to controlled unimodal (acoustic) and multimodal (acoustic and visual) dynamic stimuli in the frogs' natural habitat. Our results suggest that abiotic noise of the stream does not constrain signal detection, but males are faced with acoustic interference and masking from conspecific chorus noise. Multimodal stimuli elicited greater response from males and triggered significantly more visual signal responses than unimodal stimuli. We suggest that the vocal sac",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_3699271",
+      "title": "Sound level discrimination by gray treefrogs in the presence and absence of chorus-shaped noise",
+      "year": 2012,
+      "doi": "10.1121/1.3699271",
+      "abstract": "An important aspect of hearing and acoustic communication is the ability to discriminate differences in sound level. Little is known about level discrimination in anuran amphibians (frogs and toads), for which vocal communication in noisy social environments is often critical for reproduction. This study used two-choice phonotaxis tests to investigate the ability of females of Cope's gray treefrog (Hyla chrysoscelis) to discriminate between two advertisement calls differing only in sound pressure level by 2, 4, or 6 dB. Tests were conducted in the presence and absence of chorus-shaped noise (73 dB) and using two different ranges of signal levels (73-79 dB and 79-85 dB). Females discriminated between two signals differing by as little as 2-4 dB. In contrast to expectations based on the \"near miss to Weber's law\" in birds and mammals, level discrimination was slightly better at the lower range of signal amplitudes, a finding consistent with earlier studies of frogs and insects. Realistic",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0021191",
+      "title": "Finding Your Mate at a Cocktail Party: Frequency Separation Promotes Auditory Stream Segregation of Concurrent Voices in Multi-Species Frog Choruses",
+      "year": 2011,
+      "doi": "10.1371/journal.pone.0021191",
+      "abstract": "Vocal communication in crowded social environments is a difficult problem for both humans and nonhuman animals. Yet many important social behaviors require listeners to detect, recognize, and discriminate among signals in a complex acoustic milieu comprising the overlapping signals of multiple individuals, often of multiple species. Humans exploit a relatively small number of acoustic cues to segregate overlapping voices (as well as other mixtures of concurrent sounds, like polyphonic music). By comparison, we know little about how nonhuman animals are adapted to solve similar communication problems. One important cue enabling source segregation in human speech communication is that of frequency separation between concurrent voices: differences in frequency promote perceptual segregation of overlapping voices into separate \"auditory streams\" that can be followed through time. In this study, we show that frequency separation (ΔF) also enables frogs to segregate concurrent vocalizations,",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1554_04-471",
+      "title": "ADVERTISEMENT-CALL PREFERENCES IN DIPLOID-TETRAPLOID TREEFROGS (HYLA CHRYSOSCELIS AND HYLA VERSICOLOR): IMPLICATIONS FOR MATE CHOICE AND THE EVOLUTION OF COMMUNICATION SYSTEMS",
+      "year": 2005,
+      "doi": "10.1554/04-471",
+      "abstract": "",
+      "journal": "Evolution",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_0014-3820_2005_tb00998_x",
+      "title": "ADVERTISEMENT-CALL PREFERENCES IN DIPLOID-TETRAPLOID TREEFROGS (HYLA CHRYSOSCELIS AND HYLA VERSICOLOR): IMPLICATIONS FOR MATE CHOICE AND THE EVOLUTION OF COMMUNICATION SYSTEMS",
+      "year": 2005,
+      "doi": "10.1111/j.0014-3820.2005.tb00998.x",
+      "abstract": "",
+      "journal": "Evolution",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_sj_hdy_6885270",
+      "title": "Sexual imprinting, learning and speciation",
+      "year": 1999,
+      "doi": "10.1038/sj.hdy.6885270",
+      "abstract": "",
+      "journal": "Heredity",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1446670",
+      "title": "Hybridization in the Diploid-Tetraploid Treefrogs Hyla chrysoscelis and Hyla versicolor",
+      "year": 1994,
+      "doi": "10.2307/1446670",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1564278",
+      "title": "Observations on Satellite Males in Hyla chrysoscelis, Hyla picta, and Pseudacris triseriata",
+      "year": 1985,
+      "doi": "10.2307/1564278",
+      "abstract": "",
+      "journal": "Journal of Herpetology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1444428",
+      "title": "Erratum: Chromosome Polymorphism in Hyla chrysoscelis",
+      "year": 1983,
+      "doi": "10.2307/1444428",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1444732",
+      "title": "Chromosome Polymorphism in Hyla chrysoscelis",
+      "year": 1983,
+      "doi": "10.2307/1444732",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_5962_bhl_title_52057",
+      "title": "Distribution and call parameters of Hyla chrysoscelis and Hyla versicolor in Michigan",
+      "year": 1979,
+      "doi": "10.5962/bhl.title.52057",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1442547",
+      "title": "Mating Call Differences between Eastern and Western Populations of the Treefrog Hyla chrysoscelis",
+      "year": 1974,
+      "doi": "10.2307/1442547",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1350483",
+      "title": "Distribution and Mating Call of the Treefrog, Hyla chrysoscelis, at the Northeastern Edge of Its Range",
+      "year": 1970,
+      "doi": "10.2307/1350483",
+      "abstract": "",
+      "journal": "Chesapeake Science",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32469_10355_71297",
+      "title": "Behavioral consequences of polyploidy in hyla chrysoscelis treefrogs : implications for speciation and underlying mechanisms",
+      "year": null,
+      "doi": "10.32469/10355/71297",
+      "abstract": "<jats:p xml:lang=\"en\">Polyploidy occurs when organisms have more than the typical two copies chromosome sets. Polyploidy has occurred many times throughout plant and vertebrate evolution, and recently in diverse families of frogs. Male treefrogs produce acoustic advertisement-calls to attract females. Females reliably choose males of their own species on the basis of their advertisement-calls, which allows two gray treefrog species to live and breed amidst each other. To investigate the effects of polyploidy on behavior, I created artificial polyploids of the diploid gray treefrog, Hyla chrysoscelis. Polyploid males produce advertisement calls with slower pulse-rates, and consisting of pulses with slower rise-times, both in the direction of the tetraploid species, H. versicolor. Polyploid females also demonstrate a preference for calls with slower pulse-rates, and demonstrate weak preference for slow rise-time pulses, as do females of H. versicolor. These parallel effects of polyploidy",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 20,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

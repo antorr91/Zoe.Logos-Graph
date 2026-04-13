@@ -1,0 +1,580 @@
+{
+  "species_id": "gbif_2350817",
+  "gbif_usage_key": 2350817,
+  "scientific_name": "Porichthys notatus",
+  "common_name_en": "midshipman fish",
+  "common_names": {
+    "en": "midshipman fish",
+    "it": "pesce illuminato",
+    "es": "pez lucerna",
+    "fr": "poisson lamparo",
+    "de": "leuchtfisch"
+  },
+  "taxonomy": {
+    "class_": "Actinopterygii",
+    "order_": "Batrachoidiformes",
+    "family": "Batrachoididae",
+    "genus": "Porichthys",
+    "gbif_match_confidence": 99,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 22,
+    "claim_count": 6,
+    "doi_count": 22,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "",
+    "attribution": ""
+  },
+  "summary": "",
+  "wiki_url": "",
+  "wiki_title": "Plainfin_midshipman_fish",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "grunt",
+    "hum"
+  ],
+  "contexts": [
+    "courtship",
+    "territorial defence"
+  ],
+  "functions": [
+    "mate attraction",
+    "territorial signalling"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "grunt",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "hum",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "territorial signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1002/cne.24629",
+      "url": "https://doi.org/10.1002/cne.24629",
+      "title": "Melatonin receptor expression in vocal, auditory, and neuroendocrine centers of a highly vocal fish, the plainfin midshipman (<scp><i>Porichthys notatus</i></scp>)",
+      "year": 2019,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.jchemneu.2014.01.001",
+      "url": "https://doi.org/10.1016/j.jchemneu.2014.01.001",
+      "title": "Sexually-dimorphic expression of tyrosine hydroxylase immunoreactivity in the brain of a vocal teleost fish (Porichthys notatus)",
+      "year": 2014,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0070474",
+      "url": "https://doi.org/10.1371/journal.pone.0070474",
+      "title": "Exposure to Advertisement Calls of Reproductive Competitors Activates Vocal-Acoustic and Catecholaminergic Neurons in the Plainfin Midshipman Fish, Porichthys notatus",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1080/09524622.2011.647866",
+      "url": "https://doi.org/10.1080/09524622.2011.647866",
+      "title": "Adaptive auditory plasticity for social communication in the plainfin midshipman fish (<i>Porichthys notatus</i>)",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1523/jneurosci.4928-11.2012",
+      "url": "https://doi.org/10.1523/jneurosci.4928-11.2012",
+      "title": "Saccular-Specific Hair Cell Addition Correlates with Reproductive State-Dependent Changes in the Auditory Saccular Sensitivity of a Vocal Fish",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.heares.2008.12.007",
+      "url": "https://doi.org/10.1016/j.heares.2008.12.007",
+      "title": "Steroid-dependent auditory plasticity for the enhancement of acoustic communication: Recent insights from a vocal teleost fish",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1749-4877.2008.00133.x",
+      "url": "https://doi.org/10.1111/j.1749-4877.2008.00133.x",
+      "title": "Adaptive hearing in the vocal plainfin midshipman fish: getting in tune for the breeding season and implications for acoustic communication",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1152/jn.00236.2009",
+      "url": "https://doi.org/10.1152/jn.00236.2009",
+      "title": "Seasonal Plasticity of Auditory Saccular Sensitivity in the Vocal Plainfin Midshipman Fish,<i>Porichthys notatus</i>",
+      "year": 2009,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2010-3.rlts.t183724a8165351.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2010-3.rlts.t183724a8165351.en",
+      "title": "Porichthys notatus: Collette, B., Acero, A., Betancur, R., Cotto, A. &amp; Rojas, P.",
+      "year": 2007,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s00359-006-0195-5",
+      "url": "https://doi.org/10.1007/s00359-006-0195-5",
+      "title": "Saccular potentials of the vocal plainfin midshipman fish, Porichthys notatus",
+      "year": 2006,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1242/jeb.01742",
+      "url": "https://doi.org/10.1242/jeb.01742",
+      "title": "Ontogenetic changes in the response properties of individual, primary auditory afferents in the vocal plainfin midshipman fish <i>Porichthys notatus</i> Girard",
+      "year": 2005,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s00114-004-0531-y",
+      "url": "https://doi.org/10.1007/s00114-004-0531-y",
+      "title": "Does exaggerated morphology preclude plasticity to cuckoldry in the midshipman fish (Porichthys notatus)?",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.ygcen.2003.12.007",
+      "url": "https://doi.org/10.1016/j.ygcen.2003.12.007",
+      "title": "Seasonal variation of steroid hormone levels in an intertidal-nesting fish, the vocal plainfin midshipman",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1002/1096-9861(20000703)422:3<363::aid-cne4>3.0.co;2-8",
+      "url": "https://doi.org/10.1002/1096-9861(20000703)422:3<363::aid-cne4>3.0.co;2-8",
+      "title": "Vasotocin innervation and modulation of vocal-acoustic circuitry in the teleostPorichthys notatus",
+      "year": 2000,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/s0166-4328(97)00182-4",
+      "url": "https://doi.org/10.1016/s0166-4328(97)00182-4",
+      "title": "The emotional motor system in relation to the supraspinal control of micturition and mating behavior",
+      "year": 1998,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/978-94-017-1356-6_9",
+      "url": "https://doi.org/10.1007/978-94-017-1356-6_9",
+      "title": "Ecomorphological adaptations to bioluminescence in Porichthys notatus",
+      "year": 1995,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1446452",
+      "url": "https://doi.org/10.2307/1446452",
+      "title": "Annual Variations in Fecundity, Egg Size and Condition of the Plainfin Midshipman (Porichthys notatus)",
+      "year": 1990,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-94-009-7296-4_22",
+      "url": "https://doi.org/10.1007/978-94-009-7296-4_22",
+      "title": "The mating call of the plainfin midshipman fish, Porichthys notatus",
+      "year": 1983,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1444196",
+      "url": "https://doi.org/10.2307/1444196",
+      "title": "Feeding and Growth by the Sessile Larvae of the Teleost Porichthys notatus",
+      "year": 1981,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2307/1440735",
+      "url": "https://doi.org/10.2307/1440735",
+      "title": "Bioluminescent Courtship Display in the Teleost Porichthys notatus",
+      "year": 1965,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1152/ajplegacy.1924.70.3.496",
+      "url": "https://doi.org/10.1152/ajplegacy.1924.70.3.496",
+      "title": "PHYSIOLOGICAL REACTIONS AND STRUCTURE OF THE VOCAL APPARATUS OF THE CALIFORNIA SINGING FISH, PORICHTHYS NOTATUS",
+      "year": 1924,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1086/279770",
+      "url": "https://doi.org/10.1086/279770",
+      "title": "The Bionomics of Porichthys notatus Girard",
+      "year": 1920,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1002_cne_24629",
+      "title": "Melatonin receptor expression in vocal, auditory, and neuroendocrine centers of a highly vocal fish, the plainfin midshipman (<scp><i>Porichthys notatus</i></scp>)",
+      "year": 2019,
+      "doi": "10.1002/cne.24629",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Melatonin plays a central role in entraining activity to the day–night cycle in vertebrates. Here, we investigate neuroanatomical substrates of melatonin‐dependent vocal–acoustic behavior in the nocturnal and highly vocal teleost fish, the plainfin midshipman (<jats:styled-content style=\"fixed-case\"><jats:italic>Porichthys notatus</jats:italic></jats:styled-content>). Using in situ hybridization (ISH) and quantitative real‐time PCR (qPCR), we assess the mRNA distribution and transcript abundance of melatonin receptor subtype 1B (<jats:italic>mel1b</jats:italic>), shown to be important for vocalization in midshipman fish and songbirds. ISH shows robust <jats:italic>mel1b</jats:italic> expression in major nodes of the central vocal and auditory networks in the subpallium, preoptic area (POA), anterior hypothalamus, dorsal thalamus, posterior tuberculum, midbrain torus semicircularis and periaqueductal gray, and hindbrain. <jats:italic>Mel1b</jats:",
+      "journal": "Journal of Comparative Neurology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_jchemneu_2014_01_001",
+      "title": "Sexually-dimorphic expression of tyrosine hydroxylase immunoreactivity in the brain of a vocal teleost fish (Porichthys notatus)",
+      "year": 2014,
+      "doi": "10.1016/j.jchemneu.2014.01.001",
+      "abstract": "",
+      "journal": "Journal of Chemical Neuroanatomy",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0070474",
+      "title": "Exposure to Advertisement Calls of Reproductive Competitors Activates Vocal-Acoustic and Catecholaminergic Neurons in the Plainfin Midshipman Fish, Porichthys notatus",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0070474",
+      "abstract": "While the neural circuitry and physiology of the auditory system is well studied among vertebrates, far less is known about how the auditory system interacts with other neural substrates to mediate behavioral responses to social acoustic signals. One species that has been the subject of intensive neuroethological investigation with regard to the production and perception of social acoustic signals is the plainfin midshipman fish, Porichthys notatus, in part because acoustic communication is essential to their reproductive behavior. Nesting male midshipman vocally court females by producing a long duration advertisement call. Females localize males by their advertisement call, spawn and deposit all their eggs in their mate's nest. As multiple courting males establish nests in close proximity to one another, the perception of another male's call may modulate individual calling behavior in competition for females. We tested the hypothesis that nesting males exposed to advertisement calls ",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1080_09524622_2011_647866",
+      "title": "Adaptive auditory plasticity for social communication in the plainfin midshipman fish (<i>Porichthys notatus</i>)",
+      "year": 2012,
+      "doi": "10.1080/09524622.2011.647866",
+      "abstract": "",
+      "journal": "Bioacoustics",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1523_jneurosci_4928-11_2012",
+      "title": "Saccular-Specific Hair Cell Addition Correlates with Reproductive State-Dependent Changes in the Auditory Saccular Sensitivity of a Vocal Fish",
+      "year": 2012,
+      "doi": "10.1523/jneurosci.4928-11.2012",
+      "abstract": "The plainfin midshipman fish, Porichthys notatus, is a seasonal breeding teleost fish for which vocal-acoustic communication is essential for its reproductive success. Female midshipman use the saccule as the primary end organ for hearing to detect and locate \"singing\" males that produce multiharmonic advertisement calls during the summer breeding season. Previous work has shown that female auditory sensitivity changes seasonally with reproductive state; summer reproductive females become better suited than winter nonreproductive females to detect and encode the dominant higher harmonic components in the male's advertisement call, which are potentially critical for mate selection and localization. Here, we test the hypothesis that these seasonal changes in female auditory sensitivity are concurrent with seasonal increases in saccular hair cell receptors. We show that there is increased hair cell density in reproductive females and that this increase is not dependent on body size since ",
+      "journal": "Journal of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1152_jn_00236_2009",
+      "title": "Seasonal Plasticity of Auditory Saccular Sensitivity in the Vocal Plainfin Midshipman Fish,<i>Porichthys notatus</i>",
+      "year": 2009,
+      "doi": "10.1152/jn.00236.2009",
+      "abstract": "<jats:p>The plainfin midshipman fish, Porichthys notatus, is a seasonally breeding species of marine teleost fish that generates acoustic signals for intraspecific social and reproductive-related communication. Female midshipman use the inner ear saccule as the main acoustic endorgan for hearing to detect and locate vocalizing males that produce multiharmonic advertisement calls during the breeding season. Previous work showed that the frequency sensitivity of midshipman auditory saccular afferents changed seasonally with female reproductive state such that summer reproductive females became better suited than winter nonreproductive females to encode the dominant higher harmonics of the male advertisement calls. The focus of this study was to test the hypothesis that seasonal reproductive-dependent changes in saccular afferent tuning is paralleled by similar changes in saccular sensitivity at the level of the hair-cell receptor. Here, I examined the evoked response properties of midshi",
+      "journal": "Journal of Neurophysiology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_j_1749-4877_2008_00133_x",
+      "title": "Adaptive hearing in the vocal plainfin midshipman fish: getting in tune for the breeding season and implications for acoustic communication",
+      "year": 2009,
+      "doi": "10.1111/j.1749-4877.2008.00133.x",
+      "abstract": "The plainfin midshipman fish (Porichthys notatus Girard, 1854) is a vocal species of batrachoidid fish that generates acoustic signals for intraspecific communication during social and reproductive activity and has become a good model for investigating the neural and endocrine mechanisms of vocal-acoustic communication. Reproductively active female plainfin midshipman fish use their auditory sense to detect and locate \"singing\" males, which produce a multiharmonic advertisement call to attract females for spawning. The seasonal onset of male advertisement calling in the midshipman fish coincides with an increase in the range of frequency sensitivity of the female's inner ear saccule, the main organ of hearing, thus leading to enhanced encoding of the dominant frequency components of male advertisement calls. Non-reproductive females treated with either testosterone or 17β-estradiol exhibit a dramatic increase in the inner ear's frequency sensitivity that mimics the reproductive female'",
+      "journal": "Integrative Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_heares_2008_12_007",
+      "title": "Steroid-dependent auditory plasticity for the enhancement of acoustic communication: Recent insights from a vocal teleost fish",
+      "year": 2009,
+      "doi": "10.1016/j.heares.2008.12.007",
+      "abstract": "",
+      "journal": "Hearing Research",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2010-3_rlts_t183724a8165351_en",
+      "title": "Porichthys notatus: Collette, B., Acero, A., Betancur, R., Cotto, A. &amp; Rojas, P.",
+      "year": 2007,
+      "doi": "10.2305/iucn.uk.2010-3.rlts.t183724a8165351.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00359-006-0195-5",
+      "title": "Saccular potentials of the vocal plainfin midshipman fish, Porichthys notatus",
+      "year": 2006,
+      "doi": "10.1007/s00359-006-0195-5",
+      "abstract": "",
+      "journal": "Journal of Comparative Physiology A",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_01742",
+      "title": "Ontogenetic changes in the response properties of individual, primary auditory afferents in the vocal plainfin midshipman fish <i>Porichthys notatus</i> Girard",
+      "year": 2005,
+      "doi": "10.1242/jeb.01742",
+      "abstract": "<jats:title>SUMMARY</jats:title>\n               <jats:p>The auditory system of adult midshipman fish Porichthys notatusGirard is an important sensory receiver system used during intraspecific social communication to encode conspecific vocalizations, but the response properties and function of this system in the pre-adult stages are unknown. Midshipman fish, like other teleosts, use the saccule as the main acoustic end organ of the inner ear. In this study, we examined the discharge properties and the frequency response dynamics of auditory saccular afferent neurons in pre-adult midshipman (∼4–12 months of age) to determine whether encoding of auditory information, inclusive of conspecific vocalizations,changes across life history stages. Extracellular single unit recordings were made from saccular afferents while sound was presented via an underwater speaker. Comparisons with adult data show that the resting discharge rate and auditory threshold sensitivity increased with age/size,whil",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s00114-004-0531-y",
+      "title": "Does exaggerated morphology preclude plasticity to cuckoldry in the midshipman fish (Porichthys notatus)?",
+      "year": 2004,
+      "doi": "10.1007/s00114-004-0531-y",
+      "abstract": "",
+      "journal": "Naturwissenschaften",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_ygcen_2003_12_007",
+      "title": "Seasonal variation of steroid hormone levels in an intertidal-nesting fish, the vocal plainfin midshipman",
+      "year": 2004,
+      "doi": "10.1016/j.ygcen.2003.12.007",
+      "abstract": "",
+      "journal": "General and Comparative Endocrinology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1002_1096-9861(20000703)422:3<363::aid-cne4>3_0_co;2-8",
+      "title": "Vasotocin innervation and modulation of vocal-acoustic circuitry in the teleostPorichthys notatus",
+      "year": 2000,
+      "doi": "10.1002/1096-9861(20000703)422:3<363::aid-cne4>3.0.co;2-8",
+      "abstract": "Arginine vasotocin (AVT) and its mammalian homologue arginine vasopressin (AVP) modulate reproduction-related and other social behaviors in a broad range of vertebrate species. These functions of AVT/AVP may be in part achieved through the modulation of sensorimotor integration, although experimental evidence supporting this hypothesis remains limited. In the present experiments, we demonstrate (1) AVT innervation of candidate vocal-acoustic brain regions, and (2) AVT modulation of vocal-motor physiology in the plainfin midshipman fish (Porichthys notatus), which uses vocalizations in both mate attraction and agonistic contexts. AVT distribution was compared with known vocally active brain regions and to central auditory and vocal pathways. AVT-immunoreactive fibers and putative terminals descend almost exclusively from the preoptic area and are found in two primary candidate sites for vocal-acoustic integration - the anterior tuberal hypothalamus and paralemniscal midbrain tegmentum. ",
+      "journal": "The Journal of Comparative Neurology",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_s0166-4328(97)00182-4",
+      "title": "The emotional motor system in relation to the supraspinal control of micturition and mating behavior",
+      "year": 1998,
+      "doi": "10.1016/s0166-4328(97)00182-4",
+      "abstract": "",
+      "journal": "Behavioural Brain Research",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-94-017-1356-6_9",
+      "title": "Ecomorphological adaptations to bioluminescence in Porichthys notatus",
+      "year": 1995,
+      "doi": "10.1007/978-94-017-1356-6_9",
+      "abstract": "",
+      "journal": "Developments in environmental biology of fishes",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1446452",
+      "title": "Annual Variations in Fecundity, Egg Size and Condition of the Plainfin Midshipman (Porichthys notatus)",
+      "year": 1990,
+      "doi": "10.2307/1446452",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-94-009-7296-4_22",
+      "title": "The mating call of the plainfin midshipman fish, Porichthys notatus",
+      "year": 1983,
+      "doi": "10.1007/978-94-009-7296-4_22",
+      "abstract": "",
+      "journal": "Developments in environmental biology of fishes",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1444196",
+      "title": "Feeding and Growth by the Sessile Larvae of the Teleost Porichthys notatus",
+      "year": 1981,
+      "doi": "10.2307/1444196",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_2307_1440735",
+      "title": "Bioluminescent Courtship Display in the Teleost Porichthys notatus",
+      "year": 1965,
+      "doi": "10.2307/1440735",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1152_ajplegacy_1924_70_3_496",
+      "title": "PHYSIOLOGICAL REACTIONS AND STRUCTURE OF THE VOCAL APPARATUS OF THE CALIFORNIA SINGING FISH, PORICHTHYS NOTATUS",
+      "year": 1924,
+      "doi": "10.1152/ajplegacy.1924.70.3.496",
+      "abstract": "",
+      "journal": "American Journal of Physiology-Legacy Content",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1086_279770",
+      "title": "The Bionomics of Porichthys notatus Girard",
+      "year": 1920,
+      "doi": "10.1086/279770",
+      "abstract": "",
+      "journal": "The American Naturalist",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 22,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "species_id": "gbif_7193538",
+  "gbif_usage_key": 7193538,
+  "scientific_name": "Sus scrofa domesticus",
+  "common_name_en": "domestic pig",
+  "common_names": {
+    "en": "domestic pig",
+    "it": "maiale domestico",
+    "es": "cerdo doméstico",
+    "fr": "cochon domestique",
+    "de": "hausschwein"
+  },
+  "taxonomy": {
+    "class_": "Mammalia",
+    "order_": "Artiodactyla",
+    "family": "Suidae",
+    "genus": "Sus",
+    "gbif_match_confidence": 95,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 16,
+    "claim_count": 10,
+    "doi_count": 17,
+    "media_count": 0
+  },
+  "image": {
+    "url": "",
+    "url_full": "",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons",
+    "attribution": ""
+  },
+  "summary": "Domestic pig (Sus scrofa domesticus) is a species of Mammalia in the order Artiodactyla, family Suidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Domestic_pig",
+  "wiki_title": "Domestic_pig",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "bark",
+    "grunt",
+    "squeal"
+  ],
+  "contexts": [
+    "alarm",
+    "feeding",
+    "play",
+    "social communication"
+  ],
+  "functions": [
+    "alarm",
+    "individual recognition",
+    "social coordination"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "bark",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "grunt",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "squeal",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "feeding",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "play",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "social coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "freesound",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.31043/2410-2733-2025-4-14-21",
+      "url": "https://doi.org/10.31043/2410-2733-2025-4-14-21",
+      "title": "DNA single nucleotide polymorphism analysis for differentiation of Sus scrofa scrofa and Sus scrofa domesticus",
+      "year": 2026,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32417/1997-4868-2024-23-12-83-93",
+      "url": "https://doi.org/10.32417/1997-4868-2024-23-12-83-93",
+      "title": "Nuclear cytoplasmic maturation of Sus Scrofa Domesticus oocytes at ultralow temperatures",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-2916788/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-2916788/v1",
+      "title": "Understanding the interface between European wild boar (Sus scrofa) and domestic pigs (Sus scrofa domesticus) in Sweden through a questionnaire study",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32417/1997-4868-2022-227-12-62-72",
+      "url": "https://doi.org/10.32417/1997-4868-2022-227-12-62-72",
+      "title": "Features of functional activity of lipidome in Sus scrofa domesticus oocytes after intraovarian vitrification",
+      "year": 2023,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.32417/1997-4868-2020-199-8-51-57",
+      "url": "https://doi.org/10.32417/1997-4868-2020-199-8-51-57",
+      "title": "Modification of the stages of the technology of intraovarianvitrification of oocytes Sus Scrofa Domesticus",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1121/1.5100612",
+      "url": "https://doi.org/10.1121/1.5100612",
+      "title": "Expression of emotional valence in pig closed-mouth grunts: Involvement of both source- and filter-related parameters",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-016-1064-4",
+      "url": "https://doi.org/10.1007/s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2017.0990",
+      "url": "https://doi.org/10.1098/rspb.2017.0990",
+      "title": "Humans recognize emotional arousal in vocalizations across all classes of terrestrial vertebrates: evidence for acoustic universals",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3168/jds.2017-12651",
+      "url": "https://doi.org/10.3168/jds.2017-12651",
+      "title": "Invited review: Effects of heat stress on dairy cattle welfare",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/eth.12472",
+      "url": "https://doi.org/10.1111/eth.12472",
+      "title": "Structural Classification of Wild Boar (<i>Sus scrofa</i>) Vocalizations",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.138255",
+      "url": "https://doi.org/10.1242/jeb.138255",
+      "title": "Honest signaling in domestic piglets (<i>Sus scrofa domesticus</i>): vocal allometry and the information content of grunt calls",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.17268/manglar.2016.002",
+      "url": "https://doi.org/10.17268/manglar.2016.002",
+      "title": "Molecular identification of lactobacilos of the digestive tract of piglet (Sus scrofa domesticus)",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1093/czoolo/58.5.698",
+      "url": "https://doi.org/10.1093/czoolo/58.5.698",
+      "title": "What makes a cry a cry? A review of infant distress vocalizations",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1044/jshr.0103.227",
+      "url": "https://doi.org/10.1044/jshr.0103.227",
+      "title": "Myoelastic-Aerodynamic Theory of Voice Production",
+      "year": 1958,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arq051",
+      "url": "https://doi.org/10.1093/beheco/arq051",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
+      "doi": "10.11606/d.10.2012.tde-01072013-090720",
+      "url": "https://doi.org/10.11606/d.10.2012.tde-01072013-090720",
+      "title": "Morfologia e organogênese em dois períodos gestacionais em suínos (Sus scrofa domesticus)",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.24275/uami.7p88cg72k",
+      "url": "https://doi.org/10.24275/uami.7p88cg72k",
+      "title": "Efecto del estado REDOX en la capacidad fertilizante de espermatozoides de cerdo Sus scrofa domesticus",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_31043_2410-2733-2025-4-14-21",
+      "title": "DNA single nucleotide polymorphism analysis for differentiation of Sus scrofa scrofa and Sus scrofa domesticus",
+      "year": 2026,
+      "doi": "10.31043/2410-2733-2025-4-14-21",
+      "abstract": "<jats:p>\n                    <jats:bold>Objective</jats:bold>\n                    : to develop a new model for differentiating between domestic pigs and wild boars based on autosomal SNP analysis, thereby improving the accuracy of species identification.\n                    <jats:bold>Materials and Methods</jats:bold>\n                    : using the SRA-BLAST and GENIS bioinformatics algorithms, 1,639 genomes were analyzed: 91 wild boar (Sus scrofa scrofa) and 1,548 domestic pig (Sus scrofa domesticus). The differentiating potential of the studied polymorphisms was assessed, and a classification model for wild boar and domestic pig was calculated based on three SNPs (Sscrofa11.1 (GCF_000003025.6)): rs330419406 (Chr.5:55839440A&gt;G), rs81293059 (Chr.8:52261272C&gt;T), and rs326780270 (Chr.1:265347265A&gt;G, NR6A1).\n                    <jats:bold>Conclusion</jats:bold>\n                    . The model demonstrated high accuracy (99,84 %), specificity (100 %), and sensitivity (100 %). The",
+      "journal": "Genetics and breeding of animals",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32417_1997-4868-2024-23-12-83-93",
+      "title": "Nuclear cytoplasmic maturation of Sus Scrofa Domesticus oocytes at ultralow temperatures",
+      "year": 2024,
+      "doi": "10.32417/1997-4868-2024-23-12-83-93",
+      "abstract": "<jats:p>Abstract. Vitrification of female gametes is the most important tool for solving the strategic tasks of cellular reproductive technologies in animal husbandry, veterinary medicine and biomedicine: replication of elite individuals (cloning, transgenesis), biodiversity conservation, organ xenotransplantation. The aim of this study was to evaluate the parameters of nuclear cytoplasmic maturation (chromatin status and mitochondrial activity) and developmental competence of donor porcine oocytes subjected to intra- (IOV) or extra-ovarian (EOV) vitrification and cultured in various maturation systems. Methods. Donor pig oocytes (6–8 months old) were vitrified extra- or intraovarially using cryoprotective agents (DMSO, ethylene glycol, trehalose, sucrose). The composition of cryoprotective agents was supplemented with 0.001 % highly dispersed silica nanoparticles (HDSns). Oocytes were thawed in trehalose solutions in TS-199 with 10 % of fetal bovine serum (FBS). Oocytes were cultured ",
+      "journal": "Agrarian Bulletin of the",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32417_1997-4868-2022-227-12-62-72",
+      "title": "Features of functional activity of lipidome in Sus scrofa domesticus oocytes after intraovarian vitrification",
+      "year": 2023,
+      "doi": "10.32417/1997-4868-2022-227-12-62-72",
+      "abstract": "<jats:p>Abstract. The creation of a cryobank of reproductive cells and tissues opens up the possibility of intensifying the introduction of innovative cellular reproductive technologies into the practice of husbandry, biomedicine, and veterinary medicine. The aim of the study was to evaluate the effects of silicon dimethylglycerolate (SDMG) on the morphology of gametes and lipidome of porcine oocytes after intraovarian vitrification (IOV). Methods. Fragments (15 × 20 mm) of porcine ovaries were subjected to vitrification, which were exposed to cryoprotective agents (CPA1 and CPA2) for 25 minutes and 15 minutes. Composition: CPA1: 7.5 % ethylene glycol (EG), 7.5 % dimethyl sulfoxide (DMSO), 65 % PBS, with 2M bovine serum albumin (BSA) and CPA2 – 2.0% EG, 20 % DMSO, 60 % PBS, 1M BSA, 0.5 mol/l sucrose. The effectiveness of using SDMG at the studied concentrations on the cryopreservation of bio objects was assessed by: the morphology of gametes and indicators of the functional activity of",
+      "journal": "Agrarian Bulletin of the",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_21203_rs_3_rs-2916788_v1",
+      "title": "Understanding the interface between European wild boar (Sus scrofa) and domestic pigs (Sus scrofa domesticus) in Sweden through a questionnaire study",
+      "year": 2023,
+      "doi": "10.21203/rs.3.rs-2916788/v1",
+      "abstract": "<title>Abstract</title>\n        <p>In recent years, the wildlife/livestock interface has attracted increased attention due to disease transmission between wild and domestic animal populations. The ongoing spread of African swine fever (ASF) in European wild boar (Sus scrofa) emphasize the need for further understanding of the wildlife/livestock interface to prevent disease spill-over between the wild and domestic populations. Wild boar may also act as a potential source for other infectious disease agents, although ASF may currently be considered the most severe threat from wild boar to domestic pigs. To gather information on the wild boar situation at commercial pig producing farms in Sweden, a digital questionnaire survey was distributed through the animal health services. Most pigs produced for commercial purposes in Sweden are raised without outdoor access. Around 80% of the responding pig producers saw wild boar or signs of wild boar activity in the vicinity of their farm at least",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_32417_1997-4868-2020-199-8-51-57",
+      "title": "Modification of the stages of the technology of intraovarianvitrification of oocytes Sus Scrofa Domesticus",
+      "year": 2020,
+      "doi": "10.32417/1997-4868-2020-199-8-51-57",
+      "abstract": "<jats:p>Abstract. Intraovarian vitrification of oocytes of farm animals today is a very promising direction. The composition of cryoprotective solutions requires further improvement. Vitrification of ovarian fragments (FО) allows tо save primordial follicles, a structure that is more stable, due to the lack of follicular fluid, to destructive processes provoked by ultra-low temperatures.The high reproductive potential of pigs is due to their physiological characteristics of growth and development. Silicon is a minor trace element in its content; it is increasingly used in pharmacology, veterinary medicine, and clinical practice. Nitrogen silicon dimethylglycerolate (SDMGC) are antimicrobial, wound healing and anti-inflammatory in nature. The presence of a compact cumulus surrounding the oocyte is one of the important indicators of the reliability of the female gamete for extrafollicular maturation. Purpose of this study: to was to evaluate the effect of introducing 0.2 % silicon dimeth",
+      "journal": "Agrarian Bulletin of the",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1121_1_5100612",
+      "title": "Expression of emotional valence in pig closed-mouth grunts: Involvement of both source- and filter-related parameters",
+      "year": 2019,
+      "doi": "10.1121/1.5100612",
+      "abstract": "Emotion expression plays a crucial role for regulating social interactions. One efficient channel for emotion communication is the vocal-auditory channel, which enables a fast transmission of information. Filter-related parameters (formants) have been suggested as a key to the vocal differentiation of emotional valence (positive versus negative) across species, but variation in relation to emotions has rarely been investigated. Here, whether pig (Sus scrofa domesticus) closed-mouth grunts differ in source- and filter-related features when produced in situations assumed to be positive and negative is investigated. Behavioral and physiological parameters were used to validate the animals' emotional state (both in terms of valence and arousal, i.e., bodily activation). Results revealed that grunts produced in a positive situation were characterized by higher formants, a narrower range of the third formant, a shorter duration, a lower fundamental frequency, and a lower harmonicity compared",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_3168_jds_2017-12651",
+      "title": "Invited review: Effects of heat stress on dairy cattle welfare",
+      "year": 2017,
+      "doi": "10.3168/jds.2017-12651",
+      "abstract": "The effects of high ambient temperatures on production animals, once thought to be limited to tropical areas, has extended into northern latitudes in response to the increasing global temperature. The number of days where the temperature-humidity index (THI) exceeds the comfort threshold (>72) is increasing in the northern United States, Canada, and Europe. Compounded by the increasing number of dairy animals and the intensification of production, heat stress has become one of the most important challenges facing the dairy industry today. The objectives of this review were to present an overview of the effects of heat stress on dairy cattle welfare and highlight important research gaps in the literature. We will also briefly discuss current heat abatement strategies, as well as the sustainability of future heat stress management. Heat stress has negative effects on the health and biological functioning of dairy cows through depressed milk production and reduced reproductive performance",
+      "journal": "Journal of Dairy Science",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "doi": "10.1007/s10071-016-1064-4",
+      "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
+      "journal": "Animal Cognition",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rspb_2017_0990",
+      "title": "Humans recognize emotional arousal in vocalizations across all classes of terrestrial vertebrates: evidence for acoustic universals",
+      "year": 2017,
+      "doi": "10.1098/rspb.2017.0990",
+      "abstract": "Writing over a century ago, Darwin hypothesized that vocal expression of emotion dates back to our earliest terrestrial ancestors. If this hypothesis is true, we should expect to find cross-species acoustic universals in emotional vocalizations. Studies suggest that acoustic attributes of aroused vocalizations are shared across many mammalian species, and that humans can use these attributes to infer emotional content. But do these acoustic attributes extend to non-mammalian vertebrates? In this study, we asked human participants to judge the emotional content of vocalizations of nine vertebrate species representing three different biological classes-Amphibia, Reptilia (non-aves and aves) and Mammalia. We found that humans are able to identify higher levels of arousal in vocalizations across all species. This result was consistent across different language groups (English, German and Mandarin native speakers), suggesting that this ability is biologically rooted in humans. Our findings ",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_17268_manglar_2016_002",
+      "title": "Molecular identification of lactobacilos of the digestive tract of piglet (Sus scrofa domesticus)",
+      "year": 2016,
+      "doi": "10.17268/manglar.2016.002",
+      "abstract": "",
+      "journal": "Manglar",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1111_eth_12472",
+      "title": "Structural Classification of Wild Boar (<i>Sus scrofa</i>) Vocalizations",
+      "year": 2016,
+      "doi": "10.1111/eth.12472",
+      "abstract": "Determining whether a species' vocal communication system is graded or discrete requires definition of its vocal repertoire. In this context, research on domestic pig (<i>Sus scrofa domesticus</i>) vocalizations, for example, has led to significant advances in our understanding of communicative functions. Despite their close relation to domestic pigs, little is known about wild boar (<i>Sus scrofa)</i> vocalizations. The few existing studies, conducted in the 1970s, relied on visual inspections of spectrograms to quantify acoustic parameters and lacked statistical analysis. Here, we use objective signal processing techniques and advanced statistical approaches to classify 616 calls recorded from semi-free ranging animals. Based on four spectral and temporal acoustic parameters-quartile Q25, duration, spectral flux, and spectral flatness-extracted from a multivariate analysis, we refine and extend the conclusions drawn from previous work and present a statistically validated classificat",
+      "journal": "Ethology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_jeb_138255",
+      "title": "Honest signaling in domestic piglets (<i>Sus scrofa domesticus</i>): vocal allometry and the information content of grunt calls",
+      "year": 2016,
+      "doi": "10.1242/jeb.138255",
+      "abstract": "The information conveyed in acoustic signals is a central topic in mammal vocal communication research. Body size is one form of information that can be encoded in calls. Acoustic allometry aims to identify the specific acoustic correlates of body size within the vocalizations of a given species, and formants are often a useful acoustic cue in this context. We conducted a longitudinal investigation of acoustic allometry in domestic piglets (Sus scrofa domesticus), asking whether formants of grunt vocalizations provide information concerning the caller's body size over time. On four occasions, we recorded grunts from 20 kunekune piglets, measured their vocal tract length by means of radiographs (X-rays) and weighed them. Controlling for effects of age and sex, we found that body weight strongly predicts vocal tract length, which in turn determines formant frequencies. We conclude that grunt formant frequencies could allow domestic pigs to assess a signaler's body size as it grows. Furth",
+      "journal": "Journal of Experimental Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1093_czoolo_58_5_698",
+      "title": "What makes a cry a cry? A review of infant distress vocalizations",
+      "year": 2012,
+      "doi": "10.1093/czoolo/58.5.698",
+      "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
+      "journal": "Current Zoology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1044_jshr_0103_227",
+      "title": "Myoelastic-Aerodynamic Theory of Voice Production",
+      "year": 1958,
+      "doi": "10.1044/jshr.0103.227",
+      "abstract": "No AccessJournal of Speech and Hearing ResearchResearch Article1 Sep 1958Myoelastic-Aerodynamic Theory of Voice Production Janwillem van den Berg Janwillem van den Berg Google Scholar https://doi.org/10.1044/jshr.0103.227 SectionsAboutPDF ToolsAdd to favoritesDownload CitationTrack Citations ShareFacebookTwitterLinked In Additional Resources FiguresReferencesRelatedDetailsCited by The Journal of the Acoustical Society of America153:5 (2803)1 May 2023 Effect of functional electric stimulation on phonation in an ex vivo aged ovine model Bernhard Jakubaß, Gregor Peters, Stefan Kniesburges, Marion Semmler, Andrijana Kirsch, Claus Gerstenberger, Markus Gugatschka and Michael Döllinger Journal of Voice37:3 (305-313)1 May 2023Integrative Insights into the Myoelastic-Aerodynamic Theory and Acoustics of Phonation. Scientific Tribute to Donald G. MillerJan G. Švec, Harm K. Schutte, C. Julian Chen and Ingo R. Titze Maryam Naghibolhosseini, Ahmed M Yousef, Mohsen Zayernouri, Stephanie RC Zacharias",
+      "journal": "Journal of Speech and Hearing Research",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_11606_d_10_2012_tde-01072013-090720",
+      "title": "Morfologia e organogênese em dois períodos gestacionais em suínos (Sus scrofa domesticus)",
+      "year": null,
+      "doi": "10.11606/d.10.2012.tde-01072013-090720",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_24275_uami_7p88cg72k",
+      "title": "Efecto del estado REDOX en la capacidad fertilizante de espermatozoides de cerdo Sus scrofa domesticus",
+      "year": null,
+      "doi": "10.24275/uami.7p88cg72k",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 16,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}

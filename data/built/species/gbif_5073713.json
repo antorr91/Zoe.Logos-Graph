@@ -1,0 +1,489 @@
+{
+  "species_id": "gbif_5073713",
+  "gbif_usage_key": 5073713,
+  "scientific_name": "Drosophila melanogaster",
+  "common_name_en": "fruit fly",
+  "common_names": {
+    "en": "fruit fly",
+    "it": "mosca della frutta",
+    "es": "mosca de la fruta",
+    "fr": "mouche du vinaigre",
+    "de": "taufliege"
+  },
+  "taxonomy": {
+    "class_": "Insecta",
+    "order_": "Diptera",
+    "family": "Drosophilidae",
+    "genus": "Drosophila",
+    "gbif_match_confidence": 99,
+    "gbif_match_status": "ACCEPTED"
+  },
+  "profile_level": "enriched",
+  "profile_badge": {
+    "label": "enriched",
+    "color": "teal"
+  },
+  "stats": {
+    "paper_count": 17,
+    "claim_count": 8,
+    "doi_count": 17,
+    "media_count": 0
+  },
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Drosophila_melanogaster_Proboscis.jpg/330px-Drosophila_melanogaster_Proboscis.jpg",
+    "url_full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Drosophila_melanogaster_Proboscis.jpg",
+    "source": "Wikimedia Commons",
+    "license": "see Wikimedia Commons page",
+    "attribution": ""
+  },
+  "summary": "Drosophila melanogaster is a species of fly in the family Drosophilidae. The species is often referred to as the fruit fly or lesser fruit fly, or less commonly the \"vinegar fly\", \"pomace fly\", or \"banana fly\". D.",
+  "wiki_url": "https://en.wikipedia.org/wiki/Drosophila_melanogaster",
+  "wiki_title": "Drosophila_melanogaster",
+  "conservation_status": "",
+  "inat_id": null,
+  "vocalisations": [
+    "courtship song",
+    "pulse song",
+    "sine song"
+  ],
+  "contexts": [
+    "courtship",
+    "species recognition"
+  ],
+  "functions": [
+    "female receptivity",
+    "mate attraction",
+    "species isolation"
+  ],
+  "communication_profile": {
+    "vocalisations": [
+      {
+        "value": "courtship song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "pulse song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "sine song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "contexts": [
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "species recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "functions": [
+      {
+        "value": "female receptivity",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      },
+      {
+        "value": "species isolation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 1
+      }
+    ],
+    "methods": []
+  },
+  "audio": {
+    "provider": "external_links",
+    "xc_query": "",
+    "recordings": [],
+    "external_links": []
+  },
+  "open_papers": [
+    {
+      "doi": "10.1016/j.conb.2025.103096",
+      "url": "https://doi.org/10.1016/j.conb.2025.103096",
+      "title": "Gut-brain communication in Drosophila melanogaster",
+      "year": 2025,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.20506/rst.41.1.3305",
+      "url": "https://doi.org/10.20506/rst.41.1.3305",
+      "title": "The international exchange of Drosophila melanogaster strains",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/s41586-021-03451-0",
+      "url": "https://doi.org/10.1038/s41586-021-03451-0",
+      "title": "Towards complete and error-free genome assemblies of all vertebrate species",
+      "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1146/annurev-neuro-072116-031347",
+      "url": "https://doi.org/10.1146/annurev-neuro-072116-031347",
+      "title": "The Microbiome and Host Behavior",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1146/annurev-biophys-032116-094545",
+      "url": "https://doi.org/10.1146/annurev-biophys-032116-094545",
+      "title": "The Radical-Pair Mechanism of Magnetoreception",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1242/dev.132829",
+      "url": "https://doi.org/10.1242/dev.132829",
+      "title": "Slit-Robo signaling",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.bbr.2013.06.020",
+      "url": "https://doi.org/10.1016/j.bbr.2013.06.020",
+      "title": "Monogenic heritable autism gene neuroligin impacts Drosophila social behaviour",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rstb.2011.0280",
+      "url": "https://doi.org/10.1098/rstb.2011.0280",
+      "title": "The evolution of female ornaments and weaponry: social selection, sexual selection and ecological competition",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rstb.2012.0216",
+      "url": "https://doi.org/10.1098/rstb.2012.0216",
+      "title": "Linking behavioural syndromes and cognition: a behavioural ecology perspective",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pbio.0030245",
+      "url": "https://doi.org/10.1371/journal.pbio.0030245",
+      "title": "Evolution at Two Levels: On Genes and Form",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/978-94-007-0965-2_1",
+      "url": "https://doi.org/10.1007/978-94-007-0965-2_1",
+      "title": "Drosophila melanogaster, Drosophila simulans: so similar yet so different",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-94-007-0965-2_10",
+      "url": "https://doi.org/10.1007/978-94-007-0965-2_10",
+      "title": "Transposable element dynamics in two sibling species: Drosophila melanogaster and Drosophila simulans",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/978-94-007-0965-2_3",
+      "url": "https://doi.org/10.1007/978-94-007-0965-2_3",
+      "title": "Mitochondrial DNA in the Drosophila melanogaster complex",
+      "year": 2004,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/springerreference_301898",
+      "url": "https://doi.org/10.1007/springerreference_301898",
+      "title": "Aversive Learning in Drosophila melanogaster",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/springerreference_34992",
+      "url": "https://doi.org/10.1007/springerreference_34992",
+      "title": "Drosophila Melanogaster",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1036/1097-8542.yb110080",
+      "url": "https://doi.org/10.1036/1097-8542.yb110080",
+      "title": "Gene discovery in Drosophila melanogaster",
+      "year": null,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.53846/goediss-188",
+      "url": "https://doi.org/10.53846/goediss-188",
+      "title": "Expression analysis of Drosophila melanogaster microRNAs",
+      "year": null,
+      "source": "crossref"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "10_1016_j_conb_2025_103096",
+      "title": "Gut-brain communication in Drosophila melanogaster",
+      "year": 2025,
+      "doi": "10.1016/j.conb.2025.103096",
+      "abstract": "",
+      "journal": "Current Opinion in Neurobiology",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_20506_rst_41_1_3305",
+      "title": "The international exchange of Drosophila melanogaster strains",
+      "year": 2022,
+      "doi": "10.20506/rst.41.1.3305",
+      "abstract": "",
+      "journal": "Revue Scientifique et Technique de l'OIE",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1038_s41586-021-03451-0",
+      "title": "Towards complete and error-free genome assemblies of all vertebrate species",
+      "year": 2021,
+      "doi": "10.1038/s41586-021-03451-0",
+      "abstract": "High-quality and complete reference genome assemblies are fundamental for the application of genomics to biology, disease, and biodiversity conservation. However, such assemblies are available for only a few non-microbial species<sup>1-4</sup>. To address this issue, the international Genome 10K (G10K) consortium<sup>5,6</sup> has worked over a five-year period to evaluate and develop cost-effective methods for assembling highly accurate and nearly complete reference genomes. Here we present lessons learned from generating assemblies for 16 species that represent six major vertebrate lineages. We confirm that long-read sequencing technologies are essential for maximizing genome quality, and that unresolved complex repeats and haplotype heterozygosity are major sources of assembly error when not handled correctly. Our assemblies correct substantial errors, add missing sequence in some of the best historical reference genomes, and reveal biological discoveries. These include the identifi",
+      "journal": "Nature",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1146_annurev-neuro-072116-031347",
+      "title": "The Microbiome and Host Behavior",
+      "year": 2017,
+      "doi": "10.1146/annurev-neuro-072116-031347",
+      "abstract": "The microbiota is increasingly recognized for its ability to influence the development and function of the nervous system and several complex host behaviors. In this review, we discuss emerging roles for the gut microbiota in modulating host social and communicative behavior, stressor-induced behavior, and performance in learning and memory tasks. We summarize effects of the microbiota on host neurophysiology, including brain microstructure, gene expression, and neurochemical metabolism across regions of the amygdala, hippocampus, frontal cortex, and hypothalamus. We further assess evidence linking dysbiosis of the gut microbiota to neurobehavioral diseases, such as autism spectrum disorder and major depression, drawing upon findings from animal models and human trials. Finally, based on increasing associations between the microbiota, neurophysiology, and behavior, we consider whether investigating mechanisms underlying the microbiota-gut-brain axis could lead to novel approaches for t",
+      "journal": "Annual Review of Neuroscience",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1146_annurev-biophys-032116-094545",
+      "title": "The Radical-Pair Mechanism of Magnetoreception",
+      "year": 2016,
+      "doi": "10.1146/annurev-biophys-032116-094545",
+      "abstract": "Although it has been known for almost half a century that migratory birds can detect the direction of the Earth's magnetic field, the primary sensory mechanism behind this remarkable feat is still unclear. The leading hypothesis centers on radical pairs-magnetically sensitive chemical intermediates formed by photoexcitation of cryptochrome proteins in the retina. Our primary aim here is to explain the chemical and physical aspects of the radical-pair mechanism to biologists and the biological and chemical aspects to physicists. In doing so, we review the current state of knowledge on magnetoreception mechanisms. We dare to hope that this tutorial will stimulate new interdisciplinary experimental and theoretical work that will shed much-needed additional light on this fascinating problem in sensory biology.",
+      "journal": "Annual Review of Biophysics",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1242_dev_132829",
+      "title": "Slit-Robo signaling",
+      "year": 2016,
+      "doi": "10.1242/dev.132829",
+      "abstract": "Slits are secreted proteins that bind to Roundabout (Robo) receptors. Slit-Robo signaling is best known for mediating axon repulsion in the developing nervous system. However, in recent years the functional repertoire of Slits and Robo has expanded tremendously and Slit-Robo signaling has been linked to roles in neurogenesis, angiogenesis and cancer progression among other processes. Likewise, our mechanistic understanding of Slit-Robo signaling has progressed enormously. Here, we summarize new insights into Slit-Robo evolutionary and system-dependent diversity, receptor-ligand interactions, signaling crosstalk and receptor activation.",
+      "journal": "Development",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1016_j_bbr_2013_06_020",
+      "title": "Monogenic heritable autism gene neuroligin impacts Drosophila social behaviour",
+      "year": 2013,
+      "doi": "10.1016/j.bbr.2013.06.020",
+      "abstract": "",
+      "journal": "Behavioural Brain Research",
+      "open_access": 0,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rstb_2011_0280",
+      "title": "The evolution of female ornaments and weaponry: social selection, sexual selection and ecological competition",
+      "year": 2012,
+      "doi": "10.1098/rstb.2011.0280",
+      "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
+      "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1098_rstb_2012_0216",
+      "title": "Linking behavioural syndromes and cognition: a behavioural ecology perspective",
+      "year": 2012,
+      "doi": "10.1098/rstb.2012.0216",
+      "abstract": "With the exception of a few model species, individual differences in cognition remain relatively unstudied in non-human animals. One intriguing possibility is that variation in cognition is functionally related to variation in personality. Here, we review some examples and present hypotheses on relationships between personality (or behavioural syndromes) and individual differences in cognitive style. Our hypotheses are based largely on a connection between fast-slow behavioural types (BTs; e.g. boldness, aggressiveness, exploration tendency) and cognitive speed-accuracy trade-offs. We also discuss connections between BTs, cognition and ecologically important aspects of decision-making, including sampling, impulsivity, risk sensitivity and choosiness. Finally, we introduce the notion of cognition syndromes, and apply ideas from theories on adaptive behavioural syndromes to generate predictions on cognition syndromes.",
+      "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1371_journal_pbio_0030245",
+      "title": "Evolution at Two Levels: On Genes and Form",
+      "year": 2005,
+      "doi": "10.1371/journal.pbio.0030245",
+      "abstract": "Emerging knowledge about organismal evolution suggests that changes in the regulation of gene expression have played a major role - a thesis proposed 30 years ago by King and Wilson.",
+      "journal": "PLoS Biology",
+      "open_access": 1,
+      "source": "openalex",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-94-007-0965-2_1",
+      "title": "Drosophila melanogaster, Drosophila simulans: so similar yet so different",
+      "year": 2004,
+      "doi": "10.1007/978-94-007-0965-2_1",
+      "abstract": "",
+      "journal": "Contemporary Issues in Genetics and Evolution",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-94-007-0965-2_3",
+      "title": "Mitochondrial DNA in the Drosophila melanogaster complex",
+      "year": 2004,
+      "doi": "10.1007/978-94-007-0965-2_3",
+      "abstract": "",
+      "journal": "Contemporary Issues in Genetics and Evolution",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_978-94-007-0965-2_10",
+      "title": "Transposable element dynamics in two sibling species: Drosophila melanogaster and Drosophila simulans",
+      "year": 2004,
+      "doi": "10.1007/978-94-007-0965-2_10",
+      "abstract": "",
+      "journal": "Contemporary Issues in Genetics and Evolution",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_53846_goediss-188",
+      "title": "Expression analysis of Drosophila melanogaster microRNAs",
+      "year": null,
+      "doi": "10.53846/goediss-188",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_springerreference_34992",
+      "title": "Drosophila Melanogaster",
+      "year": null,
+      "doi": "10.1007/springerreference_34992",
+      "abstract": "",
+      "journal": "SpringerReference",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1036_1097-8542_yb110080",
+      "title": "Gene discovery in Drosophila melanogaster",
+      "year": null,
+      "doi": "10.1036/1097-8542.yb110080",
+      "abstract": "",
+      "journal": "AccessScience",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    },
+    {
+      "paper_id": "10_1007_springerreference_301898",
+      "title": "Aversive Learning in Drosophila melanogaster",
+      "year": null,
+      "doi": "10.1007/springerreference_301898",
+      "abstract": "",
+      "journal": "SpringerReference",
+      "open_access": 0,
+      "source": "crossref",
+      "developmental_stage": "unknown",
+      "main_outcome": "",
+      "dataset_available": "unknown",
+      "dataset_name": null
+    }
+  ],
+  "paper_count": 17,
+  "provenance": {
+    "taxonomy_source": "GBIF backbone",
+    "media_source": "Wikimedia Commons",
+    "literature_source": "Crossref + OpenAlex + pilot annotations",
+    "db_version": "0.3"
+  }
+}
