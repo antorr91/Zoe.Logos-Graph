@@ -1,0 +1,1080 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Paper",
+      "title": "Exploratory analysis of early-life chick calls",
+      "year": 2024,
+      "paper_id": "paper_001",
+      "communication_domain": "vocal",
+      "developmental_stage": "early-life",
+      "main_outcome": "Early-life calls show structured acoustic variation consistent with social signalling.",
+      "id": "paper::paper_001"
+    },
+    {
+      "label": "Species",
+      "common_name": "domestic chick",
+      "scientific_name": "Gallus gallus domesticus",
+      "taxonomic_family": "Phasianidae",
+      "id": "species::Gallus gallus domesticus"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "call",
+      "id": "voc::call"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "early social communication",
+      "id": "ctx::early social communication"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "social signalling",
+      "id": "fn::social signalling"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "computational acoustic analysis",
+      "id": "method::computational acoustic analysis"
+    },
+    {
+      "label": "Paper",
+      "title": "Alarm call specificity and predator class in vervet monkeys",
+      "year": 2019,
+      "paper_id": "paper_002",
+      "communication_domain": "vocal",
+      "developmental_stage": "adult",
+      "main_outcome": "Vervet monkeys produce acoustically distinct alarm calls for aerial and terrestrial predators, and conspecifics respond with appropriate anti-predator behaviour.",
+      "id": "paper::paper_002"
+    },
+    {
+      "label": "Species",
+      "common_name": "vervet monkey",
+      "scientific_name": "Chlorocebus pygerythrus",
+      "taxonomic_family": "Cercopithecidae",
+      "id": "species::Chlorocebus pygerythrus"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "alarm call",
+      "id": "voc::alarm call"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "predator response",
+      "id": "ctx::predator response"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "predator warning",
+      "id": "fn::predator warning"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "information transfer",
+      "id": "fn::information transfer"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "playback experiment",
+      "id": "method::playback experiment"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "spectrogram analysis",
+      "id": "method::spectrogram analysis"
+    },
+    {
+      "label": "Paper",
+      "title": "Song learning in zebra finches: the role of social feedback during the sensitive period",
+      "year": 2021,
+      "paper_id": "paper_003",
+      "communication_domain": "vocal",
+      "developmental_stage": "juvenile",
+      "main_outcome": "Social feedback from adult tutors during the sensitive period significantly accelerates song crystallisation and increases acoustic similarity to the tutor.",
+      "id": "paper::paper_003"
+    },
+    {
+      "label": "Species",
+      "common_name": "zebra finch",
+      "scientific_name": "Taeniopygia guttata",
+      "taxonomic_family": "Estrildidae",
+      "id": "species::Taeniopygia guttata"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "song",
+      "id": "voc::song"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "vocal learning",
+      "id": "ctx::vocal learning"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "courtship",
+      "id": "ctx::courtship"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "mate attraction",
+      "id": "fn::mate attraction"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "social learning",
+      "id": "fn::social learning"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "subsong",
+      "id": "voc::subsong"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "plastic song",
+      "id": "voc::plastic song"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "acoustic similarity scoring",
+      "id": "method::acoustic similarity scoring"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "cross-correlation",
+      "id": "method::cross-correlation"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "ANOVA",
+      "id": "method::ANOVA"
+    },
+    {
+      "label": "DatasetResource",
+      "name": "OSF_ZF_SongLearning_2021",
+      "availability": "yes",
+      "id": "dataset::OSF_ZF_SongLearning_2021"
+    },
+    {
+      "label": "Paper",
+      "title": "Signature whistles of bottlenose dolphins: individual identity and social context",
+      "year": 2022,
+      "paper_id": "paper_004",
+      "communication_domain": "vocal",
+      "developmental_stage": "adult",
+      "main_outcome": "Signature whistles are individually distinctive and produced more frequently during social separation events, supporting a role in individual recognition and group cohesion.",
+      "id": "paper::paper_004"
+    },
+    {
+      "label": "Species",
+      "common_name": "bottlenose dolphin",
+      "scientific_name": "Tursiops truncatus",
+      "taxonomic_family": "Delphinidae",
+      "id": "species::Tursiops truncatus"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "signature whistle",
+      "id": "voc::signature whistle"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "individual recognition",
+      "id": "ctx::individual recognition"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "group cohesion",
+      "id": "ctx::group cohesion"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "individual identity signalling",
+      "id": "fn::individual identity signalling"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "social affiliation",
+      "id": "fn::social affiliation"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "whistle",
+      "id": "voc::whistle"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "contour analysis",
+      "id": "method::contour analysis"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "dynamic time warping",
+      "id": "method::dynamic time warping"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "clustering",
+      "id": "method::clustering"
+    },
+    {
+      "label": "Paper",
+      "title": "Ultrasonic vocalisations in infant mice during maternal separation",
+      "year": 2020,
+      "paper_id": "paper_005",
+      "communication_domain": "vocal",
+      "developmental_stage": "early-life",
+      "main_outcome": "Infant mice produce acoustically heterogeneous ultrasonic vocalisations during separation; distinct call types cluster by developmental age and predict maternal retrieval probability.",
+      "id": "paper::paper_005"
+    },
+    {
+      "label": "Species",
+      "common_name": "house mouse",
+      "scientific_name": "Mus musculus",
+      "taxonomic_family": "Muridae",
+      "id": "species::Mus musculus"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "ultrasonic vocalisation",
+      "id": "voc::ultrasonic vocalisation"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "isolation",
+      "id": "ctx::isolation"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "parent-offspring interaction",
+      "id": "ctx::parent-offspring interaction"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "maternal retrieval",
+      "id": "fn::maternal retrieval"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "distress signalling",
+      "id": "fn::distress signalling"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "MUPET",
+      "id": "method::MUPET"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "UMAP",
+      "id": "method::UMAP"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "k-means clustering",
+      "id": "method::k-means clustering"
+    },
+    {
+      "label": "DatasetResource",
+      "name": "Dryad_MouseUSV_2020",
+      "availability": "yes",
+      "id": "dataset::Dryad_MouseUSV_2020"
+    },
+    {
+      "label": "Paper",
+      "title": "Humpback whale song evolution: cultural transmission across ocean basins",
+      "year": 2018,
+      "paper_id": "paper_006",
+      "communication_domain": "vocal",
+      "developmental_stage": "adult",
+      "main_outcome": "Novel song themes spread rapidly across ocean basins through cultural transmission from eastern to western populations, consistent with horizontal cultural diffusion.",
+      "id": "paper::paper_006"
+    },
+    {
+      "label": "Species",
+      "common_name": "humpback whale",
+      "scientific_name": "Megaptera novaeangliae",
+      "taxonomic_family": "Balaenopteridae",
+      "id": "species::Megaptera novaeangliae"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "long-distance communication",
+      "id": "ctx::long-distance communication"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "male competition",
+      "id": "fn::male competition"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "comparative analysis",
+      "id": "method::comparative analysis"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "network analysis",
+      "id": "method::network analysis"
+    },
+    {
+      "label": "Paper",
+      "title": "Contact calls mediate fission-fusion dynamics in long-tailed tits",
+      "year": 2023,
+      "paper_id": "paper_007",
+      "communication_domain": "vocal",
+      "developmental_stage": "adult",
+      "main_outcome": "Long-tailed tits preferentially respond to contact calls of familiar kin over non-kin, and call rate increases during group fission events, supporting a coordinating function.",
+      "id": "paper::paper_007"
+    },
+    {
+      "label": "Species",
+      "common_name": "long-tailed tit",
+      "scientific_name": "Aegithalos caudatus",
+      "taxonomic_family": "Aegithalidae",
+      "id": "species::Aegithalos caudatus"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "contact call",
+      "id": "voc::contact call"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "foraging",
+      "id": "ctx::foraging"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "group coordination",
+      "id": "fn::group coordination"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "individual recognition",
+      "id": "fn::individual recognition"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "random forest classification",
+      "id": "method::random forest classification"
+    },
+    {
+      "label": "DatasetResource",
+      "name": "Dryad_LTT_ContactCalls_2023",
+      "availability": "yes",
+      "id": "dataset::Dryad_LTT_ContactCalls_2023"
+    },
+    {
+      "label": "Paper",
+      "title": "Prenatal acoustic learning of maternal calls in domestic chicks",
+      "year": 2022,
+      "paper_id": "paper_008",
+      "communication_domain": "vocal",
+      "developmental_stage": "embryo",
+      "main_outcome": "Embryonic chicks exposed to maternal calls in ovo show preferential cardiac and behavioural responses to those calls after hatching, indicating prenatal acoustic learning.",
+      "id": "paper::paper_008"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "maternal recognition",
+      "id": "fn::maternal recognition"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "filial imprinting",
+      "id": "fn::filial imprinting"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "preference test",
+      "id": "method::preference test"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "heart rate measurement",
+      "id": "method::heart rate measurement"
+    },
+    {
+      "label": "Paper",
+      "title": "Vocal syntax and combinatorial rules in Japanese tits",
+      "year": 2016,
+      "paper_id": "paper_009",
+      "communication_domain": "vocal",
+      "developmental_stage": "adult",
+      "main_outcome": "Japanese tits combine two call types into a fixed-order sequence that elicits a distinct behavioural response not produced by either call alone, suggesting compositional syntax.",
+      "id": "paper::paper_009"
+    },
+    {
+      "label": "Species",
+      "common_name": "Japanese tit",
+      "scientific_name": "Parus minor",
+      "taxonomic_family": "Paridae",
+      "id": "species::Parus minor"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "group coordination",
+      "id": "ctx::group coordination"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "composite signal",
+      "id": "fn::composite signal"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "alarm and recruitment",
+      "id": "fn::alarm and recruitment"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "sequence analysis",
+      "id": "method::sequence analysis"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "video tracking",
+      "id": "method::video tracking"
+    },
+    {
+      "label": "Paper",
+      "title": "Echolocation call plasticity in big brown bats during obstacle avoidance",
+      "year": 2020,
+      "paper_id": "paper_010",
+      "communication_domain": "vocal",
+      "developmental_stage": "adult",
+      "main_outcome": "Big brown bats dynamically adjust call duration, interpulse interval, and frequency sweep in response to obstacle density, demonstrating context-dependent echolocation plasticity.",
+      "id": "paper::paper_010"
+    },
+    {
+      "label": "Species",
+      "common_name": "big brown bat",
+      "scientific_name": "Eptesicus fuscus",
+      "taxonomic_family": "Vespertilionidae",
+      "id": "species::Eptesicus fuscus"
+    },
+    {
+      "label": "VocalisationType",
+      "name": "echolocation call",
+      "id": "voc::echolocation call"
+    },
+    {
+      "label": "BehaviouralContext",
+      "name": "navigation",
+      "id": "ctx::navigation"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "spatial orientation",
+      "id": "fn::spatial orientation"
+    },
+    {
+      "label": "CommunicationFunction",
+      "name": "prey detection",
+      "id": "fn::prey detection"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "acoustic recording",
+      "id": "method::acoustic recording"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "high-speed videography",
+      "id": "method::high-speed videography"
+    },
+    {
+      "label": "AnalysisMethod",
+      "name": "call parameter analysis",
+      "id": "method::call parameter analysis"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_001",
+      "target": "species::Gallus gallus domesticus"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_001",
+      "target": "voc::call"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_001",
+      "target": "method::computational acoustic analysis"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Gallus gallus domesticus",
+      "target": "voc::call"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::call",
+      "target": "ctx::early social communication"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::call",
+      "target": "fn::social signalling"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::call",
+      "target": "ctx::parent-offspring interaction"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::call",
+      "target": "fn::maternal recognition"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::call",
+      "target": "fn::filial imprinting"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::call",
+      "target": "ctx::predator response"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::call",
+      "target": "ctx::group coordination"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::call",
+      "target": "fn::composite signal"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::call",
+      "target": "fn::alarm and recruitment"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_002",
+      "target": "species::Chlorocebus pygerythrus"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_002",
+      "target": "voc::alarm call"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_002",
+      "target": "method::playback experiment"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_002",
+      "target": "method::spectrogram analysis"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Chlorocebus pygerythrus",
+      "target": "voc::alarm call"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::alarm call",
+      "target": "ctx::predator response"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::alarm call",
+      "target": "fn::predator warning"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::alarm call",
+      "target": "fn::information transfer"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::alarm call",
+      "target": "ctx::group coordination"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::alarm call",
+      "target": "fn::composite signal"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::alarm call",
+      "target": "fn::alarm and recruitment"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_003",
+      "target": "species::Taeniopygia guttata"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_003",
+      "target": "voc::song"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_003",
+      "target": "voc::subsong"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_003",
+      "target": "voc::plastic song"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_003",
+      "target": "method::acoustic similarity scoring"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_003",
+      "target": "method::cross-correlation"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_003",
+      "target": "method::ANOVA"
+    },
+    {
+      "relation": "PAPER_LINKS_DATASET",
+      "source": "paper::paper_003",
+      "target": "dataset::OSF_ZF_SongLearning_2021"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Taeniopygia guttata",
+      "target": "voc::song"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Taeniopygia guttata",
+      "target": "voc::subsong"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Taeniopygia guttata",
+      "target": "voc::plastic song"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::song",
+      "target": "ctx::vocal learning"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::song",
+      "target": "ctx::courtship"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::song",
+      "target": "fn::mate attraction"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::song",
+      "target": "fn::social learning"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::song",
+      "target": "ctx::long-distance communication"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::song",
+      "target": "fn::male competition"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::subsong",
+      "target": "ctx::vocal learning"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::subsong",
+      "target": "ctx::courtship"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::subsong",
+      "target": "fn::mate attraction"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::subsong",
+      "target": "fn::social learning"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::plastic song",
+      "target": "ctx::vocal learning"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::plastic song",
+      "target": "ctx::courtship"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::plastic song",
+      "target": "fn::mate attraction"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::plastic song",
+      "target": "fn::social learning"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_004",
+      "target": "species::Tursiops truncatus"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_004",
+      "target": "voc::signature whistle"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_004",
+      "target": "voc::whistle"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_004",
+      "target": "method::contour analysis"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_004",
+      "target": "method::dynamic time warping"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_004",
+      "target": "method::clustering"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Tursiops truncatus",
+      "target": "voc::signature whistle"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Tursiops truncatus",
+      "target": "voc::whistle"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::signature whistle",
+      "target": "ctx::individual recognition"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::signature whistle",
+      "target": "ctx::group cohesion"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::signature whistle",
+      "target": "fn::individual identity signalling"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::signature whistle",
+      "target": "fn::social affiliation"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::whistle",
+      "target": "ctx::individual recognition"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::whistle",
+      "target": "ctx::group cohesion"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::whistle",
+      "target": "fn::individual identity signalling"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::whistle",
+      "target": "fn::social affiliation"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_005",
+      "target": "species::Mus musculus"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_005",
+      "target": "voc::ultrasonic vocalisation"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_005",
+      "target": "method::MUPET"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_005",
+      "target": "method::UMAP"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_005",
+      "target": "method::k-means clustering"
+    },
+    {
+      "relation": "PAPER_LINKS_DATASET",
+      "source": "paper::paper_005",
+      "target": "dataset::Dryad_MouseUSV_2020"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Mus musculus",
+      "target": "voc::ultrasonic vocalisation"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::ultrasonic vocalisation",
+      "target": "ctx::isolation"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::ultrasonic vocalisation",
+      "target": "ctx::parent-offspring interaction"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::ultrasonic vocalisation",
+      "target": "fn::maternal retrieval"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::ultrasonic vocalisation",
+      "target": "fn::distress signalling"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_006",
+      "target": "species::Megaptera novaeangliae"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_006",
+      "target": "voc::song"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_006",
+      "target": "method::acoustic similarity scoring"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_006",
+      "target": "method::comparative analysis"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_006",
+      "target": "method::network analysis"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Megaptera novaeangliae",
+      "target": "voc::song"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_007",
+      "target": "species::Aegithalos caudatus"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_007",
+      "target": "voc::contact call"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_007",
+      "target": "method::playback experiment"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_007",
+      "target": "method::random forest classification"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_007",
+      "target": "method::spectrogram analysis"
+    },
+    {
+      "relation": "PAPER_LINKS_DATASET",
+      "source": "paper::paper_007",
+      "target": "dataset::Dryad_LTT_ContactCalls_2023"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Aegithalos caudatus",
+      "target": "voc::contact call"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::contact call",
+      "target": "ctx::group cohesion"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::contact call",
+      "target": "ctx::foraging"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::contact call",
+      "target": "fn::group coordination"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::contact call",
+      "target": "fn::individual recognition"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_008",
+      "target": "species::Gallus gallus domesticus"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_008",
+      "target": "voc::call"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_008",
+      "target": "method::playback experiment"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_008",
+      "target": "method::preference test"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_008",
+      "target": "method::heart rate measurement"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_009",
+      "target": "species::Parus minor"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_009",
+      "target": "voc::call"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_009",
+      "target": "voc::alarm call"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_009",
+      "target": "method::playback experiment"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_009",
+      "target": "method::sequence analysis"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_009",
+      "target": "method::video tracking"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Parus minor",
+      "target": "voc::call"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Parus minor",
+      "target": "voc::alarm call"
+    },
+    {
+      "relation": "PAPER_STUDIES_SPECIES",
+      "source": "paper::paper_010",
+      "target": "species::Eptesicus fuscus"
+    },
+    {
+      "relation": "PAPER_REPORTS_VOCALISATION",
+      "source": "paper::paper_010",
+      "target": "voc::echolocation call"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_010",
+      "target": "method::acoustic recording"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_010",
+      "target": "method::high-speed videography"
+    },
+    {
+      "relation": "PAPER_USES_METHOD",
+      "source": "paper::paper_010",
+      "target": "method::call parameter analysis"
+    },
+    {
+      "relation": "SPECIES_PRODUCES_VOCALISATION",
+      "source": "species::Eptesicus fuscus",
+      "target": "voc::echolocation call"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::echolocation call",
+      "target": "ctx::foraging"
+    },
+    {
+      "relation": "VOCALISATION_OCCURS_IN_CONTEXT",
+      "source": "voc::echolocation call",
+      "target": "ctx::navigation"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::echolocation call",
+      "target": "fn::spatial orientation"
+    },
+    {
+      "relation": "VOCALISATION_HAS_FUNCTION",
+      "source": "voc::echolocation call",
+      "target": "fn::prey detection"
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zoe.Logos-Graph — Species Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e0f11;--surface:#161820;--surface2:#1e2028;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);--text:#e8e9ec;--muted:#7a7e8a;--hint:#454854;--amber:#e8a427;--amber-dim:rgba(232,164,39,0.12);--teal:#2cb88a;--teal-dim:rgba(44,184,138,0.12);--violet:#9b8ef0;--violet-dim:rgba(155,142,240,0.12);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50;background:rgba(14,15,17,0.7);backdrop-filter:blur(16px)}
+.logo{font-family:'DM Serif Display',serif;font-size:17px;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:0;letter-spacing:-0.02em}
+.logo .a{color:var(--amber)}
+.logo-sub{font-size:11px;color:var(--muted);font-weight:300;margin-left:8px;letter-spacing:0;font-family:'DM Sans',sans-serif}
+.nav-links{display:flex;gap:1.5rem;align-items:center}
+.nav-links a{font-size:13px;color:var(--muted);text-decoration:none}.nav-links a:hover{color:var(--text)}
+.nav-gh{font-size:12px;padding:5px 14px;border:1px solid var(--border2);border-radius:99px;color:var(--text);text-decoration:none}
+
+/* search view */
+#sv{max-width:1100px;margin:0 auto;padding:0 2rem 3rem;position:relative;z-index:1}
+.hero{padding:3rem 0 2rem;display:grid;grid-template-columns:1fr auto;align-items:end;gap:1rem;border-bottom:1px solid var(--border);margin-bottom:2rem}
+.hero h1{font-family:'DM Serif Display',serif;font-size:36px;font-weight:400;color:var(--text);line-height:1.15}
+.hero h1 em{font-style:italic;color:var(--amber)}
+.hero-meta{font-size:12px;color:var(--muted);text-align:right;line-height:1.8}
+.sw{position:relative;margin-bottom:.6rem}
+.sw input{width:100%;font-family:'DM Sans',sans-serif;font-size:15px;font-weight:300;padding:14px 20px 14px 48px;background:var(--surface);border:1px solid var(--border2);border-radius:12px;color:var(--text);outline:none;transition:border-color .2s}
+.sw input:focus{border-color:rgba(232,164,39,.5)}
+.sw input::placeholder{color:var(--hint)}
+.si{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:18px;pointer-events:none}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1.5rem}
+.fchip{font-size:11px;padding:4px 12px;border-radius:99px;border:1px solid var(--border);color:var(--hint);cursor:pointer;background:none;font-family:'DM Sans',sans-serif;transition:all .15s}
+.fchip:hover,.fchip.on{color:var(--amber);border-color:rgba(232,164,39,.4);background:var(--amber-dim)}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1px;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.scard{background:var(--surface);cursor:pointer;overflow:hidden;transition:background .15s}
+.scard:hover{background:var(--surface2)}
+.sthumb{height:130px;background:var(--surface2);overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
+.sthumb img{width:100%;height:100%;object-fit:cover;display:block;opacity:.85;transition:opacity .2s;position:absolute;inset:0}
+.scard:hover .sthumb img{opacity:1}
+.sph{font-size:11px;color:var(--hint)}
+.scb{padding:12px 14px}
+.scn{font-size:14px;font-weight:500;color:var(--text);margin-bottom:2px;text-transform:capitalize}
+.scs{font-size:11px;font-style:italic;color:var(--muted);margin-bottom:6px}
+.sct{display:flex;gap:4px;flex-wrap:wrap}
+.stg{font-size:10px;padding:2px 7px;border-radius:99px;border:1px solid var(--border);color:var(--muted)}
+.stg-has{border-color:rgba(232,164,39,.3);color:var(--amber);background:var(--amber-dim)}
+.no-r{grid-column:1/-1;padding:3rem;text-align:center;color:var(--muted);font-size:14px}
+.loading{grid-column:1/-1;padding:3rem;text-align:center;color:var(--muted);font-size:13px}
+
+/* detail view */
+#dv{display:none;max-width:900px;margin:0 auto;padding:0 2rem 3rem;position:relative;z-index:1}
+.back{background:none;border:none;color:var(--muted);font-family:'DM Sans',sans-serif;font-size:13px;cursor:pointer;padding:1.5rem 0;display:flex;align-items:center;gap:6px}.back:hover{color:var(--text)}
+.sph2{display:grid;grid-template-columns:110px 1fr;gap:1.5rem;align-items:start;margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid var(--border)}
+.spi{width:110px;height:110px;border-radius:50%;object-fit:cover;border:2px solid var(--border2)}
+.spph{width:110px;height:110px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;color:var(--hint);font-size:11px;border:2px solid var(--border)}
+.spt{font-family:'DM Serif Display',serif;font-size:28px;font-weight:400;color:var(--text);text-transform:capitalize;margin-bottom:4px}
+.spsc{font-style:italic;font-size:14px;color:var(--muted);margin-bottom:12px}
+.bdgs{display:flex;flex-wrap:wrap;gap:6px}
+.bdg{font-size:11px;padding:3px 10px;border-radius:99px;border:1px solid}
+.bn{color:var(--muted);border-color:var(--border);background:var(--surface2)}
+.bt{color:var(--teal);border-color:rgba(44,184,138,.3);background:var(--teal-dim)}
+.bv{color:var(--violet);border-color:rgba(155,142,240,.3);background:var(--violet-dim)}
+.ba{color:var(--amber);border-color:rgba(232,164,39,.3);background:var(--amber-dim)}
+.tabs{display:flex;border-bottom:1px solid var(--border);margin-bottom:2rem}
+.tab{font-family:'DM Sans',sans-serif;font-size:13px;padding:10px 18px;border:none;background:none;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s}
+.tab:hover{color:var(--text)}.tab.on{color:var(--amber);border-bottom-color:var(--amber)}
+.gw{border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:1.5rem;background:var(--surface)}
+.igrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1.5rem}
+.ic{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}
+.ic label{font-size:10px;color:var(--hint);text-transform:uppercase;letter-spacing:.07em;display:block;margin-bottom:4px}
+.ic span{font-size:13px;color:var(--text);font-weight:300}
+.ic a{font-size:13px;color:var(--amber);text-decoration:none}
+.wb{font-size:13px;color:var(--muted);line-height:1.75;font-weight:300;margin-bottom:6px}
+.ws{font-size:11px;color:var(--hint);margin-bottom:1.5rem}
+.cs{margin-bottom:1.25rem}
+.cl{font-size:10px;font-weight:500;color:var(--hint);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tg{font-size:12px;padding:5px 12px;border-radius:99px;border:1px solid}
+.tv{color:var(--amber);border-color:rgba(232,164,39,.35);background:var(--amber-dim)}
+.tc{color:var(--teal);border-color:rgba(44,184,138,.35);background:var(--teal-dim)}
+.tf{color:var(--violet);border-color:rgba(155,142,240,.35);background:var(--violet-dim)}
+.tm{color:var(--muted);border-color:var(--border);background:var(--surface2)}
+/* papers */
+.pc{border-bottom:1px solid var(--border);padding:18px 0}.pc:last-child{border-bottom:none}
+.pt{font-size:15px;font-weight:400;color:#7eb8e8;margin-bottom:5px;cursor:pointer}
+.pt:hover{text-decoration:underline}
+.pau{font-size:13px;color:var(--muted);margin-bottom:3px}
+.pm{font-size:12px;color:var(--hint);margin-bottom:8px}
+.po{font-size:12px;color:var(--hint);line-height:1.65;font-weight:300;margin-bottom:10px;font-style:italic}
+.pacts{display:flex;gap:8px;flex-wrap:wrap}
+.pact{font-size:11px;padding:3px 10px;border:1px solid var(--border2);border-radius:4px;background:none;color:var(--muted);cursor:pointer;font-family:'DM Sans',sans-serif;text-decoration:none;display:inline-block}
+.pact:hover{color:var(--amber);border-color:rgba(232,164,39,.4)}
+.nop{padding:2rem;background:var(--surface);border:1px solid var(--border);border-radius:10px;text-align:center;color:var(--muted);font-size:13px;font-weight:300;line-height:2}
+.nop code{font-family:monospace;color:var(--amber);font-size:11px}
+/* audio */
+.ac{border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:12px;background:var(--surface)}
+.am{font-size:12px;color:var(--muted);margin-bottom:10px;line-height:1.5}
+.am strong{color:var(--amber);font-weight:500}
+.sono{width:100%;border-radius:8px;margin-bottom:10px;display:block;border:1px solid var(--border)}
+audio{width:100%;margin-bottom:8px;accent-color:var(--amber)}
+.xcl{font-size:12px;color:var(--amber);text-decoration:none}.xcl:hover{text-decoration:underline}
+.extlinks a{display:block;font-size:13px;color:var(--amber);text-decoration:none;padding:8px 0;border-bottom:1px solid var(--border)}
+.extlinks a:hover{text-decoration:underline}.extlinks a:last-child{border-bottom:none}
+.noaud{text-align:center;padding:2.5rem;background:var(--surface);border:1px solid var(--border);border-radius:10px;color:var(--muted);font-size:13px;font-weight:300;line-height:2}
+.noaud a{color:var(--amber);text-decoration:none}
+.lm{font-size:13px;color:var(--muted);padding:1rem 0}
+/* export popup */
+.epop{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center}
+.ebox{background:var(--surface);border:1px solid var(--border2);border-radius:12px;padding:1.5rem;max-width:520px;width:90%}
+.ebox h3{font-size:14px;font-weight:500;color:var(--text);margin-bottom:1rem}
+.ebox pre{font-size:11px;color:var(--teal);background:var(--bg);border-radius:8px;padding:12px;overflow-x:auto;white-space:pre-wrap;margin-bottom:1rem;font-family:monospace}
+.ebtns{display:flex;gap:8px}
+.eb{font-size:12px;padding:6px 14px;border-radius:6px;cursor:pointer;font-family:'DM Sans',sans-serif;border:none}
+.ebp{background:var(--amber);color:#0e0f11}.ebg{background:none;border:1px solid var(--border2);color:var(--muted)}
+</style>
+</head>
+<body>
+
+<div id="habitat-bg" style="position:fixed;inset:0;z-index:-2;pointer-events:none;background-size:cover;background-position:center;filter:blur(56px) saturate(1.6);transform:scale(1.12);opacity:0;transition:opacity 1.2s ease;"></div>
+<div id="habitat-ov" style="position:fixed;inset:0;z-index:-1;pointer-events:none;background:rgba(14,15,17,0.82);opacity:0;transition:opacity 1.2s ease;"></div>
+
+
+<style>
+/* ── LITERATURE TAB ─────────────────────────────────────── */
+#lv{display:none;max-width:1100px;margin:0 auto;padding:0 2rem 3rem}
+.lit-hero{padding:2rem 0 1.5rem;border-bottom:1px solid var(--border);margin-bottom:2rem}
+.lit-hero h1{font-family:'DM Serif Display',serif;font-size:28px;font-weight:400;color:var(--text)}
+.lit-hero h1 em{font-style:italic;color:var(--amber)}
+.lit-hero p{font-size:13px;color:var(--muted);margin-top:.4rem}
+.lit-group{margin-bottom:2.5rem}
+.lit-theme{font-family:'DM Serif Display',serif;font-size:20px;font-weight:400;margin-bottom:.3rem;display:flex;align-items:center;gap:10px}
+.lit-theme .tdot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.lit-theme-desc{font-size:12px;color:var(--muted);margin-bottom:1rem;padding-bottom:.8rem;border-bottom:1px solid var(--border)}
+.lit-theme-stats{font-size:11px;color:var(--hint);margin-top:2px}
+.lit-paper{padding:.9rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;margin-bottom:.5rem;transition:border-color .15s}
+.lit-paper:hover{border-color:var(--border2)}
+.lit-paper-title{font-size:13.5px;font-weight:400;color:var(--text);margin-bottom:4px}
+.lit-paper-meta{font-size:11px;color:var(--muted);margin-bottom:4px}
+.lit-paper-meta a{color:var(--amber);text-decoration:none;font-family:'DM Mono',monospace;font-size:10px}
+.lit-paper-meta a:hover{text-decoration:underline}
+.lit-paper-species{font-size:11px;color:var(--teal);font-style:italic}
+.lit-paper-outcome{font-size:12px;color:var(--hint);font-style:italic;margin-top:5px;line-height:1.55}
+
+/* ── GRAPH TAB ──────────────────────────────────────────── */
+#gv{display:none;height:calc(100vh - 60px);display:none;flex-direction:column}
+.graph-toolbar{display:flex;align-items:center;gap:10px;padding:.6rem 1.5rem;border-bottom:1px solid var(--border);flex-shrink:0}
+.graph-mode-btns{display:flex;gap:2px;background:var(--surface);border-radius:8px;padding:2px;border:1px solid var(--border)}
+.gm-btn{font-size:11.5px;padding:5px 14px;border:none;background:none;color:var(--muted);cursor:pointer;border-radius:6px;font-family:'DM Sans',sans-serif;transition:.15s}
+.gm-btn:hover{color:var(--text)}
+.gm-btn.active{color:var(--amber);background:var(--amber-dim)}
+.graph-legend{display:flex;flex-wrap:wrap;gap:5px;margin-left:1rem}
+.gl-item{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--muted);padding:2px 7px;border-radius:10px;border:1px solid var(--border)}
+.gl-dot{width:8px;height:8px;border-radius:50%}
+.graph-stats{margin-left:auto;font-size:11px;color:var(--hint);font-family:'DM Mono',monospace}
+#graph-canvas{flex:1;cursor:grab;background:var(--bg)}
+#graph-canvas:active{cursor:grabbing}
+.graph-info{position:absolute;bottom:20px;left:20px;background:var(--surface);border:1px solid var(--border2);border-radius:10px;padding:1rem;max-width:320px;display:none;z-index:10}
+.graph-info.show{display:block}
+.graph-info h4{font-size:14px;color:var(--text);font-family:'DM Serif Display',serif;margin-bottom:.3rem}
+.graph-info p{font-size:11.5px;color:var(--muted);line-height:1.5}
+.graph-info .close-gi{background:none;border:none;color:var(--muted);cursor:pointer;font-size:16px;float:right}
+
+/* ── COMPARE TAB ────────────────────────────────────────── */
+#cv{display:none;max-width:1100px;margin:0 auto;padding:0 2rem 3rem}
+.cmp-hero{padding:2rem 0 1.5rem;border-bottom:1px solid var(--border);margin-bottom:1.5rem}
+.cmp-slots{display:flex;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap}
+.cmp-slot{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1rem;min-width:160px;flex:1;text-align:center}
+.cmp-slot-sci{font-style:italic;font-size:13px;color:var(--text)}
+.cmp-slot-en{font-size:11px;color:var(--muted)}
+.cmp-rm{background:none;border:none;color:#ff6b6b;cursor:pointer;font-size:11px;margin-top:4px;font-family:'DM Sans',sans-serif}
+.cmp-table{width:100%;border-collapse:collapse;font-size:12.5px}
+.cmp-table th{text-align:left;padding:8px 10px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--amber);border-bottom:1px solid var(--border);font-weight:500}
+.cmp-table td{padding:8px 10px;border-bottom:1px solid var(--border);color:var(--muted);vertical-align:top}
+.cmp-table td:first-child{color:var(--hint);font-weight:500;width:140px}
+.cmp-table tr:hover td{background:var(--surface)}
+.overlap-section{margin-top:1.5rem}
+.overlap-section h3{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--amber);margin-bottom:.8rem}
+.overlap-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.overlap-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1rem}
+.overlap-card h4{font-size:12px;color:var(--text);margin-bottom:.5rem}
+.shared-tag{font-size:10px;padding:3px 8px;border-radius:99px;display:inline-block;margin:2px;background:var(--amber-dim);color:var(--amber);border:1px solid rgba(232,164,39,.25)}
+.unique-tag{font-size:10px;padding:3px 8px;border-radius:99px;display:inline-block;margin:2px;background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
+
+/* ── THEME TAGS IN SPECIES CARDS ────────────────────────── */
+.theme-tags{display:flex;flex-wrap:wrap;gap:3px;margin-top:5px}
+.ttag{font-size:9px;padding:2px 6px;border-radius:99px;font-weight:400}
+
+/* ── COMPARE CHECKBOX ON CARDS ──────────────────────────── */
+.card-cmp{position:absolute;top:8px;right:8px;width:20px;height:20px;border-radius:50%;border:1.5px solid var(--border2);background:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:10px;color:var(--hint);transition:.15s;z-index:2}
+.card-cmp:hover,.card-cmp.sel{background:var(--amber);border-color:var(--amber);color:var(--bg)}
+
+/* ── COMPARE BAR ────────────────────────────────────────── */
+.cmp-bar{position:fixed;bottom:0;left:0;right:0;z-index:90;background:var(--surface);border-top:1px solid var(--border2);padding:.6rem 1.5rem;display:flex;align-items:center;gap:10px;transform:translateY(100%);transition:.25s}
+.cmp-bar.vis{transform:translateY(0)}
+.cmp-bar-names{font-size:12px;color:var(--muted);flex:1}
+.cmp-bar-go{font-size:12px;padding:6px 16px;border-radius:6px;border:none;background:var(--amber);color:var(--bg);cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:500}
+.cmp-bar-clr{font-size:11px;padding:5px 12px;border-radius:6px;border:1px solid var(--border2);background:none;color:var(--muted);cursor:pointer;font-family:'DM Sans',sans-serif}
+
+/* Responsive additions */
+@media(max-width:700px){
+  .overlap-grid{grid-template-columns:1fr}
+  .cmp-slots{flex-direction:column}
+}
+</style>
+
+<nav>
+  <a class="logo" href="#">
+    <span>Zoe<span class="a">.</span>Logos<span class="a">-</span>Graph</span>
+    <span class="logo-sub">v1.0</span>
+  </a>
+  <div class="nav-links">
+    <a href="#" onclick="showView('sv');return false" id="nl-species" style="color:var(--amber)">species</a>
+    <a href="#" onclick="showView('gv');return false" id="nl-graph">graph</a>
+    <a href="#" onclick="showView('lv');return false" id="nl-literature">literature</a>
+    <a href="#" onclick="showView('cv');return false" id="nl-compare">compare</a>
+    <a class="nav-gh" href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">github →</a>
+  </div>
+</nav>
+
+<div id="sv">
+  <div class="hero">
+    <h1>Species <em>communication</em><br>profiles</h1>
+    <div class="hero-meta" id="hm">loading…</div>
+  </div>
+  <div class="sw"><span class="si">⌕</span>
+    <input type="text" id="qi" placeholder="zebra finch · diamante mandarino · megattera · Mus musculus …" autocomplete="off">
+  </div>
+  <div class="filters" id="flt">
+    <button class="fchip on" data-f="all">all</button>
+    <button class="fchip" data-f="Aves">birds</button>
+    <button class="fchip" data-f="Mammalia">mammals</button>
+    <button class="fchip" data-f="Amphibia">amphibians</button>
+    <button class="fchip" data-f="Insecta">insects</button>
+    <button class="fchip" data-f="Actinopterygii">fish</button>
+    <button class="fchip" data-f="Reptilia">reptiles</button>
+  </div>
+  <div class="filters" id="theme-flt"></div>
+  <div class="sgrid" id="sg"></div>
+</div>
+
+<div id="dv">
+  <button class="back" onclick="showSearch()">← back to all species</button>
+  <div id="detail-content"></div>
+</div>
+
+<div id="lv">
+  <div class="lit-hero">
+    <h1>Literature by <em>research theme</em></h1>
+    <p>All curated papers organised by research theme. Click DOI to access the original publication.</p>
+  </div>
+  <div id="lit-content"></div>
+</div>
+
+<div id="gv" style="display:none;flex-direction:column;height:calc(100vh - 52px)">
+  <div class="graph-toolbar">
+    <div class="graph-mode-btns">
+      <button class="gm-btn active" onclick="setGraphMode('theme',this)">By Theme</button>
+      <button class="gm-btn" onclick="setGraphMode('class',this)">By Class</button>
+      <button class="gm-btn" onclick="setGraphMode('function',this)">By Function</button>
+    </div>
+    <div class="graph-legend" id="graph-legend"></div>
+    <div class="graph-stats" id="graph-stats"></div>
+  </div>
+  <div style="flex:1;position:relative">
+    <canvas id="graph-canvas"></canvas>
+    <div class="graph-info" id="graph-info">
+      <button class="close-gi" onclick="this.parentElement.classList.remove('show')">×</button>
+      <h4 id="gi-title"></h4>
+      <p id="gi-body"></p>
+    </div>
+  </div>
+</div>
+
+<div id="cv">
+  <div class="cmp-hero">
+    <h1 style="font-family:'DM Serif Display',serif;font-size:28px;font-weight:400">Species <em style="color:var(--amber);font-style:italic">comparison</em></h1>
+    <p style="font-size:13px;color:var(--muted);margin-top:.4rem">Select 2–4 species from the Species tab (click ✓), then navigate here.</p>
+  </div>
+  <div class="cmp-slots" id="cmp-slots"></div>
+  <table class="cmp-table" id="cmp-table" style="display:none"></table>
+  <div class="overlap-section" id="cmp-overlap" style="display:none"></div>
+</div>
+
+<div class="cmp-bar" id="cmp-bar">
+  <span class="cmp-bar-names" id="cmp-bar-names"></span>
+  <button class="cmp-bar-go" onclick="showView('cv')">Compare →</button>
+  <button class="cmp-bar-clr" onclick="clearCompare()">Clear</button>
+</div>
+<script>
+const EMBEDDED_DB = [{"sci":"Amphiprion ocellaris","en":"clownfish","it":"pesce pagliaccio","es":"pez payaso","fr":"poisson-clown","de":"clownfisch","class_":"Actinopterygii","order_":"Perciformes","family":"Pomacentridae","wiki":"Ocellaris_clownfish","xc":"","voc":["chirp","pop"],"ctx":["territorial defence","social hierarchy"],"fn":["territory signalling","dominance communication"],"papers":[{"title":"Clownfish acoustic dominance signals","year":2016,"doi":"10.1371/journal.pone.0163426","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0163426","outcome":"Clownfish produce chirps and pops to maintain social dominance hierarchy.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Danio rerio","en":"zebrafish","it":"pesce zebra","es":"pez cebra","fr":"poisson zèbre","de":"zebrabärbling","class_":"Actinopterygii","order_":"Cypriniformes","family":"Danionidae","wiki":"Zebrafish","xc":"","voc":["pulse"],"ctx":["social communication","alarm"],"fn":["shoal cohesion","alarm communication"],"papers":[{"title":"Zebrafish acoustic communication","year":2012,"doi":"10.1371/journal.pone.0030962","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0030962","outcome":"Zebrafish produce pulse sounds during social interactions and shoal coordination.","open_access":1}],"themes":["multimodal"]},{"sci":"Gadus morhua","en":"atlantic cod","it":"merluzzo atlantico","es":"bacalao del Atlántico","fr":"morue de l'Atlantique","de":"atlantischer kabeljau","class_":"Actinopterygii","order_":"Gadiformes","family":"Gadidae","wiki":"Atlantic_cod","xc":"","voc":["grunt","knock"],"ctx":["spawning","male competition","courtship"],"fn":["mate attraction","male competition"],"papers":[{"title":"Atlantic cod acoustic spawning behaviour","year":2002,"doi":"10.1006/anbe.2001.1925","journal":"Animal Behaviour","url":"https://doi.org/10.1006/anbe.2001.1925","outcome":"Male cod grunt rate predicts spawning success and encodes male competitive quality.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Oreochromis niloticus","en":"nile tilapia","it":"tilapia del nilo","es":"tilapia del Nilo","fr":"tilapia du Nil","de":"niltilapia","class_":"Actinopterygii","order_":"Perciformes","family":"Cichlidae","wiki":"Nile_tilapia","xc":"","voc":["drumming","grunt"],"ctx":["courtship","male competition"],"fn":["mate attraction","male competition"],"papers":[{"title":"Tilapia acoustic courtship","year":2006,"doi":"10.1111/j.1095-8649.2006.01032.x","journal":"J Fish Biology","url":"https://doi.org/10.1111/j.1095-8649.2006.01032.x","outcome":"Male tilapia produce drumming sounds during courtship that females use to assess mate quality.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Pollachius virens","en":"saithe","it":"merluzzo carbonaro","es":"carbonero","fr":"lieu noir","de":"köhler","class_":"Actinopterygii","order_":"Gadiformes","family":"Gadidae","wiki":"Pollock_(fish)","xc":"","voc":["grunt"],"ctx":["spawning","male competition"],"fn":["mate attraction","male competition"],"papers":[{"title":"Saithe spawning acoustics","year":2015,"doi":"10.1093/icesjms/fsv153","journal":"ICES J Marine Science","url":"https://doi.org/10.1093/icesjms/fsv153","outcome":"Male saithe grunt rate increases during spawning and correlates with reproductive success.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Porichthys notatus","en":"midshipman fish","it":"pesce illuminato","es":"pez lucerna","fr":"poisson lamparo","de":"leuchtfisch","class_":"Actinopterygii","order_":"Batrachoidiformes","family":"Batrachoididae","wiki":"Plainfin_midshipman_fish","xc":"","voc":["hum","grunt"],"ctx":["courtship","territorial defence"],"fn":["mate attraction","territory signalling"],"papers":[{"title":"Midshipman fish acoustic communication","year":2011,"doi":"10.1016/j.cub.2011.05.026","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2011.05.026","outcome":"Midshipman fish produce long-duration hums for mate attraction in nesting territories.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Sebastes mystinus","en":"blue rockfish","it":"pesce roccia blu","es":"pez roca azul","fr":"sebaste mystinus","de":"blauer felsenbarsch","class_":"Actinopterygii","order_":"Scorpaeniformes","family":"Sebastidae","wiki":"Blue_rockfish","xc":"","voc":["knocking","thumping"],"ctx":["territorial defence","social communication"],"fn":["territory signalling","dominance communication"],"papers":[{"title":"Rockfish acoustic dominance","year":2019,"doi":"10.1093/beheco/ary118","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/ary118","outcome":"Blue rockfish produce knocking sounds to establish and maintain dominance hierarchies.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Bombina variegata","en":"yellow-bellied toad","it":"ululone dal ventre giallo","es":"sapillo de vientre amarillo","fr":"sonneur à ventre jaune","de":"gelbbauchunke","class_":"Amphibia","order_":"Anura","family":"Bombinatoridae","wiki":"Yellow-bellied_toad","xc":"Bombina variegata","voc":["advertisement call"],"ctx":["mate attraction","chorus"],"fn":["mate attraction","species recognition"],"papers":[{"title":"Yellow-bellied toad calls and habitat","year":2008,"doi":"10.1163/15685381-00002925","journal":"Amphibia-Reptilia","url":"https://doi.org/10.1163/15685381-00002925","outcome":"Bombina call properties vary with water temperature and calling microhabitat.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Bufo bufo","en":"common toad","it":"rospo comune","es":"sapo común","fr":"crapaud commun","de":"erdkröte","class_":"Amphibia","order_":"Anura","family":"Bufonidae","wiki":"Common_toad","xc":"Bufo bufo","voc":["advertisement call","release call"],"ctx":["mate attraction","male combat"],"fn":["mate attraction","male-male competition"],"papers":[{"title":"Toad mating calls and size assessment","year":2021,"doi":"10.1007/s10071-020-01388-4","journal":"Animal Cognition","url":"https://doi.org/10.1007/s10071-020-01388-4","outcome":"Male common toads use call pitch to assess rival size during amplexus fights.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Dendrobates auratus","en":"green poison dart frog","it":"dendrobate verde e nero","es":"rana venenosa verde y negra","fr":"dendrobate doré","de":"grüner pfeilgiftfrosch","class_":"Amphibia","order_":"Anura","family":"Dendrobatidae","wiki":"Green_and_black_poison_dart_frog","xc":"Dendrobates auratus","voc":["advertisement call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Poison dart frog advertisement calls","year":2010,"doi":"10.1093/beheco/arq010","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arq010","outcome":"Female green poison dart frogs prefer calls with higher pulse rates.","open_access":1}],"themes":["multimodal","honest_signalling"]},{"sci":"Engystomops pustulosus","en":"túngara frog","it":"rana túngara","es":"rana túngara","fr":"grenouille túngara","de":"túngara-frosch","class_":"Amphibia","order_":"Anura","family":"Leptodactylidae","wiki":"Túngara_frog","xc":"Engystomops pustulosus","voc":["advertisement call","chuck"],"ctx":["mate attraction","sexual selection"],"fn":["mate attraction","species recognition","female choice"],"papers":[{"title":"Sexual selection and call complexity in túngara frogs","year":1974,"doi":"10.1126/science.185.4149.372","journal":"Science","url":"https://doi.org/10.1126/science.185.4149.372","outcome":"Female túngara frogs prefer complex calls with chucks, but chuck addition increases predation risk.","open_access":1},{"title":"Receiver psychology and call evolution","year":2001,"doi":"10.1016/S0003-3472(01)00088-X","journal":"Animal Behaviour","url":"https://doi.org/10.1016/S0003-3472(01)00088-X","outcome":"Female preferences drive the evolution of increasingly complex advertisement calls.","open_access":1}],"themes":["honest_signalling","multimodal"]},{"sci":"Hyla arborea","en":"european treefrog","it":"raganella europea","es":"ranita meridional","fr":"rainette verte","de":"europäischer laubfrosch","class_":"Amphibia","order_":"Anura","family":"Hylidae","wiki":"European_tree_frog","xc":"Hyla arborea","voc":["advertisement call"],"ctx":["mate attraction","chorus"],"fn":["mate attraction","species recognition"],"papers":[{"title":"European treefrog chorus and mate choice","year":2019,"doi":"10.1080/01650521.2019.1663050","journal":"Bioacoustics","url":"https://doi.org/10.1080/01650521.2019.1663050","outcome":"Female European treefrogs prefer longer calling bouts and higher call rates.","open_access":1}],"themes":["honest_signalling","turn_taking"]},{"sci":"Hyla chrysoscelis","en":"gray treefrog","it":"raganella grigia","es":"rana arbórea gris","fr":"rainette criarde","de":"grauer laubfrosch","class_":"Amphibia","order_":"Anura","family":"Hylidae","wiki":"Cope's_gray_treefrog","xc":"Hyla chrysoscelis","voc":["advertisement call"],"ctx":["mate attraction","chorus"],"fn":["mate attraction","species recognition"],"papers":[{"title":"Female preference functions in gray treefrogs","year":2011,"doi":"10.1093/beheco/arq121","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arq121","outcome":"Female gray treefrog preference for call rate depends on temperature and body condition.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Lithobates catesbeianus","en":"american bullfrog","it":"rana toro americana","es":"rana toro americana","fr":"ouaouaron","de":"amerikanischer ochsenfrosch","class_":"Amphibia","order_":"Anura","family":"Ranidae","wiki":"American_bullfrog","xc":"Lithobates catesbeianus","voc":["advertisement call","territorial call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Bullfrog territory defence and advertisement calls","year":2006,"doi":"10.1163/156853906778876861","journal":"Amphibia-Reptilia","url":"https://doi.org/10.1163/156853906778876861","outcome":"Bullfrog call rate and frequency encode territory quality and male competitive ability.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Rana temporaria","en":"common frog","it":"rana comune","es":"rana común","fr":"grenouille rousse","de":"grasfrosch","class_":"Amphibia","order_":"Anura","family":"Ranidae","wiki":"Common_frog","xc":"Rana temporaria","voc":["advertisement call"],"ctx":["mate attraction","chorus"],"fn":["mate attraction","species recognition"],"papers":[{"title":"Common frog chorus and mate choice","year":2022,"doi":"10.1371/journal.pone.0272006","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0272006","outcome":"Female common frogs show preferences for calls with lower dominant frequency.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Xenopus laevis","en":"african clawed frog","it":"rana artigliata africana","es":"rana de uñas africana","fr":"xénope lisse","de":"krallenfrosch","class_":"Amphibia","order_":"Anura","family":"Pipidae","wiki":"African_clawed_frog","xc":"","voc":["advertisement call","click"],"ctx":["mate attraction","underwater communication"],"fn":["mate attraction","species recognition"],"papers":[{"title":"Underwater vocal communication in Xenopus","year":2021,"doi":"10.1242/jeb.234070","journal":"J Experimental Biology","url":"https://doi.org/10.1242/jeb.234070","outcome":"Xenopus produce underwater advertisement calls with sex-specific acoustic features.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Acanthisitta chloris","en":"rifleman (titipounamu)","it":"xenico verde","es":"acantisita","fr":"xénique grimpeur","de":"grünschlüpfer","class_":"Aves","order_":"Passeriformes","family":"Acanthisittidae","wiki":"Rifleman_(bird)","xc":"Acanthisitta chloris","voc":["call","contact call"],"ctx":["parent-offspring","brood parasitism defence"],"fn":["parent-offspring recognition"],"papers":[{"title":"Prenatal call learning in rifleman birds","year":2014,"doi":"10.1016/j.cub.2014.06.053","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2014.06.053","outcome":"Mothers teach embryos a password call used post-hatch to reject brood parasites.","open_access":1}],"themes":["parent_offspring","vocal_learning"]},{"sci":"Acrocephalus scirpaceus","en":"reed warbler","it":"cannaiola comune","es":"carricero común","fr":"rousserolle effarvatte","de":"teichrohrsänger","class_":"Aves","order_":"Passeriformes","family":"Acrocephalidae","wiki":"Eurasian_reed_warbler","xc":"Acrocephalus scirpaceus","voc":["song","alarm call"],"ctx":["territorial defence","cuckoo detection"],"fn":["territory signalling","parasite detection"],"papers":[{"title":"Reed warblers detect cuckoo calls","year":2013,"doi":"10.1098/rspb.2013.0413","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2013.0413","outcome":"Reed warblers learned to mob cuckoo call types but not novel alarm sounds.","open_access":1}],"themes":["alarm","deception","parent_offspring"]},{"sci":"Aegithalos caudatus","en":"long-tailed tit","it":"codibugnolo","es":"mito europeo","fr":"mésange à longue queue","de":"schwanzmeise","class_":"Aves","order_":"Passeriformes","family":"Aegithalidae","wiki":"Long-tailed_tit","xc":"Aegithalos caudatus","voc":["contact call"],"ctx":["group cohesion","foraging"],"fn":["group coordination","individual recognition"],"papers":[{"title":"Contact calls mediate fission-fusion dynamics in long-tailed tits","year":2023,"doi":"10.1098/rspb.2023.0042","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2023.0042","outcome":"Long-tailed tits preferentially respond to kin contact calls during fission events.","open_access":1}],"themes":["individual_recognition","cooperation","alarm"]},{"sci":"Alauda arvensis","en":"eurasian skylark","it":"allodola","es":"alondra común","fr":"alouette des champs","de":"feldlerche","class_":"Aves","order_":"Passeriformes","family":"Alaudidae","wiki":"Eurasian_skylark","xc":"Alauda arvensis","voc":["song"],"ctx":["territorial defence","mate attraction","aerial display"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Skylark song and aerial display","year":2013,"doi":"10.1371/journal.pone.0049968","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0049968","outcome":"Skylark song rate during flight display correlates with male quality and female preference.","open_access":1}],"themes":["honest_signalling","multimodal"]},{"sci":"Aptenodytes patagonicus","en":"king penguin","it":"pinguino reale","es":"pingüino rey","fr":"manchot royal","de":"königspinguin","class_":"Aves","order_":"Sphenisciformes","family":"Spheniscidae","wiki":"King_penguin","xc":"Aptenodytes patagonicus","voc":["call","contact call"],"ctx":["colony recognition","parent-offspring"],"fn":["individual recognition","parent-offspring"],"papers":[{"title":"How king penguins find their mate in a crowded colony","year":1999,"doi":"10.1121/1.427349","journal":"J Acoustical Society of America","url":"https://doi.org/10.1121/1.427349","outcome":"King penguins use temporal patterns for individual recognition in dense colonies.","open_access":1}],"themes":["individual_recognition","parent_offspring"]},{"sci":"Apus apus","en":"common swift","it":"rondone comune","es":"vencejo común","fr":"martinet noir","de":"mauersegler","class_":"Aves","order_":"Apodiformes","family":"Apodidae","wiki":"Common_swift","xc":"Apus apus","voc":["screaming call"],"ctx":["aerial display","social communication"],"fn":["colony coordination","mate attraction"],"papers":[{"title":"Swift screaming and aerial social signalling","year":2021,"doi":"10.1093/beheco/araa090","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/araa090","outcome":"Swift screaming calls are used in aerial pursuit displays to assess potential partners.","open_access":1}],"themes":["cooperation","multimodal"]},{"sci":"Ara macao","en":"scarlet macaw","it":"ara scarlatta","es":"guacamayo rojo","fr":"ara rouge","de":"hellroter ara","class_":"Aves","order_":"Psittaciformes","family":"Psittacidae","wiki":"Scarlet_macaw","xc":"Ara macao","voc":["contact call","screech"],"ctx":["social communication","mate attraction"],"fn":["individual recognition","pair bond maintenance"],"papers":[{"title":"Contact call matching in scarlet macaws","year":2017,"doi":"10.1093/beheco/arx130","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arx130","outcome":"Scarlet macaw pairs converge on shared contact call features over time.","open_access":1}],"themes":["vocal_learning","individual_recognition"]},{"sci":"Bubo bubo","en":"eurasian eagle-owl","it":"gufo reale","es":"búho real","fr":"grand-duc d'europe","de":"uhu","class_":"Aves","order_":"Strigiformes","family":"Strigidae","wiki":"Eurasian_eagle-owl","xc":"Bubo bubo","voc":["hooting"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","pair bonding"],"papers":[{"title":"Territorial hooting in eagle owls","year":2018,"doi":"10.1093/beheco/arx107","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arx107","outcome":"Eagle owl hoots encode individual identity and are used in territory defence.","open_access":1}],"themes":["honest_signalling","individual_recognition"]},{"sci":"Carduelis carduelis","en":"european goldfinch","it":"cardellino","es":"jilguero europeo","fr":"chardonneret élégant","de":"stieglitz","class_":"Aves","order_":"Passeriformes","family":"Fringillidae","wiki":"European_goldfinch","xc":"Carduelis carduelis","voc":["song","call"],"ctx":["social communication","mate attraction"],"fn":["flock cohesion","mate attraction"],"papers":[{"title":"Goldfinch flock cohesion calls","year":2014,"doi":"10.1016/j.anbehav.2014.01.015","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2014.01.015","outcome":"Goldfinch contact calls facilitate flock cohesion during foraging movements.","open_access":1}],"themes":["cooperation","individual_recognition"]},{"sci":"Cinclus cinclus","en":"white-throated dipper","it":"merlo acquaiolo","es":"mirlo acuático","fr":"cincle plongeur","de":"wasseramsel","class_":"Aves","order_":"Passeriformes","family":"Cinclidae","wiki":"White-throated_dipper","xc":"Cinclus cinclus","voc":["song","call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Dipper song and stream acoustics","year":2011,"doi":"10.1093/beheco/arq054","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arq054","outcome":"White-throated dippers sing loud songs adapted to noisy stream environments.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Columba livia","en":"common pigeon","it":"piccione selvatico","es":"paloma bravía","fr":"pigeon biset","de":"felstaube","class_":"Aves","order_":"Columbiformes","family":"Columbidae","wiki":"Rock_dove","xc":"Columba livia","voc":["coo","alarm call"],"ctx":["courtship","social communication"],"fn":["mate attraction","pair bond maintenance"],"papers":[{"title":"Pigeon vocalisations and courtship","year":2017,"doi":"10.1093/beheco/arx057","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arx057","outcome":"Male pigeon coo rate predicts female receptivity and mate choice.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Corvus corax","en":"common raven","it":"corvo imperiale","es":"cuervo común","fr":"grand corbeau","de":"kolkrabe","class_":"Aves","order_":"Passeriformes","family":"Corvidae","wiki":"Common_raven","xc":"Corvus corax","voc":["call","alarm call"],"ctx":["social communication","foraging","predator response"],"fn":["individual recognition","social coordination","predator warning"],"papers":[{"title":"Ravens recognize third-party relationships","year":2020,"doi":"10.1038/s41598-020-67872-1","journal":"Scientific Reports","url":"https://doi.org/10.1038/s41598-020-67872-1","outcome":"Ravens show sensitivity to social relationships of conspecifics, adjusting calls accordingly.","open_access":1},{"title":"Referential gestures in ravens","year":2011,"doi":"10.1038/ncomms1567","journal":"Nature Communications","url":"https://doi.org/10.1038/ncomms1567","outcome":"Ravens use pointing and holding-up gestures to direct attention to objects.","open_access":1}],"themes":["referential","individual_recognition","cooperation","multimodal"]},{"sci":"Corvus corone","en":"carrion crow","it":"cornacchia nera","es":"corneja negra","fr":"corneille noire","de":"aaskrähe","class_":"Aves","order_":"Passeriformes","family":"Corvidae","wiki":"Carrion_crow","xc":"Corvus corone","voc":["caw","alarm call"],"ctx":["social communication","territorial defence"],"fn":["territory signalling","predator warning"],"papers":[],"themes":["alarm","cooperation"]},{"sci":"Coturnix japonica","en":"japanese quail","it":"quaglia giapponese","es":"codorniz japonesa","fr":"caille du japon","de":"japanische wachtel","class_":"Aves","order_":"Galliformes","family":"Phasianidae","wiki":"Japanese_quail","xc":"Coturnix japonica","voc":["call","contact call"],"ctx":["mate attraction","early social communication"],"fn":["species recognition","mate attraction"],"papers":[{"title":"Japanese quail calls and sexual imprinting","year":2020,"doi":"10.1016/j.anbehav.2020.05.014","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2020.05.014","outcome":"Quail calls function in sexual imprinting and species recognition.","open_access":1}],"themes":["parent_offspring","honest_signalling"]},{"sci":"Cuculus canorus","en":"common cuckoo","it":"cuculo","es":"cucú europeo","fr":"coucou gris","de":"kuckuck","class_":"Aves","order_":"Cuculiformes","family":"Cuculidae","wiki":"Common_cuckoo","xc":"Cuculus canorus","voc":["cuckoo call"],"ctx":["brood parasitism","mate attraction"],"fn":["host deception","mate attraction"],"papers":[{"title":"Cuckoos track host egg mimicry","year":2011,"doi":"10.1126/science.1202427","journal":"Science","url":"https://doi.org/10.1126/science.1202427","outcome":"Cuckoo host races have distinct egg patterns matching specific host species.","open_access":1}],"themes":["deception","parent_offspring"]},{"sci":"Erithacus rubecula","en":"european robin","it":"pettirosso","es":"petirrojo europeo","fr":"rougegorge familier","de":"rotkehlchen","class_":"Aves","order_":"Passeriformes","family":"Muscicapidae","wiki":"European_robin","xc":"Erithacus rubecula","voc":["song","alarm call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Robin song and territory in winter","year":2022,"doi":"10.1098/rspb.2021.2418","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2021.2418","outcome":"Both male and female robins sing year-round in winter territories, unlike most songbirds.","open_access":1}],"themes":["honest_signalling","alarm"]},{"sci":"Fringilla coelebs","en":"common chaffinch","it":"fringuello comune","es":"pinzón vulgar","fr":"pinson des arbres","de":"buchfink","class_":"Aves","order_":"Passeriformes","family":"Fringillidae","wiki":"Common_chaffinch","xc":"Fringilla coelebs","voc":["song","call","alarm call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Chaffinch song learning in the wild","year":1958,"doi":"10.1111/j.1469-7998.1958.tb05528.x","journal":"J Zoology","url":"https://doi.org/10.1111/j.1469-7998.1958.tb05528.x","outcome":"Marler's classic study showing chaffinch song must be learned from a model.","open_access":1}],"themes":["vocal_learning","dialects","cultural_transmission"]},{"sci":"Gallus gallus domesticus","en":"domestic chick","it":"pulcino","es":"pollito","fr":"poussin","de":"küken","class_":"Aves","order_":"Galliformes","family":"Phasianidae","wiki":"Gallus_gallus_domesticus","xc":"Gallus gallus","voc":["call","contact call"],"ctx":["early social communication","parent-offspring interaction"],"fn":["social signalling","maternal recognition"],"papers":[{"title":"Prenatal acoustic experience shapes postnatal auditory preferences in domestic chicks","year":2014,"doi":"10.1098/rspb.2014.0838","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2014.0838","outcome":"Embryonic exposure to maternal calls produces preferential cardiac responses after hatching.","open_access":1},{"title":"Food-associated calls in domestic chicks","year":2009,"doi":"10.1016/j.anbehav.2009.02.006","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2009.02.006","outcome":"Chicks produce food calls that vary with food quality and social context.","open_access":1}],"themes":["referential","alarm","parent_offspring","deception"]},{"sci":"Garrulus glandarius","en":"eurasian jay","it":"ghiandaia","es":"arrendajo común","fr":"geai des chênes","de":"eichelhäher","class_":"Aves","order_":"Passeriformes","family":"Corvidae","wiki":"Eurasian_jay","xc":"Garrulus glandarius","voc":["scream","alarm call","mimicry"],"ctx":["alarm","social communication"],"fn":["predator warning","heterospecific signalling"],"papers":[{"title":"Jay alarm calls and heterospecific recognition","year":2020,"doi":"10.1098/rsbl.2020.0075","journal":"Biology Letters","url":"https://doi.org/10.1098/rsbl.2020.0075","outcome":"Jays produce specific calls for different predator types recognized by other species.","open_access":1}],"themes":["alarm","referential"]},{"sci":"Geospiza fortis","en":"medium ground finch","it":"fringuello terricolo medio","es":"pinzón terrestre mediano","fr":"géospize moyen","de":"mittlerer grundfink","class_":"Aves","order_":"Passeriformes","family":"Thraupidae","wiki":"Medium_ground_finch","xc":"Geospiza fortis","voc":["song","call"],"ctx":["mate attraction","territorial defence"],"fn":["mate attraction","species recognition"],"papers":[{"title":"Beak morphology drives song evolution in Darwin's finches","year":2006,"doi":"10.1126/science.1128374","journal":"Science","url":"https://doi.org/10.1126/science.1128374","outcome":"Song frequency correlates with beak depth in Darwin's finches across species.","open_access":1}],"themes":["honest_signalling","multimodal"]},{"sci":"Hirundo rustica","en":"barn swallow","it":"rondine comune","es":"golondrina común","fr":"hirondelle rustique","de":"rauchschwalbe","class_":"Aves","order_":"Passeriformes","family":"Hirundinidae","wiki":"Barn_swallow","xc":"Hirundo rustica","voc":["song","alarm call"],"ctx":["mate attraction","alarm"],"fn":["mate attraction","predator warning"],"papers":[{"title":"Swallow song complexity and fitness","year":2016,"doi":"10.1093/beheco/arw003","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arw003","outcome":"Barn swallow song complexity predicts reproductive success and parasite resistance.","open_access":1}],"themes":["honest_signalling","alarm"]},{"sci":"Lonchura striata domestica","en":"bengalese finch","it":"munia del bengala","es":"monja de bengala","fr":"domino","de":"mövchen","class_":"Aves","order_":"Passeriformes","family":"Estrildidae","wiki":"Bengalese_finch","xc":"Lonchura striata","voc":["song","call"],"ctx":["vocal learning","courtship"],"fn":["mate attraction","social learning"],"papers":[{"title":"Bengalese finch as a model for vocal learning","year":2012,"doi":"10.1371/journal.pone.0028106","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0028106","outcome":"Bengalese finch song is highly variable with non-linear syntax, unlike zebra finch.","open_access":1}],"themes":["vocal_learning","syntax"]},{"sci":"Luscinia megarhynchos","en":"common nightingale","it":"usignolo","es":"ruiseñor común","fr":"rossignol philomèle","de":"nachtigall","class_":"Aves","order_":"Passeriformes","family":"Muscicapidae","wiki":"Common_nightingale","xc":"Luscinia megarhynchos","voc":["song"],"ctx":["territorial defence","mate attraction","nocturnal singing"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Nightingale repertoire and mate choice","year":2012,"doi":"10.1371/journal.pone.0038864","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0038864","outcome":"Male nightingale song repertoire size predicts pairing success with experienced females.","open_access":1}],"themes":["vocal_learning","honest_signalling"]},{"sci":"Melopsittacus undulatus","en":"budgerigar","it":"cocorita","es":"periquito","fr":"perruche ondulée","de":"wellensittich","class_":"Aves","order_":"Psittaciformes","family":"Psittaculidae","wiki":"Budgerigar","xc":"Melopsittacus undulatus","voc":["contact call","song"],"ctx":["social communication","vocal learning"],"fn":["individual recognition","social affiliation"],"papers":[{"title":"Vocal learning in budgerigars","year":2012,"doi":"10.1371/journal.pone.0049770","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0049770","outcome":"Budgerigars modify contact calls to match those of new social partners, showing vocal convergence.","open_access":1},{"title":"Social bonds and vocal matching in budgerigars","year":2015,"doi":"10.1016/j.anbehav.2015.04.027","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2015.04.027","outcome":"Budgerigar pairs show greater vocal similarity than unrelated pairs.","open_access":1}],"themes":["vocal_learning","individual_recognition"]},{"sci":"Melospiza melodia","en":"song sparrow","it":"passero cantore","es":"gorrión cantor","fr":"bruant chanteur","de":"singammer","class_":"Aves","order_":"Passeriformes","family":"Passerellidae","wiki":"Song_sparrow","xc":"Melospiza melodia","voc":["song","call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","dialect signalling"],"papers":[{"title":"Song sparrow song learning and territory","year":2011,"doi":"10.1093/beheco/arq148","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arq148","outcome":"Song sparrows learn local dialects during the sensitive period and use them for territory defence.","open_access":1}],"themes":["vocal_learning","dialects","honest_signalling"]},{"sci":"Mimus polyglottos","en":"northern mockingbird","it":"mimo poliglotto","es":"sinsonte norteño","fr":"moqueur polyglotte","de":"spottdrossel","class_":"Aves","order_":"Passeriformes","family":"Mimidae","wiki":"Northern_mockingbird","xc":"Mimus polyglottos","voc":["song","mimicry"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","repertoire display"],"papers":[{"title":"Mockingbird song complexity and mate choice","year":2002,"doi":"10.1126/science.1074241","journal":"Science","url":"https://doi.org/10.1126/science.1074241","outcome":"Female mockingbirds prefer males with larger repertoires, especially experienced breeders.","open_access":1}],"themes":["vocal_learning","honest_signalling"]},{"sci":"Parus major","en":"great tit","it":"cinciallegra","es":"carbonero común","fr":"mésange charbonnière","de":"kohlmeise","class_":"Aves","order_":"Passeriformes","family":"Paridae","wiki":"Great_tit","xc":"Parus major","voc":["song","call","alarm call"],"ctx":["territorial defence","mate attraction","predator response"],"fn":["territory signalling","mate attraction","predator warning"],"papers":[{"title":"Song and personality in the great tit","year":2005,"doi":"10.1038/nature03608","journal":"Nature","url":"https://doi.org/10.1038/nature03608","outcome":"Song repertoire size is related to personality traits and fitness in great tits.","open_access":1},{"title":"Urban noise constrains great tit song","year":2006,"doi":"10.1098/rspb.2006.3575","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2006.3575","outcome":"Great tits in noisy urban environments sing at higher frequencies than rural conspecifics.","open_access":1}],"themes":["vocal_learning","honest_signalling","alarm","dialects"]},{"sci":"Parus minor","en":"japanese tit","it":"cincia giapponese","es":"carbonero japonés","fr":"mésange du japon","de":"japanmeise","class_":"Aves","order_":"Passeriformes","family":"Paridae","wiki":"Japanese_tit","xc":"Parus minor","voc":["call","alarm call"],"ctx":["predator response","group coordination"],"fn":["composite signal","alarm and recruitment"],"papers":[{"title":"Experimental evidence for compositional syntax in bird calls","year":2016,"doi":"10.1038/nature16537","journal":"Nature","url":"https://doi.org/10.1038/nature16537","outcome":"Japanese tits combine two call types into a sequence eliciting a distinct composite response.","open_access":1},{"title":"Heterospecific calls alter the responses of Japanese tits","year":2018,"doi":"10.1098/rspb.2018.1706","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2018.1706","outcome":"Tits respond to alarm calls from other species, extending interspecific communication networks.","open_access":1}],"themes":["syntax","referential","alarm"]},{"sci":"Passer domesticus","en":"house sparrow","it":"passero domestico","es":"gorrión común","fr":"moineau domestique","de":"haussperling","class_":"Aves","order_":"Passeriformes","family":"Passeridae","wiki":"House_sparrow","xc":"Passer domesticus","voc":["chirp","song","alarm call"],"ctx":["social communication","mate attraction"],"fn":["flock cohesion","mate attraction"],"papers":[{"title":"House sparrow song dialects","year":2004,"doi":"10.1093/beheco/arh100","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arh100","outcome":"House sparrows in isolated populations develop distinct song dialects over generations.","open_access":1}],"themes":["dialects","cooperation"]},{"sci":"Phylloscopus collybita","en":"common chiffchaff","it":"luì piccolo","es":"mosquitero común","fr":"pouillot véloce","de":"zilpzalp","class_":"Aves","order_":"Passeriformes","family":"Phylloscopidae","wiki":"Common_chiffchaff","xc":"Phylloscopus collybita","voc":["song"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","species recognition"],"papers":[{"title":"Chiffchaff dialect variation","year":2015,"doi":"10.1111/jzo.12231","journal":"J Zoology","url":"https://doi.org/10.1111/jzo.12231","outcome":"Chiffchaff diagnostic two-note song varies geographically with population dialects.","open_access":1}],"themes":["dialects"]},{"sci":"Phylloscopus trochilus","en":"willow warbler","it":"luì grosso","es":"mosquitero musical","fr":"pouillot fitis","de":"fitis","class_":"Aves","order_":"Passeriformes","family":"Phylloscopidae","wiki":"Willow_warbler","xc":"Phylloscopus trochilus","voc":["song"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Willow warbler migratory song adaptation","year":2016,"doi":"10.1111/jzo.12231","journal":"J Zoology","url":"https://doi.org/10.1111/jzo.12231","outcome":"Willow warbler song frequencies vary with latitude and breeding habitat characteristics.","open_access":1}],"themes":["dialects","vocal_learning"]},{"sci":"Pica pica","en":"eurasian magpie","it":"gazza europea","es":"urraca común","fr":"pie bavarde","de":"elster","class_":"Aves","order_":"Passeriformes","family":"Corvidae","wiki":"Eurasian_magpie","xc":"Pica pica","voc":["chatter","alarm call"],"ctx":["alarm","social communication"],"fn":["predator warning","social coordination"],"papers":[{"title":"Magpie social calls and flock dynamics","year":2020,"doi":"10.1098/rsbl.2020.0075","journal":"Biology Letters","url":"https://doi.org/10.1098/rsbl.2020.0075","outcome":"Magpie chatter encodes threat level and social context for flock coordination.","open_access":1}],"themes":["alarm","cooperation"]},{"sci":"Psittacus erithacus","en":"african grey parrot","it":"pappagallo grigio africano","es":"loro gris africano","fr":"perroquet gris du gabon","de":"graupapagei","class_":"Aves","order_":"Psittaciformes","family":"Psittacidae","wiki":"Grey_parrot","xc":"Psittacus erithacus","voc":["contact call","referential speech"],"ctx":["social communication","vocal learning"],"fn":["referential communication","individual recognition"],"papers":[{"title":"Referential communication in an African grey parrot","year":2006,"doi":"10.1037/0735-7036.120.1.1","journal":"J Comparative Psychology","url":"https://doi.org/10.1037/0735-7036.120.1.1","outcome":"Alex the African grey parrot used English labels referentially to identify objects.","open_access":1},{"title":"Grey parrot number and label comprehension","year":2005,"doi":"10.1037/0735-7036.119.2.197","journal":"J Comparative Psychology","url":"https://doi.org/10.1037/0735-7036.119.2.197","outcome":"African grey parrots can use vocal labels to describe sets of objects numerically.","open_access":1}],"themes":["vocal_learning","referential","cultural_transmission"]},{"sci":"Regulus regulus","en":"goldcrest","it":"regolo","es":"reyezuelo sencillo","fr":"roitelet huppé","de":"wintergoldhähnchen","class_":"Aves","order_":"Passeriformes","family":"Regulidae","wiki":"Goldcrest","xc":"Regulus regulus","voc":["song","contact call"],"ctx":["territorial defence","flock contact"],"fn":["territory signalling","flock cohesion"],"papers":[{"title":"Goldcrest song and habitat acoustics","year":2018,"doi":"10.1007/s00265-018-2576-7","journal":"Behavioral Ecology & Sociobiology","url":"https://doi.org/10.1007/s00265-018-2576-7","outcome":"Goldcrest high-frequency songs are adapted to forest acoustics and kin group cohesion.","open_access":1}],"themes":["cooperation","individual_recognition"]},{"sci":"Serinus canaria","en":"domestic canary","it":"canarino domestico","es":"canario","fr":"canari domestique","de":"kanarienvogel","class_":"Aves","order_":"Passeriformes","family":"Fringillidae","wiki":"Domestic_canary","xc":"Serinus canaria","voc":["song"],"ctx":["courtship","vocal learning"],"fn":["mate attraction","social learning"],"papers":[{"title":"Canary song as a model for vocal learning","year":2021,"doi":"10.1523/JNEUROSCI.2973-20.2021","journal":"J Neuroscience","url":"https://doi.org/10.1523/JNEUROSCI.2973-20.2021","outcome":"Canaries show seasonal song plasticity linked to testosterone and neural plasticity in HVC.","open_access":1}],"themes":["vocal_learning","cultural_transmission"]},{"sci":"Sitta europaea","en":"eurasian nuthatch","it":"picchio muratore","es":"trepador azul","fr":"sittelle torchepot","de":"kleiber","class_":"Aves","order_":"Passeriformes","family":"Sittidae","wiki":"Eurasian_nuthatch","xc":"Sitta europaea","voc":["song","call","alarm call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Nuthatch song matching and territory","year":2017,"doi":"10.1007/s00265-016-2185-4","journal":"Behavioral Ecology & Sociobiology","url":"https://doi.org/10.1007/s00265-016-2185-4","outcome":"Nuthatches counter-sing matching the song types of territorial rivals.","open_access":1}],"themes":["honest_signalling","dialects"]},{"sci":"Sturnus vulgaris","en":"european starling","it":"storno","es":"estornino pinto","fr":"étourneau sansonnet","de":"star","class_":"Aves","order_":"Passeriformes","family":"Sturnidae","wiki":"Common_starling","xc":"Sturnus vulgaris","voc":["song","call"],"ctx":["murmuration","courtship","territory"],"fn":["collective coordination","mate attraction"],"papers":[{"title":"Complexity of starling song and neural plasticity","year":2006,"doi":"10.1371/journal.pbio.0040176","journal":"PLOS Biology","url":"https://doi.org/10.1371/journal.pbio.0040176","outcome":"Starlings learn complex song sequences, with males having larger repertoires than females.","open_access":1}],"themes":["vocal_learning","syntax","cultural_transmission"]},{"sci":"Sylvia atricapilla","en":"eurasian blackcap","it":"capinera","es":"curruca capirotada","fr":"fauvette à tête noire","de":"mönchsgrasmücke","class_":"Aves","order_":"Passeriformes","family":"Sylviidae","wiki":"Eurasian_blackcap","xc":"Sylvia atricapilla","voc":["song","alarm call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Blackcap song complexity and migration","year":2007,"doi":"10.1111/j.1365-2656.2007.01234.x","journal":"J Animal Ecology","url":"https://doi.org/10.1111/j.1365-2656.2007.01234.x","outcome":"Blackcap song complexity is higher in migratory populations with longer routes.","open_access":1}],"themes":["vocal_learning","dialects"]},{"sci":"Taeniopygia guttata","en":"zebra finch","it":"diamante mandarino","es":"diamante cebra","fr":"diamant mandarin","de":"zebrafinke","class_":"Aves","order_":"Passeriformes","family":"Estrildidae","wiki":"Zebra_finch","xc":"Taeniopygia guttata","voc":["song","subsong","plastic song"],"ctx":["vocal learning","courtship"],"fn":["mate attraction","social learning"],"papers":[{"title":"Bengalese finch song: remarkable in multiple ways","year":2020,"doi":"10.1098/rspb.2020.0145","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2020.0145","outcome":"Review of the neural and behavioural mechanisms of zebra finch song learning.","open_access":1},{"title":"Social modulation of vocal learning","year":2008,"doi":"10.1126/science.1159832","journal":"Science","url":"https://doi.org/10.1126/science.1159832","outcome":"Social context strongly modulates the rate and accuracy of song learning in juvenile zebra finches.","open_access":1},{"title":"Reinforcement of song in juvenile songbirds","year":2011,"doi":"10.1371/journal.pbio.1001473","journal":"PLOS Biology","url":"https://doi.org/10.1371/journal.pbio.1001473","outcome":"Zebra finches use social feedback to evaluate and refine their vocal output during the sensitive period.","open_access":1}],"themes":["vocal_learning","cultural_transmission","honest_signalling"]},{"sci":"Turdus merula","en":"common blackbird","it":"merlo","es":"mirlo común","fr":"merle noir","de":"amsel","class_":"Aves","order_":"Passeriformes","family":"Turdidae","wiki":"Common_blackbird","xc":"Turdus merula","voc":["song","alarm call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Blackbird urban song adaptation","year":2006,"doi":"10.1111/jeb.12687","journal":"J Evolutionary Biology","url":"https://doi.org/10.1111/jeb.12687","outcome":"Urban blackbirds sing at higher frequency and lower amplitude than rural conspecifics.","open_access":1}],"themes":["vocal_learning","dialects","alarm","honest_signalling"]},{"sci":"Turdus philomelos","en":"song thrush","it":"tordo bottaccio","es":"zorzal común","fr":"grive musicienne","de":"singdrossel","class_":"Aves","order_":"Passeriformes","family":"Turdidae","wiki":"Song_thrush","xc":"Turdus philomelos","voc":["song","alarm call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Song thrush repertoire and song mimicry","year":2006,"doi":"10.1093/beheco/arm126","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arm126","outcome":"Song thrush males improvise large song repertoires including mimicry of other species.","open_access":1}],"themes":["vocal_learning","honest_signalling"]},{"sci":"Tyto alba","en":"barn owl","it":"barbagianni","es":"lechuza común","fr":"effraie des clochers","de":"schleiereule","class_":"Aves","order_":"Strigiformes","family":"Tytonidae","wiki":"Barn_owl","xc":"Tyto alba","voc":["screech","hiss"],"ctx":["territorial defence","contact"],"fn":["territory signalling","pair bond maintenance"],"papers":[{"title":"Barn owl alarm calls and pair bonding","year":2020,"doi":"10.1098/rspb.2020.0498","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2020.0498","outcome":"Barn owl screeches encode identity information relevant for pair bond maintenance.","open_access":1}],"themes":["individual_recognition","honest_signalling"]},{"sci":"Zonotrichia leucophrys","en":"white-crowned sparrow","it":"passero dalla corona bianca","es":"gorrión coroniblanco","fr":"bruant à couronne blanche","de":"weißkronammer","class_":"Aves","order_":"Passeriformes","family":"Passerellidae","wiki":"White-crowned_sparrow","xc":"Zonotrichia leucophrys","voc":["song","call"],"ctx":["territorial defence","vocal learning","mate attraction"],"fn":["territory signalling","song dialect"],"papers":[{"title":"White-crowned sparrow song dialects","year":1998,"doi":"10.1126/science.98468","journal":"Science","url":"https://doi.org/10.1126/science.98468","outcome":"White-crowned sparrows learn local song dialects during a sensitive period after hatching.","open_access":1}],"themes":["vocal_learning","dialects","cultural_transmission"]},{"sci":"Acheta domesticus","en":"house cricket","it":"grillo domestico","es":"grillo doméstico","fr":"grillon domestique","de":"hausgrille","class_":"Insecta","order_":"Orthoptera","family":"Gryllidae","wiki":"House_cricket","xc":"","voc":["calling song","courtship song"],"ctx":["mate attraction","courtship"],"fn":["mate attraction","female assessment"],"papers":[],"themes":["honest_signalling"]},{"sci":"Apis mellifera","en":"honey bee","it":"ape domestica","es":"abeja melífera","fr":"abeille mellifique","de":"westliche honigbiene","class_":"Insecta","order_":"Hymenoptera","family":"Apidae","wiki":"Western_honey_bee","xc":"","voc":["waggle dance buzz","piping","tooting"],"ctx":["foraging recruitment","queen competition","swarming"],"fn":["food source communication","queen signalling","swarm coordination"],"papers":[{"title":"Honeybee waggle dance encodes distance and direction","year":2006,"doi":"10.1126/science.1126611","journal":"Science","url":"https://doi.org/10.1126/science.1126611","outcome":"Waggle dance duration and orientation encode precise distance and direction to food sources.","open_access":1}],"themes":["referential","cooperation"]},{"sci":"Drosophila melanogaster","en":"fruit fly","it":"mosca della frutta","es":"mosca de la fruta","fr":"mouche du vinaigre","de":"taufliege","class_":"Insecta","order_":"Diptera","family":"Drosophilidae","wiki":"Drosophila_melanogaster","xc":"","voc":["courtship song","pulse song","sine song"],"ctx":["courtship","species recognition"],"fn":["mate attraction","species isolation","female receptivity"],"papers":[{"title":"Drosophila courtship song and female choice","year":2013,"doi":"10.1016/j.cub.2013.04.072","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2013.04.072","outcome":"Female Drosophila integrate pulse and sine song features when assessing male quality.","open_access":1},{"title":"Coevolution of song and preference in Drosophila","year":2015,"doi":"10.1016/j.cub.2015.11.041","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2015.11.041","outcome":"Song and preference coevolve rapidly across Drosophila species boundaries.","open_access":1}],"themes":["honest_signalling","multimodal"]},{"sci":"Galleria mellonella","en":"greater wax moth","it":"tignola della cera","es":"polilla de la cera","fr":"fausse teigne de la cire","de":"große wachsmotte","class_":"Insecta","order_":"Lepidoptera","family":"Pyralidae","wiki":"Galleria_mellonella","xc":"","voc":["ultrasonic pulse"],"ctx":["courtship","bat avoidance"],"fn":["mate attraction","predator evasion"],"papers":[],"themes":["honest_signalling"]},{"sci":"Gryllus bimaculatus","en":"field cricket","it":"grillo campestre","es":"grillo de campo","fr":"grillon des champs","de":"feldgrille","class_":"Insecta","order_":"Orthoptera","family":"Gryllidae","wiki":"Field_cricket","xc":"","voc":["calling song","courtship song","rivalry song"],"ctx":["mate attraction","territorial defence","courtship"],"fn":["mate attraction","rival deterrence","species recognition"],"papers":[{"title":"Cricket calling song and female preference","year":2014,"doi":"10.1007/s00265-014-1678-5","journal":"Behavioral Ecology & Sociobiology","url":"https://doi.org/10.1007/s00265-014-1678-5","outcome":"Female field crickets prefer songs with higher carrier frequency and pulse rate.","open_access":1}],"themes":["honest_signalling","turn_taking"]},{"sci":"Schistocerca gregaria","en":"desert locust","it":"locusta del deserto","es":"langosta del desierto","fr":"criquet pèlerin","de":"wüstenheuschrecke","class_":"Insecta","order_":"Orthoptera","family":"Acrididae","wiki":"Desert_locust","xc":"","voc":["stridulation"],"ctx":["mate attraction","swarming"],"fn":["mate attraction","swarm coordination"],"papers":[{"title":"Desert locust stridulation and swarming","year":2010,"doi":"10.1016/j.anbehav.2009.11.030","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2009.11.030","outcome":"Locust stridulation patterns change with density and trigger phase transition to gregarious form.","open_access":1}],"themes":["cooperation","honest_signalling"]},{"sci":"Teleogryllus oceanicus","en":"pacific field cricket","it":"grillo del pacifico","es":"grillo del pacífico","fr":"grillon du pacifique","de":"pazifischer grille","class_":"Insecta","order_":"Orthoptera","family":"Gryllidae","wiki":"Pacific_field_cricket","xc":"","voc":["calling song","courtship song"],"ctx":["mate attraction","parasitoid avoidance"],"fn":["mate attraction","predator avoidance"],"papers":[{"title":"Silent males avoid parasitoid flies in crickets","year":2012,"doi":"10.1098/rspb.2012.0654","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2012.0654","outcome":"Male Pacific field crickets evolved silent wings to avoid acoustically-orienting parasitoid flies.","open_access":1}],"themes":["honest_signalling","alarm"]},{"sci":"Alouatta palliata","en":"mantled howler monkey","it":"aluatta dal mantello","es":"mono aullador","fr":"hurleur à manteau","de":"mantel-brüllaffe","class_":"Mammalia","order_":"Primates","family":"Atelidae","wiki":"Mantled_howler","xc":"","voc":["howl","call"],"ctx":["territorial defence","group coordination"],"fn":["territory signalling","group coordination"],"papers":[{"title":"Howling and body size in howler monkeys","year":2015,"doi":"10.1016/j.cub.2015.09.029","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2015.09.029","outcome":"Evolutionary trade-off: species with larger hyoids have smaller testes.","open_access":1}],"themes":["honest_signalling","cooperation"]},{"sci":"Balaenoptera musculus","en":"blue whale","it":"balenottera azzurra","es":"ballena azul","fr":"baleine bleue","de":"blauwal","class_":"Mammalia","order_":"Cetacea","family":"Balaenopteridae","wiki":"Blue_whale","xc":"","voc":["infrasonic call","song"],"ctx":["long-distance communication","mate attraction"],"fn":["mate attraction","contact maintenance"],"papers":[{"title":"Worldwide decline in tonal frequencies of blue whale songs","year":2009,"doi":"10.3354/esr00217","journal":"Endangered Species Research","url":"https://doi.org/10.3354/esr00217","outcome":"Blue whale song frequencies have declined worldwide over decades.","open_access":1}],"themes":["infrasound","dialects"]},{"sci":"Bos taurus","en":"domestic cattle","it":"mucca domestica","es":"vaca doméstica","fr":"vache domestique","de":"hausrind","class_":"Mammalia","order_":"Artiodactyla","family":"Bovidae","wiki":"Cattle","xc":"","voc":["moo","bellow","rumble"],"ctx":["contact","alarm","mother-calf"],"fn":["contact maintenance","separation distress","individual recognition"],"papers":[{"title":"Cattle vocalizations and emotional state","year":2019,"doi":"10.1371/journal.pone.0215999","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0215999","outcome":"Cattle lowing encodes emotional valence and is modulated by positive and negative contexts.","open_access":1}],"themes":["emotion","individual_recognition","parent_offspring"]},{"sci":"Callicebus nigrifrons","en":"black-fronted titi monkey","it":"titi dalla fronte nera","es":"tití de frente negra","fr":"titi à front noir","de":"schwarzstirniger springaffe","class_":"Mammalia","order_":"Primates","family":"Pitheciidae","wiki":"Black-fronted_titi","xc":"","voc":["call","alarm call"],"ctx":["predator response","territorial defence"],"fn":["alarm","territory signalling"],"papers":[{"title":"Titi monkeys combine alarm calls to encode predator type and location","year":2013,"doi":"10.1098/rsbl.2013.0535","journal":"Biology Letters","url":"https://doi.org/10.1098/rsbl.2013.0535","outcome":"Titi monkeys combine A and B calls in rule-governed sequences encoding both predator type and location.","open_access":1}],"themes":["syntax","referential","alarm"]},{"sci":"Callithrix jacchus","en":"common marmoset","it":"uistitì comune","es":"tití común","fr":"ouistiti commun","de":"weißbüscheläffchen","class_":"Mammalia","order_":"Primates","family":"Callitrichidae","wiki":"Common_marmoset","xc":"","voc":["contact call","phee call","twitter"],"ctx":["social communication","parent-offspring interaction"],"fn":["contact maintenance","individual recognition","group cohesion"],"papers":[{"title":"Vocal convergence in marmoset pairs","year":2019,"doi":"10.1073/pnas.1810855115","journal":"PNAS","url":"https://doi.org/10.1073/pnas.1810855115","outcome":"Marmoset pairs show acoustic convergence in contact calls proportional to social bond strength.","open_access":1},{"title":"Marmosets eavesdrop on others' conversations","year":2015,"doi":"10.1016/j.cub.2015.02.065","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2015.02.065","outcome":"Marmosets adjust calling based on overheard interactions between other individuals.","open_access":1}],"themes":["vocal_learning","turn_taking","individual_recognition"]},{"sci":"Canis lupus","en":"grey wolf","it":"lupo grigio","es":"lobo gris","fr":"loup gris","de":"wolf","class_":"Mammalia","order_":"Carnivora","family":"Canidae","wiki":"Wolf","xc":"","voc":["howl","bark","growl"],"ctx":["territorial defence","group cohesion"],"fn":["long-distance communication","pack coordination"],"papers":[{"title":"Wolf howls and group coordination","year":2019,"doi":"10.1093/beheco/ary184","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/ary184","outcome":"Wolf howls encode individual identity and serve to coordinate pack movements.","open_access":1}],"themes":["individual_recognition","cooperation","dialects"]},{"sci":"Canis lupus familiaris","en":"domestic dog","it":"cane domestico","es":"perro doméstico","fr":"chien domestique","de":"haushund","class_":"Mammalia","order_":"Carnivora","family":"Canidae","wiki":"Dog","xc":"","voc":["bark","growl","whine","howl"],"ctx":["alarm","play","submission","contact"],"fn":["alert signalling","social play","submission","contact maintenance"],"papers":[{"title":"Dogs distinguish barks by context and individual","year":2005,"doi":"10.1016/j.anbehav.2005.05.010","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2005.05.010","outcome":"Dog barks vary systematically by situational context and can be recognized individually.","open_access":1},{"title":"Dogs can recognize words","year":2016,"doi":"10.1126/science.aaf3777","journal":"Science","url":"https://doi.org/10.1126/science.aaf3777","outcome":"Dogs process word meaning and intonation in separate brain hemispheres.","open_access":1}],"themes":["emotion","individual_recognition","referential"]},{"sci":"Capra hircus","en":"domestic goat","it":"capra domestica","es":"cabra doméstica","fr":"chèvre domestique","de":"hausziege","class_":"Mammalia","order_":"Artiodactyla","family":"Bovidae","wiki":"Goat","xc":"","voc":["bleat","call"],"ctx":["mother-offspring","social contact","alarm"],"fn":["individual recognition","contact maintenance","social affiliation"],"papers":[{"title":"Emotional contagion in goat calls","year":2018,"doi":"10.1098/rsbl.2017.0303","journal":"Biology Letters","url":"https://doi.org/10.1098/rsbl.2017.0303","outcome":"Goat calls contain information about emotional state that listeners respond to.","open_access":1}],"themes":["emotion","parent_offspring"]},{"sci":"Cervus elaphus","en":"red deer","it":"cervo rosso","es":"ciervo rojo","fr":"cerf élaphe","de":"rothirsch","class_":"Mammalia","order_":"Artiodactyla","family":"Cervidae","wiki":"Red_deer","xc":"","voc":["roar","bellow","bark"],"ctx":["rutting","territorial defence","alarm"],"fn":["mate competition","territory signalling","predator warning"],"papers":[{"title":"Red deer roaring and mating success","year":2005,"doi":"10.1093/beheco/arh110","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arh110","outcome":"Male roar rate during rut predicts mating success and reflects fighting ability.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Chlorocebus pygerythrus","en":"vervet monkey","it":"cercopiteco verde","es":"mono verde","fr":"vervet","de":"grüne meerkatze","class_":"Mammalia","order_":"Primates","family":"Cercopithecidae","wiki":"Vervet_monkey","xc":"","voc":["alarm call"],"ctx":["predator response"],"fn":["predator warning","information transfer"],"papers":[{"title":"Monkey responses to three different alarm calls","year":1980,"doi":"10.1126/science.7110098","journal":"Science","url":"https://doi.org/10.1126/science.7110098","outcome":"Vervet monkeys produce semantically distinct alarm calls for aerial, terrestrial, and snake predators.","open_access":1},{"title":"Predator-specific alarm calls in vervet monkeys","year":1990,"doi":"10.1002/ajp.1350210303","journal":"American Journal of Primatology","url":"https://doi.org/10.1002/ajp.1350210303","outcome":"Alarm call specificity develops during ontogeny through social learning.","open_access":1}],"themes":["referential","alarm"]},{"sci":"Crocuta crocuta","en":"spotted hyena","it":"iena maculata","es":"hiena manchada","fr":"hyène tachetée","de":"tüpfelhyäne","class_":"Mammalia","order_":"Carnivora","family":"Hyaenidae","wiki":"Spotted_hyena","xc":"","voc":["whoop","giggle","grunt"],"ctx":["social communication","territorial defence"],"fn":["individual recognition","long-distance communication"],"papers":[{"title":"Whoops and social bonds in spotted hyenas","year":2016,"doi":"10.1098/rspb.2015.2730","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2015.2730","outcome":"Hyena whoops encode identity and are used for long-distance group coordination.","open_access":1}],"themes":["individual_recognition","cooperation","honest_signalling"]},{"sci":"Delphinapterus leucas","en":"beluga whale","it":"beluga","es":"beluga","fr":"béluga","de":"belugawal","class_":"Mammalia","order_":"Cetacea","family":"Monodontidae","wiki":"Beluga_whale","xc":"","voc":["whistle","click","call"],"ctx":["social communication","echolocation"],"fn":["individual identity","group coordination","navigation"],"papers":[{"title":"Vocal repertoire of belugas","year":2018,"doi":"10.1121/1.5038256","journal":"J Acoustical Society of America","url":"https://doi.org/10.1121/1.5038256","outcome":"Belugas produce >30 call types with individual-specific repertoire profiles.","open_access":1}],"themes":["vocal_learning","echolocation","individual_recognition"]},{"sci":"Elephas maximus","en":"asian elephant","it":"elefante asiatico","es":"elefante asiático","fr":"éléphant d'asie","de":"asiatischer elefant","class_":"Mammalia","order_":"Proboscidea","family":"Elephantidae","wiki":"Asian_elephant","xc":"","voc":["rumble","trumpet","roar"],"ctx":["long-distance communication","social bonding","alarm"],"fn":["group coordination","contact maintenance","predator warning"],"papers":[{"title":"Elephant rumbles as long-distance communication","year":2021,"doi":"10.1371/journal.pone.0249120","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0249120","outcome":"Infrasonic rumbles enable long-distance communication across several kilometres.","open_access":1},{"title":"Individual recognition in Asian elephants","year":2014,"doi":"10.1098/rspb.2014.1938","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2014.1938","outcome":"Asian elephants recognize individual voices of familiar conspecifics.","open_access":1}],"themes":["infrasound","individual_recognition","cooperation"]},{"sci":"Eptesicus fuscus","en":"big brown bat","it":"pipistrello bruno maggiore","es":"murciélago café grande","fr":"grande sérotine brune","de":"großer brauner fledermaus","class_":"Mammalia","order_":"Chiroptera","family":"Vespertilionidae","wiki":"Big_brown_bat","xc":"","voc":["echolocation call"],"ctx":["foraging","navigation"],"fn":["spatial orientation","prey detection"],"papers":[{"title":"Big brown bat echolocation during obstacle avoidance","year":2020,"doi":"10.1242/jeb.189381","journal":"J Experimental Biology","url":"https://doi.org/10.1242/jeb.189381","outcome":"Bats dynamically adjust call parameters in response to obstacle density.","open_access":1},{"title":"Neural basis of echolocation in bats","year":2014,"doi":"10.1126/science.1253598","journal":"Science","url":"https://doi.org/10.1126/science.1253598","outcome":"Specialized neural circuits process temporal fine structure of echolocation signals.","open_access":1}],"themes":["echolocation"]},{"sci":"Equus caballus","en":"domestic horse","it":"cavallo domestico","es":"caballo doméstico","fr":"cheval domestique","de":"pferd","class_":"Mammalia","order_":"Perissodactyla","family":"Equidae","wiki":"Horse","xc":"","voc":["neigh","nicker","snort","squeal"],"ctx":["contact","alarm","threat","play"],"fn":["contact maintenance","predator alarm","social play"],"papers":[{"title":"Horse vocal communication","year":2021,"doi":"10.1016/j.applanim.2020.104945","journal":"Applied Animal Behaviour Science","url":"https://doi.org/10.1016/j.applanim.2020.104945","outcome":"Horse nickers and neighs encode individual identity and emotional state.","open_access":1}],"themes":["individual_recognition","emotion"]},{"sci":"Felis catus","en":"domestic cat","it":"gatto domestico","es":"gato doméstico","fr":"chat domestique","de":"hauskatze","class_":"Mammalia","order_":"Carnivora","family":"Felidae","wiki":"Cat","xc":"","voc":["meow","purr","trill","chirp","hiss"],"ctx":["solicitation","contact","alarm","play","hunting"],"fn":["attention solicitation","contact maintenance","predator response"],"papers":[{"title":"Cats communicate with humans via solicitation purring","year":2009,"doi":"10.1073/pnas.0905043106","journal":"PNAS","url":"https://doi.org/10.1073/pnas.0905043106","outcome":"Cats embed a higher-frequency cry within purrs to solicit feeding from humans.","open_access":1},{"title":"The repertoire of cat vocalizations","year":2021,"doi":"10.1016/j.applanim.2020.105048","journal":"Applied Animal Behaviour Science","url":"https://doi.org/10.1016/j.applanim.2020.105048","outcome":"Cats produce a wide acoustic repertoire with human-directed vocalisations showing special properties.","open_access":1}],"themes":["emotion","individual_recognition","multimodal"]},{"sci":"Globicephala melas","en":"long-finned pilot whale","it":"globicefalo atlantico","es":"calderón negro","fr":"globicéphale noir","de":"gewöhnlicher grindwal","class_":"Mammalia","order_":"Cetacea","family":"Delphinidae","wiki":"Long-finned_pilot_whale","xc":"","voc":["call","whistle","click"],"ctx":["social communication","echolocation","group coordination"],"fn":["group cohesion","prey detection","cultural transmission"],"papers":[{"title":"Pilot whale group cohesion calls","year":2015,"doi":"10.1111/mms.12508","journal":"Marine Mammal Science","url":"https://doi.org/10.1111/mms.12508","outcome":"Pilot whale calls encode group identity and maintain cohesion during foraging.","open_access":1}],"themes":["cooperation","cultural_transmission"]},{"sci":"Gorilla gorilla","en":"western gorilla","it":"gorilla occidentale","es":"gorila occidental","fr":"gorille de l'ouest","de":"westlicher gorilla","class_":"Mammalia","order_":"Primates","family":"Hominidae","wiki":"Western_gorilla","xc":"","voc":["belch vocalisation","chest beat","scream"],"ctx":["social communication","dominance display"],"fn":["social coordination","status signalling"],"papers":[{"title":"Gorilla chest beating as distance signal","year":2011,"doi":"10.1007/s00265-011-1252-y","journal":"Behavioral Ecology & Sociobiology","url":"https://doi.org/10.1007/s00265-011-1252-y","outcome":"Gorilla chest beat acoustics encode body size and serve as a long-distance honest signal.","open_access":1}],"themes":["multimodal","honest_signalling","emotion"]},{"sci":"Halichoerus grypus","en":"grey seal","it":"foca grigia","es":"foca gris","fr":"phoque gris","de":"kegelrobbe","class_":"Mammalia","order_":"Carnivora","family":"Phocidae","wiki":"Grey_seal","xc":"","voc":["call","moan"],"ctx":["mate attraction","social communication"],"fn":["mate attraction","individual identity"],"papers":[{"title":"Grey seals copy human speech formants","year":2019,"doi":"10.1016/j.cub.2019.05.071","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2019.05.071","outcome":"Grey seals reproduce speech formant patterns, confirming vocal production learning.","open_access":1}],"themes":["vocal_learning"]},{"sci":"Heterocephalus glaber","en":"naked mole-rat","it":"eterocefalo glabro","es":"rata topo desnuda","fr":"rat-taupe nu","de":"nacktmull","class_":"Mammalia","order_":"Rodentia","family":"Bathyergidae","wiki":"Naked_mole-rat","xc":"","voc":["chirp","call"],"ctx":["colony communication","social hierarchy"],"fn":["group identity","individual recognition"],"papers":[{"title":"Vocal dialects in naked mole-rat colonies","year":2021,"doi":"10.1126/science.abc6588","journal":"Science","url":"https://doi.org/10.1126/science.abc6588","outcome":"Each colony has a distinct vocal dialect culturally inherited and enforced by the queen.","open_access":1}],"themes":["dialects","individual_recognition","cooperation"]},{"sci":"Homo sapiens","en":"human","it":"essere umano","es":"humano","fr":"humain","de":"mensch","class_":"Mammalia","order_":"Primates","family":"Hominidae","wiki":"Human","xc":"","voc":["speech","song","whistle"],"ctx":["all contexts"],"fn":["all communicative functions"],"papers":[{"title":"The faculty of language: what is it, who has it, and how did it evolve?","year":2002,"doi":"10.1126/science.298.5598.1569","journal":"Science","url":"https://doi.org/10.1126/science.298.5598.1569","outcome":"Proposes recursion as the only uniquely human component of the language faculty.","open_access":1},{"title":"Natural language and natural selection","year":1990,"doi":"10.1017/S0140525X00081061","journal":"Behavioral and Brain Sciences","url":"https://doi.org/10.1017/S0140525X00081061","outcome":"Argues language is a biological adaptation shaped by natural selection.","open_access":1}],"themes":["vocal_learning","referential","syntax","cultural_transmission","individual_recognition","turn_taking","dialects","emotion","multimodal","deception","cooperation","parent_offspring","alarm","honest_signalling"]},{"sci":"Hylobates lar","en":"lar gibbon","it":"gibbone dalle mani bianche","es":"gibón de manos blancas","fr":"gibbon à mains blanches","de":"weißhandgibbon","class_":"Mammalia","order_":"Primates","family":"Hylobatidae","wiki":"Lar_gibbon","xc":"","voc":["great call","song","whoop"],"ctx":["territorial defence","mate attraction","pair bond maintenance"],"fn":["territory signalling","pair bond maintenance","mate attraction"],"papers":[{"title":"Gibbon song and territory","year":2020,"doi":"10.1038/s41559-020-1207-z","journal":"Nature Ecology & Evolution","url":"https://doi.org/10.1038/s41559-020-1207-z","outcome":"Gibbon great calls are long-distance territory signals with pair-specific features.","open_access":1}],"themes":["turn_taking","honest_signalling","cooperation"]},{"sci":"Indri indri","en":"indri","it":"indri","es":"indri","fr":"indri","de":"indri","class_":"Mammalia","order_":"Primates","family":"Indriidae","wiki":"Indri","xc":"","voc":["song","howl","call"],"ctx":["territorial defence","social bonding"],"fn":["territory signalling","group coordination"],"papers":[{"title":"Categorical rhythms in indri songs","year":2021,"doi":"10.1016/j.cub.2021.01.058","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2021.01.058","outcome":"Indri songs exhibit categorical rhythm ratios paralleling human musical universals.","open_access":1}],"themes":["turn_taking","cultural_transmission","cooperation"]},{"sci":"Lemur catta","en":"ring-tailed lemur","it":"lemure dalla coda ad anelli","es":"lémur de cola anillada","fr":"maki catta","de":"katta","class_":"Mammalia","order_":"Primates","family":"Lemuridae","wiki":"Ring-tailed_lemur","xc":"","voc":["wail","purr","click"],"ctx":["social communication","alarm","territorial defence"],"fn":["group cohesion","predator warning","territory signalling"],"papers":[{"title":"Ring-tailed lemur alarm calls","year":2013,"doi":"10.1007/s00265-012-1337-7","journal":"Behavioral Ecology & Sociobiology","url":"https://doi.org/10.1007/s00265-012-1337-7","outcome":"Ring-tailed lemurs produce predator-specific alarm calls with distinct acoustic features.","open_access":1}],"themes":["referential","alarm","multimodal"]},{"sci":"Loxodonta africana","en":"african elephant","it":"elefante africano","es":"elefante africano","fr":"éléphant de savane africain","de":"afrikanischer elefant","class_":"Mammalia","order_":"Proboscidea","family":"Elephantidae","wiki":"African_bush_elephant","xc":"","voc":["rumble","trumpet","infrasonic call"],"ctx":["long-distance communication","social bonding","alarm"],"fn":["group coordination","contact maintenance","predator warning"],"papers":[{"title":"African elephants respond to bee alarms","year":2016,"doi":"10.1073/pnas.1606919113","journal":"PNAS","url":"https://doi.org/10.1073/pnas.1606919113","outcome":"Elephants produce specific alarm calls and behaviours in response to bee sounds.","open_access":1},{"title":"Social complexity and vocal repertoire in African elephants","year":2010,"doi":"10.1038/ncomms1005","journal":"Nature Communications","url":"https://doi.org/10.1038/ncomms1005","outcome":"Elephant rumbles encode identity, emotional state, and social context.","open_access":1}],"themes":["infrasound","referential","individual_recognition","cooperation","cultural_transmission","vocal_learning"]},{"sci":"Macaca mulatta","en":"rhesus macaque","it":"macaco reso","es":"macaco rhesus","fr":"macaque rhésus","de":"rhesusaffe","class_":"Mammalia","order_":"Primates","family":"Cercopithecidae","wiki":"Rhesus_macaque","xc":"","voc":["coo","grunt","scream"],"ctx":["social communication","alarm","dominance"],"fn":["affiliation signalling","individual recognition","status display"],"papers":[{"title":"Rhesus macaque coo calls and affiliation","year":2015,"doi":"10.1016/j.cub.2015.02.065","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2015.02.065","outcome":"Macaque coo calls encode social bonding signals that vary with relationship quality.","open_access":1}],"themes":["individual_recognition","cooperation","emotion"]},{"sci":"Megaptera novaeangliae","en":"humpback whale","it":"megattera","es":"ballena jorobada","fr":"baleine à bosse","de":"buckelwal","class_":"Mammalia","order_":"Cetacea","family":"Balaenopteridae","wiki":"Humpback_whale","xc":"","voc":["song"],"ctx":["courtship","long-distance communication"],"fn":["mate attraction","male competition"],"papers":[{"title":"Songs of humpback whales","year":1971,"doi":"10.1126/science.173.3993.585","journal":"Science","url":"https://doi.org/10.1126/science.173.3993.585","outcome":"Humpback whale songs are complex structured sequences that evolve over time.","open_access":1},{"title":"Cultural transmission of humpback whale song","year":2018,"doi":"10.1016/j.cub.2018.04.005","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2018.04.005","outcome":"Novel song themes spread across ocean basins through cultural transmission.","open_access":1},{"title":"Sequential cultural evolution of humpback whale song","year":2011,"doi":"10.1016/j.cub.2011.03.019","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2011.03.019","outcome":"Song changes spread between populations in a progressive sequential pattern.","open_access":1}],"themes":["vocal_learning","cultural_transmission","dialects"]},{"sci":"Mirounga angustirostris","en":"northern elephant seal","it":"elefante marino del nord","es":"elefante marino del norte","fr":"éléphant de mer du nord","de":"nördlicher see-elefant","class_":"Mammalia","order_":"Carnivora","family":"Phocidae","wiki":"Northern_elephant_seal","xc":"","voc":["call","pulse"],"ctx":["territorial defence","male competition"],"fn":["individual identity","aggression"],"papers":[{"title":"Individual recognition via vocal signatures in elephant seals","year":2017,"doi":"10.1016/j.cub.2017.08.055","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2017.08.055","outcome":"Males recognise rivals by vocal rhythm patterns and withdraw from known dominant callers.","open_access":1}],"themes":["individual_recognition","honest_signalling"]},{"sci":"Mus musculus","en":"house mouse","it":"topo domestico","es":"ratón doméstico","fr":"souris domestique","de":"hausmaus","class_":"Mammalia","order_":"Rodentia","family":"Muridae","wiki":"House_mouse","xc":"","voc":["ultrasonic vocalisation"],"ctx":["isolation","parent-offspring interaction","courtship"],"fn":["maternal retrieval","distress signalling","mate attraction"],"papers":[{"title":"Ultrasonic vocalizations of infant mice","year":2014,"doi":"10.1371/journal.pbio.1001893","journal":"PLOS Biology","url":"https://doi.org/10.1371/journal.pbio.1001893","outcome":"Infant mouse USVs are heterogeneous and predict maternal retrieval probability.","open_access":1},{"title":"Infant mouse vocalizations are context-dependent","year":2010,"doi":"10.1016/j.bbr.2010.11.040","journal":"Behavioural Brain Research","url":"https://doi.org/10.1016/j.bbr.2010.11.040","outcome":"Calls during isolation reflect separation stress and elicit maternal retrieval.","open_access":1}],"themes":["vocal_learning","honest_signalling","parent_offspring"]},{"sci":"Mustela putorius furo","en":"domestic ferret","it":"furetto domestico","es":"hurón doméstico","fr":"furet domestique","de":"hausiltis","class_":"Mammalia","order_":"Carnivora","family":"Mustelidae","wiki":"Domestic_ferret","xc":"","voc":["dook","hiss","screech"],"ctx":["play","alarm","contact"],"fn":["play invitation","alarm","contact maintenance"],"papers":[{"title":"Ferret play vocalizations","year":2014,"doi":"10.1016/j.beproc.2014.09.001","journal":"Behavioural Processes","url":"https://doi.org/10.1016/j.beproc.2014.09.001","outcome":"Ferret dooking vocalisations signal play readiness and modulate play behaviour.","open_access":1}],"themes":["emotion"]},{"sci":"Orcinus orca","en":"orca","it":"orca","es":"orca","fr":"orque","de":"schwertwal","class_":"Mammalia","order_":"Cetacea","family":"Delphinidae","wiki":"Killer_whale","xc":"","voc":["call","whistle","click"],"ctx":["social communication","echolocation","cultural transmission"],"fn":["group identity","pod coordination","prey detection"],"papers":[{"title":"Orca dialect diversity and cultural transmission","year":2007,"doi":"10.1016/j.anbehav.2006.09.004","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2006.09.004","outcome":"Killer whale pods have distinct call dialects maintained by cultural transmission.","open_access":1}],"themes":["vocal_learning","cultural_transmission","dialects","cooperation","echolocation"]},{"sci":"Ovis aries","en":"domestic sheep","it":"pecora","es":"oveja doméstica","fr":"mouton","de":"hausschaf","class_":"Mammalia","order_":"Artiodactyla","family":"Bovidae","wiki":"Sheep","xc":"","voc":["bleat"],"ctx":["mother-offspring","alarm","social contact"],"fn":["individual recognition","contact maintenance","separation distress"],"papers":[{"title":"Sheep recognize individuals by bleats","year":2003,"doi":"10.1016/j.anbehav.2003.05.002","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2003.05.002","outcome":"Ewes and lambs recognize each other by voice within 24 hours of birth.","open_access":1}],"themes":["individual_recognition","parent_offspring"]},{"sci":"Pan paniscus","en":"bonobo","it":"bonobo","es":"bonobo","fr":"bonobo","de":"bonobo","class_":"Mammalia","order_":"Primates","family":"Hominidae","wiki":"Bonobo","xc":"","voc":["peep","scream","grunt"],"ctx":["social communication","food sharing"],"fn":["social bonding","conflict resolution","food coordination"],"papers":[{"title":"Bonobo peeps and food sharing","year":2022,"doi":"10.1038/s41559-022-01761-y","journal":"Nature Ecology & Evolution","url":"https://doi.org/10.1038/s41559-022-01761-y","outcome":"Bonobo peep calls signal emotional state and predict food sharing behaviour.","open_access":1}],"themes":["emotion","cooperation","referential"]},{"sci":"Pan troglodytes","en":"chimpanzee","it":"scimpanzé","es":"chimpancé","fr":"chimpanzé","de":"schimpanse","class_":"Mammalia","order_":"Primates","family":"Hominidae","wiki":"Chimpanzee","xc":"","voc":["pant-hoot","grunt","scream"],"ctx":["social dominance","foraging","predator response"],"fn":["long-distance communication","individual recognition","social coordination"],"papers":[{"title":"Chimpanzee alarm calls discriminate predator type","year":2019,"doi":"10.1098/rspb.2019.2228","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2019.2228","outcome":"Chimpanzees produce functionally referential alarm calls with predator-specific features.","open_access":1},{"title":"Cultural variation in chimpanzee gestures","year":2014,"doi":"10.1016/j.cub.2014.07.051","journal":"Current Biology","url":"https://doi.org/10.1016/j.cub.2014.07.051","outcome":"Chimpanzee gestural repertoires vary between communities, suggesting cultural transmission.","open_access":1}],"themes":["referential","cultural_transmission","cooperation","emotion","multimodal"]},{"sci":"Phascolarctos cinereus","en":"koala","it":"koala","es":"koala","fr":"koala","de":"koala","class_":"Mammalia","order_":"Diprotodontia","family":"Phascolarctidae","wiki":"Koala","xc":"","voc":["bellow","scream"],"ctx":["mate attraction","territorial defence"],"fn":["mate attraction","territory signalling"],"papers":[{"title":"Koala bellows and mate quality","year":2013,"doi":"10.1111/j.1365-2435.2011.01871.x","journal":"Functional Ecology","url":"https://doi.org/10.1111/j.1365-2435.2011.01871.x","outcome":"Koala male bellow fundamental frequency is 20 times lower than expected for body size.","open_access":1}],"themes":["honest_signalling","infrasound"]},{"sci":"Phocoena phocoena","en":"harbour porpoise","it":"focena comune","es":"marsopa común","fr":"marsouin commun","de":"schweinswal","class_":"Mammalia","order_":"Cetacea","family":"Phocoenidae","wiki":"Harbour_porpoise","xc":"","voc":["click"],"ctx":["echolocation","social communication"],"fn":["prey detection","individual recognition"],"papers":[{"title":"Harbour porpoise echolocation","year":2014,"doi":"10.1371/journal.pone.0111807","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0111807","outcome":"Harbour porpoise clicks are highly directional and used for prey detection.","open_access":1}],"themes":["echolocation"]},{"sci":"Physeter macrocephalus","en":"sperm whale","it":"capodoglio","es":"cachalote","fr":"cachalot","de":"pottwal","class_":"Mammalia","order_":"Cetacea","family":"Physeteridae","wiki":"Sperm_whale","xc":"","voc":["click","coda"],"ctx":["echolocation","social communication","group identity"],"fn":["prey detection","individual recognition","cultural identity"],"papers":[{"title":"Sperm whale coda clans","year":2021,"doi":"10.1038/s41559-021-01680-2","journal":"Nature Ecology & Evolution","url":"https://doi.org/10.1038/s41559-021-01680-2","outcome":"Sperm whale coda patterns define cultural clans with distinct vocal traditions.","open_access":1}],"themes":["cultural_transmission","individual_recognition","echolocation","dialects","cooperation"]},{"sci":"Pteropus vampyrus","en":"large flying fox","it":"volpe volante grande","es":"zorro volador grande","fr":"grande roussette","de":"malaiischer flughund","class_":"Mammalia","order_":"Chiroptera","family":"Pteropodidae","wiki":"Large_flying_fox","xc":"","voc":["screech","contact call"],"ctx":["roost communication","social interaction","alarm"],"fn":["social coordination","individual recognition","alarm"],"papers":[{"title":"Flying fox social communication","year":2011,"doi":"10.1371/journal.pone.0025275","journal":"PLOS ONE","url":"https://doi.org/10.1371/journal.pone.0025275","outcome":"Flying foxes use complex vocal signals for social coordination at roosts.","open_access":1}],"themes":["cooperation","individual_recognition"]},{"sci":"Rangifer tarandus","en":"reindeer","it":"renna","es":"reno","fr":"renne","de":"rentier","class_":"Mammalia","order_":"Artiodactyla","family":"Cervidae","wiki":"Reindeer","xc":"","voc":["grunt","snort"],"ctx":["social communication","mating","alarm"],"fn":["contact maintenance","mate competition","predator warning"],"papers":[{"title":"Reindeer grunts and social hierarchy","year":2005,"doi":"10.1093/beheco/arh110","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arh110","outcome":"Reindeer grunt frequency encodes body mass and is used in dominance interactions.","open_access":1}],"themes":["honest_signalling"]},{"sci":"Rattus norvegicus","en":"norway rat","it":"ratto norvegese","es":"rata de alcantarilla","fr":"rat surmulot","de":"wanderratte","class_":"Mammalia","order_":"Rodentia","family":"Muridae","wiki":"Brown_rat","xc":"","voc":["ultrasonic vocalisation","squeak"],"ctx":["play","distress","social communication"],"fn":["play invitation","distress signalling","social bonding"],"papers":[{"title":"Rat ultrasonic vocalizations and play","year":2010,"doi":"10.1016/j.bbr.2010.05.050","journal":"Behavioural Brain Research","url":"https://doi.org/10.1016/j.bbr.2010.05.050","outcome":"Rats emit 50 kHz USVs during play and positive social contact, encoding positive affect.","open_access":1}],"themes":["emotion","parent_offspring"]},{"sci":"Rousettus aegyptiacus","en":"Egyptian fruit bat","it":"pipistrello egiziano","es":"murciélago frugívoro egipcio","fr":"roussette d'Égypte","de":"nilflughund","class_":"Mammalia","order_":"Chiroptera","family":"Pteropodidae","wiki":"Egyptian_fruit_bat","xc":"","voc":["call","screech"],"ctx":["social disputes","roosting"],"fn":["individual identity","aggression"],"papers":[{"title":"Bat calls encode social context and identity","year":2016,"doi":"10.1038/srep39293","journal":"Scientific Reports","url":"https://doi.org/10.1038/srep39293","outcome":"Egyptian fruit bat calls encode caller identity, addressee, and social context.","open_access":1}],"themes":["vocal_learning","individual_recognition"]},{"sci":"Saccopteryx bilineata","en":"greater sac-winged bat","it":"pipistrello saccato","es":"murciélago de sacos","fr":"saccoptère à deux raies","de":"zweistreifige sackflügelfledermaus","class_":"Mammalia","order_":"Chiroptera","family":"Emballonuridae","wiki":"Greater_sac-winged_bat","xc":"","voc":["song","babbling","call"],"ctx":["courtship","pup development"],"fn":["mate attraction","vocal development"],"papers":[{"title":"Babbling in sac-winged bat pups","year":2006,"doi":"10.1007/s00114-006-0127-9","journal":"Naturwissenschaften","url":"https://doi.org/10.1007/s00114-006-0127-9","outcome":"Pups produce babbling sequences resembling adult songs — paralleling human babbling.","open_access":1}],"themes":["vocal_learning","parent_offspring"]},{"sci":"Scotinomys teguina","en":"Alston's singing mouse","it":"topo cantore di Alston","es":"ratón cantor","fr":"souris chanteuse","de":"singende maus","class_":"Mammalia","order_":"Rodentia","family":"Cricetidae","wiki":"Scotinomys_teguina","xc":"","voc":["song","call"],"ctx":["territorial defence","mate attraction"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Motor cortex mediates vocal turn-taking in singing mice","year":2019,"doi":"10.1126/science.aau9480","journal":"Science","url":"https://doi.org/10.1126/science.aau9480","outcome":"Singing mice engage in rapid acoustic counter-singing; motor cortex controls turn-taking.","open_access":1}],"themes":["turn_taking","honest_signalling"]},{"sci":"Spermophilus beecheyi","en":"california ground squirrel","it":"scoiattolo di terra californiano","es":"ardilla de tierra californiana","fr":"spermophile de californie","de":"kalifornischer ziesel","class_":"Mammalia","order_":"Rodentia","family":"Sciuridae","wiki":"California_ground_squirrel","xc":"","voc":["alarm call","trill"],"ctx":["predator response","social communication"],"fn":["predator warning","individual recognition"],"papers":[{"title":"California ground squirrel alarm calls","year":2016,"doi":"10.1016/j.anbehav.2016.10.009","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2016.10.009","outcome":"Ground squirrel alarm calls encode predator type and urgency with graded acoustic features.","open_access":1}],"themes":["referential","alarm"]},{"sci":"Suricata suricatta","en":"meerkat","it":"suricato","es":"suricata","fr":"suricate","de":"erdmännchen","class_":"Mammalia","order_":"Carnivora","family":"Herpestidae","wiki":"Meerkat","xc":"","voc":["alarm call","contact call"],"ctx":["predator response","foraging","group cohesion"],"fn":["predator warning","group coordination"],"papers":[{"title":"Functionally referential alarm calls in meerkats","year":2001,"doi":"10.1098/rspb.2001.1924","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2001.1924","outcome":"Meerkat alarm calls encode both predator type and urgency level.","open_access":1}],"themes":["referential","alarm","cooperation"]},{"sci":"Sus scrofa domesticus","en":"domestic pig","it":"maiale domestico","es":"cerdo doméstico","fr":"cochon domestique","de":"hausschwein","class_":"Mammalia","order_":"Artiodactyla","family":"Suidae","wiki":"Domestic_pig","xc":"","voc":["grunt","squeal","bark"],"ctx":["social communication","alarm","play","feeding"],"fn":["individual recognition","alarm","social coordination"],"papers":[{"title":"Individual identification in pig calls","year":2011,"doi":"10.1093/beheco/arq051","journal":"Behavioral Ecology","url":"https://doi.org/10.1093/beheco/arq051","outcome":"Pig grunts encode individual identity information recognizable by conspecifics.","open_access":1}],"themes":["emotion","honest_signalling"]},{"sci":"Tadarida brasiliensis","en":"mexican free-tailed bat","it":"pipistrello dalla coda libera messicano","es":"murciélago cola de ratón","fr":"molosse du Brésil","de":"mexikanische freischwanzfledermaus","class_":"Mammalia","order_":"Chiroptera","family":"Molossidae","wiki":"Mexican_free-tailed_bat","xc":"","voc":["echolocation call","social call"],"ctx":["foraging","social communication","mate attraction"],"fn":["prey detection","male competition","female recruitment"],"papers":[{"title":"Free-tailed bat songs and mate attraction","year":2012,"doi":"10.1126/science.1221174","journal":"Science","url":"https://doi.org/10.1126/science.1221174","outcome":"Male Mexican free-tailed bats sing complex songs to attract females during the breeding season.","open_access":1}],"themes":["echolocation","honest_signalling"]},{"sci":"Tursiops truncatus","en":"bottlenose dolphin","it":"delfino tursiope","es":"delfín mular","fr":"grand dauphin","de":"großer tümmler","class_":"Mammalia","order_":"Cetacea","family":"Delphinidae","wiki":"Common_bottlenose_dolphin","xc":"","voc":["signature whistle","whistle","click"],"ctx":["individual recognition","group cohesion","echolocation"],"fn":["individual identity","social affiliation","prey detection"],"papers":[{"title":"Signature whistles of bottlenose dolphins","year":2006,"doi":"10.1098/rspb.2006.3517","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2006.3517","outcome":"Bottlenose dolphins have individually distinctive signature whistles used for individual recognition.","open_access":1},{"title":"Vocal copying of individually distinctive signature whistles in bottlenose dolphins","year":2013,"doi":"10.1098/rspb.2013.0053","journal":"Proc Royal Soc B","url":"https://doi.org/10.1098/rspb.2013.0053","outcome":"Dolphins copy the signature whistles of social partners, a rare form of vocal imitation.","open_access":1},{"title":"Name-like use of signature whistles in bottlenose dolphins","year":2013,"doi":"10.1073/pnas.1304459110","journal":"PNAS","url":"https://doi.org/10.1073/pnas.1304459110","outcome":"Dolphins use copies of others' signature whistles to address specific individuals.","open_access":1}],"themes":["vocal_learning","referential","individual_recognition","echolocation","cooperation"]},{"sci":"Anolis carolinensis","en":"green anole","it":"anole verde americano","es":"anolis verde","fr":"anole vert","de":"grüner anolis","class_":"Reptilia","order_":"Squamata","family":"Dactyloidae","wiki":"Green_anole","xc":"","voc":["call"],"ctx":["territorial defence","courtship"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Anole vocal communication and display","year":2011,"doi":"10.1086/660118","journal":"Physiological and Biochemical Zoology","url":"https://doi.org/10.1086/660118","outcome":"Anole head-bob displays are combined with dewlap extension in species-specific courtship.","open_access":1}],"themes":["multimodal","honest_signalling"]},{"sci":"Chelonia mydas","en":"green sea turtle","it":"tartaruga verde","es":"tortuga verde","fr":"tortue verte","de":"grüne meeresschildkröte","class_":"Reptilia","order_":"Testudines","family":"Cheloniidae","wiki":"Green_sea_turtle","xc":"","voc":["call"],"ctx":["nest emergence","parent-offspring"],"fn":["group synchronisation","parent-offspring"],"papers":[{"title":"Sound production in sea turtles","year":2014,"doi":"10.1016/j.anbehav.2014.02.008","journal":"Animal Behaviour","url":"https://doi.org/10.1016/j.anbehav.2014.02.008","outcome":"Nesting turtles and hatchlings produce sounds synchronising group emergence.","open_access":1}],"themes":["parent_offspring"]},{"sci":"Crocodylus niloticus","en":"nile crocodile","it":"coccodrillo del nilo","es":"cocodrilo del nilo","fr":"crocodile du nil","de":"nilkrokodil","class_":"Reptilia","order_":"Crocodilia","family":"Crocodylidae","wiki":"Nile_crocodile","xc":"","voc":["bellow","hiss","grunt"],"ctx":["territorial defence","mate attraction","parent-offspring interaction"],"fn":["territory signalling","mate attraction","nest guarding"],"papers":[{"title":"Crocodile parental vocalizations","year":2009,"doi":"10.1163/157075609X437135","journal":"Herpetologica","url":"https://doi.org/10.1163/157075609X437135","outcome":"Nile crocodile bellows encode sex and body size, and juveniles call to elicit parental care.","open_access":1}],"themes":["infrasound","parent_offspring"]},{"sci":"Iguana iguana","en":"green iguana","it":"iguana verde","es":"iguana verde","fr":"iguane commun","de":"grüner leguan","class_":"Reptilia","order_":"Squamata","family":"Iguanidae","wiki":"Green_iguana","xc":"","voc":["head bob","hiss"],"ctx":["territorial defence","courtship"],"fn":["territory signalling","mate attraction"],"papers":[{"title":"Green iguana territorial communication","year":2001,"doi":"10.1007/s002650000422","journal":"Behavioral Ecology & Sociobiology","url":"https://doi.org/10.1007/s002650000422","outcome":"Green iguanas use head bobs and hisses to establish and defend territories.","open_access":1}],"themes":["multimodal","honest_signalling"]}];
+const THEMES = [{"id":"vocal_learning","label":"Vocal Learning","desc":"Acquisition of vocalisations through auditory experience and sensorimotor feedback","color":"#4ecdc4"},{"id":"referential","label":"Referential Communication","desc":"Signals encoding information about external objects, events, or predator type","color":"#ff6b6b"},{"id":"syntax","label":"Syntax & Combinatoriality","desc":"Rule-governed combination or sequencing of signal elements","color":"#ffd93d"},{"id":"individual_recognition","label":"Individual Recognition","desc":"Identification of conspecifics via acoustic signatures","color":"#6c5ce7"},{"id":"cultural_transmission","label":"Cultural Transmission","desc":"Social transfer of vocal traditions across generations","color":"#a29bfe"},{"id":"turn_taking","label":"Turn-taking & Duetting","desc":"Temporally coordinated exchange of signals between individuals","color":"#fd79a8"},{"id":"honest_signalling","label":"Honest Signalling","desc":"Signals reliably encoding sender quality, condition, or motivation","color":"#00b894"},{"id":"echolocation","label":"Echolocation / Biosonar","desc":"Active acoustic sensing for navigation and prey detection","color":"#0984e3"},{"id":"infrasound","label":"Infrasound Communication","desc":"Communication using frequencies below human hearing","color":"#e17055"},{"id":"dialects","label":"Vocal Dialects","desc":"Geographic or group-specific variation in vocal structure","color":"#fdcb6e"},{"id":"emotion","label":"Emotional Signalling","desc":"Acoustic encoding of arousal, valence, and affective states","color":"#e84393"},{"id":"multimodal","label":"Multimodal Communication","desc":"Integration of acoustic signals with visual, chemical, or tactile channels","color":"#00cec9"},{"id":"deception","label":"Deceptive Signalling","desc":"Production of misleading signals for competitive advantage","color":"#636e72"},{"id":"parent_offspring","label":"Parent-Offspring Communication","desc":"Acoustic exchanges between parents and young, including prenatal","color":"#fab1a0"},{"id":"alarm","label":"Alarm & Predator Response","desc":"Warning signals encoding predator type, urgency, or escape strategy","color":"#ff7675"},{"id":"cooperation","label":"Cooperative Communication","desc":"Signals coordinating group activities: foraging, hunting, territory defence","color":"#74b9ff"}];
+
+const classColors = {'Aves':'#4ecdc4','Mammalia':'#ff6b6b','Amphibia':'#ffd93d','Actinopterygii':'#6c5ce7','Insecta':'#a29bfe','Reptilia':'#e17055'};
+const themeMap = Object.fromEntries(THEMES.map(t=>[t.id,t]));
+let INDEX, activeFilter='all', activeTheme=null, compareSet=new Set();
+let graphMode='theme', graphNodes=[], graphEdges=[], graphAnim=null, dragNode=null, panX=0, panY=0, zoom=1, lastMouse=null;
+
+// ══ INIT ═══════════════════════════════════════════════════════════════════
+INDEX = EMBEDDED_DB.map(sp => ({
+  species_id: sp.sci.toLowerCase().replace(/ /g,'_'),
+  sci: sp.sci,
+  en: sp.en, it: sp.it || '', es: sp.es || '', fr: sp.fr || '', de: sp.de || '',
+  class_: sp.class_, order_: sp.order_ || '', family: sp.family || '',
+  wiki: sp.wiki || '',
+  papers: sp.papers ? sp.papers.length : 0,
+  themes: sp.themes || [],
+}));
+
+const totalPapers = EMBEDDED_DB.reduce((n,s)=>n+(s.papers||[]).length,0);
+document.getElementById('hm').innerHTML =
+  `<b>${INDEX.length}</b> species · <b>${totalPapers}</b> papers · <b>${THEMES.length}</b> themes`;
+
+buildThemeFilters();
+renderGrid(INDEX);
+buildLiterature();
+
+// ══ VIEW SWITCHING ═════════════════════════════════════════════════════════
+function showView(id) {
+  ['sv','dv','lv','gv','cv'].forEach(v => {
+    const el = document.getElementById(v);
+    if(v === 'gv') el.style.display = v===id ? 'flex' : 'none';
+    else el.style.display = v===id ? 'block' : 'none';
+  });
+  document.querySelectorAll('.nav-links a:not(.nav-gh)').forEach(a=>a.style.color='var(--muted)');
+  const nlMap = {sv:'nl-species',gv:'nl-graph',lv:'nl-literature',cv:'nl-compare',dv:'nl-species'};
+  const nlEl = document.getElementById(nlMap[id]);
+  if(nlEl) nlEl.style.color = 'var(--amber)';
+  if(id==='gv') initGraph();
+  if(id==='cv') renderCompare();
+}
+function showSearch(){showView('sv')}
+
+// ══ THEME FILTERS ══════════════════════════════════════════════════════════
+function buildThemeFilters() {
+  const el = document.getElementById('theme-flt');
+  el.innerHTML = '<span style="font-size:10px;color:var(--hint);text-transform:uppercase;letter-spacing:.07em;margin-right:4px">theme</span>';
+  THEMES.forEach(th => {
+    const count = EMBEDDED_DB.filter(s=>(s.themes||[]).includes(th.id)).length;
+    if(!count) return;
+    const b = document.createElement('button');
+    b.className = 'fchip';
+    b.textContent = th.label + ' (' + count + ')';
+    b.dataset.f = th.id;
+    b.onclick = () => {
+      activeTheme = activeTheme===th.id ? null : th.id;
+      el.querySelectorAll('.fchip').forEach(c=>c.classList.remove('on'));
+      if(activeTheme) b.classList.add('on');
+      applyFilters();
+    };
+    if(activeTheme===th.id) b.classList.add('on');
+    el.appendChild(b);
+  });
+}
+
+// ══ FILTERS ════════════════════════════════════════════════════════════════
+document.getElementById('qi').addEventListener('input', applyFilters);
+document.querySelectorAll('#flt .fchip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    activeFilter = btn.dataset.f;
+    document.querySelectorAll('#flt .fchip').forEach(c=>c.classList.remove('on'));
+    btn.classList.add('on');
+    applyFilters();
+  });
+});
+
+function applyFilters() {
+  const q = document.getElementById('qi').value.trim().toLowerCase();
+  const filtered = INDEX.filter(sp => {
+    if(activeFilter !== 'all' && sp.class_ !== activeFilter) return false;
+    if(activeTheme && !(sp.themes||[]).includes(activeTheme)) return false;
+    if(!q) return true;
+    return [sp.sci,sp.en,sp.it,sp.es,sp.fr,sp.de,sp.class_,sp.order_,sp.family].join(' ').toLowerCase().includes(q);
+  });
+  renderGrid(filtered);
+}
+
+// ══ GRID RENDER ════════════════════════════════════════════════════════════
+function renderGrid(list) {
+  const g = document.getElementById('sg');
+  if(!list.length) { g.innerHTML = '<div class="no-r">No matching species</div>'; return; }
+  g.innerHTML = list.map(sp => {
+    const themeTags = (sp.themes||[]).slice(0,3).map(tid => {
+      const th = themeMap[tid];
+      return th ? `<span class="ttag" style="background:${th.color}18;color:${th.color};border:1px solid ${th.color}30">${th.label}</span>` : '';
+    }).join('');
+    const imgUrl = sp.wiki ? `https://en.wikipedia.org/wiki/Special:FilePath/${sp.wiki.replace(/ /g,'_')}_-_portrait.jpg` : '';
+    return `<div class="scard" onclick="showDetail('${sp.species_id}')" style="position:relative">
+      <button class="card-cmp ${compareSet.has(sp.sci)?'sel':''}" onclick="event.stopPropagation();toggleCompare('${sp.sci}')" title="Compare">✓</button>
+      <div class="sthumb">
+        ${sp.wiki ? `<img src="https://en.wikipedia.org/wiki/Special:FilePath/${sp.wiki.replace(/ /g,'_')}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+        <span class="sph">${sp.class_}</span>
+      </div>
+      <div class="scb">
+        <div class="scn">${sp.en}</div>
+        <div class="scs">${sp.sci}</div>
+        <div class="sct">
+          <span class="stg ${sp.papers?'stg-has':''}">${sp.papers} paper${sp.papers!==1?'s':''}</span>
+          <span class="stg">${sp.order_}</span>
+        </div>
+        <div class="theme-tags">${themeTags}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ══ DETAIL VIEW ════════════════════════════════════════════════════════════
+function showDetail(sid) {
+  const raw = EMBEDDED_DB.find(s => s.sci.toLowerCase().replace(/ /g,'_') === sid);
+  if(!raw) return;
+  showView('dv');
+
+  const themeTags = (raw.themes||[]).map(tid => {
+    const th = themeMap[tid];
+    return th ? `<span class="tg" style="color:${th.color};border-color:${th.color}44;background:${th.color}12">${th.label}</span>` : '';
+  }).join('');
+
+  document.getElementById('detail-content').innerHTML = `
+    <div class="sph2">
+      ${raw.wiki ? `<img class="spi" src="https://en.wikipedia.org/wiki/Special:FilePath/${raw.wiki.replace(/ /g,'_')}" alt="" onerror="this.outerHTML='<div class=spph>no image</div>'">` : '<div class="spph">no image</div>'}
+      <div>
+        <div class="spt">${raw.en}</div>
+        <div class="spsc">${raw.sci}</div>
+        <div class="bdgs">
+          <span class="bdg bn">${raw.class_}</span>
+          <span class="bdg bn">${raw.order_ || ''}</span>
+          <span class="bdg bn">${raw.family || ''}</span>
+        </div>
+      </div>
+    </div>
+    <div class="tabs">
+      <button class="tab on" onclick="showTab(this,'tab-profile')">profile</button>
+      <button class="tab" onclick="showTab(this,'tab-papers')">papers (${(raw.papers||[]).length})</button>
+      <button class="tab" onclick="showTab(this,'tab-audio')">audio</button>
+    </div>
+    <div id="tab-profile">
+      <div class="cs"><div class="cl">vocalisations</div>
+        <div class="tags">${(raw.voc||[]).map(v=>`<span class="tg tv">${v}</span>`).join('')}</div>
+      </div>
+      <div class="cs"><div class="cl">contexts</div>
+        <div class="tags">${(raw.ctx||[]).map(c=>`<span class="tg tc">${c}</span>`).join('')}</div>
+      </div>
+      <div class="cs"><div class="cl">functions</div>
+        <div class="tags">${(raw.fn||[]).map(f=>`<span class="tg tf">${f}</span>`).join('')}</div>
+      </div>
+      <div class="cs"><div class="cl">research themes</div>
+        <div class="tags">${themeTags}</div>
+      </div>
+      <div class="igrid">
+        <div class="ic"><label>taxonomy</label><span>${raw.class_} · ${raw.order_||''} · ${raw.family||''}</span></div>
+        <div class="ic"><label>wikipedia</label>${raw.wiki ? `<a href="https://en.wikipedia.org/wiki/${raw.wiki}" target="_blank">${raw.wiki.replace(/_/g,' ')}</a>` : '<span>—</span>'}</div>
+        <div class="ic"><label>xeno-canto</label>${raw.xc ? `<a href="https://xeno-canto.org/explore?query=${encodeURIComponent(raw.xc)}" target="_blank">recordings →</a>` : '<span>—</span>'}</div>
+      </div>
+    </div>
+    <div id="tab-papers" style="display:none">
+      ${(raw.papers||[]).length ? (raw.papers||[]).map(p => `
+        <div class="pc">
+          <div class="pt" onclick="window.open('${p.url||'https://doi.org/'+p.doi}','_blank')">${p.title}</div>
+          <div class="pm">${p.journal} (${p.year})</div>
+          <div class="po">${p.outcome}</div>
+          <div class="pacts">
+            <a class="pact" href="${p.url||'https://doi.org/'+p.doi}" target="_blank">DOI: ${p.doi}</a>
+          </div>
+        </div>`).join('') : '<div class="nop">No curated papers yet.</div>'}
+    </div>
+    <div id="tab-audio" style="display:none">
+      ${raw.xc ? `<div class="noaud">
+        <p>Listen on Xeno-Canto:</p>
+        <a href="https://xeno-canto.org/explore?query=${encodeURIComponent(raw.xc)}" target="_blank">${raw.xc} recordings →</a>
+      </div>` : '<div class="noaud">No audio source configured for this species.</div>'}
+    </div>
+  `;
+}
+
+function showTab(btn, id) {
+  btn.parentElement.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  btn.classList.add('on');
+  ['tab-profile','tab-papers','tab-audio'].forEach(t=>{
+    const el = document.getElementById(t);
+    if(el) el.style.display = t===id ? 'block' : 'none';
+  });
+}
+
+// ══ LITERATURE BY THEME ═══════════════════════════════════════════════════
+function buildLiterature() {
+  const el = document.getElementById('lit-content');
+  let html = '';
+  THEMES.forEach(th => {
+    const sps = EMBEDDED_DB.filter(s=>(s.themes||[]).includes(th.id));
+    if(!sps.length) return;
+    const papers = [];
+    sps.forEach(sp => (sp.papers||[]).forEach(p => {
+      if(!papers.find(x=>x.doi===p.doi)) papers.push({...p, species_sci:sp.sci, species_en:sp.en});
+    }));
+    papers.sort((a,b)=>b.year-a.year);
+    if(!papers.length) return;
+    html += `<div class="lit-group">
+      <div class="lit-theme"><span class="tdot" style="background:${th.color}"></span>${th.label}</div>
+      <div class="lit-theme-desc">${th.desc}
+        <div class="lit-theme-stats">${sps.length} species · ${papers.length} papers</div>
+      </div>
+      ${papers.map(p=>`<div class="lit-paper">
+        <div class="lit-paper-title">${p.title}</div>
+        <div class="lit-paper-meta">${p.journal} (${p.year}) · <a href="${p.url||'https://doi.org/'+p.doi}" target="_blank">${p.doi}</a></div>
+        <div class="lit-paper-species">${p.species_sci} (${p.species_en})</div>
+        <div class="lit-paper-outcome">${p.outcome}</div>
+      </div>`).join('')}
+    </div>`;
+  });
+  el.innerHTML = html;
+}
+
+// ══ COMPARE ═══════════════════════════════════════════════════════════════
+function toggleCompare(sci) {
+  if(compareSet.has(sci)) compareSet.delete(sci);
+  else if(compareSet.size<4) compareSet.add(sci);
+  updateCompareBar();
+  applyFilters();
+}
+function clearCompare(){compareSet.clear();updateCompareBar();applyFilters();}
+function updateCompareBar(){
+  const bar = document.getElementById('cmp-bar');
+  if(compareSet.size>0){
+    bar.classList.add('vis');
+    const names=[...compareSet].map(sci=>{const sp=EMBEDDED_DB.find(s=>s.sci===sci);return sp?sp.en:sci;});
+    document.getElementById('cmp-bar-names').textContent = names.join(' vs ');
+  } else bar.classList.remove('vis');
+}
+
+function renderCompare(){
+  const sps=[...compareSet].map(sci=>EMBEDDED_DB.find(s=>s.sci===sci)).filter(Boolean);
+  const slots=document.getElementById('cmp-slots');
+  const table=document.getElementById('cmp-table');
+  const overlap=document.getElementById('cmp-overlap');
+  if(sps.length<2){
+    slots.innerHTML='<p style="color:var(--muted);font-size:13px">Select at least 2 species from the Species tab to compare.</p>';
+    table.style.display='none';overlap.style.display='none';return;
+  }
+  slots.innerHTML=sps.map(sp=>`<div class="cmp-slot"><div class="cmp-slot-sci">${sp.sci}</div><div class="cmp-slot-en">${sp.en}</div><button class="cmp-rm" onclick="toggleCompare('${sp.sci}');renderCompare()">remove</button></div>`).join('');
+
+  const rows=[
+    ['Class',sp=>sp.class_],
+    ['Order',sp=>sp.order_||''],
+    ['Family',sp=>sp.family||''],
+    ['Vocalisations',sp=>(sp.voc||[]).join(', ')],
+    ['Contexts',sp=>(sp.ctx||[]).join(', ')],
+    ['Functions',sp=>(sp.fn||[]).join(', ')],
+    ['Themes',sp=>(sp.themes||[]).map(t=>themeMap[t]?themeMap[t].label:t).join(', ')],
+    ['Papers',sp=>(sp.papers||[]).length],
+  ];
+  table.style.display='table';
+  table.innerHTML=`<thead><tr><th>Dimension</th>${sps.map(sp=>`<th>${sp.en}</th>`).join('')}</tr></thead><tbody>${rows.map(([label,fn])=>`<tr><td>${label}</td>${sps.map(sp=>`<td>${fn(sp)}</td>`).join('')}</tr>`).join('')}</tbody>`;
+
+  const allThemes=sps.map(sp=>new Set(sp.themes||[]));
+  const sharedThemes=allThemes[0]?[...allThemes[0]].filter(t=>allThemes.every(s=>s.has(t))):[];
+  const allFns=sps.map(sp=>new Set(sp.fn||[]));
+  const sharedFns=allFns[0]?[...allFns[0]].filter(f=>allFns.every(s=>s.has(f))):[];
+
+  overlap.style.display='block';
+  overlap.innerHTML=`<h3>Trait Overlap Analysis</h3>
+    <div class="overlap-grid">
+      <div class="overlap-card"><h4>Shared Themes</h4>${sharedThemes.length?sharedThemes.map(t=>`<span class="shared-tag">${themeMap[t]?themeMap[t].label:t}</span>`).join(''):'<span style="color:var(--muted);font-size:11px">No shared themes</span>'}</div>
+      <div class="overlap-card"><h4>Shared Functions</h4>${sharedFns.length?sharedFns.map(f=>`<span class="shared-tag">${f}</span>`).join(''):'<span style="color:var(--muted);font-size:11px">No shared functions</span>'}</div>
+    </div>`;
+}
+
+// ══ KNOWLEDGE GRAPH ═══════════════════════════════════════════════════════
+let canvas, ctx, gW, gH;
+
+function initGraph(){
+  canvas=document.getElementById('graph-canvas');
+  if(!canvas) return;
+  ctx=canvas.getContext('2d');
+  const wrap=canvas.parentElement;
+  gW=canvas.width=wrap.clientWidth*2;
+  gH=canvas.height=wrap.clientHeight*2;
+  canvas.style.width=wrap.clientWidth+'px';
+  canvas.style.height=wrap.clientHeight+'px';
+  ctx.scale(2,2);
+  panX=wrap.clientWidth/2; panY=wrap.clientHeight/2;
+  buildGraphData();
+  setupGraphEvents();
+  if(graphAnim) cancelAnimationFrame(graphAnim);
+  simulateGraph();
+}
+
+function setGraphMode(m, btn){
+  graphMode=m;
+  document.querySelectorAll('.gm-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  buildGraphData();
+}
+
+function buildGraphData(){
+  graphNodes=[];graphEdges=[];
+  if(graphMode==='theme'){
+    THEMES.forEach(th=>{
+      const sps=EMBEDDED_DB.filter(s=>(s.themes||[]).includes(th.id));
+      if(!sps.length)return;
+      graphNodes.push({id:'th_'+th.id,label:th.label,type:'theme',color:th.color,r:16+sps.length*0.8,x:(Math.random()-.5)*400,y:(Math.random()-.5)*300,vx:0,vy:0});
+    });
+    EMBEDDED_DB.forEach(sp=>{
+      graphNodes.push({id:'sp_'+sp.sci,label:sp.en,type:'species',color:classColors[sp.class_]||'#888',r:5+(sp.papers||[]).length*1.5,x:(Math.random()-.5)*500,y:(Math.random()-.5)*400,vx:0,vy:0,data:sp});
+      (sp.themes||[]).forEach(tid=>{
+        if(graphNodes.find(n=>n.id==='th_'+tid))
+          graphEdges.push({source:'sp_'+sp.sci,target:'th_'+tid,color:(themeMap[tid]?.color||'#555')+'44'});
+      });
+    });
+  } else if(graphMode==='class'){
+    const classes=[...new Set(EMBEDDED_DB.map(s=>s.class_))];
+    classes.forEach(c=>{
+      graphNodes.push({id:'cl_'+c,label:c,type:'class',color:classColors[c]||'#888',r:22,x:(Math.random()-.5)*250,y:(Math.random()-.5)*200,vx:0,vy:0});
+    });
+    EMBEDDED_DB.forEach(sp=>{
+      graphNodes.push({id:'sp_'+sp.sci,label:sp.en,type:'species',color:classColors[sp.class_]||'#888',r:5+(sp.papers||[]).length*1.5,x:(Math.random()-.5)*500,y:(Math.random()-.5)*400,vx:0,vy:0,data:sp});
+      graphEdges.push({source:'sp_'+sp.sci,target:'cl_'+sp.class_,color:(classColors[sp.class_]||'#555')+'44'});
+    });
+  } else {
+    const fns = {};
+    EMBEDDED_DB.forEach(sp=>(sp.fn||[]).forEach(f=>{fns[f]=(fns[f]||0)+1}));
+    Object.entries(fns).filter(([,n])=>n>=2).forEach(([f,n])=>{
+      graphNodes.push({id:'fn_'+f,label:f,type:'function',color:'var(--amber)',r:12+n*0.8,x:(Math.random()-.5)*400,y:(Math.random()-.5)*300,vx:0,vy:0});
+    });
+    EMBEDDED_DB.forEach(sp=>{
+      graphNodes.push({id:'sp_'+sp.sci,label:sp.en,type:'species',color:classColors[sp.class_]||'#888',r:5+(sp.papers||[]).length*1.5,x:(Math.random()-.5)*500,y:(Math.random()-.5)*400,vx:0,vy:0,data:sp});
+      (sp.fn||[]).forEach(f=>{
+        if(graphNodes.find(n=>n.id==='fn_'+f))
+          graphEdges.push({source:'sp_'+sp.sci,target:'fn_'+f,color:'rgba(232,164,39,.15)'});
+      });
+    });
+  }
+  buildGraphLegend();
+  document.getElementById('graph-stats').textContent=`${graphNodes.length} nodes · ${graphEdges.length} edges`;
+}
+
+function buildGraphLegend(){
+  const el=document.getElementById('graph-legend');
+  if(graphMode==='theme'){
+    el.innerHTML=THEMES.filter(th=>EMBEDDED_DB.some(s=>(s.themes||[]).includes(th.id))).map(th=>`<span class="gl-item"><span class="gl-dot" style="background:${th.color}"></span>${th.label}</span>`).join('');
+  } else if(graphMode==='class'){
+    el.innerHTML=Object.entries(classColors).map(([c,col])=>`<span class="gl-item"><span class="gl-dot" style="background:${col}"></span>${c}</span>`).join('');
+  } else {
+    el.innerHTML='<span style="font-size:10px;color:var(--hint)">Species connected by shared communicative functions</span>';
+  }
+}
+
+function simulateGraph(){
+  const alpha=0.25,repulse=600,attract=0.004,center=0.008,damp=0.91;
+  const nodeMap=Object.fromEntries(graphNodes.map(n=>[n.id,n]));
+  for(let i=0;i<graphNodes.length;i++){
+    const a=graphNodes[i];
+    for(let j=i+1;j<graphNodes.length;j++){
+      const b=graphNodes[j];
+      let dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy)||1;
+      let f=repulse/(d*d);
+      a.vx+=dx/d*f*alpha;a.vy+=dy/d*f*alpha;
+      b.vx-=dx/d*f*alpha;b.vy-=dy/d*f*alpha;
+    }
+    a.vx-=a.x*center;a.vy-=a.y*center;
+  }
+  graphEdges.forEach(e=>{
+    const s=nodeMap[e.source],t=nodeMap[e.target];
+    if(!s||!t)return;
+    let dx=t.x-s.x,dy=t.y-s.y,d=Math.sqrt(dx*dx+dy*dy)||1;
+    s.vx+=dx*d*attract;s.vy+=dy*d*attract;
+    t.vx-=dx*d*attract;t.vy-=dy*d*attract;
+  });
+  graphNodes.forEach(n=>{
+    if(n===dragNode)return;
+    n.vx*=damp;n.vy*=damp;n.x+=n.vx;n.y+=n.vy;
+  });
+  drawGraph();
+  graphAnim=requestAnimationFrame(simulateGraph);
+}
+
+function drawGraph(){
+  if(!canvas)return;
+  const w=canvas.clientWidth,h=canvas.clientHeight;
+  ctx.clearRect(0,0,w,h);
+  ctx.save();ctx.translate(panX,panY);ctx.scale(zoom,zoom);
+  const nodeMap=Object.fromEntries(graphNodes.map(n=>[n.id,n]));
+  graphEdges.forEach(e=>{
+    const s=nodeMap[e.source],t=nodeMap[e.target];
+    if(!s||!t)return;
+    ctx.beginPath();ctx.moveTo(s.x,s.y);ctx.lineTo(t.x,t.y);
+    ctx.strokeStyle=e.color||'rgba(255,255,255,.06)';ctx.lineWidth=.5;ctx.stroke();
+  });
+  graphNodes.forEach(n=>{
+    ctx.beginPath();ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
+    if(n.type==='species'){
+      const c=n.color.startsWith('var')?'#e8a427':n.color;
+      ctx.fillStyle=c+'30';ctx.strokeStyle=c;ctx.lineWidth=1;ctx.fill();ctx.stroke();
+    } else {
+      const c=n.color.startsWith('var')?'#e8a427':n.color;
+      ctx.fillStyle=c+'cc';ctx.fill();
+      ctx.fillStyle='#0e0f11';ctx.font=`bold ${n.r>14?'9':'7'}px DM Sans`;
+      ctx.textAlign='center';ctx.textBaseline='middle';
+      const lbl=n.label.length>18?n.label.slice(0,16)+'…':n.label;
+      ctx.fillText(lbl,n.x,n.y);
+    }
+  });
+  ctx.fillStyle='#7a7e8a';ctx.font='8px DM Sans';ctx.textAlign='center';
+  graphNodes.filter(n=>n.type==='species'&&n.r>7).forEach(n=>{
+    ctx.fillText(n.label,n.x,n.y+n.r+9);
+  });
+  ctx.restore();
+}
+
+function setupGraphEvents(){
+  if(!canvas)return;
+  canvas.onmousedown=e=>{
+    const r=canvas.getBoundingClientRect();
+    const mx=(e.clientX-r.left-panX)/zoom,my=(e.clientY-r.top-panY)/zoom;
+    const hit=graphNodes.find(n=>{const dx=n.x-mx,dy=n.y-my;return Math.sqrt(dx*dx+dy*dy)<n.r+4;});
+    if(hit){
+      dragNode=hit;
+      if(hit.data){
+        const gi=document.getElementById('graph-info');
+        document.getElementById('gi-title').textContent=hit.data.en+' — '+hit.data.sci;
+        document.getElementById('gi-body').textContent=`${hit.data.class_} · ${(hit.data.papers||[]).length} papers · Themes: ${(hit.data.themes||[]).map(t=>themeMap[t]?themeMap[t].label:t).join(', ')}`;
+        gi.classList.add('show');
+      }
+    } else {lastMouse={x:e.clientX,y:e.clientY};}
+  };
+  canvas.onmousemove=e=>{
+    const r=canvas.getBoundingClientRect();
+    if(dragNode){dragNode.x=(e.clientX-r.left-panX)/zoom;dragNode.y=(e.clientY-r.top-panY)/zoom;dragNode.vx=0;dragNode.vy=0;}
+    else if(lastMouse){panX+=e.clientX-lastMouse.x;panY+=e.clientY-lastMouse.y;lastMouse={x:e.clientX,y:e.clientY};}
+  };
+  canvas.onmouseup=()=>{dragNode=null;lastMouse=null;};
+  canvas.onwheel=e=>{e.preventDefault();zoom=Math.max(0.2,Math.min(3,zoom*(e.deltaY>0?0.9:1.1)));};
+  canvas.ondblclick=e=>{
+    const r=canvas.getBoundingClientRect();
+    const mx=(e.clientX-r.left-panX)/zoom,my=(e.clientY-r.top-panY)/zoom;
+    const hit=graphNodes.find(n=>{const dx=n.x-mx,dy=n.y-my;return Math.sqrt(dx*dx+dy*dy)<n.r+4;});
+    if(hit&&hit.data) showDetail(hit.data.sci.toLowerCase().replace(/ /g,'_'));
+  };
+  window.addEventListener('resize',()=>{if(document.getElementById('gv').style.display==='flex')initGraph();});
+}
+</script>
+</body>
+</html>
