@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Zoe.Logos-Graph: A comparative atlas of animal vocal communication"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - given-names: "Antonio Maria Claudio"
+    family-names: "Torrisi"
+    email: a.m.c.torrisi@qmul.ac.uk
+    affiliation: "Centre for Digital Music, Queen Mary University of London"
+repository-code: "https://github.com/antorr91/Zoe.Logos-Graph"
+url: "https://antorr91.github.io/Zoe.Logos-Graph/"
+abstract: >
+  Zoe.Logos-Graph is an open, interactive knowledge resource that
+  integrates 184 species, 232 peer-reviewed studies, and curated
+  bioacoustic recordings into a navigable knowledge graph of animal
+  vocal communication. It supports cross-species comparison across
+  seven zoological classes and 16 research themes, including vocal
+  learning, referential signalling, syntax, dialects, and
+  communicative function. Community detection on a weighted
+  species-trait projection reveals emergent clusters of functionally
+  similar species. Audio is integrated from Xeno-Canto via its v3 API.
+keywords:
+  - bioacoustics
+  - animal communication
+  - knowledge graph
+  - comparative cognition
+  - vocal learning
+  - zoosemiotics
+  - open science
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-28"

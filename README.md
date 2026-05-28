@@ -1,182 +1,144 @@
 # Zoe.Logos-Graph
 
-**LLM-based knowledge graph for animal communication literature**
+**A comparative atlas of animal vocal communication.**
+An open, interactive knowledge resource integrating 184 species, 232 peer-reviewed studies, and curated bioacoustic recordings into a navigable knowledge graph.
 
-> *The scientific value of Zoe.Logos-Graph comes from disciplined structure, not from vague generation.*
+🔗 **Live site:** https://antorr91.github.io/Zoe.Logos-Graph/
+📁 **Repository:** https://github.com/antorr91/Zoe.Logos-Graph
 
 ---
 
 ## What this is
 
-Zoe.Logos-Graph is a research software pipeline that:
+Zoe.Logos-Graph is a structured atlas of animal vocal communication built to be **explorable, comparable, and citable**. It links species to the vocalisations they produce, the behavioural contexts in which they occur, the communicative functions they serve, and the peer-reviewed studies that document them — and presents this network as an interactive resource rather than a flat catalogue.
 
-1. Reads scientific abstracts on animal vocal communication
-2. Extracts structured knowledge using an LLM
-3. Validates and normalises the extracted records
-4. Builds a knowledge graph linking species, vocalisations, contexts, functions, methods, and papers
-5. Supports exploration of comparative communication patterns across species
+It is designed for:
 
-This is not a chatbot. It is a structured scientific extraction and graph system.
+- **Researchers** in bioacoustics, animal cognition, and comparative communication, who need rapid cross-species comparisons grounded in primary literature.
+- **Educators and students**, who benefit from an integrated view of how vocal behaviour is studied across taxa.
+- **Anyone curious** about how a humpback whale, a túngara frog, and a Japanese tit can be meaningfully compared on the same map.
 
 ---
 
-## Core question
+## Coverage at a glance
 
-> Can an LLM extract useful, normalised, graph-ready knowledge from scientific abstracts about animal communication?
-
----
-
-## v1 Scope
-
-### In scope
-- Scientific abstracts only
-- Topic: animal vocal communication and comparative communication literature
-- Structured JSON record per abstract
-- Small knowledge graph from those records
-- Notebook or minimal app visualisation
-
-### Out of scope (v1)
-- Full-text parsing at scale
-- Automated biological truth claims beyond the text
-- Audio inference from text alone
-- Foundation-model training
-- Large multimodal pipelines
-
----
-
-## Graph ontology
-
-### Node types
-
-| Node | Description |
+| | |
 |---|---|
-| `Paper` | A scientific publication |
-| `Species` | A biological species |
-| `VocalisationType` | A type of vocalisation (e.g. call, song, alarm) |
-| `BehaviouralContext` | Context in which vocalisation occurs |
-| `CommunicationFunction` | Inferred communicative function |
-| `AnalysisMethod` | Analytical or computational method used |
-| `DatasetResource` | A named dataset or recording archive |
-
-### Edge types
-
-| Edge | Meaning |
-|---|---|
-| `PAPER_STUDIES_SPECIES` | Paper focuses on a species |
-| `PAPER_REPORTS_VOCALISATION` | Paper describes a vocalisation type |
-| `VOCALISATION_OCCURS_IN_CONTEXT` | Vocalisation linked to behavioural context |
-| `VOCALISATION_HAS_FUNCTION` | Vocalisation linked to communicative function |
-| `PAPER_USES_METHOD` | Paper employs an analysis method |
-| `PAPER_LINKS_DATASET` | Paper references a dataset |
-| `SPECIES_PRODUCES_VOCALISATION` | Species linked to vocalisation type |
+| **Species** | 184 across 7 zoological classes |
+| **Peer-reviewed papers** | 232 with verified DOIs and open-access flags |
+| **Research themes** | 16 (vocal learning, referential signalling, syntax, dialects, echolocation, infrasound, alarm, cooperation, deception, multimodal signalling, parent–offspring communication, individual recognition, turn-taking, cultural transmission, emotion, honest signalling) |
+| **Taxonomic breadth** | Mammalia (82), Aves (59), Amphibia (13), Actinopterygii (11), Insecta (11), Reptilia (6), Cephalopoda (2) |
+| **Audio recordings** | 600+ from Xeno-Canto v3, with external links to Macaulay Library, DOSITS, and FishBase for taxa not covered there |
 
 ---
 
-## Pipeline stages
+## Features
 
-```
-abstracts → annotation → LLM extraction → validation → normalisation → graph → exploration
-```
-
-1. **Corpus collection** — gather relevant abstracts
-2. **Annotation** — create gold examples and guidelines
-3. **LLM extraction** — generate structured JSON from abstracts
-4. **Validation** — check JSON validity and field constraints
-5. **Normalisation** — resolve species names, harmonise labels
-6. **Graph construction** — convert records into nodes and edges
-7. **Exploration** — visualise in notebook or small app
+- **Species Explorer** — a searchable browser of all 184 species, with detail pages presenting vocalisations, contexts, functions, frequency ranges, vocal-learning status, semiotic class, supporting papers, and embedded recordings where available.
+- **Knowledge Graph** — an interactive D3 force-directed graph supporting four grouping modes: full bipartite view, species–species projection, grouping by vocal behaviour theme, and grouping by communicative function. Community detection via the Louvain algorithm reveals emergent clusters of functionally similar species.
+- **Literature view** — 232 papers organised by the 16 research themes, with DOI links and one-line outcome summaries.
+- **Species comparator** — side-by-side comparison of vocal repertoires, contexts, learning modes, and semiotic classification across selected species.
 
 ---
 
-## Repository structure
+## Methods
+
+**Species selection.** Species were curated to span the principal taxonomic groups in which vocal communication has been substantively studied. Within each group, selection prioritised species with at least one peer-reviewed bioacoustic or comparative-communication study published in a recognised venue.
+
+**Paper selection.** For each species, between one and several papers were included, drawn from journals such as *Science*, *Nature*, *Current Biology*, *PNAS*, *Proceedings of the Royal Society B*, *Animal Behaviour*, *Behavioral Ecology*, *PLOS Biology*, *Bioacoustics*, and *Journal of Experimental Biology*. Every paper is referenced by DOI; open-access status is flagged.
+
+**Knowledge graph construction.** Each species is represented as a node, linked to its vocalisations, contexts, and functions. A species–species projection weights pairwise edges by the count of shared traits. Community detection is performed with the Louvain algorithm on the weighted projection (python-louvain, seed=42). Communities are summarised by their dominant shared traits.
+
+**Bioacoustic integration.** Audio is fetched from Xeno-Canto via its v3 API (free API key required since October 2025). For taxa underrepresented in Xeno-Canto — cetaceans, most fish, reptiles — the atlas links out to authoritative external archives.
+
+---
+
+## Project structure
 
 ```
 zoe-logos-graph/
-├── README.md
-├── data/
-│   ├── raw/            # Original abstracts (txt, json, csv)
-│   ├── annotations/    # Gold-standard annotated records
-│   ├── processed/      # Validated and normalised records
-│   └── graph/          # Graph export files (GraphML, JSON-LD)
-├── notebooks/
-│   └── 01_schema_and_guidelines.ipynb  # field definitions and annotation guidelines
-├── src/
-│   ├── schema.py        # Pydantic schema definition
-│   ├── validation.py    # Record validation logic
-│   ├── prompts.py       # LLM extraction prompts
-│   ├── extraction.py    # Extraction pipeline
-│   ├── normalisation.py # Species and term normalisation
-│   ├── graph_builder.py # Graph construction from records
-│   └── utils.py         # Shared utilities
-├── configs/
-│   └── config.yaml      # Model, paths, extraction settings
-├── outputs/             # Generated graphs and reports
-├── requirements.txt
-└── pyproject.toml
+├── outputs/                    # The live website (served by GitHub Pages)
+│   ├── index.html              # Landing page
+│   ├── species_explorer.html   # Browse and search species (data embedded)
+│   ├── graph_explorer.html     # Interactive knowledge graph
+│   ├── literature.html         # Papers by research theme
+│   ├── compare.html            # Species comparator
+│   └── data/built/
+│       └── graph_communities.json   # Pre-computed graph data
+│
+├── expand_curated.py           # Add or update species and papers
+├── fetch_audio.py              # Fetch Xeno-Canto recordings
+├── build_graph_data.py         # Regenerate the knowledge graph data
+├── SETUP.md                    # Reproduction and rebuild instructions
+└── README.md                   # This file
 ```
+
+The website is fully static: open `outputs/index.html` or serve the `outputs/` folder with any HTTP server. No backend or build step is required to view it.
 
 ---
 
-## Quickstart
+## Reproducing the build
 
 ```bash
-# Create and activate virtual environment
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+# 1. Expand the curated species list and regenerate literature.html
+python expand_curated.py
 
-# Install dependencies
-pip install -r requirements.txt
+# 2. Fetch Xeno-Canto recordings (free API key required)
+#    Register at https://xeno-canto.org/, then:
+export XC_API_KEY=your-key-here
+python fetch_audio.py --per-species 8
 
-# Validate a record
-python -m src.validation --input data/annotations/pilot.json
+# 3. Regenerate the graph data from the species records
+python build_graph_data.py
+cp data/built/graph_communities.json outputs/data/built/
 
-# Run extraction on a set of abstracts
-python -m src.extraction --input data/raw/abstracts.json --output data/processed/
-
-# Build the graph
-# From gold annotations (no extraction step needed)
-python -m src.graph_builder --input data/annotations/pilot.json --output outputs/graph.graphml
-
-# From LLM-extracted records
-python -m src.graph_builder --input data/processed/extracted.json --output outputs/graph.graphml
-
-# Explore the schema and guidelines
-jupyter lab notebooks/01_schema_and_guidelines.ipynb
+# 4. Serve locally
+cd outputs
+python -m http.server 8000
+# then open http://localhost:8000
 ```
 
----
-
-## v1 Success criteria
-
-- [ ] Schema is stable and documented
-- [ ] At least 10 pilot abstracts annotated consistently
-- [ ] Extraction pipeline produces valid JSON reliably
-- [ ] Graph is interpretable and visually useful
-- [ ] System surfaces meaningful links between species, vocalisations, and contexts
+Full instructions, including dependencies and the rebuild order, are in [`SETUP.md`](SETUP.md).
 
 ---
 
-## Annotation principles
+## What this is *not*
 
-- Extract only what is supported by the abstract
-- Prefer explicit statements over inferred interpretations
-- Preserve uncertainty when the abstract is vague
-- Normalise species names and behaviour terms where possible
-- Keep `main_outcome` short and faithful to the paper
+Being explicit about scope avoids overstating claims:
 
----
-
-## Immediate next steps
-
-1. Finalise the schema (`src/schema.py`)
-2. Write annotation guidelines (`notebooks/01_schema_and_guidelines.ipynb`)
-3. Create 10 pilot examples (`data/annotations/`)
-4. Build JSON validator (`src/validation.py`)
-5. Draft first extraction prompt (`src/prompts.py`)
-6. Build graph from gold annotations before using model outputs
+- **Not a systematic review.** Inclusion is curated, not protocol-driven. The atlas is a navigation layer over the literature, not a substitute for PRISMA-style synthesis.
+- **Not a complete bibliography.** 232 papers represent landmark and illustrative studies; many additional works exist for each species.
+- **Not a substitute for primary sources.** Every claim links back to a DOI. Read the paper.
+- **Not a model of biological truth.** Functions, contexts, and learning categories are coded as reported by the source literature; disagreements between sources are not yet harmonised.
 
 ---
 
-## Domain alignment
+## Author
 
-Computational ethology · vocal behaviour · animal cognition · bioacoustics · LLM-based information extraction · knowledge graph construction
+**Antonio Maria Claudio Torrisi**
+Centre for Digital Music · Queen Mary University of London
+a.m.c.torrisi@qmul.ac.uk
+
+---
+
+## Cite this work
+
+If you use Zoe.Logos-Graph in research or teaching, please cite it as:
+
+> Torrisi, A. M. C. (2026). *Zoe.Logos-Graph: A comparative atlas of animal vocal communication* [Software]. https://github.com/antorr91/Zoe.Logos-Graph
+
+A machine-readable `CITATION.cff` file is provided in this repository.
+
+---
+
+## License
+
+- **Code** — MIT License
+- **Curated annotations and graph structure** — CC BY 4.0
+- **Audio recordings** — retain the original licenses of their source archives (Xeno-Canto, Macaulay Library, etc.)
+
+---
+
+## Acknowledgements
+
+This atlas builds on the openly shared work of the bioacoustics and animal communication research community, the Xeno-Canto contributors, and the maintainers of the open-access journals from which the included literature is drawn.
