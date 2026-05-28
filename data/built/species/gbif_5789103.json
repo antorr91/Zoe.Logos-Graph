@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 9,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 31,
+    "claim_count": 27,
+    "doi_count": 25,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,457 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
+    "song",
     "chirp",
-    "song"
+    "alarm call"
   ],
   "contexts": [
-    "alarm",
     "mate attraction",
-    "social communication"
+    "social communication",
+    "alarm"
   ],
   "functions": [
-    "flock cohesion",
     "mate attraction",
-    "predator warning"
+    "predator warning",
+    "flock cohesion"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
+        "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "chirp",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "song",
+        "value": "alarm call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "flock cohesion",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "flock cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1909,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1908,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1907,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1906,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1905,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1904,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1903,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1902,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1901,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1900,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1899,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1898,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1897,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1896,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1895,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1894,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1893,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1892,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1891,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1890,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1889,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1888,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1887,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1886,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1885,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1884,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1883,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Passer domesticus",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41598-025-13012-4",
+      "url": "https://doi.org/10.1038/s41598-025-13012-4",
+      "title": "High prevalence of multi-drug-resistant bacteria in faecal samples from UK passerine birds",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsif.2022.0728",
+      "url": "https://doi.org/10.1098/rsif.2022.0728",
+      "title": "Realistic three-dimensional avian vocal tract model demonstrates how shape affects sound filtering (",
+      "year": 2023,
+      "source": "pubmed"
+    },
     {
       "doi": "10.21275/sr23126162801",
       "url": "https://doi.org/10.21275/sr23126162801",
@@ -134,11 +501,25 @@
       "source": "crossref"
     },
     {
+      "doi": "10.3389/fphys.2023.1172865",
+      "url": "https://doi.org/10.3389/fphys.2023.1172865",
+      "title": "Effect of estradiol and predator cues on behavior and brain responses of captive female house sparrows (",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1111/jav.02248",
       "url": "https://doi.org/10.1111/jav.02248",
       "title": "Singing under glass: rapid effects of anthropogenic habitat modification on song and response behaviours in an isolated house sparrow <i>Passer domesticus</i> population",
       "year": 2019,
       "source": "openalex"
+    },
+    {
+      "doi": "10.7554/eLife.37385",
+      "url": "https://doi.org/10.7554/eLife.37385",
+      "title": "Meta-analysis challenges a textbook example of status signalling and demonstrates publication bias",
+      "year": 2018,
+      "source": "pubmed"
     },
     {
       "doi": "10.1007/s10071-016-1064-4",
@@ -155,6 +536,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1371/journal.pone.0182875",
+      "url": "https://doi.org/10.1371/journal.pone.0182875",
+      "title": "Estradiol modulates neural response to conspecific and heterospecific song in female house sparrows: An in vivo positron emission tomography study",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.18602/fsj.v58i0.65",
       "url": "https://doi.org/10.18602/fsj.v58i0.65",
       "title": "Breeding biology of the house sparrow (Passer domesticus) in the Faroe Islands / Nøringin hjá føroyska gráspurvinum (Passer domesticus)",
@@ -162,11 +550,32 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1098/rsbl.2015.0559",
+      "url": "https://doi.org/10.1098/rsbl.2015.0559",
+      "title": "Traffic noise exposure affects telomere length in nestling house sparrows",
+      "year": 2015,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/evo.12549",
+      "url": "https://doi.org/10.1111/evo.12549",
+      "title": "Low-quality birds do not display high-quality signals: The cysteine-pheomelanin mechanism of honesty",
+      "year": 2015,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1093/beheco/aru029",
       "url": "https://doi.org/10.1093/beheco/aru029",
       "title": "Acoustic communication in a noisy world: can fish compete with anthropogenic noise?",
       "year": 2014,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1111/evo.12475",
+      "url": "https://doi.org/10.1111/evo.12475",
+      "title": "Costly infidelity: low lifetime fitness of extra-pair offspring in a passerine bird",
+      "year": 2014,
+      "source": "pubmed"
     },
     {
       "doi": "10.1098/rspb.2012.2296",
@@ -248,6 +657,26 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40750809",
+      "title": "High prevalence of multi-drug-resistant bacteria in faecal samples from UK passerine birds",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-13012-4",
+      "abstract": "Wild birds are a near ubiquitous sight in gardens, offering pleasure to many people through supplementary feeding, song, or other interactions. However, they are also potential carriers of many bacteria, including Campylobacter spp., Salmonella spp., Enterococcus spp., and E. coli; some of these may be resistant to commonly used drugs. This study collected faecal samples from multiple species of UK passerine birds, isolating bacterial pathogens to assess carriage and drug resistances associated with those bacteria. 75% of birds were carrying at least one bacterial species which was multi drug resistant (MDR; resistant to three or more classes of antimicrobial), with 11.6% of birds carrying Salmonella spp., 18.9% carrying Campylobacter spp., 78% carrying Enterococcus spp., and all carrying E. coli strains. Many of these strains were shown to be MDR with 70%, 88%, 32% and 59% respectively. Intercontinental migration was shown to be a risk factor for carriage of many of the pathogens, as was an associated with human habitation. Age was also a risk factor with younger birds twice as likely to carry Campylobacter spp. than adults, and house sparrows (Passer domesticus) and blackbirds (Turdus merula) being particularly high-level carriers compared to other species. The high-level carriage and shedding of MDR E. coli and other zoonotic pathogens within the faecal samples of multiple species of passerine birds offers a timely reminder of the risks which these bacteria, and their drug resistance profiles may pose to human and animal health in the UK and worldwide. It also shows a level of high environmental contamination, which birds may continue to contribute towards, until our use of antimicrobials, and level of drug-resistant bacteria is decreased. Developing mechanisms for reducing levels of carriage of MDR bacteria in wild bird populations through, for example, increased hygiene around bird feeding practices, may be key in reducing environmental contamination.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38662608",
+      "title": "Urbanization alters the song propagation of two human-commensal songbird species",
+      "year": 2024,
+      "doi": "10.1121/10.0025765",
+      "abstract": "Urban expansion has increased pollution, including both physical (e.g., exhaust, litter) and sensory (e.g., anthropogenic noise) components. Urban avian species tend to increase the frequency and/or amplitude of songs to reduce masking by low-frequency noise. Nevertheless, song propagation to the receiver can also be constrained by the environment. We know relatively little about how this propagation may be altered across species that (1) vary in song complexity and (2) inhabit areas along an urbanization gradient. We investigated differences in song amplitude, attenuation, and active space, or the maximum distance a receiver can detect a signal, in two human-commensal species: the house sparrow (Passer domesticus) and house finch (Haemorhous mexicanus). We described urbanization both discretely and quantitatively to investigate the habitat characteristics most responsible for propagation changes. We found mixed support for our hypothesis of urban-specific degradation of songs. Urban songs propagated with higher amplitude; however, urban song fidelity was species-specific and showed lowered active space for urban house finch songs. Taken together, our results suggest that urban environments may constrain the propagation of vocal signals in species-specific manners. Ultimately, this has implications for the ability of urban birds to communicate with potential mates or kin.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_21275_sr23126162801",
       "title": "Uncommon Nest Site Selection by House Sparrows (Passer Domesticus)",
       "year": 2023,
@@ -255,11 +684,57 @@
       "abstract": "",
       "journal": "International Journal of Science and Research (IJSR)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_37427407",
+      "title": "Effect of estradiol and predator cues on behavior and brain responses of captive female house sparrows (",
+      "year": 2023,
+      "doi": "10.3389/fphys.2023.1172865",
+      "abstract": "The presence of predators can cause major changes in animal behavior, but how this interacts with hormonal state and brain activity is poorly understood. We gave female house sparrows (",
+      "journal": "Frontiers in physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36695126",
+      "title": "Realistic three-dimensional avian vocal tract model demonstrates how shape affects sound filtering (",
+      "year": 2023,
+      "doi": "10.1098/rsif.2022.0728",
+      "abstract": "Despite the complex geometry of songbird's vocal system, it was typically modelled as a tube or with simple mathematical parameters to investigate sound filtering. Here, we developed an adjustable computational acoustic model of a sparrow's upper vocal tract (",
+      "journal": "Journal of the Royal Society, Interface",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32505648",
+      "title": "Mosquitoes are attracted by the odour of Plasmodium-infected birds",
+      "year": 2020,
+      "doi": "10.1016/j.ijpara.2020.03.013",
+      "abstract": "Parasites can manipulate their hosts to increase their transmission success. Avian malaria parasites (Plasmodium) are thought to alter the cues such as host odour, used by host-seeking mosquitoes. Bird odour is affected by secretions from the uropygial gland and may play a role in modulating vector-host interactions. We tested the hypothesis that mosquitoes are more attracted to the uropygial secretions and/or whole-body odour (headspace) of Plasmodium-infected house sparrows (Passer domesticus) than to those of uninfected birds. We tested the attraction of nulliparous (e.g. uninfected mosquitoes without previous access to blood) Culex pipiens females towards these stimuli in a dual-choice olfactometer. We used Gas Chromatography-Mass Spectrometry (GC-MS) analyses to assess whether Plasmodium infection is associated with differences in the chemical composition of uropygial secretions. Mosquitoes were more attracted to the odours of infected than uninfected birds, regardless of sex. However, the significant interaction between infection status and the stimuli (uropygial secretion or headspace) showed that mosquitoes were more attracted to the headspace of infected birds; no differences were found in the case of uropygial secretions. The compounds in the volatile lipophilic fraction of the uropygial secretion did not differ between infected and uninfected birds. These results support the host manipulation hypothesis since avian Plasmodium parasites may be capable of altering their host's body odour, thereby making infected individuals more attractive to mosquitoes.",
+      "journal": "International journal for parasitology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31945717",
+      "title": "First serological evidence of West Nile virus infection in wild birds in Northern Algeria",
+      "year": 2020,
+      "doi": "10.1016/j.cimid.2020.101415",
+      "abstract": "While the epidemiology of Flaviviruses has been extensively studied in most of the Mediterranean basin, little is known about the current situation in Algeria. In order to detect the circulation of West Nile (WNV) and Usutu viruses (USUV) in Kabylia, 165 sera were collected from two wild birds species, namely the long distance migrant Turdus philomelos (song thrush) (n = 92) and the resident Passer domesticus (house sparrow) (n = 73). A total of 154 sera were first analyzed by commercial competition ELISA. WNV and USUV micro-neutralization tests were performed on all c-ELISA positive sera and all samples with poor volume. Overall, 7.8 % (CI95 %: 3.5-11.9) were positive by c-ELISA. Positive results were detected in 12.5 % (CI95 %:5.6-19.4) of song thrushes and 1.5 % (CI95 %: 0.0-4.5) for sparrow. Micro-neutralization tests revealed an overall seroprevalence of 6.7 % for WNV (CI95 %: 2.9-10.3), Neutralizing antibodies were found in 8.7 % (CI95 %: 3.0-14.4) for song thrushes and in 4.1 % (CI95 %: 0.0-8.7) of sparrows. The current study demonstrates significant seroprevalence of WNV antibodies in wild birds in Algeria.",
+      "journal": "Comparative immunology, microbiology and infectious diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31749228",
+      "title": "Melatonin duration gates photoperiodic vocal state change in a songbird",
+      "year": 2020,
+      "doi": "10.1111/jpi.12625",
+      "abstract": "Seasonally breeding animals concentrate courtship to a particular time of year such that their offspring will be reared in a favorable environment. In house sparrows, Passer domesticus, primary (gonads) and secondary (song, plumage, beak color, etc) sexual characteristics are expressed differentially depending on the photoperiod. Removal of the pineal gland (PINX) has no effect on seasonal rhythms in gonad size but alters the photostimulated increase in vocal rate and complexity. Administration of long durations of melatonin, indicative of short days of winter, prevents seasonal recrudescence of song control nuclei in photostimulated house sparrows. In this study, male PINX house sparrows were exposed to three durations of melatonin, while vocalization and locomotor behavior were recorded as they were transitioned from short photoperiod to equinoctial photoperiods of spring. Birds receiving short duration melatonin or vehicle control increased dawn and dusk choruses as well as call complexity. Long durations of melatonin prevented this expansion to a spring-like vocal state observed in birds receiving the short duration of melatonin or vehicle control. The daily distribution of locomotor activity, beak color, and testis size was unaffected by treatment. Vocal state change was defined by our measures in two capacities: (i) increased dawn and dusk choruses, and (ii) an increase in calls associated with territory and mate attraction compared to the winter-like \"social song.\" We conclude that house sparrows use the calendar information provided by melatonin duration to control seasonal vocalization behavior, independent of effects on and of the gonads.",
+      "journal": "Journal of pineal research",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_jav_02248",
@@ -269,11 +744,17 @@
       "abstract": "Anthropogenic noise pollution and the introduction of novel infrastructure can impose strong selective pressures on avian communication by affecting the efficacy with which acoustic signals are transmitted and received. Many species have now been shown to sing at higher frequencies in noisy urban environments. However, few studies have investigated the effects of signal modification on the response behaviours of receivers, and fewer still have been able to indicate the timescale over which these changes in pitch have occurred. We compare vocal communication between house sparrows Passer domesticus that reside within the world's largest, single‐span glasshouse (completed in the year 2000), and house sparrows directly outside this glasshouse, in open farmland. The glasshouse contrasts both acoustically and physically with the external environment, low frequency background noise being significantly louder inside than outside. We show that minimum song frequency was significantly higher in",
       "journal": "Journal of Avian Biology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_30420005",
+      "title": "Meta-analysis challenges a textbook example of status signalling and demonstrates publication bias",
+      "year": 2018,
+      "doi": "10.7554/eLife.37385",
+      "abstract": "The status signalling hypothesis aims to explain within-species variation in ornamentation by suggesting that some ornaments signal dominance status. Here, we use multilevel meta-analytic models to challenge the textbook example of this hypothesis, the black bib of male house sparrows (",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_18602_fsj_v58i0_65",
@@ -283,11 +764,7 @@
       "abstract": "<jats:p>Abstract: The breeding biology of the Faroese house sparrow (Passer domesticus) is described based on the results from nestlings that were ringed just before they were fledging. By means of dates and numbers, the beginning and duration of the breeding seasons are determined and the reproductive output is estimated. Our study has shown that Faroese house sparrows produce two, occasionally three, broods annually. Overall, eggs of the first, second and third clutch are normally laid in the beginning of May, in the middle of June and in the beginning of July, respectively. In a season, a female produced 6.3 nestlings, on average. For the whole period, the average brood size was 3.5 nestlings. During the first part of the time series (1985­1989), the breeding season became earlier each year, but then to be later again in the years 1990 to 1992. The first clutch was laid more than five weeks earlier in 1989 than in 1985 and the second clutch almost seven weeks earlier. Úrtak: Árini f",
       "journal": "Fróðskaparrit - Faroese Scientific Journal",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1126_science_aan0221",
@@ -297,11 +774,7 @@
       "abstract": "Coloration mediates the relationship between an organism and its environment in important ways, including social signaling, antipredator defenses, parasitic exploitation, thermoregulation, and protection from ultraviolet light, microbes, and abrasion. Methodological breakthroughs are accelerating knowledge of the processes underlying both the production of animal coloration and its perception, experiments are advancing understanding of mechanism and function, and measurements of color collected noninvasively and at a global scale are opening windows to evolutionary dynamics more generally. Here we provide a roadmap of these advances and identify hitherto unrecognized challenges for this multi- and interdisciplinary field.",
       "journal": "Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-016-1064-4",
@@ -311,11 +784,47 @@
       "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28832614",
+      "title": "Estradiol modulates neural response to conspecific and heterospecific song in female house sparrows: An in vivo positron emission tomography study",
+      "year": 2017,
+      "doi": "10.1371/journal.pone.0182875",
+      "abstract": "Although there is growing evidence that estradiol modulates female perception of male sexual signals, relatively little research has focused on female auditory processing. We used in vivo 18F-fluorodeoxyglucose (18F-FDG) positron emission tomography (PET) imaging to examine the neuronal effects of estradiol and conspecific song in female house sparrows (Passer domesticus). We assessed brain glucose metabolism, a measure of neuronal activity, in females with empty implants, estradiol implants, and empty implants ~1 month after estradiol implant removal. Females were exposed to conspecific or heterospecific songs immediately prior to imaging. The activity of brain regions involved in auditory perception did not differ between females with empty implants exposed to conspecific vs. heterospecific song, but neuronal activity was significantly reduced in females with estradiol implants exposed to heterospecific song. Furthermore, our within-individual design revealed that changes in brain activity due to high estradiol were actually greater several weeks after peak hormone exposure. Overall, this study demonstrates that PET imaging is a powerful tool for assessing large-scale changes in brain activity in living songbirds, and suggests that after breeding is done, specific environmental and physiological cues are necessary for estradiol-stimulated females to lose the selectivity they display in neural response to conspecific song.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28546507",
+      "title": "Individual quality via sensitivity to cysteine availability in a melanin-based honest signaling system",
+      "year": 2017,
+      "doi": "10.1242/jeb.160333",
+      "abstract": "The evolution of honest animal communication is mostly understood through the handicap principle, which is intrinsically dependent on the concept of individual quality: low-quality individuals are prevented from producing high-quality signals because, if they did so, they would pay greater production costs than high-quality individuals. We tested an alternative explanation for the black bib size of male house sparrows,",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_26382074",
+      "title": "Traffic noise exposure affects telomere length in nestling house sparrows",
+      "year": 2015,
+      "doi": "10.1098/rsbl.2015.0559",
+      "abstract": "In a consistently urbanizing world, anthropogenic noise has become almost omnipresent, and there are increasing evidence that high noise levels can have major impacts on wildlife. While the effects of anthropogenic noise exposure on adult animals have been widely studied, surprisingly, there has been little consideration of the effects of noise pollution on developing organisms. Yet, environmental conditions experienced in early life can have dramatic lifelong consequences for fitness. Here, we experimentally manipulated the acoustic environment of free-living house sparrows (Passer domesticus) breeding in nest boxes. We focused on the impact of such disturbance on nestlings' telomere length and fledging success, as telomeres (the protective ends of chromosomes) appear to be a promising predictor of longevity. We showed that despite the absence of any obvious immediate consequences (growth and fledging success), nestlings reared under traffic noise exposure exhibited reduced telomere lengths compared with their unexposed neighbours. Although the mechanisms responsible for this effect remain to be determined, our results provide the first experimental evidence that noise alone can affect a wild vertebrate's early-life telomere length. This suggests that noise exposure may entail important costs for developing organisms.",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25330349",
+      "title": "Low-quality birds do not display high-quality signals: The cysteine-pheomelanin mechanism of honesty",
+      "year": 2015,
+      "doi": "10.1111/evo.12549",
+      "abstract": "The mechanisms that make that the costs of producing high-quality signals are unaffordable to low-quality signalers are a current issue in animal communication. The size of the melanin-based bib of male house sparrows Passer domesticus honestly signals quality. We induced the development of new bibs while treating males with buthionine-sulfoximine (BSO), a substance that depletes the levels of the antioxidant glutathione (GSH) and the amino acid cysteine, two elements that switch melanogenesis from eumelanin to pheomelanin. Final bib size is negatively related to pheomelanin levels in the bib feathers. BSO reduced cysteine and GSH levels in all birds, but improved phenotypes (bibs larger than controls) were only expressed by high-quality birds (BSO birds with largest bibs initially). Negative associations between final bib size and cysteine levels in erythrocytes, and between pheomelanin and cysteine levels, were observed in high-quality birds only. These findings suggest that a mechanism uncoupling pheomelanin and cysteine levels may have evolved in low-quality birds to avoid producing bibs of size not corresponding to their quality and greater relative costs. Indeed, greater oxidative stress in cells was not observed in low-quality birds. This may represent the first mechanism maintaining signal honesty without producing greater relative costs on low-quality signalers.",
+      "journal": "Evolution; international journal of organic evolution",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_beheco_aru029",
@@ -325,11 +834,37 @@
       "abstract": "Anthropogenic (man-made) noise has changed the acoustic environment both on land and underwater and is now recognized as a pollutant of international concern. Increasing numbers of studies are assessing how noise pollution affects animals across a range of scales, from individuals to communities, but the topic receiving the most research attention has been acoustic communication.",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24931726",
+      "title": "Costly infidelity: low lifetime fitness of extra-pair offspring in a passerine bird",
+      "year": 2014,
+      "doi": "10.1111/evo.12475",
+      "abstract": "Extra-pair copulation (EPC) is widespread in socially monogamous species, but its evolutionary benefits remain controversial. Indirect genetic benefit hypotheses postulate that females engage in EPC to produce higher quality extra-pair offspring (EPO) than within-pair offspring (WPO). In contrast, the sexual conflict hypothesis posits that EPC is beneficial to males but not to females. Thus, under the sexual conflict hypothesis, EPO are predicted to be no fitter than WPO. We tested these two hypotheses in a 12-year dataset with complete life-history and pedigree information from an isolated island population of house sparrows (Passer domesticus). We compared fitness components of EPO and two types of WPO: (1) WPO from genetically polyandrous \"unfaithful\" mothers, and (2) WPO from genetically monogamous mothers. We found that all three groups of offspring had similar probabilities of hatching and nestling survival. Unexpectedly, EPO had the lowest probability of recruiting into the breeding population and the lowest lifetime reproductive output. Our results indicate that EPO incurred indirect genetic costs, rather than benefits, which is contrary to indirect benefit models. Importantly, the indirect costs we observed are also underappreciated in current sexual conflict models. Our results call for improved theoretical frameworks that incorporate indirect costs by extending current sexual conflict models.",
+      "journal": "Evolution; international journal of organic evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24589991",
+      "title": "The role of the pineal gland in the photoperiodic control of bird song frequency and repertoire in the house sparrow, Passer domesticus",
+      "year": 2014,
+      "doi": "10.1016/j.yhbeh.2014.02.008",
+      "abstract": "Temperate zone birds are highly seasonal in many aspects of their physiology. In mammals, but not in birds, the pineal gland is an important component regulating seasonal patterns of primary gonadal functions. Pineal melatonin in birds instead affects seasonal changes in brain song control structures, suggesting the pineal gland regulates seasonal song behavior. The present study tests the hypothesis that the pineal gland transduces photoperiodic information to the control of seasonal song behavior to synchronize this important behavior to the appropriate phenology. House sparrows, Passer domesticus, expressed a rich array of vocalizations ranging from calls to multisyllabic songs and motifs of songs that varied under a regimen of different photoperiodic conditions that were simulated at different times of year. Control (SHAM) birds exhibited increases in song behavior when they were experimentally transferred from short days, simulating winter, to equinoctial and long days, simulating summer, and decreased vocalization when they were transferred back to short days. When maintained in long days for longer periods, the birds became reproductively photorefractory as measured by the yellowing of the birds' bills; however, song behavior persisted in the SHAM birds, suggesting a dissociation of reproduction from the song functions. Pinealectomized (PINX) birds expressed larger, more rapid increases in daily vocal rate and song repertoire size than did the SHAM birds during the long summer days. These increases gradually declined upon the extension of the long days and did not respond to the transfer to short days as was observed in the SHAM birds, suggesting that the pineal gland conveys photoperiodic information to the vocal control system, which in turn regulates song behavior.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24048882",
+      "title": "Exposure pathways of anticoagulant rodenticides to nontarget wildlife",
+      "year": 2014,
+      "doi": "10.1007/s10661-013-3422-x",
+      "abstract": "Second-generation anticoagulant rodenticides are widely reported to contaminate and poison nontarget wildlife, primarily predatory birds and mammals. Exposure pathways, however, have not been well defined. Here, we examined potential movement of rodenticides from deployment of bait to exposure of small mammals and other biota. At two adjacent working farms, we placed baits containing either brodifacoum or bromadiolone. We monitored movement of those compounds to the surrounding environment by collecting small mammals, birds, and invertebrates. Similar collections were made at a third agricultural setting without active bait deployment, but located among intensive livestock production and regular rodenticide use by farmers. Livers and whole invertebrate samples were analyzed for rodenticides using a sensitive LC-MSMS method. Norway rats (Rattus norvegicus) from both baited and non-baited farms had residues of brodifacoum or bromadiolone, implicating rats as an important exposure pathway to wildlife. Among 35 analyzed nontarget small mammals, a single vole had high hepatic residues (18.6 μ/g), providing some indication of a small mammal pathway. One song sparrow (Melospiza melodia) sample from a baited farm contained 0.073 μg/g of brodifacoum in liver, while 0.39 μg/g of diphacinone was measured in a pool of carrion beetles (Dermestes spp.) from the non-baited farm area, implicating avian and invertebrate components in exposure pathways. Regurgitated pellets of barn owl (Tyto alba) selected randomly from baited farms contained no detectable rodenticide residues, while 90% of owl pellets collected from a variety of farms, and selected for the presence of rat fur, contained detectable anticoagulant residues. We recorded behavior of a captive sample of a representative songbird, the house sparrow (Passer domesticus); they readily entered bait stations and fed on (unloaded) bait.",
+      "journal": "Environmental monitoring and assessment",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rspb_2012_2296",
@@ -339,11 +874,7 @@
       "abstract": "Many species of songbirds exhibit dramatic seasonal variation in song output. Recent evidence suggests that seasonal changes in auditory processing are coincident with seasonal variation in vocal output. Here, we show, for the first time, that frequency selectivity and temporal resolution of the songbird auditory periphery change seasonally and in a sex-specific manner. Male and female house sparrows (Passer domesticus) did not differ in their frequency sensitivity during the non-breeding season, nor did they differ in their temporal resolution. By contrast, female house sparrows showed enhanced frequency selectivity during the breeding season, which was matched by a concomitant reduction of temporal resolution. However, males failed to show seasonal plasticity in either of these auditory properties. We discuss potential mechanisms generating these seasonal patterns and the implications of sex-specific seasonal changes in auditory processing for vocal communication.",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0039200",
@@ -353,11 +884,7 @@
       "abstract": "OUR RESULTS SUGGEST A PREVIOUSLY UNDESCRIBED MECHANISM TO EXPLAIN HOW ENVIRONMENTAL NOISE CAN REDUCE FITNESS IN PASSERINE BIRDS: by acoustically masking parent-offspring communication. More importantly, using a cross-fostering set-up, our results demonstrate that birds breeding in a noisy environment experience significant fitness costs. Chronic noise is omnipresent around human habitation and may produces similar fitness consequences in a wide range of urban bird species.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_38975",
@@ -367,11 +894,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf01651777",
@@ -381,11 +904,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1523_jneurosci_17-15-06001_1997",
@@ -395,11 +914,7 @@
       "abstract": "Seasonal changes in the neural attributes of brain nuclei that control song in songbirds are among the most pronounced examples of naturally occurring plasticity in the adult brain of any vertebrate. The behavioral correlates of this seasonal neural plasticity have not been well characterized, particularly in songbird species that lack adult song learning. To address this question, we investigated the relationship between seasonal changes in gonadal steroids, song nuclei, and song behavior in adult male song sparrows (Melospiza melodia). At four times of the year, we measured plasma concentrations of testosterone, neural attributes of song nuclei, and several aspects of song structure in wild song sparrows of a nonmigratory population. We found seasonal changes in the song nuclei that were temporally correlated with changes in testosterone concentrations and with changes in song stereotypy. Male song sparrows sang songs that were more variable in structure in the fall, when testosteron",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1095-8312_1996_tb01442_x",
@@ -409,11 +924,7 @@
       "abstract": "Secondary sexual characters in many species function both in male-male competition and as cues for female choice.Based on a literature compilation of existing knowledge of traits with this dual function, we propose that they commonly arise through intrasexual selection processes and serve as honest signals to other males regarding fighting ability or dominance.Faking these traits, here called armaments, (i.e.weapons and status badges) is difficult, as they are constantly put to trial in male-male contests.Females that subsequently utilize them as indicators of male phenotypic quality when selecting a partner Wiu benefit by acquiring males of higher quality to father their offspring.Thus, evolution of armaments through male-male competition is seen as a usually initiating process, whereas female choice later may assume a role as an additional selective factor.The reverse, that males use information from traits evolved through female choice, is, however, also possible.The traditional vie",
       "journal": "Biological Journal of the Linnean Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1515_znb-1970-0915",
@@ -423,11 +934,7 @@
       "abstract": "<jats:p>The uripygial (preen) gland fat of the common sparrow (passer domesticus) is a mixture of ester waxes of which 3-methyl-substituted fatty acids with a chain length of C<jats:sub>11</jats:sub>-C<jats:sub>17</jats:sub> were shown to be the acidic components; they were characterized by IR-, NMR- and mass spectrometry.</jats:p>\n               <jats:p>The alcoholic components are n-alkanols with a chain length of C<jats:sub>12</jats:sub>-C<jats:sub>19</jats:sub>. Separately investigated female and male sparrows showed identically composed waxes.</jats:p>\n               <jats:p>The simultaneously investigated depot fat is a mixture of triglycerides with usual composition.</jats:p>",
       "journal": "Zeitschrift für Naturforschung B",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_title_119575",
@@ -437,11 +944,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472597397_ch-009",
@@ -451,11 +954,7 @@
       "abstract": "",
       "journal": "The Sparrows : A Study of the Genus Passer",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927040_0479",
@@ -465,14 +964,10 @@
       "abstract": "",
       "journal": "The Birds of Africa : The Malagasy Region",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 31,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

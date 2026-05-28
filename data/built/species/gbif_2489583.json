@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 6,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 33,
+    "claim_count": 8,
+    "doi_count": 23,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -42,30 +42,30 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "hiss",
-    "screech"
+    "screech",
+    "hiss"
   ],
   "contexts": [
     "contact",
     "territorial defence"
   ],
   "functions": [
-    "pair bond maintenance",
-    "territory signalling"
+    "territory signalling",
+    "pair bond maintenance"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "hiss",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "screech",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "hiss",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -73,38 +73,166 @@
         "value": "contact",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "pair bond maintenance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "pair bond maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 935,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 934,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 933,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 932,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 931,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 930,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 929,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 928,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Tyto alba",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1098976",
+        "provider": "xeno-canto",
+        "provider_id": "1098976",
+        "type": "nocturnal flight call (XC1098976)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1098976",
+        "audio": "https://xeno-canto.org/1098976/download",
+        "sono": "outputs\\spectrograms\\gbif_2489583.png",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "XC · Lionel FREDERIC"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.7554/eLife.87775",
+      "url": "https://doi.org/10.7554/eLife.87775",
+      "title": "Landing force reveals new form of motion-induced sound camouflage in a wild predator",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.2307/jj.6230179.65",
       "url": "https://doi.org/10.2307/jj.6230179.65",
@@ -113,11 +241,25 @@
       "source": "crossref"
     },
     {
+      "doi": "10.2307/j.ctv21r3jn9.41",
+      "url": "https://doi.org/10.2307/j.ctv21r3jn9.41",
+      "title": "Barn Owl",
+      "year": 2021,
+      "source": "crossref"
+    },
+    {
       "doi": "10.59517/oc.e198",
       "url": "https://doi.org/10.59517/oc.e198",
       "title": "Presas de la lechuza común (Tyto alba) en Jardín, Antioquia, Colombia Prey of the Barn Owl (Tyto alba) in Jardín, Antioquia, Colombia",
       "year": 2021,
       "source": "crossref"
+    },
+    {
+      "doi": "10.3390/ani10101777",
+      "url": "https://doi.org/10.3390/ani10101777",
+      "title": "Non-Vocal Behaviors Are More Frequent During the Decisive Negotiation Phases in Barn Owl Siblings",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.3389/fevo.2019.00351",
@@ -176,6 +318,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1371/journal.pone.0007721",
+      "url": "https://doi.org/10.1371/journal.pone.0007721",
+      "title": "Improvements of sound localization abilities by the facial ruff of the barn owl (Tyto alba) as demonstrated by virtual ruff removal",
+      "year": 2009,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1111/j.1600-048x.2008.04472.x",
       "url": "https://doi.org/10.1111/j.1600-048x.2008.04472.x",
       "title": "Sib‐sib communication and the risk of prey theft in the barn owl <i>Tyto alba</i>",
@@ -188,6 +337,13 @@
       "title": "Zur Entwicklung der Tagesrhythmik bei Schleiereulen (Tyto alba) The development of daily rhythmicity in Barn Owls (Tyto alba)",
       "year": 2003,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2000.1022",
+      "url": "https://doi.org/10.1098/rspb.2000.1022",
+      "title": "Barn owl (Tyto alba) siblings vocally negotiate resources",
+      "year": 2000,
+      "source": "pubmed"
     },
     {
       "doi": "10.5962/bhl.part.10818",
@@ -234,6 +390,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_39046781",
+      "title": "Landing force reveals new form of motion-induced sound camouflage in a wild predator",
+      "year": 2024,
+      "doi": "10.7554/eLife.87775",
+      "abstract": "Predator-prey arms races have led to the evolution of finely tuned disguise strategies. While the theoretical benefits of predator camouflage are well established, no study has yet been able to quantify its consequences for hunting success in natural conditions. We used high-resolution movement data to quantify how barn owls (",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_2307_jj_6230179_65",
       "title": "Barn Owl",
       "year": 2023,
@@ -241,11 +407,7 @@
       "abstract": "",
       "journal": "The Birds of Ancient Egypt",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_59517_oc_e198",
@@ -255,11 +417,37 @@
       "abstract": "<jats:p>Based on the analysis of 52 pellets collected in November 2006, we present a preliminary assessment of the prey taken by Barn Owl (Tyto alba) in Jardín, Antioquia, Colombia. This is the first information available for a high Andean locality in Colombia. Barn owl preyed mainly on vertebrates (80.4%), especially small rodents (36.2%), shrews (21.9%), and frogs (19.1%). Marsupials (2.2%), bats (0.5%) and birds (0.5%) were preyed less often. Undetermined Hemiptera (15.9%) were the most frequent insects in the sample.</jats:p>",
       "journal": "Ornitología Colombiana",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_2307_j_ctv21r3jn9_41",
+      "title": "Barn Owl",
+      "year": 2021,
+      "doi": "10.2307/j.ctv21r3jn9.41",
+      "abstract": "",
+      "journal": "The Raptors of Arizona",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_33019525",
+      "title": "Non-Vocal Behaviors Are More Frequent During the Decisive Negotiation Phases in Barn Owl Siblings",
+      "year": 2020,
+      "doi": "10.3390/ani10101777",
+      "abstract": "Animals produce vibrations or noises by means of body movements, which can play a role in communication. These behaviors enhance signal transmission or receiver attention and could be specifically used during turn-taking phases of a reciprocal exchange of signals. In the barn owl",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32673089",
+      "title": "Elder Barn Owl Nestlings Flexibly Redistribute Parental Food according to Siblings' Need or in Return for Allopreening",
+      "year": 2020,
+      "doi": "10.1086/709106",
+      "abstract": "Kin selection and reciprocation of biological services are distinct theories invoked to explain the origin and evolutionary maintenance of altruistic and cooperative behaviors. Although these behaviors are not considered to be mutually exclusive, the cost-benefit balance of behaving altruistically or cooperating reciprocally and the conditions promoting a switch between such different strategies have rarely been tested. Here, we examine the association between allofeeding, allopreening, and vocal solicitations in wild barn owl (",
+      "journal": "The American naturalist",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3389_fevo_2019_00351",
@@ -269,11 +457,7 @@
       "abstract": "To resolve conflicts over limited resources, animals often communicate about their motivation to compete. When signals are transient, the resolution of conflicts may be achieved after an interactive process, with each contestant adjusting its signalling level according to the rival’s behaviour. Unfortunately, the importance of the real-time signal adjustment in conflict resolution remains understudied, especially using experimental approaches. Here we developed a novel “automatic interactive playback” that interacts real-time with a live individual. It allowed us to experimentally test the efficacy of different behavioural strategies to dominate conflicts in nestling barn owls (Tyto alba). In this species, nestlings vocally negotiate for priority access to the impending food item in the absence of parents. Two opposite vocal strategies were tested for their prospects of success: under the “matching” vs. “mismatching” strategy, the playback behaves in the same vs. opposed way as the nes",
       "journal": "Frontiers in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s00265-016-2114-2",
@@ -283,11 +467,37 @@
       "abstract": "",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_26143188",
+      "title": "Behavioural and physiological responses of wood mice (Apodemus sylvaticus) to experimental manipulations of predation and starvation risk",
+      "year": 2015,
+      "doi": "10.1016/j.physbeh.2015.06.037",
+      "abstract": "Body weight and the levels of stored body fat have fitness consequences. Greater levels of fat may provide protection against catastrophic failures in the food supply, but they may also increase the risk of predation. Animals may therefore regulate their fatness according to their perceived risks of predation and starvation: the starvation-predation trade-off model. We tested the predictions of this model in wood mice (Apodemus sylvaticus) by experimentally manipulating predation risk and starvation risk. We predicted that under increased predation risk individuals would lose weight and under increased starvation risk they would gain it. We simulated increased predation risk by playing the calls made by predatory birds (owls: Tyto alba and Bubo bubo) to the mice. Control groups included exposure to calls of a non-predatory bird (blackbird: Turdus merula) or silence. Mice exposed to owl calls at night lost weight relative to the silence group, mediated via reduced food intake, but exposure to owl calls in the day had no significant effect. Exposure to blackbird calls at night also resulted in weight loss, but blackbird calls in the day had no effect. Mice seemed to have a generalised response to bird calls at night irrespective of their actual source. This could be because in the wild any bird calling at night will be a predation risk, and any bird calling in the day would not be, because at that time the mice would normally be resting, and hence not exposed to avian predators. Consequently, mice have not evolved to distinguish different types of call but only to respond to the time of day that they occur. Mice exposed to stochastic 24h starvation events altered their behaviour (reduced activity) during the refeeding days that followed the deprivation periods to regain the lost mass. However, they only marginally elevated their food intake and consequently had reduced body weight/fat storage compared to that of the control unstarved group. This response may have been",
+      "journal": "Physiology & behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24266879",
+      "title": "Individual vocal signatures in barn owl nestlings: does individual recognition have an adaptive role in sibling vocal competition?",
+      "year": 2014,
+      "doi": "10.1111/jeb.12277",
+      "abstract": "To compete over limited parental resources, young animals communicate with their parents and siblings by producing honest vocal signals of need. Components of begging calls that are sensitive to food deprivation may honestly signal need, whereas other components may be associated with individual-specific attributes that do not change with time such as identity, sex, absolute age and hierarchy. In a sib-sib communication system where barn owl (Tyto alba) nestlings vocally negotiate priority access to food resources, we show that calls have individual signatures that are used by nestlings to recognize which siblings are motivated to compete, even if most vocalization features vary with hunger level. Nestlings were more identifiable when food-deprived than food-satiated, suggesting that vocal identity is emphasized when the benefit of winning a vocal contest is higher. In broods where siblings interact iteratively, we speculate that individual-specific signature permits siblings to verify that the most vocal individual in the absence of parents is the one that indeed perceived the food brought by parents. Individual recognition may also allow nestlings to associate identity with individual-specific characteristics such as position in the within-brood dominance hierarchy. Calls indeed revealed age hierarchy and to a lower extent sex and absolute age. Using a cross-fostering experimental design, we show that most acoustic features were related to the nest of origin (but not the nest of rearing), suggesting a genetic or an early developmental effect on the ontogeny of vocal signatures. To conclude, our study suggests that sibling competition has promoted the evolution of vocal behaviours that signal not only hunger level but also intrinsic individual characteristics such as identity, family, sex and age.",
+      "journal": "Journal of evolutionary biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24048882",
+      "title": "Exposure pathways of anticoagulant rodenticides to nontarget wildlife",
+      "year": 2014,
+      "doi": "10.1007/s10661-013-3422-x",
+      "abstract": "Second-generation anticoagulant rodenticides are widely reported to contaminate and poison nontarget wildlife, primarily predatory birds and mammals. Exposure pathways, however, have not been well defined. Here, we examined potential movement of rodenticides from deployment of bait to exposure of small mammals and other biota. At two adjacent working farms, we placed baits containing either brodifacoum or bromadiolone. We monitored movement of those compounds to the surrounding environment by collecting small mammals, birds, and invertebrates. Similar collections were made at a third agricultural setting without active bait deployment, but located among intensive livestock production and regular rodenticide use by farmers. Livers and whole invertebrate samples were analyzed for rodenticides using a sensitive LC-MSMS method. Norway rats (Rattus norvegicus) from both baited and non-baited farms had residues of brodifacoum or bromadiolone, implicating rats as an important exposure pathway to wildlife. Among 35 analyzed nontarget small mammals, a single vole had high hepatic residues (18.6 μ/g), providing some indication of a small mammal pathway. One song sparrow (Melospiza melodia) sample from a baited farm contained 0.073 μg/g of brodifacoum in liver, while 0.39 μg/g of diphacinone was measured in a pool of carrion beetles (Dermestes spp.) from the non-baited farm area, implicating avian and invertebrate components in exposure pathways. Regurgitated pellets of barn owl (Tyto alba) selected randomly from baited farms contained no detectable rodenticide residues, while 90% of owl pellets collected from a variety of farms, and selected for the presence of rat fur, contained detectable anticoagulant residues. We recorded behavior of a captive sample of a representative songbird, the house sparrow (Passer domesticus); they readily entered bait stations and fed on (unloaded) bait.",
+      "journal": "Environmental monitoring and assessment",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_jeb_12277",
@@ -297,11 +507,7 @@
       "abstract": "To compete over limited parental resources, young animals communicate with their parents and siblings by producing honest vocal signals of need. Components of begging calls that are sensitive to food deprivation may honestly signal need, whereas other components may be associated with individual-specific attributes that do not change with time such as identity, sex, absolute age and hierarchy. In a sib-sib communication system where barn owl (Tyto alba) nestlings vocally negotiate priority access to food resources, we show that calls have individual signatures that are used by nestlings to recognize which siblings are motivated to compete, even if most vocalization features vary with hunger level. Nestlings were more identifiable when food-deprived than food-satiated, suggesting that vocal identity is emphasized when the benefit of winning a vocal contest is higher. In broods where siblings interact iteratively, we speculate that individual-specific signature permits siblings to verify",
       "journal": "Journal of Evolutionary Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2013_04_019",
@@ -311,11 +517,27 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23657559",
+      "title": "Predation-risk effects of predator identity on the foraging behaviors of frugivorous bats",
+      "year": 2013,
+      "doi": "10.1007/s00442-013-2677-9",
+      "abstract": "Predators directly and indirectly affect the density and the behavior of prey. These effects may potentially cascade down to lower trophic levels. In this study, we tested the effects of predator calls (playbacks of bird vocalizations: Tyto alba, Speotyto cunicularia, and Vanellus chilensis), predator visual stimuli (stuffed birds) and interactions of visual and auditory cues, on the behavior of frugivore phyllostomid bats in the field. In addition, we tested if the effects of predation risk cascade down to other trophic levels by measuring rates of seed dispersal of the tree Muntingia calabura. Using video recording, we found that bats significantly decreased the foraging frequency on trees when a visual cue of T. alba was present. However, no stimuli of potential predatory birds, including vocalization of T. alba, affected bat foraging frequency. There was a change in bat behavior during 7 min, but then their frequency of activity gradually increased. Consequently, the presence of T. alba decreased by up to ten times the rate of seed removal. These results indicate that risk sensitivity of frugivorous phyllostomid bats depends on predator identity and presence. Among the predators used in this study, only T. alba is an effective bat predator in the Neotropics. Sound stimuli of T. alba seem not to be a cue of predation risk, possibly because their vocalizations are used only for intraspecific communication. This study emphasizes the importance of evaluating different predator stimuli on the behavior of vertebrates, as well as the effects of these stimuli on trait-mediated trophic cascades.",
+      "journal": "Oecologia",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23604690",
+      "title": "Nestling barn owls assess short-term variation in the amount of vocally competing siblings",
+      "year": 2013,
+      "doi": "10.1007/s10071-013-0634-y",
+      "abstract": "Assessing the amount of rivals is crucial to optimally adjust investment into a contest. If laboratory animals show numerical abilities, little is known about the ecological implications particularly in young animals. The two to nine barn owl (Tyto alba) siblings vocally compete for priority of access to food resources before parents actually deliver them. In dyads, the individual that vocalizes at the highest rate in the absence of parents deters its siblings from competing for next delivered prey. We tested the novel hypothesis that to optimally adjust vocal investment, barn owl nestlings assess how many of their siblings are currently competing. To singleton owlets, we broadcasted a fixed global number of calls emitted by one, two or four pre-recorded unfamiliar nestlings. We could thus distinguish the independent effect on singletons' vocal behavior of the global number of calls produced by a brood from the number of competitors that produced these calls. Overall, nestlings retreated more from vocal contest when facing more competitors. However, in front of one highly motivated competitor, nestlings refrained from vocalizing to a larger extent than when competing against more but less motivated individuals. Therefore, young animals assess variation in the number of currently competing siblings based on individual-specific vocal cues.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_55507",
@@ -325,11 +547,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s11692-011-9152-5",
@@ -339,11 +557,7 @@
       "abstract": "",
       "journal": "Evolutionary Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2010_09_012",
@@ -353,11 +567,17 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20427617",
+      "title": "Multiple manifestations of microstimulation in the optic tectum: eye movements, pupil dilations, and sensory priming",
+      "year": 2010,
+      "doi": "10.1152/jn.01142.2009",
+      "abstract": "It is well established that the optic tectum (or its mammalian homologue, the superior colliculus) is involved in directing gaze toward salient stimuli. However, salient stimuli typically induce orienting responses beyond gaze shifts. The role of the optic tectum in generating responses such as pupil dilation, galvanic responses, or covert shifts is not clear. In the present work, we studied the effects of microstimulation in the optic tectum of the barn owl (Tyto alba) on pupil diameter and on eye shifts. Experiments were conducted in lightly anesthetized head-restrained barn owls. We report that low-level microstimulation in the deep layers of the optic tectum readily induced pupil dilation responses (PDRs), as well as small eye movements. Electrically evoked PDRs, similar to acoustically evoked PDRs, were long-lasting and habituated to repeated stimuli. We further show that microstimulation in the external nucleus of the inferior colliculus also induced PDRs. Finally, in experiments in which tectal microstimulations were coupled with acoustic stimuli, we show a tendency of the microstimulation to enhance pupil responses and eye shifts to previously habituated acoustic stimuli. The enhancement was dependent on the site of stimulation in the tectal spatial map; responses to sounds with spatial cues that matched the site of stimulation were more enhanced compared with sounds with spatial cues that did not match. These results suggest that the optic tectum is directly involved in autonomic orienting reflexes as well as in gaze shifts, highlighting the central role of the optic tectum in mediating the body responses to salient stimuli.",
+      "journal": "Journal of neurophysiology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_anbehav_2008_12_004",
@@ -367,11 +587,17 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_19890389",
+      "title": "Improvements of sound localization abilities by the facial ruff of the barn owl (Tyto alba) as demonstrated by virtual ruff removal",
+      "year": 2009,
+      "doi": "10.1371/journal.pone.0007721",
+      "abstract": "BACKGROUND: When sound arrives at the eardrum it has already been filtered by the body, head, and outer ear. This process is mathematically described by the head-related transfer functions (HRTFs), which are characteristic for the spatial position of a sound source and for the individual ear. HRTFs in the barn owl (Tyto alba) are also shaped by the facial ruff, a specialization that alters interaural time differences (ITD), interaural intensity differences (ILD), and the frequency spectrum of the incoming sound to improve sound localization. Here we created novel stimuli to simulate the removal of the barn owl's ruff in a virtual acoustic environment, thus creating a situation similar to passive listening in other animals, and used these stimuli in behavioral tests. METHODOLOGY/PRINCIPAL FINDINGS: HRTFs were recorded from an owl before and after removal of the ruff feathers. Normal and ruff-removed conditions were created by filtering broadband noise with the HRTFs. Under normal virtual conditions, no differences in azimuthal head-turning behavior between individualized and non-individualized HRTFs were observed. The owls were able to respond differently to stimuli from the back than to stimuli from the front having the same ITD. By contrast, such a discrimination was not possible after the virtual removal of the ruff. Elevational head-turn angles were (slightly) smaller with non-individualized than with individualized HRTFs. The removal of the ruff resulted in a large decrease in elevational head-turning amplitudes. CONCLUSIONS/SIGNIFICANCE: The facial ruff a) improves azimuthal sound localization by increasing the ITD range and b) improves elevational sound localization in the frontal field by introducing a shift of iso-ILD lines out of the midsagittal plane, which causes ILDs to increase with increasing stimulus elevation. The changes at the behavioral level could be related to the changes in the binaural physical parameters that occurred after the virtual remova",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1600-048x_2008_04472_x",
@@ -381,11 +607,7 @@
       "abstract": "Conflicts among siblings are widespread and their resolution involves complex physical and communication tools. Observations in the barn owl Tyto alba showed that siblings vocally communicate in the absence of parents to negotiate priority of access to the impending food resources that parents will bring. In the present paper, we hypothesize and provide correlative evidence that after a parent brought a food item to their progeny, sibling competition involves vocal sib‐sib communication. A food item takes a long time to be entirely consumed, and hence siblings continue to compete over prey monopolization even after parents gave a food item to a single offspring. When physical competition is pronounced and thereby the risk of prey theft is high, the individual that received a prey item consumes it in a concealed place. Concomitantly, nestlings vocalize intensely probably to indicate their motivation to siblings to not share their food item, since this vocal behaviour was particularly fr",
       "journal": "Journal of Avian Biology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf02465519",
@@ -395,11 +617,57 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_11359047",
+      "title": "Tonotopic and somatotopic representation in the nucleus basalis of the barn owl, Tyto alba",
+      "year": 2001,
+      "doi": "10.1159/000047225",
+      "abstract": "We have investigated the somatosensory and auditory representations in the nucleus basalis of the barn owl. In pigeons and finches, the nucleus basalis contains a representation of the beak and an auditory area. In the barn owl, the nucleus basalis also contains a complete somatotopic map of the head and body (as in the budgerigar), with a tonotopically organized auditory area in close proximity to the representation of the facial ruff and the preaural area. Recordings within and around the nucleus basalis revealed predominantly (about 80%) contralateral responses to somatic stimulation. The somatotopic map was oriented with the head down and rostral. Penetrations revealed an over-representation of the feet in dorsal basalis, followed by the rest of the body and wings more ventrally. Towards more rostral positions in nucleus basalis, responses from the head and beak predominated ventrally. The auditory response area was encountered below the region that responded to stimulation of the facial ruff and preaural flap regions and above a region responsive to beak stimulation. Auditory responses were tonotopically organized, with low best frequencies dorsal. Some penetrations yielded predominantly monaural responses with a fairly broad dynamic range, similar to those recorded from the ventral nucleus of the lateral lemniscus (LLV) and the cochlear nucleus angularis, whereas other penetrations contained predominantly binaural responses sensitive to interaural time differences (ITD). The physiological responses could be predicted on the basis of auditory projections to the nucleus basalis. An injection of biotinylated dextran amine (BDA) in the auditory region of nucleus basalis retrogradely labeled cells in both the caudal and rostral parts of the intermediate lateral lemniscal nucleus (LLIc and LLIr), and a few cells in the anterior part of the dorsal lateral lemniscal nucleus (LLDa, previously known as nucleus ventralis lemnisci lateralis, pars anterior, or VLVa) and in",
+      "journal": "Brain, behavior and evolution",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_10737402",
+      "title": "Barn owl (Tyto alba) siblings vocally negotiate resources",
+      "year": 2000,
+      "doi": "10.1098/rspb.2000.1022",
+      "abstract": "Current theory proposes that nestlings beg to signal hunger level to parents honestly, or that siblings compete by escalating begging to attract the attention of parents. Although begging is assumed to be directed at parents, barn owl (Tyto alba) nestlings vocalize in the presence but also in the absence of the parents. Applying the theory of asymmetrical contests we experimentally tested three predictions of the novel hypothesis that in the absence of the parents siblings vocally settle contests over prey items to be delivered next by a parent. This 'sibling negotiation hypothesis' proposes that offspring use each others' begging vocalization as a source of information about their relative willingness to contest the next prey item delivered. In line with the hypothesis we found that (i) a nestling barn owl refrains from vocalization when a rival is more hungry, but (ii) escalates once the rival has been fed by a parent, and (iii) nestlings refrain from and escalate vocalization in experimentally enlarged and reduced broods, respectively. Thus, when parents are not at the nest a nestling vocally refrains when the value of the next delivered prey item will be higher for its nest-mates. These findings are the exact opposite of what current models predict for begging calls produced in the presence of the parents.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_10575110",
+      "title": "Influence of contralateral acoustic stimulation on distortion-product and spontaneous otoacoustic emissions in the barn owl",
+      "year": 1999,
+      "doi": "10.1016/s0378-5955(99)00126-4",
+      "abstract": "The avian auditory papilla provides an interesting object on which to study efferent influences, because whereas a significant population of hair cells in birds is not afferently innervated, all hair cells are efferently innervated (Fischer, 1992, 1994a, b). Previous studies in mammals using contralateral sound to stimulate the efferent system demonstrated a general suppressive effect on spontaneous and click-evoked, as well as on distortion-product otoacoustic emissions (DPOAE). As little is known about the effects of contralateral stimulation on hearing in birds, we studied the effect of such stimuli (broadband noise, pure tones) on the amplitude of the DPOAE 2f(1)-f(2) and on spontaneous otoacoustic emissions (SOAE) in the barn owl, Tyto alba. For the DPOAE measurements, fixed primary-tone pairs [f(1)=8.875 kHz (ratio=1.2), f(1)=8.353 kHz (ratio=1.15) and f(1)=7.889 kHz (ratio=1.1)] were presented and the DPOAE measured in the presence and absence of continuous contralateral stimulation. The DPOAE often declined in amplitude but in some cases we observed DPOAE enhancement. The changes in amplitude were as large as 9 dB. The influence of the contralateral noise changed over time, however, and the effects of contralateral tones were frequency-dependent. SOAE were suppressed in amplitude and shifted in frequency by contralateral broadband noise. Control measurements in animals after middle-ear muscle resection showed that these phenomena were not attributable to the acoustic middle-ear reflex. The finding of DPOAE enhancement is interesting, because a type of efferent fiber that suppressed its discharge rate during stimulation has been described in birds (Kaiser and Manley, 1994).",
+      "journal": "Hearing research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28307103",
+      "title": "The effect of barn owls (Tyto alba) on the activity and microhabitat selection of Gerbillus allenbyi and G. pyramidum",
+      "year": 1996,
+      "doi": "10.1007/BF00328733",
+      "abstract": "Predation plays an important role in ecological communities by affecting prey behavior such as foraging and by physical removal of individual prey. In regard to foraging, animals such as desert rodents often balance conflicting demands for food and safety. This has been studied in the field by indirectly manipulating predatory risk through the alteration of cues associated with increased risk such as cover or illumination. It has also been studied by directly manipulating the presence of predators in aviaries. Here, we report on experiments in which we directly manipulated actual predatory risk to desert rodents in the field. We conducted a series of experiments in the field using a trained barn owl (Tyto alba) to investigate how two species of coexisting gerbils (Gerbillus allenbyi and G. pyramidum) respond to various cues of predatory risk in their natural environment. The gerbils responded to risk of predation, in the form of owl flights and owl hunger calls, by reducing their activity in the risky plot relative to the control plot. The strongest response was to owl flights and the weakest to recorded hunger calls of owls. Furthermore, when risk of predation was relatively high, as in the case with barn owl flights, both gerbil species mostly limited their activity to the safer bush microhabitat. The response of the gerbils to risk of predation disappeared very quickly following removal of the treatment, and the gerbils returned to normal levels of activity within the same night. The gerbils did not respond to experimental cues (alarm clock), the presence of the investigators, the presence of a quiet owl, and recorded \"white noise\". Using trained barn owls, we were able to effectively manipulate actual risk of predation to gerbils in natural habitats and to quantify how gerbils alter their behavior in order to balance conflicting demands of food and safety. The method allows assessment of aspects of behavior, population interactions, and community characteristics",
+      "journal": "Oecologia",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_3385664",
+      "title": "Directional hearing in the barn owl (Tyto alba)",
+      "year": 1988,
+      "doi": "10.1007/BF00612002",
+      "abstract": "The acoustical properties of the external ear of the barn owl (Tyto alba) were studied by measuring sound pressure in the ear canal and outer ear cavity. Under normal conditions, pressure amplification by the external ear reaches about 20 dB between 3-9 kHz but decreases sharply above 10 kHz. The acoustic gain curve of the outer ear cavity alone is close to that of a finite-length exponential horn between 1.2-13 kHz with maximum gain reaching 20 dB between 5-9 kHz. Pressure gain by the facial ruff produces a maximum of 12 dB between 5-8 kHz and decreases rapidly above 9 kHz. The directional sensitivity of the external ear was obtained from pressure measurements in the ear canal. Directivity of the major lobe is explained, to a first approximation, by the sound diffraction properties of a circular aperture. Aperture size is based on the average radius (30 mm) of the open face of the ruff. Above 5 kHz, the external ear becomes highly directional and there is a 26 degree disparity in elevation between the acoustic axis of the left and right ear. In azimuth, directivity patterns are relocated closer to the midline as frequency increases and the acoustic axis moves at a rate of 20 degree/octave between 2-13 kHz. Movement of the axis can be explained, to a first approximation, by the acoustical diffraction properties of an obliquely truncated horn, due to the asymmetrical shape of the outer ear cavity. The directional sensitivity of the barn owl ear was studied by recording cochlear microphonic (CM) potentials from the round window membrane. Between 3-9 kHz, CM directivity patterns are clearly different to the directivity patterns of the external ear; CM directionality is abruptly lost above 10 kHz. Above 5 kHz, CM directivity patterns are characterized by an elongated major lobe containing the CM axis, forming a tilted band of high amplitude but low directionality (CM axial plane), closely bordered by minima or nulls. The highest directionality is found in the CM directi",
+      "journal": "Journal of comparative physiology. A, Sensory, neural, and behavioral physiology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_5962_bhl_part_10818",
@@ -409,11 +677,7 @@
       "abstract": "",
       "journal": "Novitates Zoologicae.",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472597175_ch-007",
@@ -423,11 +687,7 @@
       "abstract": "",
       "journal": "Owls of Europe",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_j_ctt20q1vqp_27",
@@ -437,11 +697,7 @@
       "abstract": "",
       "journal": "The Raptors of Iowa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927002_0070",
@@ -451,11 +707,7 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927040_0304",
@@ -465,14 +717,10 @@
       "abstract": "",
       "journal": "The Birds of Africa : The Malagasy Region",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 33,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

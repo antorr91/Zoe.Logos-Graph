@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 31,
+    "claim_count": 18,
+    "doi_count": 25,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -46,13 +46,13 @@
     "courtship song"
   ],
   "contexts": [
+    "territorial defence",
     "mate attraction",
-    "parasitoid avoidance",
-    "territorial defence"
+    "parasitoid avoidance"
   ],
   "functions": [
-    "mate attraction",
     "predator avoidance",
+    "mate attraction",
     "rival deterrence"
   ],
   "communication_profile": {
@@ -61,57 +61,293 @@
         "value": "calling song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "courtship song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "parasitoid avoidance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territorial defence",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "predator avoidance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "rival deterrence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 144,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 143,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 142,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 141,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 140,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 139,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 138,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 137,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 136,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 135,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 134,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 133,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 132,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 131,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 130,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 129,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 128,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 127,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -119,6 +355,41 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1093/evlett/qraf047",
+      "url": "https://doi.org/10.1093/evlett/qraf047",
+      "title": "How relaxed preferences facilitate the evolution of novel animal signals",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1242/jeb.250817",
+      "url": "https://doi.org/10.1242/jeb.250817",
+      "title": "Rivers and roads, silence and songs: female crickets respond similarly to conspecific male song in natural and anthropogenic soundscapes",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s42003-025-07643-6",
+      "url": "https://doi.org/10.1038/s42003-025-07643-6",
+      "title": "Road noise exposure over development increases baseline auditory activity and decision-making time in adult crickets",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/beheco/araf086",
+      "url": "https://doi.org/10.1093/beheco/araf086",
+      "title": "Divergent alternative mating tactics in convergent male reproductive morphs",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.251005",
+      "url": "https://doi.org/10.1098/rsos.251005",
+      "title": "Reliable reconstruction of cricket song from biophysical models and preserved specimens",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1098/rspb.2025.2072/v1/decision1",
       "url": "https://doi.org/10.1098/rspb.2025.2072/v1/decision1",
@@ -153,6 +424,27 @@
       "title": "Review for \"Dietary melatonin supplementation mitigates the negative effects of artificial light at night in the Pacific field cricket, Teleogryllus oceanicus\"",
       "year": 2025,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1073/pnas.2317879121",
+      "url": "https://doi.org/10.1073/pnas.2317879121",
+      "title": "Competing adaptations maintain nonadaptive variation in a wild cricket population",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/evlett/qrae042",
+      "url": "https://doi.org/10.1093/evlett/qrae042",
+      "title": "Testing the genomic overlap between intraspecific mating traits and interspecific mating barriers",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2023.0336",
+      "url": "https://doi.org/10.1098/rsbl.2023.0336",
+      "title": "Male responses to sperm competition risk associated with increased macronutrient intake and reduced lifespan",
+      "year": 2023,
+      "source": "pubmed"
     },
     {
       "doi": "10.1038/s41467-021-20971-5",
@@ -241,6 +533,36 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41646641",
+      "title": "How relaxed preferences facilitate the evolution of novel animal signals",
+      "year": 2026,
+      "doi": "10.1093/evlett/qraf047",
+      "abstract": "The evolution of novel animal signals is critical to the generation of biodiversity. Here, we explore how new sexual signals become established. This process is challenging to explain because if receiver preferences are coupled with existing signals, then most receivers should discriminate against new signals. We investigated an underappreciated hypothesis: relaxed receiver preferences facilitate novel signal evolution by allowing new signals to establish a foothold. Further, we probed the mechanistic underpinnings of relaxed preferences by combining field-based and common garden approaches, allowing us to investigate evolution and plasticity as mechanisms. We capitalized on the Pacific field cricket,",
+      "journal": "Evolution letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41312696",
+      "title": "Rivers and roads, silence and songs: female crickets respond similarly to conspecific male song in natural and anthropogenic soundscapes",
+      "year": 2026,
+      "doi": "10.1242/jeb.250817",
+      "abstract": "Many studies have demonstrated that anthropogenic noise affects animals' auditory perception of salient stimuli. Few have tested whether these effects are different from those experienced in nature. We tested the ability of female field crickets, Teleogryllus oceanicus, to phonotactically locate a speaker playing conspecific male song in four acoustic backgrounds: silence, road noise, river noise and heterospecific song. Crickets approaching conspecific song paused more frequently in river noise and heterospecific song treatments compared with silence or road noise. We also recorded auditory interneuron (AN1 and AN2) activity under the first three acoustic background treatments to construct and compare treatment-specific audiograms and interneuron responses to conspecific song. We found little difference in activity, other than that AN2 thresholds for 6 kHz sounds (the tested frequency closest to male song) were highest in river noise, while heterospecific song increased baseline AN2 activity and reduced AN2 activity to conspecific song onset. Our results suggest road noise is not necessarily a greater disturbance than river noise.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41235787",
+      "title": "Ejaculate investment differs by population, but not wing morph or perceived sperm competition risk, in Pacific field crickets",
+      "year": 2026,
+      "doi": "10.1093/jeb/voaf139",
+      "abstract": "Conspicuous sexual signals are frequently under selection from conflicting sources, such as natural versus sexual selection and precopulatory versus postcopulatory sexual selection, which may act in the same or different directions. The Pacific field cricket (Teleogryllus oceanicus) is undergoing rapid evolutionary trait loss: mutations that render males obligately silent (the \"flatwing phenotype\") have become established on several islands of Hawai'i. Females strongly discriminate against silent males, yet flatwings do gain matings. In this study, we take advantage of this natural system to understand how investment in ejaculate quality under high and low perceived sperm competition risk (manipulated using acoustic cues) differs between wild type males and flatwings, which obligately adopt alternative reproductive tactics (ARTs). We replicated our study in two islands with different flatwing frequencies because female mating rate and therefore sperm competition risk is likely higher in O'ahu than Kaua'i. We measured testes mass and gene expression for three seminal fluid proteins (SFPs) that affect paternity success, sperm viability, and female propensity to remate. Compared to Kaua'i males, O'ahu males showed higher residual testes mass and expression of ToSfp011, which increases male sperm viability and paternity success, and reduces mate searching behaviour by females. We found no effect of immediate sperm competition risk or wing morph on any of the SFPs or testes mass. Differential SFP expression and residual testes mass in Hawaiian populations that likely differ in mating rate are compatible with the predictions of sperm competition theory.",
+      "journal": "Journal of evolutionary biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1098_rspb_2025_2072_v2_review1",
       "title": "Review for \"Dietary melatonin supplementation mitigates the negative effects of artificial light at night in the Pacific field cricket, Teleogryllus oceanicus\"",
       "year": 2025,
@@ -248,11 +570,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2025_2072_v1_review2",
@@ -262,11 +580,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2025_2072_v1_review1",
@@ -276,11 +590,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2025_2072_v1_decision1",
@@ -290,11 +600,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2025_2072_v2_decision1",
@@ -304,11 +610,127 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40979803",
+      "title": "Divergent alternative mating tactics in convergent male reproductive morphs",
+      "year": 2025,
+      "doi": "10.1093/beheco/araf086",
+      "abstract": "Alternative reproductive phenotypes involve polymorphic behaviors and forms within sexes. Testing whether behavioral variants such as alternative tactics (eg sneaking or satellite behavior) are initially co-expressed or decoupled from morphological polymorphisms (eg weapon size or color pattern) can provide insight into the origins of reproductive diversity. In Hawaiian field crickets (",
+      "journal": "Behavioral ecology : official journal of the International Society for Behavioral Ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40740698",
+      "title": "Reliable reconstruction of cricket song from biophysical models and preserved specimens",
+      "year": 2025,
+      "doi": "10.1098/rsos.251005",
+      "abstract": "Predicting the function of a biological structure solely from its morphology can be a very powerful tool in several fields of biology, but especially in evolutionary reconstruction. In the field of invertebrate acoustic communication, reconstructing the acoustic properties of sound-producing forewings in crickets has been based on two very divergent methods, finite element modelling (FEM) and vibrometric measurements from preserved specimens. Both methods, however, make strong simplifying assumptions that have not been tested and the reliability of inferences made from either method remains in question. Here, we rigorously test and refine both reconstruction methods using the well-known",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40695344",
+      "title": "Genotype and social environment influence female-female interactions in a non-social insect",
+      "year": 2025,
+      "doi": "10.1098/rspb.2025.1007",
+      "abstract": "Factors shaping social interactions between females are understudied in non-social insects. We tested whether female-female investigation, aggression and same-sex sexual behaviour (SSB) are influenced by genotypic and environmental factors in the Hawaiian field cricket,",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40110849",
+      "title": "Stable directional sexual selection and repeatable choosiness for song preference in the Pacific field cricket Teleogryllus oceanicus",
+      "year": 2025,
+      "doi": "10.1093/evolut/qpaf055",
+      "abstract": "Choosiness, or how picky an individual is in mate choice, is key to both sexual selection and speciation. Yet the amount of phenotypic variation in choosiness and how that variation is partitioned among individuals remain largely unexplored. Here, using the Pacific field cricket Teleogryllus oceanicus, we dissect preference for 2 song traits, proportion of long chirp and interpulse interval. We subsequently quantify phenotypic variation in choosiness and investigate whether there is consistent individual variation in choosiness and whether choosiness for different song traits covary. Strikingly, we found that the overall shape and peak preference for the proportion of long chirp remained similar to those reported in an earlier study from the same population more than a decade ago, providing evidence that directional sexual selection can be relatively stable over long time frames in wild populations. Furthermore, we found moderate levels of within-individual repeatability in choosiness for both song traits, suggesting a substantial level of individual variation in choosiness. Interestingly, choosiness for the 2 song traits positively covaries, indicating that there may exist overall choosier and more permissive females in song preference.",
+      "journal": "Evolution; international journal of organic evolution",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39987350",
+      "title": "Road noise exposure over development increases baseline auditory activity and decision-making time in adult crickets",
+      "year": 2025,
+      "doi": "10.1038/s42003-025-07643-6",
+      "abstract": "Female crickets reared in traffic noise have been reported to be faster or slower to locate male song than those reared in silence across species. We reared female Teleogryllus oceanicus in traffic noise and silence, and had adult females locate male song broadcast amidst traffic noise or silence. We recorded activity of two auditory interneurons in a subset of individuals under identical acoustic conditions. Regardless of rearing treatment, crickets were slower to leave their shelter when presented with male song in silence than in traffic noise, while crickets reared in traffic noise were also slower to leave overall. Crickets reared in traffic noise also had higher baseline AN2 activity, but rearing condition did not affect hearing thresholds or auditory response to male song. Our results demonstrate behavioural and auditory effects of long-term exposure to anthropogenic noise. Further, they support the idea that silence itself is a potentially aversive acoustic condition.",
+      "journal": "Communications biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39983732",
+      "title": "Neural and behavioral evolution in an eavesdropper with a rapidly evolving host",
+      "year": 2025,
+      "doi": "10.1016/j.cub.2025.01.019",
+      "abstract": "The diversification of animal communication systems is driven by the interacting effects of signalers, signal receivers, and the environment. Yet, the critical role of unintended receivers, like eavesdropping enemies, has been underappreciated. Furthermore, contemporary evolution of animal signals is rare, making it difficult to directly observe this process. Ormiine parasitoid flies rely exclusively on acoustic cues to locate singing male orthopteran hosts. In Hawaii, selection imposed by Ormia ochracea has led to recent and rapid diversification of their local host crickets' song. We use complementary lab and field experiments to understand how receiver psychology (sensory and cognitive mechanisms) evolves to accommodate a new host and the evolution of that host's signal. Receiver psychology is critical to our understanding of host-parasite coevolution and animal communication, as the sensory system establishes the limits of behavioral responses that exert selection on signals. We demonstrate that the neural auditory tuning and behavior of O. ochracea have evolved in Hawaii, and these differences likely facilitate the detection of novel host songs. Further, the recently evolved songs are highly variable among males, and flies prefer novel songs with particular spectral characteristics, enabling us to predict how eavesdroppers may shape host song evolution. To our knowledge, this is the first evidence for rapid evolution in the sensory tuning of an eavesdropper. Our work links the evolution of sensory systems, signals, and behavior, heeding the recent call for better integration of sensory and cognitive mechanisms of receivers into our understanding of the evolution of animal communication.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39677567",
+      "title": "Testing the genomic overlap between intraspecific mating traits and interspecific mating barriers",
+      "year": 2024,
+      "doi": "10.1093/evlett/qrae042",
+      "abstract": "Differences in interspecific mating traits, such as male sexual signals and female preferences, often evolve quickly as initial barriers to gene flow between nascent lineages, and they may also strengthen such barriers during secondary contact via reinforcement. However, it is an open question whether loci contributing to intraspecific variation in sexual traits are co-opted during the formation and strengthening of mating barriers between species. To test this, we used a population genomics approach in natural populations of Australian cricket sister species that overlap in a contact zone:",
+      "journal": "Evolution letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39088392",
+      "title": "Competing adaptations maintain nonadaptive variation in a wild cricket population",
+      "year": 2024,
+      "doi": "10.1073/pnas.2317879121",
+      "abstract": "How emerging adaptive variants interact is an important factor in the evolution of wild populations, but the opportunity to empirically study this interaction is rare. We recently documented the emergence of an adaptive phenotype \"curly-wing\" in Hawaiian populations of field crickets (",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38519842",
+      "title": "Behavioural plasticity compensates for adaptive loss of cricket song",
+      "year": 2024,
+      "doi": "10.1111/ele.14404",
+      "abstract": "Behavioural flexibility might help animals cope with costs of genetic variants under selection, promoting genetic adaptation. However, it has proven challenging to experimentally link behavioural flexibility to the predicted compensation of population-level fitness. We tested this prediction using the field cricket Teleogryllus oceanicus. In Hawaiian populations, a mutation silences males and protects against eavesdropping parasitoids. To examine how the loss of this critical acoustic communication signal impacts offspring production and mate location, we developed a high-resolution, individual-based tracking system for low-light, naturalistic conditions. Offspring production did not differ significantly in replicate silent versus singing populations, and fitness compensation in silent conditions was associated with significantly increased locomotion in both sexes. Our results provide evidence that flexible behaviour can promote genetic adaptation via compensation in reproductive output and suggest that rapid evolution of animal communication systems may be less constrained than previously appreciated.",
+      "journal": "Ecology letters",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38141618",
+      "title": "Rapid sexual signal diversification is facilitated by permissive females",
+      "year": 2024,
+      "doi": "10.1016/j.cub.2023.11.063",
+      "abstract": "The initial process by which novel sexual signals evolve remains unclear, because rare new variants are susceptible to loss by drift or counterselection imposed by prevailing female preferences.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37885146",
+      "title": "A novel cricket morph has diverged in song and wing morphology across island populations",
+      "year": 2023,
+      "doi": "10.1111/jeb.14235",
+      "abstract": "Divergence of sexual signals between populations can lead to speciation, yet opportunities to study the immediate aftermath of novel signal evolution are rare. The recent emergence and spread of a new mating song, purring, in Hawaiian populations of the Pacific field cricket (Teleogryllus oceanicus) allows us to investigate population divergence soon after the origin of a new signal. Male crickets produce songs with specialized wing structures to attract mates from afar (calling) and entice them to mate when found (courtship). However, in Hawaii, these songs also attract an eavesdropping parasitoid fly (Ormia ochracea) that kills singing males. The novel purring song, produced with heavily modified wing morphology, attracts female crickets but not the parasitoid fly, acting as a solution to this conflict between natural and sexual selection. We've recently observed increasing numbers of purring males across Hawaii. In this integrative field study, we investigated the distribution of purring and the proportion of purring males relative to other morphs in six populations on four islands and compared a suite of phenotypic traits (wing morphology, calling song and courtship song) that make up this novel signal across populations of purring males. We show that purring is found in varying proportions across five, and is locally dominant in four, Hawaiian populations. We also show that calling songs, courtship songs and wing morphology of purring males differ geographically. Our findings demonstrate the rapid pace of evolution in island populations and provide insights into the emergence and divergence of new sexual signals over time.",
+      "journal": "Journal of evolutionary biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37875160",
+      "title": "Male responses to sperm competition risk associated with increased macronutrient intake and reduced lifespan",
+      "year": 2023,
+      "doi": "10.1098/rsbl.2023.0336",
+      "abstract": "Increased expenditure on the ejaculate is a taxonomically widespread male response to sperm competition. Increased ejaculate expenditure is assumed to come at a cost to future reproduction, otherwise males should always invest maximally. However, the life-history costs of strategic ejaculation are not well documented. Macronutrient intake is known to affect the trade-off between reproduction and lifespan. Intakes of protein and carbohydrate that maximize reproduction often differ from those that maximize lifespan. Here, we asked whether strategic expenditure on the ejaculate by male crickets,",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1038_s41467-021-20971-5",
@@ -318,11 +740,7 @@
       "abstract": "Inadvertent cues can be refined into signals through coevolution between signalers and receivers, yet the earliest steps in this process remain elusive. In Hawaiian populations of the Pacific field cricket, a new morph producing a novel and incredibly variable song (purring) has spread across islands. Here we characterize the current sexual and natural selection landscape acting on the novel signal by (1) determining fitness advantages of purring through attraction to mates and protection from a prominent deadly natural enemy, and (2) testing alternative hypotheses about the strength and form of selection acting on the novel signal. In field studies, female crickets respond positively to purrs, but eavesdropping parasitoid flies do not, suggesting purring may allow private communication among crickets. Contrary to the sensory bias and preference for novelty hypotheses, preference functions (selective pressure) are nearly flat, driven by extreme inter-individual variation in function sh",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_54040",
@@ -332,11 +750,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1242_jeb_142281",
@@ -346,11 +760,7 @@
       "abstract": "Recent developments in machine vision methods for automatic, quantitative analysis of social behavior have immensely improved both the scale and level of resolution with which we can dissect interactions between members of the same species. In this paper, we review these methods, with a particular focus on how biologists can apply them to their own work. We discuss several components of machine vision-based analyses: methods to record high-quality video for automated analyses, video-based tracking algorithms for estimating the positions of interacting animals, and machine learning methods for recognizing patterns of interactions. These methods are extremely general in their applicability, and we review a subset of successful applications of them to biological questions in several model systems with very different types of social behaviors.",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2015_2889",
@@ -360,11 +770,7 @@
       "abstract": "Why animal communication displays are so complex and how they have evolved are active foci of research with a long and rich history. Progress towards an evolutionary analysis of signal complexity, however, has been constrained by a lack of hypotheses to explain similarities and/or differences in signalling systems across taxa. To address this, we advocate incorporating a systems approach into studies of animal communication--an approach that includes comprehensive experimental designs and data collection in combination with the implementation of systems concepts and tools. A systems approach evaluates overall display architecture, including how components interact to alter function, and how function varies in different states of the system. We provide a brief overview of the current state of the field, including a focus on select studies that highlight the dynamic nature of animal signalling. We then introduce core concepts from systems biology (redundancy, degeneracy, pluripotentialit",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_nrn3731",
@@ -374,11 +780,7 @@
       "abstract": "",
       "journal": "Nature reviews. Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0070368",
@@ -388,11 +790,7 @@
       "abstract": "Patterns of intraspecific geographic variation of signaling systems provide insight into the microevolutionary processes driving phenotypic divergence. The acoustic calls of bats are sensitive to diverse evolutionary forces, but processes that shape call variation are largely unexplored. In China, Rhinolophus ferrumequinum displays a diverse call frequency and inhabits a heterogeneous landscape, presenting an excellent opportunity for this kind of research. We quantified geographic variation in resting frequency (RF) of echolocation calls, estimated genetic structure and phylogeny of R. ferrumequinum populations, and combined this with climatic factors to test three hypotheses to explain acoustic variation: genetic drift, cultural drift, and local adaptation. Our results demonstrated significant regional divergence in frequency and phylogeny among the bat populations in China's northeast (NE), central-east (CE) and southwest (SW) regions. The CE region had higher frequencies than the N",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0028593",
@@ -402,11 +800,7 @@
       "abstract": "Thus, conventional speaker playbacks in the lab apparently do not properly reconstruct the masking noise situation in a spatially realistic manner, since under real world conditions multiple sound sources are spatially distributed in space. Our results also indicate that without knowledge of the receiver properties and the spatial release mechanisms the detrimental effect of noise may be strongly overestimated.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_0014-3820_2006_tb00511_x",
@@ -416,11 +810,7 @@
       "abstract": "We use a combination of microsatellite marker analysis and mate-choice behavior experiments to assess patterns of reproductive isolation of the túngara frog Physalaemus pustulosus along a 550-km transect of 25 populations in Costa Rica and Panama. Earlier studies using allozymes and mitochondrial DNA defined two genetic groups of túngara frogs, one ranging from Mexico to northern Costa Rica (northern group), the second ranging from Panama to northern South America (southern group). Our more fine-scale survey also shows that the northern and southern túngara frogs are genetically different and geographically separated by a gap in the distribution in central Pacific Costa Rica. Genetic differences among populations are highly correlated with geographic distances. Temporal call parameters differed among populations as well as between genetic groups. Differences in calls were explained better by geographic distance than by genetic distance. Phonotaxis experiments showed that females prefer",
       "journal": "Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1471-8286_2005_01042_x",
@@ -430,11 +820,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>Microsatellite loci were isolated from the Australian field cricket <jats:italic>Teleogryllus oceanicus</jats:italic>. Seven polymorphic loci were found with an observed number of alleles ranging from eight to 17 and observed heterozygosities between 0.26 and 0.94. One locus was found to be X‐linked. These seven loci were also tested for amplification and polymorphism in the congeneric species <jats:italic>Teleogryllus commodus.</jats:italic> The loci will be used for paternity studies in these species.</jats:p>",
       "journal": "Molecular Ecology Notes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_icb_34_6_625",
@@ -444,11 +830,7 @@
       "abstract": "SYNOPSIS. This review focuses on the energetics of advertisement calls in frogs and insects (mostly ensiferans). I also review a number of methodological questions relating to the most appropriate ways to normalize metabolic rates for calling animals and to calculate efficiency of sound production Although the mechanism of sound production is very different in these groups (vocalization vs. stridulation), net metabolic costs normalized to mass are similar among species producing the most conspicuous calls. Features of the call that interact to determine energetic cost include repetition rate, call duration, and intensity (sound pressure level). Anurans tend to produce louder (more intense) calls while ensiferans tend to produce sound during a greater proportion of the calling bout. All evidence suggests that advertisement calls are produced aerobically and the aerobic costs are similar or exceed the aerobic (but not necessarily total costs) of terrestrial locomotion The pattern of radi",
       "journal": "American Zoologist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_31274_rtd-180816-5790",
@@ -458,14 +840,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 31,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

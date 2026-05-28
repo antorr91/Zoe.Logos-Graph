@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 5,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 31,
+    "claim_count": 4,
+    "doi_count": 23,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -49,8 +49,8 @@
     "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "species recognition"
+    "species recognition",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,7 +58,7 @@
         "value": "advertisement call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -66,38 +66,99 @@
         "value": "chorus",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "species recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 333,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 332,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 331,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 330,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Hyla arborea",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.7717/peerj.17574",
+      "url": "https://doi.org/10.7717/peerj.17574",
+      "title": "Not so cryptic-differences between mating calls of",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.12775/eq.2019.006",
       "url": "https://doi.org/10.12775/eq.2019.006",
@@ -111,6 +172,13 @@
       "title": "Traffic noise affects colouration but not calls in the European treefrog (Hyla arborea)",
       "year": 2015,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0123828",
+      "url": "https://doi.org/10.1371/journal.pone.0123828",
+      "title": "Long recording sequences: how to track the intra-individual variability of acoustic signals",
+      "year": 2015,
+      "source": "pubmed"
     },
     {
       "doi": "10.1007/s00359-014-0923-1",
@@ -139,6 +207,13 @@
       "title": "Hearing is not necessarily believing in nocturnal anurans",
       "year": 2010,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2009.1836",
+      "url": "https://doi.org/10.1098/rspb.2009.1836",
+      "title": "Multiple signals and male spacing affect female preference at cocktail parties in treefrogs",
+      "year": 2010,
+      "source": "pubmed"
     },
     {
       "doi": "10.1098/rspb.2009.0168",
@@ -197,6 +272,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1007/bf00303072",
+      "url": "https://doi.org/10.1007/bf00303072",
+      "title": "Rufe und Rufverhalten des Laubfrosches, Hyla arborea arborea (L.)",
+      "year": 1967,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1080/00087114.1965.10796165",
       "url": "https://doi.org/10.1080/00087114.1965.10796165",
       "title": "Il Corredo Cromosomico di<i>Hyla Arborea Arborea</i>(L.) e di<i>Hyla Regula</i>Baird and Girard: Il Problema dei Cromosomi Sessuali e L'Evoluzione del Cariotipo di<i>Hyla</i>",
@@ -234,6 +316,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_38948235",
+      "title": "Not so cryptic-differences between mating calls of",
+      "year": 2024,
+      "doi": "10.7717/peerj.17574",
+      "abstract": "Anurans are among the most vocally active vertebrate animals and emit calls with different functions. In order to attract a mate, during the breeding season male frogs produce mating calls which have species-specific structure and parameters, and have been successfully used to resolve issues in taxonomy and phylogenetic relations. This is particularly useful when closely related taxa are concerned, as many species are morphologically almost identical, but still their status is well-supported by molecular and genetic data, suggesting the existence of mechanisms for reproductive isolation. Such is the case for treefrogs from the",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_12775_eq_2019_006",
       "title": "Effect of anthropogenic noise on call parameters of Hyla arborea (Anura: Hylidae)",
       "year": 2019,
@@ -241,11 +333,7 @@
       "abstract": "",
       "journal": "Ecological Questions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_1568539x-00003255",
@@ -255,11 +343,27 @@
       "abstract": "In terrestrial habitats, traffic noise is responsible for chronic noise exposure and impacts both signal detection and acoustic signal structure. Several species are known to adapt their call structures to cope with noise. However, compromised hearing affects more than acoustic communication, and noise should be consider as a stress factor that can also alter visual communication in the case of carotenoid-based signals. Here, we experimentally investigated the impact of traffic noise on the expression of secondary sexual signals in the European treefrog, Hyla arborea . Treefrogs use multimodal communication in the sexual selection process (mating calls and vocal sac colouration). We found that treefrogs seem unable to adjust their call structure. Nonetheless, males showed a significant decrease in colouration intensity. Our findings highlight for the first time the negative effect of traffic noise on colour signals. This suggests that anthropogenic noise could affect a wider range of s",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25970183",
+      "title": "Long recording sequences: how to track the intra-individual variability of acoustic signals",
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0123828",
+      "abstract": "Recently developed acoustic technologies - like automatic recording units - allow the recording of long sequences in natural environments. These devices are used for biodiversity survey but they could also help researchers to estimate global signal variability at various (individual, population, species) scales. While sexually-selected signals are expected to show a low intra-individual variability at relatively short time scale, this variability has never been estimated so far. Yet, measuring signal variability in controlled conditions should prove useful to understand sexual selection processes and should help design acoustic sampling schedules and to analyse long call recordings. We here use the overall call production of 36 male treefrogs (Hyla arborea) during one night to evaluate within-individual variability in call dominant frequency and to test the efficiency of different sampling methods at capturing such variability. Our results confirm that using low number of calls underestimates call dominant frequency variation of about 35% in the tree frog and suggest that the assessment of this variability is better by using 2 or 3 short and well-distributed records than by using samples made of consecutive calls. Hence, 3 well-distributed 2-minutes records (beginning, middle and end of the calling period) are sufficient to capture on average all the nightly variability, whereas a sample of 10 000 consecutive calls captures only 86% of it. From a biological point of view, the call dominant frequency variability observed in H. arborea (116Hz on average but up to 470 Hz of variability during the course of the night for one male) challenge about its reliability in mate quality assessment. Automatic acoustic recording units will provide long call sequences in the near future and it will be then possible to confirm such results on large samples recorded in more complex field conditions.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25482363",
+      "title": "Speciation history and widespread introgression in the European short-call tree frogs (Hyla arborea sensu lato, H. intermedia and H. sarda)",
+      "year": 2015,
+      "doi": "10.1016/j.ympev.2014.11.012",
+      "abstract": "European tree frogs (Hyla) characterized by short temporal parameters of the advertisement call form six genetically differentiated but morphologically cryptic taxa, H. arborea sensu stricto, H. orientalis and H. molleri from across Europe to western Asia (together referred to as H. arborea sensu lato), two putative taxa within H. intermedia (Northern and Southern) from the Italian Peninsula and Sicily, and H. sarda from Sardinia and Corsica. Here, we assess species limits and phylogenetic relationships within these 'short-call tree frogs' based on mitochondrial DNA and nuclear protein-coding markers. The mitochondrial and nuclear genes show partly incongruent phylogeographic patterns, which point to a complex history of gene flow across taxa, particularly in the Balkans. To test the species limits in the short-call tree frogs and to infer the species tree, we used coalescent-based approaches. The monophyly of H. arborea sensu lato is supported by the mtDNA as well as by the all-gene species tree. The Northern and Southern lineages of H. intermedia have been connected by nuclear gene flow (despite their deep mtDNA divergence) and should be treated as conspecific. On the contrary, the parapatric taxa within H. arborea sensu lato should be considered distinct species (H. arborea, H. orientalis, H. molleri) based on the coalescent analysis, although signs of hybridization were detected between them (H. arborea×H. orientalis; H. arborea×H. molleri). A mitochondrial capture upon secondary contact appears to explain the close mtDNA relationship between the geographically remote Iberian H. molleri and H. orientalis from around the Black Sea. Introgressive hybridization occurred also between the Balkan H. arborea and northern Italian H. intermedia, and between the Minor Asiatic H. orientalis and Arabian H. felix arabica (the latter belonging to a different acoustic group/clade). Our results shed light on the species limits in the European short-call tree frogs and show that",
+      "journal": "Molecular phylogenetics and evolution",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s00359-014-0923-1",
@@ -269,11 +373,17 @@
       "abstract": "Undeniably, acoustic signals are the predominant mode of communication in frogs and toads. Acoustically active species are found throughout the vast diversity of anuran families. However, additional or alternative signal modalities have gained increasing attention. In several anurans, seismic, visual and chemical communications have convergently evolved due to ecological constraints such as noisy environments. The production of a visual cue, like the inevitably moving vocal sac of acoustically advertising males, is emphasized by conspicuously coloured throats. Limb movements accompanied by dynamic displays of bright colours are additional examples of striking visual signals independent of vocalizations. In some multimodal anuran communication systems, the acoustic component acts as an alert signal, which alters the receiver attention to the following visual display. Recent findings of colourful glands on vocal sacs, producing volatile species-specific scent bouquets suggest the possibi",
       "journal": "Journal of Comparative Physiology A",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25151940",
+      "title": "Multimodality: a way to cope with road traffic noise? The case of European treefrog (Hyla arborea)",
+      "year": 2014,
+      "doi": "10.1016/j.beproc.2014.08.007",
+      "abstract": "In the last decades, traffic noise has become a new challenge for efficient animal communication and several studies suggest that it is involved in population declines. Although poorly investigated in a traffic noise context, communication is generally multimodal, which can be viewed as a way to improve communication efficiency by allowing shift from a sensory modality to another when one modality suffers from noise. In the present study, we investigated multimodal shift in the European treefrog (Hyla arborea), a species using both acoustic and visual cues during male quality assessment task performed by females. Females were used in a discrimination task in two environmental conditions: with or without traffic noise. In traffic noise conditions, we showed that females' reliance on acoustic signal embedded in noise pollution did not decrease in favour of visual signals, therefore showing that females do not shift between modalities in response to traffic noise. Although, we did not evidence multimodal shift in our study, many species facing traffic noise present multimodal communication, and should be investigated to evaluate the importance of multimodal shift as a way to cope with traffic noise pollution.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1163_000579511x566979",
@@ -283,11 +393,7 @@
       "abstract": "Although nocturnal anurans use vision for reproductive communication, it remains unknown whether they see colours at night. Here, we explored this question in the European treefrog (Hyla arborea), by conducting two mate choice experiments under controlled light conditions. Experiments involved static male models with identical calls but different vocal sac colouration combining chromatic (red/orange) and brightness (dark/light) information. We found that females preferred dark red over light orange, evidencing for the first time a visually-guided mate choice in nocturnal diffuse light conditions. Conversely, females did not discriminate between dark orange and light red. The preference for dark over light in the first but not in the second experiment suggested that females had not only access to brightness cues but also to chromatic cues. The absence of preference may originate from females choosing at random in a situation where colour and brightness cues may convey contradictory info",
       "journal": "Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0017009",
@@ -297,11 +403,7 @@
       "abstract": "Beaked whales have mass stranded during some naval sonar exercises, but the cause is unknown. They are difficult to sight but can reliably be detected by listening for echolocation clicks produced during deep foraging dives. Listening for these clicks, we documented Blainville's beaked whales, Mesoplodon densirostris, in a naval underwater range where sonars are in regular use near Andros Island, Bahamas. An array of bottom-mounted hydrophones can detect beaked whales when they click anywhere within the range. We used two complementary methods to investigate behavioral responses of beaked whales to sonar: an opportunistic approach that monitored whale responses to multi-day naval exercises involving tactical mid-frequency sonars, and an experimental approach using playbacks of simulated sonar and control sounds to whales tagged with a device that records sound, movement, and orientation. Here we show that in both exposure conditions beaked whales stopped echolocating during deep foragi",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rsbl_2010_0038",
@@ -311,11 +413,27 @@
       "abstract": "The recent discovery of the use of visual cues for mate choice by nocturnal acoustic species raises the important, and to date unaddressed, question of how these signals affect the outcome of mate choice predicted by female preference for male calls. In order to address this question, we presented female Hyla arborea tree frogs with a series of choices between combinations of acoustic and visual cues of varying quality in nocturnal conditions. While females exhibited the expected preference for a combination of attractive values for visual and acoustic signals over combinations of unattractive values for both signals, when presented with conflicting acoustic and visual cues, they equally adopted one of two strategies, preferring either attractive calls or intense vocal sac coloration. This constitutes novel evidence that the outcome of mate choice, as predicted on the basis of male calling quality, can be drastically different when additional communication modalities--in this case visi",
       "journal": "Biology Letters",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20335196",
+      "title": "Hearing is not necessarily believing in nocturnal anurans",
+      "year": 2010,
+      "doi": "10.1098/rsbl.2010.0038",
+      "abstract": "The recent discovery of the use of visual cues for mate choice by nocturnal acoustic species raises the important, and to date unaddressed, question of how these signals affect the outcome of mate choice predicted by female preference for male calls. In order to address this question, we presented female Hyla arborea tree frogs with a series of choices between combinations of acoustic and visual cues of varying quality in nocturnal conditions. While females exhibited the expected preference for a combination of attractive values for visual and acoustic signals over combinations of unattractive values for both signals, when presented with conflicting acoustic and visual cues, they equally adopted one of two strategies, preferring either attractive calls or intense vocal sac coloration. This constitutes novel evidence that the outcome of mate choice, as predicted on the basis of male calling quality, can be drastically different when additional communication modalities--in this case vision--are taken into account. These results also highlight the possible existence of individual variation in female rules for cue prioritization. The implications of these results for the study of mate choice in nocturnal acoustic species are discussed.",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_20018785",
+      "title": "Multiple signals and male spacing affect female preference at cocktail parties in treefrogs",
+      "year": 2010,
+      "doi": "10.1098/rspb.2009.1836",
+      "abstract": "Effective acoustic communication in the face of intense conspecific background noise constitutes a constant sensory challenge in chorusing and colonial species. An evolutionary approach suggests that behavioural and environmental constraints in these species should have shaped signal design and signalling behaviour to enable communication in noisy conditions. This could be attained both through the use of multicomponent signals and through short-term adjustments in the spatial separation of calling males. We investigated these two hypotheses in a chorusing anuran, the hylid Hyla arborea, through a series of phonotaxis experiments conducted within a six-speaker arena in a high background noise situation, by presenting females with male calls containing either single or multiple attractive call components, and by modifying distances between speakers. We found that female ability to discriminate attractive calls increased when several attractive call components were available, providing novel evidence that the use of multicomponent signals enhances communication in complex acoustic conditions. Signal discrimination in females also improved with speaker separation, demonstrating that within natural choruses, spatial unmasking conditioned by male density and spatial separation probably improves female discrimination of competing males. Implications of these results for the accuracy of mate choice within choruses are discussed.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rspb_2009_0168",
@@ -325,11 +443,17 @@
       "abstract": "Nocturnal frog species rely extensively on vocalization for reproduction. But recent studies provide evidence for an important, though long overlooked, role of visual communication. In many species, calling males exhibit a conspicuous pulsing vocal sac, a signal bearing visually important dynamic components. Here, we investigate female preference for male vocal sac coloration-a question hitherto unexplored-and male colour pattern in the European tree frog (Hyla arborea). Under nocturnal conditions, we conducted two-choice experiments involving video playbacks of calling males with identical calls and showing various naturally encountered colour signals, differing in their chromatic and brightness components. We adjusted video colours to match the frogs' visual perception, a crucial aspect not considered in previous experiments. Females prefer males with a colourful sac and a pronounced flank stripe. Both signals probably enhance male conspicuousness and facilitate detection and localiz",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_19324736",
+      "title": "The role of nocturnal vision in mate choice: females prefer conspicuous males in the European tree frog (Hyla arborea)",
+      "year": 2009,
+      "doi": "10.1098/rspb.2009.0168",
+      "abstract": "Nocturnal frog species rely extensively on vocalization for reproduction. But recent studies provide evidence for an important, though long overlooked, role of visual communication. In many species, calling males exhibit a conspicuous pulsing vocal sac, a signal bearing visually important dynamic components. Here, we investigate female preference for male vocal sac coloration-a question hitherto unexplored-and male colour pattern in the European tree frog (Hyla arborea). Under nocturnal conditions, we conducted two-choice experiments involving video playbacks of calling males with identical calls and showing various naturally encountered colour signals, differing in their chromatic and brightness components. We adjusted video colours to match the frogs' visual perception, a crucial aspect not considered in previous experiments. Females prefer males with a colourful sac and a pronounced flank stripe. Both signals probably enhance male conspicuousness and facilitate detection and localization by females. This study provides the first experimental evidence of a preference for specific vocal sac spectral properties in a nocturnal anuran species. Vocal sac coloration is based on carotenoids and may convey information about male quality worthwhile for females to assess. The informative content of the flank stripe remains to be demonstrated.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_biocon_2008_05_017",
@@ -339,11 +463,7 @@
       "abstract": "",
       "journal": "Biological Conservation",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0004065",
@@ -353,11 +473,7 @@
       "abstract": "Biodiversity assessment remains one of the most difficult challenges encountered by ecologists and conservation biologists. This task is becoming even more urgent with the current increase of habitat loss. Many methods-from rapid biodiversity assessments (RBA) to all-taxa biodiversity inventories (ATBI)-have been developed for decades to estimate local species richness. However, these methods are costly and invasive. Several animals-birds, mammals, amphibians, fishes and arthropods-produce sounds when moving, communicating or sensing their environment. Here we propose a new concept and method to describe biodiversity. We suggest to forego species or morphospecies identification used by ATBI and RBA respectively but rather to tackle the problem at another evolutionary unit, the community level. We also propose that a part of diversity can be estimated and compared through a rapid acoustic analysis of the sound produced by animal communities. We produced alpha and beta diversity indexes ",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_15685390252902319",
@@ -367,11 +483,7 @@
       "abstract": "",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1092_1b66-44ep-pjh8-gd7k",
@@ -381,11 +493,37 @@
       "abstract": "",
       "journal": "Israel Journal of Zoology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_11263728",
+      "title": "Energetics of calling and metabolic substrate use during prolonged exercise in the European treefrog Hyla arborea",
+      "year": 2001,
+      "doi": "10.1007/s003600000151",
+      "abstract": "Rates of oxygen consumption and carbon dioxide release were measured in calling and resting European tree frogs using open-flow-through respirometry. The energetic cost of calling was high with an average of 1.076 ml O2/(g.h) at average call rates of 8,000 calls/h. The maximum factorial metabolic scopes averaged 24 with momentary peak values ranging between 5 and 41. There was a threefold difference in O2-consumption between individual males calling at the same rate. Respiratory quotients indicated that both lipids and carbohydrates were used to fuel calling. Carbohydrates provided the major fuel (69% on average) with dependence on carbohydrates increasing with call rate. In contrast to marathon runners, there was no shift in metabolic substrate use over a calling period of 2-3 h.",
+      "journal": "Journal of comparative physiology. B, Biochemical, systemic, and environmental physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24923848",
+      "title": "Central control of mating call production and spawning in the tree frog Hyla arborea savignyi (Audouin): Results of electrical stimulation of the brain",
+      "year": 1976,
+      "doi": "10.1016/0376-6357(76)90012-7",
+      "abstract": "Electrical stimulation of the anterior preoptic nucleus elicited the production of mating calls by male Hyla arborea savignyi. Such calls are composed of pulses resembling those of natural mating calls both in their duration and in their sequential arrangement. As a rule, the amplitude of successive pulses within a group increases more rapidly in the electrically evoked calls than in natural calls. The frogs could be brought into a state of readiness to call, which did not lead to actual calling activity, by stimulation in the anterior preoptic, posterior preoptic, and magnocellular nuclei as well as in the hypothalamus. Stimulation of the anterior preoptic nucleus of one female elicited repeated vocalizations, which may be interpretable as mating calls. The posture adopted by the female for spawning can be elicited in males as well as in females by electrical stimulation of the anterior preoptic nucleus.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28308100",
+      "title": "Structure of the mating calls and relationships of the European tree frogs (Hylidae, anura)",
+      "year": 1974,
+      "doi": "10.1007/BF00344901",
+      "abstract": "As an extension of earlier investigations, the mating calls ofHyla arborea kretensis, Hyla a. molleri, andHyla a. sarda were studied, and variations in the calls with air temperature were determined. The mating calls of these species exhibit the typical structure, made up of short pulses of varying amplitude. The call duration and the inter-call interval decrease linearly with increasing temperature (over the range in which calls can occur), whereas the number of pulses per call does not change. Comparisons of the structure of the mating calls make it possible to assess the relationships among the European tree frogs, which so far have been regarded as subspecies of just one species.Hyla meridionalis represents a valid species; this is certainly also true ofHyla a. savignyi of the Middle East.Hyla arborea arborea andHyla a. sarda can be considered as subspecies, whereasHyla a. kretensis andHyla a. molleri cannot.",
+      "journal": "Oecologia",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_bf00311355",
@@ -395,11 +533,17 @@
       "abstract": "",
       "journal": "Zeitschrift f�r Zellforschung und mikroskopische Anatomie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_28313124",
+      "title": "Meteorological variables affecting onset and duration of calling in Hyla arborea L. and Bufo calamita calamita Laur",
+      "year": 1972,
+      "doi": "10.1007/BF00345233",
+      "abstract": "It was the aim of this work to investigate the effects of meteorological factors on two types of behavior related to vocalization in two species of anuran amphibians (Bufo calamita and Hyla arborea). The measurements were carried out in two gravel pits in the Kanton of Zurich. Evaluation by multiple linear regression was carried out at the computer Center of Zurich University. It could be shown that water temperature at 1900 was the most important factor for the onset of callings in both species. Air pressure (for both species) and amount of rainfall on the previous day and shunshine on the same day (for Bufo calamita) played a less important but significant role for this type of behavior. In both species, water temperature at 2400 was the important factor for the duration of the mating chorus. In addition, the amount of rainfall on the previous day and sunshine on the same day had a slight but significant effect on this type of behavior in Bufo calamita. The validity of the method and the results are discussed.",
+      "journal": "Oecologia",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_bf00346477",
@@ -409,11 +553,7 @@
       "abstract": "",
       "journal": "Oecologia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00305704",
@@ -423,11 +563,27 @@
       "abstract": "",
       "journal": "Zeitschrift für Morphologie der Tiere",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1007_bf00303072",
+      "title": "Rufe und Rufverhalten des Laubfrosches, Hyla arborea arborea (L.)",
+      "year": 1967,
+      "doi": "10.1007/bf00303072",
+      "abstract": "",
+      "journal": "Zeitschrift f�r Vergleichende Physiologie",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_4229306",
+      "title": "[Rhythm of acoustic activity of Hyla arborea (Linné) and Hyla meridionalis Boettger anourous amphibians]",
+      "year": 1967,
+      "doi": null,
+      "abstract": "",
+      "journal": "Comptes rendus des seances de la Societe de biologie et de ses filiales",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1080_00087114_1965_10796165",
@@ -437,11 +593,7 @@
       "abstract": "",
       "journal": "Caryologia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_title_82448",
@@ -451,11 +603,7 @@
       "abstract": "THE AMPHIBIA and birds. Further, the embryo as it develops is never sur- rounded by the protective amnion or equipped with a respiratory allantois as in the case of higher vertebrates.",
       "journal": "McGraw-Hill eBooks",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_70675_6eabbfe5zbbe8z4fe8z8760z1e499e7f0186",
@@ -465,11 +613,7 @@
       "abstract": "<jats:p xml:lang=\"fr\">Chez les mâles, la testostérone joue un rôle important dans l'expression des signaux sexuels attractifs pour la femelle. Cependant, de nombreuses études mettent en évidence l'effet négatif de la testostérone sur les défenses immunitaires ou la résistance aux parasites. Selon l'hypothèse du handicap immunitaire (ICHH, Folstad et Karter, 1992), ce compromis permettrait d'assurer l'honnêteté du signal sexuel ; les mauvais mâles ne pouvant pas exprimer de signaux sexuels de bonne qualité tout en gérant l'immunosuppression due à la testostérone. Ma thèse a pour objectif de définir le rôle de la testostérone dans l'honnêteté des signaux sexuels dans un contexte de communication multimodale. Elle permet également de comprendre les mécanismes physiologiques par lesquels la testostérone module les signaux sexuels acoustiques et visuels chez les mâles Hyla arborea, un amphibien connu pour utiliser ces deux types de signaux pour attirer les femelles. Nos résultats montrent q",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_8b6e3f5dzaac3z47c6z8fd0z83803006436d",
@@ -479,14 +623,10 @@
       "abstract": "<jats:p xml:lang=\"fr\">Le bruit engendré par le trafic routier est aujourd'hui une des nuisances sonores d'origine anthropique les plus importantes en milieu terrestre. Cette thèse, à l'interface entre comportement et écophysiologie, a eu pour but de déterminer expérimentalement les impacts d'une exposition à du bruit de trafic routier tant sur les systèmes de communication (acoustique et visuelle) que sur la physiologie (stress, immunité…) animale. Le choix de Hyla arborea, espèce utilisant à la fois des signaux acoustiques et colorés pour la communication, nous a permis de tester efficacement nos différentes hypothèses. Alors que chez de nombreuses espèces d'oiseaux des modifications du système de communication acoustique ont été observées (tant chez l'émetteur que le récepteur), mes travaux n'ont pas mis en évidence de telles perturbations chez Hyla arborea. Cependant, et pour la première fois, j'ai pu mettre en évidence un impact du bruit de trafic routier sur la communication visue",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 31,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

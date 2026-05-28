@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 7,
-    "doi_count": 16,
-    "media_count": 0
+    "paper_count": 31,
+    "claim_count": 12,
+    "doi_count": 23,
+    "recording_count": 0
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tungara_frog_%28Physalaemus_pustulosus%29.jpg/330px-Tungara_frog_%28Physalaemus_pustulosus%29.jpg",
@@ -42,31 +42,31 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "advertisement call",
-    "chuck"
+    "chuck",
+    "advertisement call"
   ],
   "contexts": [
     "mate attraction",
     "sexual selection"
   ],
   "functions": [
-    "female choice",
+    "species recognition",
     "mate attraction",
-    "species recognition"
+    "female choice"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "advertisement call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "chuck",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "advertisement call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -74,44 +74,216 @@
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "sexual selection",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "female choice",
+        "value": "species recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "species recognition",
+        "value": "female choice",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 303,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 302,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 301,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 300,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 299,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 298,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 297,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 296,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 295,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 294,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 293,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 292,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Engystomops pustulosus",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1242/jeb.250360",
+      "url": "https://doi.org/10.1242/jeb.250360",
+      "title": "Variation in sexual signals and defensive strategies elicits receiver-dependent shifts in attractiveness",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s00265-024-03470-7",
+      "url": "https://doi.org/10.1007/s00265-024-03470-7",
+      "title": "Condition dependence in the sexual communication system of the túngara frog",
+      "year": 2024,
+      "source": "openalex"
+    },
     {
       "doi": "10.1093/beheco/arae088",
       "url": "https://doi.org/10.1093/beheco/arae088",
@@ -127,11 +299,32 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rspb.2023.1910",
+      "url": "https://doi.org/10.1098/rspb.2023.1910",
+      "title": "Ripple effects in a communication network: anti-eavesdropper defence elicits elaborated sexual signals in rival males",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s00114-022-01813-w",
+      "url": "https://doi.org/10.1007/s00114-022-01813-w",
+      "title": "Mid-flight prey switching in the fringed-lipped bat (Trachops cirrhosus)",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1093/beheco/arac061",
       "url": "https://doi.org/10.1093/beheco/arac061",
       "title": "Can you hear/see me? Multisensory integration of signals does not always facilitate mate choice",
       "year": 2022,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arac077",
+      "url": "https://doi.org/10.1093/beheco/arac077",
+      "title": "Anthropogenic noise and light alter temporal but not spatial breeding behavior in a wild frog",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.1655/herpetologica-d-20-00057.1",
@@ -174,6 +367,13 @@
       "title": "DESARROLLO EMBRIONARIO Y PRE-METAMÓRFICO DE LA RANA TUNGARA Engystomops pustulosus (FAMILIA LEIUPERIDAE) EN CAUTIVERIO",
       "year": 2020,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2019.1067",
+      "url": "https://doi.org/10.1098/rspb.2019.1067",
+      "title": "Synchronized mating signals in a communication network: the challenge of avoiding predators while attracting mates",
+      "year": 2019,
+      "source": "pubmed"
     },
     {
       "doi": "10.1080/09524622.2018.1458249",
@@ -223,9 +423,36 @@
       "title": "Some Cues Used by the Leptodactylid Frog, Engystomops pustulosus, in Selection of the Oviposition Site",
       "year": 1966,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1126/science.185.4149.372",
+      "url": "https://doi.org/10.1126/science.185.4149.372",
+      "title": "",
+      "year": null,
+      "source": "seed"
     }
   ],
   "papers": [
+    {
+      "paper_id": "pmid_40709752",
+      "title": "Variation in sexual signals and defensive strategies elicits receiver-dependent shifts in attractiveness",
+      "year": 2025,
+      "doi": "10.1242/jeb.250360",
+      "abstract": "Sexual selection often favors the evolution of conspicuous mating displays. Emitting such overt displays carries the risk of interception by eavesdropping enemies, i.e. predators, parasitoids and parasites that exploit communication systems to find and attack their signaling victims. Yet, many signalers respond to variation in perceived eavesdropper risk, protecting themselves through risk-dependent inducible defenses to mitigate potential costs. Given that signalers are embedded in communication networks in which they interact with other signalers, target receivers and multiple eavesdropping enemies, here we investigated how variation in signaling and defensive strategies impacted by an eavesdropping enemy (frog-biting midges; Diptera: Corethrellidae) affects other receivers in a communication network. Ultimately, we aimed to determine whether and to what extent effects that cascade throughout the network shape relative fitness among chorusing males. Using female choice experiments with túngara frogs (Engystomops pustulosus) and predation experiments with eavesdropping, fringe-lipped bats (Trachops cirrhosus), we show that variation in the call elaboration and defensive strategies of competing males shapes their relative fitness. Defensive strategies targeting eavesdropping frog-biting midges indirectly shift a male's relative attractiveness to females and predatory bats, though the mechanisms and impacts are context and receiver specific. These findings showcase how the frequency-dependent effects of micropredation can dynamically shape variation in secondary sexual characteristics and thus influence the mechanisms driving sexual selection.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40706147",
+      "title": "A dopamine agonist affects the social decision-making of calling male túngara frogs",
+      "year": 2025,
+      "doi": "10.1016/j.yhbeh.2025.105797",
+      "abstract": "When vocalizing, many animals engage in decision-making processes that integrate information regarding the current social context. The midbrain dopaminergic system may provide a conserved mechanism underlying this process. For instance, in songbirds, modulation of dopamine release appears to contribute to social context-dependent changes to song. However, relatively little is known about the degree to which dopamine may contribute to similar vocal production and decision-making processes in other taxa, particularly the highly vocal anurans (frogs and toads). Here, we treated wild-caught male túngara frogs (Engystomops pustulosus) with a general dopamine agonist (apomorphine) and assessed its effects on motor performance and motivation as well as vocal decision-making in response to auditory stimuli that varied in social relevance. We found that the dopamine agonist generally increased vocal speed, with decreases in response latencies and call durations. Additionally, we found that dopamine increased call complexity, but only in response to the most socially relevant auditory stimulus (conspecific call). Finally, dopamine treatment and auditory stimulus interacted to affect decision-making regarding call timing and overlap with the stimulus. Compared to controls, frogs with apomorphine were more likely to overlap the playback stimulus in a manner predicted to be more attractive to females. These results highlight a role of dopaminergic circuits in modulating vocal outputs based on social inputs within a species of basal tetrapod.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
     {
       "paper_id": "10_1093_beheco_arae088",
       "title": "Urban sensory conditions alter rival interactions and mate choice in urban and forest túngara frogs",
@@ -234,11 +461,7 @@
       "abstract": "Sexual communication often takes place in networks with multiple competing signalers being simultaneously assessed by mate choosers. Altered sensory conditions, such as noise and light pollution, can affect communication by altering signal production and perception. While evidence of sensory pollution affecting sexual signaling is widespread, few studies assess impacts on sexual signaling during rival interactions as well as mate choice, let alone whether urban and non-urban populations have diverged in their response. Here, we investigate the effects of urban sensory conditions on sexual communication in urban and forest túngara frogs (<i>Engystomops pustulosus</i>). We recorded dyadic vocal rival interactions and assessed mate choice with and without noise and light pollution in the lab. We show that urban sensory conditions can directly impact the intensity of rival interactions, differences between rivals, and mate choice, though changes were often in opposite directions for frogs ",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1101_2024_01_13_575508",
@@ -248,11 +471,37 @@
       "abstract": "Abstract Sexual communication often takes place in networks with multiple competing signalers being simultaneously assessed by mate choosers. Altered sensory conditions, such as noise and light pollution, can affect communication by altering signal production and perception. While evidence of sensory pollution affecting sexual signaling is widespread, few studies assess impacts on sexual signaling during rival interactions as well as mate choice, let alone whether urban and forest populations have diverged in their response. Here, we investigate the effects of urban sensory conditions on sexual communication in urban and forest túngara frogs ( Engystomops pustulosus ). We recorded dyadic vocal rival interactions and assessed mate choice with and without noise and light pollution in the lab. We show that urban sensory conditions can directly impact the intensity of rival interactions, differences between rivals and mate choice, though changes were often in opposite directions for frogs ",
       "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1007_s00265-024-03470-7",
+      "title": "Condition dependence in the sexual communication system of the túngara frog",
+      "year": 2024,
+      "doi": "10.1007/s00265-024-03470-7",
+      "abstract": "Abstract Sexual selection can result in the evolution of extreme armaments and ornaments, and the development and maintenance of these traits can come at a considerable cost. These costs have been implicated in enforcing an upper limit on trait divergence and promoting condition-dependent traits, such that only individuals in sufficiently high condition can effectively wield these armaments and advertise these ornaments. Numerous studies demonstrate the condition-dependence of sexually selected traits, especially those used by males to advertise to females. In this study, we investigated condition-dependent mating calls in the túngara frog Physalaemus ( = Engystomops ) pustulosus . We manipulated male condition in the laboratory over a nine-day period by restricting food availability. We then documented: the relationship between male condition (the relative change in body mass from night 1 to night 9) and acoustic parameters of his mating call; how male condition influenced the male’s ",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_39539570",
+      "title": "Urban sensory conditions alter rival interactions and mate choice in urban and forest túngara frogs",
+      "year": 2024,
+      "doi": "10.1093/beheco/arae088",
+      "abstract": "Sexual communication often takes place in networks with multiple competing signalers being simultaneously assessed by mate choosers. Altered sensory conditions, such as noise and light pollution, can affect communication by altering signal production and perception. While evidence of sensory pollution affecting sexual signaling is widespread, few studies assess impacts on sexual signaling during rival interactions as well as mate choice, let alone whether urban and non-urban populations have diverged in their response. Here, we investigate the effects of urban sensory conditions on sexual communication in urban and forest túngara frogs (",
+      "journal": "Behavioral ecology : official journal of the International Society for Behavioral Ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38113943",
+      "title": "Ripple effects in a communication network: anti-eavesdropper defence elicits elaborated sexual signals in rival males",
+      "year": 2023,
+      "doi": "10.1098/rspb.2023.1910",
+      "abstract": "Emitting conspicuous signals into the environment to attract mates comes with the increased risk of interception by eavesdropping enemies. As a defence, a commonly described strategy is for signallers to group together in leks, diluting each individual's risk. Lekking systems are often highly social settings in which competing males dynamically alter their signalling behaviour to attract mates. Thus, signalling at the lek requires navigating fluctuations in risk, competition and reproductive opportunities. Here, we investigate how behavioural defence strategies directed at an eavesdropping enemy have cascading effects across the communication network. We investigated these behaviours in the túngara frog (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_beheco_arac061",
@@ -262,11 +511,37 @@
       "abstract": "Abstract Females of many species choose mates using multiple sensory modalities. Multimodal noise may arise, however, in dense aggregations of animals communicating via multiple sensory modalities. Some evidence suggests multimodal signals may not always improve receiver decision-making performance. When sensory systems process input from multimodal signal sources, multimodal noise may arise and potentially complicate decision-making due to the demands on cognitive integration tasks. We tested female túngara frog, Physalaemus (=Engystomops) pustulosus, responses to male mating signals in noise from multiple sensory modalities (acoustic and visual). Noise treatments were partitioned into three categories: acoustic, visual, and multimodal. We used natural calls from conspecifics and heterospecifics for acoustic noise. Robotic frogs were employed as either visual signal components (synchronous vocal sac inflation with call) or visual noise (asynchronous vocal sac inflation with call). Fem",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_36518635",
+      "title": "Anthropogenic noise and light alter temporal but not spatial breeding behavior in a wild frog",
+      "year": 2022,
+      "doi": "10.1093/beheco/arac077",
+      "abstract": "Increasing urbanization has led to large-scale land-use changes, exposing persistent populations to drastically altered environments. Sensory pollutants, including low-frequency anthropogenic noise and artificial light at night (ALAN), are typically associated with urban environments and known to impact animal populations in a variety of ways. Both ALAN and anthropogenic noise can alter behavioral and physiological processes important for survival and reproduction, including communication and circadian rhythms. Although noise and light pollution typically co-occur in urbanized areas, few studies have addressed their combined impact on species' behavior. Here, we assessed how anthropogenic noise and ALAN can influence spatial and temporal variation in breeding activity of a wild frog population. By exposing artificial breeding sites inside a tropical rainforest to multiple sensory environments, we found that both anthropogenic noise and ALAN impact breeding behavior of túngara frogs (",
+      "journal": "Behavioral ecology : official journal of the International Society for Behavioral Ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35969288",
+      "title": "Mid-flight prey switching in the fringed-lipped bat (Trachops cirrhosus)",
+      "year": 2022,
+      "doi": "10.1007/s00114-022-01813-w",
+      "abstract": "While foraging, eavesdropping predators home in on the signals of their prey. Many prey signal from aggregations, however, and predators already en route to attack one individual often encounter the signals of other prey. Few studies have examined whether eavesdropping predators update their foraging decisions by switching to target these more recently signaling prey. Switching could result in reduced localization errors and more current estimates of prey location. Conversely, assessing new cues while already in pursuit of another target might confuse or distract a predator. We tested whether fringed-lipped bats (Trachops cirrhosus) switch prey targets when presented with new cues mid-approach and examined how switching and the distance between simulated prey influence attack accuracy, latency, and prey capture success. During nearly 80% of attack flights, bats switched between túngara frog (Engystomops pustulosus) calls spaced 1 m apart, and switching resulted in lower localization errors. The switching rate was reduced, and the localization advantage disappeared for calls separated by 3 m. Regardless of whether bats switched targets, attacks were less accurate, took longer, and were less often successful when calls were spaced at larger distances, indicating a distraction effect. These results reveal that fringed-lipped bats attend to cues from non-targeted prey during attack flights and that the distance between prey alters the effectiveness of attacks, regardless of whether a bat switches targets. Understanding how eavesdropping predators integrate new signals from neighboring prey into their foraging decisions will lead to a fuller picture of the ways unintended receivers shape the evolution of signaling behavior.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35472015",
+      "title": "Eavesdropping Micropredators as Dynamic Limiters of Sexual Signal Elaboration and Intrasexual Competition",
+      "year": 2022,
+      "doi": "10.1086/718967",
+      "abstract": "AbstractTo thoroughly understand the drivers of dynamic signal elaboration requires assessing the direct and indirect effects of naturally interacting factors. Here, we use structural equation modeling to test multivariate data from in situ observations of sexual signal production against a model of causal processes hypothesized to drive signal elaboration. We assess direct and indirect effects, and relative impacts, of male-male competition and attacks by eavesdropping frog-biting midges (Diptera: Corethrellidae) on call elaboration of male túngara frogs (",
+      "journal": "The American naturalist",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_21676_23897864_3721",
@@ -276,11 +551,7 @@
       "abstract": "<jats:p>El herbicida oxadiazon es usado como control de malezas en Colombia; sin embargo, la aplicación de esta sustancia, al igual que la de otros herbicidas, puede afectar la fauna asociada a cuerpos de agua. El objetivo de este estudio fue evaluar los efectos letales, subletales, morfométricos y teratológicos en larvas de Engystomops pustulosus expuestas a este herbicida en tres volúmenes de hábitat. Se utilizaron larvas en estado 25 de Gosner y se expusieron durante 96 horas a tres volúmenes de hábitat (40, 200 y 1000 mL) y tres concentraciones del herbicida, con tres réplicas para cada uno. La CL50 hallada para los renacuajos en un volumen de 40 mL fue 1,46 mg/L, y en 1000 mL fue de 1,5 mg/L. En cuanto a los efectos subletales, las anormalidades quietud prolongada y cola curvada fueron frecuentes en todos los volúmenes (de 27 % a 70 % y de 37 % a 43 %, respectivamente). Aun así, el análisis de regresión no mostró relación entre la variación del volumen y la aparición de anormalida",
       "journal": "Intropica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1655_herpetologica-d-20-00057_1",
@@ -290,11 +561,17 @@
       "abstract": "",
       "journal": "Herpetologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_33197465",
+      "title": "Arginine vasotocin affects vocal behavior but not selective responses to conspecific calls in male túngara frogs",
+      "year": 2021,
+      "doi": "10.1016/j.yhbeh.2020.104891",
+      "abstract": "Arginine vasotocin (AVT) and its homolog arginine vasopressin (AVP) modulate social behavior, including social communication. In anuran amphibians, male-male competition and female mate choice rely heavily on acoustic signaling. Behavioral experiments show that AVT influences motivation to call and vocal production. It may also influence how males process and respond to socially relevant auditory stimuli, but few studies have explored this possibility in this taxon. Túngara frogs produce a \"whine\" that is used for species recognition; in competition with other males they append one or more attractive \"chucks\" to the whine. Frequency modulation in the whine is an important cue for recognizing conspecifics, and gating of conspecific signals begins in the auditory midbrain. We used dynamic playback experiments to investigate the effects of exogenous AVT on males' responses to stimuli with species-typical and altered frequency modulation. We used avoidance of call overlap as evidence that a male recognizes a stimulus as salient and the production of attractive chucks as evidence of his competitive response to a proximate rival. We used call rate, whine duration, and whine frequency as measures of motivation and motor production. Males responded selectively to a stimulus with species-typical frequency modulation. Following treatment with AVT, they increased call rate and altered whines and chucks in a way that suggests increased air flow during the whine. We did not, however, find evidence that treatment with AVT alters the salience of frequency modulation in recognizing and responding to acoustic signals, at least for the stimuli used in this study.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2020-2_rlts_t57272a53969023_en",
@@ -304,11 +581,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_48204_j_tecno_v23n1a8",
@@ -318,11 +591,7 @@
       "abstract": "<jats:p>Se presenta la descripción del desarrollo embrionario y pre-metamórfico en Engystomops pustulosus (rana túngara), por medio de fotografías diarias tomando como base de las descripciones los cambios morfológicos. El estudio se llevó a cabo con individuos en cautiverio en la Universidad de Panamá. Los individuos de E. pustulosus completaron su desarrollo en periodo aproximado de 20 días.</jats:p>",
       "journal": "Tecnociencia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3897_jhr_78_54409_figure2",
@@ -332,11 +601,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3897_jhr_78_54409_figure1",
@@ -346,11 +611,27 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31569298",
+      "title": "The Arylabialis Muscle of the Túngara Frog (Engystomops pustulosus)",
+      "year": 2020,
+      "doi": "10.1002/ar.24267",
+      "abstract": "The current functional model of the anuran larynx includes four pairs of laryngeal muscles. Their contractions do not account, however, for the behavioral control of call complexity observed in male túngara frogs (Engystomops pustulosus), which optionally add a secondary note with distinct harmonic structure to their advertisement call. Examination of the túngara frog's laryngeal morphology through dissection and resin histology has revealed that the m. dilatator laryngis is divided into two separate bundles (superficial and deep). The superficial bundle closely matches the typical description of the m. dilatator laryngis and is well positioned to open the glottis. The deep bundle is exclusively innervated by the short laryngeal nerve and has an attachment to the fibrous mass, an internal laryngeal structure necessary for complex call production. This attachment indicates a separate role for the deep bundle in controlling the complexity of the call. Based on physical separation, exclusive attachments, distinct fiber orientation, exclusive innervation, and potential action, we recognize the deep bundle of the m. dilatator laryngis as a separate muscle. We also revalidate the name m. arylabialis which had been previously used to describe it. The split of the m. dilatator laryngis into two muscles results in a laryngeal innervation pattern that closely matches that of mammals. This study identified a novel laryngeal muscle in túngara frogs, a potential mechanism for the control of call complexity, and revealed new evidence of homologies between the laryngeal structures of amphibians and mammals. Anat Rec, 2019. © 2019 American Association for Anatomy Anat Rec, 303:1966-1976, 2020. © 2019 American Association for Anatomy.",
+      "journal": "Anatomical record (Hoboken, N.J. : 2007)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31594513",
+      "title": "Synchronized mating signals in a communication network: the challenge of avoiding predators while attracting mates",
+      "year": 2019,
+      "doi": "10.1098/rspb.2019.1067",
+      "abstract": "Conspicuous mating signals attract mates but also expose signallers to predators and parasites. Signal evolution, therefore, is driven by conflicting selective pressures from multiple receivers, both target and non-target. Synchronization of mating signals, for example, is an evolutionary puzzle, given the assumed high cost of reduced female attraction when signals overlap. Synchronization may be beneficial, however, if overlapping signals reduce attraction of non-target receivers. We investigate how signal synchronization is shaped by the trade-off between natural and sexual selection in two anuran species: pug-nosed tree frogs (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1080_09524622_2018_1458249",
@@ -360,11 +641,7 @@
       "abstract": "Relatively few studies have used experimental manipulations to investigate the mechanics of vocal production in frogs and toads, even though many frogs produce complex signals with multiple components and/or nonlinearities. Modelling approaches can add to empirical studies by illuminating how various components of the vocal system interact to produce communication signals. In this study, we use bond graphs, a lumped-element modelling technique, to explore how the combination of active modulation of vocal production and the passive dynamics of a unique laryngeal structure result in the complex calls produced by males in an anuran model system. The túngara frog (Physalaemus (= Engystomops) pustulosus) produces advertisement calls with a ‘whine’ and a facultative ‘chuck’. Whines are amplitude and frequency modulated. The chuck is characterized by its spectral complexity and appears to contain a period doubling bifurcation resulting in subharmonics. In our model, we focus on how a fibrous ",
       "journal": "Bioacoustics",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3390_ijerph14080864",
@@ -374,11 +651,17 @@
       "abstract": "Evidence that experiences of nature can benefit people has accumulated rapidly. Yet perhaps because of the domination of the visual sense in humans, most research has focused on the visual aspects of nature experiences. However, humans are multisensory, and it seems likely that many benefits are delivered through the non-visual senses and these are potentially avenues through which a physiological mechanism could occur. Here we review the evidence around these lesser studied sensory pathways-through sound, smell, taste, touch, and three non-sensory pathways. Natural sounds and smells underpin experiences of nature for many people, and this may well be rooted in evolutionary psychology. Tactile experiences of nature, particularly beyond animal petting, are understudied yet potentially fundamentally important. Tastes of nature, through growing and consuming natural foods, have been linked with a range of health and well-being benefits. Beyond the five senses, evidence is emerging for oth",
       "journal": "International Journal of Environmental Research and Public Health",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28983864",
+      "title": "Modeling Sexual Selection in Túngara Frog and Rationality of Mate Choice",
+      "year": 2017,
+      "doi": "10.1007/s11538-017-0353-7",
+      "abstract": "The males of the species of frogs Engystomops pustulosus produce simple and complex calls to lure females, as a way of intersexual selection. Complex calls lead males to a greater reproductive success than what simple calls do. However, the complex calls are also more attractive to their main predator, the bat Trachops cirrhosus. Therefore, as M. Ryan suggests in (The túngara frog: a study in sexual selection and communication. University of Chicago Press, Chicago, 1985), the complexity of the calls lets the frogs keep a trade-off between reproductive success and predation. In this paper, we verify this trade-off from the perspective of game theory. We first model the proportion of simple calls as a symmetric game of two strategies. We also model the effect of adding a third strategy, males that keep quiet and intercept females, which would play a role of intrasexual selection. Under the assumption that the decision of the males takes into account this trade-off between reproductive success and predation, our model reproduces the observed behavior reported in the literature with minimal assumption on the parameters. From the model with three strategies, we verify that the quiet strategy could only coexists with the simple and complex strategies if the rate at which quiet males intercept females is high, which explains the rarity of the quiet strategy. We conclude that the reproductive strategy of the male frog E. pustulosus is rational.",
+      "journal": "Bulletin of mathematical biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rspb_2015_2889",
@@ -388,11 +671,17 @@
       "abstract": "Why animal communication displays are so complex and how they have evolved are active foci of research with a long and rich history. Progress towards an evolutionary analysis of signal complexity, however, has been constrained by a lack of hypotheses to explain similarities and/or differences in signalling systems across taxa. To address this, we advocate incorporating a systems approach into studies of animal communication--an approach that includes comprehensive experimental designs and data collection in combination with the implementation of systems concepts and tools. A systems approach evaluates overall display architecture, including how components interact to alter function, and how function varies in different states of the system. We provide a brief overview of the current state of the field, including a focus on select studies that highlight the dynamic nature of animal signalling. We then introduce core concepts from systems biology (redundancy, degeneracy, pluripotentialit",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_26449971",
+      "title": "Effects of estradiol on neural responses to social signals in female túngara frogs",
+      "year": 2015,
+      "doi": "10.1242/jeb.127738",
+      "abstract": "Estradiol plays an important role in mediating changes in female sexual behavior across reproductive cycles. In the túngara frog [Physalaemus (=Engystomops) pustulosus], the relationship between gonadal activity and female sexual behavior, as expressed by phonotaxis, is mediated primarily by estradiol. Estradiol receptors are expressed in auditory and motivational brain areas and the hormone could serve as an important modulator of neural responses to conspecific calls. To better understand how estradiol modifies neural responses to conspecific social signals, we manipulated estradiol levels and measured expression of the immediate early gene egr-1 in the auditory midbrain, thalamus and limbic forebrain in response to conspecific or heterospecific calls. We found that estradiol and conspecific calls increased egr-1 expression in the auditory midbrain and limbic forebrain, but in the thalamus, only conspecific calls were effective. In the preoptic area, estradiol enhanced the effect of the conspecific call on egr-1 expression, suggesting that the preoptic area could act as a hormonal gatekeeper to phonotaxis. Overall, the results suggest that estradiol has broad influences on the neural circuit involved in female reproduction, particularly those implicated in phonotaxis.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s00359-014-0923-1",
@@ -402,11 +691,7 @@
       "abstract": "Undeniably, acoustic signals are the predominant mode of communication in frogs and toads. Acoustically active species are found throughout the vast diversity of anuran families. However, additional or alternative signal modalities have gained increasing attention. In several anurans, seismic, visual and chemical communications have convergently evolved due to ecological constraints such as noisy environments. The production of a visual cue, like the inevitably moving vocal sac of acoustically advertising males, is emphasized by conspicuously coloured throats. Limb movements accompanied by dynamic displays of bright colours are additional examples of striking visual signals independent of vocalizations. In some multimodal anuran communication systems, the acoustic component acts as an alert signal, which alters the receiver attention to the following visual display. Recent findings of colourful glands on vocal sacs, producing volatile species-specific scent bouquets suggest the possibi",
       "journal": "Journal of Comparative Physiology A",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5818_1529-9651_19_1_21",
@@ -416,11 +701,7 @@
       "abstract": "<jats:title>ABSTRACT</jats:title>\n        <jats:p>Parasitic nematode infections pose a serious health threat to captive amphibian populations. This study compares the efficacy of ivermectin versus hygiene as treatments for nematode infection of the Túngara frog (<jats:italic>Engystomops pustulosus</jats:italic>). Each of the 24 animals was randomly assigned to one of two groups. One group received a 2 mg/kg dose of ivermectin, and the other one received daily substrate changes. The differences between the two groups were found to be negligible, suggesting that adequate habitat maintenance might be sufficient to prevent infection by <jats:italic>Strongyloides</jats:italic> intestinal nematodes in the Túngara frog.</jats:p>",
       "journal": "Journal of Herpetological Medicine and Surgery",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1446594",
@@ -430,11 +711,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "lit_gbif_2423497_9",
@@ -444,11 +721,17 @@
       "abstract": "Some relationships of three calls (diphasic, monophasic, trill) to behavior in Hyla regilla were investigated in the field and in a laboratory observation chamber. Results of observations and experiments indicate that the trill is frequently given after male-male claspings and is repulsive to other males. The monophasic call is usually given in response to the closeness of another frog. Male frogs are attracted to the diphasic call. The different calls may represent a complex vocal communication system in which the diphasic call plays a role in bringing males together and is the major female attracting call, while the trill and monophasic calls function to space males. SEVERAL workers have demonstrated that vocalization in some species of anuran amphibians has important functions in interactions between males. The relationship of vocalization to territoriality in Rana clamitans was investigated by Martof (1953). Jenssen and Preston (1968) reported aggressive behavior by male Rana clami",
       "journal": "",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_2427148_9",
+      "title": "Some relationships of vocalization tó behavior in the Pacific treefrog, Hyla regilla",
+      "year": 1973,
+      "doi": null,
+      "abstract": "Some relationships of three calls (diphasic, monophasic, trill) to behavior in Hyla regilla were investigated in the field and in a laboratory observation chamber. Results of observations and experiments indicate that the trill is frequently given after male-male claspings and is repulsive to other males. The monophasic call is usually given in response to the closeness of another frog. Male frogs are attracted to the diphasic call. The different calls may represent a complex vocal communication system in which the diphasic call plays a role in bringing males together and is the major female attracting call, while the trill and monophasic calls function to space males. SEVERAL workers have demonstrated that vocalization in some species of anuran amphibians has important functions in interactions between males. The relationship of vocalization to territoriality in Rana clamitans was investigated by Martof (1953). Jenssen and Preston (1968) reported aggressive behavior by male Rana clami",
+      "journal": "",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_1441128",
@@ -458,14 +741,10 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 31,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

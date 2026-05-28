@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 25,
-    "claim_count": 6,
-    "doi_count": 24,
-    "media_count": 0
+    "paper_count": 45,
+    "claim_count": 8,
+    "doi_count": 41,
+    "recording_count": 1
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Budgerigar-male-strzelecki-qld.jpg/330px-Budgerigar-male-strzelecki-qld.jpg",
@@ -46,12 +46,12 @@
     "song"
   ],
   "contexts": [
-    "social communication",
-    "vocal learning"
+    "vocal learning",
+    "social communication"
   ],
   "functions": [
-    "individual recognition",
-    "social affiliation"
+    "social affiliation",
+    "individual recognition"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -59,58 +59,214 @@
         "value": "contact call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "social communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "vocal learning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "individual recognition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "social affiliation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 842,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 841,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 840,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 839,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 838,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 837,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 836,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 835,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Melopsittacus undulatus",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_940888",
+        "provider": "xeno-canto",
+        "provider_id": "940888",
+        "type": " (XC940888)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/940888",
+        "audio": "https://xeno-canto.org/940888/download",
+        "sono": "outputs\\spectrograms\\gbif_2479798.png",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "XC · Samantha Aguirre"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1016/j.ygcen.2026.114900",
+      "url": "https://doi.org/10.1016/j.ygcen.2026.114900",
+      "title": "Time the Avenger: Unpredictable environmental disruptions induce changes in neural expression of glucocorticoid receptors in the vocal learning circuit of the male budgerigar",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.yhbeh.2026.105884",
+      "url": "https://doi.org/10.1016/j.yhbeh.2026.105884",
+      "title": "Chronic stress raises baseline circulating corticosterone and reduces vocal plasticity in male budgerigars, an avian model for adult vocal learning",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/nyas.70164",
+      "url": "https://doi.org/10.1111/nyas.70164",
+      "title": "Novel Approach to Inter-Onset-Interval Ratio Uncovers Music-Like Rhythmic Patterns in Budgerigar (Melopsittacus undulatus) Warble Song",
+      "year": 2026,
+      "source": "pubmed"
+    },
     {
       "doi": "10.47310/srjals.2026.v06i01.002",
       "url": "https://doi.org/10.47310/srjals.2026.v06i01.002",
       "title": "Blood Parasites of Budgerigar (Melopsittacus undulatus) in Maysan Governorate, Iraq",
       "year": 2026,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1038/s41586-025-08695-8",
+      "url": "https://doi.org/10.1038/s41586-025-08695-8",
+      "title": "Convergent vocal representations in parrot and human forebrain motor networks",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1101/2024.08.29.610326",
+      "url": "https://doi.org/10.1101/2024.08.29.610326",
+      "title": "Otoacoustic emissions but not behavioral measurements predict cochlear-nerve frequency tuning in an avian vocal-communication specialist",
+      "year": 2025,
+      "source": "pubmed"
     },
     {
       "doi": "10.1111/nyas.70164/v1/review1",
@@ -120,11 +276,60 @@
       "source": "crossref"
     },
     {
+      "doi": "10.7554/eLife.102911",
+      "url": "https://doi.org/10.7554/eLife.102911",
+      "title": "Otoacoustic emissions but not behavioral measurements predict cochlear nerve frequency tuning in an avian vocal communication specialist",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-024-01847-9",
+      "url": "https://doi.org/10.1007/s10071-024-01847-9",
+      "title": "Do domestic budgerigars perceive predation risk?",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12868-024-00879-8",
+      "url": "https://doi.org/10.1186/s12868-024-00879-8",
+      "title": "Persistent vocal learning in an aging open-ended learner reflected in neural FoxP2 expression",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10162-023-00910-5",
+      "url": "https://doi.org/10.1007/s10162-023-00910-5",
+      "title": "Histological Correlates of Auditory Nerve Injury from Kainic Acid in the Budgerigar (Melopsittacus undulatus)",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.cub.2023.11.014",
+      "url": "https://doi.org/10.1016/j.cub.2023.11.014",
+      "title": "Anterior forebrain pathway in parrots is necessary for producing learned vocalizations with individual signatures",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2023.0365",
+      "url": "https://doi.org/10.1098/rspb.2023.0365",
+      "title": "Evidence for maintenance of key components of vocal learning in ageing budgerigars despite diminished affiliative social interaction",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.33188/vetheder.1298063",
       "url": "https://doi.org/10.33188/vetheder.1298063",
       "title": "Undertail body wall herniation with abdominal air sac rupture in budgerigar (Melopsittacus undulatus) Muhabbet kuşunda (Melopsittacus undulatus) abdominal hava kesesi rupturu ile birlikte seyreden kuyruk altı fıtık olgusu",
       "year": 2023,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10162-021-00825-z",
+      "url": "https://doi.org/10.1007/s10162-021-00825-z",
+      "title": "Dimensionally Specific Attention Capture in Birds Performing Auditory Streaming Task",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.31533/pubvet.v14n6a581.1-6",
@@ -190,6 +395,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1371/journal.pone.0001768",
+      "url": "https://doi.org/10.1371/journal.pone.0001768",
+      "title": "Molecular Mapping of Movement-Associated Areas in the Avian Brain: A Motor Theory for Vocal Learning Origin",
+      "year": 2008,
+      "source": "openalex"
+    },
+    {
       "doi": "10.7551/mitpress/7883.003.0007",
       "url": "https://doi.org/10.7551/mitpress/7883.003.0007",
       "title": "Control of Response Variability: Call and Pecking Location in Budgerigars (Melopsittacus undulatus)",
@@ -239,6 +451,20 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1093/icb/38.1.179",
+      "url": "https://doi.org/10.1093/icb/38.1.179",
+      "title": "Song Learning, Early Nutrition and Sexual Selection in Songbirds",
+      "year": 1998,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1121/1.421227",
+      "url": "https://doi.org/10.1121/1.421227",
+      "title": "Control of vocal intensity in budgerigars (<i>Melopsittacus undulatus</i>): Differential reinforcement of vocal intensity and the Lombard effect",
+      "year": 1998,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1016/s0376-6357(97)00041-7",
       "url": "https://doi.org/10.1016/s0376-6357(97)00041-7",
       "title": "Control of vocal production in budgerigars (Melopsittacus undulatus): selective reinforcement, call differentiation, and stimulus control",
@@ -250,6 +476,13 @@
       "url": "https://doi.org/10.1121/1.412651",
       "title": "Vocal learning in Budgerigars (<i>Melopsittacus undulatus</i>) using food reward",
       "year": 1995,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1439-0310.1970.tb01913.x",
+      "url": "https://doi.org/10.1111/j.1439-0310.1970.tb01913.x",
+      "title": "Vocal Mimicry in Captive Budgerigars (<i>Melopsittacus undulatus</i>)<sup>1</sup>",
+      "year": 1970,
       "source": "crossref"
     },
     {
@@ -272,6 +505,13 @@
       "title": "Melopsittacus undulatus, Warbling Grass-Parrakeet, [Pl. 44]",
       "year": 1848,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0049770",
+      "url": "https://doi.org/10.1371/journal.pone.0049770",
+      "title": "",
+      "year": null,
+      "source": "seed"
     }
   ],
   "papers": [
@@ -283,11 +523,37 @@
       "abstract": "<jats:p>Melopsittacus undulatus, a budgerigar of the family Psittacidae, is widely distributed in most parts of the world. The present research aimed to characterize the blood parasites associated with this species by analyzing fifty-three blood samples collected from budgerigars of both sexes in Maysan Governorate during the period from October to July 2024. The study focused on determining the prevalence, infection pattern, and distribution between sexes, as well as characterizing the detected parasitic species. The data showed that the overall prevalence of haemosporidian parasites was 30.18%. The relative distribution of infection with Plasmodium, Haemoproteus, and Leucocytozoon species was 68.75%, 18.75%, and 25%, respectively. In addition, the study revealed a significant difference in infection rates between the sexes, with a higher rate recorded in females than in males. In terms of infection patterns, the results showed that single infections constituted the majority (68.75%),",
       "journal": "Scientific Research Journal of Agriculture and Life Sciences",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41662973",
+      "title": "Time the Avenger: Unpredictable environmental disruptions induce changes in neural expression of glucocorticoid receptors in the vocal learning circuit of the male budgerigar",
+      "year": 2026,
+      "doi": "10.1016/j.ygcen.2026.114900",
+      "abstract": "Chronic stress can impair behaviors critical for survival, including cognitive traits such as vocal learning. Budgerigars (Melopsittacus undulatus), a parrot species capable of lifelong vocal plasticity, offer a valuable model for studying how stress affects vocal learning circuitry. Previous research has shown that chronic stress induced by unpredictable environmental disturbances reduces vocal plasticity in captive budgerigars, but the molecular mechanisms underlying this change remain unclear. To investigate physiological and molecular responses to these disturbances, we collected data across weekly timepoints in budgerigars subjected to a protocol of mild, unpredictable disturbances. We measured both baseline and stress-induced circulating corticosterone levels and used qPCR to assess expression of glucocorticoid receptor (GR) and mineralocorticoid receptor (MR) mRNA in three brain regions: the magnocellular nucleus of the medial striatum (MMSt), a vocal learning nucleus; the ventral striatum pallidum (VSP), a neighboring striatal region; and the hippocampus, which is involved in stress regulation. Contrary to expectations, there was no statistically significant difference in circulating corticosterone between control and experimental treatments nor among weeks. However, the presence of unpredictable disturbances was associated with significantly reduced GR expression in the MMSt, a region critical for maintaining the stereotypy of learned vocalizations. MR expression in all regions did not differ with treatment or week of sampling. These findings suggest that local downregulation of GR in vocal learning circuitry, rather than systemic hormonal changes, may mediate stress-induced alterations in vocal behavior. This study provides new insight into the neuroendocrine mechanisms by which exposure to unpredictable disturbances affects cognitive function in vocal learners.",
+      "journal": "General and comparative endocrinology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41538908",
+      "title": "Chronic stress raises baseline circulating corticosterone and reduces vocal plasticity in male budgerigars, an avian model for adult vocal learning",
+      "year": 2026,
+      "doi": "10.1016/j.yhbeh.2026.105884",
+      "abstract": "Chronic stress affects cognitive function across many domains, including memory, decision making and learning. While the effects of early-life stress on vocal learning in juveniles are well-demonstrated in both humans and songbirds, less is known about how stress experienced by adults affects their ability to learn new vocalizations or the neural substrates that underlie this behavior. We investigated the effects of chronic stress on the production and learning of contact calls, and on the expression of a key learning related gene, FoxP2, in the vocal learning circuit in adult budgerigars (Melopsittacus undulatus), a small parrot with open-ended vocal learning. We induced chronic stress via unpredictable disturbances in the captive environments of nine newly-formed replicate flocks of 4 adult male budgerigars who were previously unfamiliar to each other. We then recorded calling behavior daily and measured weight, breath rate, and baseline and stress response levels of circulating corticosterone weekly. At the end of the experiment brains were collected to examine mRNA and protein levels of the gene FoxP2 in the vocal learning region magnocellular nucleus of the medial striatum (MMSt) using qPCR and immunohistochemistry. Physiological measures of stress consistently showed stronger responses in birds subjected to the highest level of disturbance than those in the medium or baseline control treatments, although only differences in baseline corticosterone were detected among treatments. We used machine learning approaches to map calls onto a shared acoustic space to assess four measures of vocal behavior and learning: vocal output (the number of contact calls produced), vocal diversity (the amount of acoustic space occupied by the calls of an individual), vocal plasticity (the amount of change in acoustic space over time) and vocal convergence (the degree of overlap between an individual's calls and the calls of its group). Birds in the high stress treatment showed hi",
+      "journal": "Hormones and behavior",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41400486",
+      "title": "Novel Approach to Inter-Onset-Interval Ratio Uncovers Music-Like Rhythmic Patterns in Budgerigar (Melopsittacus undulatus) Warble Song",
+      "year": 2026,
+      "doi": "10.1111/nyas.70164",
+      "abstract": "Rhythm is an essential part of human music. Recently, there has been a surge of interest in the production of rhythmicity in nonhuman animal vocalizations. Novel methods have found widespread rhythmic behaviors-including those with music-like properties-among nonhuman animals. Parrots appear to be uniquely flexible and self-motivated in engaging with rhythmic structures. Previous work has found evidence supporting rhythmic capabilities in the budgerigar, a small parrot; however, little is known about rhythmicity in their natural behavioral repertoire thus far. As such, we investigated the rhythmic structure of their complex learned warble song, developing an adapted statistical approach that addresses assumptions/biases found in other methods. After validating this method using human speech and song data, we found nonrandom and structured rhythmicity in the budgerigar warble song that shows similarities in rhythmicity to human music. We also identified two warble element pairs that seem to be essential for producing these budgerigar rhythms. The grouped rhythmic distributions observed in budgerigars appear to arise from different individual strategies, with differing uses of these element pairs among male individuals. These results, combined with earlier work, suggest that rhythmicity is an important aspect of budgerigar communication.",
+      "journal": "Annals of the New York Academy of Sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_nyas_70164_v1_review1",
@@ -297,11 +563,77 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41081481",
+      "title": "Perception of sequential structure in budgerigar (Melopsittacus undulatus) warble song",
+      "year": 2025,
+      "doi": "10.1121/10.0039571",
+      "abstract": "Whether the sequential structure of bird song has perceptual significance has long been an interest of animal behaviorists. The long, rambling warble song of male budgerigars is acoustically complex and composed of a number of distinct elements uttered in streams lasting several minutes, usually accompanied by various courtship behaviors, such as head bobbing and beak touching. Recent work has shown that warble song may have a sequential structure, or patterned repetition of elements. This raises questions as to whether budgerigars can detect changes in natural warble streams and to what extent these capabilities are specific to conspecific song. Here, this study examined the perception of long bouts of warble song from male budgerigars. Using operant conditioning and a psychophysical procedure, the study probed the limits of the birds' ability to detect various changes in new and familiar sequences of warble elements. The study shows that budgerigars can detect sequence changes in short unfamiliar sequences of warble and in much longer segments of familiar warble sequences.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40455068",
+      "title": "Otoacoustic emissions but not behavioral measurements predict cochlear nerve frequency tuning in an avian vocal communication specialist",
+      "year": 2025,
+      "doi": "10.7554/eLife.102911",
+      "abstract": "Frequency analysis by the cochlea forms a key foundation for all subsequent auditory processing. Stimulus-frequency otoacoustic emissions (SFOAEs) are a potentially powerful alternative to traditional behavioral experiments for estimating cochlear tuning without invasive testing, as is necessary in humans. Which methods accurately predict cochlear tuning remains controversial due to only a single animal study comparing SFOAE-based, behavioral, and cochlear frequency tuning in the same species. The budgerigar (",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40108457",
+      "title": "Convergent vocal representations in parrot and human forebrain motor networks",
+      "year": 2025,
+      "doi": "10.1038/s41586-025-08695-8",
+      "abstract": "Cortical networks for the production of spoken language in humans are organized by phonetic features",
+      "journal": "Nature",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40024383",
+      "title": "Acquired human speech sounds replace conspecific syllables in the song of Budgerigars Melopsittacus undulatus",
+      "year": 2025,
+      "doi": "10.1016/j.beproc.2025.105171",
+      "abstract": "The psittacine budgerigar Melopsittacus undulatus, a parrot species known to be a vocal learner, produces long and complex songs composed of different syllable types. Budgerigars can imitate heterospecific sounds as new song syllables, including human speech, but it is unclear how the imitative sounds affect the proportion of different syllables or high-order song structure, such as temporal pattern, which is characteristic of the budgerigar song. We analyzed recordings of songs from six adult male budgerigars with or without imitations of Japanese words to identify whether songs with imitations differed in structure from those without imitations. Songs with imitations contained significantly fewer narrowband syllables and more harmonic syllables, including imitative vocalizations, than those with no imitations. On the other hand, there were no significant differences in most of the temporal parameters between songs with and without imitations, suggesting that the high-order song structure was less affected by incorporating newly acquired syllables. These observations suggest that the heterospecific imitations replaced the conspecific narrowband syllables, which are frequently seen in normal budgerigar song and are acquired through learning processes, possibly without changing the temporal pattern in the song of budgerigars.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39257830",
+      "title": "Otoacoustic emissions but not behavioral measurements predict cochlear-nerve frequency tuning in an avian vocal-communication specialist",
+      "year": 2025,
+      "doi": "10.1101/2024.08.29.610326",
+      "abstract": "Frequency analysis by the cochlea forms a key foundation for all subsequent auditory processing. Stimulus-frequency otoacoustic emissions (SFOAEs) are a potentially powerful alternative to traditional behavioral experiments for estimating cochlear tuning without invasive testing, as is necessary in humans. Which methods accurately predict cochlear tuning remains controversial due to only a single animal study comparing SFOAE-based, behavioral, and cochlear frequency tuning in the same species. The budgerigar (",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38965498",
+      "title": "Persistent vocal learning in an aging open-ended learner reflected in neural FoxP2 expression",
+      "year": 2024,
+      "doi": "10.1186/s12868-024-00879-8",
+      "abstract": "BACKGROUND: Most vocal learning species exhibit an early critical period during which their vocal control neural circuitry facilitates the acquisition of new vocalizations. Some taxa, most notably humans and parrots, retain some degree of neurobehavioral plasticity throughout adulthood, but both the extent of this plasticity and the neurogenetic mechanisms underlying it remain unclear. Differential expression of the transcription factor FoxP2 in both songbird and parrot vocal control nuclei has been identified previously as a key pattern facilitating vocal learning. We hypothesize that the resilience of vocal learning to cognitive decline in open-ended learners will be reflected in an absence of age-related changes in neural FoxP2 expression. We tested this hypothesis in the budgerigar (Melopsittacus undulatus), a small gregarious parrot in which adults converge on shared call types in response to shifts in group membership. We formed novel flocks of 4 previously unfamiliar males belonging to the same age class, either \"young adult\" (6 mo - 1 year) or \"older adult\" (≥ 3 year), and then collected audio-recordings over a 20-day learning period to assess vocal learning ability. Following behavioral recording, immunohistochemistry was performed on collected neural tissue to measure FoxP2 protein expression in a parrot vocal learning center, the magnocellular nucleus of the medial striatum (MMSt), and its adjacent striatum. RESULTS: Although older adults show lower vocal diversity (i.e. repertoire size) and higher absolute levels of FoxP2 in the MMSt than young adults, we find similarly persistent downregulation of FoxP2 and equivalent vocal plasticity and vocal convergence in the two age cohorts. No relationship between individual variation in vocal learning measures and FoxP2 expression was detected. CONCLUSIONS: We find neural evidence to support persistent vocal learning in the budgerigar, suggesting resilience to aging in the open-ended learning program of this spec",
+      "journal": "BMC neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38429588",
+      "title": "Do domestic budgerigars perceive predation risk?",
+      "year": 2024,
+      "doi": "10.1007/s10071-024-01847-9",
+      "abstract": "Predation risk may affect the foraging behavior of birds. However, there has been little research on the ability of domestic birds to perceive predation risk and thus adjust their feeding behavior. In this study, we tested whether domestic budgerigars (Melopsittacus undulatus) perceived predation risk after the presentation of specimens and sounds of sparrowhawks (Accipiter nisus), domestic cats (Felis catus), and humans, and whether this in turn influenced their feeding behavior. When exposed to visual or acoustic stimuli, budgerigars showed significantly longer latency to feed under sparrowhawk, domestic cat, and human treatments than with controls. Budgerigars responded more strongly to acoustic stimuli than visual stimuli, and they showed the longest latency to feed and the least number of feeding times in response to sparrowhawk calls. Moreover, budgerigars showed shorter latency to feed and greater numbers of feeding times in response to human voices than to sparrowhawk or domestic cat calls. Our results suggest that domestic budgerigars may identify predation risk through visual or acoustic signals and adjust their feeding behavior accordingly.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_33188_vetheder_1298063",
@@ -311,11 +643,57 @@
       "abstract": "<jats:p xml:lang=\"en\">Ventral abdominal hernia cases are frequently encountered in bird species. These abdominal hernias are usually seen in sexually active female birds. Although the etiopathology is not fully understood, it is believed that the main cause is hyperestrogenism. Among the herniated organs, intestines have been reported most commonly. However, a case of abdominal hernia accompanied by air sac rupture has not been identified in the literature. An 8-year-old female budgerigar presented with a complaint of swelling under the tail and was brought to Ankara University Veterinary Hospital. Clinical examination revealed the presence of a ventral abdominal hernia under the tail. Radiographic evaluation showed that a significant portion of the swelling was filled with air, and the herniated structures were identified as intestines. The swelling was punctured with a 16G gray cannula, and the air was completely drained. Immediately after the air was expelled, it was observed that t",
       "journal": "Veteriner Hekimler Derneği Dergisi",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_38070505",
+      "title": "Anterior forebrain pathway in parrots is necessary for producing learned vocalizations with individual signatures",
+      "year": 2023,
+      "doi": "10.1016/j.cub.2023.11.014",
+      "abstract": "Parrots have enormous vocal imitation capacities and produce individually unique vocal signatures. Like songbirds, parrots have a nucleated neural song system with distinct anterior (AFP) and posterior forebrain pathways (PFP). To test if song systems of parrots and songbirds, which diverged over 50 million years ago, have a similar functional organization, we first established a neuroscience-compatible call-and-response behavioral paradigm to elicit learned contact calls in budgerigars (Melopsittacus undulatus). Using variational autoencoder-based machine learning methods, we show that contact calls within affiliated groups converge but that individuals maintain unique acoustic features, or vocal signatures, even after call convergence. Next, we transiently inactivated the outputs of AFP to test if learned vocalizations can be produced by the PFP alone. As in songbirds, AFP inactivation had an immediate effect on vocalizations, consistent with a premotor role. But in contrast to songbirds, where the isolated PFP is sufficient to produce stereotyped and acoustically normal vocalizations, isolation of the budgerigar PFP caused a degradation of call acoustic structure, stereotypy, and individual uniqueness. Thus, the contribution of AFP and the capacity of isolated PFP to produce learned vocalizations have diverged substantially between songbirds and parrots, likely driven by their distinct behavioral ecology and neural connectivity.",
+      "journal": "Current biology : CB",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37798548",
+      "title": "Histological Correlates of Auditory Nerve Injury from Kainic Acid in the Budgerigar (Melopsittacus undulatus)",
+      "year": 2023,
+      "doi": "10.1007/s10162-023-00910-5",
+      "abstract": "PURPOSE: Loss of auditory nerve afferent synapses with cochlear hair cells, called cochlear synaptopathy, is a common pathology in humans caused by aging and noise overexposure. The perceptual consequences of synaptopathy in isolation from other cochlear pathologies are still unclear. Animal models provide an effective approach to resolve uncertainty regarding the physiological and perceptual consequences of auditory nerve loss, because neural lesions can be induced and readily quantified. The budgerigar, a parakeet species, has recently emerged as an animal model for synaptopathy studies based on its capacity for vocal learning and ability to behaviorally discriminate simple and complex sounds with acuity similar to humans. Kainic acid infusions in the budgerigar produce a profound reduction of compound auditory nerve responses, including wave I of the auditory brainstem response, without impacting physiological hair cell measures. These results suggest selective auditory nerve damage. However, histological correlates of neural injury from kainic acid are still lacking. METHODS: We quantified the histological effects caused by intracochlear infusion of kainic acid (1 mM; 2.5 µL), and evaluated correlations between the histological and physiological assessments of auditory nerve status. RESULTS: Kainic acid infusion in budgerigars produced pronounced loss of neural auditory nerve soma (60% on average) in the cochlear ganglion, and of peripheral axons, at time points 2 or more months following injury. The hair cell epithelium was unaffected by kainic acid. Neural loss was significantly correlated with reduction of compound auditory nerve responses and auditory brainstem response wave I. CONCLUSION: Compound auditory nerve responses and wave I provide a useful index of cochlear synaptopathy in this animal model.",
+      "journal": "Journal of the Association for Research in Otolaryngology : JARO",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37312548",
+      "title": "Evidence for maintenance of key components of vocal learning in ageing budgerigars despite diminished affiliative social interaction",
+      "year": 2023,
+      "doi": "10.1098/rspb.2023.0365",
+      "abstract": "In some species, the ability to acquire new vocalizations persists into adulthood and may be an important mediator of social interactions. While it is generally assumed that vocal learning persists undiminished throughout the lifespan of these open-ended learners, the stability of this trait remains largely unexplored. We hypothesize that vocal learning exhibits senescence, as is typical of complex cognitive traits, and that this decline relates to age-dependent changes in social behaviour. The budgerigar (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36931835",
+      "title": "Sound order discrimination in two species of birds-Taeniopygia guttata and Melopsittacus undulatus",
+      "year": 2023,
+      "doi": "10.1037/com0000340",
+      "abstract": "Recent psychophysical experiments have shown that zebra finches (Taeniopygia guttata-a songbird) are surprisingly insensitive to syllable sequence changes in their species-specific motifs while budgerigars (Melopsittacus undulatus-a psittacine) do much better when tested on exactly the same sounds. This is unexpected since zebra finch males learn the order of syllables in their songs when young and sing the same song throughout adulthood. Here we probe the limits of this species difference by testing birds on an order change involving just two syllables, hereafter called bi-syllable phrases. Results show budgerigars still perform better than zebra finches on an order change involving just two syllables. An analysis of response latencies shows that both species respond to an order change in a bi-syllable motif at the onset of the first syllable rather than listening to the entire sequence before responding. Additional tests with one syllable omitted or doubled, or with white noise bursts substituted for syllables, indicate that the first syllable in the sequence has a dominant effect on subsequent discrimination of changes in a bi-syllable pattern. These results are surprising in that zebra finch males sing their full motif syllable sequence with a high degree of stereotypy throughout life, suggesting that this consistency in production may not rely on perceptual mechanisms for processing syllable order in adulthood. Budgerigars, on the other hand, are quite sensitive to bi-syllable order changes, an ability that may be related to useful information being encoded in the sequence of syllables in their natural song. (PsycInfo Database Record (c) 2023 APA, all rights reserved).",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34988866",
+      "title": "Dimensionally Specific Attention Capture in Birds Performing Auditory Streaming Task",
+      "year": 2022,
+      "doi": "10.1007/s10162-021-00825-z",
+      "abstract": "Previous studies in budgerigars (Melopsittacus undulatus) have indicated that they experience attention capture in a qualitatively similar way to humans. Here, we apply a similar objective auditory streaming paradigm, using modified budgerigar vocalizations instead of ABAB-… patterned pure tones, in the sound sequences. The birds were trained to respond to deviants in the target stream while ignoring the distractors in the background stream. The background distractor could vary among five different categories and two different sequential positions, while the target deviants could randomly appear at five different sequential positions and vary among two different categories. We found that unpredictable background distractors could deteriorate birds' sensitivity to the target deviants. Compared to conditions where the background distractor appeared right before the target deviant, the attention capture effect decayed in conditions when the background distractor appeared earlier. In contrast to results from the same paradigm using pure tones, the results here are evidence for a faster recovery from attention capture using modified vocalization segments. We found that the temporally modulated background distractor captured birds' attention more and deteriorated birds' performance more than other categories of background distractor, as the temporally modulated target deviant enabled the birds to focus their attention toward the temporal modulation dimension. However, different from humans, birds have lower tolerances for suppressing the distractors from the same feature dimensions as the targets, which is evidenced by higher false alarm rates for the temporally modulated distractor than other distractors from different feature dimensions.",
+      "journal": "Journal of the Association for Research in Otolaryngology : JARO",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_31533_pubvet_v14n6a581_1-6",
@@ -325,11 +703,7 @@
       "abstract": "<jats:p>The present study aimed to describe the first report of ascetic syndrome in poultry due to deficient nutrition hypoproteinemia, seeking to present data on the patient's history, care, diagnostic methods and treatments performed. At the Veterinary Hospital Veterinário Professor Ivon Macêdo Tabosa of the Federal University of Campina Grande, a specimen of Melopsittacus undulatus presented a large increase in volume in the abdominal region with a floating aspect for approximately six days. First, the bird was evaluated clinically, then it was subjected to imaging and laboratory tests (blood count and biochemistry). The performance of imaging exams has made it possible to rule out several causes, such as egg retention, neoplasms, peritonitis, among others. In addition, the anamnesis detected a history of food composed of a diet with sunflower seeds and rice straw. After evaluating the results of the blood count and biochemistry, a picture of mild hypoproteinemia and normocytic norm",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7591_9781501736957-011",
@@ -339,11 +713,7 @@
       "abstract": "",
       "journal": "Ecology and Evolution of Acoustic Communication in Birds",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_75627",
@@ -353,11 +723,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rstb_2019_0044",
@@ -367,11 +733,7 @@
       "abstract": "The complex and melodic nature of many birds' songs has raised interest in potential parallels between avian vocal sequences and human speech. The similarities between birdsong and speech in production and learning are well established, but surprisingly little is known about how birds perceive song sequences. One popular laboratory songbird, the zebra finch (<i>Taeniopygia guttata</i>), has recently attracted attention as an avian model for human speech, in part because the male learns to produce the individual elements in its song motif in a fixed sequence. But psychoacoustic evidence shows that adult zebra finches are relatively insensitive to the sequential features of song syllables. Instead, zebra finches and other birds seem to be exquisitely sensitive to the acoustic details of individual syllables to a degree that is beyond human hearing capacity. Based on these findings, we present a finite-state model of zebra finch perception of song syllable sequences and discuss the rich i",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_bbr_2015_01_017",
@@ -381,11 +743,7 @@
       "abstract": "",
       "journal": "Behavioural Brain Research",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fnana_2013_00046",
@@ -395,11 +753,7 @@
       "abstract": "",
       "journal": "Frontiers in Neuroanatomy",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1439-0310_2010_01809_x",
@@ -409,11 +763,7 @@
       "abstract": "Abstract Parrots comprise one of the several taxa in which life‐long learning of new vocal signals used in intraspecific communication is known to occur routinely. The functions and evolutionary bases of this ability are largely unknown. In the budgerigar ( Melopsittacus undulatus ), males typically imitate their partner’s contact call type during pair formation. However, a female’s initial choice among unfamiliar males is not based on their production of her call type, because birds without prior social contact rarely produce the same call type. Here, we demonstrate that female budgerigars prefer unfamiliar males with calls that are similar to their own, as measured by spectrogram cross‐correlation, but which are not imitations. This was shown by training females via operant conditioning to control access to movies of courting males and by systematically varying the audio tracks of these movies. Females learned this task easily and interacted with virtual males as if they were real. T",
       "journal": "Ethology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_brainres_2008_02_076",
@@ -423,11 +773,7 @@
       "abstract": "",
       "journal": "Brain Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1121_1_2835440",
@@ -437,11 +783,7 @@
       "abstract": "<jats:p>Budgerigars were trained to produce specific vocalizations (calls) using operant conditioning and food reinforcement. The bird’s call was compared to a digital representation of the call stored in a computer to determine a match. Once birds were responding at a high level of precision, we measured the effect of several manipulations upon the accuracy and the intensity of call production. Also, by differentially reinforcing other aspects of vocal behavior, budgerigars were trained to produce a call that matched another bird’s contact call and to alter the latency of their vocal response. Both the accuracy of vocal matching and the intensity level of vocal production increased significantly when the bird could hear the template immediately before each trial. Moreover, manipulating the delay between the presentation of an acoustic reference and the onset of vocal production did not significantly affect either vocal intensity or matching accuracy. Interestingly, the vocalizations l",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7551_mitpress_7883_003_0007",
@@ -451,11 +793,17 @@
       "abstract": "",
       "journal": "Reflections on Adaptive Behavior",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0001768",
+      "title": "Molecular Mapping of Movement-Associated Areas in the Avian Brain: A Motor Theory for Vocal Learning Origin",
+      "year": 2008,
+      "doi": "10.1371/journal.pone.0001768",
+      "abstract": "Vocal learning is a critical behavioral substrate for spoken human language. It is a rare trait found in three distantly related groups of birds-songbirds, hummingbirds, and parrots. These avian groups have remarkably similar systems of cerebral vocal nuclei for the control of learned vocalizations that are not found in their more closely related vocal non-learning relatives. These findings led to the hypothesis that brain pathways for vocal learning in different groups evolved independently from a common ancestor but under pre-existing constraints. Here, we suggest one constraint, a pre-existing system for movement control. Using behavioral molecular mapping, we discovered that in songbirds, parrots, and hummingbirds, all cerebral vocal learning nuclei are adjacent to discrete brain areas active during limb and body movements. Similar to the relationships between vocal nuclei activation and singing, activation in the adjacent areas correlated with the amount of movement performed and ",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1097_01_wnr_0000233105_28279_fa",
@@ -465,11 +813,7 @@
       "abstract": "",
       "journal": "NeuroReport",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_0021-8790_2004_00814_x",
@@ -479,11 +823,7 @@
       "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1006_anbe_2003_2093",
@@ -493,11 +833,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1006_anbe_1999_1438",
@@ -507,11 +843,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1046_j_1439-0310_2000_00637_x",
@@ -521,11 +853,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>The budgerigar (<jats:italic>Melopsittacus undulatus</jats:italic>) is a promising model species for the study of adult vocal learning. To date, several studies have confirmed the existence of vocal plasticity and, more importantly, rapid imitation of contact calls by adult male budgerigars. Vocal learning has not been investigated in female budgerigars, however. Since one likely function of the contact call is to denote group affiliation, we tested the hypothesis that female budgerigars, when placed into groups, would develop a shared contact call. We recorded the contact call repertoires of eight adult female budgerigars that were unfamiliar with one another, then placed them into two groups. Each group was deprived of visual contact with other birds. Recording sessions continued for the subsequent 8 wks, and behavioral observations were also conducted during this time. Within 4–7 wks, females in both groups converged on a common call type. Th",
       "journal": "Ethology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_(sici)1096-9861(20000327)419:1<1::aid-cne1>3_0_co;2-m",
@@ -535,11 +863,27 @@
       "abstract": "Auditory and vocal regulation of gene expression occurs in separate discrete regions of the songbird brain. Here we demonstrate that regulated gene expression also occurs during vocal communication in a parrot, belonging to an order whose ability to learn vocalizations is thought to have evolved independently of songbirds. Adult male budgerigars (Melopsittacus undulatus) were stimulated to vocalize with playbacks of conspecific vocalizations (warbles), and their brains were analyzed for expression of the transcriptional regulator ZENK. The results showed that there was distinct separation of brain areas that had hearing- or vocalizing-induced ZENK expression. Hearing warbles resulted in ZENK induction in large parts of the caudal medial forebrain and in 1 midbrain region, with a pattern highly reminiscent of that observed in songbirds. Vocalizing resulted in ZENK induction in nine brain structures, seven restricted to the lateral and anterior telencephalon, one in the thalamus, and one",
       "journal": "The Journal of Comparative Neurology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1121_1_421227",
+      "title": "Control of vocal intensity in budgerigars (<i>Melopsittacus undulatus</i>): Differential reinforcement of vocal intensity and the Lombard effect",
+      "year": 1998,
+      "doi": "10.1121/1.421227",
+      "abstract": "<jats:p>Call production in budgerigars was studied using operant conditioning. In several experiments, budgerigars were reinforced with food for producing calls that were above or below a criterion level of intensity. This differential reinforcement procedure was successful in controlling vocal intensity in both directions showing that the intensity with which budgerigars produce vocalizations is under voluntary control. In additional experiments, call intensity maintained by food reinforcement was measured both in the quiet and in the presence of various levels of broadband noise. Call intensity in budgerigars increased significantly in noise, paralleling the well-known Lombard effect in humans which is the reflexive increase in speech intensity during communication in noise. Call intensity was measured in broadband noise and in a notched noise (no energy between 1.5 and 4.5 kHz) with the same overall level. Results show that noise in the spectral region of contact calls is most effec",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1093_icb_38_1_179",
+      "title": "Song Learning, Early Nutrition and Sexual Selection in Songbirds",
+      "year": 1998,
+      "doi": "10.1093/icb/38.1.179",
+      "abstract": "SYNOPSIS. The developmental processes through which songbirds acquire their species—typical songs have been well—studied from a proximate perspective, but less attention has been given to the ultimate question of why birds learn to sing. We present a new hypothesis for the adaptive significance of song learning in songbirds, suggesting that this specialized form of vocal development provides an indicator mechanism by which females can accurately assess the quality of potential mates. This hypothesis expands on the established idea that song can provide an indicator of male quality, but it explicitly links the variation in song expression that females use to choose mates to the developmental processes through which song is acquired. How well a male sings—reflected in repertoire size or in other learned features of a male's singing behavior—provides an honest indicator of quality because the timing of song learning and, more importantly, the timing of the development of brain structures ",
+      "journal": "American Zoologist",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_s0376-6357(97)00041-7",
@@ -549,11 +893,7 @@
       "abstract": "",
       "journal": "Behavioural Processes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1121_1_412651",
@@ -563,11 +903,7 @@
       "abstract": "<jats:p>Budgerigars (parakeets) are small, highly social, Australian parrots capable of vocal learning throughout adulthood. These birds readily produce short (200 ms), whistled, frequency-modulated contact calls when separated from one another. In this experiment, birds were trained twice daily in 10 min sessions to produce or modify contact-call-like vocalizations using food reward. Calls were analyzed in real time using serial FFTs and each production was compared to a digitally stored ‘‘template.’’ Call productions which exceeded a predetermined criterion of similarity were rewarded, while those below criterion were not. Results show that budgerigars can learn to modify the intensity and spectro-temporal pattern of their species-typical calls within several days. Aside from human language, bird vocalizations have provided the only other clear example of learning in the acquisition and maintenance of a vocal repertoire. While song learning in birds has led to a number of important i",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "lit_gbif_2479798_19",
@@ -577,11 +913,27 @@
       "abstract": "Pp. 95-131 in Acoustic communication in birds, vol. 1 (D. E. Kroodsma and E. H. Miller, Eds.). New York, Academic Press. DOOLING, R. J., T. J. PARK, D. D. BROWN, K. OKANOYA, & S. D. SOLI. 1987. Perceptual organization of acoustic stimuli by Budgerigars (Melopsittacus undulatus): II. vocal signals. J. Comp. Psychol. 101: 367-381. FALLS, J. B., A. G. HORN, & T. E. DICKINSON. 1988. How Western Meadowlarks classify their songs: evidence from song matching. Anim. Behav. 36: 579-585. LAMBRECHTS, M., & A. A. DHONDT. 1986. Male quality, reproduction, and survival in the Great Tit (Parus major). Behav. Ecol. Sociobiol. 19: 57-63. McGREGOR, P. K., & J. R. KREBS. 1982. Song types in a population of Great Tits (Parus major): their distribution, abundance, and acquisition by individuals. Behaviour 79: 126-152. NELSON, D. A. 1988. Feature weighting in species song recognition by the Field Sparrow (Spizella pusilla). Behaviour 106: 158-182. SAS INSTnuTE INC. 1986. SAS user's guide: statistics, 1986 e",
       "journal": "",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_2480271_20",
+      "title": "Identification of nest predators by photography, dummy eggs, and adhesive tape",
+      "year": 1991,
+      "doi": null,
+      "abstract": "Pp. 95-131 in Acoustic communication in birds, vol. 1 (D. E. Kroodsma and E. H. Miller, Eds.). New York, Academic Press. DOOLING, R. J., T. J. PARK, D. D. BROWN, K. OKANOYA, & S. D. SOLI. 1987. Perceptual organization of acoustic stimuli by Budgerigars (Melopsittacus undulatus): II. vocal signals. J. Comp. Psychol. 101: 367-381. FALLS, J. B., A. G. HORN, & T. E. DICKINSON. 1988. How Western Meadowlarks classify their songs: evidence from song matching. Anim. Behav. 36: 579-585. LAMBRECHTS, M., & A. A. DHONDT. 1986. Male quality, reproduction, and survival in the Great Tit (Parus major). Behav. Ecol. Sociobiol. 19: 57-63. McGREGOR, P. K., & J. R. KREBS. 1982. Song types in a population of Great Tits (Parus major): their distribution, abundance, and acquisition by individuals. Behaviour 79: 126-152. NELSON, D. A. 1988. Feature weighting in species song recognition by the Field Sparrow (Spizella pusilla). Behaviour 106: 158-182. SAS INSTnuTE INC. 1986. SAS user's guide: statistics, 1986 e",
+      "journal": "",
+      "open_access": 0,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1111_j_1439-0310_1970_tb01913_x",
+      "title": "Vocal Mimicry in Captive Budgerigars (<i>Melopsittacus undulatus</i>)<sup>1</sup>",
+      "year": 1970,
+      "doi": "10.1111/j.1439-0310.1970.tb01913.x",
+      "abstract": "",
+      "journal": "Zeitschrift für Tierpsychologie",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1044_jshd_2004_333",
@@ -591,11 +943,7 @@
       "abstract": "No AccessJournal of Speech and Hearing DisordersResearch Article1 Dec 1955Selective Vocal Effects Of Delayed Auditory Feedback Grant Fairbanks Grant Fairbanks Google Scholar https://doi.org/10.1044/jshd.2004.333 SectionsAboutPDF ToolsAdd to favoritesDownload CitationTrack Citations ShareFacebookTwitterLinked In Additional Resources FiguresReferencesRelatedDetailsCited byJournal of Speech, Language, and Hearing Research65:5 (1800-1821)11 May 2022Delayed Auditory Feedback Elicits Specific Patterns of Serial Order Errors in a Paced Syllable Sequence Production TaskJessica R. Malloy, Dominic Nistal, Matthias Heyne, Monique C. Tardif and Jason W. Bohland PLOS Biology20:2 (e3001493)3 Feb 2022A cortical network processes auditory error signals during human speech production to maintain fluencyMuge Ozker, Werner Doyle, Orrin Devinsky, Adeen Flinker and Jennifer K. Bizley Journal of Speech, Language, and Hearing Research64:7 (2539-2556)16 Jul 2021Deficit or Difference? Effects of Altered Audito",
       "journal": "Journal of Speech and Hearing Disorders",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf02001121",
@@ -605,11 +953,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_p_313276",
@@ -619,14 +963,10 @@
       "abstract": "",
       "journal": "The birds of Australia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 25,
+  "paper_count": 45,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

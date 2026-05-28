@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 5,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 4,
+    "doi_count": 30,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -58,7 +58,7 @@
         "value": "click",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -66,13 +66,13 @@
         "value": "echolocation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -80,24 +80,155 @@
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "prey detection",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 722,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 721,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 720,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 719,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/eap.70216",
+      "url": "https://doi.org/10.1002/eap.70216",
+      "title": "Linking by-caught cetacean traits to fishing techniques: Insights from two species of small cetaceans",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.73165",
+      "url": "https://doi.org/10.1002/ece3.73165",
+      "title": "Effects of Recreational Boats on Harbour Porpoise Swimming Speed and Surfacing Interval Investigated by Two Synchronised UAVs",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/eap.70076",
+      "url": "https://doi.org/10.1002/eap.70076",
+      "title": "Influence of vessel disturbance on Pacific harbour porpoise (Phocoena phocoena vomerina) echolocation",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.72566",
+      "url": "https://doi.org/10.1002/ece3.72566",
+      "title": "Large-Scale Passive Acoustic Monitoring Data Shows Seasonal and Diel Diversity in Foraging Behaviour of Harbour Porpoises Within Their Distributional Range in the Northeast Atlantic",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0317727",
+      "url": "https://doi.org/10.1371/journal.pone.0317727",
+      "title": "Reading between the lines: Novel insights on wild Pacific harbour porpoise (Phocoena phocoena vomerina) social communication through narrow-band high frequency click trains",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0320925",
+      "url": "https://doi.org/10.1371/journal.pone.0320925",
+      "title": "Can you hear me? Playback experiment highlights detection range differences between commonly used PAM devices: C-POD, F-POD and SoundTrap",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41597-024-03806-y",
+      "url": "https://doi.org/10.1038/s41597-024-03806-y",
+      "title": "Cetacean passive acoustic network in the Belgian part of the North sea",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.10186",
+      "url": "https://doi.org/10.1002/ece3.10186",
+      "title": "What the F-POD? Comparing the F-POD and C-POD for monitoring of harbor porpoise (",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-43453-8",
+      "url": "https://doi.org/10.1038/s41598-023-43453-8",
+      "title": "Wild harbour porpoises startle and flee at low received levels from acoustic harassment device",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2022.0101",
+      "url": "https://doi.org/10.1098/rsbl.2022.0101",
+      "title": "Directional hydrophone clusters reveal evasive responses of small cetaceans to disturbance during construction at offshore windfarms",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7287/peerj.8916v0.1/reviews/1",
+      "url": "https://doi.org/10.7287/peerj.8916v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Intraspecific variation in the cochleae of harbour porpoises (Phocoena phocoena) and its implications for comparative studies across odontocetes (v0.1)\"",
+      "year": 2020,
+      "source": "crossref"
+    },
     {
       "doi": "10.1079/cabicompendium.69609",
       "url": "https://doi.org/10.1079/cabicompendium.69609",
@@ -152,6 +283,13 @@
       "url": "https://doi.org/10.1644/07-mamm-s-307r.1",
       "title": "Implications for marine mammals of large-scale changes in the marine acoustic environment",
       "year": 2008,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1002/ar.20407",
+      "url": "https://doi.org/10.1002/ar.20407",
+      "title": "Structure of the cerebral cortex of the humpback whale, <i>Megaptera novaeangliae</i> (Cetacea, Mysticeti, Balaenopteridae)",
+      "year": 2007,
       "source": "openalex"
     },
     {
@@ -216,9 +354,176 @@
       "title": "Table 1: Bycatch of harbor porpoise (\n                      <i>Phocoena phocoena</i>\n                      ) per region.",
       "year": null,
       "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.8916/fig-2",
+      "url": "https://doi.org/10.7717/peerj.8916/fig-2",
+      "title": "Figure 2: Line drawing of\n                      <i>Phocoena phocoena</i>\n                      (NHMUK_SW1934.31) cochlea in vestibular and posterior view, illustrating key measurements.",
+      "year": null,
+      "source": "crossref"
     }
   ],
   "papers": [
+    {
+      "paper_id": "pmid_41887714",
+      "title": "Linking by-caught cetacean traits to fishing techniques: Insights from two species of small cetaceans",
+      "year": 2026,
+      "doi": "10.1002/eap.70216",
+      "abstract": "By-catch is one of the main threats currently looming over small cetaceans worldwide. Improving knowledge of the interactions between fishing activities and small cetaceans is paramount to design cost-effective mitigation measures. In particular, not all individuals within a population may be exposed to the same by-catch risk: in dolphins, juveniles and males appear to be more sensitive to by-catch. Yet, few studies have investigated how individual-level characteristics (such as age, sex, body size) correlate with fishing practices in these species. Using French by-catch observations, declarations, and stranding databases on two small cetaceans (Delphinus delphis and Phocoena phocoena), we explored phenotypic vulnerability to by-catch by correlating the phenotypes of by-caught individuals to fishing-operation characteristics (including fishing gear, mesh size, the presence of an acoustic deterrent, targeted and fished taxa, and fishing effort). This investigation allowed us to outline by-catch sensitivity and vulnerability profiles. Again, we found that males and young individuals were more sensitive to by-catch, with spatiotemporal sensitivity patterns. Smaller individuals appeared to be caught on the northern French coast and in spring, and more males were caught on the southern French coast. We then found larger body-sized dolphins to be more vulnerable to trawls compared to gillnets. For the latter fisheries, the size and body mass of by-caught harbor porpoises were positively correlated with mesh size. Targeting soles or hakes was also associated with a larger body size of by-caught dolphins compared with targeting Sparidae or sea bass. Finally, we found larger individuals to be by-caught in the presence of an acoustic deterrent device. Our results suggest age-specific by-catch sensitivity and vulnerability to fishing techniques, which may be due to biological factors such as social behavior and diet. Our study therefore advocates for a better consideration of ",
+      "journal": "Ecological applications : a publication of the Ecological Society of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41783355",
+      "title": "Effects of Recreational Boats on Harbour Porpoise Swimming Speed and Surfacing Interval Investigated by Two Synchronised UAVs",
+      "year": 2026,
+      "doi": "10.1002/ece3.73165",
+      "abstract": "Cetaceans are negatively affected by anthropogenic activities, including acoustic and physical disturbance from boat traffic. Behavioural responses to such disturbances are context-dependent, and site-specific insights are needed for effective local management plans. In this study, the impact of speed and proximity of recreational boats on the swimming speed and surfacing interval of one of the most common coastal cetacean species, the harbour porpoise (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41435980",
+      "title": "Echosounders for fish detection disturb harbour porpoises",
+      "year": 2026,
+      "doi": "10.1016/j.envpol.2025.127569",
+      "abstract": "The marine world is an acoustic world that has become noisier with the increasing diversity and intensity of human activities at sea. The harbour porpoise (Phocoena phocoena) is one of the best-studied cetaceans regarding hearing and responses to human-made underwater sound. The species is most sensitive to high frequencies, yet most impact studies have focused on relatively low-frequency sources. As such, the effects of high-frequency sonar - including echosounders - remain largely unstudied, despite their widespread use on vessels for depth sounding, fish or object detection, and seabed mapping. We investigated the effects of scientific echosounder use on harbour porpoises in the southern part of the North Sea using 13 deployments of multi-sensor moorings equipped with an echosounder, acoustic cetacean logger, and a hydrophone. Moorings operated for an average of 57 days, with split-beam scientific echosounders active for an average of 51 days, transmitting for 10 min every hour (5 min at 70 kHz, followed by 5 min at either 185-255 kHz or again at 70 kHz). Porpoise acoustic presence was continuously monitored using C/F-PODs and additionally validated with hydrophone detections at four of the locations. Across all 13 sites, detections declined by 65-79 % during echosounder transmissions and returned to typical levels within ∼30 min after the echosounder stopped pinging. Despite this relatively quick recovery, there was no indication of habituation, as responses did not diminish across observation periods over six weeks of hourly exposure. Spatial effects appeared local, as no deterrent effect was observed at 2.5 km from the source. These findings have important implications for studies that investigate both harbour porpoise and fish presence to understand predator-prey interactions. In addition, they raise concern about the potentially cumulative impact on sensitive cetaceans from the wide use of relatively high-frequency sonar in offshore practices.",
+      "journal": "Environmental pollution (Barking, Essex : 1987)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41328419",
+      "title": "Large-Scale Passive Acoustic Monitoring Data Shows Seasonal and Diel Diversity in Foraging Behaviour of Harbour Porpoises Within Their Distributional Range in the Northeast Atlantic",
+      "year": 2025,
+      "doi": "10.1002/ece3.72566",
+      "abstract": "Latitudinal gradient can influence ecosystem dynamics and species distribution, yet the influence on some aspects, such as intra-species diversity, is less well understood. The large-scale distribution of harbour porpoises (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41085281",
+      "title": "Tidal flow masks acoustic detections of harbour porpoises (Phocoena phocoena): Implications for passive acoustic studies of cetaceans",
+      "year": 2025,
+      "doi": "10.1121/10.0039560",
+      "abstract": "Passive acoustics is widely used to detect vocalising cetaceans, yet in tidal environments, strong currents facilitate sediment transport, creating \"flow noise\" that may mask signals and bias detection ranges. Although detection ranges are known to vary with background noise, the magnitude and spatiotemporal scale of such variation in tidal environments remain poorly quantified. Flow noise may fluctuate within tidal cycles and across small spatial scales, with consequences for estimating cetacean occurrence. To examine this, we tested the effects of flow noise on harbour porpoise (Phocoena phocoena) echolocation click detection, from data collected from an array of moored recorders in a tidal stream environment. Flow noise overlapping with porpoise clicks varied by up to 29 dB in mean sound pressure levels within tidal cycles (∼12 h). Differences between sites <500 m apart were also significant, and modelled relationships between porpoise occurrence and tidal flow speed changed when a fixed detection threshold was applied. These findings show that flow noise in tidal habitats is heterogeneous across space and time, which may bias estimates of cetacean occurrence and distribution. Accounting for flow noise is therefore essential in ecological studies and is particularly relevant in environmental assessments of tidal energy developments.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40936331",
+      "title": "Influence of vessel disturbance on Pacific harbour porpoise (Phocoena phocoena vomerina) echolocation",
+      "year": 2025,
+      "doi": "10.1002/eap.70076",
+      "abstract": "Vessel disturbance is one of many anthropogenic threats that are negatively impacting coastal cetacean populations worldwide. Noise pollution from vessels can cause varying levels of disturbance in cetaceans, depending on several factors such as vessel type and speed. Pacific harbour porpoises (Phocoena phocoena vomerina) are distributed throughout coastal waters of the North Pacific Ocean, with large aggregations observed near the entrance to the Port of Prince Rupert in British Columbia, Canada. This area serves as an important year-round foraging ground for harbour porpoises. However, it is also one of the fastest growing container ports in North America, with planned increases in activity. Harbour porpoises are highly sensitive to vessel-related acoustic disturbances, but the effects of vessel activity on their foraging rates remain unclear. In this study, we used a combination of land-based surveys, passive acoustic monitoring (PAM) devices (C-PODs and F-PODs), and automatic identification system (AIS) data to investigate the relationship between vessel activity and harbour porpoise echolocation activity-both foraging and non-foraging-in the heavily trafficked Chatham Sound, adjacent to the Port. Our results show that an increase in the total number of vessels negatively affected both foraging and non-foraging echolocation activity, with less echolocation observed in the presence of more ferries and tugs. Similarly, vessels traveling at higher speeds (>6 m/s kn) had a negative effect on echolocation activity. Tugboats and passenger vessels, in particular, had a wider range of effects on all harbour porpoise echolocation activity. Our findings indicate that implementing a vessel slowdown (~5 m/s) along the approach to the Port of Prince Rupert would reduce disturbances to harbour porpoises and likely benefit other coexisting species that rely on quiet oceans for communication and foraging.",
+      "journal": "Ecological applications : a publication of the Ecological Society of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40202952",
+      "title": "Can you hear me? Playback experiment highlights detection range differences between commonly used PAM devices: C-POD, F-POD and SoundTrap",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0320925",
+      "abstract": "Passive acoustic monitoring (PAM) is a valuable tool for monitoring acoustically active small cetaceans such as the harbour porpoise (Phocoena phocoena), with a range of devices commonly used across studies. However, to ensure comparability of findings, there is a need to compare the ability of devices to detect acoustic signals. Using a playback approach, we determined the detection probability and effective detection radius/area (EDR/EDA) for co-deployed C-POD (Cetacean POrpoise Detectors), F-POD (Full waveform capture POD) and SoundTrap acoustic monitoring devices. We conducted playbacks of harbour porpoise recordings across two transects at a range of distances from moored devices, while accounting for a range of variables likely to influence the detection probability of playbacks. Distance from the devices influenced the detection probability across all devices, and a significant difference between transects was also found for the C-POD, possibly due to different ambient noise conditions. The maximum detection distance of the playbacks for the SoundTrap and the F-POD was between 400 - 500m, and EDR was estimated at 297m (EDA 0.276 km2) and 241m (EDA 0.181 km2), respectively. The maximum detection distance for the C-POD was lower, at 300 - 400m, and an EDR of 220m (EDA 0.153 km2). A lower EDR was calculated for harbour porpoise buzzes compared to clicks across devices, due to lower source level of buzzes, suggesting that time spent foraging may be underestimated in PAM studies. The results highlight how detection ranges may differ across commonly used PAM devices, affecting comparability of detection rates across studies. EDR/EDA is an important prerequisite for PAM-derived density and abundance estimates. As such, understanding how devices differ is essential for comparing studies and appropriate planning of long-term acoustic monitoring projects, particularly where estimates of abundance are a key goal.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39937833",
+      "title": "Reading between the lines: Novel insights on wild Pacific harbour porpoise (Phocoena phocoena vomerina) social communication through narrow-band high frequency click trains",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0317727",
+      "abstract": "For cetaceans that produce narrow-band high-frequency click trains such as the Pacific harbour porpoise (Phocoena phocoena vomerinae), social acoustic behavior is poorly understood. While harbour porpoises have a reputation of being generally non-social and often solitary, few studies have aimed to quantify acoustic social communication for this species. In the waters surrounding the Port of Prince Rupert in British Columbia, Canada, harbour porpoises are often seen in groups where they have been observed attempting mating and surface-active behaviors. To assess the extent of social communication amongst porpoises in this region, we analyzed a long-term passive acoustic monitoring F-POD dataset collected from two sites, coupled with a detailed social acoustic criterion for detecting patterns of non-foraging click trains. Based on these criteria, porpoises were found to be producing patterns of obvious, discrete, and repetitive click trains that were marked as social. Generalized additive models were used to identify significant temporal trends in the dataset. On average, 5.3% of click trains produced by porpoises were social. Monthly and diurnal fluctuations in social detection positive minutes (DPM) followed a similar trajectory to non-social DPM, with peak activity observed during periods of darkness and from spring to early summer with a smaller increase in the fall. At one site, 11.1% of the DPM in May were classified as social. In general, proportionally more social DPM were found during periods of more overall DPM, suggesting that porpoises were socially communicating while in proximity to one another. Notably, overall DPM significantly decreased by 53.7% over three years. This novel methodology can be replicated in other regions to gain further insight into the social acoustic behavior of harbour porpoises.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39237546",
+      "title": "Cetacean passive acoustic network in the Belgian part of the North sea",
+      "year": 2024,
+      "doi": "10.1038/s41597-024-03806-y",
+      "abstract": "In 2016, a design for detecting harbor porpoises (Phocoena phocoena) in the Belgian part of the North Sea (BPNS) was developed in the framework of the LifeWatch project using Passive Acoustic Monitoring (PAM) loggers. In 2018, the network of deployments fully matured, and eight locations across the BPNS are presently housed with a C-POD (Chelonia Ltd., UK), a PAM logger moored on the seafloor using a multi-use platform. The PAM logger continuously listens for harbor porpoise click trains, but only stores the click parameters. This paper presents the generated data series of harbor porpoise click trains at a minute-resolution and the details on the individual click trains. The field recordings, methodology and processing are described, along with its data curation, integration and quality control. The data are annually published online in a standardized format, accompanied with the metadata description, and labelled with a digital object identifier for traceability. Data are published under a CC-BY license, allowing the use of data under the condition of providing reference to the original source.",
+      "journal": "Scientific data",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38537499",
+      "title": "Rerouting of a major shipping lane through important harbour porpoise habitat caused no detectable change in annual occurrence or foraging patterns",
+      "year": 2024,
+      "doi": "10.1016/j.marpolbul.2024.116294",
+      "abstract": "Shipping is one of the largest industries globally, with well-known negative impacts on the marine environment. Despite the known negative short-term (minutes to hours) impact of shipping on individual animal behavioural responses, very little is understood about the long-term (months to years) impact on marine species presence and area use. This study took advantage of a planned rerouting of a major shipping lane leading into the Baltic Sea, to investigate the impact on the presence and foraging behaviour of a marine species known to be sensitive to underwater noise, the harbour porpoise (Phocoena phocoena). Passive acoustic monitoring data were collected from 15 stations over two years. Against predictions, no clear change occurred in monthly presence or foraging behaviour of the porpoises, despite the observed changes in noise and vessel traffic. However, long-term heightened noise levels may still impact communication, echolocation, or stress levels of individuals, and needs further investigation.",
+      "journal": "Marine pollution bulletin",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37794093",
+      "title": "Wild harbour porpoises startle and flee at low received levels from acoustic harassment device",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-43453-8",
+      "abstract": "Acoustic Harassment Devices (AHD) are widely used to deter marine mammals from aquaculture depredation, and from pile driving operations that may otherwise cause hearing damage. However, little is known about the behavioural and physiological effects of these devices. Here, we investigate the physiological and behavioural responses of harbour porpoises (Phocoena phocoena) to a commercial AHD in Danish waters. Six porpoises were tagged with suction-cup-attached DTAGs recording sound, 3D-movement, and GPS (n = 3) or electrocardiogram (n = 2). They were then exposed to AHDs for 15 min, with initial received levels (RL) ranging from 98 to 132 dB re 1 µPa (rms-fast, 125 ms) and initial exposure ranges of 0.9-7 km. All animals reacted by displaying a mixture of acoustic startle responses, fleeing, altered echolocation behaviour, and by demonstrating unusual tachycardia while diving. Moreover, during the 15-min exposures, half of the animals received cumulative sound doses close to published thresholds for temporary auditory threshold shifts. We conclude that AHD exposure at many km can evoke both startle, flight and cardiac responses which may impact blood-gas management, breath-hold capability, energy balance, stress level and risk of by-catch. We posit that current AHDs are too powerful for mitigation use to prevent hearing damage of porpoises from offshore construction.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37304366",
+      "title": "What the F-POD? Comparing the F-POD and C-POD for monitoring of harbor porpoise (",
+      "year": 2023,
+      "doi": "10.1002/ece3.10186",
+      "abstract": "Passive acoustic monitoring (PAM) is a cost-effective method for monitoring cetacean populations compared with techniques such as aerial and ship-based surveys. The Cetacean POrpoise Detector (C-POD) has become an integral tool in monitoring programs globally for over a decade, providing standardized metrics of occurrence that can be compared across time and space. However, the phasing out of C-PODs following the development of the new Full waveform capture POD (F-POD) with increased sensitivity, improved train detection, and reduced false-positive rates represents an important methodological change in data collection, particularly when being introduced into existing monitoring programs. Here, we compare the performance of the C-POD with that of its successor, the F-POD, co-deployed in a field setting for 15 months, to monitor harbor porpoise (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36651028",
+      "title": "Directional hydrophone clusters reveal evasive responses of small cetaceans to disturbance during construction at offshore windfarms",
+      "year": 2023,
+      "doi": "10.1098/rsbl.2022.0101",
+      "abstract": "Mitigation measures to disperse marine mammals prior to pile-driving include acoustic deterrent devices and piling soft starts, but their efficacy remains uncertain. We developed a self-contained portable hydrophone cluster to detect small cetacean movements from the distributions of bearings to detections. Using an array of clusters within 10 km of foundation pile installations, we tested the hypothesis that harbour porpoises (",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36152860",
+      "title": "Emergent interactions in the management of multiple threats to the conservation of harbour porpoises",
+      "year": 2023,
+      "doi": "10.1016/j.scitotenv.2022.158936",
+      "abstract": "Human activities at sea are intensifying and diversifying. This is leading to more complex interactions of anthropogenic impacts requiring adaptable management interventions to mitigate their cumulative effects on biodiversity conservation and restoration objectives. Bycatch remains the dominant conservation threat for coastal cetaceans. Additionally, the indirect impact of repeated exposure to disturbances, particularly acoustic disturbances, can affect cetacean population growth and therefore conservation objectives. Pingers are used to ensonify nets to provide an effective mitigation of bycatch risk. As those become more prevalent across fisheries at risk to catch for example harbour porpoises, pingers become contributors to the anthropogenic noise landscape which may affect the vital rates of this species as well. Currently, we do not know how to best balance pinger prevalence to minimise both bycatch rate and the population consequences of acoustic disturbance (PCoD). Here we use an agent-based model to determine how pinger prevalence in nets can be adjusted to minimise bycatch rate and noise disturbance propagating to affect population growth for harbour porpoises. We show that counter-intuitively bycatch rate can increase at lower pinger prevalence. When ecological conditions are such that PCOD can emerge, higher prevalence of pingers can lead to indirect effects on population growth. This would result from condition-mediated decreased reproductive potential. Displacing fishing effort, via time-area closure, can be an effective mitigation strategy in these circumstances. These findings have important implications for current management plans which, for practical consideration, may lead to lower overall pinger prevalence at sea. This study also shows that estimating the reproductive potential of the species should be incorporated in bycatch monitoring programmes. We now need to better understand how physiological condition affect reproductive decisions and beh",
+      "journal": "The Science of the total environment",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35778178",
+      "title": "Thresholds for noise induced hearing loss in harbor porpoises and phocid seals",
+      "year": 2022,
+      "doi": "10.1121/10.0011560",
+      "abstract": "Intense sound sources, such as pile driving, airguns, and military sonars, have the potential to inflict hearing loss in marine mammals and are, therefore, regulated in many countries. The most recent criteria for noise induced hearing loss are based on empirical data collected until 2015 and recommend frequency-weighted and species group-specific thresholds to predict the onset of temporary threshold shift (TTS). Here, evidence made available after 2015 in light of the current criteria for two functional hearing groups is reviewed. For impulsive sounds (from pile driving and air guns), there is strong support for the current threshold for very high frequency cetaceans, including harbor porpoises (Phocoena phocoena). Less strong support also exists for the threshold for phocid seals in water, including harbor seals (Phoca vitulina). For non-impulsive sounds, there is good correspondence between exposure functions and empirical thresholds below 10 kHz for porpoises (applicable to assessment and regulation of military sonars) and between 3 and 16 kHz for seals. Above 10 kHz for porpoises and outside of the range 3-16 kHz for seals, there are substantial differences (up to 35 dB) between the predicted thresholds for TTS and empirical results. These discrepancies call for further studies.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_7287_peerj_8916v0_1_reviews_1",
+      "title": "Peer Review #1 of \"Intraspecific variation in the cochleae of harbour porpoises (Phocoena phocoena) and its implications for comparative studies across odontocetes (v0.1)\"",
+      "year": 2020,
+      "doi": "10.7287/peerj.8916v0.1/reviews/1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
+    },
     {
       "paper_id": "10_1079_cabicompendium_69609",
       "title": "Phocoena phocoena",
@@ -227,11 +532,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fmars_2019_00606",
@@ -241,11 +542,7 @@
       "abstract": "The number of marine watercraft is on the rise-from private boats in coastal areas to commercial ships crossing oceans. A concomitant increase in underwater noise has been reported in several regions around the globe. Given the important role sound plays in the life functions of marine mammals, research on the potential effects of vessel noise has grown-in particular since the year 2000. We provide an overview of this literature, showing that studies have been patchy in terms of their coverage of species, habitats, vessel types, and types of impact investigated. The documented effects include behavioral and acoustic responses, auditory masking, and stress. We identify knowledge gaps: There appears a bias to more easily accessible species (i.e., bottlenose dolphins and humpback whales), whereas there is a paucity of literature addressing vessel noise impacts on river dolphins, even though some of these species experience chronic noise from boats. Similarly, little is known about the pot",
       "journal": "Frontiers in Marine Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_s41598-018-28022-8",
@@ -255,11 +552,7 @@
       "abstract": "Social delphinids employ a vocal repertoire of clicks for echolocation and whistles for communication. Conversely, the less social and acoustically cryptic harbour porpoises (Phocoena phocoena) only produce narrow-band high-frequency (NBHF) clicks with properties that appear poorly suited for communication. Nevertheless, these small odontocetes likely mediate social interactions, such as mate choice and mother-calf contact, with sound. Here, we deployed six tags (DTAG3) on wild porpoises in Danish waters for a total of 96 hours to investigate if the patterns and use of stereotyped NBHF click trains are consistent with a communication function. We show that wild porpoises produce frequent (up to 27 • min<sup>-1</sup>), high-repetition rate click series with repetition rates and output levels different from those of foraging buzzes. These sounds are produced in bouts and frequently co-occur with emission of similar sounds by nearby conspecifics, audible on the tags for >10% of the time. ",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2017_2314",
@@ -269,11 +562,7 @@
       "abstract": "Shipping is the dominant marine anthropogenic noise source in the world's oceans, yet we know little about vessel encounter rates, exposure levels and behavioural reactions for cetaceans in the wild, many of which rely on sound for foraging, communication and social interactions. Here, we used animal-borne acoustic tags to measure vessel noise exposure and foraging efforts in seven harbour porpoises in highly trafficked coastal waters. Tagged porpoises encountered vessel noise 17-89% of the time and occasional high-noise levels coincided with vigorous fluking, bottom diving, interrupted foraging and even cessation of echolocation, leading to significantly fewer prey capture attempts at received levels greater than 96 dB re 1 µPa (16 kHz third-octave). If such exposures occur frequently, porpoises, which have high metabolic requirements, may be unable to compensate energetically with negative long-term fitness consequences. That shipping noise disrupts foraging in the high-frequency-hea",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1080_09524622_2015_1023848",
@@ -283,11 +572,7 @@
       "abstract": "",
       "journal": "Bioacoustics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1186_2046-9063-10-8",
@@ -297,11 +582,7 @@
       "abstract": "Offshore wind power provides a valuable source of renewable energy that can help reduce carbon emissions. Technological advances are allowing higher capacity turbines to be installed and in deeper water, but there is still much that is unknown about the effects on the environment. Here we describe the lessons learned based on the recent literature and our experience with assessing impacts of offshore wind developments on marine mammals and seabirds, and make recommendations for future monitoring and assessment as interest in offshore wind energy grows around the world. The four key lessons learned that we discuss are: 1) Identifying the area over which biological effects may occur to inform baseline data collection and determining the connectivity between key populations and proposed wind energy sites, 2) The need to put impacts into a population level context to determine whether they are biologically significant, 3) Measuring responses to wind farm construction and operation to deter",
       "journal": "Aquatic Biosystems",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3354_meps08402",
@@ -311,11 +592,7 @@
       "abstract": "Acoustic masking from anthropogenic noise is increasingly being considered as a threat to marine mammals, particularly low-frequency specialists such as baleen whales. Low-frequency ocean noise has increased in recent decades, often in habitats with seasonally resident populations of marine mammals, raising concerns that noise chronically influences life histories of individuals and populations. In contrast to physical harm from intense anthropogenic sources, which can have acute impacts on individuals, masking from chronic noise sources has been difficult to quantify at individual or population levels, and resulting effects have been even more difficult to assess. This paper presents an analytical paradigm to quantify changes in an animal's acoustic communication space as a result of spatial, spectral, and temporal changes in background noise, providing a functional definition of communication masking for free-ranging animals and a metric to quantify the potential for communication ma",
       "journal": "Marine Ecology Progress Series",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1644_07-mamm-s-307r_1",
@@ -325,11 +602,17 @@
       "abstract": "Abstract The amount of underwater sound from ship traffic, commercial, research, and military sound sources has increased significantly over the past century. Marine mammals and many other marine animals rely on sound for short- and long-range communication, for orientation, and for locating prey. This reliance has raised concern that elevated sound levels from human sources may interfere with the behavior and physiology of marine animals. The dominant source of human sound in the sea stems from propulsion of ships. Shipping noise centers in the 20- to 200-Hz band. Frequencies this low propagate efficiently in the sea, and shipping has elevated the global deepwater ambient noise 10- to 100-fold in this frequency band. Baleen whales use the same frequency band for some of their communication signals, and concern has been raised that elevated ambient noise may reduce the range over which they can communicate. Marine mammals have a variety of mechanisms to compensate for increased noise, ",
       "journal": "Journal of Mammalogy",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1002_ar_20407",
+      "title": "Structure of the cerebral cortex of the humpback whale, <i>Megaptera novaeangliae</i> (Cetacea, Mysticeti, Balaenopteridae)",
+      "year": 2007,
+      "doi": "10.1002/ar.20407",
+      "abstract": "Cetaceans diverged from terrestrial mammals between 50 and 60 million years ago and acquired, during their adaptation to a fully aquatic milieu, many derived features, including echolocation (in odontocetes), remarkable auditory and communicative abilities, as well as a complex social organization. Whereas brain structure has been documented in detail in some odontocetes, few reports exist on its organization in mysticetes. We studied the cerebral cortex of the humpback whale (Megaptera novaeangliae) in comparison to another balaenopterid, the fin whale, and representative odontocetes. We observed several differences between Megaptera and odontocetes, such as a highly clustered organization of layer II over the occipital and inferotemporal neocortex, whereas such pattern is restricted to the ventral insula in odontocetes. A striking observation in Megaptera was the presence in layer V of the anterior cingulate, anterior insular, and frontopolar cortices of large spindle cells, similar ",
+      "journal": "The Anatomical Record",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_01327",
@@ -339,11 +622,7 @@
       "abstract": "Toothed whales (Cetacea, odontoceti) emit sound pulses to probe their surroundings by active echolocation. Non-invasive, acoustic Dtags were placed on deep-diving Blainville's beaked whales (Mesoplodon densirostris) to record their ultrasonic clicks and the returning echoes from prey items, providing a unique view on how a whale operates its biosonar during foraging in the wild. The process of echolocation during prey capture in this species can be divided into search, approach and terminal phases, as in echolocating bats. The approach phase, defined by the onset of detectable echoes recorded on the tag for click sequences terminated by a buzz, has interclick intervals (ICI) of 300-400 ms. These ICIs are more than a magnitude longer than the decreasing two-way travel time to the targets, showing that ICIs are not given by the two-way-travel times plus a fixed, short lag time. During the approach phase, the received echo energy increases by 10.4(+/-2) dB when the target range is halved,",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-1-4615-3406-8_11",
@@ -353,11 +632,7 @@
       "abstract": "",
       "journal": "Marine Mammal Sensory Systems",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_ar_1092210413",
@@ -367,11 +642,7 @@
       "abstract": "Abstract Odontocetes (toothed whales) vocalize for communication and echolocation. The mechanisms of sound production, however, remain unclear. Their larynx has long been thought to lack vocal folds and, thus, was considered incapable of generating sounds. This study investigates internal anatomy of the odontocete larynx to: 1) describe the morphology of any fold found, 2) determine any structural homologies between these folds and the vocal folds of terrestrial mammals, and 3) assess their possible function in sound production. Larynges of 24 odontocetes representin ten genera ( Delphinus, Stenella, Lagenorhynchus, Tursiops, Grampus, Delphinapterus, Globicephala, Kogia, Mesoplodon , and Phocoena ) were studied post mortem. Nine specimens were cut midsagittally, and the remainder were dorsally opened to reveal internal anatomy. Results show that, contrary to established belief, vocal folds are consistently present. They are not isolated bands or “cords” but appear continuous with the i",
       "journal": "The Anatomical Record",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_0_42_1",
@@ -381,11 +652,7 @@
       "abstract": "",
       "journal": "Mammalian Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31979_etd_evkq-q2ff",
@@ -395,11 +662,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_12284_table-1",
@@ -409,11 +672,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_46569_20_500_12680_n009w774m",
@@ -423,11 +682,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31979_etd_bb4q-cksy",
@@ -437,14 +692,20 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_7717_peerj_8916_fig-2",
+      "title": "Figure 2: Line drawing of\n                      <i>Phocoena phocoena</i>\n                      (NHMUK_SW1934.31) cochlea in vestibular and posterior view, illustrating key measurements.",
+      "year": null,
+      "doi": "10.7717/peerj.8916/fig-2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

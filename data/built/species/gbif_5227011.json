@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 27,
+    "claim_count": 18,
+    "doi_count": 25,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -46,13 +46,13 @@
     "snort"
   ],
   "contexts": [
-    "alarm",
+    "social communication",
     "mating",
-    "social communication"
+    "alarm"
   ],
   "functions": [
-    "contact maintenance",
     "mate competition",
+    "contact maintenance",
     "predator warning"
   ],
   "communication_profile": {
@@ -61,70 +61,341 @@
         "value": "grunt",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "snort",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mating",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "social communication",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "contact maintenance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mate competition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1504,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1503,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1502,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1501,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1500,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1499,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1498,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1497,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1496,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1495,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1494,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1493,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1492,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1491,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1490,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1489,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1488,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1487,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1002/ece3.11479",
+      "url": "https://doi.org/10.1002/ece3.11479",
+      "title": "Modelling reindeer rut activity using on-animal acoustic recorders and machine learning",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12864-022-08899-6",
+      "url": "https://doi.org/10.1186/s12864-022-08899-6",
+      "title": "Design and validation of a 63K genome-wide SNP-genotyping platform for caribou/reindeer (Rangifer tarandus)",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/biology10030222",
+      "url": "https://doi.org/10.3390/biology10030222",
+      "title": "Post-Translational Protein Deimination Signatures in Plasma and Plasma EVs of Reindeer (",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/wsb.950",
+      "url": "https://doi.org/10.1002/wsb.950",
+      "title": "Web-based application for threatened woodland caribou population modeling",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.66662",
       "url": "https://doi.org/10.1079/cabicompendium.66662",
       "title": "Rangifer tarandus (reindeer)",
       "year": 2019,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1186/s13028-018-0366-8",
+      "url": "https://doi.org/10.1186/s13028-018-0366-8",
+      "title": "Orf virus infection in Alaskan mountain goats, Dall's sheep, muskoxen, caribou and Sitka black-tailed deer",
+      "year": 2018,
+      "source": "pubmed"
     },
     {
       "doi": "10.1038/ncomms12739",
@@ -148,6 +419,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.30861/9781407304533",
+      "url": "https://doi.org/10.30861/9781407304533",
+      "title": "Osteometry, and Osteological Age and Sex Determination of the Sisimiut Reindeer Population: (Rangifer tarandus groenlandicus)",
+      "year": 2009,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1002/ar.20792",
       "url": "https://doi.org/10.1002/ar.20792",
       "title": "Sisters of the Sinuses: Cetacean Air Sacs",
@@ -160,6 +438,13 @@
       "title": "Mammalian laryngseal air sacs add variability to the vocal tract impedance: Physical and computational modeling",
       "year": 2008,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1469-7580.2006.00684.x",
+      "url": "https://doi.org/10.1111/j.1469-7580.2006.00684.x",
+      "title": "Nordic rattle: the hoarse vocalization and the inflatable laryngeal air sac of reindeer (Rangifer tarandus)",
+      "year": 2007,
+      "source": "pubmed"
     },
     {
       "doi": "10.46867/ijcp.2007.20.02.09",
@@ -225,6 +510,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1186/BF03548174",
+      "url": "https://doi.org/10.1186/BF03548174",
+      "title": "Isolation of a herpesvirus serologically related to bovine herpesvirus 1 from a reindeer (Rangifer tarandus)",
+      "year": 1986,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.7557/2.2.1.421",
       "url": "https://doi.org/10.7557/2.2.1.421",
       "title": "The diagnosis of early pregnancy and missed abortion in European and Svalbard reindeer (Rangifer tarandus tarandus and Rangifer tarandus platyrhyncus",
@@ -241,6 +533,56 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_38932958",
+      "title": "Modelling reindeer rut activity using on-animal acoustic recorders and machine learning",
+      "year": 2024,
+      "doi": "10.1002/ece3.11479",
+      "abstract": "For decades, researchers have employed sound to study the biology of wildlife, with the aim to better understand their ecology and behaviour. By utilizing on-animal recorders to capture audio from freely moving animals, scientists can decipher the vocalizations and glean insights into their behaviour and ecosystem dynamics through advanced signal processing. However, the laborious task of sorting through extensive audio recordings has been a major bottleneck. To expedite this process, researchers have turned to machine learning techniques, specifically neural networks, to streamline the analysis of data. Nevertheless, much of the existing research has focused predominantly on stationary recording devices, overlooking the potential benefits of employing on-animal recorders in conjunction with machine learning. To showcase the synergy of on-animal recorders and machine learning, we conducted a study at the Kutuharju research station in Kaamanen, Finland, where the vocalizations of rutting reindeer were recorded during their mating season. By attaching recorders to seven male reindeer during the rutting periods of 2019 and 2020, we trained convolutional neural networks to distinguish reindeer grunts with a 95% accuracy rate. This high level of accuracy allowed us to examine the reindeers' grunting behaviour, revealing patterns indicating that older, heavier males vocalized more compared to their younger, lighter counterparts. The success of this study underscores the potential of on-animal acoustic recorders coupled with machine learning techniques as powerful tools for wildlife research, hinting at their broader applications with further advancement and optimization.",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37750343",
+      "title": "Climate change alone cannot explain boreal caribou range recession in Quebec since 1850",
+      "year": 2023,
+      "doi": "10.1111/gcb.16949",
+      "abstract": "The contraction of species range is one of the most significant symptoms of biodiversity loss worldwide. While anthropogenic activities and habitat alteration are major threats for several species, climate change should also be considered. For species at risk, differentiating the effects of human disturbances and climate change on past and current range transformations is an important step towards improved conservation strategies. We paired historical range maps with global atmospheric reanalyses from different sources to assess the potential effects of recent climate change on the observed northward contraction of the range of boreal populations of woodland caribou (Rangifer tarandus caribou) in Quebec (Canada) since 1850. We quantified these effects by highlighting the discrepancies between different southern limits of the caribou's range (used as references) observed in the past and reconstitutions obtained through the hindcasting of the climate conditions within which caribou are currently found. Hindcasted southern limits moved ~105 km north over time under all reanalysis datasets, a trend drastically different from the ~620 km reported for observed southern limits since 1850. The differences in latitudinal shift through time between the observed and hindcasted southern limits of distribution suggest that caribou range recession should have been only 17% of what has been observed since 1850 if recent climate change had been the only disturbance driver. This relatively limited impact of climate reinforces the scientific consensus stating that caribou range recession in Quebec is mainly caused by anthropogenic drivers (i.e. logging, development of the road network, agriculture, urbanization) that have modified the structure and composition of the forest over the past 160 years, paving the way for habitat-mediated apparent competition and overharvesting. Our results also call for a reconsideration of past ranges in models aiming at projecting future distributions,",
+      "journal": "Global change biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37166942",
+      "title": "First report of reindeer (Rangifer tarandus tarandus) response to human-given cues",
+      "year": 2023,
+      "doi": "10.1037/com0000353",
+      "abstract": "Many argue that the animal understanding of human referential communication is a by-product of domestication. However, the domestication hypothesis is not unanimously supported as some nondomesticated species such as sea lions, dolphins, or African elephants perform well in the understanding of human pointing gesture. There is a need to study species with different levels of domestication across different taxa to understand the emerging communicative sociocognitive skills in animals that provide them with the ability to comprehend human-given cues. We conducted a pilot study to assess the performance of eight sledging reindeer following a commonly used human-given cue (a pointing gesture associated with gaze at the target and local enhancement) in a two-way choice task. Domestic reindeer are considered semicaptive, because of their husbandry system in free-ranging conditions, with limited control of their reproduction. We observed that the willingness of the reindeer to participate in the test was age-related, with the younger individuals which lack experience with humans being reluctant to approach the experimenters. Within the more experienced working sledging reindeer, two individuals showed excellent skills and followed the human-given cues 9 out of 10 times. Reindeer show great potential in following a human indication to locate hidden food with minimal training when properly tamed. The effect of previous experience with humans requires further investigation. This is the first demonstration in cervids of an ability to make use of experimenter-given cues in an object-choice task. (PsycInfo Database Record (c) 2023 APA, all rights reserved).",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36199020",
+      "title": "Design and validation of a 63K genome-wide SNP-genotyping platform for caribou/reindeer (Rangifer tarandus)",
+      "year": 2022,
+      "doi": "10.1186/s12864-022-08899-6",
+      "abstract": "BACKGROUND: Development of large single nucleotide polymorphism (SNP) arrays can make genomic data promptly available for conservation problematic. Medium and high-density panels can be designed with sufficient coverage to offer a genome-wide perspective and the generated genotypes can be used to assess different genetic metrics related to population structure, relatedness, or inbreeding. SNP genotyping could also permit sexing samples with unknown associated metadata as it is often the case when using non-invasive sampling methods favored for endangered species. Genome sequencing of wild species provides the necessary information to design such SNP arrays. We report here the development of a SNP-array for endangered Rangifer tarandus using a multi-platform sequencing approach from animals found in diverse populations representing the entire circumpolar distribution of the species. RESULTS: From a very large comprehensive catalog of SNPs detected over the entire sample set (N = 894), a total of 63,336 SNPs were selected. SNP selection accounted for SNPs evenly distributed across the entire genome (~ every 50Kb) with known minor alleles across populations world-wide. In addition, a subset of SNPs was selected to represent rare and local alleles found in Eastern Canada which could be used for ecotype and population assignments - information urgently needed for conservation planning. In addition, heterozygosity from SNPs located in the X-chromosome and genotyping call-rate of SNPs located into the SRY gene of the Y-chromosome yielded an accurate and robust sexing assessment. All SNPs were validated using a high-throughput SNP-genotyping chip. CONCLUSION: This design is now integrated into the first genome-wide commercially available genotyping platform for Rangifer tarandus. This platform would pave the way to future genomic investigation of populations for this endangered species, including estimation of genetic diversity parameters, population assignments, as well as",
+      "journal": "BMC genomics",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33805829",
+      "title": "Post-Translational Protein Deimination Signatures in Plasma and Plasma EVs of Reindeer (",
+      "year": 2021,
+      "doi": "10.3390/biology10030222",
+      "abstract": "The reindeer (caribou)",
+      "journal": "Biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1079_cabicompendium_66662",
       "title": "Rangifer tarandus (reindeer)",
       "year": 2019,
@@ -248,11 +590,37 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31007303",
+      "title": "Web-based application for threatened woodland caribou population modeling",
+      "year": 2019,
+      "doi": "10.1002/wsb.950",
+      "abstract": "Woodland caribou (",
+      "journal": "Wildlife Society bulletin",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29467004",
+      "title": "Orf virus infection in Alaskan mountain goats, Dall's sheep, muskoxen, caribou and Sitka black-tailed deer",
+      "year": 2018,
+      "doi": "10.1186/s13028-018-0366-8",
+      "abstract": "BACKGROUND: The zoonotic Orf virus (ORFV; genus Parapoxvirus, Poxviridae family) occurs worldwide and is transmitted between sheep and goats, wildlife and man. Archived tissue samples from 16 Alaskan wildlife cases, representing mountain goat (Oreamnos americanus, n = 8), Dall's sheep (Ovis dalli dalli, n = 3), muskox (Ovibos moschatus, n = 3), Sitka black-tailed deer (Odocoileus hemionus sitkensis, n = 1) and caribou (Rangifer tarandus granti, n = 1), were analyzed. RESULTS: Clinical signs and pathology were most severe in mountain goats, affecting most mucocutaneous regions, including palpebrae, nares, lips, anus, prepuce or vulva, as well as coronary bands. The proliferative masses were solid and nodular, covered by dark friable crusts. For Dall's sheep lambs and juveniles, the gross lesions were similar to those of mountain goats, but not as extensive. The muskoxen displayed ulcerative lesions on the legs. The caribou had two ulcerative lesions on the upper lip, as well as lesions on the distal part of the legs, around the main and dew claws. A large hairless spherical mass, with the characteristics of a fibroma, was sampled from a Sitka black-tailed deer, which did not show proliferative lesions typical of an ORFV infection. Polymerase chain reaction analyses for B2L, GIF, vIL-10 and ATI demonstrated ORFV specific DNA in all cases. Sequences from Dall's sheep formed a separate cluster, comparable to ORFV from domestic sheep. Sequences from the other species were different from the Dall's sheep sequences, but almost identical to each other. CONCLUSIONS: This is the first major investigation of parapoxvirus infections in large Alaskan game species, and the first report of parapoxvirus infection in caribou and Sitka black-tailed deer. This study shows that most of the wild ruminant species in Alaska and from most parts of Alaska, can carry and be affected by ORFV. These findings call for attention to transmission of ORFV from wildlife to livestock and to hunters, ",
+      "journal": "Acta veterinaria Scandinavica",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28578533",
+      "title": "Unusually high-pitched neonate distress calls of the open-habitat Mongolian gazelle (Procapra gutturosa) and their anatomical and hormonal predictors",
+      "year": 2017,
+      "doi": "10.1007/s00114-017-1471-7",
+      "abstract": "In neonate ruminants, the acoustic structure of vocalizations may depend on sex, vocal anatomy, hormonal profiles and body mass and on environmental factors. In neonate wild-living Mongolian gazelles Procapra gutturosa, hand-captured during biomedical monitoring in the Daurian steppes at the Russian-Mongolian border, we spectrographically analysed distress calls and measured body mass of 22 individuals (6 males, 16 females). For 20 (5 male, 15 female) of these individuals, serum testosterone levels were also analysed. In addition, we measured relevant dimensions of the vocal apparatus (larynx, vocal folds, vocal tract) in one stillborn male Mongolian gazelle specimen. Neonate distress calls of either sex were high in maximum fundamental frequency (800-900 Hz), but the beginning and minimum fundamental frequencies were significantly lower in males than in females. Body mass was larger in males than in females. The levels of serum testosterone were marginally higher in males. No correlations were found between either body mass or serum testosterone values and any acoustic variable for males and females analysed together or separately. We discuss that the high-frequency calls of neonate Mongolian gazelles are more typical for closed-habitat neonate ruminants, whereas other open-habitat neonate ruminants (goitred gazelle Gazella subgutturosa, saiga antelope Saiga tatarica and reindeer Rangifer tarandus) produce low-frequency (<200 Hz) distress calls. Proximate cause for the high fundamental frequency of distress calls of neonate Mongolian gazelles is their very short, atypical vocal folds (4 mm) compared to the 7-mm vocal folds of neonate goitred gazelles, producing distress calls as low as 120 Hz.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1038_ncomms12739",
@@ -262,11 +630,7 @@
       "abstract": "Recent studies have revealed that some mammals possess adaptations that enable them to produce vocal signals with much lower fundamental frequency (F0) and formant frequency spacing (ΔF) than expected for their size. Although these adaptations are assumed to reflect selection pressures for males to lower frequency components and exaggerate body size in reproductive contexts, this hypothesis has not been tested across a broad range of species. Here we show that male terrestrial mammals produce vocal signals with lower ΔF (but not F0) than expected for their size in mating systems with greater sexual size dimorphism. We also reveal that males produce calls with higher than expected F0 and ΔF in species with increased sperm competition. This investigation confirms that sexual selection favours the use of ΔF as an acoustic size exaggerator and supports the notion of an evolutionary trade-off between pre-copulatory signalling displays and sperm production.",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2011_0280",
@@ -276,11 +640,7 @@
       "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_czoolo_58_5_698",
@@ -290,11 +650,17 @@
       "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_30861_9781407304533",
+      "title": "Osteometry, and Osteological Age and Sex Determination of the Sisimiut Reindeer Population: (Rangifer tarandus groenlandicus)",
+      "year": 2009,
+      "doi": "10.30861/9781407304533",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1121_1_2924125",
@@ -304,11 +670,7 @@
       "abstract": "Cavities branching off the main vocal tract are ubiquitous in nonhumans. Mammalian air sacs exist in human relatives, including all four great apes, but only a substantially reduced version exists in humans. The present paper focuses on acoustical functions of the air sacs. The hypotheses are investigated on whether the air sacs affect amplitude of utterances and/or position of formants. A multilayer synthetic model of the vocal folds coupled with a vocal tract model was utilized. As an air sac model, four configurations were considered: open and closed uniform tube-like side branches, a rigid cavity, and an inflatable cavity. Results suggest that some air sac configurations can enhance the sound level. Furthermore, an air sac model introduces one or more additional resonance frequencies, shifting formants of the main vocal tract to some extent but not as strongly as previously suggested. In addition, dynamic range of vocalization can be extended by the air sacs. A new finding is also ",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_ar_20792",
@@ -318,11 +680,7 @@
       "abstract": "This overview assesses some distinguishing features of the cetacean (whale, dolphin, porpoise) air sac system that may relate to the anatomy and function of the paranasal sinuses in terrestrial mammals. The cetacean respiratory tract has been modified through evolution to accommodate living in water. Lack of paranasal sinuses in modern cetaceans may be a diving adaptation. Bone-enclosed air chambers are detrimental, as their rigid walls may fracture during descent/ascent due to contracting/re-expanding air volumes. Flexible-walled \"sinuses\" (extracranial diverticula) are a logical adaptation to diving. Odontocetes (toothed whales) exhibit several pairs of paranasal air sacs. Although fossil evidence indicates that paranasal sinuses occur in archaeocetes (ancestors/relatives of living cetaceans), it is not known whether the paranasal sacs derive from these sinuses. Sac pigmentation indicates that they derived from invaginations of the integument. Unlike sinuses, paranasal sacs are not c",
       "journal": "The Anatomical Record",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_46867_ijcp_2007_20_02_09",
@@ -332,11 +690,17 @@
       "abstract": "Marine mammals, especially cetaceans, are highly vocal and dependent on sound for almost all aspects of their lives, e.g. food-finding, reproduction, communication, detection of predators/hazards, and navigation. They are thus likely sensitive to anthropogenic noise. Sound has a large potential area of impact, sometimes covering millions of square kilometers of ocean with levels high enough to cause possible disturbance in marine mammals. There can be great variation in the reaction of marine mammals to noise, depending on such factors as species, individual, age, sex, prior experience with noise, and behavioral state. Species with similar hearing capabilities can respond differently to the same noise. Observed effects of noise on marine mammals include: changes in vocalizations, respiration, swim speed, diving, and foraging behavior; displacement, avoidance, shifts in migration path, stress, hearing damage, and strandings. Responses of marine mammals to noise can often be subtle and b",
       "journal": "International Journal of Comparative Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_17310544",
+      "title": "Nordic rattle: the hoarse vocalization and the inflatable laryngeal air sac of reindeer (Rangifer tarandus)",
+      "year": 2007,
+      "doi": "10.1111/j.1469-7580.2006.00684.x",
+      "abstract": "Laryngeal air sacs have evolved convergently in diverse mammalian lineages including insectivores, bats, rodents, pinnipeds, ungulates and primates, but their precise function has remained elusive. Among cervids, the vocal tract of reindeer has evolved an unpaired inflatable ventrorostral laryngeal air sac. This air sac is not present at birth but emerges during ontogenetic development. It protrudes from the laryngeal vestibulum via a short duct between the epiglottis and the thyroid cartilage. In the female the growth of the air sac stops at the age of 2-3 years, whereas in males it continues to grow up to the age of about 6 years, leading to a pronounced sexual dimorphism of the air sac. In adult females it is of moderate size (about 100 cm3), whereas in adult males it is large (3000-4000 cm3) and becomes asymmetric extending either to the left or to the right side of the neck. In both adult females and males the ventral air sac walls touch the integument. In the adult male the air sac is laterally covered by the mandibular portion of the sternocephalic muscle and the skin. Both sexes of reindeer have a double stylohyoid muscle and a thyroepiglottic muscle. Possibly these muscles assist in inflation of the air sac. Head-and-neck specimens were subjected to macroscopic anatomical dissection, computer tomographic analysis and skeletonization. In addition, isolated larynges were studied for comparison. Acoustic recordings were made during an autumn round-up of semi-domestic reindeer in Finland and in a small zoo herd. Male reindeer adopt a specific posture when emitting their serial hoarse rutting calls. Head and neck are kept low and the throat region is extended. In the ventral neck region, roughly corresponding to the position of the large air sac, there is a mane of longer hairs. Neck swelling and mane spreading during vocalization may act as an optical signal to other males and females. The air sac, as a side branch of the vocal tract, can be considered as an ad",
+      "journal": "Journal of anatomy",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_jhered_esl012",
@@ -346,11 +710,7 @@
       "abstract": "",
       "journal": "Journal of Heredity",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1086_506971",
@@ -360,11 +720,7 @@
       "abstract": "Parent-offspring recognition is usually crucial for survival of young. In mammals, olfaction often only permits identification at short range, and vocalizations are important at longer distances. Following and hiding antipredator strategies found in newborn mammals may also affect parental recognition mechanisms. We investigated mother-offspring recognition in fallow deer, an ungulate hider species. We analyzed the structure of adult female and fawn contact calls to determine whether they are individually distinctive and tested for mother-offspring recognition. Only females (and not fawns) have individualized vocalizations, with the fundamental frequency as the most distinctive parameter. Playback experiments showed that fawns can distinguish the calls of their mothers from those of other females, but mothers could not discriminate their own and alien fawn calls. Thus, the vocal identification process is unidirectional. In followers, mother-offspring acoustic recognition is mutual, and",
       "journal": "The American Naturalist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7557_2_19_1_289",
@@ -374,11 +730,7 @@
       "abstract": "<jats:p>&lt;p&gt;The aim of this investigation was to compare the size of salivaty glands in Svalbard reindeer {Rangifer tarandus platyrhynchus) and in Norwegian reindeer (Rangifer t. tarandus) in relation to feeding strategy, season and reproductive status. The mean body mass (BM, standard deviation j) in adult non-lactating female Svalbard reindeer was 72.0, s = 4.2, kg (n = 8) in September and 46.7, s = 7.1, kg (&amp;laquo; = 4) in April. The mean BM of adult non-lactating Norwegian reindeer was 67.5, s = 7.7, kg (&amp;raquo; = 8) in September and 59.2, s = 9.6, kg (n = 9) in March. In non-lactating female Svalbard reindeer the mean combined mass of parotid glands was 82.7, s = 4.5, g in September and 58.8, s = 8.7, g in April (P &amp;lt; 0.05). In the Norwegian reindeer the mean combined mass of the parotid glands was 95.2, s = 14.4, g in Septembet and 68.1, s = 9.5, g in Match (P &amp;lt; 0.05). We wete not able to find any sub-species differences in the size of the salivaty gland",
       "journal": "Rangifer",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7557_2_15_1_1155",
@@ -388,11 +740,7 @@
       "abstract": "<jats:p>In reindeer, only one case of lymphoma, a multiple cutaneous malignant lymphoma, has been reported hitherto. This communicaton describes two additional cases of lymphoma in reindeer. One was a young adult, of unreported sex, slaughtered 1994 in Harads in northern Sweden and the other an elderly female slaughtered 1974 in Str&amp;ouml;mstad in middle Sweden.</jats:p>",
       "journal": "Rangifer",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7557_2_14_3_1146",
@@ -402,11 +750,7 @@
       "abstract": "<jats:p>This is apparently the first report of aspergillosis in reindeer.</jats:p>",
       "journal": "Rangifer",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7557_2_10_2_796",
@@ -416,11 +760,7 @@
       "abstract": "<jats:p>&lt;p&gt;A review presented at the Fifth European Regional Meeting of the Society for Vector Ecology, September 2.-6. 1990, Uppsala, Sweden. The clinical and pathological manifestations as well as some meat hygienic aspects of &lt;em&gt;Megatrypanum&lt;/em&gt; trypanosomes, &lt;em&gt;Babesia divergens&lt;/em&gt;, &lt;em&gt;Setaria tundrae&lt;/em&gt;, &lt;em&gt;Onchocerca tarsicola&lt;/em&gt; and &lt;em&gt;Lappnema auris&lt;/em&gt; infections in reindeer are reported on.&lt;/p&gt;&lt;p&gt;Vektorburna parasiter hos svensk ren.&lt;/p&gt;&lt;p&gt;Abstract in Swedish / Sammanfatting: En oversikt presenterad vid &amp;laquo;the Fifth European Regional Meeting of the Society for Vector Ecology&amp;raquo;, September 2.-6. 1990, Uppsala, Sverige. Kliniska och patologiska manifestationer liksom i viss utstr&amp;auml;ckning livsmedelshygieniska aspekter diskuteras med avseende p&amp;aring; infektioner med Vektorburna parasiter hos svensk ren. trypanosomer, &lt;em&gt;Babesia divergens&lt;/e",
       "journal": "Rangifer",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7557_2_10_3_876",
@@ -430,11 +770,7 @@
       "abstract": "<jats:p>The ultrastructure pf Besnoitia cysts in reindeer is described. The observations made on Besnoitia cysts and merozoites indicate a form distinct enough to be placed in a new species - Besnoitia tarandi.</jats:p>",
       "journal": "Rangifer",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_2425899",
@@ -444,11 +780,17 @@
       "abstract": "Twelve different white-tailed deer (Odocoileus virginianus) vocalizations were recorded. Ten of these were analyzed with a sound spectrograph. Alarm calls consisted of the snort, given when a deer detected danger, and a bawl, given when a deer was traumatized. Three agonistic calls were recorded. The low grunt was given in low-level agonistic interactions. The grunt-snort, given during more intense dominance interactions, consisted of the low grunt with 1-4 rapid snorts added. The grunt-snort-wheeze consisted of the grunt-snort with the addition of a wheezing exhalation through the nostrils. It was characteristic of dominance interactions among bucks during the breeding season. Four maternal-neonatal sounds were recorded. The maternal grunt was used by does searching for their bedded fawns. The mew was given by fawns and appeared to solicit care from the mother. The bleat was a more insistent care solicitation call and was given when fawns were disturbed or deprived. A nursing whine wa",
       "journal": "The American Midland Naturalist",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_3026156",
+      "title": "Isolation of a herpesvirus serologically related to bovine herpesvirus 1 from a reindeer (Rangifer tarandus)",
+      "year": 1986,
+      "doi": "10.1186/BF03548174",
+      "abstract": "Serological evidence of exposure of reindeer (Rangifer tarandus) to a virus related to bovine herpesvirus 1 (BHV1) (Synonym: Infectious bovine rhinotracheitis (IBR) virus) has been reported in Canada",
+      "journal": "Acta veterinaria Scandinavica",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_7557_2_2_1_421",
@@ -458,14 +800,10 @@
       "abstract": "<jats:p>&lt;p&gt;Progesterone levels in peripheral plasma from a total of 38 pregnant an non-pregnant Norwegian and Svalbard reindeer (R. tarandus tarandus and R. t. platyrhyncbus, respectively), were measured 5 to 6 times between November and May, and the size of 18 corresponding fetuses determined. The serum levels of progesterone were similar in the two subspecies, and increased from 1.5 nmol/1 (non-pregnant level) to 10&amp;mdash;30 nmol/1 in November in pregnant animals. A maximum of 40&amp;mdash;80 nmol/1 was reached in April whereafter the levels declined as time of delivery (beginning of June) approached. Animals with &amp;laquo;missed&amp;raquo; abortions had progesterone levels in serum of 5&amp;mdash;6 nmol/1 in November. The size of the fetuses in November (average 3.7 and 30.7 mm) makes delayed implantation in reindeer unlikely.&lt;/p&gt;&lt;p&gt;Tidlig diagnostisering av drektighet og skjult abort i europeisk rein og Svalbardrein (Rangifer tarandus tarandus og Rangifer ta",
       "journal": "Rangifer",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 27,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

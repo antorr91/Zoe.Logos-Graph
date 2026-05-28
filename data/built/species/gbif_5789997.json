@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 9,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 35,
+    "claim_count": 27,
+    "doi_count": 31,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -42,90 +42,472 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
+    "song",
     "contact call",
-    "song"
+    "alarm call"
   ],
   "contexts": [
-    "mate attraction",
     "predator response",
+    "mate attraction",
     "territorial defence"
   ],
   "functions": [
+    "territory signalling",
     "mate attraction",
-    "predator warning",
-    "territory signalling"
+    "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
+        "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "contact call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "song",
+        "value": "alarm call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territory signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 2029,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2028,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2027,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2026,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2025,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2024,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2023,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2022,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2021,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2020,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2019,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2018,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2017,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2016,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2015,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2014,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2013,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2012,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2011,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2010,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2009,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2008,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2007,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2006,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2005,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2004,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2003,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Turdus merula",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1104931",
+        "provider": "xeno-canto",
+        "provider_id": "1104931",
+        "type": "song (XC1104931)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1104931",
+        "audio": "https://xeno-canto.org/1104931/download",
+        "sono": "outputs\\spectrograms\\gbif_5789997.png",
+        "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "attribution": "XC · Frank Holzapfel"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41598-025-13012-4",
+      "url": "https://doi.org/10.1038/s41598-025-13012-4",
+      "title": "High prevalence of multi-drug-resistant bacteria in faecal samples from UK passerine birds",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10493-023-00878-0",
+      "url": "https://doi.org/10.1007/s10493-023-00878-0",
+      "title": "Toxoplasma gondii infection in ticks infesting migratory birds: the blackbird (Turdus merula) and the song thrush (Turdus philomelos)",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.22541/au.172649708.88584005/v1",
       "url": "https://doi.org/10.22541/au.172649708.88584005/v1",
@@ -134,11 +516,74 @@
       "source": "crossref"
     },
     {
+      "doi": "10.3390/pathogens12050712",
+      "url": "https://doi.org/10.3390/pathogens12050712",
+      "title": "Host Cells of",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-022-16033-5",
+      "url": "https://doi.org/10.1038/s41598-022-16033-5",
+      "title": "Analysis of ultrastructure and microstructure of blackbird (Turdus merula) and song thrush (Turdus philomelos) eggshell by scanning electron microscopy and X-ray computed microtomography",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/v14071364",
+      "url": "https://doi.org/10.3390/v14071364",
+      "title": "Metatranscriptomic Comparison of Viromes in Endemic and Introduced Passerines in New Zealand",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani11123490",
+      "url": "https://doi.org/10.3390/ani11123490",
+      "title": "Description and Molecular Characterization of Two Species of Avian Blood Parasites, with Remarks on Circadian Rhythms of Avian Haematozoa Infections",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.46646/2521-683x/2021-4-46-53",
+      "url": "https://doi.org/10.46646/2521-683x/2021-4-46-53",
+      "title": "NESTING FEATURES OF BLACKBIRD (TURDUS MERULA) IN URBAN GREEN SPACES IN MINSK",
+      "year": 2021,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1038/s41598-020-76559-4",
+      "url": "https://doi.org/10.1038/s41598-020-76559-4",
+      "title": "Structural and proteomic analyses of vitelline membrane proteins of blackbird (Turdus merula) and song thrush (Turdus philomelos)",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12936-020-3147-6",
+      "url": "https://doi.org/10.1186/s12936-020-3147-6",
+      "title": "Haemosporidioses in wild Eurasian blackbirds (Turdus merula) and song thrushes (T. philomelos): an in situ hybridization study with emphasis on exo-erythrocytic parasite burden",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.4820",
+      "url": "https://doi.org/10.1002/ece3.4820",
+      "title": "Estimating age-dependent survival from age-aggregated ringing data-extending the use of historical records",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.61002",
       "url": "https://doi.org/10.1079/cabicompendium.61002",
       "title": "Turdus merula (eurasian blackbird)",
       "year": 2019,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1186/s13071-018-3255-0",
+      "url": "https://doi.org/10.1186/s13071-018-3255-0",
+      "title": "Haemoproteus minutus is highly virulent for Australasian and South American parrots",
+      "year": 2019,
+      "source": "pubmed"
     },
     {
       "doi": "10.18500/1684-7318-2018-2-233-241",
@@ -218,6 +663,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.2307/3675931",
+      "url": "https://doi.org/10.2307/3675931",
+      "title": "An Analysis of the Full Song of the Blackbird Turdus merula with Respect to Message Coding and Adaptations for Acoustic Communication",
+      "year": 1984,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1163/156853982x00166",
       "url": "https://doi.org/10.1163/156853982x00166",
       "title": "Pattern and Time Specificity in Vocal Responses of Blackbirds Turdus Merula L",
@@ -262,6 +714,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40750809",
+      "title": "High prevalence of multi-drug-resistant bacteria in faecal samples from UK passerine birds",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-13012-4",
+      "abstract": "Wild birds are a near ubiquitous sight in gardens, offering pleasure to many people through supplementary feeding, song, or other interactions. However, they are also potential carriers of many bacteria, including Campylobacter spp., Salmonella spp., Enterococcus spp., and E. coli; some of these may be resistant to commonly used drugs. This study collected faecal samples from multiple species of UK passerine birds, isolating bacterial pathogens to assess carriage and drug resistances associated with those bacteria. 75% of birds were carrying at least one bacterial species which was multi drug resistant (MDR; resistant to three or more classes of antimicrobial), with 11.6% of birds carrying Salmonella spp., 18.9% carrying Campylobacter spp., 78% carrying Enterococcus spp., and all carrying E. coli strains. Many of these strains were shown to be MDR with 70%, 88%, 32% and 59% respectively. Intercontinental migration was shown to be a risk factor for carriage of many of the pathogens, as was an associated with human habitation. Age was also a risk factor with younger birds twice as likely to carry Campylobacter spp. than adults, and house sparrows (Passer domesticus) and blackbirds (Turdus merula) being particularly high-level carriers compared to other species. The high-level carriage and shedding of MDR E. coli and other zoonotic pathogens within the faecal samples of multiple species of passerine birds offers a timely reminder of the risks which these bacteria, and their drug resistance profiles may pose to human and animal health in the UK and worldwide. It also shows a level of high environmental contamination, which birds may continue to contribute towards, until our use of antimicrobials, and level of drug-resistant bacteria is decreased. Developing mechanisms for reducing levels of carriage of MDR bacteria in wild bird populations through, for example, increased hygiene around bird feeding practices, may be key in reducing environmental contamination.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_22541_au_172649708_88584005_v1",
       "title": "False mating of Blackbird (Turdus merula) and Fieldfare (Turdus pilaris)",
       "year": 2024,
@@ -269,11 +731,117 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_39241452",
+      "title": "Contributions of birds to the feeding of ticks at host community level: Effects of tick burden, host density and yearly fluctuations",
+      "year": 2024,
+      "doi": "10.1016/j.ttbdis.2024.102390",
+      "abstract": "The eco-epidemiology of tick-borne diseases hinges on the abundance and distribution of hosts that sustain tick populations and the pathogens they carry. Research into the role of bird species in the feeding of Ixodes ricinus ticks, the primary tick species of veterinary and public health importance in Europe, remains scarce. This study endeavors to bridge these knowledge gaps by (i) assessing the density of feeding ticks (DFT) within a bird community to pinpoint species making substantial contributions, and (ii) exploring interannual variations in DFT over an extended timeline. Furthermore, we investigate whether variations in individual tick burden (TB) were more closely associated with the characteristics of bird species or interannual variations affecting the density of questing tick, using interannual TB variation as a surrogate. To fulfill these aims, we conducted a 13-year longitudinal study monitoring I. ricinus ticks feeding on a bird community in a periurban forest in France, covering breeding periods from 2007 to 2019. Within this community, we identified seven principal bird species significantly contributing to I. ricinus tick feeding: the Common Blackbird (Turdus merula), the Song Thrush (Turdus philomelos), the European Robin (Erithacus rubecula), the Dunnock (Prunella modularis), the Eurasian Blackcap (Sylvia atricapilla), the Great Tit (Parus major), and the Common Nightingale (Luscinia megarhynchos). Our results show that the bird community's contribution to tick feeding remained relatively consistent from year-to-year, though certain years displayed higher or lower DFT values related to the average over the study period. Moreover, five out the seven major species accounted for 80 % to 95 % of DFT annually. Consequently, we emphasized the need to broaden the scope of future research on bird contributions to tick population dynamics beyond merely thrushes (Turdidae species), to encompass a more diverse range of species, particularly those common bir",
+      "journal": "Ticks and tick-borne diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38321308",
+      "title": "Toxoplasma gondii infection in ticks infesting migratory birds: the blackbird (Turdus merula) and the song thrush (Turdus philomelos)",
+      "year": 2024,
+      "doi": "10.1007/s10493-023-00878-0",
+      "abstract": "Toxoplasmosis, caused by the protozoan Toxoplasma gondii, is the zoonosis widespread all over the world. Birds constitute an important group of T. gondii intermediate hosts often attacked by definitive hosts, e.g. domestic cats. Due to confirmation of an additional way of T. gondii transmission via tick bite, the aim of our study was to state and evaluate the infection prevalence of ticks feeding on blackbirds (Turdus merula) and song thrushes (Turdus philomelos). The real-time PCR amplification of the B1 gene fragment was used for detection of T. gondii infection in 157 Ixodes ricinus ticks removed from captured birds. The results showed the thrushes as hosts intensively attacked by ticks (prevalence 88.5% and 70% for blackbirds and song thrushes, respectively), and T. gondii infected individuals were detected. Among all ticks infected, 7 (5.8%; n = 120) were collected from blackbirds, and 2 (5.4%; n = 37) from song thrushes. The thrushes small body sizes and their tendency to urban ecosystems colonization, suggest that they relatively often become a pray of domestic cats, and combined with our findings, are potentially involved in maintenance the T. gondii population, especially in anthropogenic habitats, where the presence of toxoplasmosis is likely to constitute a serious danger to public health.",
+      "journal": "Experimental & applied acarology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37242382",
+      "title": "Host Cells of",
+      "year": 2023,
+      "doi": "10.3390/pathogens12050712",
+      "abstract": "",
+      "journal": "Pathogens (Basel, Switzerland)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36084782",
+      "title": "Thrushes (Aves: Passeriformes) as indicators of microplastic pollution in terrestrial environments",
+      "year": 2022,
+      "doi": "10.1016/j.scitotenv.2022.158621",
+      "abstract": "Microplastic pollution is one of the leading global conservation issues. The aim of this study was to investigate the occurrence of microplastics in the gastrointestinal tracts of Common Blackbirds Turdus merula (N = 16) and Song Thrushes Turdus philomelos (N = 18), songbirds with exceptionally terrestrial lifestyles and a wide distribution range. We searched for microplastics of over 100 μm in size and assessed whether their contamination differed regarding the age of the birds and the time of year. We used birds that had died as a result of collision with anthropogenic infrastructure, which were sampled during wildlife monitoring of anthropogenic infrastructures and citizen science projects in north-eastern Poland. We found that all the analysed individuals contained microplastic in their gastrointestinal tracts, which were classified as fibers, fragments, films and pellets. A total number of 1073 microplastics were observed, mostly consisting of fibers (84 %) and films (10 %) below 1 mm in size. The dominant colours of microplastics were transparent (75 %) and brown (14 %). The species average microplastic concentration was higher in Song Thrushes (40.1) than Common Blackbirds (21.9), however the difference was not statistically significant. Moreover, we found no seasonal or age-related differences in microplastic ingestion in either species. While our results show a ubiquity of microplastics in terrestrial environments, they also indicate that thrushes have the potential to be used as indicators of microplastic pollution in terrestrial ecosystems.",
+      "journal": "The Science of the total environment",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35891346",
+      "title": "Metatranscriptomic Comparison of Viromes in Endemic and Introduced Passerines in New Zealand",
+      "year": 2022,
+      "doi": "10.3390/v14071364",
+      "abstract": "New Zealand/Aotearoa has many endemic passerine birds vulnerable to emerging infectious diseases. Yet little is known about viruses in passerines, and in some countries, including New Zealand, the virome of wild passerines has been only scarcely researched. Using metatranscriptomic sequencing we characterised the virome of New Zealand endemic and introduced species of passerine. Accordingly, we identified 34 possible avian viruses from cloacal swabs of 12 endemic and introduced bird species not showing signs of disease. These included a novel siadenovirus, iltovirus, and avastrovirus in the Eurasian blackbird (",
+      "journal": "Viruses",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35831392",
+      "title": "Analysis of ultrastructure and microstructure of blackbird (Turdus merula) and song thrush (Turdus philomelos) eggshell by scanning electron microscopy and X-ray computed microtomography",
+      "year": 2022,
+      "doi": "10.1038/s41598-022-16033-5",
+      "abstract": "The unique structure of the egg allows for efficient reproduction on land. Although the functions of the egg are ensured by the concomitant cooperation of all its structures, the eggshell also plays a significant role. Apart from maintaining an aqueous environment within the egg along with controlled gas exchange, the color and pigmentation pattern of eggshell contributes to identification and protection. As a result of all these functions, the structure, shape, and pigmentation of eggshell greatly vary across the class of birds, and understanding these three variability-determining factors may aid in better interpretation of evolutionary mechanisms. In this study, we analyzed for the first time the structure, mineral composition, and characteristics of the pigmentation of blackbird (Turdus merula) and song thrush (Turdus philomelos) eggshells. The shell of blackbird eggs is much thicker compared to the shell of song thrush eggs which is due to a much thicker crystalline and palisade layers. In both species, strongly elongated mammillary knobs are observed, which create a large space between the mineralized shell and the egg membranes. The blackbird egg shell has a higher water vapor conductivity which is due to the larger diameter of the circle and the surface area of individual pores. The primary compound entering the mineral composition of the shell in both species is CaCO",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_46646_2521-683x_2021-4-46-53",
+      "title": "NESTING FEATURES OF BLACKBIRD (TURDUS MERULA) IN URBAN GREEN SPACES IN MINSK",
+      "year": 2021,
+      "doi": "10.46646/2521-683x/2021-4-46-53",
+      "abstract": "<jats:p>Synurbic populations of birds are characterized by specific features that differ from those of wild populations of the same species, which is the result of adaptation to living in cities. The paper analyses some parameters of breeding of the Blackbird (Turdus merula) in two park in Minsk and compares them with the breeding biology of wild Blackbirds in natural habitats. During the years 2015-2017 and 2019-2021, 74 nests of urban Blackbird were obtained. For comparison, data on 245 nest of this species in natural landscapes were used.As a result, it was found that the nest selection in urban Blackbirds remains similar to wild Blackbirds in forests, and the differences are explained by the peculiarities of forestry activities carried out in urban parks. More than 74 % of all nests were built in the undergrowth layer, while most of the nests were located on the Norway spruce (59.72 %). A majority of urban Blackbirds started laying first eggs relatively later (from 21.04 to 10.05) ",
+      "journal": "Journal of the Belarusian State University. Ecology.",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_34944267",
+      "title": "Description and Molecular Characterization of Two Species of Avian Blood Parasites, with Remarks on Circadian Rhythms of Avian Haematozoa Infections",
+      "year": 2021,
+      "doi": "10.3390/ani11123490",
+      "abstract": "Avian blood parasites are remarkably diverse and frequently occur in co-infections, which predominate in wildlife. This makes wildlife pathogen research challenging, particularly if they belong to closely related groups, resulting in diagnostic problems and poor knowledge about such infections as well as the patterns of their co-occurrence and interactions. This is particularly true due to the periodicity (circadian rhythms) of parasitemia, which means that different parasitemia and parasite stages might be found throughout the day. We analysed blood samples from a Eurasian blackbird (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33168893",
+      "title": "Structural and proteomic analyses of vitelline membrane proteins of blackbird (Turdus merula) and song thrush (Turdus philomelos)",
+      "year": 2020,
+      "doi": "10.1038/s41598-020-76559-4",
+      "abstract": "In this study, we aimed to perform structural and proteomic analysis of the vitelline membrane (VM) of two species birds belonging to the family Turdidae: blackbird (Turdus merula) and song thrush (Turdus philomelos). We performed structural analyses using scanning electron microscopy. The VM proteins were identified and compared to the best-known chicken VM proteins. According to our results, VM of both species has a typical three-layered structure: the outer layer, inner layer, and the continuous membrane between them. An unusual observation was the finding of \"convexity\" formed by the inner layer in blackbird. The role of these convex structures is not known, but they can be typical for the species and can be used in their identification. In addition, we identified two proteins in the VM of both species of birds, of which U3KEZ1 FICAL was not previously identified in any other bird species, and the U3JXV8 FICAL protein was confirmed only once in cockatiel parrot VM. The function of these proteins is not exactly known, but their structure shows similarities to the SERPIN proteins that are involved in microbiological defense, i.e., they are immune proteins. This study contributes to the current knowledge about the structure and composition of proteins of VM, especially because similar analyses have never been performed for Turdidae family. Knowledge of the structure and specific proteins of blackbird and song thrush VM can be beneficial in research on ecology and bird biology and also helpful in developing noninvasive and nongenetic identification methods.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32050970",
+      "title": "Haemosporidioses in wild Eurasian blackbirds (Turdus merula) and song thrushes (T. philomelos): an in situ hybridization study with emphasis on exo-erythrocytic parasite burden",
+      "year": 2020,
+      "doi": "10.1186/s12936-020-3147-6",
+      "abstract": "BACKGROUND: Passerine birds are frequently infected with diverse haemosporidian parasites. While infections are traditionally considered benign in wild birds, recent studies demonstrated mortalities of passerine species due to exo-erythrocytic development of the parasites, which can damage organs in affected hosts. However, exo-erythrocytic development remains insufficiently investigated for most haemosporidian species and thus little is known about the virulence of tissue stages in wild passerine birds. The aim of the present study was to investigate natural haemosporidian infections in deceased Eurasian blackbirds (Turdus merula) and song thrushes (Turdus philomelos) and to determine parasite burden and associated histological effects. METHODS: For molecular analysis, blood and tissue samples from 306 thrushes were screened for Plasmodium, Haemoproteus and Leucocytozoon parasites by nested PCR. For the detection of parasite stages in organ samples, tissue sections were subjected to chromogenic in situ hybridization (CISH) using genus- and species-specific probes targeting the rRNAs of parasites. Exo-erythrocytic parasite burden was semi-quantitatively assessed and histological lesions were evaluated in haematoxylin-eosin-stained sections. RESULTS: By PCR, 179 of 277 Eurasian blackbirds and 15 of 29 song thrushes were positive for haemosporidians. Parasites of all three genera were detected, with Plasmodium matutinum LINN1 and Plasmodium vaughani SYAT05 showing the highest prevalence. CISH revealed significant differences in exo-erythrocytic parasite burden between lineages in Eurasian blackbirds, with P. matutinum LINN1 frequently causing high exo-erythrocytic parasite burdens in various organs that were associated with histological alterations. Song thrushes infected with P. matutinum LINN1 and birds infected with other haemosporidian lineages showed mostly low exo-erythrocytic parasite burdens. Two Eurasian blackbirds infected with Leucocytozoon sp. TUMER01 show",
+      "journal": "Malaria journal",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31645214",
+      "title": "Presence and diversity of mixed avian",
+      "year": 2020,
+      "doi": "10.1080/00480169.2019.1680326",
+      "abstract": "",
+      "journal": "New Zealand veterinary journal",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_61002",
@@ -283,11 +851,47 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_30766667",
+      "title": "Estimating age-dependent survival from age-aggregated ringing data-extending the use of historical records",
+      "year": 2019,
+      "doi": "10.1002/ece3.4820",
+      "abstract": "Bird ring-recovery data have been widely used to estimate demographic parameters such as survival probabilities since the mid-20th century. However, while the total number of birds ringed each year is usually known, historical information on age at ringing is often not available. A standard ring-recovery model, for which information on age at ringing is required, cannot be used when historical data are incomplete. We develop a new model to estimate age-dependent survival probabilities from such historical data when age at ringing is not recorded; we call this the historical data model. This new model provides an extension to the model of Robinson, 2010, Ibis, 152, 651-795 by estimating the proportion of the ringed birds marked as juveniles as an additional parameter. We conduct a simulation study to examine the performance of the historical data model and compare it with other models including the standard and conditional ring-recovery models. Simulation studies show that the approach of Robinson, 2010, Ibis, 152, 651-795 can cause bias in parameter estimates. In contrast, the historical data model yields similar parameter estimates to the standard model. Parameter redundancy results show that the newly developed historical data model is comparable to the standard ring-recovery model, in terms of which parameters can be estimated, and has fewer identifiability issues than the conditional model. We illustrate the new proposed model using Blackbird and Sandwich Tern data. The new historical data model allows us to make full use of historical data and estimate the same parameters as the standard model with incomplete data, and in doing so, detect potential changes in demographic parameters further back in time.",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30673588",
+      "title": "Parasites in space and time: a case study of haemosporidian spatiotemporal prevalence in urban birds",
+      "year": 2019,
+      "doi": "10.1016/j.ijpara.2018.08.009",
+      "abstract": "Prevalence responses to anthropic factors differ across hosts and parasite species. We here analyzed the spatiotemporal variation of avian haemosporidian prevalence in bird assemblages of the Mooswald forest (i.e., urban greenspace; Freiburg, Germany), in response to local environmental features (e.g., water sources, human presence (visited)/absence (unvisited)) and bird-level traits (e.g., body condition, age, sex) in 2 years. We used a nested PCR protocol (mitochondrial (mt)DNA cytochrome b (cyt b) gene) and microscopy to determine haemosporidian infections. Prevalence was analyzed using a general linear multi-model (glmulti) approach with Akaike information criterion corrected for small samples (AICc), with subsequent model inferences using a GLMM on the best selected model, considering bird species as a random factor. Analyses were conducted for the main understory bird species (Blackcap - Sylvia atricapilla, Chaffinch - Coereba flaveola, Great Tit - Parus major, Blue Tit - Cyanistes caeruleus, European Robin - Erithacus rubecula, Blackbird - Turdus merula, Song Thrush - Turdus philomelos). We further conducted spatial autocorrelation analyses for all haemosporidian infections, and classification and regression trees (CARTs) for focal species. We analyzed a total of 544 samples of seven bird species. In 2011 prevalence for Haemoproteus/Plasmodium was 25.8% and 11.7% for Leucocytozoon. In 2013 prevalence for Haemoproteus/Plasmodium was 26.5% and 35.5% for Leucocytozoon. Haemosporidian prevalence was significantly different between some focal species. There was a negative association between distance to the nearest water source and prevalence in the year 2011, and the opposite pattern for the year 2013. However, when analyzed for the six focal species separately, such a relationship could change from a negative to a positive one, or there could be no relationship at all. For Leucocytozoon there was higher prevalence in the section of the forest visited by humans. ",
+      "journal": "International journal for parasitology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30654841",
+      "title": "Haemoproteus minutus is highly virulent for Australasian and South American parrots",
+      "year": 2019,
+      "doi": "10.1186/s13071-018-3255-0",
+      "abstract": "BACKGROUND: Haemoproteus and Plasmodium species are widespread avian blood parasites. Several Plasmodium species are known for their high virulence and have caused significant declines in naïve bird populations. The impact of closely related Haemoproteus parasites is largely unknown. Recently we reported a lethal disease in two parrot aviaries caused by Haemoproteus parasites. RESULTS: Here we show that the causative pathogen Haemoproteus minutus is responsible for further 17 lethal outbreaks in parrot aviaries in Denmark, Germany and Great Britain. All affected parrots are endemic to Australasia and South America. We sequenced the cytochrome b gene from megalomeront-infected muscle tissue of 21 parrots and identified the two lineages TUPHI01 and TURDUS2 as causative agents, commonly naturally infecting the common blackbird (Turdus merula) and the song thrush (Turdus philomelos), respectively, in the Palaearctic. No intraerythrocytic parasite stages were found in any of the parrots. We failed to detect H. minutus in invasive Indian ring-necked parakeets (Psittacula krameri) in Germany. Together this suggests that abortive infections with two virulent lineages of H. minutus are lethal for naïve parrot species from Australasia and South America. We asked whether we could detect H. minutus in New Zealand, where its Turdus hosts were introduced in the 1800s. We therefore tested invasive blackbirds and song thrushes, and the co-existing endemic red-fronted parakeet (Cyanoramphus novaezelandiae) population on three New Zealand islands. No Haemoproteus spp. DNA was detected in all blood samples, indicating absence of transmission. CONCLUSIONS: The results of this study show that captive parrots in Europe are threatened by two lineages of an otherwise benign parasite of Turdus spp. Aviary collections of parrots should be protected from Culicoides spp. vectors in Europe. Animal trade and climate changes extending the current vector and parasite distribution have to be consid",
+      "journal": "Parasites & vectors",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30615582",
+      "title": "Different Competence as a Lyme Borreliosis Causative Agent Reservoir Found in Two Thrush Species: The Blackbird (",
+      "year": 2019,
+      "doi": "10.1089/vbz.2018.2351",
+      "abstract": "Passerine birds are significantly involved in the dissemination of",
+      "journal": "Vector borne and zoonotic diseases (Larchmont, N.Y.)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_18500_1684-7318-2018-2-233-241",
@@ -297,11 +901,7 @@
       "abstract": "",
       "journal": "Povolzhskiy Journal of Ecology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_18384_2310-7189-2015-5-41-48",
@@ -311,11 +911,7 @@
       "abstract": "",
       "journal": "Bulletin of the Moscow State Regional University (Natural sciences)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2012_2798",
@@ -325,11 +921,7 @@
       "abstract": "When animals live in cities, they have to adjust their behaviour and life histories to novel environments. Noise pollution puts a severe constraint on vocal communication by interfering with the detection of acoustic signals. Recent studies show that city birds sing higher-frequency songs than their conspecifics in non-urban habitats. This has been interpreted as an adaptation to counteract masking by traffic noise. However, this notion is debated, for the observed frequency shifts seem to be less efficient at mitigating noise than singing louder, and it has been suggested that city birds might use particularly high-frequency song elements because they can be produced at higher amplitudes. Here, we present the first phonetogram for a songbird, which shows that frequency and amplitude are strongly positively correlated in the common blackbird (Turdus merula), a successful urban colonizer. Moreover, city blackbirds preferentially sang higher-frequency elements that can be produced at hig",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1525_bio_2011_61_3_6",
@@ -339,11 +931,7 @@
       "abstract": "This article presents a unifying theory of soundscape ecology, which brings the idea of the soundscape-the collection of sounds that emanate from landscapes-into a research and application focus. Our conceptual framework of soundscape ecology is based on the causes and consequences of biological (biophony), geophysical (geophony), and human-produced (anthrophony) sounds. We argue that soundscape ecology shares many parallels with landscape ecology, and it should therefore be considered a branch of this maturing field. We propose a research agenda for soundscape ecology that includes six areas: (1) measurement and analytical challenges, (2) spatial-temporal dynamics, (3) soundscape linkage to environmental covariates, ( We present case studies that illustrate different approaches to understanding soundscape dynamics. Because soundscapes are our auditory link to nature, we also argue for their protection, using the knowledge of how sounds are produced by the environment and humans.",
       "journal": "BioScience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1086_656275",
@@ -353,11 +941,7 @@
       "abstract": "In cities with intense low-frequency traffic noise, birds have been observed to sing louder and at a higher pitch. Several studies argue that higher song pitch is an adaptation to reduce masking from noise, and it has even been suggested that the song divergence between urban and nonurban songs might lead to reproductive isolation. Here we present models of signal transmission to compare the benefits of raised song amplitude and song pitch in terms of sound transmission. We chose two bird species that sing with higher pitch in urban areas, the great tit (Parus major) and the blackbird (Turdus merula). For both species, we calculated communication distances in response to different levels of urban noise and in their natural forest habitats. We found that an increase in vocal pitch increased communication distance only marginally. In contrast, vocal amplitude adjustments had a strong and significantly larger effect. Our results indicate that frequency changes of urban songs are not very ",
       "journal": "The American Naturalist",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_landurbplan_2010_08_013",
@@ -367,11 +951,7 @@
       "abstract": "",
       "journal": "Landscape and Urban Planning",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2009_06_016",
@@ -381,11 +961,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0004065",
@@ -395,11 +971,7 @@
       "abstract": "Biodiversity assessment remains one of the most difficult challenges encountered by ecologists and conservation biologists. This task is becoming even more urgent with the current increase of habitat loss. Many methods-from rapid biodiversity assessments (RBA) to all-taxa biodiversity inventories (ATBI)-have been developed for decades to estimate local species richness. However, these methods are costly and invasive. Several animals-birds, mammals, amphibians, fishes and arthropods-produce sounds when moving, communicating or sensing their environment. Here we propose a new concept and method to describe biodiversity. We suggest to forego species or morphospecies identification used by ATBI and RBA respectively but rather to tackle the problem at another evolutionary unit, the community level. We also propose that a part of diversity can be estimated and compared through a rapid acoustic analysis of the sound produced by animal communities. We produced alpha and beta diversity indexes ",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_0021-8790_2004_00814_x",
@@ -409,11 +981,7 @@
       "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-1-4757-6203-7_7",
@@ -423,11 +991,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf01640539",
@@ -437,11 +1001,17 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_2307_3675931",
+      "title": "An Analysis of the Full Song of the Blackbird Turdus merula with Respect to Message Coding and Adaptations for Acoustic Communication",
+      "year": 1984,
+      "doi": "10.2307/3675931",
+      "abstract": "",
+      "journal": "Ornis Scandinavica",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_156853982x00166",
@@ -451,11 +1021,7 @@
       "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>Male blackbirds (Turdus merula) were confronted with modified and unmodified playback copies of their own songs presented within the birds normal territories (Fig. 1). The vocal responses of the birds were recorded and correlated to the playback songs in respect to pattern specificity (song matching) and time specificity (distinct latencies). The following results were obtained: 1. The initial element of a song played a key role. If it was erased or masked by a pre-element the birds did not match the playback copies. In contrast erasure of the second element or the rest of the song following the second element did not affect song matching (Figs 3, 4). 2. The second element had an additional effect. The matching preference increased with a shortening of the pause between the first two elements, it decreased when the second element was substituted by an alien element (Figs 2, 3, 4). 3. A series of initial elements (identical or different",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf01648314",
@@ -465,11 +1031,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00709802",
@@ -479,11 +1041,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Physiology ? A",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_29173_bluejay2500",
@@ -493,11 +1051,7 @@
       "abstract": "",
       "journal": "Blue Jay",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927026_0031",
@@ -507,14 +1061,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 35,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

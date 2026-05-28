@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 12,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 64,
+    "doi_count": 34,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,111 +42,994 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "neigh",
     "nicker",
     "snort",
+    "neigh",
     "squeal"
   ],
   "contexts": [
-    "alarm",
-    "contact",
     "play",
-    "threat"
+    "contact",
+    "threat",
+    "alarm"
   ],
   "functions": [
-    "contact maintenance",
     "predator alarm",
-    "social play",
-    "threat display"
+    "threat display",
+    "contact maintenance",
+    "social play"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "neigh",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "nicker",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "snort",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "neigh",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "squeal",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "play",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "contact",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "play",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "threat",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "contact maintenance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "predator alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social play",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "threat display",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
+        "value": "social play",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 804,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 803,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 802,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 801,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 800,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 799,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 798,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 797,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 796,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 795,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 794,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 793,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 792,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 791,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 790,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 789,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 788,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 787,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 786,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 785,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 784,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 783,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 782,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 781,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 780,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 779,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 778,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 777,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 776,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 775,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 774,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 773,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 772,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 771,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 770,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 769,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 768,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 767,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 766,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 765,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 764,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 763,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 762,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 761,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 760,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 759,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 758,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 757,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 756,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 755,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 754,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 753,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 752,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 751,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 750,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 749,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 748,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 747,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 746,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 745,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 744,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 743,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 742,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 741,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.47820/recima21.v7i1.7155",
+      "url": "https://doi.org/10.47820/recima21.v7i1.7155",
+      "title": "PROSPECÇÃO&lt;i&gt; IN SILICO&lt;/i&gt; DE VARIANTES GENÔMICAS ASSOCIADAS À FERTILIDADE EM &lt;i&gt;EQUUS CABALLUS&lt;/i&gt; IN SILICO PROSPECTION OF GENOMIC VARIANTS ASSOCIATED WITH FERTILITY IN EQUUS CABALLUS PROSPECCIÓN IN SILICO DE VARIANTES GENÓMICAS ASOCIADAS A LA FERTILIDAD EN EQUUS CABALLUS",
+      "year": 2026,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-025-01946-1",
+      "url": "https://doi.org/10.1007/s10071-025-01946-1",
+      "title": "Learning from eavesdropping on human-human encounters changes feeding location choice in horses (Equus Caballus)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-98794-3",
+      "url": "https://doi.org/10.1038/s41598-025-98794-3",
+      "title": "Emotional contagion of fear and joy from humans to horses using a combination of facial and vocal cues",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-024-01909-y",
+      "url": "https://doi.org/10.1007/s10071-024-01909-y",
+      "title": "Exploring horses' (Equus caballus) gaze and asymmetric ear position in relation to human attentional cues",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/biolre/ioae081",
+      "url": "https://doi.org/10.1093/biolre/ioae081",
+      "title": "Mapping the follicle-specific regulation of extracellular vesicle-mediated microRNA transport in the southern white rhinoceros (Ceratotherium simum simum)†",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7717/peerj.17149",
+      "url": "https://doi.org/10.7717/peerj.17149",
+      "title": "The behavior and welfare of neglected species: some examples from fish and mammals",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-023-01817-7",
+      "url": "https://doi.org/10.1007/s10071-023-01817-7",
+      "title": "Horses discriminate between human facial and vocal expressions of sadness and joy",
+      "year": 2023,
+      "source": "pubmed"
+    },
     {
       "doi": "10.46439/biomedres.4.034",
       "url": "https://doi.org/10.46439/biomedres.4.034",
@@ -155,11 +1038,46 @@
       "source": "crossref"
     },
     {
+      "doi": "10.3390/ani12182331",
+      "url": "https://doi.org/10.3390/ani12182331",
+      "title": "Can Ponies (Equus Caballus) Distinguish Human Facial Expressions?",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani11113081",
+      "url": "https://doi.org/10.3390/ani11113081",
+      "title": "Heterospecific Fear and Avoidance Behaviour in Domestic Horses (",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2020.0607",
+      "url": "https://doi.org/10.1098/rsbl.2020.0607",
+      "title": "Kangaroos display gazing and gaze alternations during an unsolvable problem task",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0231343",
+      "url": "https://doi.org/10.1371/journal.pone.0231343",
+      "title": "Communication is key: Mother-offspring signaling can affect behavioral responses and offspring survival in feral horses (Equus caballus)",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.3389/fvets.2020.590867",
       "url": "https://doi.org/10.3389/fvets.2020.590867",
       "title": "The Power of a Positive Human–Animal Relationship for Animal Welfare",
       "year": 2020,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-019-01291-0",
+      "url": "https://doi.org/10.1007/s10071-019-01291-0",
+      "title": "Effects of size and personality on social learning and human-directed behaviour in horses (Equus caballus)",
+      "year": 2019,
+      "source": "pubmed"
     },
     {
       "doi": "10.1079/cabicompendium.84019",
@@ -174,6 +1092,27 @@
       "title": "Farm Animal Cognition—Linking Behavior, Welfare and Ethics",
       "year": 2019,
       "source": "openalex"
+    },
+    {
+      "doi": "10.3390/ani9090630",
+      "url": "https://doi.org/10.3390/ani9090630",
+      "title": "Are Horses (",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani9110862",
+      "url": "https://doi.org/10.3390/ani9110862",
+      "title": "Horses Categorize Human Emotions Cross-Modally Based on Facial Expression and Non-Verbal Vocalizations",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-018-30777-z",
+      "url": "https://doi.org/10.1038/s41598-018-30777-z",
+      "title": "Domestic horses (Equus caballus) discriminate between negative and positive human nonverbal vocalisations",
+      "year": 2018,
+      "source": "pubmed"
     },
     {
       "doi": "10.1007/s10071-016-1064-4",
@@ -283,6 +1222,66 @@
   ],
   "papers": [
     {
+      "paper_id": "10_47820_recima21_v7i1_7155",
+      "title": "PROSPECÇÃO&lt;i&gt; IN SILICO&lt;/i&gt; DE VARIANTES GENÔMICAS ASSOCIADAS À FERTILIDADE EM &lt;i&gt;EQUUS CABALLUS&lt;/i&gt; IN SILICO PROSPECTION OF GENOMIC VARIANTS ASSOCIATED WITH FERTILITY IN EQUUS CABALLUS PROSPECCIÓN IN SILICO DE VARIANTES GENÓMICAS ASOCIADAS A LA FERTILIDAD EN EQUUS CABALLUS",
+      "year": 2026,
+      "doi": "10.47820/recima21.v7i1.7155",
+      "abstract": "<jats:p>A arquitetura genética das características reprodutivas em Equus caballus é intrinsecamente complexa, representando um desafio significativo para a eficiência e sustentabilidade da equinocultura. Compreender os mecanismos genéticos subjacentes à fertilidade é crucial para o desenvolvimento de estratégias eficazes de melhoramento genético. Este estudo teve como objetivo prospectar in silico e caracterizar funcionalmente variantes genômicas associadas à fertilidade em éguas e garanhões. Para tanto, extraiu-se do Horse QTL database as variantes associadas às características de fertilidade em machos e fêmeas. Após a triagem, todas as variantes foram submetidas às análises funcionais no VEP e posterior análise de rede biológica no GeneMANIA. A metodologia in silico empregou a análise de dados genômicos públicos de sequenciamento de nova geração (NGS), permitindo uma triagem eficiente de Quantitative Trait Loci (QTL) e a identificação de polimorfismos de nucleotídeo único (Single Nuc",
+      "journal": "RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40399542",
+      "title": "Emotional contagion of fear and joy from humans to horses using a combination of facial and vocal cues",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-98794-3",
+      "abstract": "Emotional contagion, the emotional state-matching of two individuals, has been documented in various species. Recent findings suggest emotional contagion could also take place between humans and domestic mammals. However, the range of targeted animal species and human emotions that have been studied is still limited, and the methodology to investigate emotional contagion in this context is not fully established. This study examined emotional contagion of fear and joy from humans to horses by measuring physiological (heart rate, infrared thermography) and behavioral responses (posture, laterality bias, facial expressions) to videos of human fear, joy, or neutral emotions. Horses (n = 45) exhibited higher heart rates and ear movements during the fear and joy videos compared to the neutral ones, suggesting heightened arousal. During fear videos, they showed a greater increase in eye temperature than during joy or neutral videos, and maintained an alert posture for longer than during neutral videos, expressing specific facial expressions including inner brow raising and blowing. During joy videos, they showed a higher right eye preference (indicating a higher left-hemisphere bias) than during neutral videos, suggesting a more positive emotional valence. These findings suggest that human facial and vocal cues of fear and joy trigger emotional contagion in horses, which may influence the human-horse relationship.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40095148",
+      "title": "Learning from eavesdropping on human-human encounters changes feeding location choice in horses (Equus Caballus)",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01946-1",
+      "abstract": "When animals observe human signals, they may learn from them. Such learning from humans has been reported for intentional communication between humans with animals, but animals might also learn socially by observing unintentional information transfer when eavesdropping on humans-human encounters. In this study, 12 of 17 horses significantly changed their preference for a feeding location after observing approval in a human-human interaction there, and horses kept in social housing adapted in a higher percentage of trials to human-human demonstrations than those in individual housing. This indicates, for the first time, that some animals change their feeding strategies after eavesdropping on human-human demonstrations and that this adaptation may be dependent on social experience. As horses maintained the observed preference for a feeding location when the demonstrators were absent, we suggest that they learned by applying individual and social learning mechanisms. The horses social rank, age and sex did not affect their learning performance. However, particular demonstrators tended to have a stronger impact on the horses' performance. Future research should further investigate the durability of this preference change in the absence of repeated demonstrations, and establish whether long-term social learning sets in. This would have important implications for unintentional long-term impacts of human interactions on interspecies communication.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39436472",
+      "title": "Exploring horses' (Equus caballus) gaze and asymmetric ear position in relation to human attentional cues",
+      "year": 2024,
+      "doi": "10.1007/s10071-024-01909-y",
+      "abstract": "Studies have shown that horses are sensitive to human attentional cues. Also, there is some evidence that they might be able to infer the knowledge state of a human and communicate intentionally with us. However, this ability is not fully characterized and certain behaviors, like gaze, asymmetric ears position or vocalizations, which could work as attention-getting behaviors, have been scarcely studied in this context. The aim of the present study was to assess whether horses' gaze toward a person, asymmetric ears position and vocalizations are subject to audience effects and adjust to human attentional cues, which would suggest a communicative function. For this purpose, we adapted a protocol used with domestic dogs [Kaminski et al. 2017] and observed horses' spontaneous behavior (gaze, asymmetric ears position and vocalizations) in the presence of a human holding and not holding food in an attentive position (facing the horse with open eyes) and in a non-attentive position (with her back turned towards the horse). We found significant evidence of horses being sensitive to human attentional cues (reflected in the horses' gaze duration and asymmetric position of the ears), but not of intentional communication towards humans.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38775197",
+      "title": "Mapping the follicle-specific regulation of extracellular vesicle-mediated microRNA transport in the southern white rhinoceros (Ceratotherium simum simum)†",
+      "year": 2024,
+      "doi": "10.1093/biolre/ioae081",
+      "abstract": "Efforts to implement effective assisted reproductive technologies (ARTs) for the conservation of the northern white rhinoceros (NWR; Ceratotherium simum cottoni) to prevent its forthcoming extinction, could be supported by research conducted on the closely related southern white rhinoceros (SWR; Ceratotherium simum simum). Within the follicle, extracellular vesicles (EVs) play a fundamental role in the bidirectional communication facilitating the crucial transport of regulatory molecules such as microRNAs (miRNAs) that control follicular growth and oocyte development. This study aimed to elucidate the dynamics of EV-miRNAs in stage-dependent follicular fluid (FF) during SWR ovarian antral follicle development. Three distinct follicular stages were identified based on diameter: Growing (G; 11-17 mm), Dominant (D; 18-29 mm), and Pre-ovulatory (P; 30-34 mm). Isolated EVs from the aspirated FF of segmented follicle stages were used to identify EV-miRNAs previously known via subsequent annotation to all equine (Equus caballus; eca), bovine (Bos taurus; bta), and human (Homo sapiens; hsa) miRNAs. A total of 417 miRNAs were detected, with 231 being mutually expressed across all three stages, including eca-miR-148a and bta-miR-451 as the top highly expressed miRNAs. Distinct expression dynamics in miRNA abundance were observed across the three follicular stages, including 31 differentially expressed miRNAs that target various pathways related to follicular growth and development, with 13 miRNAs commonly appearing amidst two different comparisons. In conclusion, this pioneering study provides a comprehensive understanding of the stage-specific expression dynamics of FF EV-miRNAs in the SWR. These findings provide insights that may lead to novel approaches in enhancing ARTs to catalyze rhinoceros conservation efforts.",
+      "journal": "Biology of reproduction",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38560452",
+      "title": "The behavior and welfare of neglected species: some examples from fish and mammals",
+      "year": 2024,
+      "doi": "10.7717/peerj.17149",
+      "abstract": "Animal welfare is the state of an animal's body and mind and the level to which its requirements are satisfied. Animal welfare is affected by human decisions and actions. Numerous decisions concerning animals are driven by human desires to enhance their own lives, and some of these decisions may be influenced by self-interest or a strong emphasis on economic factors. How to assess the welfare state of animals is a central issue in animal welfare science. Two critical questions can be used to address animal welfare: first, is the animal healthy, and second, does the animal have what it needs? Both of these questions can potentially be answered using the study of animal behavior. The development of behavioral methodologies is crucial for evaluating welfare in contexts where concern for animal welfare is often highest, such as on intensive modern farms and sites where working animals are used. Herein, we discuss animal welfare by focusing on some of its major concepts and explanations. Later, to illustrate key aspects of animal welfare, we chose to examine the information that is available for some 'neglected' livestock species, which are commercially important on a global basis and found in large numbers: buffaloes (",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_46439_biomedres_4_034",
       "title": "Chronic fluoride poisoning in domestic equines, horses (Equus caballus) and donkeys (Equus asinus",
       "year": 2023,
@@ -290,11 +1289,47 @@
       "abstract": "<jats:p>Repeated chronic fluoride (F) exposure for prolonged duration through water, air, and food causes F poisoning in the form of fluorosis in both humans and domestic and wild animals. However, among domestic equine animals, horses (Equus caballus) and donkeys (Equus asinus), chronic F poisoning caused by industrial fluoride pollution and fluoridated drinking water has been well studied. But these studies in these animals are still very limited. On the other hand, the sample size of these animals in these studies is also very small. Nevertheless, these studies are important from the point of view of veterinary medicine and toxicology. In these animals, F-induced diverse toxic effects or pathognomonic signs such as dental mottling or light to deep brownish staining on enamel surface of teeth, lameness, stiffness, skeletal abnormalities, crooked legs, hoof deformities, pain in joints, weight loss, unthriftiness, poor health, standing with an arched back, difficulty eating, rough hair",
       "journal": "Journal of Biomed Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_37543956",
+      "title": "Horses discriminate between human facial and vocal expressions of sadness and joy",
+      "year": 2023,
+      "doi": "10.1007/s10071-023-01817-7",
+      "abstract": "Communication of emotions plays a key role in intraspecific social interactions and likely in interspecific interactions. Several studies have shown that animals perceive human joy and anger, but few studies have examined other human emotions, such as sadness. In this study, we conducted a cross-modal experiment, in which we showed 28 horses two soundless videos simultaneously, one showing a sad, and one a joyful human face. These were accompanied by either a sad or joyful voice. The number of horses whose first look to the video that was incongruent with the voice was longer than their first look to the congruent video was higher than chance, suggesting that horses could form cross-modal representations of human joy and sadness. Moreover, horses were more attentive to the videos of joy and looked at them for longer, more frequently, and more rapidly than the videos of sadness. Their heart rates tended to increase when they heard joy and to decrease when they heard sadness. These results show that horses are able to discriminate facial and vocal expressions of joy and sadness and may form cross-modal representations of these emotions; they also are more attracted to joyful faces than to sad faces and seem to be more aroused by a joyful voice than a sad voice. Further studies are needed to better understand how horses perceive the range of human emotions, and we propose that future experiments include neutral stimuli as well as emotions with different arousal levels but a same valence.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37282810",
+      "title": "Genomic inbreeding estimation, runs of homozygosity, and heterozygosity-enriched regions uncover signals of selection in the Quarter Horse racing line",
+      "year": 2023,
+      "doi": "10.1111/jbg.12812",
+      "abstract": "With the advent of genomics, significant progress has been made in the genetic improvement of livestock species, particularly through increased accuracy in predicting breeding values for selecting superior animals and the possibility of performing a high-resolution genetic scan throughout the genome of an individual. The main objectives of this study were to estimate the individual genomic inbreeding coefficient based on runs of homozygosity (F",
+      "journal": "Journal of animal breeding and genetics = Zeitschrift fur Tierzuchtung und Zuchtungsbiologie",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36139191",
+      "title": "Can Ponies (Equus Caballus) Distinguish Human Facial Expressions?",
+      "year": 2022,
+      "doi": "10.3390/ani12182331",
+      "abstract": "Communication within a species is essential for access to resources, alerting to dangers, group facilitation and social bonding; human facial expressions are considered to be an important factor in one’s ability to communicate with others. Evidence has shown that dogs and horses are able to distinguish positive and negative facial expressions by observing photographs of humans, however there is currently no research on how facial expressions from a live human are perceived by horses. This study investigated how ponies distinguish facial expressions presented by live actors. Trained actors (n = 2), using the human Facial Action Coding System, displayed four facial expressions (anger, sadness, joy and neutral) individually to twenty ponies. Heart rate and behaviors of the ponies including first monocular eye look, eye look duration (right and left side bias) and latency to approach were observed. A generalized linear mixed model (GLIMMIX) using Sidak’s multiple comparisons of least squared means determined that when exposed to anger expressions ponies looked more often with their left eye first and when exposed to joy, looked more often with their right eye first (p = 0.011). The ponies spent more time looking at angry expressions (p = 0.0003) in comparison to other expressions. There was no variation in heart rate across expressions (p > 0.89). Regardless of human facial expression, ponies looked longer (p = 0.0035), took longer to approach (p = 0.0297) and displayed more oral behaviours (p < 0.0001) with one actor than the other indicating increased arousal or negative valence. Ponies with more experience as a lesson mount had lower heart rates (p < 0.0001) carried their head lower (p < 0.0001), kept their left ear on the actor (p < 0.03) and exhibited more oral behaviours (p < 0.0001) than ponies with less experience. This study demonstrates that ponies are able to distinguish facial expressions presented by a live human, but other factors also contribute to their ",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34827813",
+      "title": "Heterospecific Fear and Avoidance Behaviour in Domestic Horses (",
+      "year": 2021,
+      "doi": "10.3390/ani11113081",
+      "abstract": "Ridden horses have been reported to be fearful of cows. We tested whether cows could provoke behavioural and cardiac fear responses in horses, and whether these responses differ in magnitude to those shown to other potential dangers. Twenty horses were exposed to cow, a mobile object or no object. The time spent at different distances from the stimulus was measured. In a separate test, heart rate (HR), root mean square of successive differences between heartbeats (RMSSD) and the horses' perceived fear were assessed at various distances from the stimuli. The horses avoided the area nearest to all stimuli. During hand-leading, the cow elicited the highest HR and lowest RMSSD. Led horses' responses to the cow and box were rated as more fearful as the distance to the stimulus decreased. Mares had a higher HR than geldings across all tests. HR positively correlated with the fearfulness rating at the furthest distance from the cow and box, and RMSSD negatively correlated with this rating in cow and control conditions. Our results show that these horses' avoidance response to cows was similar or higher to that shown towards a novel moving object, demonstrating that potentially, both neophobia and heterospecific communication play a role in this reaction.",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3389_fvets_2020_590867",
@@ -304,11 +1339,27 @@
       "abstract": "Domestic animals often seek and enjoy interacting with humans. Positive human-animal relationships can elicit positive emotions and other positive welfare outcomes. Nevertheless, our understanding of the underlying processes that govern the positive perception of humans by animals is incomplete. We cover the potential mechanisms involved in the development and maintenance of positive human-animal relationships from the perspective of the animal. This encompasses habituation, associative learning, and possibly attachment or bonding based on communication and social cognition. We review the indicators from the literature to assess a positive human-animal relationship. We operationally define this positive relationship as the animal showing voluntary approach and spatial proximity (seeking) and signs of anticipation, pleasure, relaxation, or other indicators of a rewarding experience from interacting with the human. For research, we recommend accounting for the baseline human-animal relat",
       "journal": "Frontiers in Veterinary Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_33321066",
+      "title": "Kangaroos display gazing and gaze alternations during an unsolvable problem task",
+      "year": 2020,
+      "doi": "10.1098/rsbl.2020.0607",
+      "abstract": "Domestication is generally assumed to have resulted in enhanced communication abilities between non-primate mammals and humans, although the number of species studied is very limited (e.g. cats,",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32302348",
+      "title": "Communication is key: Mother-offspring signaling can affect behavioral responses and offspring survival in feral horses (Equus caballus)",
+      "year": 2020,
+      "doi": "10.1371/journal.pone.0231343",
+      "abstract": "Acoustic signaling plays an important role in mother-offspring recognition and subsequent bond-formation. It remains unclear, however, if mothers and offspring use acoustic signaling in the same ways and for the same reasons throughout the juvenile stage, particularly after mutual recognition has been adequately established. Moreover, despite its critical role in mother-offspring bond formation, research explicitly linking mother-infant communication strategies to offspring survival are lacking. We examined the communicative patterns of mothers and offspring in the feral horse (Equus caballus) to better understand 1) the nature of mother-offspring communication throughout the first year of development; 2) the function(s) of mother- vs. offspring-initiated communication and; 3) the importance of mare and foal communication to offspring survival. We found that 1) mares and foals differ in when and how they initiate communication; 2) the outcomes of mare- vs. foal-initiated communication events consistently differ; and 3) the communicative patterns between mares and their foals can be important for offspring survival to one year of age. Moreover, given the importance of maternal activity to offspring behavior and subsequent survival, we submit that our data are uniquely positioned to address the long-debated question: do the behaviors exhibited during the juvenile stage (by both mothers and their young) confer delayed or immediate benefits to offspring? In summary, we aimed to better understand 1) the dynamics of mother-offspring communication, 2) whether mother-offspring communicative patterns were important to offspring survival, and 3) the implications of our research regarding the function of the mammalian juvenile stage. Our results demonstrate that we have achieved those aims.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_84019",
@@ -318,11 +1369,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fvets_2019_00024",
@@ -332,11 +1379,47 @@
       "abstract": "Farm animal welfare is a major concern for society and food production. To more accurately evaluate animal farming in general and to avoid exposing farm animals to poor welfare situations, it is necessary to understand not only their behavioral but also their cognitive needs and capacities. Thus, general knowledge of how farm animals perceive and interact with their environment is of major importance for a range of stakeholders, from citizens to politicians to cognitive ethologists to philosophers. This review aims to outline the current state of farm animal cognition research and focuses on ungulate livestock species, such as cattle, horses, pigs and small ruminants, and reflects upon a defined set of cognitive capacities (physical cognition: categorization, numerical ability, object permanence, reasoning, tool use; social cognition: individual discrimination and recognition, communication with humans, social learning, attribution of attention, prosociality, fairness). We identify a l",
       "journal": "Frontiers in Veterinary Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_31653088",
+      "title": "Horses Categorize Human Emotions Cross-Modally Based on Facial Expression and Non-Verbal Vocalizations",
+      "year": 2019,
+      "doi": "10.3390/ani9110862",
+      "abstract": "Over the last few years, an increasing number of studies have aimed to gain more insight into the field of animal emotions. In particular, it is of interest to determine whether animals can cross-modally categorize the emotions of others. For domestic animals that share a close relationship with humans, we might wonder whether this cross-modal recognition of emotions extends to humans, as well. In this study, we tested whether horses could recognize human emotions and attribute the emotional valence of visual (facial expression) and vocal (non-verbal vocalization) stimuli to the same perceptual category. Two animated pictures of different facial expressions (anger and joy) were simultaneously presented to the horses, while a speaker played an emotional human non-verbal vocalization matching one of the two facial expressions. Horses looked at the picture that was incongruent with the vocalization more, probably because they were intrigued by the paradoxical combination. Moreover, horses reacted in accordance with the valence of the vocalization, both behaviorally and physiologically (heart rate). These results show that horses can cross-modally recognize human emotions and react emotionally to the emotional states of humans, assessed by non-verbal vocalizations.",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31470656",
+      "title": "Are Horses (",
+      "year": 2019,
+      "doi": "10.3390/ani9090630",
+      "abstract": "Emotions are important for social animals because animals' emotions function as beneficial cues to identify valuable resources such as food or to avoid danger by providing environmental information. Emotions also enable animals to predict individuals' behavior and determine how to behave in a specific context. Recently, several studies have reported that dogs are highly sensitive to not only conspecific but also human emotional cues. These studies suggest that domestication may have affected such sensitivity. However, there are still few studies that examine whether other domesticated animals, in addition to dogs, exhibit sensitivity to human emotional cues. In this study, we used a gaze-following task to investigate whether horses (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31312981",
+      "title": "Effects of size and personality on social learning and human-directed behaviour in horses (Equus caballus)",
+      "year": 2019,
+      "doi": "10.1007/s10071-019-01291-0",
+      "abstract": "Due to our long history of living in close association with horses, these animals are suggested to have enhanced skills in understanding and communicating with humans. Today, horses have become important to humans for sport and leisure and their understanding of human behaviour and their human-directed behaviour are therefore of great importance. In this study, we investigated 22 horses in a human contact-seeking experiment where they were presented with an unsolvable problem and a detour experiment with a human demonstrator. The unsolvable problem consisted of pieces of carrot in a closed bucket and the detour resembled the shape of V. Additionally, personality traits of the participating horses were assessed. Interestingly, the full-sized horses (N = 11) showed more human-related behaviours when presented with an unsolvable problem compared to before the carrots were made unreachable (p = 0.033), while the ponies (N = 11) did not. However, neither the full-sized horses nor the ponies were significantly more successful in the detour after human demonstrations than in control trials. When comparing the two experiments, we found the task-oriented behaviour in the detour test to positively correlate with human proximity and eye contact-seeking behaviour towards humans during the unsolvable problem in the contact-seeking test. Interestingly, again this was only true for the full-sized horses (p < 0.05) and not for the ponies. From the horse personality questionnaire results, the traits excitability and anxiousness revealed strong negative correlations with human-directed behaviour in the contact-seeking experiment (p < 0.05). Hence, size (full-sized horse/pony) and personality influenced the human-related behaviours of the horses and we suggest a future focus on these aspects to deepen our understanding of human-horse communication.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30158532",
+      "title": "Domestic horses (Equus caballus) discriminate between negative and positive human nonverbal vocalisations",
+      "year": 2018,
+      "doi": "10.1038/s41598-018-30777-z",
+      "abstract": "The ability to discriminate between emotion in vocal signals is highly adaptive in social species. It may also be adaptive for domestic species to distinguish such signals in humans. Here we present a playback study investigating whether horses spontaneously respond in a functionally relevant way towards positive and negative emotion in human nonverbal vocalisations. We presented horses with positively- and negatively-valenced human vocalisations (laughter and growling, respectively) in the absence of all other emotional cues. Horses were found to adopt a freeze posture for significantly longer immediately after hearing negative versus positive human vocalisations, suggesting that negative voices promote vigilance behaviours and may therefore be perceived as more threatening. In support of this interpretation, horses held their ears forwards for longer and performed fewer ear movements in response to negative voices, which further suggest increased vigilance. In addition, horses showed a right-ear/left-hemisphere bias when attending to positive compared with negative voices, suggesting that horses perceive laughter as more positive than growling. These findings raise interesting questions about the potential for universal discrimination of vocal affect and the role of lifetime learning versus other factors in interspecific communication.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1126_sciadv_1701742",
@@ -346,11 +1429,7 @@
       "abstract": "Adjusting communication to take into account information available to one's audience is routine in humans but is assumed absent in other animals, representing a recent development on the lineage leading to humans. This assumption may be premature. Recent studies show changes in primate alarm signaling to threats according to the receivers' risk. However, a classic problem in these and other perspective-taking studies is discerning whether signalers understand the receivers' mental states or simply are responding to their behavior. We designed experiments to exclude concurrent reading of the receivers' behavior by simulating receivers using prerecorded calls of other group members. Specifically, we tested whether wild chimpanzees emitted differing signals in response to a snake model when simulated receivers previously emitted either snake-related calls (indicating knowledge) or acoustically similar non-snake-related calls (indicating ignorance). Signalers showed more vocal and nonvocal",
       "journal": "Science Advances",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-016-1064-4",
@@ -360,11 +1439,7 @@
       "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_4238_gmr_15038895",
@@ -374,11 +1449,7 @@
       "abstract": "",
       "journal": "Genetics and Molecular Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsbl_2015_0883",
@@ -388,11 +1459,7 @@
       "abstract": "The perception of emotional expressions allows animals to evaluate the social intentions and motivations of each other. This usually takes place within species; however, in the case of domestic dogs, it might be advantageous to recognize the emotions of humans as well as other dogs. In this sense, the combination of visual and auditory cues to categorize others' emotions facilitates the information processing and indicates high-level cognitive representations. Using a cross-modal preferential looking paradigm, we presented dogs with either human or dog faces with different emotional valences (happy/playful versus angry/aggressive) paired with a single vocalization from the same individual with either a positive or negative valence or Brownian noise. Dogs looked significantly longer at the face whose expression was congruent to the valence of vocalization, for both conspecifics and heterospecifics, an ability previously known only in humans. These results demonstrate that dogs can extra",
       "journal": "Biology Letters",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_srep09989",
@@ -402,11 +1469,7 @@
       "abstract": "Studying vocal correlates of emotions is important to provide a better understanding of the evolution of emotion expression through cross-species comparisons. Emotions are composed of two main dimensions: emotional arousal (calm versus excited) and valence (negative versus positive). These two dimensions could be encoded in different vocal parameters (segregation of information) or in the same parameters, inducing a trade-off between cues indicating emotional arousal and valence. We investigated these two hypotheses in horses. We placed horses in five situations eliciting several arousal levels and positive as well as negative valence. Physiological and behavioral measures collected during the tests suggested the presence of different underlying emotions. First, using detailed vocal analyses, we discovered that all whinnies contained two fundamental frequencies (\"F0\" and \"G0\"), which were not harmonically related, suggesting biphonation. Second, we found that F0 and the energy spectrum",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pbio_1001821",
@@ -416,11 +1479,7 @@
       "abstract": "In The Descent of Man, Darwin speculated that our capacity for musical rhythm reflects basic aspects of brain function broadly shared among animals. Although this remains an appealing idea, it is being challenged by modern cross-species research. This research hints that our capacity to synchronize to a beat, i.e., to move in time with a perceived pulse in a manner that is predictive and flexible across a broad range of tempi, may be shared by only a few other species. Is this really the case? If so, it would have important implications for our understanding of the evolution of human musicality.",
       "journal": "PLoS Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_119345",
@@ -430,11 +1489,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-388437-4_00008-9",
@@ -444,11 +1499,7 @@
       "abstract": "",
       "journal": "Comparative Osteology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_jveb_2011_08_004",
@@ -458,11 +1509,7 @@
       "abstract": "",
       "journal": "Journal of Veterinary Behavior",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_czoolo_58_5_698",
@@ -472,11 +1519,7 @@
       "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-662-06820-5_25",
@@ -486,11 +1529,7 @@
       "abstract": "",
       "journal": "Ecology of Ungulates",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_s0168-1591(05)80001-2",
@@ -500,11 +1539,7 @@
       "abstract": "",
       "journal": "Applied Animal Behaviour Science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-1-4613-4470-4_16",
@@ -514,11 +1549,7 @@
       "abstract": "",
       "journal": "Handbook of Genetics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_10_2003_tde-23062004-171625",
@@ -528,14 +1559,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

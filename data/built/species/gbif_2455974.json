@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 5,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 26,
+    "claim_count": 4,
+    "doi_count": 20,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -49,8 +49,8 @@
     "territorial defence"
   ],
   "functions": [
-    "mate attraction",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,7 +58,7 @@
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -66,31 +66,85 @@
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 826,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 825,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 824,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 823,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -98,6 +152,13 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1016/j.beproc.2020.104294",
+      "url": "https://doi.org/10.1016/j.beproc.2020.104294",
+      "title": "Neural and endocrine responses to social stress differ during actual and virtual aggressive interactions or physiological sign stimuli",
+      "year": 2021,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1079/cabicompendium.5491",
       "url": "https://doi.org/10.1079/cabicompendium.5491",
@@ -155,11 +216,25 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1121/1.3458813",
+      "url": "https://doi.org/10.1121/1.3458813",
+      "title": "The auditory brainstem response in two lizard species",
+      "year": 2010,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1111/j.1095-8312.1996.tb01442.x",
       "url": "https://doi.org/10.1111/j.1095-8312.1996.tb01442.x",
       "title": "Armaments and ornaments: an evolutionary explanation of traits of dual utility",
       "year": 1996,
       "source": "openalex"
+    },
+    {
+      "doi": "10.2307/1444828",
+      "url": "https://doi.org/10.2307/1444828",
+      "title": "Oviposition Frequency of Anolis carolinensis",
+      "year": 1985,
+      "source": "crossref"
     },
     {
       "doi": "10.2307/1442932",
@@ -220,6 +295,46 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_35320812",
+      "title": "Signaler's Vasotocin Alters the Relationship between the Responder's Forebrain Catecholamines and Communication Behavior in Lizards (Anolis carolinensis)",
+      "year": 2022,
+      "doi": "10.1159/000524217",
+      "abstract": "Dynamic fluctuations in the distribution of catecholamines across the brain modulate the responsiveness of vertebrates to social stimuli. Previous work demonstrates that green anoles (Anolis carolinensis) increase chemosensory behavior in response to males treated with exogenous arginine vasotocin (AVT), but the neurochemical mechanisms underlying this behavioral shift remains unclear. Since central catecholamine systems, including dopamine, rapidly activate in response to social stimuli, we tested whether exogenous AVT in signalers (stimulus animals) impacts catecholamine concentrations in the forebrain (where olfactory and visual information are integrated and processed) of untreated lizard responders. We also tested whether AVT influences the relationship between forebrain catecholamine concentrations and communication behavior in untreated receivers. We measured global catecholamine (dopamine = DA, epinephrine = Epi, and norepinephrine = NE) concentrations in the forebrain of untreated responders using high-performance liquid chromatography-mass spectrometry following either a 30-min social interaction with a stimulus male or a period of social isolation. Stimulus males were injected with exogenous AVT or vehicle saline (SAL). We found that global DA, but not Epi or NE, concentrations were elevated in lizards responding to SAL-males relative to isolated lizards. Lizards interacting with AVT-males had DA, Epi and NE concentrations that were not significantly different from SAL or isolated groups. For behavior, we found a significant effect of social treatment (AVT vs. SAL) on the relationships between (1) DA concentrations and the motivation to perform a chemical display (latency to tongue flick) and (2) Epi concentrations and time spent displaying mostly green body coloration. We also found a significant negative correlation between DA concentrations and the latency to perform a visual display but found no effect of social treatment on this relationship. These d",
+      "journal": "Brain, behavior and evolution",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33940600",
+      "title": "Chemical Communication in Lizards and a Potential Role for Vasotocin in Modulating Social Interactions",
+      "year": 2021,
+      "doi": "10.1093/icb/icab044",
+      "abstract": "Lizards use chemical communication to mediate many reproductive, competitive, and social behaviors, but the neuroendocrine mechanisms underlying chemical communication in lizards are not well understood and understudied. By implementing a neuroendocrine approach to the study of chemical communication in reptiles, we can address a major gap in our knowledge of the evolutionary mechanisms shaping chemical communication in vertebrates. The neuropeptide arginine vasotocin (AVT) and its mammalian homolog vasopressin are responsible for a broad spectrum of diversity in competitive and reproductive strategies in many vertebrates, mediating social behavior through the chemosensory modality. In this review, we posit that, though limited, the available data on AVT-mediated chemical communication in lizards reveal intriguing patterns that suggest AVT plays a more prominent role in lizard chemosensory behavior than previously appreciated. We argue that these results warrant more research into the mechanisms used by AVT to modify the performance of chemosensory behavior and responses to conspecific chemical signals. We first provide a broad overview of the known social functions of chemical signals in lizards, the glandular sources of chemical signal production in lizards (e.g., epidermal secretory glands), and the chemosensory detection methods and mechanisms used by lizards. Then, we review the locations of vasotocinergic populations and neuronal projections in lizard brains, as well as sites of peripheral receptors for AVT in lizards. Finally, we end with a case study in green anoles (Anolis carolinensis), discussing findings from recently published work on the impact of AVT in adult males on chemosensory communication during social interactions, adding new data from a similar study in which we tested the impact of AVT on chemosensory behavior of adult females. We offer concluding remarks on addressing several fundamental questions regarding the role of AVT in chemosensory co",
+      "journal": "Integrative and comparative biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33290833",
+      "title": "Neural and endocrine responses to social stress differ during actual and virtual aggressive interactions or physiological sign stimuli",
+      "year": 2021,
+      "doi": "10.1016/j.beproc.2020.104294",
+      "abstract": "Neural and endocrine responses provide quantitative measures that can be used for discriminating behavioral output analyses. Experimental design differences often make it difficult to compare results with respect to the mechanisms producing behavioral actions. We hypothesize that comparisons of distinctive behavioral paradigms or modification of social signals can aid in teasing apart the subtle differences in animal responses to social stress. Eyespots are a unique sympathetically activated sign stimulus of the lizard Anolis carolinensis that influence aggression and social dominance. Eyespot formation along with measurements of central and plasma monoamines enable comparison of paired male aggressive interactions with those provoked by a mirror image. The results suggest that experiments employing artificial application of sign stimuli in dyadic interactions amplify behavioral, neural and endocrine responses, and foreshorten behavioral interactions compared to those that develop among pairs naturally. While the use of mirrors to induce aggressive behavior produces simulated interactions that appear normal, some behavioral, neural, and endocrine responses are amplified in these experiments as well. In contrast, mirror image interactions also limit the level of certain behavioral and neuroendocrine responses. As true social communication does not occur during interaction with mirror images, rank relationships can never be established. Multiple experimental approaches, such as combining naturalistic social interactions with virtual exchanges and/or manipulation of sign stimuli, can often provide added depth to understanding the motivation, context, and mechanisms that produce specific behaviors. The addition of endocrine and neural measurements helps identify the contributions of specific behavioral elements to the social processes proceeding.",
+      "journal": "Behavioural processes",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32439348",
+      "title": "Arginine vasotocin impacts chemosensory behavior during social interactions of Anolis carolinensis lizards",
+      "year": 2020,
+      "doi": "10.1016/j.yhbeh.2020.104772",
+      "abstract": "In reptiles, arginine vasotocin (AVT) impacts the performance of and response to visual social signals, but whether AVT also operates within the chemosensory system as arginine vasopressin (AVP) does in mammals is unknown, despite social odors being potent modifiers of competitive and appetitive behavior in reptiles. Here, we ask whether elevated levels of exogenous AVT impact rates of chemical display behavior (e.g. tongue flicks) in adult males, and whether conspecific males or females can chemically discriminate between competitor males based on differing levels of exogenous AVT in green anoles (Anolis carolinensis). We injected wild-caught green anole males with either AVT (AVT-Males) or a vehicle control (CON-Males) solution, then presented treated males with a conspecific stimulus (Intruder-Male or Intruder-Female) and filmed 30-minute interactions. We found that AVT-Males were faster than CON-Males to perform a tongue flick to conspecifics, and faster to chemically display toward Intruder-Females, suggesting AVT increased male interest in available chemical information during social encounters. Intruders performed more lip smack behavior when interacting with AVT-Males than with CON-Males, and Intruder-Males performed more tongue flick behavior when interacting with AVT-Males than with CON-Males, suggesting anoles can discriminate between conspecifics based on exogenous AVT levels. We also found a reduction in Intruder movement behavior when Intruders were paired with AVT-Males. This study provides empirical support for AVT-mediated chemosensory behavior in reptilian social interactions, in a microsmatic lizard species, suggesting the mechanism by which mammalian AVP and non-mammalian AVT mediate chemosensory behavior during social interactions may be evolutionarily conserved.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1079_cabicompendium_5491",
       "title": "Anolis carolinensis",
       "year": 2019,
@@ -227,11 +342,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_cz_zoy043",
@@ -241,11 +352,7 @@
       "abstract": "It has been 25 years since the formalization of the Sensory Drive hypothesis was published in the <i>American Naturalist</i> (1992). Since then, there has been an explosion of research identifying its utility in contributing to our understanding of inter- and intra-specific variation in sensory systems and signaling properties. The main tenet of Sensory Drive is that environmental characteristics will influence the evolutionary trajectory of both sensory (detecting capabilities) and signaling (detectable features and behaviors) traits in predictable directions. We review the accumulating evidence in 154 studies addressing these questions and categorized their approach in terms of testing for environmental influence on sensory tuning, signal characteristics, or both. For the subset of studies that examined sensory tuning, there was greater support for Sensory Drive processes shaping visual than auditory tuning, and it was more prevalent in aquatic than terrestrial habitats. Terrestrial ",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fendo_2017_00186",
@@ -255,11 +362,17 @@
       "abstract": "Arginine vasotocin (AVT) is the non-mammalian homolog of arginine vasopressin (AVP) and, like vasopressin, serves as an important modulator of social behavior in addition to its peripheral functions related to osmoregulation, reproductive physiology, and stress hormone release. In amphibians and reptiles, the neuroanatomical organization of brain AVT cells and fibers broadly resembles that seen in mammals and other taxa. Both parvocellular and magnocellular AVT-containing neurons are present in multiple populations located mainly in the basal forebrain from the accumbens-amygdala area to the preoptic area and hypothalamus, from which originate widespread fiber connections spanning the brain with a particularly heavy innervation of areas associated with social behavior and decision-making. As for mammalian AVP, AVT is present in greater amounts in males in many brain areas, and its presence varies seasonally, with hormonal state, and in males with differing social status. AVT's social i",
       "journal": "Frontiers in Endocrinology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28385798",
+      "title": "Visual acuity and signal color pattern in an",
+      "year": 2017,
+      "doi": "10.1242/jeb.150458",
+      "abstract": "",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1073_pnas_1407190111",
@@ -269,11 +382,7 @@
       "abstract": "Signaling individuals must effectively capture and hold the attention of intended conspecific receivers while limiting eavesdropping by potential predators. A possible mechanism for achieving this balance is for individuals to modulate the physical properties of their signals or to alter the proportion of time spent signaling, depending upon local levels of predation pressure. We test the hypothesis that prey can alter their visual signaling behavior to decrease conspicuousness and potentially limit predation risk via modulation of signal properties or display rate. To do so, we conducted a manipulative experiment in nature to evaluate the possible effect of predation pressure on the physical properties of movement-based signals and on the proportion of time spent signaling by using a well-understood predator-prey system in the Bahamas, the semiarboreal lizard Anolis sagrei, and one of its main predators, the curly-tailed lizard Leiocephalus carinatus. We find that on islands onto whic",
       "journal": "Proceedings of the National Academy of Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2011_0213",
@@ -283,11 +392,7 @@
       "abstract": "The 'social complexity hypothesis' for communication posits that groups with complex social systems require more complex communicative systems to regulate interactions and relations among group members. Complex social systems, compared with simple social systems, are those in which individuals frequently interact in many different contexts with many different individuals, and often repeatedly interact with many of the same individuals in networks over time. Complex communicative systems, compared with simple communicative systems, are those that contain a large number of structurally and functionally distinct elements or possess a high amount of bits of information. Here, we describe some of the historical arguments that led to the social complexity hypothesis, and review evidence in support of the hypothesis. We discuss social complexity as a driver of communication and possible causal factor in human language origins. Finally, we discuss some of the key current limitations to the soc",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3819_ccbr_2012_70006",
@@ -297,11 +402,7 @@
       "abstract": "Evidence is here summarized that animal species belonging to distant taxa show forms of social recognition, a sophisticated cognitive ability adaptive in most social interactions. The paper then proceeds to review evidence of functional lateralization for this cognitive ability. The main focus of this review is evidence obtained in domestic chickens, the animal model employed in the authors' laboratories, but we also discuss comparisons with data from species ranging from fishes, amphibians and reptiles, to other birds and mammals. A consistent pattern emerges, pointing toward a right hemisphere dominance, in particular for discrimination of social companions and individual (or familiarity-based) recognition, whereas the left hemisphere could be specialized for \"category-based\" distinctions (e.g., conspecifics versus heterospecifics). This pattern of results is discussed in relation to a more general specialization and processing styles of the two sides of the brain, with the right hem",
       "journal": "Comparative Cognition & Behavior Reviews",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0020313",
@@ -311,11 +412,17 @@
       "abstract": "Social behavior can influence physiological systems dramatically yet the sensory cues responsible are not well understood. Behavior of male African cichlid fish, Astatotilapia burtoni, in their natural habitat suggests that visual cues from conspecifics contribute significantly to regulation of social behavior. Using a novel paradigm, we asked whether visual cues alone from a larger conspecific male could influence behavior, reproductive physiology and the physiological stress response of a smaller male. Here we show that just seeing a larger, threatening male through a clear barrier can suppress dominant behavior of a smaller male for up to 7 days. Smaller dominant males being \"attacked\" visually by larger dominant males through a clear barrier also showed physiological changes for up to 3 days, including up-regulation of reproductive- and stress-related gene expression levels and lowered plasma 11-ketotestesterone concentrations as compared to control animals. The smaller males modif",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20816970",
+      "title": "Relationships among hormones, brain and motivated behaviors in lizards",
+      "year": 2011,
+      "doi": "10.1016/j.yhbeh.2010.08.014",
+      "abstract": "Lizards provide a rich opportunity for investigating the mechanisms associated with arousal and the display of motivated behaviors. They exhibit diverse mating strategies and modes of conspecific communication. This review focuses on anole lizards, of which green anoles (Anolis carolinensis) have been most extensively studied. Research from other species is discussed in that context. By considering mechanisms collectively, we can begin to piece together neural and endocrine factors mediating the stimulation of sexual and aggressive behaviors in this group of vertebrates.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_beheco_arq143",
@@ -325,11 +432,17 @@
       "abstract": "Conventional communication, like human speech or the bee dance, consists of arbitrary signals associated with meaning through convention. Acoustic conventions seem to be frequent among passerine birds having song repertoire variability, but such behaviors are unknown in nonpasserine species producing simple calls. Because the variability of vocalizations is relatively small in nonpasserine birds, no study has investigated their ability to create conventional signals. We experimentally show here that Corncrake males (Crex crex), modifying rhythm in simple 2-syllable calls, signal their neighbors about their aggressive motivation. Males responded more aggressively (approached the speaker and attacked it) to playbacks with intermittent than with monotonous rhythm, and males calling with a more intermittent rhythm were more aggressive. The presence of convention in this system requires that the production of alternative signals is not linked with differential production costs. In Corncrake",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20707448",
+      "title": "The auditory brainstem response in two lizard species",
+      "year": 2010,
+      "doi": "10.1121/1.3458813",
+      "abstract": "Although lizards have highly sensitive ears, it is difficult to condition them to sound, making standard psychophysical assays of hearing sensitivity impractical. This paper describes non-invasive measurements of the auditory brainstem response (ABR) in both Tokay geckos (Gekko gecko; nocturnal animals, known for their loud vocalizations) and the green anole (Anolis carolinensis, diurnal, non-vocal animals). Hearing sensitivity was measured in 5 geckos and 7 anoles. The lizards were sedated with isoflurane, and ABRs were measured at levels of 1 and 3% isoflurane. The typical ABR waveform in response to click stimulation showed one prominent and several smaller peaks occurring within 10 ms of the stimulus onset. ABRs to brief tone bursts revealed that geckos and anoles were most sensitive between 1.6-2 kHz and had similar hearing sensitivity up to about 5 kHz (thresholds typically 20-50 dB SPL). Above 5 kHz, however, anoles were more than 20 dB more sensitive than geckos and showed a wider range of sensitivity (1-7 kHz). Generally, thresholds from ABR audiograms were comparable to those of small birds. Best hearing sensitivity, however, extended over a larger frequency range in lizards than in most bird species.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1095-8312_1996_tb01442_x",
@@ -339,11 +452,37 @@
       "abstract": "Secondary sexual characters in many species function both in male-male competition and as cues for female choice.Based on a literature compilation of existing knowledge of traits with this dual function, we propose that they commonly arise through intrasexual selection processes and serve as honest signals to other males regarding fighting ability or dominance.Faking these traits, here called armaments, (i.e.weapons and status badges) is difficult, as they are constantly put to trial in male-male contests.Females that subsequently utilize them as indicators of male phenotypic quality when selecting a partner Wiu benefit by acquiring males of higher quality to father their offspring.Thus, evolution of armaments through male-male competition is seen as a usually initiating process, whereas female choice later may assume a role as an additional selective factor.The reverse, that males use information from traits evolved through female choice, is, however, also possible.The traditional vie",
       "journal": "Biological Journal of the Linnean Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_1460444",
+      "title": "Arginine vasotocin concentrations in the supraoptic nucleus of the lizard Anolis carolinensis are associated with reproductive state but not oviposition",
+      "year": 1992,
+      "doi": "10.1002/jez.1402640412",
+      "abstract": "Arginine vasotocin (AVT) is a neuropeptide involved in reproductive function in many nonmammalian vertebrates. We determined brain and plasma AVT concentrations during the estrous cycle and oviposition in the lizard Anolis carolinensis. There were no differences in AVT concentrations in the plasma or any brain region during the ovipositional sequence. However, we found that females with an egg in each oviduct and a large pre-ovulatory follicle (diameter > 4.5 mm) in one-ovary had significantly higher AVT concentrations in the supraoptic nucleus (SON) of the hypothalamus than did females with small pre-ovulatory follicles in both ovaries. In a second study, females with an egg in each oviduct and a large pre-ovulatory follicle had significantly greater AVT concentrations in the SON than females with only one oviductal egg and a large pre-ovulatory follicle or females with an egg in each oviduct and a small pre-ovulatory follicle in each ovary. Concentrations of AVT in other brain regions and in the plasma did not differ among these groups. Changes in steroid profiles during estrous and/or direct neural communication between the uterus, ovary, and brain may account for the changes in AVT concentrations seen in the supraoptic nucleus during the estrous cycle of Anolis carolinensis.",
+      "journal": "The Journal of experimental zoology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_2302561",
+      "title": "Asymmetry in diencephalic monoamine metabolism is related to side of ovulation in a reptile",
+      "year": 1990,
+      "doi": "10.1016/0006-8993(90)91250-k",
+      "abstract": "The green anole lizard (Anolis carolinensis), like humans and other higher primates, alternates ovulation between left and right ovaries. To test the possible role of hypothalamic function in ovarian asymmetry, we measured levels of 3 major monoamine neurotransmitters (norepinephrine; dopamine; serotonin) and their metabolites in microdissected left and right diencephalon from lizards during the first cycle of ovulation in the spring. All of the metabolite/parent neurotransmitter ratios were significantly higher on the side of the diencephalon ipsilateral to the quiescent ovary than on the side of the maturing ovary. Simultaneous ovarian and brain asymmetry suggests direct communication between the ovary and brain, presumably through the ovarian innervation.",
+      "journal": "Brain research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_2307_1444828",
+      "title": "Oviposition Frequency of Anolis carolinensis",
+      "year": 1985,
+      "doi": "10.2307/1444828",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1442932",
@@ -353,11 +492,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1438587",
@@ -367,11 +502,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1436816",
@@ -381,11 +512,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31390_gradschool_disstheses_8019",
@@ -395,11 +522,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31390_gradschool_disstheses_648",
@@ -409,11 +532,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31390_gradschool_disstheses_2166",
@@ -423,11 +542,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31390_gradschool_disstheses_3455",
@@ -437,14 +552,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 26,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

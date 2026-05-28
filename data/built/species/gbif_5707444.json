@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 20,
-    "claim_count": 9,
-    "doi_count": 21,
-    "media_count": 0
+    "paper_count": 36,
+    "claim_count": 27,
+    "doi_count": 27,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -43,18 +43,18 @@
   "inat_id": null,
   "vocalisations": [
     "belch vocalisation",
-    "chest beat",
-    "scream"
+    "scream",
+    "chest beat"
   ],
   "contexts": [
-    "alarm",
     "dominance display",
-    "social communication"
+    "social communication",
+    "alarm"
   ],
   "functions": [
-    "alarm",
+    "status signalling",
     "social coordination",
-    "status signalling"
+    "alarm"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -62,70 +62,458 @@
         "value": "belch vocalisation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "chest beat",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "scream",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "chest beat",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "dominance display",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
+        "evidence_count": 2
+      },
       {
         "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      }
+    ],
+    "functions": [
+      {
+        "value": "status signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "social coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "status signalling",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1767,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1766,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1765,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1764,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1763,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1762,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1761,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1760,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1759,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1758,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1757,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1756,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1755,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1754,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1753,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1752,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1751,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1750,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1749,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1748,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1747,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1746,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1745,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1744,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1743,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1742,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1741,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/ajpa.70061",
+      "url": "https://doi.org/10.1002/ajpa.70061",
+      "title": "Functional and Morphological Differences in the Play Face and Full Play Face in Lowland Gorillas, a Hominid Species: Implications for the Evolutionary Roots of Smile and Laugh Face",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-024-75238-y",
+      "url": "https://doi.org/10.1038/s41598-024-75238-y",
+      "title": "Social negotiation and \"accents\" in Western lowland gorillas' gestural communication",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2024.0597",
+      "url": "https://doi.org/10.1098/rspb.2024.0597",
+      "title": "Vocal consensus building for collective departures in wild western gorillas",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-021-01543-y",
+      "url": "https://doi.org/10.1007/s10071-021-01543-y",
+      "title": "Who is there? Captive western gorillas distinguish human voices based on familiarity and nature of previous interactions",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/cz/zoab092",
+      "url": "https://doi.org/10.1093/cz/zoab092",
+      "title": "Playing together, laughing together: rapid facial mimicry and social sensitivity in lowland gorillas",
+      "year": 2022,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1038/s41598-021-86261-8",
       "url": "https://doi.org/10.1038/s41598-021-86261-8",
@@ -225,6 +613,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1075/is.10.2.02ros",
+      "url": "https://doi.org/10.1075/is.10.2.02ros",
+      "title": "Sequential list-learning by an adolescent lowland gorilla (<i>Gorilla gorilla gorilla</i>) using an infrared touchframe apparatus",
+      "year": 2009,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1037/e604012013-038",
       "url": "https://doi.org/10.1037/e604012013-038",
       "title": "Communication Of Where An Event Occurred By A Gorilla (Gorilla gorilla gorilla)",
@@ -276,6 +671,86 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40341893",
+      "title": "Functional and Morphological Differences in the Play Face and Full Play Face in Lowland Gorillas, a Hominid Species: Implications for the Evolutionary Roots of Smile and Laugh Face",
+      "year": 2025,
+      "doi": "10.1002/ajpa.70061",
+      "abstract": "OBJECTIVE: Play Face (PF) and Full Play Face (FPF) in the great apes-homologous to human smile and laugh-face-have been considered a single phenomenon. However, if natural selection has preserved two expressions, probably their adaptive value differs. MATERIALS AND METHODS: We collected video data on play interactions in two lowland gorilla groups (N = 21; Gorilla gorilla gorilla) housed at La Vallée des Singes and the ZooParc de Beauval (France). Lacking a tool tailored for gorillas during this study, we analyzed facial action-unit activation via chimpFACS and OpenFace. RESULTS: We found that PF and FPF activated partly different action units as it occurs for chimpanzees and humans' PF/FPF. We detected the rapid replication (Rapid Facial Mimicry [RFM]) of either PF or FPF that was associated with longer play sessions. Not-mimicked PF was linked to increased play session variability (different types of play patterns) measured via the Shannon Index, whereas not-mimicked FPF was associated with increased play asymmetry (imbalance between offensive/defensive patterns) measured via the Play Asymmetry Index. DISCUSSION: Lowland gorillas may use PF to manage sessions that are more complex in terms of pattern types and FPF-a more salient signal-to prevent misunderstandings when the session is imbalanced. RFM of both expressions may favor the prolongation of play sessions by increasing player synchronization and possibly emotional sharing. Our study opens the door to further comparative studies on playful expressions in humans and other primates as a way to fine-tune possible emotional communication and delineate potential evolutionary roots of Hominidae facial communication.",
+      "journal": "American journal of biological anthropology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39465246",
+      "title": "Social negotiation and \"accents\" in Western lowland gorillas' gestural communication",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-75238-y",
+      "abstract": "Recent findings on chimpanzee infants' gestural development show that they use some gesture types flexibly and adjust them depending on their interaction partner and social context, suggesting that gestural communication is partly learnt and partly genetically determined. However, how gesture types are shaped by social and demographic factors remains unclear. We addressed this question by focusing on gesture type morphology and conducted a fined-grained analysis of gestural form during intraspecific social-play interactions in two captive groups of Western lowland gorillas (Gorilla gorilla gorilla). We focused on the most frequent gesture types (BEAT CHEST, SLAP BODY, SLAP GROUND and TOUCH BODY) produced by subadults (infants, juveniles and adolescents). We considered twelve morphological gesture characteristics (e.g., horizontal and vertical hand trajectories, fingers flexion and spread). Our multifactorial investigation shows that morphological characteristics of distinct gesture types can be shaped by social factors, namely signaller's sociodemographic characteristics (group and kinship), signaller's behavioural characteristics (body posture) and context-related characteristics (recipient's sex, attentional state and position in the signaller's visual field). We nurtured the lively debate concerning gesture origins by revealing the existence of \"accents\" in non-verbal communication and the highly variable adjustment of gestural form to different conspecifics and interactional characteristics, which supports the revised social negotiation hypothesis.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39437843",
+      "title": "Vocal consensus building for collective departures in wild western gorillas",
+      "year": 2024,
+      "doi": "10.1098/rspb.2024.0597",
+      "abstract": "The ability to coordinate actions is of vital importance for group-living animals, particularly in relation to travel. Groups can only remain cohesive if members possess a cooperative mechanism to overcome differences in individual priorities and social power when coordinating departures. To better understand how hominids achieve spatio-temporally coordinated group movements, we investigated vocally initiated group departures in three habituated groups of western gorillas (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38425016",
+      "title": "Prosocial or photo preferences? Gorillas' prosocial choices using a touchscreen",
+      "year": 2024,
+      "doi": "10.1002/ajp.23612",
+      "abstract": "Three male Western lowland gorillas (Gorilla gorilla gorilla) were given the opportunity to select their own or conspecific photos on a touchscreen to indicate whether they wished the experimenter to deliver a food reward only to them or to them and the selected conspecific(s). This is only the second symbolic test of prosocial preferences with apes using a touchscreen, and the first with gorillas. The use of self and other photographs as symbols of prosocial choices was intuitive while controlling for the distraction of visible food rewards, and allowing for tests of transfer to further validate apparent prosocial intentions. Gorillas rapidly learned to avoid selecting a photograph of an empty enclosure that resulted in no rewards for any of the gorillas and transferred this learning to a novel photograph. The gorillas did not behave in a consistently self-interested or prosocial manner but they clearly rejected the opportunity to choose spitefully. Their preferences for certain photographs did not necessarily reflect a preference to be prosocial toward that particular individual because these preferences did not transfer to novel photographs of the same individuals. The results call into question whether gorillas recognize themselves and conspecifics in photographs but cannot conclusively speak to whether gorillas have prosocial preferences. They do stress the importance of carefully probing alternative explanations when inferring intentions from observable behaviors.",
+      "journal": "American journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38252010",
+      "title": "MULTISPECIES",
+      "year": 2024,
+      "doi": "10.1638/2022-0116",
+      "abstract": "",
+      "journal": "Journal of zoo and wildlife medicine : official publication of the American Association of Zoo Veterinarians",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36324534",
+      "title": "Playing together, laughing together: rapid facial mimicry and social sensitivity in lowland gorillas",
+      "year": 2022,
+      "doi": "10.1093/cz/zoab092",
+      "abstract": "In nonhuman animals, the phenomenon of rapid facial mimicry (RFM)-the automatic, involuntary, and rapid (<1 s) replication of others' facial expressions-has been mainly investigated in the playful domain. In immature lowland gorillas",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34873806",
+      "title": "Social pressure drives \"conversational rules\" in great apes",
+      "year": 2022,
+      "doi": "10.1111/brv.12821",
+      "abstract": "In the last decade, two hypotheses, one on the evolution of animal vocal communication in general and the other on the origins of human language, have gained ground. The first hypothesis argues that the complexity of communication co-evolved with the complexity of sociality. Species forming larger groups with complex social networks have more elaborate vocal repertoires. The second hypothesis posits that the core of communication is represented not only by what can be expressed by an isolated caller, but also by the way that vocal interactions are structured, language being above all a social act. Primitive forms of conversational rules based on a vocal turn-taking principle are thought to exist in primates. To support and bring together these hypotheses, more comparative studies of socially diverse species at different levels of the primate phylogeny are needed. However, the majority of available studies focus on monkeys, primates that are distant from the human lineage. Great apes represent excellent candidates for such comparative studies because of their phylogenetic proximity to humans and their varied social lives. We propose that studying vocal turn-taking in apes could address several major gaps regarding the social relevance of vocal turn-taking and the evolutionary trajectory of this behaviour among anthropoids. Indeed, how the social structure of a species may influence the vocal interaction patterns observed among group members remains an open question. We gathered data from the literature as well as original unpublished data (where absent in the literature) on four great ape species: chimpanzees Pan troglodytes, bonobos Pan paniscus, western lowland gorillas Gorilla gorilla gorilla and Bornean orang-utans Pongo pygmaeus. We found no clear-cut relationship between classical social complexity metrics (e.g. number of group members, interaction rates) and vocal complexity parameters (e.g. repertoire size, call rates). Nevertheless, the nature of the society",
+      "journal": "Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34390429",
+      "title": "Who is there? Captive western gorillas distinguish human voices based on familiarity and nature of previous interactions",
+      "year": 2022,
+      "doi": "10.1007/s10071-021-01543-y",
+      "abstract": "The ability to recognize conspecifics by their acoustic signals is of crucial importance to social animals, especially where visibility is limited, because it allows for discrimination between familiar and unfamiliar individuals and facilitates associations with and the avoidance of particular conspecifics. Animals may also benefit from an ability to recognize and use the information coded into the auditory signals of other species. Companion species such as dogs, cats, and horses are able to discriminate between familiar and unfamiliar human voices; however, whether this ability is widespread across vertebrates is still unknown. Using playback experiments, we tested whether western gorillas living at Zoo Atlanta were able to discriminate between the voices of subgroups of people: i.e., unfamiliar individuals, familiar individuals with whom the gorillas had positive interactions, and familiar individuals with whom they had negative interactions. Gorillas responded significantly more often (longer gazing duration, higher gazing frequency, shorter latency, and larger number of distress behaviors) to the voices of unfamiliar and familiar-negative individuals than to those of familiar-positive individuals, indicating that they recognized the voices of subgroup of people based on familiarity and possibly the nature of the relationship with them. Future studies should determine whether this is also the case in the wild, where interspecific associations with humans are less intense than they are in captive settings.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1111_brv_12821",
       "title": "Social pressure drives “conversational rules” in great apes",
       "year": 2021,
@@ -283,11 +758,7 @@
       "abstract": "In the last decade, two hypotheses, one on the evolution of animal vocal communication in general and the other on the origins of human language, have gained ground. The first hypothesis argues that the complexity of communication co-evolved with the complexity of sociality. Species forming larger groups with complex social networks have more elaborate vocal repertoires. The second hypothesis posits that the core of communication is represented not only by what can be expressed by an isolated caller, but also by the way that vocal interactions are structured, language being above all a social act. Primitive forms of conversational rules based on a vocal turn-taking principle are thought to exist in primates. To support and bring together these hypotheses, more comparative studies of socially diverse species at different levels of the primate phylogeny are needed. However, the majority of available studies focus on monkeys, primates that are distant from the human lineage. Great apes re",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_s41598-021-86261-8",
@@ -297,11 +768,7 @@
       "abstract": "Acoustic signals that reliably indicate body size, which usually determines competitive ability, are of particular interest for understanding how animals assess rivals and choose mates. Whereas body size tends to be negatively associated with formant dispersion in animal vocalizations, non-vocal signals have received little attention. Among the most emblematic sounds in the animal kingdom is the chest beat of gorillas, a non-vocal signal that is thought to be important in intra and inter-sexual competition, yet it is unclear whether it reliably indicates body size. We examined the relationship among body size (back breadth), peak frequency, and three temporal characteristics of the chest beat: duration, number of beats and beat rate from sound recordings of wild adult male mountain gorillas. Using linear mixed models, we found that larger males had significantly lower peak frequencies than smaller ones, but we found no consistent relationship between body size and the temporal characte",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_4324_9781003064541-5",
@@ -311,11 +778,37 @@
       "abstract": "",
       "journal": "The Gestural Communication of Apes and Monkeys",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_32162933",
+      "title": "Video-mediated behavior in gorillas (gorilla gorilla gorilla): A stage in the development of self-recognition in a juvenile male?",
+      "year": 2020,
+      "doi": "10.1037/com0000216",
+      "abstract": "The anomalous position of gorillas (",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31912896",
+      "title": "Brief communication: Maximum ingested bite size in captive western lowland gorillas (Gorilla gorilla gorilla)",
+      "year": 2020,
+      "doi": "10.1002/ajpa.23995",
+      "abstract": "OBJECTIVES: Previously, we found that maximum ingested bite size (V MATERIALS AND METHODS: Five gorillas (Gorilla gorilla gorilla-G. g. gorilla) were studied to ascertain V RESULTS: Gorilla V CONCLUSIONS: When these data were compared to those from our previous studies, we found that gorillas consumed relatively slightly smaller volumes of food compared to the trend found across primates. However, because the more frugivorous gorillas consumed relatively larger pieces of food than the large folivorous monkeys previously studied, including the gorilla data increased the slope of the linear regression between body mass and V",
+      "journal": "American journal of physical anthropology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31894436",
+      "title": "The context of chest beating and hand clapping in wild western gorillas (Gorilla gorilla gorilla)",
+      "year": 2020,
+      "doi": "10.1007/s10329-019-00782-5",
+      "abstract": "Loud auditory gestures that are produced by repetitively percussing body parts are rare in primate repertoires and have been mostly observed in captive settings. Gorillas produce two of the most conspicuous long-range signals of this type: chest beating and hand clapping. Here we present the first systematic analysis of chest beating (n = 63) and hand clapping (n = 88) in wild western gorillas to assess the behavioral contexts in which they emerged, the flexibility of their use, and the age-sex classes that produced them. Data were collected at the Mondika Research Center, Republic of Congo, from a habituated gorilla group during two separate collection periods (June-August 2007; May 2009-June 2010). Our results show that both signals are highly context specific, with chest beating used only during display and/or play and hand clapping used only during vigilance and/or play. Age-sex classes differed in their use and production of these signals in that immature individuals used both signals only when playing, the male only used chest beating when displaying and never hand clapped, and adult females used both signals flexibly in two contexts instead of one. This study confirms previous anecdotal accounts of loud auditory gestures in western gorillas and adds crucial information on their flexibility across age categories. While chest beating has been described in both gorilla species, hand clapping as a way to communicate potential danger is unique to western gorillas. Further studies should focus on determining the variations in frequency and use across geographically distant populations.",
+      "journal": "Primates; journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_81647",
@@ -325,11 +818,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_81648",
@@ -339,11 +828,47 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31094019",
+      "title": "Comparative chemical analysis of body odor in great apes",
+      "year": 2019,
+      "doi": "10.1002/ajp.22976",
+      "abstract": "Olfaction is important across the animal kingdom for transferring information on, for example, species, sex, group membership, or reproductive parameters. Its relevance has been established in primates including humans, yet research on great apes still is fragmentary. Observational evidence indicates that great apes use their sense of smell in various contexts, but the information content of their body odor has not been analyzed. Our aim was therefore to compare the chemical composition of body odor in great ape species, namely Sumatran orangutans (Pongo abelii (Lesson, 1827), one adult male, five adult females, four nonadults), Western lowland gorillas (Gorilla gorilla gorilla (Savage, 1847), one adult male, two adult females, one nonadult), common chimpanzees (Pan troglodytes (Blumenbach, 1775), four adult males, nine adult females, four nonadults), and bonobos (Pan paniscus (Schwarz, 1929), two adult males, four adult females, two nonadults). We collected 195 samples (five per individual) of 39 captive individuals using cotton swabs and analyzed them using gas chromatography mass spectrometry. We compared the sample richness and intensity, similarity of chemical composition, and relative abundance of compounds. Results show that species, age, and potentially sex have an impact on the variance between odor profiles. Richness and intensity varied significantly between species (gorillas having the highest, bonobos the lowest richness and intensity), and with age (both increasing with age). Richness and intensity did not vary between sexes. Odor samples of the same species were more similar to each other than samples of different species. Among all compounds identified some were associated with age (N = 7), sex (N = 6), and species-related (N = 37) variance. Our study contributes to the basic understanding of olfactory communication in hominids by showing that the chemical composition of body odor varies across species and individuals, containing potentially importan",
+      "journal": "American journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30880013",
+      "title": "Novelty Response of Wild African Apes to Camera Traps",
+      "year": 2019,
+      "doi": "10.1016/j.cub.2019.02.024",
+      "abstract": "Temperament and personality research in humans and nonhuman animals measures behavioral variation in individual, population, or species-specific traits with implications for survival and fitness, such as social status, foraging, and mating success [1-5]. Curiosity and risk-taking tendencies have been studied extensively across taxa by measuring boldness and exploration responses to experimental novelty exposure [3, 4, 6-15]. Here, we conduct a natural field experiment using wildlife monitoring technology to test variation in the reaction of wild great apes (43 groups of naive chimpanzees, bonobos, and western gorillas across 14 field sites in Africa) to a novel object, the camera trap. Bonobo and gorilla groups demonstrated a stronger looking impulse toward the camera trap device compared to chimpanzees, suggesting higher visual attention and curiosity. Bonobos were also more likely to show alarm and other fearful behaviors, although such neophobic (and conversely, neophilic) responses were generally rare. Among all three species, individuals looked at cameras longer when they were young, were associating with fewer individuals, and did not live near a long-term research site. Overall, these findings partially validate results from great ape novelty paradigms in captivity [7, 8]. We further suggest that species-typical leadership styles [16] and social and environmental effects, including familiarity with humans, best explain novelty responses of wild great apes. In sum, this study illustrates the feasibility of large-scale field experiments and the importance of both intrinsic and extrinsic factors in shaping animal curiosity. VIDEO ABSTRACT.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30589294",
+      "title": "Monkeys (Sapajus apella and Macaca tonkeana) and great apes (Gorilla gorilla, Pongo abelii, Pan paniscus, and Pan troglodytes) play for the highest bid",
+      "year": 2019,
+      "doi": "10.1037/com0000153",
+      "abstract": "Many studies investigate the decisions made by animals by focusing on their attitudes toward risk, that is, risk-seeking, risk neutrality, or risk aversion. However, little attention has been paid to the extent to which individuals understand the different odds of outcomes. In a previous gambling task involving 18 different lotteries (Pelé, Broihanne, Thierry, Call, & Dufour, 2014), nonhuman primates used probabilities of gains and losses to make their decision. Although the use of complex mathematical calculation for decision-making seemed unlikely, we applied a gradual decrease in the chances to win throughout the experiment. This probably facilitated the extraction of information about odds. Here, we investigated whether individuals would still make efficient decisions if this facilitating factor was removed. To do so, we randomized the order of presentation of the 18 lotteries. Individuals from 4 ape and 2 monkey species were tested. Only capuchin monkeys differed from others, gambling even when there was nothing to win. Randomizing the lottery presentation order leads all species to predominantly use a maximax heuristic. Individuals gamble as soon as there is at least one chance to win more than they already possess, whatever the risk. Most species also gambled more as the frequency of larger rewards increased. These results suggest optimistic behavior. The maximax heuristic is sometimes observed in human managerial and financial decision-making, where risk is ignored for potential gains, however low they may be. This suggests a shared and strong propensity in primates to rely on heuristics whenever complexity in evaluation of outcome odds arises. (PsycINFO Database Record (c) 2019 APA, all rights reserved).",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29756687",
+      "title": "Comparing the sniffing behavior of great apes",
+      "year": 2018,
+      "doi": "10.1002/ajp.22872",
+      "abstract": "The importance of smell in humans is well established but we know little about it in regard to our closest relatives, the great apes, as systematic studies on their olfactory behavior are still lacking. Olfaction has long been considered to be of lesser importance in hominids given their relatively smaller olfactory bulbs, fewer functional olfactory receptor genes than other species and absence of a functional vomeronasal organ. Therefore, the aim of this study was to evaluate the use of olfaction in hominids. In particular, we observed sniffing behavior in captive groups of four species (Sumatran orangutans, Pongo abelii; Western lowland gorillas, Gorilla gorilla gorilla; Western chimpanzees, Pan troglodytes verus; bonobos, Pan paniscus) and evaluated in which contexts sniffing was used. Our results show that all investigated species frequently used the sense of smell, and that the sniffing frequency varied with species, sex, age, and context. Most sniffing events were observed in gorillas in comparison to the three other species. Sniffing frequencies were also influenced by sex, with males sniffing slightly more often than females. Furthermore, our results revealed an effect of age, with younger individuals sniffing more often than older individuals. All species mainly sniffed in the non-social context (i.e., toward food and other environmental items) rather than in the social context (i.e., at conspecifics), suggesting that the evaluation of the environment and the nutritional value of food items is of major importance to all great ape species investigated here. In contrast to the other species and female chimpanzees, however, male chimpanzees most often used olfaction to inspect their conspecifics. Together, our study suggests that olfaction is likely to be more important in great apes than previously appreciated.",
+      "journal": "American journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1371_journal_pone_0144197",
@@ -353,11 +878,7 @@
       "abstract": "Many nonhuman primates produce food-associated vocalizations upon encountering or ingesting particular food. Concerning the great apes, only food-associated vocalizations of chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) have been studied in detail, providing evidence that these vocalizations can be produced flexibly in relation to a variety of factors, such as the quantity and quality of food and/or the type of audience. Only anecdotal evidence exists of eastern (Gorilla beringei) and western gorillas (Gorilla gorilla) producing food-associated vocalizations, termed SINGING or HUMMING. To enable a better understanding of the context in which these calls are produced, we investigated and compared the vocal behavior of two free-ranging groups of western lowland gorillas (Gorilla g. gorilla) at Mondika, Republic of Congo. Our results show that (a) food-associated call production occurs only during feeding and not in other contexts; (b) calling is not uniformly distributed acros",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5040_9781350962613",
@@ -367,11 +888,7 @@
       "abstract": "",
       "journal": "Gorilla Pull-Up",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_ajp_22462",
@@ -381,11 +898,7 @@
       "abstract": "Close distance vocalizations are an integral part of primate vocal communication. They exhibit large acoustic variation which has been suggested to constitute flexible responses to the highly variable social setting of group living animals. However, a recent study suggested that acoustic variation in close distance calls of baboons may also arise from acoustic adaptations to environmental factors in order to counteract sound degradation. We tested whether the variation in calling rate and acoustic structure of gorilla close distance vocalizations may serve to counteract distorting effects of vegetation during sound propagation. Using focal animal sampling we recorded the vocal behavior of 15 adult individuals living in two groups: one group of western lowland gorillas Gorilla gorilla gorilla and one group of mountain gorillas Gorilla beringei beringei. We considered the distance between the caller and its nearest neighbor as the minimum transmission distance of calls; while vegetation ",
       "journal": "American Journal of Primatology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_1568539x-00003175",
@@ -395,11 +908,7 @@
       "abstract": "Our understanding of the functioning of a species’ vocal repertoire can be greatly improved by investigating acoustic variation and using objective classification schemes based on acoustic structure. Here we used a syntactic approach to investigate the acoustic structure of the gorilla close distance vocalizations (‘close calls’), which remain as yet little understood. We examined 2130 calls of 10 mountain gorillas ( Gorilla beringei beringei ) from Bwindi Impenetrable National Park, Uganda, and 5 western lowland gorillas ( Gorilla gorilla gorilla ) from Bai Hokou, Central African Republic. We segmented calls into units using distinct acoustic features and employed model-based cluster analyses to define the repertoire of unit types. We then examined how unit types were combined into calls. Lastly, we compared unit type use between age–sex classes and the two study groups. We found that the gorilla close calls consist of 5 intergraded acoustic unit types which were flexibly but yet non-",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7287_peerj_158v0_1_reviews_2",
@@ -409,11 +918,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_158v0_1_reviews_1",
@@ -423,11 +928,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_eth_12122",
@@ -437,11 +938,7 @@
       "abstract": "Abstract Despite considerable interest in the vocal communication of non‐human primates and its possible relevance to theories of language evolution, we know surprisingly little about how vocal communication varies between closely related species inhabiting differing environments. Here, we provide the first quantitative description of the vocal repertoire, calling rates, and call usage in wild western gorillas and compare it to the previous work on mountain gorilla vocal behavior. During 1572 h of focal follows (n = 533), we collected behavioral data on and recorded vocalizations (n = 2163) of eight individuals in one group at M ondika R esearch C enter ( R epublic of C ongo). We supplemented these data with opportunistic recordings of an additional adult male in a second group. We used discriminant function analysis to test how well calls can be categorized by their acoustic structure and used behavioral data to determine the typical usage of western gorilla call types. The vocal repe",
       "journal": "Ethology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1037_e685842012-222",
@@ -451,11 +948,7 @@
       "abstract": "",
       "journal": "PsycEXTRA Dataset",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7282_t3154gbx",
@@ -465,11 +958,17 @@
       "abstract": "Although there have been studies on the meaning or function of gorilla vocalizations, they have focused on correlations between calls and basic activity states. If gorilla vocalizations, like human speech, provide information that is both semantic and emotional, then we can expect to get a richer understanding of the meaning or function of gorilla vocalizations by looking at the novel association between an individual’s personality and its vocal profile (i.e. the types of calls predominantly given). Personality drives and channels behavior and is therefore a higher level of analysis than basic activity states. Four hypotheses are tested in this dissertation: 1) Personality predicts behavior in captive gorillas; 2) Personality predicts vocal behavior (i.e. the vocal profile) in captive gorillas; 3) Personality predicts subjective well-being in captive gorillas; 4) Subjective well being predicts vocal behavior (i.e. the vocal profile) in captive gorillas. To test these hypotheses, I used",
       "journal": "Rutgers University Community Repository (Rutgers University)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1075_is_10_2_02ros",
+      "title": "Sequential list-learning by an adolescent lowland gorilla (<i>Gorilla gorilla gorilla</i>) using an infrared touchframe apparatus",
+      "year": 2009,
+      "doi": "10.1075/is.10.2.02ros",
+      "abstract": "<jats:p>The ability to appropriately sequence a list of discrete items is an important facet in performing routine cognitive tasks and may play a significant role in the acquisition of early communication skills. Though the serial learning abilities of some species, such as chimpanzees and rhesus macaques are well documented, there is virtually no information on the extent of these skills with gorillas. In this study, a young female western lowland gorilla has demonstrated the ability to learn a list of seven Arabic numerals by selecting them on a monitor behind an infrared touchframe. As list length increased (from three to seven), Rollie required fewer trials to reach the criterion, suggesting an acquisition of skills associated with serial learning. Rollie was most likely to correctly select the first item in the sequence and least likely to select the penultimate item in the sequence. Her performance suggests serial learning abilities in the range of other non-verbal species and pr",
+      "journal": "Interaction Studies. Social Behaviour and Communication in Biological and Artificial Systems",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037_e604012013-038",
@@ -479,11 +978,7 @@
       "abstract": "",
       "journal": "PsycEXTRA Dataset",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_ajp_10097",
@@ -493,11 +988,7 @@
       "abstract": "In the present study we investigated the gestural communication of gorillas (Gorilla gorilla). The subjects were 13 gorillas (1-6 years old) living in two different groups in captivity. Our goal was to compile the gestural repertoire of subadult gorillas, with a special focus on processes of social cognition, including attention to individual and developmental variability, group variability, and flexibility of use. Thirty-three different gestures (six auditory, 11 tactile, and 16 visual gestures) were recorded. We found idiosyncratic gestures, individual differences, and similar degrees of concordance between and within groups, as well as some group-specific gestures. These results provide evidence that ontogenetic ritualization is the main learning process involved, but some form of social learning may also be responsible for the acquisition of special gestures. The present study establishes that gorillas have a multifaceted gestural repertoire, characterized by a great deal of flexib",
       "journal": "American Journal of Primatology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1080_02109395_1989_10821113",
@@ -507,11 +998,7 @@
       "abstract": "",
       "journal": "Estudios de Psicología",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_25148_etd_fi13101588",
@@ -521,11 +1008,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472926920_0007",
@@ -535,11 +1018,7 @@
       "abstract": "",
       "journal": "Mammals of Africa : Primates",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31274_etd-180810-5367",
@@ -549,14 +1028,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 20,
+  "paper_count": 36,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

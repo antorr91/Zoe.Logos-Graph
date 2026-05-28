@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 9,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 27,
+    "doi_count": 29,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,95 +42,532 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "bellow",
     "moo",
+    "bellow",
     "rumble"
   ],
   "contexts": [
-    "alarm",
     "contact",
-    "mother-calf"
+    "mother-calf",
+    "alarm"
   ],
   "functions": [
-    "contact maintenance",
     "individual recognition",
+    "contact maintenance",
     "separation distress"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "bellow",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "moo",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "bellow",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "rumble",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "contact",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mother-calf",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "contact maintenance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "separation distress",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1629,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1628,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1627,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1626,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1625,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1624,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1623,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1622,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1621,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1620,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1619,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1618,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1617,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1616,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1615,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1614,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1613,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1612,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1611,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1610,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1609,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1608,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1607,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1606,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1605,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1604,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1603,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1093/tas/txaf131",
+      "url": "https://doi.org/10.1093/tas/txaf131",
+      "title": "Short communication: performance of beef cows fed Kernza intermediate wheatgrass straw mixed with alfalfa haylage",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1177/03009858241295396",
+      "url": "https://doi.org/10.1177/03009858241295396",
+      "title": "Head tilt in 6 Ankole-Watusi cattle (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s40104-024-01133-1",
+      "url": "https://doi.org/10.1186/s40104-024-01133-1",
+      "title": "Advancing the Indian cattle pangenome: characterizing non-reference sequences in Bos indicus",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fvets.2025.1549100",
+      "url": "https://doi.org/10.3389/fvets.2025.1549100",
+      "title": "Analysis of sounds made by",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/biolre/ioae081",
+      "url": "https://doi.org/10.1093/biolre/ioae081",
+      "title": "Mapping the follicle-specific regulation of extracellular vesicle-mediated microRNA transport in the southern white rhinoceros (Ceratotherium simum simum)†",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.14202/vetworld.2024.1914-1919",
+      "url": "https://doi.org/10.14202/vetworld.2024.1914-1919",
+      "title": "Runs of homozygosity analysis and genomic inbreeding estimation in Sumba Ongole cattle (",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fvets.2024.1360239",
+      "url": "https://doi.org/10.3389/fvets.2024.1360239",
+      "title": "A methodological approach to compare continuous and instantaneous sampling and two methods to deal with animals out of sight on dairy cattle behavior and interaction with their calf in the first hours post-partum",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani14060944",
+      "url": "https://doi.org/10.3390/ani14060944",
+      "title": "Differences in the Behavioral Parameters of Young Zebu and Composite Bulls Kept on Non-Forested or in Integrated Crop-Livestock-Forestry Systems",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/978-1-0716-3064-8_14",
+      "url": "https://doi.org/10.1007/978-1-0716-3064-8_14",
+      "title": "Bovid Interspecies Somatic Cell Nuclear Transfer with Ooplasm Transfer",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.5187/jast.2022.e125",
+      "url": "https://doi.org/10.5187/jast.2022.e125",
+      "title": "Increased accuracy of estrus prediction using ruminoreticular biocapsule sensors in Hanwoo (",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.5455/OVJ.2023.v13.i10.8",
+      "url": "https://doi.org/10.5455/OVJ.2023.v13.i10.8",
+      "title": "Monitoring of recessive defects associated with low reproductive performance in dairy cattle in Uruguay",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1016/j.applanim.2021.105264",
       "url": "https://doi.org/10.1016/j.applanim.2021.105264",
       "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
       "year": 2021,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1038/s41598-019-54968-4",
+      "url": "https://doi.org/10.1038/s41598-019-54968-4",
+      "title": "Vocal individuality of Holstein-Friesian cattle is maintained across putatively positive and negative farming contexts",
+      "year": 2019,
       "source": "openalex"
     },
     {
@@ -248,6 +685,156 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41799846",
+      "title": "Short communication: performance of beef cows fed Kernza intermediate wheatgrass straw mixed with alfalfa haylage",
+      "year": 2026,
+      "doi": "10.1093/tas/txaf131",
+      "abstract": "Kernza intermediate wheatgrass (",
+      "journal": "Translational animal science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41558170",
+      "title": "First evaluation of a maternal bovine (Bos taurus)-appeasing pheromone in canines (Canis familiaris) shows no reduction in kennel noise",
+      "year": 2026,
+      "doi": "10.2460/ajvr.25.09.0332",
+      "abstract": "OBJECTIVE: The objectives of this study were to evaluate whether the topical application of a maternal bovine (Bos taurus)-appeasing substance (mBAS) to laboratory dogs (Canis familiaris) would affect barking intensity, alter the prevalence of loud barking, or have adverse effects. METHODS: A controlled experiment with a repeated-measures design was performed with a convenience sample of 12 dogs from an existing research colony. The room housing the dogs served as the experimental unit across two 5-day treatment periods (one period for control and one for mBAS). A decibel meter recorded sound levels every 30 s to quantify barking intensity. Dogs with clinical signs of illness were excluded. RESULTS: A total of 22,502 decibel readings were recorded, and mBAS did not significantly affect decibel levels regardless of time of day or research day. Additionally, mBAS did not significantly affect loud barking. No adverse effects were noted, and no dogs were excluded from the study. CONCLUSIONS: Our results suggest that mBAS does not meaningfully reduce vocalizations in kenneled laboratory dogs nor does it offer welfare benefits to dogs or human caretakers. The substance is well tolerated in this species and may be considered for future research endeavors in interspecies pheromonal communication. CLINICAL RELEVANCE: Species-specific maternal pheromones can reduce stress-associated behaviors in animals, including vocalization intensity and frequency in dogs. Existing research suggests that interspecies pheromone use is beneficial, and while our data did not support this hypothesis, they contribute to the scientific understanding of this underexplored research area.",
+      "journal": "American journal of veterinary research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40171411",
+      "title": "Analysis of sounds made by",
+      "year": 2025,
+      "doi": "10.3389/fvets.2025.1549100",
+      "abstract": "Audio and video recording techniques have advanced significantly in recent years, allowing newer opportunities for sound analysis. The grouping of cattle breeds or individuals based on the connections between their behavior and condition and their vocalizations is important from the point of view of animal welfare. Despite the numerous studies published about the acoustic characteristics of such sounds, there has not been an acoustic analysis regarding of cattle behavior and condition in isolation. The grey cattle and domestic buffalo cows, separated from their calves for a few minutes, are stressed and vocalize orally. In this study various methods were employed for the analysis of the sounds that water buffalo and grey cattle made after weaning. Differences have been found between the two species, but not between individuals. Their pitch varies over time for both species. The buffalo voice is three times more dynamic than that of the grey cattle on a logHz scale. Furthermore, a significant difference was found between relevant mel frequency cepstral coefficients adapted to animals. Our findings may be utilized in agriculture and bioacoustic procedures.",
+      "journal": "Frontiers in veterinary science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39915889",
+      "title": "Advancing the Indian cattle pangenome: characterizing non-reference sequences in Bos indicus",
+      "year": 2025,
+      "doi": "10.1186/s40104-024-01133-1",
+      "abstract": "BACKGROUND: India harbors the world's largest cattle population, encompassing over 50 distinct Bos indicus breeds. This rich genetic diversity underscores the inadequacy of a single reference genome to fully capture the genomic landscape of Indian cattle. To comprehensively characterize the genomic variation within Bos indicus and, specifically, dairy breeds, we aim to identify non-reference sequences and construct a comprehensive pangenome. RESULTS: Five representative genomes of prominent dairy breeds, including Gir, Kankrej, Tharparkar, Sahiwal, and Red Sindhi, were sequenced using 10X Genomics 'linked-read' technology. Assemblies generated from these linked-reads ranged from 2.70 Gb to 2.77 Gb, comparable to the Bos indicus Brahman reference genome. A pangenome of Bos indicus cattle was constructed by comparing the newly assembled genomes with the reference using alignment and graph-based methods, revealing 8 Mb and 17.7 Mb of novel sequence respectively. A confident set of 6,844 Non-reference Unique Insertions (NUIs) spanning 7.57 Mb was identified through both methods, representing the pangenome of Indian Bos indicus breeds. Comparative analysis with previously published pangenomes unveiled 2.8 Mb (37%) commonality with the Chinese indicine pangenome and only 1% commonality with the Bos taurus pangenome. Among these, 2,312 NUIs encompassing ~ 2 Mb, were commonly found in 98 samples of the 5 breeds and designated as Bos indicus Common Insertions (BICIs) in the population. Furthermore, 926 BICIs were identified within 682 protein-coding genes, 54 long non-coding RNAs (lncRNA), and 18 pseudogenes. These protein-coding genes were enriched for functions such as chemical synaptic transmission, cell junction organization, cell-cell adhesion, and cell morphogenesis. The protein-coding genes were found in various prominent quantitative trait locus (QTL) regions, suggesting potential roles of BICIs in traits related to milk production, reproduction, exterior, health, me",
+      "journal": "Journal of animal science and biotechnology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39513515",
+      "title": "Head tilt in 6 Ankole-Watusi cattle (",
+      "year": 2025,
+      "doi": "10.1177/03009858241295396",
+      "abstract": "Ankole-Watusi cattle,",
+      "journal": "Veterinary pathology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39328453",
+      "title": "Runs of homozygosity analysis and genomic inbreeding estimation in Sumba Ongole cattle (",
+      "year": 2024,
+      "doi": "10.14202/vetworld.2024.1914-1919",
+      "abstract": "BACKGROUND AND AIM: Runs of homozygosity (ROH) is a biocomputational technique for identifying homozygous regions in the genomics of livestock. This study aimed to determine the ROH in Sumba Ongole (SO) bulls (n = 48) using the BovineSNP50K BeadChip. MATERIALS AND METHODS: GenomeStudio 2.0 software was used to generate the BovineSNP50K BeadChip output. The ROH and ROH-based inbreeding coefficients (F RESULTS: In general, the number and length of ROH segments in pool animals were 149.77 ± 16.02 Mb and 486.13 ± 156.11 Mb, respectively. Furthermore, the ROH segments in the animals under study can be discriminated into two classes of 1-4 Mb (83.33%) and 4-8 Mb (16.67%). Subsequently,  CONCLUSION: These findings indicate that a recent inbreeding event in SO cattle occurred many generations ago. Furthermore, the candidate genes identified from the ROH analysis indicate phenotypic attributes associated with environmental adaptation and economic traits.",
+      "journal": "Veterinary world",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38940045",
+      "title": "A Novel Receptor Binding Progesterone, a Possible Transregulation Mechanism in the",
+      "year": 2024,
+      "doi": "10.31083/j.fbl2906238",
+      "abstract": "BACKGROUND: Hormone receptors exert their function through binding with their ligands, which results in cellular signaling activation mediated by genomic or non-genomic mechanisms. The intrinsic molecular communication of tick  METHODS: The RmMAPRC protein sequence was analyzed with bioinformatics tools, and its structure was characterized by three-dimensional (3D) modeling and molecular docking. A semi-quantitative reverse transcription and polymerase chain reaction (sqRT-PCR) assessed the  RESULTS:  CONCLUSIONS: The presence of RmPGRMC1 highlights the importance of transregulation as a conserved adaptive mechanism that has succeeded for arthropod parasites, making it a target for tick control.",
+      "journal": "Frontiers in bioscience (Landmark edition)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38852540",
+      "title": "Profile of cattle breed sensitivity to the tick Rhipicephalus microplus",
+      "year": 2024,
+      "doi": "10.1016/j.ttbdis.2024.102363",
+      "abstract": "Among cattle, Bos taurus breeds and their crosses are more sensitive to tick infestations than Bos indicus breeds that are more resistant to infestation and more adaptable to tropical climates. The presence of susceptible individuals in herds and inadequate tick control lead to direct and indirect losses in the meat production chain, in addition to increased mortality due to cattle tick fever. The objective of this study was to describe, compare and rank the sensitivity of different breeds of stabled cattle to the tick Rhipicephalus microplus and to present, as an innovative result, a scale called the Tick Ruler. Secondary data on the number of retrieved engorged females, engorged female ticks' weight, egg mass weight and number of larvae were extracted from research reports of experiments conducted over 18 years with eight breeds to describe and report the sensitivity of the breeds to artificial infestation by R. microplus larvae. For analyses, the recovery rate of engorged female ticks and the percentile of dispersion of individuals in their respective races were calculated, and comparison of these percentiles between races was performed. The ranking of the percentiles resulted in the organization of the breeds by their susceptibility to R. microplus; we call this scale the \"Tick Ruler.\" The ruler is a simple, easy-to-understand tool that can be used by technicians and producers to evaluate the tick sensitivity of a breed of interest and can assist producers in decision-making to find a balance between increased production gains and the risk of economic losses depending on the breed composition in a cattle herd.",
+      "journal": "Ticks and tick-borne diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38775197",
+      "title": "Mapping the follicle-specific regulation of extracellular vesicle-mediated microRNA transport in the southern white rhinoceros (Ceratotherium simum simum)†",
+      "year": 2024,
+      "doi": "10.1093/biolre/ioae081",
+      "abstract": "Efforts to implement effective assisted reproductive technologies (ARTs) for the conservation of the northern white rhinoceros (NWR; Ceratotherium simum cottoni) to prevent its forthcoming extinction, could be supported by research conducted on the closely related southern white rhinoceros (SWR; Ceratotherium simum simum). Within the follicle, extracellular vesicles (EVs) play a fundamental role in the bidirectional communication facilitating the crucial transport of regulatory molecules such as microRNAs (miRNAs) that control follicular growth and oocyte development. This study aimed to elucidate the dynamics of EV-miRNAs in stage-dependent follicular fluid (FF) during SWR ovarian antral follicle development. Three distinct follicular stages were identified based on diameter: Growing (G; 11-17 mm), Dominant (D; 18-29 mm), and Pre-ovulatory (P; 30-34 mm). Isolated EVs from the aspirated FF of segmented follicle stages were used to identify EV-miRNAs previously known via subsequent annotation to all equine (Equus caballus; eca), bovine (Bos taurus; bta), and human (Homo sapiens; hsa) miRNAs. A total of 417 miRNAs were detected, with 231 being mutually expressed across all three stages, including eca-miR-148a and bta-miR-451 as the top highly expressed miRNAs. Distinct expression dynamics in miRNA abundance were observed across the three follicular stages, including 31 differentially expressed miRNAs that target various pathways related to follicular growth and development, with 13 miRNAs commonly appearing amidst two different comparisons. In conclusion, this pioneering study provides a comprehensive understanding of the stage-specific expression dynamics of FF EV-miRNAs in the SWR. These findings provide insights that may lead to novel approaches in enhancing ARTs to catalyze rhinoceros conservation efforts.",
+      "journal": "Biology of reproduction",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38642661",
+      "title": "Single-cell analysis identifies critical regulators of spermatogonial development and differentiation in cattle-yak bulls",
+      "year": 2024,
+      "doi": "10.3168/jds.2023-24442",
+      "abstract": "Spermatogenesis is a continuous process in which functional sperm are produced through a series of mitotic and meiotic divisions and morphological changes in germ cells. The aberrant development and fate transitions of spermatogenic cells cause hybrid sterility in mammals. Cattle-yak, a hybrid animal between taurine cattle (Bos taurus) and yak (Bos grunniens), exhibits male-specific sterility due to spermatogenic failure. In the present study, we performed single-cell RNA sequencing analysis to identify differences in testicular cell composition and the developmental trajectory of spermatogenic cells between yak and cattle-yak. The composition and molecular signatures of spermatogonial subtypes were dramatically different between these 2 animals, and the expression of genes associated with stem cell maintenance, cell differentiation and meiotic entry was altered in cattle-yak, indicating the impairment of undifferentiated spermatogonial fate decisions. Cell communication analysis revealed that signaling within different spermatogenic cell subpopulations was weakened, and progenitor spermatogonia were unable to or delayed receiving and sending signals for transformation to the next stage in cattle-yak. Simultaneously, the communication between niche cells and germ cells was also abnormal. Collectively, we obtained the expression profiles of transcriptome signatures of different germ cells and testicular somatic cell populations at the single-cell level and identified critical regulators of spermatogonial differentiation and meiosis in yak and sterile cattle-yak. The findings of this study shed light on the genetic mechanisms that lead to hybrid sterility and speciation in bovid species.",
+      "journal": "Journal of dairy science",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38550784",
+      "title": "A methodological approach to compare continuous and instantaneous sampling and two methods to deal with animals out of sight on dairy cattle behavior and interaction with their calf in the first hours post-partum",
+      "year": 2024,
+      "doi": "10.3389/fvets.2024.1360239",
+      "abstract": "Animal behavior can provide useful information about animal welfare, but methods and tools used to gather behavioral data and data treatment can influence the results. Therefore, this study was carried out on dairy cow (",
+      "journal": "Frontiers in veterinary science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38540042",
+      "title": "Differences in the Behavioral Parameters of Young Zebu and Composite Bulls Kept on Non-Forested or in Integrated Crop-Livestock-Forestry Systems",
+      "year": 2024,
+      "doi": "10.3390/ani14060944",
+      "abstract": "The behavior of ruminants can influence their productive efficiency. The aim of this study was to evaluate the behavior of young zebu and composite bulls kept in pasture production systems, either in a crop-livestock-forest integration or without afforestation. The work was carried out in São Carlos, Brazil (21°57'42″ S, 47°50'28″ W), in a high-altitude tropical climate, from March to July, 2022. Forty young bulls were evaluated, being 20 Nelore (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38027404",
+      "title": "Monitoring of recessive defects associated with low reproductive performance in dairy cattle in Uruguay",
+      "year": 2023,
+      "doi": "10.5455/OVJ.2023.v13.i10.8",
+      "abstract": "BACKGROUND: Most dairy cattle breeds originate show an average generational inbreeding rate of 1%, which favors the occurrence of recessive defects associated with low reproductive performance. AIM: The objective of this study was to monitor recessive defects associated with low reproductive performance in dairy cattle. METHODS: To monitor bulls carrying the Holstein Friesian haplotype (HH) 1, HH3, and HH4 haplotypes, we analyzed the records of 3,028 national and imported Holstein Friesian bulls from the 2021 updated sires' catalog published by \"Evaluaciones Genéticas Lecheras\"; and to determine the presence of these mentioned haplotypes, as well as Jersey haplotype (JH) 1 and complex vertebral malformation (CVM), were genotype with the GeneTitan RESULTS: From a total of 1,468 (48.5%) bulls with genetic information from the sires' catalog for HH1 and 1,471 (48.6%) for HH3 and HH4, we found 90 (6.1%) carriers for HH1, 60 (4.1%) for HH3, and 6 (0.4%) for HH4, respectively. By genotyping with the chip, we calculated the herd frequency of the mutant alleles and herd prevalence of carriers for HH1 and CVM as  CONCLUSION: This study demonstrated the presence of recessive defects associated with low reproductive performance in the analyzed population, which can affect the health and productivity of dairy cattle. Therefore, cows and bulls should be closely monitored through genetic testing to lower the incidence of recessive defects in dairy cattle.",
+      "journal": "Open veterinary journal",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37970509",
+      "title": "Increased accuracy of estrus prediction using ruminoreticular biocapsule sensors in Hanwoo (",
+      "year": 2023,
+      "doi": "10.5187/jast.2022.e125",
+      "abstract": "Visual estrus observation can only be confirmed at a rate of 50%-60%, which is lower than that obtained using a biosensor. Thus, the use of biosensors provides more opportunities for artificial insemination because it is easier to confirm estrus than by visual observation. This study determines the accuracy of estrus prediction using a ruminoreticular biosensor by analyzing ruminoreticular temperature during the estrus cycle and measuring changes in body activity. One hundred and twenty-five Hanwoo cows (64 with a ruminal biosensor in the test group and 61 without biosensors in the control group) were studied. Ruminoreticular temperatures and body activities were measured every 10 min. The first service of artificial insemination used gonadotropin-releasing hormone (GnRH)-based fixed-time artificial insemination protocol in the control and test groups. The test group received artificial insemination based on the estrus prediction made by the biosensor, and the control group received artificial insemination according to visual estrus observation. Before artificial insemination, the ruminoreticular temperature was maintained at an average of 38.95 ± 0.05°C for 13 h (-21 to -9 h), 0.73°C higher than the average temperature observed at -48 h (38.22 ± 0.06°C). The body activity, measured using an indwelling 3-axis accelerometer, averaged 1502.57 ± 27.35 for approximately 21 h from -4 to -24 h before artificial insemination, showing 203 indexes higher body activity than -48 hours (1299 ± 9.72). Therefore, using an information and communication techonology (ICT)-based biosensor is highly effective because it can reduce the reproductive cost of a farm by accurately detecting estrus and increasing the rate of estrus confirmation in cattle.",
+      "journal": "Journal of animal science and technology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37041340",
+      "title": "Bovid Interspecies Somatic Cell Nuclear Transfer with Ooplasm Transfer",
+      "year": 2023,
+      "doi": "10.1007/978-1-0716-3064-8_14",
+      "abstract": "Interspecies somatic cell nuclear transfer (iSCNT) contributes to the preservation of endangered species, albeit nuclear-mitochondrial incompatibilities constrain its application. iSCNT, coupled with ooplasm transfer (iSCNT-OT), has the potential to overcome the challenges associated with species- and genus-specific differences in nuclear-mitochondrial communication. Our iSCNT-OT protocol combines the transfer of both bison (Bison bison bison) somatic cell and oocyte ooplasm by a two-step electrofusion into bovine (Bos taurus) enucleated oocytes. The procedures described herein could be used in further studies to determine the effects of crosstalk between nuclear and ooplasmic components in embryos carrying genomes from different species.",
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1016_j_applanim_2021_105264",
       "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
       "year": 2021,
@@ -255,11 +842,17 @@
       "abstract": "Public concern for farm animal welfare is increasing. Animal welfare is defined as the balance of positive and negative emotions, where positive emotions are key to a good animal life. Emotion is defined as an experience that varies in valence and arousal. Many methods developed to identify positive emotions in animals involve disadvantages. For example, they require training the animals, are age specific or invasive. Vocalisations are a promising indicator of positive emotions. We aimed to review current knowledge on farm animal vocalisations putatively associated with positive emotions and discuss the potential of vocalisations as an on-farm tool to assess positive emotions in farm animals. Vocalisation types and acoustic structures that can potentially be used to identify positive emotions depend upon species. In pigs, lower frequency vocalisations are produced more in positive situations, however, within grunts, higher frequencies reflect positive situations. In horses, more snorts",
       "journal": "Applied Animal Behaviour Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1038_s41598-019-54968-4",
+      "title": "Vocal individuality of Holstein-Friesian cattle is maintained across putatively positive and negative farming contexts",
+      "year": 2019,
+      "doi": "10.1038/s41598-019-54968-4",
+      "abstract": "Cattle mother-offspring contact calls encode individual-identity information; however, it is unknown whether cattle are able to maintain individuality when vocalising to familiar conspecifics over other positively and negatively valenced farming contexts. Accordingly, we recorded 333 high-frequency vocalisations from 13 Holstein-Friesian heifers during oestrus and anticipation of feed (putatively positive), as well as denied feed access and upon both physical and physical & visual isolation from conspecifics (putatively negative). We measured 21 source-related and nonlinear vocal parameters and stepwise discriminant function analyses (DFA) were performed. Calls were divided into positive (n = 170) and negative valence (n = 163) with each valence acting as a 'training set' to classify calls in the oppositely valenced 'test set'. Furthermore, MANOVAs were conducted to determine which vocal parameters were implicated in individual distinctiveness. Within the putatively positive 'training ",
+      "journal": "Scientific Reports",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_3168_jds_2017-12651",
@@ -269,11 +862,7 @@
       "abstract": "The effects of high ambient temperatures on production animals, once thought to be limited to tropical areas, has extended into northern latitudes in response to the increasing global temperature. The number of days where the temperature-humidity index (THI) exceeds the comfort threshold (>72) is increasing in the northern United States, Canada, and Europe. Compounded by the increasing number of dairy animals and the intensification of production, heat stress has become one of the most important challenges facing the dairy industry today. The objectives of this review were to present an overview of the effects of heat stress on dairy cattle welfare and highlight important research gaps in the literature. We will also briefly discuss current heat abatement strategies, as well as the sustainability of future heat stress management. Heat stress has negative effects on the health and biological functioning of dairy cows through depressed milk production and reduced reproductive performance",
       "journal": "Journal of Dairy Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0185306",
@@ -283,11 +872,7 @@
       "abstract": "This study identifies and analyzes statistically significant overlaps between selective sweep screens in anatomically modern humans and several domesticated species. The results obtained suggest that (paleo-)genomic data can be exploited to complement the fossil record and support the idea of self-domestication in Homo sapiens, a process that likely intensified as our species populated its niche. Our analysis lends support to attempts to capture the \"domestication syndrome\" in terms of alterations to certain signaling pathways and cell lineages, such as the neural crest.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2016_02_004",
@@ -297,11 +882,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3168_jds_2015-10144",
@@ -311,11 +892,7 @@
       "abstract": "Standard practice in the dairy industry is to separate the calf and dam immediately after birth and raise calves in individual pens during the milk-feeding period. In nature and in extensive beef systems, the young calf lives in a complex social environment. Social isolation during infancy has been associated with negative effects, including abnormal behavior and developmental problems, in a range of species. Here, we review empirical work on the social development of calves and the effects of social isolation in calves and other species; this evidence indicates that calves reared in isolation have deficient social skills, difficulties in coping with novel situations, as well as specific cognitive deficits. We also review the practices associated with group housing of dairy calves, and discuss problems and suggested solutions, especially related to cross-sucking, competition, aggression, and disease. The studies reviewed indicate that social housing improves solid feed intakes and calf",
       "journal": "Journal of Dairy Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1073_pnas_1321543111",
@@ -325,11 +902,7 @@
       "abstract": "Animals can accrue direct fitness benefits by accurately classifying predatory threat according to the species of predator and the magnitude of risk associated with an encounter. Human predators present a particularly interesting cognitive challenge, as it is typically the case that different human subgroups pose radically different levels of danger to animals living around them. Although a number of prey species have proved able to discriminate between certain human categories on the basis of visual and olfactory cues, vocalizations potentially provide a much richer source of information. We now use controlled playback experiments to investigate whether family groups of free-ranging African elephants (Loxodonta africana) in Amboseli National Park, Kenya can use acoustic characteristics of speech to make functionally relevant distinctions between human subcategories differing not only in ethnicity but also in sex and age. Our results demonstrate that elephants can reliably discriminate",
       "journal": "Proceedings of the National Academy of Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_czoolo_58_5_698",
@@ -339,11 +912,7 @@
       "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1751-0147-53-28",
@@ -353,11 +922,7 @@
       "abstract": "Weaning of beef calves is usually done abruptly and early compared to the natural weaning of the species, and is associated with simultaneous exposure of calves to a range of social and environmental stressors. Behavioural and physiological responses to weaning indicate detrimental effects on the welfare of these animals. The development and assessment of weaning methods aiming at reducing or avoiding this problem must be supported by scientific knowledge of the morphological, physiological and psychological mechanisms involved in the establishment, maintenance and braking of the cow-calf bond. Solutions also depend on the understanding of the various stressors associated with weaning, among which are the change in diet, cessation of nursing, separation from the dam, the change to a new spatial environment and the need for social reorganization following removal of the adults from the group. This review discusses these issues and assesses the effectiveness of the methods so far propose",
       "journal": "Acta veterinaria Scandinavica",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anireprosci_2008_09_008",
@@ -367,11 +932,7 @@
       "abstract": "",
       "journal": "Animal Reproduction Science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31533_pubvet_v02n10a398",
@@ -381,11 +942,7 @@
       "abstract": "<jats:p>O experimento realizado teve como objetivo verificar os níveis de cortisol sérico em bovinos de corte durante o processo de abate. Foram avaliadas as concentrações de cortisol sérico em (Bos taurus indicus) Nelore e (Bos taurus indicus x Bos taurus taurus) Cruzamento Industrial. Os resultados indicaram que em situações de estresse o nível sérico de cortisol aumentou significativamente em ambos os casos. A determinação dos valores séricos de cortisol mostra-se útil, como método para avaliar os níveis de estresse bovino, pois neste trabalho, os valores avaliados foram significativos durante o processo de atordoamento, comparados com os valores de referências (0,05 a 1,80 mcg/dl). No entanto os resultados mostraram que não houve diferenças expressivas entre os genótipos avaliados.</jats:p>",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2527_1991_6983156x",
@@ -395,11 +952,7 @@
       "abstract": "",
       "journal": "Journal of Animal Science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_t_10_2004_tde-12092007-130341",
@@ -409,11 +962,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_10_2009_tde-17122009-143738",
@@ -423,11 +972,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_74_2005_tde-18102006-153309",
@@ -437,11 +982,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_10_2008_tde-18072008-154438",
@@ -451,11 +992,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31857_s2500-26272019364-67-11614",
@@ -465,14 +1002,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

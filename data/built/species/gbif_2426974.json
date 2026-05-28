@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 5,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 17,
+    "claim_count": 4,
+    "doi_count": 18,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,12 +45,12 @@
     "advertisement call"
   ],
   "contexts": [
-    "mate attraction",
-    "territorial defence"
+    "territorial defence",
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,41 +58,95 @@
         "value": "advertisement call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 325,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 324,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 323,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 322,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Dendrobates auratus",
     "recordings": [],
     "external_links": []
@@ -132,6 +186,13 @@
       "title": "Spatio-Temporal Characteristics of the Prolonged Courtship in Brilliant-Thighed Poison Frogs, Allobates femoralis",
       "year": 2019,
       "source": "openalex"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2020-2.rlts.t55174a3024941.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2020-2.rlts.t55174a3024941.en",
+      "title": "Dendrobates auratus: IUCN SSC Amphibian Specialist Group",
+      "year": 2019,
+      "source": "crossref"
     },
     {
       "doi": "10.1371/journal.pone.0120546",
@@ -227,11 +288,7 @@
       "abstract": "Many organisms have evolved adaptations to increase the odds of survival of their offspring. Parental care has evolved several times in animals including ectotherms. In amphibians, ~ 10% of species exhibit parental care. Among these, poison frogs (Dendrobatidae) are well-known for their extensive care, which includes egg guarding, larval transport, and specialized tadpole provisioning with trophic eggs. At least one third of dendrobatids displaying aposematism by exhibiting warning coloration that informs potential predators about the presence of defensive skin toxins. Aposematism has a central role in poison frog diversification, including diet specialization, and visual and acoustic communication; and it is thought to have impacted their reproductive biology as well. We tested the latter association using multivariate phylogenetic methods at the family level. Our results show complex relationships between aposematism and certain aspects of the reproductive biology in dendrobatids. In",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_joa_13569",
@@ -241,11 +298,7 @@
       "abstract": "The hands of adult males of many dendrobatid poison frogs and their relatives possess swelling formed by glandular tissue hypothesized to secrete courtship pheromones delivered to the female during cephalic amplexus. Variation in the occurrence and external morphology of the swelling of finger IV has provided important evidence for dendrobatoid systematics for decades, but its underlying structure has not been investigated. We undertook a detailed comparative analysis of the integument of the hand, including both external morphology and histology, of 36 species representing the diversity of dendrobatoid frogs and several close relatives. The swelling is caused by four densely packed, hypertrophic, morpho-histochemical types of specialized mucous glands (SMGs). We observed type I SMGs on fingers II-V and the wrist, including areas that are not swollen, types II and IV exclusively on finger IV, and type III on finger IV and the wrist. Type I SMGs occur either in isolation or together wit",
       "journal": "Journal of Anatomy",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1655_herpmonographs-d-19-00002_1",
@@ -255,11 +308,7 @@
       "abstract": "Despite rising interest among scientists for over two centuries, parental care behavior has not been as thoroughly studied in amphibians as it has in other taxa. The first reports of amphibian parental care date from the early 18th century, when Maria Sibylla Merian went on a field expedition in Suriname and reported frog metamorphs emerging from their mother's dorsal skin. Reports of this and other parental behaviors in amphibians remained descriptive for decades, often as side notes during expeditions with another purpose. However, since the 1980s, experimental approaches have proliferated, providing detailed knowledge about the adaptive value of observed behaviors. Today, we recognize more than 30 types of parental care in amphibians, but most studies focus on just a few families and have favored anurans over urodeles and caecilians. Here, we provide a synthesis of the last three centuries of parental care research in the three orders comprising the amphibians. We draw attention to ",
       "journal": "Herpetological Monographs",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_113828",
@@ -269,11 +318,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1655_herpetologica-d-19-00010_1",
@@ -283,11 +328,17 @@
       "abstract": "Prolonged and complex courtship behaviors, involving tactile, acoustic, and visual signals, are common in Neotropical poison frogs (Dendrobatidae). Courtship is an important precursor to mating, but courtship components vary across species. In Brilliant-Thighed Poison Frogs (Allobates femoralis [Boulenger 1883]), males guide females to oviposition sites in a so-called “courtship march.” The courtship duration in A. femoralis is among the longest known in poison frogs. To gain insights into the functions of courtship, we observed 29 courtship events in an A. femoralis population in French Guiana. In addition, we observed multiple courtships of 7 males to assess intra- and interindividual variations in courtship behavior. We recorded temporal, spatial, and behavioral characteristics of courtship and searched for previously deposited clutches in the males' territories. Courtships started in the afternoon and ended on the following morning. During courtship, pairs moved an average of 19 m ",
       "journal": "Herpetologica",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2020-2_rlts_t55174a3024941_en",
+      "title": "Dendrobates auratus: IUCN SSC Amphibian Specialist Group",
+      "year": 2019,
+      "doi": "10.2305/iucn.uk.2020-2.rlts.t55174a3024941.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0120546",
@@ -297,11 +348,7 @@
       "abstract": "The escape response of an organism is generally its last line of defense against a predator. Because the effectiveness of an escape varies with the approach behaviour of the predator, it should be advantageous for prey to alter their escape trajectories depending on the mode of predator attack. To test this hypothesis we examined the escape responses of a single prey species, the ground-dwelling túngara frog (Engystomops pustulosus), to disparate predators approaching from different spatial planes: a terrestrial predator (snake) and an aerial predator (bat). Túngara frogs showed consistently distinct escape responses when attacked by terrestrial versus aerial predators. The frogs fled away from the snake models (Median: 131°). In stark contrast, the frogs moved toward the bat models (Median: 27°); effectively undercutting the bat's flight path. Our results reveal that prey escape trajectories reflect the specificity of their predators' attacks. This study emphasizes the flexibility of ",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_11118_actaun201058050209",
@@ -311,11 +358,7 @@
       "abstract": "",
       "journal": "Acta Universitatis Agriculturae et Silviculturae Mendelianae Brunensis",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_bij_12167",
@@ -325,11 +368,7 @@
       "abstract": "Males of all reed frog species (Anura: Hyperoliidae) have a prominent, often colourful, gular patch on their vocal sac, which is particularly conspicuous once the vocal sac is inflated. Although the presence, shape, and form of the gular patch are well-known diagnostic characters for these frogs, its function remains unknown. By integrating biochemical and histological methods, we found strong evidence that the gular patch is a gland producing volatile compounds, which might be emitted while calling. Volatile compounds were confirmed by gas chromatography-mass spectrometry in the gular glands in 11 species of the hyperoliid genera <i>Afrixalus, Heterixalus, Hyperolius</i>, and <i>Phlyctimantis</i>. Comparing the gular gland contents of 17 specimens of four sympatric <i>Hyperolius</i> species yielded a large variety of 65 compounds in species-specific combinations. We suggest that reed frogs might use a complex combination of at least acoustic and chemical signals in species recognition",
       "journal": "Biological Journal of the Linnean Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2011_0280",
@@ -339,11 +378,7 @@
       "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_156853802760061778",
@@ -353,11 +388,7 @@
       "abstract": "Abstract Female strawberry poison frogs (Dendrobates pumilio) exhibit highly evolved maternal care, including tadpole transport and tadpole provisioning with unfertilized eggs. We observed that tadpole-rearing and mating activity are mutually exclusive behavioural states in a Costa Rican population. Tadpole-rearing females did not engage in courtship activity. Only non-rearing females courted. Non-rearing females occupied larger home ranges than tadpole-rearing females, which may be related to female selection of mates. For the first time aggressive female-female interactions were observed in the field. Tadpole-rearing females were significantly more aggressive than non-rearing females, especially in the vicinity of their offspring-rearing sites. Las hembras de la ranita roja Dendrobates pumilio ejecutan cuidado parental altamente desarrollado que incluye el transporte y la alimentación de los renacuajos. En una población costaricense encontramos que el cuido materno y la actvidad sexu",
       "journal": "Amphibia-Reptilia",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_1565298",
@@ -367,11 +398,7 @@
       "abstract": "",
       "journal": "Journal of Herpetology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00446268",
@@ -381,11 +408,7 @@
       "abstract": "",
       "journal": "Naturwissenschaften",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_0041-0101(70)90075-9",
@@ -395,11 +418,7 @@
       "abstract": "",
       "journal": "Toxicon",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1437437",
@@ -409,11 +428,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1437441",
@@ -423,11 +438,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1437438",
@@ -437,14 +448,10 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 17,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

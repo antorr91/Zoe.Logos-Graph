@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 6,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 20,
+    "claim_count": 8,
+    "doi_count": 18,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,8 +42,8 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "trill"
+    "trill",
+    "alarm call"
   ],
   "contexts": [
     "predator response",
@@ -56,16 +56,16 @@
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "trill",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -73,13 +73,13 @@
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -87,19 +87,125 @@
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 601,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 600,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 599,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 598,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 597,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 596,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 595,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 594,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
@@ -145,6 +251,13 @@
       "url": "https://doi.org/10.1016/j.cropro.2009.04.002",
       "title": "Assessing the effectiveness of bait stations for controlling California ground squirrels (Spermophilus beecheyi)",
       "year": 2009,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2008.rlts.t20481a9205851.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2008.rlts.t20481a9205851.en",
+      "title": "Spermophilus beecheyi: Linzey, A.V., Timm, R., Álvarez-Castañeda, S.T., Castro-Arellano, I. &amp; Lacher, T.",
+      "year": 2008,
       "source": "crossref"
     },
     {
@@ -234,11 +347,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_beheco_aru029",
@@ -248,11 +357,7 @@
       "abstract": "Anthropogenic (man-made) noise has changed the acoustic environment both on land and underwater and is now recognized as a pollutant of international concern. Increasing numbers of studies are assessing how noise pollution affects animals across a range of scales, from individuals to communities, but the topic receiving the most research attention has been acoustic communication.",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0050462",
@@ -262,11 +367,7 @@
       "abstract": "There is increasing evidence that individuals in many species avoid areas exposed to chronic anthropogenic noise, but the impact of noise on those who remain in these habitats is unclear. One potential impact is chronic physiological stress, which can affect disease resistance, survival and reproductive success. Previous studies have found evidence of elevated stress-related hormones (glucocorticoids) in wildlife exposed to human activities, but the impacts of noise alone are difficult to separate from confounding factors. Here we used an experimental playback study to isolate the impacts of noise from industrial activity (natural gas drilling and road noise) on glucocorticoid levels in greater sage-grouse (Centrocercus urophasianus), a species of conservation concern. We non-invasively measured immunoreactive corticosterone metabolites from fecal samples (FCMs) of males on both noise-treated and control leks (display grounds) in two breeding seasons. We found strong support for an imp",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2011_02_002",
@@ -276,11 +377,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1439-0310_1978_tb01438_x",
@@ -290,11 +387,7 @@
       "abstract": "",
       "journal": "Zeitschrift für Tierpsychologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_cropro_2009_04_002",
@@ -304,11 +397,17 @@
       "abstract": "",
       "journal": "Crop Protection",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2008_rlts_t20481a9205851_en",
+      "title": "Spermophilus beecheyi: Linzey, A.V., Timm, R., Álvarez-Castañeda, S.T., Castro-Arellano, I. &amp; Lacher, T.",
+      "year": 2008,
+      "doi": "10.2305/iucn.uk.2008.rlts.t20481a9205851.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_5070_v422110120",
@@ -318,11 +417,7 @@
       "abstract": "",
       "journal": "Proceedings of the Vertebrate Pest Conference",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1642_0004-8038(2006)123[639:aciunc]2_0_co;2",
@@ -332,11 +427,7 @@
       "abstract": "SUCCESSFUL ACOUSTIC COMMUNICATION requires that sounds propagate through the environment between the sender and receiver; vocalizations that transmit effectively in the habitat in which they are used are favored by natural selection. This adaptation hypothesis (Morton 1975, Wiley and Richards 1978, Richards and Wiley 1980, Ryan and Brenowitz 1985) laid the groundwork for the drive concept (Endler 1992), which describes how environment affects the evolution of sensory systems and signals in all modalities. By allowing us to examine animal signals as adaptations shaped by selection, this framework has lead to a greater understanding of the bewildering diversity of animal signals. One of the environmental factors that exerts selection pressure on acoustic signals is ambient noise (Ryan and Brenowitz 1985). To elicit a response from a receiver, signals must be detectable in background noise; the detectability of a signal is determined by the signal-to-noise ratio (SNR) and the masked audit",
       "journal": "The Auk",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_46867_c4f59p",
@@ -346,11 +437,7 @@
       "abstract": "Conservation biology and comparative psychology rarely intersect, in part because conservation biology typically emphasizes populations whereas comparative psychology concentrates on individual organisms. However, both fields could benefit from their integration. Conservation biology can profit from an enhanced understanding of individual-level impacts of habitat alteration and the resulting implications for conservation mitigation strategies. Comparative psychology can gain from increased attention to the mechanisms of adjustment used by organisms to “in vivo experiments” created by anthropogenic change. In this paper, we describe a conceptual framework useful for applying our understanding of animal communication to conservation biology. We then review studies of animal communication with conservation implications, and report our own preliminary work that demonstrates our framework in action.",
       "journal": "International Journal of Comparative Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1676_0043-5643(2002)114[0510:mcobcc]2_0_co;2",
@@ -360,11 +447,7 @@
       "abstract": "Many animals advertise the presence of a predator threat through vocal signals. Black-capped Chickadees (Poecile atricapilla) use their chick-a-dee call as a mobbing call when encountering a perched hawk or owl. This social signal appears to serve as an alert to other chickadees, causing them to rally to the vicinity of the predator and join in a chorus of calling. We asked the question: do chickadees vary the mobbing call in a manner that could convey the immediacy of threat from a potential predator? We examined the responses of chickadees to a taxidermic mount of an avian predator presented at distances of 1 m and 6 m from each subject. Vocal responses were recorded and analyzed for response latency, calling rate, and syllable composition of calls. During 5-min trials, the subjects responded more quickly and produced significantly more chick-a-dee calls for predator presentations at the 1-m distance than at the 6-m distance. Alterations of syllable composition of the call also were ",
       "journal": "The Wilson Bulletin",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_22-16-07308_2002",
@@ -374,11 +457,37 @@
       "abstract": "Microinjection of the GABA(A) agonist muscimol in the rostral medial accumbens shell in rats elicits appetitive eating behavior, but in the caudal shell instead elicits fearful defensive treading behavior. To further test the hypothesis that rostral shell muscimol microinjections produce positive motivational states, whereas caudal shell muscimol produces negative states, we measured behavioral place preference/avoidance conditioning and affective hedonic and aversive orofacial expressions of taste-elicited \"liking\" and \"disliking\" (gapes, etc.) in addition to fear and feeding behaviors. Farthest rostral muscimol microinjections (75 ng) caused increased eating behavior and also caused positive conditioned place preferences and increased positive hedonic reactions to the taste of sucrose. By contrast, caudal shell microinjections elicited negative defensive treading and caused robust negative conditioned place avoidance and negative aversive reactions to sucrose or quinine tastes. Inter",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_12083617",
+      "title": "The rattling sound of rattlesnakes (Crotalus viridis) as a communicative resource for ground squirrels (Spermophilus beecheyi) and burrowing owls (Athene cunicularia)",
+      "year": 2002,
+      "doi": "10.1037/0735-7036.116.2.197",
+      "abstract": "Animal communication involves very dynamic processes that can generate new uses and functions for established communicative activities. In this article, the authors describe how an aposematic signal, the rattling sound of rattlesnakes (Crotalus viridis), has been exploited by 2 ecological associates of rattlesnakes: (a) California ground squirrels (Spermophilus beecheyi) use incidental acoustic cues in rattling sounds to assess the danger posed by the rattling snake, and (b) burrowing owls (Athene cunicularia) defend themselves against mammalian predators by mimicking the sound of rattling. The remarkable similarity between the burrowing owl's defensive hiss and the rattlesnake's rattling reflects both exaptation and adaptation. Such exploitation of the rattling sound has favored alternations in both the structure and the deployment of rattling by rattlesnakes.",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_10994844",
+      "title": "Do California ground squirrels (Spermophilus beecheyi) use ritualized syntactic cephalocaudal grooming as an agonistic signal?",
+      "year": 2000,
+      "doi": "10.1037/0735-7036.114.3.281",
+      "abstract": "Animal communication theory holds that many signals have evolved from nonsignal precursors. This field and laboratory study of California ground squirrels (Spermophilus beecheyi) provides evidence for the coexistence of such a precursor with its derived display. The precursor is an ancient, endogenously sequenced (syntactic) pattern of cephalocaudal grooming movements (CCGs) shared by all rodent suborders. The following evidence supports the hypothesis that a supernormal version of this pattern has been selected for signal function. Syntactic CCGs in the field (a) were more rigidly stereotyped than ordinary syntactic CCGs in the laboratory; (b) differed from laboratory syntactic CCGs in other ways that enhanced their conspicuousness, in part through exaggeration of the syntactic cephalocaudal pattern; (c) were associated with scent marking and social staring; and (d) were associated with intrasexual agonistic encounters that did not escalate to fighting.",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_10373264",
+      "title": "Assessment of rattlesnake dangerousness by California ground squirrels: exploitation of cues from rattling sounds",
+      "year": 1999,
+      "doi": "10.1006/anbe.1999.1095",
+      "abstract": "We propose that the predator-prey relationship between California ground squirrels, Spermophilus beecheyi beecheyi, and northern Pacific rattlesnakes, Crotalus viridis oreganus, offers a compelling analogy with the well-studied case of intraspecific fighting and assessment. Because ground squirrels frequently place themselves at risk by harassing rattlesnakes, they stand to benefit from assessment strategies which serve to mediate risk. For example, larger and warmer snakes are more dangerous than smaller and cooler ones. These determinants of dangerousness covary with acoustic characteristics of the rattling sounds elicited by squirrel harassment. To determine whether squirrels use these acoustic cues regarding rattlesnake body size and body temperature, we played back rattling and control sounds to individuals in a population of free-living squirrels. The squirrels clearly associated rattling sounds with rattlesnakes and proved capable of assessing both determinants of rattlesnake dangerousness on the basis of acoustic cues. Several features of squirrel behaviour covaried with these acoustic cues, including tail flagging, bipedal posture, and hesitancy to reapproach the area where the rattle was heard. Many of these behavioural differences were sustained for up to 10 min postplayback. Copyright 1999 The Association for the Study of Animal Behaviour.",
+      "journal": "Animal behaviour",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1530_jrf_0_0930415",
@@ -388,11 +497,7 @@
       "abstract": "<jats:p>Summary. Blood samples were obtained each month for 18 months in 1984–85 from wild-caught California ground squirrels. Circulating testosterone and total oestrogens were extracted from the plasma, measured by radioimmunoassay and compared with concurrent changes in plasma progesterone and prolactin in the same individuals. Male plasma testosterone concentrations peaked in January, shortly before mating, whereas female testosterone concentrations were low throughout the year. Female plasma oestrogen concentrations peaked in February, during the mating period. Juvenile males exhibited a transient increase in circulating testosterone in September, followed by testis growth, preputial separation, and the appearance of epididymal spermatozoa. Juvenile females exhibited a transient increase in circulating oestrogens in November. By the start of the first mating season after their births, neither juvenile males nor females differed significantly from same-sex adults with respect to pl",
       "journal": "Reproduction",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_156853990x00211",
@@ -402,11 +507,7 @@
       "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>The development of antisnake behavioral and immunological defenses was investigated in laboratory born California ground squirrels (Spermophilus beecheyi) from an area in California where Northern Pacific rattlesnakes (Crotalus viridis oreganus) and Pacific gopher snakes (Pituophis melanoleucus catenifer) are abundant. Previous studies have shown that adult ground squirrels from this area possess innate physiological resistance to rattlesnake venom while pups are highly vulnerable to predation from snakes. Pups from other areas are known to exhibit snake recognition and adult-like antisnake behaviors on first encounter, a finding that prompted further study of pups from this area. The present study had four objectives: 1) to determine if inexperienced pups can distinguish rattlesnakes from gopher snakes, 2) to determine what role mothers play in shaping their pups' behavior during their first encounters with snakes, 3) to determine if ",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1439-0310_1980_tb01070_x",
@@ -416,11 +517,7 @@
       "abstract": "Abstract Multiple‐note chatter vocalizations, recorded in the field, occurred in response to mammals, snakes, raptors, and during agonistic chases. Discriminant function analyses of sonagram‐derived data revealed that: (1) Chatters evoked by terrestrial predators, raptors, and agonistic encounters are discriminably distinct from each other; (2) snake‐evoked chatters are distinct from those evoked by carnivores; (3) a small number of chatters given in response to a badger differ from those elicited by bobcats, coyotes, and dogs. The latter three species elicit essentially identical chatters; (4) ♂ and ♀ chatters are not statistically discriminable; (5) small samples of chaser and chasee chatters are discriminable; (6) individual ground squirrels modified their calls, thereby reflecting different eliciting situations; (7) inter‐individual differences are usually present among calls elicited by a particular predator type. ♂♂ are at least as likely as ♀♀ to call in the presence of mammalia",
       "journal": "Zeitschrift für Tierpsychologie",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf00485669",
@@ -430,11 +527,7 @@
       "abstract": "",
       "journal": "Biochemical Genetics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1378755",
@@ -444,14 +537,10 @@
       "abstract": "",
       "journal": "Journal of Mammalogy",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 20,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

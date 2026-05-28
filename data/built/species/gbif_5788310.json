@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 9,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 27,
+    "doi_count": 21,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -42,90 +42,479 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
+    "song",
     "call",
-    "song"
+    "alarm call"
   ],
   "contexts": [
-    "alarm",
+    "territorial defence",
     "mate attraction",
-    "territorial defence"
+    "alarm"
   ],
   "functions": [
+    "territory signalling",
     "mate attraction",
-    "predator warning",
-    "territory signalling"
+    "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
+        "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "song",
+        "value": "alarm call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territory signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1855,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1854,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1853,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1852,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1851,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1850,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1849,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1848,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1847,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1846,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1845,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1844,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1843,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1842,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1841,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1840,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1839,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1838,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1837,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1836,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1835,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1834,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1833,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1832,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1831,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1830,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1829,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Fringilla coelebs",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1102215",
+        "provider": "xeno-canto",
+        "provider_id": "1102215",
+        "type": "song (XC1102215)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1102215",
+        "audio": "https://xeno-canto.org/1102215/download",
+        "sono": "outputs\\spectrograms\\gbif_5788310.png",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "XC · Garai József"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/ece3.73145",
+      "url": "https://doi.org/10.1002/ece3.73145",
+      "title": "Flexibility of Territorial Aggression in Urban and Rural Chaffinches",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/beheco/araf039",
+      "url": "https://doi.org/10.1093/beheco/araf039",
+      "title": "Decoding the chaffinch \"rain\" call: a female-directed alarm call?",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.11516",
+      "url": "https://doi.org/10.1002/ece3.11516",
+      "title": "Constitutive immune function is not associated with fuel stores in spring migrating passerine birds",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1111/jav.02341",
       "url": "https://doi.org/10.1111/jav.02341",
@@ -255,6 +644,56 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41743573",
+      "title": "Flexibility of Territorial Aggression in Urban and Rural Chaffinches",
+      "year": 2026,
+      "doi": "10.1002/ece3.73145",
+      "abstract": "Rapid environmental change due to urbanization poses novel challenges to animals. Behavioral change and individual plasticity are generally hypothesized to be the key to adapting to these challenges. One commonly observed behavioral change is higher observed aggression levels in urban animals, perhaps because anthropogenic noise disrupts effective acoustic communication during conflicts, leading to greater use of physical aggression. We investigated the hypothesis that urban noise drives aggression by performing repeated simulated territorial intrusion experiments on rural and urban chaffinches (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40475239",
+      "title": "Decoding the chaffinch \"rain\" call: a female-directed alarm call?",
+      "year": 2025,
+      "doi": "10.1093/beheco/araf039",
+      "abstract": "Acoustic communication is vital for many animal taxa. Many songbirds have elaborate communication systems and large vocal repertoires consisting of learned, complex songs, and calls that are usually simpler in structure. While the functions of songs have been well researched, the functions of bird calls are often difficult to deduce from the context. A well-known example is the \"rain\" call of the common chaffinch (",
+      "journal": "Behavioral ecology : official journal of the International Society for Behavioral Ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38932964",
+      "title": "Constitutive immune function is not associated with fuel stores in spring migrating passerine birds",
+      "year": 2024,
+      "doi": "10.1002/ece3.11516",
+      "abstract": "Migratory birds may either upregulate their immune system during migration as they might encounter novel pathogens or downregulate their immune system as a consequence of trade-offs with the resource costs of migration. Support for the latter comes not least from a study that reports a positive correlation in autumn migrating birds between fuel stores and parameters of innate and acquired immune function, that is, energy-exhausted migrants appear to have lowered immune function. However, to our knowledge, no study has tested whether this pattern exists in spring migrating birds, which may face other trade-offs than autumn migrants. Here, we investigate if in spring there is a relationship between fuel stores and microbial-killing ability, a measure of innate immune function, and total immunoglobulin (IgY), a measure of acquired immune function, in four migrating bird species: chaffinches (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36649903",
+      "title": "Four decades later: The highly conserved repertoire of song types in chaffinch (Fringilla coelebs)",
+      "year": 2023,
+      "doi": "10.1016/j.beproc.2023.104821",
+      "abstract": "The long-term stability of culturally transmitted traits like bird song has attracted much attention from researchers; however, it remains insufficiently studied up to the present time. This study investigates, by using spectrographic analysis, whether the repertoire of song types recorded at the same locality is persistent at short terms (of four years) and at long terms (of 38 years) in a migratory European continental population of chaffinches. The population song type repertoires recorded in 1978 and 1982 were only slightly different, thus indicating the high repertoire persistence within a few years. There were more differences between repertoires recorded in 1982 and 2020. In total, eight of the 29 song types (28 %) identified in 1982 were not found in 2020, and 5 of the 26 song types (19 %) discovered in 2020 were completely new compared to 1982. All the other song types recorded in 2020 were similar to those recorded in 1982. The frequency of use of these song types in 1982 and 2020 was also similar. By 2020, mainly those song types had disappeared from the population repertoire, which in 1982 were performed by a limited number of males. These data suggest a high long-term persistence of repertoire of song types in male song of a migratory continental population. This long-term stability of the population repertoire was maintained despite significant changes in the habitat structure caused by a massive expansion of bark beetles in 2010-2014.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33948822",
+      "title": "Birdsong Overlapping: Random Coincidence or Acoustic Interactions",
+      "year": 2021,
+      "doi": "10.1134/S0012496621020034",
+      "abstract": "Birdsong overlapping may either indicate communicative interaction between birds or be a simple coincidence. We developed a program that allowed us to mathematically modulate the independent singing of birds with a given level of song rate. This permitted us to statistically evaluate whether song overlapping is a random coincidence or real acoustic interactions between birds. Analysis of automatic recording (Song Meter SM4) of singing detected the cases of reliable acoustic interactions between both conspecific and heterospecific individuals. They account for 6% of the total singing time. The most numerous and actively singing chaffinches (in the case of singing of several individuals) suppress the singing of other species. The singing of a single chaffinch, on the other hand, can provoke the singing of other species, involving previously silent neighbors in song duels. It is possible that it is the acoustic interactions that are responsible for maintaining the structure of the population at the end of the breeding season.",
+      "journal": "Doklady biological sciences : proceedings of the Academy of Sciences of the USSR, Biological sciences sections",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1111_jav_02341",
       "title": "Anthropogenic noise reduces avian feeding efficiency and increases vigilance along an urban–rural gradient regardless of species’ tolerances to urbanisation",
       "year": 2020,
@@ -262,11 +701,7 @@
       "abstract": "Anthropogenic noise can adversely impact urban bird populations by interfering with vocal communication. Less research has addressed if anthropogenic noise masks the adventitious sounds that birds use to aid predator detection, which may lead to increased vigilance and reduced feeding efficiency. We test this hypothesis using a controlled playback experiment along an urban–rural gradient in Sheffield (UK). We also test the related predictions that anthropogenic noise has the greatest impacts on vigilance and feeding efficiency in rural populations, and on species that are more sensitive to urbanisation. We focus on six passerines, in order from most to least urbanised (based on how urbanisation influences population densities): blue tit Cyanistes caeruleus , robin Erithacus rubeculla , great tit Parus major , chaffinch Fringilla coelebs , coal tit Periparus ater and nuthatch Sitta europaea . We used play‐back of anthropogenic urban noise and a control treatment at 46 feeding stations l",
       "journal": "Journal of Avian Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_82981",
@@ -276,11 +711,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31862_2500-2961-2019-9-1-113-120",
@@ -290,11 +721,17 @@
       "abstract": "<jats:p>Chaffinch used epiphytic foliose lichen Hypogymnia physodes for construction of nest. The living fragments of thallus were tenuously attached by their lower black surface to the outward side of the birds nest. Abundance of this species on the trees around the bird’s nest of chaffinch showed that lichen was used for camouflage of birds’ nest. In addition single thallus fragments of foliose lichen Parmelia sulcata were used with this purpose too.</jats:p>",
       "journal": "SOCIALNO-ECOLOGICHESKIE TECHNOLOGII",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_28796893",
+      "title": "Singing from North to South: Latitudinal variation in timing of dawn singing under natural and artificial light conditions",
+      "year": 2017,
+      "doi": "10.1111/1365-2656.12739",
+      "abstract": "Animals breeding at northern latitudes experience drastic changes in daily light conditions during the breeding season with decreasing periods of darkness, whereas those living at lower latitudes are exposed to naturally dark nights throughout the year. Nowadays, many animals are also exposed to artificial night lighting (often referred to as light pollution). Animals strongly rely on variation in light levels to time their daily and seasonal behaviour. Previous work on passerine birds showed that artificial night lighting leads to earlier onset of dawn song. However, these studies were carried out at intermediate latitudes with more limited seasonal changes in daylength, and we still lack an understanding of the impact of artificial night lighting in relation to variation in natural light conditions. We investigated the influence of natural and artificial light conditions on the timing of dawn singing in five common songbird species in each of three regions in Europe that differed in natural variation in daylength (northern Finland, 65°N; southern Germany, 48°N; southern Spain, 37°N). In each region, we selected five peri-urban forest sites with and five without street lighting, and we recorded dawn singing at the beginning of the local breeding season. Our results show that the earliest natural singers, that is, European robins (Erithacus rubecula) and common blackbirds (Turdus merula), started dawn singing earlier along with the natural increase in night brightness in Finland, with no additional effects of artificial night lighting. In contrast, the later singers, such as, great tits (Parus major), blue tits (Cyanistes caeruleus) and chaffinches (Fringilla coelebs), showed similar onsets of dawn song relative to sunrise across the season and similar effects of artificial night lighting at all latitudes. Artificial night lighting affected great tits, blue tits and chaffinches even in northern Finland where nights became very bright. Proximate factors such as diffe",
+      "journal": "The Journal of animal ecology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2478_vzoo-2013-0034",
@@ -304,11 +741,37 @@
       "abstract": "<jats:title>Abstract</jats:title>\n\t\t\t\t<jats:p> Four types of Chaffinch rain-calls were found in Ukraine: “rülsch” - a trill signal widely spread in Europe; “hui” - a whistle signal that occurs in North-Western and Central Europe; “Crimean” whistle signal known only from Crimean peninsula and “Caucasian” signal occurring in Caucasus, Asia Minor and Balkans. Sonograms of rendition versions are given for all of the call types. Distribution of dialects of Chaffinch rain-calls in Ukraine was examined. “Rülsch”- dialect occurs at most of the plane Ukraine and Carpathians. Owing to colonizing artificial afforestations in steppe zone this dialect population’s range expanded southward to the coast of the Black and Azov seas. “Hui”-dialect is spread in the Lower Danube region. At the North-Eastern Danube delta Chaffinch’s with “hui”- and “rülsch”- rain-calls are found together and a bird was found that uttered both signals alternately but hybrid signals were not registered. It may attest to rece",
       "journal": "Vestnik Zoologii",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_24076242",
+      "title": "The progressive loss of syntactical structure in bird song along an island colonization chain",
+      "year": 2013,
+      "doi": "10.1016/j.cub.2013.07.057",
+      "abstract": "Cultural transmission can increase the flexibility of behavior, such as bird song. Nevertheless, this flexibility often appears to be constrained, sometimes by preferences for learning certain traits over others, a phenomenon known as \"biased\" learning or transmission. The sequential colonization of the Atlantic Islands by the chaffinch (Fringilla coelebs) provides a unique model system in which to investigate how the variability of a cultural trait has evolved. We used novel computational methods to analyze chaffinch song from twelve island and continental populations and to infer patterns of evolution in song structure. We found that variability of the subunits within songs (\"syllables\") differed moderately between populations but was not predicted by whether the population was continental or not. In contrast, we found that the sequencing of syllables within songs (\"syntax\") was less structured in island than continental populations and in fact decreased significantly after each colonization. Syntactical structure was very clear in the mainland European populations but was almost entirely absent in the most recently colonized island, Gran Canaria. Our results suggest that colonization leads to the progressive loss of a species-specific feature of song, syntactical structure.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23678738",
+      "title": "The seroprevalence of avipoxvirus and its association with avian malaria (Plasmodium spp.) infection in introduced passerine birds in the southern regions of the North Island of New Zealand",
+      "year": 2013,
+      "doi": "10.1637/10285-061912-ResNote.1",
+      "abstract": "Blood samples were collected from 65 free-ranging birds from six species in the southern North Island of New Zealand. Sera from the birds were tested for the presence of avipoxvirus (APV) antibodies by enzyme-linked immunosorbent assay (ELISA), and blood cells from 55 birds were also tested for Plasmodium spp. by PCR. Forty-five birds (69.2%) tested seropositive to APV. Song thrushes (Turdus philomelos) presented the highest seroprevalence at 100% (4/4), followed by Eurasian blackbirds (Turdus merula) (96.86%, 31/32), chaffinches (Fringilla coelebs) (54.55%, 6/11), starlings (Sturnus vulgaris) (25%, 3/12), greenfinches (Carduelis chloris) (25%, 1/4), and European goldfinches (Carduelis carduelis) (0%, 0/2). Plasmodium spp. DNA was detected in 15/55 birds (27.3%), including 11 Eurasian blackbirds, one song thrush, and three starlings. Eight Eurasian blackbird isolates (73%) grouped within the subgenus Novyella. Two Eurasian blackbird isolates and the song thrush isolate clustered within a different group with previously reported lineages LINN1 and AFTRU5. In addition, all three starling isolates clustered within the well-characterized lineage Plasmodium (Huffia) elongatum GRW06. All Plasmodium-positive Eurasian blackbirds and the song thrush were seropositive to APV, whereas only 67% of Plasmodium-positive starlings showed evidence of previous exposure to APV. A significant relationship between birds seropositive to APV and birds infected by Plasmodium spp. was observed (chi2 = 5.69, df = 1, P = 0.0086). To the authors' knowledge this is the first report describing the seroprevalence of APV and its association with Plasmodium spp. infection in introduced bird species in New Zealand.",
+      "journal": "Avian diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23325292",
+      "title": "Asymmetries in commitment in an avian communication network",
+      "year": 2013,
+      "doi": "10.1007/s00114-013-1009-6",
+      "abstract": "Mobbing of predators occurs within a conspecific and heterospecific context but has not been quantified within the framework of a communication network and analysed with respect to heterospecific reciprocity. Here, we used playbacks of mobbing calls to show that mobbing is unequally distributed within a community of deciduous forest birds. Five species (great tit Parus major, blue tit Cyanistes caeruleus, marsh tit Poecile palustris, nuthatch Sitta europaea and chaffinch Fringilla coelebs) responded to each other's playbacks of mobbing calls. Commitment to mob was measured by minimum distance, response latency and uttering of calls. Commitment was higher when conspecific calls were broadcast. Yet, responses to heterospecific calls were significantly different between the five species. Chaffinches had the lowest commitment, and blue tits tended to have the highest. The communication network is asymmetric. Some species invest more than they receive from other species. As mobbing might incur costs, these are unequally distributed across the community.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1525_bio_2011_61_3_6",
@@ -318,11 +781,7 @@
       "abstract": "This article presents a unifying theory of soundscape ecology, which brings the idea of the soundscape-the collection of sounds that emanate from landscapes-into a research and application focus. Our conceptual framework of soundscape ecology is based on the causes and consequences of biological (biophony), geophysical (geophony), and human-produced (anthrophony) sounds. We argue that soundscape ecology shares many parallels with landscape ecology, and it should therefore be considered a branch of this maturing field. We propose a research agenda for soundscape ecology that includes six areas: (1) measurement and analytical challenges, (2) spatial-temporal dynamics, (3) soundscape linkage to environmental covariates, ( We present case studies that illustrate different approaches to understanding soundscape dynamics. Because soundscapes are our auditory link to nature, we also argue for their protection, using the knowledge of how sounds are produced by the environment and humans.",
       "journal": "BioScience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_tree_2010_04_005",
@@ -332,11 +791,7 @@
       "abstract": "",
       "journal": "Trends in Ecology & Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1365-2664_2010_01914_x",
@@ -346,11 +801,17 @@
       "abstract": "Summary 1. Traffic affects large areas of natural habitat worldwide. As a result, the acoustic signals used by birds and other animals are increasingly masked by traffic noise. Masking of signals important to territory defence and mate attraction may have a negative impact on reproductive success. Depending on the overlap in space, time and frequency between noise and vocalizations, such impact may ultimately exclude species from suitable breeding habitat. However a direct impact of traffic noise on reproductive success has not previously been reported. 2. We monitored traffic noise and avian vocal activity during the breeding season alongside a busy Dutch motorway. We measured variation in space, time and spectrum of noise and tested for negative effects on avian reproductive success using long‐term breeding data on great tits Parus major . 3. Noise levels decreased with distance from the motorway, but we also found substantial spatial variation independent of distance. Noise also var",
       "journal": "Journal of Applied Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20175600",
+      "title": "Are there species-universal categories in bird song phonology and syntax? A comparative study of chaffinches (Fringilla coelebs), zebra finches (Taenopygia guttata), and swamp sparrows (Melospiza georgiana)",
+      "year": 2010,
+      "doi": "10.1037/a0016996",
+      "abstract": "Previous studies of learned bird song have suggested the existence of species-universal patterns in song organization: clear clusters in produced songs that do not vary within a species. Here the authors combine a computational method of comparing songs with statistical methods of assessing cluster structure to investigate this issue in a more quantitative manner. The authors first analyze song phonology and then examine song syntax at a population level in 3 species with very different song structure: chaffinches (Fringilla coelebs), zebra finches (Taenopygia guttata), and swamp sparrows (Melospiza georgiana). The authors used a dynamic time-warping algorithm to compare song elements, which closely matched the judgments of human observers. Clustering tendency and validation statistics showed that broad phonological categories existed in all 3 species, but these categories explained no more than half of the overall phonological variation. The authors developed a novel statistic to assess syntactical structure, which indicated that element transitions were not randomly distributed. In the clearest case, in chaffinches, this could be explained by syllables being linked to certain positions within the song. These results demonstrate measures of song organization that can be applied across species, enhancing the potential of comparative studies.",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1371_journal_pone_0004065",
@@ -360,11 +821,17 @@
       "abstract": "Biodiversity assessment remains one of the most difficult challenges encountered by ecologists and conservation biologists. This task is becoming even more urgent with the current increase of habitat loss. Many methods-from rapid biodiversity assessments (RBA) to all-taxa biodiversity inventories (ATBI)-have been developed for decades to estimate local species richness. However, these methods are costly and invasive. Several animals-birds, mammals, amphibians, fishes and arthropods-produce sounds when moving, communicating or sensing their environment. Here we propose a new concept and method to describe biodiversity. We suggest to forego species or morphospecies identification used by ATBI and RBA respectively but rather to tackle the problem at another evolutionary unit, the community level. We also propose that a part of diversity can be estimated and compared through a rapid acoustic analysis of the sound produced by animal communities. We produced alpha and beta diversity indexes ",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_17494601",
+      "title": "Investigations on infection status with H5 and H7 avian influenza virus in short-distance and long-distance migrant birds in 2001",
+      "year": 2007,
+      "doi": "10.1637/7546-033106R.1",
+      "abstract": "The role of migrating birds as potential vectors for avian influenza virus (AIV) was investigated. We captured 543 migrating passerines during their stopover on the island of Helgoland (North Sea) in spring and autumn 2001. These birds were sampled for avian influenza A viruses (AIV), specifically the subtypes H5 and H7. For virus detection, samples were taken from 1) short-distance migrants, such as chaffinches (Fringilla coelebs; n = 131) and song thrushes (Turdus philomelos; n = 169); and 2) long-distance migrants, such as garden warblers (Sylvia borin; n = 142) and common redstarts (Phoenicurus phoenicurus; n = 101). Virus isolation assays failed to identify AIV. Therefore, regarding the actual low number of samples, we speculate that the tested four species of passerines were not infected by AIV, indicating that the passerine species examined in this study may play only a minor role as potential vectors of AIV.",
+      "journal": "Avian diseases",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1365-2435_2006_01207_x",
@@ -374,11 +841,47 @@
       "abstract": "1 Habitat structure has been considered as a main factor shaping the evolution of bird song acoustics. 2 Based on expected differential patterns of sound degradation in different habitats, the acoustic adaptation hypothesis (AAH) proposes that songs with lower frequencies, narrower frequency ranges and longer inter-element intervals should occur more frequently in densely vegetated compared with herbaceous habitats. 3 Empirical tests of the AAH have provided mixed results. Here, we review for the first time the literature on this topic using a meta-analytical, quantitative approach. 4 Maximum, minimum, peak frequency and frequency range were found to be significantly lower in closed compared with open habitats, but the mean size of the effect of habitat was small. Inter-element intervals were not affected by habitat structure. 5 The AAH implicitly assumes that birds are selected to maximize song broadcast range and minimize degradation, while it neglects the potential role of energetic",
       "journal": "Functional Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_16425631",
+      "title": "No detection of avian influenza A viruses of the subtypes H5 and H7 and isolation of lentogenic avian paramyxovirus serotype 1 in passerine birds during stopover in the year 2001 on the island Helgoland (North Sea)",
+      "year": 2005,
+      "doi": null,
+      "abstract": "A total of 543 migrating passerines were captured during their stopover on the island of Helgoland (North Sea) in spring and autumn 2001. They were sampled for the detection of avian influenza A viruses (AIV) subtypes H5 and H7, and for avian paramyxoviruses serotype 1 (APMV-1). The goal of the study was to examine the role of migrating birds as potential vectors for these zoonotic viral diseases. For virus detection samples were taken from a) short-distance migrants such as chaffinches (Fringilla coelebs, n = 131) and song trushes (Turdus philomelos, n = 169), and b) long-distance migrants such as garden warbler (Sylvia borin, n = 142) and common redstarts (Phoenicurus phoenicurus, n = 101). Virus detection was done on conjunctival, choanal cleft and cloacal swabs. Embryonated SPF chicken eggs were used to isolate and propagate virus followed by virus identification in a hemagglutination test, hemagglutination inhibition test and in an agar gel diffusion test. In none of the tested samples AIV was detected. Therefore, we conclude that the tested four species of passerines were infected by these pathogens. Six out of 543 birds (1.1 %) were found to carry non-pathogenic and lentogenic strains of APMV-1. This indicates that the passerine species examined in this study may play only a minor role as potential vectors of APMV-1.",
+      "journal": "DTW. Deutsche tierarztliche Wochenschrift",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_14681070",
+      "title": "Borrelia burgdorferi sensu lato infection in passerine birds from the Mazurian Lake region (Northeastern Poland)",
+      "year": 2004,
+      "doi": "10.1080/03079450310001636309",
+      "abstract": "The aim of the present study was to evaluate a potential role of different passerine birds species in Mazurian Lake region (northeast Poland) in the spread of Borrelia burgdorferi sensu lato, the spirochaete that causes Lyme disease. A total number of 1254 birds (representing 42 species) were captured during the 3-year study period. Blood samples were collected from birds and analyzed with a nested polymerase chain reaction technique in order to detect fragments of the pathogen DNA. Positive results were obtained in 4.2% of all blood samples. Specifically, B. burgdorferi s.l. were detected in tree pipit (Anthus Erivialis; 21.1% of 19 birds), dunnock (Prunella modularis; 15.8% of 19 birds), chaffinch (Fringilla coelebs; 12.7% of 166 birds), song thrush (Turdus philometos; 9.3% of 54 birds), nuthatch (Sitta euopea; 7.7% of 26 birds), hawfinch (Coccothraustes coccothroustes; 6.7% of 15 birds), robin (Erithacus rebecula; 5.1% of 256 birds), blackbird (Turdus merula; 4.2% of 71 birds) and wren (Troglodytes troglodytes; 3.7% of 27 birds). Additionally, the incidence of the infection was analyzed in relation to the habitat in which the birds resided (mixed coniferous forest or alder swamp forest), months of the study (from April to October), age and sex, but the differences were not statistically significant.",
+      "journal": "Avian pathology : journal of the W.V.P.A",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_10877892",
+      "title": "Testing the flexibility of song type bout duration in the chaffinch, Fringilla coelebs",
+      "year": 2000,
+      "doi": "10.1006/anbe.2000.1421",
+      "abstract": "Many songbird species with small song type repertoires repeat each type a few times before switching to the next. Thus, their singing style may constrain their ability to switch. However, the proximate causation of song type switching is poorly understood. We exposed male chaffinches to (nonoverlapping) playbacks of single renditions of their own songs rather than a series of songs, thus stimulating them with a single external auditory event. The most prominent effect of the playback was an increase in the duration of the current song type bout. If the song type played back was different to that the subject was singing at the time, bout duration increased less than if it was of the same song type. The short-term changes induced by the playback suggest that the auditory input increases the motivational level for a particular song type. In the chaffinch this results in a delayed switch rather than in song type matching as a reaction to acoustic stimulation by conspecific song. Copyright 2000 The Association for the Study of Animal Behaviour.",
+      "journal": "Animal behaviour",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_10792927",
+      "title": "Assessment of auditory distance in a territorial songbird: accurate feat or rule of thumb?",
+      "year": 2000,
+      "doi": "10.1006/anbe.1999.1354",
+      "abstract": "Territorial passerines presumably benefit from their ability to use auditory cues to judge the distance to singing conspecifics, by increasing the efficiency of their territorial defence. Here, we report data on the approach of male territorial chaffinches, Fringilla coelebs, to a loudspeaker broadcasting conspecific song simulating a rival at various distances by different amounts of song degradation. Songs were degraded digitally in a computer-simulated forest emulating distances of 0, 20, 40, 80 and 120 m. The approach distance of chaffinches towards the loudspeaker increased with increasing amounts of degradation indicating a perceptual representation of differences in distance of a sound source. We discuss the interindividual variation of male responses with respect to constraints resulting from random variation of ranging cues provided by the environmental song degradation, the perception accuracy and the decision rules. Copyright 2000 The Association for the Study of Animal Behaviour.",
+      "journal": "Animal behaviour",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_bf01918464",
@@ -388,11 +891,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf01641533",
@@ -402,11 +901,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf01641532",
@@ -416,11 +911,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_4085493",
@@ -430,11 +921,7 @@
       "abstract": "Describes the physical characteristics, usages, and probable functions of 11 vocalizations of adult Black-capped Chickadees and 2 of the young. Some modifications of the vocal repertoire as compared with other passerines are associated with sociality and hole-nesting. The Fee-bee, usually considered the song of this chickadee, is less complex than some call notes and also has some differences in function compared to the songs of other passerines. The two most complex calls (Chick-a-dee and Gargle) are associated with social activities. Vocal signals tend toward sexual segregation, which may be important in a monomorphic species. The vocalizations of this species are compared with those of other parids, and selection pressures acting on the structure of vocalizations are discussed. The more complex vocalizations of this species are being studied extensively as mentioned in the accounts below, and are only generally described in this paper.",
       "journal": "The Auk",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1515_9783112588529-006",
@@ -444,11 +931,7 @@
       "abstract": "",
       "journal": "25. Juni 1975",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1365510",
@@ -458,11 +941,7 @@
       "abstract": "The object of this report is to make a contribution toward the understanding and objective portrayal of the vocabulary of a passerine bird. In 19.53, the author, together with a specialist on human linguistics (Collias and Joos, 1953), published a report on the spectrographic analysis of the vocalizations of chickens. There seems to have been no previous spectrographic study of the vocal repertoire of a bird. Since that time the acoustic spectrograph has become quite widely used as an instrumental aid to the study of animal sounds and communication. However, most authors dealing with birds have largely restricted their attentions to the detailed analysis of song patterns. Quite recently, Poulsen (19.58)) working in Denmark, has presented a spectrographic study of the calls of the Chaffinch (Fringilla coelebs), using Marler’s (1956) names of the calls as based on an intensive field study in England. The paper by Marler emphasizes song analysis, but it does not include spectrograms of so",
       "journal": "Ornithological Applications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_9789004629844",
@@ -472,11 +951,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf02537929",
@@ -486,14 +961,10 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

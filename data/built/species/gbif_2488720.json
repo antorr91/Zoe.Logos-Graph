@@ -24,10 +24,10 @@
     "color": "amber"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 8,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 22,
+    "claim_count": 4,
+    "doi_count": 21,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -56,62 +56,97 @@
     "vocalisations": [
       {
         "value": "contact call",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "contexts": [
       {
         "value": "foraging",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "group cohesion",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "functions": [
       {
         "value": "group coordination",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "individual recognition",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
-    "methods": [
-      {
-        "value": "playback experiment",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "random forest classification",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "spectrogram analysis",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      }
-    ]
+    "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 923,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 922,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 921,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 920,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Aegithalos caudatus",
     "recordings": [],
     "external_links": []
@@ -137,6 +172,20 @@
       "title": "Unsupervised classification to improve the quality of a bird song recording dataset",
       "year": 2022,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1073/pnas.1918726117",
+      "url": "https://doi.org/10.1073/pnas.1918726117",
+      "title": "Cost, risk, and avoidance of inbreeding in a cooperatively breeding bird",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rstb.2019.0565",
+      "url": "https://doi.org/10.1098/rstb.2019.0565",
+      "title": "Helping decisions and kin recognition in long-tailed tits: is call similarity used to direct help towards kin?",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.2305/iucn.uk.2021-3.rlts.t103871923a200205305.en",
@@ -230,6 +279,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1098/rspb.2001.1598",
+      "url": "https://doi.org/10.1098/rspb.2001.1598",
+      "title": "Kin discrimination in cooperatively breeding long-tailed tits",
+      "year": 2001,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1098/rspb.2023.0042",
       "url": "https://doi.org/10.1098/rspb.2023.0042",
       "title": "",
@@ -253,11 +309,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "paper_007",
@@ -267,11 +319,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "pilot",
-      "developmental_stage": "adult",
-      "main_outcome": "Long-tailed tits preferentially respond to contact calls of familiar kin over non-kin, and call rate increases during group fission events, supporting a coordinating function.",
-      "dataset_available": "yes",
-      "dataset_name": "Dryad_LTT_ContactCalls_2023"
+      "source": "pilot"
     },
     {
       "paper_id": "10_30980_kjo_2023_6_30_1_51",
@@ -281,11 +329,7 @@
       "abstract": "",
       "journal": "The Korean Journal of Ornithology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_ecoinf_2022_101952",
@@ -295,11 +339,7 @@
       "abstract": "",
       "journal": "Ecological Informatics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t103871923a200205305_en",
@@ -309,11 +349,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fevo_2020_00077",
@@ -323,11 +359,27 @@
       "abstract": "Interacting with relatives provides opportunities for fitness benefits via kin-selected cooperation, but also creates potential costs through kin competition and inbreeding. Therefore, a mechanism for the discrimination of kin from non-kin is likely to be critical for individuals of many social species to maximize their inclusive fitness. Evidence suggests that genetic cues to kinship are rare and that learned or environmental cues offer a more parsimonious explanation for kin recognition in most contexts. This is particularly true among cooperatively breeding birds, where recognition of familiar individuals is usually regarded as the most plausible mechanism for kin discrimination. In this article, we first review the evidence that familiarity provides an effective decision rule for discrimination of kin from non-kin in social birds. We then consider some of the complexities of familiarity as a cue to kinship, especially the problems of how individuals become familiar, and how familia",
       "journal": "Frontiers in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_32571952",
+      "title": "Cost, risk, and avoidance of inbreeding in a cooperatively breeding bird",
+      "year": 2020,
+      "doi": "10.1073/pnas.1918726117",
+      "abstract": "Inbreeding is often avoided in natural populations by passive processes such as sex-biased dispersal. But, in many social animals, opposite-sexed adult relatives are spatially clustered, generating a risk of incest and hence selection for active inbreeding avoidance. Here we show that, in long-tailed tits (",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32420850",
+      "title": "Helping decisions and kin recognition in long-tailed tits: is call similarity used to direct help towards kin?",
+      "year": 2020,
+      "doi": "10.1098/rstb.2019.0565",
+      "abstract": "Most cooperative breeders live in discrete family groups, but in a minority, breeding populations comprise extended social networks of conspecifics that vary in relatedness. Selection for effective kin recognition may be expected for more related individuals in such kin neighbourhoods to maximize indirect fitness. Using a long-term social pedigree, molecular genetics, field observations and acoustic analyses, we examine how vocal similarity affects helping decisions in the long-tailed tit",
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_94959",
@@ -337,11 +389,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_12657_ornis_2019_2_5",
@@ -351,11 +399,7 @@
       "abstract": "",
       "journal": "Ornis Polonica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2173_bow-on_100259",
@@ -365,11 +409,7 @@
       "abstract": "",
       "journal": "Ornithological Notes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_beheco_arv240",
@@ -379,11 +419,7 @@
       "abstract": "Animals in social groups can acquire information about the need for antipredator behavior by personally sampling the environment or from information provided by others. Use of such social information is expected to be adjusted according to its reliability, but experimental tests are rare and tend to focus just on alarm calls. We use detailed behavioral observations, acoustic analyses, and playback experiments to investigate how differences in sentinel dominance status affect the behavioral decisions of foraging dwarf mongooses (Helogale parvula). Dominant individuals acted as sentinels considerably more often than subordinate group members and used higher sentinel posts for guarding, making them potentially higher-quality sentinels in terms of experience and optimal positioning for predator detection. Surveillance calls produced during sentinel bouts contained vocal information about dominance status. Playback experiments showed that foragers used surveillance calls to detect sentinel ",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_12657_ornis_2015_1_2",
@@ -393,11 +429,7 @@
       "abstract": "",
       "journal": "Ornis Polonica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1186_s40657-015-0023-0",
@@ -407,11 +439,7 @@
       "abstract": "Mixed-species flocks of birds are distributed world-wide and can be especially dominant in temperate forests during the non-breeding season and in tropical rainforests year-round. We review from a community ecology perspective what is known about the structure and organization of flocks, emphasizing that flocking species tend to be those particularly vulnerable to predation, and flocks tend to be led by species that are able to act as sources of information about predators for other species. Studies on how flocks respond to fragmentation and land-use intensification continue to accumulate, but the question of whether the flock phenomenon makes species more vulnerable to anthropogenic change remains unclear. We review the literature on flocks in East Asia and demonstrate there is a good foundation of knowledge on which to build. We then outline potentially fruitful future directions, focusing on studies that can investigate how dependent species are on each other in flocks, and how such",
       "journal": "Avian Research",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_115295",
@@ -421,11 +449,7 @@
       "abstract": "Fish sounds are an important biological component of the underwater soundscape. Understanding species-specific sounds and their associated behaviour is critical for determining how animals use the biological component of the soundscape. Using both field and laboratory experiments, we describe the sound production of a nocturnal planktivore, Pempheris adspersa (New Zealand bigeye), and provide calculations for the potential effective distance of the sound for intraspecific communication. Bigeye vocalisations recorded in the field were confirmed as such by tank recordings. They can be described as popping sounds, with individual pops of short duration (7.9±0.3 ms) and a peak frequency of 405±12 Hz. Sound production varied during a 24 h period, with peak vocalisation activity occurring during the night, when the fish are most active. The source level of the bigeye vocalisation was 115.8±0.2 dB re. 1 µPa at 1 m, which is relatively quiet compared with other soniferous fish. Effective calli",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1642_auk-14-151_1",
@@ -435,11 +459,7 @@
       "abstract": "Research on acoustic communication has focused predominantly on high-amplitude, long-range vocalizations that are easily recognized from a distance by the human ear. However, attention has recently expanded to the more enigmatic low-amplitude (quiet) vocalizations produced during close-proximity interactions associated with a variety of social behaviors such as aggression, courtship, group movements, and predator avoidance. The existence of low-amplitude vocalizations has been identified in a number of individual avian and nonavian species (e.g., crickets, fish, and primates), but how common these signals are within larger taxonomic groups such as orders and classes remains poorly understood. Here, we used the Birds of North America Online archive to perform a survey of the existence and putative functions of low-amplitude vocalizations across 749 species accounts of breeding birds in North America. By searching with keywords such as soft, quiet, low-amplitude, and whispered, we found ",
       "journal": "The Auk",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_15845_on_v35i0_269",
@@ -449,11 +469,7 @@
       "abstract": "Boreal regions with a mild winter climate, such as the western coastal area of Norway, may hold a number of wintering passerine birds, in spite of the short day length in mid winter. To determine whether birds wintering under such conditions were able to use artificial light to increase their activity periods, day-time and night-time bird censuses were done from October to March in a residential area in Bergen, western Norway, along roads lit by street lights. Situated at latitude 60N, the area has 18 hours of darkness in mid winter. Twenty-four passerine species were recorded. Of these European Robin Erithacus rubecula, Common Blackbird Turdus merula, and Eurasian Wren Troglodytes troglodytes regularly started their activity several hours before sunrise, whereas Great Tits Parus major and Blue Tits Cyanistes caeruleus did so to some extent. The other species did not start their activity until morning civil twilight. Measurements of distance from street lights for European Robins durin",
       "journal": "Ornis Norvegica",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_46867_ijcp_2010_23_03_08",
@@ -463,11 +479,17 @@
       "abstract": "Contact calls are ubiquitous in social birds and mammals. Belugas are among the most vocal of cetaceans, but the function of their calls is poorly understood. In a previous study we hypothesized that a broad band pulsed call type labeled “Type A,” serves as a contact call between mothers and their calves. Here we examined context-specific use of call types recorded from a captive beluga social group at the Vancouver Aquarium, and found that the Type A call comprised 24% to 97% of the vocalizations during isolation, births, death of a calf, presence of external stressors, and re-union of animals after separation. In contrast it comprised 4.4% of the vocalizations produced during regular sessions. We grouped 2835 Type A calls into five variants, A1 to A5. A discriminant function analysis classified 87% of calls in the same groupings that we assigned them to by ear and visual examination of spectrograms. The variants do not represent individual signatures. One variant, A1, was used by thr",
       "journal": "International Journal of Comparative Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_15858573",
+      "title": "Learned kin recognition cues in a social bird",
+      "year": 2005,
+      "doi": "10.1038/nature03522",
+      "abstract": "In many cooperatively breeding birds, kin selection has an important role in the evolution and maintenance of social behaviour, and 'helpers' can maximize indirect fitness gains by preferentially allocating care to close relatives. Although there is evidence for kin-biased helping behaviour in several species, the mechanism of kin recognition underlying this behaviour is poorly understood. Vocalizations are the most commonly used cues in avian recognition systems, but the effectiveness of vocal signals as reliable recognition cues must depend on how they are acquired. However, there have been no experimental studies of the development of vocal recognition cues in cooperative birds; indeed, the ontogeny of all bird vocalizations other than song is poorly known in any species. Here, we show that cooperatively breeding long-tailed tits (Aegithalos caudatus) can discriminate between kin and non-kin according to the individual-specific characteristics of contact calls, and show experimentally that individuals learn these calls from provisioning adults during the nestling period. Finally, we show that the pattern of cooperative behaviour in this species is consistent with the use of recognition cues learned through association.",
+      "journal": "Nature",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_11646_zootaxa_691_1_1",
@@ -477,11 +499,17 @@
       "abstract": "<jats:p>Three species of syringophilid mites (Acari: Syringophilidae) were collected from quills of Aegithalos caudatus (Passeriformes: Aegithalidae) in Poland, Picobia caudati sp. n. from body feathers, Dissonus scirpaceus Skoracki, 1999 from rectrices, and Syringophilopsis aegithali Bochkov et al., 2001 from secondaries.</jats:p>",
       "journal": "Zootaxa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_11370960",
+      "title": "Kin discrimination in cooperatively breeding long-tailed tits",
+      "year": 2001,
+      "doi": "10.1098/rspb.2001.1598",
+      "abstract": "Long-tailed tits Aegithalos caudatus are cooperative breeders in which helpers exhibit a kin preference in their cooperative behaviour. We investigated the mechanism through which this preference is achieved by first conducting an experiment for testing whether breeders could recognize the calls of their relatives while controlling for spatial effects. We found that there were significant differences in the responses of breeders to the vocalizations of kin and non-kin, suggesting that vocal cues may be used for kin recognition. We conducted a second experiment in order to investigate whether recognition is achieved on the basis of relatedness per se or through association. Nestlings were cross-fostered between unrelated broods in order to create broods composed of true and foster siblings. In subsequent years, survivors from experimental broods did not discriminate between true and fostered siblings when making helping decisions, indicating that recognition is learned and not genetically determined. We discuss the effectiveness of learning through association as an indirect cue to kinship.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_5040_9781472926975_0046",
@@ -491,14 +519,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 22,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 6,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 26,
+    "claim_count": 8,
+    "doi_count": 21,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,64 +42,170 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "song"
+    "song",
+    "alarm call"
   ],
   "contexts": [
-    "mate attraction",
-    "territorial defence"
+    "territorial defence",
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1686,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1685,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1684,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1683,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1682,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1681,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1680,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1679,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Sylvia atricapilla",
     "recordings": [],
     "external_links": []
@@ -162,6 +268,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rspb.2013.2516",
+      "url": "https://doi.org/10.1098/rspb.2013.2516",
+      "title": "Birds see the true colours of fruits to live off the fat of the land",
+      "year": 2014,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1111/brv.12160",
       "url": "https://doi.org/10.1111/brv.12160",
       "title": "Acoustic sequences in non‐human animals: a tutorial review and prospectus",
@@ -183,6 +296,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rspb.2008.1011",
+      "url": "https://doi.org/10.1098/rspb.2008.1011",
+      "title": "Migration strategy and divergent sexual selection on bird song",
+      "year": 2009,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1111/j.1365-2435.2006.01207.x",
       "url": "https://doi.org/10.1111/j.1365-2435.2006.01207.x",
       "title": "Habitat structure and the evolution of bird song: a meta‐analysis of the evidence for the acoustic adaptation hypothesis",
@@ -202,6 +322,13 @@
       "title": "Birds associate species-specific acoustic and visual cues: recognition of heterospecific rivals by male blackcaps",
       "year": 2004,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1007/bf01640300",
+      "url": "https://doi.org/10.1007/bf01640300",
+      "title": "Untersuchung populationsspezifischer Zugrichtungen der Mönchsgrasmücke (Sylvia atricapilla) mittels derEmlen-Methode Analysis of population-specific migratory directions in the Blackcap (Sylvia atricapilla) using theEmlen-technique",
+      "year": 1987,
+      "source": "crossref"
     },
     {
       "doi": "10.1007/bf01643536",
@@ -234,6 +361,26 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_42013800",
+      "title": "An open-source three-dimensional digital brain atlas of a migratory bird, the Eurasian blackcap",
+      "year": 2026,
+      "doi": "10.1016/j.cub.2026.03.034",
+      "abstract": "Birds are among nature's foremost navigators, utilizing the Earth's magnetic field as one of their most important orientation cues to successfully travel between breeding and wintering grounds. Although migratory birds are key models for studying brain areas involved in magnetic field information processing, there is a lack of a high-resolution, 3D reference atlas to standardize research across studies. Here, we present the first freely available, digital, isotropic 25-μm voxel size 3D bird brain atlas. It is based on light microscopy images from eight male Eurasian blackcaps (Sylvia atricapilla), a night-migratory songbird central to magnetoreception and navigation research. We detail the atlas development process from whole-brain serial-section two-photon tomography to the creation of an average template and subsequent segmentation. The first atlas version comprises 44 segmented brain areas, including principal brain compartments, prominent anatomical subdivisions shared across all bird species, regions of the song system, and sensory regions-visual, trigeminal, and vestibular-implicated in magnetic field processing. The atlas is accessible via the standardized BrainGlobe Atlas API, making it compatible with a suite of computational neuroanatomy tools. This integration enables the accurate localization and comparison of implanted devices, injection sites, and cell populations across whole brains or individual slices. Providing a common coordinate space, this atlas serves as a reference that can be continuously updated with new annotations and facilitates alignment of future experimental data. We demonstrate its utility by registering viral tracing data to reveal a direct projection from the magneto-processing area \"Cluster N\" to the multi-integrational, \"prefrontal\" nidopallium caudolaterale.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39241452",
+      "title": "Contributions of birds to the feeding of ticks at host community level: Effects of tick burden, host density and yearly fluctuations",
+      "year": 2024,
+      "doi": "10.1016/j.ttbdis.2024.102390",
+      "abstract": "The eco-epidemiology of tick-borne diseases hinges on the abundance and distribution of hosts that sustain tick populations and the pathogens they carry. Research into the role of bird species in the feeding of Ixodes ricinus ticks, the primary tick species of veterinary and public health importance in Europe, remains scarce. This study endeavors to bridge these knowledge gaps by (i) assessing the density of feeding ticks (DFT) within a bird community to pinpoint species making substantial contributions, and (ii) exploring interannual variations in DFT over an extended timeline. Furthermore, we investigate whether variations in individual tick burden (TB) were more closely associated with the characteristics of bird species or interannual variations affecting the density of questing tick, using interannual TB variation as a surrogate. To fulfill these aims, we conducted a 13-year longitudinal study monitoring I. ricinus ticks feeding on a bird community in a periurban forest in France, covering breeding periods from 2007 to 2019. Within this community, we identified seven principal bird species significantly contributing to I. ricinus tick feeding: the Common Blackbird (Turdus merula), the Song Thrush (Turdus philomelos), the European Robin (Erithacus rubecula), the Dunnock (Prunella modularis), the Eurasian Blackcap (Sylvia atricapilla), the Great Tit (Parus major), and the Common Nightingale (Luscinia megarhynchos). Our results show that the bird community's contribution to tick feeding remained relatively consistent from year-to-year, though certain years displayed higher or lower DFT values related to the average over the study period. Moreover, five out the seven major species accounted for 80 % to 95 % of DFT annually. Consequently, we emphasized the need to broaden the scope of future research on bird contributions to tick population dynamics beyond merely thrushes (Turdidae species), to encompass a more diverse range of species, particularly those common bir",
+      "journal": "Ticks and tick-borne diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_26456_vtbio278",
       "title": "THE LATEST SIGHTING OF SYLVIA ATRICAPILLA IN TVER",
       "year": 2022,
@@ -241,11 +388,7 @@
       "abstract": "<jats:p>В работе анализируются случаи позднеосенних и зимних встреч черноголовой славки в России и за её пределами в осенний миграционный период. Приводися детальный анализ кормового поведения славки, встреченной в г. Твери в ноябре 2022 года. На основании собственных наблюдений в течение 3 дней и информации из литературы предполагаюся основные причины, приводящие к регистрациям поздних встреч черноголовок, как в пределах гнездового ареала вида, так и за его границами.</jats:p>\n                                                                                            <jats:p>Here we report the circumstances of the latest sighting of the Eurasian blackcap in the city of Tver. We also give an overview of late autumn and winter sightings of the Eurasian blackcap in Russia and abroad during the autumn migration period. A detailed analysis of the feeding behavior of the Eurasian blackcap encountered in Tver in November 2022 is provided. Possible reasons leading to the late encounters of Eu",
       "journal": "Herald of Tver State University. Series: Biology and Ecology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_jav_02832_v1_review1",
@@ -255,11 +398,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_62499",
@@ -269,11 +408,17 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_30673588",
+      "title": "Parasites in space and time: a case study of haemosporidian spatiotemporal prevalence in urban birds",
+      "year": 2019,
+      "doi": "10.1016/j.ijpara.2018.08.009",
+      "abstract": "Prevalence responses to anthropic factors differ across hosts and parasite species. We here analyzed the spatiotemporal variation of avian haemosporidian prevalence in bird assemblages of the Mooswald forest (i.e., urban greenspace; Freiburg, Germany), in response to local environmental features (e.g., water sources, human presence (visited)/absence (unvisited)) and bird-level traits (e.g., body condition, age, sex) in 2 years. We used a nested PCR protocol (mitochondrial (mt)DNA cytochrome b (cyt b) gene) and microscopy to determine haemosporidian infections. Prevalence was analyzed using a general linear multi-model (glmulti) approach with Akaike information criterion corrected for small samples (AICc), with subsequent model inferences using a GLMM on the best selected model, considering bird species as a random factor. Analyses were conducted for the main understory bird species (Blackcap - Sylvia atricapilla, Chaffinch - Coereba flaveola, Great Tit - Parus major, Blue Tit - Cyanistes caeruleus, European Robin - Erithacus rubecula, Blackbird - Turdus merula, Song Thrush - Turdus philomelos). We further conducted spatial autocorrelation analyses for all haemosporidian infections, and classification and regression trees (CARTs) for focal species. We analyzed a total of 544 samples of seven bird species. In 2011 prevalence for Haemoproteus/Plasmodium was 25.8% and 11.7% for Leucocytozoon. In 2013 prevalence for Haemoproteus/Plasmodium was 26.5% and 35.5% for Leucocytozoon. Haemosporidian prevalence was significantly different between some focal species. There was a negative association between distance to the nearest water source and prevalence in the year 2011, and the opposite pattern for the year 2013. However, when analyzed for the six focal species separately, such a relationship could change from a negative to a positive one, or there could be no relationship at all. For Leucocytozoon there was higher prevalence in the section of the forest visited by humans. ",
+      "journal": "International journal for parasitology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_4081_rio_2015_237",
@@ -283,11 +428,7 @@
       "abstract": "<jats:p>Migratory Blackcaps in Amorgos collect to feed in unseasonably fruiting olives in March and produce a chorus of subsong. The possible function of this behaviour is briefly discussed.</jats:p>",
       "journal": "Rivista Italiana di Ornitologia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2305_iucn_uk_2016-3_rlts_t22716901a87681382_en",
@@ -297,11 +438,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_30970_sbi_1001_464",
@@ -311,11 +448,7 @@
       "abstract": "",
       "journal": "Studia Biologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_ecs2_1259",
@@ -325,11 +458,7 @@
       "abstract": "Abstract Noise pollution degrades natural acoustic conditions, potentially interfering with bird communication. However, exactly how noise impacts the ability of the signal receiver to detect and discriminate vocalizations from conspecifics remains understudied in field settings. We performed a natural experiment to determine the effect of noise pollution on the territory‐defense behaviors of two emberizid sparrows exposed to carefully constructed playbacks of conspecific intruder songs. Although all birds reacted to the playbacks, response latency increased with noise levels. This suggests that noise interferes with signal reception and may indicate impaired signal discrimination. We place these results in the context of a receiver's “listening area” and the significant impact of noise pollution on this receiver‐centric perceptual acoustic range. This work informs conservation efforts and provides a much needed field‐based examination of the disruptive impact of noise pollution on beh",
       "journal": "Ecosphere",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10336-015-1207-4",
@@ -339,11 +468,17 @@
       "abstract": "Nest predation is a key source of selection for birds that has attracted increasing attention from ornithologists. The inclusion of new concepts applicable to nest predation that stem from social information, eavesdropping or physiology has expanded our knowledge considerably. Recent methodological advancements now allow focus on all three players within nest predation interactions: adults, offspring and predators. Indeed, the study of nest predation now forms a vital part of avian research in several fields, including animal behaviour, population ecology, evolution and conservation biology. However, within nest predation research there are important aspects that require further development, such as the comparison between ecological and evolutionary antipredator responses, and the role of anthropogenic change. We hope this review of recent findings and the presentation of new research avenues will encourage researchers to study this important and interesting selective pressure, and ult",
       "journal": "Journal für Ornithologie",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_26522931",
+      "title": "The two parts of the blackcap song: Acoustic analysis and male responses to playbacks",
+      "year": 2015,
+      "doi": "10.1016/j.beproc.2015.10.007",
+      "abstract": "Bird songs are complex manifold acoustic signals serving two main functions: mate attraction and territorial defense. The way information is encoded in the song often reflects adaptation to proximate and ultimate constraints. Male blackcaps, Sylvia atricapilla, display versatile songs with two parts, a warble and a whistle, whose functions remain unclear. We showed that the two parts of songs differ in terms of intensity, frequency and temporal parameters. They also contain totally different sets of syllables. Furthermore, the warble is versatile whereas the whistle part shows syllable sharing between individuals leaving closeby. Altogether, the results of our analysis suggest that the two parts encode different information potentially directed to different audiences. In order to test the potential function of these two parts, we performed playback experiments by broadcasting entire songs and each part separately. Warble and whistle alone are sufficient to trigger male responses and males sing both parts in responses to all stimuli, showing that both parts of the song are used in male-male competition. It is suggested that the segregation of information in the blackcap song could be related to public versus private communication, used in both intra- and intersexual contexts, rather than directed to male versus female audiences only.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_brv_12160",
@@ -353,11 +488,17 @@
       "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24403330",
+      "title": "Birds see the true colours of fruits to live off the fat of the land",
+      "year": 2014,
+      "doi": "10.1098/rspb.2013.2516",
+      "abstract": "Communication is a characteristic of life, but its reliability and basic definition are hotly debated. Theory predicts that trade among mutualists requires high reliability. Here, we show that moderate reliability already allows mutualists to optimize their rewards. The colours of Mediterranean fleshy-fruits indicate lipid rewards (but not other nutrients) to avian seed dispersers on regional and local scales. On the regional scale, fruits with high lipid content were significantly darker and less chromatic than congeners with lower lipid content. On the local scale, two warbler species (Sylvia atricapilla and Sylvia borin) selected fruit colours that were less chromatic, and thereby maximized their intake of lipids-a critical resource during migration and wintering. Crucially, birds were able to maximize lipid rewards with moderate reliability from visual fruit colours (r(2) = 0.44-0.60). We suggest that mutualisms require only that any association between the quality and sensory aspects of signallers is learned through multiple, repeated interactions. Because these conditions are often fulfilled, also in social communication systems, we contend that selection on reliability is less intense than hitherto assumed. This may contribute to explaining the extraordinary diversity of signals, including that of plant reproductive displays.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1086_671906",
@@ -367,11 +508,7 @@
       "abstract": "Urbanization changes the physical environment of nonhuman species but also markedly changes their acoustic environment. Urban noise interferes with acoustic communication in a range of animals, including birds, with potentially profound impacts on fitness. However, a mechanistic theory to predict which species of birds will be most affected by urban noise is lacking. We develop a mathematical model to predict the decrease in the active space of avian vocal signals after moving from quiet forest habitats to noisy urban habitats. We find that the magnitude of the decrease is largely a function of signal frequency. However, this relationship is not monotonic. A metaregression of observed increases in the frequency of birdsong in urban noise supports the model's predictions for signals with frequencies between 1.5 and 4 kHz. Using results of the metaregression and the model described above, we show that the expected gain in active space following observed frequency shifts is up to 12% and ",
       "journal": "The American Naturalist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1525_bio_2011_61_3_6",
@@ -381,11 +518,27 @@
       "abstract": "This article presents a unifying theory of soundscape ecology, which brings the idea of the soundscape-the collection of sounds that emanate from landscapes-into a research and application focus. Our conceptual framework of soundscape ecology is based on the causes and consequences of biological (biophony), geophysical (geophony), and human-produced (anthrophony) sounds. We argue that soundscape ecology shares many parallels with landscape ecology, and it should therefore be considered a branch of this maturing field. We propose a research agenda for soundscape ecology that includes six areas: (1) measurement and analytical challenges, (2) spatial-temporal dynamics, (3) soundscape linkage to environmental covariates, ( We present case studies that illustrate different approaches to understanding soundscape dynamics. Because soundscapes are our auditory link to nature, we also argue for their protection, using the knowledge of how sounds are produced by the environment and humans.",
       "journal": "BioScience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_19711103",
+      "title": "Spring arrival along a migratory divide of sympatric blackcaps (Sylvia atricapilla)",
+      "year": 2010,
+      "doi": "10.1007/s00442-009-1445-3",
+      "abstract": "The recent formation of a migratory divide in the blackcap (Sylvia atricapilla) involves sympatrically breeding birds migrating to different overwintering quarters. Within the last 50 years, a novel migratory strategy has evolved resulting in an increasing proportion of birds now wintering in Britain instead of migrating to the traditional sites in the Mediterranean area. This rapid microevolution has been attributed to allochronic spring arrival of migrants from the respective wintering quarters leading to assortative mating. Moreover, blackcaps wintering in Britain may experience fitness advantages owing to improved local wintering conditions. We used stable hydrogen isotope signatures (deltaD) to scrutinize the degree of temporal segregation of blackcaps upon spring arrival and to test for carry-over effects in body condition associated with the disparate wintering environments. Although we found that migrants from Britain arrive significantly earlier on German breeding grounds than migrants from the Mediterranean region, we also found a considerable overlap in arrival times. In a resampling model, the mean probability of assortative mating of birds wintering in Britain is </=28% in both years. These results suggest that allochrony alone is not a strong isolating barrier between the two subpopulations. Migrants from both wintering locations did not differ in terms of body mass, mass-tarsus residuals or mass-tarsus ratio and arrived in a similar reproductive disposition. Thus, blackcaps wintering in Britain do not gain an apparent fitness advantage on spring migration due to carry-over effects in body condition. Future studies should explore additional factors such as differences in song quality and habitat that might contribute to the rapid microevolution of the blackcap.",
+      "journal": "Oecologia",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_18945666",
+      "title": "Migration strategy and divergent sexual selection on bird song",
+      "year": 2009,
+      "doi": "10.1098/rspb.2008.1011",
+      "abstract": "Migratory birds are assumed to be under stronger sexual selection pressure than sedentary populations, and the fact that their song is more complex has been taken as confirmation of this fact. However, this assumes that sexual selection pressure due to both male competition and female choice increase together. A further issue is that, in many species, songs become less complex during competitive encounters; in contrast, female choice selects for more complex song, so the two selection pressures may drive song evolution in different directions. We analysed song in two sedentary and two migratory populations of blackcaps (Sylvia atricapilla), a species in which different song parts are directed to males and females. We found that migratory populations produce longer, female-directed warbles, indicating sexual selection through female choice is the strongest in these populations. However, the part of the song directed towards males is shorter and more repetitive (as observed in individual competitive encounters between males) in non-migratory populations, indicating sedentary populations, are under stronger selection due to male competition. We show for the first time that the intensity of selection pressure from male competition and female choice varies independently between populations with different migratory behaviours. Rapid alterations in the migration patterns of species are thus likely to lead to unexpected consequences for the costs and benefits of sexual signals.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1365-2435_2006_01207_x",
@@ -395,11 +548,17 @@
       "abstract": "1 Habitat structure has been considered as a main factor shaping the evolution of bird song acoustics. 2 Based on expected differential patterns of sound degradation in different habitats, the acoustic adaptation hypothesis (AAH) proposes that songs with lower frequencies, narrower frequency ranges and longer inter-element intervals should occur more frequently in densely vegetated compared with herbaceous habitats. 3 Empirical tests of the AAH have provided mixed results. Here, we review for the first time the literature on this topic using a meta-analytical, quantitative approach. 4 Maximum, minimum, peak frequency and frequency range were found to be significantly lower in closed compared with open habitats, but the mean size of the effect of habitat was small. Inter-element intervals were not affected by habitat structure. 5 The AAH implicitly assumes that birds are selected to maximize song broadcast range and minimize degradation, while it neglects the potential role of energetic",
       "journal": "Functional Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_15704437",
+      "title": "Are high perches in the blackcap Sylvia atricapilla song or listening posts? A sound transmission study",
+      "year": 2005,
+      "doi": "10.1121/1.1828805",
+      "abstract": "Birds often sing from high perches referred to as song posts. However, birds also listen and keep a lookout from these perches. We used a sound transmission experiment to investigate the changes for receiving and sending conditions that a territorial songbird may experience by moving upwards in the vegetation. Representative song elements of the blackcap Sylvia atricapilla were transmitted in a forest habitat in spring using a complete factorial design with natural transmission distances and speaker and microphone heights. Four aspects of sound degradation were quantified: signal-to-noise ratio, excess attenuation, distortion within the sounds determined as a blur ratio, and prolongation of the sounds with \"tails\" of echoes determined as a tail-to-signal ratio. All four measures indicated that degradation decreased with speaker and microphone height. However, the decrease was considerably higher for the microphone than for the speaker. This suggests that choosing high perches in a forest at spring results in more benefits to blackcaps in terms of improved communication conditions when they act as receivers than as senders.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_beheco_arh040",
@@ -409,11 +568,7 @@
       "abstract": "Although oscine bird song is widely thought to have evolved under the influence of sexual selection, few studies have used phylogenetic comparative methods to investigate how these vocalizations have changed historically. In the present study, we use a molecular phylogeny based on mitochondrial sequence data to reconstruct vocal evolution in the oropendolas and caciques, an oscine group with diverse taxon-specific song patterns and a wide range in levels of sexual size dimorphism. Our reconstructions show that large changes in song organization and structure have occurred on branches of the phylogeny with relatively high levels of size dimorphism. The particular vocal components that changed, however, often differed in different phylogenetic lineages. These patterns indicate that sexual selection has had important influences on song evolution in these birds, but has targeted different components of song in different taxa. Our results provide insight into how sexual selection influences",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_ari012",
@@ -423,11 +578,17 @@
       "abstract": "Animals need to be able to identify other species, which is crucial in competition for ecological resources, for using other species as a cue in habitat selection, and for the establishment and maintenance of parasite-host species associations in brood-parasitic species. The ability to discriminate between conspecifics and heterospecifics may be crucially important also in refinement of mating preferences during speciation and for premating isolation of sympatric species. It has long been hypothesized that species identification ability is based on learned associations between multiple features that distinguish species. Here I test this hypothesis using dual-choice song playback experiments with interspecifically territorial male blackcaps (Sylvia atricapilla) that defend territories against male garden warblers (Sylvia borin). I show that male blackcaps can associate species-specific songs with species-specific plumage and also that they retain the memory of this association for an 8-",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1007_bf01640300",
+      "title": "Untersuchung populationsspezifischer Zugrichtungen der Mönchsgrasmücke (Sylvia atricapilla) mittels derEmlen-Methode Analysis of population-specific migratory directions in the Blackcap (Sylvia atricapilla) using theEmlen-technique",
+      "year": 1987,
+      "doi": "10.1007/bf01640300",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf01643536",
@@ -437,11 +598,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927026_0216",
@@ -451,11 +608,7 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927040_0427",
@@ -465,14 +618,10 @@
       "abstract": "",
       "journal": "The Birds of Africa : The Malagasy Region",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 26,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 5,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 21,
+    "claim_count": 4,
+    "doi_count": 21,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,12 +45,12 @@
     "grunt"
   ],
   "contexts": [
-    "male competition",
-    "spawning"
+    "spawning",
+    "male competition"
   ],
   "functions": [
-    "male competition",
-    "mate attraction"
+    "mate attraction",
+    "male competition"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,39 +58,93 @@
         "value": "grunt",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "male competition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "spawning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "male competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "male competition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "male competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 248,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 247,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 246,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 245,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -98,6 +152,13 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1111/jfb.15850",
+      "url": "https://doi.org/10.1111/jfb.15850",
+      "title": "Temperature and body size affect movement of juvenile Atlantic cod (Gadus morhua) and saithe (Pollachius virens) at nearshore nurseries",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1242/jeb.247507",
       "url": "https://doi.org/10.1242/jeb.247507",
@@ -127,6 +188,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1093/conphys/coz020",
+      "url": "https://doi.org/10.1093/conphys/coz020",
+      "title": "Effects of sound exposure from a seismic airgun on heart rate, acceleration and depth use in free-swimming Atlantic cod and saithe",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1007/978-3-319-25582-8_10022",
       "url": "https://doi.org/10.1007/978-3-319-25582-8_10022",
       "title": "American Pollack (Pollachius virens)",
@@ -153,6 +221,13 @@
       "title": "Vertical distribution of saithe (Pollachius virens) aggregating around fish farms",
       "year": 2016,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0088819",
+      "url": "https://doi.org/10.1371/journal.pone.0088819",
+      "title": "Inferring fish escape behaviour in trawls based on catch comparison data: model development and evaluation based on data from Skagerrak, Denmark",
+      "year": 2014,
+      "source": "pubmed"
     },
     {
       "doi": "10.1093/icesjms/fst003",
@@ -227,6 +302,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_38924061",
+      "title": "Temperature and body size affect movement of juvenile Atlantic cod (Gadus morhua) and saithe (Pollachius virens) at nearshore nurseries",
+      "year": 2025,
+      "doi": "10.1111/jfb.15850",
+      "abstract": "Seasonal migrations of marine fish between shallow summer feeding habitats and deep overwintering grounds are driven by fluctuations in the biotic and abiotic environment as well as by changes in the internal state. Ontogenetic shifts in physiology and metabolism affect the response to environmental drivers and may lead to changes in migration timing and propensity. In this study, we investigated the effect of temperature and body size on migration timing and depth distribution in acoustically tagged Atlantic cod, Gadus morhua, and saithe, Pollachius virens, during the period of seasonal migration from shallow summer habitats. The results from our study revealed a wide range of horizontal and vertical distribution of age 1 and 2 G. morhua within the fjord. Larger G. morhua inhabited deeper, cooler waters than smaller juveniles, likely reflecting size-dependent thermal preferences and predation pressure. Conversely, juvenile P. virens occupied primarily shallow waters close to land. The variation in depth distribution of G. morhua was mainly explained by body size and not, against our predictions, by water temperature. Conversely, the dispersal from the in-fjord habitats occurred when water temperatures were high, suggesting that seasonal temperature fluctuations can trigger the migration timing of P. virens and larger G. morhua from summer habitats. Partial migration of small juvenile G. morhua from in-fjord foraging grounds, likely influenced by individual body condition, suggested seasonal migration as a flexible strategy that individuals may use to reduce predation and energetic expenditure. Predation mortality rates of tagged juveniles were higher than previously suggested and are the first robust predation mortality rates for juvenile G. morhua and P. virens estimated based on acoustic transmitters with acidity sensors. The results have relevance for climate-informed marine spatial planning as under the scenario of increasing ocean temperatures, increasing summ",
+      "journal": "Journal of fish biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1242_jeb_247507",
       "title": "Fish communicate with water flow to enhance a school's social network",
       "year": 2024,
@@ -234,11 +319,7 @@
       "abstract": "Schooling fish rely on a social network created through signaling between its members to interact with their environment. Previous studies have established that vision is necessary for schooling and that flow sensing by the lateral line system may aid in a school's cohesion. However, it remains unclear to what extent flow provides a channel of communication between schooling fish. Based on kinematic measurements of the speed and heading of schooling tetras (Petitella rhodostoma), we found that compromising the lateral line by chemical treatment reduced the mutual information between individuals by ∼13%. This relatively small reduction in pairwise communication propagated through schools of varying size to reduce the degree and connectivity of the social network by more than half. Treated schools additionally showed more than twice the spatial heterogeneity of fish with unaltered flow sensing. These effects were much more substantial than the changes that we measured in the nearest-neig",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3390_ani14131984",
@@ -248,11 +329,7 @@
       "abstract": "The <i>acoustic hypothesis</i> suggests that schooling can result in several benefits. (1) The acoustic pattern (AP) (pressure waves and other water movements) produced by swimming are likely to serve as signals within fish shoals, communicating useful spatial and temporal information between school members, enabling synchronized locomotion and influencing join, stay or leave decisions and shoal assortment. (2) Schooling is likely to reduce the masking of environmental signals, e.g., by auditory grouping, and fish may achieve windows of silence by simultaneously stopping their movements. (3) A solitary swimming fish produces an uncomplicated AP that will give a nearby predator's lateral line organ (LLO) excellent information, but, if extra fish join, they will produce increasingly complex and indecipherable APs. (4) Fishes swimming close to one another will also blur the electrosensory system (ESS) of predators. Since predators use multimodal information, and since information from the",
       "journal": "Animals",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7557_3_4805",
@@ -262,11 +339,7 @@
       "abstract": "Beginning in 1986, 7 aerial surveys covering the coastal waters of Iceland have been conducted up to 2016. In addition, several partial surveys covering portions of the same area and at different times of the year have been flown in the same 30 year time span. We present previously unpublished abundance estimates, corrected to the extent feasible for known biases, for common minke whales (Balaenoptera acutorostrata), humpback whales (Megaptera novaeangliae), white-beaked dolphins (Lagenorhynchus albirostris) and harbour porpoises (Phocoena phocoena) from some or all of the 2007, 2009 and 2016 surveys. The relative abundance of most species was comparatively low in the spring and fall, and peaked June and July when all of the main surveys have been carried out. An analysis of changes in line transect density as an index of relative abundance from all surveys indicates that common minke whale abundance decreased by 75% after 2001 and has remained at a relatively low level since then. Rel",
       "journal": "NAMMCO Scientific Publications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_68361",
@@ -276,11 +349,17 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31110769",
+      "title": "Effects of sound exposure from a seismic airgun on heart rate, acceleration and depth use in free-swimming Atlantic cod and saithe",
+      "year": 2019,
+      "doi": "10.1093/conphys/coz020",
+      "abstract": "Airguns used for offshore seismic exploration by the oil and gas industry contribute to globally increasing anthropogenic noise levels in the marine environment. There is concern that the omnidirectional, high intensity sound pulses created by airguns may alter fish physiology and behaviour. A controlled short-term field experiment was performed to investigate the effects of sound exposure from a seismic airgun on the physiology and behaviour of two socioeconomically and ecologically important marine fishes: the Atlantic cod (",
+      "journal": "Conservation physiology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_978-3-319-25582-8_10022",
@@ -290,11 +369,7 @@
       "abstract": "",
       "journal": "The Western Arctic Seas Encyclopedia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_12714_egejfas_2017_34_4_05",
@@ -304,11 +379,7 @@
       "abstract": "",
       "journal": "Ege Journal of Fisheries and Aquatic Sciences",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_53846_goediss-6292",
@@ -318,11 +389,7 @@
       "abstract": "The aim of this study was to describe and investigate the vocal repertoire and possible factors influencing the size and composition of two matrilineal social whale species: long-finned pilot whales and killer whales in Norway. I was not able to describe the entire vocal repertoire due to the large number of animals in this population and the limitations of fieldwork and time. In this thesis I describe a vocal repertoire subset from seven groups of pilot whales and 11 groups of killer whales recorded in the Vestfjord in northern Norway during the time period 2004 until 2011. Using observer-based acoustic analysis I could discern 129 call types and 25 subtypes for long-finned pilot whales, and 60 call types and 25 subtypes for killer whales. Per group, pilot whales used an average of 36 call types and killer whales just 25. The general structure of call types was similar, with most call types consisting of one segment and two elements with different structures. The main element structur",
       "journal": "",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_icesjms_fsv261",
@@ -332,11 +399,17 @@
       "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Floating fish farm installations attract a number of marine species, probably because they provide both shelter and excess feed from the cages. Saithe are by far the most numerous fish visitors to fish farms on the Norwegian coast, and may gather in large numbers beneath the cages, but detailed knowledge of their swimming behaviour is limited. This study examined the vertical movements and distribution of saithe equipped with acoustic transmitters at 15 fish farms over a period of almost 2 years. The saithe aggregating around fish farms displayed behavioural patterns reported from saithe elsewhere; diel rhytms in vertical distribution, reduced activity level at night and seasonality in swimming depth. Typical residence depth was from 25 to 50 m in summer and 60 to 90 m during winter. However, an anomaly was observed, as fish moved 10–20 m closer to the surface during mid-winter. The reason for this is not known, but may be associ",
       "journal": "ICES Journal of Marine Science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_24586403",
+      "title": "Inferring fish escape behaviour in trawls based on catch comparison data: model development and evaluation based on data from Skagerrak, Denmark",
+      "year": 2014,
+      "doi": "10.1371/journal.pone.0088819",
+      "abstract": "During the fishing process, fish react to a trawl with a series of behaviours that often are species and size specific. Thus, a thorough understanding of fish behaviour in relation to fishing gear and a scientific understanding of the ability of different gear designs to utilize or stimulate various behavioural patterns during the catching process are essential for developing more efficient, selective, and environmentally friendly trawls. Although many behavioural studies using optical and acoustic observation systems have been conducted, harsh observation conditions on the fishing grounds often hamper the ability to directly observe fish behaviour in relation to fishing gear. As an alternative to optical and acoustic methods, we developed and applied a new mathematical model to catch data to extract detailed and quantitative information about species- and size-dependent escape behaviour in towed fishing gear such as trawls. We used catch comparison data collected with a twin trawl setup; the only difference between the two trawls was that a 12 m long upper section was replaced with 800 mm diamond meshes in one of them. We investigated the length-based escape behaviour of cod (Gadus morhua), haddock (Melanogrammus aeglefinus), saithe (Pollachius virens), witch flounder (Glyptocephalus cynoglossus), and lemon sole (Microstomus kitt) and quantified the extent to which behavioural responses set limits for the large mesh panel's selective efficiency. Around 85% of saithe, 80% of haddock, 44% of witch flounder, 55% of lemon sole, and 55% of cod (below 68 cm) contacted the large mesh panel and escaped. We also demonstrated the need to account for potential selectivity in the trawl body, as it can bias the assessment of length-based escape behaviour. Our indirect assessment of fish behaviour was in agreement with the direct observations made for the same species in a similar section of the trawl body reported in the literature.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_icesjms_fst003",
@@ -346,11 +419,7 @@
       "abstract": "Abstract Hernandez, K. M., Risch, D., Cholewiak, D. M., Dean, M. J., Hatch, L. T., Hoffman, W. S., Rice, A. N., Zemeckis, D., and Van Parijs, S. M. 2013. Acoustic monitoring of Atlantic cod (Gadus morhua) in Massachusetts Bay: implications for management and conservation. – ICES Journal of Marine Science, 70: 628–635. Atlantic cod (Gadus morhua) stocks in northeastern US waters are depleted and stock recovery has been slow; research into the spawning behaviour of this species can help inform conservation and management measures. Male cod produce low-frequency grunts during courtship and spawning. Passive acoustic monitoring (PAM) offers a different perspective from which to investigate the occurrence, spatial extent and duration of spawning cod aggregations. A marine autonomous recording unit was deployed in the “Spring Cod Conservation Zone” (SCCZ) located in Massachusetts Bay, western Atlantic, to record cod grunts from April–June 2011. Cod grunts were present on 98.67% of the record",
       "journal": "ICES Journal of Marine Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1080_17451000_2011_637562",
@@ -360,11 +429,7 @@
       "abstract": "Abstract Little is known about the reproductive biology of the codfishes (Gadidae). Lacking direct observations, the study of secondary sexual characteristics can provide cues to their reproductive biology and behaviour. We reviewed here published accounts on sexual dimorphisms in 25 gadids in light of their general lifestyle, i.e. pelagic or demersal, and social behaviour. In addition, complementary data on fin lengths and drumming muscle size in haddock (Melanogrammus aeglefinus), saithe (Pollachius virens), blue whiting (Micromesistius poutassou) and cod (Gadus morhua) are presented. Capacity for sound production occurred in almost half of the studied species, but was most prevalent in demersal species, where it is probably used in resource contests and to attract mates. For semi-pelagic gadids, we postulate that sound production may be linked to the formation of male-biased spawning shoals and the attraction of females towards such shoals; we identify candidate species to further t",
       "journal": "Marine Biology Research",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3354_meps279275",
@@ -374,11 +439,7 @@
       "abstract": "The echolocation behavior of harbor porpoises Phocoena phocoena around gillnets was monitored to test their response to chemically (BaSO 4 ) enhanced gill nets, designed to be more acoustically reflective than commercial nets. Field trials were conducted between 22 July and 31 August 2000 in the Bay of Fundy, Canada. Echolocation clicks were continuously monitored with Porpoise Echolocation Detectors (PODs). Commercial and experimental (chemically enhanced) gill nets were set for groundfish in water depths from 100 to 130 m. Echolocation occurrence (the proportion of 10 s intervals during which clicks were detected) and echolocation rate (the number of clicks h -1 ) were measured. The PODs varied in their detection ability, so comparisons between commercial and enhanced nets were made with individual PODs. Neither echolocation rate nor occurrence differed with net type for any POD. Significantly more echolocation was detected during the day than at night. Echolocation rate and echoloca",
       "journal": "Marine Ecology Progress Series",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_36019_9781978802513-022",
@@ -388,11 +449,7 @@
       "abstract": "",
       "journal": "The First Year in the Life of Estuarine Fishes in the Middle Atlantic Bight",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3750_aip1997_27_2_01",
@@ -402,11 +459,7 @@
       "abstract": "",
       "journal": "Acta Ichthyologica et Piscatoria",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1139_f95-253",
@@ -416,11 +469,7 @@
       "abstract": "Our objectives were to investigate the seasonal occurrence of photoidentified killer whale pods in relation to the\\ndistribution of Norwegian spring-spawning herring and whether or not pod-specific differences in the occurrence or diet of\\nkiller whales could be demonstrated. In a 4-year study, the killer whales occurred in different areas during the summer and\\nthe fall–winter, and these areas coincided with the distribution areas of herring. Killer whales were encountered most\\nfrequently during October–January when the whole adult and part of the adolescent stock of spring-spawning herring\\nwintered in the study area. Thirty-nine killer whale pods were identified, and generally the same pods were encountered each\\nyear of the study. Differences in the timing and areas of occurrence of pods could be demonstrated. Adult and adolescent\\nherring seemed to be the main prey of the killer whales during both fall–winter and summer. Six new species were added to\\nthe list of known prey speci",
       "journal": "Canadian Journal of Fisheries and Aquatic Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_0165-7836(91)90015-8",
@@ -430,11 +479,7 @@
       "abstract": "",
       "journal": "Fisheries Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_0378-1119(90)90313-g",
@@ -444,11 +489,17 @@
       "abstract": "",
       "journal": "Gene",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_7030697",
+      "title": "[About a case of fibromatosis of a saithe (Pollachius virens) (Short communication (author's transl)]",
+      "year": 1981,
+      "doi": null,
+      "abstract": "",
+      "journal": "DTW. Deutsche tierarztliche Wochenschrift",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1021_acs_jafc_5b04765_s001",
@@ -458,14 +509,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 21,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

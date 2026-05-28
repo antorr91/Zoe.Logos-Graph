@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 20,
-    "claim_count": 9,
-    "doi_count": 20,
-    "media_count": 0
+    "paper_count": 37,
+    "claim_count": 27,
+    "doi_count": 25,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -42,39 +42,39 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
     "contact call",
-    "referential speech"
+    "referential speech",
+    "alarm call"
   ],
   "contexts": [
     "problem solving",
-    "social communication",
-    "vocal learning"
+    "vocal learning",
+    "social communication"
   ],
   "functions": [
+    "social affiliation",
     "individual recognition",
-    "referential communication",
-    "social affiliation"
+    "referential communication"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "contact call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "referential speech",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -82,50 +82,432 @@
         "value": "problem solving",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "vocal learning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "social affiliation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "referential communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social affiliation",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 887,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 886,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 885,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 884,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 883,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 882,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 881,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 880,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 879,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 878,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 877,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 876,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 875,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 874,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 873,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 872,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 871,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 870,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 869,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 868,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 867,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 866,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 865,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 864,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 863,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 862,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 861,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Psittacus erithacus",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1102319",
+        "provider": "xeno-canto",
+        "provider_id": "1102319",
+        "type": "duet, song (XC1102319)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1102319",
+        "audio": "https://xeno-canto.org/1102319/download",
+        "sono": "outputs\\spectrograms\\gbif_2480244.png",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "XC · Jaap van der Waarde"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1007/s10071-024-01883-5",
+      "url": "https://doi.org/10.1007/s10071-024-01883-5",
+      "title": "Comparing the productive vocabularies of grey parrots (Psittacus erithacus) and young children",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-024-01917-y",
+      "url": "https://doi.org/10.1007/s10071-024-01917-y",
+      "title": "Comments on \"Comparing the productive vocabularies of Grey parrots (Psittacus erithacus) and young children\"",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1007/978-3-319-55065-7_301846",
       "url": "https://doi.org/10.1007/978-3-319-55065-7_301846",
@@ -134,11 +516,25 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1038/s41598-022-24335-x",
+      "url": "https://doi.org/10.1038/s41598-022-24335-x",
+      "title": "A survey of vocal mimicry in companion parrots",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.3389/fpsyg.2021.647841",
       "url": "https://doi.org/10.3389/fpsyg.2021.647841",
       "title": "Nonhuman and Nonhuman-Human Communication: Some Issues and Questions",
       "year": 2021,
       "source": "openalex"
+    },
+    {
+      "doi": "10.3390/ani11092479",
+      "url": "https://doi.org/10.3390/ani11092479",
+      "title": "A Review of the Model/Rival (M/R) Technique for Training Interspecies Communication and Its Use in Behavioral Research",
+      "year": 2021,
+      "source": "pubmed"
     },
     {
       "doi": "10.1053/j.jepm.2014.06.012",
@@ -239,6 +635,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.2307/4088595",
+      "url": "https://doi.org/10.2307/4088595",
+      "title": "Vocal Learning in Grey Parrots (Psittacus erithacus): Effects of Social Interaction, Reference, and Context",
+      "year": 1994,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1044/jshd.2302.143",
       "url": "https://doi.org/10.1044/jshd.2302.143",
       "title": "Hearing And Speaking: An Analysis Of Language Learning",
@@ -269,6 +672,26 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_39585460",
+      "title": "Comments on \"Comparing the productive vocabularies of Grey parrots (Psittacus erithacus) and young children\"",
+      "year": 2024,
+      "doi": "10.1007/s10071-024-01917-y",
+      "abstract": "Roubalová et al. (Anim Cogn 27(45), 2024) have written an intriguing paper in which they compare the acquired human speech patterns of Grey parrots (Psittacus erithacus) raised as companion animals to those of typically developing human toddlers (Homo sapiens) predominantly raised by stay-at-home mothers; birds and humans were ostensibly matched for vocabulary size. The authors' data collection and analyses are impressive and I applaud their efforts; however, I take exception to their assumptions, as they clearly state in their Introduction, that children and parrots received comparable input and their conclusions, also clearly stated, that the differences observed in initial output were a consequence primarily of human uniqueness-i.e., as they argue, \"the sociocognitive specifics of the human language.\" Contrary to the authors' claims, the input received by the parrots was very likely quite impoverished when compared to that of the children. Moreover, the birds were acquiring a heterospecific communication code from heterospecific models whereas the children were learning a conspecific code from conspecifics; the birds' experiences were therefore somewhat more like that of humans learning a second language without explicit instruction. Thus, the conclusions drawn from the authors' meticulous research should be on how much communicative behavior parrots can acquire despite receiving input of inadequate quality and quantity, rather than on direct comparisons with human toddlers receiving optimal input.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38913161",
+      "title": "Comparing the productive vocabularies of grey parrots (Psittacus erithacus) and young children",
+      "year": 2024,
+      "doi": "10.1007/s10071-024-01883-5",
+      "abstract": "Due to their outstanding ability of vocal imitation, parrots are often kept as pets. Research has shown that they do not just repeat human words. They can use words purposefully to label objects, persons, and animals, and they can even use conversational phrases in appropriate contexts. So far, the structure of pet parrots' vocabularies and the difference between them and human vocabulary acquisition has been studied only in one individual. This study quantitatively analyses parrot and child vocabularies in a larger sample using a vocabulary coding method suitable for assessing the vocabulary structure in both species. We have explored the composition of word-like sounds produced by 21 grey parrots (Psittacus erithacus) kept as pets in Czech- or Slovak-speaking homes, and compared it to the composition of early productive vocabularies of 21 children acquiring Czech (aged 8-18 months), who were matched to the parrots by vocabulary size. The results show that the 'vocabularies' of talking grey parrots and children differ: children use significantly more object labels, activity and situation labels, and emotional expressions, while parrots produce significantly more conversational expressions, greetings, and multiword utterances in general. These differences could reflect a strong link between learning spoken words and understanding the underlying concepts, an ability seemingly unique to human children (and absent in parrots), but also different communicative goals of the two species.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1007_978-3-319-55065-7_301846",
       "title": "Psittacus erithacus",
       "year": 2022,
@@ -276,11 +699,17 @@
       "abstract": "",
       "journal": "Encyclopedia of Animal Cognition and Behavior",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36470907",
+      "title": "A survey of vocal mimicry in companion parrots",
+      "year": 2022,
+      "doi": "10.1038/s41598-022-24335-x",
+      "abstract": "Parrots are one of the rare animal taxa with life-long vocal learning. Parrot vocal repertoires are difficult to study in the wild, but companion parrots offer a valuable data source. We surveyed the public about mimicry repertoires in companion parrots to determine whether vocal learning varied by (1) species, (2) sex, (3) age, and (4) social interaction with other parrots. Species differed significantly in mimicry ability, with grey parrots (Psittacus erithacus) having the largest mimicry repertoires. Analyses of all birds (n = 877) found no overarching effects of sex, age, or parrot-parrot social interactions on mimicry repertoires. Follow up analyses (n = 671), however, revealed a human bias to assume that talking parrots are male, and indicated that five of the 19 best-sampled species exhibited sex differences. Age-specific analyses of grey parrots (n = 187) indicated that repertoire size did not increase during adulthood. Most parrots were capable of improvisation (e.g. rearranging words) and used mimicry in appropriate human contexts. Results indicate that parrot vocal production learning varies among and within species, suggesting that the mechanisms and functions of learning also vary. Our data provide a rich foundation for future comparative research on avian vocalizations, and broaden our understanding of the underpinnings of communicative behavior and learning across all animals.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3389_fpsyg_2021_647841",
@@ -290,11 +719,47 @@
       "abstract": "Deciphering nonhuman communication - particularly nonhuman vocal communication - has been a longstanding human quest. We are, for example, fascinated by the songs of birds and whales, the grunts of apes, the barks of dogs, and the croaks of frogs; we wonder about their potential meaning and their relationship to human language. Do these utterances express little more than emotional states, or do they convey actual bits and bytes of concrete information? Humans' numerous attempts to decipher nonhuman systems have, however, progressed slowly. We still wonder why only a small number of species are capable of vocal learning, a trait that, because it allows for innovation and adaptation, would seem to be a prerequisite for most language-like abilities. Humans have also attempted to teach nonhumans elements of our system, using both vocal and nonvocal systems. The rationale for such training is that the extent of success in instilling symbolic reference provides some evidence for, at the ver",
       "journal": "Frontiers in Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_34630194",
+      "title": "Nonhuman and Nonhuman-Human Communication: Some Issues and Questions",
+      "year": 2021,
+      "doi": "10.3389/fpsyg.2021.647841",
+      "abstract": "Deciphering nonhuman communication - particularly nonhuman vocal communication - has been a longstanding human quest. We are, for example, fascinated by the songs of birds and whales, the grunts of apes, the barks of dogs, and the croaks of frogs; we wonder about their potential meaning and their relationship to human language. Do these utterances express little more than emotional states, or do they convey actual bits and bytes of concrete information? Humans' numerous attempts to decipher nonhuman systems have, however, progressed slowly. We still wonder why only a small number of species are capable of vocal learning, a trait that, because it allows for innovation and adaptation, would seem to be a prerequisite for most language-like abilities. Humans have also attempted to teach nonhumans elements of our system, using both vocal and nonvocal systems. The rationale for such training is that the extent of success in instilling symbolic reference provides some evidence for, at the very least, the cognitive underpinnings of parallels between human and nonhuman communication systems. However, separating acquisition of reference from simple object-label association is not a simple matter, as reference begins with such associations, and the point at which true reference emerges is not always obvious. I begin by discussing these points and questions, predominantly from the viewpoint of someone studying avian abilities. I end by examining the question posed by Premack: do nonhumans that have achieved some level of symbolic reference then process information differently from those that have not? I suggest the answer is likely \"yes,\" giving examples from my research on Grey parrots (",
+      "journal": "Frontiers in psychology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34573445",
+      "title": "A Review of the Model/Rival (M/R) Technique for Training Interspecies Communication and Its Use in Behavioral Research",
+      "year": 2021,
+      "doi": "10.3390/ani11092479",
+      "abstract": "In this paper, I will review the Model/Rival (M/R) technique that has been used to establish interspecies communication with Grey parrots (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29528667",
+      "title": "Initial evidence for probabilistic reasoning in a grey parrot (Psittacus erithacus)",
+      "year": 2018,
+      "doi": "10.1037/com0000106",
+      "abstract": "Research has shown that some forms of inferential reasoning are likely widespread throughout the animal kingdom (e.g., exclusion, in which a subject infers the placement of a reward by eliminating potential alternative sites), but other types of inferential tasks have not been extensively tested. We examined whether a nonhuman might succeed in an experiment based on probabilistic reasoning, specifically, the ability to make inferences about a sample based on information about a population. A Grey parrot (Psittacus erithacus), previously trained to use English labels referentially to identify objects, observed a human researcher deposit 2 different types of items in a 3:1 ratio (e.g., 3 corks and 1 piece of paper) into an opaque bucket. One item was then randomly withdrawn while hidden from the parrot's view. When asked to identify the still-hidden object, the parrot's vocal responses tracked this 3:1 ratio over a large number of trials. Some levels of probabilistic reasoning therefore are not limited to humans, nonhuman primates, or even mammals. (PsycINFO Database Record",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_27206312",
+      "title": "Robust representation of shape in a Grey parrot (Psittacus erithacus)",
+      "year": 2016,
+      "doi": "10.1016/j.cognition.2016.04.014",
+      "abstract": "A Grey parrot, Griffin (Psittacus erithacus), previously taught English labels for various colors and shapes with respect to three-dimensional (3D) stimuli, was tested on his ability to transfer to very different two-dimensional (2D) images consisting of modal and amodal completion stimuli. For modal completion (aka subjective contours), Kanizsa figures were constructed using black 'pac-men' to form regular polygons on colored paper. For amodal completion, portions of variously colored regular 2D polygons were occluded by black circles or other black figures. For each task, Griffin provided a vocal English shape label for five possible shapes designated by their vertices (one, two, three, four, six). His accuracy was high for both amodal completed figures, including probe stimuli (28/38 correct) and modally completed figures (29/38 correct), with chance=0.20. The modally completed case (i.e., Kanizsa subjective figures) is of particular importance as there are no shared image parts between training and testing stimuli. We draw several conclusions from these results. First, a surface level completion process is fully operative insofar as Griffin was able to correctly identify shapes that differed considerably from training images. Second, because parrots can generalize from shapes of real objects to drawings where original image contours were clearly absent, the data provide a compelling example of shape invariance, indicating that visual shapes are processed far beyond that of their image description. Third, parrots with a repertoire of multiple vocal responses can be rigorously tested for visual competencies, an option as yet to be tried in other experimental animals.",
+      "journal": "Cognition",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_67079",
@@ -304,11 +769,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1053_j_jepm_2014_06_012",
@@ -318,11 +779,47 @@
       "abstract": "",
       "journal": "Journal of Exotic Pet Medicine",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_23517209",
+      "title": "Clinical management of an ectopic egg in a Timneh African grey parrot (Psittacus erithacus timneh)",
+      "year": 2013,
+      "doi": "10.2460/javma.242.7.963",
+      "abstract": "CASE DESCRIPTION: A 13-year-old female Timneh African grey parrot (Psittacus erithacus timneh) was evaluated because of the presence of a bald patch of skin caudal to the sternum and increased territorial and nesting behavior of 2 weeks' duration. CLINICAL FINDINGS: Whole-body radiography revealed a mineralized egg of normal size and shape. However, no oviposition occurred, and the bird had no signs consistent with dystocia. After 7 days, repeated radiography revealed that the egg had rotated by approximately 180° along its short axis, leading to a diagnosis of ectopic egg retention, which was supported by the results of ultrasonography. TREATMENT AND OUTCOME: Surgical removal of the ectopic egg was performed by means of a ventral midline approach 14 days after administration of leuprolide acetate (800 μg/kg [364 μg/lb], IM). No intracoelomic abnormalities, such as coelomitis or oviductal disease, were diagnosed, and the bird recovered without complications. Physical examination and whole-body radiography at 8 months and a follow-up phone call with the owner at 16 months after surgical treatment revealed no evidence of ectopic egg recurrence or reproductive behavior. CLINICAL RELEVANCE: Clinical management of ectopic egg retention differs considerably from treatment of intraoviductal egg binding. Therefore, careful evaluation of avian patients with radiographic evidence of egg binding should be performed to avoid possible iatrogenic deterioration of the patient's condition, secondary to inappropriate treatment attempts such as hormonal induction of oviposition or attempts to remove the retained egg via the cloaca. Repeated radiography and ultrasonography and close monitoring of the patient's general condition as well as the lack of clinical signs consistent with dystocia will facilitate the diagnosis of ectopic egg retention.",
+      "journal": "Journal of the American Veterinary Medical Association",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23417559",
+      "title": "Higher-order semantic structures in an African Grey parrot's vocalizations: evidence from the hyperspace analog to language (HAL) model",
+      "year": 2013,
+      "doi": "10.1007/s10071-013-0613-3",
+      "abstract": "Previous research has described the significant role that social interaction plays in both the acquisition and use of speech by parrots. The current study analyzed the speech of one home-raised African Grey parrot (Psittacus erithacus erithacus) across three different social contexts: owner interacting with parrot in the same room, owner and parrot interacting out of view in adjacent rooms, and parrot home alone. The purpose was to determine the extent to which the subject's speech reflected an understanding of the contextual substitutability (e.g., the word street can be substituted in context for the word road) of the vocalizations that comprised the units in her repertoire (i.e., global co-occurrence of repertoire units; Burgess in Behav Res Methods Instrum Comput 30:188-198, 1998; Lund and Burgess in Behav Res Methods Instrum Comput 28:203-208, 1996). This was accomplished via the human language model hyperspace analog to language (HAL). HAL is contextually driven and bootstraps language \"rules\" from input without human intervention. Because HAL does not require human tutelage, it provided an objective measure to empirically examine the parrot's vocalizations. Results indicated that the subject's vocalization patterns did contain global co-occurrence. The presence of this quality in this nonhuman's speech may be strongly indicative of higher-order cognitive skills.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23065183",
+      "title": "A study of sharing and reciprocity in grey parrots (Psittacus erithacus)",
+      "year": 2013,
+      "doi": "10.1007/s10071-012-0564-0",
+      "abstract": "Demonstrations of nonhuman ability to share resources and reciprocate such sharing seem contingent upon the experimental paradigm used (note Horner et al. in PNAS 108:13847-13851, 2011). Here, such behaviour in Grey parrots (Psittacus erithacus) was tested in two experiments, both designed to avoid possible issues involving apparatus complexity, visible reward options, and physical competition and/or limited communication between subjects. In both studies, two birds, working in dyads, took turns in choosing one of four different coloured cups with differing outcomes: empty (null, nonrewarding), selfish (keeping reward for oneself), share (sharing a divisible reward), or giving (donating reward to other). In Experiment 1, each bird alternated choices with a conspecific; in Experiment 2, each bird alternated with the three humans with different specific intentions (selfish, giving, or copying bird's behaviour). In both experiments, birds could learn to cooperatively reward a partner at little cost to themselves-by sharing-and potentially maximize overall reward by reciprocating such sharing. Experiment 1 results differed depending upon which bird began a session: Only our dominant bird, as follower, was willing to share. In Experiment 2, birds' responses tended towards consistency with human behaviour. Our dominant bird was willing to share a reward with a human who was willing to give up her reward, was selfish with the selfish human, and tended towards sharing with the copycat human; our subordinate bird tended slightly towards increased sharing with the generous human and selfishness with the selfish human, but did not change behaviour with the copycat.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22402776",
+      "title": "Further evidence for addition and numerical competence by a Grey parrot (Psittacus erithacus)",
+      "year": 2012,
+      "doi": "10.1007/s10071-012-0470-5",
+      "abstract": "A Grey parrot (Psittacus erithacus), able to quantify sets of eight or fewer items (including heterogeneous subsets), to sum two sequentially presented sets of 0–6 items (up to 6), and to identify and serially order Arabic numerals (1–8), all by using English labels (Pepperberg in J Comp Psychol 108:36–44, 1994; J CompPsychol 120:1–11, 2006a; J Comp Psychol 120:205–216,2006b; Pepperberg and Carey submitted), was tested on addition of two Arabic numerals or three sequentially presented collections (e.g., of variously sized jelly beans or nuts). He was, without explicit training and in the absence of the previously viewed addends, asked, \"How many total?\" and required to answer with a vocal English number label. In a few trials on the Arabic numeral addition, he was also shown variously colored Arabic numerals while the addends were hidden and asked \"What color number (is the) total?\" Although his death precluded testing on all possible arrays, his accuracy was statistically significant and suggested addition abilities comparable with those of nonhuman primates.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1037_a0022097",
@@ -332,11 +829,17 @@
       "abstract": "Home-raised African Grey parrots (Psittacus erithacus erithacus) exhibit strong social bonding with their human companions. We examined how 1 parrot's vocal production (speech and nonword sounds) changed with social context with respect to descriptive measures of the vocalizations and their thematic content. We videotaped the parrot in 4 social conditions: subject home alone, subject and owner in the same room, owner in a separate room within hearing range, and owner and experimenter conversing in the same room as the parrot but ignoring her. Linguistic analysis revealed the parrot's repertoire consisted of 278 \"units\" ranging in length from 1 to 8 words or sounds. Rate of vocalization and vocabulary richness (i.e., the number of different units used) differed significantly, and many vocalizations were context-specific. For example, when her owner was in the room and willing to reciprocate communication, the parrot was more likely to use units that, in English, would be considered soli",
       "journal": "Journal of comparative psychology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_21381810",
+      "title": "Social context influences the vocalizations of a home-raised African Grey parrot (Psittacus erithacus erithacus)",
+      "year": 2011,
+      "doi": "10.1037/a0022097",
+      "abstract": "Home-raised African Grey parrots (Psittacus erithacus erithacus) exhibit strong social bonding with their human companions. We examined how 1 parrot's vocal production (speech and nonword sounds) changed with social context with respect to descriptive measures of the vocalizations and their thematic content. We videotaped the parrot in 4 social conditions: subject home alone, subject and owner in the same room, owner in a separate room within hearing range, and owner and experimenter conversing in the same room as the parrot but ignoring her. Linguistic analysis revealed the parrot's repertoire consisted of 278 \"units\" ranging in length from 1 to 8 words or sounds. Rate of vocalization and vocabulary richness (i.e., the number of different units used) differed significantly, and many vocalizations were context-specific. For example, when her owner was in the room and willing to reciprocate communication, the parrot was more likely to use units that, in English, would be considered solicitations for vocal interaction (e.g., \"Cosmo wanna talk\"). When she and her owner were in separate rooms, the subject was significantly more likely to use units that referenced her spatial location and that of her owner (e.g., \"Where are you\"), suggesting she uses specific units as an adaptation of the wild parrot contact call. These results challenge the notion that parrots only imitate speech and raise interesting questions regarding the role of social interaction in learning and communicative competence in an avian species.",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_b978-072160635-4_50012-7",
@@ -346,11 +849,7 @@
       "abstract": "",
       "journal": "Radiology of Birds",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_beproc_2009_07_001",
@@ -360,11 +859,7 @@
       "abstract": "",
       "journal": "Behavioural Processes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2174_1874230000903010001",
@@ -374,11 +869,37 @@
       "abstract": "",
       "journal": "The Open Behavioral Science Journal",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_19615614",
+      "title": "Conspecific discrimination in an object-choice task in African grey parrots (Psittacus erithacus)",
+      "year": 2009,
+      "doi": "10.1016/j.beproc.2009.02.016",
+      "abstract": "Living in social groups presents the opportunity to use information provided by other individuals. Several animal species emit specific vocalizations when they find food. Here, we investigate whether African grey parrots (Psittacus erithacus) use vocal and non-vocal information provided by a conspecific in order to find a hidden food source. One subject was attracted by the presence or the vocalizations of a subordinate conspecific, but not of a dominant, which brings us to hypothesize that parrots could be capable of individual vocal discrimination.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_19591908",
+      "title": "Spontaneous categorization of vocal imitations in African grey parrots (Psittacus erithacus)",
+      "year": 2009,
+      "doi": "10.1016/j.beproc.2009.07.001",
+      "abstract": "The ability to categorize elements of the environment is a fundamental aspect of information processing. Many experiments demonstrate the ability of birds and non-human primates to classify items according to their perceptual similarities. Few data are available regarding spontaneous classification of items according to a non-perceptual account in non-human animals. Here, we report unexpected results obtained with African grey parrots learning the referential use of French labels. Parrots did not learn the correct labels but they spontaneously produced more labels corresponding to food when a food item was presented to them and more labels corresponding to an object when shown an object item, although they were never rewarded for doing so. These results demonstrate a form of spontaneous categorization by using vocal imitation of the human language.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_18605149",
+      "title": "Processing of the Müller-Lyer illusion by a Grey parrot (Psittacus erithacus)",
+      "year": 2008,
+      "doi": "10.1068/p5898",
+      "abstract": "Alex, a Grey parrot (Psittacus erithacus) who identifies the bigger or smaller of two objects by reporting its color or matter using a vocal English label and who states \"none\" if they do not differ in size, was presented with two-dimensional Müller-Lyer figures (Brentano form) in which the central lines were of contrasting colors. His responses to \"What color bigger/ smaller?\" demonstrated that he saw the standard length illusion in the Müller-Lyer figures in 32 of 50 tests where human observers would also see the illusion and reported the reverse direction only twice. He did not report the illusion when (a) arrows on the shafts were perpendicular to the shafts or closely approached perpendicularity, (b) shafts were 6 times thicker than the arrows, or (c) after being tested with multiple exposures conditions that also lessen or eliminate the illusion for human observers. These data suggest that parrot and human visual systems process the Müller-Lyer figure in analogous ways despite a 175-fold difference in the respective sizes of their brain volumes. The similarity in results also indicates that parrots with vocal abilities like Alex's can be reliably tested on visual illusions with paradigms similar to those used on human subjects.",
+      "journal": "Perception",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s10071-006-0034-7",
@@ -388,11 +909,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7551_mitpress_5330_003_0011",
@@ -402,11 +919,7 @@
       "abstract": "",
       "journal": "Perspectives on Imitation",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "lit_gbif_2480244_14",
@@ -416,11 +929,7 @@
       "abstract": "1. Introduction PART I EVOLUTION OF SPEECH AND SPEECH SOUNDS: HOW DID SPOKEN LANGUAGE EMERGE? Introduction to Part I: How did links between perception and production emerge for spoken language? 2. The Mirror System Hypothesis: How did protolanguage evolve? 3. How Did Language go Discrete? 4. From Holistic to Discrete Speech Sounds: The blind snowflake maker hypothesis 5. Infant-Directed Speech and Evolution of Language PART II EVOLUTION OF GRAMMAR: HOW DID SYNTAX AND MORPHOLOGY EMERGE? Introduction to Part II: Protolanguage and the Development of Complexity 6. Initial Syntax and Modern Syntax: Did the clause evolve from the syllable? 7. The Potential Role of Production in the Evolution of Syntax 8. The Evolutionary Origin of Morphology 9. The Evolution of Grammatical Structures and 'Functional Need' Explanations 10. Deception and Mate Selection: Some implications for relevance and the evolution of language PART III ANALOGOUS AND HOMOLOGOUS TRAITS: WHAT CAN WE LEARN FROM OTHER SPECIES? ",
       "journal": "",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-004-0218-y",
@@ -430,11 +939,17 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "lit_gbif_2480244_19",
+      "title": "The vocal repertoire of grey parrots (Psittacus erithacus) living in the Congo Basin",
+      "year": 2004,
+      "doi": null,
+      "abstract": "This dissertation is a report on the investigation of the vocal behavior of free-living Grey Parrots (Psittacus erithacus) that inhabit the Congo Basin in Central Africa. I observed Grey Parrots in the Central African Republic and Cameroon and made audio recordings of their vocalizations. The results of spectrographic analysis of vocalizations lend support to the assertion that Grey Parrots produce calls that fall into four major acoustical classes--tonal, harmonic, noisy-harmonic, and noisy--and that these call classes may be subdivided into as many as 39 different acoustical types. A reliability study of this classification scheme demonstrated that both clustering of these acoustical types into aggregate categories and the combined method of visual inspection and basic spectrographic measurement enable reliable classification of calls into classes, types and also subtypes. The majority of calls in the observed repertoire belong to pure tonal call class, which may suggest that a large",
+      "journal": "UA Campus Repository (The University of Arizona)",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_7551_mitpress_3676_003_0005",
@@ -444,11 +959,7 @@
       "abstract": "",
       "journal": "Imitation in Animals and Artifacts",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_1467-8721_00174",
@@ -458,11 +969,7 @@
       "abstract": "Grey parrots ( Psittacus erithacus) solve various cognitive tasks and acquire and use English speech in ways that often resemble those of very young children. Given that the psittacine brain is organized very differently from that of mammals, these results have intriguing implications for the study and evolution of vocal learning, communication, and cognition.",
       "journal": "Current Directions in Psychological Science",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7551_mitpress_1885_003_0035",
@@ -472,11 +979,7 @@
       "abstract": "Grey parrots (Psittacus erithacus) solve various cognitive tasks and acquire and use English speech in ways that often resemble those of very young children.Given that the psittacine brain is organized very differently from that of mammals, these results have intriguing implications for the study and evolution of vocal learning, communication, and cognition.",
       "journal": "The MIT Press eBooks",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2460_ajvr_1999_60_10_1218",
@@ -486,11 +989,7 @@
       "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Objective</jats:title>\n                    <jats:p>To evaluate effects of butorphanol tartrate and buprenorphine hydrochloride on withdrawal threshold to a noxious stimulus in conscious African grey parrots.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Animals</jats:title>\n                    <jats:p>\n                      29 African grey parrots (\n                      <jats:italic>Psittacus erithacus erithacus</jats:italic>\n                      and\n                      <jats:italic>Psittacus erithacus timneh</jats:italic>\n                      ).\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Procedure</jats:title>\n                    <jats:p>Birds were fitted with an electrode on the medial metatarsal region of the right leg, placed into a test box, and allowed",
       "journal": "American Journal of Veterinary Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1017_cbo9780511758843_009",
@@ -500,11 +999,17 @@
       "abstract": "Most studies of the effects of social interaction on the ontogeny of vocal communication in birds and primates concentrate on the normal course of development of species-specific codes: how birds learn conspecific song, how nonhuman primates develop their natural repertoire of calls, and how human infants develop language. The effects of social interaction, however, are probably even more important during exceptional learning (Pepperberg 1985): learning that is unlikely to occur in the normal course of events. Such learning, defined and described below, has been documented for a number of species, including humans. I have been particularly interested in examining how social interaction can influence a specific type of exceptional learning – the development of interspecies communication between humans and birds. My research on the effects of social interaction on the acquisition of a vocal, English-based code by grey parrots (Psittacus erithacus) clearly demonstrates how social and envi",
       "journal": "Cambridge University Press eBooks",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_2307_4088595",
+      "title": "Vocal Learning in Grey Parrots (Psittacus erithacus): Effects of Social Interaction, Reference, and Context",
+      "year": 1994,
+      "doi": "10.2307/4088595",
+      "abstract": "",
+      "journal": "The Auk",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1044_jshd_2302_143",
@@ -514,11 +1019,7 @@
       "abstract": "No AccessJournal of Speech and Hearing DisordersResearch Article1 May 1958Hearing And Speaking: An Analysis Of Language Learning O. H. Mowrer O. H. Mowrer Google Scholar https://doi.org/10.1044/jshd.2302.143 SectionsAboutPDF ToolsAdd to favoritesDownload CitationTrack Citations ShareFacebookTwitterLinked In Additional Resources FiguresReferencesRelatedDetailsCited by (2015) References Interventions for Autism10.1002/9781118897553.refs Irene M. Pepperberg (2000) Adaptive Behavior and Learning: How Cognitive Processing and Social Interaction Might Affect Allospecific Vocal Learning in Grey Parrots (Psittacus erithacus) Prerational Intelligence: Adaptive Behavior and Intelligent Systems Without Symbols and Logic, Volume 1, Volume 2 Prerational Intelligence: Interdisciplinary Perspectives on the Behavior of Natural and Artificial Systems, Volume 310.1007/978-94-010-0870-9_69 The Analysis of Verbal Behavior16:1 (63-80)1 Apr 1999Sequential Analyses, Multiple Controlling Stimuli, and Temporal",
       "journal": "Journal of Speech and Hearing Disorders",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5040_9781472927002_0005",
@@ -528,11 +1029,7 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_2462_fig-1",
@@ -542,14 +1039,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 20,
+  "paper_count": 37,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 9,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 26,
+    "claim_count": 27,
+    "doi_count": 21,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,83 +42,436 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "bellow",
+    "hiss",
     "grunt",
-    "hiss"
+    "bellow"
   ],
   "contexts": [
-    "mate attraction",
     "parent-offspring interaction",
-    "territorial defence"
+    "territorial defence",
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
     "nest guarding",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "bellow",
+        "value": "hiss",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "grunt",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "hiss",
+        "value": "bellow",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "parent-offspring interaction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
+        "evidence_count": 2
+      },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
+        "evidence_count": 2
+      }
+    ],
+    "functions": [
       {
         "value": "nest guarding",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1656,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1655,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1654,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1653,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1652,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1651,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1650,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1649,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1648,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1647,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1646,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1645,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1644,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1643,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1642,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1641,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1640,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1639,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1638,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1637,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1636,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1635,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1634,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1633,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1632,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1631,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1630,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -126,6 +479,13 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/rcm.9159/v1/review1",
+      "url": "https://doi.org/10.1002/rcm.9159/v1/review1",
+      "title": "Review for \"Ontogenetic dependence of Nile crocodile ( Crocodylus niloticus ) isotope diet‐to‐tissue discrimination factors\"",
+      "year": 2021,
+      "source": "crossref"
+    },
     {
       "doi": "10.1002/rcm.9159/v1/review2",
       "url": "https://doi.org/10.1002/rcm.9159/v1/review2",
@@ -181,6 +541,13 @@
       "title": "Formants provide honest acoustic cues to body size in American alligators",
       "year": 2017,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rsos.170386",
+      "url": "https://doi.org/10.1098/rsos.170386",
+      "title": "Cross-sensory modulation in a future top predator, the young Nile crocodile",
+      "year": 2017,
+      "source": "pubmed"
     },
     {
       "doi": "10.2307/j.ctt19b9jmw.75",
@@ -251,9 +618,26 @@
       "title": "Figure 1: The\n                      <i>Crocodylus niloticus</i>\n                      skull (BRSUG 28959) used in the study.",
       "year": null,
       "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.2296/fig-10",
+      "url": "https://doi.org/10.7717/peerj.2296/fig-10",
+      "title": "Figure 10: Ventral view of the internal choana of\n                      <i>Crocodylus niloticus</i>\n                      and\n                      <i>Voay robustus</i>\n                      .",
+      "year": null,
+      "source": "crossref"
     }
   ],
   "papers": [
+    {
+      "paper_id": "pmid_36342003",
+      "title": "Never smile at a crocodile: Gaping behaviour in the Nile crocodile at Ndumo Game Reserve, South Africa",
+      "year": 2022,
+      "doi": "10.1016/j.beproc.2022.104772",
+      "abstract": "Gaping is a regularly observed behaviour in crocodilians globally but is still poorly understood in relation to external variables which could trigger this behaviour. The occurrence of gaping behaviour was investigated in a large wild population of Nile crocodiles (Crocodylus niloticus) during the dry and wet seasons at Nyamithi Pan, Ndumo Game Reserve, South Africa. This is one of the longest crocodile gaping behaviour studies conducted in the wild, with 300 h of observations conducted over two seasons resulting in 1120 gaping behaviours recorded. The most common size class observed was between 1.5 and 2.5 m (n = 697), which accounted for 62.2% of the gaping observations. A significant decrease in gaping duration was observed as ambient temperatures increased, and the gape duration was longer at a higher degree angle. In addition, an increase in gape duration was observed as the number of neighbouring crocodiles increased. These results suggest gaping behaviour occurs when there are other crocodiles nearby and when temperatures do not necessitate thermoregulation. The study suggests that gaping could be used as a form of thermoregulation and intra-species communication.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
     {
       "paper_id": "10_1002_rcm_9159_v2_review1",
       "title": "Review for \"Ontogenetic dependence of Nile crocodile ( Crocodylus niloticus ) isotope diet‐to‐tissue discrimination factors\"",
@@ -262,11 +646,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_rcm_9159_v1_review2",
@@ -276,11 +656,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_rcm_9159_v3_review2",
@@ -290,11 +666,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_rcm_9159_v3_review1",
@@ -304,11 +676,27 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1002_rcm_9159_v1_review1",
+      "title": "Review for \"Ontogenetic dependence of Nile crocodile ( Crocodylus niloticus ) isotope diet‐to‐tissue discrimination factors\"",
+      "year": 2021,
+      "doi": "10.1002/rcm.9159/v1/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_33138473",
+      "title": "Crocodiles use both interaural level differences and interaural time differences to locate a sound source",
+      "year": 2020,
+      "doi": "10.1121/10.0001979",
+      "abstract": "To explore how crocodilians locate a sound source, two Nile crocodiles (Crocodylus niloticus) were trained to swim towards an acoustic target. Using filtered versions of synthesized stimuli, the respective roles of interaural level differences (ILDs) and interaural time differences (ITDs), which are the two main cues providing information on sound source position, were tested. This study shows that crocodiles rely on both ILDs and ITDs to locate the spatial direction of a sound source and that their performance is lower when one of the cues is lacking.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_87515",
@@ -318,11 +706,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_ece3_5859",
@@ -332,11 +716,7 @@
       "abstract": "Crocodilians comprise an ancient and successful lineage of archosaurs that repeatedly raises questions on how they survived a mass extinction and remained relatively unchanged for ~100 million years. Was their success due to the change-resistant retention of a specific set of traits over time (phylogenetic conservatism) or due to flexible, generalist capabilities (e.g., catholic diets, phenotypic plasticity in behavior), or some combination of these? We examined the evolution of reproductive ecology and behavior of crocodilians within a phylogenetic perspective, using 14 traits for all 24 species to determine whether these traits were phylogenetically constrained versus (ecologically) convergent. Our analysis revealed that the ancestral crocodilian was a mound nester that exhibited both nest attendance and defense. Nesting mode exhibited 4-5 transformations from mound to hole nesting, a convergence of which habitat may have been a driving factor. Hole nesters were more likely to nest c",
       "journal": "Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_s41467-018-04267-9",
@@ -346,11 +726,7 @@
       "abstract": "Genomic organisation of extinct lineages can be inferred from extant chromosome-level genome assemblies. Here, we apply bioinformatic and molecular cytogenetic approaches to determine the genomic structure of the diapsid common ancestor. We then infer the events that likely occurred along this lineage from theropod dinosaurs through to modern birds. Our results suggest that most elements of a typical 'avian-like' karyotype (40 chromosome pairs, including 30 microchromosomes) were in place before the divergence of turtles from birds ~255 mya. This genome organisation therefore predates the emergence of early dinosaurs and pterosaurs and the evolution of flight. Remaining largely unchanged interchromosomally through the dinosaur-theropod route that led to modern birds, intrachromosomal changes nonetheless reveal evolutionary breakpoint regions enriched for genes with ontology terms related to chromatin organisation and transcription. This genomic structure therefore appears highly stable",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_s41598-017-01948-1",
@@ -360,11 +736,17 @@
       "abstract": "In many vertebrates, acoustic cues to body size are encoded in resonance frequencies of the vocal tract (\"formants\"), rather than in the rate of tissue vibration in the sound source (\"pitch\"). Anatomical constraints on the vocal tract's size render formants honest cues to size in many bird and mammal species, but it is not clear whether this correlation evolved convergently in these two clades, or whether it is widespread among amniotes (mammals, birds, and non-avian reptiles). We investigated the potential for honest acoustic cues in the bellows of adult American alligators and found that formant spacing provided highly reliable cues to body size, while presumed correlates of the source signal did not. These findings held true for both sexes and for all bellows whether produced in or out of water. Because birds and crocodilians are the last extant Archosaurians and share common ancestry with all extinct dinosaurs, our findings support the hypothesis that dinosaurs used formants as cue",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28680686",
+      "title": "Cross-sensory modulation in a future top predator, the young Nile crocodile",
+      "year": 2017,
+      "doi": "10.1098/rsos.170386",
+      "abstract": "Animals routinely receive information through different sensory channels, and inputs from a modality may modulate the perception and behavioural reaction to others. In spite of their potential adaptive value, the behavioural correlates of this cross-sensory modulation have been poorly investigated. Due to their predator life, crocodilians deal with decisional conflicts emerging from concurrent stimuli. By testing young",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2307_j_ctt19b9jmw_75",
@@ -374,11 +756,7 @@
       "abstract": "",
       "journal": "Animals of Kruger National Park",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_srep15547",
@@ -388,11 +766,7 @@
       "abstract": "Parental care is widespread in Archosaurs (birds, crocodilians, dinosaurs and pterosaurs), and this group provides a useful model for the evolution of parent-offspring interactions. While offspring signalling has been well-studied in birds, the modulation of parental care in crocodilians remains an open question. Here we show that acoustic communication has a key role in the dynamics of crocodilian' mother-offspring relationships. We found embedded information about the emitter's size in juvenile calls of several species, and experimentally demonstrated that Nile crocodile mothers breeding in the wild are less receptive to the calls of larger juveniles. Using synthetized sounds, we further showed that female' reaction depends on call pitch, an important cue bearing size information. Changes in acoustic interactions may thus go with the break of maternal care as well as dispersal of juvenile crocodilians. This process could have characterized other archosaurs displaying rapid early grow",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-012-0533-7",
@@ -402,11 +776,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_czoolo_58_5_698",
@@ -416,11 +786,37 @@
       "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_22820991",
+      "title": "Acoustic communication in crocodilians: information encoding and species specificity of juvenile calls",
+      "year": 2012,
+      "doi": "10.1007/s10071-012-0533-7",
+      "abstract": "In the Crocodylia order, all species are known for their ability to produce sounds in several communication contexts. Though recent experimental studies have brought evidence of the important biological role of young crocodilian calls, especially at hatching time, the juvenile vocal repertoire still needs to be clarified in order to describe thoroughly the crocodilian acoustic communication channel. The goal of this study is to investigate the acoustic features (structure and information coding) in the contact call of juveniles from three different species (Nile crocodile Crocodylus niloticus, Black caiman, Melanosuchus niger and Spectacled caiman, Caiman crocodilus). We have shown that even though substantial structural differences exist between the calls of different species, they do not seem relevant for crocodilians. Indeed, juveniles and adults from the species studied use a similar and non-species-specific way of encoding information, which relies on frequency modulation parameters. Interestingly, using conditioning experiments, we demonstrated that this tolerance in responses to signals of different acoustic structures was unlikely to be related to a lack of discriminatory abilities. This result reinforced the idea that crocodilians have developed adaptations to use sounds efficiently for communication needs.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_18579090",
+      "title": "Crocodile egg sounds signal hatching time",
+      "year": 2008,
+      "doi": "10.1016/j.cub.2008.04.011",
+      "abstract": "Crocodilians are known to vocalize within the egg shortly before hatching [1,2]. Although a possible function of these calls - inducing hatching in siblings and stimulating the adult female to open the nest - has already been suggested, it has never been experimentally tested [1-5]. Here, we present the first experimental evidence that pre-hatching calls of Nile crocodile (Crocodylus niloticus) juveniles are informative acoustic signals which indeed target both siblings and mother.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_17106675",
+      "title": "Parent-offspring communication in the Nile crocodile Crocodylus niloticus: do newborns' calls show an individual signature?",
+      "year": 2007,
+      "doi": "10.1007/s00114-006-0156-4",
+      "abstract": "Young Nile crocodiles Crocodylus niloticus start to produce calls inside the egg and carry on emitting sounds after hatching. These vocalizations elicit maternal care and influence the behaviour of other juveniles. In order to investigate the acoustic structure of these calls, focusing on a possible individual signature, we have performed acoustic analyses on 400 calls from ten young crocodiles during the first 4 days after hatching. Calls have a complex acoustic structure and are strongly frequency modulated. We assessed the differences between the calls of the individuals. We found a weak individual signature. An individual call-based recognition of young by the mother is thus unlikely. In other respects, the call acoustic structure changes from the first to the fourth day after hatching: fundamental frequency progressively decreases. These modifications might provide important information to the mother about her offspring--age and size--allowing her to customize her protective care to best suit the needs of each individual.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_icb_17_1_225",
@@ -430,11 +826,17 @@
       "abstract": "We compare and contrast the signalling systems and social behaviors of Alligator mississippiensis, Crocodylus aculus, and Crocodylus mloticus. Our qualitative analysis focuses primarily on the behaviors of adults during three phases of reproduction: I. Defense of Territory and Courtship, II. Nesting and Incubation, and III. Hatching and Post Hatching. Signals and signal elements are very similar among the three species. For example, all have vocal, non-vocal acoustic, and visual signals, some transmitted through air or water and others through both media. In addition, each species' repertoire is composed of discrete, graded and complex signals. A few signals are unique to each species. However, their signalling systems differ in the temporal organization of the behaviors, and in the relative frequency in which certain functional groups of signals occuror in which signals occur in a particular sensory mode. Apparently, the signalling systems of C. acutus and C. niloticus are more simila",
       "journal": "American Zoologist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_930443",
+      "title": "Vocalization in juvenile crocodilians",
+      "year": 1977,
+      "doi": null,
+      "abstract": "Evidence is presented that the grunts and distress calls of juvenile alligators (Alligator mississipiensis) are examples of graded calls, which are given in different form depending largely on contest. Representative sonagrams of the distress calls of three other species of crocodilians (Caiman crocodilus, Crocodylus niloticus, and Crocodylus siamensis) are presented and compared with sonagrams of alligator distress calls. These findings are discussed in light of current knowledge of the bioacoustics of other vertebrates.",
+      "journal": "Zeitschrift fur Tierpsychologie",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_icb_13_4_1195",
@@ -444,11 +846,7 @@
       "abstract": "Reptiles produce sound by three categories of devices: those involving massive air expulsions or movements, those involving modulations of intermittent air movements through a modified glottis, and those involving rubbing or vibration of the integument. Each ocours in numerous species and there is good evidence of multiple origins. Most of the devices are used as predator deterrents, but there are a few cases of sound being used as an intraspecific communicating device. The various structures are here discussed. One may ask the general question whether the distribution of reptilian sensory modalities may not have forced this rather miscellaneous distribution of signalling devices.",
       "journal": "American Zoologist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7717_peerj_13760_fig-1",
@@ -458,11 +856,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_17077_etd_tyxbmpzr",
@@ -472,11 +866,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_aa298eb9zc1b7z4537z9a4bzf905742ada27",
@@ -486,14 +876,20 @@
       "abstract": "<jats:title>Etude intégrative de la communication multimodale chez deux modèles de vertébrés : Maylandia zebra et Crocodylus niloticus</jats:title>\n                <jats:p xml:lang=\"fr\">Bien que l'utilisation de la communication multimodale chez les animaux soit relativement courante, la plupart des études jusqu’à maintenant ont porté sur des systèmes uni- ou bimodaux et n'ont pas examiné comment l’individu qui reçoit les signaux les détectent et les traitent. Cette thèse a pour but d’étudier le système complexe que représente la communication multimodale en conciliant à la fois les interactions qui pourraient exister entre les modalités sensorielles et l'influence potentielle que pourrait avoir l'état physiologique de l’individu recevant les signaux. J'ai utilisé deux espèces de vertébrés comme modèles utilisant des signaux multimodaux : un poisson cichlidé Maylandia zebra, et un crocodile Crocodylus niloticus. Les résultats montrent une interaction entre les différentes modalités, pe",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_7717_peerj_2296_fig-10",
+      "title": "Figure 10: Ventral view of the internal choana of\n                      <i>Crocodylus niloticus</i>\n                      and\n                      <i>Voay robustus</i>\n                      .",
+      "year": null,
+      "doi": "10.7717/peerj.2296/fig-10",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 26,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

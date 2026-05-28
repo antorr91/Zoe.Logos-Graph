@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 19,
+    "claim_count": 18,
+    "doi_count": 18,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,76 +42,312 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "head bob",
-    "hiss"
+    "hiss",
+    "head bob"
   ],
   "contexts": [
-    "alarm",
     "courtship",
-    "territorial defence"
+    "territorial defence",
+    "alarm"
   ],
   "functions": [
-    "mate attraction",
     "predator response",
+    "mate attraction",
     "territory signalling"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "head bob",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "hiss",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "head bob",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 822,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 821,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 820,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 819,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 818,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 817,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 816,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 815,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 814,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 813,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 812,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 811,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 810,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 809,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 808,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 807,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 806,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 805,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -119,6 +355,13 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.3897/zookeys.926.48679",
+      "url": "https://doi.org/10.3897/zookeys.926.48679",
+      "title": "Painted black:",
+      "year": 2020,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1111/1365-2435.12984",
       "url": "https://doi.org/10.1111/1365-2435.12984",
@@ -241,6 +484,26 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_32336922",
+      "title": "Painted black:",
+      "year": 2020,
+      "doi": "10.3897/zookeys.926.48679",
+      "abstract": "The Lesser Antilles, in the Eastern Caribbean, is inhabited by three",
+      "journal": "ZooKeys",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31717144",
+      "title": "A story of nasal horns: two new subspecies of Iguana Laurenti, 1768 (Squamata, Iguanidae) in Saint Lucia, St Vincent amp; the Grenadines, and Grenada (southern Lesser Antilles)",
+      "year": 2019,
+      "doi": "10.11646/zootaxa.4608.2.1",
+      "abstract": "The Lesser Antilles, in the Eastern Caribbean, were long considered to have only two species in the genus Iguana Laurenti 1768: the Lesser Antillean iguana Iguana delicatissima, which is endemic to parts of the Lesser Antilles, and the Common green iguana Iguana iguana, which also occurs throughout Central and South America. No subspecies are currently recognised. However, herpetologists and reptile collectors have pointed out strong physical differences between some of the island populations of Iguana iguana and those from the continent. Drawing on both morphological and genetic data, this paper describes two subspecies of the Common green iguana Iguana iguana from the southern Lesser Antilles, specifically the countries of Saint Lucia Iguana iguana sanctaluciae and Iguana iguana insularis from St Vincent the Grenadines, and Grenada. The form on the island of Saint Vincent has not been identified. The new subspecies are described based on the following unique combination of characters: Presence of high median and medium to small lateral horns on the snout; Small subtympanic plate not exceeding 20% of the eardrum size; Two or three scales of decreasing size anterior to the subtympanic plate; Fewer than ten small to medium triangular gular spikes; Medium sized dewlap; Low number of small to medium dispersed nuchal tubercles; Dark brown iris, with the white of the eye visible; Oval, prominent nostril; Short and relatively flat head; High dorsal spines; No swelling of the jowls in reproductively active males.                Iguana iguana sanctaluciae has in adults vertical black stripes on body and tail and a black dewlap whereas Iguana iguana insularis is pale grey or creamy white in adults.                Both subspecies are globally threatened by unsustainable hunting (including the pet trade) and by invasive alien species,     including hybridization from invasive iguanas from South and Central America (I. iguana iguana and I. rhinolopha, considered here as full sp",
+      "journal": "Zootaxa",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_14393_bj-v33n3-34999",
       "title": "Origins of plexus brachial in Iguana iguana iguana Origens do plexo braquial da Iguana iguana iguana",
       "year": 2017,
@@ -248,11 +511,7 @@
       "abstract": "<jats:p>This paper aims to describe the origin of the brachial plexus of 12 iguanas, male and female, which were donated already dead by the Wild Animal Screening Center and Independent Company of Highway and Environmental Police of the Araguaína, Tocantins State, to Veterinary Anatomy Laboratory of Federal University of Tocantins, Araguaína campus These animals were fixed by intramuscular injections of aqueous 10% formalin. It was made a parallel incision to dorsal midline from the skull to the caudal ribs. It was pulled all the epiaxial muscles eight ribs, the periosteum, exposing and individualizing the ventral rami of spinal nerves that make up the brachial plexus. The ventral rami of spinal nerves C6, C7, C8, T1 and T2 form the brachial plexus in 12 iguanas. In 41.6% of cases, the branches involved were C6, C7, C8 and T1; in 33.4%, the branches C6, C7, C8, T1 and T2; 16.6% the branches C7, C8, T1 and T2 and in 8.4%, the branches C7, C8 and T1. The branches ventral C7, C8 and T1 fo",
       "journal": "Bioscience Journal",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_1365-2435_12984",
@@ -262,11 +521,7 @@
       "abstract": "Abstract The signals that animals use to communicate often differ considerably among species. Part of this variation in signal design may derive from differential natural selection on signal efficacy; the ability of the signal to travel efficiently through the environment and attract the receiver's attention. For the visual and acoustic modalities, the effect of the physical environment on signal efficacy is a well‐studied selective force. Still, very little is known on its impact on chemical signals. Here, we took a broad, phylogenetic comparative approach to test for a relationship between animals' signal chemistry and properties of their natural environment. Our study focused on lizards from the Lacertidae family. We sampled 64 species across three continents and determined the lipophilic composition of their glandular signalling secretions using gas chromatography–mass spectrometry. For each species, an array of environmental variables of high temporal and spatial resolution was ob",
       "journal": "Functional Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5216_rbn_v12i2_31934",
@@ -276,11 +531,7 @@
       "abstract": "<jats:p>O esqueleto dos animais fornece dados anatômicos que auxiliam no entendimento de suas características evolutivas. Objetivando subsidiar o conhecimento morfológico dos répteis, fornecemos uma descrição do dermatocrânio e mandíbula de Iguana iguana iguana com base na análise de três esqueletos secos de espécimes adultos. O crânio da referia espécie possui características basais entre os lagartos com formato triangular, pequena região pré-orbital e focinho largo. As estruturas ósseas são bem delimitadas com fusão de alguns ossos na parte caudal e no assoalho. Os ossos pós-frontral, supratemporal, jugal e septomaxila então presentes, o quadradojugal ausente, frontal e parietal são ímpares e o forame pineal está presente no osso frontal. Na mandíbula o esplenial é reduzido e o pré-articular fundido ao articular. A morfologia do crânio de I. iguana iguana exibe particularidades relacionadas a alguns hábitos de vida, por exemplo o herbivorismo. O padrão geral é similar aos demais laga",
       "journal": "Revista de Biologia Neotropical",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_conphys_cou032",
@@ -290,11 +541,7 @@
       "abstract": "Human-generated noise has profoundly changed natural soundscapes in aquatic and terrestrial ecosystems, imposing novel pressures on ecological processes. Despite interest in identifying the ecological consequences of these altered soundscapes, little is known about the sublethal impacts on wildlife population health and individual fitness. We present evidence that noise induces a physiological stress response in an amphibian and impairs mate attraction in the natural environment. Traffic noise increased levels of a stress-relevant glucocorticoid hormone (corticosterone) in female wood frogs (Lithobates sylvaticus) and impaired female travel towards a male breeding chorus in the field, providing insight into the sublethal consequences of acoustic habitat loss. Given that prolonged elevated levels of corticosterone can have deleterious consequences on survival and reproduction and that impaired mate attraction can impact population persistence, our results suggest a novel pathway by whic",
       "journal": "Conservation Physiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_bij_12414",
@@ -304,11 +551,7 @@
       "abstract": "Animals communicate via a variety of sensory channels and signals. Studies on acoustic and visual communication systems suggest that differences in the physical environment contribute to the variety of signalling behaviour, with species investing in those signals that are transmitted best under the local conditions. Whether or not environmental tuning also occurs in chemical communication systems has received much less attention. In the present study, we examined the effect of several aspects of the physical environment on the chemical communication system of lacertid lizards (family Lacertidae). The numbers of femoral pores are used as a proxy reflecting how much a particular species invests in and relies upon chemical signalling. Femoral pores are specialized epidermal structures that function as a secretion channel for the waxy substance produced by glands. In some lacertid species, the secretion carries infochemicals that play an important role in social communication. The number o",
       "journal": "Biological Journal of the Linnean Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_icb_icu046",
@@ -318,11 +561,7 @@
       "abstract": "Ecoimmunology is an example of how fruitful integrative approaches to biology can be. Since its emergence, ecoimmunology has sparked constructive debate on a wide range of topics, from the molecular mechanics of immune responses to the role of immunity in shaping the evolution of life histories. To complement the symposium Methods and Mechanisms in Ecoimmunology and commemorate the inception of the Division of Ecoimmunology and Disease Ecology within the Society for Integrative and Comparative Biology, we appraise the origins of ecoimmunology, with a focus on its continuing and valuable integration with disease ecology. Arguably, the greatest contribution of ecoimmunology to wider biology has been the establishment of immunity as an integral part of organismal biology, one that may be regulated to maximize fitness in the context of costs, constraints, and complex interactions. We discuss historical impediments and ongoing progress in ecoimmunology, in particular the thorny issue of wha",
       "journal": "Integrative and Comparative Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_28477",
@@ -332,11 +571,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_15451_ec2012-8-1_2-1-69",
@@ -346,11 +581,7 @@
       "abstract": "Faunal resources have played a wide range of roles in human life from the earliest days of recorded history. In addition to their utilitarian importance, animals have been recognized in religion, art, music and literature and other different cultural manifestations of mankind. Animals uses and the means by which they are exploited by humans, as well as the cultural aspects which conduct interactions between people and animals, are implicated in a lower or higher pressure on populations of exploited species, reflected in either their sustainable use or even lead to their extinction. The variety of interactions between humans and animals is the subject matter of ethnozoology - the branch of ethnobiology that investigates the knowledge human societies have accumulated concerning animals, as well as their significance to those people and their uses. Ethnozoological studies can be a valuable asset to increase our understanding of the cultural, economic, social, and traditional roles of play",
       "journal": "Ethnobiology and Conservation",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2009_2047",
@@ -360,11 +591,7 @@
       "abstract": "Prey animals can reduce their risk of predation by detecting potential predators before encounters occur. Some animals gain information about nearby predators by eavesdropping on heterospecific alarm calls. Despite having well-developed ears, most lizards do not use vocal information for intraspecific communication, and few studies have shown practical use of the ears in wild lizards. Here, we show that the Madagascan spiny-tailed iguana (Oplurus cuvieri cuvieri) obtains auditory signals for predator detection. The Madagascan spiny-tailed iguana and the Madagascar paradise flycatcher (Terpsiphone mutata) are syntopic inhabitants of the Ampijoroa dry deciduous forest of Madagascar. The iguana and the flycatcher have neither a predator-prey relationship nor resource competition, but they have shared predators such as raptors and snakes. Using playback experiments, we demonstrated that the iguana discriminates mobbing alarm calls of the flycatcher from its songs and then enhances its vigi",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rsbl_2007_0443",
@@ -374,11 +601,17 @@
       "abstract": "The ability to recognize and respond to the alarm calls of heterospecifics has previously been described only in species with vocal communication. Here we provide evidence that a non-vocal reptile, the Galápagos marine iguana (Amblyrhynchus cristatus), can eavesdrop on the alarm call of the Galápagos mockingbird (Nesomimus parvulus) and respond with anti-predator behaviour. Eavesdropping on complex heterospecific communications demonstrates a remarkable degree of auditory discrimination in a non-vocal species.",
       "journal": "Biology Letters",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_11441039",
+      "title": "Twisting and bending: the functional role of salamander lateral hypaxial musculature during locomotion",
+      "year": 2001,
+      "doi": "10.1242/jeb.204.11.1979",
+      "abstract": "The function of the lateral hypaxial muscles during locomotion in tetrapods is controversial. Currently, there are two hypotheses of lateral hypaxial muscle function. The first, supported by electromyographic (EMG) data from a lizard (Iguana iguana) and a salamander (Dicamptodon ensatus), suggests that hypaxial muscles function to bend the body during swimming and to resist long-axis torsion during walking. The second, supported by EMG data from lizards during relatively high-speed locomotion, suggests that these muscles function primarily to bend the body during locomotion, not to resist torsional forces. To determine whether the results from D. ensatus hold for another salamander, we recorded lateral hypaxial muscle EMGs synchronized with body and limb kinematics in the tiger salamander Ambystoma tigrinum. In agreement with results from aquatic locomotion in D. ensatus, all four layers of lateral hypaxial musculature were found to show synchronous EMG activity during swimming in A. tigrinum. Our findings for terrestrial locomotion also agree with previous results from D. ensatus and support the torsion resistance hypothesis for terrestrial locomotion. We observed asynchronous EMG bursts of relatively high intensity in the lateral and medial pairs of hypaxial muscles during walking in tiger salamanders (we call these 'alpha-bursts'). We infer from this pattern that the more lateral two layers of oblique hypaxial musculature, Mm. obliquus externus superficialis (OES) and obliquus externus profundus (OEP), are active on the side towards which the trunk is bending, while the more medial two layers, Mm. obliquus internus (OI) and transversus abdominis (TA), are active on the opposite side. This result is consistent with the hypothesis proposed for D. ensatus that the OES and OEP generate torsional moments to counteract ground reaction forces generated by forelimb support, while the OI and TA generate torsional moments to counteract ground reaction forces from hindlimb ",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_icb_28_3_877",
@@ -388,11 +621,7 @@
       "abstract": "SYNOPSIS. Current evolutionary theory predicts that energy expenditure will be adjusted in contest situations to the value of the disputed resource and the relative probability of winningit. Estimates of energy expended in contest situations support this prediction. I report on theenergetic costs of display relative to other contest costs to individual fitness (e.g., risk ofpredation, losses in feeding time, injury and mortality) in territorial disputes of the spider Agelenopsis aperta. Cost estimates obtained in terms of decrements to milligrams wet-weight of future egg production resulting from single contests indicatethat actual energy expenditure inthese territorial disputes represent insignificant costs. Thesecosts are, in fact, 5–6 orders of magnitude smaller than the costs associated with injury, potential predation and even loss infood as a result of time spent in the interactions. Review of the literature indicates that in most instances, energy expenditure may be correlated w",
       "journal": "American Zoologist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_54718_tbdc9981",
@@ -402,11 +631,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_14393_ufu_te_2016_76",
@@ -416,11 +641,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_17161_iguana",
@@ -430,11 +651,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_41_2012_tde-24082012-113604",
@@ -444,11 +661,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31390_gradschool_disstheses_299",
@@ -458,14 +671,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 19,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

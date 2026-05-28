@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 18,
+    "doi_count": 24,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,89 +42,346 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "song"
+    "song",
+    "alarm call"
   ],
   "contexts": [
-    "mate attraction",
     "predator response",
+    "mate attraction",
     "territorial defence"
   ],
   "functions": [
+    "territory signalling",
     "mate attraction",
-    "predator warning",
-    "territory signalling"
+    "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territory signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1972,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1971,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1970,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1969,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1968,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1967,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1966,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1965,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1964,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1963,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1962,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1961,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1960,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1959,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1958,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1957,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1956,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1955,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Erithacus rubecula",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1002/ece3.73018",
+      "url": "https://doi.org/10.1002/ece3.73018",
+      "title": "The Effects of Anthrophony on Song Traits in European Robins (",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.isci.2025.114015",
+      "url": "https://doi.org/10.1016/j.isci.2025.114015",
+      "title": "Structure of European robin cryptochrome 1 reveals a role in circadian rhythms, not magnetoreception",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1093/beheco/araf070",
       "url": "https://doi.org/10.1093/beheco/araf070",
       "title": "Non-breeding European robins adjust their song in noisy environments",
       "year": 2025,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2025.1042",
+      "url": "https://doi.org/10.1098/rspb.2025.1042",
+      "title": "Vocal performance in birdsong is an aggressive signal in both females and males: experimental evidence from a field study in European robins",
+      "year": 2025,
+      "source": "pubmed"
     },
     {
       "doi": "10.15393/j1.art.2021.10542",
@@ -146,6 +403,13 @@
       "title": "Erithacus rubecula",
       "year": 2019,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsbl.2018.0841",
+      "url": "https://doi.org/10.1098/rsbl.2018.0841",
+      "title": "Signal complexity communicates aggressive intent during contests, but the process is disrupted by noise",
+      "year": 2019,
+      "source": "pubmed"
     },
     {
       "doi": "10.2305/iucn.uk.2018-2.rlts.t22709675a131953953.en",
@@ -183,9 +447,30 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1186/s12868-014-0128-0",
+      "url": "https://doi.org/10.1186/s12868-014-0128-0",
+      "title": "Regulatory mechanisms of testosterone-stimulated song in the sensorimotor nucleus HVC of female songbirds",
+      "year": 2014,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1016/j.beproc.2013.12.001",
       "url": "https://doi.org/10.1016/j.beproc.2013.12.001",
       "title": "Anthropogenic noise affects vocal interactions",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rsbl.2012.0771",
+      "url": "https://doi.org/10.1098/rsbl.2012.0771",
+      "title": "Experimentally increased noise levels change spatial and singing behaviour",
+      "year": 2013,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2012.2798",
+      "url": "https://doi.org/10.1098/rspb.2012.2798",
+      "title": "Bird song and anthropogenic noise: vocal constraints may explain why birds sing higher-frequency songs in cities",
       "year": 2013,
       "source": "openalex"
     },
@@ -241,6 +526,36 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_42043982",
+      "title": "Enhancing an Avian Sound Recognition Model's Detection Precision via Logistic Regression of Large Acoustic Datasets: A Case Study of the European Robin (Erithacus rubecula)",
+      "year": 2026,
+      "doi": "10.3791/70479",
+      "abstract": "Passive acoustic monitoring (PAM) has become an invaluable tool for biodiversity research, enabling the non-invasive collection of vast datasets. However, a significant challenge remains in efficiently and reliably processing this large volume of data to extract species-specific information across varying locations. This paper presents a detailed, step-by-step protocol to address this challenge using a machine learning detector module within a bioacoustics analysis software. The methodology is designed to accurately and confidently identify and validate bird vocalisations from raw acoustic recordings. Our protocol details the process from initial data collection using autonomous recording units (ARUs) to the final generation of a high-quality annotated dataset. Key steps include configuring the machine learning detector module to generate initial detections, a manual validation procedure to calculate precision tables, and a logistic regression analysis to determine a species-specific and, where appropriate, a location-specific confidence score threshold. This statistically derived threshold is then used to refine the detector's output, tested on two overlap configurations (0 s and 2 s). We show that applying the derived optimal confidence score thresholds substantially improves the machine learning-based avian sound recognition models detection precision across sites. For the three sites used to illustrate the process (Liverpool Park, Cairngorms, and Glasgow Suburban) precision increased by 26.1%, 17.7%, and 17% for an overlap of 0 s, and by 28.77%, 16.87%, and 15% for an overlap of 2 s. We suggest the resulting methodology is superior to manual counting methods in both speed and reliability. In summary, this paper provides a reproducible framework that facilitates the accessible and effective use of machine learning approaches in bioacoustics, enabling researchers to confidently leverage large acoustic datasets for ecological studies and parameter analysis.",
+      "journal": "Journal of visualized experiments : JoVE",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41716593",
+      "title": "The Effects of Anthrophony on Song Traits in European Robins (",
+      "year": 2026,
+      "doi": "10.1002/ece3.73018",
+      "abstract": "The increasing urbanisation has important impacts on natural soundscapes, through habitat loss and noise pollution (anthrophony), affecting acoustic communication in wildlife. Birds living in cities often adjust their songs to avoid masking by low-frequency traffic noise, but little is still known about how multiple song traits vary during the day. In this study, we investigated how anthrophony affects song traits in European robins (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41713769",
+      "title": "Part-night lighting fails to restore natural song rhythms in urban European Robins",
+      "year": 2026,
+      "doi": "10.1016/j.envpol.2026.127837",
+      "abstract": "Artificial Light at Night (ALAN) disrupts the natural circadian rhythms of animals, often extending the activity of diurnal species into nocturnal periods. To mitigate ALAN's ecological impacts and reduce energy consumption, many municipalities have implemented Part-Night Lighting (PNL), which involves switching off streetlights during core nighttime hours. However, the effects of such temporal lighting reductions on animal activity patterns remain poorly understood. We investigate how PNL influences daily singing behavior in European Robins Erithacus rubecula during spring in an urban area of France, where streetlights are turned off between 11 p.m. and 6 a.m., creating brief illumination windows at dawn and dusk. We hypothesized that PNL would reduce the effects of ALAN on Robin vocal activity compared to Full-Night Lighting (FNL). Using passive acoustic monitoring, we recorded Robin song activity across three types of sites (unlit, PNL, and FNL) and four time periods (dawn, morning, afternoon, dusk). Robins sang significantly earlier at FNL and PNL sites than at unlit sites during dawn and morning, and later during dusk, with no significant differences between FNL and PNL. In the afternoon, song activity tended to be delayed at PNL sites compared to both FNL and unlit sites. Our findings indicate that even short illumination periods at dawn and dusk under PNL do not replicate unlit conditions. In an urban context, the similarity in vocal activity between PNL and FNL sites suggests that residual light from nearby lit areas and/or lingering effects of ALAN may continue to influence animal behavior under PNL regimes.",
+      "journal": "Environmental pollution (Barking, Essex : 1987)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1093_beheco_araf070",
       "title": "Non-breeding European robins adjust their song in noisy environments",
       "year": 2025,
@@ -248,11 +563,57 @@
       "abstract": "Noise pollution is a global threat to biodiversity, significantly affecting acoustic communication in birds and other taxa. While European robins (<i>Erithacus rubecula</i>) adjust their songs in response to urban noise during the breeding season, little is known about song adjustments during the non-breeding season, when song plays a crucial role in survival by helping secure winter territories with adequate resources and shelter. To better understand the effect of noise on avian communication, we investigate whether robins modify their non-breeding song in noisy environments. We analyed the autumn songs of 25 robins exposed to varying background noise levels and found that robins increase the minimum frequency of their songs and extend phrase duration by singing fewer but longer syllables per phrase in noisy environments-adjustments that may mitigate acoustic masking. Our results provide valuable insights into the broader impact of urbanization on bird communication and highlight the",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_41488359",
+      "title": "Structure of European robin cryptochrome 1 reveals a role in circadian rhythms, not magnetoreception",
+      "year": 2025,
+      "doi": "10.1016/j.isci.2025.114015",
+      "abstract": "Cryptochromes (CRYs) play critical roles in regulating diverse physiological functions, including circadian rhythms and neuronal firing in light-dependent or -independent fashions. Structural studies of CRYs have highlighted common features, such as the photolyase homology region (PHR), but they also reveal key differences, particularly in the binding of the flavin adenine dinucleotide (FAD) cofactor, leading to a long-standing debate, namely, whether Type I CRYs can function as FAD-dependent photosensors. This study solves the first crystal structure of a Type II CRY from a migratory songbird, namely, the European robin (",
+      "journal": "iScience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40859790",
+      "title": "Vocal performance in birdsong is an aggressive signal in both females and males: experimental evidence from a field study in European robins",
+      "year": 2025,
+      "doi": "10.1098/rspb.2025.1042",
+      "abstract": "Birdsong often serves as a territorial signal, and vocal performance (the degree of vocalizing close to vocal production or respiratory limits) can play a role in expressing a sender's aggressiveness. However, this is rarely studied in females, in which song has historically been considered non-functional. Here, we investigate male and female European robins,",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40631048",
+      "title": "Non-breeding European robins adjust their song in noisy environments",
+      "year": 2025,
+      "doi": "10.1093/beheco/araf070",
+      "abstract": "Noise pollution is a global threat to biodiversity, significantly affecting acoustic communication in birds and other taxa. While European robins (",
+      "journal": "Behavioral ecology : official journal of the International Society for Behavioral Ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40509703",
+      "title": "How effective are insect aposematism and Batesian mimicry in deterring a wild avian predator?",
+      "year": 2025,
+      "doi": "10.1002/ecy.70135",
+      "abstract": "Batesian mimicry manifests in amazing forms, yet empirical studies quantifying its efficiency in nature are virtually absent. Lepidopterans include striking mimics of aposematic hymenopterans. Imitations may include not only visual components, but also acoustic and chemical signaling. We evaluated whether hymenopteran-mimicking clearwing moths (Lepidoptera: Sesiidae) and diurnal hawkmoths (Lepidoptera: Sphingidae) complement visual anti-predator signaling with acoustical mimicry. Through field-based experiments, we then compared the response of an avian predator, the European robin (Erithacus rubecula), to hymenopteran models and their lepidopteran mimics. Our work contradicts the assumption that aposematism and Batesian mimicry provide generalized protection to insects, paving the way for comparative studies involving a broader range of predators. We verified two predictions: (1) robins discriminate among different models based on their perceived risk, with avoidance behavior occurring in response to more harmful stimuli; (2) predators respond similarly within each studied pair of model and mimic. We demonstrated a clear distinction in the reaction of robins to the hornet Vespa crabro and its mimic, the hornet clearwing Sesia apiformis, in comparison to all other tested species, strongly indicating that the presence of the hornet and hornet mimic deterred the birds.",
+      "journal": "Ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39241452",
+      "title": "Contributions of birds to the feeding of ticks at host community level: Effects of tick burden, host density and yearly fluctuations",
+      "year": 2024,
+      "doi": "10.1016/j.ttbdis.2024.102390",
+      "abstract": "The eco-epidemiology of tick-borne diseases hinges on the abundance and distribution of hosts that sustain tick populations and the pathogens they carry. Research into the role of bird species in the feeding of Ixodes ricinus ticks, the primary tick species of veterinary and public health importance in Europe, remains scarce. This study endeavors to bridge these knowledge gaps by (i) assessing the density of feeding ticks (DFT) within a bird community to pinpoint species making substantial contributions, and (ii) exploring interannual variations in DFT over an extended timeline. Furthermore, we investigate whether variations in individual tick burden (TB) were more closely associated with the characteristics of bird species or interannual variations affecting the density of questing tick, using interannual TB variation as a surrogate. To fulfill these aims, we conducted a 13-year longitudinal study monitoring I. ricinus ticks feeding on a bird community in a periurban forest in France, covering breeding periods from 2007 to 2019. Within this community, we identified seven principal bird species significantly contributing to I. ricinus tick feeding: the Common Blackbird (Turdus merula), the Song Thrush (Turdus philomelos), the European Robin (Erithacus rubecula), the Dunnock (Prunella modularis), the Eurasian Blackcap (Sylvia atricapilla), the Great Tit (Parus major), and the Common Nightingale (Luscinia megarhynchos). Our results show that the bird community's contribution to tick feeding remained relatively consistent from year-to-year, though certain years displayed higher or lower DFT values related to the average over the study period. Moreover, five out the seven major species accounted for 80 % to 95 % of DFT annually. Consequently, we emphasized the need to broaden the scope of future research on bird contributions to tick population dynamics beyond merely thrushes (Turdidae species), to encompass a more diverse range of species, particularly those common bir",
+      "journal": "Ticks and tick-borne diseases",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_15393_j1_art_2021_10542",
@@ -262,11 +623,7 @@
       "abstract": "",
       "journal": "Principles of the Ecology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t22709675a166350059_en",
@@ -276,11 +633,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_84127",
@@ -290,11 +643,37 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_30991914",
+      "title": "Signal complexity communicates aggressive intent during contests, but the process is disrupted by noise",
+      "year": 2019,
+      "doi": "10.1098/rsbl.2018.0841",
+      "abstract": "Contestants use displays to signal their aggressive intent and settle disputes before they escalate. For birds, this is often in the form of song, which can vary in structural complexity. The role of song complexity in signalling aggressive intent has not been fully established, and its efficacy could be influenced by background noise levels. Using playback experiments, we found that in European robins, Erithacus rubecula, song complexity signalled sender aggression and affected receiver response. However, increased noise impacted the ability of contestants to adjust response based on opponent song complexity. These findings provide new evidence regarding the use of acoustic signal complexity for assessing opponent aggression and that noise can influence contest behaviour by interrupting this process, which could impose fitness consequences.",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30771037",
+      "title": "Ticks (Acari: Ixodida) on birds (Aves) migrating through the Polish Baltic coast",
+      "year": 2019,
+      "doi": "10.1007/s10493-019-00341-z",
+      "abstract": "Seasonal bird (Aves) migration between breeding and wintering areas, often located on different continents, can facilitate the spreading of tick species (Acari: Ixodida) and of tick-borne pathogens. The aim of the study was to analyse the occurrence of ticks dispersed by birds migrating along the Polish Baltic coast during spring and autumn migration. Field research was conducted at the bird ringing station in Wicie, located on the middle of the Polish Baltic coast, in 2011 and 2012 during spring and autumn migration. A total of 2657 birds from 45 species was examined. The most common species inspected were European robin (Erithacus rubecula) (63.3%), song thrush (Turdus philomelos) (5.13%), and goldcrest (Regulus regulus) (4.5%). Overall, 3129 ticks belonging to six species were collected: Ixodes ricinus (1650 larvae, 1390 nymphs and 1 male), Ixodes frontalis (20 larvae, 20 nymphs), Ixodes arboricola (35 larvae), Dermacentor reticulatus (1 larva), and Haemaphysalis punctata (1 nymph). Ten larvae and one nymph could only be identified to the genus level Ixodes. Ticks were located on various parts of the head: on the corner of the beak (75.0%), near the eyes (14.6%), on the chin (4.4%), near the ears (4.4%), on the neck (1.1%), and in the beak (0.5%). The overall tick prevalence was 40.5%. The highest prevalence was for bird species feeding on the ground, covering a medium distance to wintering grounds and migrating at night. Statistically significant differences between the number of ticks and the sex of the host species were detected in blackbirds: males carried more parasites than females, both, during spring and autumn migration. The fact that I. ricinus and other ticks parasitize birds migrating through Poland extends the possibility of the spread of tick-borne diseases.",
+      "journal": "Experimental & applied acarology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30673588",
+      "title": "Parasites in space and time: a case study of haemosporidian spatiotemporal prevalence in urban birds",
+      "year": 2019,
+      "doi": "10.1016/j.ijpara.2018.08.009",
+      "abstract": "Prevalence responses to anthropic factors differ across hosts and parasite species. We here analyzed the spatiotemporal variation of avian haemosporidian prevalence in bird assemblages of the Mooswald forest (i.e., urban greenspace; Freiburg, Germany), in response to local environmental features (e.g., water sources, human presence (visited)/absence (unvisited)) and bird-level traits (e.g., body condition, age, sex) in 2 years. We used a nested PCR protocol (mitochondrial (mt)DNA cytochrome b (cyt b) gene) and microscopy to determine haemosporidian infections. Prevalence was analyzed using a general linear multi-model (glmulti) approach with Akaike information criterion corrected for small samples (AICc), with subsequent model inferences using a GLMM on the best selected model, considering bird species as a random factor. Analyses were conducted for the main understory bird species (Blackcap - Sylvia atricapilla, Chaffinch - Coereba flaveola, Great Tit - Parus major, Blue Tit - Cyanistes caeruleus, European Robin - Erithacus rubecula, Blackbird - Turdus merula, Song Thrush - Turdus philomelos). We further conducted spatial autocorrelation analyses for all haemosporidian infections, and classification and regression trees (CARTs) for focal species. We analyzed a total of 544 samples of seven bird species. In 2011 prevalence for Haemoproteus/Plasmodium was 25.8% and 11.7% for Leucocytozoon. In 2013 prevalence for Haemoproteus/Plasmodium was 26.5% and 35.5% for Leucocytozoon. Haemosporidian prevalence was significantly different between some focal species. There was a negative association between distance to the nearest water source and prevalence in the year 2011, and the opposite pattern for the year 2013. However, when analyzed for the six focal species separately, such a relationship could change from a negative to a positive one, or there could be no relationship at all. For Leucocytozoon there was higher prevalence in the section of the forest visited by humans. ",
+      "journal": "International journal for parasitology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2018-2_rlts_t22709675a131953953_en",
@@ -304,11 +683,17 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_28796893",
+      "title": "Singing from North to South: Latitudinal variation in timing of dawn singing under natural and artificial light conditions",
+      "year": 2017,
+      "doi": "10.1111/1365-2656.12739",
+      "abstract": "Animals breeding at northern latitudes experience drastic changes in daily light conditions during the breeding season with decreasing periods of darkness, whereas those living at lower latitudes are exposed to naturally dark nights throughout the year. Nowadays, many animals are also exposed to artificial night lighting (often referred to as light pollution). Animals strongly rely on variation in light levels to time their daily and seasonal behaviour. Previous work on passerine birds showed that artificial night lighting leads to earlier onset of dawn song. However, these studies were carried out at intermediate latitudes with more limited seasonal changes in daylength, and we still lack an understanding of the impact of artificial night lighting in relation to variation in natural light conditions. We investigated the influence of natural and artificial light conditions on the timing of dawn singing in five common songbird species in each of three regions in Europe that differed in natural variation in daylength (northern Finland, 65°N; southern Germany, 48°N; southern Spain, 37°N). In each region, we selected five peri-urban forest sites with and five without street lighting, and we recorded dawn singing at the beginning of the local breeding season. Our results show that the earliest natural singers, that is, European robins (Erithacus rubecula) and common blackbirds (Turdus merula), started dawn singing earlier along with the natural increase in night brightness in Finland, with no additional effects of artificial night lighting. In contrast, the later singers, such as, great tits (Parus major), blue tits (Cyanistes caeruleus) and chaffinches (Fringilla coelebs), showed similar onsets of dawn song relative to sunrise across the season and similar effects of artificial night lighting at all latitudes. Artificial night lighting affected great tits, blue tits and chaffinches even in northern Finland where nights became very bright. Proximate factors such as diffe",
+      "journal": "The Journal of animal ecology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2017-1_rlts_t22709675a111058208_en",
@@ -318,11 +703,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2305_iucn_uk_2016-3_rlts_t22709675a87880390_en",
@@ -332,11 +713,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1146_annurev-biophys-032116-094545",
@@ -346,11 +723,7 @@
       "abstract": "Although it has been known for almost half a century that migratory birds can detect the direction of the Earth's magnetic field, the primary sensory mechanism behind this remarkable feat is still unclear. The leading hypothesis centers on radical pairs-magnetically sensitive chemical intermediates formed by photoexcitation of cryptochrome proteins in the retina. Our primary aim here is to explain the chemical and physical aspects of the radical-pair mechanism to biologists and the biological and chemical aspects to physicists. In doing so, we review the current state of knowledge on magnetoreception mechanisms. We dare to hope that this tutorial will stimulate new interdisciplinary experimental and theoretical work that will shed much-needed additional light on this fascinating problem in sensory biology.",
       "journal": "Annual Review of Biophysics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_trd_2014_05_004",
@@ -360,11 +733,27 @@
       "abstract": "",
       "journal": "Transportation Research Part D Transport and Environment",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25442096",
+      "title": "Regulatory mechanisms of testosterone-stimulated song in the sensorimotor nucleus HVC of female songbirds",
+      "year": 2014,
+      "doi": "10.1186/s12868-014-0128-0",
+      "abstract": "BACKGROUND: In male birds, influence of the sex steroid hormone testosterone and its estrogenic metabolites on seasonal song behavior has been demonstrated for many species. In contrast, female song was only recently recognized to be widespread among songbird species, and to date, sex hormone effects on singing and brain regions controlling song development and production (song control nuclei) have been studied in females almost exclusively using domesticated canaries (Serinus canaria). However, domesticated female canaries hardly sing at all in normal circumstances and exhibit only very weak, if any, song seasonally under the natural photoperiod. By contrast, adult female European robins (Erithacus rubecula) routinely sing during the winter season, a time when they defend feeding territories and show elevated circulating testosterone levels. We therefore used wild female European robins captured in the fall to examine the effects of testosterone administration on song as well as on the anatomy and the transcriptome of the song control nucleus HVC (sic). The results obtained from female robins were compared to outcomes of a similar experiment done in female domesticated canaries. RESULTS: Testosterone treatment induced abundant song in female robins. Examination of HVC transcriptomes and histological analyses of song control nuclei showed testosterone-induced differentiation processes related to neuron growth and spacing, angiogenesis and neuron projection morphogenesis. Similar effects were found in female canaries treated with testosterone. In contrast, the expression of genes related to synaptic transmission was not enhanced in the HVC of testosterone treated female robins but was strongly up-regulated in female canaries. A comparison of the testosterone-stimulated transcriptomes indicated that brain-derived neurotrophic factor (BDNF) likely functions as a common mediator of the testosterone effects in HVC. CONCLUSIONS: Testosterone-induced singing of female robi",
+      "journal": "BMC neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24333298",
+      "title": "Anthropogenic noise affects vocal interactions",
+      "year": 2014,
+      "doi": "10.1016/j.beproc.2013.12.001",
+      "abstract": "Animal communication plays a crucial role in many species, and it involves a sender producing a signal and a receiver responding to that signal. The shape of a signal is determined by selection pressures acting upon it. One factor that exerts selection on acoustic signals is the acoustic environment through which the signal is transmitted. Recent experimental studies clearly show that senders adjust their signals in response to increased levels of anthropogenic noise. However, to understand how noise affects the whole process of communication, it is vital to know how noise affects the receiver's response during vocal interactions. Therefore, we experimentally manipulated ambient noise levels to expose male European robins (Erithacus rubecula) to two playback treatments consisting of the same song: one with noise and another one without noise. We found that males responding to a conspecific in a noise polluted environment increased minimum frequency and decreased song complexity and song duration. Thus, we show that the whole process of communication is affected by noise, not just the behaviour of the sender.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_beproc_2013_12_001",
@@ -374,11 +763,27 @@
       "abstract": "",
       "journal": "Behavioural Processes",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1098_rspb_2012_2798",
+      "title": "Bird song and anthropogenic noise: vocal constraints may explain why birds sing higher-frequency songs in cities",
+      "year": 2013,
+      "doi": "10.1098/rspb.2012.2798",
+      "abstract": "When animals live in cities, they have to adjust their behaviour and life histories to novel environments. Noise pollution puts a severe constraint on vocal communication by interfering with the detection of acoustic signals. Recent studies show that city birds sing higher-frequency songs than their conspecifics in non-urban habitats. This has been interpreted as an adaptation to counteract masking by traffic noise. However, this notion is debated, for the observed frequency shifts seem to be less efficient at mitigating noise than singing louder, and it has been suggested that city birds might use particularly high-frequency song elements because they can be produced at higher amplitudes. Here, we present the first phonetogram for a songbird, which shows that frequency and amplitude are strongly positively correlated in the common blackbird (Turdus merula), a successful urban colonizer. Moreover, city blackbirds preferentially sang higher-frequency elements that can be produced at hig",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23173189",
+      "title": "Experimentally increased noise levels change spatial and singing behaviour",
+      "year": 2013,
+      "doi": "10.1098/rsbl.2012.0771",
+      "abstract": "The reasons why animal populations decline in response to anthropogenic noise are still poorly understood. To understand how populations are affected by noise, we must understand how individuals are affected by noise. By modifying the acoustic environment experimentally, we studied the potential relationship between noise levels and both spatial and singing behaviour in the European robin (Erithacus rubecula). We found that with increasing noise levels, males were more likely to move away from the noise source and changed their singing behaviour. Our results provide the first experimental evidence in a free ranging species, that not merely the presence of noise causes changes in behaviour and distribution, but that the level of noise pollution plays a crucial role as well. Our results have important implications for estimating the impact of infrastructure which differs in the level of noise produced. Thus, governmental planning bodies should not only consider the physical effect on the landscape when assessing the impact of new infrastructure, but also the noise levels emitted, which may reduce the loss of suitable habitats available for animals.",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rstb_2011_0280",
@@ -388,11 +793,7 @@
       "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1525_bio_2011_61_3_6",
@@ -402,11 +803,7 @@
       "abstract": "This article presents a unifying theory of soundscape ecology, which brings the idea of the soundscape-the collection of sounds that emanate from landscapes-into a research and application focus. Our conceptual framework of soundscape ecology is based on the causes and consequences of biological (biophony), geophysical (geophony), and human-produced (anthrophony) sounds. We argue that soundscape ecology shares many parallels with landscape ecology, and it should therefore be considered a branch of this maturing field. We propose a research agenda for soundscape ecology that includes six areas: (1) measurement and analytical challenges, (2) spatial-temporal dynamics, (3) soundscape linkage to environmental covariates, ( We present case studies that illustrate different approaches to understanding soundscape dynamics. Because soundscapes are our auditory link to nature, we also argue for their protection, using the knowledge of how sounds are produced by the environment and humans.",
       "journal": "BioScience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rsbl_2007_0134",
@@ -416,11 +813,7 @@
       "abstract": "Ambient noise interferes with the propagation of acoustic signals through the environment from sender to receiver. Over the past few centuries, urbanization and the development of busy transport networks have led to dramatic increases in the levels of ambient noise with which animal acoustic communications must compete. Here we show that urban European robins Erithacus rubecula, highly territorial birds reliant on vocal communication, reduce acoustic interference by singing during the night in areas that are noisy during the day. The effect of ambient light pollution, to which nocturnal singing in urban birds is frequently attributed, is much weaker than that of daytime noise.",
       "journal": "Biology Letters",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_156853972x00248",
@@ -430,11 +823,7 @@
       "abstract": "Abstract During the summers of I967 I968 and I969, I studied the acoustical communication system of the Indigo Bunting (Passerina cyanea) by means of playback experiments. Attention was directed to deciphering those properties of territorial song used in species identification. I tested the importance of different song parameters by exposing birds to recordings of normal and artificially modified vocalizations. The level of agonistic response exhibited by male territory holders was used as a bioassay of the effectiveness of the experimental song in allowing species recognition. The results indicate the following: I) Syntactical featues of song (the arrangement or order of notes (= figures) within the song) are not essential recognition cues. 2) Altering the rhythmic cadence of the song by lengthening or shortening the intervals between successive notes causes a marked reduction in male responsiveness. 3) The structure or morphology of the individual notes is also important in song iden",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5040_9781472927019_0232",
@@ -444,11 +833,7 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_17816_snv202093127_27555",
@@ -458,14 +843,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

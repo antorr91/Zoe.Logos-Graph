@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 22,
-    "claim_count": 9,
-    "doi_count": 23,
-    "media_count": 0
+    "paper_count": 38,
+    "claim_count": 27,
+    "doi_count": 30,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,8 +42,8 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "call",
     "click",
+    "call",
     "whistle"
   ],
   "contexts": [
@@ -53,28 +53,28 @@
   ],
   "functions": [
     "cultural transmission",
-    "group cohesion",
-    "prey detection"
+    "prey detection",
+    "group cohesion"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "click",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "whistle",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -82,19 +82,19 @@
         "value": "echolocation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "group coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -102,30 +102,390 @@
         "value": "cultural transmission",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "group cohesion",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "prey detection",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "group cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 691,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 690,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 689,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 688,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 687,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 686,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 685,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 684,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 683,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 682,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 681,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 680,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 679,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 678,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 677,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 676,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 675,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 674,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 673,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 672,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 671,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 670,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 669,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 668,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 667,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 666,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 665,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41598-026-35574-7",
+      "url": "https://doi.org/10.1038/s41598-026-35574-7",
+      "title": "Aversive behavioural responses of killer whales to sounds of long-finned pilot whales",
+      "year": 2026,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1098/rsos.231973",
       "url": "https://doi.org/10.1098/rsos.231973",
@@ -190,6 +550,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1038/s41598-020-74111-y",
+      "url": "https://doi.org/10.1038/s41598-020-74111-y",
+      "title": "Australian long-finned pilot whales (Globicephala melas) emit stereotypical, variable, biphonic, multi-component, and sequenced vocalisations, similar to those recorded in the northern hemisphere",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.81456",
       "url": "https://doi.org/10.1079/cabicompendium.81456",
       "title": "Globicephala melas",
@@ -218,9 +585,23 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1038/srep28641",
+      "url": "https://doi.org/10.1038/srep28641",
+      "title": "Disturbance-specific social responses in long-finned pilot whales, Globicephala melas",
+      "year": 2016,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1139/cjz-2016-0098",
       "url": "https://doi.org/10.1139/cjz-2016-0098",
       "title": "A systematic review on the behavioural responses of wild marine mammals to noise: the disparity between science and policy",
+      "year": 2016,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3354/esr00764",
+      "url": "https://doi.org/10.3354/esr00764",
+      "title": "Experimental field studies to measure behavioral responses of cetaceans to sonar",
       "year": 2016,
       "source": "openalex"
     },
@@ -237,6 +618,27 @@
       "title": "Blue whales respond to simulated mid-frequency military sonar",
       "year": 2013,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0041781",
+      "url": "https://doi.org/10.1371/journal.pone.0041781",
+      "title": "Investigating the potential use of environmental DNA (eDNA) for genetic monitoring of marine mammals",
+      "year": 2012,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0052201",
+      "url": "https://doi.org/10.1371/journal.pone.0052201",
+      "title": "Pilot whales attracted to killer whale sounds: acoustically-mediated interspecific interactions in cetaceans",
+      "year": 2012,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fphys.2012.00400",
+      "url": "https://doi.org/10.3389/fphys.2012.00400",
+      "title": "Changes in dive behavior during naval sonar exposure in killer whales, long-finned pilot whales, and sperm whales",
+      "year": 2012,
+      "source": "pubmed"
     },
     {
       "doi": "10.2305/iucn.uk.2012-1.rlts.t16376479a16376495.en",
@@ -290,6 +692,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41606079",
+      "title": "Aversive behavioural responses of killer whales to sounds of long-finned pilot whales",
+      "year": 2026,
+      "doi": "10.1038/s41598-026-35574-7",
+      "abstract": "Interactions are common among marine species which use sound as the primary form of communication, yet the role of acoustic signals in mediating these interactions remains poorly understood. Long-finned pilot whales (Globicephala melas) are attracted to killer whale (Orcinus orca) sounds, leading to antagonistic interactions. To test whether these interactions are acoustically mediated in both directions, playback experiments (n = 15) using pilot whale and control sound stimuli were conducted on eight killer whales equipped with multi-sensor tags. To assess behavioural responses to the playbacks, we applied hidden Markov models (HMMs) to movement and acoustic data, and fitted univariate regression models to a horizontal movement reaction score, calling rate, and group behaviour variables. The tagged whales exhibited an avoidance response to pilot whale sounds, evidenced by fast, directed movement away from the sound source and increased cohesion and alignment of group members. Calling rate often increased initially, followed by a pronounced decrease. These findings demonstrate that killer whales, the oceans' apex predators, respond to acoustic signals of pilot whales and likely perceive their presence as a threat, similar to naval sonar. This study provides important insights into the complexity of cetacean behaviour and acoustic mechanisms shaping multi-species community dynamics.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1098_rsos_231973_v1_review1",
       "title": "Review for \"A first vocal repertoire characterization of long-finned pilot whales ( &lt;i&gt;Globicephala melas&lt;/i&gt; ) in the Mediterranean Sea: a machine learning approach\"",
       "year": 2024,
@@ -297,11 +709,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_231973_v1_review2",
@@ -311,11 +719,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_231973_v2_review2",
@@ -325,11 +729,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_231973_v2_review1",
@@ -339,11 +739,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_231973_v1_decision1",
@@ -353,11 +749,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_231973_v2_decision1",
@@ -367,11 +759,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_231973",
@@ -381,11 +769,17 @@
       "abstract": "The acoustic repertoires of long-finned pilot whales (<i>Globicephala melas</i>) in the Mediterranean Sea are poorly understood. This study aims to create a catalogue of calls, analyse acoustic parameters, and propose a classification tree for future research. An acoustic database was compiled using recordings from the Alboran Sea, Gulf of Lion and Ligurian Sea (Western Mediterranean Basin) between 2008 and 2022, totalling 640 calls. Using a deep neural network, the calls were clustered based on frequency contour similarities, leading to the identification of 40 distinct call types defining the local population's vocal repertoire. These categories encompass pulsed calls with varied complexities, from simplistic to highly intricate structures comprising multiple elements and segments. This study marks the initial documentation of the vocal catalogue of long-finned pilot whales in the Mediterranean Sea. Subsequent research should delve deeper into this multifaceted communication system a",
       "journal": "Royal Society Open Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_39507998",
+      "title": "A first vocal repertoire characterization of long-finned pilot whales (",
+      "year": 2024,
+      "doi": "10.1098/rsos.231973",
+      "abstract": "The acoustic repertoires of long-finned pilot whales (",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t198785664a198787672_en",
@@ -395,11 +789,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41598-019-55911-3",
@@ -409,11 +799,27 @@
       "abstract": "Fear of predation can induce profound changes in the behaviour and physiology of prey species even if predator encounters are infrequent. For echolocating toothed whales, the use of sound to forage exposes them to detection by eavesdropping predators, but while some species exploit social defences or produce cryptic acoustic signals, deep-diving beaked whales, well known for mass-strandings induced by navy sonar, seem enigmatically defenceless against their main predator, killer whales. Here we test the hypothesis that the stereotyped group diving and vocal behaviour of beaked whales has benefits for abatement of predation risk and thus could have been driven by fear of predation over evolutionary time. Biologging data from 14 Blainville's and 12 Cuvier's beaked whales show that group members have an extreme synchronicity, overlapping vocal foraging time by 98% despite hunting individually, thereby reducing group temporal availability for acoustic detection by killer whales to <25%. Gr",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_33244014",
+      "title": "Australian long-finned pilot whales (Globicephala melas) emit stereotypical, variable, biphonic, multi-component, and sequenced vocalisations, similar to those recorded in the northern hemisphere",
+      "year": 2020,
+      "doi": "10.1038/s41598-020-74111-y",
+      "abstract": "While in the northern hemisphere, many studies have been conducted on the vocal repertoire of long-finned pilot whales (Globicephala melas), no such study has been conducted in the southern hemisphere. Presented here, is the first study on the vocalisations of long-finned pilot whales along the southern coast of mainland Australia. Multiple measures were taken of 2028 vocalisations recorded over five years in several locations. These vocalisations included tonal sounds with and without overtones, sounds of burst-pulse character, graded sounds, biphonations, and calls of multiple components. Vocalisations were further categorised based on spectrographic features into 18 contour classes. Altogether, vocalisations ranged from approximately 200 Hz to 25 kHz in fundamental frequency and from 0.03 s to 2.07 s in duration. These measures compared well with those from northern hemisphere pilot whales. Some call types were almost identical to northern hemisphere vocalisations, even though the geographic ranges of the two populations are far apart. Other call types were unique to Australia. Striking similarities with calls of short-finned pilot whales (Globicephala macrorhynchus) and sometimes sympatric killer whales (Orcinus orca) were also found. Theories for call convergence and divergence are discussed.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32321748",
+      "title": "Diving apart together: call propagation in diving long-finned pilot whales",
+      "year": 2020,
+      "doi": "10.1242/jeb.207878",
+      "abstract": "Group-living animals must communicate to stay in contact. In long-finned pilot whales, there is a trade-off between the benefits of foraging individually at depth and the formation of tight social groups at the surface. Using theoretical modelling and empirical data of tagged pairs within a group, we examined the potential of pilot whale social calls to reach dispersed group members during foraging periods. Both theoretical predictions and empirical data of tag pairs showed a potential for communication between diving and non-diving group members over separation distances up to 385 m (empirical) and 1800 m (theoretical). These distances match or exceed pilot whale dive depths recorded across populations. Call characteristics and environmental characteristics were analysed to investigate determinants of call detectability. Longer calls with a higher sound pressure level (SPL) that were received in a quieter environment were more often detected than their shorter, lower SPL counterparts within a noisier environment. In a noisier environment, calls were louder and had a lower peak frequency, indicating mechanisms for coping with varying conditions. However, the vulnerability of pilot whales to anthropogenic noise is still of concern as the ability to cope with increasing background noise may be limited. Our study shows that combining propagation modelling and actual tag recordings provides new insights into the communicative potential for social calls in orientation and reunion with group members for deep-diving pilot whales.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_81456",
@@ -423,11 +829,17 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31230140",
+      "title": "Evidence for discrimination between feeding sounds of familiar fish and unfamiliar mammal-eating killer whale ecotypes by long-finned pilot whales",
+      "year": 2019,
+      "doi": "10.1007/s10071-019-01282-1",
+      "abstract": "Killer whales (KW) may be predators or competitors of other cetaceans. Since their foraging behavior and acoustics differ among populations ('ecotypes'), we hypothesized that other cetaceans can eavesdrop on KW sounds and adjust their behavior according to the KW ecotype. We performed playback experiments on long-finned pilot whales (Globicephala melas) in Norway using familiar fish-eating KW sounds (fKW) simulating a sympatric population that might compete for foraging areas, unfamiliar mammal-eating KW sounds (mKW) simulating a potential predator threat, and two control sounds. We assessed behavioral responses using animal-borne multi-sensor tags and surface visual observations. Pilot whales barely changed behavior to a broadband noise (CTRL-), whereas they were attracted and exhibited spyhops to fKW, mKW, and to a repeated-tonal upsweep signal (CTRL+). Whales never stopped nor started feeding in response to fKW, whereas they reduced or stopped foraging to mKW and CTRL+. Moreover, pilot whales joined other subgroups in response to fKW and CTRL+, whereas they tightened individual spacing within group and reduced time at surface in response to mKW. Typical active intimidation behavior displayed to fKW might be an antipredator strategy to a known low-risk ecotype or alternatively a way of securing the habitat exploited by a heterospecific sympatric population. Cessation of feeding and more cohesive approach to mKW playbacks might reflect an antipredator behavior towards an unknown KW ecotype of potentially higher risk. We conclude that pilot whales are able to acoustically discriminate between familiar and unfamiliar KW ecotypes, enabling them to adjust their behavior according to the perceived disturbance type.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2018-2_rlts_t9250a50356171_en",
@@ -437,11 +849,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2017_2314",
@@ -451,11 +859,17 @@
       "abstract": "Shipping is the dominant marine anthropogenic noise source in the world's oceans, yet we know little about vessel encounter rates, exposure levels and behavioural reactions for cetaceans in the wild, many of which rely on sound for foraging, communication and social interactions. Here, we used animal-borne acoustic tags to measure vessel noise exposure and foraging efforts in seven harbour porpoises in highly trafficked coastal waters. Tagged porpoises encountered vessel noise 17-89% of the time and occasional high-noise levels coincided with vigorous fluking, bottom diving, interrupted foraging and even cessation of echolocation, leading to significantly fewer prey capture attempts at received levels greater than 96 dB re 1 µPa (16 kHz third-octave). If such exposures occur frequently, porpoises, which have high metabolic requirements, may be unable to compensate energetically with negative long-term fitness consequences. That shipping noise disrupts foraging in the high-frequency-hea",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_29350260",
+      "title": "Modulation rate transfer functions from four species of stranded odontocete (Stenella longirostris, Feresa attenuata, Globicephala melas, and Mesoplodon densirostris)",
+      "year": 2018,
+      "doi": "10.1007/s00359-018-1246-4",
+      "abstract": "Odontocete marine mammals explore the environment by rapidly producing echolocation signals and receiving the corresponding echoes, which likewise return at very rapid rates. Thus, it is important that the auditory system has a high temporal resolution to effectively process and extract relevant information from click echoes. This study used auditory evoked potential methods to investigate auditory temporal resolution of individuals from four different odontocete species, including a spinner dolphin (Stenella longirostris), pygmy killer whale (Feresa attenuata), long-finned pilot whale (Globicephala melas), and Blainville's beaked whale (Mesoplodon densirostris). Each individual had previously stranded and was undergoing rehabilitation. Auditory Brainstem Responses (ABRs) were elicited via acoustic stimuli consisting of a train of broadband tone pulses presented at rates between 300 and 2000 Hz. Similar to other studied species, modulation rate transfer functions (MRTFs) of the studied individuals followed the shape of a low-pass filter, with the ability to process acoustic stimuli at presentation rates up to and exceeding 1250 Hz. Auditory integration times estimated from the bandwidths of the MRTFs ranged between 250 and 333 µs. The results support the hypothesis that high temporal resolution is conserved throughout the diverse range of odontocete species.",
+      "journal": "Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_53846_goediss-6292",
@@ -465,11 +879,7 @@
       "abstract": "The aim of this study was to describe and investigate the vocal repertoire and possible factors influencing the size and composition of two matrilineal social whale species: long-finned pilot whales and killer whales in Norway. I was not able to describe the entire vocal repertoire due to the large number of animals in this population and the limitations of fieldwork and time. In this thesis I describe a vocal repertoire subset from seven groups of pilot whales and 11 groups of killer whales recorded in the Vestfjord in northern Norway during the time period 2004 until 2011. Using observer-based acoustic analysis I could discern 129 call types and 25 subtypes for long-finned pilot whales, and 60 call types and 25 subtypes for killer whales. Per group, pilot whales used an average of 36 call types and killer whales just 25. The general structure of call types was similar, with most call types consisting of one segment and two elements with different structures. The main element structur",
       "journal": "",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_1365-2664_12955",
@@ -479,11 +889,27 @@
       "abstract": "Abstract Marine mammals may be negatively affected by anthropogenic noise. Behavioural response studies (BRS) aim to establish a relationship between noise exposure conditions (dose) from a potential stressor and associated behavioural responses of animals. A recent series of BRS have focused on the effects of naval sonar sounds on cetaceans. Here, we review the current state of understanding of naval sonar impact on marine mammals and highlight knowledge gaps and future research priorities. Many marine mammal species exhibit responses to naval sonar sounds. However, responses vary between and within individuals and populations, highlighting the importance of exposure context in modulating dose–response relationships. There is increasing support from both terrestrial and marine systems for the risk‐disturbance hypothesis as an explanation for underlying response processes. This proposes that sonar sounds may be perceived by animals as a threat, evoking a response shaped by the underlyi",
       "journal": "Journal of Applied Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28618811",
+      "title": "Vocal repertoire of long-finned pilot whales (Globicephala melas) in northern Norway",
+      "year": 2017,
+      "doi": "10.1121/1.4983685",
+      "abstract": "The knowledge of the vocal repertoire of pilot whales is very limited. In this paper, the vocal repertoire of long-finned pilot whales recorded during different encounters in the Vestfjord in northern Norway between November 2006 and August 2010 are described. Sounds were analysed using two different methods: (1) an observer-based audio-visual inspection of FFT-derived spectrograms, with which, besides a general variety of clicks, buzzes, nonharmonic sounds, and whistles, 129 different distinct call types and 25 subtypes were distinguished. These call types included pulsed calls and discrete structured whistles varying from simple to highly complex structures composed of several segments and elements. In addition, ultrasonic whistles previously not described for pilot whales were found. In addition to the diversity of single calls, call sequences consisting of repetitions and combinations of specific call types were recorded and (2) a parametric approach that permitted the confirmation of the high variability in pilot whale call structures was developed. It is concluded that the pilot whale vocal repertoire is among the most complex for the mammalian species and the high structural variability, along with call repetitions and combinations, require a closer investigation to judge their importance for vocal communication.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28147612",
+      "title": "An analysis of pilot whale vocalization activity using hidden Markov models",
+      "year": 2017,
+      "doi": "10.1121/1.4973624",
+      "abstract": "Vocalizations of cetaceans form a key component of their social interactions. Such vocalization activity is driven by the behavioral states of the whales, which are not directly observable, so that latent-state models are natural candidates for modeling empirical data on vocalizations. In this paper, hidden Markov models are used to analyze calling activity of long-finned pilot whales (Globicephala melas) recorded over three years in the Vestfjord basin off Lofoten, Norway. Baseline models are used to motivate the use of three states, while more complex models are fit to study the influence of covariates on the state-switching dynamics. The analysis demonstrates the potential usefulness of hidden Markov models to concisely yet accurately describe the stochastic patterns found in animal communication data, thereby providing a framework for drawing meaningful biological inference.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1139_cjz-2016-0098",
@@ -493,11 +919,37 @@
       "abstract": "Noise can cause marine mammals to interrupt their feeding, alter their vocalizations, or leave important habitat, among other behavioural responses. The current North American paradigm for regulating activities that may result in behavioural responses identifies received levels (RL) of sound at which individuals are predicted to display significant behavioural responses (often termed harassment). The recurrent conclusion about the need for considering context of exposure, in addition to RL, when assessing probability and severity of behavioural responses led us to conduct a systematic literature review (370 papers) and analysis (79 studies, 195 data cases). The review summarized the critical and complex role of context of exposure. The analysis emphasized that behavioural responses in cetaceans (measured via a linear severity scale) were best explained by the interaction between sound source type (continuous, sonar, or seismic/explosion) and functional hearing group (a proxy for hearin",
       "journal": "Canadian Journal of Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_3354_esr00764",
+      "title": "Experimental field studies to measure behavioral responses of cetaceans to sonar",
+      "year": 2016,
+      "doi": "10.3354/esr00764",
+      "abstract": "Substantial recent progress has been made in directly measuring behavioral responses of free-ranging marine mammals to sound using controlled exposure experiments. Many studies were motivated by concerns about observed and potential negative effects of military sonar, including stranding events. Well-established experimental methods and increasingly sophisticated technologies have enabled fine-resolution measurement of many aspects of baseline behavior and responses to sonar. Studies have considered increasingly diverse taxa, but primarily odontocete and mysticete cetaceans that are endangered, particularly sensitive, or frequently exposed to sonar. This review focuses on recent field experiments studying cetacean responses to simulated or actual active military sonars in the 1 to 8 kHz band. Overall results demonstrate that some individuals of different species display clear yet varied responses, some of which have negative implications, while others appear to tolerate relatively high",
+      "journal": "Endangered Species Research",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_27353529",
+      "title": "Disturbance-specific social responses in long-finned pilot whales, Globicephala melas",
+      "year": 2016,
+      "doi": "10.1038/srep28641",
+      "abstract": "Social interactions among animals can influence their response to disturbance. We investigated responses of long-finned pilot whales to killer whale sound playbacks and two anthropogenic sources of disturbance: tagging effort and naval sonar exposure. The acoustic scene and diving behaviour of tagged individuals were recorded along with the social behaviour of their groups. All three disturbance types resulted in larger group sizes, increasing social cohesion during disturbance. However, the nature and magnitude of other responses differed between disturbance types. Tagging effort resulted in a clear increase in synchrony and a tendency to reduce surface logging and to become silent (21% of cases), whereas pilot whales increased surface resting during sonar exposure. Killer whale sounds elicited increased calling rates and the aggregation of multiple groups, which approached the sound source together. This behaviour appears to represent a mobbing response, a likely adaptive social defence against predators or competitors. All observed response-tactics would reduce risk of loss of group coordination, suggesting that, in social pilot whales, this could drive behavioural responses to disturbance. However, the behavioural means used to achieve social coordination depends upon other considerations, which are disturbance-specific.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_26986319",
+      "title": "Quantifying group specificity of animal vocalizations without specific sender information",
+      "year": 2016,
+      "doi": "10.1103/PhysRevE.93.022138",
+      "abstract": "Recordings of animal vocalization can lack information about sender and context. This is often the case in studies on marine mammals or in the increasing number of automated bioacoustics monitorings. Here, we develop a framework to estimate group specificity without specific sender information. We introduce and apply a bag-of-calls-and-coefficients approach (BOCCA) to study ensembles of cepstral coefficients calculated from vocalization signals recorded from a given animal group. Comparing distributions of such ensembles of coefficients by computing relative entropies reveals group specific differences. Applying the BOCCA to ensembles of calls recorded from group of long-finned pilot whales in northern Norway, we find that differences of vocalizations within social groups of pilot whales (Globicephala melas) are significantly lower than intergroup differences.",
+      "journal": "Physical review. E",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1578_am_40_2_2014_117",
@@ -507,11 +959,7 @@
       "abstract": "",
       "journal": "Aquatic Mammals",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2013_0657",
@@ -521,11 +969,37 @@
       "abstract": "Mid-frequency military (1-10 kHz) sonars have been associated with lethal mass strandings of deep-diving toothed whales, but the effects on endangered baleen whale species are virtually unknown. Here, we used controlled exposure experiments with simulated military sonar and other mid-frequency sounds to measure behavioural responses of tagged blue whales (Balaenoptera musculus) in feeding areas within the Southern California Bight. Despite using source levels orders of magnitude below some operational military systems, our results demonstrate that mid-frequency sound can significantly affect blue whale behaviour, especially during deep feeding modes. When a response occurred, behavioural changes varied widely from cessation of deep feeding to increased swimming speed and directed travel away from the sound source. The variability of these behavioural responses was largely influenced by a complex interaction of behavioural state, the type of mid-frequency sound and received sound level.",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23300613",
+      "title": "Pilot whales attracted to killer whale sounds: acoustically-mediated interspecific interactions in cetaceans",
+      "year": 2012,
+      "doi": "10.1371/journal.pone.0052201",
+      "abstract": "In cetaceans' communities, interactions between individuals of different species are often observed in the wild. Yet, due to methodological and technical challenges very little is known about the mediation of these interactions and their effect on cetaceans' behavior. Killer whales (Orcinus orca) are a highly vocal species and can be both food competitors and potential predators of many other cetaceans. Thus, the interception of their vocalizations by unintended cetacean receivers may be particularly important in mediating interspecific interactions. To address this hypothesis, we conducted playbacks of killer whale vocalizations recorded during herring-feeding activity to free-ranging long-finned pilot whales (Globicephala melas). Using a multi-sensor tag, we were able to track the whales and to monitor changes of their movements and social behavior in response to the playbacks. We demonstrated that the playback of killer whale sounds to pilot whales induced a clear increase in group size and a strong attraction of the animals towards the sound source. These findings provide the first experimental evidence that the interception of heterospecific vocalizations can mediate interactions between different cetacean species in previously unrecognized ways.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23087648",
+      "title": "Changes in dive behavior during naval sonar exposure in killer whales, long-finned pilot whales, and sperm whales",
+      "year": 2012,
+      "doi": "10.3389/fphys.2012.00400",
+      "abstract": "Anthropogenic underwater sound in the environment might potentially affect the behavior of marine mammals enough to have an impact on their reproduction and survival. Diving behavior of four killer whales (Orcinus orca), seven long-finned pilot whales (Globicephala melas), and four sperm whales (Physeter macrocephalus) was studied during controlled exposures to naval sonar [low frequency active sonar (LFAS): 1-2 kHz and mid frequency active sonar (MFAS): 6-7 kHz] during three field seasons (2006-2009). Diving behavior was monitored before, during and after sonar exposure using an archival tag placed on the animal with suction cups. The tag recorded the animal's vertical movement, and additional data on horizontal movement and vocalizations were used to determine behavioral modes. Killer whales that were conducting deep dives at sonar onset changed abruptly to shallow diving (ShD) during LFAS, while killer whales conducting deep dives at the onset of MFAS did not alter dive mode. When in ShD mode at sonar onset, killer whales did not change their diving behavior. Pilot and sperm whales performed normal deep dives (NDD) during MFAS exposure. During LFAS exposures, long-finned pilot whales mostly performed fewer deep dives and some sperm whales performed shallower and shorter dives. Acoustic recording data presented previously indicates that deep diving (DD) is associated with feeding. Therefore, the observed changes in dive behavior of the three species could potentially reduce the foraging efficiency of the affected animals.",
+      "journal": "Frontiers in physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22952587",
+      "title": "Investigating the potential use of environmental DNA (eDNA) for genetic monitoring of marine mammals",
+      "year": 2012,
+      "doi": "10.1371/journal.pone.0041781",
+      "abstract": "The exploitation of non-invasive samples has been widely used in genetic monitoring of terrestrial species. In aquatic ecosystems, non-invasive samples such as feces, shed hair or skin, are less accessible. However, the use of environmental DNA (eDNA) has recently been shown to be an effective tool for genetic monitoring of species presence in freshwater ecosystems. Detecting species in the marine environment using eDNA potentially offers a greater challenge due to the greater dilution, amount of mixing and salinity compared with most freshwater ecosystems. To determine the potential use of eDNA for genetic monitoring we used specific primers that amplify short mitochondrial DNA sequences to detect the presence of a marine mammal, the harbor porpoise, Phocoena phocoena, in a controlled environment and in natural marine locations. The reliability of the genetic detections was investigated by comparing with detections of harbor porpoise echolocation clicks by static acoustic monitoring devices. While we were able to consistently genetically detect the target species under controlled conditions, the results from natural locations were less consistent and detection by eDNA was less successful than acoustic detections. However, at one site we detected long-finned pilot whale, Globicephala melas, a species rarely sighted in the Baltic. Therefore, with optimization aimed towards processing larger volumes of seawater this method has the potential to compliment current visual and acoustic methods of species detection of marine mammals.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2012-1_rlts_t16376479a16376495_en",
@@ -535,11 +1009,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1080_09524622_2009_9753615",
@@ -549,11 +1019,7 @@
       "abstract": "",
       "journal": "Bioacoustics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3354_meps08255",
@@ -563,11 +1029,7 @@
       "abstract": "Many marine animals use sound passively or actively for communication, foraging, predator avoidance, navigation, and to sense their environment. The advent of acoustic recording tags has allowed biologists to get the on-animal perspective of the sonic environment and, in combination with movement sensors, to relate sounds to the activities of the tagged animal. These powerful tools have led to a wide range of insights into the behaviour of marine animals and have opened new opportunities for studying the ways they interact with their environment. Acoustic tags demand new analysis methods and careful experimental design to optimize the consistency between research objectives and the realistic performance of the tags. Technical details to consider are the suitability of the tag attachment to a given species, the accuracy of the tag sensors, and the recording and attachment duration of the tag. Here we consider the achievements, potential, and limitations of acoustic recording tags in stu",
       "journal": "Marine Ecology Progress Series",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_46867_ijcp_2007_20_02_09",
@@ -577,11 +1039,17 @@
       "abstract": "Marine mammals, especially cetaceans, are highly vocal and dependent on sound for almost all aspects of their lives, e.g. food-finding, reproduction, communication, detection of predators/hazards, and navigation. They are thus likely sensitive to anthropogenic noise. Sound has a large potential area of impact, sometimes covering millions of square kilometers of ocean with levels high enough to cause possible disturbance in marine mammals. There can be great variation in the reaction of marine mammals to noise, depending on such factors as species, individual, age, sex, prior experience with noise, and behavioral state. Species with similar hearing capabilities can respond differently to the same noise. Observed effects of noise on marine mammals include: changes in vocalizations, respiration, swim speed, diving, and foraging behavior; displacement, avoidance, shifts in migration path, stress, hearing damage, and strandings. Responses of marine mammals to noise can often be subtle and b",
       "journal": "International Journal of Comparative Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_12016448",
+      "title": "Stenurus globicephalae Baylis et Daubney, 1925 (Nematoda: Pseudaliidae) from a false killer whale, Pseudorca crassidens (Cetacea: Delphinidae), stranded on the coast of Uruguay",
+      "year": 2002,
+      "doi": "10.1590/s0074-02762002000200015",
+      "abstract": "Stenurus globicephalae Baylis et Daubney, 1925 (Nematoda: Pseudaliidae) was found in the cranial air sinuses of a false killer whale, Pseudorca crassidens (Owen), stranded on the coast of Uruguay in 1999. Although this species has been reported once in P. crassidens from the North Atlantic, this is the first record for South America. A total of 920 specimens were obtained, of which 663 were females (body length: 4.34 +/- 0.45 cm) and 257 were males (2.99 +/- 0.18 cm). Morphometric details are presented for S. globicephalae in this host, which do not show significant differences from those parasitizing Globicephala melas (Traill), but are distinct from those parasitizing Peponocephala electra (Gray). The host's skull revealed loss of osseous mass with the disappearance of the left zygomatic arch, and the left jaw had three osseous fenestrations in the region related to the organ of acoustic reception. These lesions support the hypothesis that this infection, known as stenurosis, was related to the stranding.",
+      "journal": "Memorias do Instituto Oswaldo Cruz",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1575_1912_4942",
@@ -591,14 +1059,20 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_7963037",
+      "title": "Relative abundance and behavior of marine mammals exposed to transmissions from the Heard Island Feasibility Test",
+      "year": 1994,
+      "doi": "10.1121/1.410120",
+      "abstract": "The Heard Island Feasibility Test source transmitted a hum at 209-220 dB re: 1 microPa at 175-m depth, centered on 57 Hz with a maximum bandwidth of 30 Hz for 1 h of every 3. Experienced marine mammal observers conducted line-transect surveys and monitored marine mammal behavior visually and acoustically in a 70 x 70 km square centered on the transmission site. Thirty-nine groups of cetaceans and 19 of pinnipeds were sighted from both vessels before the start of transmissions. Thirty-nine groups of cetaceans and 23 of pinnipeds were sighted during transmissions. Blue (Balaenoptera musculus), fin (B. physalus), and sperm (Physeter macrocephalus) whales were sighted during the base line period; blue, sperm, and possibly sei (B. borealis) whales were sighted during the transmission period. More schools of hourglass dolphins (Lagenorhynchus cruciger) were sighted during transmissions, but fewer groups of pilot whales (Globicephala melas), southern bottlenose whales (Hyperoodon planifrons), and minke whales (B. acutorostrata). The density of all cetaceans was 0.0157 groups/km2 before the transmissions and 0.0166 groups/km2 during. Antarctic fur seals (Arctocephalus gazella) and southern elephant seals (Mirounga leonina) were seen, but not in sufficient numbers to estimate abundance. One blue whale tracked before, during and after a transmission changed respiration and reorientation rates, but did not avoid the source detectably. Sperm whales and pilot whales were heard in 23% of 1181 min of baseline acoustic surveys; but in none of 1939 min during the transmission period. Both species were heard within 48 h after the end of the test.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
     }
   ],
-  "paper_count": 22,
+  "paper_count": 38,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

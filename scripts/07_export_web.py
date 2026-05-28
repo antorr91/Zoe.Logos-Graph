@@ -45,75 +45,112 @@ def export_species(con, sid: str) -> dict:
     meta = con.execute("SELECT * FROM species_metadata WHERE species_id=?", (sid,)).fetchone()
     meta = dict(meta) if meta else {}
 
-    # Papers (pilot + literature)
+    # ── Papers ────────────────────────────────────────────────────────────────
     papers_rows = con.execute("""
-        SELECT p.paper_id, p.title, p.year, p.doi, p.abstract, p.journal, p.open_access, p.source,
-               ps.developmental_stage, ps.main_outcome, ps.dataset_available, ps.dataset_name
+        SELECT p.paper_id, p.title, p.year, p.doi, p.abstract, p.journal,
+               p.open_access, p.source
         FROM papers p
         JOIN paper_species ps ON p.paper_id = ps.paper_id
         WHERE ps.species_id = ?
-        ORDER BY p.year DESC NULLS LAST
+        ORDER BY p.year DESC
     """, (sid,)).fetchall()
-
     papers = [dict(r) for r in papers_rows]
 
-    # Communication claims — grouped with paper evidence and counts
+    # ── Communication claims (v2 schema) ──────────────────────────────────────
     claims_rows = con.execute("""
-        SELECT claim_type, value, confidence, source, paper_id,
-               COUNT(*) OVER (PARTITION BY claim_type, value) AS evidence_count
-        FROM communication_claims
-        WHERE species_id = ?
-        ORDER BY claim_type, confidence DESC
+        SELECT
+            cc.claim_id, cc.confidence, cc.curation_status,
+            sig.canonical_label AS signal_label,
+            ctx.canonical_label AS context_label,
+            fn.canonical_label  AS function_label,
+            ce.evidence_text, ce.support_level, ce.extraction_method,
+            ce.paper_id AS evidence_paper_id,
+            p.doi AS evidence_doi, p.year AS evidence_year,
+            p.title AS evidence_paper_title,
+            (SELECT COUNT(*) FROM claim_evidence ce2
+             WHERE ce2.claim_id = cc.claim_id) AS evidence_count
+        FROM communication_claims cc
+        LEFT JOIN signal_terms  sig ON cc.signal_id   = sig.signal_id
+        LEFT JOIN context_terms ctx ON cc.context_id  = ctx.context_id
+        LEFT JOIN function_terms fn ON cc.function_id = fn.function_id
+        LEFT JOIN claim_evidence ce ON cc.claim_id    = ce.claim_id
+        LEFT JOIN papers p          ON ce.paper_id    = p.paper_id
+        WHERE cc.species_id = ?
+        GROUP BY cc.claim_id
+        ORDER BY cc.confidence DESC
     """, (sid,)).fetchall()
 
-    claims_by_type: dict[str, list] = {}
-    seen = set()
+    vocalisations, contexts, functions, claims_full = [], [], [], []
+    seen_v, seen_c, seen_f, seen_cid = set(), set(), set(), set()
     for r in claims_rows:
-        ct = r["claim_type"]
-        key = (ct, r["value"])
-        if key in seen:
+        cid = r["claim_id"]
+        if cid in seen_cid:
             continue
-        seen.add(key)
-        claims_by_type.setdefault(ct, []).append({
-            "value":          r["value"],
-            "confidence":     round(r["confidence"], 2),
-            "source":         r["source"],
-            "evidence_count": r["evidence_count"],
+        seen_cid.add(cid)
+        conf = round(r["confidence"] or 0.5, 2)
+        src  = r["extraction_method"] or "seed"
+        ec   = r["evidence_count"] or 0
+        if r["signal_label"] and r["signal_label"] not in seen_v:
+            seen_v.add(r["signal_label"])
+            vocalisations.append({"value": r["signal_label"], "confidence": conf,
+                                  "source": src, "evidence_count": ec})
+        if r["context_label"] and r["context_label"] not in seen_c:
+            seen_c.add(r["context_label"])
+            contexts.append({"value": r["context_label"], "confidence": conf,
+                             "source": src, "evidence_count": ec})
+        if r["function_label"] and r["function_label"] not in seen_f:
+            seen_f.add(r["function_label"])
+            functions.append({"value": r["function_label"], "confidence": conf,
+                              "source": src, "evidence_count": ec})
+        claims_full.append({
+            "claim_id": cid, "confidence": conf,
+            "curation_status": r["curation_status"] or "seed",
+            "evidence_count": ec,
+            "evidence_text": r["evidence_text"] or "",
+            "support_level": r["support_level"] or "",
+            "extraction_method": src,
+            "paper_id": r["evidence_paper_id"] or "",
+            "paper_title": r["evidence_paper_title"] or "",
+            "doi": r["evidence_doi"] or "",
+            "year": r["evidence_year"],
         })
 
-    # Media assets
-    media_rows = con.execute("""
-        SELECT * FROM media_assets WHERE species_id=? ORDER BY media_type, provider
+    # ── Recordings (recording_assets) ─────────────────────────────────────────
+    rec_rows = con.execute("""
+        SELECT ra.*, sp.image_path AS spectrogram_path
+        FROM recording_assets ra
+        LEFT JOIN (SELECT recording_id, image_path FROM spectrograms
+                   GROUP BY recording_id) sp ON sp.recording_id = ra.recording_id
+        WHERE ra.species_id = ?
     """, (sid,)).fetchall()
-    media = [dict(r) for r in media_rows]
+    audio_recs = []
+    for r in rec_rows:
+        r = dict(r)
+        audio_recs.append({
+            "id":          r.get("recording_id",""),
+            "provider":    r.get("provider",""),
+            "provider_id": r.get("provider_id",""),
+            "type":        r.get("title","vocalisation"),
+            "rec":         r.get("recorded_by",""),
+            "loc":         r.get("location",""),
+            "date":        r.get("recorded_date",""),
+            "url":         r.get("url",""),
+            "audio":       r.get("audio_url","") or r.get("audio_path",""),
+            "sono":        r.get("spectrogram_path","") or "",
+            "license":     r.get("license",""),
+            "attribution": r.get("attribution",""),
+        })
 
-    # Open literature DOIs
+    # ── Open literature DOIs ──────────────────────────────────────────────────
     dois_rows = con.execute("""
         SELECT doi, url, title, year, source FROM open_literature
-        WHERE species_id=? ORDER BY year DESC NULLS LAST
+        WHERE species_id=? ORDER BY year DESC
     """, (sid,)).fetchall()
     open_dois = [dict(r) for r in dois_rows]
 
-    # Audio (structured for frontend)
-    xc_audio  = [m for m in media if m["provider"] == "xeno_canto"]
-    fs_audio  = [m for m in media if m["provider"] == "freesound"]
-    audio_recs = []
-    for m in (xc_audio + fs_audio):
-        audio_recs.append({
-            "id":    m.get("xc_id",""),
-            "type":  m.get("recording_type","vocalisation"),
-            "rec":   m.get("recorded_by",""),
-            "loc":   m.get("location",""),
-            "date":  m.get("recorded_date",""),
-            "url":   m.get("url",""),
-            "audio": m.get("audio_url",""),
-            "sono":  m.get("spectrogram_url",""),
-            "license": m.get("license",""),
-        })
-
-    profile_level = sp.get("profile_level","basic")
+    profile_level = sp.get("profile_level", "basic")
     paper_count   = len(papers)
-    claim_count   = sum(len(v) for v in claims_by_type.values())
+    claim_count   = len(claims_full)
     doi_count     = len(open_dois)
 
     return {
@@ -147,7 +184,7 @@ def export_species(con, sid: str) -> dict:
             "paper_count": paper_count,
             "claim_count": claim_count,
             "doi_count":   doi_count,
-            "media_count": len(media),
+            "recording_count": len(audio_recs),
         },
 
         # ── Media ─────────────────────────────────────────────────────────────
@@ -167,23 +204,21 @@ def export_species(con, sid: str) -> dict:
         "inat_id":          meta.get("inat_id"),
 
         # ── Communication profile ─────────────────────────────────────────────
-        # For backward compat with frontend, keep flat lists too
-        "vocalisations": [c["value"] for c in claims_by_type.get("vocalisation",[])],
-        "contexts":      [c["value"] for c in claims_by_type.get("context",[])],
-        "functions":     [c["value"] for c in claims_by_type.get("function",[])],
-
-        # Provenance-aware version
+        "vocalisations": [c["value"] for c in vocalisations],
+        "contexts":      [c["value"] for c in contexts],
+        "functions":     [c["value"] for c in functions],
         "communication_profile": {
-            "vocalisations": claims_by_type.get("vocalisation",[]),
-            "contexts":      claims_by_type.get("context",[]),
-            "functions":     claims_by_type.get("function",[]),
-            "methods":       claims_by_type.get("method",[]),
+            "vocalisations": vocalisations,
+            "contexts":      contexts,
+            "functions":     functions,
+            "methods":       [],
         },
+        "claims": claims_full,
 
         # ── Audio ─────────────────────────────────────────────────────────────
         "audio": {
-            "provider":       sp.get("audio_provider","external_links"),
-            "xc_query":       sp.get("xeno_canto_query",""),
+            "provider":       "xeno_canto" if audio_recs else "external_links",
+            "xc_query":       sp.get("xeno_canto_query", sp.get("scientific_name","")),
             "recordings":     audio_recs,
             "external_links": [],
         },

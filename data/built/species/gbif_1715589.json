@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 8,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 18,
+    "doi_count": 25,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,76 +42,312 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "courtship song",
+    "sine song",
     "pulse song",
-    "sine song"
+    "courtship song"
   ],
   "contexts": [
-    "courtship",
-    "species recognition"
+    "species recognition",
+    "courtship"
   ],
   "functions": [
-    "female receptivity",
+    "species isolation",
     "mate attraction",
-    "species isolation"
+    "female receptivity"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "courtship song",
+        "value": "sine song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "pulse song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "sine song",
+        "value": "courtship song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "courtship",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "species recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "female receptivity",
+        "value": "species isolation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "species isolation",
+        "value": "female receptivity",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 72,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 71,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 70,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 69,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 68,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 67,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 66,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 65,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 64,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 63,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 62,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 61,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 60,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 59,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 58,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 57,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 56,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 55,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -119,6 +355,55 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1016/j.bbrc.2026.153439",
+      "url": "https://doi.org/10.1016/j.bbrc.2026.153439",
+      "title": "Drosophila myosin function and muscle structure are modulated by isoform-specific amino acid residues of the relay domain",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.cub.2026.02.003",
+      "url": "https://doi.org/10.1016/j.cub.2026.02.003",
+      "title": "Recent social experience alters song behavior in Drosophila",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/g3journal/jkag037",
+      "url": "https://doi.org/10.1093/g3journal/jkag037",
+      "title": "Visual recognition of the anteroposterior female body axis drives spatial elements of male courtship in Drosophila",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0345918",
+      "url": "https://doi.org/10.1371/journal.pone.0345918",
+      "title": "GAL4-based functional screen of neuropeptides in Drosophila reproduction",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/finsc.2026.1666444",
+      "url": "https://doi.org/10.3389/finsc.2026.1666444",
+      "title": "Sensitivity to cuticular hydrocarbons across the odorant receptor family in the Indian jumping ant,",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/genes17030328",
+      "url": "https://doi.org/10.3390/genes17030328",
+      "title": "The",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ijms27031284",
+      "url": "https://doi.org/10.3390/ijms27031284",
+      "title": "Notch Signalling Plays a Role in Patterning the Ventral Mesoderm During Early Embryogenesis in",
+      "year": 2026,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1016/j.conb.2025.103096",
       "url": "https://doi.org/10.1016/j.conb.2025.103096",
@@ -248,6 +533,156 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_42067132",
+      "title": "Glial mediation of hormonal actions on the Drosophila brain",
+      "year": 2026,
+      "doi": "10.1016/j.cois.2026.101535",
+      "abstract": "Insect glial cells function both as a barrier that insulates the central nervous system (CNS) from circulation and as a bridge that mediates hormonal effects on CNS neurons and other cell types. In this review, we summarize recent studies on how glial cells mediate hormonal actions on the CNS of the fruit fly Drosophila melanogaster. Drosophila glia receive multiple classes of circulating hormones, including insulin-like peptides, fat body-derived signals, gut-derived cytokines, and the steroid hormone ecdysone. These hormones convey physiological information, including nutritional state, pathological conditions, and developmental timing, to neurons and other cells within the CNS. Acting as gatekeepers, glial cells restrict hormone access to the CNS, while also serving as interpreters that translate systemic hormonal cues into context-dependent local signals. Understanding how Drosophila glial cells mediate hormonal actions on the CNS may help elucidate conserved principles of neuroendocrine communication across species.",
+      "journal": "Current opinion in insect science",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_42048444",
+      "title": "Lipid metabolism in adipocytes modulates tumor growth at a distance through Nplp2-mediated Wnt5 signal",
+      "year": 2026,
+      "doi": "10.1073/pnas.2601991123",
+      "abstract": "The host metabolic state can potentially affect the growth trajectories of tumors growing at local sites, which are highly variable and unpredictable among populations. The molecular links between systemic metabolism and tumor growth outcomes remain largely unclear. Here, we harnessed the genetic power of the",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_42045191",
+      "title": "Sarcopenia promotes tumorigenesis by disrupting NOTCH-SDC2-regulated biogenesis of muscle-derived extracellular vesicles",
+      "year": 2026,
+      "doi": "10.1038/s41467-026-72410-y",
+      "abstract": "Sarcopenia is an age-related condition characterized by loss of skeletal muscle mass and strength and is associated with increased cancer incidence and mortality, yet how muscle decline promotes tumorigenesis remains unclear. Here, we show that skeletal muscle functions as an anti-tumor organ by secreting extracellular vesicles (EVs) that suppress tumor growth. Using Drosophila melanogaster and mouse cancer models, we demonstrate that muscle-derived EVs inhibit tumorigenesis. In contrast, sarcopenic muscle exhibits reduced EV secretion and altered EV cargo, resulting in loss of tumor-suppressive activity. We identify miR-7a-5p as a tumor-suppressive microRNA enriched in EVs from healthy muscle but diminished with aging, where it restrains tumor growth by inhibiting TEAD1 signaling. Mechanistically, muscle EV biogenesis is regulated by a NOTCH-SDC2 pathway that declines with age but is reactivated by exercise. Together, these findings define a muscle-to-tumor communication axis with therapeutic potential.",
+      "journal": "Nature communications",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_42009678",
+      "title": "Multi-omic mapping of Drosophila protein secretomes reveals tissue-specific origins and inter-organ trafficking",
+      "year": 2026,
+      "doi": "10.1038/s41467-026-71763-8",
+      "abstract": "Secreted proteins regulate many aspects of animal biology and are attractive targets for biomarkers and therapeutics. However, comprehensively identifying the \"secretome\", along with their tissues of origin, remains extremely challenging. To address this, we employed multiple 'omics methods to define a tissue-secretome map of 535 blood plasma proteins derived from specific cell-types and organs in Drosophila melanogaster. This map was enabled by methodological improvements including a collection of transgenic flies to label endogenous secreted proteins in 10 major tissue types, large-scale blood isolation, whole animal snRNA-seq, and 40 CRISPR knock-in strains. Using this map, we identify features of circulating proteins: most originate from specific tissues including unusual sources (e.g. glia), many are uncharacterized, and some are shed ectodomains of transmembrane proteins. In addition, in vivo experiments revealed circulating proteins with tissue-specific expression, as well as proteins that are deposited in a different tissue from where they are synthesized, suggesting potential inter-organ functions. Our secretome map will serve as a resource to investigate blood protein function, discover candidate tissue-tissue communication signals, and mine for homologues of human biomarkers.",
+      "journal": "Nature communications",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41997146",
+      "title": "A bidirectional brain-fat body axis for pathogen avoidance",
+      "year": 2026,
+      "doi": "10.1016/j.neuron.2026.03.026",
+      "abstract": "Ingesting pathogens poses a threat to survival, driving the evolution of avoidance behaviors across species. The mechanisms linking immune detection to behavioral responses remain poorly understood. Here, we identify a bidirectional fat body-brain communication pathway that mediates pathogen avoidance in Drosophila melanogaster. Immune receptors and a specific antimicrobial peptide (AMP) are required in both the fat body and neuromodulatory neurons to suppress pathogen intake. We show that pathogen-sensing octopaminergic neurons innervate the fat body, activating calcium signaling via an octopamine receptor, thereby triggering fat body dopamine release. Dopamine then acts through Dop1R1 receptors in mushroom body output neurons to drive avoidance behavior. Two-photon calcium imaging reveals that pathogen ingestion modulates odor responses in these neurons, linking immune system activation to behavioral change. Our findings uncover a previously unrecognized immune-to-brain communication loop, illustrating how fat tissue and the innate immune system can drive behavioral adaptation to enhance survival during infection.",
+      "journal": "Neuron",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41954975",
+      "title": "Ring canals in the larval adipose of Drosophila buffer stress response",
+      "year": 2026,
+      "doi": "10.1083/jcb.202507146",
+      "abstract": "Cells in metabolically active tissues with high biosynthetic and secretory demands often use robust stress-responsive mechanisms to maintain homeostasis. Coordinating such stress response mechanisms requires intercellular communication and coordination. Such modalities of intercellular communication have been relatively understudied in the context of stress tolerance. Here, we use the Drosophila melanogaster third instar fat body to demonstrate that adipocytes communicate with each other through intercellular bridges called ring canals to buffer endoplasmic reticulum (ER) stress. The fat body supports the exponential growth from embryo to late larval stage over a short period of time through its energy storage and secretory functions, enduring a high basal level of stress in the process. We discovered that individual cells in the fat body are paired to one neighboring cell through ring canals. We further demonstrate that ring canals mediate rapid and highly specific intercellular cargo and organellar trafficking, and allow the transport of cytoplasmic, ER-bound, and Golgi vesicular proteins. Disrupting fat body ring canals resulted in higher levels of stress response markers, aberrant cell size, and increased cell sensitivity and lethality in response to various exogenous stressors. We also find that animals with disrupted fat body ring canals display an overall delay in larval development, likely due to reduced secretion of larval serum proteins from the fat body. In sum, our work reveals a novel feature of intercellular communication in adipose tissue that serves to buffer stress across cells, which is required for both homeostatic secretory function and maintaining tissue viability under exogenous stress.",
+      "journal": "The Journal of cell biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41948125",
+      "title": "Sensitivity to cuticular hydrocarbons across the odorant receptor family in the Indian jumping ant,",
+      "year": 2026,
+      "doi": "10.3389/finsc.2026.1666444",
+      "abstract": "INTRODUCTION: Eusocial insects rely on the olfactory detection of cuticular hydrocarbons (CHCs) to mediate important social interactions, such as nestmate recognition and division of labor. In the ponerine ant  METHODS: Using heterologous expression in  RESULTS AND DISCUSSION: Twenty-three HsOrs across sixteen subfamilies were screened, and several were found to be broadly tuned and weakly responsive to the HCs tested, except for HsOr152 which showed narrow tuning to a single HC found on the",
+      "journal": "Frontiers in insect science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41898862",
+      "title": "The",
+      "year": 2026,
+      "doi": "10.3390/genes17030328",
+      "abstract": "",
+      "journal": "Genes",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41894398",
+      "title": "GAL4-based functional screen of neuropeptides in Drosophila reproduction",
+      "year": 2026,
+      "doi": "10.1371/journal.pone.0345918",
+      "abstract": "Neuropeptides are evolutionarily conserved signaling molecules that regulate diverse behavioral and physiological processes, including reproduction. Although, several neuropeptides have established roles in reproductive regulation, the reproductive functions of many neuropeptides in Drosophila melanogaster remain poorly characterized. Here, we performed a targeted neurogenetic screening to systematically assess the contribution of 25 neuropeptides to reproductive output. Using neuropeptide-specific GAL4 drivers and synaptic silencing with tetanus toxin, we quantified the egg-laying as an integrated functional readout of reproduction. Disruption of 14 neuropeptides altered egg-laying, including eight neuropeptides not previously described to play roles in reproductive regulation. While some of these effects are likely indirect and may reflect contributions from both female and male flies or systematic physiological signaling, these results reveal broad involvement of neuropeptidergic pathways in reproductive function. Collectively, this study establishes a functional screening framework, identifies new reproductive neuropeptides, and provides a curated resource to guide future mechanistic studies of neuropeptide-mediated brain-gonad communication.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41865868",
+      "title": "Characterisation of extracellular vesicles in insect cells and their role in interspecies communication",
+      "year": 2026,
+      "doi": "10.1016/j.jinsphys.2026.104975",
+      "abstract": "Extracellular vesicles (EVs) play a crucial role in intercellular, interspecies and interkingdom communication, facilitating the exchange of molecular information among diverse cells and organisms. Their ability to transport small RNAs enables them to modulate gene expression in recipient cells via the conserved regulation mechanism of RNA interference (RNAi). This property holds great promise for the development of sustainable, RNAi-based crop protection strategies. However, our knowledge of the molecular composition of insect-derived EVs remains limited. To address this, we isolated and characterized EVs from insect cell lines representing three orders: Coleoptera, Diptera and Lepidoptera. EVs were analysed by cryo-scanning electron microscopy (cryo-SEM), nanoparticle tracking analysis (NTA), and proteomics. EVs derived from different insect orders displayed comparable size distributions and morphological characteristics Proteomic analysis of Drosophila melanogaster EVs revealed a repertoire of EV-associated proteins, including orthologs of human EV markers, highlighting the evolutionary conservation of molecular components involved in EV-mediated processes across species. Conditioned medium transmission assays demonstrated that dsRNA-treated donor cells can transfer RNAi signals to naïve recipient cells. Fractionation experiments localized silencing activity specifically to EV-enriched (EV",
+      "journal": "Journal of insect physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41806374",
+      "title": "Manual validation finds ultra-long-read sequencing best enables faithful, population-level structural variant calling in Drosophila melanogaster euchromatin with nanopore",
+      "year": 2026,
+      "doi": "10.1093/g3journal/jkag043",
+      "abstract": "The increasing accessibility of long-read sequencing and the rapid development of automated variant callers are promoting the generation of population-level structural variation data. However, the effect of the length of long-reads on automated variant callers is not well understood, especially for non-human species. Here we show that only ultra-long long-reads, with read N50s greater than 50 kb, are capable of accurately calling structural variants of any size in Drosophila melanogaster euchromatin. We used Oxford Nanopore Technologies to long-read sequence eight, inbred D. melanogaster strains to extremely high coverage (mean 238×), and we then downsampled the reads to create read pools of different length distributions. We assembled genomes from these different read-length pools and used both read-based and assembly-based structural variant callers to call variants in each strain before merging the calls into population-level datasets. We manually validated over 2,300 putative structural variants to assess the precision of the variant calls across the different read-length distributions and to determine the cause and rates of false positive errors. We found that more than half of all structural-variant-calling errors stem from misaligned reads that contain mobile elements or are located in repetitive and complex regions. Overall, our results show that long reads should be at least three times longer than the largest transposable elements found in the genome in order to accurately call structural variants at the population level.",
+      "journal": "G3 (Bethesda, Md.)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41780528",
+      "title": "Recent social experience alters song behavior in Drosophila",
+      "year": 2026,
+      "doi": "10.1016/j.cub.2026.02.003",
+      "abstract": "Acoustic communication is widespread among animals, but only a small number of species develop their communication signals through learning.",
+      "journal": "Current biology : CB",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41699762",
+      "title": "Visual recognition of the anteroposterior female body axis drives spatial elements of male courtship in Drosophila",
+      "year": 2026,
+      "doi": "10.1093/g3journal/jkag037",
+      "abstract": "Drosophila males exhibit a highly stereotypic courtship ritual toward virgin females, which is comprised of a sequence of specific behavioral elements that depend on inputs from diverse sensory modalities. Particularly, the visual system of the male plays an important role in detecting salient patterns, colors, and motion cues from conspecifics, which can promote or inhibit specific aspects of male courtship such as chase and song production. Here, we use a computer vision and machine learning-based approach, with a simplified courtship paradigm, to show that males also depend on visual cues to determine the anterior-posterior body axis of females, which drives the specific spatial patterns of distinct behavioral courtship elements. We show that the recognition of the female body axis depends, at least in part, on the visual recognition of female eyes as an anterior landmark. Furthermore, we find that in the absence of visual input, courting males adjust not only their relative spatial courtship positioning but also the relative frequencies at which they engage in each specific courtship element. Finally, analyses of the contributions of specific visual projection neurons to the recognition of the female body axis indicate that, although it is driven by a seemingly simple visual cue, the spatiotemporal release patterns of each individual courtship element appear to depend on the activity of multiple independent populations of visual projection neurons. Together, our results provide novel insights into the possible role of visual anatomical features in driving complex social interactions between conspecifics.",
+      "journal": "G3 (Bethesda, Md.)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41687303",
+      "title": "Drosophila myosin function and muscle structure are modulated by isoform-specific amino acid residues of the relay domain",
+      "year": 2026,
+      "doi": "10.1016/j.bbrc.2026.153439",
+      "abstract": "The relay domain of the myosin molecular motor communicates with the nucleotide binding site of the molecule, the actin-binding region, and the converter domain. Interactions between the relay and converter domains are critical for the converter to elicit movement of the lever arm, which yields the molecule's power stroke. An invariant tryptophan relay residue at the converter interface is flanked by two poorly conserved amino acids. Here we utilize mutant versions of the Drosophila melanogaster muscle myosin heavy chain to probe the function of these variable relay residues, residues 509 and 511. We replaced either or both poorly-conserved residues within an embryonic myosin isoform with those of the indirect flight muscle isoform. All such replacements eliminate in vitro actin motility, suggesting abnormal communication between the relay and converter domains that disables the power stroke. Interestingly, we found that the variations at residues 509 and 511 differentially disrupt both myosin ATPase activity and indirect flight muscle ultrastructure, with the double mutant showing the most severe effect upon ATPase activity and the least severe effect on emergent adult ultrastructure. Isoform-specific interactions may be implicated in these differential effects, as our molecular modeling at two stages of the mechanochemical cycle defined differences in contacts between the embryonic, flight muscle and chimeric 509 and 511 relay residues with a key residue in the converter domain. Overall, our studies show that two poorly conserved amino acid residues at the relay-converter interface are important to isoform-specific function of myosin and to the structural integrity of muscle.",
+      "journal": "Biochemical and biophysical research communications",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41683711",
+      "title": "Notch Signalling Plays a Role in Patterning the Ventral Mesoderm During Early Embryogenesis in",
+      "year": 2026,
+      "doi": "10.3390/ijms27031284",
+      "abstract": "Notch signalling is a critical regulator of multiple developmental processes through its ability to control gene expression and thereby influence cell fate specification and cell proliferation through direct cell-cell communication. Although Notch signalling has been implicated in myogenesis during late embryogenesis, its role in early mesoderm development has been largely unexplored. Endocytosis of the Notch ligand Delta and the Notch receptor extracellular domain, a critical step in Notch pathway activation, has been extensively observed in the ventral mesoderm of the early",
+      "journal": "International journal of molecular sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1016_j_conb_2025_103096",
       "title": "Gut-brain communication in Drosophila melanogaster",
       "year": 2025,
@@ -255,11 +690,7 @@
       "abstract": "",
       "journal": "Current Opinion in Neurobiology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_20506_rst_41_1_3305",
@@ -269,11 +700,7 @@
       "abstract": "",
       "journal": "Revue Scientifique et Technique de l'OIE",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41586-021-03451-0",
@@ -283,11 +710,7 @@
       "abstract": "High-quality and complete reference genome assemblies are fundamental for the application of genomics to biology, disease, and biodiversity conservation. However, such assemblies are available for only a few non-microbial species<sup>1-4</sup>. To address this issue, the international Genome 10K (G10K) consortium<sup>5,6</sup> has worked over a five-year period to evaluate and develop cost-effective methods for assembling highly accurate and nearly complete reference genomes. Here we present lessons learned from generating assemblies for 16 species that represent six major vertebrate lineages. We confirm that long-read sequencing technologies are essential for maximizing genome quality, and that unresolved complex repeats and haplotype heterozygosity are major sources of assembly error when not handled correctly. Our assemblies correct substantial errors, add missing sequence in some of the best historical reference genomes, and reveal biological discoveries. These include the identifi",
       "journal": "Nature",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1146_annurev-neuro-072116-031347",
@@ -297,11 +720,7 @@
       "abstract": "The microbiota is increasingly recognized for its ability to influence the development and function of the nervous system and several complex host behaviors. In this review, we discuss emerging roles for the gut microbiota in modulating host social and communicative behavior, stressor-induced behavior, and performance in learning and memory tasks. We summarize effects of the microbiota on host neurophysiology, including brain microstructure, gene expression, and neurochemical metabolism across regions of the amygdala, hippocampus, frontal cortex, and hypothalamus. We further assess evidence linking dysbiosis of the gut microbiota to neurobehavioral diseases, such as autism spectrum disorder and major depression, drawing upon findings from animal models and human trials. Finally, based on increasing associations between the microbiota, neurophysiology, and behavior, we consider whether investigating mechanisms underlying the microbiota-gut-brain axis could lead to novel approaches for t",
       "journal": "Annual Review of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1146_annurev-biophys-032116-094545",
@@ -311,11 +730,7 @@
       "abstract": "Although it has been known for almost half a century that migratory birds can detect the direction of the Earth's magnetic field, the primary sensory mechanism behind this remarkable feat is still unclear. The leading hypothesis centers on radical pairs-magnetically sensitive chemical intermediates formed by photoexcitation of cryptochrome proteins in the retina. Our primary aim here is to explain the chemical and physical aspects of the radical-pair mechanism to biologists and the biological and chemical aspects to physicists. In doing so, we review the current state of knowledge on magnetoreception mechanisms. We dare to hope that this tutorial will stimulate new interdisciplinary experimental and theoretical work that will shed much-needed additional light on this fascinating problem in sensory biology.",
       "journal": "Annual Review of Biophysics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_dev_132829",
@@ -325,11 +740,7 @@
       "abstract": "Slits are secreted proteins that bind to Roundabout (Robo) receptors. Slit-Robo signaling is best known for mediating axon repulsion in the developing nervous system. However, in recent years the functional repertoire of Slits and Robo has expanded tremendously and Slit-Robo signaling has been linked to roles in neurogenesis, angiogenesis and cancer progression among other processes. Likewise, our mechanistic understanding of Slit-Robo signaling has progressed enormously. Here, we summarize new insights into Slit-Robo evolutionary and system-dependent diversity, receptor-ligand interactions, signaling crosstalk and receptor activation.",
       "journal": "Development",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_bbr_2013_06_020",
@@ -339,11 +750,7 @@
       "abstract": "",
       "journal": "Behavioural Brain Research",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2011_0280",
@@ -353,11 +760,7 @@
       "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2012_0216",
@@ -367,11 +770,7 @@
       "abstract": "With the exception of a few model species, individual differences in cognition remain relatively unstudied in non-human animals. One intriguing possibility is that variation in cognition is functionally related to variation in personality. Here, we review some examples and present hypotheses on relationships between personality (or behavioural syndromes) and individual differences in cognitive style. Our hypotheses are based largely on a connection between fast-slow behavioural types (BTs; e.g. boldness, aggressiveness, exploration tendency) and cognitive speed-accuracy trade-offs. We also discuss connections between BTs, cognition and ecologically important aspects of decision-making, including sampling, impulsivity, risk sensitivity and choosiness. Finally, we introduce the notion of cognition syndromes, and apply ideas from theories on adaptive behavioural syndromes to generate predictions on cognition syndromes.",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pbio_0030245",
@@ -381,11 +780,7 @@
       "abstract": "Emerging knowledge about organismal evolution suggests that changes in the regulation of gene expression have played a major role - a thesis proposed 30 years ago by King and Wilson.",
       "journal": "PLoS Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-94-007-0965-2_1",
@@ -395,11 +790,7 @@
       "abstract": "",
       "journal": "Contemporary Issues in Genetics and Evolution",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-94-007-0965-2_3",
@@ -409,11 +800,7 @@
       "abstract": "",
       "journal": "Contemporary Issues in Genetics and Evolution",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-94-007-0965-2_10",
@@ -423,11 +810,7 @@
       "abstract": "",
       "journal": "Contemporary Issues in Genetics and Evolution",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_53846_goediss-188",
@@ -437,11 +820,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_springerreference_34992",
@@ -451,11 +830,7 @@
       "abstract": "",
       "journal": "SpringerReference",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_springerreference_301898",
@@ -465,11 +840,7 @@
       "abstract": "",
       "journal": "SpringerReference",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1036_1097-8542_yb110080",
@@ -479,14 +850,10 @@
       "abstract": "",
       "journal": "AccessScience",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

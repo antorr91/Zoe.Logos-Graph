@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 8,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 18,
+    "doi_count": 26,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -46,13 +46,13 @@
     "call"
   ],
   "contexts": [
-    "alarm",
     "mother-offspring",
-    "social contact"
+    "social contact",
+    "alarm"
   ],
   "functions": [
-    "contact maintenance",
     "individual recognition",
+    "contact maintenance",
     "social affiliation"
   ],
   "communication_profile": {
@@ -61,64 +61,314 @@
         "value": "bleat",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mother-offspring",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social contact",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "contact maintenance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "social affiliation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1486,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1485,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1484,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1483,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1482,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1481,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1480,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1479,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1478,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1477,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1476,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1475,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1474,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1473,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1472,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1471,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1470,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1469,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1093/jas/skaf347",
+      "url": "https://doi.org/10.1093/jas/skaf347",
+      "title": "Comprehensive transcriptomic profiling of dynamic endometrial alterations during different implantation stages in goats (Capra hircus)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ijms232314888",
+      "url": "https://doi.org/10.3390/ijms232314888",
+      "title": "Integrative Proteomics and Transcriptomics Profiles of the Oviduct Reveal the Prolificacy-Related Candidate Biomarkers of Goats (",
+      "year": 2022,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1016/j.applanim.2021.105264",
       "url": "https://doi.org/10.1016/j.applanim.2021.105264",
@@ -127,11 +377,25 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rsbl.2020.0607",
+      "url": "https://doi.org/10.1098/rsbl.2020.0607",
+      "title": "Kangaroos display gazing and gaze alternations during an unsolvable problem task",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.32388/rcv865",
       "url": "https://doi.org/10.32388/rcv865",
       "title": "Capra hircus",
       "year": 2020,
       "source": "crossref"
+    },
+    {
+      "doi": "10.3389/fpsyg.2020.00150",
+      "url": "https://doi.org/10.3389/fpsyg.2020.00150",
+      "title": "Goats' Performance in Unsolvable Tasks Is Predicted by Their Reactivity Toward Humans, but Not Social Rank",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.32634/0869-8155-2019-322-2-18-19",
@@ -148,6 +412,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rsos.160346",
+      "url": "https://doi.org/10.1098/rsos.160346",
+      "title": "Cross-modal recognition of familiar conspecifics in goats",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.3168/jds.2017-12651",
       "url": "https://doi.org/10.3168/jds.2017-12651",
       "title": "Invited review: Effects of heat stress on dairy cattle welfare",
@@ -160,6 +431,13 @@
       "title": "Biochemical Changes in Ticks Infected Goats (Capra hircus) in Mhow Region (M.P.)",
       "year": 2016,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1186/1297-9686-46-27",
+      "url": "https://doi.org/10.1186/1297-9686-46-27",
+      "title": "Investigation of the genetic diversity of domestic Capra hircus breeds reared within an early goat domestication area in Iran",
+      "year": 2014,
+      "source": "pubmed"
     },
     {
       "doi": "10.3813/aaa.918758",
@@ -251,9 +529,46 @@
       "title": "Γενετική δομή των εγχώριων πληθυσμών αιγών (Capra aegagrus forma hircus)",
       "year": null,
       "source": "crossref"
+    },
+    {
+      "doi": "10.31274/rtd-180813-13402",
+      "url": "https://doi.org/10.31274/rtd-180813-13402",
+      "title": "Pathogenesis of placentitis in the goat (Capra hircus) inoculated with Brucella abortus",
+      "year": null,
+      "source": "crossref"
     }
   ],
   "papers": [
+    {
+      "paper_id": "pmid_41092031",
+      "title": "Comprehensive transcriptomic profiling of dynamic endometrial alterations during different implantation stages in goats (Capra hircus)",
+      "year": 2025,
+      "doi": "10.1093/jas/skaf347",
+      "abstract": "The establishment of endometrial receptivity constitutes a multifaceted biological process orchestrated by intricate regulatory networks, representing a critical determinant for successful embryo implantation and pregnancy outcomes. This study systematically characterized the dynamic landscapes of non-coding RNA (ncRNA) and mRNA in the goat endometrium across distinct implantation stages. Endometrial tissues from goats at gestational days 10 (D10, n = 4), 17 (D17, n = 4), and pregnancy failure at gestational day 17 (PF, n = 3) were collected; in addition, three samples from each group (n = 3) were selected for transcriptomic sequencing of mRNA, lncRNA, circRNA, and miRNA. The receptive endometrium (D17) exhibited enhanced glandular development, mature pinopodes, elevated estrogen and progesterone levels, and a reduced estrogen/progesterone ratio, along with upregulated markers (VEGF, OPN, IGF1R). Transcriptome profiling identified 6,104 differentially expressed mRNAs (DEmRNAs), 485 lncRNAs (DElncRNAs), 1,694 circRNAs (DEcircRNAs), and 203 miRNAs (DEmiRNAs) across stages. Functional enrichment analysis highlighted the pivotal roles of MAPK, TNF, and RAS signaling pathways in establishing endometrial receptivity, with hub genes including ISG15, CXCL10, IFI6, and RSAD2 contributing significantly to the development of uterine receptivity in goats. Furthermore, ncRNAs such as MSTRG774.1, novel_circ_000145, novel_circ_000257, and chi-miR-348-3p exhibited specific or elevated expression patterns during the receptive phase, suggesting their potential regulatory functions in maintaining the endometrial receptivity microenvironment. Moreover, an integrated competing endogenous RNA (ceRNA) network was constructed to elucidate potential interactions between ncRNAs and mRNAs, offering novel insights into the molecular regulatory mechanisms underlying endometrial receptivity in ruminants. Successful pregnancy in goats begins with a key event called embryo implantation, when the e",
+      "journal": "Journal of animal science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39332650",
+      "title": "Revisiting the anatomy of the pectoral nerves and nerve loops of the brachial plexus in the goat (Capra hircus)",
+      "year": 2025,
+      "doi": "10.1016/j.aanat.2024.152340",
+      "abstract": "BACKGROUND: The anatomy of the pectoral nerves and the two nerve loops on the course of the axillary artery was revisited to complement current general descriptions as well as to argue whether the nerves contributing to the formation of the pectoral loop are the cranial pectoral nerves. Besides, the positional relationship between the scalene muscles and the nerve roots of the brachial plexus, which contribute to the nerves aimed in this study, was also examined at the same time as the dissection. METHODS: Twenty brachial plexuses of 10 domestic adult goats (8 females and 2 males) were examined using gross dissection in this study. RESULTS: In many dissections (95 %), the last bundle of scalenus ventralis muscle was found to pass between the roots of C7 and C8, dividing the brachial plexus into the cranial (ventral) and caudal (dorsal) parts. Two pectoral nerves were noted to contribute to the formation of the first nerve loop around the axillary artery. The first pectoral nerve arose predominantly from the ventral branches of C6 and C7 in company with the n. musculocutaneus, while the second pectoral nerve arose directly from C8 in 70 % of the dissections or as the first branch of the n. thoracicus lateralis (C8, T1) in the remaining 30 %. After the nerve loop, the second pectoral nerve branched off to innervate the superficial surface of the m. pectoralis profundus toward its insertion. The m. subclavius was found to receive its innervation from several sources, including the ventral branches of the brachial plexus. Interestingly, in 4 of the 14 dissections a communication between the n. subclavius and the n. phrenicus heretofore not found in the animal anatomy literature was found. In 16 of the 20 dissections (60 %), the ramus muscularis proximalis of the n. musculocutaneus received the communicating branch(s) from the n. medianus at the site of the second nerve loop, ansa axillaris. CONCLUSION: The second pectoral nerve contributing to the pectoral loop would be",
+      "journal": "Annals of anatomy = Anatomischer Anzeiger : official organ of the Anatomische Gesellschaft",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36499219",
+      "title": "Integrative Proteomics and Transcriptomics Profiles of the Oviduct Reveal the Prolificacy-Related Candidate Biomarkers of Goats (",
+      "year": 2022,
+      "doi": "10.3390/ijms232314888",
+      "abstract": "The oviduct is a dynamic reproductive organ for mammalian reproduction and is required for gamete storage, maturation, fertilization, and early embryonic development, and it directly affects fecundity. However, the molecular regulation of prolificacy occurring in estrous periods remain poorly understood. This study aims to gain a better understanding of the genes involved in regulating goat fecundity in the proteome and transcriptome levels of the oviducts. Twenty female Yunshang black goats (between 2 and 3 years old, weight 52.22 ± 0.43 kg) were divided into high- and low-fecundity groups in the follicular (FH and FL, five individuals per group) and luteal (LH and LL, five individuals per group) phases, respectively. The DIA-based high-resolution mass spectrometry (MS) method was used to quantify proteins in twenty oviducts. A total of 5409 proteins were quantified, and Weighted gene co-expression network analysis (WGCNA) determined that the tan module was highly associated with the high-fecundity trait in the luteal phase, and identified NUP107, ANXA11, COX2, AKP13, and ITF140 as hub proteins. Subsequently, 98 and 167 differentially abundant proteins (DAPs) were identified in the FH vs. FL and LH vs. LL comparison groups, respectively. Parallel reaction monitoring (PRM) was used to validate the results of the proteomics data, and the hub proteins were analyzed with Western blot (WB). In addition, biological adhesion and transporter activity processes were associated with oviductal function, and several proteins that play roles in oviductal communication with gametes or embryos were identified, including CAMSAP3, ITGAM, SYVN1, EMG1, ND5, RING1, CBS, PES1, ELP3, SEC24C, SPP1, and HSPA8. Correlation analysis of proteomics and transcriptomic revealed that the DAPs and differentially expressed genes (DEGs) are commonly involved in the metabolic processes at the follicular phase; they may prepare the oviductal microenvironment for gamete reception; and the MAP kinase a",
+      "journal": "International journal of molecular sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
     {
       "paper_id": "10_1016_j_applanim_2021_105264",
       "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
@@ -262,11 +577,17 @@
       "abstract": "Public concern for farm animal welfare is increasing. Animal welfare is defined as the balance of positive and negative emotions, where positive emotions are key to a good animal life. Emotion is defined as an experience that varies in valence and arousal. Many methods developed to identify positive emotions in animals involve disadvantages. For example, they require training the animals, are age specific or invasive. Vocalisations are a promising indicator of positive emotions. We aimed to review current knowledge on farm animal vocalisations putatively associated with positive emotions and discuss the potential of vocalisations as an on-farm tool to assess positive emotions in farm animals. Vocalisation types and acoustic structures that can potentially be used to identify positive emotions depend upon species. In pigs, lower frequency vocalisations are produced more in positive situations, however, within grunts, higher frequencies reflect positive situations. In horses, more snorts",
       "journal": "Applied Animal Behaviour Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_33979681",
+      "title": "Screening and identification of microRNAs from plasma-derived extracellular vesicles (EVs) of Dazu black goat (Capra hircus) in early pregnant stages",
+      "year": 2021,
+      "doi": "10.1016/j.gene.2021.145706",
+      "abstract": "Previous studies have shown that extracellular vesicles (EVs) containing proteins, lipids, nucleic acids and other biological components exist in all kinds of body fluids. EVs, as an intercellular communication carrier, regulate the functions of its target cells by transporting biomacromolecules between cells. In this study, a total of six female Dazu black goats were divided into NP group (NP, non-pregnant group) and P30 (P30, 30-day pregnant group). The goats in NP group (n = 3) were in estrus, but failed to fertilize; the other goats in P30 group (n = 3) were fertilized by natural mating. Firstly, goats plasma-derived EVs were isolated using ultracentrifugation. Secondly, EVs were identified by transmission electron microscope (TEM), dynamic light scattering (DLS), and by testing its markers (CD9 and CD63) using west blotting in NP and P30 groups, respectively. Thirdly, EVs related miRNAs were sequenced and analyzed by bioinformatics method. Data shows that miR-31-5p, miR-137-3p, novel_miR_1355, novel_miR_734 and novel_miR_736 exclusively were expressed in P30 group. Their target genes were significantly enriched in the axon guidance, the Notch signaling pathway, the Wnt signaling pathway, tight junction and the Hippo signaling pathway. And miRNA-mRNA interactive network analysis reveals potential regulatory functions of miRNAs for goat during early pregnancy. These findings provided theretical references for studying the regulation of plasma-derived EVs between the fetal and placental development, and these candidate miRNAs identified might be as markers for diagnosis of goat early pregnancy.",
+      "journal": "Gene",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_32388_rcv865",
@@ -276,11 +597,27 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_33321066",
+      "title": "Kangaroos display gazing and gaze alternations during an unsolvable problem task",
+      "year": 2020,
+      "doi": "10.1098/rsbl.2020.0607",
+      "abstract": "Domestication is generally assumed to have resulted in enhanced communication abilities between non-primate mammals and humans, although the number of species studied is very limited (e.g. cats,",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32116948",
+      "title": "Goats' Performance in Unsolvable Tasks Is Predicted by Their Reactivity Toward Humans, but Not Social Rank",
+      "year": 2020,
+      "doi": "10.3389/fpsyg.2020.00150",
+      "abstract": "In order to clarify the ability of animals to communicate with humans, it is necessary to examine the behaviors of animals directed at humans, taking into account individual differences. This study investigated whether the behaviors of goats (",
+      "journal": "Frontiers in psychology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_32634_0869-8155-2019-322-2-18-19",
@@ -290,11 +627,7 @@
       "abstract": "",
       "journal": "Agrarian science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fevo_2019_00073",
@@ -304,11 +637,17 @@
       "abstract": "Many social animal species produce vocalizations believed to facilitate group contraction when one or more group members have become distant. However, the mechanisms underlying this function remain unclear for many species. We examined this question with data on a semi-free ranging group of 16 adult domesticated goats (Capra aegagrus hircus) inhabiting Tsaobis Nature Park, Namibia. All goats wore dataloggers consisting of a GPS and audio recorder for 5-6 hours per day for 10 days, providing continuous data on their geolocations and vocal communication. We found that callers were farther from the group centroid than expected by chance and that call production was associated with the cessation of group expansion and subsequent group contraction. We did not find strong evidence for antiphonal call exchange between distant and core group members. Rather, we found that (i) call production by distant group members is associated with a significant reduction of group movement away from the cal",
       "journal": "Frontiers in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28144801",
+      "title": "A brief and critical review on hydrofluorosis in diverse species of domestic animals in India",
+      "year": 2018,
+      "doi": "10.1007/s10653-017-9913-x",
+      "abstract": "India is one of the fluoride-endemic countries where the maximum numbers of ground or drinking water sources are naturally fluoridated. In India, a total of 23, out of 36 states and union territories have drinking water contaminated with fluoride in varying concentration. In the present scenario, especially in rural India, besides the surface waters (perennial ponds, dams, rivers, etc.), bore wells and hand pumps are the principal drinking water sources for domestic animals such as cattle (Bos taurus), water buffaloes (Bubalus bubalis), sheep (Ovis aries), goats (Capra hircus), horses (Equus caballus), donkeys (Equus asinus) and dromedary camels (Camelus dromedarius). Out of 23 states, 17 states, namely Andhra Pradesh, Assam, Bihar, Chhattisgarh, Gujarat, Haryana, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha (Orissa), Punjab, Rajasthan, Telangana, Uttar Pradesh and West Bengal, have fluoride beyond the maximum permissible limit of 1.0 or 1.5 ppm in drinking water. This situation is a great concern for the animal health because fluoride is a slow toxicant and causes chronic diverse serious health hazards or toxic effects. Despite the fact that domestic animals are the basic income sources in rural areas and possess a significant contributory role not only in the agriculture sector but also in the strengthening of economy as well as in sustainable development of the country, research work on chronic fluoride intoxication (hydrofluorosis) due to drinking of fluoridated water in domestic animals rearing in various fluoride-endemic states is not enough as compared to work done in humans. However, some interesting and excellent research works conducted on different aspects of hydrofluorosis in domesticated animals rearing in different states are briefly and critically reviewed in the present communication. Author believes that this review paper not only will be more useful for researchers to do some more advance research work on fluoride-induced toxic",
+      "journal": "Environmental geochemistry and health",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3168_jds_2017-12651",
@@ -318,11 +657,27 @@
       "abstract": "The effects of high ambient temperatures on production animals, once thought to be limited to tropical areas, has extended into northern latitudes in response to the increasing global temperature. The number of days where the temperature-humidity index (THI) exceeds the comfort threshold (>72) is increasing in the northern United States, Canada, and Europe. Compounded by the increasing number of dairy animals and the intensification of production, heat stress has become one of the most important challenges facing the dairy industry today. The objectives of this review were to present an overview of the effects of heat stress on dairy cattle welfare and highlight important research gaps in the literature. We will also briefly discuss current heat abatement strategies, as well as the sustainability of future heat stress management. Heat stress has negative effects on the health and biological functioning of dairy cows through depressed milk production and reduced reproductive performance",
       "journal": "Journal of Dairy Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28386412",
+      "title": "Cross-modal recognition of familiar conspecifics in goats",
+      "year": 2017,
+      "doi": "10.1098/rsos.160346",
+      "abstract": "When identifying other individuals, animals may match current cues with stored information about that individual from the same sensory modality. Animals may also be able to combine current information with previously acquired information from other sensory modalities, indicating that they possess complex cognitive templates of individuals that are independent of modality. We investigated whether goats (",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28290268",
+      "title": "Molecular characterisation, genetic variability and detection of a functional polymorphism influencing the promoter activity of OXT gene in goat and sheep",
+      "year": 2017,
+      "doi": "10.1017/S0022029917000097",
+      "abstract": "The purpose of the study described in this Research Communication was to report the full characterisation of the goat and sheep oxytocin-neurophysin I gene (OXT), their promoters and amino acid sequences. Using the genomic DNA as template, we sequenced and compared the whole OXT gene (3 exons), plus 958/960 nucleotides at the 5' flanking region and 478/477 nucleotides at the 3' flanking region, in 46 sheep and 24 goats belonging to different breeds/genetic types reared in Italy, Greece and Germany. The comparison of the obtained sequences showed a high degree of genetic variability at these loci. In particular, we focused on the SNP g.438T > C as possible example of trans-specific polymorphism. This SNP alters a putative binding site of the transcription factor Oct-1. The set-up of a luciferase assay confirmed that the C variant of this SNP negatively affects the promoter activity of the sheep OXT gene. The results of this study suggest that the SNP g.438T > C might be useful to promote association studies with traits/physiological processes controlled by this hormone.",
+      "journal": "The Journal of dairy research",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_21275_v5i6_nov164073",
@@ -332,11 +687,7 @@
       "abstract": "",
       "journal": "International Journal of Science and Research (IJSR)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3813_aaa_918758",
@@ -346,11 +697,37 @@
       "abstract": "Machine learning techniques are becoming an important tool for studying animal vocal communication. The goat (Capra hircus) is a very social species, in which vocal communication and recognition are important. We tested the reliability of a Multi-Layer Perceptron (feed-forward Artificial Neural Network, ANN) to automate the process of classification of calls according to individual identity, group membership and maturation in this species. Vocalisations were obtained from 10 half-sibling (same father but different mothers) goat kids, belonging to 3 distinct social groups. We recorded 157 contact calls emitted during first week, and 164 additional calls recorded from the same individuals at 5 weeks. For each call, we measured 27 spectral and temporal acoustic parameters using a custom built program in Praat software. For each classification task we built stratified 10-fold cross-validated neural networks. The input nodes corresponded to the acoustic parameters measured on each signal. A",
       "journal": "Acta acustica united with Acustica",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25110070",
+      "title": "A correlation of fecal volatiles and steroid hormone profiles with behavioral expression during estrous cycle of goat, Capra hircus",
+      "year": 2014,
+      "doi": "10.1016/j.ygcen.2014.07.028",
+      "abstract": "Chemical signals (both volatile and non-volatile) form the major communication channels in animals. These signals are transferred mainly through excretory sources to facilitate inter-individual communication. In particular, the reproductive cycle of female mammals, including goats, exhibits significant changes in the constituents of their excretory products, and female mammals also express different behavioral patterns. We propose that feces is one of the important sources of chemo-signals in goats. However, the behavioral patterns and analysis of excretory sources based on chemical communication have not yet been studied in the Indian goat, Capra hircus. To validate our hypothesis, we analyzed the behavioral patterns and the volatiles and steroid hormone profiles in the feces samples of female goats during the estrous cycle. Here, we synchronized the estrous cycle in six female goats and obtained feces samples. The samples were extracted with dichloromethane and analyzed using gas chromatography-mass spectrometry. A portion of the sample was used for hormone assay to confirm the phases in the estrous cycle. Induction of she-goats into estrus was detected from the vaginal swelling, mucus discharge, restlessness, reduced milk secretion, bellowing, bleating, frequent urination, standing heat, allowing the male to mount, mounting on other females and teasing of males. The repeated male behaviors viz., flehmen, mounting, penile protrusion, body rubbing, dominance over other males and finally coitus with estrus female by male goats were observed. Analysis of volatiles revealed a total of twenty-four compounds combining all the phases in the estrous cycle. Among those, some of the volatile compounds and two antioxidants (ascorbic acid and vitamin E) were estrus-specific. Based on the fecal steroid analysis, higher level of estradiol during estrus and higher level of progesterone during post-estrus were observed. The behavioral patterns of female and male goats combined wi",
+      "journal": "General and comparative endocrinology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24742145",
+      "title": "Investigation of the genetic diversity of domestic Capra hircus breeds reared within an early goat domestication area in Iran",
+      "year": 2014,
+      "doi": "10.1186/1297-9686-46-27",
+      "abstract": "BACKGROUND: Iran is an area of particular interest for investigating goat diversity. Archaeological remains indicate early goat domestication (about 10,000 years ago) in the Iranian Zagros Mountains as well as in the high Euphrates valley and southeastern Anatolia. In addition, mitochondrial DNA data of domestic goats and wild ancestors (C. aegagrusor bezoar) suggest a pre-domestication management of wild populations in southern Zagros and central Iranian Plateau. In this study genetic diversity was assessed in seven Iranian native goat breeds, namely Markhoz, Najdi, Taleshi, Khalkhali, Naini, native Abadeh and Turki-Ghashghaei. A total of 317 animals were characterized using 14 microsatellite loci. Two Pakistani goat populations, Pahari and Teddy, were genotyped for comparison. RESULTS: Iranian goats possess a remarkable genetic diversity (average expected heterozygosity of 0.671 across loci, 10.7 alleles per locus) mainly accounted for by the within-breed component (GST = 5.9%). Positive and highly significant FIS values in the Naini, Turki-Ghashghaei, Abadeh and Markhoz breeds indicate some level of inbreeding in these populations. Multivariate analyses cluster Iranian goats into northern, central and western groups, with the western breeds relatively distinct from the others. Pakistani breeds show some relationship with Iranian populations, even if their position is not consistent across analyses. Gene flow was higher within regions (west, north, central) compared to between regions but particularly low between the western and the other two regions, probably due to the isolating topography of the Zagros mountain range. The Turki-Ghashghaei, Najdi and Abadeh breeds are reared in geographic areas where mtDNA provided evidence of early domestication. These breeds are highly variable, located on basal short branches in the neighbor-joining tree, close to the origin of the principal component analysis plot and, although highly admixed, they are quite distinct from th",
+      "journal": "Genetics, selection, evolution : GSE",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23929532",
+      "title": "Vocal group signatures in the goitred gazelle Gazella subgutturosa",
+      "year": 2014,
+      "doi": "10.1007/s10071-013-0666-3",
+      "abstract": "The potential for vocal modification in mammals has recently been of great interest. This study focuses on the potential for vocal matching in juvenile and adolescent goitred gazelles Gazella subgutturosa that were group housed as part of an animal management programme. Two groups of animals (16 and 19 unrelated individuals, respectively) were recorded at two different ages, juvenile and adolescent, regarding 20-25 calls per individual per age; each group was evaluated in a separate year. Vocal similarity of group members compared to non-members was prominent in both ages, but higher in juveniles. Individual identity was prominent in both ages and higher in adolescents. The more prominent vocal indicators of group membership in juveniles could be related to their higher social dependence compared to adolescents. The more individualized calls of adolescents could be a mechanistic consequence of more stable growth at older age. Our results suggest vocal plasticity of goitred gazelles under social influences. These data add to recent evidence about domestic goat kids Capra hircus, suggesting that vocalizations of species that are not capable of imitation are more flexible than previously thought.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_anbehav_2012_01_020",
@@ -360,11 +737,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-388437-4_00013-2",
@@ -374,11 +747,7 @@
       "abstract": "",
       "journal": "Comparative Osteology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fnevo_2012_00012",
@@ -388,11 +757,7 @@
       "abstract": "Vocal learners such as humans and songbirds can learn to produce elaborate patterns of structurally organized vocalizations, whereas many other vertebrates such as non-human primates and most other bird groups either cannot or do so to a very limited degree. To explain the similarities among humans and vocal-learning birds and the differences with other species, various theories have been proposed. One set of theories are motor theories, which underscore the role of the motor system as an evolutionary substrate for vocal production learning. For instance, the motor theory of speech and song perception proposes enhanced auditory perceptual learning of speech in humans and song in birds, which suggests a considerable level of neurobiological specialization. Another, a motor theory of vocal learning origin, proposes that the brain pathways that control the learning and production of song and speech were derived from adjacent motor brain pathways. Another set of theories are cognitive theo",
       "journal": "Frontiers in Evolutionary Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0046610",
@@ -402,11 +767,7 @@
       "abstract": "Humans and song-learning birds communicate acoustically using learned vocalizations. The characteristic features of this social communication behavior include vocal control by forebrain motor areas, a direct cortical projection to brainstem vocal motor neurons, and dependence on auditory feedback to develop and maintain learned vocalizations. These features have so far not been found in closely related primate and avian species that do not learn vocalizations. Male mice produce courtship ultrasonic vocalizations with acoustic features similar to songs of song-learning birds. However, it is assumed that mice lack a forebrain system for vocal modification and that their ultrasonic vocalizations are innate. Here we investigated the mouse song system and discovered that it includes a motor cortex region active during singing, that projects directly to brainstem vocal motor neurons and is necessary for keeping song more stereotyped and on pitch. We also discovered that male mice depend on a",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_czoolo_58_5_698",
@@ -416,11 +777,7 @@
       "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-011-0396-3",
@@ -430,11 +787,17 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_21503689",
+      "title": "Mutual mother-offspring vocal recognition in an ungulate hider species (Capra hircus)",
+      "year": 2011,
+      "doi": "10.1007/s10071-011-0396-3",
+      "abstract": "Parent-offspring recognition can be essential for offspring survival and important to avoid misdirected parental care when progeny mingle in large social groups. In ungulates, offspring antipredator strategies (hiding vs. following) result in differences in mother-offspring interactions, and thus different selection pressures acting on the recognition process during the first weeks of life. Hider offspring are isolated and relatively stationary and silent to avoid detection by predators, whereas follower offspring are mobile and rapidly mix in large social groups. For these reasons, hiders have been suggested to show low offspring call individuality leading to unidirectional recognition of mothers by offspring and followers high offspring call individuality and mutual recognition. We hypothesised that similar differences would exist in hider species between the hiding phase (i.e. unidirectional recognition) and the phase when offspring join social groups (i.e. mutual recognition). We tested these predictions with goats (Capra hircus), a hider species characterised by strong mother-offspring attachment. We compared the individuality of kid and mother calls, and the vocal recognition ability, during the early phase of life when kids are usually hidden and later when kids have typically joined social groups. Contrary to our predictions, we found that both kids and mothers had individualised contact calls and that mutual recognition existed even during the hiding phase. The large differences in the duration of the hiding phase and in the rate of mother-offspring interactions (possibly partially driven by domestication in some species) probably cause variations among hider species in the mother-offspring recognition process.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_90416",
@@ -444,11 +807,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_9775_kvfd_2010_1827",
@@ -458,11 +817,17 @@
       "abstract": "",
       "journal": "Kafkas Universitesi Veteriner Fakultesi Dergisi",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_17482617",
+      "title": "Sensory and physiological determinants of maternal behavior in the goat (Capra hircus)",
+      "year": 2007,
+      "doi": "10.1016/j.yhbeh.2007.03.023",
+      "abstract": "Maternal behavior in the goat appears at the time of parturition, partly under the activating influence of vaginocervical stimulation. Mothers actively lick their neonate and rapidly establish a selective bond with their kid through olfactory recognition. They also develop visual and acoustic recognition of the kid within 4 h following birth. Acoustic recognition is present at 48 h. The establishment of maternal recognition can be impaired by underfeeding during the second half of pregnancy. There is no indication that the mechanisms controlling the onset of maternal behavior and bonding are different from those reported in sheep, despite the fact that lambs start to follow their mother within a few hours after birth and kids hide for about a week. During lactation, the cues provided by the kid are necessary for the maintenance of maternal responsiveness, but suckling itself does not appear of primary importance. The presence of the kid also modulates the hormonal response to udder stimulation and influences recovery of postpartum sexual activity when kidding (i.e. birthing) takes place in autumn. Finally, the rapid establishment of mutual attachment between mother goats (does) and their kids offers the possibility to investigate an aspect of mother-young affiliation that is not present in many laboratory species.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1086_506971",
@@ -472,11 +837,17 @@
       "abstract": "Parent-offspring recognition is usually crucial for survival of young. In mammals, olfaction often only permits identification at short range, and vocalizations are important at longer distances. Following and hiding antipredator strategies found in newborn mammals may also affect parental recognition mechanisms. We investigated mother-offspring recognition in fallow deer, an ungulate hider species. We analyzed the structure of adult female and fawn contact calls to determine whether they are individually distinctive and tested for mother-offspring recognition. Only females (and not fawns) have individualized vocalizations, with the fundamental frequency as the most distinctive parameter. Playback experiments showed that fawns can distinguish the calls of their mothers from those of other females, but mothers could not discriminate their own and alien fawn calls. Thus, the vocal identification process is unidirectional. In followers, mother-offspring acoustic recognition is mutual, and",
       "journal": "The American Naturalist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_16603815",
+      "title": "Genetic diversity of nine populations of the black goat (Capra hircus) in Sichuan, PR China",
+      "year": 2006,
+      "doi": "10.2108/zsj.23.229",
+      "abstract": "Sixteen polymorphic primers screened from 100 random primers were selected to analyze the randomly amplified polymorphic DNA (RAPD) of 540 domesticated black goats (Capra hircas) from 9 different geographical populations in Sichuan Province of China. After the test, 170 entirely repeatable RAPD markers representing goat polymorphisms were obtained from the 16 polymorphic primers, the lengths of the markers ranging from 0.1 to 2.5 kb. The genetic distance among the black goat populations ranges from 0.1051 to 0.2978. The similarity coefficient (0.9002) between Jintang and Lezhi black goats was the highest in the 9 populations, followed by the coefficient (0.8953) between Jialing and Yinshan goats, while that between Jiangan and Huili goats was found to be the lowest (0.7424). The coefficient of differentiation among population genes (Gst) was 0.2766, indicating a comparatively low degree of differentiation among the black goat populations. A UPGMA dendrogram constructed from similarity coefficients showed that the two populations from Huili and Baiyu, which are found mostly on the Western Sichuan plateau and in mountainous areas, clustered together, and the other seven populations formed another group. It can also be clearly seen that the Huili and Baiyu populations are very special, and must have been closely related in the past, even though their link with the other populations is quite weak as a result of genetic communication. The results of the experiment offer some crucial scientific data useful for the breeding of black goats.",
+      "journal": "Zoological science",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_978-3-662-06820-5_16",
@@ -486,11 +857,7 @@
       "abstract": "",
       "journal": "Ecology of Ungulates",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_12681_eadd_11303",
@@ -500,14 +867,20 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_31274_rtd-180813-13402",
+      "title": "Pathogenesis of placentitis in the goat (Capra hircus) inoculated with Brucella abortus",
+      "year": null,
+      "doi": "10.31274/rtd-180813-13402",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

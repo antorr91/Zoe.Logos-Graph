@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 5,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 35,
+    "claim_count": 4,
+    "doi_count": 29,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,12 +45,12 @@
     "song"
   ],
   "contexts": [
-    "courtship",
-    "vocal learning"
+    "vocal learning",
+    "courtship"
   ],
   "functions": [
-    "mate attraction",
-    "social learning"
+    "social learning",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,49 +58,124 @@
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "courtship",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "vocal learning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "social learning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1011,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1010,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1009,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1008,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Serinus canaria",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1111/jne.13449",
+      "url": "https://doi.org/10.1111/jne.13449",
+      "title": "Photoperiodism, testosterone and adult neurogenesis in canaries (Serinus canaria)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.yhbeh.2024.105611",
+      "url": "https://doi.org/10.1016/j.yhbeh.2024.105611",
+      "title": "Androgen signaling in LMAN regulates song stereotypy in male canaries",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1111/jne.13449/v1/review1",
       "url": "https://doi.org/10.1111/jne.13449/v1/review1",
+      "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/jne.13449/v1/review3",
+      "url": "https://doi.org/10.1111/jne.13449/v1/review3",
       "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
       "year": 2024,
       "source": "crossref"
@@ -134,11 +209,53 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1002/cne.25338",
+      "url": "https://doi.org/10.1002/cne.25338",
+      "title": "The neural distribution of the avian homologue of oxytocin, mesotocin, in two songbird species, the zebra finch and the canary: A potential role in song perception and production",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.physbeh.2022.113782",
+      "url": "https://doi.org/10.1016/j.physbeh.2022.113782",
+      "title": "Neuroendocrine and behavioral response to testosterone-induced female song in canaries (Serinus canaria)",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s42770-021-00443-0",
+      "url": "https://doi.org/10.1007/s42770-021-00443-0",
+      "title": "Characterization of multidrug-resistant avian pathogenic Escherichia coli: an outbreak in canaries",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1111/ejn.15552",
       "url": "https://doi.org/10.1111/ejn.15552",
       "title": "Neural oscillations are locked to birdsong rhythms in canaries",
       "year": 2021,
       "source": "openalex"
+    },
+    {
+      "doi": "10.3389/fnins.2021.680530",
+      "url": "https://doi.org/10.3389/fnins.2021.680530",
+      "title": "The Gene Expression Profile of the Song Control Nucleus HVC Shows Sex Specificity, Hormone Responsiveness, and Species Specificity Among Songbirds",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s12031-020-01700-x",
+      "url": "https://doi.org/10.1007/s12031-020-01700-x",
+      "title": "Sex-and Region-Dependent Expression of the Autism-Linked ADNP Correlates with Social- and Speech-Related Genes in the Canary Brain",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/ENEURO.0048-20.2020",
+      "url": "https://doi.org/10.1523/ENEURO.0048-20.2020",
+      "title": "Effects of Inactivation of the Periaqueductal Gray on Song Production in Testosterone-Treated Male Canaries (",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.1079/cabicompendium.64048",
@@ -197,6 +314,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1007/bf01998227",
+      "url": "https://doi.org/10.1007/bf01998227",
+      "title": "Die Ausbreitung des Girlitz (Serinus canaria serinus L.)",
+      "year": 1926,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1523/JNEUROSCI.2973-20.2021",
       "url": "https://doi.org/10.1523/JNEUROSCI.2973-20.2021",
       "title": "",
@@ -234,6 +358,26 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40167343",
+      "title": "Whole genome sequencing identifies genetic candidates for high-frequency hearing loss in canaries (serinus canaria)",
+      "year": 2025,
+      "doi": "10.1121/10.0036218",
+      "abstract": "Over hundreds of years, breeders have selectively bred different strains of canaries for plumage and song characteristics. One strain, the Belgian Waterslager canary, has been bred for loud, low frequency song and coincidently has been found to have a high-frequency hearing loss due to damaged and missing hair cells in the basilar papilla. Here, we investigated the possible genetic basis for this hearing loss in the Belgian Waterslager canary by conducting whole-genome Illumina (San Diego, CA) sequencing in three canary strains. We identified a total of 16 Belgian Waterslager male-specific \"high-impact\" single nucleotide polymorphisms (SNP) variants with three mutations occurring within genes previously identified in mammalian hair cell abnormalities and hearing loss disorders: pericentriolar material 1 (PCM1), p21 (RAC1) activated kinase 3 (PAK3)-like, and protein tyrosine phosphatase receptor type K (PTPRK). Interestingly, we also identified three male-specific \"high-impact\" SNP variants in one of our control strains: the American Singer canary. One of these mutations occurs within genes previously associated with hearing loss in mammals. Since songbirds rely on hearing to develop a normal vocal repertoire, investigating the role of these genes in hearing loss at the molecular level may provide a valuable animal model for examining the relationship between hearing loss and vocal development in humans.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39286957",
+      "title": "Photoperiodism, testosterone and adult neurogenesis in canaries (Serinus canaria)",
+      "year": 2025,
+      "doi": "10.1111/jne.13449",
+      "abstract": "Domestic strains of canaries (Serinus canaria) variably respond to photoperiod changes and apparently stay in breeding state for extended periods. Fife Fancy canaries are supposed to be similar to the native species living at 27-39° north where photoperiod significantly changes across the year. Our birds showed reproductive cycles when exposed to light regimes mimicking the annual cycle of photoperiod. However after 6 months in short days (SD: 8L:16D), males developed large testes, as observed by X-ray tomography, and intense singing. Switching to long days (LD: 16L:8D) did not further increase song rate nor testes size but increased song duration, number of syllables per song, and trill occurrence frequency. No sign of regression was observed after 12 weeks in LD but return to SD produced a rapid decrease in testes size and singing activity below values in birds maintained throughout in SD. Fife Fancy thus does not seem to develop absolute but only relative refractoriness. The relatively high singing activity expressed by SD-photosensitive males does not seem to depend on high testosterone (T) concentrations. Singing did not correlate with plasma testosterone (T). Treatment with ATD + Flutamide only marginally decreased song rate and did not affect song quality nor song control nuclei volume. These birds are either supersensitive to low T levels or their reproductive physiology is activated by other mechanisms. Neurogenesis is increased by T and by LD but the function of new neurons incorporated in HVC is poorly understood. We developed a procedure based on X-ray focal irradiation to deplete neural progenitors adjacent to HVC and study the functional consequences. The decrease in neurogenesis increased the variability of T-induced songs in females and decreased their bandwidth. Neurogenesis in HVC thus plays a role in song production and X-ray focal irradiation represents an excellent tool to analyze adult neurogenesis.",
+      "journal": "Journal of neuroendocrinology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1111_jne_13449_v1_review1",
       "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
       "year": 2024,
@@ -241,11 +385,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_jne_13449_v2_review1",
@@ -255,11 +395,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_jne_13449_v2_review3",
@@ -269,11 +405,27 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1111_jne_13449_v1_review3",
+      "title": "Review for \"Photoperiodism, testosterone and adult neurogenesis in canaries (&lt;i&gt;Serinus canaria&lt;/i&gt;)\"",
+      "year": 2024,
+      "doi": "10.1111/jne.13449/v1/review3",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_39089160",
+      "title": "Androgen signaling in LMAN regulates song stereotypy in male canaries",
+      "year": 2024,
+      "doi": "10.1016/j.yhbeh.2024.105611",
+      "abstract": "During breeding when testosterone concentrations are high, male songbirds that are open-ended vocal learners like canaries (Serinus canaria) tend to produce a stable, stereotyped song that facilitates mate attraction or territory defense. Outside breeding contexts, song becomes more variable. The neuroendocrine mechanisms controlling this vocal variability across seasons are not entirely clear. We tested whether androgen signaling within the lateral magnocellular nucleus of the anterior nidopallium (LMAN), a cortical-like brain region of the vocal control system known as a vocal variability generator, plays a role in seasonal vocal variability. We first characterized song in birds housed alone on a short day (SD) photoperiod, which simulates non-breeding conditions. Then, cannulae filled with the androgen receptor (AR) blocker flutamide or left empty as control were implanted bilaterally in LMAN. Birds were then transferred to long days (LD) to simulate the breeding season and song was analyzed again. Blocking AR in LMAN increased acoustic variability of song and the acoustic variability of syllables. However, blocking AR in LMAN did not impact the variability of syllable usage nor their sequencing in LD birds, song features that are controlled by androgen signaling in a somatosensory brain region of the vocal control system called HVC. These findings highlight the multifactorial, non-redundant actions of steroid hormones in controlling complex social behaviors such as birdsong. They also support the hypothesis that LMAN is a key brain area for the effects of testosterone on song plasticity both seasonally in adults and during the song crystallization process at sexual maturity.",
+      "journal": "Hormones and behavior",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_beproc_2022_104818",
@@ -283,11 +435,7 @@
       "abstract": "",
       "journal": "Behavioural Processes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_anbehav_2023_02_008",
@@ -297,11 +445,77 @@
       "abstract": "Songbird vocal learning is a popular model for understanding the evolution of complex communication. When multiple tutors are available, juvenile songbirds prefer to learn vocalizations from some tutors over others, their preferences partly guided by postnatal acoustic experience and social interactions. The potential for prenatal sound to also influence song tutor choice remains largely untested, despite recent evidence that prenatal sound affects other aspects of songbird development. Previously, we showed that Australian zebra finches, Taeniopygia castanotis, learnt more song syllables from nonpaternal tutors if they had previously experienced ‘heat calls’ (parental vocalizations produced at high ambient temperatures) as embryos. This suggests that heat call exposure may trigger changes in offsprings' social behaviour or learning strategy as juveniles, thereby indirectly affecting their song tutor preferences. In this study, we tested this hypothesis by prenatally exposing male zebr",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_36584962",
+      "title": "Prosociality and reciprocity according to parental status, communication, and personality in domestic canaries (Serinus canaria)",
+      "year": 2023,
+      "doi": "10.1016/j.beproc.2022.104818",
+      "abstract": "Prosociality (behaviours that benefit to a recipient without necessarily involving a cost to the actor) has recently been shown to exist in various taxa, including birds. Studies on prosociality in primates found that prosocial tendencies of the subject could be related to sex and parental care, communication from the recipient, cognitive abilities and personality. To investigate the existence of such associations on birds, we conducted a Prosocial Choice Task with domestic canaries (Serinus canaria). In our experiment, the subject could choose between three options: a prosocial, a selfish, and a null option (with no cost for the subject). We also conducted a food sharing experiment and measured several personality traits. Our results highlighted high levels of prosociality and a tendency to reciprocity among reproductive mates. We found a higher propensity to be prosocial in nulliparous individuals than in individuals that have previously been parents, but better sharing abilities in parents than in nulliparous individuals. When they were recipient, parents also used communication more efficiently than nulliparous subjects. Data suggest that parental expertise could enhance subjects' skills in eliciting prosociality. We also highlighted some interaction between prosociality, learning abilities, and some personality traits, proactive individuals being fast learners and more prosocial, while reactive individuals being slow learners and more reciprocal. Our results suggest that prosociality and reciprocity could be linked to personality and cognitive abilities, and that it might be interesting to consider them as parts of individual's cognitive style.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35599378",
+      "title": "The neural distribution of the avian homologue of oxytocin, mesotocin, in two songbird species, the zebra finch and the canary: A potential role in song perception and production",
+      "year": 2022,
+      "doi": "10.1002/cne.25338",
+      "abstract": "The avian homologue of oxytocin (OT), formerly called mesotocin, influences social behaviors in songbirds and potentially song production. We sought to characterize the distribution of OT peptide in the brain of two songbird species: canaries (Serinus canaria) and zebra finches (Taeniopygia guttata). To visualize OT, we performed immunocytochemistry using an antibody previously shown to identify OT in avian species. In both canaries and zebra finches, dense OT-ir perikarya were located in the paraventricular nucleus (PVN), preoptic area (POA), supraoptic nucleus (SON), and medial bed nucleus of the stria terminalis (BNSTm). We also observed morphologically distinct OT-ir cells scattered throughout the mesopallium. OT-ir fibers were observed in the PVN, ventral medial hypothalamus (VMH), periaqueductal gray (PAG), intercollicular nucleus (ICo), and ventral tegmental area (VTA). We also observed punctate OT-ir fibers in the song control nucleus HVC. In both male and female canaries, OT-ir fibers were present in the lateral septum (LS), but innervation was greater in males. We did not observe this sex difference in zebra finches. Much of the OT staining observed is consistent with general distributions within the vertebrate hypothalamus, indicating a possible conserved function. However, some extra-hypothalamic distributions, such as perikarya in the mesopallium, may be specific to songbirds and play a role in song perception and production. The presence of OT-ir fibers in HVC and song control nuclei projecting dopaminergic regions provides anatomical evidence in support of the idea that OT can influence singing behavior-either directly via HVC or indirectly via the PAG, VTA, or POA.",
+      "journal": "The Journal of comparative neurology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35597055",
+      "title": "Treatment with androgens plus estrogens cannot reverse sex differences in song and the song control nuclei in adult canaries",
+      "year": 2022,
+      "doi": "10.1016/j.yhbeh.2022.105197",
+      "abstract": "Adult treatments with testosterone (T) do not activate singing behavior nor promote growth of song control nuclei to the same extent in male and female canaries (Serinus canaria). Because T acts in part via aromatization into an estrogen and brain aromatase activity is lower in females than in males in many vertebrates, we hypothesized that this enzymatic difference might explain the sex differences seen even after exposure to the same amount of T. Three groups of castrated males and 3 groups of photoregressed females (i.e., with quiescent ovaries following exposure to short days) received either 2 empty 10 mm silastic implants, one empty implant and one implant filled with T or one implant filled with T plus one with estradiol (E2). Songs were recorded for 3 h each week for 6 weeks before brains were collected and song control nuclei volumes were measured in Nissl-stained sections. Multiple measures of song were still different in males and females following treatment with T. Co-administration of E2 did not improve these measures and even tended to inhibit some measures such as song rate and song duration. The volume of forebrain song control nuclei (HVC, RA, Area X) and the rate of neurogenesis in HVC was increased by the two steroid treatments, but remained significantly smaller in females than in males irrespective of the endocrine condition. These sex differences are thus not caused by a lower aromatization of the steroid; sex differences in canaries are probably organized either by early steroid action or by sex-specific gene regulation directly in the brain.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35561543",
+      "title": "Photoperiodic control of singing behavior and reproductive physiology in male Fife fancy canaries",
+      "year": 2022,
+      "doi": "10.1016/j.yhbeh.2022.105194",
+      "abstract": "Temperate-zone birds display marked seasonal changes in reproductive behaviors and the underlying hormonal and neural mechanisms. These changes were extensively studied in canaries (Serinus canaria) but differ between strains. Fife fancy male canaries change their reproductive physiology in response to variations in day length but it remains unclear whether they become photorefractory (PR) when exposed to long days and what the consequences are for gonadal activity, singing behavior and the associated neural plasticity. Photosensitive (PS) male birds that had become reproductively competent (high song output, large testes) after being maintained on short days (SD, 8 L:16D) for 6 months were divided into two groups: control birds remained on SD (SD-PS group) and experimental birds were switched to long days (16 L:8D) and progressively developed photorefractoriness (LD-PR group). During the following 12 weeks, singing behavior (quantitatively analyzed for 3 × 2 hours every week) and gonadal size (repeatedly measured by CT X-ray scans) remained similar in both groups but there was an increase in plasma testosterone and trill numbers in the LD-PR group. Day length was then decreased back to 8 L:16D for LD-PR birds, which immediately induced a cessation of song, a decrease in plasma testosterone concentration, in the volume of song control nuclei (HVC, RA and Area X), in HVC neurogenesis and in aromatase expression in the medial preoptic area. These data demonstrate that Fife fancy canaries readily respond to changes in photoperiod and display a pattern of photorefractoriness following exposure to long days that is associated with marked changes in brain and behavior.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35366412",
+      "title": "Sex differences in seasonal brain plasticity and the neuroendocrine regulation of vocal behavior in songbirds",
+      "year": 2022,
+      "doi": "10.1016/j.yhbeh.2022.105160",
+      "abstract": "Birdsong is controlled in part by a discrete network of interconnected brain nuclei regulated in turn by steroid hormones and environmental stimuli. This complex interaction results in neural changes that occur seasonally as the environment varies (e.g., photoperiod, food/water availability, etc.). Variation in environment, vocal behavior, and neuroendocrine control has been primarily studied in male songbirds in both laboratory studies of captive birds and field studies of wild caught birds. The bias toward studying seasonality in the neuroendocrine regulation of song in male birds comes from a historic focus on sexually selected male behaviors. In fact, given that male song is often loud and accompanied by somewhat extravagant courtship behaviors, female song has long been overlooked. To compound this bias, the primary model songbird species for studies in the lab, zebra finches (Taeniopygia guttata) and canaries (Serinus canaria), exhibit little or no female song. Therefore, understanding the degree of variation and neuroendocrine control of seasonality in female songbirds is a major gap in our knowledge. In this review, we discuss the importance of studying sex differences in seasonal plasticity and the song control system. Specifically, we discuss sex differences in 1) the neuroanatomy of the song control system, 2) the distribution of receptors for androgens and estrogens and 3) the seasonal neuroplasticity of the hypothalamo-pituitary-gonadal axis as well as in the neural and cellular mechanisms mediating song system changes. We also discuss how these neuroendocrine mechanisms drive sex differences in seasonal behavior. Finally, we highlight specific gaps in our knowledge and suggest experiments critical for filling these gaps.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35314175",
+      "title": "Neuroendocrine and behavioral response to testosterone-induced female song in canaries (Serinus canaria)",
+      "year": 2022,
+      "doi": "10.1016/j.physbeh.2022.113782",
+      "abstract": "Male song in songbirds is a critical and elaborate signal for mate attraction. In many species female listeners respond to male song both behaviorally and physiologically (e.g. copulation solicitation displays and production of the immediate early gene ZENK in auditory regions). It is becoming increasingly well known that females in many species also sing. However, in common lab species, such as canaries (Serinus canaria), female song is limited and has been primarily studied in the context of administering of exogenous testosterone (T) to increase song rate and length. In this study we addressed to what extent female canary songs are masculinized by the administration of exogenous T based on the behavioral and physiological responses of avian receivers. Specifically, are T induced female songs sufficient to elicit courtship behaviors and auditory ZENK expression in female listeners? We found that female songs after 3 weeks of exogenous T were significantly longer and more complex than female songs after 12 weeks of exogenous T. Additionally, we found that playback of 3-week T song significantly increased sexual response behaviors and the expression of ZENK in the auditory brain regions of female listeners. Finally, we conclude that extended periods of T do not necessarily maintain the masculinization of female song.",
+      "journal": "Physiology & behavior",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34852183",
+      "title": "Neural oscillations are locked to birdsong rhythms in canaries",
+      "year": 2022,
+      "doi": "10.1111/ejn.15552",
+      "abstract": "How vocal communication signals are represented in the cortex is a major challenge for behavioural neuroscience. Beyond a descriptive code, it is relevant to unveil the dynamical mechanism responsible for the neural representation of auditory stimuli. In this work, we report evidence of synchronous neural activity in nucleus HVC, a telencephalic area of canaries (Serinus canaria), in response to auditory playback of the bird's own song. The rhythmic features of canary song allowed us to show that this large-scale synchronization was locked to defined features of the behaviour. We recorded neural activity in a brain region where sensorimotor integration occurs, showing the presence of well-defined oscillations in the local field potentials, which are locked to song rhythm. We also show a correspondence between local field potentials, multiunit activity and single unit activity within the same brain region. Overall, our results show that the rhythmic features of the vocal behaviour are represented in a telencephalic region of canaries.",
+      "journal": "The European journal of neuroscience",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_ejn_15552",
@@ -311,11 +525,57 @@
       "abstract": "How vocal communication signals are represented in the cortex is a major challenge for behavioural neuroscience. Beyond a descriptive code, it is relevant to unveil the dynamical mechanism responsible for the neural representation of auditory stimuli. In this work, we report evidence of synchronous neural activity in nucleus HVC, a telencephalic area of canaries (Serinus canaria), in response to auditory playback of the bird's own song. The rhythmic features of canary song allowed us to show that this large-scale synchronization was locked to defined features of the behaviour. We recorded neural activity in a brain region where sensorimotor integration occurs, showing the presence of well-defined oscillations in the local field potentials, which are locked to song rhythm. We also show a correspondence between local field potentials, multiunit activity and single unit activity within the same brain region. Overall, our results show that the rhythmic features of the vocal behaviour are r",
       "journal": "European Journal of Neuroscience",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_34135731",
+      "title": "The Gene Expression Profile of the Song Control Nucleus HVC Shows Sex Specificity, Hormone Responsiveness, and Species Specificity Among Songbirds",
+      "year": 2021,
+      "doi": "10.3389/fnins.2021.680530",
+      "abstract": "Singing occurs in songbirds of both sexes, but some species show typical degrees of sex-specific performance. We studied the transcriptional sex differences in the HVC, a brain nucleus critical for song pattern generation, of the forest weaver (",
+      "journal": "Frontiers in neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33566322",
+      "title": "Characterization of multidrug-resistant avian pathogenic Escherichia coli: an outbreak in canaries",
+      "year": 2021,
+      "doi": "10.1007/s42770-021-00443-0",
+      "abstract": "The canary (Serinus canaria) is appreciated for its beautiful song, colors, and docile temperament and drives a lucrative business. However, diseases caused by avian pathogenic Escherichia coli (APEC) compromise the health of canaries, and the inadequate antimicrobial treatment can lead to the emergence of resistant strains. This study aimed to characterize 21 isolates of E. coli obtained from canaries infected with colibacillosis during an outbreak in northern Paraná State, Brazil. APEC and diarrheagenic E. coli (DEC) virulence genes were screened for by polymerase chain reaction (PCR). All isolates were positive for the hlyF, iss, and ompT genes, which are characteristic of APEC. The iroN gene was found in 95.2% of isolates, and none had the iutA gene. The ipaH gene, characteristic of enteroinvasive E. coli (EIEC), was found in 71.4% of isolates, all belonging to the phylogenetic group B1. High genetic similarity (>95%) was found using enterobacterial repetitive intergenic consensus PCR (ERIC-PCR). The isolates belonged to serotypes O117:H4 (71.4%) and O1:H20 (23.8%). This is the first report of a clonal colibacillosis outbreak in canaries caused by APEC. All isolates were resistant to ampicillin, nalidixic acid, ciprofloxacin, enrofloxacin, norfloxacin, and tetracycline. The high rate of multidrug resistance in our study shows the importance of avoiding the inadequate antibiotic treatment. We suggest that further studies should be conducted to contribute to the understanding of colibacillosis in canaries since the health of animals is linked to human and environmental health, as defined by the concept of One Health.",
+      "journal": "Brazilian journal of microbiology : [publication of the Brazilian Society for Microbiology]",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32926339",
+      "title": "Sex-and Region-Dependent Expression of the Autism-Linked ADNP Correlates with Social- and Speech-Related Genes in the Canary Brain",
+      "year": 2020,
+      "doi": "10.1007/s12031-020-01700-x",
+      "abstract": "The activity-dependent neuroprotective protein (ADNP) syndrome is an autistic-like disorder, instigated by mutations in ADNP. This syndrome is characterized by developmental delays, impairments in speech, motor function, abnormal hearing, and intellectual disabilities. In the Adnp-haploinsufficient mouse model, many of these impediments are evident, appearing in a sex-dependent manner. In zebra finch songbird (ZF; Taeniopygia guttata), an animal model used for song/language studies, ADNP mRNA most robust expression is observed in the cerebrum of young males, potentially corroborating with male ZF exclusive singing behavior and developed cerebral song system. Herein, we report a similar sex-dependent ADNP expression profile, with the highest expression in the cerebrum (qRT-PCR) in the brain of another songbird, the domesticated canary (Serinus canaria domestica). Additional analyses for the mRNA transcripts of the ADNP regulator, vasoactive intestinal peptide (VIP), sister gene ADNP2, and speech-related Forkhead box protein P2 (FoxP2) revealed multiple sex and brain region-dependent positive correlations between the genes (including ADNP). Parallel transcript expression patterns for FoxP2 and VIP were observed alongside specific FoxP2 increase in males compared with females as well as VIP/ADNP2 correlations. In spatial view, a sexually independent extensive form of expression was found for ADNP in the canary cerebrum (RNA in situ hybridization). The songbird cerebral mesopallium area stood out as a potentially high-expressing ADNP tissue, further strengthening the association of ADNP with sense integration and auditory memory formation, previously implicated in mouse and human.",
+      "journal": "Journal of molecular neuroscience : MN",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32737183",
+      "title": "Effects of Inactivation of the Periaqueductal Gray on Song Production in Testosterone-Treated Male Canaries (",
+      "year": 2020,
+      "doi": "10.1523/ENEURO.0048-20.2020",
+      "abstract": "Male canaries (",
+      "journal": "eNeuro",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32491906",
+      "title": "Dynamical model for the neural activity of singing Serinus canaria",
+      "year": 2020,
+      "doi": "10.1063/1.5145093",
+      "abstract": "Vocal production in songbirds is a key topic regarding the motor control of a complex, learned behavior. Birdsong is the result of the interaction between the activity of an intricate set of neural nuclei specifically dedicated to song production and learning (known as the \"song system\"), the respiratory system and the vocal organ. These systems interact and give rise to precise biomechanical motor gestures which result in song production. Telencephalic neural nuclei play a key role in the production of motor commands that drive the periphery, and while several attempts have been made to understand their coding strategy, difficulties arise when trying to understand neural activity in the frame of the song system as a whole. In this work, we report neural additive models embedded in an architecture compatible with the song system to provide a tool to reduce the dimensionality of the problem by considering the global activity of the units in each neural nucleus. This model is capable of generating outputs compatible with measurements of air sac pressure during song production in canaries (Serinus canaria). In this work, we show that the activity in a telencephalic nucleus required by the model to reproduce the observed respiratory gestures is compatible with electrophysiological recordings of single neuron activity in freely behaving animals.",
+      "journal": "Chaos (Woodbury, N.Y.)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_64048",
@@ -325,11 +585,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_brv_12160",
@@ -339,11 +595,7 @@
       "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_jphysparis_2012_08_004",
@@ -353,11 +605,7 @@
       "abstract": "",
       "journal": "Journal of Physiology-Paris",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-010-0353-6",
@@ -367,11 +615,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pbio_0030164",
@@ -381,11 +625,7 @@
       "abstract": "Songbirds represent an excellent model system for understanding the neural mechanisms underlying learning.",
       "journal": "PLoS Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_4369-03_2004",
@@ -395,11 +635,7 @@
       "abstract": "Most vertebrates communicate acoustically, but few, among them humans, dolphins and whales, bats, and three orders of birds, learn this trait. FOXP2 is the first gene linked to human speech and has been the target of positive selection during recent primate evolution. To test whether the expression pattern of FOXP2 is consistent with a role in learned vocal communication, we cloned zebra finch FoxP2 and its close relative FoxP1 and compared mRNA and protein distribution in developing and adult brains of a variety of avian vocal learners and non-learners, and a crocodile. We found that the protein sequence of zebra finch FoxP2 is 98% identical with mouse and human FOXP2. In the avian and crocodilian forebrain, FoxP2 was expressed predominantly in the striatum, a basal ganglia brain region affected in patients with FOXP2 mutations. Strikingly, in zebra finches, the striatal nucleus Area X, necessary for vocal learning, expressed more FoxP2 than the surrounding tissue at post-hatch days 3",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf02465520",
@@ -409,11 +645,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1006_anbe_2003_2093",
@@ -423,11 +655,17 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1007_bf01998227",
+      "title": "Die Ausbreitung des Girlitz (Serinus canaria serinus L.)",
+      "year": 1926,
+      "doi": "10.1007/bf01998227",
+      "abstract": "",
+      "journal": "Journal für Ornithologie",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_49362b71zaad6z4e35z9a43zb50eb7635202",
@@ -437,11 +675,7 @@
       "abstract": "<jats:p xml:lang=\"fr\">De nombreuses études ont montré que les individus étaient capables de discriminer leurs apparentés. Cette discrimination de parentèle intervient pour les femelles et les mâles dans le choix de partenaire sexuel et pour les mâles dans la défense de leur territoire. L’expérience sociale précoce (familiarité) intervient également dans les interactions sociales. L’objectif de cette thèse est d’étudier la capacité des canaris domestiques à discriminer des individus ayant différents degrés de parenté (frères, cousins et non-apparentés) et ayant des expériences sociales précoces de durée différente. Nos résultats indiquent que lors de rencontres directes, les mâles copulent avec des femelles moins familières et montrent des préférences sexuelles pour des cousines. Ensuite, les femelles montrent un choix et des préférences sexuelles pour des mâles et des chants de mâles avec lesquels elles ont eu une courte expérience sociale précoce. En revanche, le degré de parenté des ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_08b563eazbc94z4d0dzb12dz3a2aaed8987b",
@@ -451,11 +685,7 @@
       "abstract": "<jats:p xml:lang=\"fr\">Le fil conducteur de cette thèse est la variabilité du choix de partenaire chez les femelles de canaris domestiques Serinus canaria. Elle s’articule autours de trois axes. Lors des deux premiers chapitres, les femelles sont exposées à deux types de chants de mâles : un chant A16, hautement attractif et un chant A8, faiblement attractif. Le nombre de Postures de Sollicitation à l’Accouplement (PSA) que prennent les femelles permet de déterminer leur motivation sexuelle (le nombre total de PSA), leur préférence pour un des deux types de chant, ainsi que leur sélectivité (la proportion de PSA pour A16 ramené au nombre total de PSA). Dans le premier chapitre, deux types de traitements ont permis de modifier la condition des femelles. Dans une première expérience, les plumes des ailes de certaines femelles ont été raccourcies et dans une seconde, les deux groupes de femelles ont été nourris avec des régimes alimentaires différents. Les résultats présentés témoignent du",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_04b73aa6z3f5dz4b9fz87a7z207bd996ec59",
@@ -465,11 +695,7 @@
       "abstract": "<jats:p xml:lang=\"fr\">Cette étude a demontré l’influence du statut social sur différentes caractéristiques individuelles telles que le chant, la personnalité ou les capacités cognitives chez le canari domestique commun, Serinus canaria. Celui-ci associé à la familiarité jouent un rôle non négligeable dans les stratégies de fourragement. Il est considéré comme étant un trait de personnalité. L’existence de syndromes comportementaux et l’influence de la photopériode sur les différents traits répétables de personnalité ont également été mis en évidence. L’ontogénèse des individus, à savoir les conditions acousiques de développement a une influence sur les profils comportementaux. Ces derniers semblent liés à la production vocale telle que le chant, ainsi qu’avec les capacités cognitives à savoir l’apprentissage d’une tâche de recherche alimentaire. Le statut social semble également avoir un impact sur la cognition chez les canaris domestiques communs. Néanmoins aucun résultat n’a pu mettr",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_4fdbec8cz2160z4215z8b8dz7ae9ba86adac",
@@ -479,14 +705,10 @@
       "abstract": "<jats:p xml:lang=\"fr\">Pendant de nombreuses années, les femelles ont été décrites comme passives dans les interactions mâles-femelles et ont parfois été négligées dans les études sur les comportements reproducteurs et la communication animale. Pourtant, il est de plus en plus évident que les comportements des femelles influencent ceux des mâles et que les mâles peuvent ajuster leurs comportements de parades aux comportements des femelles. L’objectif principal de cette thèse est de mieux comprendre les signaux que les femelles émettent lors d’interactions avec un mâle dans un contexte de reproduction chez le canari domestique. L’ensemble de mes résultats montre tout d’abord que les femelles utilisent des signaux de parades visuels et acoustiques, c’est-à-dire des postures de sollicitation à l’accouplement et des trilles-spécifiques de femelles, comme une invitation à s’accoupler, mais qu’elles peuvent aussi les utiliser pour inciter le mâle à parader et l’aider à échantillonner la quali",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 35,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 10,
-    "claim_count": 9,
-    "doi_count": 11,
-    "media_count": 0
+    "paper_count": 24,
+    "claim_count": 27,
+    "doi_count": 22,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,450 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
     "chatter",
-    "song"
+    "song",
+    "alarm call"
   ],
   "contexts": [
-    "alarm",
+    "territorial defence",
     "social communication",
-    "territorial defence"
+    "alarm"
   ],
   "functions": [
-    "predator warning",
+    "territory signalling",
     "social coordination",
-    "territory signalling"
+    "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "chatter",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "predator warning",
+        "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territory signalling",
+        "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1531,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1530,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1529,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1528,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1527,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1526,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1525,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1524,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1523,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1522,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1521,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1520,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1519,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1518,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1517,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1516,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1515,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1514,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1513,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1512,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1511,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1510,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1509,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1508,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1507,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1506,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1505,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Pica pica",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1007/s10071-025-01975-w",
+      "url": "https://doi.org/10.1007/s10071-025-01975-w",
+      "title": "The duration of alarm- and territorial defence calls alters receiver response in Eurasian magpies",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.53347/rid-218134",
       "url": "https://doi.org/10.53347/rid-218134",
@@ -134,11 +494,32 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1007/s10071-021-01552-x",
+      "url": "https://doi.org/10.1007/s10071-021-01552-x",
+      "title": "Cowards or clever guys: an alternative nest defence strategy employed by shrikes against magpies",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani12212896",
+      "url": "https://doi.org/10.3390/ani12212896",
+      "title": "Effects of Valley Topography on Acoustic Communication in Birds: Why Do Birds Avoid Deep Valleys in Daqinggou Nature Reserve?",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.37547/supsci-ojbc-02-02-02",
       "url": "https://doi.org/10.37547/supsci-ojbc-02-02-02",
       "title": "INFORMATION ON THE BIOLOGY OF PICA PICA BACTRIANA",
       "year": 2022,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1002/lio2.354",
+      "url": "https://doi.org/10.1002/lio2.354",
+      "title": "Automated assessment of psychiatric disorders using speech: A systematic review",
+      "year": 2020,
+      "source": "openalex"
     },
     {
       "doi": "10.1079/cabicompendium.41066",
@@ -162,6 +543,20 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1017/s0261444818000125",
+      "url": "https://doi.org/10.1017/s0261444818000125",
+      "title": "Interaction and instructed second language acquisition",
+      "year": 2018,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-016-1064-4",
+      "url": "https://doi.org/10.1007/s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
       "doi": "10.1079/cabicompendium.41065",
       "url": "https://doi.org/10.1079/cabicompendium.41065",
       "title": "Pica pica sericea",
@@ -169,11 +564,39 @@
       "source": "crossref"
     },
     {
+      "doi": "10.21432/t2f595",
+      "url": "https://doi.org/10.21432/t2f595",
+      "title": "From First Life to Second Life: Evaluating task-based language learning in a new environment / De la vie réelle à la vie virtuelle: évaluation de l'apprentissage des langues basé sur les tâches dans un nouvel environnement",
+      "year": 2014,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1111/j.1540-4781.2011.01241.x",
+      "url": "https://doi.org/10.1111/j.1540-4781.2011.01241.x",
+      "title": "Task Complexity, Focus on L2 Constructions, and Individual Differences: A Classroom‐Based Study",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
       "doi": "10.1093/gao/9781884446054.article.t067300",
       "url": "https://doi.org/10.1093/gao/9781884446054.article.t067300",
       "title": "Pica, Vittorio",
       "year": 2003,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1558/cj.v20i1.7-32",
+      "url": "https://doi.org/10.1558/cj.v20i1.7-32",
+      "title": "Developing L2 Oral Proficiency through Synchronous CMC: Output, Working Memory, and Interlanguage Development",
+      "year": 2003,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s100710050029",
+      "url": "https://doi.org/10.1007/s100710050029",
+      "title": "Innate versus learned recognition of conspecifics in great spotted cuckoos Clamator glandarius",
+      "year": 1999,
+      "source": "openalex"
     },
     {
       "doi": "10.2173/tbna.389.p",
@@ -188,6 +611,13 @@
       "title": "Early stages of vocal ontogeny in the magpie (Pica pica)",
       "year": 1991,
       "source": "crossref"
+    },
+    {
+      "doi": "10.2307/4087610",
+      "url": "https://doi.org/10.2307/4087610",
+      "title": "Extrapair Fertilizations and the Evolution of Colonial Breeding in Purple Martins",
+      "year": 1990,
+      "source": "openalex"
     },
     {
       "doi": "10.1098/rsbl.2020.0075",
@@ -213,11 +643,17 @@
       "abstract": "",
       "journal": "Radiopaedia.org",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40670669",
+      "title": "The duration of alarm- and territorial defence calls alters receiver response in Eurasian magpies",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01975-w",
+      "abstract": "UNLABELLED: Animals use vocal signals to provide information across a wide range of contexts. However, it is more complex to identify the information content when the same vocalizations are produced in different contexts, such as against predators and conspecific competitors. This raises the question whether information about the caller or context can be coded in relatively subtle variation within the call type and whether receivers respond differentially to such variation. Using playbacks of the general ‘chatter’ alarm call of Eurasian magpies ( SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s10071-025-01975-w.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_37547_supsci-ojbc-02-02-02",
@@ -227,11 +663,47 @@
       "abstract": "<jats:p>Abstract  The article shows the relevance of the topic, the distribution of Pica pica bactriana, meeting characteristics and its study, the duration of the research and the methods used in the work, the number of nests found, nesting places, meeting places and their number, singing, mating. behavioral responses to breeding, number and location of nests, nesting interspecific relationships, nesting duration and use, nest shape, dimensions, nest location, nest construction, nest components and morphometric dimensions, oviposition and duration and brood care during incubation, changes in the egg, hatching, chick size, growth and development, images of reproduction, relation to the nest of the new generation Its biological characteristics and importance, such as its habitat, information about its nighttime, relationship with historical monuments, nutrition and food types, have been studied</jats:p>",
       "journal": "Oriental Journal of Biology and Chemistry",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36359019",
+      "title": "Effects of Valley Topography on Acoustic Communication in Birds: Why Do Birds Avoid Deep Valleys in Daqinggou Nature Reserve?",
+      "year": 2022,
+      "doi": "10.3390/ani12212896",
+      "abstract": "To investigate the effects of valley topography on the acoustic transmission of avian vocalisations, we carried out playback experiments in Daqinggou valley, Inner Mongolia, China. During the experiments, we recorded the vocalisations of five avian species, the large-billed crow (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34427802",
+      "title": "Cowards or clever guys: an alternative nest defence strategy employed by shrikes against magpies",
+      "year": 2022,
+      "doi": "10.1007/s10071-021-01552-x",
+      "abstract": "Red-backed shrikes (Lanius collurio) show a substantial variability in their nest defence behaviour, which usually follows the rules of optimal parental behaviour, vigorously attacking egg and chick predators and only passively guarding against harmless animals. Nevertheless, shrikes hesitate to attack the Eurasian magpie (Pica pica), which specializes in plundering passerine nests. Our previous studies have suggested that this behaviour may be the result of an alternative defence strategy, relying on nest crypsis. To test this hypothesis, at the shrike nests, we presented a magpie dummy associated with playbacks drawing the predators' attention to the presence of the nest. We predicted that the presentation of a magpie dummy associated with shrike alarm calls moves the parents to action, causing them to chase the magpie away from the nest. We showed that the presence of a magpie dummy associated with shrike alarm calls elicits a significantly more active response in shrike parents compared to a magpie dummy associated with neutral song. Parents actively moved around the dummy and produced alarm calls; nevertheless, most of the tested pairs hesitated to attack the dummy. We may conclude that the low nest defence activity of shrike parents towards magpie dummy was partly the result of an alternative strategy, which may be cancelled out by alerting the predator to the location of the nest; nevertheless, shrikes seem to be afraid of the magpie and hesitate to attack it physically.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_1002_lio2_354",
+      "title": "Automated assessment of psychiatric disorders using speech: A systematic review",
+      "year": 2020,
+      "doi": "10.1002/lio2.354",
+      "abstract": "OBJECTIVE: There are many barriers to accessing mental health assessments including cost and stigma. Even when individuals receive professional care, assessments are intermittent and may be limited partly due to the episodic nature of psychiatric symptoms. Therefore, machine-learning technology using speech samples obtained in the clinic or remotely could one day be a biomarker to improve diagnosis and treatment. To date, reviews have only focused on using acoustic features from speech to detect depression and schizophrenia. Here, we present the first systematic review of studies using speech for automated assessments across a broader range of psychiatric disorders. METHODS: We followed the Preferred Reporting Items for Systematic Reviews and Meta-Analysis (PRISMA) guidelines. We included studies from the last 10 years using speech to identify the presence or severity of disorders within the Diagnostic and Statistical Manual of Mental Disorders (DSM-5). For each study, we describe samp",
+      "journal": "Laryngoscope Investigative Otolaryngology",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_40474401",
+      "title": "On mark-test replication and mirror self-recognition in magpies",
+      "year": 2020,
+      "doi": "10.1037/com0000256",
+      "abstract": "We have known about the importance of replication and reproducibility since our earliest science classes. In animal behavioral studies, the major texts on methods in the field stress the importance of study replication. Nonetheless, there has been a growing call in animal behavior for greater efforts to replicate published studies. An interesting avian candidate for the mark-test is the magpie,",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_41066",
@@ -241,11 +713,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_69795",
@@ -255,11 +723,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_30980_kjo_2019_12_26_2_87",
@@ -269,11 +733,17 @@
       "abstract": "",
       "journal": "The Korean Journal of Ornithology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1017_s0261444818000125",
+      "title": "Interaction and instructed second language acquisition",
+      "year": 2018,
+      "doi": "10.1017/s0261444818000125",
+      "abstract": "Interaction is an indispensable component in second language acquisition (SLA). This review surveys the instructed SLA research, both classroom and laboratory-based, that has been conducted primarily within the interactionist approach, beginning with the core constructs of interaction, namely input, negotiation for meaning, and output. The review continues with an overview of specific areas of interaction research. The first investigates interlocutor characteristics, including (a) first language (L1) status, (b) peer interaction, (c) participation structure, (d) second language (L2) proficiency, and (e) individual differences. The second topic is task characteristics, such as task conditions (e.g. information distribution, task goals), task complexity (i.e. simple or complex), and task participation structure (i.e. whole class, small groups or dyads). Next, the review considers various linguistic features that have been researched in relation to interaction and L2 learning. The review ",
+      "journal": "Language Teaching",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_41065",
@@ -283,11 +753,47 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1007_s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "doi": "10.1007/s10071-016-1064-4",
+      "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
+      "journal": "Animal Cognition",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28589845",
+      "title": "Deep Phylogeographic Breaks in Magpie Pica pica Across the Holarctic: Concordance with Bioacoustics and Phenotypes",
+      "year": 2017,
+      "doi": "10.2108/zs160119",
+      "abstract": "We examined sequences of the mitochondrial control region in magpies (Pica pica) from the entire distribution range and found deep genetic splits into four major lineages: (1) group West (Europe-Siberia), (2) group East (southern Far East), (3) P. p. mauritanica (North Africa), and (4) P. p. hudsonia (North America). These lineages show a geographic pattern corresponding to known subspecies or subspecies groups. Genetic variation within the widely-distributed group West is low and neutrality tests supported a recent expansion scenario. The haplotypes from Kamchatka, representing a separated sublineage with clear affinity to the European-Siberian group, are almost identical, implying a recent bottleneck. Group East contained two subclades without clear geographic pattern, presumably due to admixing of populations that had diverged in Pleistocene refuges. The homogeneity of the Kyushu population supports historical reports of introduction of the species from Korea. In contrast, the high variation in the recently established Hokkaido population may reflect an ongoing invasion from several populations of the Far Eastern mainland. Bioacoustic data based on chatter call differentiate groups of subspecies and reflect phylogeographic patterns, i.e., mitochondrial lineages. Furthermore, we report the fast spreading of P. p. jankowskii towards the west along the upper Amur River, and a slower shifting of P. p. leucoptera in the opposite direction thus yielding a new contact zone. Overall, our data support a scenario of divergence in geographic isolation, but the ongoing expansion of distribution ranges may lead to major changes in phylogeographic patterns.",
+      "journal": "Zoological science",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_21432_t2f595",
+      "title": "From First Life to Second Life: Evaluating task-based language learning in a new environment / De la vie réelle à la vie virtuelle: évaluation de l'apprentissage des langues basé sur les tâches dans un nouvel environnement",
+      "year": 2014,
+      "doi": "10.21432/t2f595",
+      "abstract": "Second Life is an avatar-based 3D virtual world that has recently received attention from educators and researchers in various fields to explore its pedagogical benefits. Considering the increasing implementation of technologies broadly in much instruction, this study investigated how different task types affect ESL students’ use of Second Life environment, and factors that determine success or failure of a task completion. Enrolled in a university ESL program, 34 high- and low-intermediate students participated, and they were asked to use the voice-chat function and communication features of avatars as they participated in three task types: Jigsaw, Decision-making, and Discussion tasks, representing the continuum of communicative tasks by Pica, Kanagy, and Falodun (1993). Emerging phenomena from the data described how the different levels’ of ESL students used Second Life environment in different task types, focusing on avatar use, telepresence, and affordances, and critical factors t",
+      "journal": "Canadian Journal of Learning and Technology",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1111_j_1540-4781_2011_01241_x",
+      "title": "Task Complexity, Focus on L2 Constructions, and Individual Differences: A Classroom‐Based Study",
+      "year": 2011,
+      "doi": "10.1111/j.1540-4781.2011.01241.x",
+      "abstract": "Motivated by cognitive‐interactionist frameworks for task‐based learning, this study explores whether task complexity affects the extent to which learners focus on form–meaning connections during task‐based work in a classroom setting, and whether this relationship is modulated by 3 individual difference factors—linguistic self‐confidence, anxiety, and self‐perceived communicative competence. Forty‐three English as a second language learners from 6 intact classes worked in self‐selected groups during their normal English classes. Each group performed 2 versions of the same argumentative task—a simple version and a complex version. The topics of the discussions were comparable, and the sequence of the tasks was counterbalanced. Twenty‐three hours of audio‐ and videotaped data were collected and coded in terms of global and specific measures of speech production and various interactional features hypothesized to facilitate attention to second language constructions. Self‐report questionn",
+      "journal": "Modern Language Journal",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_gao_9781884446054_article_t067300",
@@ -297,11 +803,17 @@
       "abstract": "",
       "journal": "Oxford Art Online",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1558_cj_v20i1_7-32",
+      "title": "Developing L2 Oral Proficiency through Synchronous CMC: Output, Working Memory, and Interlanguage Development",
+      "year": 2003,
+      "doi": "10.1558/cj.v20i1.7-32",
+      "abstract": "A naturalistic experiment was conducted to test the hypothesis that synchronous computer-mediated communication (CMC) can indirectly improve L2 oral proficiency by developing the same cognitive mechanisms underlying spontaneous conversational speech. The theoretical framework guiding this inquiry consists of Levelt's (1989) model of language production augmented by concepts from Working Memory theory. The findings show a significant difference between the experimental and control groups oral proficiency development with participants in the experimental condition (two of four contact hours per week were in a chatroom) scoring higher than participants in the control condition. Implications for language instruction and the second language oral proficiency development for different types of learners are discussed.",
+      "journal": "CALICO Journal",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_2173_tbna_389_p",
@@ -311,11 +823,27 @@
       "abstract": "",
       "journal": "Birds of North America (print)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1007_s100710050029",
+      "title": "Innate versus learned recognition of conspecifics in great spotted cuckoos Clamator glandarius",
+      "year": 1999,
+      "doi": "10.1007/s100710050029",
+      "abstract": "",
+      "journal": "Animal Cognition",
+      "open_access": 0,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_9360313",
+      "title": "Flight style of the black-billed magpie: variation in wing kinematics, neuromuscular control, and muscle composition",
+      "year": 1997,
+      "doi": "10.1002/(sici)1097-010x(19971101)279:4<313::aid-jez1>3.0.co;2-r",
+      "abstract": "Black-billed magpies (Pica pica; Corvidae) exhibit an unusual flight style with pronounced, cyclic variation in wingbeat frequency and amplitude during level, cruising flight. In an effort to better understand the underlying internal mechanisms associated with this flight style, we studied muscle activity patterns, fiber composition of the pectoralis muscle, and wingbeat kinematics using both laboratory and field techniques. Over a wide range of speeds in a windtunnel (0-13.4 m s-1), wingbeat frequency, wingtip elevation, and relative intensity of electromyographic (EMG) signals s-1 from the flight muscles were least at intermediate speeds, and increased at both slower and faster speeds, in approximate agreement with theoretical models that predict a U-shaped curve of power output with flight speed. Considerable variation was evident in kinematic and electromyographic variables, but variation was continuous, and, thus, was not adequately described by the simple two-gait system which is currently accepted as describing gait selection during vertebrate flight. Indirect evidence suggests that magpies vary their flight style consistent with reducing average power costs in comparison to costs associated with continuous flapping at a fixed level of power per wingbeat. The range of variation for the kinematic variables was similar in the field and lab; however, in the field, proportionally fewer flights showed significant correlations between wingbeat frequency and the other variables. Average flight speed in the field was 8.0 m s-1. Average wingbeat frequency was less in the field than in the windtunnel, but mean values for wingtip elevation and wingspan at midupstroke were not significantly different. Histological study revealed that the pectoralis muscle of magpies contained only fast-twitch (acid-stable) muscle fibers, which were classified as red (R) and intermediate (I) based on oxidative and glycolytic capacities along with fiber diameter. This fiber composition may",
+      "journal": "The Journal of experimental zoology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_bf01647274",
@@ -325,11 +853,17 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_2307_4087610",
+      "title": "Extrapair Fertilizations and the Evolution of Colonial Breeding in Purple Martins",
+      "year": 1990,
+      "doi": "10.2307/4087610",
+      "abstract": "We used DNA fingerprinting to show that, in Purple Martins (Progne subis), forced extrapair copulations (FEPC) result in age-biased extrapair fertilizations. Older males achieved 96% paternity of their broods and increased their fecundity at the expense of young males, which achieved only 29% paternity. Older males recruit young males and females to unused nesting cavities that they had previously defended against other older males. Each year, nearly half (45%) of the breeding martins were recruited young birds not born in the colony. Recruitments are individually timed and begin when each older male's mate has completed a nest. Adult males may have accrued an average of 3.6 fertilized eggs through forced extrapair copulations in addition to eggs produced by their mates (4.5 eggs) for an overall average of 8.1. Noncolonial males without the opportunity for FEPCs would suffer 44% lower lifetime fecundity. Thirty-six percent of the eggs in the nests of young males were the result of egg ",
+      "journal": "The Auk",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_5040_9781472926975_0274",
@@ -339,14 +873,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 10,
+  "paper_count": 24,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

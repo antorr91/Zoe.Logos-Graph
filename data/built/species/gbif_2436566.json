@@ -24,10 +24,10 @@
     "color": "amber"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 6,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 2,
+    "doi_count": 27,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -55,61 +55,119 @@
     "vocalisations": [
       {
         "value": "alarm call",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "contexts": [
       {
         "value": "predator response",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "functions": [
       {
         "value": "information transfer",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "predator warning",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
-    "methods": [
-      {
-        "value": "playback experiment",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "spectrogram analysis",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      }
-    ]
+    "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 521,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 520,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "macaulay_ML482631",
+        "provider": "macaulay",
+        "provider_id": "ML482631",
+        "type": "Vervet monkey alarm calls — Macaulay",
+        "rec": "various",
+        "loc": "",
+        "date": "",
+        "url": "https://www.macaulaylibrary.org/asset/482631",
+        "audio": "",
+        "sono": "",
+        "license": "Macaulay Library",
+        "attribution": "Cornell Lab"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/ajp.23674",
+      "url": "https://doi.org/10.1002/ajp.23674",
+      "title": "Sex differences in the acoustic structure of terrestrial alarm calls in vervet monkeys (Chlorocebus pygerythrus)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ajp.23711",
+      "url": "https://doi.org/10.1002/ajp.23711",
+      "title": "Sexual Signaling and Sociosexual Behaviors in Relation to Rank, Parasites, Hormones, and Age in Male Vervet Monkeys (Chlorocebus pygerythrus) in Uganda",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10764-024-00475-x",
+      "url": "https://doi.org/10.1007/s10764-024-00475-x",
+      "title": "Loud Call Production in Male Vervet Monkeys (",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.2305/iucn.uk.2025-1.rlts.t92252770a205896566.en",
       "url": "https://doi.org/10.2305/iucn.uk.2025-1.rlts.t92252770a205896566.en",
       "title": "Chlorocebus pygerythrus ssp. pygerythrus: Butynski, T.M. &amp; De Jong, Y.A.",
       "year": 2024,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-023-01765-2",
+      "url": "https://doi.org/10.1007/s10071-023-01765-2",
+      "title": "Juvenile vervet monkeys rely on others when responding to danger",
+      "year": 2023,
+      "source": "pubmed"
     },
     {
       "doi": "10.2305/iucn.uk.2022-1.rlts.t136271a205998680.en",
@@ -133,11 +191,25 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1098/rsos.182181",
+      "url": "https://doi.org/10.1098/rsos.182181",
+      "title": "Behavioural patterns of vocal greeting production in four primate species",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.11575/prism/37261",
       "url": "https://doi.org/10.11575/prism/37261",
       "title": "The Acoustic Structure and Ontogeny of Vervet Monkey Vocalizations",
       "year": 2019,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0214640",
+      "url": "https://doi.org/10.1371/journal.pone.0214640",
+      "title": "Correlates of social role and conflict severity in wild vervet monkey agonistic screams",
+      "year": 2019,
+      "source": "pubmed"
     },
     {
       "doi": "10.32521/2074-8132.2019.4.105-113",
@@ -150,6 +222,13 @@
       "doi": "10.2305/iucn.uk.2019-3.rlts.t92252770a92252777.en",
       "url": "https://doi.org/10.2305/iucn.uk.2019-3.rlts.t92252770a92252777.en",
       "title": "Chlorocebus pygerythrus ssp. pygerythrus: Butynski, T.M. &amp; de Jong, Y.A.",
+      "year": 2018,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.7287/peerj.4953v0.1/reviews/1",
+      "url": "https://doi.org/10.7287/peerj.4953v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Adaptive genetic variation at three loci in South African vervet monkeys (Chlorocebus pygerythrus) and the role of selection within primates (v0.1)\"",
       "year": 2018,
       "source": "crossref"
     },
@@ -175,6 +254,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.5194/pb-4-101-2017",
+      "url": "https://doi.org/10.5194/pb-4-101-2017",
+      "title": "Olive baboons' (",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.2307/j.ctt19b9jmw.69",
       "url": "https://doi.org/10.2307/j.ctt19b9jmw.69",
       "title": "Vervet (Monkey)",
@@ -196,6 +282,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1007/s00265-014-1694-y",
+      "url": "https://doi.org/10.1007/s00265-014-1694-y",
+      "title": "Limited geographic variation in the acoustic structure of and responses to adult male alarm barks of African green monkeys",
+      "year": 2014,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1016/j.anbehav.2013.07.006",
       "url": "https://doi.org/10.1016/j.anbehav.2013.07.006",
       "title": "Semantic communication in vervet monkeys and other animals",
@@ -207,6 +300,13 @@
       "url": "https://doi.org/10.53846/goediss-4042",
       "title": "Vocal Communication within the Genus Chlorocebus: Insights into Mechanisms of Call Production and Call Perception",
       "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1002/evan.21319",
+      "url": "https://doi.org/10.1002/evan.21319",
+      "title": "Functionally referential signals: A promising paradigm whose time has passed",
+      "year": 2012,
       "source": "openalex"
     },
     {
@@ -226,6 +326,36 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40321659",
+      "title": "Loud Call Production in Male Vervet Monkeys (",
+      "year": 2025,
+      "doi": "10.1007/s10764-024-00475-x",
+      "abstract": "UNLABELLED: Adult males of many nonhuman primate species utter characteristic loud calls that are audible over long distances and serve various functions. In response to large terrestrial predators, male vervet monkeys ( SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s10764-024-00475-x.",
+      "journal": "International journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39716044",
+      "title": "Sexual Signaling and Sociosexual Behaviors in Relation to Rank, Parasites, Hormones, and Age in Male Vervet Monkeys (Chlorocebus pygerythrus) in Uganda",
+      "year": 2025,
+      "doi": "10.1002/ajp.23711",
+      "abstract": "Secondary sexual characteristics, and the extent to which they are expressed, can convey information about the signaller. The blue scrotum and red penis of male vervet monkeys (Chlorocebus pygerythrus) make them a good species in which to examine inter- and intramale variation in signal expression. We quantified genital hue and luminance of male vervets at Lake Nabugabo, Uganda from standardized photos of male genitalia taken in May to June 2016, January to March 2019, and April to June 2019 to examine how dominance rank, fecal androgens (fARMs), fecal glucocorticoids (fGCMs), and parasitism related to achromatic (i.e., luminance) and chromatic (i.e., hue) aspects of scrotal and penile coloration, as well as how genital color related to sociosexual behaviors. We examined 182 photoshoots, 214 fecal samples for hormone analyses, and 152 for parasite analyses. Linear models indicate that genital color is linked to male dominance rank; high-ranking males had a more luminant (i.e., brighter) scrotum and a redder penis. Within males, color characteristics remained relatively stable over the short-term and changed moderately over the long-term. The direction of change was inconsistent for all color characteristics except scrotal luminance, which increased in all males over the long-term. Males with a darker penis received more mating presentations, while higher-ranking males received more mating refusals than low-ranking males, suggesting that females pay attention to penile color. We did not find support for any parasite or hormone mediation of color, and while there was a correlation between fGCM and fARMs, this was positive rather than negative as predicted by the stress-linked immunocompetence handicap hypothesis. Overall, our results indicate that the production of genital color may serve as an intra- and/or intersexual signal of male dominance rank and age in vervets.",
+      "journal": "American journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39162128",
+      "title": "Sex differences in the acoustic structure of terrestrial alarm calls in vervet monkeys (Chlorocebus pygerythrus)",
+      "year": 2025,
+      "doi": "10.1002/ajp.23674",
+      "abstract": "The alarm calls of vervet monkeys (Chlorocebus pygerythrus) have been the subject of considerable focus by researchers, owing primarily to the purported referential qualities of different alarm call types. With this focus on reference, acoustic variation among calls elicited by the same range of predators has typically been overlooked. Specifically, at least one type of alarm call-the terrestrial alarm-was described over 50 years ago as being acoustically distinct between males and females-a description that has largely eluded more systematic scrutiny. Here, we provide a quantitative acoustic analysis and comparison of terrestrial alarm calls produced by adult male and female vervet monkeys. We use a random forest model to determine which acoustic variables best distinguish between the calls of males and females, and use an unsupervised clustering technique to objectively determine whether alarms produced by each sex fall into discrete types. We found that the calls of males and females differed most in frequency-based parameters, with male alarms containing more energy at lower frequencies relative to females. Calls produced by males were also of longer duration, and consisted of longer individual call elements relative to female calls. While calls generally fell into clusters associated with either male or female alarms, we found that some fell into atypical clusters given the caller's sex, and that the clusters themselves showed evidence of intergradation. We discuss these results in terms of potential differences in the function of, and motivation for, calling by males and females. We emphasize the need for a more holistic approach to the classification of vocal signals that considers contextual, functional, and structural variation.",
+      "journal": "American journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_2305_iucn_uk_2025-1_rlts_t92252770a205896566_en",
       "title": "Chlorocebus pygerythrus ssp. pygerythrus: Butynski, T.M. &amp; De Jong, Y.A.",
       "year": 2024,
@@ -233,11 +363,17 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_37027112",
+      "title": "Juvenile vervet monkeys rely on others when responding to danger",
+      "year": 2023,
+      "doi": "10.1007/s10071-023-01765-2",
+      "abstract": "Primate alarm calls are mainly hardwired but individuals need to adapt their calling behaviours according to the situation. Such learning necessitates recognising locally relevant dangers and may take place via their own experience or by observing others. To investigate monkeys alarm calling behaviour, we carried out a field experiment in which we exposed juvenile vervet monkeys to unfamiliar raptor models in the presence of audiences that differed in experience and reliability. We used audience age as a proxy for experience and relatedness as a proxy for reliability, while quantifying audience reactions to the models. We found a negative correlation between alarm call production and callers' age. Adults never alarm called, compared to juveniles. We found no overall effect of audience composition and size, with juveniles calling more when with siblings than mothers or unrelated individuals. Finally, concerning audience reactions to the models, we observed juveniles remained silent with vigilant mothers and only alarm called with ignoring mothers, whereas we observed the opposite for siblings: juveniles remained silent with ignoring siblings and called with vigilant siblings. Despite the small sample size, juvenile vervet monkeys, confronted with unfamiliar and potentially dangerous raptors, seem to rely on others to decide whether to alarm call, demonstrating that the choice of the model may play an important key role in the ontogeny of primate alarm call behaviour.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2022-1_rlts_t136271a205998680_en",
@@ -247,11 +383,17 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_34826430",
+      "title": "Hormonal correlates of male dominance rank, age, and genital colouration in vervet monkey (Chlorocebus pygerythrus)",
+      "year": 2022,
+      "doi": "10.1016/j.ygcen.2021.113948",
+      "abstract": "Primates are the most colourful members of the Mammalian clade. In vervet monkeys (Chlorocebus pygerythrus), males are characterized by their red penis and blue scrotum. Such colour signals are often used in conspecific communication, and thus could be used to convey signaller condition. We quantified scrotal and penile colour characteristics using digital photographs between May-June 2016 from males in two neighboring groups along the shores of Lake Nabugabo, Uganda. We examined the relationship between fecal hormones, male dominance rank, age (adult vs. immature), and colour. Adult males were higher ranking than immatures, but there were no rank or age differences in fecal hormone levels. Glucocorticoids and androgens were positively correlated in immature, but not adult males. All scrotal characteristics were predicted by age, with adult males having more teal (i.e., less blue, more green) and more luminant scrota. Within adult males, those with higher androgens levels had more saturated blue scrotal colouration and higher-ranking males were more luminant. Penile colouration was also associated with age and rank. High-ranking males had a more saturated red penis, and adult male penile colour was more luminant and bluer than in immature males. Our findings are consistent with previous reports that scrotal colouration advertises sexual or reproductive maturity (i.e., age), but we also find that within adult males, colour also advertises dominance rank and may be mediated by androgen levels. Penile colouration also appears to signal information about male age and dominance rank but does not appear to be mediated by hormones.",
+      "journal": "General and comparative endocrinology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_26451_abc_07_02_05_2020",
@@ -261,11 +403,17 @@
       "abstract": "Against the background of the seminal papers on the vervet monkey alarm call system by Seyfarth, Cheney and Marler (1980a. 1980b), I provide an overview of context specificity in calling and call comprehension learning in the genus Chlorocebus, and to which degree these findings inform the reconstruction of the evolution of speech and language. The alarm calls of vervet monkeys (Chlorocebus pygerythrus) and West African green monkeys (Chlorocebus sabaeus) are astoundingly similar in terms of the structure of calls given in response to their main predator types. Green monkeys also spontaneously produced calls that sounded like 'eagle alarms' in response to a novel aerial threat (a drone), supporting the view that both the link between the predator category and the call, as well as the call structure itself are largely hard-wired. In contrast, learning shapes the responses to sounds. As recent field experiments showed, monkeys are able to rapidly attach meaning to a novel sound, and they",
       "journal": "Animal Behavior and Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_32619883",
+      "title": "Fire's impact on threat detection and risk perception among vervet monkeys: Implications for hominin evolution",
+      "year": 2020,
+      "doi": "10.1016/j.jhevol.2020.102836",
+      "abstract": "The spatial behavior of primates is shaped by many factors including predation risk, the distribution of food sources, and access to water. In fire-prone settings, burning is a catalyst of change, altering the distribution of both plants and animals. Recent research has shown that primates alter their behavior in response to this change. Here, we study primates' perceived threat of predation in fire-modified landscapes. We focus on the predator-related behaviors of vervet monkeys (Chlorocebus pygerythrus) after controlled burning events. We compare the occurrence of vigilance and predator-deterrent behaviors, including alarm calls, scanning, and flight across different habitats and burn conditions to test the hypothesis that subjects exhibit fewer predator-specific vigilance and predator-deterrent behaviors in burned areas. The results demonstrate that predator-related behaviors occur less often in burned habitats, suggesting that predators are less common in these areas. These results provide foundations for examining hypotheses about the use of fire-altered landscapes among extinct hominins. We set these data in the context of increasing aridity, changes in burning regimes, and the emergence of pyrophilia in the human lineage.",
+      "journal": "Journal of human evolution",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "paper_002",
@@ -275,11 +423,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "pilot",
-      "developmental_stage": "adult",
-      "main_outcome": "Vervet monkeys produce acoustically distinct alarm calls for aerial and terrestrial predators, and conspecifics respond with appropriate anti-predator behaviour.",
-      "dataset_available": "no",
-      "dataset_name": null
+      "source": "pilot"
     },
     {
       "paper_id": "10_32521_2074-8132_2019_4_105-113",
@@ -289,11 +433,7 @@
       "abstract": "",
       "journal": "Moscow University Anthropology Bulletin (Vestnik Moskovskogo Universiteta. Seria XXIII. Antropologia)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1017_9781139019941_012",
@@ -303,11 +443,7 @@
       "abstract": "",
       "journal": "Savanna Monkeys",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11575_prism_37261",
@@ -317,11 +453,47 @@
       "abstract": "Vervet monkey (Chlorocebus pygerythrus) vocalizations have been the subject of considerable research, most notably for their putative language-like qualities. While this focus has inspired a productive research effort investigating vocal communication in non-human primates, it has diverted attention away from other, non-linguistically inspired mechanisms by which vocal signals exert their effects on receivers. My research focuses on two vocal classes, grunts and alarm calls, and how their acoustic structures vary according to sender-specific attributes, including age, sex, body size, and identity - all of which have the potential to influence receiver response. I recorded calls from three wild groups of vervet monkeys over a 7-month period on the Samara Game Reserve, South Africa. I used random forest models to determine whether grunts varied in structure in relation to caller age, sex, identity and context, and whether alarms varied with sex and caller identity. I performed a cluster ",
       "journal": "PRISM (University of Calgary)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_31183141",
+      "title": "Behavioural patterns of vocal greeting production in four primate species",
+      "year": 2019,
+      "doi": "10.1098/rsos.182181",
+      "abstract": "Social animals have evolved a range of signals to avoid aggressive and facilitate affiliative interactions. Vocal behaviour is especially important in this respect with many species, including various primates, producing acoustically distinct 'greeting calls' when two individuals approach each other. While the ultimate function of greeting calls has been explored in several species, little effort has been made to understand the mechanisms of this behaviour across species. The aim of this study was to explore how differences in individual features (individual dominance rank), dyadic relationships (dominance distance and social bond strength) and audience composition (presence of high-ranking or strongly bonded individuals in proximity), related to vocal greeting production during approaches between two individuals in the philopatric sex of four primate species: female olive baboons (",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31133723",
+      "title": "Conserved alarm calls but rapid auditory learning in monkey responses to novel flying objects",
+      "year": 2019,
+      "doi": "10.1038/s41559-019-0903-5",
+      "abstract": "To evaluate the flexibility in vocal production and comprehension in a non-human primate, we presented a drone to West African green monkeys, Chlorocebus sabaeus. Calls given in response to the drone were clearly distinct from those given to other predators, but highly similar to the aerial alarm calls of the East African vervet monkey, Chlorocebus pygerythrus, suggesting that call structure is conserved. To probe how rapidly the animals attached meaning to the sound of the drone, we played back the drone sound after one to three exposures. Subjects immediately scanned the sky and ran for cover. In contrast to vocal production, comprehension learning was rapid and open-ended.",
+      "journal": "Nature ecology & evolution",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31042731",
+      "title": "Correlates of social role and conflict severity in wild vervet monkey agonistic screams",
+      "year": 2019,
+      "doi": "10.1371/journal.pone.0214640",
+      "abstract": "Screams are acoustically distinct, high-pitched and high-amplitude calls, produced by many social species. Despite a wide range of production contexts, screams are characterised by an acoustic structure that appears to serve in altering the behaviour of targeted receivers during agonistic encounters. In chimpanzees, this can be achieved by callers producing acoustic variants that correlate with their identity, social role, relationship with the targeted recipient, the composition of the audience and the nature of the event. Although vervet monkeys (Chlorocebus pygerythrus) have been studied for decades, not much is known about their agonistic screams. Here, we examined agonistic screams produced by wild vervet monkeys to investigate the degree to which caller identity, social role and conflict severity affected call structure. We found that screams were both individually distinctive and dependent of the agonistic events. In particular, victim screams were longer and higher-pitched than aggressor screams, while screams produced in severe conflicts (chases, physical contact) had higher entropy than those in mild conflicts. We discuss these findings in terms of their evolutionary significance and suggest that acoustic variation might serve to reduce the aggression level of opponents, while simultaneously attracting potential helpers.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30987738",
+      "title": "Primates are living links to our past: The contribution of comparative studies with wild vervet monkeys to the field of social cognition",
+      "year": 2019,
+      "doi": "10.1016/j.cortex.2019.03.007",
+      "abstract": "By studying the behavior of nonhuman primates, particularly in wild settings, researchers have been able to investigate a range of cognitive abilities, shedding light on the evolution of certain aspects of cognition and revealing potential evolutionary precursors of many capacities considered uniquely human. Vervet monkeys (Chlorocebus pygerythrus) have been widely investigated due to their prevalence and their suitability for experimental testing in the wild with an ecologically valid approach that is not possible with many other primates, especially apes. Here we review advances in the understanding of a number of cognitive and behavioral processes that have been gleaned from studies conducted with wild vervet monkeys over the past half century, primarily focusing on social cognitive abilities. We direct our attention to three major areas of study; communication, cooperation and trade, and social learning. We discuss how findings from this species have contributed (and continue to contribute) to our understanding of the evolution of human cognitive capacities and suggest future avenues of research with this species.",
+      "journal": "Cortex; a journal devoted to the study of the nervous system and behavior",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2019-3_rlts_t92252770a92252777_en",
@@ -331,11 +503,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_4953v0_1_reviews_3",
@@ -345,11 +513,17 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_7287_peerj_4953v0_1_reviews_1",
+      "title": "Peer Review #1 of \"Adaptive genetic variation at three loci in South African vervet monkeys (Chlorocebus pygerythrus) and the role of selection within primates (v0.1)\"",
+      "year": 2018,
+      "doi": "10.7287/peerj.4953v0.1/reviews/1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_anbehav_2017_01_006",
@@ -359,11 +533,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-016-1064-4",
@@ -373,11 +543,27 @@
       "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_32110697",
+      "title": "Olive baboons' (",
+      "year": 2017,
+      "doi": "10.5194/pb-4-101-2017",
+      "abstract": "In this paper we report on two encounters between olive baboons (",
+      "journal": "Primate biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_27368619",
+      "title": "Primate vocal production and the riddle of language evolution",
+      "year": 2017,
+      "doi": "10.3758/s13423-016-1076-8",
+      "abstract": "Trying to uncover the roots of human speech and language has been the premier motivation to study the signalling behaviour of nonhuman primates for several decades. Focussing on the question of whether we find evidence for linguistic reference in the production of nonhuman primate vocalizations, I will first discuss how the criteria used to diagnose referential signalling have changed over time, and will then turn to the paradigmatic case of semantic communication in animals, the alarm calls of vervet monkeys, Chlorocebus pygerythrus. A recent in-depth analysis of the original material revealed that, while the alarm calls could be well distinguished, calls of similar structure were also used in within- and between-group aggression. This finding is difficult to reconcile with the idea that calls denote objects in the environment. Furthermore, nonhuman primates show only minimal signs of vocal production learning, one key prerequisite for conventionalized and symbolic communication. In addition, the structure of calls in different populations or closely related species is highly conserved. In conclusion, any continuity between nonhuman primate and human communication appears to be found at the level of the processing of signals. Why and how the ancestors of our own species one day began to talk to each other continues to be an enigma. Future research should focus on changes in the neural structure supporting volitional control over vocalizations, the gene networks associated with vocal production, and the developmental processes involved in the integration of production and perception of vocalizations.",
+      "journal": "Psychonomic bulletin & review",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2307_j_ctt19b9jmw_69",
@@ -387,11 +573,7 @@
       "abstract": "",
       "journal": "Animals of Kruger National Park",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3758_s13423-016-1076-8",
@@ -401,11 +583,7 @@
       "abstract": "Trying to uncover the roots of human speech and language has been the premier motivation to study the signalling behaviour of nonhuman primates for several decades. Focussing on the question of whether we find evidence for linguistic reference in the production of nonhuman primate vocalizations, I will first discuss how the criteria used to diagnose referential signalling have changed over time, and will then turn to the paradigmatic case of semantic communication in animals, the alarm calls of vervet monkeys, Chlorocebus pygerythrus. A recent in-depth analysis of the original material revealed that, while the alarm calls could be well distinguished, calls of similar structure were also used in within- and between-group aggression. This finding is difficult to reconcile with the idea that calls denote objects in the environment. Furthermore, nonhuman primates show only minimal signs of vocal production learning, one key prerequisite for conventionalized and symbolic communication. In a",
       "journal": "Psychonomic Bulletin & Review",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_srep13220",
@@ -415,11 +593,27 @@
       "abstract": "The alarm calls of vervet monkeys (Chlorocebus pygerythrus) constitute the classic textbook example of semantic communication in nonhuman animals, as vervet monkeys give acoustically distinct calls to different predators and these calls elicit appropriate responses in conspecifics. They also give similar sounding calls in aggressive contexts, however. Despite the central role the vervet alarm calls have played for understanding the evolution of communication, a comprehensive, quantitative analysis of the acoustic structure of these calls was lacking. We used 2-step cluster analysis to identify objective call types and discriminant function analysis to assess context specificity. Alarm calls given in response to leopards, eagles, and snakes could be well distinguished, while the inclusion of calls given in aggressive contexts yielded some overlap, specifically between female calls given to snakes, eagles and during aggression, as well as between male vervet barks (additionally recorded ",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_26286236",
+      "title": "Vervets revisited: A quantitative analysis of alarm call structure and context specificity",
+      "year": 2015,
+      "doi": "10.1038/srep13220",
+      "abstract": "The alarm calls of vervet monkeys (Chlorocebus pygerythrus) constitute the classic textbook example of semantic communication in nonhuman animals, as vervet monkeys give acoustically distinct calls to different predators and these calls elicit appropriate responses in conspecifics. They also give similar sounding calls in aggressive contexts, however. Despite the central role the vervet alarm calls have played for understanding the evolution of communication, a comprehensive, quantitative analysis of the acoustic structure of these calls was lacking. We used 2-step cluster analysis to identify objective call types and discriminant function analysis to assess context specificity. Alarm calls given in response to leopards, eagles, and snakes could be well distinguished, while the inclusion of calls given in aggressive contexts yielded some overlap, specifically between female calls given to snakes, eagles and during aggression, as well as between male vervet barks (additionally recorded in South Africa) in leopard and aggressive contexts. We suggest that both cognitive appraisal of the situation and internal state contribute to the variation in call usage and structure. While the semantic properties of vervet alarm calls bear little resemblance to human words, the existing acoustic variation, possibly together with additional contextual information, allows listeners to select appropriate responses.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24771960",
+      "title": "Limited geographic variation in the acoustic structure of and responses to adult male alarm barks of African green monkeys",
+      "year": 2014,
+      "doi": "10.1007/s00265-014-1694-y",
+      "abstract": "The global diversity of human languages is a remarkable feature of our species, which requires a capacity for rapid vocal learning. Given that primate alarm calling systems have played an important role in the language origin debate, identifying geographic variation in primate alarm calls and understanding the underlying causal mechanisms are important steps to help uncover evolutionary precursors to language. This study investigates geographic variation in the alarm bark of the widely distributed African green monkey (",
+      "journal": "Behavioral ecology and sociobiology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_anbehav_2013_07_006",
@@ -429,11 +623,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_53846_goediss-4042",
@@ -443,11 +633,27 @@
       "abstract": "It is difficult to overestimate the influence of language in day to day life, and language is often proposed as the clearest feature to distinguish us, Homo sapiens, from all other animals. The origin of language has long been the subject of speculation and myth, and more recently, together with the development of Darwinian evolutionary concepts, the evolution of language has become the focus of multidisciplinary scientific investigation. The emerging picture is that the language faculty is a complex multi-component system, with the possibility of each subcomponent having arisen from a different evolutionary pathway. Comparative studies of communication and cognition in non-human animals have the potential to identify whether these subcomponents, or biological precursors to them, are shared with other species, offering insights into the communicative abilities of our pre-linguistic ancestors and the evolutionary pre-cursors to language. To date there is no comprehensive list of what co",
       "journal": "",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24129028",
+      "title": "Barbados green monkeys (Chlorocebus sabaeus) recognize ancestral alarm calls after 350 years of isolation",
+      "year": 2013,
+      "doi": "10.1016/j.beproc.2013.09.012",
+      "abstract": "Vervet monkeys (Chlorocebus pygerythrus) produce alarm calls and anti-predator behaviors that are specific to a threatening predator's mode of attack. Upon hearing a leopard alarm, the monkeys will run up trees where they are relatively safe. In contrast, eagle alarms prompt the monkeys to run under bushes and snake alarms stimulate bipedal standing. Early researchers proposed that the meaning of each alarm call is conveyed by observational learning. If this true then absence of the predator that elicits the alarm call may lead to alteration or decay of the alarm's meaning since there is no longer opportunity for observational learning to occur. The present study tested this hypothesis by presenting alarm calls to a closely related species of monkeys (Chlorocebus sabaeus) that have been isolated from their ancestral predators for more than 350 years. The monkeys ran up trees in response to a leopard alarm, but not when the same alarm was played backwards and not in response to a snake alarm. Snake alarms failed to reliably elicit bipedal standing. These results suggest that the leopard alarm call conveys the same information to Barbados green monkeys as West African green monkeys despite generations of isolation from leopards.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_1002_evan_21319",
+      "title": "Functionally referential signals: A promising paradigm whose time has passed",
+      "year": 2012,
+      "doi": "10.1002/evan.21319",
+      "abstract": "Finding the evolutionary origins of human language in the communication systems of our closest living relatives has, for the last several decades, been a major goal of many in the field of animal communication generally and primate communication specifically.1-4 The so-called \"functionally referential\" signals have long been considered promising in this regard, with apparent parallels with the semantic communication that characterizes language. The once-prominent idea that functionally referential signals are word-like, in that they are arbitrary sounds that refer to phenomena external to the caller, has largely been abandoned.5 However, the idea that these signals may offer the strongest link between primate communication and human language remains widespread, primarily due to the fact the behavior of receivers indicates that such signals enable them to make very specific inferences about their physical or social environment. Here we review the concept of functional reference and disc",
+      "journal": "Evolutionary Anthropology Issues News and Reviews",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_5040_9781472926920_0050",
@@ -457,14 +663,10 @@
       "abstract": "",
       "journal": "Mammals of Africa : Primates",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

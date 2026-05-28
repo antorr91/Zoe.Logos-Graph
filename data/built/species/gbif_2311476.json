@@ -24,10 +24,10 @@
     "color": "amber"
   },
   "stats": {
-    "paper_count": 20,
-    "claim_count": 10,
-    "doi_count": 20,
-    "media_count": 0
+    "paper_count": 37,
+    "claim_count": 9,
+    "doi_count": 33,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,92 +45,213 @@
     "ultrasonic vocalisation"
   ],
   "contexts": [
-    "isolation",
     "parent-offspring interaction",
-    "courtship"
+    "courtship",
+    "isolation"
   ],
   "functions": [
     "distress signalling",
-    "maternal retrieval",
-    "mate attraction"
+    "mate attraction",
+    "maternal retrieval"
   ],
   "communication_profile": {
     "vocalisations": [
       {
         "value": "ultrasonic vocalisation",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "contexts": [
       {
-        "value": "isolation",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
-      },
-      {
         "value": "parent-offspring interaction",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "isolation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "functions": [
       {
         "value": "distress signalling",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
-      },
-      {
-        "value": "maternal retrieval",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "maternal retrieval",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
-    "methods": [
-      {
-        "value": "MUPET",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "UMAP",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "k-means clustering",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      }
-    ]
+    "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 178,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 177,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 176,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 175,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 174,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 173,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 172,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 171,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 170,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1152/ajpcell.00755.2025",
+      "url": "https://doi.org/10.1152/ajpcell.00755.2025",
+      "title": "Postnatal development and form-function relationships of the vocal folds in California mice (",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12864-026-12549-6",
+      "url": "https://doi.org/10.1186/s12864-026-12549-6",
+      "title": "MitoCommun: a database for decoding mitochondrial communication networks",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ps.8652",
+      "url": "https://doi.org/10.1002/ps.8652",
+      "title": "New polymorphisms of Vkork1 gene related to anticoagulant resistance of rats and mice in Italy",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1016/j.anbehav.2025.123376",
       "url": "https://doi.org/10.1016/j.anbehav.2025.123376",
@@ -139,11 +260,67 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1017/awf.2025.10022",
+      "url": "https://doi.org/10.1017/awf.2025.10022",
+      "title": "Vocalisations as a potential indicator of parturition in C57BL/6J mice",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1097/JS9.0000000000002894",
+      "url": "https://doi.org/10.1097/JS9.0000000000002894",
+      "title": "Single-cell transcriptomic analysis reveals therapeutic mechanisms of adipose-derived stem cell exosomes in sepsis-induced lung injury",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2025.0333",
+      "url": "https://doi.org/10.1098/rsbl.2025.0333",
+      "title": "Hidden in plain sound: the scientific potential of house mouse squeaks",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2025.0995",
+      "url": "https://doi.org/10.1098/rspb.2025.0995",
+      "title": "Vocal communication is seasonal in social groups of wild, free-living house mice",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1101/2025.03.24.644972",
       "url": "https://doi.org/10.1101/2025.03.24.644972",
       "title": "Vocal ontogeny in\n                  <i>Mus musculus</i>",
       "year": 2025,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1128/jvi.01357-24",
+      "url": "https://doi.org/10.1128/jvi.01357-24",
+      "title": "High astrovirus diversity in an endemic bat species suggests multiple spillovers from synanthropic rodents and birds",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1152/ajpregu.00168.2025",
+      "url": "https://doi.org/10.1152/ajpregu.00168.2025",
+      "title": "Microevolutionary divergence and plasticity of laryngeal shape in the house mouse (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12915-025-02245-4",
+      "url": "https://doi.org/10.1186/s12915-025-02245-4",
+      "title": "Pre- and post-copulatory traits are affected by experimental inbreeding, but they are not correlated",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/genes16040432",
+      "url": "https://doi.org/10.3390/genes16040432",
+      "title": "GC Content in Nuclear-Encoded Genes and Effective Number of Codons (ENC) Are Positively Correlated in AT-Rich Species and Negatively Correlated in GC-Rich Species",
+      "year": 2025,
+      "source": "pubmed"
     },
     {
       "doi": "10.1016/j.cub.2023.02.045",
@@ -188,6 +365,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1007/s00265-019-2778-5",
+      "url": "https://doi.org/10.1007/s00265-019-2778-5",
+      "title": "Hissing like a snake: bird hisses are similar to snake hisses and prompt similar anxiety behavior in a mammalian model",
+      "year": 2019,
+      "source": "openalex"
+    },
+    {
       "doi": "10.1016/j.anbehav.2017.01.021",
       "url": "https://doi.org/10.1016/j.anbehav.2017.01.021",
       "title": "What's in a squeak? Female vocal signals predict the sexual behaviour of male house mice during courtship",
@@ -214,6 +398,13 @@
       "title": "Influence of Cat Odor on Reproductive Behavior and Physiology in the House Mouse (Mus Musculus)",
       "year": 2014,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0003067",
+      "url": "https://doi.org/10.1371/journal.pone.0003067",
+      "title": "Unusual Repertoire of Vocalizations in the BTBR T+tf/J Mouse Model of Autism",
+      "year": 2008,
+      "source": "openalex"
     },
     {
       "doi": "10.1371/journal.pbio.0030386",
@@ -274,6 +465,46 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41962932",
+      "title": "Acute Comparative Analysis of Anesthetic Methods in Neonatal Mice (Mus musculus) Using Ultrasonic Vocalizations and Biochemical Markers",
+      "year": 2026,
+      "doi": "10.30802/AALAS-JAALAS-25-193",
+      "abstract": "Hypothermia has been used as an anesthetic technique in neonatal rodents since 1934. While the long-term impacts of neonatal anesthetic exposure in adult mice are still under investigation, its acute effect during the neonatal period is poorly characterized. Although hypothermia can achieve sufficient anesthetic depth to eliminate pain sensation, its effect during induction and recovery remains unclear. Mice emit ultrasonic vocalizations (USVs) within a range of 30-120 kHz for normal behavior and communication, with lower frequencies often associated with pain and distress. Using USV analysis and other physiologic measures, we assessed the well-being of neonatal mice subjected to different anesthetic exposures at different ages (postnatal day [PND] 2, 5, 8, 11, and 14). C57BL/6 neonatal mice (n = 483) were randomly assigned to 1 of 7 groups: no handling or anesthesia, handling only, hypothermia (PND 2, 5, and 8 only), isoflurane vaporizer, sevoflurane vaporizer, isoflurane drop, or sevoflurane drop methods. USVs were recorded at 4 time points: before the anesthetic exposure (T0), immediately during recovery (DR), 5 minutes after recovery (PR), and 120 minutes after recovery (T120) (n ≥ 12 pups per group). Induction and recovery were timed. At T120, terminal blood was collected to measure stress-related biochemical markers (blood glucose, corticosterone, norepinephrine). Our results show that neonatal mice receiving hypothermia anesthesia had significantly lower frequency of USVs during and after recovery, longer duration of USV calls, and longer recovery time compared with other anesthetic groups. Our findings suggest that hypothermia anesthesia induces acute distress in neonatal mice ≤PND 8 compared with inhalational anesthetics. In accordance with the principles of the 3Rs to minimize pain and distress, using inhalant anesthesia (isoflurane or sevoflurane) is preferable to hypothermia for neonatal anesthesia in mouse pups at ≤PND 8.",
+      "journal": "Journal of the American Association for Laboratory Animal Science : JAALAS",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41545919",
+      "title": "MitoCommun: a database for decoding mitochondrial communication networks",
+      "year": 2026,
+      "doi": "10.1186/s12864-026-12549-6",
+      "abstract": "UNLABELLED: Mitochondria are highly dynamic signaling organelles that engage in continuous bidirectional communication with the cytoplasm and participate in biological processes such as cell death, inflammation, and epigenetic modification. Mitochondria receive, process and export various types of signals, ranging from metabolites to non-coding RNAs. Despite their central importance, progress in understanding mitochondrial signaling has been hampered by the fragmented characterization of their communication networks. In this study, we present MitoCommun, a manually curated database comprising 580 mitochondria-derived signaling events from five model species:  SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s12864-026-12549-6. UNLABELLED: ● Comprehensive data were curated for different mitochondrial communications. ● A user-friendly database was developed for browsing and searching the results. ● Multiple signals and pathways were collected, combining detailed cell stresses. ● Mitochondrial signaling networks were integrated across organisms, organelles and functions. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s12864-026-12549-6.",
+      "journal": "BMC genomics",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41512279",
+      "title": "Postnatal development and form-function relationships of the vocal folds in California mice (",
+      "year": 2026,
+      "doi": "10.1152/ajpcell.00755.2025",
+      "abstract": "Most mammals produce vocal signals through vocal fold oscillations in the larynx, driven by airflow. Common species used as models (e.g., house mice, rats, and rabbits) may not reflect the cellular specializations or developmental adaptations needed to support diverse vocal strategies or tissue repair under the mechanical stresses of phonation in humans. This study investigates vocal fold structure and function in California mice (",
+      "journal": "American journal of physiology. Cell physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41183733",
+      "title": "Female mice in established social groups use different ultrasonic vocalizations during peaceful and aggressive interactions",
+      "year": 2026,
+      "doi": "10.1016/j.bbr.2025.115904",
+      "abstract": "The ultrasonic vocalizations (USVs) of house mice (Mus musculus) have a surprisingly complex structure and have been actively studied as a model for applied questions in biomedical science. Despite this, the functional significance of different USV types and their use during natural social behaviour in diverse groups remains unclear. In this pilot long-term study, we examined the ultrasound activity of female mice housed in stable groups within an enriched environment, focusing on how behavioural context influences USV time-frequency characteristics, call type occurrence, and nonlinear phenomena. Our findings show that USVs are mainly produced in bouts, and bouts containing ten or more variable calls always accompanying direct social interactions. USV variables and types varied markedly depending on the interaction context. During aggressive encounters, USVs and entire bouts became longer, vocalization time and frequency modulation increased, while peak and minimum fundamental frequencies decreased. Additionally, aggressive context was characterized by a higher prevalence of multi-component and complex-low USVs (with peak frequency < 50 kHz), and increased nonlinear phenomena. These results suggest that USV features closely reflect emotional arousal (intensity) and probably also valence (positive/negative) in female mice during social hierarchy formation and maintenance. Notably, the relationship between arousal and nonlinear vocal phenomena in mice USVs follows patterns observed in audible vocalizations of other mammals (increase with arousal). In the future, complex-low USVs could potentially serve as non-invasive indicators of negative emotional expression in groups of female mice. This opens new possibilities for acoustic home-cage monitoring aimed at welfare assessment and other applied uses.",
+      "journal": "Behavioural brain research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1101_2025_03_24_644972",
       "title": "Vocal ontogeny in\n                  <i>Mus musculus</i>",
       "year": 2025,
@@ -281,11 +512,7 @@
       "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Infants of many species produce distress calls when in need of parental care. As they mature and gain independence from caregivers, juveniles stop producing infant calls and begin producing adult-like vocalizations in a variety of species-typical contexts. Neonatal mice (\n                  <jats:italic>Mus musculus</jats:italic>\n                  ) produce “isolation” ultrasonic vocalizations (USVs) when separated from the nest, and in contrast, adolescent and adult mice produce “social” USVs during interactions with conspecifics. Although this transition in vocal behavior is known to occur, its developmental timing remains poorly described. In the current study, we performed longitudinal measurements of mouse USVs to establish the age at which juvenile mice begin producing social USVs. Every 4 days (postnatal day (P)12-P28), USVs were first recorded from individual mice in solo sessions to establish rates of ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_anbehav_2025_123376",
@@ -295,11 +522,117 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41134674",
+      "title": "Microevolutionary divergence and plasticity of laryngeal shape in the house mouse (",
+      "year": 2025,
+      "doi": "10.1152/ajpregu.00168.2025",
+      "abstract": "The morphology of the larynx is essential for vocalization, respiration, and airway protection, yet the sources of phenotypic variation within species are not well understood. This study investigated whether genetic background exerts a stronger influence than environmental factors on laryngeal morphology in two house mouse strains. Using geometric morphometrics, we analyzed the size and shape of 79 laryngeal specimens and examined the effects of body size, genetics, obesity, exercise, and social housing. Our results demonstrate that genetic background significantly shapes laryngeal structure. There were significant shape differences between the two genetic strains, and the inbred strain showed less phenotypic variation than the outbred mice. Although these structural differences likely arose without direct selection, they were associated with marginal differences in vocal output, suggesting functional relevance. Obesity and exercise also influenced laryngeal morphology, but their effects were secondary to genetics. Notably, leptin levels were linked to size and shape changes in the vocal organ. These findings suggest that random genetic drift and pleiotropy can be important drivers of laryngeal evolution in house mice. Overall, both genetic and environmental factors contribute to laryngeal shape, underscoring the organ's plasticity.",
+      "journal": "American journal of physiology. Regulatory, integrative and comparative physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41015162",
+      "title": "Acoustic traits of male ultrasonic courtship song in a rodent with induced ovulation, the Harting's vole (Microtus hartingi)",
+      "year": 2025,
+      "doi": "10.1016/j.beproc.2025.105277",
+      "abstract": "Among rodents, male ultrasonic courtship songs were investigated regarding their acoustical structure only in laboratory mice (Mus musculus) and used as bioindicators for pharmacological research. This study describes the complex acoustic structure of male ultrasonic courtship songs of another rodent species, the Harting's vole (Microtus hartingi), at the levels of phrases, syllables and notes. Male songs were recorded from 13 of 59 males paired for short-term with unfamiliar female on the neutral arena during sexual behaviour including copulations or attempts of copulations. We predicted that songs of males in trials with successful copulations will be more complex than in the trials including only attempts of copulations. Against prediction, the songs of males which only displayed attempts of copulations were more complex, with longer phrases, more numbers of syllables per phrase and with shorter intervals between syllables within phrases at the same number of notes per syllable. We propose that male vole ultrasonic songs associated with mating may provide stimuli for inducing ovulation in female voles. We discuss the similarities and differences of male songs of Harting's voles with literature data on male song in domestic mice, which produce fewer complex songs when courtship ended with ejaculations than when ejaculations did not occur.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40858247",
+      "title": "Hidden in plain sound: the scientific potential of house mouse squeaks",
+      "year": 2025,
+      "doi": "10.1098/rsbl.2025.0333",
+      "abstract": "The house mouse (",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40693133",
+      "title": "Vocalisations as a potential indicator of parturition in C57BL/6J mice",
+      "year": 2025,
+      "doi": "10.1017/awf.2025.10022",
+      "abstract": "Breeding management in laboratory rodents is challenging, particularly around parturition and the neonatal period, where cage disturbance is often avoided in an attempt to limit neonatal mortality. Nevertheless, cage-side observations and single daily checks frequently underestimate pup numbers born and miss parturition complications. Home Cage Monitoring (HCM) systems are gaining popularity in animal facilities, detecting critical events such as food availability and activity levels. Parturition is a complex event involving specific patterns of behaviour, activity and vocalisations. In this study, audio and video data were collected from parturition events of single-housed C57BL/6J females and breeding pairs housed in a prototype rack with integrated microphones. Vocalisations were detected during parturition in both housing conditions, with minimal vocalisations observed prior to parturition, except for ultrasonic sounds in pair-housed mice (",
+      "journal": "Animal welfare (South Mimms, England)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40607951",
+      "title": "Single-cell transcriptomic analysis reveals therapeutic mechanisms of adipose-derived stem cell exosomes in sepsis-induced lung injury",
+      "year": 2025,
+      "doi": "10.1097/JS9.0000000000002894",
+      "abstract": "BACKGROUND: Sepsis-induced acute lung injury remains a leading cause of mortality in critically ill patients, with limited effective treatments beyond supportive care. This study investigates the therapeutic efficacy and underlying mechanisms of adipose-derived stem cell (ADSC) exosomes on sepsis-induced lung injury and characterizes underlying cellular and molecular mechanisms. METHODS: We employed a cecal ligation and puncture (CLP) mouse model of sepsis and using male C57BL/6J mice ( Mus musculus , 8-10 weeks old) and administered ADSC-derived exosomes intravenously. Animals were randomly assigned to Sham, CLP, or CLP + ADSC-exosome groups. Survival rates ( n =12 for each group) and lung histopathology ( n =5 for each group) were assessed. Single-cell RNA sequencing was performed on lung tissues to analyze cell type-specific transcriptomic changes and intercellular communication networks ( n =2 for each group). RESULTS: ADSC exosome treatment significantly improved survival rates and reduced lung pathology in CLP mice. Treatment altered lung cellular composition, increasing neutrophils, NKT cells, and monocytes while decreasing B and T cells. Gene expression analysis revealed downregulation of pro-inflammatory markers (TNF, IL-10, CCL3, and CCL4) and upregulation of tissue repair pathways. In neutrophils, exosomes reduced expression of respiratory burst genes while enhancing tissue repair mechanisms. In monocytes, treatment suppressed inflammatory cytokine production while promoting anti-inflammatory phenotypes. Exosome treatment is associated with transcriptomic changes suggestive of restored intercellular communication networks disrupted by sepsis, with increased signaling via CSF3, ANGPT, SPP1, and CCL pathways. CONCLUSION: ADSC-derived exosomes effectively treat sepsis-induced lung injury by rebalancing the cellular environment and restoring homeostasis through modulation of immune cell function and intercellular communication, offering potential as a cell-fr",
+      "journal": "International journal of surgery (London, England)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40527459",
+      "title": "Vocal communication is seasonal in social groups of wild, free-living house mice",
+      "year": 2025,
+      "doi": "10.1098/rspb.2025.0995",
+      "abstract": "House mice (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40437484",
+      "title": "Pre- and post-copulatory traits are affected by experimental inbreeding, but they are not correlated",
+      "year": 2025,
+      "doi": "10.1186/s12915-025-02245-4",
+      "abstract": "BACKGROUND: It has been suggested that the expression of males' secondary sexual traits provides reliable indicators of their sperm traits, predicting positive correlations between pre- and post-copulatory traits (Fertility Indicator Hypothesis). Yet, it has also been suggested that males face life-history tradeoffs between investing into primary versus secondary sexual traits, predicting negative correlations (Sexual Allocation Tradeoff Hypothesis). These two hypotheses are not mutually exclusive when males' sexual traits are condition-dependent and high-quality males are better able to invest into both pre- and post-copulatory traits than low-quality males. To test these hypotheses, we manipulated the genetic quality of wild-derived male house mice by experimental inbreeding and first tested whether inbreeding affects primary or secondary sexual traits (condition-dependent expression). We then tested whether pre- and post-copulatory traits are correlated. We recorded courtship behavior and vocalizations of the males during female contact and measured males' reproductive organs, sperm quality, and the expression of four genes associated with spermatogenesis. RESULTS: Inbreeding did not reduce male courtship vocalizations, though it altered their vocal repertoire and reduced other courtship behaviors. Inbreeding negatively impacted relative testes mass and sperm quantity and quality, after two generations of inbreeding. We found no consistent correlations between pre-and post-copulatory traits, either positive or negative, regardless of inbreeding. CONCLUSIONS: Our results indicate that inbreeding impacted the expression of primary and secondary sexual traits in wild-derived house mice, which is the first such evidence to our knowledge, but we found no support for either the Fertility Indicator or the Sexual Allocation Tradeoff Hypotheses.",
+      "journal": "BMC biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40282392",
+      "title": "GC Content in Nuclear-Encoded Genes and Effective Number of Codons (ENC) Are Positively Correlated in AT-Rich Species and Negatively Correlated in GC-Rich Species",
+      "year": 2025,
+      "doi": "10.3390/genes16040432",
+      "abstract": "BACKGROUND/OBJECTIVES: Codon usage bias affects gene expression and translation efficiency across species. The effective number of codons (ENC) and GC content influence codon preference, often displaying unimodal or bimodal distributions. This study investigates the correlation between ENC and GC rankings across species and how their relationship affects codon usage distributions. METHODS: I analyzed nuclear-encoded genes from 17 species representing six kingdoms: one bacteria ( RESULTS: ENC and GC rankings are positively correlated (i.e., ENC increases as GC increases) in AT-rich species such as honeybees (R CONCLUSIONS: The correlation between ENC rank and GC rank differs among species, shaping codon usage distributions in opposite ways depending on whether a species' nuclear-encoded genes are AT-rich or GC-rich. Understanding these patterns might provide insights into translation efficiency, epigenetics mediated by CpG DNA methylation, epitranscriptomics of RNA modifications, RNA secondary structures, evolutionary pressures, and potential applications in genetic engineering and biotechnology.",
+      "journal": "Genes",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39840948",
+      "title": "High astrovirus diversity in an endemic bat species suggests multiple spillovers from synanthropic rodents and birds",
+      "year": 2025,
+      "doi": "10.1128/jvi.01357-24",
+      "abstract": "Beyond the role of bats as natural host reservoirs of infectious agents, the impact of viral spillover from other animal species to bats has been neglected. Given the limited virus-host specificity of astroviruses (AstVs) and their propensity for cross-species transmission, we hypothesized that AstVs could be transmitted within animal communities (rodents, birds, and bats) and that native endemic bats may be exposed to viruses hosted by other species. We investigated the presence of AstV RNA in 3,796 biological samples collected in Reunion Island from",
+      "journal": "Journal of virology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39815713",
+      "title": "New polymorphisms of Vkork1 gene related to anticoagulant resistance of rats and mice in Italy",
+      "year": 2025,
+      "doi": "10.1002/ps.8652",
+      "abstract": "BACKGROUND: Anticoagulant rodenticides (ARs) are a very effective tool to control rodent pest populations. Nevertheless, AR resistance has been documented worldwide. ARs block the cycle of vitamin K, leading to the death of the animal by internal bleeding: mutations in Vkorc1 gene can cause resistance. The spreading of AR-resistant rodents could lead to an increase of their populations, the associated diffusion of zoonotic pathogens, and to the amplified exposure of non-target animals to ARs, thus it is important to study its diffusion widely. This study aimed to report firstly the presence of Vkorc1 mutations in synanthropic rodents from the Emilia-Romagna region, Italy, and evaluate their role in resistance by means of molecular docking analysis. RESULTS: A total of 67 animals were analyzed: 24 Rattus norvegicus, 35 Rattus rattus and eight Mus musculus. Single nucleotide polymorphisms (SNPs) associated with AR resistance, in homozygosis or heterozygosis, were detected in 6/8 mice, on codons 128 and 139, and 13/24 R. norvegicus, on codons 61 and 139, and in 10/35 R. rattus, on codon 59. Furthermore, several newly described missense mutations were detected in all the tested species: the molecular docking analysis suggests a role of some of these (e.g., I123S and F87L) in resistance to brodifacoum, both in rats and in mice. CONCLUSION: The discovery of AR resistance SNPs in the 43.28% of tested rodents sounds as an alarm bell that requires the introduction of an integrated control approach, where ARs are not used routinely, but under specific monitoring evaluation. © 2025 The Author(s). Pest Management Science published by John Wiley & Sons Ltd on behalf of Society of Chemical Industry.",
+      "journal": "Pest management science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39635958",
+      "title": "Biodiversity conservation, consistency, and Mus musculus",
+      "year": 2025,
+      "doi": "10.1111/cobi.14427",
+      "abstract": "The house mouse (Mus musculus) is often thought of as a pest species in biological conservation, in agriculture, and in urban areas. As a result, populations are frequently targeted for control and eradication. However, M. musculus has notable within-species biodiversity: it has genetically, morphologically, and behaviorally distinct subpopulations. Conserving biodiversity is usually considered the paramount goal of conservation biology, not least because biodiversity is claimed to have intrinsic value. But the biodiversity in mouse populations is often overlooked. In particular, conservationists do not call for the unique diversity represented by threatened mouse populations to be protected. This is illustrative of the inconsistent valuing of biodiversity in conservation. If biodiversity is intrinsically valuable, then it should be valued; however, it reveals itself. And yet, in examples presented here, unique populations of house mice with clear biodiversity value are threatened by eradication campaigns on islands and by changing agricultural practices on the Swiss-Italian border. The inconsistent valuing of biodiversity in the case of M. musculus raises important questions about whether the intrinsic value of biodiversity in conservation is, in practice, conditional on other implicit assumptions. Conservación de la biodiversidad, consistencia y Mus musculus Resumen Es común que se considere al ratón doméstico (Mus musculus) como una especie plaga en la conservación biológica, la agricultura y las áreas urbanas. Por esto sus poblaciones son frecuentes objetivos del control y la eliminación. Sin embargo, M. musculus tiene una biodiversidad inter‐especie notoria, pues cuenta con subpoblaciones distintas de manea genética, morfológica y conductual. La conservación de la biodiversidad suele ser el objetivo primordial de la biología de la conservación, principalmente porque se considera que tiene un valor intrínseco. Sin embargo, la biodiversidad de las poblaciones de ",
+      "journal": "Conservation biology : the journal of the Society for Conservation Biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_cub_2023_02_045",
@@ -309,11 +642,7 @@
       "abstract": "Vocalization is a widespread social behavior in vertebrates that can affect fitness in the wild. Although many vocal behaviors are highly conserved, heritable features of specific vocalization types can vary both within and between species, raising the questions of why and how some vocal behaviors evolve. Here, using new computational tools to automatically detect and cluster vocalizations into distinct acoustic categories, we compare pup isolation calls across neonatal development in eight taxa of deer mice (genus Peromyscus) and compare them with laboratory mice (C57BL6/J strain) and free-living, wild house mice (Mus musculus domesticus). Whereas both Peromyscus and Mus pups produce ultrasonic vocalizations (USVs), Peromyscus pups also produce a second call type with acoustic features, temporal rhythms, and developmental trajectories that are distinct from those of USVs. In deer mice, these lower frequency \"cries\" are predominantly emitted in postnatal days one through nine, whereas ",
       "journal": "Current Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_34756_geos_2021_17_38169",
@@ -323,11 +652,7 @@
       "abstract": "",
       "journal": "Сборник Трудов XXXIV сессии Российского акустического общества",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fnbeh_2022_833168",
@@ -337,11 +662,7 @@
       "abstract": "Vocalisations play a central role in rodent communication, especially in reproduction related behaviours. In adult mice (<i>Mus musculus</i>) the emission of ultrasonic vocalisations (USVs) has been observed in courtship and mating behaviour, especially by males. These have been found to have distinctive individual signatures that influence female choice of mating partner. The most recent findings show that vocal communication also has a role in parental cooperation, in that female mice communicate with male partners in ultrasonic frequencies to induce paternal behaviour. Infant vocalisations form the other important part of reproductive vocal communication. Although born deaf, neonatal mice are capable of producing vocalisations since birth. As an altricial species, successful mother-infant communication is essential for survival, and these vocalisations are important modulators of maternal behaviour. Three main types of infant vocalisations have been identified and characterised. Mos",
       "journal": "Frontiers in Behavioral Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "paper_005",
@@ -351,11 +672,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "pilot",
-      "developmental_stage": "early-life",
-      "main_outcome": "Infant mice produce acoustically heterogeneous ultrasonic vocalisations during separation; distinct call types cluster by developmental age and predict maternal retrieval probability.",
-      "dataset_available": "yes",
-      "dataset_name": "Dryad_MouseUSV_2020"
+      "source": "pilot"
     },
     {
       "paper_id": "10_32388_wwabdj",
@@ -365,11 +682,7 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32388_fxh43c",
@@ -379,11 +692,7 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1044_2020_jslhr-20-00070",
@@ -393,11 +702,17 @@
       "abstract": "Purpose The larynx plays a role in swallowing, respiration, and voice production. All three functions change during ontogeny. We investigated ontogenetic shape changes using a mouse model to inform our understanding of how laryngeal form and function are integrated. We understand the characterization of developmental changes to larynx anatomy as a critical step toward using rodent models to study human vocal communication disorders. Method Contrast-enhanced micro-computed tomography image stacks were used to generate three-dimensional reconstructions of the CD-1 mouse (<i>Mus musculus</i>) laryngeal cartilaginous framework. Then, we quantified size and shape in four age groups: pups, weanlings, young, and old adults using a combination of landmark and linear morphometrics. We analyzed postnatal patterns of growth and shape in the laryngeal skeleton, as well as morphological integration among four laryngeal cartilages using geometric morphometric methods. Acoustic analysis of vocal patt",
       "journal": "Journal of Speech Language and Hearing Research",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1007_s00265-019-2778-5",
+      "title": "Hissing like a snake: bird hisses are similar to snake hisses and prompt similar anxiety behavior in a mammalian model",
+      "year": 2019,
+      "doi": "10.1007/s00265-019-2778-5",
+      "abstract": "",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0169705",
@@ -407,11 +722,7 @@
       "abstract": "Early-life social isolation has profound effects on adult social competence. This is often expressed as increased aggression or inappropriate displays of courtship-related behaviors. The social incompetence exhibited by isolated animals could be in part due to an altered ability to participate in communicatory exchanges. House mice (Mus musculus) present an excellent model for exploring this idea, because social isolation has a well-established influence on their social behavior, and mice engage in communication via multiple sensory modalities. Here, we tested the prediction that social isolation during early life would influence ultrasonic vocalizations (USVs) emitted by adult male mice during same-sex social encounters. Starting at three weeks of age, male mice were housed individually or in social groups of four males for five weeks, after which they were placed in one of three types of paired social encounters. Pair types consisted of: two individually housed males, two socially ho",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2017_01_021",
@@ -421,11 +732,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_129361",
@@ -435,11 +742,7 @@
       "abstract": "Mice (Mus musculus) form large and dynamic social groups and emit ultrasonic vocalizations in a variety of social contexts. Surprisingly, these vocalizations have been studied almost exclusively in the context of cues from only one social partner, despite the observation that in many social species the presence of additional listeners changes the structure of communication signals. Here, we show that male vocal behavior elicited by female odor is affected by the presence of a male audience - with changes in vocalization count, acoustic structure and syllable complexity. We further show that single sensory cues are not sufficient to elicit this audience effect, indicating that multiple cues may be necessary for an audience to be apparent. Together, these experiments reveal that some features of mouse vocal behavior are only expressed in more complex social situations, and introduce a powerful new assay for measuring detection of the presence of social partners in mice.",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1201_b16511-19",
@@ -449,11 +752,17 @@
       "abstract": "",
       "journal": "Neurobiology of Chemical Communication",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0003067",
+      "title": "Unusual Repertoire of Vocalizations in the BTBR T+tf/J Mouse Model of Autism",
+      "year": 2008,
+      "doi": "10.1371/journal.pone.0003067",
+      "abstract": "BTBR T+ tf/J (BTBR) is an inbred mouse strain that displays social abnormalities and repetitive behaviors analogous to the first and third diagnostic symptoms of autism. Here we investigate ultrasonic vocalizations in BTBR, to address the second diagnostic symptom of autism, communication deficits. As compared to the commonly used C57BL/6J (B6) strain, BTBR pups called more loudly and more frequently when separated from their mothers and siblings. Detailed analysis of ten categories of calls revealed an unusual pattern in BTBR as compared to B6. BTBR emitted high levels of harmonics, two-syllable, and composite calls, but minimal numbers of chevron-shaped syllables, upward, downward, and short calls. Because body weights were higher in BTBR than B6 pups, one possible explanation was that larger thoracic size was responsible for the louder calls and different distribution of syllable categories. To test this possibility, we recorded separation calls from FVB/NJ, a strain with body weigh",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pbio_0030386",
@@ -463,11 +772,7 @@
       "abstract": "Previously it was shown that male mice, when they encounter female mice or their pheromones, emit ultrasonic vocalizations with frequencies ranging over 30-110 kHz. Here, we show that these vocalizations have the characteristics of song, consisting of several different syllable types, whose temporal sequencing includes the utterance of repeated phrases. Individual males produce songs with characteristic syllabic and temporal structure. This study provides a quantitative initial description of male mouse songs, and opens the possibility of studying song production and perception in an established genetic model organism.",
       "journal": "PLoS Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_15760_etd_7102",
@@ -477,11 +782,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1515_mamm-1996-0301",
@@ -491,11 +792,7 @@
       "abstract": "",
       "journal": "Mammalia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1210_me_9_12_1645",
@@ -505,11 +802,7 @@
       "abstract": "",
       "journal": "Molecular Endocrinology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_0888-7543(92)90234-j",
@@ -519,11 +812,7 @@
       "abstract": "",
       "journal": "Genomics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_springerreference_101205",
@@ -533,11 +822,7 @@
       "abstract": "",
       "journal": "SpringerReference",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_59852_tpe-a216v6i5",
@@ -547,14 +832,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 20,
+  "paper_count": 37,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -1,0 +1,183 @@
+# data/vocab/method_terms.yaml
+# ─────────────────────────────────────────────────────────────────────────────
+# Controlled vocabulary for analysis and experimental methods in Zoe.Logos.
+#
+# method_category values:
+#   acoustic     — signal analysis and measurement
+#   statistical  — quantitative data analysis
+#   behavioural  — observational and experimental approaches
+#   computational — machine learning, modelling, and computational tools
+#   neural       — neurobiological and electrophysiological methods
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Acoustic analysis ─────────────────────────────────────────────────────────
+
+- method_id: method:spectrogram_analysis
+  canonical_label: spectrogram analysis
+  method_category: acoustic
+  aliases:
+    - spectrographic analysis
+    - sonogram analysis
+    - time-frequency analysis
+    - visual inspection of spectrograms
+  definition: >
+    Analysis of acoustic signals using time-frequency representations
+    (spectrograms), typically to measure frequency, duration, and temporal patterning.
+
+- method_id: method:acoustic_feature_extraction
+  canonical_label: acoustic feature extraction
+  method_category: acoustic
+  aliases:
+    - feature extraction
+    - acoustic parameter extraction
+    - MFCCs
+    - mel-frequency cepstral coefficients
+  definition: >
+    Extraction of quantitative acoustic parameters from recordings,
+    including fundamental frequency, amplitude, duration, and spectral features.
+
+- method_id: method:bioacoustic_monitoring
+  canonical_label: bioacoustic monitoring
+  method_category: acoustic
+  aliases:
+    - passive acoustic monitoring
+    - PAM
+    - acoustic recording
+  definition: >
+    Long-term or large-scale recording of soundscapes or species-specific
+    calls for monitoring purposes.
+
+# ── Computational methods ─────────────────────────────────────────────────────
+
+- method_id: method:hmm
+  canonical_label: hidden Markov model
+  method_category: computational
+  aliases:
+    - HMM
+    - hidden Markov model analysis
+    - sequential pattern modelling
+  definition: >
+    Probabilistic sequence model used to segment and classify temporal
+    patterns in vocalisations (e.g. song syllable sequences).
+
+- method_id: method:deep_learning
+  canonical_label: deep learning
+  method_category: computational
+  aliases:
+    - neural network
+    - CNN
+    - convolutional neural network
+    - deep neural network
+    - transformer
+    - wav2vec
+  definition: >
+    Machine learning methods using deep neural network architectures
+    to classify, detect, or embed acoustic signals.
+
+- method_id: method:umap
+  canonical_label: UMAP
+  method_category: computational
+  aliases:
+    - uniform manifold approximation and projection
+    - dimensionality reduction
+    - TSNE
+    - t-SNE
+  definition: >
+    Non-linear dimensionality reduction technique used to visualise
+    high-dimensional acoustic feature spaces.
+
+- method_id: method:dtw
+  canonical_label: dynamic time warping
+  method_category: computational
+  aliases:
+    - DTW
+    - template matching
+  definition: >
+    Algorithm for measuring similarity between temporal sequences
+    (e.g. song syllables) that may vary in speed.
+
+# ── Behavioural / experimental methods ───────────────────────────────────────
+
+- method_id: method:playback_experiment
+  canonical_label: playback experiment
+  method_category: behavioural
+  aliases:
+    - playback study
+    - acoustic playback
+    - conspecific playback
+    - heterospecific playback
+  definition: >
+    Experimental paradigm in which pre-recorded or synthesised signals
+    are broadcast to subjects to assess behavioural responses.
+
+- method_id: method:field_recording
+  canonical_label: field recording
+  method_category: behavioural
+  aliases:
+    - wildlife recording
+    - naturalistic recording
+    - in situ recording
+  definition: >
+    Audio recording of animals in their natural habitat.
+
+- method_id: method:operant_conditioning
+  canonical_label: operant conditioning
+  method_category: behavioural
+  aliases:
+    - reinforcement learning paradigm
+    - go-nogo task
+    - discrimination task
+  definition: >
+    Experimental paradigm using reward or punishment contingencies
+    to test perceptual or cognitive abilities.
+
+# ── Statistical methods ───────────────────────────────────────────────────────
+
+- method_id: method:anova
+  canonical_label: ANOVA
+  method_category: statistical
+  aliases:
+    - analysis of variance
+    - one-way ANOVA
+    - two-way ANOVA
+    - mixed ANOVA
+  definition: >
+    Statistical test for differences in means across groups.
+
+- method_id: method:mixed_model
+  canonical_label: linear mixed model
+  method_category: statistical
+  aliases:
+    - LMM
+    - GLMM
+    - mixed-effects model
+    - generalised linear mixed model
+  definition: >
+    Statistical model accounting for fixed and random effects,
+    commonly used with repeated-measures acoustic data.
+
+# ── Neural / neurobiological methods ─────────────────────────────────────────
+
+- method_id: method:electrophysiology
+  canonical_label: electrophysiology
+  method_category: neural
+  aliases:
+    - single-unit recording
+    - multi-unit recording
+    - LFP
+    - in vivo recording
+  definition: >
+    Measurement of electrical activity in neurons or neural circuits
+    during acoustic perception or vocalisation.
+
+- method_id: method:immediate_early_gene
+  canonical_label: immediate early gene expression
+  method_category: neural
+  aliases:
+    - IEG
+    - ZENK
+    - c-fos
+    - Arc expression
+  definition: >
+    Measurement of immediate early gene expression (e.g. ZENK/EGR1, c-fos)
+    as a proxy for neural activity following auditory stimulation.

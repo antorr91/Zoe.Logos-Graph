@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 19,
-    "claim_count": 8,
-    "doi_count": 20,
-    "media_count": 0
+    "paper_count": 35,
+    "claim_count": 18,
+    "doi_count": 31,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -42,32 +42,32 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "click",
-    "coda"
+    "coda",
+    "click"
   ],
   "contexts": [
     "echolocation",
-    "group identity",
-    "social communication"
+    "social communication",
+    "group identity"
   ],
   "functions": [
-    "cultural identity",
     "individual recognition",
+    "cultural identity",
     "prey detection"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "click",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "coda",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "click",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -75,50 +75,315 @@
         "value": "echolocation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "group identity",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "group identity",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "cultural identity",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "cultural identity",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "prey detection",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 740,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 739,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 738,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 737,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 736,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 735,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 734,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 733,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 732,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 731,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 730,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 729,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 728,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 727,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 726,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 725,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 724,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 723,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "noaa_noaa-spermwhale-01",
+        "provider": "noaa",
+        "provider_id": "noaa-spermwhale-01",
+        "type": "Sperm whale codas reference",
+        "rec": "NOAA",
+        "loc": "",
+        "date": "",
+        "url": "https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals",
+        "audio": "",
+        "sono": "",
+        "license": "Public Domain",
+        "attribution": "NOAA"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41598-025-27438-3",
+      "url": "https://doi.org/10.1038/s41598-025-27438-3",
+      "title": "Description of a collaborative sperm whale birth and shifts in coda vocal styles during key events",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-026-43138-y",
+      "url": "https://doi.org/10.1038/s41598-026-43138-y",
+      "title": "Backseat driver architecture to passively follow sperm whales by their voices with an autonomous underwater glider",
+      "year": 2026,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1098/rsbl.2025.0666/v1/decision1",
       "url": "https://doi.org/10.1098/rsbl.2025.0666/v1/decision1",
@@ -141,6 +406,34 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1111/nyas.70210",
+      "url": "https://doi.org/10.1111/nyas.70210",
+      "title": "Using Rhythmic Notation and Musical Analysis on Animal Communication: A Case Study on Sperm Whales",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-23733-1",
+      "url": "https://doi.org/10.1038/s41598-025-23733-1",
+      "title": "Predicting mesoscale movement of sperm whale units in the Caribbean based on social dynamics",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-32142-3",
+      "url": "https://doi.org/10.1038/s41598-025-32142-3",
+      "title": "A wave glider for passive acoustic monitoring of cetaceans and anthropogenic sources in the central Mediterranean Sea",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-97009-z",
+      "url": "https://doi.org/10.1038/s41598-025-97009-z",
+      "title": "Automatic detection and annotation of eastern Caribbean sperm whale codas",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1098/rsbl.2025.0666/v1/review1",
       "url": "https://doi.org/10.1098/rsbl.2025.0666/v1/review1",
       "title": "Review for \"Trans-oceanic kinship in the sperm whale (Physeter macrocephalus)\"",
@@ -148,11 +441,39 @@
       "source": "crossref"
     },
     {
+      "doi": "10.7717/peerj.19614",
+      "url": "https://doi.org/10.7717/peerj.19614",
+      "title": "Intraspecific and spatial variation in habitat use by sperm whales (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1038/s41467-024-47221-8",
       "url": "https://doi.org/10.1038/s41467-024-47221-8",
       "title": "Contextual and combinatorial structure in sperm whale vocalisations",
       "year": 2024,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1038/s41598-024-51194-5",
+      "url": "https://doi.org/10.1038/s41598-024-51194-5",
+      "title": "Age and interpulse interval relation from newborn to adult sperm whale (Physeter macrocephalus) off Mauritius",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-024-56287-9",
+      "url": "https://doi.org/10.1038/s41598-024-56287-9",
+      "title": "High Arctic \"hotspots\" for sperm whales (Physeter macrocephalus) off western and northern Svalbard, Norway, revealed by multi-year Passive Acoustic Monitoring (PAM)",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s40462-024-00500-x",
+      "url": "https://doi.org/10.1186/s40462-024-00500-x",
+      "title": "Evidence for seasonal migration by a cryptic top predator of the deep sea",
+      "year": 2024,
+      "source": "pubmed"
     },
     {
       "doi": "10.1242/jeb.246442",
@@ -179,6 +500,13 @@
       "doi": "10.62135/dcvk4733",
       "url": "https://doi.org/10.62135/dcvk4733",
       "title": "Catxalot (Physeter macrocephalus)",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.62135/xbyv2033",
+      "url": "https://doi.org/10.62135/xbyv2033",
+      "title": "Cachalote (Physeter macrocephalus)",
       "year": 2022,
       "source": "crossref"
     },
@@ -269,11 +597,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsbl_2025_0666_v2_decision1",
@@ -283,11 +607,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsbl_2025_0666_v2_response1",
@@ -297,11 +617,37 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_42049834",
+      "title": "Backseat driver architecture to passively follow sperm whales by their voices with an autonomous underwater glider",
+      "year": 2026,
+      "doi": "10.1038/s41598-026-43138-y",
+      "abstract": "Passive acoustic monitoring (PAM) of marine mammals is essential for biodiversity monitoring and communication studies. Tracking animals in situ further enables behavioral investigation. Monitoring from boats, tags, or moorings is limited by the durability of tracking, whereas underwater gliders offer potential for long-term PAM-based tracking. In this paper, we present the design details of backseat driver operations on such a glider. The backseat driver employs acoustic detection, source separation, and angle of arrival estimation of sperm whale (Physeter macrocephalus) echolocation clicks from a four-element hydrophone array mounted on top of a customized Project CETI-SeaExplorer glider. The measurements are used to change the bearing angle of the underwater glider in real time, allowing it to react to the presence of sperm whales and follow them. The glider is a passive system with no radiated noise except when changing buoyancy (a few seconds roughly every hour), and its distance from the whales is above 100 m to have minimal impact on whale behavior. We discuss the operation and connectivity of the backseat driver to the SeaExplorer glider's main computer and how estimation results are shared with the user upon surfacing. While long-term whale monitoring is left for future work, our results from a controlled sea experiment demonstrate the backseat driver operation and show performance in terms of response latency to commands, and results from a field trial off Dominica show the backseat driver source separation capabilities. The code and data for this experiment are open source.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41888153",
+      "title": "Description of a collaborative sperm whale birth and shifts in coda vocal styles during key events",
+      "year": 2026,
+      "doi": "10.1038/s41598-025-27438-3",
+      "abstract": "Wild cetacean birth observations are extremely rare, with observations having been recorded in less than 10% of cetacean species. Here, we describe a detailed accounting of a sperm whale (Physeter macrocephalus) birth off the coast of Dominica within a well-documented social unit and consisted of sperm whales collaboratively lifting the newborn out of the water. We recorded data via multiple concurrent methods: underwater audio, aerial drone video, shipboard photography in addition to behavioral observations spanning before, during and after the whale birth. All 11 members from sperm whale \"Unit A\" were present and participated in the birth, which lasted 34 min from the time the flukes emerged until the completion of delivery. The sperm whale unit made extensive vocalizations, with statistically significant shifts in coda vocal style corresponding to key events, such as the beginning of the birth and interactions with short-finned pilot whales (Globicephala macrorhynchus) shortly after the birth event. An evolutionary analysis of wild cetacean births suggests that newborns being lifted out of the water dates to before the most recent common ancestor of toothed and baleen whales, > 36 million years ago, and that cooperative lifting of the newborn is noted, thus far, only in members of Odontoceti (toothed whales). This study provides the most in-depth observations of a wild cetacean birth.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41588730",
+      "title": "Using Rhythmic Notation and Musical Analysis on Animal Communication: A Case Study on Sperm Whales",
+      "year": 2026,
+      "doi": "10.1111/nyas.70210",
+      "abstract": "Western music notation, a language of symbols representing various parameters in music, can be used to describe and analyze existing musical performances. Rhythmic elements such as periodicity and categorical rhythm have been studied in sperm whale (Physeter macrocephalus) codas, which are short click sequences produced in social interaction. As a case study in the applicability of music notation for animal communication, we transcribed human music, randomly generated rhythms, and sperm whale codas in Western music notation. Music notation categorizes sound elements into a metric hierarchy based on the perception of an isochronous beat in nonisochronous rhythms, a difficult comparison when we cannot know the rhythm perception of nonhuman animals. In accuracy and complexity, the transcriptions of codas showed similar statistics to the human rhythm samples. We demonstrated two modes of musical analysis on the transcriptions of sperm whale codas: tempo variation and motivic variation, and explored how they could be applied in ways that mitigate the subjective nature of interpreting beats. Our sample size was small, and our tools were time-consuming, so a streamlined approach is needed to fully test the applicability of these tools on a large scale.",
+      "journal": "Annals of the New York Academy of Sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rsbl_2025_0666_v1_review1",
@@ -311,11 +657,67 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41422289",
+      "title": "A wave glider for passive acoustic monitoring of cetaceans and anthropogenic sources in the central Mediterranean Sea",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-32142-3",
+      "abstract": "UNLABELLED: Passive acoustic monitoring has become a widely used method to study cetaceans, especially for populations facing escalating threats from noisy human activities, including shipping traffic, fishing industry and marine constructions. Here, we conducted a study using an autonomous surface vehicle to explore the distribution and acoustic behavior of cetaceans and to characterize anthropogenic sound sources in the central Mediterranean Sea. A wave glider equipped with a single-towed acoustic recorder was deployed from 13th September 2022 to 3rd March 2023. The recording yielded 19,115 files of 460s each (approximately 2 TB), a third of which was kept for a preliminary analysis based on spectrogram visualization and audio listening. The results showed that nearly half of the dataset contained delphinid signals (Delphinidae), followed by sperm whales ( SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1038/s41598-025-32142-3.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41203697",
+      "title": "Predicting mesoscale movement of sperm whale units in the Caribbean based on social dynamics",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-23733-1",
+      "abstract": "Sperm whales (Physeter macrocephalus) navigate complex oceanic environments and social structures. In the waters off Dominica, female and juvenile whales form long-lasting social units and vocal clans, distinguished by unique click dialects known as codas. While prey availability is often seen as a driver of whale movements, we highlight the role of sociality in shaping spatial behavior. Using 20 years of photo-identification data, we examined the sequential presence of social units for predictable patterns linked to social structure. Applying long short-term memory (LSTM) neural networks to sequences of one to five days across 16 states including 14 units, mature males and unknown units, we achieved prediction accuracies over 60%, far exceeding random chance (0.00001526). We then compared unit-to-unit transition probabilities to their social association matrix using a Hemelrijk test, revealing strong alignment between movement and social bonds for some of the units. To support long-term monitoring, we developed an acoustic classification method based on inter-pulse intervals (IPIs) in echolocation clicks, serving as acoustic fingerprints linked to body size. Kernel Density Estimation (KDE) classified units with 78.26% accuracy. Our findings provide quantitative evidence that sperm whale movements are socially coordinated and predictable, offering new insights into the spatial and social dynamics of sperm whale societies and highlighting the role of social affiliation in shaping large-scale movement patterns.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40924028",
+      "title": "Acoustic evidence of year-round sperm whale foraging, population structure, and sex-specific migration near Svalbard",
+      "year": 2025,
+      "doi": "10.1121/10.0039060",
+      "abstract": "The Atlantification of the Arctic is driving a northward habitat shift of many cetaceans, including sperm whales (Physeter macrocephalus). As Arctic warming continues to decrease sea ice extent and contributes to the change in species distributions, it is crucial to study how the distribution patterns, habitat, and the demographic structure of sperm whale populations may continue to change. In this study, we assess the temporal presence of echolocating sperm whales on the continental slope southwest of the Svalbard archipelago and compare it with acoustic backscatter and temperature as a proxy for biomass. Size classes of echolocating whales were estimated using cepstral analysis. Echolocation rates were higher in summer and fall, suggesting a seasonality in the sperm whale presence; however, sperm whale clicks were present year-round and the acoustic backscatter and temperature were positively correlated with the recorded echolocation activity. The summer and fall size classes included a mix of large adult males, mid-sized sub-adult males and/or adult females, and social groups, which likely include immature animals and/or adult females and their offspring. We observed a shift to adult males in the winter, suggesting sex-specific partial migration at this site.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40677747",
+      "title": "Intraspecific and spatial variation in habitat use by sperm whales (",
+      "year": 2025,
+      "doi": "10.7717/peerj.19614",
+      "abstract": "For a deep-diving cetacean species like the sperm whale, acoustics is a vital tool for research. This need is especially pressing in the eastern Caribbean, where the habitat of marine mammals overlaps with heavy maritime traffic, leading to noise pollution and an increased risk of vessel collisions. To mitigate this risk, understanding their habitat use is essential. Mature males are generally solitary and migrate over long distances, while females and immatures form stable social units in subtropical and tropical waters. In this study, we examined intraspecific variation in distribution and habitat use among individuals along the Caribbean coast of Martinique, using both visual and acoustic data. Over the course of 24 surveys, 19 aggregations involving a total of 74 individual sightings were characterised, recognizing that some individuals may have been recorded multiple times. Using the inter-pulse interval (IPI) of clicks, we estimated individual size, which provided insights into the age and/or sex of each individual. Habitat characteristics included bathymetry, distance from the coast, and seabed slope. Our results on social structure are in line with previous literature: 37% of the aggregations were made up of females and/or juveniles, immatures, with a mature male nearby, with temporal changes in aggregations linked to male migration patterns. Spatial distribution and habitat use appeared consistent across aggregation types, regardless of group size, average individual size, or the presence of immatures. However, specific areas were identified for hunting and socialising based on bathymetry. This study highlights the importance of bathymetry and/or distance from the coast and temporal dynamics related to variations in weather conditions and movements of breeding males, in understanding habitat use by sperm whales in the eastern Caribbean. The lack of observed influence of seabed slope suggests that our spatial scale may have been too limited, or that finer de",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40454716",
+      "title": "Sensitivity of density estimates to off-axis beam pattern assumptions in deep-diving odontocetes",
+      "year": 2025,
+      "doi": "10.1121/10.0036810",
+      "abstract": "Density estimation from passive acoustic monitoring requires knowledge of the sound production rates and signal characteristics of animal calls. This study explores the impact of the sound radiation pattern of echolocation clicks on density estimation for two deep-diving species, sperm whales (Physeter macrocephalus) and dense-beaked whales (Mesoplodon densirostris). The likelihood of receiving a click from within the narrow half-power biosonar beam at a randomly positioned receiver is small, and the study demonstrates that the majority of clicks are likely to be detected from outside this main beam. However, the beam pattern, particularly for large angles to the animal's axis, is poorly known for most toothed whales, leading to major uncertainties in the detection probability. Using a simulated cue counting scenario with different beam pattern assumptions (n = 2 for sperm whales, n = 3 for beaked whales) combined with tag-derived movement, orientation, and sound production data, this study demonstrates that uncertainty in the beam pattern can bias density estimates from passive acoustic monitoring, especially in low-noise environments. This effect decreases in noisy environments due to reduced detection of off-axis clicks.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40229467",
+      "title": "Automatic detection and annotation of eastern Caribbean sperm whale codas",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-97009-z",
+      "abstract": "A key technology for sperm whale (Physeter macrocephalus) monitoring is the identification of sperm whale communication signals, known as codas. In this paper we present the first automatic coda detector and annotator. The main innovation in our detector is graph-based clustering, which utilizes the expected similarity between the clicks that make up the coda. Results show detection and accurate annotation at low signal-to-noise ratios, separation between codas and echolocation clicks, and discrimination between codas from simultaneously emitting whales. Using this automatic annotator, insights into the characterization of sperm whale communication are presented. The results include new types of coda signals, analysis of the distribution of coda types among different whales and for different years, and evidence for synchronization between communicating whales in terms of coda type and coda transmission time. These results indicate a high degree of complexity in the communication system of this cetacean species. Source code and data for our system is publicly available.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1038_s41467-024-47221-8",
@@ -325,11 +727,7 @@
       "abstract": "Sperm whales (Physeter macrocephalus) are highly social mammals that communicate using sequences of clicks called codas. While a subset of codas have been shown to encode information about caller identity, almost everything else about the sperm whale communication system, including its structure and information-carrying capacity, remains unknown. We show that codas exhibit contextual and combinatorial structure. First, we report previously undescribed features of codas that are sensitive to the conversational context in which they occur, and systematically controlled and imitated across whales. We call these rubato and ornamentation. Second, we show that codas form a combinatorial coding system in which rubato and ornamentation combine with two context-independent features we call rhythm and tempo to produce a large inventory of distinguishable codas. Sperm whale vocalisations are more expressive and structured than previously believed, and built from a repertoire comprising nearly an ",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_246442",
@@ -339,11 +737,67 @@
       "abstract": "Sperm whales (Physeter macrocephalus) are social mega-predators who form stable matrilineal units that often associate within a larger vocal clan. Clan membership is defined by sharing a repertoire of coda types consisting of specific temporal spacings of multi-pulsed clicks. It has been hypothesized that codas communicate membership across socially segregated sympatric clans, but others propose that codas are primarily used for behavioral coordination and social cohesion within a closely spaced social unit. Here, we test these hypotheses by combining measures of ambient noise levels and coda click source levels with models of sound propagation to estimate the active space of coda communication. Coda clicks were localized off the island of Dominica with a four- or five-element 80 m vertical hydrophone array, allowing us to calculate the median RMS source levels of 1598 clicks from 444 codas to be 161 dB re. 1 μPa (IQR 153-167), placing codas among the most powerful communication sounds",
       "journal": "Journal of Experimental Biology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_39692862",
+      "title": "Comparing neural networks against click train detectors to reveal temporal trends in passive acoustic sperm whale detections",
+      "year": 2024,
+      "doi": "10.1121/10.0034602",
+      "abstract": "Passive acoustic monitoring (PAM) is an increasingly popular tool to study vocalising species. The amount of data generated by PAM studies calls for robust automatic classifiers. Deep learning (DL) techniques have been proven effective in identifying acoustic signals in challenging datasets, but due to their black-box nature their underlying biases are hard to quantify. This study compares human analyst annotations, a multi-hypothesis tracking (MHT) click train classifier and a DL-based acoustic classifier to classify acoustic recordings based on the presence or absence of sperm whale (Physeter macrocephalus) click trains and study the temporal and spatial distributions of the Mediterranean sperm whale subpopulation around the Balearic Islands. The MHT and DL classifiers showed agreements with human labels of 85.7% and 85.0%, respectively, on data from sites they were trained on, but both saw a drop in performance when deployed on a new site. Agreement rates between classifiers surpassed those between human experts. Modeled seasonal and diel variations in sperm whale detections for both classifiers showed compatible results, revealing an increase in occurrence and diurnal activity during the summer and autumn months. This study highlights the strengths and limitations of two automatic classification algorithms to extract biologically useful information from large acoustic datasets.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39313840",
+      "title": "Evidence for seasonal migration by a cryptic top predator of the deep sea",
+      "year": 2024,
+      "doi": "10.1186/s40462-024-00500-x",
+      "abstract": "BACKGROUND: In ecosystems influenced by strong seasonal variation in insolation, the fitness of diverse taxa depends on seasonal movements to track resources along latitudinal or elevational gradients. Deep pelagic ecosystems, where sunlight is extremely limited, represent Earth's largest habitable space and yet ecosystem phenology and effective animal movement strategies in these systems are little understood. Sperm whales (Physeter macrocephalus) provide a valuable acoustic window into this world: the echolocation clicks they produce while foraging in the deep sea are the loudest known biological sounds on Earth and convey detailed information about their behavior. METHODS: We analyze seven years of continuous passive acoustic observations from the Central California Current System, using automated methods to identify both presence and demographic information from sperm whale echolocation clicks. By integrating empirical results with individual-level movement simulations, we test hypotheses about the movement strategies underlying sperm whales' long-distance movements in the Northeast Pacific. RESULTS: We detect foraging sperm whales of all demographic groups year-round in the Central California Current System, but also identify significant seasonality in frequency of presence. Among several previously hypothesized movement strategies for this population, empirical acoustic observations most closely match simulated results from a population undertaking a \"seasonal resource-tracking migration\", in which individuals move to track moderate seasonal-latitudinal variation in resource availability. DISCUSSION: Our findings provide evidence for seasonal movements in this cryptic top predator of the deep sea. We posit that these seasonal movements are likely driven by tracking of deep-sea resources, based on several lines of evidence: (1) seasonal-latitudinal patterns in foraging sperm whale detection across the Northeast Pacific; (2) lack of demographic variation in seas",
+      "journal": "Movement ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39122779",
+      "title": "Age and interpulse interval relation from newborn to adult sperm whale (Physeter macrocephalus) off Mauritius",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-51194-5",
+      "abstract": "Sperm whales (Physeter macrocephalus) have been studied for decades, but the development of their clicks during the animal growth is not yet well known. The click they emit during socialization and echolocation contains information about the length of their acoustic organs and, therefore the length of the body through the interpulse interval (IPI). This paper provides the first IPI/age relationship for juvenile male and female sperm whales (Physeter macrocephalus) based on field recordings of individuals whose age is largely known. Across 9 years, audiovisual recordings of a Mauritian sperm whale social unit were carried out. Adult female and juvenile sperm whales were identified and aged. The dataset made from those recordings is publicly available. The interpulse interval was measured for individuals whose ages ranged from 7 days to around 38 years. The growth of the acoustic organ of juveniles showed an early inter-individual variability as well as sexual dimorphism. Usual growth models were also fitted, predicting a mean",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38922055",
+      "title": "Heard off Heard: Acoustic detections of sperm whales (Physeter macrocephalus) and other cetaceans off Heard Island",
+      "year": 2024,
+      "doi": "10.1121/10.0026242",
+      "abstract": "An underwater acoustic recorder was moored off Heard Island from September 2017 through March 2018 to listen for marine mammals. Analysis of data was initially conducted by visual inspection of long-term spectral averages to reveal sounds from sperm whales, Antarctic and pygmy blue whales, fin whales, minke whales, odontocete whistles, and noise from nearby ships. Automated detection of sperm whale clicks revealed they were seldom detected from September through January (n = 35 h) but were detected nearly every day of February and March (n = 684 h). Additional analysis of these detections revealed further diel and demographic patterns.",
+      "journal": "JASA express letters",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38714699",
+      "title": "Contextual and combinatorial structure in sperm whale vocalisations",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-47221-8",
+      "abstract": "Sperm whales (Physeter macrocephalus) are highly social mammals that communicate using sequences of clicks called codas. While a subset of codas have been shown to encode information about caller identity, almost everything else about the sperm whale communication system, including its structure and information-carrying capacity, remains unknown. We show that codas exhibit contextual and combinatorial structure. First, we report previously undescribed features of codas that are sensitive to the conversational context in which they occur, and systematically controlled and imitated across whales. We call these rubato and ornamentation. Second, we show that codas form a combinatorial coding system in which rubato and ornamentation combine with two context-independent features we call rhythm and tempo to produce a large inventory of distinguishable codas. Sperm whale vocalisations are more expressive and structured than previously believed, and built from a repertoire comprising nearly an order of magnitude more distinguishable codas. These results show context-sensitive and combinatorial vocalisation can appear in organisms with divergent evolutionary lineage and vocal apparatus.",
+      "journal": "Nature communications",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38461150",
+      "title": "High Arctic \"hotspots\" for sperm whales (Physeter macrocephalus) off western and northern Svalbard, Norway, revealed by multi-year Passive Acoustic Monitoring (PAM)",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-56287-9",
+      "abstract": "Despite the well-documented, broad global distribution of sperm whales (Physeter macrocephalus), their distributional patterns remain poorly known in Arctic regions, where year-round monitoring is challenging. Adult male sperm whales are known to migrate seasonally between nutrient-rich high latitude waters and low latitude breeding grounds. However, knowledge is limited regarding fine-scale distribution and seasonal presence at high latitudes. To investigate the acoustic occurrence of this vocally active species in the High Arctic of the Northeast Atlantic, this study combined automated and manual click detection methods to analyze passive acoustic data collected at eight locations around the Svalbard Archipelago, Norway, between 2012 and 2021. The results revealed the presence of sperm whales at six recording sites and demonstrated sperm whale \"hotspots\" in ice-free areas in eastern Fram Strait along the shelf break and close to the west coast of Spitsbergen from May-January, with some variation between years and locations. Although acoustic presence decreased with increasing latitude, even the northern-most location (81° N) recorded sperm whale vocal activity between August and January. This study provides a baseline for sperm whale acoustic presence in the High Arctic, which will be essential in the context of detecting future changes and also for predicting future distribution patterns in the rapidly changing Arctic marine environment.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1121_10_0018609",
@@ -353,11 +807,7 @@
       "abstract": "<jats:p>Sperm whales (Physeter macrocephalus) have been observed but not well studied in the Monterey Bay National Marine Sanctuary (MBNMS). Vessels transiting through MBNMS may pose a threat to sperm whales and modify their behavior. Knowledge of their activity in relation to vessel presence in MBNMS is largely unknown. In this study, passive acoustic monitoring (PAM) data collected at the Sur Ridge, in close proximity to shipping lanes, are used to characterize vocal and foraging behaviors of sperm whales in relation to vessel transits through MBNMS. PAMGuard automated detectors are used to detect sperm whale clicks and measure inter-pulse intervals with feature-based post-processing to reduce false positives. Probability density functions are used to determine distribution of sperm whale size, sex, and presence in relation to vessel transits. Foraging clicks were positively detected in sequences of bouts from June-August, 2020. Sperm whales observed were adult males. Container ship ",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1101_2023_12_06_570484",
@@ -367,11 +817,7 @@
       "abstract": "Sperm whales (Physeter macrocephalus) are long-lived and highly social mammals that engage in complex group behaviours, including navigation, foraging, and child-rearing. During these behaviours, sperm whales communicate primarily using sequences of short bursts of clicks with varying inter-click intervals, known as codas. Past research has identified around 150 discrete coda types globally, with 21 in the Caribbean. A subset of these have been shown to encode information about caller and clan identity. However, almost everything else about the sperm whale communication system, including basic questions about its structure and information-carrying capacity, remains unknown. In this study, we show that codas exhibit contextual and combinatorial structure with key similarities to aspects of human language and other primate communication systems. First, we report previously undescribed variations in coda structure that are sensitive to the conversational context in which they occur. We ca",
       "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_62135_dcvk4733",
@@ -381,11 +827,17 @@
       "abstract": "<jats:p>El catxalot, que va inspirar la famosa novel·la Moby Dick — basada, per cert, en un fet real—, era caçat amb fruïció pels productes que se n’obtenien. Avui dia és un dels cetacis més extraordinaris per la seva forma de vida, per les sevesadaptacions fisiològiques i anatòmiques al busseig i per les seves dimensions i trets físics. A més, és una espècie comuna però de presència discreta a la Mediterrània.</jats:p>",
       "journal": "Informe Mar Balear",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_62135_xbyv2033",
+      "title": "Cachalote (Physeter macrocephalus)",
+      "year": 2022,
+      "doi": "10.62135/xbyv2033",
+      "abstract": "<jats:p>El cachalote, que inspiró la famosa novela Moby Dick —basada, por cierto, en un hecho real—, era cazado con fruición por los productos que de él se obtenían. Hoy en día es uno de los cetáceos más extraordinarios por su forma de vida, por sus adaptaciones fisiológicas y anatómicas al buceo, y por sus dimensiones y rasgos físicos. Además, es una especie común pero de presencia discreta en el Mediterráneo.</jats:p>",
+      "journal": "Informe Mar Balear",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41598-018-34624-z",
@@ -395,11 +847,7 @@
       "abstract": "While the Greenland and Barents Seas are known habitats for several cetacean and pinniped species there is a lack of long-term monitoring data in this rapidly changing environment. Moreover, little is known of the ambient soundscapes, and increasing off-shore anthropogenic activities can influence the ecosystem and marine life. Baseline acoustic data is needed to better assess current and future soundscape and ecosystem conditions. The analysis of a year of continuous data from three passive acoustic monitoring devices revealed species-dependent seasonal and spatial variation of a large variety of marine mammals in the Greenland and Barents Seas. Sampling rates were 39 and 78 kHz in the respective locations, and all systems were operational at a duty cycle of 2 min on, 30 min off. The research presents a description of cetacean and pinniped acoustic detections along with a variety of unknown low-frequency tonal sounds, and ambient sound level measurements that fall within the scope of ",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10519-011-9513-y",
@@ -409,11 +857,7 @@
       "abstract": "",
       "journal": "Behavior Genetics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0017009",
@@ -423,11 +867,7 @@
       "abstract": "Beaked whales have mass stranded during some naval sonar exercises, but the cause is unknown. They are difficult to sight but can reliably be detected by listening for echolocation clicks produced during deep foraging dives. Listening for these clicks, we documented Blainville's beaked whales, Mesoplodon densirostris, in a naval underwater range where sonars are in regular use near Andros Island, Bahamas. An array of bottom-mounted hydrophones can detect beaked whales when they click anywhere within the range. We used two complementary methods to investigate behavioral responses of beaked whales to sonar: an opportunistic approach that monitored whale responses to multi-day naval exercises involving tactical mid-frequency sonars, and an experimental approach using playbacks of simulated sonar and control sounds to whales tagged with a device that records sound, movement, and orientation. Here we show that in both exposure conditions beaked whales stopped echolocating during deep foragi",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1748-7692_2010_00399_x",
@@ -437,11 +877,7 @@
       "abstract": "<jats:title><jats:sc>Abstract</jats:sc></jats:title><jats:p>The vocal repertoires of group‐living animals may communicate individual or group identity. Female and juvenile sperm whales live in long‐term social units that can be assigned to vocal clans based on the pattern of clicks in coda vocalizations. An unusual set of circumstances allowed us to record the vocalizations of photo‐identified individuals within a single social unit over a 41 d period. Using click interpulse intervals, we were able to assign codas to individuals and investigate coda production at the individual level within a social unit for the first time. Adult females in the unit vocalized at approximately equal rates. A calf and juvenile, both male, vocalized less often than the adult females. Repertoires were indistinguishable for all unit members apart from a mother and her calf, which possessed significantly different repertoires—even from one another. We suggest that similarity among the coda repertoires of mos",
       "journal": "Marine Mammal Science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3354_meps08255",
@@ -451,11 +887,7 @@
       "abstract": "Many marine animals use sound passively or actively for communication, foraging, predator avoidance, navigation, and to sense their environment. The advent of acoustic recording tags has allowed biologists to get the on-animal perspective of the sonic environment and, in combination with movement sensors, to relate sounds to the activities of the tagged animal. These powerful tools have led to a wide range of insights into the behaviour of marine animals and have opened new opportunities for studying the ways they interact with their environment. Acoustic tags demand new analysis methods and careful experimental design to optimize the consistency between research objectives and the realistic performance of the tags. Technical details to consider are the suitability of the tag attachment to a given species, the accuracy of the tag sensors, and the recording and attachment duration of the tag. Here we consider the achievements, potential, and limitations of acoustic recording tags in stu",
       "journal": "Marine Ecology Progress Series",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pbio_0050139",
@@ -465,11 +897,7 @@
       "abstract": "We believe that the time is ripe to present an integrated view of cetacean brains, behavior, and evolution based on the wealth of accumulated and recent data on these topics. Our conclusions support the more generally accepted view that the large brain of cetaceans evolved to support complex cognitive abilities.",
       "journal": "PLoS Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_01327",
@@ -479,11 +907,7 @@
       "abstract": "Toothed whales (Cetacea, odontoceti) emit sound pulses to probe their surroundings by active echolocation. Non-invasive, acoustic Dtags were placed on deep-diving Blainville's beaked whales (Mesoplodon densirostris) to record their ultrasonic clicks and the returning echoes from prey items, providing a unique view on how a whale operates its biosonar during foraging in the wild. The process of echolocation during prey capture in this species can be divided into search, approach and terminal phases, as in echolocating bats. The approach phase, defined by the onset of detectable echoes recorded on the tag for click sequences terminated by a buzz, has interclick intervals (ICI) of 300-400 ms. These ICIs are more than a magnitude longer than the decreasing two-way travel time to the targets, showing that ICIs are not given by the two-way-travel times plus a fixed, short lag time. During the approach phase, the received echo energy increases by 10.4(+/-2) dB when the target range is halved,",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7717_peerj_715_fig-34",
@@ -493,11 +917,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_715_fig-36",
@@ -507,11 +927,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_715_fig-35",
@@ -521,14 +937,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 19,
+  "paper_count": 35,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

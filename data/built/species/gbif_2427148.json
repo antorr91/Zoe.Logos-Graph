@@ -2,13 +2,13 @@
   "species_id": "gbif_2427148",
   "gbif_usage_key": 2427148,
   "scientific_name": "Engystomops pustulosus",
-  "common_name_en": "túngara frog",
+  "common_name_en": "t�ngara frog",
   "common_names": {
-    "en": "túngara frog",
-    "it": "rana túngara",
-    "es": "rana túngara",
-    "fr": "grenouille túngara",
-    "de": "túngara-frosch"
+    "en": "t�ngara frog",
+    "it": "rana t�ngara",
+    "es": "rana t�ngara",
+    "fr": "grenouille t�ngara",
+    "de": "t�ngara-frosch"
   },
   "taxonomy": {
     "class_": "Amphibia",
@@ -18,17 +18,8 @@
     "gbif_match_confidence": 95,
     "gbif_match_status": "ACCEPTED"
   },
-  "profile_level": "enriched",
-  "profile_badge": {
-    "label": "enriched",
-    "color": "teal"
-  },
-  "stats": {
-    "paper_count": 17,
-    "claim_count": 7,
-    "doi_count": 17,
-    "media_count": 0
-  },
+  "conservation_status": "",
+  "inat_id": null,
   "image": {
     "url": "",
     "url_full": "",
@@ -36,11 +27,9 @@
     "license": "see Wikimedia Commons",
     "attribution": ""
   },
-  "summary": "Túngara frog (Engystomops pustulosus) is a species of Amphibia in the order Anura, family Leptodactylidae.",
-  "wiki_url": "https://en.wikipedia.org/wiki/Túngara_frog",
-  "wiki_title": "Túngara_frog",
-  "conservation_status": "",
-  "inat_id": null,
+  "summary": "T�ngara frog (Engystomops pustulosus) is a species of Amphibia in the order Anura, family Leptodactylidae.",
+  "wiki_url": "https://en.wikipedia.org/wiki/T�ngara_frog",
+  "wiki_title": "T�ngara_frog",
   "vocalisations": [
     "advertisement call",
     "chuck"
@@ -50,433 +39,23 @@
     "sexual selection"
   ],
   "functions": [
-    "female choice",
     "mate attraction",
-    "species recognition"
+    "species recognition",
+    "female choice"
   ],
-  "communication_profile": {
-    "vocalisations": [
-      {
-        "value": "advertisement call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "chuck",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "contexts": [
-      {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "sexual selection",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
-      {
-        "value": "female choice",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "species recognition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "methods": []
-  },
+  "open_papers": [
+    {
+      "doi": "10.1126/science.185.4149.372",
+      "url": "https://doi.org/10.1126/science.185.4149.372"
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Engystomops pustulosus",
     "recordings": [],
-    "external_links": []
+    "external_links": [],
+    "freesound_search": ""
   },
-  "open_papers": [
-    {
-      "doi": "10.1093/beheco/arae088",
-      "url": "https://doi.org/10.1093/beheco/arae088",
-      "title": "Urban sensory conditions alter rival interactions and mate choice in urban and forest túngara frogs",
-      "year": 2024,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1101/2024.01.13.575508",
-      "url": "https://doi.org/10.1101/2024.01.13.575508",
-      "title": "Urban sensory conditions alter rival interactions and mate choice in urban and forest túngara frogs",
-      "year": 2024,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1093/beheco/arac061",
-      "url": "https://doi.org/10.1093/beheco/arac061",
-      "title": "Can you hear/see me? Multisensory integration of signals does not always facilitate mate choice",
-      "year": 2022,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1655/herpetologica-d-20-00057.1",
-      "url": "https://doi.org/10.1655/herpetologica-d-20-00057.1",
-      "title": "Diurnal Calling in a Nocturnal Frog: Exceptional Calling Activity of Túngara Frogs (Engystomops pustulosus) on the Panamanian Island of Taboga",
-      "year": 2021,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.21676/23897864.3721",
-      "url": "https://doi.org/10.21676/23897864.3721",
-      "title": "Toxicidad del herbicida oxadiazon en larvas de Engystomops pustulosus (Cope,1864)",
-      "year": 2021,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.2305/iucn.uk.2020-2.rlts.t57272a53969023.en",
-      "url": "https://doi.org/10.2305/iucn.uk.2020-2.rlts.t57272a53969023.en",
-      "title": "Engystomops pustulosus: IUCN SSC Amphibian Specialist Group",
-      "year": 2020,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.3897/jhr.78.54409.figure1",
-      "url": "https://doi.org/10.3897/jhr.78.54409.figure1",
-      "title": "Figure 1 from: Starr CK, Bhukal R, Ballah ST (2020) Observations of neotropical social wasps (Hymenoptera, Vespidae) preying on eggs and tadpoles of the frog Engystomops pustulosus (Amphibia, Leptodactylidae). Journal of Hymenoptera Research 78: 91-96. https://doi.org/10.3897/jhr.78.54409",
-      "year": 2020,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.3897/jhr.78.54409.figure2",
-      "url": "https://doi.org/10.3897/jhr.78.54409.figure2",
-      "title": "Figure 2 from: Starr CK, Bhukal R, Ballah ST (2020) Observations of neotropical social wasps (Hymenoptera, Vespidae) preying on eggs and tadpoles of the frog Engystomops pustulosus (Amphibia, Leptodactylidae). Journal of Hymenoptera Research 78: 91-96. https://doi.org/10.3897/jhr.78.54409",
-      "year": 2020,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.48204/j.tecno.v23n1a8",
-      "url": "https://doi.org/10.48204/j.tecno.v23n1a8",
-      "title": "DESARROLLO EMBRIONARIO Y PRE-METAMÓRFICO DE LA RANA TUNGARA Engystomops pustulosus (FAMILIA LEIUPERIDAE) EN CAUTIVERIO",
-      "year": 2020,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1080/09524622.2018.1458249",
-      "url": "https://doi.org/10.1080/09524622.2018.1458249",
-      "title": "Modelling the production of complex calls in the túngara frog (<i>Physalaemus pustulosus</i>)",
-      "year": 2018,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.3390/ijerph14080864",
-      "url": "https://doi.org/10.3390/ijerph14080864",
-      "title": "A Review of the Benefits of Nature Experiences: More Than Meets the Eye",
-      "year": 2017,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1098/rspb.2015.2889",
-      "url": "https://doi.org/10.1098/rspb.2015.2889",
-      "title": "A systems approach to animal communication",
-      "year": 2016,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1007/s00359-014-0923-1",
-      "url": "https://doi.org/10.1007/s00359-014-0923-1",
-      "title": "From uni- to multimodality: towards an integrative view on anuran communication",
-      "year": 2014,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.5818/1529-9651.19.1.21",
-      "url": "https://doi.org/10.5818/1529-9651.19.1.21",
-      "title": "A Comparison of Two Treatments for Nematode Infections in the Túngara Frog, Engystomops pustulosus",
-      "year": 2009,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.2307/1446594",
-      "url": "https://doi.org/10.2307/1446594",
-      "title": "Sound Production and Vocal Sac Inflation in the Túngara Frog, Physalaemus pustulosus (Leptodactylidae) Sound Production and Vocal Sac Inflation in the Tungara Frog, Physalaemus pustulosus (Leptodactylidae)",
-      "year": 1991,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.2307/1441128",
-      "url": "https://doi.org/10.2307/1441128",
-      "title": "Some Cues Used by the Leptodactylid Frog, Engystomops pustulosus, in Selection of the Oviposition Site",
-      "year": 1966,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1126/science.185.4149.372",
-      "url": "https://doi.org/10.1126/science.185.4149.372",
-      "title": "",
-      "year": null,
-      "source": "seed"
-    }
-  ],
-  "papers": [
-    {
-      "paper_id": "10_1093_beheco_arae088",
-      "title": "Urban sensory conditions alter rival interactions and mate choice in urban and forest túngara frogs",
-      "year": 2024,
-      "doi": "10.1093/beheco/arae088",
-      "abstract": "Sexual communication often takes place in networks with multiple competing signalers being simultaneously assessed by mate choosers. Altered sensory conditions, such as noise and light pollution, can affect communication by altering signal production and perception. While evidence of sensory pollution affecting sexual signaling is widespread, few studies assess impacts on sexual signaling during rival interactions as well as mate choice, let alone whether urban and non-urban populations have diverged in their response. Here, we investigate the effects of urban sensory conditions on sexual communication in urban and forest túngara frogs (<i>Engystomops pustulosus</i>). We recorded dyadic vocal rival interactions and assessed mate choice with and without noise and light pollution in the lab. We show that urban sensory conditions can directly impact the intensity of rival interactions, differences between rivals, and mate choice, though changes were often in opposite directions for frogs ",
-      "journal": "Behavioral Ecology",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1101_2024_01_13_575508",
-      "title": "Urban sensory conditions alter rival interactions and mate choice in urban and forest túngara frogs",
-      "year": 2024,
-      "doi": "10.1101/2024.01.13.575508",
-      "abstract": "Abstract Sexual communication often takes place in networks with multiple competing signalers being simultaneously assessed by mate choosers. Altered sensory conditions, such as noise and light pollution, can affect communication by altering signal production and perception. While evidence of sensory pollution affecting sexual signaling is widespread, few studies assess impacts on sexual signaling during rival interactions as well as mate choice, let alone whether urban and forest populations have diverged in their response. Here, we investigate the effects of urban sensory conditions on sexual communication in urban and forest túngara frogs ( Engystomops pustulosus ). We recorded dyadic vocal rival interactions and assessed mate choice with and without noise and light pollution in the lab. We show that urban sensory conditions can directly impact the intensity of rival interactions, differences between rivals and mate choice, though changes were often in opposite directions for frogs ",
-      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1093_beheco_arac061",
-      "title": "Can you hear/see me? Multisensory integration of signals does not always facilitate mate choice",
-      "year": 2022,
-      "doi": "10.1093/beheco/arac061",
-      "abstract": "Abstract Females of many species choose mates using multiple sensory modalities. Multimodal noise may arise, however, in dense aggregations of animals communicating via multiple sensory modalities. Some evidence suggests multimodal signals may not always improve receiver decision-making performance. When sensory systems process input from multimodal signal sources, multimodal noise may arise and potentially complicate decision-making due to the demands on cognitive integration tasks. We tested female túngara frog, Physalaemus (=Engystomops) pustulosus, responses to male mating signals in noise from multiple sensory modalities (acoustic and visual). Noise treatments were partitioned into three categories: acoustic, visual, and multimodal. We used natural calls from conspecifics and heterospecifics for acoustic noise. Robotic frogs were employed as either visual signal components (synchronous vocal sac inflation with call) or visual noise (asynchronous vocal sac inflation with call). Fem",
-      "journal": "Behavioral Ecology",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_21676_23897864_3721",
-      "title": "Toxicidad del herbicida oxadiazon en larvas de Engystomops pustulosus (Cope,1864)",
-      "year": 2021,
-      "doi": "10.21676/23897864.3721",
-      "abstract": "<jats:p>El herbicida oxadiazon es usado como control de malezas en Colombia; sin embargo, la aplicación de esta sustancia, al igual que la de otros herbicidas, puede afectar la fauna asociada a cuerpos de agua. El objetivo de este estudio fue evaluar los efectos letales, subletales, morfométricos y teratológicos en larvas de Engystomops pustulosus expuestas a este herbicida en tres volúmenes de hábitat. Se utilizaron larvas en estado 25 de Gosner y se expusieron durante 96 horas a tres volúmenes de hábitat (40, 200 y 1000 mL) y tres concentraciones del herbicida, con tres réplicas para cada uno. La CL50 hallada para los renacuajos en un volumen de 40 mL fue 1,46 mg/L, y en 1000 mL fue de 1,5 mg/L. En cuanto a los efectos subletales, las anormalidades quietud prolongada y cola curvada fueron frecuentes en todos los volúmenes (de 27 % a 70 % y de 37 % a 43 %, respectivamente). Aun así, el análisis de regresión no mostró relación entre la variación del volumen y la aparición de anormalida",
-      "journal": "Intropica",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1655_herpetologica-d-20-00057_1",
-      "title": "Diurnal Calling in a Nocturnal Frog: Exceptional Calling Activity of Túngara Frogs (Engystomops pustulosus) on the Panamanian Island of Taboga",
-      "year": 2021,
-      "doi": "10.1655/herpetologica-d-20-00057.1",
-      "abstract": "",
-      "journal": "Herpetologica",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_2305_iucn_uk_2020-2_rlts_t57272a53969023_en",
-      "title": "Engystomops pustulosus: IUCN SSC Amphibian Specialist Group",
-      "year": 2020,
-      "doi": "10.2305/iucn.uk.2020-2.rlts.t57272a53969023.en",
-      "abstract": "",
-      "journal": "IUCN Red List of Threatened Species",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_48204_j_tecno_v23n1a8",
-      "title": "DESARROLLO EMBRIONARIO Y PRE-METAMÓRFICO DE LA RANA TUNGARA Engystomops pustulosus (FAMILIA LEIUPERIDAE) EN CAUTIVERIO",
-      "year": 2020,
-      "doi": "10.48204/j.tecno.v23n1a8",
-      "abstract": "<jats:p>Se presenta la descripción del desarrollo embrionario y pre-metamórfico en Engystomops pustulosus (rana túngara), por medio de fotografías diarias tomando como base de las descripciones los cambios morfológicos. El estudio se llevó a cabo con individuos en cautiverio en la Universidad de Panamá. Los individuos de E. pustulosus completaron su desarrollo en periodo aproximado de 20 días.</jats:p>",
-      "journal": "Tecnociencia",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_3897_jhr_78_54409_figure2",
-      "title": "Figure 2 from: Starr CK, Bhukal R, Ballah ST (2020) Observations of neotropical social wasps (Hymenoptera, Vespidae) preying on eggs and tadpoles of the frog Engystomops pustulosus (Amphibia, Leptodactylidae). Journal of Hymenoptera Research 78: 91-96. https://doi.org/10.3897/jhr.78.54409",
-      "year": 2020,
-      "doi": "10.3897/jhr.78.54409.figure2",
-      "abstract": "",
-      "journal": "",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_3897_jhr_78_54409_figure1",
-      "title": "Figure 1 from: Starr CK, Bhukal R, Ballah ST (2020) Observations of neotropical social wasps (Hymenoptera, Vespidae) preying on eggs and tadpoles of the frog Engystomops pustulosus (Amphibia, Leptodactylidae). Journal of Hymenoptera Research 78: 91-96. https://doi.org/10.3897/jhr.78.54409",
-      "year": 2020,
-      "doi": "10.3897/jhr.78.54409.figure1",
-      "abstract": "",
-      "journal": "",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1080_09524622_2018_1458249",
-      "title": "Modelling the production of complex calls in the túngara frog (<i>Physalaemus pustulosus</i>)",
-      "year": 2018,
-      "doi": "10.1080/09524622.2018.1458249",
-      "abstract": "Relatively few studies have used experimental manipulations to investigate the mechanics of vocal production in frogs and toads, even though many frogs produce complex signals with multiple components and/or nonlinearities. Modelling approaches can add to empirical studies by illuminating how various components of the vocal system interact to produce communication signals. In this study, we use bond graphs, a lumped-element modelling technique, to explore how the combination of active modulation of vocal production and the passive dynamics of a unique laryngeal structure result in the complex calls produced by males in an anuran model system. The túngara frog (Physalaemus (= Engystomops) pustulosus) produces advertisement calls with a ‘whine’ and a facultative ‘chuck’. Whines are amplitude and frequency modulated. The chuck is characterized by its spectral complexity and appears to contain a period doubling bifurcation resulting in subharmonics. In our model, we focus on how a fibrous ",
-      "journal": "Bioacoustics",
-      "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_3390_ijerph14080864",
-      "title": "A Review of the Benefits of Nature Experiences: More Than Meets the Eye",
-      "year": 2017,
-      "doi": "10.3390/ijerph14080864",
-      "abstract": "Evidence that experiences of nature can benefit people has accumulated rapidly. Yet perhaps because of the domination of the visual sense in humans, most research has focused on the visual aspects of nature experiences. However, humans are multisensory, and it seems likely that many benefits are delivered through the non-visual senses and these are potentially avenues through which a physiological mechanism could occur. Here we review the evidence around these lesser studied sensory pathways-through sound, smell, taste, touch, and three non-sensory pathways. Natural sounds and smells underpin experiences of nature for many people, and this may well be rooted in evolutionary psychology. Tactile experiences of nature, particularly beyond animal petting, are understudied yet potentially fundamentally important. Tastes of nature, through growing and consuming natural foods, have been linked with a range of health and well-being benefits. Beyond the five senses, evidence is emerging for oth",
-      "journal": "International Journal of Environmental Research and Public Health",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1098_rspb_2015_2889",
-      "title": "A systems approach to animal communication",
-      "year": 2016,
-      "doi": "10.1098/rspb.2015.2889",
-      "abstract": "Why animal communication displays are so complex and how they have evolved are active foci of research with a long and rich history. Progress towards an evolutionary analysis of signal complexity, however, has been constrained by a lack of hypotheses to explain similarities and/or differences in signalling systems across taxa. To address this, we advocate incorporating a systems approach into studies of animal communication--an approach that includes comprehensive experimental designs and data collection in combination with the implementation of systems concepts and tools. A systems approach evaluates overall display architecture, including how components interact to alter function, and how function varies in different states of the system. We provide a brief overview of the current state of the field, including a focus on select studies that highlight the dynamic nature of animal signalling. We then introduce core concepts from systems biology (redundancy, degeneracy, pluripotentialit",
-      "journal": "Proceedings of the Royal Society B Biological Sciences",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1007_s00359-014-0923-1",
-      "title": "From uni- to multimodality: towards an integrative view on anuran communication",
-      "year": 2014,
-      "doi": "10.1007/s00359-014-0923-1",
-      "abstract": "Undeniably, acoustic signals are the predominant mode of communication in frogs and toads. Acoustically active species are found throughout the vast diversity of anuran families. However, additional or alternative signal modalities have gained increasing attention. In several anurans, seismic, visual and chemical communications have convergently evolved due to ecological constraints such as noisy environments. The production of a visual cue, like the inevitably moving vocal sac of acoustically advertising males, is emphasized by conspicuously coloured throats. Limb movements accompanied by dynamic displays of bright colours are additional examples of striking visual signals independent of vocalizations. In some multimodal anuran communication systems, the acoustic component acts as an alert signal, which alters the receiver attention to the following visual display. Recent findings of colourful glands on vocal sacs, producing volatile species-specific scent bouquets suggest the possibi",
-      "journal": "Journal of Comparative Physiology A",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_5818_1529-9651_19_1_21",
-      "title": "A Comparison of Two Treatments for Nematode Infections in the Túngara Frog, Engystomops pustulosus",
-      "year": 2009,
-      "doi": "10.5818/1529-9651.19.1.21",
-      "abstract": "<jats:title>ABSTRACT</jats:title>\n        <jats:p>Parasitic nematode infections pose a serious health threat to captive amphibian populations. This study compares the efficacy of ivermectin versus hygiene as treatments for nematode infection of the Túngara frog (<jats:italic>Engystomops pustulosus</jats:italic>). Each of the 24 animals was randomly assigned to one of two groups. One group received a 2 mg/kg dose of ivermectin, and the other one received daily substrate changes. The differences between the two groups were found to be negligible, suggesting that adequate habitat maintenance might be sufficient to prevent infection by <jats:italic>Strongyloides</jats:italic> intestinal nematodes in the Túngara frog.</jats:p>",
-      "journal": "Journal of Herpetological Medicine and Surgery",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_2307_1446594",
-      "title": "Sound Production and Vocal Sac Inflation in the Túngara Frog, Physalaemus pustulosus (Leptodactylidae) Sound Production and Vocal Sac Inflation in the Tungara Frog, Physalaemus pustulosus (Leptodactylidae)",
-      "year": 1991,
-      "doi": "10.2307/1446594",
-      "abstract": "",
-      "journal": "Copeia",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "lit_gbif_2427148_9",
-      "title": "Some relationships of vocalization tó behavior in the Pacific treefrog, Hyla regilla",
-      "year": 1973,
-      "doi": null,
-      "abstract": "Some relationships of three calls (diphasic, monophasic, trill) to behavior in Hyla regilla were investigated in the field and in a laboratory observation chamber. Results of observations and experiments indicate that the trill is frequently given after male-male claspings and is repulsive to other males. The monophasic call is usually given in response to the closeness of another frog. Male frogs are attracted to the diphasic call. The different calls may represent a complex vocal communication system in which the diphasic call plays a role in bringing males together and is the major female attracting call, while the trill and monophasic calls function to space males. SEVERAL workers have demonstrated that vocalization in some species of anuran amphibians has important functions in interactions between males. The relationship of vocalization to territoriality in Rana clamitans was investigated by Martof (1953). Jenssen and Preston (1968) reported aggressive behavior by male Rana clami",
-      "journal": "",
-      "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_2307_1441128",
-      "title": "Some Cues Used by the Leptodactylid Frog, Engystomops pustulosus, in Selection of the Oviposition Site",
-      "year": 1966,
-      "doi": "10.2307/1441128",
-      "abstract": "",
-      "journal": "Copeia",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    }
-  ],
-  "paper_count": 17,
-  "provenance": {
-    "taxonomy_source": "GBIF backbone",
-    "media_source": "Wikimedia Commons",
-    "literature_source": "Crossref + OpenAlex + pilot annotations",
-    "db_version": "0.3"
-  }
+  "papers": [],
+  "paper_count": 0
 }

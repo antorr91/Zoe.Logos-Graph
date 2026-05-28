@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
+    "paper_count": 21,
     "claim_count": 6,
-    "doi_count": 16,
-    "media_count": 0
+    "doi_count": 20,
+    "recording_count": 0
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Willow_Warbler_Phylloscopus_trochilus.jpg/330px-Willow_Warbler_Phylloscopus_trochilus.jpg",
@@ -45,13 +45,13 @@
     "song"
   ],
   "contexts": [
+    "territorial defence",
     "mate attraction",
-    "migration",
-    "territorial defence"
+    "migration"
   ],
   "functions": [
-    "mate attraction",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -59,47 +59,127 @@
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "migration",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territorial defence",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 995,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 994,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 993,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 992,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 991,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 990,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Phylloscopus trochilus",
     "recordings": [],
     "external_links": []
@@ -120,11 +200,39 @@
       "source": "crossref"
     },
     {
+      "doi": "10.7287/peerj.12964v0.3/reviews/2",
+      "url": "https://doi.org/10.7287/peerj.12964v0.3/reviews/2",
+      "title": "Peer Review #2 of \"Climate in Africa sequentially shapes spring passage of Willow Warbler Phylloscopus trochilus across the Baltic coast (v0.3)\"",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0257074",
+      "url": "https://doi.org/10.1371/journal.pone.0257074",
+      "title": "Seasonality and social factors, but not noise pollution, influence the song characteristics of two leaf warbler species",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.2173/bow.wlwwar.01",
+      "url": "https://doi.org/10.2173/bow.wlwwar.01",
+      "title": "Willow Warbler (Phylloscopus trochilus)",
+      "year": 2020,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1079/cabicompendium.69766",
       "url": "https://doi.org/10.1079/cabicompendium.69766",
       "title": "Phylloscopus trochilus",
       "year": 2019,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2018.1490",
+      "url": "https://doi.org/10.1098/rspb.2018.1490",
+      "title": "Context-dependent colonization of terrestrial habitat 'islands' by a long-distance migrant bird",
+      "year": 2018,
+      "source": "pubmed"
     },
     {
       "doi": "10.34080/os.v24.22555",
@@ -227,11 +335,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_12964v0_1_reviews_3",
@@ -241,11 +345,37 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_7287_peerj_12964v0_3_reviews_2",
+      "title": "Peer Review #2 of \"Climate in Africa sequentially shapes spring passage of Willow Warbler Phylloscopus trochilus across the Baltic coast (v0.3)\"",
+      "year": 2022,
+      "doi": "10.7287/peerj.12964v0.3/reviews/2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_34473797",
+      "title": "Seasonality and social factors, but not noise pollution, influence the song characteristics of two leaf warbler species",
+      "year": 2021,
+      "doi": "10.1371/journal.pone.0257074",
+      "abstract": "Changes in the acoustic signalling of animals occupying urban ecosystems is often associated with the masking effects of noise pollution, but the way in which they respond to noise pollution is not straightforward. An increasing number of studies indicate that responses can be case specific, and some species have been found to respond differently to high levels of natural versus anthropogenic noise, as well as different levels of the latter. While the perception of noise between species may vary with its source, amplitude and temporal features, some species may possess broader environmental tolerance to noise pollution, as they use higher frequency vocalizations that are less masked by low-frequency urban noise. In this study, we explored the song variation of two closely related leaf warblers, the Common Chiffchaff Phylloscopus collybita and the Willow Warbler Phylloscopus trochilus, inhabiting urban green spaces and nonurban forests. The main goal of our study was to evaluate the impact of moderate levels of noise pollution on the songs of species which use higher frequency vocalizations and large frequency bandwidth. Previous studies found that the Common Chiffchaff modified their song in response to intense noise pollution, while no such data is available for the Willow Warbler. However, the majority of urban green spaces, which serve as wildlife hot spots in urban environments are usually polluted with moderate noise levels, which may not mask the acoustic signals of species that communicate with higher frequency. We analysed the spectral and temporal song parameters of both warblers and described the ambient noise present in males' territories. Additionally, we looked at the social and seasonal aspects of bird song, since there is more than just noise in urban ecosystems which may affect acoustic communication. We found no evidence for noise-related bird song divergence in either species, however, we showed that social factors, time of day and season influence",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_2173_bow_wlwwar_01",
+      "title": "Willow Warbler (Phylloscopus trochilus)",
+      "year": 2020,
+      "doi": "10.2173/bow.wlwwar.01",
+      "abstract": "",
+      "journal": "Birds of the World",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_69766",
@@ -255,11 +385,17 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_30158311",
+      "title": "Context-dependent colonization of terrestrial habitat 'islands' by a long-distance migrant bird",
+      "year": 2018,
+      "doi": "10.1098/rspb.2018.1490",
+      "abstract": "Landscape context can affect how individuals perceive patch quality during colonization. However, although context-dependent colonization has been observed in aquatic environments, it has rarely been studied in terrestrial environments or at large spatial scales. In this paper, we assessed how landscape context influenced colonization rates in a large-scale (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_34080_os_v24_22555",
@@ -269,11 +405,7 @@
       "abstract": "<jats:p>The expansion of the Chiffchaff Phylloscopus c. collybita in southern Sweden during the last decades is well documented. Regionally the densities of the Chiffchaff now even exceed the densities of the ubiquitous Willow Warbler Phylloscopus trochilus. However, there are few quantitative studies on Chiffchaff densities, not least from urban areas. During spring 2013 a survey of singing Chiffchaffs and Willow Warblers, complemented by territory mapping, was conducted in three villa suburb areas (total ea 1.27 km2) and a nearby recreational area in the southwestern parts of the city of Malmö, Sweden. The villa areas held a substantially higher number of Chiffchaffs (16.5 pairs/km2) than Willow Warblers (6.3 pairs/ km2). In one villa sub-area, with little undergrowth and denser housing, there were no Willow Warblers at all, in contrast to the recreational area close to the villa areas, where the Willow Warbler dominated (10.9 pairs/km2). The Chiffchaff had its highest density (18.7 ",
       "journal": "Ornis Svecica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_tree_2010_04_005",
@@ -283,11 +415,7 @@
       "abstract": "",
       "journal": "Trends in Ecology & Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1365-2664_2010_01914_x",
@@ -297,11 +425,7 @@
       "abstract": "Summary 1. Traffic affects large areas of natural habitat worldwide. As a result, the acoustic signals used by birds and other animals are increasingly masked by traffic noise. Masking of signals important to territory defence and mate attraction may have a negative impact on reproductive success. Depending on the overlap in space, time and frequency between noise and vocalizations, such impact may ultimately exclude species from suitable breeding habitat. However a direct impact of traffic noise on reproductive success has not previously been reported. 2. We monitored traffic noise and avian vocal activity during the breeding season alongside a busy Dutch motorway. We measured variation in space, time and spectrum of noise and tested for negative effects on avian reproductive success using long‐term breeding data on great tits Parus major . 3. Noise levels decreased with distance from the motorway, but we also found substantial spatial variation independent of distance. Noise also var",
       "journal": "Journal of Applied Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5751_es-02761-140129",
@@ -311,11 +435,7 @@
       "abstract": "Roadside habitats are important for a range of taxa including plants, insects, mammals, and birds, particularly in developed countries in which large expanses of native vegetation have been cleared for agriculture or urban development. Although roadside vegetation may provide suitable habitat for many species, resident animals can be exposed to high levels of traffic noise, visual disturbance from passing vehicles, and the risk of collision with cars and trucks. Traffic noise can reduce the distance over which acoustic signals such as song can be detected, an effect known as acoustic interference or masking. Studies from the northern hemisphere show that the singing behavior of birds changes in the presence of traffic noise. We investigated the impact of traffic noise and traffic volume on two species of birds, the Grey Shrike-thrush (Colluricincla harmonica) and the Grey Fantail (Rhipidura fuliginosa), at 58 roadside sites on the Mornington Peninsula, southeastern Australia. The lower",
       "journal": "Ecology and Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0002647",
@@ -325,11 +445,7 @@
       "abstract": "Our results may demonstrate that risk taking during singing correlates with risk taking during aggression and with exploration, thus personality may be manifested in different contexts involving sexual advertisement. These findings are in accordance with the hypothesis that the male's balance between investment in reproduction and risk taking is reflected in sexual displays, and it may be important information for choosy females that seek partners with personality traits enhancing breeding success.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0001822",
@@ -339,11 +455,7 @@
       "abstract": "In the global scenario of increasing habitat fragmentation, finding appropriate indicators of population viability is a priority for conservation. We explored the potential of learned behaviours, specifically acoustic signals, to predict the persistence over time of fragmented bird populations. We found an association between male song diversity and the annual rate of population change, population productivity and population size, resulting in birds singing poor repertoires in populations more prone to extinction. This is the first demonstration that population viability can be predicted by a cultural trait (acquired via social learning). Our results emphasise that cultural attributes can reflect not only individual-level characteristics, but also the emergent population-level properties. This opens the way to the study of animal cultural diversity in the increasingly common human-altered landscapes.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1642_0004-8038(2006)123[639:aciunc]2_0_co;2",
@@ -353,11 +465,7 @@
       "abstract": "SUCCESSFUL ACOUSTIC COMMUNICATION requires that sounds propagate through the environment between the sender and receiver; vocalizations that transmit effectively in the habitat in which they are used are favored by natural selection. This adaptation hypothesis (Morton 1975, Wiley and Richards 1978, Richards and Wiley 1980, Ryan and Brenowitz 1985) laid the groundwork for the drive concept (Endler 1992), which describes how environment affects the evolution of sensory systems and signals in all modalities. By allowing us to examine animal signals as adaptations shaped by selection, this framework has lead to a greater understanding of the bewildering diversity of animal signals. One of the environmental factors that exerts selection pressure on acoustic signals is ambient noise (Ryan and Brenowitz 1985). To elicit a response from a receiver, signals must be detectable in background noise; the detectability of a signal is determined by the signal-to-noise ratio (SNR) and the masked audit",
       "journal": "The Auk",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arl058",
@@ -367,11 +475,7 @@
       "abstract": "The elaborateness of many bird songs is commonly presumed to have evolved under the influence of sexual selection by female mate choice. Thus, aspects of acoustic diversity, such as song repertoire size, are seen as likely targets of female choice. In many songbird species with song repertoires, however, the repertoires are small. In such species, female choice might be based on song features other than, or in addition to, song diversity. To investigate this conjecture, I assessed singing and paternity in a population of chestnut-sided warblers (Dendroica pensylvanica), a species in which song repertoires are of modest size. Twenty-two song traits were evaluated to determine which ones best predicted male extrapair reproductive success. The candidate traits encompassed measures of song diversity (e.g., song repertoire size), gross-scale song performance (e.g., singing rate), and fine-scale song performance (e.g., variability among songs in a bout). Regression analysis revealed that the",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1046_j_1365-2656_2001_00522_x",
@@ -381,11 +485,7 @@
       "abstract": "Summary Theoretical arguments suggest that distributions of migratory birds in winter should match patterns of food availability, but in reality the match between migrants and their food may be imperfect because, for various reasons, birds may be unable to ‘track’ food resources. We tested the hypothesis that food availability influences the distribution of migratory canopy‐foraging insectivorous warblers wintering in Jamaica. Over a wide spatial scale (24 sites on the island), warbler abundance varied significantly among sites and habitats and was significantly dependent on measures of arthropod biomass. Alternative factors (vegetation characteristics, resident bird competitor abundance, predator abundance) were not correlated with warbler abundance. Over a short temporal scale (about 2 weeks) at a single site, warbler abundance increased as predicted quantitatively after a natural, rapid increase in arthropod biomass. Over a longer temporal scale (the duration of a winter), changes i",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2000_0964",
@@ -395,11 +495,17 @@
       "abstract": "",
       "journal": "Proceedings of the Royal Society of London. Series B: Biological Sciences",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_10564601",
+      "title": "Seasonal patterns of singing in the willow warbler: evidence against the fertility announcement hypothesis",
+      "year": 1999,
+      "doi": "10.1006/anbe.1999.1211",
+      "abstract": "Males of many bird species use a variety of behaviour patterns that reduce their chances of being cuckolded. The 'fertility announcement' hypothesis (Møller 1991, American Naturalist, 138, 994-1014) proposes that song might be one such paternity guard. According to this hypothesis, paired males would announce their female's fertile status by singing. This has been interpreted as an honest signalling, evolutionarily stable strategy. Contrary to the predictions of this hypothesis, male willow warblers, Phylloscopus trochilus, sang very little when females were fertile. Intrusions by other males in the fertile period were not less common when males sang at higher rates. Mate guarding and singing are best interpreted as two conflicting behaviours during this period, the former being directed to the fertile female and the latter to attracting a second female, or an extrapair female. A survey of recent studies suggests that, in most passerine species studied, males do not sing during the fertile period of their females. The different conclusions of Møller (1991) are probably due to his use of population-wide estimates of the timing of singing behaviour and egg laying. Breeding asynchronies within populations would be responsible for the apparent matching between the peaks of singing activity and fertility. Copyright 1999 The Association for the Study of Animal Behaviour.",
+      "journal": "Animal behaviour",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_bf01647251",
@@ -409,11 +515,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927040_0423",
@@ -423,11 +525,7 @@
       "abstract": "",
       "journal": "The Birds of Africa : The Malagasy Region",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927026_0195",
@@ -437,14 +535,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 21,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

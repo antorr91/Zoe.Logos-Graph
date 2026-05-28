@@ -6,7 +6,7 @@
   "common_names": {
     "en": "common raven",
     "it": "corvo imperiale",
-    "es": "cuervo común",
+    "es": "cuervo com�n",
     "fr": "grand corbeau",
     "de": "kolkrabe"
   },
@@ -18,17 +18,8 @@
     "gbif_match_confidence": 95,
     "gbif_match_status": "ACCEPTED"
   },
-  "profile_level": "enriched",
-  "profile_badge": {
-    "label": "enriched",
-    "color": "teal"
-  },
-  "stats": {
-    "paper_count": 17,
-    "claim_count": 8,
-    "doi_count": 18,
-    "media_count": 0
-  },
+  "conservation_status": "",
+  "inat_id": null,
   "image": {
     "url": "",
     "url_full": "",
@@ -39,458 +30,33 @@
   "summary": "Common raven (Corvus corax) is a species of Aves in the order Passeriformes, family Corvidae.",
   "wiki_url": "https://en.wikipedia.org/wiki/Common_raven",
   "wiki_title": "Common_raven",
-  "conservation_status": "",
-  "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "call"
+    "call",
+    "alarm call"
   ],
   "contexts": [
+    "social communication",
     "foraging",
-    "predator response",
-    "social communication"
+    "predator response"
   ],
   "functions": [
     "individual recognition",
-    "predator warning",
-    "social coordination"
+    "social coordination",
+    "predator warning"
   ],
-  "communication_profile": {
-    "vocalisations": [
-      {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "contexts": [
-      {
-        "value": "foraging",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "predator response",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
-      {
-        "value": "individual recognition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "predator warning",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social coordination",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "methods": []
-  },
+  "open_papers": [
+    {
+      "doi": "10.1038/s41598-020-67872-1",
+      "url": "https://doi.org/10.1038/s41598-020-67872-1"
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Corvus corax",
     "recordings": [],
-    "external_links": []
+    "external_links": [],
+    "freesound_search": ""
   },
-  "open_papers": [
-    {
-      "doi": "10.21248/corax.v1.97",
-      "url": "https://doi.org/10.21248/corax.v1.97",
-      "title": "Bilder vom Kolkraben, &lt;i&gt;Corvus corax&lt;/i&gt;, in Schleswig-Holstein Pictures of the Common Raven,&lt;i&gt; Corvus corax&lt;/i&gt;, in Schleswig-Holstein",
-      "year": 2026,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.4324/9781003285120-8",
-      "url": "https://doi.org/10.4324/9781003285120-8",
-      "title": "Knowledge asymmetry, and Corvus Corax in Greenland/Denmark",
-      "year": 2023,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1007/s00265-018-2607-2",
-      "url": "https://doi.org/10.1007/s00265-018-2607-2",
-      "title": "What constitutes “social complexity” and “social intelligence” in birds? Lessons from ravens",
-      "year": 2019,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1079/cabicompendium.15460",
-      "url": "https://doi.org/10.1079/cabicompendium.15460",
-      "title": "Corvus corax",
-      "year": 2019,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1007/s10071-016-1064-4",
-      "url": "https://doi.org/10.1007/s10071-016-1064-4",
-      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
-      "year": 2017,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1098/rspb.2017.0990",
-      "url": "https://doi.org/10.1098/rspb.2017.0990",
-      "title": "Humans recognize emotional arousal in vocalizations across all classes of terrestrial vertebrates: evidence for acoustic universals",
-      "year": 2017,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1098/rstb.2012.0216",
-      "url": "https://doi.org/10.1098/rstb.2012.0216",
-      "title": "Linking behavioural syndromes and cognition: a behavioural ecology perspective",
-      "year": 2012,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1038/ncomms1567",
-      "url": "https://doi.org/10.1038/ncomms1567",
-      "title": "The use of referential gestures in ravens (Corvus corax) in the wild",
-      "year": 2011,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1111/j.1439-0310.1964.tb01212.x",
-      "url": "https://doi.org/10.1111/j.1439-0310.1964.tb01212.x",
-      "title": "Untersuchungen über das Ausdrucks- und Sozialverhalten des Kolkraben (Corvus corax corax L.)",
-      "year": 2010,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1371/journal.pone.0010605",
-      "url": "https://doi.org/10.1371/journal.pone.0010605",
-      "title": "Do Ravens Show Consolation? Responses to Distressed Others",
-      "year": 2010,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.3758/bf03196002",
-      "url": "https://doi.org/10.3758/bf03196002",
-      "title": "Social learning strategies",
-      "year": 2004,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.2737/psw-gtr-149",
-      "url": "https://doi.org/10.2737/psw-gtr-149",
-      "title": "Monitoring bird populations by point counts",
-      "year": 1995,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.21248/corax.v3.397",
-      "url": "https://doi.org/10.21248/corax.v3.397",
-      "title": "Starke Abnahme des Brutbestandes vom Kolkraben (&lt;i&gt;Corvus corax&lt;/i&gt;) im Landesteil Schleswig Sharp decline in the breeding population of ravens (&lt;i&gt;Corvus corax&lt;/i&gt;) in the Schleswig region",
-      "year": 1971,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.21248/corax.v3.399",
-      "url": "https://doi.org/10.21248/corax.v3.399",
-      "title": "Die Nahrung des Kolkraben (&lt;i&gt;Corvus corax&lt;/i&gt;) im Landesteil Schleswig nach einer Analyse von Gewöllen The diet of the common raven (&lt;i&gt;Corvus corax&lt;/i&gt;) in the region of Schleswig according to an analysis of pellets",
-      "year": 1971,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.21248/corax.v2.247",
-      "url": "https://doi.org/10.21248/corax.v2.247",
-      "title": "Bemerkungen zum Bestand und zur Okologie des Kolkraben, &lt;i&gt;Corvus corax&lt;/i&gt; Comments on the population and ecology of the common raven, &lt;i&gt;Corvus corax&lt;/i&gt;",
-      "year": 1967,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1111/j.1474-919x.1962.tb08677.x",
-      "url": "https://doi.org/10.1111/j.1474-919x.1962.tb08677.x",
-      "title": "VOCAL AFFINITIES OF <i>CORVUS CORAX EDITHAE</i>, “DWARF RAVEN” OR “SOMALI CROW”?",
-      "year": 1962,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1038/s41598-020-67872-1",
-      "url": "https://doi.org/10.1038/s41598-020-67872-1",
-      "title": "",
-      "year": null,
-      "source": "seed"
-    },
-    {
-      "doi": "10.5040/9781472926975.0263",
-      "url": "https://doi.org/10.5040/9781472926975.0263",
-      "title": "Corvus corax Linnaeus. Common Raven. Grand Corbeau",
-      "year": null,
-      "source": "crossref"
-    }
-  ],
-  "papers": [
-    {
-      "paper_id": "10_21248_corax_v1_97",
-      "title": "Bilder vom Kolkraben, &lt;i&gt;Corvus corax&lt;/i&gt;, in Schleswig-Holstein Pictures of the Common Raven,&lt;i&gt; Corvus corax&lt;/i&gt;, in Schleswig-Holstein",
-      "year": 2026,
-      "doi": "10.21248/corax.v1.97",
-      "abstract": "<jats:p>Zum Verhalten und der Erscheinungsform der Kolkraben.</jats:p>",
-      "journal": "CORAX",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_4324_9781003285120-8",
-      "title": "Knowledge asymmetry, and Corvus Corax in Greenland/Denmark",
-      "year": 2023,
-      "doi": "10.4324/9781003285120-8",
-      "abstract": "",
-      "journal": "Perspectives on Knowledge Communication",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1079_cabicompendium_15460",
-      "title": "Corvus corax",
-      "year": 2019,
-      "doi": "10.1079/cabicompendium.15460",
-      "abstract": "",
-      "journal": "CABI Compendium",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1007_s00265-018-2607-2",
-      "title": "What constitutes “social complexity” and “social intelligence” in birds? Lessons from ravens",
-      "year": 2019,
-      "doi": "10.1007/s00265-018-2607-2",
-      "abstract": "In the last decades, the assumption that complex social life is cognitively challenging, and thus can drive mental evolution, has received much support from empirical studies in nonhuman primates. While extending the scope to other mammals and birds, different views have been adopted on what constitutes social complexity and which specific cognitive skills are selected for. Notably, many avian species form \"open\" groups as non-breeders (i.e., seasonally and before sexual maturity) that have been largely ignored as potential sources of social complexity. Reviewing 30 years of research on ravens, we illustrate the socio-ecological conditions faced by these birds as non-breeders and discuss how these relate to their socio-cognitive skills. We argue that the non-breeding period is key to understand raven social life and, to a larger extent, avian social life in general. We furthermore emphasize how the combination of the large-scale perspective (defining social system components: e.g., soc",
-      "journal": "Behavioral Ecology and Sociobiology",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1007_s10071-016-1064-4",
-      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
-      "year": 2017,
-      "doi": "10.1007/s10071-016-1064-4",
-      "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
-      "journal": "Animal Cognition",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1098_rspb_2017_0990",
-      "title": "Humans recognize emotional arousal in vocalizations across all classes of terrestrial vertebrates: evidence for acoustic universals",
-      "year": 2017,
-      "doi": "10.1098/rspb.2017.0990",
-      "abstract": "Writing over a century ago, Darwin hypothesized that vocal expression of emotion dates back to our earliest terrestrial ancestors. If this hypothesis is true, we should expect to find cross-species acoustic universals in emotional vocalizations. Studies suggest that acoustic attributes of aroused vocalizations are shared across many mammalian species, and that humans can use these attributes to infer emotional content. But do these acoustic attributes extend to non-mammalian vertebrates? In this study, we asked human participants to judge the emotional content of vocalizations of nine vertebrate species representing three different biological classes-Amphibia, Reptilia (non-aves and aves) and Mammalia. We found that humans are able to identify higher levels of arousal in vocalizations across all species. This result was consistent across different language groups (English, German and Mandarin native speakers), suggesting that this ability is biologically rooted in humans. Our findings ",
-      "journal": "Proceedings of the Royal Society B Biological Sciences",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1098_rstb_2012_0216",
-      "title": "Linking behavioural syndromes and cognition: a behavioural ecology perspective",
-      "year": 2012,
-      "doi": "10.1098/rstb.2012.0216",
-      "abstract": "With the exception of a few model species, individual differences in cognition remain relatively unstudied in non-human animals. One intriguing possibility is that variation in cognition is functionally related to variation in personality. Here, we review some examples and present hypotheses on relationships between personality (or behavioural syndromes) and individual differences in cognitive style. Our hypotheses are based largely on a connection between fast-slow behavioural types (BTs; e.g. boldness, aggressiveness, exploration tendency) and cognitive speed-accuracy trade-offs. We also discuss connections between BTs, cognition and ecologically important aspects of decision-making, including sampling, impulsivity, risk sensitivity and choosiness. Finally, we introduce the notion of cognition syndromes, and apply ideas from theories on adaptive behavioural syndromes to generate predictions on cognition syndromes.",
-      "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1038_ncomms1567",
-      "title": "The use of referential gestures in ravens (Corvus corax) in the wild",
-      "year": 2011,
-      "doi": "10.1038/ncomms1567",
-      "abstract": "",
-      "journal": "Nature Communications",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1111_j_1439-0310_1964_tb01212_x",
-      "title": "Untersuchungen über das Ausdrucks- und Sozialverhalten des Kolkraben (Corvus corax corax L.)",
-      "year": 2010,
-      "doi": "10.1111/j.1439-0310.1964.tb01212.x",
-      "abstract": "",
-      "journal": "Zeitschrift für Tierpsychologie",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1371_journal_pone_0010605",
-      "title": "Do Ravens Show Consolation? Responses to Distressed Others",
-      "year": 2010,
-      "doi": "10.1371/journal.pone.0010605",
-      "abstract": "Our findings suggest that in ravens, bystanders may console victims with whom they share a valuable relationship, thus alleviating the victims' post-conflict distress. Conversely victims may affiliate with bystanders after a conflict in order to reduce the likelihood of renewed aggression. These results stress the importance of relationship quality in determining the occurrence and function of post-conflict interactions, and show that ravens may be sensitive to the emotions of others.",
-      "journal": "PLoS ONE",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_3758_bf03196002",
-      "title": "Social learning strategies",
-      "year": 2004,
-      "doi": "10.3758/bf03196002",
-      "abstract": "",
-      "journal": "Learning & Behavior",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_2737_psw-gtr-149",
-      "title": "Monitoring bird populations by point counts",
-      "year": 1995,
-      "doi": "10.2737/psw-gtr-149",
-      "abstract": "This volume contains in part papers presented at the Symposium on Monitoring Bird Population Trends by Point Counts, which was held November 6-7, 1991, in Beltsville, Md., in response to the need for standardization of methods to monitor bird populations by point counts. Data from various investigators working under a wide variety of conditions are presented, and various aspects of point count methodology are examined. Point counts of birds are the most widely used quantitative method and involve an observer recording birds from a single point for a standardized time period. Statistical aspects of sampling and analysis were discussed and applied to the objectives of point counts. Symposium participants agreed upon standards of point counts that should have wide applicability to a variety of habitats and terrain.",
-      "journal": "",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_21248_corax_v3_397",
-      "title": "Starke Abnahme des Brutbestandes vom Kolkraben (&lt;i&gt;Corvus corax&lt;/i&gt;) im Landesteil Schleswig Sharp decline in the breeding population of ravens (&lt;i&gt;Corvus corax&lt;/i&gt;) in the Schleswig region",
-      "year": 1971,
-      "doi": "10.21248/corax.v3.397",
-      "abstract": "<jats:p>Diese Arbeit zeigt den Rückgang des Kolkrabenbestandes auf einer Untersuchungsfläche von 2.280 qkm im Landesteil Schleswig, auf der 1951 - 49 Bp., 1965 - 36 Bp. und 1970 noch 18 Bp. brüteten. Der beschleunigte Zusammenbruch dieser Brutpopulation, der mit einem Ausbleiben von Jungrabenvergesellschaftungen parallel lief, wird auf verstärkte menschliche Nachstellungen zurückgeführt (1964-1966 wurden 75 Totfunde zumeist in Nähe des Brutbaumes erfaßt). Die Anzahl der flüggen Jungraben pro Horst blieb aber bei erfolgreichen Bruten mit 3,0 bis 3,3 nahezu unverändert, so daß eine indirekte chronische Vergiftung durch Giftstoffe, die die Generationsfähigkeit beeinträchtigen, wahrscheinlich ausscheidet.</jats:p>",
-      "journal": "CORAX",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_21248_corax_v3_399",
-      "title": "Die Nahrung des Kolkraben (&lt;i&gt;Corvus corax&lt;/i&gt;) im Landesteil Schleswig nach einer Analyse von Gewöllen The diet of the common raven (&lt;i&gt;Corvus corax&lt;/i&gt;) in the region of Schleswig according to an analysis of pellets",
-      "year": 1971,
-      "doi": "10.21248/corax.v3.399",
-      "abstract": "<jats:p>Die Analyse der Gewölle, die an den Horst- und Schlafplätzen gesammelt wurden, ergab Unterschiede zwischen Alt- und Jungraben im Volumenanteil der Nahrungsreste. In der qualitativen Zusammensetzung der Nahrung glichen sich Jung- und Altraben sehr. Allgemein zeichnet sich der Kolkrabe als Vertilger von Mäusen und Ratten mit 75 % (259 Ex) Nahrungsanteil aus. Es konnten nur 40 Vögel nachgewiesen wer den, davon 14 Hühnervögel. Insgesamt wurden 2.083 Gewölle auf ihren Inhalt untersucht.</jats:p>",
-      "journal": "CORAX",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_21248_corax_v2_247",
-      "title": "Bemerkungen zum Bestand und zur Okologie des Kolkraben, &lt;i&gt;Corvus corax&lt;/i&gt; Comments on the population and ecology of the common raven, &lt;i&gt;Corvus corax&lt;/i&gt;",
-      "year": 1967,
-      "doi": "10.21248/corax.v2.247",
-      "abstract": "<jats:p>1. Die Bestandsaufnahme des Kolkraben, die von 376 Mitarbeitern unterstützt wurde, erbrachte 1965/66 in Schleswig-Holstein 192 Brutplätze.\r\n2. Ein Überwiegen der Buche als Horstbaum bei 227 = 80 % von 300 Angaben spiegelt die fast einseitige Bewaldung im Hauptsiedlungsgebiet der östlichen Kreise wieder. Die Wahl des Horstbaumes richtet sich dank der Anpassungsfähigkeit des Raben nach den vorhandenen Waldtypen.\r\n3. In den drei Jahren 1964-1966 wurden 70 Kolkraben tot in unserem Land aufgefunden. Als Hauptursache werden Vergiftungen durch Strychninphosphor-Eier angesehen. Die Aufzuchtergebnisse bei Ausfall eines Altvogels waren in vier von fünf Fällen bei verringerter Jungenzahl positiv.\r\n4. Der Legebeginn einer möglichen Neuverpaarung innerhalb einer Brutperiode nach dem Tod des Partners und eines Nachgeleges lag um den 20. April.</jats:p>",
-      "journal": "CORAX",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1111_j_1474-919x_1962_tb08677_x",
-      "title": "VOCAL AFFINITIES OF <i>CORVUS CORAX EDITHAE</i>, “DWARF RAVEN” OR “SOMALI CROW”?",
-      "year": 1962,
-      "doi": "10.1111/j.1474-919x.1962.tb08677.x",
-      "abstract": "",
-      "journal": "Ibis",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_5040_9781472926975_0263",
-      "title": "Corvus corax Linnaeus. Common Raven. Grand Corbeau",
-      "year": null,
-      "doi": "10.5040/9781472926975.0263",
-      "abstract": "",
-      "journal": "The Birds of Africa",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    }
-  ],
-  "paper_count": 17,
-  "provenance": {
-    "taxonomy_source": "GBIF backbone",
-    "media_source": "Wikimedia Commons",
-    "literature_source": "Crossref + OpenAlex + pilot annotations",
-    "db_version": "0.3"
-  }
+  "papers": [],
+  "paper_count": 0
 }

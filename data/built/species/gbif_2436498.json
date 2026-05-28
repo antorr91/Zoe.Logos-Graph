@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 21,
-    "claim_count": 9,
-    "doi_count": 21,
-    "media_count": 0
+    "paper_count": 38,
+    "claim_count": 27,
+    "doi_count": 27,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,450 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
+    "whoop",
     "great call",
-    "song",
-    "whoop"
+    "song"
   ],
   "contexts": [
+    "territorial defence",
     "mate attraction",
-    "pair bond maintenance",
-    "territorial defence"
+    "pair bond maintenance"
   ],
   "functions": [
+    "territory signalling",
     "mate attraction",
-    "pair bond maintenance",
-    "territory signalling"
+    "pair bond maintenance"
   ],
   "communication_profile": {
     "vocalisations": [
       {
+        "value": "whoop",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "great call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "whoop",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "pair bond maintenance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territorial defence",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "pair bond maintenance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territory signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 519,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 518,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 517,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 516,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 515,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 514,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 513,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 512,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 511,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 510,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 509,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 508,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 507,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 506,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 505,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 504,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 503,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 502,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 501,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 500,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 499,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 498,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 497,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 496,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 495,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 494,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 493,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/ajp.70080",
+      "url": "https://doi.org/10.1002/ajp.70080",
+      "title": "Estimation of White-Handed Gibbon Density and Population Size in Huai Kha Khaeng Wildlife Sanctuary, Western Thailand",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.26451/abc.12.02.03.2025",
       "url": "https://doi.org/10.26451/abc.12.02.03.2025",
@@ -139,6 +499,20 @@
       "title": "Isochronous singing in 3 crested gibbon species (<i>Nomascus</i> spp.)",
       "year": 2023,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2022.2244",
+      "url": "https://doi.org/10.1098/rspb.2022.2244",
+      "title": "Isochrony and rhythmic interaction in ape duetting",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10329-021-00958-y",
+      "url": "https://doi.org/10.1007/s10329-021-00958-y",
+      "title": "Genetic analysis of hybridization between white-handed (Hylobates lar) and pileated (Hylobates pileatus) gibbons in a contact zone in Khao Yai National Park, Thailand",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.1007/s10764-022-00312-z",
@@ -169,11 +543,25 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1186/s12862-015-0578-8",
+      "url": "https://doi.org/10.1186/s12862-015-0578-8",
+      "title": "Age related decline in female lar gibbon great call performance suggests that call features correlate with physical condition",
+      "year": 2016,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1002/ajp.22406",
       "url": "https://doi.org/10.1002/ajp.22406",
       "title": "Lar gibbon (<i>Hylobates lar</i>) great call reveals individual caller identity",
       "year": 2015,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1186/s12862-015-0332-2",
+      "url": "https://doi.org/10.1186/s12862-015-0332-2",
+      "title": "Context-specific close-range “hoo” calls in wild gibbons (Hylobates lar)",
+      "year": 2015,
+      "source": "openalex"
     },
     {
       "doi": "10.2305/iucn.uk.2020-2.rlts.t39881a17990986.en",
@@ -188,6 +576,13 @@
       "title": "The evolutionary origin of human hyper-cooperation",
       "year": 2014,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0082748",
+      "url": "https://doi.org/10.1371/journal.pone.0082748",
+      "title": "Cues to androgens and quality in male gibbon songs",
+      "year": 2013,
+      "source": "pubmed"
     },
     {
       "doi": "10.2305/iucn.uk.2008.rlts.t39881a10269294.en",
@@ -283,11 +678,27 @@
       "abstract": "<jats:p>Gibbons are Asian apes that live in stable territories, often for decades. They produce loud, elaborate vocalizations (songs) that include well-coordinated male/female duets that are detectable by immediate neighbors and more distant groups. The female great call, the longest and most conspicuous phrase of the gibbon vocal repertoire, has been hypothesized to serve in territorial defense. Great calls of different individuals are statistically distinguishable, and a structurally stable great call should benefit a caller as it would reliably transmit caller identity over the long-term, to distant animals. The loud climax notes of this vocalization, however, are difficult to produce. We therefore predicted that physical decline with aging should reduce the frequency of high pitch climax notes within the great call. To determine the degree to which great call performance is stable over an extended time frame, we analyzed great calls from a wild population of white-handed gibbons at",
       "journal": "Animal Behavior and Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41077798",
+      "title": "Estimation of White-Handed Gibbon Density and Population Size in Huai Kha Khaeng Wildlife Sanctuary, Western Thailand",
+      "year": 2025,
+      "doi": "10.1002/ajp.70080",
+      "abstract": "All 20 gibbon species (Hylobatidae) are listed as Threatened or Endangered on the IUCN Red List. The four species of gibbons occurring in Thailand survive only in well-protected forests and need to be effectively monitored for conservation management. Because of their habit of duetting and living in small-group territories, gibbons are usually surveyed using acoustic methods employing point counts. We surveyed the white-handed gibbon (Hylobates lar) population in Huai Kha Khaeng Wildlife Sanctuary in western Thailand to determine the long-term viability of the population. We combined the listening-point method using arrays of listening posts with the point transect Distance method with prior random placement of sample points. We placed 39 sample arrays in dry (seasonal) evergreen forest (DEF), the optimal forest type for gibbons in the sanctuary, and 34 arrays in selected areas of mixed deciduous forest (MDF). During the 20 months of survey (2017-2021), we estimated an average density of 3.74 groups km",
+      "journal": "American journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39035758",
+      "title": "Isochronous singing in 3 crested gibbon species (",
+      "year": 2024,
+      "doi": "10.1093/cz/zoad029",
+      "abstract": "The search for common characteristics between the musical abilities of humans and other animal species is still taking its first steps. One of the most promising aspects from a comparative point of view is the analysis of rhythmic components, which are crucial features of human communicative performance but also well-identifiable patterns in the vocal displays of other species. Therefore, the study of rhythm is becoming essential to understand the mechanisms of singing behavior and the evolution of human communication. Recent findings provided evidence that particular rhythmic structures occur in human music and some singing animal species, such as birds and rock hyraxes, but only 2 species of nonhuman primates have been investigated so far (",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_cz_zoad029",
@@ -297,11 +708,17 @@
       "abstract": "The search for common characteristics between the musical abilities of humans and other animal species is still taking its first steps. One of the most promising aspects from a comparative point of view is the analysis of rhythmic components, which are crucial features of human communicative performance but also well-identifiable patterns in the vocal displays of other species. Therefore, the study of rhythm is becoming essential to understand the mechanisms of singing behavior and the evolution of human communication. Recent findings provided evidence that particular rhythmic structures occur in human music and some singing animal species, such as birds and rock hyraxes, but only 2 species of nonhuman primates have been investigated so far (<i>Indri indri</i> and <i>Hylobates lar</i>). Therefore, our study aims to consistently broaden the list of species studied regarding the presence of rhythmic categories. We investigated the temporal organization in the singing of 3 species of cres",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_36629119",
+      "title": "Isochrony and rhythmic interaction in ape duetting",
+      "year": 2023,
+      "doi": "10.1098/rspb.2022.2244",
+      "abstract": "How did rhythm originate in humans, and other species? One cross-cultural universal, frequently found in human music, is isochrony: when note onsets repeat regularly like the ticking of a clock. Another universal consists in synchrony (e.g. when individuals coordinate their notes so that they are sung at the same time). An approach to biomusicology focuses on similarities and differences across species, trying to build phylogenies of musical traits. Here we test for the presence of, and a link between, isochrony and synchrony in a non-human animal. We focus on the songs of one of the few singing primates, the lar gibbon (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s10764-022-00312-z",
@@ -311,11 +728,17 @@
       "abstract": "",
       "journal": "International Journal of Primatology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_34716489",
+      "title": "Genetic analysis of hybridization between white-handed (Hylobates lar) and pileated (Hylobates pileatus) gibbons in a contact zone in Khao Yai National Park, Thailand",
+      "year": 2022,
+      "doi": "10.1007/s10329-021-00958-y",
+      "abstract": "Natural hybridization has played various roles in the evolutionary history of primates. Its consequences range from genetic introgression between taxa, formation of hybrid zones, and formation of new lineages. Hylobates lar, the white-handed gibbon, and Hylobates pileatus, the pileated gibbon, are largely allopatric species in Southeast Asia with a narrow contact zone in Khao Yai National Park, Thailand, which contains both parental types and hybrids. Hybrid individuals in the zone are recognizable by their intermediate pelage and vocal patterns, but have not been analyzed genetically. We analyzed mitochondrial and microsatellite DNA of 52 individuals to estimate the relative genetic contributions of the parental species to each individual, and the amount of introgression into the parental species. We obtained fecal samples from 33 H. lar, 15 H. pileatus and four phenotypically intermediate individuals in the contact zone. Both mitochondrial and microsatellite markers confirmed distinct differences between these taxa. Both H. lar and H. pileatus contributed to the maternal lineages of the hybrids based on mitochondrial analysis; hybrids were viable and present in socially normal reproductive pairs. The microsatellite analysis identified ten admixed individuals, four F1 hybrids, which corresponded to phenotypic hybrids, and six H. lar-like backcrosses. All 15 H. pileatus samples were identified as originating from genetically H. pileatus individuals with no H. lar admixture; hence, backcrossing is biased toward H. lar. A relatively low number of phenotypic hybrids and backcrossed individuals along with a high number of parental types indicates a bimodal hybrid zone, which suggests relatively strong bias in mate selection between the species.",
+      "journal": "Primates; journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_78894",
@@ -325,11 +748,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_29874638",
+      "title": "A Behavioural Case Study of Early Social Isolation of a Subadult White-Handed Gibbon (Hylobates lar)",
+      "year": 2018,
+      "doi": "10.1159/000487926",
+      "abstract": "Our aim in this study was to analyse the effects of early social isolation on the behaviour of a white-handed gibbon (Hylobates lar) and at the same time to improve his level of welfare. The subject was a 6-year-old male, isolated from conspecific as well as other non-human primates since he was 3 months old. We presented the gibbon with a series of species-specific vocalisations, and we then introduced a 23-year-old conspecific female into his cage. Our subject did not respond to playbacks, whereas he immediately interacted positively with the conspecific female. After 2 days of presentation, the pair started to spend time in proximity to each other and initiated grooming through the wire-mesh dividing the cages. Four days later we recorded vocal duets. No obvious ste-reotypic behaviours were observed, and the prolonged isolation did not seem to compromise the ability of the young gibbon to socialise with the female conspecific. It appears that prolonged isolation does not always compromise the possibility of recovering socially in a satisfactory manner.",
+      "journal": "Folia primatologica; international journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29508909",
+      "title": "An analysis of white-handed gibbon male song reveals speech-like phrases",
+      "year": 2018,
+      "doi": "10.1002/ajpa.23451",
+      "abstract": "OBJECTIVES: Our goal was to document song phrases of the white-handed gibbon (Hylobates lar), an Asian ape that produces elaborate songs, often in well-coordinated male/female duets. We focused on the male coda, which is produced during vocal turn-taking with one's mate, and particularly its phrases containing rapid spectral and temporal variation, to investigate if modulation rates resemble those of lip-smacking in other nonhuman primates and human speech rhythm. MATERIALS AND METHODS: We produced recordings from a large population of wild gibbons. Using terminology consistent with that used to describe vocalizations in other singing species, we analyzed coda phrases, overall coda properties, coda distinctiveness across individuals, and flexibility of phrase production within song bouts. RESULTS: Our song phrase-level analysis showed that male codas differed between individuals and increase in complexity within song bouts by the addition of the only two male-specific phrases of the species' repertoire. These phrases differ from all others of the species and from vocalizations typical of the larger, nonhuman great apes, in that they contain rapid within-phrase modulation. Their modulation rates (6.82 and 7.34 Hz) are similar to that of lip-smacking in other nonhuman primates and speech in humans and, like human speech, are produced exclusively during exhalation. One phrase type (trills) contains multiple notes per exhalation, another characteristic similar to speech but not most primate vocalizations. DISCUSSION: Our data highlight the complexity and flexibility of gibbon song, and show that particular phrase features likely arose from sexual selection pressures and possess similarities to human speech rhythm.",
+      "journal": "American journal of physical anthropology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1038_ncomms10986",
@@ -339,11 +778,7 @@
       "abstract": "Human language can express limitless meanings from a finite set of words based on combinatorial rules (i.e., compositional syntax). Although animal vocalizations may be comprised of different basic elements (notes), it remains unknown whether compositional syntax has also evolved in animals. Here we report the first experimental evidence for compositional syntax in a wild animal species, the Japanese great tit (Parus minor). Tits have over ten different notes in their vocal repertoire and use them either solely or in combination with other notes. Experiments reveal that receivers extract different meanings from 'ABC' (scan for danger) and 'D' notes (approach the caller), and a compound meaning from 'ABC-D' combinations. However, receivers rarely scan and approach when note ordering is artificially reversed ('D-ABC'). Thus, compositional syntax is not unique to human language but may have evolved independently in animals as one of the basic mechanisms of information transmission.",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_ncomms12739",
@@ -353,11 +788,17 @@
       "abstract": "Recent studies have revealed that some mammals possess adaptations that enable them to produce vocal signals with much lower fundamental frequency (F0) and formant frequency spacing (ΔF) than expected for their size. Although these adaptations are assumed to reflect selection pressures for males to lower frequency components and exaggerate body size in reproductive contexts, this hypothesis has not been tested across a broad range of species. Here we show that male terrestrial mammals produce vocal signals with lower ΔF (but not F0) than expected for their size in mating systems with greater sexual size dimorphism. We also reveal that males produce calls with higher than expected F0 and ΔF in species with increased sperm competition. This investigation confirms that sexual selection favours the use of ΔF as an acoustic size exaggerator and supports the notion of an evolutionary trade-off between pre-copulatory signalling displays and sperm production.",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_26728088",
+      "title": "Age related decline in female lar gibbon great call performance suggests that call features correlate with physical condition",
+      "year": 2016,
+      "doi": "10.1186/s12862-015-0578-8",
+      "abstract": "BACKGROUND: White-handed gibbons (Hylobates lar) are small Asian apes known for living in stable territories and producing loud, elaborate vocalizations (songs), often in well-coordinated male/female duets. The female great call, the most conspicuous phrase of the repertoire, has been hypothesized to function in intra-sexual territorial defense. We therefore predicted that characteristics of the great call would correlate with a caller's physical condition, and thus might honestly reflect resource holding potential (RHP). Because measurement of RHP is virtually impossible for wild animals, we used age as a proxy, hypothesizing that great call climaxes are difficult to produce and maintain over time, and that older adults will therefore perform lower quality great calls than young adults. To test this we analyzed the great call climaxes of 15 wild lar gibbon females at Khao Yai National Park, Thailand and 2 captive females at Leo Conservation Center, Greenwich, CT. RESULTS: Findings show that call climaxes correlate with female age, as young animals (n = 8, mean age: 12.9 years) produced climaxes with a higher frequency range (delta F0), maximum F0 frequency and duty cycle than old animals (n = 9, mean age: 29.6 years). A permuted discriminant function analysis also correctly classified calls by age group. During long song bouts the maximum F0 frequency of great call climaxes' also decreased. Additional data support the hypothesis that short high notes, associated with rapid inhalation as an individual catches its breath, reflect increased caller effort. Older females produced more high notes than younger females, but the difference only approached statistical significance, suggesting that calling effort may be similar across different ages. Finally, for the first time in this species, we measured peak intensity of calls in captive females. They were capable of producing climaxes in excess of 100 dB at close range (2.7 m). CONCLUSIONS: Age and within-bout differences",
+      "journal": "BMC evolutionary biology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2020-2_rlts_t39881a17990986_en",
@@ -367,11 +808,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_ajp_22406",
@@ -381,11 +818,37 @@
       "abstract": "<jats:sec><jats:label/><jats:p>Gibbons (family Hylobatidae) produce loud, elaborate vocalizations (songs), often in well‐coordinated male/female duets. The female's great call, the most conspicuous phrase of the gibbon vocal repertoire, functions primarily to mediate territorial defense. Despite the fact that lar gibbons (<jats:italic>Hylobates lar</jats:italic>) are the most widely distributed and well researched hylobatid species and produce a rich vocal repertoire, the individual‐specificity of their great calls has not previously been quantified. In addition, spectral and temporal features of notes occurring at specific locations within the lar great call have not been described. Here we provide such a description, and test the hypothesis that great calls are statistically discriminable between a large sample of individual callers. We compared recordings of great calls from 14 wild lar females in Khao Yai National Park, Thailand. Our analyses of principal components derived from sp",
       "journal": "American Journal of Primatology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1186_s12862-015-0332-2",
+      "title": "Context-specific close-range “hoo” calls in wild gibbons (Hylobates lar)",
+      "year": 2015,
+      "doi": "10.1186/s12862-015-0332-2",
+      "abstract": "BACKGROUND: Close range calls are produced by many animals during intra-specific interactions, such as during home range defence, playing, begging for food, and directing others. In this study, we investigated the most common close range vocalisation of lar gibbons (Hylobates lar), the 'hoo' call. Gibbons and siamangs (family Hylobatidae) are known for their conspicuous and elaborate songs, while quieter, close range vocalisations have received almost no empirical attention, perhaps due to the difficult observation conditions in their natural forest habitats. RESULTS: We found that 'hoo' calls were emitted by both sexes in a variety of contexts, including feeding, separation from group members, encountering predators, interacting with neighbours, or as part of duet songs by the mated pair. Acoustic analyses revealed that 'hoo' calls varied in a number of spectral parameters as a function of the different contexts. Males' and females' 'hoo' calls showed similar variation in these contex",
+      "journal": "BMC Evolutionary Biology",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25888361",
+      "title": "Context-specific close-range \"hoo\" calls in wild gibbons (Hylobates lar)",
+      "year": 2015,
+      "doi": "10.1186/s12862-015-0332-2",
+      "abstract": "BACKGROUND: Close range calls are produced by many animals during intra-specific interactions, such as during home range defence, playing, begging for food, and directing others. In this study, we investigated the most common close range vocalisation of lar gibbons (Hylobates lar), the 'hoo' call. Gibbons and siamangs (family Hylobatidae) are known for their conspicuous and elaborate songs, while quieter, close range vocalisations have received almost no empirical attention, perhaps due to the difficult observation conditions in their natural forest habitats. RESULTS: We found that 'hoo' calls were emitted by both sexes in a variety of contexts, including feeding, separation from group members, encountering predators, interacting with neighbours, or as part of duet songs by the mated pair. Acoustic analyses revealed that 'hoo' calls varied in a number of spectral parameters as a function of the different contexts. Males' and females' 'hoo' calls showed similar variation in these context-specific parameter differences, although there were also consistent sex differences in frequency across contexts. CONCLUSIONS: Our study provides evidence that lar gibbons are able to generate significant, context-dependent acoustic variation within their main social call, which potentially allows recipients to make inferences about the external events experienced by the caller. Communicating about different events by producing subtle acoustic variation within some call types appears to be a general feature of primate communication, which can increase the expressive power of vocal signals within the constraints of limited vocal tract flexibility that is typical for all non-human primates. In this sense, this study is of direct relevance for the on-going debate about the nature and origins of vocally-based referential communication and the evolution of human speech.",
+      "journal": "BMC evolutionary biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25800578",
+      "title": "Lar gibbon (Hylobates lar) great call reveals individual caller identity",
+      "year": 2015,
+      "doi": "10.1002/ajp.22406",
+      "abstract": "Gibbons (family Hylobatidae) produce loud, elaborate vocalizations (songs), often in well-coordinated male/female duets. The female's great call, the most conspicuous phrase of the gibbon vocal repertoire, functions primarily to mediate territorial defense. Despite the fact that lar gibbons (Hylobates lar) are the most widely distributed and well researched hylobatid species and produce a rich vocal repertoire, the individual-specificity of their great calls has not previously been quantified. In addition, spectral and temporal features of notes occurring at specific locations within the lar great call have not been described. Here we provide such a description, and test the hypothesis that great calls are statistically discriminable between a large sample of individual callers. We compared recordings of great calls from 14 wild lar females in Khao Yai National Park, Thailand. Our analyses of principal components derived from spectral and temporal measures, as well as spectrograms from the entire great call, indicate that acoustic variation is sufficient to allow identification of individual callers (83.5% discriminability based on principal components, and inter-individual call variation exceeding intra-individual variation in overall spectrogram). These vocalizations potentially allow individual recognition of animals.",
+      "journal": "American journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1038_ncomms5747",
@@ -395,11 +858,27 @@
       "abstract": "",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24367551",
+      "title": "Cues to androgens and quality in male gibbon songs",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0082748",
+      "abstract": "Animal vocal signals may provide information about senders and mediate important social interactions like sexual competition, territory maintenance and mate selection. Hence, it is important to understand whether vocal signals provide accurate information about animal attributes or status. Gibbons are non-human primates that produce loud, distinctive and melodious vocalizations resembling more those of birds than of other non-human primates. Wild gibbons are characterized by flexibility in social organization (i.e., pairs and multimale units) as well as in mating system (i.e., monogamy and polyandry). Such features make them a suitable model to investigate whether the physiology (hormonal status) and socio-demographic features find their correspondence in the structure of their songs. By combining male solo song recordings, endocrine outputs using non-invasive fecal androgen measures and behavioral observations, we studied 14 groups (10 pair-living, 4 multimale) of wild white-handed gibbons (Hylobates lar) residing at Khao Yai National Park, Thailand. We collected a total of 322 fecal samples and recorded 48 songs from 18 adult animals. Our results confirmed inter-individuality in male gibbon songs, and showed a clear correlation between androgen levels and song structures. Gibbons with higher androgen levels produced calls having higher pitch, and similarly adult individuals produced longer calls than senior males. Thus, it is plausible that gibbon vocalizations provide receivers with information about singers' attributes.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22926979",
+      "title": "Soprano singing in gibbons",
+      "year": 2012,
+      "doi": "10.1002/ajpa.22124",
+      "abstract": "Diversifications in primate vocalization, including human speech, are believed to reflect evolutionary modifications in vocal anatomy and physiology. Gibbon song is acoustically unique, comprising loud, melodious, penetrating pure tone-like calls. In a white-handed gibbon, Hylobates lar, the fundamental frequency (f(0) ) of song sounds is amplified distinctively from the higher harmonics in normal air. In a helium-enriched atmosphere, f(0) does not shift, but it is significantly suppressed and 2f(0) is emphasized. This implies that the source is independent of the resonance filter of the supralaryngeal vocal tract (SVT) in gibbons, in contrast to musical wind instruments, in which the filter primarily determines f(0) . Acoustic simulation further supported that gibbons' singing is produced analogously to professional human soprano singing, in which a precise tuning of the first formant (F(1) ) of the SVT to f(0) amplifies exclusively the f(0) component of the source. Thus, in gibbons, as in humans, dynamic control over the vocal tract configuration, rather than anatomical modifications, has been a dominant factor in determining call structure. The varied dynamic movements were adopted in response to unique social and ecological pressures in gibbons, allowing monogamous gibbons to produce pure-tonal melodious songs in the dense tropical forests with poor visibility.",
+      "journal": "American journal of physical anthropology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "lit_gbif_2436498_17",
@@ -409,11 +888,27 @@
       "abstract": "The loud songs of gibbons (Hylobatidae) usually consist of a duet by the mated pair delivered each morning. These songs can transmit over a kilometre through dense forest habitat and therefore presumably play a role in long-distance communication. There is some evidence to suggest that gibbons use song in contexts other than their daily duets, such as predation, but these songs have not been well studied. Close- range communication is also relevant for gibbons, but these quieter calls have completely escaped any detailed observation. The responses of wild white-handed gibbons (Hylobates lar) to simulated visual and acoustic predators (tiger, clouded leopard, reticulated python and crested serpent eagle) were studied in Khao Yai National Park, Thailand to address the lack of empirical data about these important events. Little is known about gibbons’ anti- predatory behaviour in general, and simulated predator encounters provided an opportunity to investigate these responses as well. Res",
       "journal": "St Andrews Research Repository (St Andrews Research Repository)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_2436498_16",
+      "title": "The vocalisations and anti-predatory behaviour of wild white-handed gibbons (Hylobates lar) in Khao Yai National Park, Thailand",
+      "year": 2010,
+      "doi": null,
+      "abstract": "The loud songs of gibbons (Hylobatidae) usually consist of a duet by the mated pair delivered each morning. These songs can transmit over a kilometre through dense forest habitat and therefore presumably play a role in long-distance communication. There is some evidence to suggest that gibbons use song in contexts other than their daily duets, such as predation, but these songs have not been well studied. Close- range communication is also relevant for gibbons, but these quieter calls have completely escaped any detailed observation. The responses of wild white-handed gibbons (Hylobates lar) to simulated visual and acoustic predators (tiger, clouded leopard, reticulated python and crested serpent eagle) were studied in Khao Yai National Park, Thailand to address the lack of empirical data about these important events. Little is known about gibbons’ anti- predatory behaviour in general, and simulated predator encounters provided an opportunity to investigate these responses as well. Res",
+      "journal": "St Andrews Research Repository (St Andrews Research Repository)",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20607695",
+      "title": "Brief communication: Three-dimensional motion analysis of hindlimb during brachiation in a white-handed gibbon (Hylobates lar)",
+      "year": 2010,
+      "doi": "10.1002/ajpa.21280",
+      "abstract": "In brachiating gibbons, it is thought that there is little movement in the hindlimb joints and that lateral body movement is quite limited. These hypotheses are based on naked-eye observations, and no quantitative motion analyses of the hindlimbs have been reported. This study quantitatively describes the three-dimensional movements of the lower trunk and distal thigh during continuous-contact brachiation in a white-handed gibbon (Hylobates lar) to evaluate the roles of the trunk and hindlimb. The results revealed that the lower trunk moved both laterally and vertically. The lateral movement of the lower trunk resulted from the lateral inclination of the trunk by gravity. The vertical movement of the trunk was converted into forward velocity, indicating an exchange between potential and kinetic energy. We also observed flexion and extension of the hip, although the excursion was within a small range. In addition, the lateral movement of the hindlimb in thedirection opposite to that of trunk movement helped to reduce the lateral sway of the body. These results suggest that during continuous-contact brachiation a gibbon uses hip flexion and extension motions to increase the kinetic energy in the swing. In addition, fine motions of the hip may restrict the lateral sway of the center of body mass.",
+      "journal": "American journal of physical anthropology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2008_rlts_t39881a10269294_en",
@@ -423,11 +918,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0000073",
@@ -437,11 +928,7 @@
       "abstract": "Spoken language is a result of the human capacity to assemble simple vocal units into more complex utterances, the basic carriers of semantic information. Not much is known about the evolutionary origins of this behaviour. The vocal abilities of non-human primates are relatively unimpressive in comparison, with gibbon songs being a rare exception. These apes assemble a repertoire of call notes into elaborate songs, which function to repel conspecific intruders, advertise pair bonds, and attract mates. We conducted a series of field experiments with white-handed gibbons at Khao Yai National Park, Thailand, which showed that this ape species uses songs also to protect themselves against predation. We compared the acoustic structure of predatory-induced songs with regular songs that were given as part of their daily routine. Predator-induced songs were identical to normal songs in the call note repertoire, but we found consistent differences in how the notes were assembled into songs. The",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1037_e604002013-066",
@@ -451,11 +938,17 @@
       "abstract": "",
       "journal": "PsycEXTRA Dataset",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_16196612",
+      "title": "Recurrence plot analysis of nonstationary data: the understanding of curved patterns",
+      "year": 2005,
+      "doi": "10.1103/PhysRevE.72.021915",
+      "abstract": "Recurrence plots of the calls of the Nomascus concolor (Western black crested gibbon) and Hylobates lar (White-handed gibbon) show characteristic circular, curved, and hyperbolic patterns superimposed to the main temporal scale of the signal. It is shown that these patterns are related to particular nonstationarities in the signal. Some of them can be reproduced by artificial signals like frequency modulated sinusoids and sinusoids with time divergent frequency. These modulations are too faint to be resolved by conventional time-frequency analysis with similar precision. Therefore, recurrence plots act as a magnifying glass for the detection of multiple temporal scales in slightly modulated signals. The detected phenomena in these acoustic signals can be explained in the biomechanical context by taking in account the role of the muscles controlling the vocal folds.",
+      "journal": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1159_000021658",
@@ -465,11 +958,7 @@
       "abstract": "",
       "journal": "Folia Primatologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1159_000021659",
@@ -479,11 +968,17 @@
       "abstract": "",
       "journal": "Folia Primatologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_9730212",
+      "title": "Sleeping sites, sleeping places, and presleep behavior of gibbons (Hylobates lar)",
+      "year": 1998,
+      "doi": "10.1002/(SICI)1098-2345(1998)46:1<35::AID-AJP4>3.0.CO;2-W",
+      "abstract": "The sleeping habits of wild white-handed gibbons (Hylobates lar) were investigated to assess the risk of predation and predation-avoidance behavior. Sleeping sites were distributed throughout home ranges, including areas where they overlapped with neighbors, and appeared to be selected independently of habitat characteristics. Individuals did not build night nests or otherwise manipulate the vegetation around the sleeping place but slept on open branches. Group members usually slept in separate trees, and, except for females with infants, they never shared a sleeping place. Sleeping trees were entered several hours before dusk and were used for about 14-17 h. The majority of sleeping trees were used only once, and fewer were selected repeatedly by the same or other group members. Usually females with infants went into a sleeping tree first, then juveniles, and last were mostly subadult and adult males. Intragroup competition over access to a sleeping place was observed once. Average time difference between the first and last group member to enter a sleeping tree was 13 min. The sequence of departure from sleeping trees was more variable. Gibbon sleeping habits seem to primarily reflect adaptations to minimize predation risk. The predation-risk hypothesis was indirectly supported by observations of mobbing pythons, alarm calls given in response to birdes of prey flying low over the canopy, and more importantly by 1) the predominant use of large sleeping trees, which were among the tallest trees available, particularly by adult females with small infants and juveniles, 2) an unpredictable long-term pattern of reuse of sleeping places, and 3) inconspicuous presleep behavior.",
+      "journal": "American journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1159_000157260",
@@ -493,11 +988,7 @@
       "abstract": "<jats:p>Studies of the siamang <jats:italic>(Hylobates syndactylus continentis) </jats:italic>and the lar gibbon <jats:italic>(Hylobates lar lar) </jats:italic>where they co-occur in mainland Asia have demonstrated interspecific dietary segregation based on body size and have suggested that observed levels of frugivory represent metabolically based maxima for these species. I studied sympatric groups of siamang <jats:italic>(H. s. syndactylus) </jats:italic>and lar gibbons <jats:italic>(H. I. vestitus) </jats:italic>at Ketambe in northern Sumatra (Indonesia) in order to assess the magnitude of within- and between-species variation in diets. The insular subspecies are considerably more frugivorous (60–70% of feeding time) than mainland conspecifics (35–50%). This is primarily because Sumatran hylobatids spend about twice as much time (approx. 45% of feeding) eating fig fruits <jats:italic>(Ficus </jats:italic>spp., Moraceae). A higher density of figs at Ketambe (compared to Kuala Lompat",
       "journal": "Folia Primatologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_156853985x00037",
@@ -507,11 +998,7 @@
       "abstract": "<jats:sec>\n\t\t\t\t\t<jats:title>Abstract</jats:title>\n\t\t\t\t\t<jats:p>We report on long-range duet interactions among twelve wild groups of lar gibbons (Hylobates lar) in Thailand. Statistical analysis demonstrates that groups were more likely to respond with an answering duet to a duet sung by a neighbouring group than to one sung by a non-neighbouring group in the population. A distinctive pattern of response among neighbours was to wait until a neighbouring group had finished its duet before immediately answering with a duet, resulting in avoidance of overlap between the two duets. Non-neighbours did not exhibit this pattern. The effect is shown to be due solely to neighbour status and not to the degree of mutual audibility of the duets. There was no evidence that, when duets overlapped, the first group to sing modified the length of its duet in response to the second duet, whether given by a neighbour or by a non-neighbour. In general, among those groups which responded to one another's d",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf02736388",
@@ -521,11 +1008,17 @@
       "abstract": "",
       "journal": "International Journal of Primatology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31986810",
+      "title": "Songs of hybrid gibbons (Hylobates lar × H. muelleri)",
+      "year": 1985,
+      "doi": "10.1002/ajp.1350080307",
+      "abstract": "Two hybrid offspring, one male and one female, were produced by a Hylobates muelleri female mated to a Hylobates lar male at Micke Grove Zoo, Lodi, California. Songs of the hybrids were studied at adulthood and compared to the parental-type songs. The hybrid female song is uniquely different from either parental type. The hybrid male song resembles the male song of H. lar, but contains an element that may be unique to H. muelleri. The study demonstrates the utility of sound-spectographic analysis of hybrid vocalizations to further understanding of primate behavioral inheritance.",
+      "journal": "American journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1127_zma_74_1984_275",
@@ -535,11 +1028,7 @@
       "abstract": "",
       "journal": "Zeitschrift für Morphologie und Anthropologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_title_54341",
@@ -549,11 +1038,7 @@
       "abstract": "the nature of the affinities which connect together whole groups of organisms-their geographical distribution in past and present times, and their geological succession.The homological struc- ture, embryological development, and rudimentary organs of a species remain to be considered, whether it be man or any other animal, to which our attention may be directed; but these great classes of facts afford, as it appears to me, ample and conclusive evidence in favor of the principle of gradual evolution.The strong support derived from the other arguments should, however, always be kept before the mind.The sole object of this work is to consider, firstly, whether man, like every other species, is descended from some pre-existing form; secondly, the manner of his development; and thirdly, the value of the differences between the so-called races of man.As I shall confine myself to these points, it will not be necessary to describe in detail the differences between the several races-an enormous",
       "journal": "",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5962_bhl_title_2112",
@@ -563,14 +1048,10 @@
       "abstract": "The Nature and Value of Specific Characters.-Application to the Eaces of Man. -Arguments in favor of, and opposed to",
       "journal": "D. Appleton and company eBooks",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     }
   ],
-  "paper_count": 21,
+  "paper_count": 38,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

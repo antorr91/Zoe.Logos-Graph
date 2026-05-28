@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 8,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 18,
+    "doi_count": 30,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -46,14 +46,14 @@
     "song"
   ],
   "contexts": [
-    "mate attraction",
+    "vocal learning",
     "territorial defence",
-    "vocal learning"
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
     "song dialects",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -61,70 +61,376 @@
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
+        "value": "vocal learning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
-      {
-        "value": "vocal learning",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
+        "evidence_count": 2
+      }
+    ],
+    "functions": [
       {
         "value": "song dialects",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 953,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 952,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 951,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 950,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 949,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 948,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 947,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 946,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 945,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 944,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 943,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 942,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 941,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 940,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 939,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 938,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 937,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 936,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Melospiza melodia",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1038/s41598-025-33848-0",
+      "url": "https://doi.org/10.1038/s41598-025-33848-0",
+      "title": "Influences of tidal flooding, plant composition, and habitat openness on saltmarsh songbird occupancy",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/jme/tjaf147",
+      "url": "https://doi.org/10.1093/jme/tjaf147",
+      "title": "Eastern equine encephalitis virus and identification of host bloodmeal sources from individual Culiseta melanura (Diptera: Culicidae) at an enzootic focus in central New York State",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.22541/au.176733923.38290332/v1",
       "url": "https://doi.org/10.22541/au.176733923.38290332/v1",
       "title": "Machine Learning Reveals Microdialect Variations in Salish Sea Melospiza melodia",
       "year": 2026,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1002/ece3.71169",
+      "url": "https://doi.org/10.1002/ece3.71169",
+      "title": "Maternal Investment Is Positively Associated With the Presence of Extra-Pair Offspring in a Socially Monogamous Songbird",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s00267-025-02323-x",
+      "url": "https://doi.org/10.1007/s00267-025-02323-x",
+      "title": "Causal Networks to Inform Decisions for Ecological Restoration",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/jne.70027",
+      "url": "https://doi.org/10.1111/jne.70027",
+      "title": "Effects of wintering under methylmercury exposure on spring reproductive onset in song sparrows (Melospiza melodia)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0326727",
+      "url": "https://doi.org/10.1371/journal.pone.0326727",
+      "title": "Estrogen profiling in blood and brain: Effects of season and an aggressive interaction in a songbird",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fphys.2025.1520208",
+      "url": "https://doi.org/10.3389/fphys.2025.1520208",
+      "title": "Recovery through resistance? nesting urban female song sparrows (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7717/peerj.19986",
+      "url": "https://doi.org/10.7717/peerj.19986",
+      "title": "Evidence of positive selection and a novel phylogeny among five subspecies of song sparrow (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1242/jeb.246239",
+      "url": "https://doi.org/10.1242/jeb.246239",
+      "title": "Effects of sublethal methylmercury and food stress on songbird energetic performance: metabolic rates, molt and feather quality",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.1095-23.2024",
+      "url": "https://doi.org/10.1523/JNEUROSCI.1095-23.2024",
+      "title": "An Aggressive Interaction Rapidly Increases Brain Androgens in a Male Songbird during the Non-breeding Season",
+      "year": 2024,
+      "source": "pubmed"
     },
     {
       "doi": "10.7717/peerj.13297",
@@ -162,6 +468,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.5751/es-02761-140129",
+      "url": "https://doi.org/10.5751/es-02761-140129",
+      "title": "Impacts of Traffic Noise and Traffic Volume on Birds of Roadside Habitats",
+      "year": 2009,
+      "source": "openalex"
+    },
+    {
       "doi": "10.1111/j.1365-2435.2006.01207.x",
       "url": "https://doi.org/10.1111/j.1365-2435.2006.01207.x",
       "title": "Habitat structure and the evolution of bird song: a meta‐analysis of the evidence for the acoustic adaptation hypothesis",
@@ -186,6 +499,13 @@
       "doi": "10.1016/s0003-3472(88)80155-6",
       "url": "https://doi.org/10.1016/s0003-3472(88)80155-6",
       "title": "Hearing in the swamp sparrow, Melospiza georgiana, and the song sparrow, Melospiza melodia",
+      "year": 1988,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1439-0310.1988.tb00198.x",
+      "url": "https://doi.org/10.1111/j.1439-0310.1988.tb00198.x",
+      "title": "The Role of Song Phonology and Syntax in Vocal Learning Preferences in the Song Sparrow, <i>Melospiza melodia</i>",
       "year": 1988,
       "source": "crossref"
     },
@@ -255,11 +575,157 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41852242",
+      "title": "Changes in an exurban bird assemblage and the phenology of ticks (Acari: Ixodidae) on birds: a comparison of three sampling periods between 1984 and 2019",
+      "year": 2026,
+      "doi": "10.1093/jme/tjag035",
+      "abstract": "The blacklegged tick (Ixodes scapularis Say) has undergone range contractions and expansions since its origination half a million years ago and is expanding in all cardinal directions. These changes affect the range of several tick-borne diseases. Birds host larval and nymphal I. scapularis and may contribute to the local distribution of ticks in the environment. Furthermore, bird migration and dispersal provide mechanisms for the rapid range expansion of ticks and their pathogens. We examined data spanning 35 yr to evaluate changes in the bird assemblage and the seasonal occurrence of ticks on birds from 1984 to 1985, 2010 to 2011, and 2019. The five most abundant bird species changed across sampling periods. Bird species that hosted ticks during each sampling period and where at least five individuals hosted ticks in one sampling period were the American robin (Turdus migratorius Linnaeus), black-capped chickadee (Poecile atricapillus L.), blue jay (Cyanocitta cristata L.), gray catbird (Dumetella carolinensis L.), northern cardinal (Cardinalis cardinalis L.), song sparrow (Melospiza melodia Wilson), white-throated sparrow (Zonotrichia albicollis Gmelin), and wood thrush (Hylocichla mustelina Gmelin). The infestation intensity and prevalence of ticks on birds generally increased over time and appear to be driven by a rise in I. scapularis larvae. Finally, bird species predicted the number of I. scapularis larvae per bird and the proportion of birds carrying I. scapularis larvae. Birds may be increasingly important in the local maintenance and long-distance dispersal of I. scapularis, given the rise in the infestation intensity and prevalence of I. scapularis larvae.",
+      "journal": "Journal of medical entomology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41545456",
+      "title": "Influences of tidal flooding, plant composition, and habitat openness on saltmarsh songbird occupancy",
+      "year": 2026,
+      "doi": "10.1038/s41598-025-33848-0",
+      "abstract": "UNLABELLED: Saltmarshes are dynamic coastal ecosystems that provide critical breeding habitat for a suite of songbirds, including both obligate saltmarsh specialists and more generalist marsh nesters. These species’ reproductive success depends on nesting in areas subject to regular tidal flooding. However, sea-level rise is increasing flooding frequency and severity while driving marsh migration into adjacent uplands, where newly formed marshes often support vegetation distinct from older areas. We evaluated how plant community composition, tidal flooding, and surrounding environmental features, like elevation and proximity to forest or open water, affect occupancy of four focal marsh bird species across a latitudinal gradient in coastal Virginia. Predictors associated with nearby forested cover were consistently associated with lower occupancy while other species-specific associations were tied to different broad scale geography, landscape cover, and nearby vegetation cover parameters. Obligate saltmarsh-nesting species, such as  SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1038/s41598-025-33848-0.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41144318",
+      "title": "Eastern equine encephalitis virus and identification of host bloodmeal sources from individual Culiseta melanura (Diptera: Culicidae) at an enzootic focus in central New York State",
+      "year": 2026,
+      "doi": "10.1093/jme/tjaf147",
+      "abstract": "Toward a more detailed understanding of the Eastern equine encephalitis virus (EEEV) cycle, individual blood-fed Culiseta melanura (Coquillett) mosquitoes were collected at an enzootic focus in New York State. Blooded females were tested for EEEV by multiplex real-time quantitative reverse transcription polymerase chain reaction, qRT-PCR. Host bloodmeals were identified using DNA amplification and sequencing of the cytochrome B gene. In 2018, 577 individual mosquitoes were tested. Virus was detected in the bodies of 16, of which two had the virus in their legs. In 2022, 606 individual mosquitoes were tested, and the virus was detected in the bodies of six, of which one had the virus in its legs. Virus in the legs suggested a disseminated infection. The qRT-PCR cycle threshold (Ct) values for individual bodies ranged from 17.6 to 38.3, and for legs, 22.8 to 28.1. Host sources for 17 of the 22 were: Passeriformes, Bombycillidae, cedar waxwings (Bombycilla cedrorum); Icteridae, red-winged blackbird (Agelaius phoeniceus); Turdidae, American robin (Turdus migratorius), veery (Catharus fuscescens), and wood thrush (Hylocichla mustelina); Vireonidae, yellow-throated vireo (Vireo flavifrons); Passerellidae, song sparrow (Melospiza melodia), and field sparrow (Spizella pusilla); Parulidae, American redstart (Setophaga ruticilla); and Gruiformes, Rallidae, American coot (Fulica americana). In both years, red-winged blackbirds were a source of blood for Cs. melanura in the earliest 2 d after EEEV was detected. Annually, the earliest detection of the virus was in blooded-gravid mosquitoes before non-blooded mosquitoes in 15 of 17 yr. These results support the thesis that birds contribute to the introduction and re-emergence of EEEV to this enzootic focus.",
+      "journal": "Journal of medical entomology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41397005",
+      "title": "Estrogen profiling in blood and brain: Effects of season and an aggressive interaction in a songbird",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0326727",
+      "abstract": "Neuroestrogens are synthesized in the brain and regulate social behavior and cognition. In the song sparrow (Melospiza melodia), 17β-estradiol (17β-E2) promotes aggression, even during the non-breeding season, when circulating 17β-E2 levels are non-detectable. Measuring estrogens is challenging due to their low concentrations and the limited sensitivity of many existing assays. Moreover, estrogens other than 17β-E2 are often overlooked. Here, we developed a liquid chromatography tandem mass spectrometry (LC-MS/MS) assay for the simultaneous measurement of eleven estrogens using derivatization with 1,2-dimethylimidazole-5-sulfonyl-chloride (DMIS) to enhance sensitivity. We included four 13C-labeled internal standards, which corrected for matrix effects when measuring catecholestrogens and methoxyestrogens. This method is highly specific, sensitive, accurate, and precise, and improves upon our prior protocol, which could measure four estrogens with a single deuterated internal standard. Then, we applied the new method to samples from free-living adult male song sparrows to assess the effects of season and an aggressive encounter on blood and brain estrogens. Subjects were randomly assigned to either a 10-min simulated territorial intrusion (STI; song playback and live decoy) or a control condition (silent speaker and empty cage) during the breeding or non-breeding season, followed by rapid capture and immediate collection of blood and brain tissue. Only estrone and 17β-E2 were present in blood and brain, while the other nine estrogens in the panel were below detection limits. As expected, there was large regional variation in neuroestrogen levels and very low estrogen levels in blood. There was also large seasonal variation, and estrogen levels were lower in the non-breeding season. Despite robust aggression to the STI, estrogen levels did not differ between STI and control subjects in either season. In sum, our novel method enables ultrasensitive measurement of eleve",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41349120",
+      "title": "Multiple Genetic Impacts of Immigration Interact to Shape Local Population Persistence versus Extinction: Evolutionary Rescue, Inbreeding Vortex, and Migrational Meltdown",
+      "year": 2025,
+      "doi": "10.1086/737752",
+      "abstract": "AbstractMajor ongoing theoretical and empirical challenges are to predict impacts of immigration on extinction probabilities of remaining populations within fragmented habitats. Comprehensive prediction requires considering multiple genetic effects on demography, including inbreeding and resulting inbreeding depression, additive genetic variance in fitness and resulting adaptive microevolution, and local adaptation and resulting migration load. However, all such effects have not been quantified or modeled simultaneously, especially for small wild populations experiencing regular natural immigration. We used quantitative genetic individual-based simulations parameterized using long-term data from song sparrows (",
+      "journal": "The American naturalist",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41266626",
+      "title": "Causal Networks to Inform Decisions for Ecological Restoration",
+      "year": 2025,
+      "doi": "10.1007/s00267-025-02323-x",
+      "abstract": "The release of contaminants into the environment can occur from anthropogenic activities, such as oil extraction and transportation, mining, and industrial processes. Remediation associated with reducing contaminant concentrations, and restoration that improves animals and supporting habitat, are often needed to restore ecosystems to their pre-release, baseline condition. We demonstrated the application of Bayesian Decision Networks (BDNs) with two Natural Resource Damage Assessment and Restoration (NRDAR) case studies. We use a stylized case study of riparian restoration following the remediation of a mine-impacted site to evaluate proposed restoration actions aimed at restoring Song Sparrow (Melospiza melodia) populations to baseline conditions. We then use a settled NRDAR case with implemented restoration in the Upper Arkansas River (UAR, Colorado, USA) to demonstrate the application of BDNs to evaluate and forecast restoration effectiveness for Brown Trout (Salmo trutta) (i.e., restoration effectiveness assessment). The riparian restoration model showed differences in the effects of restoration actions on Song Sparrow populations, with the time to reach baseline generally reduced with increased restoration costs, indicating trade-offs between costs and expected recovery. The UAR model showed recovery of Brown Trout populations (i.e., uplift) in response to improved instream habitat restoration, along with forecasted improvements. While the BDNs we developed were specific to two case studies, the structure is adaptable to a diversity of sites, resources, and actions. We suggest that causal network modeling can provide restoration practitioners with a decision advisory tool useful for a wide range of projects.",
+      "journal": "Environmental management",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41112773",
+      "title": "Evidence of positive selection and a novel phylogeny among five subspecies of song sparrow (",
+      "year": 2025,
+      "doi": "10.7717/peerj.19986",
+      "abstract": "Local adaptation occurs when populations evolve traits in response to local environmental challenges. Isolated island populations often experience different selection pressures than their mainland counterparts, which enables the study of how phenotypes and genotypes respond to differing selection regimes. We studied a group of five phenotypically differentiated subspecies of song sparrow (",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40258682",
+      "title": "Effects of wintering under methylmercury exposure on spring reproductive onset in song sparrows (Melospiza melodia)",
+      "year": 2025,
+      "doi": "10.1111/jne.70027",
+      "abstract": "Exposure to methylmercury (MeHg) on breeding grounds may have numerous deleterious effects on birds, including neurotoxicity, disruption of hormones, and impaired reproduction. But it is unknown if MeHg exposure on wintering grounds can carry over and produce negative effects on the following spring breeding seasonal transition. To evaluate this, we exposed male captive song sparrows (Melospiza melodia) to environmentally relevant levels of dietary MeHg for 3 months during winter. We then photostimulated the birds with a long-day photoperiod and observed them for 21 days post-exposure. Contrary to our predictions, we found no carry-over effects of MeHg on the timing of changes in spring reproductive physiology assessed by testes mass, syrinx mass, plasma androgen concentrations, number of GnRH neurosecretory cells, and body condition. However, following photostimulation, MeHg-exposed birds had smaller cloacal protuberances. Although we observed no obvious effects on the timing of reproductive onset, the results suggest that winter MeHg exposure could induce carry-over effects on secondary sexual traits that may affect birds' breeding performance. Overall, our findings indicate that songbirds can buffer against the main effects of prior winter MeHg exposure so as to not delay reproductive onset in spring, but more studies are required for long-term effects on breeding performance.",
+      "journal": "Journal of neuroendocrinology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40241715",
+      "title": "Recovery through resistance? nesting urban female song sparrows (",
+      "year": 2025,
+      "doi": "10.3389/fphys.2025.1520208",
+      "abstract": "Urbanization represents a dramatic and relatively rapid change in the environment that has profound impacts on wild animals. Shifts in behavior and endocrine mechanisms of stress response could allow animals to successfully survive and reproduce in urban habitats. Numerous studies have examined the behavioral and physiological responses of territory-holding male songbirds to urbanization. However, breeding females likely experience anthropogenic noise, light at night, and human disturbance more frequently, and their behavioral coping responses to these disturbances are limited during incubation. Moreover, breeding females face higher energetic demands (allostatic load). Understanding how some species cope with novel urban habitats requires studying individuals facing the greatest challenges, such as breeding females. Therefore, we compared the glucocorticoid stress response and behavioral recovery from a disturbance between urban and rural female song sparrows (",
+      "journal": "Frontiers in physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40124226",
+      "title": "Maternal Investment Is Positively Associated With the Presence of Extra-Pair Offspring in a Socially Monogamous Songbird",
+      "year": 2025,
+      "doi": "10.1002/ece3.71169",
+      "abstract": "Biparental care is common in socially monogamous avian species, but both partners may seek extra-pair copulations (EPCs). The relative costs and benefits of EPCs between the sexes are likely complex, yet the implications of EPCs for parental care behavior have been examined predominantly in males. Not only could females benefit from EPCs, but females would have additional information about the likelihood of extra-pair young (EPY) in their nest not available to their partners, which likely influences female behavior. We examined how the presence and abundance of EPY in a nest affect parental behavior in a socially monogamous songbird, song sparrows (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39332723",
+      "title": "Differences in urban arthropod communities may not limit the nestling diet of a generalist songbird",
+      "year": 2024,
+      "doi": "10.1016/j.scitotenv.2024.176518",
+      "abstract": "Anthropogenic land use, including urbanization, has caused population declines across diverse taxa including arthropods and songbirds. Declines in one taxa can impact other groups based on its role in a community. In particular, declines in lower trophic level taxa, such as arthropods, could have negative impacts on higher trophic level species. Here, we examined how urban arthropod communities compare to rural ones and how these differences may impact song sparrow (Melospiza melodia) nestlings living in urban and rural habitats. We quantified differences in the abundance, biomass, and diversity of arthropod communities between replicate urban and rural sites. At the same sites, we also compared the stomach contents of nestlings because song sparrows rely upon arthropod prey during development. We found that the arthropod community in urban habitats had lower average abundance, average biomass, and Simpson's diversity compared to rural habitats. The arthropod communities also significantly differed in the relative abundance of some higher trophic level taxa, such as spiders. However, we found no difference in the total stomach content mass, nor the mass of invertebrate food items in the stomachs of urban and rural nestlings. Thus, though urban habitats had lower availability of arthropods, possibly driven by the simplification of urban habitats, there was no evidence of a negative impact on the quantity of food provided to urban song sparrow nestlings.",
+      "journal": "The Science of the total environment",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38856174",
+      "title": "Effects of sublethal methylmercury and food stress on songbird energetic performance: metabolic rates, molt and feather quality",
+      "year": 2024,
+      "doi": "10.1242/jeb.246239",
+      "abstract": "Organisms regularly adjust their physiology and energy balance in response to predictable seasonal environmental changes. Stressors and contaminants have the potential to disrupt these critical seasonal transitions. No studies have investigated how simultaneous exposure to the ubiquitous toxin methylmercury (MeHg) and food stress affects birds' physiological performance across seasons. We quantified several aspects of energetic performance in song sparrows, Melospiza melodia, exposed or not to unpredictable food stress and MeHg in a 2×2 experimental design, over 3 months during the breeding season, followed by 3 months post-exposure. Birds exposed to food stress had reduced basal metabolic rate and non-significant higher factorial metabolic scope during the exposure period, and had a greater increase in lean mass throughout most of the experimental period. Birds exposed to MeHg had increased molt duration, and increased mass:length ratio of some of their primary feathers. Birds exposed to the combined food stress and MeHg treatment often had responses similar to the stress-only or MeHg-only exposure groups, suggesting these treatments affected physiological performance through different mechanisms and resulted in compensatory or independent effects. Because the MeHg and stress variables were selected in candidate models with a ΔAICc lower than 2 but the 95% confidence interval of these variables overlapped zero, we found weak support for MeHg effects on all measures except basal metabolic rate, and for food stress effects on maximum metabolic rate, factorial metabolic scope and feather mass:length ratio. This suggests that MeHg and food stress effects on these measures are statistically identified but not simple and/or were too weak to be detected via linear regression. Overall, combined exposure to ecologically relevant MeHg and unpredictable food stress during the breeding season does not appear to induce extra energetic costs for songbirds in the post-exposure pe",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38658166",
+      "title": "An Aggressive Interaction Rapidly Increases Brain Androgens in a Male Songbird during the Non-breeding Season",
+      "year": 2024,
+      "doi": "10.1523/JNEUROSCI.1095-23.2024",
+      "abstract": "Aggression is a crucial behavior that impacts access to limited resources in different environmental contexts. Androgens synthesized by the gonads promote aggression during the breeding season. However, aggression can be expressed during the non-breeding season, despite low androgen synthesis by the gonads. The brain can also synthesize steroids (\"neurosteroids\"), including androgens, which might promote aggression during the non-breeding season. Male song sparrows,",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38361472",
+      "title": "Multi-generation genetic contributions of immigrants reveal cryptic elevated and sex-biased effective gene flow within a natural meta-population",
+      "year": 2024,
+      "doi": "10.1111/ele.14377",
+      "abstract": "Impacts of immigration on micro-evolution and population dynamics fundamentally depend on net rates and forms of resulting gene flow into recipient populations. Yet, the degrees to which observed rates and sex ratios of physical immigration translate into multi-generational genetic legacies have not been explicitly quantified in natural meta-populations, precluding inference on how movements translate into effective gene flow and eco-evolutionary outcomes. Our analyses of three decades of complete song sparrow (Melospiza melodia) pedigree data show that multi-generational genetic contributions from regular natural immigrants substantially exceeded those from contemporary natives, consistent with heterosis-enhanced introgression. However, while contributions from female immigrants exceeded those from female natives by up to three-fold, male immigrants' lineages typically went locally extinct soon after arriving. Both the overall magnitude, and the degree of female bias, of effective gene flow therefore greatly exceeded those which would be inferred from observed physical arrivals, altering multiple eco-evolutionary implications of immigration.",
+      "journal": "Ecology letters",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38358807",
+      "title": "Multigenerational Fitness Effects of Natural Immigration Indicate Strong Heterosis and Epistatic Breakdown in a Wild Bird Population",
+      "year": 2024,
+      "doi": "10.1086/728669",
+      "abstract": "AbstractThe fitness of immigrants and their descendants produced within recipient populations fundamentally underpins the genetic and population dynamic consequences of immigration. Immigrants can in principle induce contrasting genetic effects on fitness across generations, reflecting multifaceted additive, dominance, and epistatic effects. Yet full multigenerational and sex-specific fitness effects of regular immigration have not been quantified within naturally structured systems, precluding inference on underlying genetic architectures and population outcomes. We used four decades of song sparrow (",
+      "journal": "The American naturalist",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_7717_peerj_13297",
@@ -269,11 +735,7 @@
       "abstract": "Anthropogenic noise and its effects on acoustic communication have received considerable attention in recent decades. Yet, the natural acoustic environment's influence on communication and its role in shaping acoustic signals remains unclear. We used large-scale playbacks of ocean surf in coastal areas and whitewater river noise in riparian areas to investigate how natural sounds influences song structure in six songbird species. We recorded individuals defending territories in a variety of acoustic conditions across 19 study sites in California and 18 sites in Idaho. Acoustic characteristics across the sites included naturally quiet 'control' sites, 'positive control' sites that were adjacent to the ocean or a whitewater river and thus were naturally noisy, 'phantom' playback sites that were exposed to continuous broadcast of low-frequency ocean surf or whitewater noise, and 'shifted' playback sites with continuous broadcast of ocean surf or whitewater noise shifted up in frequency. W",
       "journal": "PeerJ",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_75451",
@@ -283,11 +745,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_396",
@@ -297,11 +755,7 @@
       "abstract": "Emberizid sparrows (emberizidae) have played a prominent role in the study of avian vocal communication and social behavior. We present here brain transcriptomes for three emberizid model systems, song sparrow Melospiza melodia, white-throated sparrow Zonotrichia albicollis, and Gambel's white-crowned sparrow Zonotrichia leucophrys gambelii. Each of the assemblies covered fully or in part, over 89% of the previously annotated protein coding genes in the zebra finch Taeniopygia guttata, with 16,846, 15,805, and 16,646 unique BLAST hits in song, white-throated and white-crowned sparrows, respectively. As in previous studies, we find tissue of origin (auditory forebrain versus hypothalamus and whole brain) as an important determinant of overall expression profile. We also demonstrate the successful isolation of RNA and RNA-sequencing from post-mortem samples from building strikes and suggest that such an approach could be useful when traditional sampling opportunities are limited. These t",
       "journal": "PeerJ",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_brv_12160",
@@ -311,11 +765,7 @@
       "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1525_bio_2011_61_3_6",
@@ -325,11 +775,17 @@
       "abstract": "This article presents a unifying theory of soundscape ecology, which brings the idea of the soundscape-the collection of sounds that emanate from landscapes-into a research and application focus. Our conceptual framework of soundscape ecology is based on the causes and consequences of biological (biophony), geophysical (geophony), and human-produced (anthrophony) sounds. We argue that soundscape ecology shares many parallels with landscape ecology, and it should therefore be considered a branch of this maturing field. We propose a research agenda for soundscape ecology that includes six areas: (1) measurement and analytical challenges, (2) spatial-temporal dynamics, (3) soundscape linkage to environmental covariates, ( We present case studies that illustrate different approaches to understanding soundscape dynamics. Because soundscapes are our auditory link to nature, we also argue for their protection, using the knowledge of how sounds are produced by the environment and humans.",
       "journal": "BioScience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_5751_es-02761-140129",
+      "title": "Impacts of Traffic Noise and Traffic Volume on Birds of Roadside Habitats",
+      "year": 2009,
+      "doi": "10.5751/es-02761-140129",
+      "abstract": "Roadside habitats are important for a range of taxa including plants, insects, mammals, and birds, particularly in developed countries in which large expanses of native vegetation have been cleared for agriculture or urban development. Although roadside vegetation may provide suitable habitat for many species, resident animals can be exposed to high levels of traffic noise, visual disturbance from passing vehicles, and the risk of collision with cars and trucks. Traffic noise can reduce the distance over which acoustic signals such as song can be detected, an effect known as acoustic interference or masking. Studies from the northern hemisphere show that the singing behavior of birds changes in the presence of traffic noise. We investigated the impact of traffic noise and traffic volume on two species of birds, the Grey Shrike-thrush (Colluricincla harmonica) and the Grey Fantail (Rhipidura fuliginosa), at 58 roadside sites on the Mornington Peninsula, southeastern Australia. The lower",
+      "journal": "Ecology and Society",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1642_0004-8038(2006)123[639:aciunc]2_0_co;2",
@@ -339,11 +795,7 @@
       "abstract": "SUCCESSFUL ACOUSTIC COMMUNICATION requires that sounds propagate through the environment between the sender and receiver; vocalizations that transmit effectively in the habitat in which they are used are favored by natural selection. This adaptation hypothesis (Morton 1975, Wiley and Richards 1978, Richards and Wiley 1980, Ryan and Brenowitz 1985) laid the groundwork for the drive concept (Endler 1992), which describes how environment affects the evolution of sensory systems and signals in all modalities. By allowing us to examine animal signals as adaptations shaped by selection, this framework has lead to a greater understanding of the bewildering diversity of animal signals. One of the environmental factors that exerts selection pressure on acoustic signals is ambient noise (Ryan and Brenowitz 1985). To elicit a response from a receiver, signals must be detectable in background noise; the detectability of a signal is determined by the signal-to-noise ratio (SNR) and the masked audit",
       "journal": "The Auk",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1365-2435_2006_01207_x",
@@ -353,11 +805,7 @@
       "abstract": "1 Habitat structure has been considered as a main factor shaping the evolution of bird song acoustics. 2 Based on expected differential patterns of sound degradation in different habitats, the acoustic adaptation hypothesis (AAH) proposes that songs with lower frequencies, narrower frequency ranges and longer inter-element intervals should occur more frequently in densely vegetated compared with herbaceous habitats. 3 Empirical tests of the AAH have provided mixed results. Here, we review for the first time the literature on this topic using a meta-analytical, quantitative approach. 4 Maximum, minimum, peak frequency and frequency range were found to be significantly lower in closed compared with open habitats, but the mean size of the effect of habitat was small. Inter-element intervals were not affected by habitat structure. 5 The AAH implicitly assumes that birds are selected to maximize song broadcast range and minimize degradation, while it neglects the potential role of energetic",
       "journal": "Functional Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_17-15-06001_1997",
@@ -367,11 +815,7 @@
       "abstract": "Seasonal changes in the neural attributes of brain nuclei that control song in songbirds are among the most pronounced examples of naturally occurring plasticity in the adult brain of any vertebrate. The behavioral correlates of this seasonal neural plasticity have not been well characterized, particularly in songbird species that lack adult song learning. To address this question, we investigated the relationship between seasonal changes in gonadal steroids, song nuclei, and song behavior in adult male song sparrows (Melospiza melodia). At four times of the year, we measured plasma concentrations of testosterone, neural attributes of song nuclei, and several aspects of song structure in wild song sparrows of a nonmigratory population. We found seasonal changes in the song nuclei that were temporally correlated with changes in testosterone concentrations and with changes in song stereotypy. Male song sparrows sang songs that were more variable in structure in the fall, when testosteron",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_s0003-3472(88)80155-6",
@@ -381,11 +825,17 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1111_j_1439-0310_1988_tb00198_x",
+      "title": "The Role of Song Phonology and Syntax in Vocal Learning Preferences in the Song Sparrow, <i>Melospiza melodia</i>",
+      "year": 1988,
+      "doi": "10.1111/j.1439-0310.1988.tb00198.x",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Are young songbirds ready to learn virtually any song, or are they predisposed to learn songs of their own species? To explore this question tests were conducted on the equipotentiality of auditory song learning stimuli in the song sparrow. 23 males reared as nestlings were exposed to tape recordings of their own and other species songs in early life and subsequent song production was analyzed for imitations. Birds exposed to natural song sparrow songs, including their fathers', and equal numbers of swamp sparrow songs, strongly preferred conspecific songs. They neither favored nor eschewed paternal songs despite having had access to them for 6–10 days as nestlings. In three other experiments synthetic songs were used in which some properties were held constant and others were systematically varied. Birds were exposed to 1–4 segmented songs varying in phrase order, tempo and syllable number, each synthesized in two versions, one from conspecific",
+      "journal": "Ethology",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1523_jneurosci_03-03-00517_1983",
@@ -395,11 +845,7 @@
       "abstract": "Motor patterns of songs of swamp and song sparrows, Melospiza georgiana and M. melodia, deafened early in life display a significant degree of species-specific structure. Normal songs of the two species differ in the degree to which they are segmented. Swamp sparrow song consists of a single segment, and song sparrow songs are multisegmental. Song and swamp sparrows were deafened at 17 to 23 days, prior to the onset of song or subsong. The song sparrows developed more segments in their singing than the swamp sparrows. Species-specific trends were also evident in song durations and frequency characteristics. Abnormalities were found, however, in the morphology of the notes and syllables from which songs of early deafened sparrows are constructed. These results require emendation of the auditory template hypothesis of song learning in birds.",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5962_bhl_title_60743",
@@ -409,11 +855,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_4076483",
@@ -423,11 +865,7 @@
       "abstract": "",
       "journal": "The Auk",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_19986_fig-2",
@@ -437,11 +875,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_j_ctt20ks130_45",
@@ -451,11 +885,7 @@
       "abstract": "",
       "journal": "Fifty Common Birds of the Upper Midwest",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_19986_fig-3",
@@ -465,11 +895,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_19986_fig-1",
@@ -479,14 +905,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

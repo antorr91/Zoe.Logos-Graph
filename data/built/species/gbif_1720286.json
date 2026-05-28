@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 9,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 27,
+    "doi_count": 30,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -43,8 +43,8 @@
   "inat_id": null,
   "vocalisations": [
     "calling song",
-    "courtship song",
-    "rivalry song"
+    "rivalry song",
+    "courtship song"
   ],
   "contexts": [
     "courtship",
@@ -52,9 +52,9 @@
     "territorial defence"
   ],
   "functions": [
+    "species recognition",
     "mate attraction",
-    "rival deterrence",
-    "species recognition"
+    "rival deterrence"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -62,19 +62,19 @@
         "value": "calling song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "courtship song",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "rivalry song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "courtship song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -82,43 +82,396 @@
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "species recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "rival deterrence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "species recognition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 99,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 98,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 97,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 96,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 95,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 94,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 93,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 92,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 91,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 90,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 89,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 88,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 87,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 86,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 85,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 84,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 83,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 82,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 81,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 80,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 79,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 78,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 77,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 76,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 75,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 74,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 73,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -127,6 +480,55 @@
   },
   "open_papers": [
     {
+      "doi": "10.3390/ijms27020706",
+      "url": "https://doi.org/10.3390/ijms27020706",
+      "title": "A Co-Expressed Cluster of Genes in the Anterior Brain of Female Crickets Activated by a Species-Specific Calling Song",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.241346",
+      "url": "https://doi.org/10.1098/rsos.241346",
+      "title": "Traffic noise exposure impacts song production in wild male field crickets (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1242/jeb.249404",
+      "url": "https://doi.org/10.1242/jeb.249404",
+      "title": "Light alters calling-song characteristics in crickets",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/insects16090887",
+      "url": "https://doi.org/10.3390/insects16090887",
+      "title": "Phonotaxis in Male Field Crickets: The Role of Flight Experience, Serotonin and Octopamine Neurotransmission",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/jisesa/ieae097",
+      "url": "https://doi.org/10.1093/jisesa/ieae097",
+      "title": "The influence of self-generated song during aggression on brain serotonin levels in male crickets",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/insects15030183",
+      "url": "https://doi.org/10.3390/insects15030183",
+      "title": "Monoaminergic Systems in Flight-Induced Potentiation of Phonotactic Behavior in Female Crickets",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s11356-023-28981-0",
+      "url": "https://doi.org/10.1007/s11356-023-28981-0",
+      "title": "Electromagnetic field exposure affects the calling song, phonotaxis, and level of biogenic amines in crickets",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1163/23524588-20230177",
       "url": "https://doi.org/10.1163/23524588-20230177",
       "title": "Investigation of the usefulness of two-spotted cricket (Gryllus bimaculatus) feed using two-spotted cricket (Gryllus bimaculatus) powder to replace fishmeal",
@@ -134,11 +536,32 @@
       "source": "crossref"
     },
     {
+      "doi": "10.3389/fphys.2023.1153913",
+      "url": "https://doi.org/10.3389/fphys.2023.1153913",
+      "title": "Persistence of auditory modulation of wind-induced escape behavior in crickets",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.2659",
       "url": "https://doi.org/10.1079/cabicompendium.2659",
       "title": "Gryllus bimaculatus",
       "year": 2021,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2021.1889",
+      "url": "https://doi.org/10.1098/rspb.2021.1889",
+      "title": "Tolerant pattern recognition: evidence from phonotactic responses in the cricket",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7554/eLife.61475",
+      "url": "https://doi.org/10.7554/eLife.61475",
+      "title": "A small, computationally flexible network produces the phenotypic diversity of song recognition in crickets",
+      "year": 2021,
+      "source": "pubmed"
     },
     {
       "doi": "10.1038/s41467-020-18739-4",
@@ -160,6 +583,13 @@
       "title": "Toward Testing for Multimodal Perception of Mating Signals",
       "year": 2019,
       "source": "openalex"
+    },
+    {
+      "doi": "10.3746/jkfn.2019.48.6.640",
+      "url": "https://doi.org/10.3746/jkfn.2019.48.6.640",
+      "title": "Safety and Nutritional Evaluation of Gryllus bimaculatus according to Pre-Treatments",
+      "year": 2019,
+      "source": "crossref"
     },
     {
       "doi": "10.1002/ece3.3331",
@@ -218,6 +648,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1016/s0003-3472(05)80326-4",
+      "url": "https://doi.org/10.1016/s0003-3472(05)80326-4",
+      "title": "Variability in call structure and pairing success of male field crickets, Gryllus bimaculatus: the effects of age, size and parasite load",
+      "year": 1992,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1007/978-3-0348-6410-7_59",
       "url": "https://doi.org/10.1007/978-3-0348-6410-7_59",
       "title": "Ontogenesis of Phonotaxis in Female Crickets, Gryllus Bimaculatus",
@@ -255,6 +692,86 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_42010808",
+      "title": "Immune Activation Reshapes Male Reproductive Investment and Induces Intergenerational Effects on Offspring",
+      "year": 2026,
+      "doi": "10.1002/jez.70092",
+      "abstract": "The activation of the immune system is a major physiological challenge that can compromise reproductive investment in males. While its effects on visual sexual signals have been widely investigated, much less is known about how immune activation influences acoustic signaling and other key reproductive traits. In this context, traits such as sperm production and sperm oxidative status (i.e., the balance between antioxidant and pro-oxidant molecules that ultimately determines the level of damage accumulation) are especially relevant, as they may potentially affect not only male fertility but also offspring development and behavior. Here, by experimentally activating the immune system of male field crickets (Gryllus bimaculatus) with a nylon monofilament (i.e., a non-pathogenic immune elicitor), we show that our immune treatment decreased male investment in acoustic sexual signaling, but had no effects on sperm production or sperm oxidative status (i.e., antioxidants and protein oxidative damage levels). However, the eggs fertilized by immune-challenged males showed higher hatching success than those of control (immune-unchallenged) males. Moreover, after hatching, the nymphs sired by immune-challenged males exhibited altered behavioral development, displaying increased locomotor activity and exploratory behavior. These findings suggest that immune activation does not impose uniform costs across pre- and post-copulatory sexually selected traits. Instead, they suggest that when facing an immune challenge, males may strategically prioritize fertility success over sexual attractiveness and mate attraction. Importantly, our results reveal that such shifts extend beyond the male's own reproductive investment to influence offspring behavioral phenotypes, highlighting a previously underappreciated pathway linking immunity to intergenerational behavioral variation.",
+      "journal": "Journal of experimental zoology. Part A, Ecological and integrative physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41596357",
+      "title": "A Co-Expressed Cluster of Genes in the Anterior Brain of Female Crickets Activated by a Species-Specific Calling Song",
+      "year": 2026,
+      "doi": "10.3390/ijms27020706",
+      "abstract": "Crickets use the pulse pattern of the species-specific calling song as a primary cue for mate recognition. Here we combined transcriptome profiling of brain regions with network-based analyses in",
+      "journal": "International journal of molecular sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41009069",
+      "title": "Phonotaxis in Male Field Crickets: The Role of Flight Experience, Serotonin and Octopamine Neurotransmission",
+      "year": 2025,
+      "doi": "10.3390/insects16090887",
+      "abstract": "Insect phonotaxis is influenced by various external and internal factors related to the environment and to the inner states of an organism. Previously, we found that flight, a natural behavior common among insects, significantly enhances the subsequent phonotactic response of female crickets (",
+      "journal": "Insects",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40370616",
+      "title": "Traffic noise exposure impacts song production in wild male field crickets (",
+      "year": 2025,
+      "doi": "10.1098/rsos.241346",
+      "abstract": "Animals are known to adjust their acoustic signals in the presence of anthropogenic noise. These changes may affect fitness by altering susceptibility to predators or changing signal efficiency in intra- and intersexual interactions. Male field crickets,",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40180031",
+      "title": "Evidence for a command neuron controlling calling song in the cricket Gryllus assimilis",
+      "year": 2025,
+      "doi": "10.1016/j.jinsphys.2025.104798",
+      "abstract": "In invertebrates stereotypical behaviours may be controlled by command neurons. In the field cricket Gryllus bimaculatus a command neuron descending from the brain controls the generation of rhythmic wing movements underlying calling song. We analysed if a corresponding command neuron also exists in other cricket species. Our intracellular recording and stimulation experiments point to a putative command neuron for calling song in G. assimilis, although the structure of the neuron could not be revealed. When this neuron was depolarised to generate 50 AP/s the cricket raised its forewings into singing position, it started rhythmic wing movements and produced the typical species-specific calling song. Further enhancing the spike rate of the neuron increased the chirp repetition rate but not the pulse repetition rate. Blocking the spike activity of the neuron by hyperpolarizing current injection reduced the chirp repetition rate and could terminate singing activity. Our evidence indicates that the two species, G. assimilis and G. bimaculatus, have homologous neurons for controlling calling song, which may be a conserved phenotype across cricket species.",
+      "journal": "Journal of insect physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39876823",
+      "title": "Light alters calling-song characteristics in crickets",
+      "year": 2025,
+      "doi": "10.1242/jeb.249404",
+      "abstract": "Communication is crucial for mate choice and thus for the survival and fitness of most species. In the cricket, females choose males according to their calling-song attractiveness and, exhibiting positive phonotaxis, they approach the chosen male. Light has been widely reported to induce changes in crickets' daily activity patterns, including the males' stridulation behavior. It had remained unknown, however, whether light also affects the calling-song properties and thus may consequently also alter female choice. Here, we present a novel semi-automated process, enabling the analysis of calling-song properties in an extremely large sample size of recording sections from males subjected to lifelong light:dark (LD) or constant light (LL) conditions. Our findings revealed that the LD calling songs consisted of longer chirps, longer inter-syllable intervals and a higher proportion of 4-syllable chirps compared with those of LL males. We also conducted some preliminary female choice experiments suggesting that females (reared in LD conditions) exposed to playbacks of male calling songs exhibit a preference towards LD over LL recordings. We therefore conclude that illumination conditions such as constant light affect the male crickets' calling-song properties in a manner that may be discernible to the females. It remains unclear, however, how and to what extent female mate choice and the species' overall fitness are affected by these changes.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39348594",
+      "title": "The influence of self-generated song during aggression on brain serotonin levels in male crickets",
+      "year": 2024,
+      "doi": "10.1093/jisesa/ieae097",
+      "abstract": "Pairs of adult male crickets, Gryllus bimaculatus, fight and immediately determine winner and loser statuses. The winner male repeatedly produces an aggressive (rival) song by rubbing his forewings together. In this study, I removed the plectrum, a sound-producing structure in the forewing, from male crickets and measured their brain serotonin (5-hydroxytryptamine: 5-HT) levels immediately after a 10-min aggressive interaction. Pairs of plectrum-removed males fought and established clear winner-loser relationships, like the case of intact males. The plectrum-removed winner males frequently rubbed their forewings together, but were unable to produce song. Aggressive interaction reduced significantly brain 5-HT levels in the plectrum-removed males, regardless of their winner and loser statuses. Furthermore, the reduction of brain 5-HT was detected primarily in the central body, a group of neuropils spanning the midline of the brain. In contrast, in pairs of intact males, aggressive interaction reduced brain 5-HT levels in the loser males, but not in the winner males. Plectrum removal alone did not affect the brain's 5-HT levels. These results suggest that aggressive song emitted by the winner male cricket prevents the reduction of 5-HT levels in his own brain, especially in the central body.",
+      "journal": "Journal of insect science (Online)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38535378",
+      "title": "Monoaminergic Systems in Flight-Induced Potentiation of Phonotactic Behavior in Female Crickets",
+      "year": 2024,
+      "doi": "10.3390/insects15030183",
+      "abstract": "We have recently shown that experience of flight remarkably enhanced subsequent terrestrial phonotaxis in females in response to the male calling song. Here, we elucidated the possible roles of octopamine and serotonin in the enhancing effect of flying on phonotactic behavior. Octopamine is known to be released into the hemolymph during flight in insects; however, the octopamine receptor antagonist epinastine did not abolish the effects of flight in our study. On the contrary, the drug significantly potentiated the influence of flying on phonotactic behavior. The octopamine receptor agonist chlordimeform, at a concentration of 2 mM, which was previously found to activate aggression in crickets, dramatically reduced the phonotactic response. However, at a 10-times-lower dose, chlordimeform produced a light but significant decrease in the time that females took to reach the source of the calling song. A similar effect was produced by octopamine itself, which hardly passes the blood-brain barrier in insects. The effect of flight was completely abolished in female crickets treated with alpha-methyl tryptophan (AMTP). AMPT suppresses the synthesis of serotonin, decreasing its content in the nervous systems of insects, including crickets. An activation of the serotonin synthesis with 5-hydroxytryptophan mimicked the effect of flight by increasing the number of visits to and the time spent in the zone near the source of the calling song. The 5-HT content in the third thoracic ganglion was significantly higher in flyers compared to the control group. In contrast, no changes in the octopamine level were observed in the third thoracic ganglion, which is known to play a crucial role in decision-making involved in intraspecific interactions. Therefore, the results suggest that although octopamine is known to be released into the hemolymph during flight, it is likely to inhibit rather than activate the central mechanisms related to phonotaxis. The weak facilitating effect of a l",
+      "journal": "Insects",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1163_23524588-20230177",
       "title": "Investigation of the usefulness of two-spotted cricket (Gryllus bimaculatus) feed using two-spotted cricket (Gryllus bimaculatus) powder to replace fishmeal",
       "year": 2023,
@@ -262,11 +779,57 @@
       "abstract": "<jats:title>Abstract</jats:title>\n<jats:p>Crickets are being reevaluated as food and livestock feed due to their high nutritional value and low environmental impact during production, as food waste can be used as feed. On the other hand, current cricket production uses feed used in aquaculture and poultry farming, and these feeds contain animal proteins such as fish meal and chicken meal. This is simply converting other animal proteins into insect proteins. Therefore, this study aimed to test whether two-spotted cricket powder can be used as a substitute for fishmeal in diets for <jats:italic>Gryllus bimaculatus</jats:italic> production. Cricket weight, feed efficiency, and number of crickets were evaluated by feeding rice bran: cricket powder = 85:15 and rice bran: fish meal = 85:15, respectively, referring to the feed mix ratio used by cricket producers. Results showed no statistically significant differences between the two experiments in cricket weight and feed conversion ratio. Wh",
       "journal": "Journal of Insects as Food and Feed",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_37507567",
+      "title": "Electromagnetic field exposure affects the calling song, phonotaxis, and level of biogenic amines in crickets",
+      "year": 2023,
+      "doi": "10.1007/s11356-023-28981-0",
+      "abstract": "The electromagnetic field (EMF) is ubiquitous in the environment, constituting a well-known but poorly understood stressor. Few studies have been conducted on insect responses to EMF, although they are an excellent experimental model and are of great ecological importance. In our work, we tested the effects of EMF (50 Hz, 7 mT) on the cricket Gryllus bimaculatus: the male calling song pattern, female mate choice, and levels of biogenic amines in the brain. Exposure of males to EMF increased the number and shortened the period of chips in their calling song (by 2.7% and 5% relative to the control song, respectively), but not the sound frequency. Aged (3-week-old) females were attracted to both natural and EMF-modified male signals, whereas young (1-week-old, virgin) females responded only to the modified signal, suggesting its higher attractance. Stress response of males to EMF may be responsible for the change in the calling song, as suggested by the changes in the amine levels in their brains: an increase in dopamine (by 50% relative to the control value), tyramine (65%), and serotonin (25%) concentration and a decrease in octopamine level (by 25%). These findings indicate that G. bimaculatus responds to EMF, like stressful conditions, which may change the condition and fitness of exposed individuals, disrupt mate selection, and, in consequence, affect the species' existence.",
+      "journal": "Environmental science and pollution research international",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37250114",
+      "title": "Persistence of auditory modulation of wind-induced escape behavior in crickets",
+      "year": 2023,
+      "doi": "10.3389/fphys.2023.1153913",
+      "abstract": "Animals, including insects, change their innate escape behavior triggered by a specific threat stimulus depending on the environmental context to survive adaptively the predators' attack. This indicates that additional inputs from sensory organs of different modalities indicating surrounding conditions could affect the neuronal circuit responsible for the escape behavior. Field crickets,",
+      "journal": "Frontiers in physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36070890",
+      "title": "Surrounding gas composition affects the calling song development in the two-spotted cricket (Gryllus bimaculatus)",
+      "year": 2022,
+      "doi": "10.5582/ddt.2022.01058",
+      "abstract": "Male crickets emit acoustic signals (i.e., songs) by chirping using their forewings. Although the mechanisms and adaptive functions of these songs are well studied, knowledge about how songs develop within a generation is relatively scarce. Our previous work demonstrated a stable peak frequency at 5.7 kHz in the calling songs recorded from mature adult male crickets (Gryllus bimaculatus). In the present study, we monitored changes in the frequency component over time from the sexual maturity stage (early adult stage). We recorded 300 calling songs from a pool of 122 adults. The peak frequency distribution was lower and unstable (i.e., greater coefficient of variance) in the early adult stage. The mean peak frequency was 4.9 kHz on day 3, but gradually converged to 5.8 kHz over the 2-week adult stage. Immature adult males (emitting immature songs) produced an appropriately tuned song with a peak frequency of 5.8 kHz in an environment of 80% helium and 20% oxygen. These results suggest that the frequency component of the calling song is acquired during the early to mid-adult stage, and may be related to sexual maturation in males. Findings from the helium substitution experiment revealed that physical resistance from surrounding gas molecules negatively affect the stability of male singing, and that muscle development and forewing hardening may contribute to the maturation of singing, suggesting that females may adaptively select sexually mature males based on song traits.",
+      "journal": "Drug discoveries & therapeutics",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35882278",
+      "title": "The central organisation of courtship and rivalry behaviour in Gryllus bimaculatus (deGeer) as revealed by lesions of abdominal connectives",
+      "year": 2022,
+      "doi": "10.1016/j.bbr.2022.114005",
+      "abstract": "Behaviour is rooted in the organization and activity of an animal's nervous system. As male crickets use their front wings for sound production, the neural circuits underlying singing had been suggested to be housed in the thoracic ganglia. However, systematic lesion experiments of the CNS demonstrated that the abdominal nervous system is essential for their calling song behaviour. As male crickets also generate a courtship and rivalry song, we explored which parts of the abdominal central nervous system control the underlying motor patterns. A combination of systematic lesions to the abdominal nerve cord and video recording of courtship and rivalry behaviour revealed that most components of male courtship and rivalry behaviour were not affected by the lesions, except for the generation of courtship song, rivalry song, and the male's ability to copulate with the female. Any lesion to the abdominal nerve cord abolished copulations. Generation of courtship song initially failed when the connection to abdominal ganglion A6 was severed but in few males recovered after a week. For rivalry song production a central nerve cord extending to abdominal ganglion A4 was sufficient. These findings indicate that in the bispotted cricket the neural organization of courtship song is different from calling and rivalry song, while calling song and rivalry song might share a common network for generating the song patterns.",
+      "journal": "Behavioural brain research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35258611",
+      "title": "The mechanics of acoustic signal evolution in field crickets",
+      "year": 2022,
+      "doi": "10.1242/jeb.243374",
+      "abstract": "Field crickets (Family Gryllidae, Subfamily Gryllinae) typically produce tonal calls with carrier frequencies in the range 3-8 kHz. In this study, we explored the use of a finite element model (FEM) of the stridulatory apparatus of a field cricket, Gryllus bimaculatus, based on experimental measurements of resonator geometry and mechanical properties, to predict the measured call carrier frequencies of eight other field cricket species, ranging between 3 and 7 kHz. The model allowed accurate predictions of carrier frequencies for all eight species to within a few hundred hertz from morphological measurements of their resonators. We then used the model to explore the plausible evolutionary design space for field cricket call carrier frequency along the axes of resonator size and thickness, and mapped the locations of the nine experimentally measured species in this design space. Although the nine species spanned the evolutionarily conserved spectrum of carrier frequency and body size in field crickets, they were clustered in a small region of the available design space. We then explored the reasons for this apparent evolutionary constraint on field cricket carrier frequencies at both the lower and higher limit. We found that body size and sound radiation efficiency were the main constraints at the lower limits, whereas the energetics of stridulation using the clockwork mechanism may pose a constraint at higher frequencies.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_2659",
@@ -276,11 +839,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_34905710",
+      "title": "Tolerant pattern recognition: evidence from phonotactic responses in the cricket",
+      "year": 2021,
+      "doi": "10.1098/rspb.2021.1889",
+      "abstract": "When the amplitude modulation of species-specific acoustic signals is distorted in the transmission channel, signals become difficult to recognize by the receiver. Tolerant auditory pattern recognition systems, which after having perceived the correct species-specific signal transiently broaden their acceptance of signals, would be advantageous for animals as an adaptation to the constraints of the environment. Using a well-studied cricket species,",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34761750",
+      "title": "A small, computationally flexible network produces the phenotypic diversity of song recognition in crickets",
+      "year": 2021,
+      "doi": "10.7554/eLife.61475",
+      "abstract": "How neural networks evolved to generate the diversity of species-specific communication signals is unknown. For receivers of the signals, one hypothesis is that novel recognition phenotypes arise from parameter variation in computationally flexible feature detection networks. We test this hypothesis in crickets, where males generate and females recognize the mating songs with a species-specific pulse pattern, by investigating whether the song recognition network in the cricket brain has the computational flexibility to recognize different temporal features. Using electrophysiological recordings from the network that recognizes crucial properties of the pulse pattern on the short timescale in the cricket",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1038_s41467-020-18739-4",
@@ -290,11 +869,7 @@
       "abstract": "Acoustic communication is enabled by the evolution of specialised hearing and sound producing organs. In this study, we performed a large-scale macroevolutionary study to understand how both hearing and sound production evolved and affected diversification in the insect order Orthoptera, which includes many familiar singing insects, such as crickets, katydids, and grasshoppers. Using phylogenomic data, we firmly establish phylogenetic relationships among the major lineages and divergence time estimates within Orthoptera, as well as the lineage-specific and dynamic patterns of evolution for hearing and sound producing organs. In the suborder Ensifera, we infer that forewing-based stridulation and tibial tympanal ears co-evolved, but in the suborder Caelifera, abdominal tympanal ears first evolved in a non-sexual context, and later co-opted for sexual signalling when sound producing organs evolved. However, we find little evidence that the evolution of hearing and sound producing organs ",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_araa124",
@@ -304,11 +879,7 @@
       "abstract": "Abstract By assessing the sexual signals produced by conspecifics, individuals can make informed decisions on the best choice of mate, which can lead to reproductive fitness benefits. However, these communication systems are often vulnerable to disruption by conflicting with stimuli present in the environment. Anthropogenic noise may act as one such disruptive stimulus, leading to inefficient mate choice decisions and, thus, reductions to an animal’s fitness. In this study, the mate choice behaviors of female Gryllus bimaculatus were tested when presented with artificial male courtship songs of differing “quality” under different acoustic conditions. In ambient noise conditions, females significantly preferred mates paired with higher-quality songs, indicated by increased mating rates and reduced latency to mate. However, this mate selection pattern was disrupted in both traffic and white noise conditions. Additionally, “high-quality” courtship songs had an increased mounting latency i",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fevo_2019_00124",
@@ -318,11 +889,17 @@
       "abstract": "Many mating signals consist of multimodal components that need decoding by several sensory modalities on the receiver’s side. For methodological and conceptual reasons, the communicative functions of these signals are often investigated only one at a time. Likewise, variation of single signal traits are frequently correlated by researchers with senders’ quality or receivers’ behavioural responses. Consequently, the two classic and still dominating hypotheses regarding the communicative meaning of multimodal mating signals postulate that different components either serve as back-up messages or provide multiple meanings. Here we discuss how this conceptual dichotomy might have hampered a more integrative, perception encompassing understanding of multimodal communication: neither the multiple message nor the back-up signal hypotheses address the possibility that multimodal signals are integrated neurally into one percept. Therefore when studying multimodal mating signals, we should be awa",
       "journal": "Frontiers in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_3746_jkfn_2019_48_6_640",
+      "title": "Safety and Nutritional Evaluation of Gryllus bimaculatus according to Pre-Treatments",
+      "year": 2019,
+      "doi": "10.3746/jkfn.2019.48.6.640",
+      "abstract": "",
+      "journal": "Journal of the Korean Society of Food Science and Nutrition",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1242_jeb_142281",
@@ -332,11 +909,7 @@
       "abstract": "Recent developments in machine vision methods for automatic, quantitative analysis of social behavior have immensely improved both the scale and level of resolution with which we can dissect interactions between members of the same species. In this paper, we review these methods, with a particular focus on how biologists can apply them to their own work. We discuss several components of machine vision-based analyses: methods to record high-quality video for automated analyses, video-based tracking algorithms for estimating the positions of interacting animals, and machine learning methods for recognizing patterns of interactions. These methods are extremely general in their applicability, and we review a subset of successful applications of them to biological questions in several model systems with very different types of social behaviors.",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_ece3_3331",
@@ -346,11 +919,7 @@
       "abstract": "Abstract Climate change and the resulting changes in air temperature are known to have a major influence on most animals, especially poikilothermic insects, because they depend on the high enough temperatures to function. Previous studies have shown that various signals can be affected by changes in temperature. However, research into the effect of temperature on mating signals and subsequently communication between mates and on female choice is still rare. In the red mason bee, Osmia bicornis , which emerges early in spring and is therefore subject to extensive temperature changes, females choose suitable males based on, among other criteria, their thorax vibrations and odor. So far there has been no research into the effect of temperature changes on these signals. We therefore investigated whether the environmental temperature has an influence on the male's mating signals by measuring vibrations using a laser vibrometer and collecting male and female odor at different temperatures. F",
       "journal": "Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1603_ice_2016_94034",
@@ -360,11 +929,7 @@
       "abstract": "",
       "journal": "2016 International Congress of Entomology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_nrn3731",
@@ -374,11 +939,7 @@
       "abstract": "",
       "journal": "Nature reviews. Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0103452",
@@ -388,11 +949,7 @@
       "abstract": "Animals employ an array of signals (i.e. visual, acoustic, olfactory) for communication. Natural selection favours signals, receptors, and signalling behaviour that optimise the received signal relative to background noise. When the signal is used for more than one function, antagonisms amongst the different signalling functions may constrain the optimisation of the signal for any one function. Sexual selection through mate choice can strongly modify the effects of natural selection on signalling systems ultimately causing maladaptive signals to evolve. Echolocating bats represent a fascinating group in which to study the evolution of signalling systems as unlike bird songs or frog calls, echolocation has a dual role in foraging and communication. The function of bat echolocation is to generate echoes that the calling bat uses for orientation and food detection with call characteristics being directly related to the exploitation of particular ecological niches. Therefore, it is commonl",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1439-0310_1957_tb00529_x",
@@ -402,11 +959,7 @@
       "abstract": "",
       "journal": "Zeitschrift für Tierpsychologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00265-009-0743-4",
@@ -416,11 +969,7 @@
       "abstract": "Bird song is a sexually selected multidimensional signal. A fundamental question regarding the evolution of sexually selected signals is what information they convey and how their honesty is maintained. Song amplitude is a performance-related signal trait that varies considerably between individuals, but this signal dimension has been neglected in past studies. I found that median song amplitude in male nightingales (Luscinia megarhynchos) and zebra finches (Taeniopygia guttata) did not vary significantly with body size or residual body mass. In contrast, I found a significant negative correlation between body size (and also residual mass) and the maximum song amplitude during interactive singing in nightingales. However, the function of these more subtle differences in song amplitude remains to be investigated. By and large, the results of this study suggest that mean song amplitude is unlikely to indicate a bird’s body size or current condition (measured as residual mass).",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1755-0998_2008_02139_x",
@@ -430,11 +979,17 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>We have developed a new set of 27 polymorphic markers for each of two cricket species, <jats:italic>Gryllus bimaculatus</jats:italic> and <jats:italic>Gryllus campestris</jats:italic>. Initially, 14 published <jats:italic>G. bimaculatus</jats:italic> loci were tested in <jats:italic>G. campestris</jats:italic>; however, only five loci were polymorphic. Therefore, we isolated an additional 50 new microsatellite loci from <jats:italic>G. bimaculatus</jats:italic> and tested these in both species. In a minimum of 20 individuals, 27 of the new loci were polymorphic in <jats:italic>G. bimaculatus</jats:italic> and 25 in <jats:italic>G. campestris</jats:italic>.</jats:p>",
       "journal": "Molecular Ecology Resources",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1016_s0003-3472(05)80326-4",
+      "title": "Variability in call structure and pairing success of male field crickets, Gryllus bimaculatus: the effects of age, size and parasite load",
+      "year": 1992,
+      "doi": "10.1016/s0003-3472(05)80326-4",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-0348-6410-7_59",
@@ -444,11 +999,7 @@
       "abstract": "",
       "journal": "Sensory Systems and Communication in Arthropods",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1127_entom_germ_3_1977_289",
@@ -458,11 +1009,7 @@
       "abstract": "",
       "journal": "Entomologica Germanica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00298805",
@@ -472,11 +1019,7 @@
       "abstract": "",
       "journal": "Zeitschrift für Morphologie der Tiere",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1515_znb-1971-1246",
@@ -486,14 +1029,10 @@
       "abstract": "",
       "journal": "Zeitschrift für Naturforschung B",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 6,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 8,
+    "doi_count": 23,
+    "recording_count": 0
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Japanese_Quail.jpg/330px-Japanese_Quail.jpg",
@@ -42,30 +42,30 @@
   "conservation_status": "near threatened",
   "inat_id": null,
   "vocalisations": [
-    "call",
-    "contact call"
+    "contact call",
+    "call"
   ],
   "contexts": [
     "early social communication",
     "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "species recognition"
+    "species recognition",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "contact call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -73,38 +73,151 @@
         "value": "early social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "species recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 834,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 833,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 832,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 831,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 830,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 829,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 828,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 827,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Coturnix japonica",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1007/s11064-025-04528-2",
+      "url": "https://doi.org/10.1007/s11064-025-04528-2",
+      "title": "Synbiotics as Modulators of Developing Brain for Reproductive Development Via Estrogen Receptors in Male Coturnix Coturnix Japonica",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.35229/jaes.919954",
       "url": "https://doi.org/10.35229/jaes.919954",
@@ -127,11 +240,32 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1093/conphys/coz061",
+      "url": "https://doi.org/10.1093/conphys/coz061",
+      "title": "Effects of traffic noise exposure on corticosterone, glutathione and tonic immobility in chicks of a precocial bird",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2019.1698",
+      "url": "https://doi.org/10.1098/rspb.2019.1698",
+      "title": "Is there an oxidative cost of acute stress? Characterization, implication of glucocorticoids and modulation by prior stress experience",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1007/s10071-016-1064-4",
       "url": "https://doi.org/10.1007/s10071-016-1064-4",
       "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
       "year": 2017,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0116345",
+      "url": "https://doi.org/10.1371/journal.pone.0116345",
+      "title": "Avian egg odour encodes information on embryo sex, fertility and development",
+      "year": 2015,
+      "source": "pubmed"
     },
     {
       "doi": "10.1073/pnas.1211533110",
@@ -146,6 +280,13 @@
       "title": "Ethical issues in the use of quais (Coturnix coturnix japonica) in the entomological research: Experience report",
       "year": 2013,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2009.0016",
+      "url": "https://doi.org/10.1098/rspb.2009.0016",
+      "title": "Dynamics of crowing development in the domestic Japanese quail (Coturnix coturnix japonica)",
+      "year": 2009,
+      "source": "pubmed"
     },
     {
       "doi": "10.1644/07-mamm-s-307r.1",
@@ -190,6 +331,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1016/j.anbehav.2020.05.014",
+      "url": "https://doi.org/10.1016/j.anbehav.2020.05.014",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
       "doi": "10.11606/d.10.2003.tde-16062004-123511",
       "url": "https://doi.org/10.11606/d.10.2003.tde-16062004-123511",
       "title": "Efeitos da fumonisina B1 em codornas poedeiras (Coturnix coturnix japonica)",
@@ -227,6 +375,46 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40839135",
+      "title": "Synbiotics as Modulators of Developing Brain for Reproductive Development Via Estrogen Receptors in Male Coturnix Coturnix Japonica",
+      "year": 2025,
+      "doi": "10.1007/s11064-025-04528-2",
+      "abstract": "The brain-gut-microbiome axis represents a bidirectional communication linking the gastrointestinal microbiome with immunity, digestion, reproduction and nervous system. Dietary supplementation of Lactobacillus rhamnosus, Bifidobacterium longum and mannan-oligosaccharides may modulate the brain-gut-axis and also have an effect on male reproductive physiology. Therefore, the study aims to explore the reproductive and neuronal physiology potentials of synbiotics in immature male Japanese quails. To achieve this, two weeks old quails were supplemented with 1% Lactobacillus rhamnosus (L), Bifidobacterium longum (B) and mannan-oligosaccharides (M) in their diet, individually as well as in combinations (LB and LBM) for 28days. The oxidative stress markers including malondialdehyde (MDA), hydrogen peroxide (H",
+      "journal": "Neurochemical research",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39291628",
+      "title": "Oxidative Challenges Do Not Impact Pheomelanin-Dependent Coloration in Male Japanese Quails",
+      "year": 2025,
+      "doi": "10.1002/jez.2865",
+      "abstract": "Colorful traits play an important role in animal communication. Melanin-based colorations are the most extended color traits in animals and are produced by two types of endogenous melanic pigments: eumelanins and pheomelanins, the last ones being the least studied in the context of communication. The production of pheomelanin requires a semi-essential amino acid, cysteine, which is also used for the synthesis of an important endogenous antioxidant, glutathione. Hence, it has been proposed that the synthesis of pheomelanin and glutathione may compete for the cysteine available in the organism. In that case, pheomelanic colorations are predicted to be less intense when the individual is facing an oxidative challenge, and therefore, they would provide information on the oxidative status of the bearer. Here, we experimentally evaluated this hypothesis using male Japanese quails (Coturnix japonica) as a model of study, a species with pheomelanin-based plumage in the breast and cheeks. During feather growth, individuals were exposed to one of three possible conditions: Control (saline), an endogenous oxidative challenge (Escherichia coli lipopolysaccharide injections), or an exogenous oxidative challenge (paraquat injections). Contrary to predictions, we found that: (1) Birds from the three groups exhibited less intense pheomelanic colorations in feathers after the experimental manipulation, and the magnitude of this change did not differ among groups. (2) There was no effect of the experimental treatments on the proportion reduced/oxidized glutathione, an index of oxidative status. (3) Lipid peroxidation was lower after the experimental manipulation, with birds exposed to the paraquat challenge experiencing a stronger decline than other groups. (4) Cysteine and total glutathione levels decreased after the experimental manipulation, with no differences per group in the magnitude of the decline. Taken together the results do not support the hypothesis that oxidative status",
+      "journal": "Journal of experimental zoology. Part A, Ecological and integrative physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35213895",
+      "title": "Impact of natural and artificial prenatal stimulation on the behavioural profile of Japanese quail",
+      "year": 2022,
+      "doi": "10.1242/jeb.243175",
+      "abstract": "As the sensory systems of vertebrates develop prenatally, embryos perceive many environmental stimuli that can influence the ontogeny of their behaviour. Whether the nature and intensity of prenatal stimuli affect this ontogeny differently remains to be investigated. In this context, this study aimed to analyse the effects of prenatal auditory stimulation (natural stimulation, NS; predator vocalisations or artificial stimulation, AS; metallic sounds) on the subsequent behaviour of young Japanese quail (Coturnix coturnix japonica). For this, behavioural variables recorded during ethological tests evaluating emotional and social reactivity were analysed using a principal component analysis. This analysis revealed significant differences between the behavioural profile of stimulated chicks and that of non-exposed chicks. Indeed, chicks exposed to NS expressed more intense emotional responses in fearful situations, but less neophobia when exposed to a novel environment or object, whereas chicks exposed to AS appeared more sensitive to social isolation. Our results show that the acoustic environment of embryos can influence the way young birds subsequently interact with their social and physical environment after hatching, and face challenges in changing living conditions.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35180683",
+      "title": "Short communication: Effects of in-ovo injection of endocrine disruptors and methyltransferase inhibitor on quail growth and egg-laying performances",
+      "year": 2022,
+      "doi": "10.1016/j.animal.2022.100464",
+      "abstract": "Early experiences, including prenatal environment, are known to influence a wide variety of mechanisms involved in the phenotype elaboration. We investigated the effect of the addition of endocrine disruptors or of a methyltransferase inhibitor during the embryonic development of quails from different genetic backgrounds (four different quail lines) on their growth and egg-laying performances. Fifty-four pairs of parents per line were used and fertilised eggs from each pair were randomly divided into five groups: a control group without any injection, an injected control group treated by injection into the egg of sesame oil, and three groups treated by injection of Genistein, Bisphenol A or 5-Aza-2'-deoxycytidine. All quails were individually weighed at 8, 21, 36 and 78 days. The age at first egg laid and the number of eggs laid were recorded. These analyses revealed a significant impact of the treatment on growth but no influence on the egg-laying traits. All three molecules significantly affected at least one of the analysed growth traits. In conclusion, we showed that the injection of endocrine disruptors or DNA methyltransferase inhibitor into the egg had significant effects on quail development; these effects were specific to each treatment, but no interaction between line and treatment was observed.",
+      "journal": "Animal : an international journal of animal bioscience",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_35229_jaes_919954",
       "title": "Japon Bıldırcınlarında (Coturnix Coturnix Japonica) Kanatların Arterial Beslenmesi Arterial Feeding of Wings in Japanese Quails (Coturnix Coturnix Japonica)",
       "year": 2021,
@@ -234,11 +422,7 @@
       "abstract": "<jats:p xml:lang=\"tr\">Çalışma Japon bıldırcınında kanadın arterial beslenmesini sağlayan damarların belirlenmesi amacıyla yapıldı. Araştırmada 10 adet Japon bıldırcını kullanıldı. Latex enjeksiyon metodu uygulanarak damarların seyri ve dallanmaları belirlendi. Kanatların beslenmesini sağlayan a. axillaris, a.subclavia’nın bir dalı olup memelilerdeki gibi devamı değildi. Omuz ekleminde a. subscapularis ve a. profunda brachii’yi verdikten sonra a. brachialis olarak seyrine devam etti. Arteria profunda brachii, m. teres major’un tendosu yakınında a. axillaris’ten orijin aldıktan sonra a. circumflexa ventralis humeri, a. circumflexa dorsalis humeri ve a. collateralis radialis’i vermekte ve a. collateralis ulnaris olarak seyrine devam ettiği tespit edilmiştir. Arteria brachialis’in orijininden sonra m. biceps brachii’nin caput medialesi üzerinden geçerek dirsek eklemi hizasında a. ulnaris ve a. radialis’e ayrıldığı tespit edildi.</jats:p>",
       "journal": "Journal of Anatolian Environmental and Animal Sciences",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_eth_13007",
@@ -248,11 +432,17 @@
       "abstract": "Abstract Social influences on vocal development of young birds have been widely studied in oscine songbirds who learn to sing by vocal imitation of conspecifics, mainly male adults. In contrast, vocal development of non‐vocal learners such as Galliformes is considered as being under strong genetic influence and independent of the social environment. In this study, we investigated the role of the mother on the vocal development of young Japanese quail ( Coturnix coturnix japonica ). We compared the vocal development of mothered and non‐mothered chicks during the first 21 days of life. We analysed the structural changes of two vocalisations: a) the rally call, emitted during long‐distance communication and in stressful situations, b) the contact call, emitted during short‐distance communication when chicks are in visual and/or auditory contact with congeners. We showed that temporal and spectral structures of the two types of calls changed during development and differed between mothered",
       "journal": "Ethology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_32171800",
+      "title": "Short communication: Short-term fasting and refeeding induced changes in subcutaneous adipose tissue physiology in 7-day old Japanese quail",
+      "year": 2020,
+      "doi": "10.1016/j.cbpa.2020.110687",
+      "abstract": "Adipose tissue development is influenced by a variety of factors, including nutrition and genetic background. Among avian species, the most is known in chickens and it is unclear if other less-artificially-selected birds are similar during the first week post-hatch. The aim of this study was thus to determine effects of fasting and refeeding on adipose tissue physiology in Japanese quail (Coturnix japonica). On day 7 post-hatch, quail were randomly assigned to fed (control), 6 h of fasting (fasted), or 6 h of fasting followed by 1 h of refeeding (refed) groups. Blood samples were collected for plasma non-esterified fatty acid (NEFA) determination and subcutaneous adipose tissues were harvested for gene expression analyses. Plasma NEFAs were elevated in the fasted state and restored to baseline within 1 h of refeeding, whereas the expression of monoglyceride lipase in subcutaneous adipose tissue was not affected by feeding status. CCAAT/enhancer binding protein α mRNA was decreased by fasting and this change persisted through refeeding, whereas neuropeptide Y receptor 5 mRNA was decreased in refed compared to fasted birds. Our results suggest that fasting promotes lipolysis and gene expression changes in young quail with some of these changes restored to original levels within only 1 h of refeeding. Thus, in quail, adipose tissue physiology is dynamic and influenced by short-term changes in nutritional status during the early post-hatch period.",
+      "journal": "Comparative biochemistry and physiology. Part A, Molecular & integrative physiology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_88272",
@@ -262,11 +452,47 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31718494",
+      "title": "Is there an oxidative cost of acute stress? Characterization, implication of glucocorticoids and modulation by prior stress experience",
+      "year": 2019,
+      "doi": "10.1098/rspb.2019.1698",
+      "abstract": "Acute rises in glucocorticoid hormones allow individuals to adaptively respond to environmental challenges but may also have negative consequences, including oxidative stress. While the effects of chronic glucocorticoid exposure on oxidative stress have been well characterized, those of acute stress or glucocorticoid exposure have mostly been overlooked. We examined the relationship between acute stress exposure, glucocorticoids and oxidative stress in Japanese quail (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31528349",
+      "title": "Effects of traffic noise exposure on corticosterone, glutathione and tonic immobility in chicks of a precocial bird",
+      "year": 2019,
+      "doi": "10.1093/conphys/coz061",
+      "abstract": "Repeated exposure to traffic noise may be perceived as a succession of stressors, and therefore, noisy urban environments could lead to a state of chronic stress. In developing animals, glucocorticoids can have organizational effects on the hypothalamic-pituitary-adrenal axis in addition to the classic activation effects, so evaluating the effect of traffic noise during development is urgently needed. To our knowledge, to date six studies have investigated the effects of traffic noise on baseline corticosterone (CORT) and/or the stress response in birds during development; however, these studies were performed in nestling (altricial species), where confounding factors (e.g. communication between nestlings and parents) could mask the real impact of traffic noise on stress. In this study, we evaluated the effect of traffic noise (traffic noise group",
+      "journal": "Conservation physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30907552",
+      "title": "[Patterns of bird nocturnal migration at Shenyang Taoxian International Airport, Northeast China]",
+      "year": 2019,
+      "doi": "10.13287/j.1001-9332.201901.008",
+      "abstract": "The high frequency of bird strikes at night during the migration season is a remarkable characteristic of bird strikes at airports. Understanding the nocturnal migration patterns of birds is important for improving the methods to prevent bird strikes at night. In this study, we combined the methods of mist-net capture and sound recording to examine the composition of bird species and the patterns of nocturnal migration at Taoxian Airport. We found that 56 species of birds (88.9% of the total) migrated at night and mainly migrated after midnight. There were obvious temporal dynamics and sequence in migration. The time of spring migration was more concentrated and the migration peaked in mid-May, with Coturnix japonica, Lanius cristatus, Emberiza fucata, Saxicola torquatus, Caprimulgus indicus and Phylloscopus inornatus as the dominant species. The migration pattern was more dispersed in autumn and the peak of migration was in late September to early October, and the main species were C. japonica, Turdus hortulorum, Anthus cervinus, Scolopax rusticola, Locustella lanceolata and Emberiza spodocephala. Based on the Bird Hazard Risk Assessment, there were mainly two species with high risk (C. japonica and L. cristatus) in spring migration and four species with high risk (C. japonica, Athene noctua, T. hortulorum and S. rusticola) in autumn migration. We proposed several strategies for the prevention of bird strike based on the composition of migratory birds, migration dynamics, migration rhythm and species risk level, which could serve as references for bird strike prevention at Taoxian Airport. 在鸟类迁徙季节,夜间鸟击事故频发是机场鸟击发生的一个显著特点.了解鸟类的夜间迁徙规律对于改进夜间鸟击防范措施具有重要的指导意义.本研究综合采用网捕法和声音记录法对沈阳桃仙机场夜间鸟类迁徙物种组成和迁徙规律进行研究.结果表明: 56种鸟类(占比88.9%)具有夜间迁徙习性,且以后半夜迁徙为主;鸟类夜间迁徙具有明显的时间动态和迁徙次序,春季鸟类迁徙较为集中,迁徙高峰在5月中旬,主要鸟类由鹌鹑、红尾伯劳、栗耳鹀、黑喉石鵖、普通夜鹰、黄眉柳莺等组成,秋季迁徙较为分散,迁徙高峰出现在9月下旬至10月上旬,主要由鹌鹑、灰背鸫、红喉鹨、丘鹬、矛斑蝗莺和灰头鵐等组成.对夜间迁徙鸟类的危险等级评估发现,春季严重危险物种是鹌鹑和红尾伯劳,秋季严重危险物种是鹌鹑、纵纹腹小鸮、灰背鸫和丘鹬.分别从夜间迁徙鸟类组成、迁徙动态、时间节律和物种危险等级等角度提出了相应的鸟击防范对策,",
+      "journal": "Ying yong sheng tai xue bao = The journal of applied ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29913616",
+      "title": "Behavioral changes in Japanese quails exposed to predicted environmentally relevant abamectin concentrations",
+      "year": 2018,
+      "doi": "10.1016/j.scitotenv.2018.04.293",
+      "abstract": "Abamectin (ABA) toxicity in fish, amphibian and mammals was already proven, but its effect on birds is almost unknown. Thus, the aim of our study is to assess the impact of exposure to water with ABA for 40 days at predicted environmentally relevant concentrations on the behavior of female Japanese quails (Coturnix coturnix japonica). The three following experimental groups (n = 10 each) were set: \"control\", quails exposed to drinking water, without ABA, \"EC1x\" and \"EC1000x\" (0.31 mg a.i./L and 310.0 a.i./L, respectively; via commercial formulation Kraft® 36EC). The open field test showed anxiolytic response in birds exposed to ABA. These birds did not show locomotor changes or aggressive behavior in the aggressiveness test. Quails exposed to the pesticide did not react to the introduction of an object in the experimental box during the object recognition test, and it suggested perception deficit due to ABA. Moreover, these birds did not recognize the cat (Felix catus) and the vocalization of a hawk (Rupornis magnirostris) as potential predatory threats. These responses also suggest anti-predatory behavior deficit due to the pesticide. Thus, our study is pioneer in showing that water with ABA, at tested concentrations, influences the behavior of C. coturnix japonica, as well as in highlighting the potential impacts of this pesticide on this group of birds.",
+      "journal": "The Science of the total environment",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s10071-016-1064-4",
@@ -276,11 +502,17 @@
       "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25629413",
+      "title": "Avian egg odour encodes information on embryo sex, fertility and development",
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0116345",
+      "abstract": "Avian chemical communication is a rapidly emerging field, but has been hampered by a critical lack of information on volatile chemicals that communicate ecologically relevant information (semiochemicals). A possible, but as yet unexplored, function of olfaction and chemical communication in birds is in parent-embryo and embryo-embryo communication. Communication between parents and developing embryos may act to mediate parental behaviour, while communication between embryos can control the synchronicity of hatching. Embryonic vocalisations and vibrations have been implicated as a means of communication during the later stages of development but in the early stages, before embryos are capable of independent movement and vocalisation, this is not possible. Here we show that volatiles emitted from developing eggs of Japanese quail (Coturnix japonica) convey information on egg fertility, along with the sex and developmental status of the embryo. Specifically, egg volatiles changed over the course of incubation, differed between fertile and infertile eggs, and were predictive of embryo sex as early as day 1 of incubation. Egg odours therefore have the potential to facilitate parent-embryo and embryo-embryo interactions by allowing the assessment of key measures of embryonic development long before this is possible through other modalities. It also opens up the intriguing possibility that parents may be able to glean further relevant information from egg volatiles, such as the health, viability and heritage of embryos. By determining information conveyed by egg-derived volatiles, we hope to stimulate further investigation into the ecological role of egg odours.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "lit_gbif_2474162_14",
@@ -290,11 +522,17 @@
       "abstract": "International audience",
       "journal": "HAL (Le Centre pour la Communication Scientifique Directe)",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5228517_14",
+      "title": "Study of cultural transmission possibilities in the vocal communication of Japanese quails Coturnix japonica",
+      "year": 2014,
+      "doi": null,
+      "abstract": "International audience",
+      "journal": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_21708_avb_2013_7_3_2952",
@@ -304,11 +542,7 @@
       "abstract": "",
       "journal": "Acta Veterinaria Brasilica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1073_pnas_1211533110",
@@ -318,11 +552,57 @@
       "abstract": "The Lombard effect, an involuntary rise in call amplitude in response to masking ambient noise, represents one of the most efficient mechanisms to optimize signal-to-noise ratio. The Lombard effect occurs in birds and mammals, including humans, and is often associated with several other vocal changes, such as call frequency and duration. Most studies, however, have focused on noise-dependent changes in call amplitude. It is therefore still largely unknown how the adaptive changes in call amplitude relate to associated vocal changes such as frequency shifts, how the underlying mechanisms are linked, and if auditory feedback from the changing vocal output is needed. Here, we examined the Lombard effect and the associated changes in call frequency in a highly vocal mammal, echolocating horseshoe bats. We analyzed how bandpass-filtered noise (BFN; bandwidth 20 kHz) affected their echolocation behavior when BFN was centered on different frequencies within their hearing range. Call amplitude",
       "journal": "Proceedings of the National Academy of Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23266340",
+      "title": "Aromatase expression in the brain of the ruffed grouse (Bonasa umbellus) and comparisons with other galliform birds (Aves, Galliformes)",
+      "year": 2013,
+      "doi": "10.1016/j.jchemneu.2012.12.001",
+      "abstract": "The enzyme aromatase is important for regulating sexual and aggressive behaviors during the reproductive season, including many aspects of courtship. In birds, aromatase is expressed at high levels in a number of different brain regions. Although this expression does vary among species, the extent to which the distribution of aromatase positive cells reflects species differences in courtship and other behaviors is not well established. Here, we examine the distribution of aromatase immunoreactive (ARO) neurons in the brain of a species with a unique courtship display, the ruffed grouse (Bonasa umbellus). Unlike most other galliforms, male ruffed grouse do not vocalize as part of their courtship and instead use their wings to create a non-vocal auditory signal to attract females. Because aromatase is involved in courtship behaviors in several bird species, including other galliforms, we hypothesized that aromatase distribution in the ruffed grouse would differ from that of other galliforms. We used an antibody raised against quail aromatase to examine aromatase immunoreactivity in the ruffed grouse, the closely related spruce grouse (Falcipennis canadensis) and the Japanese quail (Coturnix japonica). In all three species, ARO neurons were identified in the medial preoptic nucleus, the bed nucleus of the stria terminalis and the nucleus ventromedialis hypothalami. Both grouse species had ARO neurons in two regions of the telencephalon, the hyperpallium, and entopallium, and the ruffed grouse also in field L. ARO neurons were only found in one region in the telencephalon of the Japanese quail, the septum. In general, breeding male ruffed grouse had significantly more ARO neurons and those neurons were larger than that of both the non-breeding male and female ruffed grouse. Aromatase expression in the telencephalon of the ruffed grouse suggests that steroid hormones might modulate responses to visual and acoustic stimuli, but how this relates to species differences in c",
+      "journal": "Journal of chemical neuroanatomy",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23123143",
+      "title": "Long-lasting and sex-specific consequences of elevated egg yolk testosterone for social behavior in Japanese quail",
+      "year": 2013,
+      "doi": "10.1016/j.yhbeh.2012.10.011",
+      "abstract": "In birds, early exposure to steroid hormones deposited in egg yolks is hypothesized to result in long-lasting effects on brain and behavior. However, the long-term effects of maternal androgens on the development of social behavior, and whether these could interfere with the effects of the endogenous gonadal hormones that mediate sexual differentiation, remain poorly known. To answer these questions, we enhanced yolk testosterone by injecting testosterone (T) in oil into Japanese quail (Coturnix japonica) eggs prior to incubation. Vehicle-injected (V) eggs served as controls. From age 3 weeks to 8 weeks, sexual development was measured using morphological and physiological traits, and social behavior was measured, including male-typical sexual behavior. In females, treatment with testosterone boosted growth. Males from T-injected eggs developed an affiliative preference for familiar females and differed from V-injected males in the acoustic features of their crows, whereas sexual interest (looking behavior) and copulatory behavior were not affected. These long-lasting and sex-specific yolk testosterone effects on the development of dimorphic traits, but without disrupting sexual differentiation of reproductive behavior suggest potential organizational effects of maternal testosterone, but acting through separate processes than the endocrine mechanisms previously shown to control sexual differentiation. Separate processes could reflect the action of androgens at different times or on multiple targets that are differentially sensitive to steroids or develop at different rates.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22506964",
+      "title": "Melatonin affects the temporal pattern of vocal signatures in birds",
+      "year": 2012,
+      "doi": "10.1111/j.1600-079X.2012.00993.x",
+      "abstract": "In humans and other animals, melatonin is involved in the control of circadian biological rhythms. Here, we show that melatonin affects the temporal pattern of behavioral sequences in a noncircadian manner. The zebra finch (Taeniopygia guttata) song and the crow of the Japanese quail (Coturnix japonica) are courtship vocalizations composed of a stereotyped sequence of syllables. The zebra finch song is learned from conspecifics during infancy, whereas the Japanese quail crow develops normally without auditory input. We recorded and analyzed the complete vocal activity of adult birds of both species kept in social isolation for several weeks. In both species, we observed a shortening of signal duration following the transfer from a light-dark (LD) cycle to constant light (LL), a condition known to abolish melatonin production and to disrupt circadian rhythmicity. This effect was reversible because signal duration increased when the photoperiod was returned to the previous LD schedule. We then tested whether this effect was directly related to melatonin by removal of the pineal gland, which is the main production site of circulating melatonin. A shortening of the song duration was observed following pinealectomy in LD. Likewise, melatonin treatment induced changes in the temporal structure of the song. In a song learning experiment, young pinealectomized finches and young finches raised in LL failed to copy the temporal pattern of their tutor's song. Taken together, these results suggest that melatonin is involved in the control of motor timing of noncircadian behavioral sequences through an evolutionary conserved neuroendocrine pathway.",
+      "journal": "Journal of pineal research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22010640",
+      "title": "Comparative analysis of mineralocorticoid receptor expression among vocal learners (Bengalese finch and budgerigar) and non-vocal learners (quail and ring dove) has implications for the evolution of avian vocal learning",
+      "year": 2011,
+      "doi": "10.1111/j.1440-169X.2011.01302.x",
+      "abstract": "Mineralocorticoid receptor is the receptor for corticosteroids such as corticosterone or aldosterone. Previously, we found that mineralocorticoid receptor was highly expressed in song nuclei of a songbird, Bengalese finch (Lonchura striata var. domestica). Here, to examine the relationship between mineralocorticoid receptor expression and avian vocal learning, we analyzed mineralocorticoid receptor expression in the developing brain of another vocal learner, budgerigar (Melopsittacus undulatus) and non-vocal learners, quail (Coturnix japonica) and ring dove (Streptopelia capicola). Mineralocorticoid receptor showed vocal control area-related expressions in budgerigars as Bengalese finches, whereas no such mineralocorticoid receptor expressions were seen in the telencephalon of non-vocal learners. Thus, these results suggest the possibility that mineralocorticoid receptor plays a role in vocal development of parrots as songbirds and that the acquisition of mineralocorticoid receptor expression is involved in the evolution of avian vocal learning.",
+      "journal": "Development, growth & differentiation",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_19324760",
+      "title": "Dynamics of crowing development in the domestic Japanese quail (Coturnix coturnix japonica)",
+      "year": 2009,
+      "doi": "10.1098/rspb.2009.0016",
+      "abstract": "Species-specific behaviours gradually emerge, via incomplete patterns, to the final complete adult form. A classical example is birdsong, a learned behaviour ideally suited for studying the neural and molecular substrates of vocal learning. Young songbirds gradually transform primitive unstructured vocalizations (subsong, akin to human babbling) into complex, stereotyped sequences of syllables that constitute adult song. In comparison with birdsong, territorial and mating calls of vocal non-learner species are thought to exhibit little change during development. We revisited this issue using the crowing behaviour of domestic Japanese quail (Coturnix coturnix japonica). Crowing activity was continuously recorded in young males maintained in social isolation from the age of three weeks to four months. We observed developmental changes in crow structure, both the temporal and the spectral levels. Speed and trajectories of these developmental changes exhibited an unexpected high inter-individual variability. Mechanisms used by quails to transform sounds during ontogeny resemble those described in oscines during the sensorimotor phase of song learning. Studies on vocal non-learners could shed light on the specificity and evolution of vocal learning.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1644_07-mamm-s-307r_1",
@@ -332,11 +612,7 @@
       "abstract": "Abstract The amount of underwater sound from ship traffic, commercial, research, and military sound sources has increased significantly over the past century. Marine mammals and many other marine animals rely on sound for short- and long-range communication, for orientation, and for locating prey. This reliance has raised concern that elevated sound levels from human sources may interfere with the behavior and physiology of marine animals. The dominant source of human sound in the sea stems from propulsion of ships. Shipping noise centers in the 20- to 200-Hz band. Frequencies this low propagate efficiently in the sea, and shipping has elevated the global deepwater ambient noise 10- to 100-fold in this frequency band. Baleen whales use the same frequency band for some of their communication signals, and concern has been raised that elevated ambient noise may reduce the range over which they can communicate. Marine mammals have a variety of mechanisms to compensate for increased noise, ",
       "journal": "Journal of Mammalogy",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3758_bf03196002",
@@ -346,11 +622,7 @@
       "abstract": "",
       "journal": "Learning & Behavior",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_0021-8790_2004_00814_x",
@@ -360,11 +632,7 @@
       "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3758_bf03196011",
@@ -374,11 +642,7 @@
       "abstract": "",
       "journal": "Learning & Behavior",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1046_j_1439-0310_2003_00854_x",
@@ -388,11 +652,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>Each year, thousands of domestic Japanese and hybrid quails are released within the breeding range of the European quail. We showed recently that no post‐zygotic isolating mechanisms have yet been established between these subspecies. The aim of this study was to investigate whether pre‐zygotic mechanisms are strong enough to prevent hybridization. We tested the level of subspecies selectivity in females of European and Japanese quail respectively using playbacks of European, hybrid and Japanese male mating calls. European quail females emitted the greatest number of rally calls in response to mating calls by conspecific males. Their responses were the weakest to mating calls produced by males of the other subspecies and intermediate to mating calls by hybrid males. In contrast, Japanese quails produced similar responses to all types of mating calls. These results suggest that mixed pairs could form in the wild. The European quail could thus bec",
       "journal": "Ethology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_17226_21042",
@@ -402,11 +662,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_b30ca91azd2faz4e7dz8797zd085f609242d",
@@ -416,11 +672,7 @@
       "abstract": "<jats:p xml:lang=\"fr\">Les influences sociales sur le développement vocal ont été particulièrement étudiées chez les oiseaux chanteurs. Chez ces espèces, les jeunes sont capables d’apprentissage vocal, c’est-à-dire qu’ils modifient la structure de leur vocalisation suite aux interactions vocales avec les congénères, bien souvent les parents. A l’inverse, chez les oiseaux non-oscines, il est généralement admis que le développement vocal des jeunes n’est pas influencé par l’environnement social, mais présente un fort déterminisme génétique. Dans ce contexte, nous avons exploré le rôle des influences sociales, et plus particulièrement le rôle de la mère, sur le développement vocal des jeunes chez la caille japonaise (Coturnix c. japonica), une espèce considérée comme non-apprenante. Dans un premier temps, nous avons étudié le rôle de la mère sur le développement vocal des jeunes au cours des premiers jours de vie. Notre expérience a mis en évidence des différences de structures vocales ent",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_10_2003_tde-16062004-123511",
@@ -430,11 +682,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_58837_chula_the_2005_997",
@@ -444,11 +692,7 @@
       "abstract": "<jats:p>การเจริญเติบโตของอวัยวะสร้างเซลส์สืบพันธุ์ของเอ็มบริโอนนกกระทาญี่ปุ่นประกอบด้วยขั้นตอนที่สำคัญได้แก่ การเคลื่อนที่ของกลุ่มเซลล์ต้นกำเนิดเซลล์สืบพันธุ์ (PGCs) มายังบริเวณที่จะเจริญเป็นอวัยวะสร้างเซลส์สืบพันธุ์ (genital ridges) การเปลี่ยนแปลงสภาพของอวัยวะสร้างเซลล์สืบพันธุ์เพศผู้หรือเพศเมีย การเติบโตและการเจริญเต็มที่ของอวัยวะสร้างเซลล์สืบพันธุ์เมื่อทำการฉีดเจนีสเตอีนความเข้มข้น 16 และ 24 ไมโครกรัม/กรัม ไข่ โดยตรงในไข่ทางด้านป้านผ่านบริเวณไข่แดงก่อนการเข้าฟักพบว่า เจนีสเตอีนทั้งสองความเข้มข้นทำให้จำนวน PGCs เคลื่อนที่มาฝังตัวยังบริเวณ genital ridges ลดลงอย่างมีนัยสำคัญทางสถิติ (p&lt;0.001) เมื่อเปรียบเทียบกับเอ็มบริโอกลุ่มควบคุม เปอร์เซ็นต์ดัชนีความเป็นหมันของเอ็มบริโอกลุ่มที่ได้รับเจนีสเตอีน 16 และ 24 ไมโครกรัม/กรัมไข่ เท่ากับ 19% และ23% ตามลำดับ ซึ่งแตกต่างอย่างมีนัยสำคัญทางสถิติ (p&lt;0.001) เมื่อเปรียบเทียบกับเอ็มบริโอกลุ่มควบคุม การศึกษาผลของเจนีสเตอีนต่อการเปลี่ยนแปลงสภาพของอวัยวะสร้างเซลล์สืบพันธุ์ในเอ็มบริโอเพศผู้โดยการนับจำนวน estrogen receptor (ER)-immunostained cells บ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_12681_eadd_20525",
@@ -458,11 +702,7 @@
       "abstract": "<jats:p>Στόχο της παρούσας διατριβής αποτελεί η μελέτη κύριων παραμέτρων της εμβρυϊκής και μετεκκολαπτικής ανάπτυξης του σκελετού του ορτυκιού και συγκεκριμένα η χρονική ακολουθία εμφάνισης των πυρήνων οστέωσης, η οστεογένεση και η ανάλυση των μεταβολών του μήκους ορισμένων οστών. Για το σκοπό αυτό χρησιμοποιήθηκαν συνολικά 300 έμβρυα και 185 αναπτυσσόμενα ορτύκια. Για τη μελέτη της οστέωσης, έμβρυα και αναπτυσσόμενα ορτύκια διαφανοποιήθηκαν, οι σκελετοί τους χρωματίστηκαν με τη διπλή χρώση του κυανού της Αλσιανής και ερυθρού της Αλιζαρίνης και παρατηρήθηκαν με στερεοσκοπικό μικροσκόπιο. Ιστολογικές τομές των μακρών οστών χρωματίστηκαν με αιματοξυλίνη - εωσίνη και παρατηρήθηκαν με οπτικό μικροσκόπιο. Με τη βοήθεια μικρομετρητή και παχυμέτρου υπολογίστηκαν οι ημερήσιες μεταβολές του μήκους του μακρών οστών των άκρων από τη 10η ημέρα της επώασης μέχρι το τέλος της επώασης και από την 1η μέχρι την 37η ημέρα της μετεκκολαπτικής ανάπτυξης. Ακόμη, λεπτές εγκάρσιες τομές από το μηριαίο οστούν",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31390_gradschool_disstheses_6138",
@@ -472,14 +712,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

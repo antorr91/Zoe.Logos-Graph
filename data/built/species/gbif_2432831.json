@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 18,
+    "doi_count": 27,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -52,8 +52,8 @@
   ],
   "functions": [
     "female recruitment",
-    "male competition",
-    "prey detection"
+    "prey detection",
+    "male competition"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -61,13 +61,13 @@
         "value": "echolocation call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -75,19 +75,19 @@
         "value": "foraging",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -95,30 +95,294 @@
         "value": "female recruitment",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "male competition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "prey detection",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "male competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 413,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 412,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 411,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 410,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 409,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 408,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 407,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 406,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 405,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 404,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 403,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 402,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 401,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 400,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 399,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 398,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 397,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 396,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1007/s00359-025-01739-4",
+      "url": "https://doi.org/10.1007/s00359-025-01739-4",
+      "title": "Is it a bat or a male? A female moth (Syntomeida epilais, Lepidoptera: Erebidae: Arctiinae) adapts its acoustic signals for defense or courtship",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.isci.2025.114099",
+      "url": "https://doi.org/10.1016/j.isci.2025.114099",
+      "title": "Stereotyped active sensing in fast-diving echolocating bats",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12862-025-02430-7",
+      "url": "https://doi.org/10.1186/s12862-025-02430-7",
+      "title": "Exploring the effects of climatic and environmental heterogeneity on the spatial activity of Patagonian bats",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pcbi.1013013",
+      "url": "https://doi.org/10.1371/journal.pcbi.1013013",
+      "title": "How swarming bats can use the collective soundscape for obstacle avoidance",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.21956/wellcomeopenres.22806.r76577",
       "url": "https://doi.org/10.21956/wellcomeopenres.22806.r76577",
@@ -134,6 +398,20 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1152/jn.00436.2021",
+      "url": "https://doi.org/10.1152/jn.00436.2021",
+      "title": "The prefrontal cortex of the Mexican free-tailed bat is more selective to communication calls than primary auditory cortex",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s42770-021-00519-x",
+      "url": "https://doi.org/10.1007/s42770-021-00519-x",
+      "title": "Genetic identification of a rabies virus from an insectivorous bat in an urban area of Rio Grande do Sul, Brazil",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.62697",
       "url": "https://doi.org/10.1079/cabicompendium.62697",
       "title": "Tadarida brasiliensis cynocephala",
@@ -141,11 +419,39 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1002/ece3.3693",
+      "url": "https://doi.org/10.1002/ece3.3693",
+      "title": "Separating the effects of water quality and urbanization on temperate insectivorous bats at the landscape scale",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-018-26122-z",
+      "url": "https://doi.org/10.1038/s41598-018-26122-z",
+      "title": "Recording animal vocalizations from a UAV: bat echolocation during roost re-entry",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/srep41641",
+      "url": "https://doi.org/10.1038/srep41641",
+      "title": "Suppression of emission rates improves sonar performance by flying bats",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.62696",
       "url": "https://doi.org/10.1079/cabicompendium.62696",
       "title": "Tadarida brasiliensis muscula",
       "year": 2017,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0168927",
+      "url": "https://doi.org/10.1371/journal.pone.0168927",
+      "title": "Patterns of Bat Distribution and Foraging Activity in a Highly Urbanized Temperate Environment",
+      "year": 2016,
+      "source": "pubmed"
     },
     {
       "doi": "10.1098/rspb.2014.1370",
@@ -241,6 +547,56 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41446752",
+      "title": "Stereotyped active sensing in fast-diving echolocating bats",
+      "year": 2025,
+      "doi": "10.1016/j.isci.2025.114099",
+      "abstract": "Mexican free-tailed bats (",
+      "journal": "iScience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41134200",
+      "title": "Subcutaneous cortical auditory evoked potentials in echolocating bats",
+      "year": 2025,
+      "doi": "10.1121/10.0039659",
+      "abstract": "Auditory brainstem responses offer a convenient non-invasive method for assessing auditory system physiology, but mainly reveal activation of early brainstem and midbrain processing stages. With minor adjustments, the method can also capture slower cortical auditory evoked potentials (CAEPs). CAEPs have not been previously described in bats but are often used in large animals and humans to study cortical signal processing. Here, we describe two late peaks in the bat (Tadarida brasiliensis) auditory evoked potential waveform that appear cortical in origin. The first deflection (P1) peaked at 23 ms and showed the same onset (∼10 ms) and duration (∼20 ms) as ensemble neuronal activity in the auditory cortex under matched conditions. A second, smaller wave (P2) peaked at 37 ms, correlating with evoked activity in a secondary auditory region known as the frontal auditory field. Both peaks varied in amplitude and timing depending on acoustic stimulus properties. Notably, P1 was reduced at presentation rates above 8 Hz, consistent with predicted effects of cortical forward suppression. These findings demonstrate that robust CAEPs can be non-invasively recorded in bats and carry information about stimulus features and underlying neural mechanisms.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40826019",
+      "title": "Exploring the effects of climatic and environmental heterogeneity on the spatial activity of Patagonian bats",
+      "year": 2025,
+      "doi": "10.1186/s12862-025-02430-7",
+      "abstract": "BACKGROUND: The Patagonian region hosts endemic bat species and represents the southernmost distribution limit for several vespertilionids and molossids species. In cold temperate regions, insectivorous bats are more active during summer. However, during this period, the activity of bats can also vary spatially, depending on climatic and environmental factors (e.g., temperature, humidity, vegetation cover, productivity, elevation, proximity to water). The objective of this study was to analyze how the spatial activity of phonic groups is affected by climatic and environmental variables in a large, heterogeneous area of ​​Patagonia, Argentina, using bioacoustic methods. Acoustic monitoring was conducted during the austral summer of 2020, at 100 points located at ten sites, in three ecoregions of Chubut Province (Patagonian Forest, Patagonian Steppe and Low Monte). Bat passes were classified into four phonic groups (PGs), each representing species with similar echolocation call structures. This classification was based on foraging habits and bioacoustic characteristics of species commonly recorded in the study area (PG1 = Myotis chiloensis, M. levis; PG2 = Lasiurus varius, L. villosissimus, Histiotus magellanicus; PG3 = H. macrotus, H. montanus; PG4 = Tadarida brasiliensis). The values of eleven variables were obtained for each point (e.g., temperature, relative humidity, vegetation cover, productivity, elevation, and proximity to water). Using generalized linear mixed-effects models (GLMMs), we analyzed how climatic and environmental variables influenced the spatial activity of Patagonian bat phonic groups. RESULTS: Our results showed that spatial activity of four phonic groups analyzed in summer is driven by environmental (vegetation cover, elevation and proximity to water) and climatic variables (temperature and relative humidity). Nevertheless, the spatial activity of each specific phonic group was mainly influenced by vegetation cover variables and by their prefe",
+      "journal": "BMC ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40373075",
+      "title": "How swarming bats can use the collective soundscape for obstacle avoidance",
+      "year": 2025,
+      "doi": "10.1371/journal.pcbi.1013013",
+      "abstract": "Some echolocating bats, such as Tadarida brasiliensis, fly in groups when emerging from or entering caves. In large, dense swarms, distinguishing self-generated echoes from the multitude of calls and echoes produced by others presents a significant challenge - akin to a cocktail party nightmare. While spectral jamming responses have been proposed as a solution, this mechanism is unlikely to be effective in such conditions. Here, we propose an alternative hypothesis: rather than isolating their own echoes, bats might navigate by relying on the local amplitude gradient of the collective soundscape. To test this, we developed an agent-based simulation of bats flying through corridors, demonstrating that they can avoid obstacles, including other bats and corridor walls, without distinguishing individual echoes. Our findings suggest that in dense swarms, bats can exploit the emergent acoustic environment to maintain safe distances. The current paper also suggests shifting the perspective on jamming itself. Rather than framing overlapping signals solely as a source of interference, our findings highlight that these signals can also carry useful information, reframing the problem from conflict to cooperative signal processing.",
+      "journal": "PLoS computational biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40140060",
+      "title": "Is it a bat or a male? A female moth (Syntomeida epilais, Lepidoptera: Erebidae: Arctiinae) adapts its acoustic signals for defense or courtship",
+      "year": 2025,
+      "doi": "10.1007/s00359-025-01739-4",
+      "abstract": "Courtship behavior in the polka-dot wasp moth Syntomieda epilais is the most elaborate acoustic communication system known in the Erebidae. Both males and females must emit their acoustic signals for successful mating under natural conditions in the presence of insectivorous echolocating bats. I stimulated ninety-two females S. epilais during their courtship period (between 2:30 and 6:30 am) with playback of conspecific male and female signals and of the Mexican free-tailed bat (Tadarida brasiliensis) attack sequence. I recorded the acoustic responses of the tested females. On the third night after eclosion, at the initiation of courtship behavior, females discriminate among these three types of acoustic trains, responding preferentially to conspecific male signals. In contrast, during the first two nights after eclosion, they respond strongly to the bat attack sequence but not to conspecific male signals. I also demonstrate that after mating (six nights after eclosion) female moths stop responding to conspecific male signals, while continuing to respond to the bat attack pulse-train. These, as well as other novel observations suggest that these female moths can modulate their acoustic signals according to the stimulating conditions for defense against bats or courtship, by varying their response thresholds and latencies.",
+      "journal": "Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_21956_wellcomeopenres_22806_r76577",
       "title": "Peer Review Report For: The genome sequence of Tadarida brasiliensis I. Geoffroy Saint-Hilaire, 1824 [Molossidae; Tadarida] [version 1; peer review: 2 approved, 2 approved with reservations]",
       "year": 2024,
@@ -248,11 +604,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_21956_wellcomeopenres_22806_r76586",
@@ -262,11 +614,27 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_35975923",
+      "title": "The prefrontal cortex of the Mexican free-tailed bat is more selective to communication calls than primary auditory cortex",
+      "year": 2022,
+      "doi": "10.1152/jn.00436.2021",
+      "abstract": "In this study, we examined the auditory responses of a prefrontal area, the frontal auditory field (FAF), of an echolocating bat (",
+      "journal": "Journal of neurophysiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33948876",
+      "title": "Genetic identification of a rabies virus from an insectivorous bat in an urban area of Rio Grande do Sul, Brazil",
+      "year": 2021,
+      "doi": "10.1007/s42770-021-00519-x",
+      "abstract": "In Latin America, hematophagous bats are the main reservoirs of rabies virus (RABV) to livestock, to other mammals and, occasionally, to human. Nonetheless, reports of exposure of human and pets to RABV upon aggression by non-hematophagous bats are increasing, possibly facilitated by the synanthropic habits of these bats. We, herein, report the detection and genetic identification of a RABV recovered from an insectivorous bat found sick in a student housing building at the Federal University of Santa Maria, Southern Brazil. Taxonomic characterization identified the captured bat as a member of the genus Nyctinomops, family Molossidae, the group of insectivorous bats. Brain fragments of the bat were positive for RABV antigens by fluorescent antibody test (FAT) and for sequences of the nucleoprotein (N) gene by RT-PCR. The N amplicon was submitted to nucleotide sequencing and analysis, showing that the consensus sequences (SV 33/19) had high identity with RABV sequences of insectivorous bats deposited in GenBank. At phylogenetic tree, the N gene sequences of SV 33/19 clustered with RABV recovered from Nyctinomops laticaudatus, Molossus molossus, and Tadarida lauticaudata bats, and a part of RABV variant 3, 4, and 6, that correspond to Desmodus rotundus, Tadarida brasiliensis, and Lasiurus cinereus, respectively. Although no direct human or domestic animal exposure has been reported, this case strengthens the need for a continuous rabies vaccination in pets in the surrounding areas, since non-hematophagous bats may serve as source of infection for these animals. These findings also call attention for continuous monitoring of populations of synanthropic bats to avoid/prevent human exposure.",
+      "journal": "Brazilian journal of microbiology : [publication of the Brazilian Society for Microbiology]",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_62697",
@@ -276,11 +644,57 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_30710921",
+      "title": "Echolocation adaptations during high-speed roost re-entry for Brazilian free-tailed bats (Tadarida brasiliensis)",
+      "year": 2019,
+      "doi": "10.1121/1.5085308",
+      "abstract": "Some bats re-enter their cave while using echolocation at very high speeds, but this behavior is poorly studied. Thermal imaging and an array of ultrasonic microphones were used to investigate the acoustic adaptations made during high-speed re-entry for single bats entering a cave. There was a significant overall effect between bat, distance to the ground, and its flight speed on pulse duration and interpulse interval (IPI). The data imply that overall bats reduce pulse duration, IPI, and bandwidth as they approach the cave and slow down, but the behavior changes among individuals.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29950451",
+      "title": "Active acoustic interference elicits echolocation changes in heterospecific bats",
+      "year": 2018,
+      "doi": "10.1242/jeb.176511",
+      "abstract": "Echolocating bats often forage in the presence of both conspecific and heterospecific individuals, which have the potential to produce acoustic interference. Recent studies have shown that at least one bat species, the Brazilian free-tailed bat (",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29773821",
+      "title": "Recording animal vocalizations from a UAV: bat echolocation during roost re-entry",
+      "year": 2018,
+      "doi": "10.1038/s41598-018-26122-z",
+      "abstract": "Unmanned aerial vehicles (UAVs) are rising in popularity for wildlife monitoring, but direct recordings of animal vocalizations have not yet been accomplished, likely due to the noise generated by the UAV. Echolocating bats, especially Tadarida brasiliensis, are good candidates for UAV recording due to their high-speed, high-altitude flight. Here, we use a UAV to record the signals of bats during morning roost re-entry. We designed a UAV to block the noise of the propellers from the receiving microphone, and report on the characteristics of bioacoustic recordings from a UAV. We report the first published characteristics of echolocation signals from bats during group flight and cave re-entry. We found changes in inter-individual time-frequency shape, suggesting that bats may use differences in call design when sensing in complex groups. Furthermore, our first documented successful recordings of animals in their natural habitat demonstrate that UAVs can be important tools for bioacoustic monitoring, and we discuss the ethical considerations for such monitoring.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29495687",
+      "title": "A systematic method for isolating, tracking and discriminating time-frequency components of bat echolocation calls",
+      "year": 2018,
+      "doi": "10.1121/1.5023205",
+      "abstract": "Echolocating bats can rapidly modify frequency modulation (FM) curvatures of their calls when facing challenging echolocation tasks. Frequency parameters, such as start/end/peak frequency, have often been extracted from the time-frequency domain to study the call variation. Even though this kind of signal investigation method reveals important findings, these approaches to analyze bat echolocation calls use bulk parameters, which hide subtleties in the call structure that may be important to the bat. In some cases, calls can have the same start and end frequencies but have different FM curvatures, and subsequently may influence the sensory task performance. In the present study, the authors demonstrate an algorithm using a combination of digital filters, power limited time-frequency information, derivative dynamic time warping, and agglomerative hierarchical clustering to extract and categorize the time-frequency components (TFCs) of 21 calls from Brazilian free-tailed bat (Tadarida brasiliensis) to quantitatively compare FM curvatures. The detailed curvature analysis shows an alternative perspective to look into the TFCs and hence serves as the preliminary step to understand the adaptive call design of bats.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29321903",
+      "title": "Separating the effects of water quality and urbanization on temperate insectivorous bats at the landscape scale",
+      "year": 2018,
+      "doi": "10.1002/ece3.3693",
+      "abstract": "Many local scale studies have shown that bats respond to water quality degradation or urbanization in a species-specific manner. However, few have separated the effects of urbanization versus water quality degradation on bats, in single city or single watershed case studies. Across North Carolina, USA, we used the standardized North American Bat Monitoring Program mobile transect protocol to survey bat activity in 2015 and 2016 at 41 sites. We collected statewide water quality and urban land cover data to disentangle the effects of urbanization and water quality degradation on bats at the landscape scale. We found that statewide, water quality degradation and urbanization were not correlated. We found that bats responded to water quality degradation and urbanization independently at the landscape scale.",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_62696",
@@ -290,11 +704,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_28139707",
+      "title": "Suppression of emission rates improves sonar performance by flying bats",
+      "year": 2017,
+      "doi": "10.1038/srep41641",
+      "abstract": "Echolocating bats face the challenge of actively sensing their environment through their own emissions, while also hearing calls and echoes of nearby conspecifics. How bats mitigate interference is a long-standing question that has both ecological and technological implications, as biosonar systems continue to outperform man-made sonar systems in noisy, cluttered environments. We recently showed that perched bats decreased calling rates in groups, displaying a behavioral strategy resembling the back-off algorithms used in artificial communication networks to optimize information throughput at the group level. We tested whether free-tailed bats (Tadarida brasiliensis) would employ such a coordinated strategy while performing challenging flight maneuvers, and report here that bats navigating obstacles lowered emission rates when hearing artificial playback of another bat's calls. We measured the impact of acoustic interference on navigation performance and show that the calculated reductions in interference rates are sufficient to reduce interference and improve obstacle avoidance. When bats flew in pairs, each bat responded to the presence of the other as an obstacle by increasing emissions, but hearing the sonar emissions of the nearby bat partially suppressed this response. This behavior supports social cohesion by providing a key mechanism for minimizing mutual interference.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28030640",
+      "title": "Patterns of Bat Distribution and Foraging Activity in a Highly Urbanized Temperate Environment",
+      "year": 2016,
+      "doi": "10.1371/journal.pone.0168927",
+      "abstract": "Understanding how to manage biodiversity in urban areas will become increasingly important as density of humans residing in urban centers increases and urban areas expand. While considerable research has documented the shifts in biodiversity along urbanization gradients, much less work has focused on how characteristics of dense urban centers, effectively novel environments, influence behavior and biodiversity. Urban bats in San Francisco provide an opportunity to document changes in behavior and biodiversity to very high-density development. We studied (1) the distribution and abundance of bat foraging activity in natural areas; and (2) characteristics of natural areas that influence the observed patterns of distribution and foraging activity. We conducted acoustic surveys of twenty-two parks during 2008-2009. We confirmed the presence of four species of bats (Tadarida brasiliensis, Myotis yumanensis, Lasiurus blossevillii, and M. lucifugus). T. brasiliensis were found in all parks, while M. yumanensis occurred in 36% of parks. Results indicate that proximity to water, park size, and amount of forest edge best explained overall foraging activity. Proximity to water best explained species richness. M. yumanensis activity was best explained by reduced proportion of native vegetation as well as proximity to water. Activity was year round but diminished in December. We show that although bats are present even in very densely populated urban centers, there is a large reduction in species richness compared to that of outlying areas, and that most habitat factors explaining their community composition and activity patterns are similar to those documented in less urbanized environments.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2307_jj_30297277_48",
@@ -304,11 +734,7 @@
       "abstract": "",
       "journal": "Mammals of Alabama",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2014_1370",
@@ -318,11 +744,7 @@
       "abstract": "Many animals produce vocal sequences that appear complex. Most researchers assume that these sequences are well characterized as Markov chains (i.e. that the probability of a particular vocal element can be calculated from the history of only a finite number of preceding elements). However, this assumption has never been explicitly tested. Furthermore, it is unclear how language could evolve in a single step from a Markovian origin, as is frequently assumed, as no intermediate forms have been found between animal communication and human language. Here, we assess whether animal taxa produce vocal sequences that are better described by Markov chains, or by non-Markovian dynamics such as the 'renewal process' (RP), characterized by a strong tendency to repeat elements. We examined vocal sequences of seven taxa: Bengalese finches Lonchura striata domestica, Carolina chickadees Poecile carolinensis, free-tailed bats Tadarida brasiliensis, rock hyraxes Procavia capensis, pilot whales Globice",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_brv_12160",
@@ -332,11 +754,17 @@
       "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25378624",
+      "title": "Bats jamming bats: food competition through sonar interference",
+      "year": 2014,
+      "doi": "10.1126/science.1259512",
+      "abstract": "Communication signals are susceptible to interference (\"jamming\") from conspecifics and other sources. Many active sensing animals, including bats and electric fish, alter the frequency of their emissions to avoid inadvertent jamming from conspecifics. We demonstrated that echolocating bats adaptively jam conspecifics during competitions for food. Three-dimensional flight path reconstructions and audio-video field recordings of foraging bats (Tadarida brasiliensis) revealed extended interactions in which bats emitted sinusoidal frequency-modulated ultrasonic signals that interfered with the echolocation of conspecifics attacking insect prey. Playbacks of the jamming call, but not of control sounds, caused bats to miss insect targets. This study demonstrates intraspecific food competition through active disruption of a competitor's sensing during food acquisition.",
+      "journal": "Science (New York, N.Y.)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s00359-013-0793-y",
@@ -346,11 +774,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Physiology A",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2011_0213",
@@ -360,11 +784,7 @@
       "abstract": "The 'social complexity hypothesis' for communication posits that groups with complex social systems require more complex communicative systems to regulate interactions and relations among group members. Complex social systems, compared with simple social systems, are those in which individuals frequently interact in many different contexts with many different individuals, and often repeatedly interact with many of the same individuals in networks over time. Complex communicative systems, compared with simple communicative systems, are those that contain a large number of structurally and functionally distinct elements or possess a high amount of bits of information. Here, we describe some of the historical arguments that led to the social complexity hypothesis, and review evidence in support of the hypothesis. We discuss social complexity as a driver of communication and possible causal factor in human language origins. Finally, we discuss some of the key current limitations to the soc",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s00359-009-0468-x",
@@ -374,11 +794,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Physiology A",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s00359-007-0237-7",
@@ -388,11 +804,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Physiology A",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "lit_gbif_2432831_13",
@@ -402,11 +814,7 @@
       "abstract": "Preface Part I. Behavioral and Anatomical/Physiological Adaptations: 1. Vocal mechanisms for avian communication Roderick A. Suthers, Gabriel J. L. Beckers and Brian S. Nelson 2. The blind mole rat: an example of seismic communication via acoustic channels Zvi Wollberg, Rony Rado and Ronen S. Sadka 3. Audiovocal communication and social behavior in mustached bats Matthew J. Clement, Punita Gupta, Nicole Dietz and Jagmeet S. Kanwal 4. Common rules of communication sound perception Gunter Ehret Behavioral and physiological adaptations: summary and discussion Gunter Ehret and Jagmeet S. Kanwal Part II. Neural Adaptations and Plasticity: 5. Neural mechanisms of vocal communication: interfacing with neuroendocrine mechanisms Andrew Bass 6. Processing of species specific vocalizations in the auditory brainstem and midbrain of Mexican free tailed bats (Tadarida brasiliensis) Achim Klug, Eric E. Bauer, Joshua T. Hanson and George D. Pollak 7. A distributed cortical representation of social com",
       "journal": "",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_1383203",
@@ -416,11 +824,7 @@
       "abstract": "A variety of ultrasonic (bat) detectors have been used over the past 3 decades to identify free-flying bats. Analyses of recorded echolocation calls were slow and typically restricted to few calls and at a resolution obscuring details of call structure. The Anabat II detector and associated zero-crossings analysis system allows an immediate examination, via a laptop computer, of the time-frequency structure of calls as they are detected. These calls can be stored on the hard drive for later examination, editing, and measurement. Many North American bats can be identified to species by qualitatively using certain structural characteristics of calls, primarily approximate maximum and minimum frequencies and morphological aspects of calls (e.g., linearity and changes in slope). To identify calls precisely, it is important to use a continuous sequence of calls from an individual in normal flight rather than from single isolated calls. All calls are not equally useful, and many fragmentary ",
       "journal": "Journal of Mammalogy",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_s0003-3472(05)80961-3",
@@ -430,11 +834,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_title_142871",
@@ -444,11 +844,7 @@
       "abstract": "",
       "journal": "Occasional papers",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_3504148",
@@ -458,11 +854,7 @@
       "abstract": "",
       "journal": "Mammalian Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_47749_t_unicamp_2015_961646",
@@ -472,14 +864,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

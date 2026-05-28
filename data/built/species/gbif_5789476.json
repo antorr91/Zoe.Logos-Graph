@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 20,
+    "claim_count": 18,
+    "doi_count": 19,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -46,14 +46,14 @@
     "song"
   ],
   "contexts": [
-    "flock contact",
+    "territorial defence",
     "mate attraction",
-    "territorial defence"
+    "flock contact"
   ],
   "functions": [
-    "flock cohesion",
+    "territory signalling",
     "mate attraction",
-    "territory signalling"
+    "flock cohesion"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -61,59 +61,295 @@
         "value": "contact call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "flock contact",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "flock contact",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "flock cohesion",
+        "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territory signalling",
+        "value": "flock cohesion",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1954,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1953,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1952,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1951,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1950,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1949,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1948,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1947,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1946,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1945,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1944,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1943,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1942,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1941,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1940,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1939,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1938,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1937,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Regulus regulus",
     "recordings": [],
     "external_links": []
@@ -190,6 +426,20 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1093/auk/102.4.854",
+      "url": "https://doi.org/10.1093/auk/102.4.854",
+      "title": "Social Modeling Theory: A Possible Framework for Understanding Avian Vocal Learning",
+      "year": 1985,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1515/9783112380703-002",
+      "url": "https://doi.org/10.1515/9783112380703-002",
+      "title": "Regulus",
+      "year": 1922,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1515/9783112684948-002",
       "url": "https://doi.org/10.1515/9783112684948-002",
       "title": "Regulus",
@@ -248,11 +498,17 @@
       "abstract": "<jats:p>Since about 2000, we observed the decline in the numbers of Goldcrests and increase in the numbers of Firecrests caught during autumn migration at two bird ringing stations, Bukowo-Kopań and Mierzeja Wiślana, on the Polish coast of the Baltic Sea over 1976–2023 . These two closely related forest bird species share similar biotopes but differ in foraging behavior and migration strategy. The changes in migrating bird abundance in autumn we observed at both ringing stations were correlated with the Pan-European breeding population trends over 1982–2022 from PECBMS project. This suggested that some Europe-wide factors are responsible for these changes. The snow cover in October decreased abundance and delayed autumn migration of Goldcrests on the Baltic coast, probably by exposing them to cold and impeding their feeding and fueling for migration. In Firecrests, the response to October snow was similar but much weaker. Firecrests, in turn, have shifted their migration earlier since ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_30771037",
+      "title": "Ticks (Acari: Ixodida) on birds (Aves) migrating through the Polish Baltic coast",
+      "year": 2019,
+      "doi": "10.1007/s10493-019-00341-z",
+      "abstract": "Seasonal bird (Aves) migration between breeding and wintering areas, often located on different continents, can facilitate the spreading of tick species (Acari: Ixodida) and of tick-borne pathogens. The aim of the study was to analyse the occurrence of ticks dispersed by birds migrating along the Polish Baltic coast during spring and autumn migration. Field research was conducted at the bird ringing station in Wicie, located on the middle of the Polish Baltic coast, in 2011 and 2012 during spring and autumn migration. A total of 2657 birds from 45 species was examined. The most common species inspected were European robin (Erithacus rubecula) (63.3%), song thrush (Turdus philomelos) (5.13%), and goldcrest (Regulus regulus) (4.5%). Overall, 3129 ticks belonging to six species were collected: Ixodes ricinus (1650 larvae, 1390 nymphs and 1 male), Ixodes frontalis (20 larvae, 20 nymphs), Ixodes arboricola (35 larvae), Dermacentor reticulatus (1 larva), and Haemaphysalis punctata (1 nymph). Ten larvae and one nymph could only be identified to the genus level Ixodes. Ticks were located on various parts of the head: on the corner of the beak (75.0%), near the eyes (14.6%), on the chin (4.4%), near the ears (4.4%), on the neck (1.1%), and in the beak (0.5%). The overall tick prevalence was 40.5%. The highest prevalence was for bird species feeding on the ground, covering a medium distance to wintering grounds and migrating at night. Statistically significant differences between the number of ticks and the sex of the host species were detected in blackbirds: males carried more parasites than females, both, during spring and autumn migration. The fact that I. ricinus and other ticks parasitize birds migrating through Poland extends the possibility of the spread of tick-borne diseases.",
+      "journal": "Experimental & applied acarology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1002_ece3_2242",
@@ -262,11 +518,7 @@
       "abstract": "Monitoring patterns in biodiversity and phenology have become increasingly important given accelerating levels of anthropogenic change. Long-term monitoring programs have reported earlier occurrence of spring activity, reflecting species response to climate change. Although tracking shifts in spring migration represents a valuable approach to monitoring community-level consequences of climate change, robust long-term observations are challenging and costly. Audio recordings and metrics of bioacoustic activity could provide an effective method for monitoring changes in songbird activity and broader biotic interactions. We used 3 years of spring and fall recordings at six sites in Glacier Bay National Park, Alaska, an area experiencing rapid warming and glacial retreat, to examine the utility of bioacoustics to detect changes in songbird phenology. We calculated the Acoustic Complexity Index (ACI), an algorithm representing an index of bird community complexity. Abrupt changes in ACI val",
       "journal": "Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1741-7007-11-1",
@@ -276,11 +528,7 @@
       "abstract": "Our results show that the syringeal skeleton is optimized for low weight driven by physiological constraints on song production. The present refinement of muscle organization and identity elucidates how apposed muscles actuate different syringeal elements. Our dataset allows for more precise predictions about muscle co-activation and synergies and has important implications for muscle activity and stimulation experiments. We also demonstrate how the syrinx can be stabilized during song to reduce mechanical noise and, as such, enhance repetitive execution of stereotypic motor patterns. In addition, we identify a cartilaginous structure suited to play a crucial role in the uncoupling of sound frequency and amplitude control, which permits a novel explanation of the evolutionary success of songbirds.",
       "journal": "BMC Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2011_0213",
@@ -290,11 +538,17 @@
       "abstract": "The 'social complexity hypothesis' for communication posits that groups with complex social systems require more complex communicative systems to regulate interactions and relations among group members. Complex social systems, compared with simple social systems, are those in which individuals frequently interact in many different contexts with many different individuals, and often repeatedly interact with many of the same individuals in networks over time. Complex communicative systems, compared with simple communicative systems, are those that contain a large number of structurally and functionally distinct elements or possess a high amount of bits of information. Here, we describe some of the historical arguments that led to the social complexity hypothesis, and review evidence in support of the hypothesis. We discuss social complexity as a driver of communication and possible causal factor in human language origins. Finally, we discuss some of the key current limitations to the soc",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_17125543",
+      "title": "Where in Europe should we look for sources of the cutaneous trematode Collyriclum faba infections in migrating birds?",
+      "year": 2006,
+      "doi": "10.1017/joh2006362",
+      "abstract": "Cutaneous cysts with trematodes of Collyriclum faba have been found in birds during their spring and post-breeding migrations in the Czech Republic. During spring migrations, C. faba was found in one dunnock Prunella modularis, two European robins Erithacus rubecula, three common nightingales Luscinia megarhynchos, one song thrush Turdus philomelos and one great reed warbler Acrocephalus arundinaceus. During post-breeding migration, the same parasite was found in one garden warbler Sylvia borin, one whitehroat S. communis, three goldcrests Regulus regulus and one Eurasian treecreeper Certhia familiaris. The newly identified hosts of C. faba are dunnock, common nightingale, song thrush, great reed warbler and Eurasian treecreeper. Geographical areas of the birds' infection were identified from an analysis of reports on ringed birds of the same species, the time necessary for the development of cutaneous cysts with C. faba and the time of their survival, and hitherto known geographical areas of endemic occurrence of C. faba. It is presumed that birds trapped during spring migrations were infected in some montane and submontane regions in south-western Europe (the Alps, the Apennines). Birds infected during autumn migration or post-breeding vagrancy could have been infected in the Central European Carpathians, the region of C. faba endemic occurrence. For migrating birds, the impact of C. faba infections has not been hitherto assessed.",
+      "journal": "Journal of helminthology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1642_0004-8038(2005)122[0733:fcatvf]2_0_co;2",
@@ -304,11 +558,7 @@
       "abstract": "M and their relatives u er fl ight calls, species-specifi c vocalizations given primarily during sustained fl ight, especially during migration.References to fl ight calls appeared in the ornithological literature as early as the 1890s, but some of the most basic features of these calls remain poorly known, including their functions, origins, ontogeny, distances over which they are used, and how much individual variation exists in the characters of the calls and their rates.With improved knowledge of these vocalizations, fl ight calls possibly will have a variety of applications.Identifying their function could illuminate how birds refi ne migration strategies during crucial decision-making periods.Because fl ight calls are relatively simple vocalizations, compared with many others that birds use, they provide useful characters for future evolutionary and comparative analyses.Monitoring fl ight calls can be a powerful method for studying nocturnal migration.However, such applications r",
       "journal": "The Auk",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_auk_122_3_733",
@@ -318,11 +568,7 @@
       "abstract": "MюћѦ ѝюѠѠђџіћђ яіџёѠ and their relatives uĴ er fl ight calls, species-specifi c vocalizations given primarily during sustained fl ight, especially during migration.References to fl ight calls appeared in the ornithological literature as early as the 1890s, but some of the most basic features of these calls remain poorly known, including their functions, origins, ontogeny, distances over which they are used, and how much individual variation exists in the characters of the calls and their rates.With improved knowledge of these vocalizations, fl ight calls possibly will have a variety of applications.Identifying their function could illuminate how birds refi ne migration strategies during crucial decision-making periods.Because fl ight calls are relatively simple vocalizations, compared with many others that birds use, they provide useful characters for future evolutionary and comparative analyses.Monitoring fl ight calls can be a powerful method for studying nocturnal migration.However,",
       "journal": "The Auk",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1097_00000542-200111000-00022",
@@ -332,11 +578,7 @@
       "abstract": "The LMA-Fastrach was used successfully in a high percentage of patients who presented with a variety of DA. The clinical experience presented herein indicates that this device may be particularly useful in the emergency and elective treatment of patients in whom intubation with a rigid laryngoscope has failed and in the treatment of patients with immobilized cervical spines.",
       "journal": "Anesthesiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_11_1_110",
@@ -346,11 +588,7 @@
       "abstract": "Mixed-species flocks of birds form during winter in the eastern deciduous forests of North America. These flocks consist of two flock-leading nuclear species, tufted titmouse (Baeolophus bicolor) and Carolina chickadee (Poecile carolinensis), and several follower, or satellite, species, including downy woodpecker (Picoides pubescens) and white-breasted nuthatch (Sitta carolinensis). Hypotheses explaining the adaptiveness of participation in such mixed-species foraging groups have focused on increased foraging success and/or decreased predation risk. We tested the prediction that if nuthatches join nuclear species to reduce predation risk, they should be more reluctant to visit an exposed feeder in the absence of titmice than in their presence. When the feeder was positioned 16 m from forest cover, latency to visit the feeder was greater for both male and female nuthatches when titmice were absent. Removal of titmice had no effect on latency at 8 m. In the absence of titmice, nuthatches",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2737_psw-gtr-149",
@@ -360,11 +598,7 @@
       "abstract": "This volume contains in part papers presented at the Symposium on Monitoring Bird Population Trends by Point Counts, which was held November 6-7, 1991, in Beltsville, Md., in response to the need for standardization of methods to monitor bird populations by point counts. Data from various investigators working under a wide variety of conditions are presented, and various aspects of point count methodology are examined. Point counts of birds are the most widely used quantitative method and involve an observer recording birds from a single point for a standardized time period. Statistical aspects of sampling and analysis were discussed and applied to the objectives of point counts. Symposium participants agreed upon standards of point counts that should have wide applicability to a variety of habitats and terrain.",
       "journal": "",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf01649857",
@@ -374,11 +608,27 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1093_auk_102_4_854",
+      "title": "Social Modeling Theory: A Possible Framework for Understanding Avian Vocal Learning",
+      "year": 1985,
+      "doi": "10.1093/auk/102.4.854",
+      "abstract": "",
+      "journal": "Digital Commons - University of South Florida (University of South Florida)",
+      "open_access": 0,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1515_9783112380703-002",
+      "title": "Regulus",
+      "year": 1922,
+      "doi": "10.1515/9783112380703-002",
+      "abstract": "",
+      "journal": "Der Freiherr. Regulus. Der Heiland der Tiere",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1515_9783112684948-002",
@@ -388,11 +638,7 @@
       "abstract": "",
       "journal": "Der Freiherr. Regulus. Der Heiland der Tiere",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1515_9783111481081-002",
@@ -402,11 +648,7 @@
       "abstract": "",
       "journal": "Der Freiherr. Regulus. Der Heiland der Tiere",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1515_9783111700724-002",
@@ -416,11 +658,7 @@
       "abstract": "",
       "journal": "Der Freiherr. Regulus. Der Heiland der Tiere",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1515_9783111481722-002",
@@ -430,11 +668,7 @@
       "abstract": "",
       "journal": "Der Freiherr. Regulus. Der Heiland der Tiere",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_p_317326",
@@ -444,11 +678,7 @@
       "abstract": "",
       "journal": "The Birds of Europe",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927026_0209",
@@ -458,14 +688,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 20,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

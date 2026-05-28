@@ -24,10 +24,10 @@
     "color": "amber"
   },
   "stats": {
-    "paper_count": 19,
-    "claim_count": 8,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 35,
+    "claim_count": 4,
+    "doi_count": 32,
+    "recording_count": 1
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Big_brown_bat_crawl.png/330px-Big_brown_bat_crawl.png",
@@ -49,74 +49,208 @@
     "navigation"
   ],
   "functions": [
-    "prey detection",
-    "spatial orientation"
+    "spatial orientation",
+    "prey detection"
   ],
   "communication_profile": {
     "vocalisations": [
       {
         "value": "echolocation call",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "contexts": [
       {
         "value": "foraging",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "navigation",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "functions": [
       {
-        "value": "prey detection",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "value": "spatial orientation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
-        "value": "spatial orientation",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "value": "prey detection",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
-    "methods": [
-      {
-        "value": "acoustic recording",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "call parameter analysis",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "high-speed videography",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      }
-    ]
+    "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 377,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 376,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 375,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 374,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "external_links",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "macaulay_ml-bat-01",
+        "provider": "macaulay",
+        "provider_id": "ml-bat-01",
+        "type": "Big brown bat echolocation",
+        "rec": "various",
+        "loc": "",
+        "date": "",
+        "url": "https://www.macaulaylibrary.org/",
+        "audio": "",
+        "sono": "",
+        "license": "Macaulay Library",
+        "attribution": "Cornell Lab"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1016/j.cub.2025.07.044",
+      "url": "https://doi.org/10.1016/j.cub.2025.07.044",
+      "title": "Auditory object representation in the bat hippocampus",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.ecoinf.2025.103195",
+      "url": "https://doi.org/10.1016/j.ecoinf.2025.103195",
+      "title": "BattyCoda: A novel open-source software for bat call annotation and classification",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41593-025-01932-3",
+      "url": "https://doi.org/10.1038/s41593-025-01932-3",
+      "title": "Spatially clustered neurons in the bat midbrain encode vocalization categories",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-96255-5",
+      "url": "https://doi.org/10.1038/s41598-025-96255-5",
+      "title": "Acoustic monitoring with miniature drones shows reduced Myotis bat occurrence with altitude and drone movement",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/icb/icaf121",
+      "url": "https://doi.org/10.1093/icb/icaf121",
+      "title": "Systemic Effects of Pesticides on Insectivorous Bats: A Proteomics Approach",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani15243643",
+      "url": "https://doi.org/10.3390/ani15243643",
+      "title": "A Simple Yet Reliable 12S rRNA-Based Molecular Approach for Identifying Bat Species",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.isci.2024.109872",
+      "url": "https://doi.org/10.1016/j.isci.2024.109872",
+      "title": "Auditory processing of communication calls in interacting bats",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2023.0610",
+      "url": "https://doi.org/10.1098/rsbl.2023.0610",
+      "title": "Tiger beetles produce anti-bat ultrasound and are probable Batesian moth mimics",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2024.1560",
+      "url": "https://doi.org/10.1098/rspb.2024.1560",
+      "title": "Resistance to age-related hearing loss in the echolocating big brown bat (",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1101/2024.07.15.603592",
+      "url": "https://doi.org/10.1101/2024.07.15.603592",
+      "title": "Resistance to age-related hearing loss in the echolocating big brown bat (",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1121/10.0026624",
+      "url": "https://doi.org/10.1121/10.0026624",
+      "title": "Echolocating bats show species-specific variation in susceptibility to acoustic forward masking",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.10267",
+      "url": "https://doi.org/10.1002/ece3.10267",
+      "title": "Species-specific responses to white-nose syndrome in the Great Lakes region",
+      "year": 2023,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1079/cabicompendium.83990",
       "url": "https://doi.org/10.1079/cabicompendium.83990",
@@ -209,11 +343,25 @@
       "source": "crossref"
     },
     {
+      "doi": "10.2307/2422322",
+      "url": "https://doi.org/10.2307/2422322",
+      "title": "The Natural History of a Summer Aggregation of the Big Brown Bat, Eptesicus fuscus fuscus",
+      "year": 1956,
+      "source": "crossref"
+    },
+    {
       "doi": "10.2307/3273222",
       "url": "https://doi.org/10.2307/3273222",
       "title": "Trypanosoma vespertilionis and Litomosoides sp. in Eptesicus fuscus fuscus",
       "year": 1951,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1242/jeb.189381",
+      "url": "https://doi.org/10.1242/jeb.189381",
+      "title": "",
+      "year": null,
+      "source": "seed"
     },
     {
       "doi": "10.22215/etd/1983-12815",
@@ -246,6 +394,156 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41759178",
+      "title": "In-flight brainstem responses highlight the encoding of self-emitted echolocation calls in bats",
+      "year": 2026,
+      "doi": "10.1098/rspb.2025.2988",
+      "abstract": "Echolocating bats rely on precise auditory processing to navigate and forage in complete darkness. A critical aspect of this behaviour is the neural encoding of self-generated vocalizations, which allows for accurate comparison with returning echoes. In this study, we introduce a non-invasive method for recording auditory brainstem responses (ABRs) in awake, flying big brown bats (Eptesicus fuscus). Using a custom 3D-printed harness that enables sustained in-place flight, we simultaneously recorded electroencephalographic and acoustic signals from freely vocalizing animals. Self-emitted echolocation calls reliably evoked ABRs, including a distinct pre-auditory wave that occurred before call onset and is probably associated with motor command generation. We were able to extract single-trial individual ABR patterns, which revealed significant correlations between specific acoustic properties of the calls and both ABR amplitude and latency. These findings demonstrate that, despite the suggested peripheral attenuation of self-emitted echolocation calls, the bat auditory system dynamically encodes the characteristics of outgoing vocalizations, with information extraction occurring as early as the brainstem. Our approach offers an effective framework for investigating sensory-motor integration in actively behaving animals.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41463928",
+      "title": "A Simple Yet Reliable 12S rRNA-Based Molecular Approach for Identifying Bat Species",
+      "year": 2025,
+      "doi": "10.3390/ani15243643",
+      "abstract": "Bats (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40989895",
+      "title": "BattyCoda: A novel open-source software for bat call annotation and classification",
+      "year": 2025,
+      "doi": "10.1016/j.ecoinf.2025.103195",
+      "abstract": "The field of acoustic communication needs tools that facilitate the annotation and labeling of animal calls. Bat acoustic libraries gathered over the past few decades have primarily focused on compiling echolocation calls, which have been leveraged to develop machine learning algorithms capable of classifying bat species. However, because these classification methods require large training datasets, they have not yet been generalized to classify types of bat communication calls. Communication call repertoires in bats are wide, and distinct syllables occur with varying frequency, with some call types being recorded only rarely. Furthermore, collecting Classification communication calls poses greater technical challenges, making these calls more difficult to capture reliably. Here, we present BattyCoda, an open-access, customizable tool to categorize and label bat communication call types within the repertoire of a species using small training datasets (tens to hundreds of labeled calls). In this work, we compiled an initial training dataset of 11 types of big brown bat (",
+      "journal": "Ecological informatics",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40812304",
+      "title": "Auditory object representation in the bat hippocampus",
+      "year": 2025,
+      "doi": "10.1016/j.cub.2025.07.044",
+      "abstract": "Cognitive maps enable the flexible selection of navigation paths. Acoustic cognitive maps, constructed from the spatial layout of sonar auditory objects, support bat navigation in natural settings; however, the neural building blocks of acoustic maps remain unknown. Here, we demonstrate auditory object representation in the hippocampus of echolocating bats and test the hypothesis that active tracking drives hippocampal auditory object representation. We discovered two distinct populations of hippocampal CA1 neurons, one encoding allocentric object location and another, egocentric object distance. During trials when the bat ceased object tracking, the spatial code degraded. These findings reveal that auditory information alone can drive the construction of cognitive maps of space, with hippocampal auditory object representations activated by the animal's sonar tracking.",
+      "journal": "Current biology : CB",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40590902",
+      "title": "Systemic Effects of Pesticides on Insectivorous Bats: A Proteomics Approach",
+      "year": 2025,
+      "doi": "10.1093/icb/icaf121",
+      "abstract": "Bats play a critical role controlling agricultural pests, yet foraging in croplands exposes them to hazardous pesticides. These chemicals pose significant risks for bats by impairing immune function, locomotion, and cognition even at low doses, jeopardizing their survival and ecological role. Here, we employed proteomics-a powerful, yet underused, tool in ecotoxicology-to examine the systemic effects of chlorpyrifos (CPF), a commonly used insecticide, on big brown bats (Eptesicus fuscus). We exposed bats through their diet to an environmentally relevant concentration of CPF for three or seven consecutive days and took plasma samples before and after exposure for non-targeted proteomics. We identified over 100 proteins with significant abundance changes before and after exposure to the pesticide. Exposure to CPF altered a wide range of molecular processes, including cell communication, cell metabolism, and DNA maintenance. Remarkably, we found changes in key proteins involved in immune response, T cell activation, and inflammation. These effects could reduce a bat's immune response, increasing their susceptibility to viral infections, and intensifying the risk of shedding and transmitting pathogens to other species. Our results provide new insights into the toxicity of pesticides and highlight the utility of proteomics for assessing toxicant effects in understudied and vulnerable species such as bats. Considering a One Health approach and the role of bats as reservoirs for numerous zoonotic pathogens, our work has broad implications for bat and human health.",
+      "journal": "Integrative and comparative biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40229505",
+      "title": "Spatially clustered neurons in the bat midbrain encode vocalization categories",
+      "year": 2025,
+      "doi": "10.1038/s41593-025-01932-3",
+      "abstract": "Rapid categorization of vocalizations enables adaptive behavior across species. While categorical perception is thought to arise in the neocortex, humans and animals could benefit from a functional organization tailored to ethologically relevant sound processing earlier in the auditory pathway. Here we developed two-photon calcium imaging in the awake echolocating bat (Eptesicus fuscus) to study the representation of vocalizations in the inferior colliculus, which is as few as two synapses from the inner ear. Echolocating bats rely on frequency-sweep-based vocalizations for social communication and navigation. Auditory playback experiments demonstrated that individual neurons responded selectively to social or navigation calls, enabling robust population-level decoding across categories. When social calls were morphed into navigation calls in equidistant step-wise increments, individual neurons showed switch-like properties and population-level response patterns sharply transitioned at the category boundary. Strikingly, category-selective neurons formed spatial clusters, independent of tonotopy within the dorsal cortex of the inferior colliculus. These findings support a revised view of categorical processing in which specified channels for ethologically relevant sounds are spatially segregated early in the auditory hierarchy, enabling rapid subcortical organization into categorical primitives.",
+      "journal": "Nature neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40210718",
+      "title": "Acoustic monitoring with miniature drones shows reduced Myotis bat occurrence with altitude and drone movement",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-96255-5",
+      "abstract": "Our understanding of aeroecology is hampered by the challenge of sampling the air column, especially for nocturnal species like bats that forage high in the airspace. Nonetheless, monitoring endangered bat populations is vital for conservation efforts. Drones (unoccupied aerial vehicles) offer a relatively safe, cost-effective, and non-intrusive option for studying aerial wildlife. Here, we present a method for measuring bat distribution in the airspace using miniature drones (Mavic Mini 3 Pro) that are small enough to have negligible impacts on the bats themselves. We investigate how habitat, drone altitude, and drone movement influence bat sampling efficiency. A hovering drone detected more bats per minute than a moving drone for the EPNO complex (Eptesicus fuscus and Lasionycteris noctivagans) and all bats. Thus, we recommend the use of hovering point counts for surveying bats via drone. The Myotis complex (M. septentrionalis, M. lucifugus, and M. leibii) was more frequently present at lower altitudes over the sampled range (0-60 m). We conclude that bat taxa differentially occupy sectors of the air column, and that bat density in the airspace can be efficiently monitored by miniature drones.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40145789",
+      "title": "Echolocating bats adjust sonar call features and head/ear position as they track moving targets in the presence of clutter",
+      "year": 2025,
+      "doi": "10.1121/10.0036252",
+      "abstract": "Echolocating bats often encounter clutter as they pursue insect prey. To probe the adaptive behaviors bats employ to mitigate the effects of clutter, this study quantified echolocation call features and head movements of big brown bats (Eptesicus fuscus) as they tracked a moving prey target in the dark. Bats were trained to rest on a perch and track an approaching target for a food reward. Clutter was positioned at different distances and angular offsets from the bat and the path of a moving target. This study hypothesized that bats dynamically adjust call features and head direction to facilitate target localization in the presence of clutter. The results show that bats shortened call duration and interval and increased head movements when the target was close to clutter. The study also revealed that bats increase the production of sonar strobe groups in cluttered environments, which may sharpen sonar spatial resolution. Spectral analysis showed that maximum call power shifted to lower frequencies when clutter was close to the target. These data demonstrate the big brown bat's range of adaptive behaviors that support target tracking in cluttered environments.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39500378",
+      "title": "Resistance to age-related hearing loss in the echolocating big brown bat (",
+      "year": 2024,
+      "doi": "10.1098/rspb.2024.1560",
+      "abstract": "Hearing mediates many behaviours critical for survival in echolocating bats, including foraging and navigation. Although most mammals are susceptible to progressive age-related hearing loss, the evolution of biosonar, which requires the ability to hear low-intensity echoes from outgoing sonar signals, may have selected against the development of hearing deficits in bats. Many echolocating bats exhibit exceptional longevity and rely on acoustic behaviours for survival to old age; however, relatively little is known about the ageing bat auditory system. In this study, we used DNA methylation to estimate the ages of wild-caught big brown bats (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39071368",
+      "title": "Resistance to age-related hearing loss in the echolocating big brown bat (",
+      "year": 2024,
+      "doi": "10.1101/2024.07.15.603592",
+      "abstract": "Hearing mediates many behaviors critical for survival in echolocating bats, including foraging and navigation. Most mammals are susceptible to progressive age-related hearing loss; however, the evolution of biosonar, which requires the ability to hear low-intensity echoes from outgoing sonar signals, may have selected against the development of hearing deficits in echolocating bats. Although many echolocating bats exhibit exceptional longevity and rely on acoustic behaviors for survival to old age, relatively little is known about the aging bat auditory system. In this study, we used DNA methylation to estimate the ages of wild-caught big brown bats (",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39013168",
+      "title": "Echolocating bats show species-specific variation in susceptibility to acoustic forward masking",
+      "year": 2024,
+      "doi": "10.1121/10.0026624",
+      "abstract": "Echolocating bats rely on precise auditory temporal processing to detect echoes generated by calls that may be emitted at rates reaching 150-200 Hz. High call rates can introduce forward masking perceptual effects that interfere with echo detection; however, bats may have evolved specializations to prevent repetition suppression of auditory responses and facilitate detection of sounds separated by brief intervals. Recovery of the auditory brainstem response (ABR) was assessed in two species that differ in the temporal characteristics of their echolocation behaviors: Eptesicus fuscus, which uses high call rates to capture prey, and Carollia perspicillata, which uses lower call rates to avoid obstacles and forage for fruit. We observed significant species differences in the effects of forward masking on ABR wave 1, in which E. fuscus maintained comparable ABR wave 1 amplitudes when stimulated at intervals of <3 ms, whereas post-stimulus recovery in C. perspicillata required 12 ms. When the intensity of the second stimulus was reduced by 20-30 dB relative to the first, however, C. perspicillata showed greater recovery of wave 1 amplitudes. The results demonstrate that species differences in temporal resolution are established at early levels of the auditory pathway and that these differences reflect auditory processing requirements of species-specific echolocation behaviors.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38827399",
+      "title": "Auditory processing of communication calls in interacting bats",
+      "year": 2024,
+      "doi": "10.1016/j.isci.2024.109872",
+      "abstract": "There is strong evidence that social context plays a role in the processing of acoustic signals. Yet, the circuits and mechanisms that govern this process are still not fully understood. The insectivorous big brown bat,",
+      "journal": "iScience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38747686",
+      "title": "Tiger beetles produce anti-bat ultrasound and are probable Batesian moth mimics",
+      "year": 2024,
+      "doi": "10.1098/rsbl.2023.0610",
+      "abstract": "Echolocating bats and their eared insect prey are in an acoustic evolutionary war. Moths produce anti-bat sounds that startle bat predators, signal noxiousness, mimic unpalatable models and jam bat sonar. Tiger beetles (Cicindelidae) also purportedly produce ultrasound in response to bat attacks. Here we tested 19 tiger beetle species from seven genera and showed that they produce anti-bat signals to playback of authentic bat echolocation. The dominant frequency of beetle sounds substantially overlaps the sonar calls of sympatric bats. As tiger beetles are known to produce defensive chemicals such as benzaldehyde and hydrogen cyanide, we hypothesized that tiger beetle sounds are acoustically advertising their unpalatability. We presented captive big brown bats (",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37983295",
+      "title": "Temporal coherence of harmonic frequencies affects echo detection in the big brown bat, Eptesicus fuscus",
+      "year": 2023,
+      "doi": "10.1121/10.0022444",
+      "abstract": "Echolocating big brown bats (Eptesicus fuscus) broadcast frequency modulated (FM) ultrasonic pulses containing two prominent harmonic sweeps (FM1, FM2). Both harmonics typically return as echoes at the same absolute time delay following the broadcast, making them coherent. Electronically splitting FM1 and FM2 allows their time delays to be controlled separately, making them non-coherent. Earlier work shows that big brown bats discriminate coherent from split harmonic, non-coherent echoes and that disruptions of harmonic coherence produce blurry acoustic images. A psychophysical experiment on two trained big brown bats tested the hypothesis that detection thresholds for split harmonic, non-coherent echoes are higher than those for coherent echoes. Thresholds of the two bats for detecting 1-glint echoes with coherent harmonics were around 35 and 36 dB sound pressure level, respectively, while thresholds for split harmonic echoes were about 10 dB higher. When the delay of FM2 in split harmonic echoes is shortened by 75 μs to offset neural amplitude-latency trading and restore coherence in the auditory representation, thresholds decreased back down to those estimated for coherent echoes. These results show that echo detection is affected by loss of harmonic coherence, consistent with the proposed broader role of coherence across frequencies for auditory perception.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37435023",
+      "title": "Species-specific responses to white-nose syndrome in the Great Lakes region",
+      "year": 2023,
+      "doi": "10.1002/ece3.10267",
+      "abstract": "White-nose syndrome is a fungal disease that is threatening bat populations across North America. The disease primarily affects cave-hibernating bats by depleting fat reserves during hibernation and causing a range of other physiological consequences when immune responses are suppressed. Since it was first detected in 2006, the disease has killed millions of bats and is responsible for extensive local extinctions. To better understand the effects of white-nose syndrome on various bat species, we analyzed summer acoustic survey data collected from 2016 to 2020 at nine US National Parks within the Great Lakes region. We examined the effect that white-nose syndrome, time of the year relative to pup volancy, habitat type, and regional variation (i.e., park) have on the acoustic abundance (i.e., mean call abundance) of six bat species. As expected, little brown bat (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "paper_010",
       "title": "Echolocation call plasticity in big brown bats during obstacle avoidance",
       "year": 2020,
@@ -253,11 +551,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "pilot",
-      "developmental_stage": "adult",
-      "main_outcome": "Big brown bats dynamically adjust call duration, interpulse interval, and frequency sweep in response to obstacle density, demonstrating context-dependent echolocation plasticity.",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "pilot"
     },
     {
       "paper_id": "10_1079_cabicompendium_83990",
@@ -267,11 +561,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1152_jn_00953_2015",
@@ -281,11 +571,7 @@
       "abstract": "Acoustic communication signals carry information related to the types of social interactions by means of their \"acoustic context,\" the sequencing and temporal emission pattern of vocalizations. Here we describe responses to natural vocal sequences in adult big brown bats (Eptesicus fuscus). We first assessed how vocal sequences modify the internal affective state of a listener (via heart rate). The heart rate of listening bats was differentially modulated by vocal sequences, showing significantly greater elevation in response to moderately aggressive sequences than appeasement or neutral sequences. Next, we characterized single-neuron responses in the basolateral amygdala (BLA) of awake, restrained bats to isolated syllables and vocal sequences. Two populations of neurons distinguished by background firing rates also differed in acoustic stimulus selectivity. Low-background neurons (<1 spike/s) were highly selective, responding on average to one tested stimulus. These may participate i",
       "journal": "Journal of Neurophysiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_jj_30297277_49",
@@ -295,11 +581,7 @@
       "abstract": "",
       "journal": "Mammals of Alabama",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_cub_2014_02_058",
@@ -309,11 +591,7 @@
       "abstract": "",
       "journal": "Current Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0044550",
@@ -323,11 +601,7 @@
       "abstract": "Bats are among the most gregarious and vocal mammals, with some species demonstrating a diverse repertoire of syllables under a variety of behavioral contexts. Despite extensive characterization of big brown bat (Eptesicus fuscus) biosonar signals, there have been no detailed studies of adult social vocalizations. We recorded and analyzed social vocalizations and associated behaviors of captive big brown bats under four behavioral contexts: low aggression, medium aggression, high aggression, and appeasement. Even limited to these contexts, big brown bats possess a rich repertoire of social vocalizations, with 18 distinct syllable types automatically classified using a spectrogram cross-correlation procedure. For each behavioral context, we describe vocalizations in terms of syllable acoustics, temporal emission patterns, and typical syllable sequences. Emotion-related acoustic cues are evident within the call structure by context-specific syllable types or variations in the temporal em",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_b978-0-12-374236-0_10036-7",
@@ -337,11 +611,7 @@
       "abstract": "",
       "journal": "Elsevier eBooks",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fnbeh_2010_00033",
@@ -351,11 +621,7 @@
       "abstract": "Bats echolocating in the natural environment face the formidable task of sorting signals from multiple auditory objects, echoes from obstacles, prey, and the calls of conspecifics. Successful orientation in a complex environment depends on auditory information processing, along with adaptive vocal-motor behaviors and flight path control, which draw upon 3-D spatial perception, attention, and memory. This article reviews field and laboratory studies that document adaptive sonar behaviors of echolocating bats, and point to the fundamental signal parameters they use to track and sort auditory objects in a dynamic environment. We suggest that adaptive sonar behavior provides a window to bats' perception of complex auditory scenes.",
       "journal": "Frontiers in Behavioral Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1073_pnas_0804408105",
@@ -365,11 +631,7 @@
       "abstract": "Although it has been recognized that echolocating bats may experience jamming from the signals of conspecifics, research on this problem has focused exclusively on time-frequency adjustments in the emitted signals to minimize interference. Here, we report a surprising new strategy used by bats to avoid interference, namely silence. In a quantitative study of flight and vocal behavior of the big brown bat (Eptesicus fuscus), we discovered that the bat spends considerable time in silence when flying with conspecifics. Silent behavior, defined here as at least one bat in a pair ceasing vocalization for more than 0.2 s (200 ms), occurred as much as 76% of the time (mean of 40% across 7 pairs) when their separation was shorter than 1 m, but only 0.08% when a single bat flew alone. Spatial separation, heading direction, and similarity in call design of paired bats were related to the prevalence of this silent behavior. Our data suggest that the bat uses silence as a strategy to avoid interfe",
       "journal": "Proceedings of the National Academy of Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_01327",
@@ -379,11 +641,7 @@
       "abstract": "Toothed whales (Cetacea, odontoceti) emit sound pulses to probe their surroundings by active echolocation. Non-invasive, acoustic Dtags were placed on deep-diving Blainville's beaked whales (Mesoplodon densirostris) to record their ultrasonic clicks and the returning echoes from prey items, providing a unique view on how a whale operates its biosonar during foraging in the wild. The process of echolocation during prey capture in this species can be divided into search, approach and terminal phases, as in echolocating bats. The approach phase, defined by the onset of detectable echoes recorded on the tag for click sequences terminated by a buzz, has interclick intervals (ICI) of 300-400 ms. These ICIs are more than a magnitude longer than the decreasing two-way travel time to the targets, showing that ICIs are not given by the two-way-travel times plus a fixed, short lag time. During the approach phase, the received echo energy increases by 10.4(+/-2) dB when the target range is halved,",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s00359-001-0275-5",
@@ -393,11 +651,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Physiology A",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1121_1_428507",
@@ -407,11 +661,7 @@
       "abstract": "<jats:p>This study aimed to determine whether bats using frequency modulated (FM) echolocation signals adapt the features of their vocalizations to the perceptual demands of a particular sonar task. Quantitative measures were obtained from the vocal signals produced by echolocating bats (Eptesicus fuscus) that were trained to perform in two distinct perceptual tasks, echo delay and Doppler-shift discriminations. In both perceptual tasks, the bats learned to discriminate electronically manipulated playback signals of their own echolocation sounds, which simulated echoes from sonar targets. Both tasks utilized a single-channel electronic target simulator and tested the bat’s in a two-alternative forced choice procedure. The results of this study demonstrate changes in the features of the FM bats’ sonar sounds with echolocation task demands, lending support to the notion that this animal actively controls the echo information that guides its behavior.</jats:p>",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_3504258",
@@ -421,11 +671,7 @@
       "abstract": "",
       "journal": "Mammalian Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-1-4684-7493-0_13",
@@ -435,11 +681,17 @@
       "abstract": "",
       "journal": "Animal Sonar",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_2307_2422322",
+      "title": "The Natural History of a Summer Aggregation of the Big Brown Bat, Eptesicus fuscus fuscus",
+      "year": 1956,
+      "doi": "10.2307/2422322",
+      "abstract": "",
+      "journal": "American Midland Naturalist",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_3273222",
@@ -449,11 +701,7 @@
       "abstract": "",
       "journal": "The Journal of Parasitology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_10856_supp-3",
@@ -463,11 +711,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_22215_etd_1985-12397",
@@ -477,11 +721,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_22215_etd_1987-01247",
@@ -491,11 +731,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_22215_etd_1983-12815",
@@ -505,14 +741,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 19,
+  "paper_count": 35,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

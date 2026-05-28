@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 9,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 33,
+    "claim_count": 27,
+    "doi_count": 29,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -42,90 +42,493 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
+    "song",
     "contact call",
-    "song"
+    "alarm call"
   ],
   "contexts": [
-    "alarm",
     "flock coordination",
-    "mate attraction"
+    "mate attraction",
+    "alarm"
   ],
   "functions": [
-    "flock cohesion",
     "mate attraction",
-    "predator warning"
+    "predator warning",
+    "flock cohesion"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
+        "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "contact call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "song",
+        "value": "alarm call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "flock coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "flock cohesion",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "flock cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1936,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1935,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1934,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1933,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1932,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1931,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1930,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1929,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1928,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1927,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1926,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1925,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1924,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1923,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1922,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1921,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1920,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1919,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1918,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1917,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1916,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1915,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1914,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1913,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1912,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1911,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1910,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Hirundo rustica",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1102130",
+        "provider": "xeno-canto",
+        "provider_id": "1102130",
+        "type": "flight call (XC1102130)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1102130",
+        "audio": "https://xeno-canto.org/1102130/download",
+        "sono": "outputs\\spectrograms\\gbif_5789422.png",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "XC · João Ferreira Tomás"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/ece3.71820",
+      "url": "https://doi.org/10.1002/ece3.71820",
+      "title": "Supernormal Stimulus Begging Calls of Brood-Parasitic Nestlings Depress the Parental Care in an Uncommon Host",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/1365-2656.70027",
+      "url": "https://doi.org/10.1111/1365-2656.70027",
+      "title": "Shrinking body size under climate warming is not associated with selection for smaller individuals in a migratory bird",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.21315/tlsr2025.36.1.7",
+      "url": "https://doi.org/10.21315/tlsr2025.36.1.7",
+      "title": "Efficacy of Several Types of Pest Bird Deterrents and General Trend of Pest Birds at an Industrial Factory",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-024-01841-1",
+      "url": "https://doi.org/10.1007/s10071-024-01841-1",
+      "title": "Colonial breeding impacts potentially fitness-relevant cognitive processes in barn swallows",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/cz/zoad019",
+      "url": "https://doi.org/10.1093/cz/zoad019",
+      "title": "Anthropogenic noise interacts with the predation risk assessment in a free-ranging bird",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.2307/jj.6230179.73",
       "url": "https://doi.org/10.2307/jj.6230179.73",
@@ -155,6 +558,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1371/journal.pone.0202025",
+      "url": "https://doi.org/10.1371/journal.pone.0202025",
+      "title": "Matching geographical assignment by stable isotopes with African non-breeding sites of barn swallows Hirundo rustica tracked by geolocation",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1098/rspb.2015.2889",
       "url": "https://doi.org/10.1098/rspb.2015.2889",
       "title": "A systems approach to animal communication",
@@ -162,11 +572,25 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rspb.2015.1574",
+      "url": "https://doi.org/10.1098/rspb.2015.1574",
+      "title": "Multimodal signalling in the North American barn swallow: a phenotype network approach",
+      "year": 2015,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1017/cbo9781107358478.010",
       "url": "https://doi.org/10.1017/cbo9781107358478.010",
       "title": "THE MIGRATIONS OF THE SWALLOW, <i>Hirundo rustica</i>",
       "year": 2014,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0058024",
+      "url": "https://doi.org/10.1371/journal.pone.0058024",
+      "title": "Sexual dimorphism in melanin pigmentation, feather coloration and its heritability in the barn swallow (Hirundo rustica)",
+      "year": 2013,
+      "source": "pubmed"
     },
     {
       "doi": "10.1098/rstb.2011.0280",
@@ -181,6 +605,27 @@
       "title": "Population Genetics and Morphological Comparisons of Migratory European (Hirundo rustica rustica) and Sedentary East-Mediterranean (Hirundo rustica transitiva) Barn Swallows",
       "year": 2011,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0022805",
+      "url": "https://doi.org/10.1371/journal.pone.0022805",
+      "title": "Sex-related effects of an immune challenge on growth and begging behavior of barn swallow nestlings",
+      "year": 2011,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2009.0085",
+      "url": "https://doi.org/10.1098/rspb.2009.0085",
+      "title": "Fine-tuned modulation of competitive behaviour according to kinship in barn swallow nestlings",
+      "year": 2009,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2009.0544",
+      "url": "https://doi.org/10.1098/rspb.2009.0544",
+      "title": "Monkeys crying wolf? Tufted capuchin monkeys use anti-predator calls to usurp resources from conspecifics",
+      "year": 2009,
+      "source": "openalex"
     },
     {
       "doi": "10.1111/j.1365-2435.2006.01207.x",
@@ -255,6 +700,56 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40686526",
+      "title": "Supernormal Stimulus Begging Calls of Brood-Parasitic Nestlings Depress the Parental Care in an Uncommon Host",
+      "year": 2025,
+      "doi": "10.1002/ece3.71820",
+      "abstract": "During the nestling period, brood-parasitic birds stimulate host parents to provide food through complex visual and auditory signals, including emitting supernormal stimuli in the form of begging calls to increase the feeding frequency. However, whether the begging calls of brood-parasitic nestlings act as a universal type of supernormal stimulus signal and their effects on less common host species still require further research. In this study, we used playback recordings to verify the impact of the begging calls of Common Cuckoo (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40276046",
+      "title": "Efficacy of Several Types of Pest Bird Deterrents and General Trend of Pest Birds at an Industrial Factory",
+      "year": 2025,
+      "doi": "10.21315/tlsr2025.36.1.7",
+      "abstract": "Controlling pest birds is a complex problem, especially for large areas, compared to individual homes. This study presents a new perspective on pest birds plaguing a large semiconductor factory. We evaluated the efficacy of nine bird deterrent methods: alarm and distress calls broadcasted from portable speaker, sound frequencies ranged from (i) 24.5 kHz-45.5 kHz; and (ii) 13.5 kHz-45.5 kHz together with flashing lights emitted from sonic device, methyl anthranilate (MA), moving and static bird predator models, reflective compact discs, high and low visibility reflective tapes in deterring Barn Swallow ( Mengawal burung perosak adalah masalah yang kompleks, terutamanya kawasan yang luas, berbanding dengan rumah individu. Kajian ini membentangkan perspektif baharu tentang burung perosak yang menyerang sebuah kilang semikonduktor. Kami menilai keberkesanan sembilan kaedah pencegahan burung: panggilan penggera dan kecemasan yang disiarkan daripada pembesar suara mudah alih, frekuensi bunyi berjulat daripada (i) 24.5 kHz–45.5 kHz; dan (ii) 13.5 kHz–45.5 kHz bersama-sama lampu berkelip yang dipancarkan daripada peranti sonik, metil anthranilate (MA), model pemangsa burung bergerak dan statik, cakera padat reflektif, pita reflektif keterlihatan tinggi dan rendah untuk menghalang Burung Suolo Api (",
+      "journal": "Tropical life sciences research",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40176260",
+      "title": "Shrinking body size under climate warming is not associated with selection for smaller individuals in a migratory bird",
+      "year": 2025,
+      "doi": "10.1111/1365-2656.70027",
+      "abstract": "How species are responding to climate change is a key topic in evolutionary ecology. Increasing temperatures are expected to affect phenotypic traits involved in thermoregulation, thus decreasing body size and/or increasing body appendages associated with heat exchange, as predicted by Bergmann's and Allen's rules. Results from long-term studies of variation in morphology over time have generally provided results supporting these predictions. However, two outstanding questions are frequently raised in studies relating changes in phenotypes to increasing temperatures: (1) whether such changes involve a shift in animal shape through the non-proportional variation of different body parts; and (2) whether they result from adaptive evolutionary responses. Relying on capture-recapture histories of almost 9000 breeding individuals from a declining Italian population of an Afro-Palearctic migratory bird, the barn swallow (Hirundo rustica), we documented a decrease in some body size traits (body mass, keel and wing length) over a 31-year period (1993-2023), with body mass declining the most (up to 4.0% in males). However, this was not the case for bill and partly tarsus length. Intra-individual lifelong changes in morphological traits of sexually mature birds showed only a limited contribution to trends over time in phenotypically plastic morphological traits. Viability and fecundity selection analyses revealed that smaller individuals did not enjoy greater success compared to larger ones. For some traits, the opposite was actually the case. The shifts in body size and, partly, shape over time we observed were coherent with predictions deriving from Bergmann's and Allen's rules. Yet, natural selection did not consistently favour smaller individuals. We thus call for caution in interpreting recent decreases in body size as adaptive evolutionary responses to climate warming, as they may rather reflect phenotypically plastic responses to changing climatic/environmental conditio",
+      "journal": "The Journal of animal ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38429527",
+      "title": "Colonial breeding impacts potentially fitness-relevant cognitive processes in barn swallows",
+      "year": 2024,
+      "doi": "10.1007/s10071-024-01841-1",
+      "abstract": "Many animals breed colonially, often in dense clusters, representing a complex social environment with cognitive demands that could ultimately impact individual fitness. However, the effects of social breeding on the evolution of cognitive processes remain largely unknown. We tested the hypothesis that facultative colonial breeding influences attention and decision-making. Barn swallows (Hirundo rustica) breed in solitary pairs or in a range of colony sizes, up to dozens of pairs. We tested for selective attention to social information with playbacks of conspecific alarm calls and for decision-making with simulated predator intrusions, across a range of colony sizes from 1 to 33 pairs. We also evaluated the adaptive value of both processes by measuring seasonal reproductive success. Swallows breeding in larger colonies were more selective in their attention to social information. Birds breeding in larger colonies were also less risk averse, deciding to return more quickly to their nests after a predator approach paradigm. Finally, birds that showed higher selective attention hatched more eggs and birds that returned to their nests more quickly after a predator intrusion had more nestlings. Although we cannot fully attribute these fitness outcomes to the cognitive measures considered in this study, our results suggest that social breeding plays a role in adaptively shaping both the acquisition of social information and decision-making.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39035757",
+      "title": "Anthropogenic noise interacts with the predation risk assessment in a free-ranging bird",
+      "year": 2024,
+      "doi": "10.1093/cz/zoad019",
+      "abstract": "Anthropogenic noise can affect a number of behavioral, physiological, and ecological aspects of animals from major taxonomic groups, raising serious conservation concerns. For example, noise pollution impacts communicative behavior and perception of signals, movements and distribution, as well as predator-prey interactions, such as hunting success or predator detection and predation risk assessment. We have carried out an experimental playback study, in which we investigated whether exposure to anthropogenic noise (sound of a tractor) distracts free-ranging barn swallows",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_37002_salve_ficha_28314_2",
       "title": "Ficha de Hirundo rustica",
       "year": 2023,
@@ -262,11 +757,7 @@
       "abstract": "",
       "journal": "Datasets - Sistema SALVE - ICMBio",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_jj_6230179_73",
@@ -276,11 +767,7 @@
       "abstract": "",
       "journal": "The Birds of Ancient Egypt",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_79601",
@@ -290,11 +777,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1146_annurev-ecolsys-110617-062646",
@@ -304,11 +787,17 @@
       "abstract": "Behavioral changes, such as those involved in mating, foraging, and migration, can generate reproductive barriers between populations. Birds, in particular, are known for their great diversity in these behaviors, and so behavioral isolation is often proposed to be the major driver of speciation. Here, we review empirical evidence to evaluate the importance of behavioral isolation in the early stages of avian speciation. Experimentally measured mating preferences indicate that changes in mating behavior can result in premating barriers, with their strength depending on the extent of divergence in mating signals. Differences in migratory and foraging behavior also can play important roles in generating reproductive barriers in the early stages of speciation. However, because premating behavioral isolation is imperfect, extrinsic postzygotic barriers, in the form of selection against hybrids having intermediate phenotypes, also play an important role in avian diversification, especially i",
       "journal": "Annual Review of Ecology Evolution and Systematics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_30216347",
+      "title": "Matching geographical assignment by stable isotopes with African non-breeding sites of barn swallows Hirundo rustica tracked by geolocation",
+      "year": 2018,
+      "doi": "10.1371/journal.pone.0202025",
+      "abstract": "Knowledge on whereabouts within the annual cycle of migratory species is prerequisite for many aspects in ecology and biological conservation. Spatial assignments of stable isotopes archived in tissues allows for later inference on sites where the specific tissue had been grown. It has been rarely tested whether spatial assignments match directly tracked non-breeding residences, especially for migratory songbirds. We here compare assignments of stable isotopes from feathers of Palaearctic Barn swallows Hirundo rustica with their African non-breeding residence sites tracked by geolocation.Assignments based on δ2H, δ13C and δ15N isotope compositions delineate three main non-breeding regions: a main cluster in central Africa, a second in West Africa, and the third cluster in Northern Africa. Using δ13C, δ15N only, non-breeding sites ranged from clusters in West/Southwest Africa to South East Africa with a centre in Central Africa. The non-breeding areas (50% and 75% Kernel density estimates, KDE) of the birds tracked by geolocation stretched from West Africa via central Africa to southern Africa. We found little overlap of 0.3% (assuming a 1:1 odds ratio) to 1.4% (3:1 odds ratio) in the three element assignments and KDEs for only 2 and 13 individuals out of 32 birds. Assignment maps for two elements (δ13C, δ15N) and KDEs showed higher consistencies with an overlap of 3.6 and 8.5% for 12 and 18 birds. We argue that the low matching between stable isotope assignments and non-breeding sites in our study arise from insufficient baseline data for Africa (concerning both isoscapes and specific discrimination functions). However, other factors like aerial foraging habit of the species, and a potential mismatch of non-breeding site location and the spatial origin of aerial plankton might further hamper accurate assignments. Finally we call for concerted analyses of tissues i.e. feathers and claws of birds which are grown at known sites across the continent and from species wit",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rspb_2015_2889",
@@ -318,11 +807,17 @@
       "abstract": "Why animal communication displays are so complex and how they have evolved are active foci of research with a long and rich history. Progress towards an evolutionary analysis of signal complexity, however, has been constrained by a lack of hypotheses to explain similarities and/or differences in signalling systems across taxa. To address this, we advocate incorporating a systems approach into studies of animal communication--an approach that includes comprehensive experimental designs and data collection in combination with the implementation of systems concepts and tools. A systems approach evaluates overall display architecture, including how components interact to alter function, and how function varies in different states of the system. We provide a brief overview of the current state of the field, including a focus on select studies that highlight the dynamic nature of animal signalling. We then introduce core concepts from systems biology (redundancy, degeneracy, pluripotentialit",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_26423842",
+      "title": "Multimodal signalling in the North American barn swallow: a phenotype network approach",
+      "year": 2015,
+      "doi": "10.1098/rspb.2015.1574",
+      "abstract": "Complex signals, involving multiple components within and across modalities, are common in animal communication. However, decomposing complex signals into traits and their interactions remains a fundamental challenge for studies of phenotype evolution. We apply a novel phenotype network approach for studying complex signal evolution in the North American barn swallow (Hirundo rustica erythrogaster). We integrate model testing with correlation-based phenotype networks to infer the contributions of female mate choice and male-male competition to the evolution of barn swallow communication. Overall, the best predictors of mate choice were distinct from those for competition, while moderate functional overlap suggests males and females use some of the same traits to assess potential mates and rivals. We interpret model results in the context of a network of traits, and suggest this approach allows researchers a more nuanced view of trait clustering patterns that informs new hypotheses about the evolution of communication systems.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1017_cbo9781107358478_010",
@@ -332,11 +827,17 @@
       "abstract": "",
       "journal": "Studies in Bird Migration",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_23469134",
+      "title": "Sexual dimorphism in melanin pigmentation, feather coloration and its heritability in the barn swallow (Hirundo rustica)",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0058024",
+      "abstract": "Melanin is the main pigment in animal coloration and considerable variation in the concentrations of the two melanin forms (pheo- and eumlanin) in pigmented tissues exists among populations and individuals. Melanin-based coloration is receiving increasing attention particularly in socio-sexual communication contexts because the melanocortin system has been hypothesized to provide a mechanistic basis for covariation between coloration and fitness traits. However, with few notable exceptions, little detailed information is available on inter-individual and inter-population variation in melanin pigmentation and on its environmental, genetic and ontogenetic components. Here, we investigate melanin-based coloration in an Italian population of a passerine bird, the barn swallow (Hirundo rustica rustica), its sex- and age-related variation, and heritability. The concentrations of eu- and pheomelanin in the throat (brown) and belly (white-to-brownish) feathers differed between sexes but not according to age. The relative concentration of either melanin (Pheo:Eu) differed between sexes in throat but not in belly feathers, and the concentrations in males compared to females were larger in belly than in throat feathers. There were weak correlations between the concentrations of melanins within as well as among plumage regions. Coloration of belly feathers was predicted by the concentration of both melanins whereas coloration of throat feathers was only predicted by pheomelanin in females. In addition, Pheo:Eu predicted coloration of throat feathers in females and that of belly feathers in males. Finally, we found high heritability of color of throat feathers. Melanization was found to differ from that recorded in Hirundo rustica rustica from Scotland or from H. r. erythrogaster from North America. Hence, present results show that pigmentation strategies vary in a complex manner according to sex and plumage region, and also among geographical populations, potentially reflecting",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rstb_2011_0280",
@@ -346,11 +847,7 @@
       "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_jhered_esr114",
@@ -360,11 +857,47 @@
       "abstract": "",
       "journal": "Journal of Heredity",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_21818393",
+      "title": "Sex-related effects of an immune challenge on growth and begging behavior of barn swallow nestlings",
+      "year": 2011,
+      "doi": "10.1371/journal.pone.0022805",
+      "abstract": "Parent-offspring conflicts lead the offspring to evolve reliable signals of individual quality, including parasite burden, which may allow parents to adaptively modulate investment in the progeny. Sex-related variation in offspring reproductive value, however, may entail differential investment in sons and daughters. Here, we experimentally manipulated offspring condition in the barn swallow (Hirundo rustica) by subjecting nestlings to an immune challenge (injection with bacterial lipopolysaccharide, LPS) that simulates a bacterial infection, and assessed the effects on growth, feather quality, expression of morphological (gape coloration) and behavioral (posture) begging displays involved in parent-offspring communication, as well as on food allocation by parents. Compared to sham-injected controls, LPS-treated chicks suffered a depression of body mass and a reduction of palate color saturation. In addition, LPS treatment resulted in lower feather quality, with an increase in the occurrence of fault bars on wing feathers. The color of beak flanges, feather growth and the intensity of postural begging were affected by LPS treatment only in females, suggesting that chicks of either sex are differently susceptible to the immune challenge. However, irrespective of the effects of LPS, parents equally allocated food among control and challenged offspring both under normal food provisioning and after a short period of food deprivation of the chicks. These results indicate that bacterial infection and the associated immune response entail different costs to offspring of either sex, but a decrease in nestling conditions does not affect parental care allocation, possibly because the barn swallow adopts a brood-survival strategy. Finally, we showed that physiological stress induced by pathogens impairs plumage quality, a previously neglected major negative impact of bacterial infection which could severely affect fitness, particularly among long-distance migratory birds.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_1098_rspb_2009_0544",
+      "title": "Monkeys crying wolf? Tufted capuchin monkeys use anti-predator calls to usurp resources from conspecifics",
+      "year": 2009,
+      "doi": "10.1098/rspb.2009.0544",
+      "abstract": "The use of 'tactical deception' is argued to have been important in the cognitive evolution of the order Primates, but systematic studies of active deception in wild non-human primates are scant. This study tests whether wild tufted capuchin monkeys (Cebus apella nigritus) use alarm calls in a functionally deceptive manner to usurp food resources. If capuchins use alarm calls 'deceptively', it was predicted that false alarms should be: (i) given by subordinates more than by dominants, (ii) more frequent when food is most contestable, (iii) more frequent when less food is available, and (iv) given when the caller is in a spatial position in which it could increase its feeding success if conspecifics react to the call. These predictions were tested by observing subjects in experimental contexts, in which the amount and distribution of a high-value resource (banana pieces) were manipulated using wooden platforms suspended from tree branches. While false alarms were non-significantly more ",
+      "journal": "Proceedings of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_19324749",
+      "title": "Fine-tuned modulation of competitive behaviour according to kinship in barn swallow nestlings",
+      "year": 2009,
+      "doi": "10.1098/rspb.2009.0085",
+      "abstract": "Kin selection theory predicts that, in species where progeny members compete for limiting parental care, individual offspring should be more prone to monopolize parental resources as their genetic relatedness to brood competitors decreases. Mixed parentage among broodmates may arise as a consequence, for example, of extra-pair fertilization or brood parasitism events. In this experimental study of barn swallows (Hirundo rustica), we reciprocally partially cross-fostered hatchlings between broods and compared the behaviour of pairs of related and unrelated broodmates in a competitive context, both under normal food provisioning regime and after mild food deprivation. We found that scramble competition for food mediated by visual and vocal solicitation displays (begging) is inversely related to relatedness among competitors, independent of their level of satiation. Nestlings may modulate their competitive behaviour according to vocal cues that vary with their origin and allow kin recognition. We also uncover direct fitness costs to both parents and offspring arising from mixed parentage in a brood, in terms of increased parental workload and reduced survival of the nestlings. Such previously neglected costs may select for reduced frequency of extra-pair fertilizations and brood parasitism in species with extensive parental care.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_18021204",
+      "title": "Barn swallow chicks beg more loudly when broodmates are unrelated",
+      "year": 2008,
+      "doi": "10.1111/j.1420-9101.2007.01441.x",
+      "abstract": "Parents of a variety of animal species distribute critical resources among their offspring according to the intensity of begging displays. Kin selection theory predicts that offspring behave more selfishly in monopolizing parental care as relatedness with competitors declines. We cross-fostered two eggs between barn swallow (Hirundo rustica) clutches and compared the loudness of begging between mixed and control broods under normal feeding conditions and after a period of food deprivation. Begging loudness was higher in mixed broods under normal but not poor feeding conditions. Survival was reduced in mixed than control broods. Call features varied according to parentage, possibly serving as a cue for self-referent phenotype matching in mixed broods. This is the first evidence within a vertebrate species that competitive behaviour among broodmates depends on their relatedness. Thus, kin recognition and relatedness may be important determinants of communication among family members, care allocation and offspring viability in barn swallows.",
+      "journal": "Journal of evolutionary biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1365-2435_2006_01207_x",
@@ -374,11 +907,17 @@
       "abstract": "1 Habitat structure has been considered as a main factor shaping the evolution of bird song acoustics. 2 Based on expected differential patterns of sound degradation in different habitats, the acoustic adaptation hypothesis (AAH) proposes that songs with lower frequencies, narrower frequency ranges and longer inter-element intervals should occur more frequently in densely vegetated compared with herbaceous habitats. 3 Empirical tests of the AAH have provided mixed results. Here, we review for the first time the literature on this topic using a meta-analytical, quantitative approach. 4 Maximum, minimum, peak frequency and frequency range were found to be significantly lower in closed compared with open habitats, but the mean size of the effect of habitat was small. Inter-element intervals were not affected by habitat structure. 5 The AAH implicitly assumes that birds are selected to maximize song broadcast range and minimize degradation, while it neglects the potential role of energetic",
       "journal": "Functional Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_17040402",
+      "title": "The design of complex sexual traits in male barn swallows: associations between signal attributes",
+      "year": 2006,
+      "doi": "10.1111/j.1420-9101.2006.01135.x",
+      "abstract": "Variation in the expression of sexually selected traits among individuals is widely investigated on the premise that these traits evolved to signal male quality. Significant repeatabilities of sexual signals and their associations with condition, mating success, survivorship and age may be the signatures of sexual selection. However, little is known about the relationship between these sexual attributes. Here we studied 28 acoustic and visual traits in the barn swallow, Hirundo rustica, that may potentially function in sexual selection. Based on effect sizes calculated at the between-individual level, we assessed the relationship between repeatability, condition-dependence, attractiveness, age-dependence and viability indicator value of sexual traits using sexual signals as the units of analyses. Those traits that showed high within-year repeatability also showed high between-year repeatability, indicating that between-individual variation is consistent within and among seasons. In addition, age-dependence of traits, probably causing between-year variation, was negatively related to between-year repeatability. Condition-dependence was negatively correlated with effect sizes for the extent to which traits predicted viability. Therefore, traits that are positively related to immediate condition are those that are negatively related to survival, which may be the signature of a trade-off between current and future reproductive success ultimately reflecting signal reliability. No other significant relationship was found between trait attributes. We conclude that multiple sexual signals reflect different aspects of male quality in the barn swallow.",
+      "journal": "Journal of evolutionary biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_beheco_ari029",
@@ -388,11 +927,7 @@
       "abstract": "Bird song has been hypothesized to evolve, partly, to signal health status of males, and song features should therefore correlate with parasite load. Immune function, parasitism, and secondary sexual characters can, however, differ between age classes, and any apparent relationship between song and parasite loads can be the result of systematic age effects. We tested for an agedependent relationship between sexually selected characters and measures of parasitism in a Spanish population of the barn swallow Hirundo rustica. A comparison across age classes revealed that chewing lice load, song duration, mean peak amplitude frequency of songs, and tail length differed significantly between yearlings and adults. In a longitudinal analysis, we found significant evidence for mean peak amplitude frequency of songs, tail length and chewing louse parasitism, and a nonsignificant tendency for song duration to change with age of an individual. We found a significant association between song durati",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_12_4_506",
@@ -402,11 +937,27 @@
       "abstract": "Begging vocalization is thought to have evolved as a consequence of the parent-offspring conflict over parental investment (Mock and Parker, 1997). Under this conflict, parents are reluctant to provide all the resources requested by current offspring because they are saving resources for future broods (Trivers, 1974). In this scenario, begging has evolved as an honest signal of need with the most hungry offspring begging most conspicuously. This information allows parents to optimally adjust reproductive investment, since they can accurately assess offspring food requirement (Godfray, 1991). Given the conflict of interest over resources between parents and offspring, the evolutionary stability of begging would be ensured by its cost for two reasons. First, the benefit of obtaining additional resources from the parents increases with need, and hence the benefit to be fed outweighs the cost of begging only when hungry. Second, if all offspring, independent of need, were to beg at the sam",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_18811354",
+      "title": "Paternity and multiple signaling: effects of a secondary sexual character and song on paternity in the barn swallow",
+      "year": 1998,
+      "doi": "10.1086/286114",
+      "abstract": "Multiple signals may evolve because they provide independent information on the condition of a signaler. Females should pay attention to male characters relative to their reliability as signals of male attractiveness or quality. Since behavioral traits are flexible and, therefore, subject to strong environmental influences, females should weigh stable morphological signals higher in their choice of mates for genetic benefits than flexible behavioral traits, for example, by paying particular attention to phenotypically plastic traits when produced in combination with an exaggerated morphological signal. Consistent with this prediction, female barn swallows Hirundo rustica, which are known to prefer males with the longest tail feathers (a secondary sexual character), also preferred males with extreme expressions of a behavioral trait (song rate), as determined from patterns of paternity assessed by microsatellites. However, a statistical interaction between tail length and song rate implied that song rate was relatively unimportant for males with a short tail but more important for longtailed males. Since song rate is a flexible behavioral trait, females appear to have responded to this flexibility by devaluing the importance of song rate in assessment of unattractive sires.",
+      "journal": "The American naturalist",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_9632469",
+      "title": "Differences in begging behaviour between barn swallow, Hirundo rustica, nestlings",
+      "year": 1998,
+      "doi": "10.1006/anbe.1997.0675",
+      "abstract": "Recent models of parent-offspring communication suggest that nestling begging reliably reflects food requirements, and therefore should increase with nestling need. Need may be affected by short-term variations in hunger, as well as by long-term factors such as relative size, growth rate and body condition. In the present study, the brood sizes of barn swallows were manipulated to create differences in nestling growth rate and body condition. The extent to which begging behaviour reflects these differences was tested. I measured begging behaviour by removing nestlings from the nest for three laboratory tests in which temporal variations in hunger were controlled, and four target nestlings (small and large, from small and large broods) were tested simultaneously. Small nestlings and nestlings from large broods had lower growth rates and poorer body condition than large nestlings and nestlings from small broods, respectively. Begging was positively correlated with both short- and long-term determinants of need. However, when nestlings grew older (second test), the trend was mixed, mainly because begging levels dropped in the neediest nestling category (small nestlings from large broods). After nestlings had been exchanged between broods for 24 h, small nestlings from large broods improved their growth rate and body condition, but still begged less than expected from their long-term need. The results suggest that nestling begging strategies vary with brood size and with nestling rank. However, these variations may reflect not only long-term need, but also nestling response to past experience or to variations in the cost and effectiveness of their begging efforts. Copyright 1998 The Association for the Study of Animal Behaviour. Copyright 1998 The Association for the Study of Animal Behaviour.",
+      "journal": "Animal behaviour",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3758_bf03205051",
@@ -416,11 +967,17 @@
       "abstract": "",
       "journal": "Animal Learning & Behavior",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_3525221",
+      "title": "Acoustic adaptations for parent-offspring recognition in swallows",
+      "year": 1986,
+      "doi": null,
+      "abstract": "We have used field and laboratory studies to investigate acoustic adaptations for parent-offspring recognition in two closely related pairs of swallows: (a) bank swallow (Riparia riparia) and northern rough-winged swallow (Stelgidopteryx serripennis), and (b) cliff swallow (Hirundo pyrrhonota) and barn swallow (Hirundo rustica). Cross-fostering and playback experiments show that bank swallow and cliff swallow parents recognize their offspring by voice while rough-winged swallow and barn swallow parents do not. We argue that this species difference is due to an evolutionary history of strong selection for recognition in bank swallows and cliff swallows, which live in large, dense colonies, and of weak or no selection for recognition in rough-winged swallows and barn swallows, which live solitarily or in small groups. We consider two possible acoustic adaptations which may underlie the observed species difference. First, the \"signature\" calls of cliff swallow and bank swallow chicks appear to be more individually distinctive than the homologous calls of rough-winged swallows and barn swallows. This conclusion is supported by a sonographic analysis of among- and within-individual call variation: The information content of bank swallow and cliff swallow calls is considerably greater than that of rough-winged swallow or barn swallow calls. We also discuss our more recent work on the hypothesis that the colonial swallow species are better able to discriminate these sorts of auditory stimuli. We conclude with the caution that auditory specializations may be unnecessary given the signature call adaptation and the general capabilities of the avian ear.",
+      "journal": "Experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2307_3671263",
@@ -430,11 +987,7 @@
       "abstract": "-Vocalizations of barn (Hirundo rustica) and cliff (H. pyrrhonota) swallows in north central Texas-south central Oklahoma are described. Eight vocalizations in barn swallows and four in cliff swallows were found. Barn swallows possess a greater vocal repertoire than cliff swallows, perhaps because barn swallows nest in smaller colonies where acoustics allow greater reliance on vocal communication. It is suggested that increasing barn swallow colony sizes and sound distortion of twitter songs may be partly responsible for hybridization within the genus Hirundo presently observed in parts of Texas. The barn (Hirundo rustica) and cliff (H. pyrrhonota) swallows occur sympatrically throughout a large part of North America, including much of the Southwest. In many areas they forage together in similar habitats and nest together in mixed colonies. However, the vocalizations of these species have been little studied. Their vocalizations have special relevance in Texas, where Martin (1980, 1982",
       "journal": "The Southwestern Naturalist",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5962_p_323821",
@@ -444,11 +997,7 @@
       "abstract": "",
       "journal": "The birds of Great Britain",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927040_0354",
@@ -458,11 +1007,7 @@
       "abstract": "",
       "journal": "The Birds of Africa : The Malagasy Region",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_j_ctt20ks130_31",
@@ -472,11 +1017,7 @@
       "abstract": "",
       "journal": "Fifty Common Birds of the Upper Midwest",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927019_0116",
@@ -486,14 +1027,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 33,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

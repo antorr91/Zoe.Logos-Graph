@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 6,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 21,
+    "claim_count": 8,
+    "doi_count": 21,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,64 +42,170 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "advertisement call",
-    "territorial call"
+    "territorial call",
+    "advertisement call"
   ],
   "contexts": [
-    "mate attraction",
-    "territorial defence"
+    "territorial defence",
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "advertisement call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "advertisement call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 357,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 356,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 355,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 354,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 353,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 352,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 351,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 350,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Lithobates catesbeianus",
     "recordings": [],
     "external_links": []
@@ -141,6 +247,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1371/journal.pone.0184703",
+      "url": "https://doi.org/10.1371/journal.pone.0184703",
+      "title": "Perspectives on invasive amphibians in Brazil",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.3389/fendo.2017.00186",
       "url": "https://doi.org/10.3389/fendo.2017.00186",
       "title": "Arginine Vasotocin, the Social Neuropeptide of Amphibians and Reptiles",
@@ -167,6 +280,20 @@
       "title": "Call Transmission Efficiency in Native and Invasive Anurans: Competing Hypotheses of Divergence in Acoustic Signals",
       "year": 2013,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rsbl.2012.0412",
+      "url": "https://doi.org/10.1098/rsbl.2012.0412",
+      "title": "Biological invasions and the acoustic niche: the effect of bullfrog calls on the acoustic signals of white-banded tree frogs",
+      "year": 2012,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0025718",
+      "url": "https://doi.org/10.1371/journal.pone.0025718",
+      "title": "Climate change and American Bullfrog invasion: what could we expect in South America?",
+      "year": 2011,
+      "source": "pubmed"
     },
     {
       "doi": "10.1021/acs.chemrestox.4c00498.s001",
@@ -241,11 +368,7 @@
       "abstract": "Gut microbiota impact host physiology, though simultaneous investigations in ectothermic vertebrates are rare. Particularly, amphibians may exhibit more complex interactions between host physiology and the effects of gut microbiota due to the combination of seasonal changes and complex life histories. In this study, we assessed the relationships among food resources, gut bacterial communities, and host physiology in frogs (Phelophylax nigromaculatus), taking into account seasonal and life history variations. We found that food sources were not correlated with physiological parameters but had some relationships with the gut bacterial community. Variations in gut bacterial community and host physiology were influenced by the combined effects of seasonal differences and life history, though mostly driven by seasonal differences. An increase in Firmicutes was associated with higher fat content, reflecting potential fat storage in frogs during the non-breeding season. The increase in Bacter",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_s40851-023-00201-0",
@@ -255,11 +378,7 @@
       "abstract": "Reproductive biology is an important topic that is well explored in many vertebrates, but information about frogs' reproductive mechanisms could be improved. Therefore, this review aims to provide organized and specific information on frog reproduction. First, we developed schemes that illustrate the general information regarding reproductive biological mechanisms in frogs in a specific way. Then, we described the physiological, histological, and morphological mechanisms of each organ of the reproductive system of male and female frogs. Finally, this manuscript may contribute to a broader understanding of anuran reproductive biology. Since, understanding frogs' reproductive system permits one to make a comparison with reproduction with other anurans.",
       "journal": "Zoological Letters",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_biopsycho_2022_108382",
@@ -269,11 +388,7 @@
       "abstract": "Mammals show clear changes in heart rate linked to lung ventilation, characterized as respiratory sinus arrhythmia (RSA). These changes are controlled in part by variations in the level of inhibitory control exerted on the heart by the parasympathetic arm of the autonomic nervous system (PNS). This originates from preganglionic neurons in the nucleus ambiguous that supply phasic, respiration-related activity to the cardiac branch of the vagus nerve, via myelinated, efferent fibres with rapid conduction velocities. An elaboration of these central mechanisms, under the control of a 'vagal system' has been endowed by psychologists with multiple functions concerned with 'social engagement' in mammals and, in particular, humans. Long-term study of cardiorespiratory interactions (CRI) in other major groups of vertebrates has established that they all show both tonic and phasic control of heart rate, imposed by the PNS. This derives centrally from neurones located in variously distributed nuc",
       "journal": "Biological Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fevo_2021_698131",
@@ -283,11 +398,7 @@
       "abstract": "Many ecologists have lamented the demise of natural history and have attributed this decline to a misguided view that natural history is outdated and unscientific. Although there is a perception that the focus in ecology and conservation have shifted away from descriptive natural history research and training toward hypothetico-deductive research, we argue that natural history has entered a new phase that we call “next-generation natural history.” This renaissance of natural history is characterized by technological and statistical advances that aid in collecting detailed observations systematically over broad spatial and temporal extents. The technological advances that have increased exponentially in the last decade include electronic sensors such as camera-traps and acoustic recorders, aircraft- and satellite-based remote sensing, animal-borne biologgers, genetics and genomics methods, and community science programs. Advances in statistics and computation have aided in analyzing a g",
       "journal": "Frontiers in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s12304-021-09402-6",
@@ -297,11 +408,7 @@
       "abstract": "Abstract Biosemiotics to date has focused on the exchange of signals between organisms, in line with bioacoustics; consideration of the wider acoustic environment as a semiotic medium is under-developed. The nascent discipline of ecoacoustics, that investigates the role of environmental sound in ecological processes and dynamics, fills this gap. In this paper we introduce key ecoacoustic terminology and concepts in order to highlight the value of ecoacoustics as a discipline in which to conceptualise and study intra- and interspecies semiosis. We stress the inherently subjective nature of all sensory scapes (vivo-, land-, vibro- and soundscapes) and propose that they should always bear an organismic attribution. Key terms to describe the sources ( geophony, biophony, anthropophony, technophony ) and scales ( sonotopes, soundtopes, sonotones ) of soundscapes are described. We introduce epithets for soundscapes to point to the degree to which the global environment is implicated in semio",
       "journal": "Biosemiotics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fendo_2017_00186",
@@ -311,11 +418,17 @@
       "abstract": "Arginine vasotocin (AVT) is the non-mammalian homolog of arginine vasopressin (AVP) and, like vasopressin, serves as an important modulator of social behavior in addition to its peripheral functions related to osmoregulation, reproductive physiology, and stress hormone release. In amphibians and reptiles, the neuroanatomical organization of brain AVT cells and fibers broadly resembles that seen in mammals and other taxa. Both parvocellular and magnocellular AVT-containing neurons are present in multiple populations located mainly in the basal forebrain from the accumbens-amygdala area to the preoptic area and hypothalamus, from which originate widespread fiber connections spanning the brain with a particularly heavy innervation of areas associated with social behavior and decision-making. As for mammalian AVP, AVT is present in greater amounts in males in many brain areas, and its presence varies seasonally, with hormonal state, and in males with differing social status. AVT's social i",
       "journal": "Frontiers in Endocrinology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28938024",
+      "title": "Perspectives on invasive amphibians in Brazil",
+      "year": 2017,
+      "doi": "10.1371/journal.pone.0184703",
+      "abstract": "Introduced species have the potential to become invasive and jeopardize entire ecosystems. The success of species establishing viable populations outside their original extent depends primarily on favorable climatic conditions in the invasive ranges. Species distribution modeling (SDM) can thus be used to estimate potential habitat suitability for populations of invasive species. Here we review the status of six amphibian species with invasive populations in Brazil (four domestic species and two imported species). We (i) modeled the current habitat suitability and future potential distribution of these six focal species, (ii) reported on the disease status of Eleutherodactylus johnstonei and Phyllodytes luteolus, and (iii) quantified the acoustic overlap of P. luteolus and Leptodactylus labyrinthicus with three co-occurring native species. Our models indicated that all six invasive species could potentially expand their ranges in Brazil within the next few decades. In addition, our SDMs predicted important expansions in available habitat for 2 out of 6 invasive species under future (2100) climatic conditions. We detected high acoustic niche overlap between invasive and native amphibian species, underscoring that acoustic interference might reduce mating success in local frogs. Despite the American bullfrog Lithobates catesbeianus being recognized as a potential reservoir for the frog-killing fungus Batrachochytrium dendrobatidis (Bd) in Brazil, we did not detect Bd in the recently introduced population of E. johnstonei and P. luteolus in the State of São Paulo. We emphasize that the number of invasive amphibian species in Brazil is increasing exponentially, highlighting the urgent need to monitor and control these populations and decrease potential impacts on the locally biodiverse wildlife.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_14720_ns_18_1_23-27",
@@ -325,11 +438,7 @@
       "abstract": "<jats:p>The American bullfrog Lithobates catesbeianus is one of the 100 worst alien species in the world. It has been introduced to several European countries. During our field search activities in May 2014 and June 2015, a male bullfrog advertisement call was heard at Fiesa Lakes in Slovenia. On September 2015, a male specimen of the American bullfrog was caught in a funnel trap at the same location. These are the first records of the occurrence of this invasive species in Slovenia. Further studies should be conducted to evaluate if an actual population is present in the area. Eradication measures should commence immediately as chances for the establishment of naturalized bullfrog populations here are high.</jats:p>",
       "journal": "Natura Sloveniae",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0120546",
@@ -339,11 +448,7 @@
       "abstract": "The escape response of an organism is generally its last line of defense against a predator. Because the effectiveness of an escape varies with the approach behaviour of the predator, it should be advantageous for prey to alter their escape trajectories depending on the mode of predator attack. To test this hypothesis we examined the escape responses of a single prey species, the ground-dwelling túngara frog (Engystomops pustulosus), to disparate predators approaching from different spatial planes: a terrestrial predator (snake) and an aerial predator (bat). Túngara frogs showed consistently distinct escape responses when attacked by terrestrial versus aerial predators. The frogs fled away from the snake models (Median: 131°). In stark contrast, the frogs moved toward the bat models (Median: 27°); effectively undercutting the bat's flight path. Our results reveal that prey escape trajectories reflect the specificity of their predators' attacks. This study emphasizes the flexibility of ",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0077312",
@@ -353,11 +458,37 @@
       "abstract": "Invasive species are a leading cause of the current biodiversity decline, and hence examining the major traits favouring invasion is a key and long-standing goal of invasion biology. Despite the prominent role of the advertisement calls in sexual selection and reproduction, very little attention has been paid to the features of acoustic communication of invasive species in nonindigenous habitats and their potential impacts on native species. Here we compare for the first time the transmission efficiency of the advertisement calls of native and invasive species, searching for competitive advantages for acoustic communication and reproduction of introduced taxa, and providing insights into competing hypotheses in evolutionary divergence of acoustic signals: acoustic adaptation vs. morphological constraints. Using sound propagation experiments, we measured the attenuation rates of pure tones (0.2-5 kHz) and playback calls (Lithobates catesbeianus and Pelophylax perezi) across four distanc",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24155940",
+      "title": "Call transmission efficiency in native and invasive anurans: competing hypotheses of divergence in acoustic signals",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0077312",
+      "abstract": "Invasive species are a leading cause of the current biodiversity decline, and hence examining the major traits favouring invasion is a key and long-standing goal of invasion biology. Despite the prominent role of the advertisement calls in sexual selection and reproduction, very little attention has been paid to the features of acoustic communication of invasive species in nonindigenous habitats and their potential impacts on native species. Here we compare for the first time the transmission efficiency of the advertisement calls of native and invasive species, searching for competitive advantages for acoustic communication and reproduction of introduced taxa, and providing insights into competing hypotheses in evolutionary divergence of acoustic signals: acoustic adaptation vs. morphological constraints. Using sound propagation experiments, we measured the attenuation rates of pure tones (0.2-5 kHz) and playback calls (Lithobates catesbeianus and Pelophylax perezi) across four distances (1, 2, 4, and 8 m) and over two substrates (water and soil) in seven Iberian localities. All factors considered (signal type, distance, substrate, and locality) affected transmission efficiency of acoustic signals, which was maximized with lower frequency sounds, shorter distances, and over water surface. Despite being broadcast in nonindigenous habitats, the advertisement calls of invasive L. catesbeianus were propagated more efficiently than those of the native species, in both aquatic and terrestrial substrates, and in most of the study sites. This implies absence of optimal relationship between native environments and propagation of acoustic signals in anurans, in contrast to what predicted by the acoustic adaptation hypothesis, and it might render these vertebrates particularly vulnerable to intrusion of invasive species producing low frequency signals, such as L. catesbeianus. Our findings suggest that mechanisms optimizing sound transmission in native habitat can play a less ",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22675139",
+      "title": "Biological invasions and the acoustic niche: the effect of bullfrog calls on the acoustic signals of white-banded tree frogs",
+      "year": 2012,
+      "doi": "10.1098/rsbl.2012.0412",
+      "abstract": "Invasive species are known to affect native species in a variety of ways, but the effect of acoustic invaders has not been examined previously. We simulated an invasion of the acoustic niche by exposing calling native male white-banded tree frogs (Hypsiboas albomarginatus) to recorded invasive American bullfrog (Lithobates catesbeianus) calls. In response, tree frogs immediately shifted calls to significantly higher frequencies. In the post-stimulus period, they continued to use higher frequencies while also decreasing signal duration. Acoustic signals are the primary basis of mate selection in many anurans, suggesting that such changes could negatively affect the reproductive success of native species. The effects of bullfrog vocalizations on acoustic communities are expected to be especially severe due to their broad frequency band, which masks the calls of multiple species simultaneously.",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_21991339",
+      "title": "Climate change and American Bullfrog invasion: what could we expect in South America?",
+      "year": 2011,
+      "doi": "10.1371/journal.pone.0025718",
+      "abstract": "BACKGROUND: Biological invasion and climate change pose challenges to biodiversity conservation in the 21(st) century. Invasive species modify ecosystem structure and functioning and climatic changes are likely to produce invasive species' range shifts pushing some populations into protected areas. The American Bullfrog (Lithobates catesbeianus) is one of the hundred worst invasive species in the world. Native from the southeast of USA, it has colonized more than 75% of South America where it has been reported as a highly effective predator, competitor and vector of amphibian diseases. METHODOLOGY/PRINCIPAL FINDINGS: We modeled the potential distribution of the bullfrog in its native range based on different climate models and green-house gases emission scenarios, and projected the results onto South America for the years of 2050 and 2080. We also overlaid projected models onto the South American network of protected areas. Our results indicate a slight decrease in potential suitable area for bullfrog invasion, although protected areas will become more climatically suitable. Therefore, invasion of these sites is forecasted. CONCLUSION/SIGNIFICANCE: We provide new evidence supporting the vulnerability of the Atlantic Forest Biodiversity Hotspot to bullfrog invasion and call attention to optimal future climatic conditions of the Andean-Patagonian forest, eastern Paraguay, and northwestern Bolivia, where invasive populations have not been found yet. We recommend several management and policy strategies to control bullfrog invasion and argue that these would be possible if based on appropriate articulation among government agencies, NGOs, research institutions and civil society.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_14393_ufu_di_2021_551",
@@ -367,11 +498,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1021_acs_chemrestox_4c00498_s001",
@@ -381,11 +508,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_t_18_2014_tde-27062014-120117",
@@ -395,11 +518,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_26512_2015_09_d_19077",
@@ -409,11 +528,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_41_2017_tde-18042017-103924",
@@ -423,11 +538,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_24275_uami_hx11xf27c",
@@ -437,11 +548,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_t_97_2012_tde-07102013-092237",
@@ -451,11 +558,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_41_2023_tde-23032023-184054",
@@ -465,14 +568,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 21,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

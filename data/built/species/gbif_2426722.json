@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
+    "paper_count": 22,
+    "claim_count": 18,
     "doi_count": 17,
-    "media_count": 0
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -51,9 +51,9 @@
     "mating"
   ],
   "functions": [
+    "mating refusal",
     "male-male competition",
-    "mate attraction",
-    "mating refusal"
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -61,13 +61,13 @@
         "value": "advertisement call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "release call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -75,45 +75,281 @@
         "value": "male combat",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mating",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "mating refusal",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "male-male competition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "mating refusal",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 321,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 320,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 319,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 318,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 317,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 316,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 315,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 314,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 313,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 312,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 311,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 310,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 309,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 308,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 307,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 306,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 305,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 304,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Bufo bufo",
     "recordings": [],
     "external_links": []
@@ -248,11 +484,7 @@
       "abstract": "",
       "journal": "Radiopaedia.org",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_38059_biodiversity_951087",
@@ -262,11 +494,27 @@
       "abstract": "<jats:p xml:lang=\"en\">As ectotherms, amphibians in the northern hemisphere are forced into hibernation due to seasonal periods of low temperatures, shorter days or reduced food supplies. Although it has been reported in recent years that some ectothermic animals may be active even in winter due to the effect of global climate change, winter activity records for toads are uncommon. Therefore, we  would like to report a winter activity case from north Anatolia, Turkey via the common toad, Bufo bufo. Documenting these unusual winter events not only adds to the biological knowledge of the species, but also provides valuable preliminary evidence for analyzing climate change patterns.</jats:p>",
       "journal": "Turkish Journal of Biodiversity",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_34402275",
+      "title": "[Processing evolution,chemical components and pharmacological effects of Bufonis Venenum]",
+      "year": 2021,
+      "doi": "10.19540/j.cnki.cjcmm.20210409.601",
+      "abstract": "Bufonis Venenum,the dried secretion of Bufo bufo gargarizans or B. melanostictus,is toxic and hard with the efficacy of removing toxicity for detumescence and relieving pain. The processing of Bufonis Venenum dates back to the Song dynasty. In addition to the wine-processing,milk-processing and talcum powder-processing,there were some other kinds of processing methods in ancient times,such as baking,calcining,water-soaking and vinegar-processing. Modern studies have shown that the Bufonis Venenum has the main chemical components of bufadienolides,indole alkaloids sterols,and other compounds. It has the pharmacological effects of antitumor,cardiac,antibacterial,and analgesic activities,local anesthesia,and so on. This paper reviews the processing evolution,chemical components and pharmacological effects of Bufonis Venenum,providing references for its special processing and modern research as well as the theoretical basis for the research on its processing mechanism and quality control.",
+      "journal": "Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33639467",
+      "title": "Double-edged sword: Fluoxetine and ibuprofen as development jeopardizers and apoptosis' inducers in common toad, Bufo bufo, tadpoles",
+      "year": 2021,
+      "doi": "10.1016/j.scitotenv.2021.145945",
+      "abstract": "Nowadays the presence of pharmaceuticals in the environment is a real problem. Ending up in aquatic environments they negatively affect non-target organisms. Considering the limited studies on the negative effects of pharmaceuticals in amphibians, a better understanding of the mechanisms underlying the sub-lethal effects of drug mixtures in wildlife is an urgent call. Representing particularly vulnerable organisms currently at risk of extinction, amphibians are perfect non-target organisms to explore the consequences of pharmaceuticals during sensitive life-stages. To address this existing research gap, the effects of two drugs, the antidepressant fluoxetine and the anti-inflammatory ibuprofen, as well as their combination has been studied. Tadpoles of Bufo bufo were exposed for seven days to two environmentally realistic concentrations of fluoxetine, ibuprofen and their mixture. The development, behavior and erythron profile were then evaluated as endpoints of exposure response. Both drugs negatively affected tadpoles' growth and development by significantly delayed their time to metamorphosis and reduced body weight. Behaviors were also impaired with a significant increase of unresponsiveness to different stimuli. Mutagenic analysis of blood revealed a significant increase in the frequency of cellular and nuclear abnormalities. Given the complexity of systems and functions affected, our work confirms the toxicological potential of fluoxetine and ibuprofen in B. bufo tadpoles by emphasizing their role as tadpole development delayers and erythrocyte apoptosis-inducers. To our knowledge, this is the first study trying to elucidate the potentially toxic effects of a mixture of an antidepressant with a non-steroidal anti-inflammatory drug using bullfrog tadpole as model organism. Both drugs interacted in impairing development and fitness in tadpoles, which might affect long-term species perpetuation and population dynamic. More in-depth research is needed to elucidate ",
+      "journal": "The Science of the total environment",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_90821",
@@ -276,11 +524,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90819",
@@ -290,11 +534,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90822",
@@ -304,11 +544,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90818",
@@ -318,11 +554,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_brv_12160",
@@ -332,11 +564,27 @@
       "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_22972229",
+      "title": "Sink or swim: a test of tadpole behavioral responses to predator cues and potential alarm pheromones from skin secretions",
+      "year": 2012,
+      "doi": "10.1007/s00359-012-0750-1",
+      "abstract": "Chemical signaling is a vital mode of communication for most organisms, including larval amphibians. However, few studies have determined the identity or source of chemical compounds signaling amphibian defensive behaviors, in particular, whether alarm pheromones can be actively secreted from tadpoles signaling danger to conspecifics. Here we exposed tadpoles of the common toad Bufo bufo and common frog Rana temporaria to known cues signaling predation risk and to potential alarm pheromones. In both species, an immediate reduction in swimming activity extending over an hour was caused by chemical cues from the predator Aeshna cyanea (dragonfly larvae) that had been feeding on conspecific tadpoles. However, B. bufo tadpoles did not detectably alter their behavior upon exposure to potential alarm pheromones, neither to their own skin secretions, nor to the abundant predator-defense peptide bradykinin. Thus, chemicals signaling active predation had a stronger effect than general alarm secretions of other common toad tadpoles. This species may invest in a defensive strategy alternative to communication by alarm pheromones, given that Bufonidae are toxic to some predators and not known to produce defensive skin peptides. Comparative behavioral physiology of amphibian alarm responses may elucidate functional trade-offs in pheromone production and the evolution of chemical communication.",
+      "journal": "Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_21777014",
+      "title": "Ammonia as a pheromone in anuran tadpoles",
+      "year": 2011,
+      "doi": "10.33549/physiolres.932188",
+      "abstract": "In laboratory experiments, conspecific excretions and ammonia solutions evoked avoidance reactions in tadpoles of three anuran species, Bufo bufo, Rana temporaria, and Rana arvalis. A differential sensitivity of ammonia chemoreception was determined for two anuran species. For Bufo bufo tadpoles, these characteristics at ammonia background concentration of 0.2 mg/l lied in the range 150 % < dI/I < 500 %, and for background of 0.4 mg/l the value lied in the range 400 % < dI/I < 500 %. For Rana temporaria tadpoles, differential threshold against ammonia background concentration of 0.15 mg/l was close to 200 % and against background ammonia concentration of 1.1 mg/l was close to 100 %. These results suggest that such sensitivity of both anurans is sufficient for using ammonia in intra- and interspecies communication.",
+      "journal": "Physiological research",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1121_1_3158924",
@@ -346,11 +594,7 @@
       "abstract": "Male frogs and toads call in dense choruses to attract females. Determining the vocal interactions and spatial distribution of the callers is important for understanding acoustic communication in such assemblies. It has so far proved difficult to simultaneously locate and recover the vocalizations of individual callers. Here a microphone-array technique is developed for blindly locating callers using arrival-time delays at the microphones, estimating their steering-vectors, and recovering the calls with a frequency-domain adaptive beamformer. The technique exploits the time-frequency sparseness of the signal space to recover sources even when there are more sources than sensors. The method is tested with data collected from a natural chorus of Gulf Coast toads (Bufo valliceps) and Northern cricket frogs (Acris crepitans). A spatial map of locations accurate to within a few centimeters is constructed, and the individual call waveforms are recovered for nine individual animals within a 9",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0004065",
@@ -360,11 +604,7 @@
       "abstract": "Biodiversity assessment remains one of the most difficult challenges encountered by ecologists and conservation biologists. This task is becoming even more urgent with the current increase of habitat loss. Many methods-from rapid biodiversity assessments (RBA) to all-taxa biodiversity inventories (ATBI)-have been developed for decades to estimate local species richness. However, these methods are costly and invasive. Several animals-birds, mammals, amphibians, fishes and arthropods-produce sounds when moving, communicating or sensing their environment. Here we propose a new concept and method to describe biodiversity. We suggest to forego species or morphospecies identification used by ATBI and RBA respectively but rather to tackle the problem at another evolutionary unit, the community level. We also propose that a part of diversity can be estimated and compared through a rapid acoustic analysis of the sound produced by animal communities. We produced alpha and beta diversity indexes ",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1095-8312_1996_tb01442_x",
@@ -374,11 +614,7 @@
       "abstract": "Secondary sexual characters in many species function both in male-male competition and as cues for female choice.Based on a literature compilation of existing knowledge of traits with this dual function, we propose that they commonly arise through intrasexual selection processes and serve as honest signals to other males regarding fighting ability or dominance.Faking these traits, here called armaments, (i.e.weapons and status badges) is difficult, as they are constantly put to trial in male-male contests.Females that subsequently utilize them as indicators of male phenotypic quality when selecting a partner Wiu benefit by acquiring males of higher quality to father their offspring.Thus, evolution of armaments through male-male competition is seen as a usually initiating process, whereas female choice later may assume a role as an additional selective factor.The reverse, that males use information from traits evolved through female choice, is, however, also possible.The traditional vie",
       "journal": "Biological Journal of the Linnean Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_icb_24_2_385",
@@ -388,11 +624,7 @@
       "abstract": "Difficulties with applying Evolutionarily. Stable Strategy (ESS) methodology and terminology to alternative mating behaviors (in which some males in local populations adopt strikingly different, often non-competitive, behavioral patterns) are reviewed. Definitions for “tactic” (behavioral phenotype) and “strategy” (evolved set of rules for expressing tactics) are given. Inconsistent and incorrect applications of “mixed,” “pure,” and “conditional” ESSs are discussed. Cases of condition-dependent alternative mating tactics are reviewed. Because most alternative behaviors are condition dependent, neither their population-wide nor individual fitness contributions are expected to equal the fitness contributions of “primary” tactics. Individuals should, however, switch tactics at “equal fitness points.” A particular conditional tactic will persist when its maintenance cost (genetic or physiological) is less than its fitness contribution. In only exceptional cases are the fitness contribution",
       "journal": "American Zoologist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_156853882x00392",
@@ -402,11 +634,17 @@
       "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>Hybridization between three european species of Bufonids (B. bufo; B. viridis and B. calamita) has been performed under laboratory conditions. Developmental analysis have shown that morphogenesis is very often affected by hypomorphosis. When hybrids are viable up to an advanced stage, it is possible to disclose expression ofparental characters. Developmental difference between reciprocal crossings compared to nucelocytoplasmic hybridization (interspecific nuclear graft) lead to show a viability which is always greater for hybrids formed with B. bufo eggs. This remark joined to injection experiments ofcytoplasmic fractions (DELARUE, 1981)emphasizes qualitative differences of each species receiving egg cytoplasm about their morphogenetic potentialities.</jats:p>\n         </jats:sec>",
       "journal": "Amphibia-Reptilia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_24925813",
+      "title": "A comparative study of auditory sensitivity in the genus Bufo (amphibia)",
+      "year": 1981,
+      "doi": "10.1016/0376-6357(81)90002-4",
+      "abstract": "Multi-unit response from the torus semicircularis were recorded to obtain neural audiograms for five different species, subspecies and races of the genus Bufo:Bufo b.bufo, Bufo b. spinosus, two races of Bufo viridis, and Bufo americanus. All of the audiograms were clearly bimodal, with a low frequency peak and a high frequency peak. A less pronounced but distinguishable intermediate peak seems to be an indication of trimodality. In the low-frequency range, the audiograms of the five groups differed little or not at all. There were pronounced differences, however, in the high-frequency range. This frequency band includes the frequencies of the conspecific mating calls. The best matching between call frequency and auditory best frequency was found in the Bufo viridis group. While it is likely that factors other than the signal characteristics in the vocal repertoire may shape the sensitivity of the auditory system, it is notable that those anuran species in which the mating call clearly facilitates reproduction have a more pronounced sensitivity peak at the frequencies in their mating calls.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_s0340-904x(78)80049-9",
@@ -416,11 +654,17 @@
       "abstract": "",
       "journal": "Zeitschrift für Immunitätsforschung: Immunobiology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_24923743",
+      "title": "Alterations in the release calls of six European anura (amphibia) after partial or total extirpation of the vocal cords",
+      "year": 1976,
+      "doi": "10.1016/0376-6357(76)90022-X",
+      "abstract": "In the interior of the larynx of Ranidae there are two sturdy vocal cords. The Bufonidae have more delicate vocal cords, and in addition paired cushions of tissue anterior to the cords and paired folds posterior to the cords. In the three ranids Rana esculenta, Rana ridibunda and Rana temporaria, partial or total extirpation of the vocal cords results in loss of voice or atypical release calls. In such remnants of calls as are retained, the frequency composition is little affected, whereas the intensity is always greatly reduced. The most severe impairment is evident in the formation of sound pulses and in the rhythmicity of the pulse sequence. In the three bufonids Bufo bufo, Bufo calamita and Bufo viridis loss of voice is a less common result of the various operations than in the ranids. The most marked deterioration follows removal of all or part of the vocal cords. The tissue cushions and the posterior folds participate, along with the vocal cords, in production of the release calls. Post-operative alterations in the release calls are therefore quite variable.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2307_1442595",
@@ -430,11 +674,7 @@
       "abstract": "calls of some neotropical anurans. Amer. Mid. Nat. 77:156-163. FOSTER, W. A. 1967. Chorus structure and vocal response in the Pacific tree frog, Hyla regilla. Herpetologica 23:100-104. GERHARDT, H. C. 1973. Reproductive interactions between Hyla crucifer and Pseudacris ornata (Anura: Hylidae). Amer. Mid. Nat. 89: 81-88. JONES, J., AND B. H. BRATTSTROM. 1961. The call of the spring peeper, Hyla crucifer, in response to a recording of its own voice. Herpetologica 17:246-250. JONES, M. D. R. 1966. The acoustic behavior of the bush cricket, Pholidoptera griseoaptera. J. Exp. Biol. 45:15-30, 31-44. LEMON, R. E. 1971. Vocal communication by the frog Eleutherodactylus martinicensis. Canad. J. Zool. 49:211-217. LITTLEJOHN, M. J., AND A. A. MARTIN. 1969. Acoustic interaction between two species of leptodactylid frogs. Anim. Behav. 17:785-791. LOFTUS-HILLS, J. J. 1971. Neural correlates of acoustic behavior in the Australian bullfrog Limnodynastes dorsalis (Anura: Leptodactylidae). Z. vergl. Phy",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_jez_1401760304",
@@ -444,11 +684,7 @@
       "abstract": "Abstract The vibration mechanics of the vocal tracts of over 40 species of toads (genus Bufo) were studied, using an apparatus to artificially activate the larynges of freshly killed animals. The effects of laryngeal ablations on the mating and release calls were studied. They confirmed the results obtained by artificial activation. The mating and release call dominant frequencies are determined primarily by the fundamental frequencies of vibration of the paired vocal cords. Vocal cord resonant frequencies are in turn largely determined by the activation air pressure and the masses of cartilagenous deposits in their lateral portions. In most species, fleshy folds within the larynx at the anterior extremities of the arytenoid cartilages cause these cartilages to vibrate during sound production, amplitude modulating the vocal cord output. In most species, the contraction pattern of the vocal musculature is reflected as a periodic pulsation. Frequency modulations of the mating call domina",
       "journal": "Journal of Experimental Zoology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5962_bhl_title_82448",
@@ -458,14 +694,10 @@
       "abstract": "THE AMPHIBIA and birds. Further, the embryo as it develops is never sur- rounded by the protective amnion or equipped with a respiratory allantois as in the case of higher vertebrates.",
       "journal": "McGraw-Hill eBooks",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 22,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

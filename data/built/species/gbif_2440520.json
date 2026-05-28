@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 25,
-    "claim_count": 9,
-    "doi_count": 26,
-    "media_count": 0
+    "paper_count": 40,
+    "claim_count": 27,
+    "doi_count": 37,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -42,90 +42,521 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "call",
     "click",
+    "call",
     "whistle"
   ],
   "contexts": [
-    "cultural transmission",
     "echolocation",
+    "cultural transmission",
     "social communication"
   ],
   "functions": [
-    "group identity",
     "pod coordination",
-    "prey detection"
+    "prey detection",
+    "group identity"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "click",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "whistle",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "cultural transmission",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "echolocation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "cultural transmission",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "group identity",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "pod coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "prey detection",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "group identity",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 718,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 717,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 716,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 715,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 714,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 713,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 712,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 711,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 710,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 709,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 708,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 707,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 706,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 705,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 704,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 703,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 702,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 701,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 700,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 699,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 698,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 697,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 696,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 695,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 694,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 693,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 692,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "noaa_noaa-orca-01",
+        "provider": "noaa",
+        "provider_id": "noaa-orca-01",
+        "type": "Killer whale call — NOAA Northwest",
+        "rec": "NOAA",
+        "loc": "",
+        "date": "",
+        "url": "https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals",
+        "audio": "",
+        "sono": "",
+        "license": "Public Domain",
+        "attribution": "NOAA NWFSC"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41598-026-35574-7",
+      "url": "https://doi.org/10.1038/s41598-026-35574-7",
+      "title": "Aversive behavioural responses of killer whales to sounds of long-finned pilot whales",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41597-025-05281-5",
+      "url": "https://doi.org/10.1038/s41597-025-05281-5",
+      "title": "A Public Dataset of Annotated Orcinus orca Acoustic Signals for Detection and Ecotype Classification",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-06041-6",
+      "url": "https://doi.org/10.1038/s41598-025-06041-6",
+      "title": "Killer whale call detection rates vary among subspecies and populations in the North Pacific",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-22718-4",
+      "url": "https://doi.org/10.1038/s41598-025-22718-4",
+      "title": "Cooperative foraging between dolphins and fish-eating killer whales",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0331942",
+      "url": "https://doi.org/10.1371/journal.pone.0331942",
+      "title": "Modeling the detection range of pulsed calls from resident killer whale in nearshore waters of British Columbia, Canada",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.230903",
+      "url": "https://doi.org/10.1098/rsos.230903",
+      "title": "Killer whale acoustic patterns respond to prey abundance and environmental variability around the Prince Edward Islands, Southern Ocean",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fnbeh.2024.1495579",
+      "url": "https://doi.org/10.3389/fnbeh.2024.1495579",
+      "title": "Latencies of conditioned vocal responses to hearing test tones in killer whales (",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-38132-7",
+      "url": "https://doi.org/10.1038/s41598-023-38132-7",
+      "title": "ORCA-SPY enables killer whale sound source simulation, detection, classification and localization using an integrated deep learning-based segmentation",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-48349-1",
+      "url": "https://doi.org/10.1038/s41598-023-48349-1",
+      "title": "Call combination patterns in Icelandic killer whales (Orcinus orca)",
+      "year": 2023,
+      "source": "pubmed"
+    },
     {
       "doi": "10.35267/978-5-9904294-8-2-2023-103-110",
       "url": "https://doi.org/10.35267/978-5-9904294-8-2-2023-103-110",
@@ -139,6 +570,20 @@
       "title": "Acoustic Communication of the Killer Whale, Orcinus orca",
       "year": 2022,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1038/s41598-021-99668-0",
+      "url": "https://doi.org/10.1038/s41598-021-99668-0",
+      "title": "Passive acoustic monitoring of killer whales (Orcinus orca) reveals year-round distribution and residency patterns in the Gulf of Alaska",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/mms.12836",
+      "url": "https://doi.org/10.1111/mms.12836",
+      "title": "Behavioral context of echolocation and prey-handling sounds produced by killer whales (",
+      "year": 2021,
+      "source": "pubmed"
     },
     {
       "doi": "10.21203/rs.3.rs-1008677/v1",
@@ -311,6 +756,96 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41606079",
+      "title": "Aversive behavioural responses of killer whales to sounds of long-finned pilot whales",
+      "year": 2026,
+      "doi": "10.1038/s41598-026-35574-7",
+      "abstract": "Interactions are common among marine species which use sound as the primary form of communication, yet the role of acoustic signals in mediating these interactions remains poorly understood. Long-finned pilot whales (Globicephala melas) are attracted to killer whale (Orcinus orca) sounds, leading to antagonistic interactions. To test whether these interactions are acoustically mediated in both directions, playback experiments (n = 15) using pilot whale and control sound stimuli were conducted on eight killer whales equipped with multi-sensor tags. To assess behavioural responses to the playbacks, we applied hidden Markov models (HMMs) to movement and acoustic data, and fitted univariate regression models to a horizontal movement reaction score, calling rate, and group behaviour variables. The tagged whales exhibited an avoidance response to pilot whale sounds, evidenced by fast, directed movement away from the sound source and increased cohesion and alignment of group members. Calling rate often increased initially, followed by a pronounced decrease. These findings demonstrate that killer whales, the oceans' apex predators, respond to acoustic signals of pilot whales and likely perceive their presence as a threat, similar to naval sonar. This study provides important insights into the complexity of cetacean behaviour and acoustic mechanisms shaping multi-species community dynamics.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41381531",
+      "title": "Cooperative foraging between dolphins and fish-eating killer whales",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-22718-4",
+      "abstract": "Interspecies associations during foraging can range from competition to cooperation but are often complex and difficult to interpret. Using aerial drone and biologgers (n=9) equipped with video, acoustic and inertial sensors, we recorded interactions between fish-eating northern resident killer whales (Orcinus orca) and Pacific white-sided dolphins (Lagenorhynchus obliquidens) in the presence of adult Chinook salmon (Oncorhynchus tshawytscha). We observed frequent co-occurrence and coordinated movements, with the killer whales orienting towards the dolphins and following them to depth. We also recorded reduced echolocation and rolling movements by the killer whales in the presence of dolphins, suggesting that the whales may eavesdrop on dolphin echolocations to scan broader areas to locate large Chinook salmon-prey that are too big for the dolphins to capture and swallow whole. Captured fish were brought to the surface by the killer whales and broken apart for sharing with other matrilineally related pod members-while the accompanying dolphins scavenged scraps. No antagonistic interactions or avoidance behaviours were observed between the killer whales and dolphins. The spatially and temporally coordinated foraging behaviours we recorded suggest northern resident killer whales and dolphins opportunistically engage in cooperative foraging, which may improve the ability of killer whales to detect Chinook, while dolphins benefit by scavenging prey scraps-highlighting the need for further investigation into the ecological implications of these interspecific encounters.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41004450",
+      "title": "Modeling the detection range of pulsed calls from resident killer whale in nearshore waters of British Columbia, Canada",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0331942",
+      "abstract": "Passive acoustic monitoring (PAM) using underwater listening stations is widely employed to assess the presence and movements of marine mammals. Accurate interpretation of PAM data requires knowledge of vocalization detection ranges, which vary spatially and temporally with ambient sound levels and sound propagation conditions. This study presents a Monte Carlo framework for estimating call detection probabilities as a function of distance incorporating variability in frequency dependent source levels, ambient sound levels and caller depths. This methodology was applied to underwater listening stations deployed by Fisheries and Oceans Canada in the Salish Sea to monitor endangered Southern and threatened Northern Resident Killer Whales (Orcinus orca ater). The approach integrates in situ ambient sound measurements and modeled propagation losses to account for variability in source levels and vocalizing depths. To reflect frequency-dependent detectability by an automated detector, the analysis was performed independently across consecutive 300 Hz frequency bands. Median estimated detection ranges for Southern Resident Killer Whale pulsed calls varied from 650 m under the worst conditions (high ambient noise levels, low source level, high propagation loss) to 7.9 km under the best conditions (low ambient noise levels, high source level, low propagation loss). Maximum detection ranges were generally greater in summer than in winter, primarily due to higher ambient noise levels in winter associated with increased weather activity. Calls from Northern Resident Killer Whales were detectable at shorter ranges than those from Southern Residents, reflecting their lower source levels and weaker low-frequency components. Sensitivity analysis showed that the frequency distribution of source levels was the primary factor influencing detection range estimates, while seasonal changes in propagation loss had comparatively limited impact. Although developed for killer whales, this a",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40610481",
+      "title": "A Public Dataset of Annotated Orcinus orca Acoustic Signals for Detection and Ecotype Classification",
+      "year": 2025,
+      "doi": "10.1038/s41597-025-05281-5",
+      "abstract": "Killer whales (Orcinus orca) exhibit significant ecological and genetic diversity, with three primary sympatric populations in the Northeast Pacific: Resident, Bigg's (Transient), and Offshore. Each population is characterized by distinct foraging habits, social structures, and vocal repertoires, which complicate accurate monitoring and conservation efforts. This dataset, compiled from diverse sources, provides a comprehensive resource for the detection and classification of killer whale vocalizations. The dataset includes annotated acoustic recordings spanning 11 years from various locations in Alaska, British Columbia, and Washington, collected using multiple hydrophone systems. It addresses the challenge of differentiating killer whale calls from other marine species and environmental noise, including specific instances of confounding signals that may help enhance model robustness. Detailed annotations capture a diverse suite of vocalizations and their associated metadata, facilitating the development of advanced machine learning models for ecological monitoring. This curated dataset aims to improve the accuracy of killer whale detection algorithms, support conservation efforts, and advance our understanding of killer whale acoustic communication across different populations.",
+      "journal": "Scientific data",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40594654",
+      "title": "Killer whale call detection rates vary among subspecies and populations in the North Pacific",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-06041-6",
+      "abstract": "Killer whales (Orcinus orca) in the North Pacific have diverged into subspecies with distinct diets, social structures, and vocal behaviors. Understanding the rate at which killer whales of different subspecies vocalize provides insight into their communication with conspecifics as well as the environmental factors shaping vocalization patterns. Estimating a population's calling rate can also enable the number of animals present to be estimated acoustically. We used killer whale dialects, long-term photo-identification records, and year-round autonomous acoustic data across multiple locations to estimate call detection rates during vocal bouts for three killer whale populations, one resident (fish-eating) and two transient (mammal-eating). We focused on call detection rates, or the number of calls detected rather than the true number produced, in order to capitalize on this large autonomous dataset to investigate the influence of spatiotemporal and social factors across many observations. Generalized additive mixed models showed that the call detection rate for southern Alaska resident killer whales was consistent across locations, seasons, which pod was calling, and the presence of other pods. Gulf of Alaska transient killer whale call detection rates differed across locations. We detected fewer, more tightly spaced discrete calls from AT1 transients than from Gulf of Alaska transients, and the mean AT1 call detection rate was stable across spatiotemporal factors. Although transients call less often than residents, we found that once vocalizing, they did so at a higher rate. These call detection rates provide novel insight into killer whale vocal behavior and can support passive acoustic group size estimation for these populations.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39975795",
+      "title": "Latencies of conditioned vocal responses to hearing test tones in killer whales (",
+      "year": 2024,
+      "doi": "10.3389/fnbeh.2024.1495579",
+      "abstract": "INTRODUCTION: Perceived loudness is challenging to study in non-human animals. However, reaction time to an acoustic stimulus is a useful behavioral proxy for the assessment of perceived loudness. Understanding the effect of sound frequency and level on perceived loudness would improve prediction and modeling of anthropogenic noise impacts on marine mammals. METHODS: In this study, behavioral hearing tests conducted with two killer whales were analyzed to capture conditioned vocal response latency, which is the time between the onset of the acoustic signal and the onset of the response (i.e., reaction time). RESULTS: The results showed that vocal reaction times decreased with increasing sensation level (i.e., sound pressure level above the baseline hearing threshold), while the effect of frequency on reaction time varied between the subjects. Reaction time as a function of sound duration is described, and equal-latency contours are presented. DISCUSSION: The data suggest that vocal reaction time decreases with increasing sensation level, therefore supporting the use of reaction time as a proxy for loudness perception in killer whales.",
+      "journal": "Frontiers in behavioral neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39400272",
+      "title": "Auditory masking of tonal and conspecific signals by continuous active sonar, amplitude modulated noise, and Gaussian noise in killer whales (Orcinus orca)",
+      "year": 2024,
+      "doi": "10.1121/10.0028626",
+      "abstract": "Continuous active sonar is thought to mitigate severe acoustic impacts due to its lower sound pressure level compared to pulsed active sonar typically used by world navies. However, due to its almost continuous duty cycle, continuous active sonar could have a higher potential for auditory masking. Here, we evaluate the auditory masking potential of several noise types including a recording of continuous active sonar, amplitude modulated noise, and Gaussian noise, on signal detection in two killer whales. Signals were either a 1.5 kHz pure tone or a recording of a broadband burst-pulse killer whale call. For the 1.5 kHz tone, all noise types resulted in statistically significant masking, however, there was a release from masking of approximately 13 dB for the amplitude-modulated noise. When the killer whale call was the signal, the whales employed an off-frequency listening strategy where the whales were able to detect frequency components of the signal that did not directly overlap with the noise. However, this strategy was less useful for the continuous active sonar noise due to its broadband harmonic structure. Continuous active sonar has spectral features that considerably overlap with those of killer whale calls, making this type of noise an effective auditory masker.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39254237",
+      "title": "Males miss and females forgo: Auditory masking from vessel noise impairs foraging efficiency and success in killer whales",
+      "year": 2024,
+      "doi": "10.1111/gcb.17490",
+      "abstract": "Understanding how the environment mediates an organism's ability to meet basic survival requirements is a fundamental goal of ecology. Vessel noise is a global threat to marine ecosystems and is increasing in intensity and spatiotemporal extent due to growth in shipping coupled with physical changes to ocean soundscapes from ocean warming and acidification. Odontocetes rely on biosonar to forage, yet determining the consequences of vessel noise on foraging has been limited by the challenges of observing underwater foraging outcomes and measuring noise levels received by individuals. To address these challenges, we leveraged a unique acoustic and movement dataset from 25 animal-borne biologging tags temporarily attached to individuals from two populations of fish-eating killer whales (Orcinus orca) in highly transited coastal waters to (1) test for the effects of vessel noise on foraging behaviors-searching (slow-click echolocation), pursuit (buzzes), and capture and (2) investigate the mechanism of interference. For every 1 dB increase in maximum noise level, there was a 4% increase in the odds of searching for prey by both sexes, a 58% decrease in the odds of pursuit by females and a 12.5% decrease in the odds of prey capture by both sexes. Moreover, all but one deep (≥75 m) foraging attempt with noise ≥110 dB re 1 μPa (15-45 kHz band; n = 6 dives by n = 4 whales) resulted in failed prey capture. These responses are consistent with an auditory masking mechanism. Our findings demonstrate the effects of vessel noise across multiple phases of odontocete foraging, underscoring the importance of managing anthropogenic inputs into soundscapes to achieve conservation objectives for acoustically sensitive species. While the timescales for recovering depleted prey species may span decades, these findings suggest that complementary actions to reduce ocean noise in the short term offer a critical pathway for recovering odontocete foraging opportunities.",
+      "journal": "Global change biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38179079",
+      "title": "Killer whale acoustic patterns respond to prey abundance and environmental variability around the Prince Edward Islands, Southern Ocean",
+      "year": 2024,
+      "doi": "10.1098/rsos.230903",
+      "abstract": "Killer whales are apex predators with temporally and spatially varying distributions throughout the world's oceans. Their ecology and behaviour are poorly understood in most regions due to limited research, often because of logistical challenges. Here, we used a passive acoustic monitoring device to investigate the seasonal acoustic occurrence and diel vocalizing behaviour of killer whales around the remote sub-Antarctic Prince Edward Islands (PEIs), Southern Ocean. Killer whales showed diel vocalizing patterns that varied seasonally in relation to their prey abundance and social activities. Killer whale calls were intermittently detected year-round with a high number of hours containing calls in October to December, and a secondary peak in February to May, corresponding to seal prey abundance. Random forest modelling identified wind speed as the primary predictor of the occurrence of killer whale calls (with a negative correlation) while sea surface height, chlorophyll-a and sea surface temperature were moderately important. We provide the first acoustic evidence that killer whale occurrence around the PEIs might coincide with variability in environmental conditions and prey abundance. Our results provide the first indication of diel vocalizing pattern of killer whales in the Southern Ocean. This knowledge is important for understanding killer whale ecology and adaptation to the changing oceans.",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_35267_978-5-9904294-8-2-2023-103-110",
       "title": "Fish-eating killer whales (Orcinus orca) increase vocal activity after playback of biphonic discrete calls of their dialect",
       "year": 2023,
@@ -318,11 +853,27 @@
       "abstract": "",
       "journal": "Marine Mammals of the Holarctic",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_38065973",
+      "title": "Call combination patterns in Icelandic killer whales (Orcinus orca)",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-48349-1",
+      "abstract": "Acoustic sequences have been described in a range of species and in varying complexity. Cetaceans are known to produce complex song displays but these are generally limited to mysticetes; little is known about call combinations in odontocetes. Here we investigate call combinations produced by killer whales (Orcinus orca), a highly social and vocal species. Using acoustic recordings from 22 multisensor tags, we use a first order Markov model to show that transitions between call types or subtypes were significantly different from random, with repetitions and specific call combinations occurring more often than expected by chance. The mixed call combinations were composed of two or three calls and were part of three call combination clusters. Call combinations were recorded over several years, from different individuals, and several social clusters. The most common call combination cluster consisted of six call (sub-)types. Although different combinations were generated, there were clear rules regarding which were the first and last call types produced, and combinations were highly stereotyped. Two of the three call combination clusters were produced outside of feeding contexts, but their function remains unclear and further research is required to determine possible functions and whether these combinations could be behaviour- or group-specific.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37429871",
+      "title": "ORCA-SPY enables killer whale sound source simulation, detection, classification and localization using an integrated deep learning-based segmentation",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-38132-7",
+      "abstract": "Acoustic identification of vocalizing individuals opens up new and deeper insights into animal communications, such as individual-/group-specific dialects, turn-taking events, and dialogs. However, establishing an association between an individual animal and its emitted signal is usually non-trivial, especially for animals underwater. Consequently, a collection of marine species-, array-, and position-specific ground truth localization data is extremely challenging, which strongly limits possibilities to evaluate localization methods beforehand or at all. This study presents ORCA-SPY, a fully-automated sound source simulation, classification and localization framework for passive killer whale (Orcinus orca) acoustic monitoring that is embedded into PAMGuard, a widely used bioacoustic software toolkit. ORCA-SPY enables array- and position-specific multichannel audio stream generation to simulate real-world ground truth killer whale localization data and provides a hybrid sound source identification approach integrating ANIMAL-SPOT, a state-of-the-art deep learning-based orca detection network, followed by downstream Time-Difference-Of-Arrival localization. ORCA-SPY was evaluated on simulated multichannel underwater audio streams including various killer whale vocalization events within a large-scale experimental setup benefiting from previous real-world fieldwork experience. Across all 58,320 embedded vocalizing killer whale events, subject to various hydrophone array geometries, call types, distances, and noise conditions responsible for a signal-to-noise ratio varying from [Formula: see text] dB to 3 dB, a detection rate of 94.0 % was achieved with an average localization error of 7.01[Formula: see text]. ORCA-SPY was field-tested on Lake Stechlin in Brandenburg Germany under laboratory conditions with a focus on localization. During the field test, 3889 localization events were observed with an average error of 29.19[Formula: see text] and a median error of 17.54[",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_47611_jsrhs_v11i3_2713",
@@ -332,11 +883,27 @@
       "abstract": "<jats:p>Functional use of killer whale pulsed calls is an important facet of their communication. The complexity of their vocalizations presents opportunities for theoretical and structural analysis of such calls. This study seeks to answer questions regarding social and behavioral context of monophonic and biphonic calls, how they can be classified using computer science technology, and what possible mechanisms for sound modulation exist anatomically in varying populations of Orcinus orca. The method used to guide this review is described by Arksey and O’Malley as the scoping review method (Pham et al., 2014). All research included in this review is organized into a data table for reference. Features of killer whale communication were broken down into multiple definitive groups including clicks, whistles, pulsed, discrete, aberrant, variable, monophonic, and biphonic calls. Computer network analysis of the vocalizations has provided a framework for comparing and classifying both simil",
       "journal": "Journal of Student Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_35364953",
+      "title": "Effects of duty cycles on passive acoustic monitoring of southern resident killer whale (Orcinus orca) occurrence and behavior",
+      "year": 2022,
+      "doi": "10.1121/10.0009752",
+      "abstract": "Long-term passive acoustic monitoring of cetaceans is frequently limited by the data storage capacity and battery life of the recording system. Duty cycles are a mechanism for subsampling during the recording process that facilitates long-term passive acoustic studies. While duty cycles are often used, there has been little investigation on the impact that this approach has on the ability to answer questions about a species' behavior and occurrence. In this study, the effects of duty cycling on the acoustic detection of southern resident killer whales (SRKW) (Orcinus orca) were investigated. Continuous acoustic data were subsampled to create 288 subsampled datasets with cycle lengths from 5 to 180 min and listening proportions from 1% to 67%. Duty cycles had little effect on the detection of the daily presence of SRKW, especially when using cycle lengths of less than an hour. However, cycle lengths of 15-30 min and listening proportions of at least 33% were required to accurately calculate durations of acoustic bouts and identify those bouts to ecotype. These results show that the optimal duty cycle depends on the scale of the research question and provide a framework for quantitative analysis of duty cycles for other marine species.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35090284",
+      "title": "Measuring speed of vessels operating around endangered southern resident killer whales (Orcinus orca) in Salish Sea critical habitat",
+      "year": 2022,
+      "doi": "10.1016/j.marpolbul.2021.113301",
+      "abstract": "Motorized vessels are a major source of anthropogenic noise and can have adverse effects on species relying on sound for communication and feeding. Monitoring noise levels received by endangered southern resident killer whales (SRKWs) requires knowing the number, distance, and speed of surrounding vessels, including small boats that do not have Automatic Identification Systems (AIS). A method for estimating their speed is required to predict received noise levels and compliance with vessel regulations. We compared theodolite and photogrammetry methods to estimate the number, distance, and speed of vessels in SRKW Salish Sea summertime critical habitat. By treating AIS as \"truth\", we found photogrammetry-derived ranges and speeds were more variable than theodolite estimates. Error in photogrammetry-derived speeds increased with range. Overall, we found time saved in the field using photogrammetry was more than offset by long analysis time. Theodolite data were relatively easy to collect, and produced accurate and precise results.",
+      "journal": "Marine pollution bulletin",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_21203_rs_3_rs-1008677_v1",
@@ -346,11 +913,27 @@
       "abstract": "<title>Abstract</title>\n        <p>Orca (<italic>Orcinus orca</italic>) is known for complex vocalisation. Their social structure consists of pods and clans sharing unique dialects due to geographic isolation. Sound type repertoires are fundamental for monitoring orca populations and are typically created visually and aurally. An orca pod occurring in the Ligurian Sea (Pelagos Sanctuary) in December 2019 provided a unique occasion for long-term recordings. The numerous data collected with the bottom recorder were analysed with a traditional human-driven inspection to create a repertoire of this pod and to compare it to catalogues from different orca populations (Icelandic and Antarctic) investigating its origins. Automatic signal detection and cross-correlation methods (R package warbleR) were used for the first time in orca studies. We found the Pearson cross-correlation method to be efficient for most pairwise calculations (&gt; 85%) but with false positives. One sound type from our ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_34690418",
+      "title": "Behavioral context of echolocation and prey-handling sounds produced by killer whales (",
+      "year": 2021,
+      "doi": "10.1111/mms.12836",
+      "abstract": "Availability of preferred salmonid prey and a sufficiently quiet acoustic environment in which to forage are critical to the survival of resident killer whales (",
+      "journal": "Marine Mammal Science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34645878",
+      "title": "Passive acoustic monitoring of killer whales (Orcinus orca) reveals year-round distribution and residency patterns in the Gulf of Alaska",
+      "year": 2021,
+      "doi": "10.1038/s41598-021-99668-0",
+      "abstract": "Killer whales (Orcinus orca) are top predators throughout the world's oceans. In the North Pacific, the species is divided into three ecotypes-resident (fish-eating), transient (mammal-eating), and offshore (largely shark-eating)-that are genetically and acoustically distinct and have unique roles in the marine ecosystem. In this study, we examined the year-round distribution of killer whales in the northern Gulf of Alaska from 2016 to 2020 using passive acoustic monitoring. We further described the daily acoustic residency patterns of three killer whale populations (southern Alaska residents, Gulf of Alaska transients, and AT1 transients) for one year of these data. Highest year-round acoustic presence occurred in Montague Strait, with strong seasonal patterns in Hinchinbrook Entrance and Resurrection Bay. Daily acoustic residency times for the southern Alaska residents paralleled seasonal distribution patterns. The majority of Gulf of Alaska transient detections occurred in Hinchinbrook Entrance in spring. The depleted AT1 transient killer whale population was most often identified in Montague Strait. Passive acoustic monitoring revealed that both resident and transient killer whales used these areas much more extensively than previously known and provided novel insights into high use locations and times for each population. These results may be driven by seasonal foraging opportunities and social factors and have management implications for this species.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_72032",
@@ -360,11 +943,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_53846_goediss-6292",
@@ -374,11 +953,7 @@
       "abstract": "The aim of this study was to describe and investigate the vocal repertoire and possible factors influencing the size and composition of two matrilineal social whale species: long-finned pilot whales and killer whales in Norway. I was not able to describe the entire vocal repertoire due to the large number of animals in this population and the limitations of fieldwork and time. In this thesis I describe a vocal repertoire subset from seven groups of pilot whales and 11 groups of killer whales recorded in the Vestfjord in northern Norway during the time period 2004 until 2011. Using observer-based acoustic analysis I could discern 129 call types and 25 subtypes for long-finned pilot whales, and 60 call types and 25 subtypes for killer whales. Per group, pilot whales used an average of 36 call types and killer whales just 25. The general structure of call types was similar, with most call types consisting of one segment and two elements with different structures. The main element structur",
       "journal": "",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-319-25582-8_110043",
@@ -388,11 +963,7 @@
       "abstract": "",
       "journal": "The Western Arctic Seas Encyclopedia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1242_jeb_094300",
@@ -402,11 +973,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>Killer whales (Orcinus orca) are thought to learn their vocal dialect. Dispersal in the species is rare, but effects of shifts in social association on the dialect can be studied under controlled conditions. Individual call repertoires and social association were measured in three adult female killer whales and three males (two juveniles and an adult) during two periods, 2001-2003 and 2005-2006. Three distinct dialect repertoires were represented among the subjects. An adventitious experiment in social change resulted from the birth of a calf and the transfer of two non-focal subjects in 2004. Across the two periods, 1691 calls were collected, categorized, and attributed to individuals. Repertoire overlap for each subject dyad was compared with an index of association. During 2005-2006, the two juvenile males increased association with the unrelated adult male. By the end of the period, both had begun producing novel calls and call features char",
       "journal": "Journal of Experimental Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2014_1370",
@@ -416,11 +983,7 @@
       "abstract": "Many animals produce vocal sequences that appear complex. Most researchers assume that these sequences are well characterized as Markov chains (i.e. that the probability of a particular vocal element can be calculated from the history of only a finite number of preceding elements). However, this assumption has never been explicitly tested. Furthermore, it is unclear how language could evolve in a single step from a Markovian origin, as is frequently assumed, as no intermediate forms have been found between animal communication and human language. Here, we assess whether animal taxa produce vocal sequences that are better described by Markov chains, or by non-Markovian dynamics such as the 'renewal process' (RP), characterized by a strong tendency to repeat elements. We examined vocal sequences of seven taxa: Bengalese finches Lonchura striata domestica, Carolina chickadees Poecile carolinensis, free-tailed bats Tadarida brasiliensis, rock hyraxes Procavia capensis, pilot whales Globice",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-012-0546-2",
@@ -430,11 +993,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3354_ab00353",
@@ -444,11 +1003,7 @@
       "abstract": "",
       "journal": "Aquatic Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00265-011-1148-8",
@@ -458,11 +1013,7 @@
       "abstract": "",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1748-7692_2010_00397_x",
@@ -472,11 +1023,7 @@
       "abstract": "Abstract In killer whales or orcas ( Orcinus orca ) vocal matching appears to be an important aspect of within‐group communication, but fish‐eating “resident” orcas frequently associate with whales that share little or none of their repertoire. The production of calls belonging to another group's repertoire would allow vocal matching in such contexts and has been observed in captive and free‐living orcas. However, reports were largely descriptive and neither structure nor usage of such “resemblance calls” have been investigated in detail. We analyzed resemblance calls in free‐living orcas when groups known to produce the respective call types were absent. In this context, they made up only 0.2% of the recorded calls. Time and frequency parameters of resemblance calls differed significantly from the “original” calls, and the accuracy of the resemblance calls ranged from rough renditions of a call type to the resemblance of call subtypes. Our results show that call sharing across vocal c",
       "journal": "Marine Mammal Science",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1575_1912_2421",
@@ -486,11 +1033,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1080_09524622_2008_9753802",
@@ -500,11 +1043,7 @@
       "abstract": "",
       "journal": "Bioacoustics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1121_1_2932512",
@@ -514,11 +1053,7 @@
       "abstract": "<jats:p>Anthropogenic sound exposure has been identified as a potential threat to endangered Southern Resident killer whales (SRKWs). Such exposure can mask important biological sounds including those used for social functions. Vocal animals might compensate for increased background noise by calling louder (the Lombard effect). In this study, amplitude compensation was investigated in SRKW communication calls recorded off of San Juan Island, WA, U.S.A. Data were obtained from two calibrated recording systems, a shore-based hydrophone array [V. Veirs, J. Acoust. Soc. Am., 116, 2615 (2004)] and a boat-based vertical array. Calls were localized using time of arrival differences to estimate range and apparent source levels after background levels were subtracted from the signal. Call levels were calculated assuming spreading loss functions determined from sound propagation observations made in situ. Results demonstrated a positive relationship between call levels and background levels. Cos",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1121_1_2799907",
@@ -528,11 +1063,7 @@
       "abstract": "<jats:p>Vocal communication within and between groups of individuals has been described extensively in birds and terrestrial mammals, however, little is known about how cetaceans utilize their sounds in their natural environment. Resident killer whales, Orcinus orca, live in highly stable matrilines and exhibit group-specific vocal dialects. Single call types cannot exclusively be associated with particular behaviors and calls are thought to function in group identification and intragroup communication. In the present study call usage of three closely related matrilines of the Northern resident community was compared in various intra- and intergroup contexts. In two out of the three matrilines significant changes in vocal behavior depending both on the presence and identity of accompanying whales were found. Most evidently, family-specific call subtypes, as well as aberrant and variable calls, were emitted at higher rates, whereas “low arousal” call types were used less in the presence",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_46867_ijcp_2007_20_02_09",
@@ -542,11 +1073,7 @@
       "abstract": "Marine mammals, especially cetaceans, are highly vocal and dependent on sound for almost all aspects of their lives, e.g. food-finding, reproduction, communication, detection of predators/hazards, and navigation. They are thus likely sensitive to anthropogenic noise. Sound has a large potential area of impact, sometimes covering millions of square kilometers of ocean with levels high enough to cause possible disturbance in marine mammals. There can be great variation in the reaction of marine mammals to noise, depending on such factors as species, individual, age, sex, prior experience with noise, and behavioral state. Species with similar hearing capabilities can respond differently to the same noise. Observed effects of noise on marine mammals include: changes in vocalizations, respiration, swim speed, diving, and foraging behavior; displacement, avoidance, shifts in migration path, stress, hearing damage, and strandings. Responses of marine mammals to noise can often be subtle and b",
       "journal": "International Journal of Comparative Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2003_06_017",
@@ -556,11 +1083,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_anbehav_2004_04_014",
@@ -570,11 +1093,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_15760_etd_5812",
@@ -584,11 +1103,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1575_1912_1765",
@@ -598,11 +1113,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_s0967-0645(98)00028-9",
@@ -612,11 +1123,7 @@
       "abstract": "",
       "journal": "Deep Sea Research Part II Topical Studies in Oceanography",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1139_z91-206",
@@ -626,11 +1133,7 @@
       "abstract": "Underwater vocalizations were recorded during repeated encounters with 16 pods, or stable kin groups, of resident killer whales (Orcinus orca) off the coast of British Columbia. Pods were identified from unique natural markings on individuals. Vocal exchanges within pods were dominated by repetitious, discrete calls. Pods each produced 7–17 (mean 10.7) types of discrete calls. Individuals appear to acquire their pod's call repertoire by learning, and repertoires can persist with little change for over 25 years. Call repertoires differed significantly among pods in the resident population. The 16 pods formed four distinct acoustic associations, or clans, each having a unique repertoire of discrete calls, or vocal tradition. Pods within a clan shared several call types, but no sharing took place among clans. Shared calls often contained structural variations specific to each pod or group of pods in the clan. These variants and other differences in acoustic behaviour formed a system of re",
       "journal": "Canadian Journal of Zoology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_3504225",
@@ -640,11 +1143,7 @@
       "abstract": "",
       "journal": "Mammalian Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1021_es0702519_s001",
@@ -654,14 +1153,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 25,
+  "paper_count": 40,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

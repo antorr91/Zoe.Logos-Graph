@@ -1,0 +1,248 @@
+- signal_id: signal:call
+  canonical_label: call
+  modality: acoustic
+  parent_signal_id: null
+  aliases:
+  - vocalisation
+  - vocalization
+  - vocal signal
+  - note
+  definition: 'A discrete acoustic signal, typically shorter and simpler than song,
+    produced in a variety of contexts including contact, alarm, and parent-offspring
+    interaction.
+
+    '
+  scope_note: 'Use as parent for more specific call types. Use ''signal:call'' only
+    when the source is too vague to assign a more specific type.
+
+    '
+- signal_id: signal:song
+  canonical_label: song
+  modality: acoustic
+  parent_signal_id: null
+  aliases:
+  - full song
+  - learned song
+  definition: 'A complex, often stereotyped sequence of notes, typically learned and
+    used primarily in reproductive or territorial contexts.
+
+    '
+  scope_note: 'Reserve for signals explicitly described as ''song'' by the source.
+    Do not infer song from descriptions of complex vocalisations alone.
+
+    '
+  acoustic_descriptor: tonal
+- signal_id: signal:click
+  canonical_label: click
+  modality: acoustic
+  parent_signal_id: null
+  aliases:
+  - click train
+  definition: 'Brief, broadband pulse used in echolocation or communication, characteristic
+    of cetaceans, some bats, and a few bird species.
+
+    '
+  acoustic_descriptor: broadband
+- signal_id: signal:drum
+  canonical_label: drumming
+  modality: acoustic
+  parent_signal_id: null
+  aliases:
+  - substrate drumming
+  - mechanical percussion
+  definition: 'Mechanically produced acoustic signal created by striking a substrate
+    (e.g. woodpecker on wood, kangaroo rat foot-drumming).
+
+    '
+- signal_id: signal:stridulation
+  canonical_label: stridulation
+  modality: acoustic
+  parent_signal_id: null
+  aliases:
+  - frictional sound
+  - tegminal stridulation
+  definition: 'Acoustic signal produced by rubbing body parts together, common in
+    insects (crickets, grasshoppers) and some vertebrates.
+
+    '
+- signal_id: signal:alarm_call
+  canonical_label: alarm call
+  modality: acoustic
+  parent_signal_id: signal:call
+  aliases:
+  - alarm vocalisation
+  - alarm vocalization
+  - alarm note
+  - anti-predator call
+  - warning call
+  definition: 'Acoustic signal produced in response to a predator, threat, or disturbance.
+    May encode information about threat type or urgency.
+
+    '
+  scope_note: 'Use only when the source explicitly describes a predator, threat, alarm,
+    or warning context. Do not assign alarm_call to undescribed calls.
+
+
+    NOTE: ''distress call'' is ambiguous — use signal:alarm_call only when predator/threat
+    context is explicit. Use signal:isolation_call for separated young calling for
+    a parent.'
+  acoustic_descriptor: broadband
+- signal_id: signal:contact_call
+  canonical_label: contact call
+  modality: acoustic
+  parent_signal_id: signal:call
+  aliases:
+  - contact note
+  - cohesion call
+  - location call
+  - flight call
+  definition: 'Short acoustic signal used to maintain contact among conspecifics,
+    especially during foraging, migration, or group movement.
+
+    '
+  scope_note: 'Source should describe group cohesion, contact maintenance, or individual
+    location. Often tonal and brief.
+
+    '
+  acoustic_descriptor: tonal
+- signal_id: signal:isolation_call
+  canonical_label: isolation call
+  modality: acoustic
+  parent_signal_id: signal:call
+  aliases:
+  - distress call
+  - separation call
+  - peep
+  - lost call
+  - distress call
+  definition: 'Vocalisation produced by separated or isolated young animals to attract
+    parental attention.
+
+    '
+  scope_note: 'Primarily a developmental/early-life signal. Source should describe
+    separation or parent-offspring context.
+
+
+    NOTE: ''distress call'' is ambiguous — this term maps ''distress call'' only when
+    the source describes a separated or isolated young individual.'
+- signal_id: signal:begging_call
+  canonical_label: begging call
+  modality: acoustic
+  parent_signal_id: signal:call
+  aliases:
+  - food begging call
+  - solicitation call
+  definition: 'Acoustic signal produced by dependent offspring to elicit provisioning
+    from parents or caregivers.
+
+    '
+- signal_id: signal:recruitment_call
+  canonical_label: recruitment call
+  modality: acoustic
+  parent_signal_id: signal:call
+  aliases:
+  - mobbing call
+  - assembly call
+  - rally call
+  definition: 'Acoustic signal that attracts conspecifics or heterospecifics to a
+    location, often to mob a predator or assemble a group.
+
+    '
+- signal_id: signal:subsong
+  canonical_label: subsong
+  modality: acoustic
+  parent_signal_id: signal:song
+  aliases:
+  - quiet song
+  - whisper song
+  - low-amplitude song
+  definition: 'Low-amplitude, variable, and often incomplete song produced mainly
+    during the early phases of vocal learning or in non-breeding contexts.
+
+    '
+  scope_note: 'Do not use for plastic song unless source explicitly uses ''subsong''.
+
+    '
+- signal_id: signal:plastic_song
+  canonical_label: plastic song
+  modality: acoustic
+  parent_signal_id: signal:song
+  aliases:
+  - variable song
+  - transitional song
+  definition: 'Intermediate song type during the vocal learning process, more variable
+    than crystallised adult song but more structured than subsong.
+
+    '
+- signal_id: signal:crystallised_song
+  canonical_label: crystallised song
+  modality: acoustic
+  parent_signal_id: signal:song
+  aliases:
+  - adult song
+  - stereotyped song
+  - stable song
+  definition: 'Mature, stereotyped song produced by adult songbirds after completion
+    of the sensitive period for vocal learning.
+
+    '
+- signal_id: signal:echolocation_call
+  canonical_label: echolocation call
+  modality: acoustic
+  parent_signal_id: signal:call
+  aliases:
+  - biosonar pulse
+  - echolocation pulse
+  - ultrasonic pulse
+  definition: 'High-frequency acoustic signal used for spatial orientation and prey
+    detection via echo returns, common in bats and odontocetes.
+
+    '
+  acoustic_descriptor: ultrasonic
+- signal_id: signal:whistle
+  canonical_label: whistle
+  modality: acoustic
+  parent_signal_id: signal:call
+  aliases:
+  - tonal call
+  - pure tone
+  definition: 'Tonal, often frequency-modulated acoustic signal. Includes dolphin
+    signature whistles and some passerine contact calls.
+
+    '
+  acoustic_descriptor: tonal
+- signal_id: signal:signature_whistle
+  canonical_label: signature whistle
+  modality: acoustic
+  parent_signal_id: signal:whistle
+  aliases:
+  - individual whistle
+  - identity whistle
+  definition: 'Individually distinctive whistle produced by bottlenose dolphins and
+    possibly other odontocetes, functioning in individual recognition.
+
+    '
+- signal_id: signal:visual_display
+  canonical_label: visual display
+  modality: visual
+  parent_signal_id: null
+  aliases:
+  - visual signal
+  - plumage display
+  - postural display
+  definition: 'Signal transmitted through the visual channel, including colour patterns,
+    postures, and movements.
+
+    '
+- signal_id: signal:chemical_signal
+  canonical_label: chemical signal
+  modality: chemical
+  parent_signal_id: null
+  aliases:
+  - pheromone
+  - semiochemical
+  - olfactory signal
+  definition: 'Signal transmitted through chemical compounds, including pheromones,
+    kairomones, and other semiochemicals.
+
+    '

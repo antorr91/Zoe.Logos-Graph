@@ -24,10 +24,10 @@
     "color": "amber"
   },
   "stats": {
-    "paper_count": 22,
-    "claim_count": 9,
-    "doi_count": 22,
-    "media_count": 0
+    "paper_count": 39,
+    "claim_count": 8,
+    "doi_count": 32,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,8 +42,8 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "call"
+    "call",
+    "alarm call"
   ],
   "contexts": [
     "group coordination",
@@ -56,80 +56,223 @@
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "value": "call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
-        "value": "call",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "contexts": [
       {
         "value": "group coordination",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "predator response",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "functions": [
       {
         "value": "alarm and recruitment",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "composite signal",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
-    "methods": [
-      {
-        "value": "playback experiment",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "sequence analysis",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "video tracking",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      }
-    ]
+    "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1802,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1801,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1800,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1799,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1798,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1797,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1796,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1795,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Parus minor",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1007/s10071-025-01964-z",
+      "url": "https://doi.org/10.1007/s10071-025-01964-z",
+      "title": "The influence of body condition and personality on nest defense behavior of Japanese tits (Parus minor)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/biology14030297",
+      "url": "https://doi.org/10.3390/biology14030297",
+      "title": "Feathers of Grace: The \"After You\" Gesture in Japanese Tits",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1145/3702336.3702344",
+      "url": "https://doi.org/10.1145/3702336.3702344",
+      "title": "Vocalizations of the Parus minor Bird: Taxonomy and Automatic Classification",
+      "year": 2024,
+      "source": "crossref"
+    },
+    {
       "doi": "10.2173/bow.gretit4.02",
       "url": "https://doi.org/10.2173/bow.gretit4.02",
       "title": "Japanese Tit (Parus minor)",
       "year": 2024,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-022-01701-w",
+      "url": "https://doi.org/10.1007/s10071-022-01701-w",
+      "title": "Free-range domestic chickens can distinguish between different alarm calls of Japanese tits",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-47052-5",
+      "url": "https://doi.org/10.1038/s41598-023-47052-5",
+      "title": "Unlearned adaptive responses to heterospecific referential alarm calls in two bird species from separate evolutionary lineages",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41467-022-33360-3",
+      "url": "https://doi.org/10.1038/s41467-022-33360-3",
+      "title": "Experimental evidence for core-Merge in the vocal communication system of a wild passerine",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani12182342",
+      "url": "https://doi.org/10.3390/ani12182342",
+      "title": "Geographic Variation in Note Types of Alarm Calls in Japanese Tits (",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani12243537",
+      "url": "https://doi.org/10.3390/ani12243537",
+      "title": "Avian Alarm Calls Do Not Induce Anti-Predator Response in Three Anuran Species",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.3838/jjo.71.171",
@@ -167,10 +310,24 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1371/journal.pbio.2006532",
+      "url": "https://doi.org/10.1371/journal.pbio.2006532",
+      "title": "Call combinations in birds and the evolution of compositional syntax",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1016/j.cub.2017.06.031",
       "url": "https://doi.org/10.1016/j.cub.2017.06.031",
       "title": "Wild Birds Use an Ordering Rule to Decode Novel Call Sequences",
       "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0071476",
+      "url": "https://doi.org/10.1371/journal.pone.0071476",
+      "title": "Sleepless in Town – Drivers of the Temporal Shift in Dawn Song in Urban European Blackbirds",
+      "year": 2013,
       "source": "openalex"
     },
     {
@@ -281,6 +438,26 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40426010",
+      "title": "The influence of body condition and personality on nest defense behavior of Japanese tits (Parus minor)",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01964-z",
+      "abstract": "When faced with a predator, parent birds have to choose between current and future breeding. Previous studies have shown that the body condition and personality of parents influence the trade-offs. However, whether body condition and personality influence an individual's nest defense behavior has rarely been investigated. Here, we studied whether body condition and personality affect the nest defense behavior of incubating Japanese tits (Parus minor). Some females exhibited intense nest defense behavior when human-simulated intruders approached. Notably, individuals exhibiting high nest defense behavior had significantly shorter tail lengths compared to individuals who did not. In addition, bold individuals would exhibit higher nest defense behavior than those showing low defense responses. Furthermore, bold individuals consistently demonstrated stronger nest defense behavior compared to shy individuals, aligning with their proactive personality traits. This pattern highlights the potential role of individual behavioral differences in shaping anti-predator strategies.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40136554",
+      "title": "Feathers of Grace: The \"After You\" Gesture in Japanese Tits",
+      "year": 2025,
+      "doi": "10.3390/biology14030297",
+      "abstract": "A recent study found evidence of symbolic gesture use in Japanese tits (",
+      "journal": "Biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_2173_bow_gretit4_02",
       "title": "Japanese Tit (Parus minor)",
       "year": 2024,
@@ -288,11 +465,77 @@
       "abstract": "",
       "journal": "Birds of the World",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1145_3702336_3702344",
+      "title": "Vocalizations of the Parus minor Bird: Taxonomy and Automatic Classification",
+      "year": 2024,
+      "doi": "10.1145/3702336.3702344",
+      "abstract": "",
+      "journal": "Proceedings of the International Conference on Animal-Computer Interaction",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_38692462",
+      "title": "Behavioral responses to predator and heterospecific alarm calls are habitat-specific in Eurasian tree sparrows",
+      "year": 2024,
+      "doi": "10.1016/j.beproc.2024.105043",
+      "abstract": "Acoustic communication plays a vital role in predator-prey interactions. Although habitat structure has been shown to affect anti-predator tactics, little is known about how animals vary their behaviors in response to predator calls or heterospecific alarm calls in different environments. Here we used sound playbacks to test the responses of Eurasian tree sparrows (Passer montanus) foraging in harvested/unharvested rice paddy and open residential area. In the first experiment, we tested their behavioral responses to dove calls, male common cuckoo (Cuculus canorus) calls, hawk-like calls mimicked by female common cuckoo, sparrowhawk (Accipiter nisus) calls, and human yell calls produced to scare birds (predator signal playbacks). In the second experiment, we tested their behavioral responses to the Japanese tit's (Parus minor) territorial songs and alarm calls (heterospecific alarm signal playbacks). Results showed that the tree sparrows had less fleeing in unharvested ripe rice paddy than in harvested rice paddy and open residential area. In predator signal playbacks, call type affected the escape behavior of sparrows in unharvested rice paddy and open residential area but not harvested rice paddy. In alarm signal playbacks, tit alarm calls evoked more fleeing than territorial songs in harvested rice paddy and open residential area but not unharvested rice paddy. These results suggest that anthropogenic habitat changes may influence avian anti-predator tactics.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38545992",
+      "title": "Minimal Compositionality versus Bird Implicatures: two theories of ABC-D sequences in Japanese tits",
+      "year": 2024,
+      "doi": "10.1111/brv.13068",
+      "abstract": "It was argued in a series of experimental studies that Japanese tits (Parus minor) have an ABC call that has an alert function, a D call that has a recruitment function, and an ABC-D call that is compositionally derived from ABC and D, and has a mobbing function. A key conclusion was that ABC-D differs from the combination of separate utterances of ABC and of D (e.g. as played by distinct but close loudspeakers). While the logic of the argument is arguably sound, no explicit rule has been proposed to derive the meaning of ABC-D from that of its parts. We compare two analyses. One posits a limited instance of semantic compositionality ('Minimal Compositionality'); the other does without compositionality, but uses instead a more sophisticated pragmatics ('Bird Implicatures'). Minimal Compositionality takes the composition of ABC and D to deviate only minimally from what would be found with two independent utterances: ABC means that 'there is something that licenses an alert', D means that 'there is something that licenses recruitment', and ABC-D means that 'there is something that licenses both an alert and recruitment'. By contrast, ABC and D as independent utterances yield something weaker, namely: 'there is something that licenses an alert, and there is something that licenses recruitment', without any 'binding' across the two utterances. The second theory, Bird Implicatures, only requires that ABC-D should be more informative than ABC, and/or than D. It builds on the idea, proposed for several monkey species, that a less-informative call competes with a more informative one (the 'Informativity Principle'): when produced alone, ABC and D trigger an inference that ABC-D is false. We explain how both Minimal Compositionality and Bird Implicatures could have evolved, and we compare the predictions of the two theories. Finally, we extend the discussion to some chimpanzee and meerkat sequences that might raise related theoretical problems.",
+      "journal": "Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38531311",
+      "title": "The 'after you' gesture in a bird",
+      "year": 2024,
+      "doi": "10.1016/j.cub.2024.01.030",
+      "abstract": "Gestures are ubiquitous in human communication, involving movements of body parts produced for a variety of purposes, such as pointing out objects (deictic gestures) or conveying messages (symbolic gestures)",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37985886",
+      "title": "Unlearned adaptive responses to heterospecific referential alarm calls in two bird species from separate evolutionary lineages",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-47052-5",
+      "abstract": "The interspecific responses to alarm signals may be based on unlearned mechanisms but research is often constrained by the difficulties in differentiating between unlearned and learned responses in natural situations. In a field study of two Paridae species, Parus minor and Sittiparus varius, who originated from a common ancestor 8 million years ago, we found a considerable degree of between-species overlap in acoustic properties of referential snake-alarm calls. Playback of these calls triggered unlearned adaptive fledging behavior in conspecific and heterospecific naive nestlings, suggesting a between-species overlap in the hypothetical unlearned neural templates involved in nestlings' reactions to alarm calls in both species. This suggests that similar calls and similar unlearned sensitivity might have been present in the common ancestor of the two species, and possibly in the ancestor of the whole family Paridae that originated 10-15 million years ago in Asian regions rich in snakes.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36960599",
+      "title": "The ABC-D of animal linguistics: are syntax and compositionality for real?",
+      "year": 2023,
+      "doi": "10.1111/brv.12944",
+      "abstract": "In several animal species, an alarm call (e.g. ABC notes in the Japanese tit Parus minor) can be immediately followed by a recruitment call (e.g. D notes) to yield a complex call that triggers a third behaviour, namely mobbing. This has been taken to be an argument for animal syntax and compositionality (i.e. the property by which the meaning of a complex expression depends on the meaning of its parts and the way they are put together). Several additional discoveries were made across species. First, in some cases, animals respond with mobbing to the order alarm-recruitment but not to the order recruitment-alarm. Second, animals sometimes respond similarly to functionally analogous heterospecific calls they have never heard before, and/or to artificial hybrid sequences made of conspecific and heterospecific calls in the same order, thus adding an argument for the productivity of the relevant rules. We consider the details of these arguments for animal syntax and compositionality and argue that, with one important exception (Japanese tit ABC-D sequences), they currently remain ambiguous: there are reasonable alternatives on which each call is a separate utterance and is interpreted as such ('trivial compositionality'). More generally, we propose that future studies should argue for animal syntax and compositionality by explicitly pitting the target theory against two deflationary analyses: the 'only one expression' hypothesis posits that there is no combination in the first place, for example just a simplex ABCD call; while the 'separate utterances' hypothesis posits that there are separate expressions (e.g. ABC and D), but that they form separate utterances and are neither syntactically nor semantically combined.",
+      "journal": "Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36209189",
+      "title": "Free-range domestic chickens can distinguish between different alarm calls of Japanese tits",
+      "year": 2023,
+      "doi": "10.1007/s10071-022-01701-w",
+      "abstract": "Heterospecific eavesdropping of alarm information is an anti-predator adaptation in the wild as it improves the monitoring of shared predators and hence provides opportunities to avoid predators. Our current understanding of heterospecific eavesdropping information is based primarily on studies of bird, primate, or ungulate populations in the wild, whereas little is known regarding the ability of domesticated species to respond to alarm signals from wild individuals. Using sound playback experiments, we assessed the behavioral responses of free-range domestic chickens (Gallus gallus domesticus) in Hainan to alarm calls (test playback) and songs (control playback) of wild Japanese tits (Parus minor). The results revealed that free-range domestic chickens showed greater vigilance to the alarm calls of Japanese tits than to the songs of Japanese tits, especially their alarm calls for Siberian chipmunks (Tamias sibiricus). Furthermore, individual-foraging single chickens were significantly more vigilant than those foraging collectively in groups. Our findings suggest that free-range domestic chickens are as capable as wild birds in responding to heterospecific alarm calls and are likely to be able to distinguish between different types of heterospecific alarm calls.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3838_jjo_71_171",
@@ -302,11 +545,37 @@
       "abstract": "",
       "journal": "Japanese Journal of Ornithology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36552456",
+      "title": "Avian Alarm Calls Do Not Induce Anti-Predator Response in Three Anuran Species",
+      "year": 2022,
+      "doi": "10.3390/ani12243537",
+      "abstract": "Many species produce alarm calls in response to predators, and the anti-predator signals are often used by other species. Eavesdropping on heterospecific alarm calls has been widely found in bird and mammal species. Other taxa, such as reptiles and amphibians, however, receive limited attention at present. Here, we selected three types of alarm calls of Japanese Tits (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36153329",
+      "title": "Experimental evidence for core-Merge in the vocal communication system of a wild passerine",
+      "year": 2022,
+      "doi": "10.1038/s41467-022-33360-3",
+      "abstract": "One of the cognitive capacities underlying language is core-Merge, which allows senders to combine two words into a sequence and receivers to recognize it as a single unit. Recent field studies suggest intriguing parallels in non-human animals, e.g., Japanese tits (Parus minor) combine two meaning-bearing calls into a sequence when prompting antipredator displays in other individuals. However, whether such examples represent core-Merge remains unclear; receivers may perceive a two-call sequence as two individual calls that are arbitrarily produced in close time proximity, not as a single unit. If an animal species has evolved core-Merge, its receivers should treat a two-call sequence produced by a single individual differently from the same two calls produced by two individuals with the same timing. Here, we show that Japanese tit receivers exhibit antipredator displays when perceiving two-call sequences broadcast from a single source, but not from two sources, providing evidence for core-Merge in animals.",
+      "journal": "Nature communications",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36139202",
+      "title": "Geographic Variation in Note Types of Alarm Calls in Japanese Tits (",
+      "year": 2022,
+      "doi": "10.3390/ani12182342",
+      "abstract": "Geographic variability in acoustic signals has been documented in many bird species. However, geographic variations in alarm calls have been so far neglected despite their crucial role on reducing risk to group members and relatives. We analyzed the note types and acoustic parameters of Japanese tit (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_1440-1703_12200",
@@ -316,11 +585,7 @@
       "abstract": "Abstract Establishing the theory of language evolution is an ongoing challenge in science. One profitable approach in this regard is to seek the origins of linguistic capabilities by comparing language with the vocal communication systems of closely related relatives (i.e., the great apes). However, several key capabilities of language appear to be absent in non‐human primates, which limits the range of studies, such as direct phylogenetic comparison. A further informative approach lies in identifying convergent features in phylogenetically distant animals and conducting comparative studies. This approach is particularly useful with respect to establishing general rules for the evolution of linguistic capabilities. In this article, I review recent findings on linguistic capabilities in a passerine bird species, the Japanese tit ( Parus minor ). Field experiments have revealed that Japanese tits produce unique alarm calls when encountering predatory snakes, which serve to enhance the vi",
       "journal": "Ecological Research",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2173_bow_gretit4_01",
@@ -330,11 +595,27 @@
       "abstract": "",
       "journal": "Birds of the World",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_32413306",
+      "title": "Other Species' Alarm Calls Evoke a Predator-Specific Search Image in Birds",
+      "year": 2020,
+      "doi": "10.1016/j.cub.2020.04.062",
+      "abstract": "Many animals produce vocal alarm signals when they detect a predator, and heterospecific species sharing predators often eavesdrop on and respond to these calls [1]. Despite the widespread occurrence of interspecific eavesdropping in animals, its underlying cognitive process remains to be elucidated. If alarm calls, like human referential words, denote a specific predator type (e.g., \"snake!\"), then receivers may retrieve a mental image of the predator when hearing these calls [2-4]. Here, using a recently developed experimental paradigm [5], I test whether heterospecific alarm calls evoke a predator-specific visual search image in wild birds. During playback of snake-specific alarm calls produced by Japanese tits (Parus minor), coal tits (Periparus ater) approach a wooden stick being moved in a snake-like manner. However, coal tits do not approach the same stick when hearing other call types or if the stick's movement is dissimilar to that of a snake. Thus, Japanese tit snake alarms cause coal tits to specifically enhance visual attention to snakelike objects. These results provide experimental evidence for the evocation of visual search images by heterospecific alarm calls, highlighting the importance of integrating cross-modal information in interspecific eavesdropping.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30847677",
+      "title": "Imagery in wild birds: Retrieval of visual information from referential alarm calls",
+      "year": 2019,
+      "doi": "10.3758/s13420-019-00374-9",
+      "abstract": "Japanese tits (Parus minor) produce specific alarm calls when they encounter a predatory snake. A recent field experiment showed that receiver tits became visually perceptive to an object resembling a snake when hearing these calls. However, the tits did not respond to the same object when hearing other call types or when the object was dissimilar to a snake. These findings provide the first experimental evidence for the retrieval of a visual search image from specific alarm calls, offering a novel approach for investigating the cognitive mechanisms underlying referential communication in wild animals.",
+      "journal": "Learning & behavior",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1073_pnas_1718884115",
@@ -344,11 +625,7 @@
       "abstract": "One of the core features of human speech is that words cause listeners to retrieve corresponding visual mental images. However, whether vocalizations similarly evoke mental images in animal communication systems is surprisingly unknown. Japanese tits (<i>Parus minor</i>) produce specific alarm calls when and only when encountering a predatory snake. Here, I show that simply hearing these calls causes tits to become more visually perceptive to objects resembling snakes. During playback of snake-specific alarm calls, tits approach a wooden stick being moved in a snake-like fashion. However, tits do not respond to the same stick when hearing other call types or if the stick's movement is dissimilar to that of a snake. Thus, before detecting a real snake, tits retrieve its visual image from snake-specific alarm calls and use this to search out snakes. This study provides evidence for a call-evoked visual search image in a nonhuman animal, offering a paradigm to explore the cognitive basis ",
       "journal": "Proceedings of the National Academy of Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-319-91689-7_13",
@@ -358,11 +635,27 @@
       "abstract": "Urban habitats and landscapes are markedly different from nonurban “natural” habitats. The major difference is the transformation of the land, from natural green areas to anthropogenic structures and impervious surfaces. To survive in the urban habitat, birds are forced to either accept or avoid the new conditions. In addition, the urban sprawl has led to a highly fragmented landscape, with islets of suitable bird habitat surrounded by highways and buildings that frequently act as barriers, even for mobile creatures such as birds. These altered conditions have changed the avifauna dramatically, with many species vanishing once an area is urbanized, thus resulting in a significant loss of local biodiversity. However, some species seem to thrive in the city, and these urban-dwelling species often show pronounced phenotypic differences (e.g., in behavior, physiology, and morphology) to their rural conspecifics. These phenotypic changes have been linked to specific urban selective drivers ",
       "journal": "Fascinating life sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_30110321",
+      "title": "Call combinations in birds and the evolution of compositional syntax",
+      "year": 2018,
+      "doi": "10.1371/journal.pbio.2006532",
+      "abstract": "Syntax is the set of rules for combining words into phrases, providing the basis for the generative power of linguistic expressions. In human language, the principle of compositionality governs how words are combined into a larger unit, the meaning of which depends on both the meanings of the words and the way in which they are combined. This linguistic capability, i.e., compositional syntax, has long been considered a trait unique to human language. Here, we review recent studies on call combinations in a passerine bird, the Japanese tit (Parus minor), that provide the first firm evidence for compositional syntax in a nonhuman animal. While it has been suggested that the findings of these studies fail to provide evidence for compositionality in Japanese tits, this criticism is based on misunderstanding of experimental design, misrepresentation of the importance of word order in human syntax, and necessitating linguistic capabilities beyond those given by the standard definition of compositionality. We argue that research on avian call combinations has provided the first steps in elucidating how compositional expressions could have emerged in animal communication systems.",
+      "journal": "PLoS biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29378940",
+      "title": "Alarm calls evoke a visual search image of a predator in birds",
+      "year": 2018,
+      "doi": "10.1073/pnas.1718884115",
+      "abstract": "One of the core features of human speech is that words cause listeners to retrieve corresponding visual mental images. However, whether vocalizations similarly evoke mental images in animal communication systems is surprisingly unknown. Japanese tits (",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_cub_2017_06_031",
@@ -372,11 +665,7 @@
       "abstract": "",
       "journal": "Current Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "paper_009",
@@ -386,11 +675,17 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "pilot",
-      "developmental_stage": "adult",
-      "main_outcome": "Japanese tits combine two call types into a fixed-order sequence that elicits a distinct behavioural response not produced by either call alone, suggesting compositional syntax.",
-      "dataset_available": "no",
-      "dataset_name": null
+      "source": "pilot"
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0071476",
+      "title": "Sleepless in Town – Drivers of the Temporal Shift in Dawn Song in Urban European Blackbirds",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0071476",
+      "abstract": "Organisms living in urban environments are exposed to different environmental conditions compared to their rural conspecifics. Especially anthropogenic noise and artificial night light are closely linked to urbanization and pose new challenges to urban species. Songbirds are particularly affected by these factors, because they rely on the spread of acoustic information and adjust their behaviour to the rhythm of night and day, e.g. time their dawn song according to changing light intensities. Our aim was to clarify the specific contributions of artificial night light and traffic noise on the timing of dawn song of urban European Blackbirds (Turdus merula). We investigated the onset of blackbird dawn song along a steep urban gradient ranging from an urban forest to the city centre of Leipzig, Germany. This gradient of anthropogenic noise and artificial night light was reflected in the timing of dawn song. In the city centre, blackbirds started their dawn song up to 5 hours earlier compa",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1134_s1062359011090044",
@@ -400,11 +695,7 @@
       "abstract": "",
       "journal": "Biology Bulletin",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1439-0310_2008_01514_x",
@@ -414,11 +705,7 @@
       "abstract": "",
       "journal": "Ethology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1644_07-mamm-s-307r_1",
@@ -428,11 +715,7 @@
       "abstract": "Abstract The amount of underwater sound from ship traffic, commercial, research, and military sound sources has increased significantly over the past century. Marine mammals and many other marine animals rely on sound for short- and long-range communication, for orientation, and for locating prey. This reliance has raised concern that elevated sound levels from human sources may interfere with the behavior and physiology of marine animals. The dominant source of human sound in the sea stems from propulsion of ships. Shipping noise centers in the 20- to 200-Hz band. Frequencies this low propagate efficiently in the sea, and shipping has elevated the global deepwater ambient noise 10- to 100-fold in this frequency band. Baleen whales use the same frequency band for some of their communication signals, and concern has been raised that elevated ambient noise may reduce the range over which they can communicate. Marine mammals have a variety of mechanisms to compensate for increased noise, ",
       "journal": "Journal of Mammalogy",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_1568539042360152",
@@ -442,11 +725,7 @@
       "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>Songbirds living in temperate forests experience great seasonal changes in habitat acoustics during the part of the breeding season when singing activity is high. These changes, which are brought about by accelerated vegetation growth and leaf burst in spring, affect sound propagation and potentially render vocal communication more difficult as the total number of scattering and absorbing obstacles increases. We investigated this in a sound transmission experiment in which representative great tit (Parus major) songs were broadcast in a typical forest habitat before and after foliation. Speaker and microphone were placed at natural separation distances and in typical sender and receiver positions. For each song note we quantified several aspects of sound degradation and found that they all increased considerably when leaves were present. Before foliation the same amount of degradation would only be obtained by doubling the transmission",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_0021-8790_2004_00814_x",
@@ -456,11 +735,7 @@
       "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s004420050475",
@@ -470,11 +745,7 @@
       "abstract": "",
       "journal": "Oecologia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1080_09524622_1997_9753339",
@@ -484,11 +755,7 @@
       "abstract": "",
       "journal": "Bioacoustics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1523_jneurosci_17-15-06001_1997",
@@ -498,11 +765,7 @@
       "abstract": "Seasonal changes in the neural attributes of brain nuclei that control song in songbirds are among the most pronounced examples of naturally occurring plasticity in the adult brain of any vertebrate. The behavioral correlates of this seasonal neural plasticity have not been well characterized, particularly in songbird species that lack adult song learning. To address this question, we investigated the relationship between seasonal changes in gonadal steroids, song nuclei, and song behavior in adult male song sparrows (Melospiza melodia). At four times of the year, we measured plasma concentrations of testosterone, neural attributes of song nuclei, and several aspects of song structure in wild song sparrows of a nonmigratory population. We found seasonal changes in the song nuclei that were temporally correlated with changes in testosterone concentrations and with changes in song stereotypy. Male song sparrows sang songs that were more variable in structure in the fall, when testosteron",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_3676789",
@@ -512,11 +775,7 @@
       "abstract": "",
       "journal": "Ornis Scandinavica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1523_jneurosci_13-11-04737_1993",
@@ -526,11 +785,7 @@
       "abstract": "Juvenile white-crowned sparrows learn to sing by first memorizing an adult's song and then progressively matching their vocalizations to this model during plastic song. Previous studies have shown that neurons in the song-system nucleus HVC of adult sparrows respond preferentially to a bird's own song. In this study, the auditory selectivity of HVC neurons in subadult birds was examined. In young, nonsinging birds who had been song tutored, these cells responded to song stimuli, and at some recording sites had distinct preferences for one song or another. As a population, however, HVC neurons in these birds showed no preference for familiar song. They were no more likely to prefer normal tutor song to reversed tutor song or to the song of another white-crowned subspecies. By contrast, in birds producing plastic song, HVC neurons were selective for the bird's own songs, even in preference to their tutor song. Therefore, during song learning the response properties of HVC neurons appear ",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3312_jyio1952_11_1",
@@ -540,11 +795,7 @@
       "abstract": "",
       "journal": "Journal of the Yamashina Institute for Ornithology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_title_155043",
@@ -554,11 +805,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_p_323242",
@@ -568,11 +815,7 @@
       "abstract": "",
       "journal": "The Birds of Asia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31979_etd_db37-msmd",
@@ -582,14 +825,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 22,
+  "paper_count": 39,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

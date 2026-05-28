@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 31,
+    "claim_count": 18,
+    "doi_count": 20,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,32 +42,32 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "drumming",
-    "grunt"
+    "grunt",
+    "drumming"
   ],
   "contexts": [
     "courtship",
-    "male competition",
-    "territorial defence"
+    "territorial defence",
+    "male competition"
   ],
   "functions": [
-    "male competition",
+    "territory signalling",
     "mate attraction",
-    "territory signalling"
+    "male competition"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "drumming",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "grunt",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "drumming",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -75,43 +75,279 @@
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "male competition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
+        "evidence_count": 2
+      },
       {
         "value": "male competition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      }
+    ],
+    "functions": [
+      {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territory signalling",
+        "value": "male competition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 226,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 225,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 224,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 223,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 222,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 221,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 220,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 219,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 218,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 217,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 216,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 215,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 214,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 213,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 212,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 211,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 210,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 209,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -119,6 +355,27 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41598-026-36572-5",
+      "url": "https://doi.org/10.1038/s41598-026-36572-5",
+      "title": "Dissemination of vancomycin-resistant Enterococcus faecalis and Enterococcus faecium between humans and fishes",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani15243511",
+      "url": "https://doi.org/10.3390/ani15243511",
+      "title": "Divergent Embryo Responses to Chemical Cues in Two Freshwater Fishes with Different Parental Care Strategies",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1155/2023/5866719",
+      "url": "https://doi.org/10.1155/2023/5866719",
+      "title": "Microbial Profile of Fresh and Semicooked Nile Tilapia (",
+      "year": 2023,
+      "source": "pubmed"
+    },
     {
       "doi": "10.3390/polym15030544",
       "url": "https://doi.org/10.3390/polym15030544",
@@ -241,6 +498,66 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41794857",
+      "title": "Dissemination of vancomycin-resistant Enterococcus faecalis and Enterococcus faecium between humans and fishes",
+      "year": 2026,
+      "doi": "10.1038/s41598-026-36572-5",
+      "abstract": "Vancomycin-resistant enterococci (VRE) are a major public health concern, yet little is known about their circulation in fish. This study investigated the occurrence, glycopeptide resistance genotypes, virulence characteristics, and sequence types (STs) of VRE isolated from diseased fishes and humans. Isolates were identified using multiplex polymerase chain reaction (PCR) assay and matrix-assisted laser desorption/ionization time-of-flight mass spectrometry (MALDI-TOF MS), and tested for antimicrobial susceptibility. VRE isolates were screened for the presence of glycopeptide resistance genes and eight virulence genes. Multilocus sequence typing (MLST) was determined to assess the clonality of VRE isolates from fishes and humans. Among 60 human samples, 20 Enterococcus species isolates (33.33%) including Enterococcus faecalis and Enterococcus faecium (10 of each), were identified. The overall prevalence of E. faecalis was 42.86% (30/70) in Oreochromis niloticus and 48.0% (24/50) in Clarias gariepinus. E. faecium was found in 15.71% (11/70) of Oreochromis niloticus and 14.0% (7/50) of Clarias gariepinus. Over 50% of human isolates were multidrug resistant (MDR) and 30% exhibited an extensive drug resistant (XDR) phenotype. Fish isolates also displayed high MDR (70.83%) and XDR (29.17%) rates. Forty-nine (53.26%; 34 from fish and 15 from human) isolates were VRE including 30 isolates of E. faecalis (VREfs) and 19 isolates of E. faecium (VREfm). The vanA gene was the most frequent among VREfs (83.33%) and VREfm (100%) isolates. The vanB gene was found in 26.67% of VREfs and 15.79% of VREfm. Three out of 10 VREfm (30%) and 2/24 (8.33%) VREfs isolates of fish origin carried both vanA and vanB genes. vanC gene was found in 13.33% (4/30) of VREfs of human and fish origin. One VREfs isolate from human urine carried both vanA and vanC genes. High frequency of the virulence genes gelE, sprE, asa1, esp, and cylA were observed; efa and ace gene was more associated with VREfs, ",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41463796",
+      "title": "Divergent Embryo Responses to Chemical Cues in Two Freshwater Fishes with Different Parental Care Strategies",
+      "year": 2025,
+      "doi": "10.3390/ani15243511",
+      "abstract": "Chemical information is one of the most important modes of communication among aquatic organisms. However, it remains unclear whether fish embryos are innately responsive to ecologically-related chemical cues from the cues of their cohort competitors, potential caring or risky cues from parents, or chemical alarm cues from damaged embryos, and whether these response patterns differ between species that model alternative parental care strategies. Here, we examined embryo responses in heart rate and incubation performance to different conspecific chemical cues (companion embryo odours, maternal odours, maternal + companion odours, embryonic alarm cues, or water controls) in zebrafish (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40298703",
+      "title": "Physiological stress response in Nile tilapia (Oreochromis niloticus) exposed to firework noise",
+      "year": 2025,
+      "doi": "10.1590/0001-3765202520241277",
+      "abstract": "In the present study, impacts of firework noise on physiological response and stress recovery were investigated in Nile tilapia (Oreochromis niloticus). Two treatment groups, one with firework noise exposure, and a control with no noise exposure at all was used in the study. After a disturbance challenge with firework noise for 2-hour playback, fish behavior in terms of opercula beats and pectoral wing flaps as physiological response were monitored for 96-hours via video image tracking, which was then consecutively repeated with 4-days intervals and 15 repetitions over a period of 60 days. Elevated fish respiration rates after noise exposure, peaked in 24 hours, and declining to initial levels after 72 hours, an indication of stress recovery. In the long-term challenge with multiple exposures to firework noise, fish showed no attunuation to firework noise and presented the same alarm reflex every time of noise exposure with 4-days intervals. It has been evidenced that fireworks noise influenced fish stress and welfare, hence the findings in this study may support ecology-based management of coastal developments. Further, these results raise the question of whether short-term investigations are sufficient for understanding anthropogenic disturbance on aquatic animals.",
+      "journal": "Anais da Academia Brasileira de Ciencias",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39621166",
+      "title": "A hybrid ecological evaluation of the fisheries in changing climate: case study from a peri-urban tropical wetland of Kolkata, Eastern India",
+      "year": 2024,
+      "doi": "10.1007/s10661-024-13452-x",
+      "abstract": "The degradation of peri-urban wetlands has been a significant consequence of urban development and climate change. The present study discovered the decadal changes in land cover and climate impact on Raja Wetland, revealing significant alterations from 2011 to 2021. The analysis indicates substantial reductions in agricultural land (36.36%), fallow land (30.90%), water spread areas (10.14%) and surrounding wetlands (18.06%). Conversely, settlements, terrestrial vegetation and aquatic macrophytes increased by 19.77%, 3.39% and 1.16%, respectively. The primary driver of wetland shrinkage was urban expansion leading to a decrease in wetland area from 43.39 ha in 2011 to 38.99 ha in 2021. Climate data from 1991 to 2020 show a decreasing trend in annual rainfall (τ = - 0.274, p = 0.035) and an increasing trend in annual temperature (τ = 0.339, p = 0.009), with significant warming particularly during the monsoon months. The wetland's physicochemical attributes fluctuate seasonally, with eutrophic conditions prevailing (TSI range: 61.41-80.36). Notably, fish diversity is impacted by the dominance of the invasive species Oreochromis niloticus, which constitutes 89.31% of the catch. The established planktonic indicator genera of organic pollution were found to be abundant throughout the study period. These, combined with urban pollution and eutrophication, have led to a reduction in native fish species and overall aquatic health. The study highlights the urgent need for conservation measures to address the ecological imbalance and restore wetland resilience amidst ongoing climate and anthropogenic pressures. The communication also proposes various recommendations for the recovery and sustainable future use of wetland fisheries in the context of ongoing changes.",
+      "journal": "Environmental monitoring and assessment",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39235098",
+      "title": "A single-nucleus transcriptomic atlas characterizes cell types and their molecular features in the ovary of adult Nile tilapia",
+      "year": 2024,
+      "doi": "10.1111/jfb.15911",
+      "abstract": "In fish species, there is limited analysis of signature transcriptome profiles at the single-cell level in gonadal cells. Here, the molecular signatures of distinct ovarian cell categories in adult Nile tilapia (Oreochromis niloticus) were analysed using single-nucleus RNA sequencing (snRNA-seq). We identified four cell types (oogonia, oocytes, granulosa cell, and thecal cell) based on their specifically expressed genes and biological functions. Similarly, we found some key pathways involved in ovarian development that may affect germline-somatic interactions. A cell-to-cell communication network between the distinct cell types was constructed. We found that the bidirectional communication is mandatory for the development of germ cells and somatic cells in fish ovaries, and the granulosa cells and thecal cells play a central regulating role in the cell network in fish ovary. Additionally, we identified some novel candidate marker genes for various types of ovarian cells and also validated them using in situ hybridization. Our work reveals an ovarian atlas at the cellular and molecular levels and contributes to providing insights into oogenesis and gonad development in fish.",
+      "journal": "Journal of fish biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36412980",
+      "title": "Effects of stress-associated odor on ventilation rate and feeding performance in Nile tilapia",
+      "year": 2024,
+      "doi": "10.1080/10888705.2022.2149268",
+      "abstract": "In this study, we described immediate/acute reactions to stress-related chemical cues (SC - Stress Cue) in fish. Specifically, we evaluated the effects of SC on ventilation rate (VR) and feeding behavior in Nile tilapia (",
+      "journal": "Journal of applied animal welfare science : JAAWS",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_3390_polym15030544",
       "title": "Collagen Derived from Fish Industry Waste: Progresses and Challenges",
       "year": 2023,
@@ -248,11 +565,27 @@
       "abstract": "Fish collagen garnered significant academic and commercial focus in the last decades featuring prospective applications in a variety of health-related industries, including food, medicine, pharmaceutics, and cosmetics. Due to its distinct advantages over mammalian-based collagen, including the reduced zoonosis transmission risk, the absence of cultural-religious limitations, the cost-effectiveness of manufacturing process, and its superior bioavailability, the use of collagen derived from fish wastes (i.e., skin, scales) quickly expanded. Moreover, by-products are low cost and the need to minimize fish industry waste's environmental impact paved the way for the use of discards in the development of collagen-based products with remarkable added value. This review summarizes the recent advances in the valorization of fish industry wastes for the extraction of collagen used in several applications. Issues related to processing and characterization of collagen were presented. Moreover, an ",
       "journal": "Polymers",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_38021089",
+      "title": "Microbial Profile of Fresh and Semicooked Nile Tilapia (",
+      "year": 2023,
+      "doi": "10.1155/2023/5866719",
+      "abstract": "Despite its high nutritional quality, fish is a highly perishable food item. This study aimed at assessing the microbial quality and safety of fresh and semicooked Nile tilapia fish fillets and the food safety practices of fish handlers in Hawassa City. The microbial load of 40 for each of raw and semicooked fillet samples was estimated by the standard plate count method, and the dominant flora as well as common bacterial pathogens were identified following phenotypic procedures. Moreover, a survey was conducted to assess the hygienic conditions and food safety practices of 30 fish handlers. The mean microbial load of the raw fillet samples in log",
+      "journal": "International journal of microbiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36756681",
+      "title": "Water temperature explains part of the variation in basal plasma cortisol level within and between fish species",
+      "year": 2023,
+      "doi": "10.1111/jfb.15342",
+      "abstract": "Within the thermal tolerance range of fish, metabolism is known to escalate with warming. Rapid thermic changes also trigger a series of physiological responses, including activation of the stress axis, producing cortisol. Fish have adapted to their environment by producing a low level of plasmatic cortisol when unstressed (basal), so that thriving in their natural temperature should not impact their basal cortisol levels. Yet, surprisingly, little is known on how temperature affects cortisol within and between fish species. Here, we conducted a phylogenetic meta-analysis to (1) test whether temperature can explain the differences in basal cortisol between species and (2) evaluate the role of temperature on differences in cortisol levels between individuals of a same species. To do this, we retrieved basal plasma cortisol data from 126 studies, investigating 33 marine and freshwater fish species, and correlated it to water temperature. Intra-species variability in basal plasma cortisol levels was further investigated in two species: the European sea bass Dicentrarchus labrax and the Nile tilapia Oreochromis niloticus. Factors such as life stage, sex and weight were also considered in the analyses. Overall, our phylogenetic analysis revealed a clear positive correlation between basal cortisol level and the temperature at which the fish live. The role of temperature has also been confirmed within D. labrax, while it failed to be significant in O. niloticus. In this paper, the influence of habitat, life stage, sex and weight on basal plasma cortisol levels is also discussed. Since some abiotic parameters were not included in the analysis, our study is a call to encourage scientists to systematically report other key factors such as dissolved oxygen or salinity to fully depict the temperature-cortisol relationship in fishes.",
+      "journal": "Journal of fish biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_31533_pubvet_v16n05a1112_1-7",
@@ -262,11 +595,27 @@
       "abstract": "<jats:p>The objectives of this study were to evaluate the zootechnical indexes (standard length, body width and weight) of Nile tilapia fingerlings (Oreochromis niloticus), of the Aquabel Premium strain, at different stocking densities T1 (250 fish/m3), T2 (500 fish/m3); T3 and T4 (1000 fish/m3) from day zero to 14 and, after, stocking with T3 (250 fish/m3) and T4 with (500 fish/m3) all using artificial aeration. The use of high stocking densities in tilapia culture is a possibility. In intensive systems, the objective is to maximize the use of water, increase productivity and profitability. However, high density is a factor that can be harmful because as it can cause biochemical and physiological alterations in animals. The changes are reflect in the behavior, aggressiveness is evident there is competition for food and territory, this eventually leads to decreased performance and weight loss, the high rates of nitrogenous excreta in the environment cause a decrease water quality. All ",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36469161",
+      "title": "Concentrations of pesticide residues in fish tissue are below detectability in the Menoua River (West Cameroon)",
+      "year": 2022,
+      "doi": "10.1007/s10661-022-10765-7",
+      "abstract": "Fresh water fish are an important source of animal protein in the diet of Africans, but despite their exposure to pollutants, particularly pesticides, in rivers and streams, there is scarcity of data on fish accumulation levels of these pollutants. The concentrations of 259 pesticide residues were measured in two highly consumed fish species (Clarias gariepinus and Oreochromis niloticus) sampled from the Menoua River, in the West Region of Cameroon. The pesticide residues were determined using QuEChERS (Quick Easy Cheap Effective Rugged and Safe) followed by gas chromatography-mass spectrometry. The results obtained show that concentrations of all pesticide residues in the samples were lower than 0.01 mg/kg and therefore below the WHO maximum residue limit for the evaluated pesticides. However, the non-detection of pesticides in the studied fish does not call for complacency as this does not imply a complete absence of pesticides. Low levels of pesticide mixtures have been shown to result in combined effects that are synergistic. There is therefore a need for further research on the possible biological effects, including endocrine disruption, growth and reproduction inhibition on the fish populations as well as dietary risk assessment on the local population. The contamination of water, sediment and other aquatic resources also remains a question for future research.",
+      "journal": "Environmental monitoring and assessment",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34842286",
+      "title": "Familiarity reduces aggression but does not modify acoustic communication in pairs of Nile tilapia (Oreochromis niloticus) and black-chinned tilapia (Sarotherodon melanotheron)",
+      "year": 2022,
+      "doi": "10.1111/jfb.14967",
+      "abstract": "Reproduction involves multiple complex behaviours, and the effects of familiarity on such social interactions are seldom described in fish. This is particularly true for sound production and communication within aggressive or non-aggressive context. This study explores the effects of a common garden rearing without parental care of two closely related cichlid species (Nile tilapia Oreochromis niloticus and black-chinned tilapia Sarotherodon melanotheron) on their sound production features and social interactions. After 9 months in common garden rearing, from embryonic stage to first maturity, sound production and associated behaviours were recorded on specimens of the two species in intraspecific and interspecific pairings. The authors found that fish were able to produce the same kind of sounds as those recorded in similar context for their parents. Drum sounds were associated to chasing, lateral attack and courtship in O. niloticus and only to fleeing or avoidance in S. melanotheron. Specific grunts were produced in chasing, after biting and in nest building by O. niloticus, and specific rolling sounds were associated to courtship in S. melanotheron. Sound production and behaviours were not correlated to sex steroid levels, but the number of sounds recorded in aggressive context was correlated to dominance in O. niloticus. The authors conclude that one generation of common garden rearing does not modify sound features, which remain specific and innate in the two cichlids. Despite the familiarity, O. niloticus remained dominant on S. melanotheron, but the aggressiveness between the two species decreased.",
+      "journal": "Journal of fish biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_72079",
@@ -276,11 +625,57 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_32949976",
+      "title": "Acoustic signals produced by Nile tilapia Oreochromis niloticus and black-chinned tilapia Sarotherodon melanotheron during intra- and interspecific pairings",
+      "year": 2020,
+      "doi": "10.1016/j.zool.2020.125831",
+      "abstract": "We characterised, for the first-time, the sound production of black-chinned tilapia Sarotherodon melanotheron and show differences with that of Nile tilapia Oreochromis niloticus in a hybridization pairing context. Although both species were able to produce drum sounds, they showed different acoustic features. Drum sounds were produced in aggressive (chasing or lateral attack) and non-aggressive (courtship) contexts by O. niloticus but only in aggressive situations (fleeing or avoidance) by S. melanotheron. The second type of sounds produced by O. niloticus were grunts, produced in both aggressive (chasing and after biting) and non-aggressive contexts (nest building). The second type of sound produced by S. melanotheron was a rolling sound, produced only during courtship. Each species was able to produce common sounds (drum) and species-specific sounds (grunts and rolling). This implies that species can communicate without being able to understand each other because the sounds emitted may probably have different significance. Drumming corresponded only to aggressivity in S. melanotheron, whereas this was not true for O. niloticus. 11-ketotestosterone (11-kt) levels were significantly higher in male O. niloticus than male S. melanotheron, but there was no significant correlation between 11-kt or estradiol concentrations and the number of sounds produced in aggressive or non-aggressive behavioural contexts in either species. During interspecies interactions, O. niloticus drum sounds are likely considered to be aggressive by S. melanotheron and could potentially constitute a reproductive barrier between the two species.",
+      "journal": "Zoology (Jena, Germany)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32577967",
+      "title": "Acoustic sound-induced stress response of Nile tilapia (Oreochromis niloticus) to long-term underwater sound transmissions of urban and shipping noises",
+      "year": 2020,
+      "doi": "10.1007/s11356-020-09699-9",
+      "abstract": "Human-made impacts on the acoustic environment from marine industries is becoming a more significant issue with increasing public concern of environmental consequences. Even though there are several reports with scientific evidences on harmful influences of anthropogenic underwater sounds on the aquatic ecosystem, most of the studies so far dealt with trigger effects of short term noise impacts on aquatic animals. In the present study, however, long-term experimentation was conducted with Nile tilapia (Oreochromis niloticus) in order to figure out how fish may respond to long-term exposure of underwater sounds and if the level of response may change (increase or decline) over time. A startle reflex as a sign of stress was seen immediately at the start of the playbacks of ship noise or urban sounds in this study. Peaks of elevated respiratory movements of ventilation (opercula beats and pectoral wing rates) retained high over the following 30 days of sound initiation and underwent a declining trend over the following 90 days of exposure. At the end of the 120-day study period, the lowered response of fish after long-term sound exposure is likely due to the increased tolerance of fish to human-generated underwater sounds of urban and shipping noises. Different than short-term noise impacts, information on long-term exposure of anthropogenic underwater sounds is important for environmental management and setting new regulations for the sustainable use of water resources in the world.",
+      "journal": "Environmental science and pollution research international",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32330627",
+      "title": "A Siglec-1-like lectin from Nile tilapia (Oreochromis niloticus) possesses functions of agglutination and mediation of macrophage phagocytic activity",
+      "year": 2020,
+      "doi": "10.1016/j.fsi.2020.04.034",
+      "abstract": "Siglec-1, one of the sialic acid-binding immunoglobulin-type lectins, is closely related to the recognition of host-pathogen and cell-cell interactions in the adaptive and innate immune systems. In this communication, a Siglec-1-like gene (OnSiglec-1-like) from Nile tilapia (Oreochromis niloticus) was analyzed. Relative expression revealed that the OnSiglec-1-like was expressed in all tested tissues, and the highest expression was found in the anterior kidney. Upon Streptococcus agalactiae (S. agalactiae) infection, the expression of OnSiglec-1-like was up-regulated in anterior kidney and spleen significantly in vivo. Additionally, the same phenomenon was observed in anterior kidney leukocytes upon LPS and S. agalactiae challenges as well in vitro. Western-blotting and ELISA analyses revealed that recombinant OnSiglec-1-like protein possessed high binding activity to LTA, LPS and S. agalactiae. Further, the recombinant OnSiglec-1-like was able to agglutinate S. agalactiae. Moreover, with the digestion of specific sialidase, the phagocytic ability of macrophages to S. agalactiae was greatly enhanced. Taken together, these results indicated that the Siglec-1-like possesses conserved functions of agglutination and promotion of macrophage phagocytic activity in Nile tilapia.",
+      "journal": "Fish & shellfish immunology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30691695",
+      "title": "Muscarinic acetylcholine receptor expression in brain and immune cells of Oreochromis niloticus",
+      "year": 2019,
+      "doi": "10.1016/j.jneuroim.2019.01.012",
+      "abstract": "Nervous and immune systems maintain a bidirectional communication, expressing receptors for neurotransmitters and cytokines. Despite being well established in mammals, this has been poorly described in lower vertebrates as fishes. Experimental evidence shows that the neurotransmitter acetylcholine (ACh) regulates the immune response. In this research, we evaluated mRNA levels of muscarinic acetylcholine receptor (mAChR) in spleen mononuclear cells of Nile tilapia (Oreochromis niloticus) and compared the expression levels of immune cells with the brain. The mAChR subtypes (M2-M5A) were detected in both tissues, but mAChRs mRNA levels were higher in immune cells. This data have a potential use in biomedical and comparative immunology fields.",
+      "journal": "Journal of neuroimmunology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29532376",
+      "title": "Comparative study on the toxic effects of some heavy metals on the Nile Tilapia, Oreochromis niloticus, in the Middle Delta, Egypt",
+      "year": 2018,
+      "doi": "10.1007/s11356-018-1677-z",
+      "abstract": "Heavy metals are the most dangerous hazards affecting aquatic biota in Egypt specially the Nile Tilapia, Oreochromis niloticus, which is an important species in commercial fisheries. Some areas were not fully studied to screen the hazards that may affect this economic fish. Therefore, the present study aimed to evaluate the potential hazards of heavy metals on O. niloticus in Al-Gharbiya Governorate in the Middle delta of Egypt. Water and fish samples were collected from Al-Qased canal, Kafr El-Zayaat Nile, El-Maash canal in Al-Gharbiya Governorate plus a reference site which is a fish farm at the Faculty of Agriculture, Damietta University, Damitta Governorate, Egypt. The results showed a significant increase (p < 0.05) in the lead, zinc, magnesium, manganese, and copper levels while showed a significant decrease (p < 0.05) in the iron level in the water from all the investigated areas. Cadmium level was significantly high (p < 0.05) in Kafr El-Zayaat Nile and EL-Maash canal only. These metals were also accumulated in the fish livers and gills. Consequently, ALT and AST activities and creatinine level were significantly (p < 0.05) high in all the investigated areas. Histopathological examination revealed cytoplasmic and nuclear degeneration in the hepatocytes in all the investigated areas. Renal glomeruli and Bowman's capsule were not completely intact in Al-Qased and El-Maash canals while conspicuous shrinkage of the glomeruli was determined in Kafr El-Zayaat Nile. Furthermore, slight damage in the secondary lamellae was detected in the gill from Al-Qased canal while in the other areas appeared vacuolated or destructed. Finally, spleen sections of fish from different sites showed the absence of melanin pigments and some vacuoles. In conclusion, the Nile Tilapia, Oreochromis niloticus, is affected by the toxic effects of the heavy metals in Al-Gharbiya Governorate in Egypt and this gives an alarm and should be taken into consideration.",
+      "journal": "Environmental science and pollution research international",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_22256_pubvet_v11n7_646-651",
@@ -290,11 +685,7 @@
       "abstract": "<jats:p>The Nile tilapia (Oreochromis niloticus) has good characteristics for production among the fish species grown in Brazil, due to numerous productive qualities and that its production is increasing every year. This study aimed to evaluate the compensatory growth in the strain of Nile tilapia Genomar Supreme generation 14. Fish approximately 380 g were cultivated in two re-circulating water systems. In one treatment, tilapias stayed feeding restriction for 7 days, and after this period were re-feeding until 21 days of treatment; while the other system were fed daily with a common commercial feed the crude protein content 28%. At 0, 7 and 21 days was done the sampling 12 fish per treatment. The water parameters were considered ideal for the cultivation of the species. The standard length, body size and perimeter peduncle showed no difference in the different ages and in different treatments. After 7 days (after the fasting period) is consisted that the weight (333,8g) restriction g",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1530_rep-17-0408",
@@ -304,11 +695,7 @@
       "abstract": "Cortisol is the main glucocorticoid (GC) in fish and the hormone most directly associated with stress. Recent research suggests that this hormone may act as a key factor linking social environmental stimuli and the onset of sex change by initiating a shift in steroidogenesis from estrogens to androgens. For many teleost fish, sex change occurs as a usual part of the life cycle. Changing sex is known to enhance the lifetime reproductive success of these fish and the modifications involved (behavioral, gonadal and morphological) are well studied. However, the exact mechanism behind the transduction of the environmental signals into the molecular cascade that underlies this singular process remains largely unknown. We here synthesize current knowledge regarding the role of cortisol in teleost sex change with a focus on two well-described transformations: temperature-induced masculinization and socially regulated sex change. Three non-mutually exclusive pathways are considered when describ",
       "journal": "Reproduction",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1159_000449297",
@@ -318,11 +705,7 @@
       "abstract": "Sexual fate is no longer seen as an irreversible deterministic switch set during early embryonic development but as an ongoing battle for primacy between male and female developmental trajectories. That sexual fate is not final and must be actively maintained via continuous suppression of the opposing sexual network creates the potential for flexibility into adulthood. In many fishes, sexuality is not only extremely plastic, but sex change is a usual and adaptive part of the life cycle. Sequential hermaphrodites begin life as one sex, changing sometime later to the other, and include species capable of protandrous (male-to-female), protogynous (female-to-male), or serial (bidirectional) sex change. Natural sex change involves coordinated transformations across multiple biological systems, including behavioural, anatomical, neuroendocrine, and molecular axes. We here review the biological processes underlying this amazing transformation, focussing particularly on its molecular basis, wh",
       "journal": "Sexual Development",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s11160-012-9297-z",
@@ -332,11 +715,7 @@
       "abstract": "A recent survey lists more than 100 papers utilizing the auditory evoked potential (AEP) recording technique for studying hearing in fishes. More than 95 % of these AEP-studies were published after Kenyon et al. introduced a non-invasive electrophysiological approach in 1998 allowing rapid evaluation of hearing and repeated testing of animals. First, our review compares AEP hearing thresholds to behaviorally gained thresholds. Second, baseline hearing abilities are described and compared in 111 fish species out of 51 families. Following this, studies investigating the functional significance of various accessory hearing structures (Weberian ossicles, swim bladder, otic bladders) by eliminating these morphological structures in various ways are dealt with. Furthermore, studies on the ontogenetic development of hearing are summarized. The AEP-technique was frequently used to study the effects of high sound/noise levels on hearing in particular by measuring the temporary threshold shifts ",
       "journal": "Reviews in Fish Biology and Fisheries",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0037612",
@@ -346,11 +725,7 @@
       "abstract": "Sexual reproduction in all animals depends on effective communication between signalers and receivers. Many fish species, especially the African cichlids, are well known for their bright coloration and the importance of visual signaling during courtship and mate choice, but little is known about what role acoustic communication plays during mating and how it contributes to sexual selection in this phenotypically diverse group of vertebrates. Here we examined acoustic communication during reproduction in the social cichlid fish, Astatotilapia burtoni. We characterized the sounds and associated behaviors produced by dominant males during courtship, tested for differences in hearing ability associated with female reproductive state and male social status, and then tested the hypothesis that female mate preference is influenced by male sound production. We show that dominant males produce intentional courtship sounds in close proximity to females, and that sounds are spectrally similar to ",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0042292",
@@ -360,11 +735,7 @@
       "abstract": "Our results indicate that anterior swim bladder extensions seem to improve mean absolute auditory sensitivities by 21-42 dB (SPLs) and 21-36 dB (PALs) between 0.5 and 1 kHz. Besides anterior extensions, the size of the swim bladder appears to be an important factor for extending the detectable frequency range (up to 3 kHz).",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1469-7998_2008_00457_x",
@@ -374,11 +745,7 @@
       "abstract": "Abstract The mouthbrooding cichlid Oreochromis niloticus is one of the world's best‐studied fish and is raised extensively for aquaculture. Although it is a common behavioural model, its acoustic communication has been neglected. Because of extensive parental care, the species is a good candidate for vocal learning. In male O. niloticus , we investigated for the first time sound production in agonistic interactions during nest construction. Males produce short‐duration (250–400 ms), often double‐pulse sounds. Most energy is below 200 Hz and includes three main low‐frequency peaks although energy extends beyond 1 kHz. Males (separated as eggs and raised in isolation) produce similar sounds in the same context as parental fish, indicating that the ability to produce sounds and the basic properties of the sounds are innate.",
       "journal": "Journal of Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_21-22-08943_2001",
@@ -388,11 +755,7 @@
       "abstract": "Although teleost fish have higher levels of brain aromatase activity than any other vertebrate group, its function remains speculative, and no study has identified its cellular basis. A previous study determined aromatase activity in a vocal fish, the plainfin midshipman (Porichthys notatus), and found highest levels in the telencephalon and lower levels in the sonic hindbrain, which was dimorphic between and within (males) sexes. We have now localized aromatase-containing cells in the midshipman brain both by immunocytochemistry using teleost-specific aromatase antibodies and by in situ hybridization using midshipman-specific aromatase probes. Aromatase-immuno-reactivity and mRNA hybridization signal are consistent with relative levels of aromatase activity in different brain regions: concentrated in the dimorphic sonic motor nucleus, in a band just beneath the periaqueductal gray in the midbrain, in ventricular regions in the hypothalamus, and highest levels in the telencephalon espe",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_58837_chula_the_2017_629",
@@ -402,11 +765,7 @@
       "abstract": "<jats:p>งานวิจัยนี้มีวัตถุประสงค์เพื่อศึกษาการใช้โอโซนในรูปของสารละลายต่ออายุการเก็บรักษาปลานิลแล่แช่เย็นที่บรรจุในบรรยากาศปกติและสุญญากาศ ติดตามคุณภาพทางจุลินทรีย์ และกายภาพเคมี โดยศึกษาการใช้น้ำโอโซนที่ระดับความเข้มข้นต่าง ๆ (0-2 ppm) สำหรับทำความสะอาดปลานิลแล่ด้วยวิธีการแช่ และใช้สารละลายโซเดียมไฮโปคลอไรท์ 10 ppm ทำความสะอาดเป็นตัวอย่างควบคุม พบว่าจำนวนจุลินทรีย์ที่ลดลง (log reduction) ค่าดัชนีสีขาว (whiteness index) ค่าความแตกต่างสี (ΔE) ค่ากรดไทโอบาร์บิวทูริก (TBARS) และ % การสูญเสียน้ำหนัก (% weight loss) ของปลานิลแล่มีค่าเพิ่มขึ้นเมื่อความเข้มข้นของโอโซนเพิ่มขึ้น (p≤0.05) น้ำโอโซนที่ 1 ppm คือความเข้มข้นต่ำสุดที่สามารถลดปริมาณแบคทีเรียได้โดยไม่แตกต่างจากน้ำโอโซนที่ 1.5 ppm (p≤0.05) และยังคงรักษาคุณภาพทางกายภาพเคมีของปลานิลแล่ การใช้น้ำโอโซนความเข้มข้น 1 ppm แช่ปลานิลเป็นเวลา 1 นาที สามารถลดปริมาณจุลินทรีย์ทั้งหมด Staphylococcus  aureus lactic acid bacteria (LAB) และ Pseudomonas spp. ได้ 0.40 0.46 0.47 และ 0.28 log ตามลำดับ เนื่องจากตัวอย่างปลานิลแล่ที่ใช้ในการศึกษาไม่พบการปนเปื้",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_58837_chula_the_2003_1846",
@@ -416,11 +775,7 @@
       "abstract": "<jats:p>ศึกษาผลของการใช้ตัวกรองชีวภาพที่มีลักษณะเป็นเส้นใยพลาสติกสานเป็นรูปท่อ ขนาดเส้นผ่านศูนย์กลาง 12.5 ซม. ในบ่อเลี้ยงปลาทับทิมขนาด 30x30x1.2 เมตร จังหวัดปทุมธานี โดยจัดให้มีบ่อควบคุมที่มีการเติมอากาศผ่านสายยางพลาสติก ที่วางพาดจากขอบบ่อด้านหนึ่งไปยังฝั่งตรงข้าม ตลอดระยะความยาวของบ่อเป็นแถวขนานกันจำนวน 10 แถว เป่าอากาศผ่านหัวทรายเติมอากาศที่ต่ออยู่กับสายท่ออากาศทุกๆ ระยะ 1.5 เมตร โดยที่หัวทรายทุกหัวจะถูกต่อท่อให้หย่อนลงไปในน้ำที่ระดับความลึกประมาณ 30 ซม. สำหรับบ่อชุดทดลองจะมีระบบเติมอากาศแบบเดียวกับบ่อชุดควบคุมทุกประการ แต่จะมีการผูกตัวกรองชีวภาพที่มีความยาวเส้นละ 27 ม. กับไม้ไผ่ที่ปักอยู่เป็นแนว เพื่อตรึงให้ตัวกรองจมลงใต้ระดับผิวน้ำประมาณ 10 ซม. จัดเป็น 10 แถว วางตัวขนานในแนวเดียวกับท่อเติมอากาศ และจัดแนวให้ฟองอากาศที่พ่นออกมาจากหัวทรายขึ้นผ่านที่ตัวกรองชีวภาพ ปล่อยปลาทับทิมน้ำหนักเริ่มต้นตัวละ 5.9 กรัม ความหนาแน่น 11 ตัว/ตารางเมตร ลงเลี้ยงในบ่อทดลองทั้งสองบ่อ มีการตรวจวัดคุณภาพน้ำ (สารอาหาร พีเอช ออกซิเจนละลายน้ำ อัลคาลินิตี บีโอดี ความโปร่งแสงของน้ำ คลอโรฟิลล์-เอ แพลงก์ตอนพืช แพลง",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_58837_chula_the_2003_1829",
@@ -430,11 +785,7 @@
       "abstract": "<jats:p>ศึกษาผลของอุณหภูมิต่อพิษเฉียบพลันของแคดเมียม สังกะสี และสารละลายผสมร่วมในลูกปลานิล(Oreochromis niloticus Linnaeus) ด้วยวิธีชีววิเคราะห์แบบน้ำนิ่งในห้องปฏิบัติการ โดยการทดลองส่วนแรกเป็นการทดลองกับแคดเมียมและสังกะสีที่อยู่ในสารละลายเพียงชนิดเดียว ที่อุณหภูมิ 28 องศาเซลเซียส ทำการวิเคราะห์ข้อมูลความเป็นพิษในรูปมัธยฐานของระดับความเข้มข้น (LC[subscript 50]) ในเวลา 96 ชั่วโมง ที่ความเชื่อมั่นร้อยละ 95 พบว่า ค่า 96-h LC[subscript 50] (ค่าเฉลี่ยและพิสัย) ของแคดเมียมและสังกะสีมีค่าเท่ากับ 13.08 (9.94 - 16.26) mg Cd/l และ 40.49 (37.99 - 43.07) mg Zn/l ตามลำดับ ส่วนการทดลองขั้นต่อมาเป็นการทดลองกับสารละลายผสมของแคดเมียมและสังกะสี ที่อุณหภูมิ 24, 28 และ 32 องศาเซลเซียส โดยวิเคราะห์ข้อมูลความเป็นพิษแบบ Response Surface Analysis สามารถหาความสัมพันธ์ของความเป็นพิษของแคดเมียมและสังกะสี ที่ระยะเวลา 96 ชั่วโมง ได้ดังสมการ M[subscript 96-24c]=31.621804-0.153524 Cd-2.154992 Zn +0.030476 Cd[superscript 2]+0.0488 CdZn +0.058103 Zn[superscript 2], M[subscript 96-28c] = 20.561982 -0.453714 Cd +0.581789",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_58837_chula_the_2002_1914",
@@ -444,11 +795,7 @@
       "abstract": "<jats:p>ศึกษาเปรียบเทียบความแตกต่างการเปลี่ยนแปลงของคุณภาพน้ำในการบำบัดน้ำทางชีวภาพของบ่อเลี้ยงกุ้งกุลาดำความเค็มต่ำโดยใช้สาหร่ายสไปรูลินาและปลานิล เลี้ยงกุ้งกุลาดำ ที่ระดับความเค็มของน้ำ 5 พีพีที ในถังไฟเบอร์ความจุ 150 ลิตร ทดลองระบบน้ำเดียวกลางแจ้ง วางแผนการทดลองแบบ Completely Randomized Design involved factorials โดยมีอัตราความหนาแน่ของสาหร่ายสไปรูลินาและปลานิลเป็นปัจจัย ที่ปัจจัยละ 3 ระดับ คือ ความหนาแน่นของสาหร่ายสไปรูลินา 0, 4.2x108 และ 8.4 x108 ไตรโคมต่อลิตร และความหนาแน่นของปลานิลที่ 0, 3 และ 6 ตัวต่อน้ำ 150 ลิตร ทำการตรวจสอบพารามิเตอร์ของคุณภาพน้ำต่างๆ ดังนี้ แอมโมเนีย ไนไตรท์ ไนตรท ฟอสเฟต และคลอโรฟิลล์ โดยแต่ละค่าพารามิเตอร์จะทำการวัดทุก ๆ 2 วัน จนครบกำหนดการเลี้ยงกุ้ง 3 เดือน ตรวจวัดอุณหภูมิ ออกซิเจนละลาย พีเอช และความเข้มแสงพร้อมกับการเก็บตัวอย่างน้ำทุกครั้ง ผลการทดลอง พบว่าชุดการทดลองที่สามารถบำบัดไนเตรทได้ดีที่สุด คือชุดการทดลองที่มีการเติมสาหร่ายสไปรูลินา ความหนาแน่น 8.4 x 108 ไตรโคมต่อลิตร และมีการเลี้ยงปลานิล 3 ตัวร่วมด้วย ชุดการทดลองที่สามารถบำบัดฟอสเฟตได้ดีที่สุด คือ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_58837_chula_the_1997_834",
@@ -458,14 +805,10 @@
       "abstract": "<jats:p>ศึกษาการเปลี่ยนแปลงเนื้อเยื่อตับของปลานิล Oreochromis niloticus ที่ได้รับสารสกัดเมล็ดสะเดาอินเดีย ชื่อทางการค้า นีมิกซ์ การทดลองหาค่า LC[subscript 50] ที่ 96 ชั่วโมง ของสารสกัดนีมิกซ์ในปลานิล โดยวิธีการทดสอบความเป็นพิษแบบเฉียบพลัน ได้ค่าเท่ากับ 34.62 มิลลิกรัมต่อลิตร แล้วดำเนินการทดสอบความเป็นพิษต่อตับในระยะเวลา 5 เดือน ที่ความเข้มข้น 10.41 มิลลิกรัมต่อลิตร ใช้ลูกปลานิล อายุ 1 เดือน เก็บตัวอย่างตับปลาของกลุ่มทดลองและกลุ่มควบคุมทุกหนึ่งเดือนจนถึงเดือนที่ห้า ผลการศึกษาภายใต้กล้องจุลทรรศน์แบบใช้แสง พบการเปลี่ยนแปลงของเนื้อเยื่อที่มีความรุนแรงน้อยไปจนถึงรุนแรงมาก ได้แก่ การบวมน้ำของเซลล์ตับ การลดลงของแวคคิวโอลไขมันและการสะสมไฮยาลินแกรนูลในเซลล์ตับ การตายของเซลล์ตับในลักษณะที่เป็นหย่อมและแพร่กระจายรอบหลอดเลือด การขยายตัวของไซนูซอยด์ การเกิดเลือดคั่งในหลอดเลือด การหลุดของเซลล์เยื่อบุชั้นในหลอดเลือด และการอักเสบของเยื่อหุ้มตับ และจากการศึกษาโครงสร้างละเอียดของเซลล์ พบว่ามีการเปลี่ยนแปลงเกิดขึ้นในระยะเวลาก่อนหน้าเมื่อเปรียบเทียบกับการศึกษาภายใต้กล้องจุลทรรศน์แบบใช้แสง การเปลี่ยนแปลงดัง",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 31,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

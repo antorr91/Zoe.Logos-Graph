@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 9,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 27,
+    "doi_count": 31,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,450 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "roar",
+    "trumpet",
     "rumble",
-    "trumpet"
+    "roar"
   ],
   "contexts": [
-    "alarm",
+    "social bonding",
     "long-distance communication",
-    "social bonding"
+    "alarm"
   ],
   "functions": [
-    "contact maintenance",
     "group coordination",
+    "contact maintenance",
     "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "roar",
+        "value": "trumpet",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "rumble",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "trumpet",
+        "value": "roar",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "social bonding",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "long-distance communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "social bonding",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "contact maintenance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "group coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1124,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1123,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1122,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1121,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1120,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1119,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1118,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1117,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1116,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1115,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1114,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1113,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1112,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1111,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1110,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1109,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1108,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1107,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1106,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1105,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1104,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1103,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1102,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1101,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1100,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1099,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1098,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1371/journal.pone.0333463",
+      "url": "https://doi.org/10.1371/journal.pone.0333463",
+      "title": "Feasibility of Baseline cardIac investiGation in awake elepHants (Elephas mAximus) using tRansThoracic echocardiography: The BIG HEART study",
+      "year": 2026,
+      "source": "pubmed"
+    },
     {
       "doi": "10.17602/m2/m806941",
       "url": "https://doi.org/10.17602/m2/m806941",
@@ -134,8 +494,43 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1038/s41598-025-16994-3",
+      "url": "https://doi.org/10.1038/s41598-025-16994-3",
+      "title": "Asian elephants (Elephas maximus) recognise human visual attention from body and face orientation",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0301247",
+      "url": "https://doi.org/10.1371/journal.pone.0301247",
+      "title": "Epidemiological, serological, and viral genomic analysis of an outbreak of elephant hemorrhagic disease in Switzerland",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3758/s13420-024-00655-y",
+      "url": "https://doi.org/10.3758/s13420-024-00655-y",
+      "title": "Do elephants really never forget? What we know about elephant memory and a call for further investigation",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-022-01668-8",
+      "url": "https://doi.org/10.1007/s10071-022-01668-8",
+      "title": "Human interventions in a behavioural experiment for Asian Elephants (Elephas maximus)",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1002/vms3.837/v1/review1",
       "url": "https://doi.org/10.1002/vms3.837/v1/review1",
+      "title": "Review for \"CT anatomy of cervical vertebrae of Asian elephant (Elephas maximus)\"",
+      "year": 2022,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/vms3.837/v1/review2",
+      "url": "https://doi.org/10.1002/vms3.837/v1/review2",
       "title": "Review for \"CT anatomy of cervical vertebrae of Asian elephant (Elephas maximus)\"",
       "year": 2022,
       "source": "crossref"
@@ -155,11 +550,25 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1038/s41598-022-24214-5",
+      "url": "https://doi.org/10.1038/s41598-022-24214-5",
+      "title": "An odorant-binding protein in the elephant's trunk is finely tuned to sex pheromone (Z)-7-dodecenyl acetate",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1098/rstb.2020.0254",
       "url": "https://doi.org/10.1098/rstb.2020.0254",
       "title": "Operant control and call usage learning in African elephants",
       "year": 2021,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1186/s12915-021-01026-z",
+      "url": "https://doi.org/10.1186/s12915-021-01026-z",
+      "title": "A novel theory of Asian elephant high-frequency squeak production",
+      "year": 2021,
+      "source": "pubmed"
     },
     {
       "doi": "10.1371/journal.pone.0260284",
@@ -176,11 +585,39 @@
       "source": "openalex"
     },
     {
+      "doi": "10.3390/ani10040725",
+      "url": "https://doi.org/10.3390/ani10040725",
+      "title": "Milk Composition of Asian Elephants (",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.84723",
       "url": "https://doi.org/10.1079/cabicompendium.84723",
       "title": "Elephas maximus",
       "year": 2019,
       "source": "crossref"
+    },
+    {
+      "doi": "10.3390/ani9110879",
+      "url": "https://doi.org/10.3390/ani9110879",
+      "title": "Mahout Perspectives on Asian Elephants and Their Living Conditions",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10344-018-1218-6",
+      "url": "https://doi.org/10.1007/s10344-018-1218-6",
+      "title": "A note on wildlife poisoning cases from Kerala, South India",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12917-016-0806-5",
+      "url": "https://doi.org/10.1186/s12917-016-0806-5",
+      "title": "Surviving and fatal Elephant Endotheliotropic Herpesvirus-1A infections in juvenile Asian elephants - lessons learned and recommendations on anti-herpesviral therapy",
+      "year": 2016,
+      "source": "pubmed"
     },
     {
       "doi": "10.1016/j.conb.2014.07.001",
@@ -194,6 +631,13 @@
       "url": "https://doi.org/10.1007/978-94-007-7414-8_3",
       "title": "African and Asian Elephant Vocal Communication: A Cross-Species Comparison",
       "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1186/1472-6785-11-17",
+      "url": "https://doi.org/10.1186/1472-6785-11-17",
+      "title": "The dynamics of social networks among female Asian elephants",
+      "year": 2011,
       "source": "openalex"
     },
     {
@@ -262,11 +706,57 @@
       "abstract": "",
       "journal": "MorphoSource Media",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41628178",
+      "title": "Feasibility of Baseline cardIac investiGation in awake elepHants (Elephas mAximus) using tRansThoracic echocardiography: The BIG HEART study",
+      "year": 2026,
+      "doi": "10.1371/journal.pone.0333463",
+      "abstract": "INTRODUCTION: Cardiovascular diseases are common in elephants, but most cases are diagnosed only postmortem. Transthoracic echocardiography (TTE) is widely used in domestic and captive animals, although its application in elephants has not yet been established. The aim of this pilot study was to determine the feasibility of performing TTE in Asian elephants (Elephas maximus), to develop a standardized procedure to optimize image quality, and to assess measurement variability. MATERIALS AND METHODS: Preliminary trials were conducted in ten elephants, including seven free-ranging animals in Cambodia and three captive elephants in France. These led to a standardized TTE protocol based on cooperative training and positive reinforcement. Key refinements included the exclusive use of a left parasternal approach, soaking the thoracic skin with lukewarm water before application of coupling gel, and extension of the left forelimb over a training ball to optimize access to the acoustic window. Each examination included two left ventricular (LV) views: a long-axis view for M-mode measurements and a short-axis view for two-dimensional (2D) analysis. A total of 72 examinations were performed on 4 days on three elephants, with offline assessment of eight 2D and M-mode variables, including two indices of LV function (fractional shortening and fractional area change). A general linear model was used to determine within-day and between-day coefficients of variation. RESULTS: All examinations were successfully completed without anesthesia or restraint. Within-day and between-day variability were low for all parameters (coefficients of variation = 0-3.4%), while interanimal variability was higher (5%-19.6%). DISCUSSION: LV dimensions and systolic function can be assessed in awake Asian elephants with excellent repeatability and reproducibility. CONCLUSIONS: The present validated TTE procedure enables longitudinal cardiac monitoring in captive Asian elephants without anesthesia, provid",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41038927",
+      "title": "Asian elephants (Elephas maximus) recognise human visual attention from body and face orientation",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-16994-3",
+      "abstract": "Visual attention has mostly been studied in primarily visual species, such as nonhuman primates. Although elephants rely more on acoustic and olfactory cues, they also use visual displays and gestures to communicate. Smet and Byrne (2014) showed that African savanna elephants (Loxodonta africana) recognise human visual attention based on face and body orientation, but this has not been investigated in Asian elephants (Elephas maximus). We tested ten captive female elephants in Thailand and analysed the frequency of experimenter-directed signals in a food-requesting task based on the experimenter's body and face orientation. Elephants gestured most when both the experimenter's body and face were oriented towards them, and body orientation appeared to be a stronger visual cue than face orientation, but this effect was only observed when her face was also oriented towards the elephant. This suggests that elephants are not sensitive to face or body orientation alone and rely on a combination of body and face cues to recognise human visual attention. These findings suggest that Asian elephants understand the importance of visual attention for effective communication, contributing to our understanding of cognitive abilities across the elephant taxon and visual attention in animals.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40193325",
+      "title": "Epidemiological, serological, and viral genomic analysis of an outbreak of elephant hemorrhagic disease in Switzerland",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0301247",
+      "abstract": "Elephant hemorrhagic disease (EHD), caused by several Elephant endotheliotropic herpesviruses (EEHV), represents a frequently lethal syndrome, affecting both captive and free-living elephants. In the summer of 2022, three young Asian elephants (Elephas maximus) succumbed to EHD in a zoo in Switzerland, despite considerable preventive efforts and early detection of EEHV1A viremia. In this communication, we describe the extent of preventive measures in terms of prior virus detection, active survey of viremia, and antibody status. The results show that: (1) A previously undetected EEHV1A strain had remained unrecognized among these elephants. Probably, the virus re-emerged after almost 40 years of latency from one of the oldest elephants in the zoo. (2) While two of the three affected animals had prior immune responses against EEHV1, their strain-specific immunity proved insufficient to prevent EHD. The complete genomic DNA sequence of the EEHV1A strain involved was determined, and detailed comparisons with multiple EEHV1 strains were made, revealing a much greater extent of divergence and level of complexity among the encoded proteins than previously described. Overall, these data confirmed that all three EHD cases here had been infected by the same novel strain of EEHV subtype 1A.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39438402",
+      "title": "Do elephants really never forget? What we know about elephant memory and a call for further investigation",
+      "year": 2025,
+      "doi": "10.3758/s13420-024-00655-y",
+      "abstract": "Despite popular culture's promotion of the elephant's ability to \"never forget,\" there is remarkably limited empirical research on the memory capacities of any living elephant species (Asian, Elephas maximus; African savanna, Loxodonta africana; African forest, Loxodonta cyclotis). A growing body of literature on elephant cognition and behavioral ecology has provided insight into the elephant's ability to behave flexibly in changing physical and social environments, but little direct evidence of how memory might relate to this flexibility exists. In this paper, we review and discuss the potential relationships between what we know about elephant cognition and behavior and the elephants' memory for the world around them as they navigate their physical, social, and spatial environments. We also discuss future directions for investigating elephant memory and implications for such research on elephant conservation and human-elephant conflict mitigation.",
+      "journal": "Learning & behavior",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35987800",
+      "title": "Human interventions in a behavioural experiment for Asian Elephants (Elephas maximus)",
+      "year": 2023,
+      "doi": "10.1007/s10071-022-01668-8",
+      "abstract": "Experiments are widely used to investigate the behaviour and cognition of animals. While the automation of experiments to avoid potential experimenter bias is sometimes possible, not all experiments can be conducted without human presence. This is particularly true for large animals in captivity, which are often managed by professional handlers. For the safety of the animals and experimenters, a handler must be present during behavioural studies with certain species. It is not always clear to what extent cues provided by handlers affect the animals, and therefore the experimental results. In this study, we investigate handler interventions during the training process for a behavioural experiment with Asian elephants (Elephas maximus) in Nepal. We show that elephant handlers (mahouts) intervened to guide elephants in performing the learning task using vocal and behavioural cues, despite experimenters requesting minimal intervention. We found that although the frequency of mahout interventions did not decrease as the training progressed, the nature of their interventions changed. We also found more non-verbal than verbal cues across the training. Our results suggest that guidance from handlers may be common in behavioural studies, and continued consideration should be put into experimental design to reduce or account for cues that animals may receive from humans. This study also emphasises the need to take into account the presence of humans in interpreting the results of animal behavioural experiments, which not only presents challenges to behavioural research, but also represents opportunities for further study.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1002_vms3_837_v1_review1",
@@ -276,11 +766,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_vms3_837_v2_review1",
@@ -290,11 +776,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_vms3_837_v2_review2",
@@ -304,11 +786,27 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1002_vms3_837_v1_review2",
+      "title": "Review for \"CT anatomy of cervical vertebrae of Asian elephant (Elephas maximus)\"",
+      "year": 2022,
+      "doi": "10.1002/vms3.837/v1/review2",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36411331",
+      "title": "An odorant-binding protein in the elephant's trunk is finely tuned to sex pheromone (Z)-7-dodecenyl acetate",
+      "year": 2022,
+      "doi": "10.1038/s41598-022-24214-5",
+      "abstract": "Chemical communication in elephants has been well studied at the chemical and behavioural levels. Pheromones have been identified in the Asian elephant (Elephas maximus), including (Z)-7-dodecenyl acetate and frontalin, and their specific effects on the sexual behaviour of elephants have been accurately documented. In contrast, our knowledge on the proteins mediating detection of pheromones in elephants remains poor and superficial, with only three annotated and reliable entries in sequence databases, two of them being odorant-binding proteins (OBPs), and the third a member of von Ebner's gland (VEG) proteins. Proteomic analysis of trunk wash extract from African elephant (Loxodonta africana) identified one of the OBPs (LafrOBP1) as the main component. We therefore expressed LafrOBP1 and its Asian elephant orthologue in yeast Pichia pastoris and found that both recombinant proteins, as well as the natural LafrOBP1 are tuned to (Z)-7-dodecenyl acetate, but have no affinity for frontalin. Both the natural and recombinant LafrOBP1 carry post-translational modifications such as O-glycosylation, phosphorylation and acetylation, but as these modifications affect only a very small amount of the protein, we cannot establish their potential effects on the ligand-binding properties of OBP1.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rstb_2020_0254",
@@ -318,11 +816,7 @@
       "abstract": "Elephants exhibit remarkable vocal plasticity, and case studies reveal that individuals of African savannah (<i>Loxodonta africana</i>) and Asian (<i>Elephas maximus</i>) elephants are capable of vocal production learning. Surprisingly, however, little is known about contextual learning (usage and comprehension learning) in elephant communication. Usage learning can be demonstrated by training animals to vocalize in an arbitrary (cue-triggered) context. Here we show that adult African savannah elephants (<i>n</i> = 13) can vocalize in response to verbal cues, reliably producing social call types such as the low-frequency rumble, trumpets and snorts as well as atypical sounds using various mechanisms, thus displaying compound vocal control. We further show that rumbles emitted upon trainer cues differ significantly in structure from rumbles triggered by social contexts of the same individuals (<i>n</i> = 6). Every form of social learning increases the complexity of a communication syste",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0260284",
@@ -332,11 +826,37 @@
       "abstract": "Most studies on elephant vocal communication have focused on the low-frequency rumble, with less effort on other vocalization types such as the most characteristic elephant call, the trumpet. Yet, a better and more complete understanding of the elephant vocal system requires investigating other vocalization types and their functioning in more detail as well. We recorded adult female Asian elephants (Elephas maximus) at a private facility in Nepal and analyzed 206 trumpets from six individuals regarding their frequency, temporal and contour shape, and related acoustic parameters of the fundamental frequency. We also tested for information content regarding individuality and context. Finally, we recorded the occurrence of non-linear phenomena such as bifurcation, biphonation, subharmonics and deterministic chaos. We documented a mean fundamental frequency ± SD of 474 ± 70 Hz and a mean duration ± SD of 1.38 ± 1.46 s (Nindiv. = 6, Ncalls = 206). Our study reveals that the contour of the f",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_34813615",
+      "title": "Acoustic structure and information content of trumpets in female Asian elephants (Elephas maximus)",
+      "year": 2021,
+      "doi": "10.1371/journal.pone.0260284",
+      "abstract": "Most studies on elephant vocal communication have focused on the low-frequency rumble, with less effort on other vocalization types such as the most characteristic elephant call, the trumpet. Yet, a better and more complete understanding of the elephant vocal system requires investigating other vocalization types and their functioning in more detail as well. We recorded adult female Asian elephants (Elephas maximus) at a private facility in Nepal and analyzed 206 trumpets from six individuals regarding their frequency, temporal and contour shape, and related acoustic parameters of the fundamental frequency. We also tested for information content regarding individuality and context. Finally, we recorded the occurrence of non-linear phenomena such as bifurcation, biphonation, subharmonics and deterministic chaos. We documented a mean fundamental frequency ± SD of 474 ± 70 Hz and a mean duration ± SD of 1.38 ± 1.46 s (Nindiv. = 6, Ncalls = 206). Our study reveals that the contour of the fundamental frequency of trumpets encodes information about individuality, but we found no evidence for trumpet subtypes in greeting versus disturbance contexts. Non-linear phenomena prevailed and varied in abundance among individuals, suggesting that irregularities in trumpets might enhance the potential for individual recognition. We propose that trumpets in adult female Asian elephants serve to convey an individual's identity as well as to signal arousal and excitement to conspecifics.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34482733",
+      "title": "Operant control and call usage learning in African elephants",
+      "year": 2021,
+      "doi": "10.1098/rstb.2020.0254",
+      "abstract": "Elephants exhibit remarkable vocal plasticity, and case studies reveal that individuals of African savannah (",
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34134675",
+      "title": "A novel theory of Asian elephant high-frequency squeak production",
+      "year": 2021,
+      "doi": "10.1186/s12915-021-01026-z",
+      "abstract": "BACKGROUND: Anatomical and cognitive adaptations to overcome morpho-mechanical limitations of laryngeal sound production, where body size and the related vocal apparatus dimensions determine the fundamental frequency, increase vocal diversity across taxa. Elephants flexibly use laryngeal and trunk-based vocalizations to form a repertoire ranging from infrasonic rumbles to higher-pitched trumpets. Moreover, they are among the few evolutionarily distantly related animals (humans, pinnipeds, cetaceans, birds) capable of imitating species-atypical sounds. Yet, their vocal plasticity has so far not been related to functions within their natural communicative system, in part because not all call types have been systematically studied. Here, we reveal how Asian elephants (Elephas maximus) produce species-specific squeaks (F0 300-2300 Hz) by using acoustic camera recordings to visualize sound emission and examining this alongside acoustic, behavioral, and morphological data across seven captive groups. RESULTS: We found that squeaks were emitted through the closed mouth in synchrony with cheek depression and retraction of the labial angles. The simultaneous emission of squeaks with nasal snorts (biphonation) in one individual confirmed that squeak production was independent of nasal passage involvement and this implicated oral sound production. The squeaks' spectral structure is incongruent with laryngeal sound production and aerodynamic whistles, pointing to tissue vibration as the sound source. Anatomical considerations suggest that the longitudinal closed lips function as the vibrators. Acoustic and temporal parameters exhibit high intra- and inter-individual variability that enables individual but no call-subtype classification. Only 19 of 56 study subjects were recorded to squeak, mostly during alarming contexts and social arousal but some also on command. CONCLUSION: Our results strongly suggest that Asian elephants force air from the small oral cavity through the ten",
+      "journal": "BMC biology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_anbehav_2019_12_004",
@@ -346,11 +866,17 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_32331387",
+      "title": "Milk Composition of Asian Elephants (",
+      "year": 2020,
+      "doi": "10.3390/ani10040725",
+      "abstract": "The nutritional content of milk from free-living Asian elephants has not previously been reported, despite being vital for better management of captive populations. This study analyzed both milk composition and consumed plant species of Asian elephants managed in their natural environment in Myanmar. Longitudinal samples (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_84723",
@@ -360,11 +886,57 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31671818",
+      "title": "Mahout Perspectives on Asian Elephants and Their Living Conditions",
+      "year": 2019,
+      "doi": "10.3390/ani9110879",
+      "abstract": "The skills, knowledge, and expertise of mahouts have been recognized by organizations and individual managers who are responsible for captive elephants and by academics, where they have been a source of studies from the ethnographic to animal behavior research. In this study, I used semi-structured interviews in local languages to explore individual experiences of mahouts in Nepal. I also investigated perspectives on elephant welfare, including the use of corral (fenced) enclosures. I undertook a further key informant interview in English to gain more discursive perspectives on the topics. Our results revealed that mahouts at the study site are unlikely to come from multi-generational families of mahouts. All mahouts referenced the religious significance of elephants in their country when describing broader local perspectives. Many mahouts explained both positive and negative implications for differing strategies in housing captive elephants, often balanced the competing interests of elephant welfare with their own need for elephants to follow verbal communication, and their responsibility for the safety of the elephants, other staff, and tourists. The fine-balancing perspectives of mahouts, taking both humans and elephants into account, underlines their role as an important source of knowledge of captive Asian elephants in range countries, and their potential role as co-producers of research linked to welfare. This approach could also be of relevance to the welfare of ex-situ Asian elephants.",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30820194",
+      "title": "A note on wildlife poisoning cases from Kerala, South India",
+      "year": 2018,
+      "doi": "10.1007/s10344-018-1218-6",
+      "abstract": "Wildlife poisoning is an important conservation threat for endangered species in India. There are no publications in the scientific literature that identify the specific poisons or chemicals involved in wildlife poisoning cases from the state of Kerala. In this report, all cases of wildlife mortality recorded between 2011 and 2013 at the office of the Assistant Forest Veterinary Officer, Periyar Tiger Reserve in Kerala were reviewed and cases where poisoning was considered as a differential diagnosis were identified. Specific poisons or chemicals were identified in three cases, while in a fourth, poisoning was determined to have occurred based on physical traces of the poison in gut contents. The poisons identified include carbofuran (a carbamate pesticide) in a bonnet macaque (",
+      "journal": "European journal of wildlife research",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29517457",
+      "title": "ELEPHANT ENDOTHELIOTROPIC HERPESVIRUS ASSOCIATED WITH CLOSTRIDIUM PERFRINGENS INFECTION IN TWO ASIAN ELEPHANT ( ELEPHAS MAXIMUS) CALVES",
+      "year": 2018,
+      "doi": "10.1638/2017-0001R1.1",
+      "abstract": "Elephant endotheliotropic herpesvirus (EEHV) is an infection associated with fatal hemorrhagic disease in young Asian elephants ( Elephas maximus). This brief communication describes the postmortem evaluation of two Asian elephant calves diagnosed with EEHV4 and EEHV1A in conjunction with Clostridium perfringens infection. Case 1 was a 7-mo-old, male captive-born Asian elephant that developed diarrhea and died 2 days after clinical presentation. Examination of the heart, lungs, liver, and spleen revealed predominantly basophilic intranuclear inclusion bodies in the endothelial cells of the blood vessels. Case 2 was a 3-mo-old, female wild-born Asian elephant that showed signs of lethargy, anorexia, and convulsions and died 6 hr after clinical presentation. No intranuclear inclusion bodies were observed. The heart, lung, liver, and spleen of both calves tested positive for EEHV by polymerase chain reaction. Phylogenetic analysis identified EEHV4 and EEHV1A in Case 1 and 2, respectively. Additionally, liver, spleen, and hemorrhagic intestinal tissue samples tested positive for C. perfringens α, β, and ε toxins. This is the first reported case to describe coinfection of EEHV and C. perfringens in Asian elephant calves.",
+      "journal": "Journal of zoo and wildlife medicine : official publication of the American Association of Zoo Veterinarians",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29374444",
+      "title": "Wild Sri Lankan elephants retreat from the sound of disturbed Asian honey bees",
+      "year": 2018,
+      "doi": "10.1016/j.cub.2017.12.018",
+      "abstract": "Asian elephants (Elephas maximus) are threatened primarily by habitat loss and human-elephant conflict. In addition to establishing protected areas and corridors for wildlife, empowering farmers to protect their crops is crucial for Asian elephant conservation [1,2]. Elephants can habituate to artificial deterrents, hence natural biological alternatives are of great interest [2,3]. African elephants (Loxodonta africana) avoid African honey bees (Apis mellifera scutellata), inspiring 'beehive fences' as a successful means of small-scale crop protection [4,5]. Here, we used a recording of a disturbed hive of cavity-dwelling Asian honey bees (Apis cerana indica) and conducted sound playbacks to 120 wild elephants in 28 different groups resting under trees in Uda Walawe National Park in Sri Lanka. Elephants responded by moving significantly further away from their resting site in bee playback trials compared to controls. Elephants also increased vocalization rates, as well as investigative and reassurance behaviours in response to bee sounds, but did not display dusting or headshaking behaviour.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_27567895",
+      "title": "Surviving and fatal Elephant Endotheliotropic Herpesvirus-1A infections in juvenile Asian elephants - lessons learned and recommendations on anti-herpesviral therapy",
+      "year": 2016,
+      "doi": "10.1186/s12917-016-0806-5",
+      "abstract": "BACKGROUND: Elephant Endotheliotropic Herpesviruses (EEHVs) can cause acute haemorrhagic disease in young Asian elephants (Elephas maximus) and clinical EEHV infections account for the majority of their fatalities. The anti-herpesviral drug famciclovir (FCV) has been used routinely to treat viraemic at-risk elephants, but thus far without proven efficacy. This paper presents clinical and virological investigations of two EEHV-1A infected elephants treated with FCV, and discusses anti-herpesvirus therapies of viraemic elephants. CASES PRESENTATIONS: Two 1.5 year old male Asian elephants at a zoological collection in the UK developed clinical EEHV-1A infections. Case 1 showed signs of myalgia for the duration of 24 hours before returning back to normal. EEHV-1A DNAemia was confirmed on the day of clinical signs and continued to be present for 18 days in total. Trunk shedding of the virus commenced 10 days after detection of initial DNAemia. Case 2 tested positive for EEHV-1A DNAemia in a routine blood screening sample in the absence of clinical signs. The blood viral load increased exponentially leading up to fatal clinical disease seven days after initial detection of DNAemia. Both calves were treated with 15 mg/kg FCV per rectum on detection of DNAemia and penciclovir, the FCV metabolite, could be detected in the blood at assumed therapeutic levels. The early indicators for clinical disease were a marked absolute and relative drop in white blood cells, particularly monocytes prior to the detection of viraemia. The most prognostic haematological parameter at later stages of the disease was the platelet count showing a continuous sharp decline throughout, followed by a dramatic drop at the time of death. CONCLUSIONS: The EEHV-1A viraemic animals investigated here further highlight the ongoing threat posed by these viruses to juvenile Asian elephants. The findings call into question the efficacy of rectal FCV in clinical cases and direct towards the use of alternative ",
+      "journal": "BMC veterinary research",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_conb_2014_07_001",
@@ -374,11 +946,7 @@
       "abstract": "In the last decade clear evidence has accumulated that elephants are capable of vocal production learning. Examples of vocal imitation are documented in African (Loxodonta africana) and Asian (Elephas maximus) elephants, but little is known about the function of vocal learning within the natural communication systems of either species. We are also just starting to identify the neural basis of elephant vocalizations. The African elephant diencephalon and brainstem possess specializations related to aspects of neural information processing in the motor system (affecting the timing and learning of trunk movements) and the auditory and vocalization system. Comparative interdisciplinary (from behavioral to neuroanatomical) studies are strongly warranted to increase our understanding of both vocal learning and vocal behavior in elephants.",
       "journal": "Current Opinion in Neurobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-94-007-7414-8_3",
@@ -388,11 +956,17 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1186_1472-6785-11-17",
+      "title": "The dynamics of social networks among female Asian elephants",
+      "year": 2011,
+      "doi": "10.1186/1472-6785-11-17",
+      "abstract": "BACKGROUND: Patterns in the association of individuals can shed light on the underlying conditions and processes that shape societies. Here we characterize patterns of association in a population of wild Asian Elephants at Uda Walawe National Park in Sri Lanka. We observed 286 individually-identified adult female elephants over 20 months and examined their social dynamics at three levels of organization: pairs of individuals (dyads), small sets of direct companions (ego-networks), and the population level (complete networks). RESULTS: Corroborating previous studies of this and other Asian elephant populations, we find that the sizes of elephant groups observed in the field on any particular day are typically small and that rates of association are low. In contrast to earlier studies, our longitudinal observations reveal that individuals form larger social units that can be remarkably stable across years while associations among such units change across seasons. Association rates tend t",
+      "journal": "BMC Ecology",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_000579510x495762",
@@ -402,11 +976,7 @@
       "abstract": "",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1121_1_3224717",
@@ -416,11 +986,7 @@
       "abstract": "Elephants use vocalizations for both long and short distance communication. Whereas the acoustic repertoire of the African elephant (Loxodonta africana) has been extensively studied in its savannah habitat, very little is known about the structure and social context of the vocalizations of the Asian elephant (Elephas maximus), which is mostly found in forests. In this study, the vocal repertoire of wild Asian elephants in southern India was examined. The calls could be classified into four mutually exclusive categories, namely, trumpets, chirps, roars, and rumbles, based on quantitative analyses of their spectral and temporal features. One of the call types, the rumble, exhibited high structural diversity, particularly in the direction and extent of frequency modulation of calls. Juveniles produced three of the four call types, including trumpets, roars, and rumbles, in the context of play and distress. Adults produced trumpets and roars in the context of disturbance, aggression, and p",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_25365_thesis_5810",
@@ -430,11 +996,7 @@
       "abstract": "Asiatische Elefanten (Elephas maximus) gelten laut der IUCN Artenschutzliste 2009 als gefährdet. Ihr natürlicher Lebensraum schwindet durch anthropogenen Einfluss. Auf der Suche nach Nahrung plündern sie häufig Anbauflächen der Menschen, welches oftmals zu tödlichen Zusammenstößen auf beiden Seiten führt. Um diesem entgegenzuwirken, könnten akustische Frühwarnsysteme in der Nähe von menschlichen Siedlungen eingesetzt werden, um Zusammenstöße zu verringern (Seneviratne et al., 2004). Die Voraussetzungen zur Entwicklung solcher Frühwarnsysteme bedingt ein umfassendes Verständnis der sozialen Struktur, der akustischen Kommunikation und des Verhaltens Asiatischer Elefanten. Ein Großteil der Elefantenforschung konzentrierte sich bisher auf Afrikanische Elefanten (Loxodonta africana) (Berg, 1983; Langbauer et al., 1991; Garstang et al., 1995; Lee and Moss, 1999; McComb et al., 2003; Payne et al., 2003; Soltis et al., 2005a; b; O'Connell-Rodwell et al., 2007). Unterschiede in der sozialen Str",
       "journal": "University of Vienna",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_58837_chula_the_2015_1851",
@@ -444,11 +1006,7 @@
       "abstract": "<jats:p>การศึกษาครั้งนี้มีวัตถุประสงค์เพื่อศึกษาการกระจายตัวของช้างป่าและรูปแบบการเคลื่อนย้ายของช้างป่าและศึกษาการกระจายและความหลากหลายของชนิดและพรรณไม้ที่เป็นอาหารของช้างป่าในพื้นที่รอยต่อเขตอุทยานแห่งชาติแก่งกระจาน และศึกษาการใช้ประโยชน์ที่ดินและการเปลี่ยนแปลงการใช้ประโยชน์ที่ดิน ของตำบลป่าเด็งตั้งแต่ปีพศ.2518-ปีพศ.2554 ด้วยการใช้ภาพภ่ายทางอากาศและภาพถ่ายดาวเทียม land sat 5 TM (พ.ศ.2535 และ ปี พ.ศ. 2554)ได้ ทำการสำรวจเส้นทางเดิน( Line transect )ของช้างป่า 6 เส้นทาง รวมระยะทางทั้งหมด 27.76  กิโลเมตร  ทั้ง 2 ฤดูกาล คือ ฤดูแล้ง และฤดูฝน เพื่อสำรวจเส้นทางเดินของช้างป่าและทำการสำรวจแจงนับไม้แบบ Line Plot System ผลการศึกษาการเปลี่ยนแปลงการใช้ประโยชน์ที่ดินในช่วงปี  พ.ศ. 2518- 2535 พบว่า พื้นที่ป่าไม้ลดลงและมีพื้นที่โล่งและแหล่งน้ำเพิ่มขึ้นและในช่วงปีพศ.2535-2545 มีอัตราการเปลี่ยนแปลงการใช้ที่ดินประเภท พื้นที่ป่าไม้  พื้นที่เกษตรกรรม พื้นที่ชุมชนและพื้นที่แหล่งน้ำ เพิ่มขึ้นร้อยละ 4.12,  38.86 ,2.91และ 1.81 ตามลำดับ ส่วน พื้นที่โล่ง ว่างเปล่า พื้นที่ลดลงในอัตราร้อยละ 62.26 และในช่วงปี พศ.254",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-540-72816-0_7345",
@@ -458,11 +1016,7 @@
       "abstract": "",
       "journal": "Dictionary of Gems and Gemology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_26686_wgtn_17012807",
@@ -472,11 +1026,7 @@
       "abstract": "<jats:p>&lt;p&gt;This thesis examines the ecology of elephants (Elephas maximus borneensis) that inhabit the Lower Kinabatangan region of Sabah, Malaysia. My research focused on improving our understanding of their habitat use and food-plant preference over varying spatial and temporal scales, and tested recursion hypotheses. Recursion, the reuse of sites or plants over time, has rarely been explored in wild animals. Studies of recursion promote understanding of species ecology as they explore temporal variation in resource-use. Recursion by herbivores may be a foraging strategy for optimising resource-use by returning to sites to coincide with plant recovery. A review of the recursion literature revealed that previous studies had not considered recursion that leads from foraging theory; this informed the research and the design of the chapters on recursion at two spatial scales – site and plant. The review also demonstrated the need to integrate the large amount of research on recursi",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_0-387-25160-x_16",
@@ -486,14 +1036,10 @@
       "abstract": "",
       "journal": "Chemical Signals in Vertebrates 10",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

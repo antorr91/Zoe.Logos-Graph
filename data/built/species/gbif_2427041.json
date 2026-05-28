@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 23,
-    "claim_count": 6,
-    "doi_count": 24,
-    "media_count": 0
+    "paper_count": 38,
+    "claim_count": 8,
+    "doi_count": 34,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -46,12 +46,12 @@
     "click"
   ],
   "contexts": [
-    "mate attraction",
-    "underwater communication"
+    "underwater communication",
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "species recognition"
+    "species recognition",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -59,58 +59,242 @@
         "value": "advertisement call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "click",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "underwater communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "species recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 341,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 340,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 339,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 338,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 337,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 336,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 335,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 334,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "external_links",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_883007",
+        "provider": "xeno-canto",
+        "provider_id": "883007",
+        "type": " (XC883007)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/883007",
+        "audio": "https://xeno-canto.org/883007/download",
+        "sono": "outputs\\spectrograms\\gbif_2427041.png",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "XC · M.S. Hoogmoed"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1186/s12967-025-07609-6",
+      "url": "https://doi.org/10.1186/s12967-025-07609-6",
+      "title": "Restoring brain wiring, mobility, sleep, and lifespan with a novel repurposed modulator of voltage-gated K",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/molbev/msae196",
+      "url": "https://doi.org/10.1093/molbev/msae196",
+      "title": "Functional Characterization Supports Multiple Evolutionary Origins of Pheromone Receptors in Bark Beetles",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1016/j.ibneur.2023.08.1920",
       "url": "https://doi.org/10.1016/j.ibneur.2023.08.1920",
       "title": "INVESTIGATING VOCAL NEURONS IN XENOPUS LAEVIS AND SILURANA TROPICALIS",
       "year": 2023,
       "source": "crossref"
+    },
+    {
+      "doi": "10.3390/ijms24032159",
+      "url": "https://doi.org/10.3390/ijms24032159",
+      "title": "Understanding the Role of ATP Release through Connexins Hemichannels during Neurulation",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3897/zookeys.1184.103702",
+      "url": "https://doi.org/10.3897/zookeys.1184.103702",
+      "title": "﻿Morphological, acoustic and genetic identification of a reproducing population of the invasive African clawed frog",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7554/eLife.86299",
+      "url": "https://doi.org/10.7554/eLife.86299",
+      "title": "Two conserved vocal central pattern generators broadly tuned for fast and slow rates generate species-specific vocalizations in",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/978-1-0716-2035-9_29",
+      "url": "https://doi.org/10.1007/978-1-0716-2035-9_29",
+      "title": "A Toolbox to Study Tissue Mechanics In Vivo and Ex Vivo",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0273035",
+      "url": "https://doi.org/10.1371/journal.pone.0273035",
+      "title": "Electrophysiological responses to conspecific odorants in Xenopus laevis show potential for chemical signaling",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fcell.2022.1091629",
+      "url": "https://doi.org/10.3389/fcell.2022.1091629",
+      "title": "Somitic mesoderm morphogenesis is necessary for neural tube closure during Xenopus development",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3791/64024",
+      "url": "https://doi.org/10.3791/64024",
+      "title": "Microtransplantation of Synaptic Membranes to Reactivate Human Synaptic Receptors for Functional Studies",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.1016/b978-0-12-815160-0.00009-8",
@@ -180,6 +364,13 @@
       "url": "https://doi.org/10.1111/j.1749-4877.2008.00131.x",
       "title": "Lateral line system of fish",
       "year": 2009,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.2741/3033",
+      "url": "https://doi.org/10.2741/3033",
+      "title": "Genome evolution and speciation genetics of clawed frogs (Xenopus and Silurana)",
+      "year": 2008,
       "source": "openalex"
     },
     {
@@ -276,6 +467,46 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41501832",
+      "title": "Restoring brain wiring, mobility, sleep, and lifespan with a novel repurposed modulator of voltage-gated K",
+      "year": 2026,
+      "doi": "10.1186/s12967-025-07609-6",
+      "abstract": "BACKGROUND: Voltage-gated K METHOD: We employed a multidisciplinary experimental approach integrating ultrastructural, biochemical, electrophysiological and behavioral analyses to investigate the impact of  RESULTS: Mutant  SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s12967-025-07609-6.",
+      "journal": "Journal of translational medicine",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41109154",
+      "title": "Improving extracellular vesicle isolation from non-mammalian blood plasma: Enhancing efficiency through adjusted osmolarity",
+      "year": 2025,
+      "doi": "10.1016/j.rvsc.2025.105927",
+      "abstract": "Extracellular vesicles (EVs) are membrane-bound particles released by cells. They play an essential role in intercellular communication by transporting RNA, DNA, proteins, and lipids. While the biology of mammalian EVs is well characterized, comparatively little is known about EVs in non-mammalian vertebrates. This gap limits our understanding of the evolutionary conservation and functional diversity of EV-mediated signaling. In this study, we present a standardized and broadly applicable protocol for isolating EVs from the blood plasma of four representative non-mammalian vertebrate species: chicken (Gallus gallus domesticus), corn snake (Pantherophis guttatus), African clawed frog (Xenopus laevis), and common carp (Cyprinus carpio L.). The protocol, based on ultracentrifugation, offers a practical and accessible method without the need for specialized equipment or commercial kits. By facilitating the study of EVs across diverse vertebrate taxa, this work contributes to the broader understanding of EV biology, including their potential roles in evolutionarily conserved signaling pathways and virus transmission.",
+      "journal": "Research in veterinary science",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39288326",
+      "title": "Functional Characterization Supports Multiple Evolutionary Origins of Pheromone Receptors in Bark Beetles",
+      "year": 2024,
+      "doi": "10.1093/molbev/msae196",
+      "abstract": "Chemical communication using pheromones is thought to have contributed to the diversification and speciation of insects. The species-specific pheromones are detected by specialized pheromone receptors (PRs). Whereas the evolution and function of PRs have been extensively studied in Lepidoptera, only a few PRs have been identified in beetles, which limits our understanding of their evolutionary histories and physiological functions. To shed light on these questions, we aimed to functionally characterize potential PRs in the spruce bark beetle Ips typographus (\"Ityp\") and explore their evolutionary origins and molecular interactions with ligands. Males of this species release an aggregation pheromone comprising 2-methyl-3-buten-2-ol and (4S)-cis-verbenol, which attracts both sexes to attacked trees. Using two systems for functional characterization, we show that the highly expressed odorant receptor (OR) ItypOR41 responds specifically to (4S)-cis-verbenol, with structurally similar compounds eliciting minor responses. We next targeted the closely related ItypOR40 and ItypOR45. Whereas ItypOR40 was unresponsive, ItypOR45 showed an overlapping response profile with ItypOR41, but a broader tuning. Our phylogenetic analysis shows that these ORs are present in a different OR clade as compared to all other known beetle PRs, suggesting multiple evolutionary origins of PRs in bark beetles. Next, using computational analyses and experimental validation, we reveal two amino acid residues (Gln179 and Trp310) that are important for ligand binding and pheromone specificity of ItypOR41 for (4S)-cis-verbenol, possibly via hydrogen bonding to Gln179. Collectively, our results shed new light on the origins, specificity, and ligand binding mechanisms of PRs in beetles.",
+      "journal": "Molecular biology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37464967",
+      "title": "Identification and functional characterization of female antennae-biased odorant receptor 23 involved in acetophenone detection of the Indian meal moth Plodia interpunctella",
+      "year": 2024,
+      "doi": "10.1111/1744-7917.13220",
+      "abstract": "The Indian meal moth, Plodia interpunctella (Lepidoptera: Pyralidae), a globally distributed storage pest, relies on odors that are emitted from stored foods to select a suitable substrate for oviposition. However, the molecular mechanism underlying the chemical communication between P. interpunctella and its host remains elusive. In this study, 130 chemosensory genes were identified from the transcriptomes of 7 P. interpunctella tissues, and the quantitative expression levels of all 56 P. interpunctella odorant receptor genes (PintORs) were validated using real-time quantitative polymerase chain reaction. The functional characteristics of 5 PintORs with female antennae-biased expression were investigated using 2-electrode voltage clamp recordings in Xenopus laevis oocytes. PintOR23 was found to be specifically tuned to acetophenone. Acetophenone could elicit a significant electrophysiological response and only attracted mated females when compared with males and virgin females. In addition, molecular docking predicted that the hydrogen bonding sites, TRP-335 and ALA-167, might play key roles in the binding of PintOR23 to acetophenone. Our study provides valuable insights into the olfactory mechanism of oviposition substrate detection and localization in P. interpunctella and points toward the possibility of developing eco-friendly odorant agents to control pests of stored products.",
+      "journal": "Insect science",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1016_j_ibneur_2023_08_1920",
       "title": "INVESTIGATING VOCAL NEURONS IN XENOPUS LAEVIS AND SILURANA TROPICALIS",
       "year": 2023,
@@ -283,11 +514,97 @@
       "abstract": "",
       "journal": "IBRO Neuroscience Reports",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_38023767",
+      "title": "﻿Morphological, acoustic and genetic identification of a reproducing population of the invasive African clawed frog",
+      "year": 2023,
+      "doi": "10.3897/zookeys.1184.103702",
+      "abstract": "Using external morphology of adults and tadpoles, osteology from high-resolution microcomputed tomography, vocalization analysis, and DNA sequence data, the identity of a reproducing Belgian population of invasive",
+      "journal": "ZooKeys",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37330176",
+      "title": "Spirulina (Arthrospira maxima) mitigates the toxicity induced by a mixture of metal and NSAID in Xenopus laevis",
+      "year": 2023,
+      "doi": "10.1016/j.reprotox.2023.108422",
+      "abstract": "Cadmium (Cd) is often detected in the environment due to its wide use in industry; also, NSAIDs are one of the most consumed pharmaceuticals, particularly diclofenac (DCF). Several studies have reported the presence of both contaminants in water bodies at concentrations ranging from ng L",
+      "journal": "Reproductive toxicology (Elmsford, N.Y.)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37184077",
+      "title": "Two conserved vocal central pattern generators broadly tuned for fast and slow rates generate species-specific vocalizations in",
+      "year": 2023,
+      "doi": "10.7554/eLife.86299",
+      "abstract": "Across phyla, males often produce species-specific vocalizations to attract females. Although understanding the neural mechanisms underlying behavior has been challenging in vertebrates, we previously identified two anatomically distinct central pattern generators (CPGs) that drive the fast and slow clicks of male",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36768481",
+      "title": "Understanding the Role of ATP Release through Connexins Hemichannels during Neurulation",
+      "year": 2023,
+      "doi": "10.3390/ijms24032159",
+      "abstract": "Neurulation is a crucial process in the formation of the central nervous system (CNS), which begins with the folding and fusion of the neural plate, leading to the generation of the neural tube and subsequent development of the brain and spinal cord. Environmental and genetic factors that interfere with the neurulation process promote neural tube defects (NTDs). Connexins (Cxs) are transmembrane proteins that form gap junctions (GJs) and hemichannels (HCs) in vertebrates, allowing cell-cell (GJ) or paracrine (HCs) communication through the release of ATP, glutamate, and NAD",
+      "journal": "International journal of molecular sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36699010",
+      "title": "Somitic mesoderm morphogenesis is necessary for neural tube closure during Xenopus development",
+      "year": 2022,
+      "doi": "10.3389/fcell.2022.1091629",
+      "abstract": "Neural tube closure is a fundamental process during vertebrate embryogenesis, which leads to the formation of the central nervous system. Defective neural tube closure leads to neural tube defects which are some of the most common human birth defects. While the intrinsic morphogenetic events shaping the neuroepithelium have been studied extensively, how tissues mechanically coupled with the neural plate influence neural tube closure remains poorly understood. Here, using",
+      "journal": "Frontiers in cell and developmental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36070316",
+      "title": "Electrophysiological responses to conspecific odorants in Xenopus laevis show potential for chemical signaling",
+      "year": 2022,
+      "doi": "10.1371/journal.pone.0273035",
+      "abstract": "The fully aquatic African clawed frog, Xenopus laevis, has an unusual and highly adapted nose that allows it to separately sample both airborne and waterborne stimuli. The function of the adult water nose has received little study, despite the fact that it is quite likely to receive information about conspecifics through secretions released into the water and could aid the frog in making decisions about social and reproductive behaviors. To assess the potential for chemical communication in this species, we developed an in situ electroolfactogram preparation and tested the olfactory responses of adult males to cloacal fluids and skin secretions from male and female conspecifics. We found robust olfactory responses to all conspecific stimuli, with greatest sensitivity to female cloacal fluids. These results open the door to further testing to identify compounds within cloacal fluids and skin secretions that are driving these responses and examine behavioral responses to those compounds. Understanding the role of chemical communication in social and reproductive behaviors may add to our rich understanding of vocal communication to create a more complete picture of social behavior in this species.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35938847",
+      "title": "Microtransplantation of Synaptic Membranes to Reactivate Human Synaptic Receptors for Functional Studies",
+      "year": 2022,
+      "doi": "10.3791/64024",
+      "abstract": "Excitatory and inhibitory ionotropic receptors are the major gates of ion fluxes that determine the activity of synapses during physiological neuronal communication. Therefore, alterations in their abundance, function, and relationships with other synaptic elements have been observed as a major correlate of alterations in brain function and cognitive impairment in neurodegenerative diseases and mental disorders. Understanding how the function of excitatory and inhibitory synaptic receptors is altered by disease is of critical importance for the development of effective therapies. To gain disease-relevant information, it is important to record the electrical activity of neurotransmitter receptors that remain functional in the diseased human brain. So far this is the closest approach to assess pathological alterations in receptors' function. In this work, a methodology is presented to perform microtransplantation of synaptic membranes, which consists of reactivating synaptic membranes from snap frozen human brain tissue containing human receptors, by its injection and posterior fusion into the membrane of Xenopus laevis oocytes. The protocol also provides the methodological strategy to obtain consistent and reliable responses of α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) and γ-aminobutyric acid (GABA) receptors, as well as novel detailed methods that are used for normalization and rigorous data analysis.",
+      "journal": "Journal of visualized experiments : JoVE",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35147960",
+      "title": "A Toolbox to Study Tissue Mechanics In Vivo and Ex Vivo",
+      "year": 2022,
+      "doi": "10.1007/978-1-0716-2035-9_29",
+      "abstract": "During vertebrate embryogenesis, tissues interact and influence each other's development to shape an embryo. While communication by molecular components has been extensively explored, the role of mechanical interaction between tissues during embryogenesis is just starting to be revealed. Addressing mechanical involvement in morphogenesis has traditionally been challenging mainly due to the lack of proper tools to measure and modify mechanical environments of cells in vivo. We have recently used atomic force microscopy (AFM) to show that the migration of the Xenopus laevis cephalic neural crest cells is triggered by stiffening of the mesoderm, a tissue that neural crest cells use as a migratory substrate in vivo. Interestingly we showed that the activity of the planar cell polarity (PCP) pathway is required to mediate this novel mechanical interaction between two tissues. In this chapter, we share the toolbox that we developed to study the role of PCP signaling in mesoderm cell accumulation and stiffening (in vivo) as well as the impact of mesoderm stiffness in promoting neural crest cell polarity and migration (ex vivo). We believe that these tools can be of general use for investigators interested in addressing the role of mechanical inputs in vivo and ex vivo.",
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34942195",
+      "title": "The initiation and maintenance of a differentiated state in development",
+      "year": 2022,
+      "doi": "10.1016/j.ydbio.2021.12.009",
+      "abstract": "Proper function of the body is maintained by an intricate interaction and communication among cells. during the animal development how these cells are formed and maintained is an important yet elusive. Understanding of how cells such as muscle and nerve cells maintain their identities would enable us to control the diseases which include malfunctioning in cellular identities such as cancer. In this article, we describe how the concept of formation and maintenance of cell identities has changed over the last 100 years. We will also briefly describe our current experimental work which includes transcriptional dynamics, and protein-protein interaction and how they are bringing new molecular insights. We also describe liquid-liquid phase separation as a potential new mechanism for the stability of gene expression in the non dvididng specialised cells of Xenopus oocytes.",
+      "journal": "Developmental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_b978-0-12-815160-0_00009-8",
@@ -297,11 +614,17 @@
       "abstract": "",
       "journal": "Elsevier eBooks",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_33827966",
+      "title": "Ex Vivo Brain Preparation to Analyze Vocal Pathways of",
+      "year": 2021,
+      "doi": "10.1101/pdb.prot106872",
+      "abstract": "Understanding the neural basis of behavior is a challenging task for technical reasons. Most methods of recording neural activity require animals to be immobilized, but neural activity associated with most behavior cannot be recorded from an anesthetized, immobilized animal. Using amphibians, however, there has been some success in developing in vitro brain preparations that can be used for electrophysiological and anatomical studies. Here, we describe an ex vivo frog brain preparation from which fictive vocalizations (the neural activity that would have produced vocalizations had the brain been attached to the muscle) can be elicited repeatedly. When serotonin is applied to the isolated brains of male and female African clawed frogs,",
+      "journal": "Cold Spring Harbor protocols",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_32388_r0l0ws",
@@ -311,11 +634,7 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1523_jneurosci_0736-19_2019",
@@ -325,11 +644,7 @@
       "abstract": "In many species, vocal communication is essential for coordinating social behaviors including courtship, mating, parenting, rivalry, and alarm signaling. Effective communication requires accurate production, detection, and classification of signals, as well as selection of socially appropriate responses. Understanding how signals are generated and how acoustic signals are perceived is key to understanding the neurobiology of social behaviors. Here we review our long-standing research program focused on <i>Xenopus</i>, a frog genus which has provided valuable insights into the mechanisms and evolution of vertebrate social behaviors. In <i>Xenopus laevis</i>, vocal signals differ between the sexes, through development, and across the genus, reflecting evolutionary divergence in sensory and motor circuits that can be interrogated mechanistically. Using two <i>ex vivo</i> preparations, the isolated brain and vocal organ, we have identified essential components of the vocal production syste",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_17504_protocols_io_ifxcbpn",
@@ -339,11 +654,7 @@
       "abstract": "<p> Xenopus laevis were put in ice water until it is unconscious, (without any reaction to a leg pinch), then the ovary lobes were carefully dissected and washed 4 times in a Petri dish (50 mm) with ND96 medium (96 mM NaCl, 2 mM KCl, 1 mM MgCl2, 1.8 mM CaCl2, 5 mM HEPES adjusted to pH 7.4 with NaOH, supplemented with 50 μg/ml streptomycin/penicillin, 225 μg/ml sodium pyruvate) to remove all traces of blood and debris. The wounded body wall and skin of Xenopus laevis were closed with a 3-0 silk suture on a 24 mm curved needle. And the recovery of female was proceeding in 1 g/L aquarium salt in water. The isolated Xenopus laevis oocytes were digested with 2 mg/mL of collagenase A (SigmaTM) without Ca2 + modified Barth’s solution (88 mM NaCl, 1 mM KCl, 2.4 mM NaHCO3, 10 mM Hepes-NaOH, 0.82 mM MgSO4, pH 7.4, 200 mOsm/kg) at room temperature for 2 hours. </p>",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1523_jneurosci_1190-13_2013",
@@ -353,11 +664,7 @@
       "abstract": "Social interaction requires that relevant sensory information is collected, classified, and distributed to the motor areas that initiate an appropriate behavioral response. Vocal exchanges, in particular, depend on linking auditory processing to an appropriate motor expression. Because of its role in integrating sensory information for the purpose of action selection, the amygdala has been implicated in social behavior in many mammalian species. Here, we show that two nuclei of the extended amygdala play essential roles in vocal communication in the African clawed frog, Xenopus laevis. Transport of fluorescent dextran amines identifies the X. laevis central amygdala (CeA) as a target for ascending auditory information from the central thalamic nucleus and as a major afferent to the vocal pattern generator of the hindbrain. In the isolated (ex vivo) brain, electrical stimulation of the CeA, or the neighboring bed nucleus of the stria terminalis (BNST), initiates bouts of fictive calling",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_conf_fnbeh_2012_27_00302",
@@ -367,11 +674,7 @@
       "abstract": "",
       "journal": "Frontiers in Behavioral Neuroscience",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_conf_fnbeh_2012_27_00186",
@@ -381,11 +684,7 @@
       "abstract": "",
       "journal": "Frontiers in Behavioral Neuroscience",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1152_jn_00883_2010",
@@ -395,11 +694,7 @@
       "abstract": "<jats:p> Reproductive behaviors of many vertebrate species are activated in adult males by elevated androgen levels and abolished by castration. Neural and muscular components controlling these behaviors contain numerous hormone-sensitive sites including motor initiation centers (such as the basal ganglia), central pattern generators (CPGs), and muscles; therefore it is difficult to confirm the role of each hormone-activated target using behavioral assays alone. Our goal was to address this issue by determining the site of androgen-induced vocal activation using male Xenopus laevis, a species in which androgen dependence of vocal activation has been previously determined. We compared in vivo calling patterns and functionality of two in vitro preparations—the isolated larynx and an isolated brain from which fictive courtship vocalizations can be evoked—in castrated and control males. The isolated larynx allowed us to test whether castrated males were capable of transducing male-typical ",
       "journal": "Journal of Neurophysiology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-008088783-8_00020-6",
@@ -409,11 +704,7 @@
       "abstract": "",
       "journal": "Hormones, Brain and Behavior",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1749-4877_2008_00131_x",
@@ -423,11 +714,17 @@
       "abstract": "The lateral line is a sensory system that allows fishes to detect weak water motions and pressure gradients. The smallest functional unit of the lateral line is the neuromast, a sensory structure that consists of a hair cell epithelium and a cupula that connects the ciliary bundles of the hair cells with the water surrounding the fish. The lateral line of most fishes consists of hundreds of superficial neuromasts spread over the head, trunk and tail fin. In addition, many fish have neuromasts embedded in lateral line canals that open to the environment through a series of pores. The present paper reviews some more recent aspects of the morphology, behavioral relevance and physiology of the fish lateral line. In addition, it reports some new findings with regard to the coding of bulk water flow.",
       "journal": "Integrative Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_2741_3033",
+      "title": "Genome evolution and speciation genetics of clawed frogs (Xenopus and Silurana)",
+      "year": 2008,
+      "doi": "10.2741/3033",
+      "abstract": "Speciation of clawed frogs occurred through bifurcation and reticulation of evolutionary lineages, and resulted in extant species with different ploidy levels. Duplicate gene evolution and expression in these animals provides a unique perspective into the earliest genomic transformations after vertebrate whole genome duplication (WGD) and suggests that functional constraints are relaxed compared to before duplication but still consistently strong for millions of years following WGD. Additionally, extensive quantitative expression divergence between duplicate genes occurred after WGD. Diversification of clawed frogs was potentially catalyzed by transposition and divergent resolution--processes that occur through different genetic mechanisms but that have analogous implications for genome structure. How sex determination is maintained after genome duplication is fundamental to our understanding of why allopolyploidization is so prevalent in this group, and why clawed frogs violate Haldan",
+      "journal": "Frontiers in bioscience",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pbio_0030386",
@@ -437,11 +734,7 @@
       "abstract": "Previously it was shown that male mice, when they encounter female mice or their pheromones, emit ultrasonic vocalizations with frequencies ranging over 30-110 kHz. Here, we show that these vocalizations have the characteristics of song, consisting of several different syllable types, whose temporal sequencing includes the utterance of repeated phrases. Individual males produce songs with characteristic syllabic and temporal structure. This study provides a quantitative initial description of male mouse songs, and opens the possibility of studying song production and perception in an established genetic model organism.",
       "journal": "PLoS Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_1220-04_2004",
@@ -451,11 +744,7 @@
       "abstract": "Vocal control systems have been identified in all major groups of jawed vertebrates. Although steroid hormones are instrumental in the long-term development and maintenance of neural structures underlying vocalization, it is unknown whether steroids rapidly modulate the neural activity of vocal motor systems. The midshipman fish generates advertisement and agonistic calls that mainly differ in duration. A descending midbrain pathway activates a hindbrain-spinal vocal circuit that directly establishes the discharge frequency and duration of the rhythmic vocal motor volley. This vocal motor output, which can be monitored from occipital nerve roots, directly determines the rate and duration of contraction of a pair of sonic muscles and, in turn, the fundamental frequency and duration of vocalizations. Here, we demonstrate that the duration of the vocal motor volley, or fictive vocalization, is rapidly responsive to steroid hormones, including androgens, estrogens, and glucocorticoids. The",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2003_03_016",
@@ -465,11 +754,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7551_mitpress_2359_003_0003",
@@ -479,11 +764,7 @@
       "abstract": "",
       "journal": "The Design of Animal Communication",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_(sici)1097-4695(19981115)37:3<441::aid-neu9>3_3_co;2-x",
@@ -493,11 +774,7 @@
       "abstract": "",
       "journal": "Journal of Neurobiology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_s0091-679x(08)60303-9",
@@ -507,11 +784,7 @@
       "abstract": "",
       "journal": "Methods in Cell Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_s0091-679x(08)60273-3",
@@ -521,11 +794,7 @@
       "abstract": "",
       "journal": "Methods in Cell Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_s0091-679x(08)60304-0",
@@ -535,11 +804,7 @@
       "abstract": "",
       "journal": "Methods in Cell Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_0022-2836(73)90168-x",
@@ -549,11 +814,7 @@
       "abstract": "",
       "journal": "Journal of Molecular Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_springerreference_37206",
@@ -563,11 +824,7 @@
       "abstract": "",
       "journal": "SpringerReference",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_53846_goediss-5835",
@@ -577,11 +834,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31274_rtd-180813-10414",
@@ -591,14 +844,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 23,
+  "paper_count": 38,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

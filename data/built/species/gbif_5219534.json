@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 24,
-    "claim_count": 9,
-    "doi_count": 23,
-    "media_count": 0
+    "paper_count": 40,
+    "claim_count": 27,
+    "doi_count": 37,
+    "recording_count": 1
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/330px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
@@ -42,8 +42,8 @@
   "conservation_status": "endangered",
   "inat_id": null,
   "vocalisations": [
-    "grunt",
     "pant-hoot",
+    "grunt",
     "scream"
   ],
   "contexts": [
@@ -52,29 +52,29 @@
     "social dominance"
   ],
   "functions": [
+    "social coordination",
     "individual recognition",
-    "long-distance communication",
-    "social coordination"
+    "long-distance communication"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "grunt",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "pant-hoot",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "grunt",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "scream",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -82,50 +82,509 @@
         "value": "foraging",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social dominance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "social coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "long-distance communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social coordination",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1379,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1378,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1377,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1376,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1375,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1374,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1373,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1372,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1371,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1370,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1369,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1368,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1367,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1366,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1365,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1364,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1363,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1362,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1361,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1360,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1359,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1358,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1357,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1356,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1355,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1354,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1353,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "external_links",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "macaulay_ml-chimp-01",
+        "provider": "macaulay",
+        "provider_id": "ml-chimp-01",
+        "type": "Chimpanzee pant-hoot reference",
+        "rec": "various",
+        "loc": "",
+        "date": "",
+        "url": "https://www.macaulaylibrary.org/",
+        "audio": "",
+        "sono": "",
+        "license": "Macaulay Library",
+        "attribution": "Cornell Lab"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1093/cercor/bhaf331",
+      "url": "https://doi.org/10.1093/cercor/bhaf331",
+      "title": "The inferior frontal sulcus in the chimpanzee brain: morphological examination and association with oro-facial communication",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3897/zookeys.1276.169771",
+      "url": "https://doi.org/10.3897/zookeys.1276.169771",
+      "title": "When the local meets the global: models and challenges of primate conservation in the Fazao-Malfakassa National Park, Togo",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ajp.70092",
+      "url": "https://doi.org/10.1002/ajp.70092",
+      "title": "Inquiring Pant-Hoots in Wild Chimpanzees and the Role of Social Bonds and Group Cohesion",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.71000",
+      "url": "https://doi.org/10.1002/ece3.71000",
+      "title": "Chimpanzees (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-025-01940-7",
+      "url": "https://doi.org/10.1007/s10071-025-01940-7",
+      "title": "Turn-taking in grooming interactions of chimpanzees (Pan troglodytes schweinfurthii) in the wild: the role of demographic and social factors",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-025-01955-0",
+      "url": "https://doi.org/10.1007/s10071-025-01955-0",
+      "title": "Combinatorics and complexity of chimpanzee (Pan troglodytes) facial signals",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10329-025-01212-5",
+      "url": "https://doi.org/10.1007/s10329-025-01212-5",
+      "title": "An overlooked hotspot: persistence of large polyspecific assemblages of threatened primates in the unprotected Yabassi Key Biodiversity Area",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-14835-x",
+      "url": "https://doi.org/10.1038/s41598-025-14835-x",
+      "title": "Flexible use of multimodal communicative strategies in adult chimpanzees",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-93207-x",
+      "url": "https://doi.org/10.1038/s41598-025-93207-x",
+      "title": "Social and individual factors mediate chimpanzee vocal ontogeny",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2025.0053",
+      "url": "https://doi.org/10.1098/rsbl.2025.0053",
+      "title": "Stone-assisted drumming in Western chimpanzees and its implications for communication and cultural transmission",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2025.2271",
+      "url": "https://doi.org/10.1098/rspb.2025.2271",
+      "title": "Sequence organization of mother-infant interactions in chimpanzees (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0325418",
+      "url": "https://doi.org/10.1371/journal.pone.0325418",
+      "title": "Do chimpanzees (Pan troglodytes) mentally represent collaboration?: Action-learning and communication in a partnered task",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7717/peerj.19484",
+      "url": "https://doi.org/10.7717/peerj.19484",
+      "title": "Adapting the facial action coding system for chimpanzees (",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1007/978-981-99-0831-8_12",
       "url": "https://doi.org/10.1007/978-981-99-0831-8_12",
@@ -281,6 +740,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1098/rspb.2019.2228",
+      "url": "https://doi.org/10.1098/rspb.2019.2228",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
       "doi": "10.22215/etd/2009-06331",
       "url": "https://doi.org/10.22215/etd/2009-06331",
       "title": "Mentalizing capacities in chimpanzees (Pan troglodytes)",
@@ -290,6 +756,156 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41993057",
+      "title": "When the local meets the global: models and challenges of primate conservation in the Fazao-Malfakassa National Park, Togo",
+      "year": 2026,
+      "doi": "10.3897/zookeys.1276.169771",
+      "abstract": "Protected areas are created to serve two major objectives, which include the securing of ecosystem services and the conservation of biodiversity. However, the status of primates around the Fazao-Malfakassa National Park, which is the last refuge for threatened primates in Togo, is a call for concern. Using a questionnaire survey with a semi-structured interview protocol, this study examines primate diversity and its relationship with surrounding communities. Of the 12 primate species identified through community interviews,",
+      "journal": "ZooKeys",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41543243",
+      "title": "The inferior frontal sulcus in the chimpanzee brain: morphological examination and association with oro-facial communication",
+      "year": 2026,
+      "doi": "10.1093/cercor/bhaf331",
+      "abstract": "There has been considerable interest in the neuroanatomical homologue of Broca's region in nonhuman primates, particularly in our phylogenetically closest relative the chimpanzee (Pan troglodytes), to further our understanding of the evolution of language in hominins. The inferior frontal sulcus (ifs) is a critical landmark below which lie language production areas in the language-dominant hemisphere of the human brain, and its homologue is found in the chimpanzee brain. The present study examined the variability in the morphology of the ifs in 73 chimpanzee brains (ie 146 hemispheres). Examination was carried out on surface reconstructions derived from in vivo 3 T magnetic resonance imaging scans, which permitted detailed intra-sulcal assessment. Based on the connections formed by the ifs and adjacent sulci, two frequent and three less frequent morphological types were identified. The average location and spatial variability of the ifs were quantified in the form of spatial surface probability maps. Relationships were also established between specific morphological features of the ifs in the left hemisphere and oro-facial communication abilities, as measured by attention-getting sound production. These findings refine our knowledge of prefrontal sulcal organization in hominids and offer valuable insights into the structural blueprints that supported the emergence of speech in humans.",
+      "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41384311",
+      "title": "Inquiring Pant-Hoots in Wild Chimpanzees and the Role of Social Bonds and Group Cohesion",
+      "year": 2025,
+      "doi": "10.1002/ajp.70092",
+      "abstract": "The evolution of human language remains a puzzle, with comparative approaches focusing on vocalizations, gestures, bimodal combinations, and, most recently, social interaction and turn-taking. The latter is characterized by cooperative, reciprocal exchanges of alternating short bursts of information among interactants. Some hallmarks of human conversational turn-taking have been found in other primate species, suggesting a possible specialization of great apes in gestural rather than vocal turn-taking. However, relatively little is known about the vocal turn-taking abilities of great apes. Here, we conducted a systematic, quantitative study on vocal exchanges of adult male chimpanzees (Pan troglodytes) living in a habituated community in the Loango National Park, Gabon. We focused on pant-hoots, the typical long-distance calls of chimpanzees, which have been argued to function in some contexts as question-and-answer-like exchanges, referred to as \"inquiring pant-hoots\" (IPHs), a term coined by Goodall (1986). We collected a comprehensive data set over a period of 16 months (January-May 2019; November 2019-November 2020) resulting in a total of 1747 pant-hoots of ten adult males. We analyzed the data with a special focus on general pant-hoot patterns, criteria for IPHs, social factors, and temporal organization. Overall, general calling frequency was highest in males with high social ranks, in larger parties, and during periods of increased fission and fusion. Twenty percent of calls qualified as IPHs and were positively correlated with smaller party size, higher fission-fusion rates, and the absence of close social partners. Temporal patterns were influenced by social bond strength, the presence of drumming, and an avoidance of overlap. Our findings add to the growing evidence of complex vocal turn-taking abilities in nonhuman primates, contradicting the notion of a specialization in gestural rather than vocal turn-taking for chimpanzees and possibly other great ape",
+      "journal": "American journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41290154",
+      "title": "Sequence organization of mother-infant interactions in chimpanzees (",
+      "year": 2025,
+      "doi": "10.1098/rspb.2025.2271",
+      "abstract": "Sequence organization is a fundamental feature of human communication, shaping our interactions. This organization underlies interactions with and without language, appears early in human development and is even hypothesized to precede language itself. However, remarkably little is known about the evolutionary origins of the sequence organization of interactions. Here, we investigated the sequence organization of mother-infant interactions in one of our closest living relatives, the chimpanzee (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40925896",
+      "title": "Flexible use of multimodal communicative strategies in adult chimpanzees",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-14835-x",
+      "abstract": "Human communication is remarkable for its flexibility, a trait largely reflected in its multimodal nature and shared to some extent with nonhuman primates. Although individual differences in social behaviour are known to have evolutionary implications, their role in shaping primate communication remains largely unexplored. This study adopts a multimodal framework to partition variation in chimpanzees' use of multicomponent and multisensory communicative strategies into socio-environmental, between-individual, and within-individual sources. Results showed that research setting and signaller's sex affected communicative expression. Importantly, we also detected consistent between-individual differences in both strategies, independent of age, sex, or setting. While only multicomponent signal use was predicted by behavioural context at the population level, individuals varied in how they adjusted to context only in their use of multisensory acts. These findings reveal substantial flexibility in chimpanzee communication, highlighting individual-specific patterns and supporting a gradual evolutionary pathway toward the complexity of human multimodal communication.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40892134",
+      "title": "An overlooked hotspot: persistence of large polyspecific assemblages of threatened primates in the unprotected Yabassi Key Biodiversity Area",
+      "year": 2025,
+      "doi": "10.1007/s10329-025-01212-5",
+      "abstract": "The Gulf of Guinea rainforests, renowned for exceptional primate endemism, are increasingly fragmented and face severe hunting-induced defaunation. However, the long-term persistence of primate assemblages in these hunted forests remains understudied. The unprotected Ebo-Ndokbou-Makombe landscape, designated the Yabassi Key Biodiversity Area (YKBA), represents one of the region's largest remaining forest tracts, yet its primate community is largely unexplored. Research and conservation efforts within this landscape predominantly focus on the Ebo block to protect its cryptic gorilla population, while Ndokbou and Makombe receive less attention. Here, we assess the persistence and polyspecific assemblages of diurnal primates across the three forest blocks. From January to December 2019, we surveyed over 1,500 km of reconnaissance walks and sighted seven IUCN Threatened and one Near-Threatened species, including chimpanzees Pan troglodytes ellioti (56 groups and 296 nest groups), putty-nosed monkeys Cercopithecus nictitans (435 groups), crowned monkeys C. pogonias (251), red-eared monkeys C. erythrotis (122), mona monkeys C. mona (108), Preuss's monkeys Allochrocebus preussi (97), red-capped mangabeys Cercocebus torquatus (40), and drills Mandrillus leucophaeus (20). Notably, over 40% of primate encounters were polyspecific groups with up to five species. Despite conservation focus on Ebo, encounter rates, association patterns, and group sizes were comparable across Ebo, Ndokbou, and Makombe. Interestingly, primate encounter rates and assemblages in this unprotected landscape were also similar to observations in Korup National Park located within the same ecoregion. These findings underscore the critical conservation value of the YKBA and call for urgent landscape-scale interventions to mitigate hunting pressure and maintain habitat integrity.",
+      "journal": "Primates; journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40525106",
+      "title": "Adapting the facial action coding system for chimpanzees (",
+      "year": 2025,
+      "doi": "10.7717/peerj.19484",
+      "abstract": "The Facial Action Coding System (FACS) is a widely recognised coding scheme for analysing human facial behaviour, providing an objective method to quantify discrete movements associated with facial muscles, known as Action Units (AUs), and reducing subjective bias. FACS has been adapted for nine other taxa, including apes, macaques, and domestic animals, but not yet bonobos. To carry out cross species studies of facial behaviours within and beyond apes, it is essential to include bonobos. Hence, we aimed at adapting FACS for bonobos. We followed a similar methodology as in previous FACS adaptations: first, we examined the facial muscular plan of bonobos from previously published dissections. Given the similarity between bonobo and chimpanzee musculature, we tested if ChimpFACS for chimpanzees could be applied to bonobos. Second, we used ChimpFACS to analyse spontaneous facial behaviour in bonobos through videos recorded in various contexts. Third, we noted any differences in appearance changes between the AUs included in ChimpFACS and the AUs observed in bonobos. Our findings showed that bonobos exhibit all the facial movements observed in chimpanzees, and thus ChimpFACS can reliably be applied to bonobos. Bonobos presented a diverse repertoire of 28 facial movements (22 AUs, three Action Descriptors, and three Ear Action Descriptors). Although the range of facial movement is lower than in humans, bonobo's potential for facial movement is comparable to that of chimpanzees, underscoring the significance of this behaviour modality during social interactions for both species. The ChimpFACS Extension for bonobos is an objective coding scheme for measuring facial movements in bonobos, designed to be used in conjunction with ChimpFACS. This coding scheme extension will allow us to better understand bonobos' behaviour and communication, with practical applications for assessing their welfare, particularly in human care. It also provides a framework for comparing primate sp",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40478850",
+      "title": "Do chimpanzees (Pan troglodytes) mentally represent collaboration?: Action-learning and communication in a partnered task",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0325418",
+      "abstract": "Non-human primates engage in complex collective behaviours, but existing research does not paint a clear picture of what individuals cognitively represent when they act together. This study investigates chimpanzees' capacity for co-representation. If individuals represent others' actions as they relate to their own during a collaborative task, they should more easily learn to reproduce that action when their roles are switched. In a between-subjects design, we trained ten chimpanzees (Pan troglodytes) on a sequential task, in which the first action is performed by either a human partner or a non-social object, and the second action is performed by the subject. We then imposed a breakdown in the action sequence, in which subjects could perform both actions themselves, but received no help from the experimenter or object. We measured subjects' success in reproducing the first action in the sequence, as well as their attempts to recruit the experimenter's help using requesting gestures. We found no overall difference in subjects' ability to perform the first action in the sequence, but we observed significant qualitative differences in their solutions: individuals in the partnered condition replicated the experimenter's action, while those in the non-social condition achieved the same end using alternative methods. This difference in solution style could indicate that only those chimpanzees in the partnered condition mentally represented the experimenter's action during the collaborative task. We caution, however, that given the small number of subjects who solved the task, this result could also be driven by individual differences. We also found that subjects consistently produced communicative gestures toward the experimenter, but were more likely to do so after exhausting all actions they could take alone. We suggest that these patterns of behaviour highlight a number of key empirical considerations for the study of coordination in non-human primates.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40328311",
+      "title": "Stone-assisted drumming in Western chimpanzees and its implications for communication and cultural transmission",
+      "year": 2025,
+      "doi": "10.1098/rsbl.2025.0053",
+      "abstract": "Chimpanzees (",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40323852",
+      "title": "The art of chimpanzee (Pan troglodytes) diplomacy: Unraveling the secrets of successful negotiations using machine learning",
+      "year": 2025,
+      "doi": "10.1037/com0000411",
+      "abstract": "Social negotiation is crucial in human interactions and often involves clear communication, strong socialization skills, adept problem-solving abilities, and strategic planning. Chimpanzees exhibit evidence of social negotiation through manual gesturing to achieve imperative goals. Chimpanzee social negotiations are influenced by demographic factors like age, sex, social rank, and identity, as well as communicative properties such as gesture type, gesture modality, gesture position, and context. In our study, we build on prior research by analyzing how chimpanzees use facial signals during social negotiations. We used machine learning models and sequential pattern analysis to analyze the combined effects of facial signals and manual gesturing properties, along with demographic factors. Our analyses revealed that facial signals and manual gesturing are important for predicting the success of chimpanzee social negotiations. We also found that clear communication (using distinct facial signals and manual gestures in each context) is important for navigating social negotiations, much like is true for humans. Our research showcases the immense value of machine learning techniques in exploring the evolution of social behavior in primates. (PsycInfo Database Record (c) 2025 APA, all rights reserved).",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40304773",
+      "title": "Combinatorics and complexity of chimpanzee (Pan troglodytes) facial signals",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01955-0",
+      "abstract": "There have been shifts toward more systematic and standardized methods for studying non-human primate facial signals, thanks to advancements like animalFACS. Additionally, there have been calls to better integrate the study of both facial and gestural communication in terms of theory and methodology. However, few studies have taken this important integrative step. By doing so, researchers could gain greater insight into how the physical flexibility of facial signals affects social flexibility. Our study combines both approaches to examine the relationship between the flexibility of physical form and the social function of chimpanzee facial \"gestures\". We used chimpFACS along with established gestural ethograms that provide insights into four key gesture properties and their associated variables documented in chimpanzee gestures. We specifically investigated how the combinatorics (i.e., the different combinations of facial muscle movements) and complexity (measured by the number of discrete facial muscle movements) of chimpanzee facial signals varied based on: (1) how many gesture variables they exhibit; (2) the presence of a specific goal; and (3) the context in which they were produced. Our findings indicate that facial signals produced with vocalizations exhibit fewer gesture variables, rarely align with specific goals, and exhibit reduced contextual flexibility. Furthermore, facial signals that include additional visual movements (such as those of the head) and other visual signals (like manual gestures) exhibit more gestural variables, are frequently aligned with specific goals, and exhibit greater contextual flexibility. Finally, we discovered that facial signals become more morphologically complex when they exhibit a greater number of gesture variables. Our findings indicate that facial \"gesturing\" significantly enhanced the facial signaling repertoire of chimpanzees, offering insights into the evolution of complex communication systems like human language.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40143524",
+      "title": "Predicting Social Rankings in Captive Chimpanzees (Pan troglodytes) Through Communicative Interactions-Based Data-Driven Model",
+      "year": 2025,
+      "doi": "10.1111/1749-4877.12967",
+      "abstract": "Primates demonstrate variability regarding the degree to which they display status hierarchies, which are influenced by a multitude of demographic and ecological factors. Additionally, primates must manage their interactions within these social hierarchies through the use of diverse communicative signals, including facial signals and manual gestures. Often times, these variables are assessed independently; however, it is probable that they collectively influence social rankings among primates. Our study investigates the application and accuracy of data-driven techniques, based on the genetic algorithm approach, in capturing social rankings among a group of captive chimpanzees, focusing on the analysis of communicative and demographic factors. We utilize observational data collected from a group of 18 chimpanzees residing at the Los Angeles Zoo from 2017 to 2019, derived from three previous studies carried out by the first author (BF). Our data-driven model exhibited a high degree of accuracy in capturing established social hierarchies in 2017, in addition to identifying notable fluctuations in rankings during periods of social instability from 2018 to 2019, especially in the aftermath of the passing of the highest-ranking female in the troop. Feature importance analysis revealed that social bond strength, measured via the dyadic composite sociality index (DCSI), was the most significant predictor of rank, highlighting the importance of social bonding in shaping status hierarchies. These models provide valuable insights for future research on primate behavior and social structures, as well as assist in making informed decisions for zoo management.",
+      "journal": "Integrative zoology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40126662",
+      "title": "Turn-taking in grooming interactions of chimpanzees (Pan troglodytes schweinfurthii) in the wild: the role of demographic and social factors",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01940-7",
+      "abstract": "Cooperative turn-taking, a fundamental characteristic of human social interaction, has been postulated as a crucial mechanism for language emergence and is observed across the primate lineage. However, relatively little is known about the influence of demographic and social factors on turn-taking. As according to the sociolinguistic Communication Accommodation Theory, individuals adapt their communication according to their recipient characteristics, which may shape turn-taking. Thus, we aimed to gain insights into the factors (age, relatedness, dominance rank, and social bonds) in relation to the turn-taking infrastructure of one of our closest living relatives, the chimpanzee (Pan troglodytes schweinfurthii) of the Ngogo population in Kibale National Park, Uganda. We specifically focused on a cooperative context, grooming, including gestures and actions, and collected data over nine months (September 2021 to June 2022) involving 42 male chimpanzees. We analysed 311 grooming interactions among 157 dyads concerning the role of demographic and social factors in turn transition infrastructure, turn transition types, and temporal relationships. Our findings demonstrated that turn transitions and types were influenced by age and dominance rank, whereas social bonds and relatedness did not exhibit effects. Specifically, the probability of turn transitions was higher for older initiators and lower-ranking or younger recipients. These effects varied across turn transition types, where initiator's dominance rank and relatedness showed no effects on any type. In addition, no effect was found for the temporal relationships. Although the social dynamics of turn-taking remain largely unexplored across both human and non-human studies, our findings suggest that turn-taking can occur selectively between certain individuals, in line with the Communication Accommodation Theory, underscoring the need for greater focus on investigating how demographic and social factors shape turn-ta",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40092902",
+      "title": "Chimpanzees (",
+      "year": 2025,
+      "doi": "10.1002/ece3.71000",
+      "abstract": "Ongoing ecosystem change and biodiversity decline across the Afrotropics call for tools to monitor the state of biodiversity or ecosystem elements across extensive spatial and temporal scales. We assessed relationships in the co-occurrence patterns between great apes and other medium to large-bodied mammals to evaluate whether ape abundance serves as a proxy for mammal diversity across broad spatial scales. We used camera trap footage recorded at 22 research sites, each known to harbor a population of chimpanzees, and some additionally a population of gorillas, across 12 sub-Saharan African countries. From ~350,000 1-min camera trap videos recorded between 2010 and 2016, we estimated mammalian community metrics, including species richness, Shannon diversity, and mean animal mass. We then fitted Bayesian Regression Models to assess potential relationships between ape detection rates (as proxy for ape abundance) and these metrics. We included site-level protection status, human footprint, and precipitation variance as control variables. We found that relationships between detection rates of great apes and other mammal species, as well as animal mass were largely positive. In contrast, relationships between ape detection rate and mammal species richness were less clear and differed according to site protection and human impact context. We found no clear association between ape detection rate and mammal diversity. Our findings suggest that chimpanzees hold potential as indicators of specific elements of mammalian communities, especially population-level and composition-related characteristics. Declines in chimpanzee populations may indicate associated declines of sympatric medium to large-bodied mammal species and highlight the need for improved conservation interventions.Changes in chimpanzee abundance likely precede extirpation of sympatric mammals.",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40074822",
+      "title": "Social and individual factors mediate chimpanzee vocal ontogeny",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-93207-x",
+      "abstract": "Human language develops in social interactions. In other ape species, the role of social learning in vocal ontogeny can be typically underappreciated, mainly because it has received little empirical attention. Here, we examine the development of pant hoot vocalisations during vocal exchanges in immature wild chimpanzees (Pan troglodytes schweinfurthii) of the Sonso community of the Budongo Forest, Uganda. We investigated how maternal gregariousness, age, sex, and social context are associated with behavioural and vocal responses to other group members' calls. We show that the older sons of gregarious mothers are more likely to orient their attention, respond vocally to the calls of others, and are overall more exposed to others' calls compared to other immature individuals. This effect is strongest in the presence of adult males and when their mothers also respond vocally, suggesting that chimpanzee vocal development is enhanced by social and vocal exposure. Our findings are consistent with a more flexible and socially mediated chimpanzee vocal ontogeny than previously assumed and show some parallels with animal vocal learners and children language acquisition.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1007_978-981-99-0831-8_12",
       "title": "Diverse Sound Use and Sensitivity in Auditory Communication by Chimpanzees (Pan troglodytes)",
       "year": 2023,
@@ -297,11 +913,7 @@
       "abstract": "",
       "journal": "Acoustic Communication in Animals",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_4324_9781003064541-2",
@@ -311,11 +923,7 @@
       "abstract": "",
       "journal": "The Gestural Communication of Apes and Monkeys",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_70647",
@@ -325,11 +933,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_preprints_1805v1",
@@ -339,11 +943,7 @@
       "abstract": "<jats:p>\n                  Chimpanzees must be able to coordinate with others even when conflicts of interest are present. The “Snowdrift-Game” provides a model to understand how organisms coordinate and make decisions under conflict situations. By investigating whether and how chimpanzees solve this dilemma we can gain insight into the mechanisms of cooperation. Moreover, by comparing chimpanzees with their closest relatives, bonobos and humans, we can understand the evolutionary context of decision making in this situation. We presented pairs of captive chimpanzees (N=10; M\n                  <jats:sub>age</jats:sub>\n                  = 20.5 years) and bonobos (N=6, M\n                  <jats:sub>age</jats:sub>\n                  =13.7 years) housed at the Leipzig Zoo in Germany as well as 20 children dyads from the same city, with an adapted version of the Snowdrift games. In our task, subjects were faced with an unequal reward distribution. In the critical condition the higher reward ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_bandl_2013_09_009",
@@ -353,11 +953,7 @@
       "abstract": "",
       "journal": "Brain and Language",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-013-0664-5",
@@ -367,11 +963,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_ijpp_2012_06_002",
@@ -381,11 +973,7 @@
       "abstract": "",
       "journal": "International Journal of Paleopathology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-012-0545-3",
@@ -395,11 +983,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_cognition_2009_06_012",
@@ -409,11 +993,7 @@
       "abstract": "",
       "journal": "Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_langcom_2008_01_006",
@@ -423,11 +1003,7 @@
       "abstract": "",
       "journal": "Language &amp; Communication",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-008-0192-x",
@@ -437,11 +1013,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_156853907782512137",
@@ -451,11 +1023,7 @@
       "abstract": "<jats:sec>\n\t\t\t\t\t\t<jats:title>Abstract</jats:title>\n\t\t\t\t\t\t<jats:p>Chimpanzees have hostile intergroup relations and are reported to use two strategies to reduce risk in the territory periphery: travelling in larger subgroups ('parties'), and travelling silently. We examined data from the Kanyawara chimpanzee community, Kibale National Park, Uganda to test for evidence of these strategies. We compared behaviour in the territory core with two potentially dangerous contexts: the periphery and croplands. Parties that visited the periphery had over twice as many adult males as parties that remained in the core. Analysis of vocal production rate of 249 parties revealed that, controlling for time of day and party composition, chimpanzees produced fewer pant-hoot calls in croplands than in the core. Pant-hoot production varied in different sectors of the periphery, being reduced in three sectors, unchanged in one, and increased in one. Focal follows of 12 males found results similar to party fo",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1073_pnas_0702624104",
@@ -465,11 +1033,7 @@
       "abstract": "The natural communication of apes may hold clues about language origins, especially because apes frequently gesture with limbs and hands, a mode of communication thought to have been the starting point of human language evolution. The present study aimed to contrast brachiomanual gestures with orofacial movements and vocalizations in the natural communication of our closest primate relatives, bonobos (Pan paniscus) and chimpanzees (Pan troglodytes). We tested whether gesture is the more flexible form of communication by measuring the strength of association between signals and specific behavioral contexts, comparing groups of both the same and different ape species. Subjects were two captive bonobo groups, a total of 13 individuals, and two captive chimpanzee groups, a total of 34 individuals. The study distinguished 31 manual gestures and 18 facial/vocal signals. It was found that homologous facial/vocal displays were used very similarly by both ape species, yet the same did not apply",
       "journal": "Proceedings of the National Academy of Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1469-7580_2006_00523_x",
@@ -479,11 +1043,7 @@
       "abstract": "Facial expressions are a critical mode of non-vocal communication for many mammals, particularly non-human primates. Although chimpanzees (Pan troglodytes) have an elaborate repertoire of facial signals, little is known about the facial expression (i.e. mimetic) musculature underlying these movements, especially when compared with some other catarrhines. Here we present a detailed description of the facial muscles of the chimpanzee, framed in comparative and phylogenetic contexts, through the dissection of preserved faces using a novel approach. The arrangement and appearance of muscles were noted and compared with previous studies of chimpanzees and with prosimians, cercopithecoids and humans. The results showed 23 mimetic muscles in P. troglodytes, including a thin sphincter colli muscle, reported previously only in adult prosimians, a bi-layered zygomaticus major muscle and a distinct risorius muscle. The presence of these muscles in such definition supports previous studies that de",
       "journal": "Journal of Anatomy",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "lit_gbif_5219534_19",
@@ -493,11 +1053,17 @@
       "abstract": "",
       "journal": "St Andrews Research Repository (St Andrews Research Repository)",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5707432_19",
+      "title": "Vocal communication in chimpanzees (pan troglodytes)",
+      "year": 2005,
+      "doi": null,
+      "abstract": "",
+      "journal": "St Andrews Research Repository (St Andrews Research Repository)",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10329-003-0048-6",
@@ -507,11 +1073,7 @@
       "abstract": "",
       "journal": "Primates",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037_0735-7036_115_4_337",
@@ -521,11 +1083,7 @@
       "abstract": "This study examined the communicative behavior of 49 captive chimpanzees (Pan troglodytes), particularly their use of vocalizations, manual gestures, and other auditory-or tactile-based behaviors as a means of gaining an inattentive audience's attention.A human (Homo sapiens) experimenter held a banana while oriented either toward or away from the chimpanzee.The chimpanzees' behavior was recorded for 60 s.Chimpanzees emitted vocalizations faster and were more likely to produce vocalizations as their 1st communicative behavior when a human was oriented away from them.Chimpanzees used manual gestures more frequently and faster when the human was oriented toward them.These results replicate the findings of earlier studies on chimpanzee gestural communication and provide new information about the intentional and functional use of their vocalizations.An affective communication system enables a signaler to intentionally transfer a message to an audience (Smith, 1977).This message can be eith",
       "journal": "Journal of comparative psychology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1037__0735-7036_115_4_337",
@@ -535,11 +1093,7 @@
       "abstract": "This study examined the communicative behavior of 49 captive chimpanzees (Pan troglodytes), particularly their use of vocalizations, manual gestures, and other auditory- or tactile-based behaviors as a means of gaining an inattentive audience's attention. A human (Homo sapiens) experimenter held a banana while oriented either toward or away from the chimpanzee. The chimpanzees' behavior was recorded for 60 s. Chimpanzees emitted vocalizations faster and were more likely to produce vocalizations as their 1st communicative behavior when a human was oriented away from them. Chimpanzees used manual gestures more frequently and faster when the human was oriented toward them. These results replicate the findings of earlier studies on chimpanzee gestural communication and provide new information about the intentional and functional use of their vocalizations.",
       "journal": "Journal of comparative psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1037__0735-7036_115_4_337-343",
@@ -549,11 +1103,7 @@
       "abstract": "",
       "journal": "Journal of comparative psychology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5134_143373",
@@ -563,11 +1113,7 @@
       "abstract": "",
       "journal": "Pan Africa News",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5134_143545",
@@ -577,11 +1123,7 @@
       "abstract": "",
       "journal": "Pan Africa News",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-629104-9_50010-8",
@@ -591,11 +1133,7 @@
       "abstract": "",
       "journal": "Behavior of non-human primates",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_springerreference_93251",
@@ -605,11 +1143,7 @@
       "abstract": "",
       "journal": "SpringerReference",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_22215_etd_2009-06331",
@@ -619,14 +1153,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 24,
+  "paper_count": 40,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

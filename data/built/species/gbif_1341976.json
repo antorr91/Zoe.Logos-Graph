@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 9,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 33,
+    "claim_count": 27,
+    "doi_count": 27,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -47,14 +47,14 @@
     "waggle dance buzz"
   ],
   "contexts": [
-    "foraging recruitment",
+    "swarming",
     "queen competition",
-    "swarming"
+    "foraging recruitment"
   ],
   "functions": [
     "food source communication",
-    "queen signalling",
-    "swarm coordination"
+    "swarm coordination",
+    "queen signalling"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -62,39 +62,39 @@
         "value": "piping",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "tooting",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "waggle dance buzz",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "foraging recruitment",
+        "value": "swarming",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "queen competition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "swarming",
+        "value": "foraging recruitment",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -102,30 +102,454 @@
         "value": "food source communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "queen signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "swarm coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "queen signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 27,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 26,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 25,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 24,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 23,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 22,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 21,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 20,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 19,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 18,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 17,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 16,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 15,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 14,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 13,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 12,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 11,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 10,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 9,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 8,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 7,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 6,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 5,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 4,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 3,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "external_links",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "bioacoustica_ba-bee-01",
+        "provider": "bioacoustica",
+        "provider_id": "ba-bee-01",
+        "type": "Honeybee waggle dance buzz",
+        "rec": "various",
+        "loc": "",
+        "date": "",
+        "url": "https://bioacoustica.org/",
+        "audio": "",
+        "sono": "",
+        "license": "CC BY",
+        "attribution": "Bioacoustica"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1016/j.jare.2025.07.045",
+      "url": "https://doi.org/10.1016/j.jare.2025.07.045",
+      "title": "Comprehension of the age-dependent gut and brain interaction of honey bee workers by integration of multi omics approaches",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/imb.70019",
+      "url": "https://doi.org/10.1111/imb.70019",
+      "title": "Eye can see clearly now: Identifying the locus associated with a white-eye mutation in honey bees (Apis mellifera)",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s11686-025-01124-w",
+      "url": "https://doi.org/10.1007/s11686-025-01124-w",
+      "title": "Parasitic Mites of Honey Bees (Apis Spp.): A Detailed Review of Varroa destructor in Parasitism, Pathogen Transmission and its Management",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s42003-025-09391-z",
+      "url": "https://doi.org/10.1038/s42003-025-09391-z",
+      "title": "Identification of two odorant receptors tuned to alarm pheromone compounds in the honey bee Apis mellifera",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/jisesa/ieaf104",
+      "url": "https://doi.org/10.1093/jisesa/ieaf104",
+      "title": "buzzdetect: an open-source deep learning tool for automated bioacoustic pollinator monitoring",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0332986",
+      "url": "https://doi.org/10.1371/journal.pone.0332986",
+      "title": "Predatory behavior, nesting habits, and impacts on honey bees (Apis mellifera) of an invasive hornet (Vespa tropica) on the island of Guam",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/biology14081076",
+      "url": "https://doi.org/10.3390/biology14081076",
+      "title": "The Sublethal Effects of Neonicotinoids on Honeybees",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/insects16070679",
+      "url": "https://doi.org/10.3390/insects16070679",
+      "title": "Ionotropic Receptor Genes in Fig Wasps: Evolutionary Insights from Comparative Studies",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.15393/j1.art.2023.14502",
       "url": "https://doi.org/10.15393/j1.art.2023.14502",
@@ -218,6 +642,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1127/entom.gen/15/1990/83",
+      "url": "https://doi.org/10.1127/entom.gen/15/1990/83",
+      "title": "Chemical Signals and Dominance Communication in the Honeybee Apis mellifera",
+      "year": 1990,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1126/science.1126611",
       "url": "https://doi.org/10.1126/science.1126611",
       "title": "",
@@ -244,9 +675,166 @@
       "title": "Mites Associated with Apis mellifera Linnaeus and Apis cerana Fabricus in the Southern Tagalog Region, Philippines",
       "year": null,
       "source": "crossref"
+    },
+    {
+      "doi": "10.70675/740fef2dz5655z4001zaa0dzdd57656b3420",
+      "url": "https://doi.org/10.70675/740fef2dz5655z4001zaa0dzdd57656b3420",
+      "title": "Communication chimique et régulations sociales dans la colonie d’abeilles (apis mellifera L.)",
+      "year": null,
+      "source": "crossref"
     }
   ],
   "papers": [
+    {
+      "paper_id": "pmid_42030659",
+      "title": "Multilevel impact of cocaine on honeybees: From neurochemistry and mitochondrial dysfunction to superorganism",
+      "year": 2026,
+      "doi": "10.1016/j.biopha.2026.119423",
+      "abstract": "Cocaine abuse remains a serious global problem with far-reaching health, economic, social, and criminal consequences. Therefore, continued research on the mechanisms underlying cocaine effects is highly desirable. Utilizing invertebrate models in this field offers significant practical advantages, while a comparative approach can further broaden the understanding of fundamental physiological principles. This study highlights the honeybee Apis mellifera as a promising model for investigating the effects of single cocaine dose at both the individual and collective/social levels. Our results show that acute cocaine administration triggers a complex array of neurochemical, behavioral, and subcellular-toxic changes, each characterized by distinct temporal dynamics. The 'neurochemical-behavioral' axis manifested through altered biogenic amine levels, which are analogous to the mammalian response. Concurrently, the 'subcellular-toxic' axis, encompasses a cascade of mitochondrial abnormalities, reduced citrate synthase activity, and a compensatory antioxidant response. Furthermore, the impact of a single treatment was assessed by monitoring vibroacoustic signals-a likely manifestation of social communication within the hive-, which exhibited a notable latency compared to the biochemical/ultrastructural alterations at an individual level. These signals may indicate a collective response of colony to the disruption of individual biochemical and structural homeostasis. In essence, our results demonstrate that the honeybee is a compelling supplementary model that offers a promising opportunity to understand both socio-behavioral and molecular mechanisms of cocaine action, with potential implications for drug impact and addiction research.",
+      "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41904458",
+      "title": "Medicinal invertebrates used in African traditional medicine: a systematic review",
+      "year": 2026,
+      "doi": "10.1186/s13002-026-00882-9",
+      "abstract": "Information on entomotherapy in Africa is fragmented across different countries, resulting in the lack of comprehensive documentation of the diversity of invertebrate species used in traditional medicine. This review systematically searched databases such as Google Scholar, Science Direct and Web of Science for articles published from 2000 to 2026 documenting the medicinal use of invertebrates in Africa. The search resulted in 21 eligible articles that listed 119 invertebrate species from 40 orders, as used in traditional medicine to treat 191 symptoms across 20 Sub-Saharan African countries. The Republic of Benin, South Africa, Nigeria, and Burkina Faso were the leading documented users of medicinal invertebrates. Insects were the most used invertebrate's species, with Bee's species, Apis mellifera treating 35% of the identified symptoms, including wounds, arthritis, cough, stomach aches, and fever. Medicinal material was derived from invertebrate body parts such as the whole body, head, and mandibles. Invertebrates were used at different growth stages, including nymphs, larvae, and adults. Medicinal material used includes termites' nest, mole cricket gut contents, tick blood, and honey. This review indicates rich ethnomedicinal uses of invertebrates in Africa. However, there are limited studies on the topic. Therefore, we recommend more research to document the diversity of medicinal invertebrates, expanding into other African regions for a comprehensive database. Additionally, further studies to investigate the impacts of medicinal invertebrate harvesting, assessing sustainability and conservation. We also call for future studies to isolate the bioactive compounds of these invertebrates to validate their claimed therapeutic use, and to enhance benefit sharing to traditional practitioners.",
+      "journal": "Journal of ethnobiology and ethnomedicine",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41653512",
+      "title": "Short communication: Amitraz treatments do not increase the frequency of mutations in the β2-adrenergic octopamine receptor in Varroa destructor: a field study in Central Spain",
+      "year": 2026,
+      "doi": "10.1016/j.rvsc.2026.106101",
+      "abstract": "The ectoparasitic mite Varroa destructor is a major threat to Apis mellifera colonies. Beekeepers use acaricides such as amitraz for control, but resistance has been reported, possibly linked to mutations in the Octβ2R gene. This study examined the frequency of these mutations in Varroa populations from two management systems: organic (oxalic acid treatment) and conventional (amitraz treatment). DNA was extracted individually from 83 mites collected from 14 apiaries, and a 1064 bp fragment of Octβ2R was amplified and sequenced. The F290L-related mutation appeared at a high frequency (89%), with no significant differences between treatments. No other reported mutations were found. The widespread homozygosity of F290L and lack of treatment-related variation suggest that this mutation existed before amitraz use, reflecting historical genetic variation rather than recent selection. Further research is needed to clarify its role in amitraz resistance.",
+      "journal": "Research in veterinary science",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41511401",
+      "title": "Open-Source Automation of the Proboscis Extension Response Assay: From Odor Delivery to Deep Learning Behavior Analysis",
+      "year": 2026,
+      "doi": "10.1002/cpz1.70302",
+      "abstract": "Honeybees (Apis mellifera) rely on olfaction for key behaviors, such as foraging and communication, making them valuable models for studying odor-guided behavior and learning. Traditional paradigms like the proboscis extension response (PER) have been used to investigate associative olfactory learning. However, these protocols typically involve manual odor delivery and visual scoring, which can limit precision and reproducibility. This article presents an automated version of the PER assay using Arduino microcontrollers for odor delivery, Bonsai software for real-time synchronization devices, video recording, and DeepLabCut (DLC) for behavioral tracking. Most hardware components, including bee holders and structural parts, are custom-designed and 3D printed, making the setup cost-effective and easily replicable. The system enables high-resolution objective quantification of responses, such as proboscis and antennal movements. Compared to manual methods, this open-source, modular setup improves throughput, standardization, and analytical accuracy in behavioral neuroscience research. © 2026 Wiley Periodicals LLC. Basic Protocol 1: Building the experimental setup Basic Protocol 2: Main circuitry assembly and software configuration Basic Protocol 3: Preparing the animals and performing the PER training Basic Protocol 4: From DLC video analysis to presenting your data.",
+      "journal": "Current protocols",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41317015",
+      "title": "Eye can see clearly now: Identifying the locus associated with a white-eye mutation in honey bees (Apis mellifera)",
+      "year": 2026,
+      "doi": "10.1111/imb.70019",
+      "abstract": "In insects, eye pigmentation is vital for various adaptive functions, including foraging, mating and predator avoidance. Due to its visible and often heritable variation, altered eye pigmentation in mutants provides an excellent model for studying biosynthetic pathways and identifying new genes involved in pigmentation. Eye mutants can also be valuable in science communication as they offer simplified examples to help the public understand complex genetic concepts. In this study, we used a community science-based approach to identify the inheritance pattern and mutation(s) responsible for white-eye pigmentation in honey bees. With the help of the beekeeping community, we identified a honey bee queen that produced a fraction of haploid sons (called drones) with white-eyes. As the queen was wild-type, we predicted that the mutation is most likely recessive to wild-type. Using genome-wide association and differentiation scans of wild-type and white-eyed drone brothers, we identified a single elevated region (52 kb) of chromosome 11. This region contains four non-coding RNA (ncRNA) and one protein-coding gene. We identified an eight-base pair region with two SNPs and a four-nucleotide deletion that are likely responsible for the phenotype. The mutation likely affects the expression and/or downstream effects of an uncharacterized ncRNA (LOC100578475). Our efforts highlight the value of community-based science in novel gene discovery. We hope this serves, not only as a new example for the burgeoning field of honey bee functional genomics, but also as a teaching tool for both researchers and educators.",
+      "journal": "Insect molecular biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41207335",
+      "title": "The role of the Niemann-Pick type C2 protein as a sperm-binding protein in honeybees",
+      "year": 2026,
+      "doi": "10.1016/j.ibmb.2025.104443",
+      "abstract": "The Niemann-Pick type C2 protein (NPC2) functions as a cholesterol modulator in the sperm membrane and enhances sperm physiological functions in vertebrates and some invertebrates. In insects, NPC2 is involved in lipid metabolism, immune response signaling, and chemical communication. However, the role of NPC2 as a sperm-associated protein in insect sperm remains to be elucidated. This study identified a novel function of the Apis mellifera NPC2 protein (AmNPC2) as a sperm-binding protein. Immunoassays and binding assays using recombinant AmNPC2 protein and its specific antibody revealed that AmNPC2 is expressed in the testes of drones and is localized on the sperm surface as a sperm-binding protein. Furthermore, a reduction in AmNPC2 levels on the sperm surface decreased sperm viability. AmNPC2 also appeared to play a protective role in maintaining sperm viability under both oxidative and temperature stress conditions. Our findings indicate that AmNPC2 is a sperm-binding protein that enhances the viability of honeybee sperm.",
+      "journal": "Insect biochemistry and molecular biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40749788",
+      "title": "Comprehension of the age-dependent gut and brain interaction of honey bee workers by integration of multi omics approaches",
+      "year": 2026,
+      "doi": "10.1016/j.jare.2025.07.045",
+      "abstract": "INTRODUCTION: In honey bees, division of labour is a key feature, with age-related behavioural transitions being closely associated with molecular changes in the brain, gut, and microbiota. Despite evidence of both microbiome and brain changes in honey bees, most studies focus on either aspect or a single method of investigation, limiting our understanding of their interconnected roles in development and task differentiation. OBJECTIVES: In this study, we investigated the molecular changes in the gut and brain in honey bee workers of different ages using (meta-)proteomics and metabolomics to better understand their contribution to behavioural responses and modulation. METHODS: Workers were sampled at seven timepoints throughout their life. Mass spectrometry for (meta-) proteomic and metabolomic of the guts and brains allowed insights into the global structural and functional dynamics of the microbiota, as well as the functional and metabolic alterations in the host gut and brain, and their interactions. RESULTS: Our results indicate the transport of amino acids between the gut and brain, potentially influencing functional pathways and behavioural phenotypes. We observed a correlation between concentrations of tryptophan and its metabolic products between honey bee brain and gut. This provides evidence regarding gut-brain axis as a way of internal communication for different host mechanisms in honey bees. Microbiota composition changed significantly, with protein numbers increasing significantly in the establishment phase. Proteomic results from both the host and the microbiota reveal that altered metabolic and functional pathway abundances may be due to energy expenditure, task differentiation, and age of onset of foraging. CONCLUSION: Overall, our findings are the first to describe the global (meta-)proteomic and metabolomic changes in the honeybee gut and brain throughout a worker's life. This provides new insights toward developing potential biomarkers for evalua",
+      "journal": "Journal of advanced research",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41436626",
+      "title": "Identification of two odorant receptors tuned to alarm pheromone compounds in the honey bee Apis mellifera",
+      "year": 2025,
+      "doi": "10.1038/s42003-025-09391-z",
+      "abstract": "Being social insects, honey bees use an array of pheromones to facilitate intraspecific communication, ensuring colony cohesion in a wide range of contexts. The honey bee represents an attractive model for studying the neurobiological basis of pheromonal processing, given that their pheromones are well characterized and their olfactory pathway has been extensively studied. Despite substantial knowledge acquired on olfactory processing in this species, the mechanism of pheromonal coding remains poorly understood. In particular, olfactory receptors (ORs) detecting social pheromones are still unknown. In this study, we used heterologous expression in the Drosophila \"empty neuron system\", coupled with transcuticular calcium imaging and electrophysiology. We deorphanized two odorant receptors, AmelOR136 and AmelOR109, which detect constituents of the alarm pheromone. AmelOR136 exhibits a sparse coding strategy, suggesting a finely tuned mechanism for efficient communication in alarm situations. In contrast, AmelOR109 is a more broadly-tuned receptor, responding to diverse odorants, including pheromones.",
+      "journal": "Communications biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41369586",
+      "title": "buzzdetect: an open-source deep learning tool for automated bioacoustic pollinator monitoring",
+      "year": 2025,
+      "doi": "10.1093/jisesa/ieaf104",
+      "abstract": "Ecological studies of pollinators often require long-term and extensive monitoring, posing a significant cost and limitation to research. Traditional sampling methods of observation such as sweep netting and pan trapping provide valuable information on pollinator diversity, but scale poorly when conducting large sampling efforts across space and time. We introduce \"buzzdetect,\" a tool to apply deep learning models to audio data for passive acoustic monitoring of pollinators, and test our accompanying audio classification model. The model is capable of distinguishing the buzzing of insect flight from environmental noise on a second-by-second basis with a sensitivity of 28% and a precision of 95%. As a demonstration of the value of buzzdetect, we apply the tool to recordings from 4 crops and 1 wildflower. The results reveal differences in timing and intensity of foraging that correspond with prior literature: activity peaked earliest for chicory and latest for soybean, while total activity was higher in mustard and soybean than in the other crops.",
+      "journal": "Journal of insect science (Online)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41004490",
+      "title": "Predatory behavior, nesting habits, and impacts on honey bees (Apis mellifera) of an invasive hornet (Vespa tropica) on the island of Guam",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0332986",
+      "abstract": "Hornets (genus Vespa) are a conspicuous taxon of large eusocial wasps that are predators of other insects. Increasingly, hornets are gaining notoriety as damaging invaders after repeated introductions into novel habitats. Most hornets are highly effective predators, so they have the potential to greatly impact local entomofauna, including economically important pollinators. In 2016, Vespa tropica, a hornet with a broad natural range throughout subtropical and tropical Asia, was detected on Guam, although few details have been published since the initial alert. We provide the first comprehensive update on the status and impact of V. tropica hornets on Guam based on nine years of beekeeper and public reports, as well as field collections of nests, hornets, and videos of hunting behavior in managed apiaries. We show that the population of non-native V. tropica is established and thriving on Guam. Nests were found in a diversity of sites: below and above ground, sheltered and exposed, and in urban and greenspaces. V. tropica was a year-round predator in apiaries, with up to 12% of colony losses per year attributed to hornet attacks. Notably, hornets often attacked single honey bee (Apis mellifera) colonies in groups, similar to the hunting strategy of their close relatives, the giant hornets Vespa mandarinia and Vespa soror. Hornets killed defending workers, eventually weakening colonies and entering hives to consume bee brood. Bees mounted defenses that included alarm piping, bee 'carpets', and attempts to ball hornets. Hornets were active all year, but were significantly more active during the wet season (July‒December). Preliminary analysis of color forms suggested that the source of V. tropica on Guam is likely continental southeast Asia, although genetic analyses are required. Our study reveals that Guam is facing a fierce invader in V. tropica, which is placing strong predatory pressure on pre-established honey bees.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40906406",
+      "title": "The Sublethal Effects of Neonicotinoids on Honeybees",
+      "year": 2025,
+      "doi": "10.3390/biology14081076",
+      "abstract": "Honeybees (",
+      "journal": "Biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40897016",
+      "title": "Cross-taxa sublethal impacts of plant protection products on honeybee in-hive and zebrafish swimming behaviours at environmentally relevant concentrations",
+      "year": 2025,
+      "doi": "10.1016/j.envint.2025.109750",
+      "abstract": "Single and mixture exposure to plant protection products (PPPs) can affect non-target organisms at sublethal concentrations, yet the ecological relevance of behavioural effects remains underexplored. Behavioural disruptions can compromise survival and fitness, with exposure occurring across terrestrial and aquatic ecosystems. Here, we assess the behavioural impact of environmentally relevant PPP concentrations on two ecologically and toxicologically important model species: honeybees (Apis mellifera) and zebrafish (Danio rerio). These organisms represent distinct exposure pathways: pollinator-specific routes such as oral uptake of contaminated nectar and pollen or contact during overspray and foraging, and freshwater contamination via runoff. In honeybees, in-hive behaviours were monitored using a snapshot method from days three to ten after exposure, while zebrafish behavioural endpoints were quantified using a 26-endpoint visual and acoustic motor response (VAMR) assay. Sublethal PPP exposure (1.99-7.81 ng/µL in honeybee hives, 0.0253-27.5 ng/µL in zebrafish assay) caused significant, substance-specific behavioural alterations. In honeybees, flupyradifurone (SIVANTO® prime) significantly decreased foraging and nectar processing, while boscalid (Cantus®) and terbuthylazine (ClickPro®) minimised brood-tending behaviours. Insecticides and fungicides affected honeybees most, while zebrafish embryos were especially sensitive to the herbicide terbuthylazine. They exhibited concentration-dependent neurotoxic phenotypes, with behavioural profiles of the PPPs mixture (consistent with concentrations in German streams: 41.54 % boscalid, 0.013 % flupyradifurone, 58.45 % terbuthylazine) shifting along a terbuthylazine-boscalid gradient. These findings show that PPPs can elicit pronounced behavioural changes in non-target species, even at low environmental concentrations. These results support incorporating in-hive and early-life stage behavioural assays into pesticide risk ass",
+      "journal": "Environment international",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40828485",
+      "title": "Parasitic Mites of Honey Bees (Apis Spp.): A Detailed Review of Varroa destructor in Parasitism, Pathogen Transmission and its Management",
+      "year": 2025,
+      "doi": "10.1007/s11686-025-01124-w",
+      "abstract": "The parasitic mite Varroa destructor is the primary factor contributing to global honeybee (Apis mellifera) colony losses, posing a sustainable challenge to apiculture and pollination services. Its intricate life cycle adaptive reproductive strategies, and advanced sensory mechanisms have facilitated its emergence as the most destructive honeybee parasite. V. destructor uses highly specialized feeding strategies that extract essential nutrients from their hosts and introduce various pathogens, causing honeybee health problems. The mite functions as a viral vector, particularly in the case of the transmission and proliferation of deformed wing virus (DWV), which has resulted in significant colony weakening and collapse. V. destructor has emerged as the most destructive ectoparasite of honeybees, compromising both individual bee health and overall colony resilience. Its success is attributed not only to its direct feeding behavior and viral vectoring ability, but also to advanced chemical communication, immune suppression, and behavioral adaptations. Synergistic mite-pathogen interactions highlight the need for effective control measures. Current control approaches include advanced detection systems in the form of Var-Gor, focused neural and viral pathway inhibitions, and other control measures such as essential oils. The development of synergistic management strategies involving biotechnology, genetic resistance, and sustainable treatment alternatives, is critical to control V. destructor infestations. A deeper understanding of the evolutionary arms race between honeybees and V. destructors will be crucial to the development of long-term, sustainable control strategies that safeguard bee populations and preserve pollination services, which are vital to world agriculture. This review aims to synthesize current understanding of V. destructor biology, its interactions with honeybee host (A. mellifera and A. cerana), and the associated microbial and viral pathogens. We a",
+      "journal": "Acta parasitologica",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40816283",
+      "title": "Seasonal resource scarcity reduces risk sensitivity and conflict communication in honey bees",
+      "year": 2025,
+      "doi": "10.1016/j.cub.2025.07.054",
+      "abstract": "Adaptive decision-making reflects a balance of reward and risk.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40725310",
+      "title": "Ionotropic Receptor Genes in Fig Wasps: Evolutionary Insights from Comparative Studies",
+      "year": 2025,
+      "doi": "10.3390/insects16070679",
+      "abstract": "The mechanisms of chemoreception in fig wasps (Hymenoptera, Agaonidae) are of primary importance in their co-evolutionary relationship with the fig trees they pollinate. As the supplementary receptors to odorant receptors (ORs) and gustatory receptors (GRs) in insects, we compare the evolutionary characters of ionotropic receptors (IRs) among 25 fig wasp taxa in six genera. In total, we identified 205 IRs in 25 fig wasps, with each taxon recording from 5 to 12 IR genes. We found 189 IR genes clustered into 18 orthologous groups that can be divided into three types: IRco, antennal IRs, and divergent IRs. More IRs belong to antennal IRs in fig wasps, which can be sensitive to acids, aldehydes, polyamines, salt, amino acids, and temperature/humidity according to homology comparison. Additionally, some IR genes in fig wasps do not cluster with those of outgroup species (e.g.,",
+      "journal": "Insects",
+      "open_access": 1,
+      "source": "pubmed"
+    },
     {
       "paper_id": "10_15393_j1_art_2023_14502",
       "title": "Apis mellifera",
@@ -255,11 +843,7 @@
       "abstract": "",
       "journal": "Principles of the Ecology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_93196",
@@ -269,11 +853,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_6360",
@@ -283,11 +863,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_16984_saufenbilder_300635",
@@ -297,11 +873,7 @@
       "abstract": "",
       "journal": "SAÜ Fen Bilimleri Enstitüsü Dergisi",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-016-1064-4",
@@ -311,11 +883,7 @@
       "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arv088",
@@ -325,11 +893,7 @@
       "abstract": "A critical question in the study of the evolution of cognition and the brain concerns the extent to which variation in cognitive processes and associated neural mechanisms is adaptive and shaped by natural selection. In order to be available to selection, cognitive traits and their neural architecture must show heritable variation within a population, yet heritability of cognitive and neural traits is not often investigated in the field of behavioral ecology. In this commentary, we outline existing research pertaining to the relative influences of genes and environment in cognitive and underlying neural trait variation, as well as what is known of their heritable genetic architecture by focusing on several cognitive traits that have received much attention in behavioral ecology. It is important to demonstrate that cognitive traits can respond to selection, and we advocate for an increased emphasis on investigating trait heritability for enhancing our understanding of the ecological, ge",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_dvg_22741",
@@ -339,11 +903,7 @@
       "abstract": "Since the discovery of brain asymmetry in a wide range of vertebrate species, it has become possible to study development and expression of lateralized behavior accurately in well-controlled experiments. Several species have emerged as useful models for investigating aspects of lateralization. Discussed here are: (1) the influence of exposure to light during embryonic development on lateralization, (2) effects of steroid hormones on lateralization, (3) developmental changes in which hemisphere is controlling behavior, and (4) asymmetry in memory formation and recall. The findings have bearing on understanding the development of hemispheric specialization in humans and are likely to provide insight into dysfunctional behavior associated with weak or absent lateralization and impaired interhemispheric communication (e.g., autism, schizophrenia, and dyslexia). This review features research on chicks, pigeons, and zebrafish, with the addition of some recent evidence of lateralization in be",
       "journal": "genesis",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fpsyg_2012_00005",
@@ -353,11 +913,7 @@
       "abstract": "Hemispheric asymmetries play an important role in almost all cognitive functions. For more than a century, they were considered to be uniquely human but now an increasing number of findings in all vertebrate classes make it likely that we inherited our asymmetries from common ancestors. Thus, studying animal models could provide unique insights into the mechanisms of lateralization. We outline three such avenues of research by providing an overview of experiments on left-right differences in the connectivity of sensory systems, the embryonic determinants of brain asymmetries, and the genetics of lateralization. All these lines of studies could provide a wealth of insights into our own asymmetries that should and will be exploited by future analyses.",
       "journal": "Frontiers in Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s13592-011-0016-x",
@@ -367,11 +923,7 @@
       "abstract": "The worldwide maintenance of the honeybee has major ecological, economic, and political implications. In the present study, electromagnetic waves originating from mobile phones were tested for potential effects on honeybee behavior. Mobile phone handsets were placed in the close vicinity of honeybees. The sound made by the bees was recorded and analyzed. The audiograms and spectrograms revealed that active mobile phone handsets have a dramatic impact on the behavior of the bees, namely by inducing the worker piping signal. In natural conditions, worker piping either announces the swarming process of the bee colony or is a signal of a disturbed bee colony.",
       "journal": "Apidologie",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2011_0001",
@@ -381,11 +933,7 @@
       "abstract": "The evolution of novel morphological features, such as feathers, involves the modification of developmental processes regulated by gene networks. The fact that genetic novelty operates within developmental constraints is the central tenet of the 'evo-devo' conceptual framework. It is supported by findings that certain molecular regulatory pathways act in a similar manner in the development of morphological adaptations, which are not directly related by common ancestry but evolved convergently. The Pax6 gene, important for vision in molluscs, insects and vertebrates, and Hox genes, important for tetrapod limbs and fish fins, exemplify this 'deep homology'. Recently, 'evo-devo' has expanded to the molecular analysis of behavioural traits, including social behaviour, learning and memory. Here, we apply this approach to the evolution of human language. Human speech is a form of auditory-guided, learned vocal motor behaviour that also evolved in certain species of birds, bats and ocean mamm",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3896_ibra_1_46_4_03",
@@ -395,11 +943,7 @@
       "abstract": "",
       "journal": "Journal of Apicultural Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1051_apido:2004007",
@@ -409,11 +953,7 @@
       "abstract": "",
       "journal": "Apidologie",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1006_anbe_2003_2174",
@@ -423,11 +963,17 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1127_entom_gen_15_1990_83",
+      "title": "Chemical Signals and Dominance Communication in the Honeybee Apis mellifera",
+      "year": 1990,
+      "doi": "10.1127/entom.gen/15/1990/83",
+      "abstract": "",
+      "journal": "Entomologia Generalis",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_59852_tpe-a404v12i2",
@@ -437,11 +983,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_58837_chula_the_1987_600",
@@ -451,11 +993,7 @@
       "abstract": "<jats:p>ศึกษาความเป็นพิษของสารฆ่าแมลง 3 ชนิด คือ คาร์บาริล มาลาไธออน และเปอร์มีทรินต่อผึ้งพันธุ์และผึ้งโพรงที่อุณหภูมิ 18๐C, 25๐C และ 32๐C โดยวิธีหยดสารลงบนตัวผึ้งและวิธีผสมสารกับน้ำเชื่อมให้ผึ้งกิน และประเมินความเป็นพิษด้วยค่า LD50 ซึ่งวิเคราะห์ด้วยโปรแกรมโปรบิทผลการวิเคราะห์มีดังนี้ โดยวิธีหยดสารลงบนตัวผึ้ง ในผึ้งพันธุ์วัดค่า LD50 (ตัวเลขในวงเล็บคือพิสัยต่ำสุดและสูงสุดที่ระดับความเชื่อมั่น 95%) ของคาร์บาริลได้เท่ากับ 0.16 (0.13-0.20), 0.24 (0.14-0.33) และ 0.22 (0.18-0.28) ของมาลาไธออนเท่ากับ 0.092 (0.083-0.100), 0.100 (0.082-0.120) และ 0.180 (0.170-0.190) และของเปอร์มีทรินเท่ากับ 0.0095 (0.0069-0.0120), 0.023 (0.020-0.026) และ 0.130 (0.100-0.160) ไมโครกรัม/ผึ้งหนึ่งตัว ที่อุณหภูมิ 18๐C, 25๐C และ 32๐C ตามลำดับ สำหรับในผึ้งโพรงซึ่งทดลองในสภาวะแวดล้อมอย่างเดียวกัน วัดค่า LD50 ของคาร์บาริลได้เท่ากับ 0.052 (0.031-0.100), 0.100 (0.089-0.120) และ 0.090 (0.078-0.100) ของมาลาไธออนเท่ากับ 0.032 (0.021-0.047), 0.072 (0.066-0.078) และ 0.064 (0.053-0.080) และของเปอร์มีทรินเท่ากับ 0.015 (0.013-0.0",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_t_11_2013_tde-27032013-152000",
@@ -465,14 +1003,20 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_70675_740fef2dz5655z4001zaa0dzdd57656b3420",
+      "title": "Communication chimique et régulations sociales dans la colonie d’abeilles (apis mellifera L.)",
+      "year": null,
+      "doi": "10.70675/740fef2dz5655z4001zaa0dzdd57656b3420",
+      "abstract": "<jats:p xml:lang=\"fr\">La colonie d’abeille (Apis mellifera L.) est une société complexe où les individus interagissent entre eux, notamment par le biais de phéromones. L’étude de cette communication chimique est indispensable à la compréhension des régulations sociales mises en place dans la colonie. Chez l’abeille, plus de 50 substances chimiques avec des effets incitateurs ou modificateurs sur la colonie ont été identifiées. Malgré ces découvertes, de nombreux travaux sont à accomplir pour mieux comprendre ce système de communication particulier.La problématique de cette thèse vise à caractériser l’histoire de vie d’une phéromone majeure l’Oléate d’Ethyle (EO), qui permet d’optimiser l’équilibre nourrices / butineuses dans la colonie. Parallèlement, d’autres recherches ont été entreprises, notamment l’étude de la communication chimique de la reine et du couvain, chez qui seulement deux phéromones ont été identifiées avec des effets pléiotropiques dans la colonie.Nos résultats ont mis",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 33,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

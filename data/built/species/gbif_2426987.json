@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 21,
-    "claim_count": 5,
-    "doi_count": 22,
-    "media_count": 0
+    "paper_count": 24,
+    "claim_count": 4,
+    "doi_count": 23,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -49,8 +49,8 @@
     "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "species recognition"
+    "species recognition",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,7 +58,7 @@
         "value": "advertisement call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -66,33 +66,87 @@
         "value": "chorus",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "species recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 329,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 328,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 327,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 326,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Bombina variegata",
     "recordings": [],
     "external_links": []
@@ -172,6 +226,13 @@
       "doi": "10.1111/j.1439-0469.1979.tb00690.x",
       "url": "https://doi.org/10.1111/j.1439-0469.1979.tb00690.x",
       "title": "Immunchemische Untersuchungen an Discoglossiden-Laich: Vergleichende Untersuchungen an Alytes obstetricans, Bombina bombina, Bombina variegata und Discoglossus pictus1",
+      "year": 2009,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1111/j.1439-0469.1984.tb00562.x",
+      "url": "https://doi.org/10.1111/j.1439-0469.1984.tb00562.x",
+      "title": "Allozymic and morphological variation in the hybrid zone between Bombina bombina and Bombina variegata (Anura, Discoglossidae) in northeastern Austria",
       "year": 2009,
       "source": "crossref"
     },
@@ -262,11 +323,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41598-019-41959-8",
@@ -276,11 +333,7 @@
       "abstract": "The phenomenon of fluorescence can be used by animals to change effective colouration or patterning, potentially to serve functions including intra- and interspecific signalling. Initially believed to be restricted to marine animals, fluorescent colours are now being described in an increasing number of terrestrial species. Here, we describe unique, highly fluorescent patterns in two species of pumpkin toadlets (Brachycephalus ephippium and B. pitanga). We establish that the origin of the fluorescence lies in the dermal bone of the head and back, visible through a particularly thin skin. By comparing them to those of the closely related species Ischnocnema parva, we demonstrate that pumpkin toadlets' bones are exceptionally fluorescent. We characterize the luminescence properties of the toadlets' bones and discuss the potential function of fluorescent patterns in natural lighting conditions.",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_faf_12277",
@@ -290,11 +343,7 @@
       "abstract": "Abstract Temperature affects peripheral and central mechanisms of signal production and detection in ectothermic animals. This study reviews for the first time the effects of temperature on acoustic communication in fishes and analyses whether changes in sound properties are coupled to changes in auditory sensitivities. Effects of temperature on sound production have been studied in approximately one dozen families of teleosts. Calling activity increased or was unaffected by temperature, in the latter case probably because seasonal, daily and lunar rhythms also influence mating behaviour and calling. Sound characteristics (pulse repetition rate, fundamental frequency) are positively correlated with temperature if pulses are directly based on sonic muscle contractions. In fishes possessing other sonic mechanisms, the dominant frequency of their pulsatile pectoral sounds may increase as well. Auditory sensitivities were mainly determined in otophysines, which possess enhanced hearing abi",
       "journal": "Fish and Fisheries",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_biolinnean_bly048",
@@ -304,11 +353,7 @@
       "abstract": "The nuptial pad is a secondary sexual character found in anuran amphibians. It includes modified epidermal and dermal tissues and is usually located on the first digit of the hand of males. In this study, we review the structure and diversity of nuptial pads based on a large-scale sample of morphological and phylogenetic diversity. Our findings show that all nuptial pads are characterized by the presence of specialized mucous glands in the dermal component. We also report the co-occurrence of other types of glands in some species and characterize their histochemistry. We describe three primary nuptial pad morphologies: (1) nuptial pads with papillary epidermal projections (or simply, papillae), in which the epidermal projections are formed by an epidermal and dermal evagination; (2) nuptial pads with non-papillary epidermal projections, in which the epidermal projections lack a dermal core forming a papilla; and (3) smooth nuptial pads, which lack projections but have a slight thickeni",
       "journal": "Biological Journal of the Linnean Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0182020",
@@ -318,11 +363,7 @@
       "abstract": "Colouration has been considered a cue for mating success in many species; ornaments in males often are related to carotenoid mobilization towards feathers and/or skin and can signal general health and nutrition status. However, there are several factors that can also link with status, such as physiological blood parameters and body condition, but there is not substantial evidence which supports the existence of these relationships and interactions in anurans. This study evaluated how body score and blood values interact with colouration in free-range Agalychnis callidryas and Agalychnis annae males. We found significant associations between body condition and plasmatic proteins and haematocrit, as well as between body condition and colour values from the chromaticity diagram. We also demonstrated that there is a significant relation between the glucose and plasmatic protein values that were reflected in the ventral colours of the animals, and haematocrit inversely affected most of thos",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0145444",
@@ -332,11 +373,7 @@
       "abstract": "Intraspecific communication in frogs plays an important role in the recognition of conspecifics in general and of potential rivals or mates in particular and therefore with relevant consequences for pre-zygotic reproductive isolation. We investigate intraspecific communication in Hylodes japi, an endemic Brazilian torrent frog with territorial males and an elaborate courtship behavior. We describe its repertoire of acoustic signals as well as one of the most complex repertoires of visual displays known in anurans, including five new visual displays. Previously unknown in frogs, we also describe a bimodal inter-sexual communication system where the female stimulates the male to emit a courtship call. As another novelty for frogs, we show that in addition to choosing which limb to signal with, males choose which of their two vocal sacs will be used for visual signaling. We explain how and why this is accomplished. Control of inflation also provides additional evidence that vocal sac move",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1017_s0030605315000812",
@@ -346,11 +383,7 @@
       "abstract": "Abstract Amphibians are considered to be the most threatened group of vertebrates. Among the multiple factors involved in their decline, habitat loss and alteration as a result of human activities is a major threat. At the individual level the effects of habitat alteration are potentially multiple, including a range of morphological and physiological responses. Analysing and understanding these responses is therefore a critical challenge for amphibian conservation. We examined the influence of intensive vehicle traffic (motorbikes and trucks on unpaved pathways) on the body size and condition and on the production of glucocorticoids (i.e. corticosterone) in the yellow-bellied toad Bombina variegata . In particular, we tested the hypothesis that intensive vehicle traffic has a negative influence on body size and body condition, and postulated that it also increases corticosterone production. Using morphometric data and saliva samples collected from four populations in France, we found t",
       "journal": "Oryx",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_art024",
@@ -360,11 +393,7 @@
       "abstract": "Most alternative reproductive phenotypes are interpreted as alternative tactics within a conditional strategy: all individuals are predicted to choose among behavioral tactics based on some measure of their physiological condition or competitive status. The factors determining a male's tactic at any particular time are generally unknown. Thus, most researchers have measured potential correlates of competitive ability (such as male body size) rather than directly measuring fighting ability, for example, in males adopting alternative mating tactics. In species in which sexual competition primarily involves production of acoustic signals, an individual's choice of mating tactic may largely depend on physical characteristics, such as age, strength, or condition, which determine its ability to compete acoustically by producing attractive calls. Male green tree frogs (Hyla cinerea) often switch tactics (caller or satellite), but body size changes very little during the breeding season. I tes",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0026479",
@@ -374,11 +403,7 @@
       "abstract": "These data indicate that sound characteristics as well as hearing abilities are affected by temperatures in fishes. Constraints imposed on hearing sensitivity at different temperatures cannot be compensated even by longer acclimation periods. These changes in sound production and detection suggest that acoustic orientation and communication are affected by temperature changes in the neotropical catfish P. armatulus.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1439-0469_1976_tb00938_x",
@@ -388,11 +413,7 @@
       "abstract": "",
       "journal": "Journal of Zoological Systematics and Evolutionary Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1439-0469_1979_tb00690_x",
@@ -402,11 +423,17 @@
       "abstract": "",
       "journal": "Journal of Zoological Systematics and Evolutionary Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1111_j_1439-0469_1984_tb00562_x",
+      "title": "Allozymic and morphological variation in the hybrid zone between Bombina bombina and Bombina variegata (Anura, Discoglossidae) in northeastern Austria",
+      "year": 2009,
+      "doi": "10.1111/j.1439-0469.1984.tb00562.x",
+      "abstract": "",
+      "journal": "Journal of Zoological Systematics and Evolutionary Research",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1201_9781482280074-3",
@@ -416,11 +443,7 @@
       "abstract": "",
       "journal": "Reproductive Biology and Phylogeny of Anura",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1201_9781482280074-4",
@@ -430,11 +453,7 @@
       "abstract": "",
       "journal": "Reproductive Biology and Phylogeny of Anura",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1565643",
@@ -444,11 +463,17 @@
       "abstract": "",
       "journal": "Journal of Herpetology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_28568525",
+      "title": "NATURAL SELECTION ON QUANTITATIVE TRAITS IN THE BOMBINA HYBRID ZONE",
+      "year": 1995,
+      "doi": "10.1111/j.1558-5646.1995.tb04449.x",
+      "abstract": "Observations on the means, variances, and covariances of quantitative traits across hybrid zones can give information similar to that from Mendelian markers. In addition, they can identify particular traits through which the cline is maintained. We describe a survey of six traits across the hybrid zone between Bombina bombina and Bombina variegata (Amphibia: Discoglossidae) near Pešćenica in Croatia. We obtained laboratory measuments of the belly pattern, skin thickness, mating call, skeletal form, egg size, and the developmental time of tadpoles. Although offspring from hybrid populations showed no evidence of reduced viability, a third of the F",
+      "journal": "Evolution; international journal of organic evolution",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2307_2409630",
@@ -458,11 +483,7 @@
       "abstract": "",
       "journal": "Evolution",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_156853887x00252",
@@ -472,11 +493,7 @@
       "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>Fire-bellied toads (Bombina bombina and B. variegata) were collected at eight locations in the Mátra mountains and subjected to morphological examinations and electrophoretic investigations of nine enzymes encoded by twelve presumptive loci. Both species occurred together at one place. Another site was inhabited exclusively by B. bombina, while only B. variegata was found at the other localities. Analysis of variation at four marker loci revealed varying degrees of introgression of alien alleles in all populations. Individuals of hybrid origin prevail in most of the B. variegata samples. At Idh-1 and Aat B. variegata exhibits polymorphism for both those electromorphs fixed in northern Carpathian populations of this species and those characteristically found in western parts of its range.</jats:p>\n         </jats:sec>",
       "journal": "Amphibia-Reptilia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_156853883x00058",
@@ -486,11 +503,17 @@
       "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>NEI'S genetic distance estimate (D) between Polish Bombina bombina and B. variegata based on electrophoretic comparisions of 29 proteins encoded at 39 presumptive gene loci, is 0.487±0.127. This estimate suggests Pliocene separation of the species, in agreement with the fossil record. Remnants of B. bombina-like and B. variegata - like animals from Upper Pliocene have been found in Czechoslovakia, and B. bombina- like animals from the same period have also been found in Poland. Separation of European Bombina was probably connected with an ecological shift of ancestors of B. bombina, the most derived species of the genus, to lowland environment. The Pliocene divergence proposed here is considerably earlier than that postulated by MERTENS (1928) who linked Bombina speciation events to Pleistocene glaciations. Comparisons ofgenetic divergence measures and the fossil record for three other species pairs of European amphibians (Triturus cri",
       "journal": "Amphibia-Reptilia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_1031523",
+      "title": "[Spermatogenesis in the yellow-bellied toad (Bombina variegata variegata L.) during the seasonal activity period and in correlation with the mating call activity (Discoglossidae, Anura)]",
+      "year": 1976,
+      "doi": null,
+      "abstract": "The spermatogenic tissue in the yellow-bellied toad Bombina variegata has certain properties not shared by other Central European anurans. Sertoli cells are lacking; the sperms are not bundled within the seminiferous tubules, but rather they form and mature in a connective-tissue follicle that is cellular in nature. Spermatogenesis is not a continuous process, at either the spermatocyte or the spermatozoa formation stage. Rather, there are periods of stagnation and of proliferation, which can be correlated with the periods during which the male toads produce mating calls and with the pauses between the calling periods. The crucial participation of hormonal factors in these processes is discussed.",
+      "journal": "Zeitschrift fur mikroskopisch-anatomische Forschung",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_bf00345088",
@@ -500,11 +523,7 @@
       "abstract": "",
       "journal": "Oecologia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00344635",
@@ -514,11 +533,7 @@
       "abstract": "",
       "journal": "Oecologia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1439890",
@@ -528,11 +543,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_12681_eadd_2546",
@@ -542,14 +553,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 21,
+  "paper_count": 24,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

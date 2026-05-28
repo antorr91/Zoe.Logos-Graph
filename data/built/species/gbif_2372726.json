@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 15,
-    "claim_count": 6,
+    "paper_count": 16,
+    "claim_count": 8,
     "doi_count": 13,
-    "media_count": 0
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,62 +42,168 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "knocking",
-    "thumping"
+    "thumping",
+    "knocking"
   ],
   "contexts": [
-    "social communication",
-    "territorial defence"
+    "territorial defence",
+    "social communication"
   ],
   "functions": [
-    "dominance communication",
-    "territory signalling"
+    "territory signalling",
+    "dominance communication"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "knocking",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "thumping",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "knocking",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "social communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "dominance communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "dominance communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 264,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 263,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 262,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 261,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 260,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 259,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 258,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 257,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -206,11 +312,7 @@
       "abstract": "The brown meagre (Sciaena umbra) is an endangered species, which requires specific protection measures to ensure its conservation. These measures need to be informed by high-quality scientific knowledge on their space use patterns. Here, we used acoustic telemetry to assess its seasonal movement patterns and habitat use within a marine protected area (MPA). Our results suggested that S. umbra is a highly sedentary species (home range < 1.0 km<sup>2</sup>) and, therefore, the MPA is extensive enough to protect the local population. Their population was discretely distributed in two main areas within the MPA, which was likely a result of habitat segregation and density-dependent movements. The temporal variability of their movements further uncovered when and where spawning occurs (mainly, but probably not only, in the fully protected area in June) and indicated that spillover of this species is limited but still possible. Overall, we highlight the importance of MPAs in the recovery of S",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "lit_gbif_2372726_14",
@@ -220,11 +322,7 @@
       "abstract": "Ce travail de thèse apporte des connaissances fondamentales sur les schémas de déplacement d'une espèce vulnérable, le corb. Pour ce faire, 20 individus ont été suivis par télémétrie acoustique au sein d'une aire marine protégée (AMP) pendant 3 ans.Nos résultats suggèrent une grande fidélité au site avec des domaines vitaux relativement petits, ce qui implique que cette AMP (bien que petite) est suffisamment grande pour fournir une protection efficace aux populations de corb. Cependant, des déplacements ont été observés, mettant en évidence la capacité de cette espèce à se déplacer. Ils semblent être associés au comportement reproducteur pendant les mois chauds et à l'activité trophique (alimentation) pendant les mois plus froids. Ces déplacements sont essentiels pour le rétablissement des populations de corbeille en dehors des AMP. Le renforcement des mesures de protection (moratoire, création et/ou extension d'AMP) semble indispensable pour assurer la recolonisation de nouveaux sites",
       "journal": "theses.fr (ABES)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_s41598-021-92633-x",
@@ -234,11 +332,7 @@
       "abstract": "The spatio-temporal variability of fish distribution is important to better manage and protect the populations of endangered species. In this sense, the vertical movements of a vulnerable and protected species, Sciaena umbra, were assessed in a marine protected area (the Réserve Naturelle Marine de Cerbère-Banyuls, south of France) to study the variability of their bathymetric distribution at different time scales. Twenty adults were marked with acoustic transmitters and acoustically monitored over 2.5 years. This revealed that some individuals remained at shallow waters (< 8 m) all year round, while others presented vertical segregation at deeper waters during the cold months (mean depth of 22.5 ± 0.04 m) and all aggregated in shallow waters during the warm months. The brown meagre was more active during the night, except in June and July when peaks of activity were observed at dusk. These patterns are likely associated with foraging and reproductive behavior during the cold and warm ",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_s41598-021-84261-2",
@@ -248,11 +342,7 @@
       "abstract": "Motorboat noise is recognized as a major source of marine pollution, however little is known about its ecological consequences on coastal systems. We developed a State Space Model (SSM) that incorporates an explicit dependency on motorboat noise to derive its effects on the movement of resident fish that transition between two behavioural states (swimming vs. hidden). To explore the performance of our model, we carried out an experiment where free-living Serranus scriba were tracked with acoustic tags, while motorboat noise was simultaneously recorded. We fitted the generated tracking and noise data into our SSM and explored if the noise generated by motorboats passing at close range affected the movement pattern and the probability of transition between the two states using a Bayesian approach. Our results suggest high among individual variability in movement patterns and transition between states, as well as in fish response to the presence of passing motorboats. These findings sugge",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7755_fb_118_1_4s2",
@@ -262,11 +352,7 @@
       "abstract": "",
       "journal": "Fishery Bulletin",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7755_fb_118_1_4s1",
@@ -276,11 +362,7 @@
       "abstract": "",
       "journal": "Fishery Bulletin",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7755_fb_118_1_4s3",
@@ -290,11 +372,7 @@
       "abstract": "",
       "journal": "Fishery Bulletin",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fnana_2020_00011",
@@ -304,11 +382,7 @@
       "abstract": "It is widely acknowledged that the left and right hemispheres of human brains display both anatomical and functional asymmetries. For more than a century, brain and behavioral lateralization have been considered a uniquely human feature linked to language and handedness. However, over the past decades this idea has been challenged by an increasing number of studies describing structural asymmetries and lateralized behaviors in non-human species extending from primates to fish. Evidence suggesting that a similar pattern of brain lateralization occurs in all vertebrates, humans included, has allowed the emergence of different model systems to investigate the development of brain asymmetries and their impact on behavior. Among animal models, fish have contributed much to the research on lateralization as several fish species exhibit lateralized behaviors. For instance, behavioral studies have shown that the advantages of having an asymmetric brain, such as the ability of simultaneously pr",
       "journal": "Frontiers in Neuroanatomy",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_64921",
@@ -318,11 +392,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0098976",
@@ -332,11 +402,17 @@
       "abstract": "",
       "journal": "PLoS ONE",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_24902049",
+      "title": "Movements of blue rockfish (Sebastes mystinus) off central California with comparisons to similar species",
+      "year": 2014,
+      "doi": "10.1371/journal.pone.0098976",
+      "abstract": "Olive (Sebastes serranoides), black (Sebastes melanops), and blue rockfish (Sebastes mystinus) are all common inhabitants of nearshore ecosystems on the West coast of North America and important components of the recreational fishery off California. Acoustic monitoring studies indicate that olive rockfish are highly residential and that black rockfish are capable of long migrations and have less site fidelity; yet little is known about the long-term movements of blue rockfish. External tag-recapture studies indicate that blue rockfish may have intermediate movements relative to these congener nearshore species. To better understand the site fidelity, and daily and seasonal movements of blue rockfish over long (>1-year) time scales, we placed acoustic transmitters into 21 adult blue rockfish (30-41 cm total length) in Carmel Bay, California. Blue rockfish displayed intermediate movement patterns and residency relative to other similar kelp forest rockfish species. Two-thirds of tagged blue rockfish (13 fish) exhibited high residency to the study area (>12 mo). When in residence, mean home range of blue rockfish was 0.23 km2, however as many as 30% of tagged blue rockfish shifted their core home range area during the study. Most shifts in home range occurred during upwelling season, and tagged fish moved up to 3.1 km when in residence. Blue rockfish with short residence times were last detected in the study area in late winter and early spring. Blue rockfish were observed at shallower depths during day than night, likely indicative of diurnal feeding. However, over longer time scales, blue rockfish were detected at deeper depths during upwelling periods and with increased wave heights. Daily and seasonal vertical movements of blue rockfish may be influenced by upwelling conditions and local prey abundance.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "lit_gbif_2372726_12",
@@ -346,11 +422,7 @@
       "abstract": "We summarized data on species abundances for subtidal and shoreline fish assemblages from two areas in California and from the Alexander Archipelago in northern British Columbia-southeast Alaska. For the northern California and British Columbia-Alaska areas, the combined shoreline and subtidal collections were dominated numerically by cottids and stichaeids. At the central California survey area, scorpaenids were the predominant group, followed by cottids, stichaeids, pholids, and bothids. Within each region, individual species tended to occur either mostly in the intertidal/shoreline zone or mostly subtidally; rarely were species abundant in both habitats. Because intertidal species are largely confined to that habitat, populations at widely separated locations could be demographically and genetically isolated, unless gene flow (immigration) via planktonic larval dispersal occurs.",
       "journal": "Occidental College Scholar (Occidental College)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "lit_gbif_2372726_13",
@@ -360,11 +432,7 @@
       "abstract": "",
       "journal": "Occidental College Scholar (Occidental College)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3147_jsfp_21_85",
@@ -374,11 +442,7 @@
       "abstract": "",
       "journal": "Fish Pathology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3147_jsfp_21_81",
@@ -388,11 +452,7 @@
       "abstract": "",
       "journal": "Fish Pathology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31979_etd_9dtg-ebfp",
@@ -402,14 +462,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 15,
+  "paper_count": 16,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 29,
-    "claim_count": 8,
-    "doi_count": 30,
-    "media_count": 0
+    "paper_count": 44,
+    "claim_count": 18,
+    "doi_count": 44,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,38 +42,38 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
+    "twitter",
     "contact call",
-    "phee call",
-    "twitter"
+    "phee call"
   ],
   "contexts": [
     "parent-offspring interaction",
     "social communication"
   ],
   "functions": [
+    "individual recognition",
     "contact maintenance",
-    "group cohesion",
-    "individual recognition"
+    "group cohesion"
   ],
   "communication_profile": {
     "vocalisations": [
       {
+        "value": "twitter",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "contact call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "phee call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "twitter",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -81,44 +81,350 @@
         "value": "parent-offspring interaction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "individual recognition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "contact maintenance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "group cohesion",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "individual recognition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 593,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 592,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 591,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 590,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 589,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 588,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 587,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 586,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 585,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 584,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 583,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 582,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 581,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 580,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 579,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 578,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 577,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 576,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.7554/eLife.105034",
+      "url": "https://doi.org/10.7554/eLife.105034",
+      "title": "Dynamic modulation of social gaze by sex and familiarity in marmoset dyads",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41597-025-04951-8",
+      "url": "https://doi.org/10.1038/s41597-025-04951-8",
+      "title": "A large annotated dataset of vocalizations by common marmosets",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.0405-25.2025",
+      "url": "https://doi.org/10.1523/JNEUROSCI.0405-25.2025",
+      "title": "Marmoset Anterior Cingulate Area 32 Neurons Exhibit Responses to Presented and Produced Calls during Naturalistic Vocal Communication",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.0651-24.2025",
+      "url": "https://doi.org/10.1523/JNEUROSCI.0651-24.2025",
+      "title": "Ultra-high Field fMRI Reveals Effect of Ketamine on Vocal Processing in Common Marmosets",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.0670-24.2024",
+      "url": "https://doi.org/10.1523/JNEUROSCI.0670-24.2024",
+      "title": "Unique Cortical and Subcortical Activation Patterns for Different Conspecific Calls in Marmosets",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s42003-024-06002-1",
+      "url": "https://doi.org/10.1038/s42003-024-06002-1",
+      "title": "Mapping of facial and vocal processing in common marmosets with ultra-high field fMRI",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s42003-024-07019-2",
+      "url": "https://doi.org/10.1038/s42003-024-07019-2",
+      "title": "Neural activity for complex sounds in the marmoset anterior cingulate cortex",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1080/19490976.2024.2305476",
+      "url": "https://doi.org/10.1080/19490976.2024.2305476",
+      "title": "Antibiotic-induced gut dysbiosis elicits gut-brain axis relevant multi-omic signatures and behavioral and neuroendocrine changes in a nonhuman primate model",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/cercor/bhad394",
+      "url": "https://doi.org/10.1093/cercor/bhad394",
+      "title": "Direct interhemispheric cortical communication via thalamic commissures: a new white matter pathway in the primate brain",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.240218",
+      "url": "https://doi.org/10.1098/rsos.240218",
+      "title": "Beyond bigrams: call sequencing in the common marmoset (",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1098/rsos.240218/v1/decision1",
       "url": "https://doi.org/10.1098/rsos.240218/v1/decision1",
@@ -160,6 +466,34 @@
       "title": "Decision letter for \"Beyond bigrams: call sequencing in the common marmoset ( &lt;i&gt;Callithrix jacchus&lt;/i&gt; ) vocal system\"",
       "year": 2024,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1101/2024.02.16.580693",
+      "url": "https://doi.org/10.1101/2024.02.16.580693",
+      "title": "Dynamic modulation of social gaze by sex and familiarity in marmoset dyads",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s42003-023-05185-3",
+      "url": "https://doi.org/10.1038/s42003-023-05185-3",
+      "title": "Noninvasive disruption of the blood-brain barrier in the marmoset monkey",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/nyas.15057",
+      "url": "https://doi.org/10.1111/nyas.15057",
+      "title": "The neurobiology of vocal communication in marmosets",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7554/eLife.86327",
+      "url": "https://doi.org/10.7554/eLife.86327",
+      "title": "Gaze patterns and brain activations in humans and marmosets in the Frith-Happé theory-of-mind animation task",
+      "year": 2023,
+      "source": "pubmed"
     },
     {
       "doi": "10.1002/cne.25230/v1/decision1",
@@ -332,6 +666,66 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41925718",
+      "title": "Dynamic modulation of social gaze by sex and familiarity in marmoset dyads",
+      "year": 2026,
+      "doi": "10.7554/eLife.105034",
+      "abstract": "Social communication relies on the ability to perceive and interpret the direction of others' attention, and is commonly conveyed through head orientation and gaze direction in humans and nonhuman primates. However, traditional social gaze experiments in nonhuman primates require restraining head movements, significantly limiting their natural behavioral repertoire. Here, we developed a novel framework for accurately tracking facial features and three-dimensional (3D) head gaze directions of multiple freely moving common marmosets (",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40897641",
+      "title": "Marmoset Anterior Cingulate Area 32 Neurons Exhibit Responses to Presented and Produced Calls during Naturalistic Vocal Communication",
+      "year": 2025,
+      "doi": "10.1523/JNEUROSCI.0405-25.2025",
+      "abstract": "Vocal communication is a complex social behavior that entails the integration of auditory perception and vocal production. Both anatomical and functional evidence have implicated the anterior cingulate cortex (ACC), including area 32, in these processes, but the dynamics of neural responses in area 32 during naturalistic vocal interactions remain poorly understood. Here, we addressed this by recording the activity of single area 32 neurons using chronically implanted ultrahigh-density Neuropixels probes in freely moving male common marmosets (",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40360502",
+      "title": "A large annotated dataset of vocalizations by common marmosets",
+      "year": 2025,
+      "doi": "10.1038/s41597-025-04951-8",
+      "abstract": "Non-human primates, our closest relatives, use a wide range of complex vocal signals for communication within their species. Previous research on marmoset (Callithrix jacchus) vocalizations has been limited by sampling rates not covering the whole hearing range and insufficient labeling for advanced analyses using Deep Neural Networks (DNNs). Here, we provide a database of common marmoset vocalizations, which were continuously recorded with a sampling rate of 96 kHz from an animal holding facility housing simultaneously ~20 marmosets in three cages. The dataset comprises more than 800,000 files, amounting to 253 hours of data collected over 40 months. Each recording lasts a few seconds and captures the marmosets' social vocalizations, encompassing their entire known vocal repertoire during the experimental period. Around 215,000 calls are annotated with the vocalization type. We offer a trained classifier to assist future investigations. Finally, we validated our dataset by sampling 700 representative recordings and cross-examining them with four experts.",
+      "journal": "Scientific data",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39984201",
+      "title": "Ultra-high Field fMRI Reveals Effect of Ketamine on Vocal Processing in Common Marmosets",
+      "year": 2025,
+      "doi": "10.1523/JNEUROSCI.0651-24.2025",
+      "abstract": "Auditory deficits are a well-known symptom in neuropsychiatric disorders such as schizophrenia. The noncompetitive",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39956398",
+      "title": "Development of a non-invasive novel individual marmoset holder for evaluation by awake functional magnetic resonance brain imaging",
+      "year": 2025,
+      "doi": "10.1016/j.jneumeth.2025.110390",
+      "abstract": "BACKGROUND: Although functional MRI (fMRI) in awake marmosets (Callithrix jacchus) is fascinating for functional brain mapping and evaluation of brain disease models, it is difficult to launch awake fMRI on scanners with bore sizes of less than 16 cm. A universal marmoset holder for the small-bore size MRI was designed, and it was evaluated whether this holder could conduct auditory stimulation fMRI in the awake state using 16 cm bore size MRI scanner. NEW METHOD: The marmoset holder was designed with an outer diameter of 71.9 mm. A holder was designed to allow adjustment according to the individual head shape, enabling the use of the holder universally. An awake fMRI study of auditory response was conducted to evaluate the practicality of the new holder. Whole-brain activation was investigated when marmosets heard the marmoset social communication \"phee call\" an artificial tone sound and reversed of those. RESULTS: The prefrontal cortex was significantly activated in response to phee calls, whereas only the auditory cortex was activated in response to pure tones. In contrast, the auditory response was decreased when marmosets heard phee call. Their stimulus-specific responses indicated they perceived and differentiated sound characteristics in the fMRI environment. COMPARISON WITH EXISTING METHODS: A holder does not require surgical intervention or a custom-made helmet to minimize head movement in a small space. CONCLUSION: Our newly developed holder made it possible to perform longitudinal fMRI experiments on multiple marmosets in a less invasive manner.",
+      "journal": "Journal of neuroscience methods",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39516045",
+      "title": "Unique Cortical and Subcortical Activation Patterns for Different Conspecific Calls in Marmosets",
+      "year": 2025,
+      "doi": "10.1523/JNEUROSCI.0670-24.2024",
+      "abstract": "The common marmoset (",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1098_rsos_240218_v1_review1",
       "title": "Review for \"Beyond bigrams: call sequencing in the common marmoset ( &lt;i&gt;Callithrix jacchus&lt;/i&gt; ) vocal system\"",
       "year": 2024,
@@ -339,11 +733,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_240218_v3_decision1",
@@ -353,11 +743,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_240218_v1_decision1",
@@ -367,11 +753,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_240218_v1_review2",
@@ -381,11 +763,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_240218_v2_review1",
@@ -395,11 +773,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_240218_v2_decision1",
@@ -409,11 +783,97 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_39507993",
+      "title": "Beyond bigrams: call sequencing in the common marmoset (",
+      "year": 2024,
+      "doi": "10.1098/rsos.240218",
+      "abstract": "Over the last two decades, an emerging body of research has demonstrated that non-human animals exhibit the ability to combine context-specific calls into larger sequences. These structures have frequently been compared with language's syntax, whereby linguistic units are combined to form larger structures, and leveraged to argue that syntax might not be unique to language. Currently, however, the overwhelming majority of examples of call combinations are limited to simple sequences comprising just two calls which differ dramatically from the open-ended hierarchical structuring of the syntax found in language. We revisit this issue by taking a whole-repertoire approach to investigate combinatoriality in common marmosets (",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39394433",
+      "title": "Neural activity for complex sounds in the marmoset anterior cingulate cortex",
+      "year": 2024,
+      "doi": "10.1038/s42003-024-07019-2",
+      "abstract": "Vocalizations play an important role in the daily life of nonhuman primates and are likely precursors of human language. Recent functional imaging studies in the highly vocal common marmoset (Callithrix jacchus) have suggested that anterior cingulate cortex (ACC) area 32 may be a part of a vocalization-processing network but the response properties of area 32 neurons to auditory stimuli remain unknown. Here we perform electrophysiological recordings in area 32 in marmosets with high-density Neuropixels probes and characterize neuronal responses to a variety of sounds including conspecific vocalizations. Nearly half of the neurons in area 32 respond to conspecific vocalizations and other complex auditory stimuli. These responses exhibit dynamics consisting of an initially non-selective reduction in neural activity, followed by an increase in activity that immediately conveys sound selectivity. Our findings demonstrate that primate ACC area 32 processes species-specific and biologically relevant sounds.",
+      "journal": "Communications biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38480875",
+      "title": "Mapping of facial and vocal processing in common marmosets with ultra-high field fMRI",
+      "year": 2024,
+      "doi": "10.1038/s42003-024-06002-1",
+      "abstract": "Primate communication relies on multimodal cues, such as vision and audition, to facilitate the exchange of intentions, enable social interactions, avoid predators, and foster group cohesion during daily activities. Understanding the integration of facial and vocal signals is pivotal to comprehend social interaction. In this study, we acquire whole-brain ultra-high field (9.4 T) fMRI data from awake marmosets (Callithrix jacchus) to explore brain responses to unimodal and combined facial and vocal stimuli. Our findings reveal that the multisensory condition not only intensifies activations in the occipito-temporal face patches and auditory voice patches but also engages a more extensive network that includes additional parietal, prefrontal and cingulate areas, compared to the summed responses of the unimodal conditions. By uncovering the neural network underlying multisensory audiovisual integration in marmosets, this study highlights the efficiency and adaptability of the marmoset brain in processing facial and vocal social signals, providing significant insights into primate social communication.",
+      "journal": "Communications biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38405818",
+      "title": "Dynamic modulation of social gaze by sex and familiarity in marmoset dyads",
+      "year": 2024,
+      "doi": "10.1101/2024.02.16.580693",
+      "abstract": "Social communication relies on the ability to perceive and interpret the direction of others' attention, and is commonly conveyed through head orientation and gaze direction in humans and nonhuman primates. However, traditional social gaze experiments in nonhuman primates require restraining head movements, significantly limiting their natural behavioral repertoire. Here, we developed a novel framework for accurately tracking facial features and three-dimensional head gaze orientations of multiple freely moving common marmosets (",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38284649",
+      "title": "Antibiotic-induced gut dysbiosis elicits gut-brain axis relevant multi-omic signatures and behavioral and neuroendocrine changes in a nonhuman primate model",
+      "year": 2024,
+      "doi": "10.1080/19490976.2024.2305476",
+      "abstract": "Emerging evidence indicates that antibiotic-induced dysbiosis can play an etiological role in the pathogenesis of neuropsychiatric disorders. However, most of this evidence comes from rodent models. The objective of this study was to evaluate if antibiotic-induced gut dysbiosis can elicit changes in gut metabolites and behavior indicative of gut-brain axis disruption in common marmosets (",
+      "journal": "Gut microbes",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37950874",
+      "title": "Direct interhemispheric cortical communication via thalamic commissures: a new white matter pathway in the primate brain",
+      "year": 2024,
+      "doi": "10.1093/cercor/bhad394",
+      "abstract": "Cortical neurons of eutherian mammals project to the contralateral hemisphere, crossing the midline primarily via the corpus callosum and the anterior, posterior, and hippocampal commissures. We recently reported and named the thalamic commissures (TCs) as an additional interhemispheric axonal fiber pathway connecting the cortex to the contralateral thalamus in the rodent brain. Here, we demonstrate that TCs also exist in primates and characterize the connectivity of these pathways with high-resolution diffusion-weighted MRI, viral axonal tracing, and fMRI. We present evidence of TCs in both New World (Callithrix jacchus and Cebus apella) and Old World primates (Macaca mulatta). Further, like rodents, we show that the TCs in primates develop during the embryonic period, forming anatomical and functionally active connections of the cortex with the contralateral thalamus. We also searched for TCs in the human brain, showing their presence in humans with brain malformations, although we could not identify TCs in healthy subjects. These results pose the TCs as a vital fiber pathway in the primate brain, allowing for more robust interhemispheric connectivity and synchrony and serving as an alternative commissural route in developmental brain malformations.",
+      "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37615212",
+      "title": "The neurobiology of vocal communication in marmosets",
+      "year": 2023,
+      "doi": "10.1111/nyas.15057",
+      "abstract": "An increasingly popular animal model for studying the neural basis of social behavior, cognition, and communication is the common marmoset (Callithrix jacchus). Interest in this New World primate across neuroscience is now being driven by their proclivity for prosociality across their repertoire, high volubility, and rapid development, as well as their amenability to naturalistic testing paradigms and freely moving neural recording and imaging technologies. The complement of these characteristics set marmosets up to be a powerful model of the primate social brain in the years to come. Here, we focus on vocal communication because it is the area that has both made the most progress and illustrates the prodigious potential of this species. We review the current state of the field with a focus on the various brain areas and networks involved in vocal perception and production, comparing the findings from marmosets to other animals, including humans.",
+      "journal": "Annals of the New York Academy of Sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37532791",
+      "title": "Noninvasive disruption of the blood-brain barrier in the marmoset monkey",
+      "year": 2023,
+      "doi": "10.1038/s42003-023-05185-3",
+      "abstract": "The common marmoset monkey (Callithrix jacchus) is a species of rising prominence in the neurosciences due to its small size, ease of handling, fast breeding, and its shared functional and structural brain characteristics with Old World primates. With increasing attention on modeling human brain diseases in marmosets, understanding how to deliver therapeutic or neurotropic agents to the marmoset brain noninvasively is of great preclinical importance. In other species, including humans, transcranial focused ultrasound (tFUS) aided by intravenously injected microbubbles has proven to be a transient, reliable, and safe method for disrupting the blood-brain barrier (BBB), allowing the focal passage of therapeutic agents that do not otherwise readily traverse the tight endothelial junctions of the BBB. The critical gap that we address here is to document parameters to disrupt the BBB reliably and safely in marmosets using tFUS. By integrating our marmoset brain atlases and the use of a marmoset-specific stereotactic targeting system, we conduct a series of systematic transcranial sonication experiments in nine marmosets. We demonstrate the effects of center frequency, acoustic pressure, burst period, and duration, establish a minimum microbubble dose, estimate microbubble clearance time, and estimate the duration that the BBB remains open to passage. Successful BBB disruption is reported in vivo with MRI-based contrast agents, as well as Evans blue staining assessed ex vivo. Histology (Hematoxylin and Eosin staining) and immunohistochemistry indicate that the BBB can be safely and reliably opened with the parameters derived from these experiments. The series of experiments presented here establish methods for safely, reproducibly, and focally perturbing the BBB using tFUS in the common marmoset monkey that can serve as a basis for noninvasive delivery of therapeutic or neurotropic agents.",
+      "journal": "Communications biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37449983",
+      "title": "Gaze patterns and brain activations in humans and marmosets in the Frith-Happé theory-of-mind animation task",
+      "year": 2023,
+      "doi": "10.7554/eLife.86327",
+      "abstract": "Theory of Mind (ToM) refers to the cognitive ability to attribute mental states to other individuals. This ability extends even to the attribution of mental states to animations featuring simple geometric shapes, such as the Frith-Happé animations in which two triangles move either purposelessly (Random condition), exhibit purely physical movement (Goal-directed condition), or move as if one triangle is reacting to the other triangle's mental states (ToM condition). While this capacity in humans has been thoroughly established, research on nonhuman primates has yielded inconsistent results. This study explored how marmosets ( In our daily life, we often guess what other people are thinking or intending to do, based on their actions. This ability to ascribe thoughts, intentions or feelings to others is known as Theory of Mind. While we often use our Theory of Mind to understand other humans and interpret social interactions, we can also apply our Theory of Mind to assign feelings and thoughts to animals and even inanimate objects. For example, people watching a movie where the characters are represented by simple shapes, such as triangles, can still see a story unfold, because they infer the triangles’ intentions based on what they see on the screen. While it is clear that humans have a Theory of Mind, how the brain manages this capacity and whether other species have similar abilities remain open questions. Dureux et al. used animations showing abstract shapes engaging in social interactions and advanced brain imaging techniques to compare how humans and marmosets – a type of monkey that is very social and engages in shared childcare – interpret social cues. By comparing the eye movements and brain activity of marmosets to human responses, Dureux et al. wanted to uncover common strategies used by both species to understand social signals, and gain insight into how these strategies have evolved. Dureux et al. found that, like humans, marmosets seem to perceive a diff",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1002_cne_25230_v1_review1",
@@ -423,11 +883,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_cne_25230_v2_review1",
@@ -437,11 +893,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_cne_25230_v3_decision1",
@@ -451,11 +903,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_cne_25230_v2_decision1",
@@ -465,11 +913,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_cne_25230_v1_decision1",
@@ -479,11 +923,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_cne_25230_v2_response1",
@@ -493,11 +933,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_cne_25230_v3_response1",
@@ -507,11 +943,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32388_0numn2",
@@ -521,11 +953,7 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2015_0069",
@@ -535,11 +963,7 @@
       "abstract": "Conversational turn-taking is an integral part of language development, as it reflects a confluence of social factors that mitigate communication. Humans coordinate the timing of speech based on the behaviour of another speaker, a behaviour that is learned during infancy. While adults in several primate species engage in vocal turn-taking, the degree to which similar learning processes underlie its development in these non-human species or are unique to language is not clear. We recorded the natural vocal interactions of common marmosets (Callithrix jacchus) occurring with both their sibling twins and parents over the first year of life and observed at least two parallels with language development. First, marmoset turn-taking is a learned vocal behaviour. Second, marmoset parents potentially played a direct role in guiding the development of turn-taking by providing feedback to their offspring when errors occurred during vocal interactions similarly to what has been observed in humans.",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_srep10950",
@@ -549,11 +973,7 @@
       "abstract": "Vocalizations are behaviorally critical sounds, and this behavioral importance is reflected in the ascending auditory system, where conspecific vocalizations are increasingly over-represented at higher processing stages. Recent evidence suggests that, in macaques, this increasing selectivity for vocalizations might culminate in a cortical region that is densely populated by vocalization-preferring neurons. Such a region might be a critical node in the representation of vocal communication sounds, underlying the recognition of vocalization type, caller and social context. These results raise the questions of whether cortical specializations for vocalization processing exist in other species, their cortical location, and their relationship to the auditory processing hierarchy. To explore cortical specializations for vocalizations in another species, we performed high-field fMRI of the auditory cortex of a vocal New World primate, the common marmoset (Callithrix jacchus). Using a sparse i",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_056101",
@@ -563,11 +983,7 @@
       "abstract": "The natural environment is inherently noisy with acoustic interferences. It is, therefore, beneficial for a species to modify its vocal production to effectively communicate in the presence of interfering noises. Non-human primates have been traditionally considered to possess limited voluntary vocal control, but little is known about their ability to modify vocal behavior when encountering interfering noises. Here we tested the ability of the common marmoset (Callithrix jacchus) to control the initiation of vocalizations and maintain vocal interactions between pairs in an acoustic environment in which the length and predictability (periodic or random aperiodic occurrences) of interfering noise bursts were varied. Despite the presence of interfering noise, the marmosets continued to engage in antiphonal calling behavior. Results showed that the overwhelming majority of calls were initiated during silence gaps even when the length of the silence gap following each noise burst was unpred",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rsbl_2010_0455",
@@ -577,11 +993,7 @@
       "abstract": "Semple et al. (Semple et al. in press, Biol. Lett. (doi:10.1098/rsbl.2009.1062)) argued that the 'law of brevity' (an inverse relationship between word length and frequency of use) applies not only to human language but also to vocal signalling in non-human primates, because coding efficiency is paramount in both situations. We analysed the frequency of use of signals of different duration in the vocal repertoires of two Neotropical primate species studied in the wild-the common marmoset (Callithrix jacchus) and the golden-backed uakari (Cacajao melanocephalus). The key prediction of the law of brevity was not supported in either species: although the most frequently emitted calls were relatively brief, they were not the shortest signals in the repertoire. The costs and benefits associated with signals of different duration must be appreciated to understand properly their frequency of use. Although relatively brief vocal signals may be favoured by natural selection in order to minimize",
       "journal": "Biology Letters",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-540-29678-2_1138",
@@ -591,11 +1003,7 @@
       "abstract": "",
       "journal": "Encyclopedia of Neuroscience",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037_e597872013-005",
@@ -605,11 +1013,7 @@
       "abstract": "",
       "journal": "PsycEXTRA Dataset",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_nature06910",
@@ -619,11 +1023,7 @@
       "abstract": "",
       "journal": "Nature",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1121_1_2225899",
@@ -633,11 +1033,7 @@
       "abstract": "In contrast to humans and songbirds, there is limited evidence of vocal learning in nonhuman primates. While previous studies suggested that primate vocalizations exhibit developmental changes, detailed analyses of the extent and time course of such changes across a species' vocal repertoire remain limited. In a highly vocal primate, the common marmoset (Callithrix jacchus), we studied developmental changes in the acoustic structure of species-specific communication sounds produced in a social setting. We performed detailed acoustic analyses of the spectral and temporal characteristics of marmoset vocalizations during development, comparing differences between genders and twin pairs, as well as with vocalizations from adult marmosets residing in the same colony. Our analyses revealed significant changes in spectral and temporal features as well as variability of particular call types over time. Infant and juvenile vocalizations changed progressively toward the vocalizations produced by",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_00768",
@@ -647,11 +1043,7 @@
       "abstract": "This study on common marmosets Callithrix jacchus is the first to examine noise-dependent mechanisms of vocal plasticity in a New World monkey. Since acoustic communication can be considerably impaired by environmental noise, some animals have evolved adaptations to counteract its masking effects. The studied marmosets increased the sound level of their spontaneous calls in response to increased levels of white noise broadcast to them. Possibly, such noise-dependent adjustment of vocal amplitude serves to maintain a specific signal-to-noise ratio that is favourable for signal production. Concurrently, the adjustment of vocal amplitude can maintain a given active space for communication. In contrast to some bird species, no noise-induced increase in the number of syllables per call series could be found, showing that an increased serial redundancy of vocal signals was not used to communicate under noisy conditions. Finally, we examined a possible noise-dependent prolongation of vocal si",
       "journal": "Journal of Experimental Biology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1152_jn_00627_2002",
@@ -661,11 +1053,7 @@
       "abstract": "Little is known about sensory-motor interaction in the auditory cortex of primates at the level of single neurons and its role in supporting vocal communication. The present study investigated single-unit activities in the auditory cortex of a vocal primate, the common marmoset (Callithrix jacchus), during self-initiated vocalizations. We found that 1) self-initiated vocalizations resulted in suppression of neural discharges in a majority of auditory cortical neurons. The vocalization-induced inhibition suppressed both spontaneous and stimulus-driven discharges. Suppressed units responded poorly to external acoustic stimuli during vocalization. 2) Vocalization-induced suppression began several hundred milliseconds prior to the onset of vocalization. 3) The suppression of cortical discharges reduced neural firings to below the rates expected from a unit's rate-level function, adjusted for known subcortical attenuation, and therefore was likely not entirely caused by subcortical attenuat",
       "journal": "Journal of Neurophysiology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1258_002367782781110214",
@@ -675,11 +1063,7 @@
       "abstract": "<jats:p> A long-term feeding study lasting more than 4 years is described during which a newly-developed complete diet for marmosets was evaluated. Using this diet, it was possible to adapt the feeding habits and dietary requirements of these increasingly popular South American non-human primates to standardized laboratory conditions. </jats:p>",
       "journal": "Laboratory Animals",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_10_2010_tde-23032011-114227",
@@ -689,11 +1073,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_10_2007_tde-20082007-133334",
@@ -703,11 +1083,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_10_2010_tde-17012012-140337",
@@ -717,11 +1093,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_53846_goediss-6172",
@@ -731,14 +1103,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 29,
+  "paper_count": 44,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

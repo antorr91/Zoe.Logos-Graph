@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 5,
-    "doi_count": 15,
-    "media_count": 0
+    "paper_count": 31,
+    "claim_count": 4,
+    "doi_count": 27,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,8 +45,8 @@
     "ultrasonic pulse"
   ],
   "contexts": [
-    "bat avoidance",
-    "courtship"
+    "courtship",
+    "bat avoidance"
   ],
   "functions": [
     "mate attraction",
@@ -58,21 +58,21 @@
         "value": "ultrasonic pulse",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "bat avoidance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "bat avoidance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -80,17 +80,71 @@
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator evasion",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 157,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 156,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 155,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 154,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -99,11 +153,25 @@
   },
   "open_papers": [
     {
+      "doi": "10.1021/acsomega.5c08721",
+      "url": "https://doi.org/10.1021/acsomega.5c08721",
+      "title": "Targeting Autoinducer‑2 Quorum Sensing: Novel Inhibitors Attenuate Virulence in",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1371/journal.pone.0343685",
       "url": "https://doi.org/10.1371/journal.pone.0343685",
       "title": "Interactive effects of mating receptivity and courtship pheromones on the scent preferences of female red-legged salamanders",
       "year": 2026,
       "source": "openalex"
+    },
+    {
+      "doi": "10.3390/nu18060912",
+      "url": "https://doi.org/10.3390/nu18060912",
+      "title": "Extracellular Vesicles from the Probiotic Yeast",
+      "year": 2026,
+      "source": "pubmed"
     },
     {
       "doi": "10.1186/s12915-025-02435-0",
@@ -113,11 +181,39 @@
       "source": "openalex"
     },
     {
+      "doi": "10.3390/pathogens14010038",
+      "url": "https://doi.org/10.3390/pathogens14010038",
+      "title": "Morphological and Chemical Changes in the Hemolymph of the Wax Moth",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1007/s00265-024-03527-7",
       "url": "https://doi.org/10.1007/s00265-024-03527-7",
       "title": "No sensitive period for the development of individual face learning in Polistes fuscatus wasps",
       "year": 2024,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.heliyon.2024.e27983",
+      "url": "https://doi.org/10.1016/j.heliyon.2024.e27983",
+      "title": "Untargeted metabolomics uncovers prime pathways linked to antibacterial action of citral against bacterial vaginosis-causing",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.20517/evcna.2024.49",
+      "url": "https://doi.org/10.20517/evcna.2024.49",
+      "title": "Extracellular vesicles of",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fcimb.2024.1499461",
+      "url": "https://doi.org/10.3389/fcimb.2024.1499461",
+      "title": "Host cell responses to",
+      "year": 2024,
+      "source": "pubmed"
     },
     {
       "doi": "10.51458/bstd.2024.40",
@@ -127,6 +223,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.3389/fmicb.2023.1291930",
+      "url": "https://doi.org/10.3389/fmicb.2023.1291930",
+      "title": "Identification of novel small RNAs in extracellular vesicles produced by",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.3390/agriculture13040769",
       "url": "https://doi.org/10.3390/agriculture13040769",
       "title": "Honeybee (Apis spp.) (Hymenoptera: Apidae) Colony Monitoring Using Acoustic Signals from the Beehive: An Assessment by Global Experts and Our Feedback",
@@ -134,11 +237,46 @@
       "source": "openalex"
     },
     {
+      "doi": "10.3390/ijms24065753",
+      "url": "https://doi.org/10.3390/ijms24065753",
+      "title": "Unraveling the Role of Antimicrobial Peptides in Insects",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.24814",
       "url": "https://doi.org/10.1079/cabicompendium.24814",
       "title": "Galleria mellonella (greater wax moth)",
       "year": 2022,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1128/spectrum.01951-21",
+      "url": "https://doi.org/10.1128/spectrum.01951-21",
+      "title": "Selective Metal Chelation by a Thiosemicarbazone Derivative Interferes with Mitochondrial Respiration and Ribosome Biogenesis in Candida albicans",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.ppat.1010484",
+      "url": "https://doi.org/10.1371/journal.ppat.1010484",
+      "title": "On the relationship between Pathogenic Potential and Infective Inoculum",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fmicb.2022.918861",
+      "url": "https://doi.org/10.3389/fmicb.2022.918861",
+      "title": "The Bacterial and Fungal Gut Microbiota of the Greater Wax Moth,",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/insects13121143",
+      "url": "https://doi.org/10.3390/insects13121143",
+      "title": "Characterization of Two Aldehyde Oxidases from the Greater Wax Moth,",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.9775/kvfd.2020.25170",
@@ -213,11 +351,37 @@
       "abstract": "The behavioral and endocrine responses elicited by pheromones are highly dependent on the sex and physiology of the receiving individual. In the red-legged salamander (Plethodon shermani), male courtship pheromones influence female mating behavior and regulate the timing of courtship. Pheromones also modulate female feeding behavior and scent preference in this species, but little is known about how the physiological state of females may influence their olfactory preferences. The aim of this study was to use laboratory trials to investigate whether differences in female receptivity influence the effect pheromones have on female scent preference. Our first experiment showed that pheromone treatment significantly increased the time females spent on male-scented substrate compared to both female scent and water. In a second experiment, female P. shermani with differing levels of mating receptivity were treated with either saline or pheromone and assayed for the relative time spent on each",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_42040490",
+      "title": "Targeting Autoinducer‑2 Quorum Sensing: Novel Inhibitors Attenuate Virulence in",
+      "year": 2026,
+      "doi": "10.1021/acsomega.5c08721",
+      "abstract": "Antibiotic overuse has driven the development of bacterial drug resistance, highlighting the urgent need for new antimicrobial strategies. Quorum sensing, particularly via autoinducer-2 (AI-2) signal molecules, is a bacterial communication system involved in the development of drug resistance. Our recent work identified AI-2 inhibitors that disrupt biofilm formation in",
+      "journal": "ACS omega",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41901087",
+      "title": "Extracellular Vesicles from the Probiotic Yeast",
+      "year": 2026,
+      "doi": "10.3390/nu18060912",
+      "abstract": "",
+      "journal": "Nutrients",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41326106",
+      "title": "Ascaroside-mediated modulation of host microbiota and survival in galleria mellonella by symbiotic bacteria of entomopathogenic nematode",
+      "year": 2026,
+      "doi": "10.1016/j.pestbp.2025.106744",
+      "abstract": "Microbial symbionts and host pheromones are recognized as important mediators in the interactions between insect and entomopathogenic nematodes (EPNs). However, the influence of EPN-derived ascarosides and associated symbiotic bacteria on the insect's microbial community remains poorly understood. In this study, Galleria mellonella larvae were injected with nematode ascarosides (ascr#9 and ascr#11) and/or symbiotic bacteria (Photorhabdus luminescens) to investigate changes in the bacterial communities of larval haemolymph and gut. The result showed that the haemolymph was dominated by Gammaproteobacteria and Bacteroidia, while the gut microbiota was enriched with Bacilli. Burkholderiaceae and Enterococcaceae were the predominant families in the haemolymph and gut, respectively. Significant differences in bacterial community composition were observed across treatments. Notably, co-injection of ascarosides and P. luminescens significantly reduced the bacterial abundance of Ralstonia (commensal bacteria) and Photorhabdus (invader bacteria). The co-injection with ascarosides and symbiotic bacteria significantly contributed to prolonged host survival and sustained physiological stability compared to being exposed to bacteria alone. Mechanistically, ascarosides selectively upregulated the quorum sensing gene luxD in P. luminescens, suggesting that nematode pheromones modulate bacterial communication and collective behavior to regulate population dynamics. These findings indicate that ascarosides function as key microbial modulators, suppressing harmful bacterial growth and fostering a balanced community that supports host viability.",
+      "journal": "Pesticide biochemistry and physiology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1186_s12915-025-02435-0",
@@ -227,11 +391,17 @@
       "abstract": "We posit that prey evasiveness and masking noise, two primary challenges faced by both echolocating bats and toothed whales, jointly drove the evolution of the ultrahigh call rate of terminal buzz.",
       "journal": "BMC Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_39860999",
+      "title": "Morphological and Chemical Changes in the Hemolymph of the Wax Moth",
+      "year": 2025,
+      "doi": "10.3390/pathogens14010038",
+      "abstract": "Hemolymph enables communication between organs in insects and ensures necessary coordination and homeostasis. Its composition can provide important information about the physiological state of an insect and can have diagnostic significance, which might be particularly important in the case of harmful insects subjected to biological control.",
+      "journal": "Pathogens (Basel, Switzerland)",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_51458_bstd_2024_40",
@@ -241,11 +411,7 @@
       "abstract": "<jats:p xml:lang=\"tr\">Larvae of wax moths cause great damage in honey bee hives and especially in stored honeycombs. Biological control methods are especially important in the control of wax moth in warehouses, as they do not harm the bee, the product and the environment. This study was carried out to determine the effect of 5%, 10%, 25%, 45% and 55% of peppermint, thyme, nettle seed, and walnut herbal oils and GB1 Bacillus sp. (OR227363) against wax moth larvae (Galleria mellonella) (L1-L3) under laboratory conditions. For each group of fifteen larvae, four herbal oil and one bacterial trials were conducted and two control groups were formed. The trials were conducted in glass jars and the larvae were kept in an oven at 25°C temperature/75% relative humidity. Each jar was checked every day for two weeks and dead/viable larvae were recorded and the dead ones were removed from the jar. As a result of the dose trials, it was determined that the best dose was 2.835x109 cfu/mL for bacteria",
       "journal": "Bee Studies- Apiculture Research Institute",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00265-024-03527-7",
@@ -255,11 +421,37 @@
       "abstract": "",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_39877654",
+      "title": "Host cell responses to",
+      "year": 2024,
+      "doi": "10.3389/fcimb.2024.1499461",
+      "abstract": "",
+      "journal": "Frontiers in cellular and infection microbiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39811727",
+      "title": "Extracellular vesicles of",
+      "year": 2024,
+      "doi": "10.20517/evcna.2024.49",
+      "abstract": "",
+      "journal": "Extracellular vesicles and circulating nucleic acids",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38545203",
+      "title": "Untargeted metabolomics uncovers prime pathways linked to antibacterial action of citral against bacterial vaginosis-causing",
+      "year": 2024,
+      "doi": "10.1016/j.heliyon.2024.e27983",
+      "abstract": "Global increase in recurrence of bacterial vaginosis (BV) and worrisome rise in antimicrobial resistance pose an urgent call for new/novel antibacterial agents. In light of the circumstance, the present study demonstrates the",
+      "journal": "Heliyon",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3390_agriculture13040769",
@@ -269,11 +461,27 @@
       "abstract": "Because the sounds emitted by a managed honeybee colony embrace a wealth of information about the status within and outside the beehive, researchers are interested in developing a beehive sound-based assessment of the colony situation. However, how the global experts rank this approach is unclear. We assessed the importance of beehive sound-based colony monitoring using formal expert elicitation. Our results indicate that policy-making bodies should focus on a non-invasive acoustic approach to monitor swarming, honeybee health, pesticides, and environmental pollution at apiaries, as these were considered very important factors with high confidence by global experts. Moreover, all other factors (pests and pathogens, weather conditions, predators, food availability, and spatiotemporal patterns) are rated as important, but experts’ confidence in acoustically monitoring a few of the factors differs. Because experienced forager bees emit bursting sounds during the waggle dance (particularly",
       "journal": "Agriculture",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_38075857",
+      "title": "Identification of novel small RNAs in extracellular vesicles produced by",
+      "year": 2023,
+      "doi": "10.3389/fmicb.2023.1291930",
+      "abstract": "Extracellular vesicle (EV) production by bacteria is an important mechanism for microbial communication and host-pathogen interaction. EVs of some bacterial species have been reported to contain nucleic acids. However, the role of small RNAs (sRNAs) packaged in EVs is poorly understood. Here, we report on the RNA cargo of EVs produced by the pig pathogen",
+      "journal": "Frontiers in microbiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36982826",
+      "title": "Unraveling the Role of Antimicrobial Peptides in Insects",
+      "year": 2023,
+      "doi": "10.3390/ijms24065753",
+      "abstract": "Antimicrobial peptides (AMPs) are short, mainly positively charged, amphipathic molecules. AMPs are important effectors of the immune response in insects with a broad spectrum of antibacterial, antifungal, and antiparasitic activity. In addition to these well-known roles, AMPs exhibit many other, often unobvious, functions in the host. They support insects in the elimination of viral infections. AMPs participate in the regulation of brain-controlled processes, e.g., sleep and non-associative learning. By influencing neuronal health, communication, and activity, they can affect the functioning of the insect nervous system. Expansion of the AMP repertoire and loss of their specificity is connected with the aging process and lifespan of insects. Moreover, AMPs take part in maintaining gut homeostasis, regulating the number of endosymbionts as well as reducing the number of foreign microbiota. In turn, the presence of AMPs in insect venom prevents the spread of infection in social insects, where the prey may be a source of pathogens.",
+      "journal": "International journal of molecular sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_24814",
@@ -283,11 +491,47 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36555053",
+      "title": "Characterization of Two Aldehyde Oxidases from the Greater Wax Moth,",
+      "year": 2022,
+      "doi": "10.3390/insects13121143",
+      "abstract": "Odorant-degrading enzymes (ODEs) are proposed to degrade/inactivate volatile organic compounds (VOCs) on a millisecond timescale. Thus, ODEs play an important role in the insect olfactory system as a reset mechanism. The inhibition of these enzymes could incapacitate the olfactory system and, consequently, disrupt chemical communication, promoting and complementing the integrated pest management strategies. Here, we report two novel aldehyde oxidases, AOX-encoding genes",
+      "journal": "Insects",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35865934",
+      "title": "The Bacterial and Fungal Gut Microbiota of the Greater Wax Moth,",
+      "year": 2022,
+      "doi": "10.3389/fmicb.2022.918861",
+      "abstract": "Plastic production has been increasing exponentially in the last 60 years, but plastic disposal is out of control, resulting in the pollution of all ecosystems on Earth. Finding alternative environmentally sustainable choices, such as biodegradation by insects and their associated gut microbiota, is crucial, however we have only begun to characterize these ecosystems. Some bacteria and one fungus have been previously identified in the gut of Greater Wax Moth larvae (",
+      "journal": "Frontiers in microbiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35696437",
+      "title": "On the relationship between Pathogenic Potential and Infective Inoculum",
+      "year": 2022,
+      "doi": "10.1371/journal.ppat.1010484",
+      "abstract": "Pathogenic Potential (PP) is a mathematical description of an individual microbe, virus, or parasite's ability to cause disease in a host, given the variables of inoculum, signs of disease, mortality, and in some instances, median survival time of the host. We investigated the relationship between pathogenic potential (PP) and infective inoculum (I) using two pathogenic fungi in the wax moth Galleria mellonella with mortality as the relevant outcome. Our analysis for C. neoformans infection revealed negative exponential relationship between PP and I. Plotting the log(I) versus the Fraction of animals with signs or symptoms (Fs) over median host survival time (T) revealed a linear relationship, with a slope that varied between the different fungi studied and a y-intercept corresponding to the inoculum that produced no signs of disease. The I vs Fs/T slope provided a measure of the pathogenicity of each microbial species, which we call the pathogenicity constant or kPath. The kPath provides a new parameter to quantitatively compare the relative virulence and pathogenicity of microbial species for a given host. In addition, we investigated the PP and Fs/T from values found in preexisting literature. Overall, the relationship between Fs/T and PP versus inoculum varied among microbial species and extrapolation to zero signs of disease allowed the calculation of the lowest pathogenic inoculum (LPI) of a microbe. Microbes tended to fall into two groups: those with positive linear relationships between PP and Fs/T vs I, and those that had a negative exponential PP vs I relationship with a positive logarithmic Fs/T vs I relationship. The microbes with linear relationships tended to be bacteria, whereas the exponential-based relationships tended to be fungi or higher order eukaryotes. Differences in the type and sign of the PP vs I and Fs/T vs I relationships for pathogenic microbes suggest fundamental differences in host-microbe interactions leading to disease.",
+      "journal": "PLoS pathogens",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35412374",
+      "title": "Selective Metal Chelation by a Thiosemicarbazone Derivative Interferes with Mitochondrial Respiration and Ribosome Biogenesis in Candida albicans",
+      "year": 2022,
+      "doi": "10.1128/spectrum.01951-21",
+      "abstract": "Metal chelation is generally considered as a promising antifungal approach but its specific mechanisms are unclear. Here, we identify 13 thiosemicarbazone derivatives that exert broad-spectrum antifungal activity with potency comparable or superior to that of fluconazole",
+      "journal": "Microbiology spectrum",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_9775_kvfd_2020_25170",
@@ -297,11 +541,7 @@
       "abstract": "",
       "journal": "Kafkas Universitesi Veteriner Fakultesi Dergisi",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_12737_2073-0462-2020-120-124",
@@ -311,11 +551,7 @@
       "abstract": "<jats:p>In the modern world, insects are widely used for scientific and industrial purposes. For their cultivation in the laboratory, various plants have been developed, the main disadvantage of which is poor-quality sorting from garbage. Therefore, the question of cultivating and sorting the larvae of bee moth (Galleria mellonella L.) in laboratory conditions for the purpose of further use as a model object in various fields of biological sciences and medical purposes is relevant. The effect of the temperature gradient and exposure on the movement of G. mellonella larvae from the heated compartment of the plant was determined by their reproduction into the cold by the number of individuals that moved for 10, 15, and 20 minutes at 35, 40, 45, 50, 55 0С, visual counting. At 35 0С, regardless of the exposure time, the larvae remained on a honeycomb frame; at 40 ° C and 45 0С, on average, 11.5% and 31.8% of individuals, respectively, moved. The higher the temperature gradient, the faster ",
       "journal": "Vestnik of Kazan State Agrarian University",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31301_2221-6197_bmcs_2019-12",
@@ -325,11 +561,7 @@
       "abstract": "",
       "journal": "Biomics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fevo_2019_00244",
@@ -339,11 +571,7 @@
       "abstract": "Moths have evolved auditory channels under predation pressure from insectivorous bats that emit ultrasonic pulses for capturing prey, including moths. Tympanate moths perform evasive behavior in response to echolocation calls of bats, but they also utilize ultrasonic signals mostly generated by males close to an intended female mate in the context of courtship. Unlike calling songs used to advertise the presence and sexual attractiveness of the signaler, courtship songs need not always be acoustically conspicuous. Male courtship songs are predominantly soft but sufficient for detection by a nearby potential mate. Quiet courtship songs are thought to effectively avoid being eavesdropped by gleaning bats, acoustic parasitoids, and conspecific competitors, i.e., rival males. However, males of some moth species generate loud courtship songs. In the present study, the duration of courtship song, in addition to the sound level of the song was predicted to affect the likelihood of being perce",
       "journal": "Frontiers in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "lit_gbif_1782561_14",
@@ -353,11 +581,17 @@
       "abstract": "O fator de tradução de eucariotos eIF5A é descrito como a única proteína que apresenta o aminoácido hipusina, o qual é gerado por uma modificação pós-traducional essencial para a proliferação celular em todos os eucariotos estudados até o momento, sendo que a enzima desoxi-hipusina sintase (DHPS) é responsável pela primeira etapa da formação desse aminoácido em eIF5A. Portanto, a inibição de DHPS também impede a modificação de eIF5A, tornando esta proteína não funcional, o que pode ter aplicação no tratamento dos tipos de câncer em que o fator está envolvido. Embora N1-guanil-1,7-diamino-heptano (GC7) seja potente inibidor da enzima DHPS, foram observados outros efeitos na célula devido à atuação do composto em alvos não específicos. Desta forma, o presente trabalho tem como objetivo a busca por novos inibidores de DHPS, com baixa citotoxicidade e que reduzam a proliferação celular ou que inibam o crescimento de micro-organismos eucarióticos patogênicos, como algumas espécies de fungos",
       "journal": "UNESP Institutional Repository (São Paulo State University)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_1876542_14",
+      "title": "Study of new guanidine compounds inhibiting the enzyme deoxy-hypusine synthase (DHPS) as antiproliferative and antifungal agents",
+      "year": 2018,
+      "doi": null,
+      "abstract": "O fator de tradução de eucariotos eIF5A é descrito como a única proteína que apresenta o aminoácido hipusina, o qual é gerado por uma modificação pós-traducional essencial para a proliferação celular em todos os eucariotos estudados até o momento, sendo que a enzima desoxi-hipusina sintase (DHPS) é responsável pela primeira etapa da formação desse aminoácido em eIF5A. Portanto, a inibição de DHPS também impede a modificação de eIF5A, tornando esta proteína não funcional, o que pode ter aplicação no tratamento dos tipos de câncer em que o fator está envolvido. Embora N1-guanil-1,7-diamino-heptano (GC7) seja potente inibidor da enzima DHPS, foram observados outros efeitos na célula devido à atuação do composto em alvos não específicos. Desta forma, o presente trabalho tem como objetivo a busca por novos inibidores de DHPS, com baixa citotoxicidade e que reduzam a proliferação celular ou que inibam o crescimento de micro-organismos eucarióticos patogênicos, como algumas espécies de fungos",
+      "journal": "UNESP Institutional Repository (São Paulo State University)",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-662-43978-4_1240",
@@ -367,11 +601,7 @@
       "abstract": "",
       "journal": "Encyclopedia of Parasitology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "lit_gbif_1782561_15",
@@ -381,11 +611,17 @@
       "abstract": "Sexual communication of gypsy moth, Lymantria dispar (L.), nun moth, L. monacha (L.), pink gypsy moth, L. mathura (M.), and fumida tussock moth, L. fumida (B.) is known to be mediated by pheromones. Data presented here show that sonic and visual signals are also involved. Sound produced by flying male L. dispar induced wing-fluttering and motion in conspecific females that may guide males to their micro-location. Analyses of sounds produced by wing fanning L. monacha, L. mathura, and L. fumida revealed species- and sex-specific wing beat and associated click frequencies that may contribute to reproductive isolation or close-range communication. Evidence for close-range communication in these lymnatriids includes (i) scanning electron micrographs of functional metathoracic tympanate ears, (ii) attraction of male L. monacha and L. fumida to speakers playing back sound signals from conspecific females, and (iii) laser interferometry demonstrating particular sensitivity of tympana to frequ",
       "journal": "Summit (Simon Fraser University)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_1876542_15",
+      "title": "MORPHOLOGICAL, PHYSIOLOGICAL AND BEHAVIOURAL EVIDENCE FOR SONIC SIGNALS IN THE SEXUAL COMMUNICATION SYSTEM OF LYMANTRIID MOTHS",
+      "year": 2009,
+      "doi": null,
+      "abstract": "Sexual communication of gypsy moth, Lymantria dispar (L.), nun moth, L. monacha (L.), pink gypsy moth, L. mathura (M.), and fumida tussock moth, L. fumida (B.) is known to be mediated by pheromones. Data presented here show that sonic and visual signals are also involved. Sound produced by flying male L. dispar induced wing-fluttering and motion in conspecific females that may guide males to their micro-location. Analyses of sounds produced by wing fanning L. monacha, L. mathura, and L. fumida revealed species- and sex-specific wing beat and associated click frequencies that may contribute to reproductive isolation or close-range communication. Evidence for close-range communication in these lymnatriids includes (i) scanning electron micrographs of functional metathoracic tympanate ears, (ii) attraction of male L. monacha and L. fumida to speakers playing back sound signals from conspecific females, and (iii) laser interferometry demonstrating particular sensitivity of tympana to frequ",
+      "journal": "Summit (Simon Fraser University)",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_26021_8362",
@@ -395,11 +631,7 @@
       "abstract": "Amphibian populations are declining on a global scale and although disease outbreaks are a commonly accepted hypothesis they are not the only one. My aims for my thesis were to study the home range of Leiopelma hamiltoni, to determine whether a photographic database could be used to individual identified them and monitor the health status of the population. Habitat loss is a possible cause. For this reason monitoring an animals' home range is a possible method to detect early impacts the population is facing. By tracking 12 L. hamiltoni within a 12 m x 6 m grid on Maud Island, it was shown that the home range size can vary from 0.5 m2 to 25 m2 based on the minimum convex polygon method. However, to track multiple individuals it is important to be able to distinguish among frogs. The commonly used methods of identification, such as toe clipping, pose potentially detrimental effects. Therefore, non-invasive methods based on natural markings need to be established. Through the use of the ",
       "journal": "University of Canterbury Research Repository (University of Canterbury)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-540-48996-2_1240",
@@ -409,11 +641,7 @@
       "abstract": "",
       "journal": "Encyclopedia of Parasitology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_23889_suthesis_56984",
@@ -423,14 +651,10 @@
       "abstract": "<jats:p>Animal research has contributed immensely to medical and scientific advances over the last century, and continues to play important roles in enhancing our understanding of infectious and non-communicable disease development, and the search for treatments. The mouse, for example, shares ~95% of human genes and is the most widespread vertebrate model in use. Since the late 1980s, there has been several UK and EU directives (e.g., 2010/63/EU) to improve the welfare of animals considered essential for experimentation, and to link directly with the principle of the 3Rs, to Replace, Reduce and Refine animal use. Additionally, animal maintenance, husbandry, compliance with legislation and licencing, and staff training are costly and time-consuming. Hence, there is much to gain from developing alternative in vivo models and complementary in vitro, in chemico and in silico tools. Larvae of the wax moth Galleria mellonella represent one such surrogate to rodents, and have been used succe",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 31,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

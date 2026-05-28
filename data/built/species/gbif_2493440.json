@@ -24,10 +24,10 @@
     "color": "amber"
   },
   "stats": {
-    "paper_count": 25,
-    "claim_count": 10,
-    "doi_count": 26,
-    "media_count": 0
+    "paper_count": 42,
+    "claim_count": 12,
+    "doi_count": 39,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -43,94 +43,289 @@
   "inat_id": null,
   "vocalisations": [
     "plastic song",
-    "song",
-    "subsong"
+    "subsong",
+    "song"
   ],
   "contexts": [
-    "courtship",
-    "vocal learning"
+    "vocal learning",
+    "courtship"
   ],
   "functions": [
-    "mate attraction",
-    "social learning"
+    "social learning",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
       {
         "value": "plastic song",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
-      },
-      {
-        "value": "song",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
         "value": "subsong",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
+      },
+      {
+        "value": "song",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "contexts": [
       {
-        "value": "courtship",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "value": "vocal learning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
-        "value": "vocal learning",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "value": "social learning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       },
       {
-        "value": "social learning",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
-    "methods": [
-      {
-        "value": "ANOVA",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "acoustic similarity scoring",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "cross-correlation",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      }
-    ]
+    "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1007,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1006,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1005,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1004,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1003,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1002,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1001,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1000,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 999,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 998,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 997,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 996,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Taeniopygia guttata",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/dneu.23017",
+      "url": "https://doi.org/10.1002/dneu.23017",
+      "title": "Chromatin Profiling Reveals Distinct Male and Female Trajectories for Developmental Learning Potential",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.114981",
+      "url": "https://doi.org/10.1016/j.isci.2026.114981",
+      "title": "High-throughput assessment of vocal modulation following chemogenetic inhibition in songbirds",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0343886",
+      "url": "https://doi.org/10.1371/journal.pone.0343886",
+      "title": "Re-examining hidden fitness: Female preferences for long-path songs in zebra finches",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.64898/2026.01.19.700427",
+      "url": "https://doi.org/10.64898/2026.01.19.700427",
+      "title": "Organization, Neuronal Composition, and Dynamics of Neuronal Ensembles in the Songbird Auditory Forebrain",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s00213-025-06975-9",
+      "url": "https://doi.org/10.1007/s00213-025-06975-9",
+      "title": "Optimizing prenatal valproic acid exposure in zebra finches to model autism-related phenotypes",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-93105-2",
+      "url": "https://doi.org/10.1038/s41598-025-93105-2",
+      "title": "Context-dependent modulations in zebra finch distance calls revealed by a novel goal-directed vocalization paradigm",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/ejn.70123",
+      "url": "https://doi.org/10.1111/ejn.70123",
+      "title": "Neural Activity During Call Production in the Female Zebra Finch Homolog of the Male Forebrain Song System",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/jne.70022",
+      "url": "https://doi.org/10.1111/jne.70022",
+      "title": "Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (Taeniopygia guttata)",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1111/jne.70022/v2/review1",
       "url": "https://doi.org/10.1111/jne.70022/v2/review1",
@@ -144,6 +339,27 @@
       "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
       "year": 2025,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1186/s42523-025-00486-w",
+      "url": "https://doi.org/10.1186/s42523-025-00486-w",
+      "title": "Microbiota-gut-brain axis in avian parenting: gut microbiome associates with nest-construction behavior and neural gene expression in a songbird",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0314795",
+      "url": "https://doi.org/10.1371/journal.pone.0314795",
+      "title": "Parsing social context in auditory forebrain of male zebra finches",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/life15071058",
+      "url": "https://doi.org/10.3390/life15071058",
+      "title": "Prenatal Valproic Acid Exposure Affects Song Learning in Zebra Finches: A Potential Model for Vocal Development in Autism",
+      "year": 2025,
+      "source": "pubmed"
     },
     {
       "doi": "10.1111/jne.70022/v1/review1",
@@ -164,6 +380,13 @@
       "url": "https://doi.org/10.1111/jne.70022/v1/review3",
       "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
       "year": 2024,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/cne.25556/v1/review1",
+      "url": "https://doi.org/10.1002/cne.25556/v1/review1",
+      "title": "Review for \"Topography of visual and somatosensory inputs to the pontine nuclei in zebra finches (Taeniopygia guttata)\"",
+      "year": 2023,
       "source": "crossref"
     },
     {
@@ -200,6 +423,13 @@
       "title": "Effect of Thyroxine Treatment on the Testicular Structure of Male Zebra Birds (Taeniopygia guttata) تأثير المعالجة بالثيروكسين على بنية الخصية عند طائر الزيبرا  Taeniopygia Guttata",
       "year": 2015,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1186/1741-7007-11-1",
+      "url": "https://doi.org/10.1186/1741-7007-11-1",
+      "title": "The songbird syrinx morphome: a three-dimensional, high-resolution, interactive morphological map of the zebra finch vocal organ",
+      "year": 2013,
+      "source": "openalex"
     },
     {
       "doi": "10.1038/nature08819",
@@ -316,6 +546,86 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41880660",
+      "title": "Using FoxP2 to Distinguish Direct and Indirect Basal Ganglia Pathways for Vocal Learning in Songbirds",
+      "year": 2026,
+      "doi": "10.1002/dneu.70024",
+      "abstract": "The cortico-basal ganglia pathways that mediate vocal learning in zebra finches (Taeniopygia guttata) are localized in parallel circuits formed by CORE and SHELL subregions. These circuits traverse a specialized region of the basal ganglia essential for vocal learning (Area X), which includes intermixed striatal and pallidal neurons. The pallidal neurons within Area X exhibit analogs of mammalian direct and indirect pathways that may have opposing effects and thereby increase or inhibit thalamic activity, respectively. Direct pallidal neurons of Area X send projections to the medial portion of the dorsolateral anterior thalamic nucleus (DLM), whereas indirect pallidal neurons form intrinsic connections onto DLM-projecting neurons. Expression of the transcription factor FoxP2 in the basal ganglia is necessary for normal vocal learning and production in both humans and songbirds. We used tract-tracing techniques to label direct pallidal Area X→DLM projection neurons and immunohistochemical techniques to label neurons expressing the transcription factor FoxP2 in adult and juvenile male zebra finches. Our results showed that DLM-projecting neurons did not express FoxP2 in either adults or juveniles. Measurements of nuclear sizes revealed a population of large neurons that expressed FoxP2 but were not retrogradely labeled from DLM. A putative marker of striatal neurons (DARPP-32) did not co-localize with FoxP2 in many of these large neurons, suggesting that they form a class of indirect pallidal neurons. These findings offer FoxP2 as a possible marker for indirect pallidal neurons and support the existence of different subpopulations of neurons that correspond to direct and indirect pathways within Area X.",
+      "journal": "Developmental neurobiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41818808",
+      "title": "Influence of behavioural contingency on developmental song learning in young zebra finches (Taeniopygia guttata) tutored by a robot bird",
+      "year": 2026,
+      "doi": "10.1098/rspb.2025.2834",
+      "abstract": "In humans and other animals, social robots can serve as effective tutors for learning new skills. Young oscines learn their song by imitating conspecific adults. In a previous study, we demonstrated that a robotic bird can be as effective as a live tutor in training a young zebra finch (Taeniopygia guttata) to imitate a song model. Here, we take this further by investigating the role of behavioural contingency in developmental song learning and in shaping the birds' engagement with the robot. Two groups of young male finches were exposed to a robotic tutor under contingent (CON) or non-contingent (NCON) conditions. In the CON group, the robot produced a call in response to a call emitted by the bird. When the bird perched nearby, the robot oriented towards it and broadcast a song. While song imitation was slightly better in the CON group, the difference was not statistically significant. However, birds in the CON group spent more time near the robot and interacted with it more frequently compared to NCON-birds. These findings highlight the importance of behavioural contingency in social robotics and offer novel insights into the use of robotic agents in studies with non-human animals.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41809052",
+      "title": "High-throughput assessment of vocal modulation following chemogenetic inhibition in songbirds",
+      "year": 2026,
+      "doi": "10.1016/j.isci.2026.114981",
+      "abstract": "Chemogenetic tools that enable reversible manipulation of neuronal activity are essential for studying the neural bases of behavior, yet their application in songbirds remains limited. Here, we evaluated inhibitory DREADD (designer receptors exclusively activated by designer drugs)-mediated suppression in two widely studied songbird species: zebra finches (",
+      "journal": "iScience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41785228",
+      "title": "Re-examining hidden fitness: Female preferences for long-path songs in zebra finches",
+      "year": 2026,
+      "doi": "10.1371/journal.pone.0343886",
+      "abstract": "Female songbirds can evaluate male quality from secondary sexual characteristics such as songs. Studies have shown mixed findings on which acoustic features contribute to song attractiveness. In a 2024 study, Alam and colleagues introduced a holistic measure of song called \"path length\" and found that female zebra finches (Taeniopygia guttata) prefer long path length songs as compared to short path length songs. The original female-playback study was criticized for design limitations, notably its small sample size, and pseudoreplication. Here, we conducted a preregistered replication and extension study of the female preference for long vs. short path length songs. Our study will evaluate the robustness and generality of this preference.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41648474",
+      "title": "Organization, Neuronal Composition, and Dynamics of Neuronal Ensembles in the Songbird Auditory Forebrain",
+      "year": 2026,
+      "doi": "10.64898/2026.01.19.700427",
+      "abstract": "Auditory learning is a key component of vocal learning and communication. Neurons involved in auditory learning are typically examined as single encoders, but there is increasing evidence that the coincident activity of groups of neurons, or 'ensembles', is important for the processing and transmission of sensory information. In songbirds, a forebrain region analogous to mammalian secondary auditory cortex, the caudomedial nidopallium (NCM), is crucial for representing and learning auditory signals. In the awake state, NCM neurons exhibit stimulus-specific adaptation in response to repeated presentation of song stimuli, considered a form of auditory working memory. Yet, how complex stimuli like song are encoded by networks of excitatory and inhibitory neurons is essentially unknown. Using",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41641496",
+      "title": "The social origins of vocal sequences in songbirds and human infants",
+      "year": 2026,
+      "doi": "10.1098/rstb.2024.0366",
+      "abstract": "From birdsong to human language, acoustic communication by vocal learners involves the concatenation of sounds into sequences. Sequences are more efficient for the producer and more accommodating to the capacities of receivers. Over development, the compression of syllables into rapid sequences (in terms of more syllables per second) may reflect both social learning and motor maturation. We tested whether sequence compression could be predicted uniquely by exogenous (i.e. social) and endogenous (i.e. motor) sources. In human infants, we found that (i) vocal sequences strongly engage adults, (ii) from 5 to 10 months, sequences compress, (iii) social feedback to 5-month-olds' sequences predicted sequence compression over development, and (iv) sequence compression over development predicted infants' vocabulary development. We next examined the extent to which compression develops in a paradigm in which we could separate social feedback from motor practice. In zebra finch (Taeniopygia guttata), we found that (i) motor development predicted sequence compression, but (ii) compression only predicted song maturity (similarity to tutor) when birds received contingent social feedback to their immature vocalizing. In addition, (iii) social feedback predicted finches' sequence compression. These findings demonstrate the potency of social feedback across two vocal learning species in the emergence of vocal efficiency. This article is part of the theme issue 'Mechanisms of learning from social interaction'.",
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41214891",
+      "title": "Chromatin Profiling Reveals Distinct Male and Female Trajectories for Developmental Learning Potential",
+      "year": 2026,
+      "doi": "10.1002/dneu.23017",
+      "abstract": "Adult patterns of behavior can often be explained by developmental experiences. In some cases, developmental experience can have permanent influence on brain and behavior only during specific ages; these phases are called critical or sensitive periods. Epigenetic mechanisms can regulate both maturational and experiential processes in the brain by coordinating transcription of genes involved in organization and plasticity. Epigenetics thus may have particular relevance to critical periods. As such, we employed ChIP-seq to assess accessible regulatory regions, segments of the genome where transcription factors (TFs) bind, using the epigenetic marker H3K27ac. We focused on the auditory forebrain, required for developmental sensory song learning, in juvenile male and female zebra finches (Taeniopygia guttata). Both sexes rely on developmental sensory learning to bias adult behaviors, though males have a defined critical period for this process, whereas it is not clear that females do. Thus, we sought to address two major questions: (1) Are H327ac peaks changing in males as they transition into their critical period, and if so, how?, and (2) How similar are the female H3K27ac peaks at the same ages of development? Our analyses revealed that age and sex affect H3K27ac-based peak profiles and enriched TF binding sites within them, as well as genes annotated to those H3K27ac-defined peaks. These findings provide new insights into how epigenetic regulation may influence auditory forebrain organization and function in the context of changing learning potential across a sensitive developmental period and create a foundation for additional studies.",
+      "journal": "Developmental neurobiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40652298",
+      "title": "High-quality genome assembly of the endemic, threatened, White-bellied Sholakili Sholicola albiventris (Muscicapidae: Blanford, 1868) from the Shola Sky Islands, India",
+      "year": 2026,
+      "doi": "10.1093/jhered/esaf049",
+      "abstract": "The White-bellied Sholakili (Sholicola albiventris) is an endemic, elevationally restricted species occurring in the Shola Sky Islands of the Western Ghats of India. This unique understory bird, with a complex vocal repertoire, exhibits impacts of anthropogenic habitat fragmentation on gene flow. Here, we present the first genome assembly for S. albiventris, which was assembled using a combination of Nanopore and Illumina sequences. The final assembly is 1.083 Gbp, consisting of 975 scaffolds with an N50 of 68.64 Mbp and L50 of 6. Our genome assembly's completeness is supported by a number of metrics-high Benchmarking Universal Single-Copy Orthologs (99.9%), and a total of 4,887 ultra-conserved element loci retrieved. We also report the complete mitochondrial genome comprising 13 protein-coding genes, 22 tRNAs, and 2 rRNAs. We identified 11.82% of the nuclear genome as repetitive and 36,000 putative genes, with 12,017 genes functionally annotated. Our assembly showed a great synteny between Taeniopygia guttata and Gallus gallus chromosome level assemblies. This reference will be pivotal for investigating landscape connectivity, sub-population genetics, local adaptation, and conservation genetics of this high-elevation, range-restricted endemic bird species.",
+      "journal": "The Journal of heredity",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1111_jne_70022_v2_review1",
       "title": "Review for \"Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (&lt;i&gt;Taeniopygia guttata&lt;/i&gt;)\"",
       "year": 2025,
@@ -323,11 +633,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_jne_70022_v2_review3",
@@ -337,11 +643,77 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41313438",
+      "title": "Optimizing prenatal valproic acid exposure in zebra finches to model autism-related phenotypes",
+      "year": 2025,
+      "doi": "10.1007/s00213-025-06975-9",
+      "abstract": "RATIONALE: Rodent models dominate autism spectrum disorder (ASD) research, yet their translational validity is limited for a heterogeneous condition with complex social-vocal phenotypes. OBJECTIVES: To evaluate the zebra finch (Taeniopygia guttata) - a highly social, vocal-learning songbird - as an ASD model by adapting embryonic valproic acid (VPA) exposure and identifying dose-timing conditions that preserve viability while perturbing social behavior. METHODS: We used a 3 × 3 design crossing VPA dose (0, 0.3, 0.6 µmol/egg) with manipulation day (incubation days 8-10). Hatching success, post-hatching survival, growth, and social behavior in a bird-adapted three-chamber test were quantified with mixed-effects models (binomial/Cox/linear/negative binomial, beta-binomial). RESULTS: Hatching success decreased at 0.6 µmol and with day-8 injections; day-9 performed best. Post-hatching survival was lower at 0.3 µmol versus controls (limited inference for 0.6 µmol due to small n). Growth showed dose×sex interactions: females at 0.6 µmol were lighter with shorter tarsi; wings showed a similar tendency. In sociability (phase 1), time-based measures were unchanged, 0.6-µmol birds made more approaches to the closest perch, while day-8 birds approached less than day-9. In phase 2, time on the familiar-side closest perch showed a day×sex interaction (day-8 females spent less time than day-8 males), and approaches to that perch increased at 0.6 µmol. Overall sociability (combined closest perches) and total activity did not differ by group. CONCLUSIONS: Embryonic VPA in zebra finches yields selective, partly sex-dependent developmental and social effects. Zebra finches remain promising; day-9 intermediate doses (~ 0.35-0.50 µmol) warrant follow-up to map dose-response and balance viability with behavioral detectability.",
+      "journal": "Psychopharmacology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41254816",
+      "title": "Microbiota-gut-brain axis in avian parenting: gut microbiome associates with nest-construction behavior and neural gene expression in a songbird",
+      "year": 2025,
+      "doi": "10.1186/s42523-025-00486-w",
+      "abstract": "BACKGROUND: The gut-brain axis mediates bidirectional communication between gut and central nervous activities with gut microbiota acting as a key mediator. While recent studies have mainly focused on how gut microbiota influence non-parenting social behavior in rodents, the role of gut microbiota in parenting behavior, especially in non-model species, is largely unexplored. Nest-building behavior is an early parenting behavior critical to avian survival and evolution, offering an ideal system to examine how the microbiota-gut-brain axis shapes the emergence of parental motivation. RESULTS: Using zebra finches ( CONCLUSIONS: Our study integrates behavior experiments, microbiota profiles, and brain gene expression to investigate the role of gut microbiome in programming sex-specific nest construction behavior in birds. These findings suggest potential mechanisms through which the microbiota-gut-brain axis regulates parenting behaviors in avian systems, expanding our understanding of how gut microbiota influence complex behaviors across animal lineages. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s42523-025-00486-w.",
+      "journal": "Animal microbiome",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40724560",
+      "title": "Prenatal Valproic Acid Exposure Affects Song Learning in Zebra Finches: A Potential Model for Vocal Development in Autism",
+      "year": 2025,
+      "doi": "10.3390/life15071058",
+      "abstract": "Autism spectrum disorder (ASD) encompasses a range of neurodevelopmental conditions characterized by impairments in social abilities and communication. Studying appropriate animal models can enhance our understanding of the neural mechanisms underlying these conditions, potentially leading to improved treatment and intervention strategies. Modeling impairments in linguistic development and vocal communication caused by autism had been a challenging goal for a long time. Prenatal valproic acid (VPA) treatment has been successfully used to induce ASD-like behavioral symptoms in several vertebrate species including birds. Applying VPA-treatment on songbirds, therefore, offers a promising research paradigm to model ASD. In this study, we investigated the effect of embryonic VPA treatment on song learning in the highly social zebra finch (",
+      "journal": "Life (Basel, Switzerland)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40304281",
+      "title": "Neural Activity During Call Production in the Female Zebra Finch Homolog of the Male Forebrain Song System",
+      "year": 2025,
+      "doi": "10.1111/ejn.70123",
+      "abstract": "Female zebra finches (Taeniopygia guttata) are unable to sing because of the vestigial development of forebrain song control areas such as the RA (nucleus robustus archistriatalis), a premotor nucleus of the song control pathway. In male zebra finches, RA is also involved in call-based vocal communication in addition to song control. Here, we monitored the activity of RA neurons during vocal communication in freely behaving females using a miniaturized telemetric recording device combined with telemetric audio recording. Neurons in the RA region showed premotor activity associated with stack and tet calls, two innate short-range social calls produced by both sexes. RA units were active when females called to respond to a male partner's call or to initiate a partner's call. However, spontaneous, regularly firing units, typical of male RA, were very rare in females or, when found, showed no association with vocal output. Despite the small number of adult female RA neurons, these neurons are not functionless, but are involved in call-based communication.",
+      "journal": "The European journal of neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40122144",
+      "title": "Early testosterone exposure during development advances myelination and affects neurogenesis of the vocal control motor path in male zebra finches (Taeniopygia guttata)",
+      "year": 2025,
+      "doi": "10.1111/jne.70022",
+      "abstract": "Birdsong learning and production is mediated through a vocal control circuit that exhibits ubiquitous and profound sex differences. In zebra finches (Taeniopygia guttata) only males sing, and sex differences in both neuroanatomy and myelination of this circuit emerge during the first 3 months of life as song learning is taking place. Song crystallization occurs at the onset of sexual maturity, at a time when neuron recruitment to the vocal control region HVC is reduced and the myelination of the projection from HVC to the motor nucleus RA (robust nucleus of arcopallium) rapidly develops. Prior work demonstrated that experimental testosterone treatment early in song development disrupted song learning, potentially by leading to premature song crystallization, but the effects of testosterone on neurogenesis and myelination of the vocal control system are little studied. We implanted male zebra finches with blank or testosterone pellets around Day 35 at the onset of the sensorimotor phase of song development. We examined the effects of early testosterone treatment on song development, myelination, and neurogenesis (doublecortin labeled cells) of the motor path of the vocal control circuit (HVC to RA). We also quantified singing consistency at two ages in adulthood. Testosterone treatment accelerated changes in myelin within HVC and in the projection from HVC to RA and accelerated age-related changes in doublecortin-labeled cells in HVC. Song and syllable stereotypy increased with age, but we did not detect an effect of hormone treatment. These results are consistent with the hypothesis that the testosterone exposure during development initiates processes that normally occur at sexual maturity, including changes in neurogenesis and myelination of the motor control path of the vocal control system.",
+      "journal": "Journal of neuroendocrinology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40106463",
+      "title": "Parsing social context in auditory forebrain of male zebra finches",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0314795",
+      "abstract": "To understand the influence of natural behavioral context on neural activity requires studying awake-behaving animals. Microdrive devices facilitate bridging behavior and physiology to examine neural dynamics across behavioral contexts. Impediments to long-term single unit recordings in awake-behaving animals include tradeoffs between weight, functional flexibility, expense, and fabrication difficulty in microdrive devices. We describe a straightforward and low-cost method to fabricate versatile and lightweight microdrives that remain functional for months in awake-behaving zebra finches (Taeniopygia guttata). The vocal and gregarious nature of zebra finches provide an opportunity to investigate neural representations of social and behavioral context. Using microdrives, we report how auditory responses in an auditory association region of the pallium are modulated by two naturalistic contexts: self- vs. externally-generated song (behavioral context), and solitary vs. social listening (social context). While auditory neurons exhibited invariance across behavioral contexts, in a social context, response strength and stimulus selectivity were greater in a social condition. We also report stimulus-specific correlates of audition in local field potentials. Using a versatile, lightweight, and accessible microdrive design for small animals, we find that the auditory forebrain represents social but not behavioral context in awake-behaving animals.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40075173",
+      "title": "Context-dependent modulations in zebra finch distance calls revealed by a novel goal-directed vocalization paradigm",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-93105-2",
+      "abstract": "Songbirds are renowned for their complex vocal communication abilities; among them, zebra finches (Taeniopygia guttata) are a key species for studying vocal learning and communication. Zebra finches use various calls with different meanings, including the distance call, which is used for long-distance contact. Whether these calls are static with fixed meanings or flexible remains an open question. In this study we aimed to answer this question by designing a novel behavioral paradigm, in which we trained food-restricted zebra finches to use distance calls for food request. Nine out of ten birds learned this association and used their distance calls to obtain food when they were hungry. We then introduced a visually-separated audience and compared the distance calls used for food requests with those used for communication between birds. Our analyses revealed significant acoustic differences in power, pitch, and other spectral characteristics between the distance calls uttered in these two contexts, with calls directed at conspecifics exhibiting higher amplitude. Our findings suggest that zebra finches can use their distance call for different goals and also acoustically modulate it based on the context. Therefore, it demonstrates a level of vocal control thought to be exclusive to songs. This study enhances our understanding of vocal flexibility and its role in vocal communication.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_jne_70022_v1_review2",
@@ -351,11 +723,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_jne_70022_v1_review3",
@@ -365,11 +733,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_jne_70022_v1_review1",
@@ -379,11 +743,17 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1002_cne_25556_v1_review1",
+      "title": "Review for \"Topography of visual and somatosensory inputs to the pontine nuclei in zebra finches (Taeniopygia guttata)\"",
+      "year": 2023,
+      "doi": "10.1002/cne.25556/v1/review1",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "paper_003",
@@ -393,11 +763,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "pilot",
-      "developmental_stage": "juvenile",
-      "main_outcome": "Social feedback from adult tutors during the sensitive period significantly accelerates song crystallisation and increases acoustic similarity to the tutor.",
-      "dataset_available": "yes",
-      "dataset_name": "OSF_ZF_SongLearning_2021"
+      "source": "pilot"
     },
     {
       "paper_id": "10_1079_cabicompendium_62734",
@@ -407,11 +773,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_cub_2015_12_037",
@@ -421,11 +783,7 @@
       "abstract": "",
       "journal": "Current Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_4197_sci_27-1_4",
@@ -435,11 +793,7 @@
       "abstract": "",
       "journal": "Journal of King Abdulaziz University-Science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037_a0039646",
@@ -449,11 +803,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-015-0933-6",
@@ -463,11 +813,17 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1186_1741-7007-11-1",
+      "title": "The songbird syrinx morphome: a three-dimensional, high-resolution, interactive morphological map of the zebra finch vocal organ",
+      "year": 2013,
+      "doi": "10.1186/1741-7007-11-1",
+      "abstract": "Our results show that the syringeal skeleton is optimized for low weight driven by physiological constraints on song production. The present refinement of muscle organization and identity elucidates how apposed muscles actuate different syringeal elements. Our dataset allows for more precise predictions about muscle co-activation and synergies and has important implications for muscle activity and stimulation experiments. We also demonstrate how the syrinx can be stabilized during song to reduce mechanical noise and, as such, enhance repetitive execution of stereotypic motor patterns. In addition, we identify a cartilaginous structure suited to play a crucial role in the uncoupling of sound frequency and amplitude control, which permits a novel explanation of the evolutionary success of songbirds.",
+      "journal": "BMC Biology",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_nature08819",
@@ -477,11 +833,7 @@
       "abstract": "",
       "journal": "Nature",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pbio_0060062",
@@ -491,11 +843,7 @@
       "abstract": "Social cues modulate the performance of communicative behaviors in a range of species, including humans, and such changes can make the communication signal more salient. In songbirds, males use song to attract females, and song organization can differ depending on the audience to which a male sings. For example, male zebra finches (Taeniopygia guttata) change their songs in subtle ways when singing to a female (directed song) compared with when they sing in isolation (undirected song), and some of these changes depend on altered neural activity from a specialized forebrain-basal ganglia circuit, the anterior forebrain pathway (AFP). In particular, variable activity in the AFP during undirected song is thought to actively enable syllable variability, whereas the lower and less-variable AFP firing during directed singing is associated with more stereotyped song. Consequently, directed song has been suggested to reflect a \"performance\" state, and undirected song a form of vocal motor \"exp",
       "journal": "PLoS Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_1662-06_2006",
@@ -505,11 +853,7 @@
       "abstract": "Learned vocal communication, including human speech, is a socially influenced behavior limited to certain animals. This ability requires auditory feedback during vocalization, which allows for on-line evaluation, to achieve the desired vocal output. To date, FOXP2 (forkhead box P2), a transcriptional repressor, is the only molecule directly linked to human speech. Identified FOXP2 mutations cause orofacial dyspraxia accompanied by abnormalities in corticostriatal circuitry controlling voluntary orofacial movements. These observations implicate FOXP2 in the developmental formation of neural circuits used in speech, but whether FOXP2 additionally plays an active role in mature circuitry was unknown. To address this question, we use a songbird, the zebra finch (Taeniopygia guttata), whose learned song and underlying circuitry are well characterized. We show that, when adult males sing, FoxP2 mRNA is acutely downregulated within area X, the specific region of the songbird striatum dedicate",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2006_01_020",
@@ -519,11 +863,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2003_04_008",
@@ -533,11 +873,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf02703417",
@@ -547,11 +883,7 @@
       "abstract": "",
       "journal": "Journal of Biosciences",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_nature02645",
@@ -561,11 +893,7 @@
       "abstract": "",
       "journal": "Nature",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1006_anbe_2003_2093",
@@ -575,11 +903,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1037__0735-7036_100_3_248",
@@ -589,11 +913,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_14264_106757",
@@ -603,11 +923,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_1bca020ez5f40z46ddz92bcz265cd7598846",
@@ -617,11 +933,7 @@
       "abstract": "<jats:p xml:lang=\"fr\">En biologie évolutive, la variation phénotypique a longtemps été réduite au substrat sur lequel agissait la sélection naturelle. Toutefois, la constance intra-individuelle et le maintien intra-populationnel de certains comportements conduisirent au milieu des années 90 au développement du concept de personnalité animale, basé sur la caractérisation de traits tels que la néophobie, l’agressivité, les tendances exploratoires ou la prise de risque. De nombreuses études montrent que la personnalité est soumise à la sélection naturelle et est reliée à certaines stratégies biodémographiques, telles que la dispersion ou le comportement anti-prédateur.Les liens entre la personnalité animale et les stratégies d’appariement et d’approvisionnement, deux composantes fondamentales de la vie des organismes, ont pourtant été négligés jusqu’ici. Nous nous sommes donc attachés au cours de cette thèse à déterminer l’influence de la personnalité sur certains comportements sexuels et",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_1598a404z7742z48eaz980fze728e132f5c7",
@@ -631,11 +943,7 @@
       "abstract": "<jats:p xml:lang=\"fr\">Les soins biparentaux impliquent que mâles et femelles travaillent ensemble et ajustent leur comportement l’un à l’autre. De nombreuses études théoriques et empiriques se sont intéressées à la façon dont un parent réagit face à une augmentation ou une diminution de l’effort parental de son partenaire. Mais très peu se sont intéressées aux mécanismes qui permettent cet ajustement. C’est chez les oiseaux qu’on trouve le plus d’espèces à soins biparentaux. Parce que ce sont des animaux qui produisent beaucoup de sons, la communication acoustique pourrait jouer un rôle dans l’organisation des soins parentaux. Le but de cette thèse est de contribuer à vérifier cette hypothèse en comparant deux espèces d’oiseaux qui diffèrent dans la façon dont le mâle et la femelle se partagent les soins parentaux. Chez le diamant mandarin, le mâle et la femelle participent tous les deux à l’incubation des oeufs tandis que c’est la femelle seule qui se charge de cette tâche chez la més",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1021_pr060428i_s002",
@@ -645,11 +953,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1021_pr060428i_s003",
@@ -659,14 +963,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 25,
+  "paper_count": 42,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

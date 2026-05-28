@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 22,
-    "claim_count": 10,
-    "doi_count": 24,
-    "media_count": 0
+    "paper_count": 40,
+    "claim_count": 36,
+    "doi_count": 34,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -48,14 +48,14 @@
   ],
   "contexts": [
     "echolocation",
-    "group cohesion",
-    "individual recognition"
+    "individual recognition",
+    "group cohesion"
   ],
   "functions": [
     "individual identity",
     "individual identity signalling",
-    "prey detection",
-    "social affiliation"
+    "social affiliation",
+    "prey detection"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -63,19 +63,19 @@
         "value": "click",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "signature whistle",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "whistle",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -83,19 +83,19 @@
         "value": "echolocation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "group cohesion",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "group cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -103,42 +103,583 @@
         "value": "individual identity",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "individual identity signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "prey detection",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social affiliation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "prey detection",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 664,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 663,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 662,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 661,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 660,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 659,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 658,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 657,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 656,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 655,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 654,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 653,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 652,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 651,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 650,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 649,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 648,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 647,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 646,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 645,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 644,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 643,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 642,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 641,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 640,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 639,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 638,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 637,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 636,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 635,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 634,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 633,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 632,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 631,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 630,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 629,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "macaulay_ML207879411",
+        "provider": "macaulay",
+        "provider_id": "ML207879411",
+        "type": "Bottlenose dolphin signature whistle reference",
+        "rec": "various",
+        "loc": "",
+        "date": "",
+        "url": "https://www.macaulaylibrary.org/asset/207879411",
+        "audio": "",
+        "sono": "",
+        "license": "Macaulay Library",
+        "attribution": "Cornell Lab of Ornithology"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1093/cz/zoae079",
+      "url": "https://doi.org/10.1093/cz/zoae079",
+      "title": "Assessing the effectiveness of acoustic signals in mark-recapture studies to estimate dolphins' population size",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0336138",
+      "url": "https://doi.org/10.1371/journal.pone.0336138",
+      "title": "Vocalization behaviors in captive bottlenose dolphins (Tursiops truncatus) and rough-toothed dolphins (Steno bredanensis)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0336419",
+      "url": "https://doi.org/10.1371/journal.pone.0336419",
+      "title": "Acoustic analysis of bottlenose dolphin vocalizations for behavioral classification in controlled settings",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.32416/2500-4379-2025-1-14-19",
       "url": "https://doi.org/10.32416/2500-4379-2025-1-14-19",
       "title": "Some anatomical features, tonometry and fundus examination of pacific bottlenose dolphins (Tursiops truncatus)",
       "year": 2025,
       "source": "crossref"
+    },
+    {
+      "doi": "10.3390/s25082499",
+      "url": "https://doi.org/10.3390/s25082499",
+      "title": "Multiclass CNN Approach for Automatic Classification of Dolphin Vocalizations",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7717/peerj.19726",
+      "url": "https://doi.org/10.7717/peerj.19726",
+      "title": "Assessing an acoustic bioindicator of leisure boating disturbance on bottlenose dolphins",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.heliyon.2024.e33192",
+      "url": "https://doi.org/10.1016/j.heliyon.2024.e33192",
+      "title": "Bottlenose dolphins (",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-024-56654-6",
+      "url": "https://doi.org/10.1038/s41598-024-56654-6",
+      "title": "Observational study on the non-linear response of dolphins to the presence of vessels",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-024-80779-3",
+      "url": "https://doi.org/10.1038/s41598-024-80779-3",
+      "title": "Effects of experience and familiarity on visual attention and behaviours of bottlenose dolphins (Tursiops truncatus) in presence of humans",
+      "year": 2024,
+      "source": "pubmed"
     },
     {
       "doi": "10.62135/hqqe4209",
@@ -246,6 +787,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1037/0735-7036.98.1.10",
+      "url": "https://doi.org/10.1037/0735-7036.98.1.10",
+      "title": "Vocal mimicry of computer-generated sounds and vocal labeling of objects by a bottlenosed dolphin, Tursiops truncatus..",
+      "year": 1984,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1126/science.147.3655.300",
       "url": "https://doi.org/10.1126/science.147.3655.300",
       "title": "Vocal Mimicry in <i>Tursiops</i> : Ability to Match Numbers and Durations of Human Vocal Bursts",
@@ -295,6 +843,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.70675/2384b580z2f2az474czac65z130c9e5128f3",
+      "url": "https://doi.org/10.70675/2384b580z2f2az474czac65z130c9e5128f3",
+      "title": "Stratégie de conservation du Grand Dauphin (Tursiops truncatus) en Méditerranée française",
+      "year": null,
+      "source": "crossref"
+    },
+    {
       "doi": "10.70675/9d884599za28cz4e29z9206z92a488fcd019",
       "url": "https://doi.org/10.70675/9d884599za28cz4e29z9206z92a488fcd019",
       "title": "Acoustic Communication and Social Behavior in Bottlenose Dolphins (Tursiops truncatus)",
@@ -304,6 +859,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41511091",
+      "title": "Feasibility of spectral-element modeling of wave propagation through the anatomy of marine mammals",
+      "year": 2026,
+      "doi": "10.1121/10.0042191",
+      "abstract": "This study introduces the first three-dimensional spectral-element method (SEM) simulation of ultrasonic wave propagation in the head of a bottlenose dolphin (Tursiops truncatus). Unlike traditional finite-element methods (FEM), which struggle with high-frequency simulations because of costly linear-system inversions and slower convergence, SEM offers exponential convergence and efficient parallel computation. Using computed tomography data, we developed a detailed hexahedral mesh capturing key anatomical features, such as acoustic fats and lower jaws. Our simulations of plane and spherical waves confirm SEM's effectiveness for ultrasonic time-domain modeling. This approach opens new avenues for marine-bioacoustic research, including echolocation, the biophysics of hearing and sound generation, and assessments of anthropogenic underwater noise. By overcoming FEM's limitations, SEM provides a powerful scalable tool to test hypotheses in dolphin bioacoustics, with significant implications for conservation and understanding marine-mammal auditory systems under increasing environmental challenges.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_32416_2500-4379-2025-1-14-19",
       "title": "Some anatomical features, tonometry and fundus examination of pacific bottlenose dolphins (Tursiops truncatus)",
       "year": 2025,
@@ -311,11 +876,157 @@
       "abstract": "<jats:p>Sensory systems of dolphins have been studied for a long time, but their visual system is extremely insufficiently described. In the clinical veterinary ophthalmology in cetaceans there are no protocols for tonometric examinations of the eyes of toothed whales, and the understanding of how to prevent eye diseases affecting dolphins under human care (or wild individuals undergoing rehabilitation) is extremely limited.\r\nThe aim of the work is to consider the anatomical features of cetacean eyes, as well as to introduce tonometric data and fundus examination in dolphins into the practice of routine veterinary examinations, which in the future may provide preventive detection of ophthalmological pathologies.\r\nThe fundus of four Pacific bottlenose dolphins (Tursiops truncatus) kept in artificial conditions were examined using a portable and mobile fundus camera Optomed Smartscope PRO, and their intraocular pressure was measured using a veterinary tonometer TONOVET Plus. The obtained",
       "journal": "Russian veterinary journal",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41335610",
+      "title": "Acoustic analysis of bottlenose dolphin vocalizations for behavioral classification in controlled settings",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0336419",
+      "abstract": "Understanding how bottlenose dolphins adjust their vocal behavior in response to daily routines can provide insights into social communication and welfare assessment in managed care environments. This study presents a detailed analysis of bottlenose dolphin (Tursiops truncatus) vocal behavior in relation to different daily activities within a controlled environment at Oltremare Marine Park (Riccione, Italy). 24 hours of continuous acoustic recordings were collected from seven dolphins during a typical day at the marine park, including training, feeding, playing, and unstructured activities. Signals were analyzed to quantify the variations in type and number of vocalizations in relation to dolphin activity. 3,111 whistles were manually extracted and stored as both normalized audio files and high-resolution spectrograms. Additionally, an automated algorithm identified 1,277 pulsed vocalizations, classified into echolocation click trains, burst-pulse sounds, and feeding buzzes, using signal-to-noise ratio (SNR) and inter-click interval criteria. Results revealed a significant increase in vocalization rates during structured activities compared to unstructured periods (p < 0.001). This trend was consistently observed across all four vocalization types. Notably, play sessions elicited the highest rates of pulsed vocalizations (p < 0.01), suggesting enhanced social and exploratory behaviors, i.e., interactions with conspecifics as well as curiosity-driven engagement with the environment. To test dataset reliability and usability, signal quality was analyzed by evaluating SNR. To support future research in marine mammal bioacoustics, behavioral ecology, and Artificial-Intelligence-based acoustic monitoring, the full annotated dataset was released as an open-access resource.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41171936",
+      "title": "Vocalization behaviors in captive bottlenose dolphins (Tursiops truncatus) and rough-toothed dolphins (Steno bredanensis)",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0336138",
+      "abstract": "Odontocetes rely on vocalizations for navigation, foraging, and communication. Their vocalization patterns are associated with environmental conditions and behavioral contexts, particularly in captive populations. This study investigated the vocalization behaviors of captive bottlenose dolphins (Tursiops truncatus) and rough-toothed dolphins (Steno bredanensis) using continuous acoustic monitoring. The focus was on their responses to human-involved training and feeding activities. Comparative analyses revealed that rough-toothed dolphins produced significantly more clicks and fewer whistles than bottlenose dolphins (p < 0.05). During training, bottlenose dolphins reduced their click rate by 41% but increased whistle production by 125%. In contrast, rough-toothed dolphins showed no significant change in click emissions (from 643.9/min to 597.4/min, p > 0.05), but significantly reduced whistles by 56% (p < 0.05). Neither species exhibited significant changes in vocalization during feeding. However, rough-toothed dolphins shifted their predominant whistle type from \"constant\" to \"sinusoidal\", while bottlenose dolphins changed from \"constant\" to \"upsweep\" during feeding. These findings offer valuable insights expanding current knowledge of dolphin vocal patterns under captivity and establish baseline information potentially supporting acoustic assessment of captive dolphin welfare, particularly for the understudied rough-toothed dolphin.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41048378",
+      "title": "Assessing the effectiveness of acoustic signals in mark-recapture studies to estimate dolphins' population size",
+      "year": 2025,
+      "doi": "10.1093/cz/zoae079",
+      "abstract": "Accurate estimations of animal population size are pivotal for implementing management strategies properly. Recapture technique based on sounds as a specimen identification mark has barely been used for marine mammals. However, inferring abundance estimates from acoustic methods could enhance the accuracy and precision of population size assessments. Here, we tested the possibility of using signature whistles as individual marks for estimating the size of common bottlenose dolphin (",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40761806",
+      "title": "Assessing an acoustic bioindicator of leisure boating disturbance on bottlenose dolphins",
+      "year": 2025,
+      "doi": "10.7717/peerj.19726",
+      "abstract": "Growing concerns about the impact of leisure boating on marine ecosystems are particularly relevant for marine mammal species, given their dependence on sound and significant spatial overlap with human activities. Monitoring the effects of leisure boating disturbances on marine ecosystems presents considerable challenges, as it is resource-intensive and may require many years of data collection. However, since species can alter their behavior and daily routines in response to human disturbances, behaviors essential for individual fitness, reproduction, and parental care success-such as acoustic behavior-could serve as bioindicators for assessing the impact of leisure boating. Common bottlenose dolphins (",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40716094",
+      "title": "Individualized Use of Signature Whistles by Bottlenose Dolphins (Tursiops truncatus) During an Introduction",
+      "year": 2025,
+      "doi": "10.1002/zoo.70015",
+      "abstract": "There have been few published accounts of bottlenose dolphin (Tursiops truncatus) group introductions in human care and even fewer reports of signature whistle usage within this context. Here, we describe behavior and signature whistle production before, during, and after the introduction of a recently stranded and rehabilitated young male to an existing group of two adult dolphins, a male and female. Signature whistle production increased for the adult male and female, but not for the young male being introduced. Whistles were detected from each of the dolphins on the day of introduction, which is consistent with the reports involving wild dolphin signature whistle usage before intermixing.",
+      "journal": "Zoo biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40626840",
+      "title": "Head-related transfer function predictions reveal dominant sound propagation mechanisms to the dolphin ears",
+      "year": 2025,
+      "doi": "10.1121/10.0036904",
+      "abstract": "Toothed whales possess specialized anatomical structures in the head, including thin, excavated lower mandible embedded in mandibular fat bodies (MFBs), complex skull morphology fused with the upper jaw, and extensive air spaces surrounding the middle ears and beneath the skull. In this study, finite element modeling is used to investigate how these structures influence the transmission of water-borne sounds to the ears. The models are based on volumetric representations derived from computed tomography scans of a live bottlenose dolphin (Tursiops truncatus). The anatomical structures included in the model are iteratively modified and the predicted head-related transfer functions are used as a proxy for comparison. The results show that the MFBs, which support a lower sound speed than the surrounding tissues, significantly enhance the forward receiving directionality at echolocation frequencies through refraction in a manner similar to the melon in shaping the dolphins' highly directional transmission beams. Additionally, it is shown that in the frequencies encompassing dolphin communication signals, the air volumes help block the otherwise complex sound transmission through the bones. These findings highlight convergent evolutionary solutions in toothed whale anatomy to create strong directionality in both sound emission and reception governed by the same physical principles.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40561223",
+      "title": "Effects of network selection and acoustic environment on bounding-box object detection of delphinid whistles using a deep learning tool",
+      "year": 2025,
+      "doi": "10.1121/10.0036942",
+      "abstract": "Deep learning methods offer automated solutions for detecting marine mammal calls, yet require time-intensive development for optimized neural network performance, including carefully curating data and creating a robust network architecture. Using data collected in two aquarium and two open ocean environments, we evaluated the performance of a series of pre-trained object detection networks CSP-DarkNet-53, ResNet-50, and Tiny YOLO in detecting highly variable bottlenose dolphin (Tursiops truncatus) whistles using DeepAcoustics, a user-friendly deep learning tool. We compared the F1-score, average precision (AP), and mean AP performance of all network architectures with combinations of training samples from each acoustic environment. CSP-DarkNet-53 consistently outperformed Tiny YOLO and ResNet-50 across various test datasets, demonstrating robustness, but underperformed in select scenarios. Performance remained higher for aquarium data compared to open ocean data based on AP and mean AP values, indicating a greater ability of the networks to accurately detect whistles in these environments. However, networks trained on open ocean datasets showed only slightly improved APs on open ocean data, highlighting the challenge of achieving generalizability across divergent acoustic environments. This effort highlights the importance of network architecture selection, and the effects of different acoustic environments on deep learning methods for detecting complex underwater vocalizations.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40285189",
+      "title": "Multiclass CNN Approach for Automatic Classification of Dolphin Vocalizations",
+      "year": 2025,
+      "doi": "10.3390/s25082499",
+      "abstract": "Monitoring dolphins in the open sea is essential for understanding their behavior and the impact of human activities on the marine ecosystems. Passive Acoustic Monitoring (PAM) is a non-invasive technique for tracking dolphins, providing continuous data. This study presents a novel approach for classifying dolphin vocalizations from a PAM acoustic recording using a convolutional neural network (CNN). Four types of common bottlenose dolphin (",
+      "journal": "Sensors (Basel, Switzerland)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39821639",
+      "title": "The development of deep convolutional generative adversarial network to synthesize odontocetes' clicks",
+      "year": 2025,
+      "doi": "10.1121/10.0034865",
+      "abstract": "Odontocetes are capable of dynamically changing their echolocation clicks to efficiently detect targets, and learning their clicking strategy can facilitate the design of man-made detecting signals. In this study, we developed deep convolutional generative adversarial networks guided by an acoustic feature vector (AF-DCGANs) to synthesize narrowband clicks of the finless porpoise (Neophocaena phocaenoides sunameri) and broadband clicks of the bottlenose dolphins (Tursiops truncatus). The average short-time objective intelligibility (STOI), spectral correlation coefficient (Spe-CORR), waveform correlation coefficient (Wave-CORR), and dynamic time warping distance (DTW-Distance) of the synthetic clicks were 0.975, 0.968, 0.877, and 0.992, respectively. AF-DCGAN outperformed the minimum phase signal reconstruction (MPSR) method and variational quantized variational autoencoders (VQ-VAE) by 5.9% and 3.7% in STOI, 5.2% and 3.5% in Spe-CORR, and 5.8% and 2.8% in Wave-CORR, respectively. In addition, AF-DCGAN reduced DTW-Distances by 29.9% and 9.4% compared to MPSR and VQ-VAE, respectively. Results showed that AF-DCGAN was robust in synthesizing both narrowband and broadband clicks that can produce a substantial number of high-fidelity odontocetes' clicks with flexibility in modulating parameters. Employing AF-DCGAN to synthesize odontocete-like clicks could advance the development of a click database, offering promising applications in the research of biomimetic target detection and recognition.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39604468",
+      "title": "Effects of experience and familiarity on visual attention and behaviours of bottlenose dolphins (Tursiops truncatus) in presence of humans",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-80779-3",
+      "abstract": "Visual attention is an intrinsic part of intra- and inter-specific interactions. Its structure (e.g. short glances vs. long gazes) depends on the species, type and expected outcome of the interaction. The outcomes of earlier repeated interactions determine the resulting valence of the relationships. Human-animal relationships rely upon species-specific cognitive abilities and attentional characteristics for associative learning and memory formation. Visual attention is crucial in cognitive processing and relationships construction, but its structure may depend on species-specific characteristics and relationships' quality. Dolphins are renowned for their cognitive abilities and in human-care settings they have regular interactions with caretakers. Dolphins' visual attention structure and laterality both differ depending on the visual stimulus to which the animal is attending (species-specific, non-biological). We hypothesized that visual attentional characteristics and associated behaviours, in a group of 9 captive bottlenose dolphins (Tursiops truncatus), would differ according to past experience and familiarity with humans. Human motionless tests showed a role of experience (time spent) in the facility on play and vocal production near humans regardless of familiarity. However, familiarity influenced dolphin presence near humans and visual laterality: they stayed longer and used their right eye more to glance at familiar humans. These findings provide new insights on how dolphins cognitively process stimuli according to familiarity and past experiences, as well as on how human - animal relationships evolve in captive settings.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39005890",
+      "title": "Bottlenose dolphins (",
+      "year": 2024,
+      "doi": "10.1016/j.heliyon.2024.e33192",
+      "abstract": "Gaze cues play a vital role in conveying critical information about objects and locations necessary for survival, such as food sources, predators, and the attentional states of conspecific and heterospecific individuals. During referential intentional communication, the continuous alternation of gaze between a communicative partner and a specific object or point of interest attracts the partner's attention towards the target. This behaviour is considered by many as essential for understanding intentions and is thought to involve mental planning. Here, we investigated the behavioural responses of seven bottlenose dolphins (",
+      "journal": "Heliyon",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38958489",
+      "title": "Acoustic monitoring of artificial reefs reveals Atlantic cod and weakfish spawning and presence of individual bottlenose dolphins",
+      "year": 2024,
+      "doi": "10.1121/10.0026461",
+      "abstract": "The artificial reefs in New York's waters provide structure in areas that are typically flat and sandy, creating habitat for a multitude of species as an area to spawn, forage, and reside. Passive acoustic data collected on the Fire Island and Shinnecock artificial reefs between 2018 and 2022 detected spawning-associated calls of weakfish (Cynoscion regalis) and Atlantic cod (Gadus morhua), as well as the presence of individual bottlenose dolphins (Tursiops truncatus) through their signature whistles. Weakfish and Atlantic cod were more vocally active on the Fire Island reef, where Atlantic cod grunts peaked during a new moon phase in December, and weakfish spawning experienced variable peaks between mid-July and mid-August on both reefs. Fifty-seven individual bottlenose dolphins were identified, with whistle repeats ranging from seconds to years apart. Passive acoustic monitoring allows for simultaneous collection of information on multiple species at different trophic levels as well as behavioral information that helps managers understand how these animals utilize these habitats, which can lead to improved conservation measures.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38492834",
+      "title": "Bycatch and pollution are the main threats for Burmeister's porpoises inhabiting a high-industrialized bay in the Humboldt Current System",
+      "year": 2024,
+      "doi": "10.1016/j.envres.2024.118621",
+      "abstract": "Pollution and bycatch are two of the main threats for cetaceans worldwide. These threats are exacerbated for nearshore species particularly for those in regions with intense industrial and fishing activities. Burmeister's porpoise is endemic to South America, has a Near Threatened conservation status because of long-term mortality in fisheries. Burmeister's porpoise occur in Mejillones Bay, northern Chile, a hot spot for heavy metals pollution from the mining industry and an intense industrial and artisanal purse-seine fishing area. From 2018 to 2021, we conducted systematic marine surveys to assess the abundance, distribution and habitat use of Burmeister's porpoises. We responded to stranding reports from 2018 to 2022, and necropsied nine individuals. From five of these, we analyzed the metal concentrations (As, Cd, Cr, Cu, Pb, Hg, Se and Zn) in muscle and skin tissues. Results showed an abundance of 76.17 individuals (CV = 25.9%) and an average density of 0.45 individuals/km",
+      "journal": "Environmental research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38480760",
+      "title": "Observational study on the non-linear response of dolphins to the presence of vessels",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-56654-6",
+      "abstract": "With the large increase in human marine activity, our seas have become populated with vessels that can be overheard from distances of even 20 km. Prior investigations showed that such a dense presence of vessels impacts the behaviour of marine animals, and in particular dolphins. While previous explorations were based on a linear observation for changes in the features of dolphin whistles, in this work we examine non-linear responses of bottlenose dolphins (Tursiops Truncatus) to the presence of vessels. We explored the response of dolphins to vessels by continuously recording acoustic data using two long-term acoustic recorders deployed near a shipping lane and a dolphin habitat in Eilat, Israel. Using deep learning methods we detected a large number of 50,000 whistles, which were clustered to associate whistle traces and to characterize their features to discriminate vocalizations of dolphins: both structure and quantities. Using a non-linear classifier, the whistles were categorized into two classes representing the presence or absence of a nearby vessel. Although our database does not show linear observable change in the features of the whistles, we obtained true positive and true negative rates exceeding 90% accuracy on separate, left-out test sets. We argue that this success in classification serves as a statistical proof for a non-linear response of dolphins to the presence of vessels.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "paper_004",
+      "title": "Signature whistles of bottlenose dolphins: individual identity and social context",
+      "year": 2022,
+      "doi": null,
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "pilot"
     },
     {
       "paper_id": "10_62135_hqqe4209",
@@ -325,11 +1036,7 @@
       "abstract": "<jats:p>El dofí mular és el cetaci més costaner de la Mediterrània. És un animal que, de manera habitual, es pot albirar des de la costa, especialment durant els mesos d’hivern, en què s’hi aproxima més. No és estrany que entri dins ports i badies tancades. Tot i això, aquesta alta freqüència d’albiraments no està lligada a una població nombrosa, que s’ha estimat en devers 700 exemplars a la primavera i 1.300 a la tardor.1 En general, viu en petits grups molt dinàmics, caracteritzats per la dinàmica de fusió-fissió d’individus.</jats:p>",
       "journal": "Informe Mar Balear",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_60964",
@@ -339,11 +1046,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1578_am_40_2_2014_173",
@@ -353,11 +1056,7 @@
       "abstract": "",
       "journal": "Aquatic Mammals",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_mms_12125",
@@ -367,11 +1066,7 @@
       "abstract": "Abstract Maritime traffic is an issue of major ecological concern, and vessel noise may be an important source of disturbance for coastal cetaceans. In the Sado estuary, Portugal, core habitat areas of a small resident population of bottlenose dolphins ( Tursiops truncatus ) overlap with routes of intense maritime traffic, which presents an opportunity to assess vocal responses of these dolphins to specific vessel noise sources. Field recordings of dolphin vocalizations were made from April to November 2011, using a calibrated system. Dolphin behavior and group size were recorded, as well as the operating boat condition (no boats or specific boat type) in a 1,000 m radius. Spectral analyses of vocalizations allowed the categorization and quantitative analysis of echolocation click trains and social calls, including whistles. Mean overall call rates decreased significantly in the presence of operating vessels. Creaks (fast click trains) were significantly reduced in the presence of ferr",
       "journal": "Marine Mammal Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s00359-013-0817-7",
@@ -381,11 +1076,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Physiology A",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1073_pnas_1304459110",
@@ -395,11 +1086,7 @@
       "abstract": "In animal communication research, vocal labeling refers to incidents in which an animal consistently uses a specific acoustic signal when presented with a specific object or class of objects. Labeling with learned signals is a foundation of human language but is notably rare in nonhuman communication systems. In natural animal systems, labeling often occurs with signals that are not influenced by learning, such as in alarm and food calling. There is a suggestion, however, that some species use learned signals to label conspecific individuals in their own communication system when mimicking individually distinctive calls. Bottlenose dolphins (Tursiops truncatus) are a promising animal for exploration in this area because they are capable of vocal production learning and can learn to use arbitrary signals to report the presence or absence of objects. Bottlenose dolphins develop their own unique identity signal, the signature whistle. This whistle encodes individual identity independently",
       "journal": "Proceedings of the National Academy of Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10164-010-0259-4",
@@ -409,11 +1096,7 @@
       "abstract": "",
       "journal": "Journal of Ethology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_mambio_2010_06_006",
@@ -423,11 +1106,7 @@
       "abstract": "",
       "journal": "Mammalian Biology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1037_0735-7036_122_3_305",
@@ -437,11 +1116,7 @@
       "abstract": "In large social groups acoustic communication signals are prone to signal masking by conspecific sounds. Bottlenose dolphins (Tursiops truncatus) use highly distinctive signature whistles that counter masking effects. However, they can be found in very large groups where masking by conspecific sounds may become unavoidable. In this study we used passive acoustic localization to investigate how whistle rates of wild bottlenose dolphins change in relation to group size and behavioral context. We found that individual whistle rates decreased when group sizes got larger. Dolphins displayed higher whistle rates in contexts when group members were more dispersed as in socializing and in nonpolarized movement than during coordinated surface travel. Using acoustic localization showed that many whistles were produced by groups nearby and not by our focal group. Thus, previous studies based on single hydrophone recordings may have been overestimating whistle rates. Our results show that although",
       "journal": "Journal of comparative psychology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_47536_jcrm_v2i3_504",
@@ -451,11 +1126,7 @@
       "abstract": "The impact of cetacean eco-tourism on subject animals is not clearly understood. Studies that monitor this impact have traditionally concentrated on observable surface behaviour despite the fact that sound is the primary communication channel for cetaceans. This study monitored whistle production in free ranging bottlenose dolphins (Tursiops truncatus) to evaluate if dolphins vocalise at different rates in response to commercial dolphin-swim boats. Thirty-two hours of sound were recorded in the austral spring and summer of 1995/96. Results indicate that whistle production is significantly greater in the presence of commercial dolphin swim boats, regardless of dolphins’ behavioural state prior to the arrival of the vessels. The increase in whistle production suggests that group cohesion may be affected during approaches made by commercial dolphin swim tour-operators or may serve some other social function. Monitoring vocal behaviour offers another insight into short-term human impacts o",
       "journal": "The journal of cetacean research and management. Special issue",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1575_1912_4744",
@@ -465,11 +1136,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_jhered_90_1_228",
@@ -479,11 +1146,7 @@
       "abstract": "",
       "journal": "Journal of Heredity",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1006_anbe_1998_1000",
@@ -493,11 +1156,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1037_0735-7036_107_3_301",
@@ -507,11 +1166,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-1-4899-0858-2_42",
@@ -521,11 +1176,17 @@
       "abstract": "",
       "journal": "Sensory Abilities of Cetaceans",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1037_0735-7036_98_1_10",
+      "title": "Vocal mimicry of computer-generated sounds and vocal labeling of objects by a bottlenosed dolphin, Tursiops truncatus..",
+      "year": 1984,
+      "doi": "10.1037/0735-7036.98.1.10",
+      "abstract": "",
+      "journal": "Journal of Comparative Psychology",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1126_science_147_3655_300",
@@ -535,11 +1196,7 @@
       "abstract": "In addition to its normal underwater sonic communication path, the dolphin (Tursiops truncatus) can be trained to emit sounds from the blow-hole opened in air. By proper rewarding (positive reinforcement) and evocative techniques, such vocal emissions can be changed from the natural patterns. One such group of new sounds is said to resemble the human voice (\"vocal mimicry\"). Apects of these sounds which are physically determinable, specifiable, and demonstrable are the similarities in numbers of bursts of sound emitted by man and dolphin and in durations of successive emissions. In 92 percent of the exchanges the number of bursts emitted by Tursiops equalled, +/-1, the number just previously emitted by a man in sequences of one to ten bursts.",
       "journal": "Science",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_58837_chula_the_2003_1725",
@@ -549,11 +1206,7 @@
       "abstract": "<jats:p>การทดลองครั้งนี้ได้ทำการศึกษาเปรียบเทียบคุณสมบัติต่างๆ ของเชื้อ Burkholderia pseudomallei ที่แยกได้จากเลือดผู้ป่วยในประเทศไทย และเลือดโลมาปากขวดที่ป่วยในเกาะฮ่องกง เพื่อนำเทคนิค indirect ELISA ที่ถูกพัฒนาขึ้นเพื่อการวินิจฉัยโรคเมลิออยโดซิสในมนุษย์ นำมาประยุกต์ในโลมาปากขวด สิ่งที่ศึกษา ได้แก่คุณสมบัติทางชีวเคมีของเชื้อโดยใช้ API 20NE พบว่า เชื้อที่แยกได้จากผู้ป่วยและโลมามีคุณสมบัติเหมือนกัน ผลการศึกษาองค์ประกอบโปรตีนของเชื้อด้วยวิธี SDS-PAGE พบว่าเชื้อทั้งสองมีองค์ประกอบโปรตีนเหมือนกัน ผลการศึกษาการมี 200 kDa Exopolysaccharide (EPS) ของเชื้อด้วยวิธี Western blot พบว่าเชื้อทั้งสองมี 200 kDa EPS เหมือนกัน เมื่อทำการสกัดแยก 200 kDa EPS ด้วยวิธี Affinity purified chromatography โดยใช้ MAb 5F8 เปรียบเทียบกับ MAb 4B11แล้วนำมาประยุกต์ใช้วิธีindirect ELISAเพื่อวัดระดับ IgG พบว่าการใช้แอนติเจนที่สกัดโดย MAb ทั้ง 2 ชนิดให้ผลเหมือนกันคือ มี sensitivity ที่ดีที่สุดเท่ากับ 75% ที่เวลา 1 เดือนหลังโลมาแสดงอาการป่วยในโลมากลุ่ม positive และ 75% ที่เวลา 2 สัปดาห์หลังโลมาแสดงอาการป่วยในโลมากลุ่ม s",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_23860_diss-1631",
@@ -563,11 +1216,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_9d884599za28cz4e29z9206z92a488fcd019",
@@ -577,11 +1226,7 @@
       "abstract": "<jats:title>Communication acoustique et comportement social chez les grands dauphins (Tursiops truncatus)</jats:title>\n                <jats:p xml:lang=\"fr\">Les grands dauphins sont des cétacés sociaux qui se servent principalement du canal acoustique pour communiquer sur de longues distances ou dans des habitats dont la visibilité est limitée. Il y a un manque général d’information concernant l’utilisation de cettecommunication acoustique au sein de son groupe social. Cependant, la production vocale des grands dauphins comprend des sifflements, des clics et des sons pulsés en rafale, avec certains sifflements appelés « signatures sifflées » qui pourraient être utilisés pour s’adresser les uns aux autres. Au cours de cette thèse, nous avons développé un système facilement déployable qui identifie l'animal produisant le son et permet des observations comportementales sous-marines simultanées. Nous avons testé cette méthodologie avec des grands dauphins en liberté et en captivité. La pré",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1021_acs_jproteome_5c00718_s002",
@@ -591,11 +1236,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31979_etd_avbn-sgz6",
@@ -605,14 +1246,20 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_70675_2384b580z2f2az474czac65z130c9e5128f3",
+      "title": "Stratégie de conservation du Grand Dauphin (Tursiops truncatus) en Méditerranée française",
+      "year": null,
+      "doi": "10.70675/2384b580z2f2az474czac65z130c9e5128f3",
+      "abstract": "<jats:p xml:lang=\"fr\">La sous-population méditerranéenne de Grand dauphin (Tursiops truncatus) est classée comme vulnérable par l'Union internationale pour la conservation de la nature. Cette espèce est strictement protégée en France et la désignation de zones spéciales de conservation (ZSC) est requise par la directive européenne Habitats Faune Flore (DHFF, 92/43/CEE). Cependant, peu d'informations sont disponibles sur la population dans les eaux méditerranéennes françaises. L’objectif de cette thèse est d’apporter des éléments pour l’élaboration d’une stratégie de conservation du Grand dauphin en Méditerranée française, en améliorant la connaissance de la population présente et en évaluant le potentiel du réseau d’aires marines protégées (AMPs) pour sa conservation. Afin d’étudier la distribution, l’abondance et la structure de la population, nous avons analysé des données de photo-identification collectées tout au long de l'année sur l'ensemble du plateau continental méditerranéen f",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     }
   ],
-  "paper_count": 22,
+  "paper_count": 40,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

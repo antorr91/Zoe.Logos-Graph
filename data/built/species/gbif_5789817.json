@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 20,
-    "claim_count": 7,
-    "doi_count": 21,
-    "media_count": 0
+    "paper_count": 35,
+    "claim_count": 9,
+    "doi_count": 29,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,14 +45,14 @@
     "song"
   ],
   "contexts": [
+    "territorial defence",
     "mate attraction",
-    "nocturnal singing",
-    "territorial defence"
+    "nocturnal singing"
   ],
   "functions": [
-    "female assessment",
+    "territory signalling",
     "mate attraction",
-    "territory signalling"
+    "female assessment"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -60,58 +60,184 @@
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
+        "value": "territorial defence",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "nocturnal singing",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territorial defence",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "female assessment",
+        "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territory signalling",
+        "value": "female assessment",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1981,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1980,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1979,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1978,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1977,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1976,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1975,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1974,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1973,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Luscinia megarhynchos",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1007/s10336-022-02018-8",
+      "url": "https://doi.org/10.1007/s10336-022-02018-8",
+      "title": "Community engagement and data quality: best practices and lessons learned from a citizen science project on birdsong",
+      "year": 2023,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1111/jav.03061/v1/review1",
       "url": "https://doi.org/10.1111/jav.03061/v1/review1",
@@ -148,6 +274,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1093/cz/zox024",
+      "url": "https://doi.org/10.1093/cz/zox024",
+      "title": "Affairs happen-to whom? A study on extrapair paternity in common nightingales",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1016/j.anbehav.2014.11.011",
       "url": "https://doi.org/10.1016/j.anbehav.2014.11.011",
       "title": "Female calling? Song responses to conspecific call playbacks in nightingales, Luscinia megarhynchos",
@@ -155,11 +288,53 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1186/s12862-015-0390-5",
+      "url": "https://doi.org/10.1186/s12862-015-0390-5",
+      "title": "Multiple song features are related to paternal effort in common nightingales",
+      "year": 2015,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2014.0460",
+      "url": "https://doi.org/10.1098/rspb.2014.0460",
+      "title": "The use of network analysis to study complex animal communication systems: a study on nightingale song",
+      "year": 2014,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0032194",
+      "url": "https://doi.org/10.1371/journal.pone.0032194",
+      "title": "Communication in the third dimension: song perch height of rivals affects singing response in nightingales",
+      "year": 2012,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0045057",
+      "url": "https://doi.org/10.1371/journal.pone.0045057",
+      "title": "Buzzwords in females' ears? The use of buzz songs in the communication of nightingales (Luscinia megarhynchos)",
+      "year": 2012,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1016/b978-0-12-380896-7.00005-8",
       "url": "https://doi.org/10.1016/b978-0-12-380896-7.00005-8",
       "title": "Communication Networks and Spatial Ecology in Nightingales",
       "year": 2011,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1186/1742-9994-8-29",
+      "url": "https://doi.org/10.1186/1742-9994-8-29",
+      "title": "Does age matter in song bird vocal interactions? Results from interactive playback experiments",
+      "year": 2011,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2008.1726",
+      "url": "https://doi.org/10.1098/rspb.2008.1726",
+      "title": "Sex-specific timing of mate searching and territory prospecting in the nightingale: nocturnal life of females",
+      "year": 2009,
+      "source": "pubmed"
     },
     {
       "doi": "10.1016/j.anbehav.2005.08.014",
@@ -262,6 +437,26 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_39241452",
+      "title": "Contributions of birds to the feeding of ticks at host community level: Effects of tick burden, host density and yearly fluctuations",
+      "year": 2024,
+      "doi": "10.1016/j.ttbdis.2024.102390",
+      "abstract": "The eco-epidemiology of tick-borne diseases hinges on the abundance and distribution of hosts that sustain tick populations and the pathogens they carry. Research into the role of bird species in the feeding of Ixodes ricinus ticks, the primary tick species of veterinary and public health importance in Europe, remains scarce. This study endeavors to bridge these knowledge gaps by (i) assessing the density of feeding ticks (DFT) within a bird community to pinpoint species making substantial contributions, and (ii) exploring interannual variations in DFT over an extended timeline. Furthermore, we investigate whether variations in individual tick burden (TB) were more closely associated with the characteristics of bird species or interannual variations affecting the density of questing tick, using interannual TB variation as a surrogate. To fulfill these aims, we conducted a 13-year longitudinal study monitoring I. ricinus ticks feeding on a bird community in a periurban forest in France, covering breeding periods from 2007 to 2019. Within this community, we identified seven principal bird species significantly contributing to I. ricinus tick feeding: the Common Blackbird (Turdus merula), the Song Thrush (Turdus philomelos), the European Robin (Erithacus rubecula), the Dunnock (Prunella modularis), the Eurasian Blackcap (Sylvia atricapilla), the Great Tit (Parus major), and the Common Nightingale (Luscinia megarhynchos). Our results show that the bird community's contribution to tick feeding remained relatively consistent from year-to-year, though certain years displayed higher or lower DFT values related to the average over the study period. Moreover, five out the seven major species accounted for 80 % to 95 % of DFT annually. Consequently, we emphasized the need to broaden the scope of future research on bird contributions to tick population dynamics beyond merely thrushes (Turdidae species), to encompass a more diverse range of species, particularly those common bir",
+      "journal": "Ticks and tick-borne diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36254119",
+      "title": "Community engagement and data quality: best practices and lessons learned from a citizen science project on birdsong",
+      "year": 2023,
+      "doi": "10.1007/s10336-022-02018-8",
+      "abstract": "UNLABELLED: Citizen Science (CS) is a research approach that has become popular in recent years and offers innovative potential for dialect research in ornithology. As the scepticism about CS data is still widespread, we analysed the development of a 3-year CS project based on the song of the Common Nightingale ( SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s10336-022-02018-8.",
+      "journal": "Journal of ornithology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1111_jav_03061_v1_review2",
       "title": "Review for \"Patterns of hybridization in a secondary contact zone between two passerine species, the common nightingale &lt;i&gt;Luscinia megarhynchos&lt;/i&gt; and the thrush nightingale &lt;i&gt;Luscinia luscinia&lt;/i&gt;\"",
       "year": 2022,
@@ -269,11 +464,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_jav_03061_v1_review1",
@@ -283,11 +474,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_jav_03061_v2_decision1",
@@ -297,11 +484,17 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36283383",
+      "title": "Passerine birds",
+      "year": 2022,
+      "doi": "10.1016/j.cub.2022.08.061",
+      "abstract": "Passeriformes, more commonly known as perching birds or passerines, are the most species-rich group of birds. Totaling nearly 6500 species, approximately two out of every three bird species is a passerine. Passerines are globally distributed and are among the most abundant birds at nearly every terrestrial location on Earth. Owing to their diversity, abundance and cosmopolitan distribution, passerines are among the most familiar of all birds and have figured prominently in both human culture and science. For example, humans have long been captivated by the beautiful songs of many passerines (such as the Common Nightingale (Luscinia megarhynchos) in Europe and the Wood Thrush (Hylocichla mustelina) of North America), and it is common in some cultures - although globally discouraged as ecologically damaging, especially when birds are captured directly from the wild - to keep passerines as pets. Nevertheless, the vocal prowess and frequent ability to thrive in captivity have made passerines important models for lab-based research ranging from neurobiology to genetics. In contrast, the diversity and accessibility of many passerine birds in the wild continue to make them among the best animal models for field-based studies of behavioral ecology, evolution, mating systems, life history, disease resistance, ecological and evolutionary responses to climate change, among many other fields.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t22709696a166351180_en",
@@ -311,11 +504,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_76801",
@@ -325,11 +514,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_29492002",
+      "title": "Affairs happen-to whom? A study on extrapair paternity in common nightingales",
+      "year": 2017,
+      "doi": "10.1093/cz/zox024",
+      "abstract": "Most birds engage in extrapair copulations despite great differences across and within species. Besides cost and benefit considerations of the two sex environmental factors have been found to alter mating strategies within or between populations and/or over time. For socially monogamous species, the main advantage that females might gain from mating with multiple males is probably increasing their offspring's genetic fitness. Since male (genetic) quality is mostly not directly measurable for female birds, (extrapair) mate choice is based on male secondary traits. In passerines male song is such a sexual ornament indicating male phenotypic and/or genetic quality and song repertoires seem to affect female mate choice in a number of species. Yet their role in extrapair mating behavior is not well understood. In this study, we investigated the proportion of extrapair paternity (EPP) in a population of common nightingales",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28099075",
+      "title": "OCCURRENCE AND RELEVANCE OF MYCOPLASMA STURNI IN FREE-RANGING CORVIDS IN GERMANY",
+      "year": 2017,
+      "doi": "10.7589/2015-12-350",
+      "abstract": "Several Mycoplasma spp. are well-known pathogens in poultry. In birds of prey, White Storks ( Ciconia ciconia ), and some waterfowl (Anatidae, Pelecanidae) species, mycoplasmas occur commonly and seem to be apathogenic or commensal and most likely belong to the physiologic microbial flora of the respiratory tract. In other bird species, such as Common Nightingales ( Luscinia megarhynchos ) and tits (Paridae), Mycoplasma spp. are absent in healthy birds. In corvids, the prevalence and role of Mycoplasma spp. in disease remains unclear. In previous studies, Mycoplasma sturni was detected in diseased corvids; however, those studies included only a limited sample size or preselected individuals. We collected tracheal swabs of 97 free-ranging Corvidae, including 68 randomly selected individuals from hunting bags and 29 birds that had been admitted to a veterinary clinic. Tracheal swabs were examined for Mycoplasma spp. using culture and genus-specific PCR. If Mycoplasma spp. were detected, the species were identified by sequencing the 16S ribosomal (r) RNA gene and 16-23S rRNA intergenic transcribed spacer region. Five of 68 (7%) of the hunted birds and nine of 29 (31%) of the birds admitted to the veterinary clinic were PCR positive. In 13 of 14 PCR-positive samples, mycoplasmas were cultured and M. sturni was the only mycoplasmal species identified. None of the positive corvids from the hunting bags had clinical signs, whereas five of nine birds admitted to the veterinary clinic showed apathy, lameness, injuries, or fractures, which may not be associated with mycoplasmal infections. These data support the notion that M. sturni is the Mycoplasma sp. most frequently found in corvids, though its prevalence and ability to cause disease may involve interaction with other aspects of bird health.",
+      "journal": "Journal of wildlife diseases",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_anbehav_2014_11_011",
@@ -339,11 +544,67 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_26084455",
+      "title": "Multiple song features are related to paternal effort in common nightingales",
+      "year": 2015,
+      "doi": "10.1186/s12862-015-0390-5",
+      "abstract": "BACKGROUND: Sexual ornamentation may be related to the degree of paternal care and the 'good-parent' model predicts that male secondary characters honestly advertise paternal investment. In most birds, males are involved in bringing up the young and successful reproduction highly depends on male contribution during breeding. In passerines, male song is indicative of male attributes and for few species it has been shown that song features also signal paternal investment to females. Males of nightingales Luscinia megarhynchos are famous for their elaborate singing but so far there is only little knowledge on the role of male song in intersexual communication, and it is unknown whether male song predicts male parenting abilities. RESULTS: Using RFID technology to record male feeding visits to the nest, we found that nightingale males substantially contribute to chick feeding. Also, we analyzed male nocturnal song with focus on song features that have been shown to signal male quality before. We found that several song features, namely measures of song complexity and song sequencing, were correlated with male feeding rates. Moreover, the combination of these song features had strong predictive power for male contribution to nestling feeding. CONCLUSIONS: Since male nightingales are involved in chick rearing, paternal investment might be a crucial variable for female mate choice in this species. Females may assess future paternal care on the basis of song features identified in our study and thus these features may have evolved to signal direct benefits to females. Additionally we underline the importance of multiple acoustic cues for female mating decisions especially in species with complex song such as the nightingale.",
+      "journal": "BMC evolutionary biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25204724",
+      "title": "Learn it now, sing it later? Field and laboratory studies on song repertoire acquisition and song use in nightingales",
+      "year": 2014,
+      "doi": "10.1007/s00114-014-1236-5",
+      "abstract": "In many bird species, song changes with age. The mechanisms that account for such changes are only partially understood. Common nightingales Luscinia megarhynchos change the size and composition of their repertoire between their first and second breeding season. To inquire into mechanisms involved in such changes, we compared the singing of 1-year-old and older free-living nightingales. Older males have more song types in common than have 1-year olds. Certain song types frequently sung by older birds did not (or only rarely) occur in the repertoire of yearlings ('mature' song types). We conducted learning experiments with hand-reared nightingales to address reasons for the lack of mature song types. The acquisition success of mature songs was as good as that of control songs (commonly sung by both age groups). However, the analysis of song type use revealed that all yearlings sang common song types more often than mature types. This indicates that the absence of certain song types in the repertoires of free-living yearlings cannot be accounted for by learning and/or motor constraints during song learning. Moreover, our results suggest that in communication networks, animals may restrict the actual use of their signal repertoire to a certain subset depending on the context.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24807258",
+      "title": "The use of network analysis to study complex animal communication systems: a study on nightingale song",
+      "year": 2014,
+      "doi": "10.1098/rspb.2014.0460",
+      "abstract": "The singing of song birds can form complex signal systems comprised of numerous subunits sung with distinct combinatorial properties that have been described as syntax-like. This complexity has inspired inquiries into similarities of bird song to human language; but the quantitative analysis and description of song sequences is a challenging task. In this study, we analysed song sequences of common nightingales (Luscinia megarhynchos) by means of a network analysis. We translated long nocturnal song sequences into networks of song types with song transitions as connectors. As network measures, we calculated shortest path length and transitivity and identified the 'small-world' character of nightingale song networks. Besides comparing network measures with conventional measures of song complexity, we also found a correlation between network measures and age of birds. Furthermore, we determined the numbers of in-coming and out-going edges of each song type, characterizing transition patterns. These transition patterns were shared across males for certain song types. Playbacks with different transition patterns provided first evidence that these patterns are responded to differently and thus play a role in singing interactions. We discuss potential functions of the network properties of song sequences in the framework of vocal leadership. Network approaches provide biologically meaningful parameters to describe the song structure of species with extremely large repertoires and complex rules of song retrieval.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22677884",
+      "title": "Memory-dependent adjustment of vocal response latencies in a territorial songbird",
+      "year": 2013,
+      "doi": "10.1016/j.jphysparis.2012.05.004",
+      "abstract": "Vocal interactions in songbirds can be used as a model system to investigate the interplay of intrinsic singing programmes (e.g. influences from vocal memories) and external variables (e.g. social factors). When characterizing vocal interactions between territorial rivals two aspects are important: (1) the timing of songs in relation to the conspecific's singing and (2) the use of a song pattern that matches the rival's song. Responses in both domains can be used to address a territorial rival. This study is the first to investigate the relation of the timing of vocal responses to (1) the vocal memory of a responding subject and (2) the selection of the song pattern that the subject uses as a response. To this end, we conducted interactive playback experiments with adult nightingales (Luscinia megarhynchos) that had been hand-reared and tutored in the laboratory. We analysed the subjects' vocal response latencies towards broadcast playback stimuli that they either had in their own vocal repertoire (songs shared with playback) or that they had not heard before (unknown songs). Likewise, we compared vocal response latencies between responses that matched the stimulus song and those that did not. Our findings showed that the latency of singing in response to the playback was shorter for shared versus unknown song stimuli when subjects overlapped the playback stimuli with their own song. Moreover birds tended to overlap faster when vocally matching the stimulus song rather than when replying with a non-matching song type. We conclude that memory of song patterns influenced response latencies and discuss possible mechanisms.",
+      "journal": "Journal of physiology, Paris",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23028759",
+      "title": "Buzzwords in females' ears? The use of buzz songs in the communication of nightingales (Luscinia megarhynchos)",
+      "year": 2012,
+      "doi": "10.1371/journal.pone.0045057",
+      "abstract": "Differences in individual male birds' singing may serve as honest indicators of male quality in male-male competition and female mate choice. This has been shown e.g. for overall song output and repertoire size in many bird species. More recently, differences in structural song characteristics such as the performance of physically challenging song components were analysed in this regard. Here we show that buzz elements in the song of nightingales (Luscinia megarhynchos) hold the potential to serve as indicators of male quality and may therefore serve a communicative function. Buzzes were produced with considerable differences between males. The body weight of the males was correlated with one measure of these buzzes, namely the repetition rate of the buzz subunits, and individuals with larger repertoires sang buzzes at higher subunit-rates. A model of buzz performance constraints suggested that buzzes were sung with different proficiencies. In playback experiments, female nightingales showed more active behaviour when hearing buzz songs. The results support the idea that performance differences in the acoustic fine structure of song components are used in the communication of a large repertoire species such as the nightingale.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22448215",
+      "title": "Communication in the third dimension: song perch height of rivals affects singing response in nightingales",
+      "year": 2012,
+      "doi": "10.1371/journal.pone.0032194",
+      "abstract": "Many animals use long-range signals to compete over mates and resources. Optimal transmission can be achieved by choosing efficient signals, or by choosing adequate signalling perches and song posts. High signalling perches benefit sound transmission and reception, but may be more risky due to exposure to airborne predators. Perch height could thus reflect male quality, with individuals signalling at higher perches appearing as more threatening to rivals. Using playbacks on nightingales (Luscinia megarhynchos), we simulated rivals singing at the same height as residents, or singing three metres higher. Surprisingly, residents increased song output stronger, and, varying with future pairing success, overlapped more songs of the playback when rivals were singing at the same height than when they were singing higher. Other than expected, rivals singing at the same height may thus be experienced as more threatening than rivals singing at higher perches. Our study provides new evidence that territorial animals integrate information on signalling height and thus on vertical cues in their assessment of rivals.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_b978-0-12-380896-7_00005-8",
@@ -353,11 +614,37 @@
       "abstract": "",
       "journal": "Advances in the study of behavior",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_22071317",
+      "title": "Does age matter in song bird vocal interactions? Results from interactive playback experiments",
+      "year": 2011,
+      "doi": "10.1186/1742-9994-8-29",
+      "abstract": "The song of oscines provides an extensively studied model of age-dependent behaviour changes. Male and female receivers might use song characteristics to obtain information about the age of a signaller, which is often related to its quality. Whereas most of the age-dependent song changes have been studied in solo singing, the role of age in vocal interactions is less well understood. We addressed this issue in a playback study with common nightingales (Luscinia megarhynchos). Previous studies showed that male nightingales had smaller repertoires in their first year than older males and males adjusted their repertoire towards the most common songs in the breeding population. We now compared vocal interaction patterns in a playback study in 12 one year old and 12 older nightingales (cross-sectional approach). Five of these males were tested both in their first and second breeding season (longitudinal approach). Song duration and latency to respond did not differ between males of different ages in either approach. In the cross-sectional approach, one year old nightingales matched song types twice as often as did older birds. Similarly, in the longitudinal approach all except one bird reduced the number of song type matches in their second season. Individuals tended to overlap songs at higher rates in their second breeding season than in their first. The higher levels of song type matches in the first year and song overlapping by birds in their second year suggest that these are communicative strategies to establish relationships with competing males and/or choosy females.",
+      "journal": "Frontiers in zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_19324798",
+      "title": "Sex-specific timing of mate searching and territory prospecting in the nightingale: nocturnal life of females",
+      "year": 2009,
+      "doi": "10.1098/rspb.2008.1726",
+      "abstract": "Formal models have shown that diel variation in female mate searching is likely to have profound influence on daily signalling routines of males. In studies on acoustic communication, the temporal patterns of the receivers' signal evaluation should thus be taken into account when investigating the functions of signalling. In bird species in which diel patterns of signalling differ between males singing to defend a territory or to attract a mate, the diel patterns of mate and territory prospecting are suggested to depend on the sex of the prospector. We simulated newly arriving female nightingales (Luscinia megarhynchos) by translocating radio-tagged females to our study site. The mate-searching females prospected the area mostly at night, visiting several singing males. The timing of female prospecting corresponded to the period of the night when the singing activity of unpaired males was higher than that of paired males. In contrast to females, territory searching males have been shown to prospect territories almost exclusively during the dawn chorus. At dawn, both paired and unpaired males sang at high rates, suggesting that in contrast to nocturnal singing, dawn singing is important to announce territory occupancy to prospecting males. In the nightingale, the sex-specific timing of prospecting corresponded to the differential signalling routines of paired and unpaired males. The temporal patterns in the behaviour of signallers and receivers thus appear to be mutually adapted.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_17184365",
+      "title": "The day after: effects of vocal interactions on territory defence in nightingales",
+      "year": 2007,
+      "doi": "10.1111/j.1365-2656.2006.01182.x",
+      "abstract": "1. Models on territory acquisition and tenure predict that territorial animals benefit by adjusting territorial defence behaviour to previous challenges they had experienced within the socially complex environment of communication networks. 2. Here, we addressed such issues of social cognition by investigating persisting effects of vocal contests on territory defence behaviour in nightingales Luscinia megarhynchos (Brehm). 3. Using interactive playback during nocturnal song of subjects, a rival was simulated to countersing either aggressively (by song overlapping) or moderately (by song alternating) from outside the subjects' territory. Thereby, the time-specific singing strategy provided an experimentally controlled source of information on the motivation of an unfamiliar rival. 4. Expecting that nightingales integrate information with time, the same rival was simulated to return as a moderately singing intruder on the following morning. 5. The results show that the vigour with which male nightingales responded to the simulated intrusion of an opponent during the day depended on the nature of the nocturnal vocal interaction experienced several hours before. 6. Males that had received the song overlapping playback the preceding night approached the simulated intruder more quickly and closer and sang more songs near the loudspeaker than did males that had received a song alternating playback. 7. This adjustment of territory defence strategies depending on information from prior signalling experience suggests that integrating information with time plays an important part in territory defence by affecting a male's decision making in a communication network.",
+      "journal": "The Journal of animal ecology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_anbehav_2005_08_014",
@@ -367,11 +654,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1365-2656_2006_01182_x",
@@ -381,11 +664,17 @@
       "abstract": "1. Models on territory acquisition and tenure predict that territorial animals benefit by adjusting territorial defence behaviour to previous challenges they had experienced within the socially complex environment of communication networks. 2. Here, we addressed such issues of social cognition by investigating persisting effects of vocal contests on territory defence behaviour in nightingales Luscinia megarhynchos (Brehm). 3. Using interactive playback during nocturnal song of subjects, a rival was simulated to countersing either aggressively (by song overlapping) or moderately (by song alternating) from outside the subjects' territory. Thereby, the time-specific singing strategy provided an experimentally controlled source of information on the motivation of an unfamiliar rival. 4. Expecting that nightingales integrate information with time, the same rival was simulated to return as a moderately singing intruder on the following morning. 5. The results show that the vigour with which ",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_17125543",
+      "title": "Where in Europe should we look for sources of the cutaneous trematode Collyriclum faba infections in migrating birds?",
+      "year": 2006,
+      "doi": "10.1017/joh2006362",
+      "abstract": "Cutaneous cysts with trematodes of Collyriclum faba have been found in birds during their spring and post-breeding migrations in the Czech Republic. During spring migrations, C. faba was found in one dunnock Prunella modularis, two European robins Erithacus rubecula, three common nightingales Luscinia megarhynchos, one song thrush Turdus philomelos and one great reed warbler Acrocephalus arundinaceus. During post-breeding migration, the same parasite was found in one garden warbler Sylvia borin, one whitehroat S. communis, three goldcrests Regulus regulus and one Eurasian treecreeper Certhia familiaris. The newly identified hosts of C. faba are dunnock, common nightingale, song thrush, great reed warbler and Eurasian treecreeper. Geographical areas of the birds' infection were identified from an analysis of reports on ringed birds of the same species, the time necessary for the development of cutaneous cysts with C. faba and the time of their survival, and hitherto known geographical areas of endemic occurrence of C. faba. It is presumed that birds trapped during spring migrations were infected in some montane and submontane regions in south-western Europe (the Alps, the Apennines). Birds infected during autumn migration or post-breeding vagrancy could have been infected in the Central European Carpathians, the region of C. faba endemic occurrence. For migrating birds, the impact of C. faba infections has not been hitherto assessed.",
+      "journal": "Journal of helminthology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_0021-8790_2004_00814_x",
@@ -395,11 +684,7 @@
       "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arh108",
@@ -409,11 +694,7 @@
       "abstract": "Animal communication often occurs in communication networks in which multiple signalers and receivers are within signaling range of each other. In such networks, individuals can obtain information on the quality and motivation of territorial neighbors by eavesdropping on their signaling interactions. In songbirds, extracting information from interactions involving neighbors is thought to be an important factor in the evolution of strategies of territory defense. In a playback experiment with radio-tagged nightingales &lt;it&gt;Luscinia megarhynchos&lt;/it&gt; we here demonstrate that territorial males use their familiar neighbors' performance in a vocal interaction with an unfamiliar intruder as a standard for their own response. Males were attracted by a vocal interaction between their neighbor and a simulated stranger and intruded into the neighbor's territory. The more intensely the neighbor had interacted with playback, the earlier the intrusions were made, indicating that males ea",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1590_s0001-37652004000200017",
@@ -423,11 +704,7 @@
       "abstract": "Vocal amplitude, one of the crucial factors for the exchange of acoustic signals, has been neglected in studies of animal communication, but recent studies on song variation in Common Nightingales Luscinia megarhynchos have revealed new insights into its importance in the singing behavior of territorial birds. In nightingales song amplitude is not maximized per se, but is individually regulated according to the level of masking background noise. Also, birds adjust their vocal intensity according to social variables, as in male-male interactions. Moreover, during such interactions, males exploited the directionality of their songs to broadcast them in the direction of the intended receivers ensuring the most effective signal transmission. Studies of the development of this typical long-range signaling suggest that sound level is highly interrelated with overall developmental progression and learning, and thus should be viewed as an integral part of song ontogeny. I conclude that song am",
       "journal": "Anais da Academia Brasileira de Ciências",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_156853903763999881",
@@ -437,11 +714,7 @@
       "abstract": "Many animal vocalizations are directional, i.e. the sound energy is not emitted omnidirectionally but focused in one direction. Such signal property could be advantageous in order to direct the vocalization towards the addressee, provided its position is known to the sender. On the other hand, a directional signal could be disadvantageous when the position of addressees is not known. Thus, some animals may adjust their behaviour to either counteract or exploit the directionality of their vocalizations depending on the context of communication. We tested this hypotheses in territorial male nightingales (Luscinia megarhynchos) demonstrating the behavioural significance of vocal directionality for the first time. While interacting with the playback of a rival, the birds increased the strength of singing directionality by orientating themselves towards the playback loudspeaker. At the same time, subjects showed less lateral head movements per song during the playback procedure suggesting t",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1006_anbe_2001_1968",
@@ -451,11 +724,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s00265-002-0511-1",
@@ -465,11 +734,7 @@
       "abstract": "",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf01647285",
@@ -479,11 +744,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00299302",
@@ -493,11 +754,7 @@
       "abstract": "",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf01645339",
@@ -507,11 +764,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00298139",
@@ -521,11 +774,7 @@
       "abstract": "",
       "journal": "Zeitschrift f�r Vergleichende Physiologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927019_0234",
@@ -535,14 +784,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 20,
+  "paper_count": 35,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

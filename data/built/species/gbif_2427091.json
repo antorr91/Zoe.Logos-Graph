@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 5,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 33,
+    "claim_count": 4,
+    "doi_count": 19,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -49,8 +49,8 @@
     "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "species recognition"
+    "species recognition",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,7 +58,7 @@
         "value": "advertisement call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -66,33 +66,87 @@
         "value": "chorus",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "species recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 349,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 348,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 347,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 346,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Rana temporaria",
     "recordings": [],
     "external_links": []
@@ -111,6 +165,13 @@
       "title": "A Computational Model for the Study of Release Call in the  Pyrenean High Mountain European Common Frog  ( Rana Temporaria )",
       "year": 2019,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1093/biolinnean/bly048",
+      "url": "https://doi.org/10.1093/biolinnean/bly048",
+      "title": "From erotic excrescences to pheromone shots: structure and diversity of nuptial pads in anurans",
+      "year": 2018,
+      "source": "openalex"
     },
     {
       "doi": "10.1530/rep-17-0408",
@@ -234,11 +295,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_23880_izab-16000169",
@@ -248,11 +305,17 @@
       "abstract": "",
       "journal": "International Journal of Zoology and Animal Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1093_biolinnean_bly048",
+      "title": "From erotic excrescences to pheromone shots: structure and diversity of nuptial pads in anurans",
+      "year": 2018,
+      "doi": "10.1093/biolinnean/bly048",
+      "abstract": "The nuptial pad is a secondary sexual character found in anuran amphibians. It includes modified epidermal and dermal tissues and is usually located on the first digit of the hand of males. In this study, we review the structure and diversity of nuptial pads based on a large-scale sample of morphological and phylogenetic diversity. Our findings show that all nuptial pads are characterized by the presence of specialized mucous glands in the dermal component. We also report the co-occurrence of other types of glands in some species and characterize their histochemistry. We describe three primary nuptial pad morphologies: (1) nuptial pads with papillary epidermal projections (or simply, papillae), in which the epidermal projections are formed by an epidermal and dermal evagination; (2) nuptial pads with non-papillary epidermal projections, in which the epidermal projections lack a dermal core forming a papilla; and (3) smooth nuptial pads, which lack projections but have a slight thickeni",
+      "journal": "Biological Journal of the Linnean Society",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1530_rep-17-0408",
@@ -262,11 +325,7 @@
       "abstract": "Cortisol is the main glucocorticoid (GC) in fish and the hormone most directly associated with stress. Recent research suggests that this hormone may act as a key factor linking social environmental stimuli and the onset of sex change by initiating a shift in steroidogenesis from estrogens to androgens. For many teleost fish, sex change occurs as a usual part of the life cycle. Changing sex is known to enhance the lifetime reproductive success of these fish and the modifications involved (behavioral, gonadal and morphological) are well studied. However, the exact mechanism behind the transduction of the environmental signals into the molecular cascade that underlies this singular process remains largely unknown. We here synthesize current knowledge regarding the role of cortisol in teleost sex change with a focus on two well-described transformations: temperature-induced masculinization and socially regulated sex change. Three non-mutually exclusive pathways are considered when describ",
       "journal": "Reproduction",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_ece3_2116",
@@ -276,11 +335,17 @@
       "abstract": "Acoustic signals for mating are important traits that could drive population differentiation and speciation. Ecology may play a role in acoustic divergence through direct selection (e.g., local adaptation to abiotic environment), constraint of correlated traits (e.g., acoustic traits linked to another trait under selection), and/or interspecific competition (e.g., character displacement). However, genetic drift alone can also drive acoustic divergence. It is not always easy to differentiate the role of ecology versus drift in acoustic divergence. In this study, we tested the role of ecology and drift in shaping geographic variation in the advertisement calls of Microhyla fissipes. We examined three predictions based on ecological processes: (1) the correlation between temperature and call properties across M. fissipes populations; (2) the correlation between call properties and body size across M. fissipes populations; and (3) reproductive character displacement (RCD) in call propertie",
       "journal": "Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_26163350",
+      "title": "The relative importance of prey-borne and predator-borne chemical cues for inducible antipredator responses in tadpoles",
+      "year": 2015,
+      "doi": "10.1007/s00442-015-3382-7",
+      "abstract": "Chemical cues that evoke anti-predator developmental changes have received considerable attention, but it is not known to what extent prey use information from the smell of predators and from cues released through digestion. We conducted an experiment to determine the importance of various types of cues for the adjustment of anti-predator defences. We exposed tadpoles (common frog, Rana temporaria) to water originating from predators (caged dragonfly larvae, Aeshna cyanea) that were fed different types and quantities of prey outside of tadpole-rearing containers. Variation among treatments in the magnitude of morphological and behavioural responses was highly consistent. Our results demonstrate that tadpoles can assess the threat posed by predators through digestion-released, prey-borne cues and continually released predator-borne cues. These cues may play an important role in the fine-tuning of anti-predator responses and significantly affect the outcome of interactions between predators and prey in aquatic ecosystems. There has been much confusion regards terminology used in the literature, and therefore we also propose a more precise and consistent binomial nomenclature based on the timing of chemical cue release (stress-, attack-, capture-, digestion- or continually released cues) and the origin of cues (prey-borne or predator-borne cues). We hope that this new nomenclature will improve comparisons among studies on this topic.",
+      "journal": "Oecologia",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3389_fnbeh_2014_00031",
@@ -290,11 +355,17 @@
       "abstract": "The central oxytocin system transformed tremendously during the evolution, thereby adapting to the expanding properties of species. In more basal vertebrates (paraphyletic taxon Anamnia, which includes agnathans, fish and amphibians), magnocellular neurosecretory neurons producing homologs of oxytocin reside in the wall of the third ventricle of the hypothalamus composing a single hypothalamic structure, the preoptic nucleus. This nucleus further diverged in advanced vertebrates (monophyletic taxon Amniota, which includes reptiles, birds, and mammals) into the paraventricular and supraoptic nuclei with accessory nuclei (AN) between them. The individual magnocellular neurons underwent a process of transformation from primitive uni- or bipolar neurons into highly differentiated neurons. Due to these microanatomical and cytological changes, the ancient release modes of oxytocin into the cerebrospinal fluid were largely replaced by vascular release. However, the most fascinating feature of",
       "journal": "Frontiers in Behavioral Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23948475",
+      "title": "Frog nuptial pads secrete mating season-specific proteins related to salamander pheromones",
+      "year": 2013,
+      "doi": "10.1242/jeb.086363",
+      "abstract": "Males of many frog species develop spiny nuptial pads with underlying glands on their thumbs during the mating period. We used 3D visualization on the European common frog Rana temporaria to show that the morphology of these glands allows the channelling of secreted molecules to the pad's surface during amplexus. Combined transcriptome and proteome analyses show that proteins of the Ly-6/uPAR family, here termed amplexins, are highly expressed in the nuptial glands during the mating season, but are totally absent outside that period. The function of amplexins remains unknown, but it is interesting to note that they share structural similarities with plethodontid modulating factors, proteins that influence courtship duration in salamanders.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s00265-012-1412-6",
@@ -304,11 +375,7 @@
       "abstract": "Conspicuous male colouration is expected to have evolved primarily through selection by female choice. In what way conspicuous colours could be advantageous to males scrambling for mates remains largely unknown. The moor frog (Rana arvalis) belongs to the so-called explosive breeders in which spawning period is short; intrasexual competition is strong, and males actively search and scramble for females. During breeding, male body colouration changes from a dull brown (similar to females) to a conspicuous blue, and we wanted to test if male blueness influences mating success or facilitates male mate recognition. To do so, we first measured the colour of mated and non-mated males using a spectrophotometer. In an experiment, we then analysed interactions of actual male moor frogs in natural spawning aggregations with a brown (resembling a female or a non-breeding male) and a blue model frog. Mated and non-mated males did not differ in colouration, suggesting that female choice based on co",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0032097",
@@ -318,11 +385,27 @@
       "abstract": "The main component of classical contraceptives, 17α-ethinylestradiol (EE2), has high estrogenic activity even at environmentally relevant concentrations. Although estrogenic endocrine disrupting compounds are assumed to contribute to the worldwide decline of amphibian populations by adverse effects on sexual differentiation, evidence for EE2 affecting amphibian mating behaviour is lacking. In this study, we demonstrate that EE2 exposure at five different concentrations (0.296 ng/L, 2.96 ng/L, 29.64 ng/L, 2.96 µg/L and 296.4 µg/L) can disrupt the mating behavior of adult male Xenopus laevis. EE2 exposure at all concentrations lowered male sexual arousal, indicated by decreased proportions of advertisement calls and increased proportions of the call type rasping, which characterizes a sexually unaroused state of a male. Additionally, EE2 at all tested concentrations affected temporal and spectral parameters of the advertisement calls, respectively. The classical and highly sensitive biom",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_22972229",
+      "title": "Sink or swim: a test of tadpole behavioral responses to predator cues and potential alarm pheromones from skin secretions",
+      "year": 2012,
+      "doi": "10.1007/s00359-012-0750-1",
+      "abstract": "Chemical signaling is a vital mode of communication for most organisms, including larval amphibians. However, few studies have determined the identity or source of chemical compounds signaling amphibian defensive behaviors, in particular, whether alarm pheromones can be actively secreted from tadpoles signaling danger to conspecifics. Here we exposed tadpoles of the common toad Bufo bufo and common frog Rana temporaria to known cues signaling predation risk and to potential alarm pheromones. In both species, an immediate reduction in swimming activity extending over an hour was caused by chemical cues from the predator Aeshna cyanea (dragonfly larvae) that had been feeding on conspecific tadpoles. However, B. bufo tadpoles did not detectably alter their behavior upon exposure to potential alarm pheromones, neither to their own skin secretions, nor to the abundant predator-defense peptide bradykinin. Thus, chemicals signaling active predation had a stronger effect than general alarm secretions of other common toad tadpoles. This species may invest in a defensive strategy alternative to communication by alarm pheromones, given that Bufonidae are toxic to some predators and not known to produce defensive skin peptides. Comparative behavioral physiology of amphibian alarm responses may elucidate functional trade-offs in pheromone production and the evolution of chemical communication.",
+      "journal": "Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_21777014",
+      "title": "Ammonia as a pheromone in anuran tadpoles",
+      "year": 2011,
+      "doi": "10.33549/physiolres.932188",
+      "abstract": "In laboratory experiments, conspecific excretions and ammonia solutions evoked avoidance reactions in tadpoles of three anuran species, Bufo bufo, Rana temporaria, and Rana arvalis. A differential sensitivity of ammonia chemoreception was determined for two anuran species. For Bufo bufo tadpoles, these characteristics at ammonia background concentration of 0.2 mg/l lied in the range 150 % < dI/I < 500 %, and for background of 0.4 mg/l the value lied in the range 400 % < dI/I < 500 %. For Rana temporaria tadpoles, differential threshold against ammonia background concentration of 0.15 mg/l was close to 200 % and against background ammonia concentration of 1.1 mg/l was close to 100 %. These results suggest that such sensitivity of both anurans is sufficient for using ammonia in intra- and interspecies communication.",
+      "journal": "Physiological research",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1186_1472-6785-9-1",
@@ -332,11 +415,27 @@
       "abstract": "This strategy of allocating additional energy reserves to increasing calling rate is beneficial given the preference of female hylids for males calling at high rates and a female's ability to detect small incremental increases in calling rate.",
       "journal": "BMC Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_19370993",
+      "title": "[Temporal peculiarities of responses of auditory system neurons of the frog Rana temporaria to tone bursts with different modulation frequencies]",
+      "year": 2009,
+      "doi": null,
+      "abstract": "Activity of medullar and midbrain auditory neurons at action of amplitude-modulated tone burst was recorded in immobilized common frogs Rana temporaria. Depth of modulation amounted to 10% or 80%, frequency of modulation varied from 5 to 150 Hz, and carrier intensity was in the range of 20-30 dB. Phasic neurons in medulla clearly reproduced the modulation frequency, but only at the 80% modulation depth. However, during presentation of signal with the 10% modulation depth, these neurons practically did not respond. Tonic neurons were able to reproduce the modulation frequency up to 10-150 Hz, but at the 10% modulation depth, the degree of reproduction of envelope was rather low, although for several first modulation periods it rose statistically significantly. In midbrain, the highest frequency of the reproduced modulation sharply fell. At greater modulation frequencies, the response of these neurons qualitatively reminds that of medullar neurons. At the low modulation frequencies, there is identified a group of midbrain neurons with a prominent increase of the signal modulation. This occurs in the frequency diapason up to 60 Hz; at an increase of the modulation frequency the time of achievement of maximal synchronization decreases. The optimal modulation frequency in many neurons of semicircular torus corresponds to parameters of the male mating call.",
+      "journal": "Zhurnal evoliutsionnoi biokhimii i fiziologii",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_18661092",
+      "title": "Effects of single and combined embryonic exposures to herbicide and conspecific chemical alarm cues on hatching and larval traits in the common frog (Rana temporaria)",
+      "year": 2009,
+      "doi": "10.1007/s00244-008-9196-4",
+      "abstract": "Recent studies indicate that amphibian embryos can exhibit hatching plasticity in response to chemical cues indicative of a predation risk. However, data are lacking concerning the possible impacts of waterborne contaminants on such a process. To investigate this impact, we raised eggs of the common frog (Rana temporaria) until hatching in water contaminated with sublethal concentrations (0.01, 0.1, and 1 mg/L) of amitrole, a widely used triazole herbicide, either with or without the presence of chemical alarm cues from crushed conspecific tadpoles. Embryonic exposure to conspecific alarm cues resulted in a delay in hatching, reduced growth, and decreased larval activity, regardless of the amitrole concentration present during the incubation. Conspecific cues also induced morphological changes, but only in individuals incubated in water contaminated with the highest amitrole concentration. The herbicide impacts on hatching time were restricted to embryos incubated in the presence of conspecific cues, with individuals exposed to 0.1 and 1 mg/L showing an extended embryonic period compared to controls in uncontaminated water. Whether tested alone or in combination with conspecific cues, amitrole also induced slight morphological changes but did not affect larval growth or behavioral activity. Thus, depending on the trait considered, both chemical stressors exhibited either single or interactive effects. Furthermore, our data indicate that a stressing factor without apparent impact when tested alone could exert effects when combined with another stressor. Such results highlight the importance of considering multiple environmental factors and biological traits when examining stress-induced phenotypic variability.",
+      "journal": "Archives of environmental contamination and toxicology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_0014-3820_2006_tb00511_x",
@@ -346,11 +445,97 @@
       "abstract": "We use a combination of microsatellite marker analysis and mate-choice behavior experiments to assess patterns of reproductive isolation of the túngara frog Physalaemus pustulosus along a 550-km transect of 25 populations in Costa Rica and Panama. Earlier studies using allozymes and mitochondrial DNA defined two genetic groups of túngara frogs, one ranging from Mexico to northern Costa Rica (northern group), the second ranging from Panama to northern South America (southern group). Our more fine-scale survey also shows that the northern and southern túngara frogs are genetically different and geographically separated by a gap in the distribution in central Pacific Costa Rica. Genetic differences among populations are highly correlated with geographic distances. Temporal call parameters differed among populations as well as between genetic groups. Differences in calls were explained better by geographic distance than by genetic distance. Phonotaxis experiments showed that females prefer",
       "journal": "Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_12372632",
+      "title": "Addition of noise enhances neural synchrony to amplitude-modulated sounds in the frog's midbrain",
+      "year": 2002,
+      "doi": "10.1016/s0378-5955(02)00456-2",
+      "abstract": "The ability of 109 single units in the midbrain acoustic centre of frogs (Rana ridibunda, Rana temporaria) to reproduce 10%, 20 Hz sinusoidal amplitude modulation of a long-duration characteristic frequency tone was studied. The sinusoidal modulation was presented either in isolation or summed with a low-frequency (0-50 Hz) noise. Recordings were obtained in the adapted state. The magnitude of the 20 Hz periodic response component was estimated by means of the synchronisation coefficient and the amplitude of the sine modulation of the instantaneous spike rate. In many units, addition of noise modulation produced considerable enhancement of both the mean discharge rate and the discharge rate synchronised to the 20 Hz amplitude modulation. This enhancement phenomenon is interpreted in the context of stochastic resonance theory.",
+      "journal": "Hearing research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_9027136",
+      "title": "[The chemical interaction of tadpoles of the common frog Rana temporaria L. with conspecific and heterospecific anuran tadpoles]",
+      "year": 1996,
+      "doi": null,
+      "abstract": "In double-choice experiments the behavioural reactions of Rana temporaria tadpoles to con- and heterospecific chemical cues of anuran tadpoles were studied. It was shown that they have not reacted to heterospecific chemical signals but were attracted by co-specific ones. Besides, Rana temporaria tadpoles do not show chemical guided sibling-reaction, saying that the sibs' cues were not preferable. The results indicate that Rana temporaria tadpoles are capable to distinguish these signals, react to some of them and cause the reaction of other tadpoles. Nevertheless, chemical signals seem not to play such great role in communication of these tadpoles.",
+      "journal": "Zhurnal obshchei biologii",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_2784502",
+      "title": "Response characteristics of vibration-sensitive neurons in the midbrain of the grassfrog, Rana temporaria",
+      "year": 1989,
+      "doi": "10.1007/BF00610443",
+      "abstract": "European grassfrogs (Rana temporaria) were stimulated with pulsed sinusoidal, vertical vibrations (10-300 Hz) and the responses of 46 single midbrain neurons were recorded in awake, immobilized animals. Most units (40) had simple V-shaped excitatory vibrational tuning curves. The distribution of best frequencies (BF's) was bimodal with peaks at 10 and 100 Hz and the thresholds ranged from 0.02 to 1.28 cm/s2 at the BF. Twenty-three neurons showed phasic-tonic and 11 neurons phasic responses. The dynamic range of seismic intensity for most neurons was 20-30 dB. In contrast to the sharp phase-locking in peripheral vibration-sensitive fibers, no phase-locking to the sinusoidal wave-form was seen in the midbrain neurons. The midbrain cells did not respond at low stimulus intensities (below 0.01-0.02 cm/s2) where a clear synchronization response occurs in saccular fibers. Six midbrain neurons had more complex response characteristics expressed by inhibition of their spontaneous activity by vibration or by bi- and trimodal sensory sensitivities. In conclusion, the vibration sensitive cells in the midbrain of the grassfrog can encode the frequency, intensity, onset and cessation of vibration stimuli. Seismic stimuli probably play a role in communication and detection of predators and the vibration-sensitive midbrain neurons may be involved in the central processing of such behaviorally significant stimuli.",
+      "journal": "Journal of comparative physiology. A, Sensory, neural, and behavioral physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_3485627",
+      "title": "Directional hearing in the grassfrog (Rana temporaria L.). II. Acoustics and modelling of the auditory periphery",
+      "year": 1986,
+      "doi": "10.1016/0378-5955(86)90043-2",
+      "abstract": "In an earlier paper (Vlaming et al., 1984) we reported on optical measurements (laser-doppler interferometry) of the vibrations characteristics of the grassfrog's tympanic membrane. In the present paper these measurements were extended to include acoustic measurements concerning the functional role of the mouth cavity in frog hearing. Based on these measurements a model of the frog's acoustic periphery, consisting of three coupled linear oscillators with three entrance ports for sound, was developed and analyzed mathematically to give the various relevant transfer functions. The model is characterized by six parameters, all of which could be estimated from the available experimental data. For frequencies up to some 1500 Hz the model adequately describes the experimental data, both our own and earlier, seemingly conflicting data in the literature. For higher frequencies deviations occur, possibly due to nonuniform vibrations of the membranes. The model was used to evaluate the monaural directional sensitivity of the frog under free-field stimulation. Essentially it behaves as a combined pressure-gradient receiver, with highly frequency-dependent directional sensitivity. Directional sensitivity of the tympanic membrane could be modulated drastically by changing the resonance properties of the mouth cavity, without affecting the intrinsic membrane properties. This, theoretically, allows the frog to manipulate its direction sensitivity by actively tuning the volume of its mouth cavity. In order to account for discrepancies with known properties of low-frequency auditory nerve fibers an additional, extra-tympanic channel was included into the model. The extended model, the second-channel possibly involving the opercularis complex, provides a good quantitative fit to the available data on tympanic membrane movement as well as auditory nerve activity. Finally, the model enables to simulate a (moving) sound source in space, while stimulating the frog via closed couplers.",
+      "journal": "Hearing research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_6611330",
+      "title": "Directional hearing in the grass frog (Rana temporaria L.): I. Mechanical vibrations of tympanic membrane",
+      "year": 1984,
+      "doi": "10.1016/0378-5955(84)90018-2",
+      "abstract": "The vibration characteristics (amplitude and phase as a function of frequency) of the tympanic membrane in the grass frog were measured using a laser-doppler velocity meter. It was tested to what extent the frog's acoustic system behaves as a pressure gradient receiver. This might clarify how the frog localizes sound. Using a closed sound system the membrane was stimulated at three different entrances: in front of the membrane, at the contralateral ear and from inside the mouth. A combination of these can describe the motion of the membrane under free field conditions. It is found that the sound entrance from inside the mouth will give almost identical vibration characteristics as stimulation in front of the membrane. This can yield a perfect gradient receiver mechanism, when the frog opens its mouth. It is doubted however whether the frog in nature needs to open its mouth for localization of sound. With mouth closed the effectiveness of the gradient receiver will be determined by the transmission characteristics of sound across the tissues of the mouth. The entrance of sound via the contralateral ear is only effective at frequencies between 800 and 1600 Hz. At those frequencies crosstalk between the membranes is however not more than -4 to -8 dB. This is subject to changes in the acoustic properties of the mouth cavity and can possibly be altered by the frog in free nature.",
+      "journal": "Hearing research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_6606440",
+      "title": "[Ultrastructure of the acoustic papillae in the inner ear of Rana temporaria L]",
+      "year": 1983,
+      "doi": null,
+      "abstract": "With the help of light and scanning microscopy the receptive apparatus of two acoustic papillas (papilla basilaris and p. amphibiorum) of brown frog has been compared. It has been shown that the hair cells of p. amphibiorum are more numerous and some of them differ from those of p. basilaris by the character of arrangement, number of stereocilia and surrounding them supporting cells--by their greater size and density of microvilli.",
+      "journal": "Nauchnye doklady vysshei shkoly. Biologicheskie nauki",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_6982953",
+      "title": "Statistical and dimensional analysis of the neural representation of the acoustic biotope of the frog",
+      "year": 1982,
+      "doi": "10.1007/BF00992882",
+      "abstract": "The field of investigation is the neural representation of acoustic stimuli occurring in the natural environment of the frog. The point of departure is the description of a stimulus ensemble consisting of natural sounds: the acoustic biotope. A relation of statistical and dimensional structure of the acoustic biotope is indicated. The animal used in the neurophysiological experiments is the grass frog, Rana temporaria L.; microelectrode recordings are made in the auditory midbrain. A method is described to determine the existence of a relation between acoustic stimulus and neural events. The form of this relation has been investigated by first- and second-order stimulus-event correlation. While the first one does not give significant results, the second one leads to the spectrotemporal receptive field of the neuron for natural stimuli. Questions are formulated to estimate the value of this receptive field as a functional descriptor of the neuron. Finally, an outline is sketched for a synthetic construction of the bioacoustic space from neuroacoustic subspaces.",
+      "journal": "Journal of medical systems",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_6170194",
+      "title": "[Stimulating effect of focused ultrasound on auditory fibers of the acoustic nerve in the frog Rana temporaria]",
+      "year": 1981,
+      "doi": null,
+      "abstract": "After mechanical destruction of the receptor apparatus, application of focused ultrasound (frequency 2.34 mHz) to the auditory fibers of the frog elicited the electrical activity in the auditory midbrain centers (torus semicircularis). Action potentials evoked by focused ultrasound were similar to those evoked by activation of the intact contralateral labyrinth. After introduction of horseradish peroxidase into the destroyed auditory capsule, fibers activated by ultrasound were detected. Therefore electrophysiological and histochemical experiments reveal stimulating effect of focused ultrasound on the auditory fibers of the VIIIth nerve.",
+      "journal": "Zhurnal evoliutsionnoi biokhimii i fiziologii",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_304643",
+      "title": "[Distribution of vestibular nerve fiber endings in the ventral vestibular nucleus of the stato-acoustic complex of the medulla oblongata in Rana temporaria frogs]",
+      "year": 1977,
+      "doi": null,
+      "abstract": "Electronmicroscopic studies have been made on the distribution of the primary vestibular afferents after sectioning the VIIIth nerve in the frog Rana temporaria. The projections of the vestibular nerve fibers extend ipsilaterally. Some of the primary vestibular afferents are connected with the second-order neurons by means of electrotonic contacts. Degeneration of postsynaptic components was found in axo-axonal synapses. Some of the vestibular neurons send axons to the labyrinth. Possible functional significance of these findings is discussed.",
+      "journal": "Zhurnal evoliutsionnoi biokhimii i fiziologii",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_978-3-662-10652-5",
@@ -360,11 +545,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-662-10652-5_6",
@@ -374,11 +555,7 @@
       "abstract": "",
       "journal": "Über den Feinbau des Myokards von Rana temporaria (L.) / Ultrastructure of ventricular cardiac muscle of Rana temporaria",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-662-10652-5_3",
@@ -388,11 +565,7 @@
       "abstract": "",
       "journal": "Über den Feinbau des Myokards von Rana temporaria (L.) / Ultrastructure of ventricular cardiac muscle of Rana temporaria",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-662-10652-5_2",
@@ -402,11 +575,7 @@
       "abstract": "",
       "journal": "Über den Feinbau des Myokards von Rana temporaria (L.) / Ultrastructure of ventricular cardiac muscle of Rana temporaria",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-662-10652-5_4",
@@ -416,11 +585,7 @@
       "abstract": "",
       "journal": "Über den Feinbau des Myokards von Rana temporaria (L.) / Ultrastructure of ventricular cardiac muscle of Rana temporaria",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-662-10652-5_5",
@@ -430,11 +595,7 @@
       "abstract": "",
       "journal": "Über den Feinbau des Myokards von Rana temporaria (L.) / Ultrastructure of ventricular cardiac muscle of Rana temporaria",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_title_6538",
@@ -444,11 +605,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_title_82448",
@@ -458,14 +615,10 @@
       "abstract": "THE AMPHIBIA and birds. Further, the embryo as it develops is never sur- rounded by the protective amnion or equipped with a respiratory allantois as in the case of higher vertebrates.",
       "journal": "McGraw-Hill eBooks",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 33,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

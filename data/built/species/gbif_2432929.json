@@ -6,9 +6,9 @@
   "common_names": {
     "en": "big brown bat",
     "it": "pipistrello bruno maggiore",
-    "es": "murciÃ©lago cafÃ© grande",
-    "fr": "grande sÃ©rotine brune",
-    "de": "groÃŸer brauner fledermaus"
+    "es": "murciélago café grande",
+    "fr": "grande sérotine brune",
+    "de": "großer brauner fledermaus"
   },
   "taxonomy": {
     "class_": "Mammalia",
@@ -18,17 +18,8 @@
     "gbif_match_confidence": 95,
     "gbif_match_status": "ACCEPTED"
   },
-  "profile_level": "enriched",
-  "profile_badge": {
-    "label": "enriched",
-    "color": "teal"
-  },
-  "stats": {
-    "paper_count": 18,
-    "claim_count": 5,
-    "doi_count": 19,
-    "media_count": 0
-  },
+  "conservation_status": "",
+  "inat_id": null,
   "image": {
     "url": "",
     "url_full": "",
@@ -39,8 +30,6 @@
   "summary": "Big brown bat (Eptesicus fuscus) is a species of Mammalia in the order Chiroptera, family Vespertilionidae.",
   "wiki_url": "https://en.wikipedia.org/wiki/Big_brown_bat",
   "wiki_title": "Big_brown_bat",
-  "conservation_status": "",
-  "inat_id": null,
   "vocalisations": [
     "echolocation call"
   ],
@@ -49,448 +38,45 @@
     "navigation"
   ],
   "functions": [
-    "prey detection",
-    "spatial orientation"
+    "spatial orientation",
+    "prey detection"
   ],
-  "communication_profile": {
-    "vocalisations": [
-      {
-        "value": "echolocation call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "contexts": [
-      {
-        "value": "foraging",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "navigation",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
-      {
-        "value": "prey detection",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "spatial orientation",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "methods": []
-  },
+  "open_papers": [
+    {
+      "doi": "10.1242/jeb.189381",
+      "url": "https://doi.org/10.1242/jeb.189381"
+    }
+  ],
   "audio": {
     "provider": "macaulay",
     "xc_query": "",
     "recordings": [],
-    "external_links": []
+    "external_links": [
+      {
+        "name": "BatDetective",
+        "url": "https://www.batdetective.org/"
+      },
+      {
+        "name": "Macaulay Library",
+        "url": "https://www.macaulaylibrary.org/"
+      }
+    ],
+    "freesound_search": ""
   },
-  "open_papers": [
-    {
-      "doi": "10.1079/cabicompendium.83990",
-      "url": "https://doi.org/10.1079/cabicompendium.83990",
-      "title": "Eptesicus fuscus",
-      "year": 2019,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1152/jn.00953.2015",
-      "url": "https://doi.org/10.1152/jn.00953.2015",
-      "title": "Two distinct representations of social vocalizations in the basolateral amygdala",
-      "year": 2015,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1016/j.cub.2014.02.058",
-      "url": "https://doi.org/10.1016/j.cub.2014.02.058",
-      "title": "Social Calls Predict Foraging Success in Big Brown Bats",
-      "year": 2014,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.2307/jj.30297277.49",
-      "url": "https://doi.org/10.2307/jj.30297277.49",
-      "title": "Big Brown Bat",
-      "year": 2014,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1016/b978-0-12-374236-0.10036-7",
-      "url": "https://doi.org/10.1016/b978-0-12-374236-0.10036-7",
-      "title": "Auditory System",
-      "year": 2012,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1371/journal.pone.0044550",
-      "url": "https://doi.org/10.1371/journal.pone.0044550",
-      "title": "Social Vocalizations of Big Brown Bats Vary with Behavioral Context",
-      "year": 2012,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.3389/fnbeh.2010.00033",
-      "url": "https://doi.org/10.3389/fnbeh.2010.00033",
-      "title": "Probing the natural scene by echolocation in bats",
-      "year": 2010,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1073/pnas.0804408105",
-      "url": "https://doi.org/10.1073/pnas.0804408105",
-      "title": "Flying in silence: Echolocating bats cease vocalizing to avoid sonar jamming",
-      "year": 2008,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1242/jeb.01327",
-      "url": "https://doi.org/10.1242/jeb.01327",
-      "title": "Biosonar performance of foraging beaked whales (<i>Mesoplodon densirostris</i>)",
-      "year": 2005,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1007/s00359-001-0275-5",
-      "url": "https://doi.org/10.1007/s00359-001-0275-5",
-      "title": "Orienting responses and vocalizations produced by microstimulation in the superior colliculus of the echolocating bat, Eptesicus fuscus",
-      "year": 2002,
-      "source": "openalex"
-    },
-    {
-      "doi": "10.1121/1.428507",
-      "url": "https://doi.org/10.1121/1.428507",
-      "title": "Vocal control of acoustic information for sonar discriminations by the echolocating bat, <i>Eptesicus fuscus</i>",
-      "year": 2000,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.2307/3504258",
-      "url": "https://doi.org/10.2307/3504258",
-      "title": "Eptesicus fuscus",
-      "year": 1990,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1007/978-1-4684-7493-0_13",
-      "url": "https://doi.org/10.1007/978-1-4684-7493-0_13",
-      "title": "Ontogeny of Vocal Signals in the Big Brown Bat, Eptesicus Fuscus",
-      "year": 1988,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.2307/3273222",
-      "url": "https://doi.org/10.2307/3273222",
-      "title": "Trypanosoma vespertilionis and Litomosoides sp. in Eptesicus fuscus fuscus",
-      "year": 1951,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.1242/jeb.189381",
-      "url": "https://doi.org/10.1242/jeb.189381",
-      "title": "",
-      "year": null,
-      "source": "seed"
-    },
-    {
-      "doi": "10.22215/etd/1983-12815",
-      "url": "https://doi.org/10.22215/etd/1983-12815",
-      "title": "The effects of urbanization on habitat use by the Big Brown Bat, Eptesicus fuscus",
-      "year": null,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.22215/etd/1985-12397",
-      "url": "https://doi.org/10.22215/etd/1985-12397",
-      "title": "The functional significance of communual roosting by the big brown bat, Eptesicus fuscus",
-      "year": null,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.22215/etd/1987-01247",
-      "url": "https://doi.org/10.22215/etd/1987-01247",
-      "title": "Heterothermy and activity in the big brown bat, Eptesicus Fuscus; a field study.",
-      "year": null,
-      "source": "crossref"
-    },
-    {
-      "doi": "10.7717/peerj.10856/supp-3",
-      "url": "https://doi.org/10.7717/peerj.10856/supp-3",
-      "title": "Supplemental Information 3:\n                      <i>Eptesicus fuscus</i>\n                      raw geometric morphometric data",
-      "year": null,
-      "source": "crossref"
-    }
-  ],
   "papers": [
     {
-      "paper_id": "10_1079_cabicompendium_83990",
-      "title": "Eptesicus fuscus",
-      "year": 2019,
-      "doi": "10.1079/cabicompendium.83990",
-      "abstract": "",
-      "journal": "CABI Compendium",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1152_jn_00953_2015",
-      "title": "Two distinct representations of social vocalizations in the basolateral amygdala",
-      "year": 2015,
-      "doi": "10.1152/jn.00953.2015",
-      "abstract": "Acoustic communication signals carry information related to the types of social interactions by means of their \"acoustic context,\" the sequencing and temporal emission pattern of vocalizations. Here we describe responses to natural vocal sequences in adult big brown bats (Eptesicus fuscus). We first assessed how vocal sequences modify the internal affective state of a listener (via heart rate). The heart rate of listening bats was differentially modulated by vocal sequences, showing significantly greater elevation in response to moderately aggressive sequences than appeasement or neutral sequences. Next, we characterized single-neuron responses in the basolateral amygdala (BLA) of awake, restrained bats to isolated syllables and vocal sequences. Two populations of neurons distinguished by background firing rates also differed in acoustic stimulus selectivity. Low-background neurons (<1 spike/s) were highly selective, responding on average to one tested stimulus. These may participate i",
-      "journal": "Journal of Neurophysiology",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_2307_jj_30297277_49",
-      "title": "Big Brown Bat",
-      "year": 2014,
-      "doi": "10.2307/jj.30297277.49",
-      "abstract": "",
-      "journal": "Mammals of Alabama",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1016_j_cub_2014_02_058",
-      "title": "Social Calls Predict Foraging Success in Big Brown Bats",
-      "year": 2014,
-      "doi": "10.1016/j.cub.2014.02.058",
-      "abstract": "",
-      "journal": "Current Biology",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1371_journal_pone_0044550",
-      "title": "Social Vocalizations of Big Brown Bats Vary with Behavioral Context",
-      "year": 2012,
-      "doi": "10.1371/journal.pone.0044550",
-      "abstract": "Bats are among the most gregarious and vocal mammals, with some species demonstrating a diverse repertoire of syllables under a variety of behavioral contexts. Despite extensive characterization of big brown bat (Eptesicus fuscus) biosonar signals, there have been no detailed studies of adult social vocalizations. We recorded and analyzed social vocalizations and associated behaviors of captive big brown bats under four behavioral contexts: low aggression, medium aggression, high aggression, and appeasement. Even limited to these contexts, big brown bats possess a rich repertoire of social vocalizations, with 18 distinct syllable types automatically classified using a spectrogram cross-correlation procedure. For each behavioral context, we describe vocalizations in terms of syllable acoustics, temporal emission patterns, and typical syllable sequences. Emotion-related acoustic cues are evident within the call structure by context-specific syllable types or variations in the temporal em",
-      "journal": "PLoS ONE",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1016_b978-0-12-374236-0_10036-7",
-      "title": "Auditory System",
-      "year": 2012,
-      "doi": "10.1016/b978-0-12-374236-0.10036-7",
-      "abstract": "",
-      "journal": "Elsevier eBooks",
-      "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_3389_fnbeh_2010_00033",
-      "title": "Probing the natural scene by echolocation in bats",
-      "year": 2010,
-      "doi": "10.3389/fnbeh.2010.00033",
-      "abstract": "Bats echolocating in the natural environment face the formidable task of sorting signals from multiple auditory objects, echoes from obstacles, prey, and the calls of conspecifics. Successful orientation in a complex environment depends on auditory information processing, along with adaptive vocal-motor behaviors and flight path control, which draw upon 3-D spatial perception, attention, and memory. This article reviews field and laboratory studies that document adaptive sonar behaviors of echolocating bats, and point to the fundamental signal parameters they use to track and sort auditory objects in a dynamic environment. We suggest that adaptive sonar behavior provides a window to bats' perception of complex auditory scenes.",
-      "journal": "Frontiers in Behavioral Neuroscience",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1073_pnas_0804408105",
-      "title": "Flying in silence: Echolocating bats cease vocalizing to avoid sonar jamming",
-      "year": 2008,
-      "doi": "10.1073/pnas.0804408105",
-      "abstract": "Although it has been recognized that echolocating bats may experience jamming from the signals of conspecifics, research on this problem has focused exclusively on time-frequency adjustments in the emitted signals to minimize interference. Here, we report a surprising new strategy used by bats to avoid interference, namely silence. In a quantitative study of flight and vocal behavior of the big brown bat (Eptesicus fuscus), we discovered that the bat spends considerable time in silence when flying with conspecifics. Silent behavior, defined here as at least one bat in a pair ceasing vocalization for more than 0.2 s (200 ms), occurred as much as 76% of the time (mean of 40% across 7 pairs) when their separation was shorter than 1 m, but only 0.08% when a single bat flew alone. Spatial separation, heading direction, and similarity in call design of paired bats were related to the prevalence of this silent behavior. Our data suggest that the bat uses silence as a strategy to avoid interfe",
-      "journal": "Proceedings of the National Academy of Sciences",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1242_jeb_01327",
-      "title": "Biosonar performance of foraging beaked whales (<i>Mesoplodon densirostris</i>)",
-      "year": 2005,
-      "doi": "10.1242/jeb.01327",
-      "abstract": "Toothed whales (Cetacea, odontoceti) emit sound pulses to probe their surroundings by active echolocation. Non-invasive, acoustic Dtags were placed on deep-diving Blainville's beaked whales (Mesoplodon densirostris) to record their ultrasonic clicks and the returning echoes from prey items, providing a unique view on how a whale operates its biosonar during foraging in the wild. The process of echolocation during prey capture in this species can be divided into search, approach and terminal phases, as in echolocating bats. The approach phase, defined by the onset of detectable echoes recorded on the tag for click sequences terminated by a buzz, has interclick intervals (ICI) of 300-400 ms. These ICIs are more than a magnitude longer than the decreasing two-way travel time to the targets, showing that ICIs are not given by the two-way-travel times plus a fixed, short lag time. During the approach phase, the received echo energy increases by 10.4(+/-2) dB when the target range is halved,",
-      "journal": "Journal of Experimental Biology",
-      "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1007_s00359-001-0275-5",
-      "title": "Orienting responses and vocalizations produced by microstimulation in the superior colliculus of the echolocating bat, Eptesicus fuscus",
-      "year": 2002,
-      "doi": "10.1007/s00359-001-0275-5",
-      "abstract": "",
-      "journal": "Journal of Comparative Physiology A",
-      "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1121_1_428507",
-      "title": "Vocal control of acoustic information for sonar discriminations by the echolocating bat, <i>Eptesicus fuscus</i>",
-      "year": 2000,
-      "doi": "10.1121/1.428507",
-      "abstract": "<jats:p>This study aimed to determine whether bats using frequency modulated (FM) echolocation signals adapt the features of their vocalizations to the perceptual demands of a particular sonar task. Quantitative measures were obtained from the vocal signals produced by echolocating bats (Eptesicus fuscus) that were trained to perform in two distinct perceptual tasks, echo delay and Doppler-shift discriminations. In both perceptual tasks, the bats learned to discriminate electronically manipulated playback signals of their own echolocation sounds, which simulated echoes from sonar targets. Both tasks utilized a single-channel electronic target simulator and tested the batâ€™s in a two-alternative forced choice procedure. The results of this study demonstrate changes in the features of the FM batsâ€™ sonar sounds with echolocation task demands, lending support to the notion that this animal actively controls the echo information that guides its behavior.</jats:p>",
-      "journal": "The Journal of the Acoustical Society of America",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_2307_3504258",
-      "title": "Eptesicus fuscus",
-      "year": 1990,
-      "doi": "10.2307/3504258",
-      "abstract": "",
-      "journal": "Mammalian Species",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_1007_978-1-4684-7493-0_13",
-      "title": "Ontogeny of Vocal Signals in the Big Brown Bat, Eptesicus Fuscus",
-      "year": 1988,
-      "doi": "10.1007/978-1-4684-7493-0_13",
-      "abstract": "",
-      "journal": "Animal Sonar",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_2307_3273222",
-      "title": "Trypanosoma vespertilionis and Litomosoides sp. in Eptesicus fuscus fuscus",
-      "year": 1951,
-      "doi": "10.2307/3273222",
-      "abstract": "",
-      "journal": "The Journal of Parasitology",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_7717_peerj_10856_supp-3",
-      "title": "Supplemental Information 3:\n                      <i>Eptesicus fuscus</i>\n                      raw geometric morphometric data",
-      "year": null,
-      "doi": "10.7717/peerj.10856/supp-3",
-      "abstract": "",
-      "journal": "",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_22215_etd_1985-12397",
-      "title": "The functional significance of communual roosting by the big brown bat, Eptesicus fuscus",
-      "year": null,
-      "doi": "10.22215/etd/1985-12397",
-      "abstract": "",
-      "journal": "",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_22215_etd_1987-01247",
-      "title": "Heterothermy and activity in the big brown bat, Eptesicus Fuscus; a field study.",
-      "year": null,
-      "doi": "10.22215/etd/1987-01247",
-      "abstract": "",
-      "journal": "",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
-    },
-    {
-      "paper_id": "10_22215_etd_1983-12815",
-      "title": "The effects of urbanization on habitat use by the Big Brown Bat, Eptesicus fuscus",
-      "year": null,
-      "doi": "10.22215/etd/1983-12815",
-      "abstract": "",
-      "journal": "",
-      "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "id": "paper_010",
+      "title": "Echolocation call plasticity in big brown bats during obstacle avoidance",
+      "year": 2020,
+      "stage": "adult",
+      "methods": [
+        "acoustic recording",
+        "high-speed videography",
+        "call parameter analysis"
+      ],
+      "outcome": "Big brown bats dynamically adjust call duration, interpulse interval, and frequency sweep in response to obstacle density, demonstrating context-dependent echolocation plasticity.",
+      "dataset_available": "unknown"
     }
   ],
-  "paper_count": 18,
-  "provenance": {
-    "taxonomy_source": "GBIF backbone",
-    "media_source": "Wikimedia Commons",
-    "literature_source": "Crossref + OpenAlex + pilot annotations",
-    "db_version": "0.3"
-  }
+  "paper_count": 1
 }

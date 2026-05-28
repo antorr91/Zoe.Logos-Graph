@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 7,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 26,
+    "claim_count": 9,
+    "doi_count": 21,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,14 +45,14 @@
     "song"
   ],
   "contexts": [
-    "aerial display",
+    "territorial defence",
     "mate attraction",
-    "territorial defence"
+    "aerial display"
   ],
   "functions": [
-    "female assessment",
+    "territory signalling",
     "mate attraction",
-    "territory signalling"
+    "female assessment"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -60,58 +60,184 @@
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "aerial display",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "aerial display",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "female assessment",
+        "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territory signalling",
+        "value": "female assessment",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 2002,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2001,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2000,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1999,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1998,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1997,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1996,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1995,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1994,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Alauda arvensis",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41598-025-04270-3",
+      "url": "https://doi.org/10.1038/s41598-025-04270-3",
+      "title": "Lunar cycle and moonlight intensity influence nocturnal migration patterns in a small songbird",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1098/rstb.2019.0479",
       "url": "https://doi.org/10.1098/rstb.2019.0479",
@@ -176,6 +302,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1371/journal.pone.0065803",
+      "url": "https://doi.org/10.1371/journal.pone.0065803",
+      "title": "Modelling Skylarks (Alauda arvensis) to predict impacts of changes in land management and policy: development and testing of an agent-based model",
+      "year": 2013,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1186/1741-7007-10-97",
       "url": "https://doi.org/10.1186/1741-7007-10-97",
       "title": "Segmental concatenation of individual signatures and context cues in banded mongoose (Mungos mungo) close calls",
@@ -188,6 +321,13 @@
       "title": "Moonlight Makes Owls More Chatty",
       "year": 2010,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0012428",
+      "url": "https://doi.org/10.1371/journal.pone.0012428",
+      "title": "Are unfamiliar neighbours considered to be dear-enemies?",
+      "year": 2010,
+      "source": "pubmed"
     },
     {
       "doi": "10.1007/bf01651786",
@@ -241,6 +381,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40481118",
+      "title": "Lunar cycle and moonlight intensity influence nocturnal migration patterns in a small songbird",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-04270-3",
+      "abstract": "Lunar cycle and moonlight exposure have significant impacts on animal behaviour and physiology. The presence or absence of moonlight, along with predictable changes in brightness throughout the lunar cycle, can shape reproduction, foraging, communication, and other aspects of an animal's world. While it has been shown that invertebrates use the moonlight for orientation, little is known on the effect of the lunar cycle on migratory birds. We found that the lunar cycle affected the nocturnal migration activity of a diurnal songbird species, the Eurasian Skylark Alauda arvensis. The occurrence of birds increased with moon fraction, moonlight intensity and duration, while abundance correlated positively with increasing moonlight intensity. Our findings of increased migration activity in bright nights around full moon contradict previous assumptions that small bird migrants would avoid such nights due to increased predation pressure and decreased visibility of stars for orientation. We argue that migrants relying on visual cues for orientation might favour moonlit nights, while future studies should also test whether the position of the moon can be used for navigation by birds.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1098_rstb_2019_0479",
       "title": "Individual vocal recognition across taxa: a review of the literature and a look into the future",
       "year": 2020,
@@ -248,11 +398,7 @@
       "abstract": "Individual vocal recognition (IVR) has been well studied in mammals and birds. These studies have primarily delved into understanding IVR in specific limited contexts (e.g. parent-offspring and mate recognition) where individuals discriminate one individual from all others. However, little research has examined IVR in more socially demanding circumstances, such as when an individual discriminates all individuals in their social or familial group apart. In this review, we describe what IVR is and suggest splitting studies of IVR into two general types based on what questions they answer (IVR-singular, and IVR-multiple). We explain how we currently test for IVR, and many of the benefits and drawbacks of different methods. We address why IVR is so prevalent in the animal kingdom, and the circumstances in which it is often found. Finally, we explain current weaknesses in IVR research including temporality, specificity, and taxonomic bias, and testing paradigms, and provide some solutions t",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_95196",
@@ -262,11 +408,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41467-018-06394-9",
@@ -276,11 +418,7 @@
       "abstract": "Individual recognition is critical in social animal communication, but it has not been demonstrated for a complete vocal repertoire. Deciphering the nature of individual signatures across call types is necessary to understand how animals solve the problem of combining, in the same signal, information about identity and behavioral state. We show that distinct signatures differentiate zebra finch individuals for each call type. The distinctiveness of these signatures varies: contact calls bear strong individual signatures while calls used during aggressive encounters are less individualized. We propose that the costly solution of using multiple signatures evolved because of the limitations of the passive filtering properties of the birds' vocal organ for generating sufficiently individualized features. Thus, individual recognition requires the memorization of multiple signatures for the entire repertoire of conspecifics of interests. We show that zebra finches excel at these tasks.",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_ary010",
@@ -290,11 +428,7 @@
       "abstract": "Territorial behavior is widespread throughout the animal kingdom, with responses to conspecific intruders differing depending on various ecological, life history, and social factors. One factor which has received considerable research attention is rival identity. Early work provided many examples of species exhibiting relatively stronger responses to strangers versus neighbors (the \"dear-enemy\" effect) or the opposite (the \"nasty-neighbor\" effect). However, those studies focused predominantly on single or pair-bonded territoryholders. There is increasing evidence of neighbor-stranger response differences in group-living species (where 3 or more individuals share a territory), and of within-species variation in the relative responses shown to these 2 intruder types. Considering social species is important both because group territoriality is widespread and because group responses include the actions of multiple individuals whose interests and motivations differ. We begin our review with",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2305_iucn_uk_2016-3_rlts_t102998555a87520796_en",
@@ -304,11 +438,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1017_cbo9781107358478_014",
@@ -318,11 +448,7 @@
       "abstract": "",
       "journal": "Studies in Bird Migration",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_brv_12160",
@@ -332,11 +458,7 @@
       "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_s12915-014-0058-4",
@@ -346,11 +468,27 @@
       "abstract": "We suggest using vocal gap deviation in future studies to assess vocal performance in songbird species with complex structure.",
       "journal": "BMC Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25096363",
+      "title": "Assessing vocal performance in complex birdsong: a novel approach",
+      "year": 2014,
+      "doi": "10.1186/s12915-014-0058-4",
+      "abstract": "BACKGROUND: Vocal performance refers to the ability to produce vocal signals close to physical limits. Such motor skills can be used by conspecifics to assess a signaller's competitive potential. For example it is difficult for birds to produce repeated syllables both rapidly and with a broad frequency bandwidth. Deviation from an upper-bound regression of frequency bandwidth on trill rate has been widely used to assess vocal performance. This approach is, however, only applicable to simple trilled songs, and even then may be affected by differences in syllable complexity. RESULTS: Using skylarks (Alauda arvensis) as a birdsong model with a very complex song structure, we detected another performance trade-off: minimum gap duration between syllables was longer when the frequency ratio between the end of one syllable and the start of the next syllable (inter-syllable frequency shift) was large. This allowed us to apply a novel measure of vocal performance ¿ vocal gap deviation: the deviation from a lower-bound regression of gap duration on inter-syllable frequency shift. We show that skylarks increase vocal performance in an aggressive context suggesting that this trait might serve as a signal for competitive potential. CONCLUSIONS: We suggest using vocal gap deviation in future studies to assess vocal performance in songbird species with complex structure.",
+      "journal": "BMC biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24436508",
+      "title": "How a songbird with a continuous singing style modulates its song when territorially challenged",
+      "year": 2014,
+      "doi": "10.1007/s00265-013-1616-4",
+      "abstract": "In songbirds of the temperate zone, often only males sing and their songs serve to attract females and to deter territorial rivals. In many species, males vary certain aspects of their singing behavior when engaged in territorial interactions. Such variation may be an honest signal of the traits of the signaler, such as fighting strength, condition, or aggressive motivation, and may be used by receivers in decisions on whether to retreat or to escalate a fight. This has been studied intensively in species that sing discontinuously, in which songs are alternating with silent pauses. We studied contextual variation in the song of skylarks (",
+      "journal": "Behavioral ecology and sociobiology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s00265-013-1616-4",
@@ -360,11 +498,17 @@
       "abstract": "In songbirds of the temperate zone, often only males sing and their songs serve to attract females and to deter territorial rivals. In many species, males vary certain aspects of their singing behavior when engaged in territorial interactions. Such variation may be an honest signal of the traits of the signaler, such as fighting strength, condition, or aggressive motivation, and may be used by receivers in decisions on whether to retreat or to escalate a fight. This has been studied intensively in species that sing discontinuously, in which songs are alternating with silent pauses. We studied contextual variation in the song of skylarks (<i>Alauda arvensis</i>), a songbird with a large vocal repertoire and a continuous and versatile singing style. We exposed subjects to simulated territorial intrusions by broadcasting conspecific song and recorded their vocal responses. We found that males sing differently if they are singing spontaneously with no other conspecific around than if they ",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23762430",
+      "title": "Modelling Skylarks (Alauda arvensis) to predict impacts of changes in land management and policy: development and testing of an agent-based model",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0065803",
+      "abstract": "Agent-based simulation models provide a viable approach for developing applied models of species and systems for predictive management. However, there has been some reluctance to use these models for policy applications due to complexity and the need for improved testing and communication of the models. We present the development and testing of a comprehensive model for Skylark (Alauda arvensis) in Danish agricultural landscapes. The model is part of the ALMaSS system, which considers not only individual skylarks, but also the detailed dynamic environment from which they obtain the information necessary to simulate their behaviour. Population responses emerge from individuals interacting with each other and the environment. Model development and testing was carried out using pattern-oriented modelling. The testing procedure was based on the model's ability to represent detailed real world patterns of distribution and density, reproductive performance and seasonal changes in territory numbers. Data to support this was collected over a 13-year period and comprised detailed field observations of breeding birds and intensive surveys. The model was able to recreate the real world data patterns accurately; it was also able to simultaneously fit a number of other secondary system properties which were not formally a part of the testing procedure. The correspondence of model output to real world data and sensitivity analysis are presented and discussed, and the model's description is provided in ODdox format (a formal description inter-linked to the program code). Detailed and stringent tests for model performance were carried out, and standardised model description and open access to the source code were provided to open development of the skylark model to others. Over and above documenting the utility of the model, this open process is essential to engender the user trust and ensure continued development of these comprehensive systems for applied purposes.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1186_1741-7007-10-97",
@@ -374,11 +518,17 @@
       "abstract": "Our study provides the first evidence of segmental concatenation of information within a single syllable in non-human vocalizations. By reviewing descriptions of call structures in the literature, we suggest a general application of this mechanism. Our study indicates that temporal segregation and segmental concatenation of vocal signatures or cues is likely a common, but so far neglected, dimension of information coding in animal vocal communication. We argue that temporal segregation of vocal signatures and cues evolves in species where communication of multiple unambiguous signals is crucial, but is limited by the number of call types produced.",
       "journal": "BMC Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_22288487",
+      "title": "A new morphologically distinct avian malaria parasite that fails detection by established polymerase chain reaction-based protocols for amplification of the cytochrome B gene",
+      "year": 2012,
+      "doi": "10.1645/GE-3006.1",
+      "abstract": "Plasmodium polymorphum n. sp. (Haemosporida, Plasmodiidae) was found in the skylark, Alauda arvensis (Passeriformes: Alaudidae), during autumnal migration in southern Italy. This organism is illustrated and described based on the morphology of its blood stages. The most distinctive feature of this malaria parasite is the clear preference of its blood stages (trophozoites, meronts, and gametocytes) for immature red blood cells, including erythroblasts. Based on preference of erythrocytic meronts for immature red blood cells, P. polymorphum is most similar to species of the subgenus Huffia . This parasite can be readily distinguished from all other bird malaria parasites, including Plasmodium ( Huffia ) spp., due to preferential development and maturation of its gametocytes in immature red blood cells, a unique character for avian Plasmodium spp. In addition, the margins of nuclei in blood stages of P. polymorphum are markedly smooth and distinct; this is also a distinct diagnostic feature of this parasite. Plasmodium polymorphum has been recorded only in the skylark; it is probably a rare parasite, whose host range and geographical distribution remain unclear. Microscopic examination detected a light infection of Plasmodium relictum (lineage GRW11, parasitemia of <0.01%) in the same sample with P. polymorphum ; the latter parasite clearly predominated (3.5% parasitemia). However, experienced researchers were unable to detect sequences of mitochondrial cytochrome b gene (cyt b ) of P. polymorphum from the microscopically positive sample by using published and newly designed primers for DNA amplification of avian Plasmodium spp. The light parasitemia of P. relictum was easily detectable using several polymerase chain reaction (PCR)-based assays, but P. polymorphum was undetectable in all applied assays. Quantitative PCR also showed the presence of light parasitemia (0.06%) of the lineage GRW11 in this sample. This supports the conclusion that the morphologically distin",
+      "journal": "The Journal of parasitology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1371_journal_pone_0008696",
@@ -388,11 +538,47 @@
       "abstract": "Our results support the idea that moon phase affects the visual signaling behavior of this species, and provide a starting point for examination of this method of communication by nocturnal species.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20865148",
+      "title": "Are unfamiliar neighbours considered to be dear-enemies?",
+      "year": 2010,
+      "doi": "10.1371/journal.pone.0012428",
+      "abstract": "BACKGROUND: Discriminating threatening individuals from non-threatening ones allow territory owners to modulate their territorial responses according to the threat posed by each intruder. This ability reduces costs associated with territorial defence. Reduced aggression towards familiar adjacent neighbours, termed the dear-enemy effect, has been shown in numerous species. An important question that has never been investigated is whether territory owners perceive distant neighbours established in the same group as strangers because of their unfamiliarity, or as dear-enemies because of their group membership. METHODOLOGY/PRINCIPAL FINDINGS: To investigate this question, we played back to male skylarks (Alauda arvensis) songs of adjacent neighbours, distant neighbours established a few territories away in the same microdialect area and strangers. Additionally, we carried out a propagation experiment to investigate how far skylark songs are propagated in their natural habitat and we estimated repertoire similarity between adjacent neighbours, distant neighbours and strangers. We show that skylarks, in the field, respond less aggressively to songs of their distant and likely unfamiliar neighbours, as shown by the propagation experiment, compared to stranger songs. The song analysis revealed that individuals share a high amount of syllables and sequences with both their adjacent and distant neighbours, but only few syllables and no sequences with strangers. CONCLUSIONS: The observed reduction of aggression between distant neighbours thus probably results from their familiarity with the vocal group signature shared by all members of the neighbourhood. Therefore, in skylarks, dear-enemy-like relationships can be established between unfamiliar individuals who share a common acoustic code.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_19558613",
+      "title": "Predator-prey relationships in a changing environment: the case of the sparrowhawk and its avian prey community in a rural area",
+      "year": 2009,
+      "doi": "10.1111/j.1365-2656.2009.01575.x",
+      "abstract": "1. Changes in community composition are expected to entail cascading effects at different trophic levels within a food web. However, empirical evidence on the impact of changes in prey communities on the population dynamics of generalist predators, and on the extent of possible feedback processes, remains scarce. 2. We analysed the dynamics of a generalist predator, the European sparrowhawk Accipiter nisus L., in a rural area of Northern Denmark. Over a 20-year period, the diet of the predator has been thoroughly assessed (>30,000 identified prey items) and quantitative information about its avian prey community, based on standard breeding bird surveys, has revealed significant trends for several passerine species, although the overall prey biomass available remained stable. 3. The growth rate of the sparrowhawk breeding population was negatively related to the previous sparrowhawk density and to winter temperature, but was positively related to available prey biomass. Contrary to expectations for a generalist predator, sparrowhawks seemed to be predominantly sensitive to changes in the cumulative abundance of their two main prey species, the skylark Alauda arvensis L. and the blackbird Turdus merula L., but less so to changes in the wider prey community. 4. In demographic terms, the two-phase sparrowhawk dynamic recorded here (a recovery following an initial decrease) was mainly driven by recruitment of yearling females into the breeding population rather than by variation in the apparent survival of breeding females. 5. Our findings emphasize that changes in the composition of a prey community, affected by environmental changes, impacted population dynamics of a generalist predator. Finally, we found conditions that might enable apparent competition between blackbirds and song thrushes Turdus philomelos L. to occur. High blackbird abundance, maintaining sparrowhawks at a relatively high density may, in turn, push song thrushes into a predator pit.",
+      "journal": "The Journal of animal ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_19495716",
+      "title": "Response to displaced neighbours in a territorial songbird with a large repertoire",
+      "year": 2009,
+      "doi": "10.1007/s00114-009-0567-0",
+      "abstract": "Neighbour recognition allows territory owners to modulate their territorial response according to the threat posed by each neighbour and thus to reduce the costs associated with territorial defence. Individual acoustic recognition of neighbours has been shown in numerous bird species, but few of them had a large repertoire. Here, we tested individual vocal recognition in a songbird with a large repertoire, the skylark Alauda arvensis. We first examined the physical basis for recognition in the song, and we then experimentally tested recognition by playing back songs of adjacent neighbours and strangers. Males showed a lower territorial response to adjacent neighbours than to strangers when we broadcast songs from the shared boundary. However, when we broadcast songs from the opposite boundary, males showed a similar response to neighbours and strangers, indicating a spatial categorisation of adjacent neighbours' songs. Acoustic analyses revealed that males could potentially use the syntactical arrangement of syllables in sequences to identify the songs of their neighbours. Neighbour interactions in skylarks are thus subtle relationships that can be modulated according to the spatial position of each neighbour.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_18203986",
+      "title": "How to identify dear enemies: the group signature in the complex song of the skylark Alauda arvensis",
+      "year": 2008,
+      "doi": "10.1242/jeb.013359",
+      "abstract": "Song geographic variation and Neighbour-Stranger (N-S) discrimination have been intensively but separately studied in bird species, especially in those with small- to medium-sized repertoires. Here, we establish a link between the two phenomena by showing that dialect features are used for N-S recognition in a territorial species with a large repertoire, the skylark Alauda arvensis. In this species, during the breeding season, many pairs settle in stable and adjoining territories gathered in locations spaced by a few kilometres. In a first step, songs produced by males established in different locations were recorded, analyzed and compared to identify possible microgeographic variation at the syntax level. Particular common sequences of syllables (phrases) were found in the songs of all males established in the same location (neighbours), whereas males of different locations (strangers) shared only few syllables and no sequences. In a second step, playback experiments were conducted and provided evidence for N-S discrimination consistent with the dear-enemy effect, i.e. reduced aggression from territorial birds towards neighbours than towards strangers. In addition, a similar response was observed when a ;chimeric' signal (shared phrases of the location artificially inserted in the song of a stranger) and a neighbour song were broadcast, indicating that shared sequences were recognized and identified as markers of the group identity. We thus show experimentally that the shared phrases found in the songs of neighbouring birds constitute a group signature used by birds for N-S discrimination, and serve as a basis for the dear-enemy effect.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_bf01651786",
@@ -402,11 +588,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_p_323906",
@@ -416,11 +598,7 @@
       "abstract": "",
       "journal": "The birds of Great Britain",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_p_317345",
@@ -430,11 +608,7 @@
       "abstract": "",
       "journal": "The Birds of Europe",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927019_0071",
@@ -444,11 +618,7 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_53846_goediss-9314",
@@ -458,11 +628,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_14232_phd_11110",
@@ -472,14 +638,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 26,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

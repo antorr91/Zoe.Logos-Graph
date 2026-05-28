@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 19,
-    "claim_count": 9,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 40,
+    "claim_count": 27,
+    "doi_count": 30,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,506 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "bark",
     "growl",
-    "howl"
+    "howl",
+    "bark"
   ],
   "contexts": [
-    "group cohesion",
+    "territorial defence",
     "social communication",
-    "territorial defence"
+    "group cohesion"
   ],
   "functions": [
+    "pack coordination",
     "individual recognition",
-    "long-distance communication",
-    "pack coordination"
+    "long-distance communication"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "bark",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "growl",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "howl",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "bark",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "group cohesion",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "group cohesion",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "pack coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "long-distance communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "pack coordination",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1271,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1270,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1269,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1268,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1267,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1266,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1265,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1264,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1263,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1262,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1261,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1260,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1259,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1258,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1257,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1256,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1255,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1254,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1253,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1252,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1251,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1250,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1249,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1248,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1247,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1246,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1245,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.3390/ani16020175",
+      "url": "https://doi.org/10.3390/ani16020175",
+      "title": "Bioacoustic Detection of Wolves Using AI (BirdNET, Cry-Wolf and BioLingual)",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ar.25580",
+      "url": "https://doi.org/10.1002/ar.25580",
+      "title": "Evolutionary divergence of facial muscle physiology between domestic dogs and wolves",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.71364",
+      "url": "https://doi.org/10.1002/ece3.71364",
+      "title": "Domestic Dog Scent Marks Trigger a Behavioural Response in Wild Wolves",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-11413-z",
+      "url": "https://doi.org/10.1038/s41598-025-11413-z",
+      "title": "Automated detection of wolf howls using audio spectrogram transformers",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12917-025-04610-5",
+      "url": "https://doi.org/10.1186/s12917-025-04610-5",
+      "title": "Five-headed triceps brachii muscle, with an unusual communication between the musculocutaneous and median nerves in a cross-breed dog cadaver: a case report",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fvets.2025.1552390",
+      "url": "https://doi.org/10.3389/fvets.2025.1552390",
+      "title": "Risk perception and transmission potential of",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/genes16111371",
+      "url": "https://doi.org/10.3390/genes16111371",
+      "title": "Germline Variant Call Accuracy in Whole Genome Sequence Data from Canine Formalin-Fixed Paraffin-Embedded Tissue Samples",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-024-61110-6",
+      "url": "https://doi.org/10.1038/s41598-024-61110-6",
+      "title": "Domestication constrains the ability of dogs to convey emotions via facial expressions in comparison to their wolf ancestors",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/jhered/esae007",
+      "url": "https://doi.org/10.1093/jhered/esae007",
+      "title": "Conservation genomics of wolves: The global impact of RK Wayne's research",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1038/s42003-023-04450-9",
       "url": "https://doi.org/10.1038/s42003-023-04450-9",
@@ -151,6 +567,13 @@
       "doi": "10.1163/1568539x-00003495",
       "url": "https://doi.org/10.1163/1568539x-00003495",
       "title": "The function of play bows in Canis lupus and its variants: a comparison of dingo (Canis lupus dingo), dog (Canis lupus familiaris) and wolf puppies (Canis lupus)",
+      "year": 2018,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.25680/9621.2018.35.15.230",
+      "url": "https://doi.org/10.25680/9621.2018.35.15.230",
+      "title": "QUANTIFYING PREY SELECTION OF NORTHERN AND SOUTHERN EUROPEAN WOLVES (Canis lupus)",
       "year": 2018,
       "source": "crossref"
     },
@@ -258,9 +681,166 @@
       "title": "Supplemental Information 5: Goldman’s measurements (mm) on\n                      <i>Canis lupus</i>\n                      and\n                      <i>Canis rufus</i>\n                      crania from North America.",
       "year": null,
       "source": "crossref"
+    },
+    {
+      "doi": "10.7717/peerj.19219/supp-9",
+      "url": "https://doi.org/10.7717/peerj.19219/supp-9",
+      "title": "Supplemental Information 9: MALDI-TOF spectra for\n                      <i>Aenocyon dirus</i>\n                      ,\n                      <i>Canis lupus</i>\n                      , and\n                      <i>Canis latrans</i>\n                      ..",
+      "year": null,
+      "source": "crossref"
     }
   ],
   "papers": [
+    {
+      "paper_id": "pmid_41738481",
+      "title": "Experimental Assessment of the Effects of Substrate Choice on the Duration of Chemical Signals in Fecal Scent-Marks of Free-Ranging Iberian Wolves",
+      "year": 2026,
+      "doi": "10.1002/jez.70080",
+      "abstract": "Chemical communication, typically based on feces, urine, and glandular secretions, often deposited as substrate scent marks, plays a key role in social organization and communication among many mammals, especially carnivores. This study assesses experimentally whether the type of substrate chosen for fecal deposition and the temperature reached by these substrates influence the persistence of volatile compounds in feces of the Iberian wolf (Canis lupus signatus), considering their role in chemical communication. Fresh fecal scats collected in the wild were divided into equal fragments and positioned in an experimental setup on four different types of substrates exposed to the natural environment. Thereafter, we collected small fecal samples from each fragment at seven different time intervals since the initial deposition and analyzed their lipophilic chemical composition using gas chromatography-mass spectrometry (GC-MS). Variations in the temperature of each substrate were also monitored. The number of compounds in feces decreased with time since deposition and depended on the types of substrates. However, substrate temperature only influenced the persistence of some chemical compounds. These results suggest that when wolves select a substrate to deposit feces, enhancing visual cues (i.e., the different visual conspicuity of feces in different substrates) may play a more important role in fecal marking than trying to increase the persistence of the chemical signal. Overall, our study may help to enhance the understanding of fecal marking behavior in the Iberian wolf, especially regarding the interplay between visual and chemical signaling.",
+      "journal": "Journal of experimental zoology. Part A, Ecological and integrative physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41594365",
+      "title": "Bioacoustic Detection of Wolves Using AI (BirdNET, Cry-Wolf and BioLingual)",
+      "year": 2026,
+      "doi": "10.3390/ani16020175",
+      "abstract": "Rising numbers of wolf (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41492981",
+      "title": "Effects of political identity activation and inaccurate metaperceptions on attitudes toward wolves",
+      "year": 2026,
+      "doi": "10.1111/cobi.70212",
+      "abstract": "Polarization between groups can undermine durable conservation outcomes. Activating group identities (i.e., an individual's sense of self derived from membership in a group) can exacerbate differences, especially when people hold inaccurate perceptions of their peers and rivals. In conservation contexts, the dynamism of identity and its varying influence on attitudes and outcomes is underexplored. We conducted 2 randomly controlled experiments among residents of U.S. states with wolves (n = 2296) to investigate these dynamics in a conservation context. Results from Study 1 showed group identity activation (political identity, specifically) and inaccurate metaperceptions distorted attitudes toward gray wolves (Canis lupus) and deepened differences between people. Results from Study 2 showed a simple in-group metaperception correction attenuated this effect by reducing assumptions of polarization and limiting the effects of identity fusion. These results demonstrate the opportunity for conservation policy makers and practitioners to avoid activating identities assumed to be associated with conflict and instead counter false narratives that exaggerate division. Correcting inaccurate metaperceptions and designing identity-informed communication strategies may help bolster support for conservation goals and reduce avoidable conflict. Effects of political identity activation and inaccurate metaperceptions on attitudes toward wolves Resumen La polarización entre grupos puede socavar los resultados duraderos de la conservación. La activación de las identidades grupales (i.e., el sentido de identidad de un individuo derivado de su pertenencia a un grupo) puede exacerbar las diferencias, especialmente cuando las personas tienen percepciones inexactas de sus pares y rivales. En los contextos de conservación, el dinamismo de la identidad y su influencia variable en las actitudes y los resultados no se han sido suficientemente explorados. Realizamos dos experimentos controlados ",
+      "journal": "Conservation biology : the journal of the Society for Conservation Biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41015021",
+      "title": "Modulation of uterine responses in dogs: The divergent effects of semen and embryonal signals on steroidogenic receptors and selected immune system-related factors",
+      "year": 2026,
+      "doi": "10.1016/j.theriogenology.2025.117644",
+      "abstract": "Although dogs lack the classical pregnancy recognition via embryo-derived anti-luteolytic signaling, precise embryo-maternal communication remains essential in establishing pregnancy. While previous studies confirmed uterine responses to pre-attachment embryos versus semen-exposed non-pregnant controls, they did not include non-mated, non-pregnant controls. Following the hypothesis that embryo-derived signaling differs from the responses induced by semen, the present project included three groups of dogs (d. 10-12 of pregnancy/corresponding dioestrus): non-mated, mated and pregnant, and mated but non-pregnant (semen-exposed). The expression of nuclear hormone receptors and selected immunomodulatory factors was detected using semi-quantitative PCR and immunohistochemistry. While transcript levels of the progesterone (P4) nuclear receptor (PGR) were significantly elevated in response to embryo presence, its staining across the endometrial layers indicated apparent effects of semen exposure, further potentiated by the presence of embryos. ESR1/ERα showed a clear embryo-driven response, whereas ESR2/ERβ remained unchanged. The decreased availability of FOXP3 transcripts in response to semen, and the consistent expression of CD4 and CD25, suggests an increased presence of T-helper (Th) cells. Semen exposure also resulted in higher levels of CD163 and CD206, and decreased expression of CD8. Embryos had a stimulatory effect on the joint expression of T-cell markers (FOXP3, CD4, and CD25), pointing toward T-regs activity. Embryos also increased DLA-DRA and NCR1 expression. This study underscores the importance of differentiating between seminal plasma- and embryo-driven signals in the canine uterus. While exposure to semen may help prepare the uterus for implantation by modulating the immune response, embryo-derived signals further modulate these effects.",
+      "journal": "Theriogenology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41300821",
+      "title": "Germline Variant Call Accuracy in Whole Genome Sequence Data from Canine Formalin-Fixed Paraffin-Embedded Tissue Samples",
+      "year": 2025,
+      "doi": "10.3390/genes16111371",
+      "abstract": "BACKGROUND/OBJECTIVES: Fresh frozen (FF) samples are routinely used to isolate high-molecular-weight intact genomic DNA. However, when FF samples are not available, archived formalin-fixed paraffin-embedded (FFPE) tissue samples often represent the only available material in clinical research. Due to formaldehyde-induced degradation of nucleic acids they pose special challenges for genetic investigations. In this study we compare whole-genome sequencing results on intact DNA versus fragmented DNA derived from FFPE samples of three dogs. METHODS: We prepared matched libraries from FF and FFPE samples of three dogs affected by an inherited disease,  RESULTS: The data between FF and FFPE samples were largely consistent. FF data showed a superior variant call accuracy, as expected. However, the data quality from the FFPE samples was sufficient to correctly identify the causal variant in  CONCLUSIONS: This pilot study demonstrates the feasibility of using FFPE samples from dogs for whole-genome sequencing and the detection of germline variants. Using FFPE samples in the analysis of suspected inherited diseases in domestic animals may represent a valuable approach in veterinary genetics if no other samples are available.",
+      "journal": "Genes",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40695914",
+      "title": "Automated detection of wolf howls using audio spectrogram transformers",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-11413-z",
+      "abstract": "The grey wolf (Canis lupus) is a pivotal species for ecological studies. As a key participant in ecosystem processes, it also serves as a model for investigating social structure formation and ecological adaptation. However, the species' complex social behavior, spatial dynamics, and expansive habitats make monitoring and population assessments across large areas particularly challenging. In recent years, audio traps have been used to collect extensive datasets of wolf vocalizations, particularly howls. Yet, manually detecting wolf howls in lengthy recordings remains a labor-intensive and inefficient task. We propose an approach leveraging modern machine-learning techniques to address this challenge. Following a comprehensive analysis of sound processing methods, we developed two state-of-the-art deep learning models based on the Audio Spectrogram Transformer architecture. The first model classifies audio for the presence of animal sounds with a precision of 98.3% and a recall of 99.3%. The second model distinguishes wolf howls from other animal sounds with a precision of 89.6% and a recall of 93.4%. These models significantly enhance the efficiency and accuracy of wolf vocalization detection, supporting ecological monitoring and research efforts.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40635788",
+      "title": "Domestic Dog Scent Marks Trigger a Behavioural Response in Wild Wolves",
+      "year": 2025,
+      "doi": "10.1002/ece3.71364",
+      "abstract": "The European grey wolf (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40115835",
+      "title": "Risk perception and transmission potential of",
+      "year": 2025,
+      "doi": "10.3389/fvets.2025.1552390",
+      "abstract": "Neosporosis is a major cause of abortion in cattle with significant economic consequences for infected farms. We collected sympatric human dimensions, livestock, and wildlife data in a pilot study to assess the understanding and significance of",
+      "journal": "Frontiers in veterinary science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40084938",
+      "title": "Placental interleukin 1β signaling in canine pregnancy: differential effects during and after decidualization in vitro",
+      "year": 2025,
+      "doi": "10.1530/REP-24-0470",
+      "abstract": "IN BRIEF: The role of inflammation in the regulation of pregnancy remains poorly understood in dogs. Findings from this study propose the involvement of IL1β signaling during early embryo-maternal interactions in the dog, while in vitro effects suggest it may disrupt decidual cell function in the canine mature placenta. ABSTRACT: Although implantation and parturition are associated with pro-inflammatory signals, inflammatory responses in the mature placenta frequently lead to pregnancy loss. Indeed, uterine inflammatory/infectious diseases are major causes of infertility and pregnancy loss in dogs. The pro-inflammatory interleukin (IL)-1β is increased during canine placentation and downregulated in mature placentae during healthy pregnancies but is enriched in the placenta during infectious events. Furthermore, canine pregnancy success is linked with decidual cells, the only placental cells expressing the nuclear progesterone receptor. This study assessed utero-placental abundance of IL1β receptor 1 (IL1R1) throughout canine pregnancy and possible modulatory effects of IL1β on decidualization. The mRNA levels of IL1R1 were increased in mature mid-gestation placentae and at term (P < 0.05). Immunohistochemistry co-localized IL1β and IL1R1 in the trophoblast during early placentation, implicating IL1β-signaling in early embryo-maternal communication. In the mature placenta, IL1R1 was localized, i.a. in decidual cells. In vitro, IL1β had low modulatory effects on PGE2- and/or P4-stimulated dog uterine stromal (DUS) cells, implying a relatively weak impact of this interleukin in the decidualization process. However, in DUS cells decidualized with cAMP, IL1β decreased transcriptional amounts of selected decidualization markers IGF1, PTGS2 and PTGES, as well as ECM1 and TIMP2 (P < 0.001). Transcriptional and protein availabilities of CX43, a gap junction component, were also decreased by IL1β (P < 0.001). These findings support a dual role for IL1β in canine pregnancy: in",
+      "journal": "Reproduction (Cambridge, England)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40025498",
+      "title": "Five-headed triceps brachii muscle, with an unusual communication between the musculocutaneous and median nerves in a cross-breed dog cadaver: a case report",
+      "year": 2025,
+      "doi": "10.1186/s12917-025-04610-5",
+      "abstract": "In the domestic dog, the medial head (caput mediale) of the triceps brachii muscle arises via a distinct tendon from the crest of the lesser tubercle and the accessory head (caput accessorium) from the proximal caudal part of the neck of the humerus. Here the author presents a previously unreported additional point of origin of the triceps brachii muscle on both antimeres of an adult male cross-breed domestic dog cadaver. The variant head arose via fleshy fibers from the medial aspect of the neck of the humerus, just caudal to the lesser tubercle and fused at insertion with the caudal aspect of the proximal half of the medial head. Thus, it can simply be considered as the second accessory head of the triceps brachii muscle. The radial collateral artery on the left limb passed distolaterally between the medial and variant heads, whereas it passed caudal to the variant head on the right limb. The communicating branch between the musculocutaneous and median nerves extended in both directions on the left brachium. Besides a potential clinical significance, knowledge of this variant can be useful in understanding the embryogenic and phylogenetic perspectives.",
+      "journal": "BMC veterinary research",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39869854",
+      "title": "Empowering canine genomics: design and validation of a high-density SNP array for Indian dogs",
+      "year": 2025,
+      "doi": "10.1139/gen-2024-0094",
+      "abstract": "India harbors a substantial population of 9.43 million dogs, showcasing diverse phenotypes and utility. Initiatives focusing on awareness, conservation, and informed breeding can greatly enhance the recognition and welfare of the unique Indian canine heritage. This study describes the design and development of a high-density SNP array for genomic characterization of Indian dogs. Paired-end (150 bp) DNA sequences of 48 samples from four diverse dog populations were generated with 10× coverage, following the standard pipeline of Axiom Array technology for chip design. More than 23 million raw SNPs were initially identified, with 629 597 SNP markers ultimately tiled on the Indian canine array (",
+      "journal": "Genome",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39360643",
+      "title": "Evolutionary divergence of facial muscle physiology between domestic dogs and wolves",
+      "year": 2025,
+      "doi": "10.1002/ar.25580",
+      "abstract": "Domestic dogs (Canis familiaris) are descended from gray wolf (Canis lupus) populations that inhabited Western Europe and Siberia. The specific timing of dog domestication is debated, but archeological and genetic evidence suggest that it was a multi-phase process that began at least 15,000 years ago. There are many morphological differences between dogs and wolves, including marked divergence in facial muscle morphology, but we know little about the comparative physiology of these muscles. A better understanding of comparative facial muscle physiology between domestic dogs and gray wolves would improve our conceptual framework for the processual mechanisms in dog domestication. To address these issues, we assessed the myosin profiles (type I and type II) from the zygomaticus and orbicularis oris muscles of 6 domestic dogs and 4 gray wolves. Due to small sample sizes, statistical analyses were not done. Results reveal that sampled domestic dogs have almost 100% fast-twitch (type II) muscle fibers while gray wolves have less than 50%, meaning that dog faces can contract fast while wolf faces are able to sustain facial muscle contraction. Sample sizes are limited but the present study indicates that dog domestication is associated with not only a change in facial muscle morphology but a concomitant change in how these muscles function physiologically. Selective pressures in the development of communication between dogs and humans using facial expression may have influenced this evolutionary divergence, but the paedomorphic retention of barking in adult dogs may have also played a role.",
+      "journal": "Anatomical record (Hoboken, N.J. : 2007)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38714729",
+      "title": "Domestication constrains the ability of dogs to convey emotions via facial expressions in comparison to their wolf ancestors",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-61110-6",
+      "abstract": "Dogs (Canis lupus familiaris) are the domestically bred descendant of wolves (Canis lupus). However, selective breeding has profoundly altered facial morphologies of dogs compared to their wolf ancestors. We demonstrate that these morphological differences limit the abilities of dogs to successfully produce the same affective facial expressions as wolves. We decoded facial movements of captive wolves during social interactions involving nine separate affective states. We used linear discriminant analyses to predict affective states based on combinations of facial movements. The resulting confusion matrix demonstrates that specific combinations of facial movements predict nine distinct affective states in wolves; the first assessment of this many affective facial expressions in wolves. However, comparative analyses with kennelled rescue dogs revealed reduced ability to predict affective states. Critically, there was a very low predictive power for specific affective states, with confusion occurring between negative and positive states, such as Friendly and Fear. We show that the varying facial morphologies of dogs (specifically non-wolf-like morphologies) limit their ability to produce the same range of affective facial expressions as wolves. Confusion among positive and negative states could be detrimental to human-dog interactions, although our analyses also suggest dogs likely use vocalisations to compensate for limitations in facial communication.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38653059",
+      "title": "Characterization and LC-MS/MS based proteomic analysis of extracellular vesicles separated from blood serum of healthy and dogs naturally infected by Babesia canis. A preliminary study",
+      "year": 2024,
+      "doi": "10.1016/j.vetpar.2024.110188",
+      "abstract": "Canine babesiosis is a rapidly spreading tick-borne disease in Europe, which entails protozoan parasites invading red blood cells. Small extracellular vesicles (EVs) (< 200 nm) were isolated from the serum of 15 healthy and 15 by Babesia canis naturally infected dogs aimed to distinguish EV characteristics and protein profiles. There were no significant differences (P = 0.05) observed in the mean sizes and concentrations of serum EVs between the healthy and canine babesiosis groups. Despite a higher number of Canis lupus proteins detected in EVs from serum of diseased dogs, there were no statistically significant differences (P < 0.05) in the number of protein IDs between the experimental groups. We successfully identified 211 Canis lupus proteins across both experimental groups, of which 147 Canis lupus proteins were validated as being EV-associated. This data set is accessible via the ProteomeXchange PXD047647. EVs isolated from serum of B. canis infected dogs were Cd9",
+      "journal": "Veterinary parasitology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38381553",
+      "title": "Conservation genomics of wolves: The global impact of RK Wayne's research",
+      "year": 2024,
+      "doi": "10.1093/jhered/esae007",
+      "abstract": "RK Wayne has arguably been the most influential geneticist of canids, famously promoting the conservation of wolves in his homeland, the United States. His influence has been felt in other countries and regions outside the contiguous United States, where he inspired others, also including former graduate students and research fellows of his, to use modern molecular techniques to examine the evolutionary biology of canids to inform the conservation and management of wolves. In this review, we focus on the implications of Wayne's work on wolves outside the United States. He envisioned a clear future for wolf conservation research, involving the study of wolves' ecological and genetic diversity, and the description of ecotypes requiring conservation. He also documented widespread hybridization among canids and introgression of DNA from domestic dogs to wolves, a process that started dozens of thousands of years ago. His work therefore calls for innovative studies, such as examining the potential fitness benefits of introgression. Inspired by his results, for example, on the purging of deleterious alleles in small populations, wolf researchers should use novel molecular tools to challenge other conservation genetics paradigms. Overall, RK Wayne's work constitutes a call for answers, which as scientists or citizens concerned with conservation matters, we are obliged to address, as we contribute to monitoring and maintaining biodiversity during our period of dramatic transformations of the biosphere.",
+      "journal": "The Journal of heredity",
+      "open_access": 1,
+      "source": "pubmed"
+    },
     {
       "paper_id": "10_1038_s42003-023-04450-9",
       "title": "Genetic distance from wolves affects family dogs’ reactions towards howls",
@@ -269,11 +849,7 @@
       "abstract": "Domestication dramatically changes behaviour, including communication, as seen in the case of dogs (Canis familiaris) and wolves (Canis lupus). We tested the hypothesis that domestication may affect an ancient, shared communication form of canids, the howling which seems to have higher individual variation in dogs: the perception and usage of howls may be affected by the genetic relatedness of the breeds to their last common ancestor with wolves ('root distance') and by other individual features like age, sex, and reproductive status. We exposed 68 purebred dogs to wolf howl playbacks and recorded their responses. We identified an interaction between root distance and age on the dogs' vocal and behavioural responses: older dogs from more ancient breeds responded longer with howls and showed more stress behaviours. Our results suggest that domestication impacts vocal behaviour significantly: disintegrating howling, a central, species-specific communication form of canids and gradually e",
       "journal": "Communications Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1101_612507",
@@ -283,11 +859,7 @@
       "abstract": "<jats:p>Vocal communication in social animals plays a crucial role in mate choice, maintaining social structure, and foraging strategy. The Indian grey wolf, among the less studied subspecies, is a social carnivore that lives in groups called packs and has many types of vocal communication. In this study, we characterise harmonic vocalisation types in the Indian wolf using howl survey responses and opportunistic recordings from captive and nine packs (each pack contains 2-9 individuals) of free-ranging Indian wolves. Using principal component analysis, hierarchical clustering, and discriminant function analysis, we found four vocal types using 270 recorded vocalisations (Average Silhouette width Si = 0.598) which include howls and howl-bark (N=238), whimper (N=2), social squeak (N=28), and whine (N=2). Although having a smaller body size, Indian wolf howls have an average mean fundamental frequency of 0.422KHz (±0.126), which is similar to other Holarctic clade subspecies. The whimper ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_119418",
@@ -297,11 +869,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_1568539x-00003495",
@@ -311,11 +879,17 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>Play bows represent a common, highly stereotyped behaviour across the genus<jats:italic>Canis</jats:italic>. However, much of what we know is limited to the wolf and its domestic derivative, the domestic dog. Here we continue to look at the function of play bows among subspecies/variants of<jats:italic>Canis lupus</jats:italic>by including the dingo. Comparing dingoes to wolves and dogs may provide further insight into the impact of domestication on play behaviour. We analysed play bows in three-to-six month old dingo puppies and compared the results to previous studies of wolves and dogs. The function of play bows in dingoes appears consistent with those observed in dogs and wolf puppies. However, subtle intraspecific differences (such as the frequency and duration of play bows, and vocalizations during play) were apparent, and warrant further investigation in the genus<jats:italic>Canis</jats:italic>, as well as the Family Canidae more broadly",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_25680_9621_2018_35_15_230",
+      "title": "QUANTIFYING PREY SELECTION OF NORTHERN AND SOUTHERN EUROPEAN WOLVES (Canis lupus)",
+      "year": 2018,
+      "doi": "10.25680/9621.2018.35.15.230",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_12987_yale_9780300226164_003_0007",
@@ -325,11 +899,7 @@
       "abstract": "<p>\n                    This chapter examines the distinctive situation in Australia, where\n                    <italic>Homo sapiens</italic>\n                    and dingoes coexisted for several thousand years. These two species were the only large placental mammals on a continent dominated by marsupial mammals and large reptiles. The dingo group represents a unique branch of canid domestication; they live independently, either wild or semi-wild, but also associate with humans, including hunting and even sleeping with them. Dingoes demonstrate that it is possible for an animal previously domesticated to live and reproduce successfully without humans. The relationship between dingoes and the Aboriginals provides a model for investigating the process of domestication in canids, strongly suggesting that domestication is a multistep and potentially reversible process. It also reveals how a canid can exist in a situation where it may or may not choose to live with humans, functioning well ",
       "journal": "The First Domestication",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_19052_mv_3857",
@@ -339,11 +909,7 @@
       "abstract": "<jats:p>Arteriosclerosis means the hardening of the arteries due to changes in the histological structure of the vascular wall, such as muscle hypertrophy, connective tissue, calcium deposit, lipids, etc. Atherosclerosis is characterized by the formation of fibrous intimal plaques which often have a rich lipid core this disease is the most common type of Arteriosclerosis in humans and, therefore, of great importance for study. Some authors report that Arteriosclerosis is common, but of little importance, in domestic animals they also describe the dog (&lt;em&gt;Canis lupus familiaris&lt;/em&gt;) as athero-resistant however, at present there are several reports presenting vascular lesions similar to those observed in humans, related to close cohabitation in their role as pets. Therefore, this study focuses on the research and description of histopathological lesions related to Arteriosclerosis in dogs, based on a retrospective study of casuistry at the Laboratory of Veterinary Pathology",
       "journal": "Revista de Medicina Veterinaria",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_15372_sej20150306",
@@ -353,11 +919,7 @@
       "abstract": "",
       "journal": "Сибирский экологический журнал",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_beproc_2014_08_019",
@@ -367,11 +929,7 @@
       "abstract": "",
       "journal": "Behavioural Processes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-015-0897-6",
@@ -381,11 +939,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-642-53994-7_6",
@@ -395,11 +949,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2981_12-022",
@@ -409,11 +959,7 @@
       "abstract": "Long‐distance vocalizations by canids play an important role in communication among individuals, and researchers have elicited these vocalizations to estimate canid occurrence and relative abundance. We evaluated the efficacy of broadcasted coyote Canis latrans group‐yip calls and gray wolf C. lupus lone howls to elicit vocal responses from 18 GPS‐collared coyotes on 144 occasions in Michigan's Upper Peninsula during August‐September 2009 and June‐September 2010‐2011. We evaluated coyote responses to each call type using mixed‐effects logistic regression models with time (month), residency status (resident or transient), presence in wolf territory, sex, distance, movement and call type as fixed effects hypothesized to influence coyote vocal response rates. The individual coyote and year were included as random effects. Overall, call type, sex and presence of wolf territory did not affect coyote response rates; however, coyotes did not respond to wolf calls broadcasted at distances of &",
       "journal": "Wildlife Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_eth_12044",
@@ -423,11 +969,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>Little is known about the development of the sensory systems of wolves. The timing of sensory development in wolves is usually extrapolated from studies on dogs, since they are members of the same species. However, early developmental differences between these two subspecies have already been identified. For example, wolves tend to approach and investigate objects in their environment 2 wk before dogs. These changes in developmental timing may play an important role in the behavioral differences between adult wolves and dogs. The purpose of this study is to compare the development of the sensory systems in wolves and dogs.</jats:p><jats:p>Responses of seven wolf pups and 43 dog pups to familiar and novel olfactory, auditory, and visual stimuli were tested weekly from 2–7 wk of age. Eleven wolf pups were also observed for orientation towards auditory and visual stimuli during 2‐h sessions, 5 d a week, from 2–8 wk of age. These observations were s",
       "journal": "Ethology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1017_s2040470010002529",
@@ -437,11 +979,7 @@
       "abstract": "",
       "journal": "Advances in Animal Biosciences",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90295",
@@ -451,11 +989,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10164-006-0015-y",
@@ -465,11 +999,7 @@
       "abstract": "",
       "journal": "Journal of Ethology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1037_0735-7036_116_2_189",
@@ -479,11 +1009,17 @@
       "abstract": "The disparity in bark frequency and context between dogs (Canis familiaris) and wolves (Canis lupus) has led some researchers to conclude that barking in the domestic dog is nonfunctional. This conclusion attributes the differences primarily to genetic variation caused by domestication rather than to the influence of social environment on ontogeny. Other researchers, however, have concluded that vocal usage and response to vocalizations in mammals are strongly guided by social interactions. Closer evaluation of dog vocalizations with respect to social environment reveals developmental factors that lead to both frequent barking and barking in many contexts. Additionally, spectrographic analysis indicates that bark structure varies predictably with context, suggesting that barks can be divided into contextual subtypes and may be a more complex form of communication than given credit.",
       "journal": "Journal of comparative psychology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5219173_11",
+      "title": "Vocal communication in the timber wolf, Canis lupus, Linnaeus. Structure, motivation, and ontogeny",
+      "year": 1993,
+      "doi": null,
+      "abstract": "",
+      "journal": "Advances in Ethology",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "lit_gbif_5219243_11",
@@ -493,11 +1029,37 @@
       "abstract": "",
       "journal": "Advances in Ethology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5219532_12",
+      "title": "Vocal communication in the timber wolf, Canis lupus, Linnaeus. Structure, motivation, and ontogeny",
+      "year": 1993,
+      "doi": null,
+      "abstract": "",
+      "journal": "Advances in Ethology",
+      "open_access": 0,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5219243_12",
+      "title": "Vocal communication in the timber wolf, Canis lupus, Linnaeus. Structure, motivation, and ontogeny",
+      "year": 1993,
+      "doi": null,
+      "abstract": "",
+      "journal": "Advances in Ethology",
+      "open_access": 0,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5219532_13",
+      "title": "Vocal communication in the timber wolf, Canis lupus, Linnaeus. Structure, motivation, and ontogeny",
+      "year": 1993,
+      "doi": null,
+      "abstract": "",
+      "journal": "Advances in Ethology",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_156853977x00298",
@@ -507,11 +1069,7 @@
       "abstract": "Abstract Two naive wolf pups (Canis lupus) were presented a variety of sound stimuli, including standardized recordings of natural and synthetic adult howls. The greatest and most consistent vocal response was elicited by the \"real\" howls. The nature of the response depended in part upon the i) type of stimulus, 2) number of stimulus presentations, 3) associated manipulations of context, and 4) individual differences in vocal responsiveness. Neither specific ongoing behaviors nor general activity levels of the pups appears to have mediated their vocal behavior. Differential responses demonstrated their ability to distinguish between recorded howls of adult wolves. Manipulation of the context, through presentation of either a human observer, live dog, or live mice increased the pups' vocalizations to the recordings. The results are discussed in terms of both extrinsic and intrinsic determinants of an animal's response to communication signals.",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7717_peerj_19219_supp-5",
@@ -521,14 +1079,20 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_7717_peerj_19219_supp-9",
+      "title": "Supplemental Information 9: MALDI-TOF spectra for\n                      <i>Aenocyon dirus</i>\n                      ,\n                      <i>Canis lupus</i>\n                      , and\n                      <i>Canis latrans</i>\n                      ..",
+      "year": null,
+      "doi": "10.7717/peerj.19219/supp-9",
+      "abstract": "",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     }
   ],
-  "paper_count": 19,
+  "paper_count": 40,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

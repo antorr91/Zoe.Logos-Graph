@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 6,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 33,
+    "claim_count": 8,
+    "doi_count": 31,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,75 +42,265 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "song"
+    "song",
+    "alarm call"
   ],
   "contexts": [
-    "mate attraction",
-    "territorial defence"
+    "territorial defence",
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 2037,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2036,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2035,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2034,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2033,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2032,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2031,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2030,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Turdus philomelos",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1002/ece3.11516",
+      "url": "https://doi.org/10.1002/ece3.11516",
+      "title": "Constitutive immune function is not associated with fuel stores in spring migrating passerine birds",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10493-023-00878-0",
+      "url": "https://doi.org/10.1007/s10493-023-00878-0",
+      "title": "Toxoplasma gondii infection in ticks infesting migratory birds: the blackbird (Turdus merula) and the song thrush (Turdus philomelos)",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani14020215",
+      "url": "https://doi.org/10.3390/ani14020215",
+      "title": "Relationship between Fat Status, Stage of Gonadal Maturity and Hormonal Variation of",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani14142050",
+      "url": "https://doi.org/10.3390/ani14142050",
+      "title": "The Presence of Microplastics in the Gastrointestinal Tracts of Song Thrushes (",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.ijppaw.2023.08.008",
+      "url": "https://doi.org/10.1016/j.ijppaw.2023.08.008",
+      "title": "Exo-erythrocytic development of",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-48512-8",
+      "url": "https://doi.org/10.1038/s41598-023-48512-8",
+      "title": "Social information modifies the associations between forest fragmentation and the abundance of a passerine bird",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s40462-023-00372-7",
+      "url": "https://doi.org/10.1186/s40462-023-00372-7",
+      "title": "The oxidative balance and stopover departure decisions in a medium- and a long-distance migrant",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s40462-023-00407-z",
+      "url": "https://doi.org/10.1186/s40462-023-00407-z",
+      "title": "Modelling the timing of migration of a partial migrant bird using ringing and observation data: a case study with the Song Thrush in Italy",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/pathogens12050712",
+      "url": "https://doi.org/10.3390/pathogens12050712",
+      "title": "Host Cells of",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1016/j.ecoinf.2022.101952",
       "url": "https://doi.org/10.1016/j.ecoinf.2022.101952",
       "title": "Unsupervised classification to improve the quality of a bird song recording dataset",
       "year": 2022,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1038/s41598-022-16033-5",
+      "url": "https://doi.org/10.1038/s41598-022-16033-5",
+      "title": "Analysis of ultrastructure and microstructure of blackbird (Turdus merula) and song thrush (Turdus philomelos) eggshell by scanning electron microscopy and X-ray computed microtomography",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/v14020416",
+      "url": "https://doi.org/10.3390/v14020416",
+      "title": "West Nile and Usutu Virus Introduction via Migratory Birds: A Retrospective Analysis in Italy",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/v14071364",
+      "url": "https://doi.org/10.3390/v14071364",
+      "title": "Metatranscriptomic Comparison of Viromes in Endemic and Introduced Passerines in New Zealand",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.1002/fee.2195",
@@ -153,6 +343,13 @@
       "title": "Turdus philomelos",
       "year": 2019,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1186/s12898-019-0255-7",
+      "url": "https://doi.org/10.1186/s12898-019-0255-7",
+      "title": "Habitat-related differences in song structure and complexity in a songbird with a large repertoire",
+      "year": 2019,
+      "source": "openalex"
     },
     {
       "doi": "10.2305/iucn.uk.2016-3.rlts.t22708822a87875705.en",
@@ -204,6 +401,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1093/auk/105.1.11",
+      "url": "https://doi.org/10.1093/auk/105.1.11",
+      "title": "Effects of Food Supplementation, Song Playback, and Temperature on Vocal Territorial Behavior of Carolina Wrens",
+      "year": 1988,
+      "source": "openalex"
+    },
+    {
       "doi": "10.1016/0003-3472(78)90113-6",
       "url": "https://doi.org/10.1016/0003-3472(78)90113-6",
       "title": "Foraging and territory utilization of blackbirds (Turdus merula) and song thrushes (Turdus philomelos)",
@@ -227,6 +431,116 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_39241452",
+      "title": "Contributions of birds to the feeding of ticks at host community level: Effects of tick burden, host density and yearly fluctuations",
+      "year": 2024,
+      "doi": "10.1016/j.ttbdis.2024.102390",
+      "abstract": "The eco-epidemiology of tick-borne diseases hinges on the abundance and distribution of hosts that sustain tick populations and the pathogens they carry. Research into the role of bird species in the feeding of Ixodes ricinus ticks, the primary tick species of veterinary and public health importance in Europe, remains scarce. This study endeavors to bridge these knowledge gaps by (i) assessing the density of feeding ticks (DFT) within a bird community to pinpoint species making substantial contributions, and (ii) exploring interannual variations in DFT over an extended timeline. Furthermore, we investigate whether variations in individual tick burden (TB) were more closely associated with the characteristics of bird species or interannual variations affecting the density of questing tick, using interannual TB variation as a surrogate. To fulfill these aims, we conducted a 13-year longitudinal study monitoring I. ricinus ticks feeding on a bird community in a periurban forest in France, covering breeding periods from 2007 to 2019. Within this community, we identified seven principal bird species significantly contributing to I. ricinus tick feeding: the Common Blackbird (Turdus merula), the Song Thrush (Turdus philomelos), the European Robin (Erithacus rubecula), the Dunnock (Prunella modularis), the Eurasian Blackcap (Sylvia atricapilla), the Great Tit (Parus major), and the Common Nightingale (Luscinia megarhynchos). Our results show that the bird community's contribution to tick feeding remained relatively consistent from year-to-year, though certain years displayed higher or lower DFT values related to the average over the study period. Moreover, five out the seven major species accounted for 80 % to 95 % of DFT annually. Consequently, we emphasized the need to broaden the scope of future research on bird contributions to tick population dynamics beyond merely thrushes (Turdidae species), to encompass a more diverse range of species, particularly those common bir",
+      "journal": "Ticks and tick-borne diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39061512",
+      "title": "The Presence of Microplastics in the Gastrointestinal Tracts of Song Thrushes (",
+      "year": 2024,
+      "doi": "10.3390/ani14142050",
+      "abstract": "The term microplastics (MPs) describes a heterogeneous mixture of particles that can vary in size, color, and shape. Once released into the environment, MPs have various toxicological and physical effects on wildlife. The Song Thrush (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38932964",
+      "title": "Constitutive immune function is not associated with fuel stores in spring migrating passerine birds",
+      "year": 2024,
+      "doi": "10.1002/ece3.11516",
+      "abstract": "Migratory birds may either upregulate their immune system during migration as they might encounter novel pathogens or downregulate their immune system as a consequence of trade-offs with the resource costs of migration. Support for the latter comes not least from a study that reports a positive correlation in autumn migrating birds between fuel stores and parameters of innate and acquired immune function, that is, energy-exhausted migrants appear to have lowered immune function. However, to our knowledge, no study has tested whether this pattern exists in spring migrating birds, which may face other trade-offs than autumn migrants. Here, we investigate if in spring there is a relationship between fuel stores and microbial-killing ability, a measure of innate immune function, and total immunoglobulin (IgY), a measure of acquired immune function, in four migrating bird species: chaffinches (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38452992",
+      "title": "First experimental observation on biology of the avian malaria parasite Plasmodium (Novyella) homonucleophilum (lineage pSW2), with remarks on virulence and distribution",
+      "year": 2024,
+      "doi": "10.1016/j.actatropica.2024.107174",
+      "abstract": "Species of subgenus Novyella remain most fragmentarily studied amongst avian malaria agents. Transmission of the recently described Plasmodium (Novyella) homonucleophilum (lineage pSW2) occurs broadly in the Old World, including Europe, however biology of this pathogen remains insufficiently investigated. This study provided the first data on the development of P. homonucleophilum in the experimentally infected Eurasian siskins Spinus spinus exposed by inoculation of infected blood. The parasite strain was isolated from a naturally infected song thrush Turdus philomelos, multiplied in vivo, and inoculated to six Eurasian siskins. The same number of birds were used as negative controls. All exposed birds were susceptible, and the controls remained uninfected during the entire study (172 days). Prepatent period was 8-12 days post exposure (dpe). Maximum parasitaemia reached 50-90 % of infected erythrocytes between 20 and 44 dpe. Then, parasitaemia decreased but remained relatively high during the entire observation. Three of six exposed birds died, indicating high virulence of this infection. The parasitaemia increase coincided with a decline of haematocrit value, indicating anaemia. Polychromasia was evident in all infected birds but not in controls. Body mass of exposed birds increased, coinciding with increased food intake. The latter probably is an adaptation to compensate energy loss of hosts due to the long-lasting parasitism. Exo-erythrocytic stages were not found, suggesting that long-lasting parasitaemia was entirely due to erythrocytic merogony. The lineage pSW2 has been reported broadly in the Old World and is likely a generalist infection. Neglected avian Novyella malaria parasites are worth more attention of researchers due to their cosmopolitan distribution and high virulence.",
+      "journal": "Acta tropica",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38321308",
+      "title": "Toxoplasma gondii infection in ticks infesting migratory birds: the blackbird (Turdus merula) and the song thrush (Turdus philomelos)",
+      "year": 2024,
+      "doi": "10.1007/s10493-023-00878-0",
+      "abstract": "Toxoplasmosis, caused by the protozoan Toxoplasma gondii, is the zoonosis widespread all over the world. Birds constitute an important group of T. gondii intermediate hosts often attacked by definitive hosts, e.g. domestic cats. Due to confirmation of an additional way of T. gondii transmission via tick bite, the aim of our study was to state and evaluate the infection prevalence of ticks feeding on blackbirds (Turdus merula) and song thrushes (Turdus philomelos). The real-time PCR amplification of the B1 gene fragment was used for detection of T. gondii infection in 157 Ixodes ricinus ticks removed from captured birds. The results showed the thrushes as hosts intensively attacked by ticks (prevalence 88.5% and 70% for blackbirds and song thrushes, respectively), and T. gondii infected individuals were detected. Among all ticks infected, 7 (5.8%; n = 120) were collected from blackbirds, and 2 (5.4%; n = 37) from song thrushes. The thrushes small body sizes and their tendency to urban ecosystems colonization, suggest that they relatively often become a pray of domestic cats, and combined with our findings, are potentially involved in maintenance the T. gondii population, especially in anthropogenic habitats, where the presence of toxoplasmosis is likely to constitute a serious danger to public health.",
+      "journal": "Experimental & applied acarology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38254384",
+      "title": "Relationship between Fat Status, Stage of Gonadal Maturity and Hormonal Variation of",
+      "year": 2024,
+      "doi": "10.3390/ani14020215",
+      "abstract": "In this study, we aimed to evaluate the development of the fattening condition and the reproductive status of the song thrush from December to February. For this purpose, the chemical and fatty acid compositions of the pectoral muscle were analyzed in relation to the fattening state of the birds. Moreover, their reproductive activity was evaluated via the anatomical and pathological examination of tissues and through the assessment of sex steroid profiles. One hundred ninety-five thrushes captured by local hunters during the 2018-2019 and 2019-2020 hunting seasons in different provinces of the Apulia region in Italy were used. The first step was the measurement of bird body mass, and the amount of subcutaneous body fat was estimated visually. During post-mortem examinations, the pectoral muscle was excised and used for chemical and fatty acid analysis and a hormone assay, respectively. Moreover, ovaries and testicles were evaluated to determine the degree of maturation and thus the reproductive status of the birds. The results regarding fattening status and fatty acid profile confirmed that in January-February, thrushes change their diet, increasing their intake of oleic acid, likely to better cope with low temperatures and prepare for long-distance migration. In both male and female thrushes, the concentrations of sex hormones confirmed a phase of reproductive quiescence from December to February, which was also confirmed through histological examination of the gonads.",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38049553",
+      "title": "Social information modifies the associations between forest fragmentation and the abundance of a passerine bird",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-48512-8",
+      "abstract": "Habitat loss and fragmentation are the main factors driving the occurrence and abundance of species in the landscape. However, the local occurrence and abundance of species may also depend on conspecific and heterospecific social information e.g. clues of animals' presence or their voices. We investigated the impact of the interaction between different types of social information and forest fragmentation on the abundance of the song thrush, Turdus philomelos, in Central Europe. Three types of social information (attractive, repulsive, and mixed) and procedural control were broadcasted via loudspeakers in 150 forest patches that varied in size and isolation metrics. Repulsive social information (cues of presence of predator) decreased abundance of song thrush. Also, the repulsive social information changed the association between forest patch isolation, size and the abundance. Attractive social information (songs of the studied thrush) had no effect on song thrush abundance. However, the attractive social information reversed the positive correlation between habitat patch size and the abundance. Mixed social information (both repulsive and attractive) had no impact on the abundance nor interacted with habitat fragmentation. The observed effects mostly did not last to the next breeding season. Overall, our findings indicate that lands of fear and social attraction could modify the effect of habitat fragmentation on the species abundance but these effects probably are not long-lasting.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37692054",
+      "title": "Exo-erythrocytic development of",
+      "year": 2023,
+      "doi": "10.1016/j.ijppaw.2023.08.008",
+      "abstract": "",
+      "journal": "International journal for parasitology. Parasites and wildlife",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37528451",
+      "title": "Modelling the timing of migration of a partial migrant bird using ringing and observation data: a case study with the Song Thrush in Italy",
+      "year": 2023,
+      "doi": "10.1186/s40462-023-00407-z",
+      "abstract": "BACKGROUND: The study of the timing of migration is fundamental to the understanding of the ecology of many bird species and their response to climate change, and it has important conservation and management implications e.g., for assessing the hunting seasons according to the EU Directive 2009/147/EC (Birds Directive). METHODS: We developed a new method for the analysis of ringing data (both first capture and re-encounters) and citizen science observations, to assess the timing of pre- and post-nuptial migration of birds. This method was tested on the Song Thrush Turdus philomelos, using i) the Bird Ringing Database hosted by the ISPRA Italian Ringing Centre from the whole Italian peninsula, the three closest large islands (Sicily, Sardinia and Corsica), and Canton Ticino (Switzerland) and ii) the eBird data for the same study area. RESULTS: The results from both datasets consistently showed that pre-nuptial migration starts during the first 10-day period of January (Jan 1) in some central and southern areas of the Italian peninsula, in central Sicily, southern Sardinia, and Corsica. The onset of migration occurs on Jan 2 in the rest of central and southern Italy, Sicily and Sardinia, and western Liguria, while it starts later in the north-eastern Alps, up to Mar 3. The end of post-nuptial migration is more synchronous, occurring on Nov 1 across most of Italy, slightly earlier (Oct 3) in northern Italy and later (Nov 2) in Sicily. The uncertainty of the estimated dates was < 2 days in most cases. CONCLUSION: This method represents a novel and valuable tool for the analyses of the timing of migration using ringing and citizen science data and provides an important contribution to the Key Concepts Document of the EU Birds Directive, where migration timings are considered and used to define the hunting period of birds.",
+      "journal": "Movement ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37242382",
+      "title": "Host Cells of",
+      "year": 2023,
+      "doi": "10.3390/pathogens12050712",
+      "abstract": "",
+      "journal": "Pathogens (Basel, Switzerland)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36747277",
+      "title": "The oxidative balance and stopover departure decisions in a medium- and a long-distance migrant",
+      "year": 2023,
+      "doi": "10.1186/s40462-023-00372-7",
+      "abstract": "BACKGROUND: Birds have extremely elevated metabolic rates during migratory endurance flight and consequently can become physiologically exhausted. One feature of exhaustion is oxidative damage, which occurs when the antioxidant defense system is overwhelmed by the production of damaging reactive oxygen species (ROS). Migrating birds have been shown to decrease the amount of oxidative lipid damage during stopovers, relatively stationary periods in between migratory flights. It has therefore been argued that, in addition to accumulating fuel, one of the functions of stopover is to restore the oxidative balance. If this is so, we would expect that migrating birds are unlikely to resume migration from stopover when they still have high amounts of lipid damage. METHODS: To test this hypothesis, we measured parameters of the oxidative balance and related these to stopover departure decisions of song thrushes (Turdus philomelos) and northern wheatears (Oenanthe oenanthe), a medium- and long-distance songbird migrant, respectively. We measured malondialdehyde (MDA) concentration, a biomarker for oxidative lipid damage, and total non-enzymatic antioxidant capacity (AOX), an overall biomarker of protection against ROS. Stopover departure decisions were determined using a fully automated telemetry system set-up on our small island study site. RESULTS: The decision to resume migration was not related with MDA concentration in either study species, also not when this was corrected for circulating fatty acid concentrations. Similarly, AOX did not affect this decision, also not when corrected for uric-acid concentration. The time within the night when birds departed also was not affected by MDA concentration or AOX. However, confirming earlier observations, we found that in both species, fat individuals were more likely to depart than lean individuals, and fat northern wheatears departed earlier within the night than lean conspecifics. Northern wheatears additionally departed earl",
+      "journal": "Movement ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1016_j_ecoinf_2022_101952",
       "title": "Unsupervised classification to improve the quality of a bird song recording dataset",
       "year": 2022,
@@ -234,11 +548,47 @@
       "abstract": "",
       "journal": "Ecological Informatics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_36084782",
+      "title": "Thrushes (Aves: Passeriformes) as indicators of microplastic pollution in terrestrial environments",
+      "year": 2022,
+      "doi": "10.1016/j.scitotenv.2022.158621",
+      "abstract": "Microplastic pollution is one of the leading global conservation issues. The aim of this study was to investigate the occurrence of microplastics in the gastrointestinal tracts of Common Blackbirds Turdus merula (N = 16) and Song Thrushes Turdus philomelos (N = 18), songbirds with exceptionally terrestrial lifestyles and a wide distribution range. We searched for microplastics of over 100 μm in size and assessed whether their contamination differed regarding the age of the birds and the time of year. We used birds that had died as a result of collision with anthropogenic infrastructure, which were sampled during wildlife monitoring of anthropogenic infrastructures and citizen science projects in north-eastern Poland. We found that all the analysed individuals contained microplastic in their gastrointestinal tracts, which were classified as fibers, fragments, films and pellets. A total number of 1073 microplastics were observed, mostly consisting of fibers (84 %) and films (10 %) below 1 mm in size. The dominant colours of microplastics were transparent (75 %) and brown (14 %). The species average microplastic concentration was higher in Song Thrushes (40.1) than Common Blackbirds (21.9), however the difference was not statistically significant. Moreover, we found no seasonal or age-related differences in microplastic ingestion in either species. While our results show a ubiquity of microplastics in terrestrial environments, they also indicate that thrushes have the potential to be used as indicators of microplastic pollution in terrestrial ecosystems.",
+      "journal": "The Science of the total environment",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35891346",
+      "title": "Metatranscriptomic Comparison of Viromes in Endemic and Introduced Passerines in New Zealand",
+      "year": 2022,
+      "doi": "10.3390/v14071364",
+      "abstract": "New Zealand/Aotearoa has many endemic passerine birds vulnerable to emerging infectious diseases. Yet little is known about viruses in passerines, and in some countries, including New Zealand, the virome of wild passerines has been only scarcely researched. Using metatranscriptomic sequencing we characterised the virome of New Zealand endemic and introduced species of passerine. Accordingly, we identified 34 possible avian viruses from cloacal swabs of 12 endemic and introduced bird species not showing signs of disease. These included a novel siadenovirus, iltovirus, and avastrovirus in the Eurasian blackbird (",
+      "journal": "Viruses",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35831392",
+      "title": "Analysis of ultrastructure and microstructure of blackbird (Turdus merula) and song thrush (Turdus philomelos) eggshell by scanning electron microscopy and X-ray computed microtomography",
+      "year": 2022,
+      "doi": "10.1038/s41598-022-16033-5",
+      "abstract": "The unique structure of the egg allows for efficient reproduction on land. Although the functions of the egg are ensured by the concomitant cooperation of all its structures, the eggshell also plays a significant role. Apart from maintaining an aqueous environment within the egg along with controlled gas exchange, the color and pigmentation pattern of eggshell contributes to identification and protection. As a result of all these functions, the structure, shape, and pigmentation of eggshell greatly vary across the class of birds, and understanding these three variability-determining factors may aid in better interpretation of evolutionary mechanisms. In this study, we analyzed for the first time the structure, mineral composition, and characteristics of the pigmentation of blackbird (Turdus merula) and song thrush (Turdus philomelos) eggshells. The shell of blackbird eggs is much thicker compared to the shell of song thrush eggs which is due to a much thicker crystalline and palisade layers. In both species, strongly elongated mammillary knobs are observed, which create a large space between the mineralized shell and the egg membranes. The blackbird egg shell has a higher water vapor conductivity which is due to the larger diameter of the circle and the surface area of individual pores. The primary compound entering the mineral composition of the shell in both species is CaCO",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35216009",
+      "title": "West Nile and Usutu Virus Introduction via Migratory Birds: A Retrospective Analysis in Italy",
+      "year": 2022,
+      "doi": "10.3390/v14020416",
+      "abstract": "The actual contribution of migratory birds in spreading West Nile (WNV) and Usutu virus (USUV) across Europe and from Africa to old countries is still controversial. In this study, we reported the results of molecular and serological surveys on migrating birds sampled during peaks of spring and autumn migration at 11 Italian sites located along important flyways, from 2012 to 2014. A total of 1335 specimens made of individual or pooled sera, and organs from 275 dead birds were tested for WNV and USUV RNA by real time PCR (RT-PCR). Furthermore, sera were tested by serum neutralization assay for detecting WNV and USUV neutralizing antibodies. Molecular tests detected WNV lineage 2 RNA in a pool made of three Song Thrush (",
+      "journal": "Viruses",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_32846_2306-9716_2020_eco_2-29_1_13",
@@ -248,11 +598,7 @@
       "abstract": "",
       "journal": "Ecological Sciences",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41598-020-76559-4",
@@ -262,11 +608,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>In this study, we aimed to perform structural and proteomic analysis of the vitelline membrane (VM) of two species birds belonging to the family Turdidae: blackbird (<jats:italic>Turdus merula</jats:italic>) and song thrush (<jats:italic>Turdus philomelos</jats:italic>). We performed structural analyses using scanning electron microscopy. The VM proteins were identified and compared to the best-known chicken VM proteins. According to our results, VM of both species has a typical three-layered structure: the outer layer, inner layer, and the continuous membrane between them. An unusual observation was the finding of “convexity” formed by the inner layer in blackbird. The role of these convex structures is not known, but they can be typical for the species and can be used in their identification. In addition, we identified two proteins in the VM of both species of birds, of which U3KEZ1 FICAL was not previously identified in any other bird species",
       "journal": "Scientific Reports",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t22708822a166346863_en",
@@ -276,11 +618,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2173_bow_sonthr1_01",
@@ -290,11 +628,7 @@
       "abstract": "",
       "journal": "Birds of the World",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_fee_2195",
@@ -304,11 +638,7 @@
       "abstract": "Commonly used in the literature to refer to the “attractiveness”, “appeal”, or “beauty” of a species, charisma can be defined as a set of characteristics – and the perception thereof – that affect people's attitudes and behaviors toward a species. It is a highly relevant concept for invasion science, with implications across all stages of the invasion process. However, the concept of invasive alien species ( IAS ) charisma has not yet been systematically investigated. We discuss this concept in detail, provide a set of recommendations for further research, and highlight management implications. We review how charisma affects the processes associated with biological invasions and IAS management, including species introductions and spread, media portrayals, public perceptions of species management, research attention, and active public involvement in research and management. Explicit consideration of IAS charisma is critical for understanding the factors that shape people's attitudes tow",
       "journal": "Frontiers in Ecology and the Environment",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_61017",
@@ -318,11 +648,17 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1186_s12898-019-0255-7",
+      "title": "Habitat-related differences in song structure and complexity in a songbird with a large repertoire",
+      "year": 2019,
+      "doi": "10.1186/s12898-019-0255-7",
+      "abstract": "BACKGROUND: Urbanisation has been shown to influence many aspects of animal vocal communication. Much attention has been paid to anthropogenic noise, which is often described as one of the most challenging disturbances for urban dwellers. While a large body of literature describes associations between vocal behavior of avian populations and background noise level, most of these studies were conducted on species with relatively simple songs and small repertoire sizes. This study focuses on the song thrush, Turdus philomelos, a common Eurasian songbird with a complex singing style and large syllable repertoire. Our objective was to determine whether frequency, repertoire and temporal organisation of song parameters vary between birds inhabiting urban and adjacent forest habitats in which ambient noise levels differ. RESULTS: Songs of urban males were found to be more complex than in conspecifics from natural forest populations. Urban dwellers possessed greater syllable repertoires and re",
+      "journal": "BMC Ecology",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_2305_iucn_uk_2016-3_rlts_t22708822a87875705_en",
@@ -332,11 +668,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1086_671906",
@@ -346,11 +678,7 @@
       "abstract": "Urbanization changes the physical environment of nonhuman species but also markedly changes their acoustic environment. Urban noise interferes with acoustic communication in a range of animals, including birds, with potentially profound impacts on fitness. However, a mechanistic theory to predict which species of birds will be most affected by urban noise is lacking. We develop a mathematical model to predict the decrease in the active space of avian vocal signals after moving from quiet forest habitats to noisy urban habitats. We find that the magnitude of the decrease is largely a function of signal frequency. However, this relationship is not monotonic. A metaregression of observed increases in the frequency of birdsong in urban noise supports the model's predictions for signals with frequencies between 1.5 and 4 kHz. Using results of the metaregression and the model described above, we show that the expected gain in active space following observed frequency shifts is up to 12% and ",
       "journal": "The American Naturalist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10342-013-0732-z",
@@ -360,11 +688,7 @@
       "abstract": "The very rapid development of the road infrastructure in recent years has adversely affected the natural environment. The main effects of this have been the loss or deteriorating quality of habitats, the mortality of animals due to collisions with road vehicles, the withdrawal of birds as a result of disturbance and excessive noise in the neighbourhood of roads. In this study, we attempted to define the influence of a busy road on a breeding community of woodland birds. Individuals were counted using the point method at 54 observation points located at three various distances (60, 310, 560 m) from the road. At each point, we determined the habitat parameters and the intensity of noise. In total, 995 individuals of 39 species were recorded on the study plot. This study showed that the area was homogeneous with respect to habitat. The number of birds per point increased with distance from the road. Species diversity was lower near the road. The density of nine common species increased wi",
       "journal": "European Journal of Forest Research",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arm079",
@@ -374,11 +698,7 @@
       "abstract": "Mobbing behavior may provide real benefits because mobbing prey individuals often cause a predator to leave the vicinity. However, mobbing calls of prey can attract acoustically oriented predators thus increasing nest predation. Therefore, a real value of mobbing as a type of adaptive behavior may depend on its duration. In this experimental study, we tested whether mobbing duration by the pied flycatcher Ficedula hypoleuca, a small hole-nesting passerine, increases the risk of nest predation. From the top of one nest-box within each of 78 experimental plots, we played back long calls of pied flycatchers, whereas recordings of short mobbing calls were played back from the top of another nearby nest-box. The nest-boxes were arranged in pairs, and each of them contained a quail Coturnix coturnix egg. Long-call nest-boxes were depredated by martens Martes martes significantly more often than short-call nest-boxes. This predator usually hunts by night and may eavesdrop on the calls of thei",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1642_0004-8038(2005)122[0733:fcatvf]2_0_co;2",
@@ -388,11 +708,7 @@
       "abstract": "M and their relatives u er fl ight calls, species-specifi c vocalizations given primarily during sustained fl ight, especially during migration.References to fl ight calls appeared in the ornithological literature as early as the 1890s, but some of the most basic features of these calls remain poorly known, including their functions, origins, ontogeny, distances over which they are used, and how much individual variation exists in the characters of the calls and their rates.With improved knowledge of these vocalizations, fl ight calls possibly will have a variety of applications.Identifying their function could illuminate how birds refi ne migration strategies during crucial decision-making periods.Because fl ight calls are relatively simple vocalizations, compared with many others that birds use, they provide useful characters for future evolutionary and comparative analyses.Monitoring fl ight calls can be a powerful method for studying nocturnal migration.However, such applications r",
       "journal": "The Auk",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_auk_122_3_733",
@@ -402,11 +718,7 @@
       "abstract": "MюћѦ ѝюѠѠђџіћђ яіџёѠ and their relatives uĴ er fl ight calls, species-specifi c vocalizations given primarily during sustained fl ight, especially during migration.References to fl ight calls appeared in the ornithological literature as early as the 1890s, but some of the most basic features of these calls remain poorly known, including their functions, origins, ontogeny, distances over which they are used, and how much individual variation exists in the characters of the calls and their rates.With improved knowledge of these vocalizations, fl ight calls possibly will have a variety of applications.Identifying their function could illuminate how birds refi ne migration strategies during crucial decision-making periods.Because fl ight calls are relatively simple vocalizations, compared with many others that birds use, they provide useful characters for future evolutionary and comparative analyses.Monitoring fl ight calls can be a powerful method for studying nocturnal migration.However,",
       "journal": "The Auk",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arh116",
@@ -416,11 +728,17 @@
       "abstract": "Mobbing signals advertise the location of a stalking predator to all prey in an area and recruit them into the inspection aggregation. Such behavior usually causes the predator to move to another area. However, mobbing calls could be eavesdropped by other predators. Because the predation cost of mobbing calls is poorly known, we investigated whether the vocalizations of the mobbing pied flycatcher, Ficedula hypoleuca, a small hole nesting passerine, increase the risk of nest predation. We used mobbing calls of pied flycatchers to examine if they could lure predators such as the marten, Martes martes. This predator usually hunts by night and may locate its mobbing prey while resting nearby during the day. Within each of 56 experimental plots, from the top of one nest-box we played back mobbing sounds of pied flycatchers, whereas blank tapes were played from the top of another nestbox. The trials with mobbing calls were carried out before sunset. We put pieces of recently abandoned nests",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1093_auk_105_1_11",
+      "title": "Effects of Food Supplementation, Song Playback, and Temperature on Vocal Territorial Behavior of Carolina Wrens",
+      "year": 1988,
+      "doi": "10.1093/auk/105.1.11",
+      "abstract": "Abstract We found both the song rate and the rate of song-type change of male Carolina Wrens (Thryothorus ludovicianus) in winter were positively correlated with ambient temperature. When the effect of temperature was controlled statistically, food supplementation significantly increased both the song rate and the rate of song-type change. Song playback did not significantly increase either song rate or rate of song-type change, however. Because foraging and singing are mutually exclusive behaviors in Carolina Wrens, the increase in vocal territorial behavior associated with warmer temperatures and food supplementation may reflect a decrease in the time required for foraging. The rate of vocal territorial behavior in winter may be more dependent on the amount of food available to wrens than on the presence of intruders.",
+      "journal": "The Auk",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_0003-3472(78)90113-6",
@@ -430,11 +748,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927026_0027",
@@ -444,14 +758,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 33,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

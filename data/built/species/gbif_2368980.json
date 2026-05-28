@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 6,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 26,
+    "claim_count": 8,
+    "doi_count": 27,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,62 +42,168 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "chirp",
-    "pop"
+    "pop",
+    "chirp"
   ],
   "contexts": [
-    "social hierarchy",
-    "territorial defence"
+    "territorial defence",
+    "social hierarchy"
   ],
   "functions": [
-    "dominance communication",
-    "territory signalling"
+    "territory signalling",
+    "dominance communication"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "chirp",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "pop",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "chirp",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "social hierarchy",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "social hierarchy",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "dominance communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "dominance communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 256,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 255,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 254,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 253,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 252,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 251,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 250,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 249,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -105,6 +211,20 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41467-026-69524-8",
+      "url": "https://doi.org/10.1038/s41467-026-69524-8",
+      "title": "Cell-cell communication as underlying principle governing color pattern formation in teleost fishes",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1101/2025.08.21.671633",
+      "url": "https://doi.org/10.1101/2025.08.21.671633",
+      "title": "Cell-cell communication as underlying principle governing color pattern formation in fishes",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.46989/001c.129937",
       "url": "https://doi.org/10.46989/001c.129937",
@@ -120,11 +240,46 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1101/2024.01.29.577753",
+      "url": "https://doi.org/10.1101/2024.01.29.577753",
+      "title": "Adult sex change leads to extensive forebrain reorganization in clownfish",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s13293-024-00632-0",
+      "url": "https://doi.org/10.1186/s13293-024-00632-0",
+      "title": "Adult sex change leads to extensive forebrain reorganization in clownfish",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1242/jeb.247425",
+      "url": "https://doi.org/10.1242/jeb.247425",
+      "title": "Ultraviolet vision in anemonefish improves colour discrimination",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.2139/ssrn.5008122",
       "url": "https://doi.org/10.2139/ssrn.5008122",
       "title": "Effects of Background Color on Growth Performance and Developmental Stability in Juvenile Amphiprion Ocellaris",
       "year": 2024,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2022.1576",
+      "url": "https://doi.org/10.1098/rspb.2022.1576",
+      "title": "Colour patterns influence symbiosis and competition in the anemonefish-host anemone symbiosis system",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/gbe/evab184",
+      "url": "https://doi.org/10.1093/gbe/evab184",
+      "title": "Molecular Evolution of Ultraviolet Visual Opsins and Spectral Tuning of Photoreceptors in Anemonefishes (Amphiprioninae)",
+      "year": 2021,
+      "source": "pubmed"
     },
     {
       "doi": "10.1002/jez.b.23028/v2/review1",
@@ -174,6 +329,13 @@
       "title": "Interspecific variation of warning calls in piranhas: a comparative analysis",
       "year": 2016,
       "source": "openalex"
+    },
+    {
+      "doi": "10.12980/jclm.2.2014apjtd-2014-0016",
+      "url": "https://doi.org/10.12980/jclm.2.2014apjtd-2014-0016",
+      "title": "Histopathological study of lymphocystis disease virus (LCDV) in cultured false clownfish, Amphiprion ocellaris (Cuvier, 1830) and true clownfish, Amphiprion percula (Lacepede, 1802)",
+      "year": 2014,
+      "source": "crossref"
     },
     {
       "doi": "10.1007/s11160-012-9297-z",
@@ -241,6 +403,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41708610",
+      "title": "Cell-cell communication as underlying principle governing color pattern formation in teleost fishes",
+      "year": 2026,
+      "doi": "10.1038/s41467-026-69524-8",
+      "abstract": "The diverse pigmentation patterns of animals are crucial for predation avoidance and behavioral display. This diversity arises from interactions among distinct pigment cell types, yet mechanisms generating pattern variation across teleost fishes remain incompletely understood. In zebrafish, Turing models have been proposed to explain stripe patterns, but it is unclear if they apply to other fishes. Here, we investigate the Snowflake mutant of the anemonefish Amphiprion ocellaris, which displays enlarged white bars with irregular boundaries. Using genome-wide association mapping and targeted sequencing, we identify a missense mutation (E42K) in gja5b, encoding the gap junction protein Connexin 41.8. CRISPR/Cas9-mediated genome editing recapitulates the Snowflake phenotype, while pharmacological inhibition of gap junctions phenocopies the boundary defects, supporting a causal role for impaired intercellular communication. Expression analyses reveal that, unlike zebrafish, anemonefish gja5b is predominantly expressed in iridophores. With functional in vitro assays we demonstrate that the E42K mutation acts as a dominant negative, strongly reducing gap junctional coupling. Introducing the same mutation in zebrafish reveals context-dependent effects on pigment patterning. Taken together our findings highlighting gap junction-mediated communication as a conserved but flexible mechanism controlling pigment boundary positioning and pattern diversification.",
+      "journal": "Nature communications",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_46989_001c_129937",
       "title": "Comparative Transcriptome analyses of the molecular mechanisms underlying skin color variations in ocellaris clownfish\n                    <i>Amphiprion ocellaris</i>\n                    (Cuvier, 1830)",
       "year": 2025,
@@ -248,11 +420,17 @@
       "abstract": "<jats:p>\n                    In this study, we employed high-throughput transcriptomic sequencing technology to analyze the skin color variations among four different strains of clownfish (\n                    <jats:italic>Amphiprion ocellaris</jats:italic>\n                    ). We compared the differentially expressed genes (DEGs) between the Captive Breeding of\n                    <jats:italic>A. ocellaris</jats:italic>\n                    (RS), Australian Geographic Variation of\n                    <jats:italic>A. ocellaris</jats:italic>\n                    (AS), Wild-Caught\n                    <jats:italic>A. ocellaris</jats:italic>\n                    (YS), and Carnelian\n                    <jats:italic>A. ocellaris</jats:italic>\n                    (MS). Furthermore, we conducted Gene Ontology (GO) functional annotation and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses to explore the enriched pathways associated with pigment regulation genes. The res",
       "journal": "Israeli Journal of Aquaculture - Bamidgeh",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40909517",
+      "title": "Cell-cell communication as underlying principle governing color pattern formation in fishes",
+      "year": 2025,
+      "doi": "10.1101/2025.08.21.671633",
+      "abstract": "The diverse pigmentation patterns of animals are crucial for predation avoidance and behavioral display, yet mechanisms underlying this diversity remain poorly understood. In zebrafish, Turing models have been proposed to explain stripe patterns, but it is unclear if they apply to other fishes. In anemonefish (",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2139_ssrn_5008122",
@@ -262,11 +440,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_jez_b_23276_v1_review2",
@@ -276,11 +450,57 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_39044232",
+      "title": "Adult sex change leads to extensive forebrain reorganization in clownfish",
+      "year": 2024,
+      "doi": "10.1186/s13293-024-00632-0",
+      "abstract": "BACKGROUND: Sexual differentiation of the brain occurs in all major vertebrate lineages but is not well understood at a molecular and cellular level. Unlike most vertebrates, sex-changing fishes have the remarkable ability to change reproductive sex during adulthood in response to social stimuli, offering a unique opportunity to understand mechanisms by which the nervous system can initiate and coordinate sexual differentiation. METHODS: This study explores sexual differentiation of the forebrain using single nucleus RNA-sequencing in the anemonefish Amphiprion ocellaris, producing the first cellular atlas of a sex-changing brain. RESULTS: We uncover extensive sex differences in cell type-specific gene expression, relative proportions of cells, baseline neuronal excitation, and predicted inter-neuronal communication. Additionally, we identify the cholecystokinin, galanin, and estrogen systems as central molecular axes of sexual differentiation. Supported by these findings, we propose a model of sexual differentiation in the conserved vertebrate social decision-making network spanning multiple subtypes of neurons and glia, including neuronal subpopulations within the preoptic area that are positioned to regulate gonadal differentiation. CONCLUSIONS: This work deepens our understanding of sexual differentiation in the vertebrate brain and defines a rich suite of molecular and cellular pathways that differentiate during adult sex change in anemonefish. This study provides key insights into brain sex differences in sex-changing anemonefish (Amphiprion ocellaris), a species that changes sex in adulthood in response to the social environment. Using single nucleus RNA-sequencing, the study provides the first brain cellular atlas showing sex differences in two crucial reproductive areas: the preoptic area and telencephalon. The research identifies notable sex-differences in cell-type proportions and gene expression, particularly in radial glia and glutamatergic neurons that",
+      "journal": "Biology of sex differences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38586934",
+      "title": "Ultraviolet vision in anemonefish improves colour discrimination",
+      "year": 2024,
+      "doi": "10.1242/jeb.247425",
+      "abstract": "In many animals, ultraviolet (UV) vision guides navigation, foraging, and communication, but few studies have addressed the contribution of UV signals to colour vision, or measured UV discrimination thresholds using behavioural experiments. Here, we tested UV colour vision in an anemonefish (Amphiprion ocellaris) using a five-channel (RGB-V-UV) LED display. We first determined that the maximal sensitivity of the A. ocellaris UV cone was ∼386 nm using microspectrophotometry. Three additional cone spectral sensitivities had maxima at ∼497, 515 and ∼535 nm. We then behaviourally measured colour discrimination thresholds by training anemonefish to distinguish a coloured target pixel from grey distractor pixels of varying intensity. Thresholds were calculated for nine sets of colours with and without UV signals. Using a tetrachromatic vision model, we found that anemonefish were better (i.e. discrimination thresholds were lower) at discriminating colours when target pixels had higher UV chromatic contrast. These colours caused a greater stimulation of the UV cone relative to other cone types. These findings imply that a UV component of colour signals and cues improves their detectability, which likely increases the prominence of anemonefish body patterns for communication and the silhouette of zooplankton prey.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38352560",
+      "title": "Adult sex change leads to extensive forebrain reorganization in clownfish",
+      "year": 2024,
+      "doi": "10.1101/2024.01.29.577753",
+      "abstract": "Sexual differentiation of the brain occurs in all major vertebrate lineages but is not well understood at a molecular and cellular level. Unlike most vertebrates, sex-changing fishes have the remarkable ability to change reproductive sex during adulthood in response to social stimuli, offering a unique opportunity to understand mechanisms by which the nervous system can initiate and coordinate sexual differentiation. This study explores sexual differentiation of the forebrain using single nucleus RNA-sequencing in the anemonefish",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36196541",
+      "title": "Colour patterns influence symbiosis and competition in the anemonefish-host anemone symbiosis system",
+      "year": 2022,
+      "doi": "10.1098/rspb.2022.1576",
+      "abstract": "Colour patterns in fish are often used as an important medium for communication. Anemonefish, characterized by specific patterns of white bars, inhabit host anemones and defend the area around an anemone as their territory. The host anemone is used not only by the anemonefish, but also by other fish species that use anemones as temporary shelters. Anemonefish may be able to identify potential competitors by their colour patterns. We first examined the colour patterns of fish using host anemones inhabited by",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34375382",
+      "title": "Molecular Evolution of Ultraviolet Visual Opsins and Spectral Tuning of Photoreceptors in Anemonefishes (Amphiprioninae)",
+      "year": 2021,
+      "doi": "10.1093/gbe/evab184",
+      "abstract": "Many animals including birds, reptiles, insects, and teleost fishes can see ultraviolet (UV) light (shorter than 400 nm), which has functional importance for foraging and communication. For coral reef fishes, shallow reef environments transmit a broad spectrum of light, rich in UV, driving the evolution of diverse spectral sensitivities. However, the identities and sites of the specific visual genes that underly vision in reef fishes remain elusive and are useful in determining how evolution has tuned vision to suit life on the reef. We investigated the visual systems of 11 anemonefish (Amphiprioninae) species, specifically probing for the molecular pathways that facilitate UV-sensitivity. Searching the genomes of anemonefishes, we identified a total of eight functional opsin genes from all five vertebrate visual opsin subfamilies. We found rare instances of teleost UV-sensitive SWS1 opsin gene duplications that produced two functionally coding paralogs (SWS1α and SWS1β) and a pseudogene. We also found separate green sensitive RH2A opsin gene duplicates not yet reported in the family Pomacentridae. Transcriptome analysis revealed false clown anemonefish (Amphiprion ocellaris) expressed one rod opsin (RH1) and six cone opsins (SWS1β, SWS2B, RH2B, RH2A-1, RH2A-2, LWS) in the retina. Fluorescent in situ hybridization highlighted the (co-)expression of SWS1β with SWS2B in single cones, and either RH2B, RH2A, or RH2A together with LWS in different members of double cone photoreceptors (two single cones fused together). Our study provides the first in-depth characterization of visual opsin genes found in anemonefishes and provides a useful basis for the further study of UV-vision in reef fishes.",
+      "journal": "Genome biology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1002_jez_b_23028_v2_review1",
@@ -290,11 +510,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41597-019-0161-z",
@@ -304,11 +520,7 @@
       "abstract": "Studying neuronal circuits at cellular resolution is very challenging in vertebrates due to the size and optical turbidity of their brains. Danionella translucida, a close relative of zebrafish, was recently introduced as a model organism for investigating neural network interactions in adult individuals. Danionella remains transparent throughout its life, has the smallest known vertebrate brain and possesses a rich repertoire of complex behaviours. Here we sequenced, assembled and annotated the Danionella translucida genome employing a hybrid Illumina/Nanopore read library as well as RNA-seq of embryonic, larval and adult mRNA. We achieved high assembly continuity using low-coverage long-read data and annotated a large fraction of the transcriptome. This dataset will pave the way for molecular research and targeted genetic manipulation of this novel model organism.",
       "journal": "Scientific Data",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_31219_osf_io_gaecv",
@@ -318,11 +530,7 @@
       "abstract": "<p>Penelitian ini dilaksanakan pada bulan Mei-Juni 2012 dan bertujuan untuk mengkaji penggunaan salinitas yang berbeda terhadap sintasan ikan giru (Amphiprion ocellaris). Hewanuji yang digunakan yaitu ikan giru yang berukuran 5-7 cm dan diperoleh dari perairan BajoKecamatan Liang Kabupaten Banggai Kepulauan. Rancangan yang digunakan dalam penelitianini yaitu Rancangan Acak Lengkap (RAL) dengan 3 perlakuan penggunaan salinitas yaituperlakuan A (penggunaan salinitas 20 ppt), perlakuan B (penggunaan salinitas 25 ppt) danperlakuan C (penggunaan salinitas 30 ppt) dan masing-masing perlakuan terdiri dari 3 ulangan.Parameter yang diamati selama penelitian yaitu sintasan ikan giru, untuk mengetahui pengaruhpenggunaan salinitas terhadap sintasan ikan giru, data yang diperoleh dianalisis denganmenggunakan analisis sidik ragam, dan apabila terjadi perbedaan yang nyata dilanjutkan denganuji Beda Nyata Terkecil (BNT). Hasil penelitian menunjukkan bahwa penggunaan salinitas yangberbeda tidak memberi",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fnbeh_2018_00001",
@@ -332,11 +540,7 @@
       "abstract": "Dominant-subordinate status emerges from agonistic encounters. The weakly electric fish, <i>Gymnotus omarorum</i>, displays a clear-cut example of non-breeding territorial aggression. The asymmetry in the behavior of dominants and subordinates is outstanding. Dominants are highly aggressive and subordinates signal submission in a precise sequence of locomotor and electric traits: retreating, decreasing their electric organ discharge rate, and emitting transient electric signals. The hypothalamic neuropeptide arginine-vasotocin (AVT) and its mammalian homolog arginine-vasopressin, are key modulators of social behavior, known to adapt their actions to different contexts. By analyzing the effects of pharmacological manipulations of the AVT system in both dominants and subordinates, we show evidence of distinct status-dependent actions of AVT. We demonstrate an endogenous effect of AVT on dominants' aggression levels: blocking the V1a AVT receptor induced a significant decrease in dominant",
       "journal": "Frontiers in Behavioral Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1177_1040638717729726",
@@ -346,11 +550,7 @@
       "abstract": "<jats:p> Two adult long-finned ocellaris clownfish ( Amphiprion ocellaris) from 2 different aquaculture facilities were examined at the University of Florida, Tropical Aquaculture Laboratory for oral masses. Incisional biopsies were obtained from the masses under anesthesia, and histologic examination revealed both to be odontomas. Most benign odontomas are classified as hamartomas (disorganized proliferations of tissues found normally at the site of origin). Odontomas have previously been reported in wild teleost fish in association with viral infections and pollution. </jats:p>",
       "journal": "Journal of Veterinary Diagnostic Investigation",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1530_rep-17-0408",
@@ -360,11 +560,7 @@
       "abstract": "Cortisol is the main glucocorticoid (GC) in fish and the hormone most directly associated with stress. Recent research suggests that this hormone may act as a key factor linking social environmental stimuli and the onset of sex change by initiating a shift in steroidogenesis from estrogens to androgens. For many teleost fish, sex change occurs as a usual part of the life cycle. Changing sex is known to enhance the lifetime reproductive success of these fish and the modifications involved (behavioral, gonadal and morphological) are well studied. However, the exact mechanism behind the transduction of the environmental signals into the molecular cascade that underlies this singular process remains largely unknown. We here synthesize current knowledge regarding the role of cortisol in teleost sex change with a focus on two well-described transformations: temperature-induced masculinization and socially regulated sex change. Three non-mutually exclusive pathways are considered when describ",
       "journal": "Reproduction",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_srep36127",
@@ -374,11 +570,17 @@
       "abstract": "Fish sounds are known to be species-specific, possessing unique temporal and spectral features. We have recorded and compared sounds in eight piranha species to evaluate the potential role of acoustic communication as a driving force in clade diversification. All piranha species showed the same kind of sound-producing mechanism: sonic muscles originate on vertebrae and attach to a tendon surrounding the bladder ventrally. Contractions of the sound-producing muscles force swimbladder vibration and dictate the fundamental frequency. It results the calling features of the eight piranha species logically share many common characteristics. In all the species, the calls are harmonic sounds composed of multiple continuous cycles. However, the sounds of Serrasalmus elongatus (higher number of cycles and high fundamental frequency) and S. manueli (long cycle periods and low fundamental frequency) are clearly distinguishable from the other species. The sonic mechanism being largely conserved thr",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_12980_jclm_2_2014apjtd-2014-0016",
+      "title": "Histopathological study of lymphocystis disease virus (LCDV) in cultured false clownfish, Amphiprion ocellaris (Cuvier, 1830) and true clownfish, Amphiprion percula (Lacepede, 1802)",
+      "year": 2014,
+      "doi": "10.12980/jclm.2.2014apjtd-2014-0016",
+      "abstract": "",
+      "journal": "Journal of Coastal Life Medicine",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s11160-012-9297-z",
@@ -388,11 +590,7 @@
       "abstract": "A recent survey lists more than 100 papers utilizing the auditory evoked potential (AEP) recording technique for studying hearing in fishes. More than 95 % of these AEP-studies were published after Kenyon et al. introduced a non-invasive electrophysiological approach in 1998 allowing rapid evaluation of hearing and repeated testing of animals. First, our review compares AEP hearing thresholds to behaviorally gained thresholds. Second, baseline hearing abilities are described and compared in 111 fish species out of 51 families. Following this, studies investigating the functional significance of various accessory hearing structures (Weberian ossicles, swim bladder, otic bladders) by eliminating these morphological structures in various ways are dealt with. Furthermore, studies on the ontogenetic development of hearing are summarized. The AEP-technique was frequently used to study the effects of high sound/noise levels on hearing in particular by measuring the temporary threshold shifts ",
       "journal": "Reviews in Fish Biology and Fisheries",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1471-2148-11-365",
@@ -402,11 +600,7 @@
       "abstract": "Significant overlap in acoustic features demonstrates that the sound-producing mechanism is highly conservative among species. Differences in the calls of some species are due to size dimorphism and the sound variation might be in this case a by-product. This morphological constraint does not permit a consideration of acoustic communication as the main driving force in the diversification of clownfishes. Moreover, calls are not produced to find mate and consequently are less subject to variations due to partner preference, which restricts the constraints of diversification. Calls are produced to reach and defend the competition to mate access. However, differences in the pulse period between cohabiting species show that, in some case, sounds can help to differentiate the species, to prevent competition between cohabiting species and to promote the diversification of taxa.",
       "journal": "BMC Evolutionary Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1741-7007-8-10",
@@ -416,11 +610,7 @@
       "abstract": "This study on the squeaker catfish S. schoutedeni is the first to demonstrate that absolute hearing sensitivity changes during ontogeny in an otophysine fish. This contrasts with prior studies on two cypriniform fish species in which no such change could be observed. Furthermore, S. schoutedeni can detect conspecific sounds at all stages of development, again contrasting with prior findings in fishes.",
       "journal": "BMC Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_030270",
@@ -430,11 +620,7 @@
       "abstract": "Clownfish live in social groups in which there is a size-based dominance hierarchy. In such a context, sonic cues could play a role in social organisation because dominant frequency and pulse length of sounds are strongly correlated with fish size. Data on the hearing ability of these fish are, however, needed to show that they have the sensory ability to detect the frequencies in their sounds. The present study determines the hearing sensitivity in three different anemonefish species (Amphiprion frenatus, Amphiprion ocellaris and Amphiprion clarkii), and compares it with the frequencies in their calls. The frequency range over which the three species can detect sounds was between 75 and 1800 Hz, and they were most sensitive to frequencies below 200 Hz. During sound production, dominant frequency is clearly related (R=0.95) to the fish size, whatever the species. Dominant frequency extends from 370 to 900 Hz for specimens having a size between 55 and 130 mm. The best hearing sensitivit",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_70675_df0ee706z135bz40b1zaac1zd8511c590fb4",
@@ -444,11 +630,7 @@
       "abstract": "<jats:title>Le poisson clown Amphiprion ocellaris : une espèce modèle pour étudier la métamorphose des poissons coralliens</jats:title>\n                <jats:p xml:lang=\"fr\">Chez les poissons, la plupart des études sur la métamorphose porte sur des espèces d’eau douce ou des espèces marines d’intérêt commercial. Ces études ont montré comment les HTs contrôlent la métamorphose et régulent l’expression de nombreux gènes cibles, mais il y a peu d’informations sur le rôle de l’environnement dans la régulation de ce processus chez les poissons. Il a récemment été montré que l’environnement peut interagir avec la voie de signalisation des HTs pour réguler le déclenchement de la métamorphose chez un poisson corallien : le poisson chirurgien A.triostegus. Même si c’est un excellent modèle écologique,il est difficile d’avoir accès à l’intégralité de son cycle larvaire et donc d’étudier les acteurs moléculaires de la métamorphose ainsi que le rôle de l’environnement dans ce processus. C’est donc",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_6644_table-3",
@@ -458,11 +640,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_6644_table-1",
@@ -472,11 +650,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_6644_fig-2",
@@ -486,14 +660,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 26,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

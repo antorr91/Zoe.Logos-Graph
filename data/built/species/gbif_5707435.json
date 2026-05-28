@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 26,
-    "claim_count": 9,
-    "doi_count": 26,
-    "media_count": 0
+    "paper_count": 41,
+    "claim_count": 27,
+    "doi_count": 38,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,96 +42,533 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "grunt",
     "peep",
+    "grunt",
     "scream"
   ],
   "contexts": [
-    "food sharing",
     "sexual behaviour",
+    "food sharing",
     "social communication"
   ],
   "functions": [
+    "social bonding",
     "conflict resolution",
-    "food coordination",
-    "social bonding"
+    "food coordination"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "grunt",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "peep",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "grunt",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "scream",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "food sharing",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "sexual behaviour",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "food sharing",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "social bonding",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "conflict resolution",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "food coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social bonding",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1740,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1739,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1738,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1737,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1736,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1735,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1734,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1733,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1732,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1731,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1730,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1729,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1728,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1727,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1726,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1725,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1724,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1723,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1722,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1721,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1720,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1719,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1718,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1717,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1716,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1715,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1714,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1002/ajpa.25040",
+      "url": "https://doi.org/10.1002/ajpa.25040",
+      "title": "Relative facial width, and its association with canine size and body mass among chimpanzees and bonobos: Implications for understanding facial width-to-height ratio expression among human populations",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-025-01961-2",
+      "url": "https://doi.org/10.1007/s10071-025-01961-2",
+      "title": "Age differences in bonobo (Pan paniscus) multimodal communication signals",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.241901",
+      "url": "https://doi.org/10.1098/rsos.241901",
+      "title": "Conspecific alarm calls, but not food-associated calls, elicit affect-based and object-based mental representations in a bonobo (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.242173",
+      "url": "https://doi.org/10.1098/rsos.242173",
+      "title": "Non-adjacent dependency processing (or lack thereof) in bonobos: an artificial grammar experiment",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1101/2023.12.22.573122",
+      "url": "https://doi.org/10.1101/2023.12.22.573122",
+      "title": "Linked",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1101/2025.01.23.634282",
       "url": "https://doi.org/10.1101/2025.01.23.634282",
       "title": "An updated vocal repertoire of wild adult bonobos (\n                  <i>Pan paniscus</i>\n                  )",
       "year": 2025,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1371/journal.pone.0330250",
+      "url": "https://doi.org/10.1371/journal.pone.0330250",
+      "title": "An updated vocal repertoire of wild adult bonobos (Pan paniscus)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7717/peerj.19484",
+      "url": "https://doi.org/10.7717/peerj.19484",
+      "title": "Adapting the facial action coding system for chimpanzees (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-024-01884-4",
+      "url": "https://doi.org/10.1007/s10071-024-01884-4",
+      "title": "Cross-population variation in usage of a call combination: evidence of signal usage flexibility in wild bonobos",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10329-024-01121-z",
+      "url": "https://doi.org/10.1007/s10329-024-01121-z",
+      "title": "Water scooping: tool use by a wild bonobo (Pan paniscus) at LuiKotale, a case report",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-37558-3",
+      "url": "https://doi.org/10.1038/s41598-023-37558-3",
+      "title": "Humans recognize affective cues in primate vocalizations: acoustic and phylogenetic perspectives",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rstb.2021.0310",
+      "url": "https://doi.org/10.1098/rstb.2021.0310",
+      "title": "Flexible signalling strategies by victims mediate post-conflict interactions in bonobos",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0267574",
+      "url": "https://doi.org/10.1371/journal.pone.0267574",
+      "title": "Bonobos assign meaning to food calls based on caller food preferences",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.1111/brv.12821",
@@ -318,11 +755,137 @@
       "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  While research over the last 20 years has shed important light on the vocal behaviour of our closest living relatives, bonobos and chimpanzees, a quantitative description of their full vocal repertoire is absent. Such data are critical for a holistic understanding of a species’ communication system and unpacking how these systems compare more broadly with other primate and non-primate species. Here we make key progress by providing the first quantitative\n                  <jats:italic>Pan</jats:italic>\n                  vocal repertoire, specifically for wild bonobos. Using data comprising over 1500 calls from 53 adult individuals collected over 33 months, we employ machine-learning-based random forest analyses and describe 11 acoustically distinguishable call types. We discuss issues associated with resolving vocal repertoires from wild data in great apes and highlight potential future approaches to further c",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40929072",
+      "title": "An updated vocal repertoire of wild adult bonobos (Pan paniscus)",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0330250",
+      "abstract": "Research over the last 20 years has shed important light on the vocal behaviour of our closest living relatives, bonobos and chimpanzees, but mostly relies on qualitative vocal repertoires, for which quantitative validations are absent. Such data are critical for a holistic understanding of a species` communication system and unpacking how these systems compare more broadly with other primate and non-primate species. Here we make key progress by providing the first quantitative validation of a Pan vocal repertoire, specifically for wild bonobos. Using data comprising over 1500 calls from 53 adult individuals collected over 33 months, we employ machine-learning-based random forest analyses and describe 11 acoustically distinguishable call types. We discuss issues associated with resolving vocal repertoires from wild data in great apes and highlight potential future approaches to further capture the complexity and gradedness of the bonobo vocal system.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40525106",
+      "title": "Adapting the facial action coding system for chimpanzees (",
+      "year": 2025,
+      "doi": "10.7717/peerj.19484",
+      "abstract": "The Facial Action Coding System (FACS) is a widely recognised coding scheme for analysing human facial behaviour, providing an objective method to quantify discrete movements associated with facial muscles, known as Action Units (AUs), and reducing subjective bias. FACS has been adapted for nine other taxa, including apes, macaques, and domestic animals, but not yet bonobos. To carry out cross species studies of facial behaviours within and beyond apes, it is essential to include bonobos. Hence, we aimed at adapting FACS for bonobos. We followed a similar methodology as in previous FACS adaptations: first, we examined the facial muscular plan of bonobos from previously published dissections. Given the similarity between bonobo and chimpanzee musculature, we tested if ChimpFACS for chimpanzees could be applied to bonobos. Second, we used ChimpFACS to analyse spontaneous facial behaviour in bonobos through videos recorded in various contexts. Third, we noted any differences in appearance changes between the AUs included in ChimpFACS and the AUs observed in bonobos. Our findings showed that bonobos exhibit all the facial movements observed in chimpanzees, and thus ChimpFACS can reliably be applied to bonobos. Bonobos presented a diverse repertoire of 28 facial movements (22 AUs, three Action Descriptors, and three Ear Action Descriptors). Although the range of facial movement is lower than in humans, bonobo's potential for facial movement is comparable to that of chimpanzees, underscoring the significance of this behaviour modality during social interactions for both species. The ChimpFACS Extension for bonobos is an objective coding scheme for measuring facial movements in bonobos, designed to be used in conjunction with ChimpFACS. This coding scheme extension will allow us to better understand bonobos' behaviour and communication, with practical applications for assessing their welfare, particularly in human care. It also provides a framework for comparing primate sp",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40387940",
+      "title": "Age differences in bonobo (Pan paniscus) multimodal communication signals",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01961-2",
+      "abstract": "While spoken language is unique to humans, many features of human communication are shared with great apes, including the use of signals in multiple modalities such as vocalizations, gestures, and facial expressions. Communication signals can be unimodal (involving a single modality) or multimodal (combining multiple modalities simultaneously). Here, we examined age-related differences in bonobo (Pan paniscus) unimodal and multimodal communication signals. We assessed all vocalizations, gestures, facial expressions, and multimodal combinations produced by captive bonobos across a variety of behavioral contexts. All occurrences of communication signals were collected via focal observations from 12 individuals ranging from 6 months to 44 years of age. All individuals produced multimodal communication signals but all bonobos, regardless of age, produced multimodal signals at lower frequencies than unimodal signals. Age had a significant effect with younger bonobos producing more multimodal signals than older individuals (p < 0.001). The infant and juveniles produced the most multimodal signals and there was an approximately 6% increase in unimodal signals per age year increase. These findings indicate a developmental shift toward unimodal signals as bonobos age. Behavioral context was predictive of signal type usage with an increase of multimodal signals in agonistic (p < 0.001), play (p < 0.001), and sexual contexts (p = 0.001). This indicates that context is important for bonobo modality with multimodal signaling occurring more in \"high-risk/high-reward\" contexts where proper signal comprehension is vital. This study represents an overview of multimodal communication across bonobo life stages, offering further insights into primate communication patterns and developmental trajectories.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40271138",
+      "title": "Non-adjacent dependency processing (or lack thereof) in bonobos: an artificial grammar experiment",
+      "year": 2025,
+      "doi": "10.1098/rsos.242173",
+      "abstract": "A key feature of language is our capacity to process syntactic relationships between words, whether they are directly sequential ('adjacent dependencies') or separated by other words ('non-adjacent dependencies'). Recent data suggest that the basic ability to compute adjacent and non-adjacent dependencies is not uniquely human, but rooted deep within our primate lineage, perhaps as far back as our last shared ancestor with chimpanzees and common marmosets (approx. 40 Ma). However, this conclusion hinges on comparable data from other non-human primate species, in particular from bonobos, to whom we are equidistantly related to chimpanzees. To further explore this ancestral hypothesis, we tested if bonobos process both adjacent and non-adjacent dependencies in an artificial grammar learning paradigm. We habituated subjects to strings of arbitrary acoustic stimuli comprised of predictive 'rules' between elements that were consistent with adjacent and non-adjacent dependencies. We then tested whether the bonobos were able to (i) apply these rules to novel acoustic stimuli and (ii) detect rule violations. Ultimately, we found no evidence that bonobos processed adjacent or non-adjacent dependencies. This finding ostensibly complicates claims for homologous origins for this capacity, but additional data from other bonobo populations and other great ape species are necessary to draw firm evolutionary inferences.",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40046665",
+      "title": "Conspecific alarm calls, but not food-associated calls, elicit affect-based and object-based mental representations in a bonobo (",
+      "year": 2025,
+      "doi": "10.1098/rsos.241901",
+      "abstract": "Non-human vocalizations carrying information regarding external events have been likened to referential words and are thus integral for exploring the origins of linguistic reference. Previous research suggests receivers decode this referential information and some studies have indicated that such calls can, like in humans, evoke mental representations of the referent in receivers. However, the nature of these representations remains ambiguous. Specifically, whether calls elicit affect-based representations (e.g. signaller fear after alarm calls) or object-based representations (e.g. threats encountered by signallers after alarm calls), or both, in listeners remains untested. To investigate this, we conducted a match-to-sample task with a language-competent bonobo (Kanzi) asking him to match playbacks of conspecific alarm and food-associated calls to lexigrams representing either affect-based ('scare', 'surprise') or object-based ('snake', 'food') content. Kanzi matched alarm calls to 'scare' and 'snake' lexigrams at above chance levels regardless of caller familiarity but did not match food-associated calls to either 'surprise' or 'food' targets. We propose environmental cues are required to interpret food-associated calls that occur across a variety of contexts. These findings suggest bonobo alarm calls evoke object- and affect-based representations for Kanzi, indicating the mechanisms underlying the perception of non-human vocalizations may be more similar to those in language than previously thought.",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39529448",
+      "title": "Relative facial width, and its association with canine size and body mass among chimpanzees and bonobos: Implications for understanding facial width-to-height ratio expression among human populations",
+      "year": 2025,
+      "doi": "10.1002/ajpa.25040",
+      "abstract": "OBJECTIVES: Facial width-to-height ratio (fWHR) has been widely investigated in the context of its role in visual communication, though there is a lack of consensus about how fWHR serves as a social signal. To better understand fWHR variation in a comparative context, we investigate the associations between fWHR and canine crown height (CCH) and body mass, respectively, among two chimpanzee subspecies (Pan troglodytes schweinfurthii, Pan troglodytes troglodytes) and bonobos (Pan paniscus). MATERIALS AND METHODS: We collected landmark data from 3D surface models of 86 Pan cranial specimens to quantify fWHR and upper CCH, and to estimate body mass. We used Spearman's r and Kruskal-Wallis tests to test for significant relationships among variables, and to assess sexual dimorphism. RESULTS: There is an inverse relationship between fWHR and CCH in both sexes of Pan, however there are interpopulation differences in the relationship between fWHR and CCH among Pan taxa. Pan paniscus have relatively wide faces and small canine crowns, and wide faces in Pan t. schweinfurthii males may be driven by body size constraints. Pan troglodytes and Pan paniscus show fWHR dimorphism, and Pan paniscus have significantly higher fWHRs than do either Pan troglodytes subspecies. DISCUSSION: Our findings indicate that CCH and facial breadth may serve subtly different signaling functions among Pan taxa. Further research into the circumstances in which wide faces evolved among chimpanzees and bonobos will likely afford deeper insights into the function of relatively wide faces in the context of visual signaling among humans and our extinct hominin relatives.",
+      "journal": "American journal of biological anthropology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38187727",
+      "title": "Linked",
+      "year": 2025,
+      "doi": "10.1101/2023.12.22.573122",
+      "abstract": "Single-nucleotide polymorphisms (SNPs) in forkhead box protein P2 (",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39212694",
+      "title": "Cross-population variation in usage of a call combination: evidence of signal usage flexibility in wild bonobos",
+      "year": 2024,
+      "doi": "10.1007/s10071-024-01884-4",
+      "abstract": "The arbitrary relationship between signifier and signified is one of the features responsible for language's extreme lability, adaptability, and expressiveness. Understanding this arbitrariness and its emergence is essential in any account of the evolution of language. To shed light on the phylogeny of the phenomenon, comparative data examining the relationship between signal form and function in the communication systems of non-humans is central. Here we report the results of a study on the production and usage the whistle-high hoot call combination (W + HH) from two distant populations of wild bonobos (Pan paniscus): Lui Kotale, DRC, and Kokolopori, DRC. We find that the context in which bonobos produce the W + HHs varies systematically between populations. Our results suggest that variation in W + HH production may represent an example of signal-adjustment optionality, a key component of arbitrariness.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38488904",
+      "title": "Water scooping: tool use by a wild bonobo (Pan paniscus) at LuiKotale, a case report",
+      "year": 2024,
+      "doi": "10.1007/s10329-024-01121-z",
+      "abstract": "Tool use diversity is often considered to differentiate our two closest living relatives: the chimpanzee (Pan troglodytes) and the bonobo (P. paniscus). Chimpanzees appear to have the largest repertoire of tools amongst nonhuman primates, and in this species, many forms of tool use enhance food and water acquisition. In captivity, bonobos seem as adept as chimpanzees in tool use complexity, including in the foraging context. However, in the wild, bonobos have only been observed engaging in habitual tool use in the contexts of comfort, play, self-directed behaviour and communication, whilst no tool-assisted food acquisition has been reported. Whereas captive bonobos use tools for drinking, so far, the only report from the wild populations comes down to four observations of moss sponges used at Lomako. Here, we present the first report of tool use in the form of water scooping by a wild bonobo at LuiKotale. An adult female was observed and videotaped whilst using an emptied Cola chlamydantha pod to scoop and drink water from a stream. We discuss the conditions for such observations and the importance of looking out for rare behaviours and attempt to put the observation into the context of the opportunity versus necessity hypotheses. By adding novel information on tool use, our report contributes to the ongoing efforts to differentiate population-specific traits in the behavioural ecology of the bonobo.",
+      "journal": "Primates; journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37407601",
+      "title": "Humans recognize affective cues in primate vocalizations: acoustic and phylogenetic perspectives",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-37558-3",
+      "abstract": "Humans are adept at extracting affective information from vocalizations of humans and other animals. However, the extent to which human recognition of vocal affective cues of other species is due to cross-taxa similarities in acoustic parameters or the phylogenetic closeness between species is currently unclear. To address this, we first analyzed acoustic variation in 96 affective vocalizations, taken from agonistic and affiliative contexts, of humans and three other primates-rhesus macaques (Macaca mulatta), chimpanzees and bonobos (Pan troglodytes and Pan paniscus). Acoustic analyses revealed that agonistic chimpanzee and bonobo vocalizations were similarly distant from agonistic human voices, but chimpanzee affiliative vocalizations were significantly closer to human affiliative vocalizations, than those of bonobos, indicating a potential derived vocal evolution in the bonobo lineage. Second, we asked 68 human participants to categorize and also discriminate vocalizations based on their presumed affective content. Results showed that participants reliably categorized human and chimpanzee vocalizations according to affective content, but not bonobo threat vocalizations nor any macaque vocalizations. Participants discriminated all species calls above chance level except for threat calls by bonobos and macaques. Our results highlight the importance of both phylogenetic and acoustic parameter level explanations in cross-species affective perception, drawing a more complex picture to the origin of vocal emotions.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35934966",
+      "title": "Flexible signalling strategies by victims mediate post-conflict interactions in bonobos",
+      "year": 2022,
+      "doi": "10.1098/rstb.2021.0310",
+      "abstract": "Compared to other animals, humans supposedly excel at voluntarily controlling and strategically displaying emotional signals. Yet, new data shows that nonhuman great apes' emotion expressions may also be subject to voluntary control. A key context to further explore this is during post-conflict (PC) periods, where signalling by distressed victims may influence bystander responses, including the offering of consolation. To address this, our study investigates the signalling behaviour of sanctuary-living bonobo victims following aggression and its relation to audience composition and PC interactions. Results show that the production of paedomorphic signals by victims (regardless of age) increased their chances of receiving consolation. In adults, the production of such signals additionally reduced the risk of renewed aggression from opponents. Signal production also increased with audience size, yet strategies differed by age: while immatures reduced signalling in proximity of close-social partners, adults did so especially after receiving consolation. These results suggest that bonobos can flexibly adjust their emotion signalling to influence the outcome of PC events, and that this tendency has a developmental trajectory. Overall, these findings highlight the potential role that flexible emotion communication played in the sociality of our last common ancestor with",
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35704564",
+      "title": "Bonobos assign meaning to food calls based on caller food preferences",
+      "year": 2022,
+      "doi": "10.1371/journal.pone.0267574",
+      "abstract": "Human communication relies heavily on pragmatic competence. Speech utterances are often ambiguous requiring listeners to use interaction history, shared knowledge, presumed intention and other contextual variables to make inferences about a speaker's meaning. To probe the evolutionary origins of pragmatic competence we tested whether bonobos (Pan paniscus) can make inferences about the type of food available from listening to other group members' food calls. We trained two group members to either prefer blue or pink chow and demonstrated these preferences to observers. A third group member served as an untrained control. In playback experiments, we broadcast the food calls of a trained demonstrator and the untrained group member to investigate whether subjects were able to infer which coloured chow was most likely available, based on the callers' trained food preferences or lack thereof. As predicted, when hearing the untrained group member's calls, subjects did not exhibit a bias, whereas they responded with a significant foraging bias when hearing a trained group member's calls. These findings suggest that bonobos may take into account the idiosyncratic food preferences of others, although subjects probably differed in what they remembered.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34873806",
+      "title": "Social pressure drives \"conversational rules\" in great apes",
+      "year": 2022,
+      "doi": "10.1111/brv.12821",
+      "abstract": "In the last decade, two hypotheses, one on the evolution of animal vocal communication in general and the other on the origins of human language, have gained ground. The first hypothesis argues that the complexity of communication co-evolved with the complexity of sociality. Species forming larger groups with complex social networks have more elaborate vocal repertoires. The second hypothesis posits that the core of communication is represented not only by what can be expressed by an isolated caller, but also by the way that vocal interactions are structured, language being above all a social act. Primitive forms of conversational rules based on a vocal turn-taking principle are thought to exist in primates. To support and bring together these hypotheses, more comparative studies of socially diverse species at different levels of the primate phylogeny are needed. However, the majority of available studies focus on monkeys, primates that are distant from the human lineage. Great apes represent excellent candidates for such comparative studies because of their phylogenetic proximity to humans and their varied social lives. We propose that studying vocal turn-taking in apes could address several major gaps regarding the social relevance of vocal turn-taking and the evolutionary trajectory of this behaviour among anthropoids. Indeed, how the social structure of a species may influence the vocal interaction patterns observed among group members remains an open question. We gathered data from the literature as well as original unpublished data (where absent in the literature) on four great ape species: chimpanzees Pan troglodytes, bonobos Pan paniscus, western lowland gorillas Gorilla gorilla gorilla and Bornean orang-utans Pongo pygmaeus. We found no clear-cut relationship between classical social complexity metrics (e.g. number of group members, interaction rates) and vocal complexity parameters (e.g. repertoire size, call rates). Nevertheless, the nature of the society",
+      "journal": "Biological reviews of the Cambridge Philosophical Society",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_brv_12821",
@@ -332,11 +895,7 @@
       "abstract": "In the last decade, two hypotheses, one on the evolution of animal vocal communication in general and the other on the origins of human language, have gained ground. The first hypothesis argues that the complexity of communication co-evolved with the complexity of sociality. Species forming larger groups with complex social networks have more elaborate vocal repertoires. The second hypothesis posits that the core of communication is represented not only by what can be expressed by an isolated caller, but also by the way that vocal interactions are structured, language being above all a social act. Primitive forms of conversational rules based on a vocal turn-taking principle are thought to exist in primates. To support and bring together these hypotheses, more comparative studies of socially diverse species at different levels of the primate phylogeny are needed. However, the majority of available studies focus on monkeys, primates that are distant from the human lineage. Great apes re",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_4324_9781003064541-3",
@@ -346,11 +905,7 @@
       "abstract": "",
       "journal": "The Gestural Communication of Apes and Monkeys",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_70646",
@@ -360,11 +915,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31386846",
+      "title": "Response to Garcia and Dunn",
+      "year": 2019,
+      "doi": "10.1016/j.cub.2019.06.023",
+      "abstract": "Garcia and Dunn [1] raise some interesting and valuable points regarding our recent paper in Current Biology[2]. As Garcia and Dunn [1] point out, cross-species variation in vocal and anatomical relations allows for the identification of relevant outliers from the body size - fundamental frequency (f",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31094019",
+      "title": "Comparative chemical analysis of body odor in great apes",
+      "year": 2019,
+      "doi": "10.1002/ajp.22976",
+      "abstract": "Olfaction is important across the animal kingdom for transferring information on, for example, species, sex, group membership, or reproductive parameters. Its relevance has been established in primates including humans, yet research on great apes still is fragmentary. Observational evidence indicates that great apes use their sense of smell in various contexts, but the information content of their body odor has not been analyzed. Our aim was therefore to compare the chemical composition of body odor in great ape species, namely Sumatran orangutans (Pongo abelii (Lesson, 1827), one adult male, five adult females, four nonadults), Western lowland gorillas (Gorilla gorilla gorilla (Savage, 1847), one adult male, two adult females, one nonadult), common chimpanzees (Pan troglodytes (Blumenbach, 1775), four adult males, nine adult females, four nonadults), and bonobos (Pan paniscus (Schwarz, 1929), two adult males, four adult females, two nonadults). We collected 195 samples (five per individual) of 39 captive individuals using cotton swabs and analyzed them using gas chromatography mass spectrometry. We compared the sample richness and intensity, similarity of chemical composition, and relative abundance of compounds. Results show that species, age, and potentially sex have an impact on the variance between odor profiles. Richness and intensity varied significantly between species (gorillas having the highest, bonobos the lowest richness and intensity), and with age (both increasing with age). Richness and intensity did not vary between sexes. Odor samples of the same species were more similar to each other than samples of different species. Among all compounds identified some were associated with age (N = 7), sex (N = 6), and species-related (N = 37) variance. Our study contributes to the basic understanding of olfactory communication in hominids by showing that the chemical composition of body odor varies across species and individuals, containing potentially importan",
+      "journal": "American journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_cub_2018_09_030",
@@ -374,11 +945,7 @@
       "abstract": "",
       "journal": "Current Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7287_peerj_preprints_1805v1",
@@ -388,11 +955,7 @@
       "abstract": "<jats:p>\n                  Chimpanzees must be able to coordinate with others even when conflicts of interest are present. The “Snowdrift-Game” provides a model to understand how organisms coordinate and make decisions under conflict situations. By investigating whether and how chimpanzees solve this dilemma we can gain insight into the mechanisms of cooperation. Moreover, by comparing chimpanzees with their closest relatives, bonobos and humans, we can understand the evolutionary context of decision making in this situation. We presented pairs of captive chimpanzees (N=10; M\n                  <jats:sub>age</jats:sub>\n                  = 20.5 years) and bonobos (N=6, M\n                  <jats:sub>age</jats:sub>\n                  =13.7 years) housed at the Leipzig Zoo in Germany as well as 20 children dyads from the same city, with an adapted version of the Snowdrift games. In our task, subjects were faced with an unequal reward distribution. In the critical condition the higher reward ",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_anbehav_2016_10_003",
@@ -402,11 +965,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_srep22046",
@@ -416,11 +975,7 @@
       "abstract": "Long-term social recognition is vital for species with complex social networks, where familiar individuals can encounter one another after long periods of separation. For non-human primates who live in dense forest environments, visual access to one another is often limited, and recognition of social partners over distances largely depends on vocal communication. Vocal recognition after years of separation has never been reported in any great ape species, despite their complex societies and advanced social intelligence. Here we show that bonobos, Pan paniscus, demonstrate reliable vocal recognition of social partners, even if they have been separated for five years. We experimentally tested bonobos' responses to the calls of previous group members that had been transferred between captive groups. Despite long separations, subjects responded more intensely to familiar voices than to calls from unknown individuals - the first experimental evidence that bonobos can identify individuals ut",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-012-0545-3",
@@ -430,11 +985,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-012-0519-5",
@@ -444,11 +995,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10764-011-9570-3",
@@ -458,11 +1005,7 @@
       "abstract": "",
       "journal": "International Journal of Primatology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "lit_gbif_5707435_20",
@@ -472,11 +1015,7 @@
       "abstract": "Despite having being discovered nearly 80 years ago, bonobos (Pan paniscus) are still one of the least well understood of the great apes, largely remaining in the shadow of their better known cousins, the chimpanzees (Pan troglodytes). This is especially evident in the domain of communication, with bonobo vocal behaviour still a&#13;\\nneglected field of study, especially compared to that of chimpanzees. In this thesis, I address this issue by exploring the natural vocal communication of bonobos and its underlying cognition, focusing on the role that vocalisations play during two key contexts, food discovery and sex. In the context of food-discovery, I combine&#13;\\nobservational and experimental techniques to examine whether bonobos produce and understand vocalisations that convey meaningful information about the quality of&#13;\\nfood encountered by the caller. Results indicate that bonobos produce an array of vocalisations when finding food, and combine different food-associated calls",
       "journal": "St Andrews Research Repository (St Andrews Research Repository)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_langcom_2008_01_006",
@@ -486,11 +1025,7 @@
       "abstract": "",
       "journal": "Language &amp; Communication",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1073_pnas_0702624104",
@@ -500,11 +1035,7 @@
       "abstract": "The natural communication of apes may hold clues about language origins, especially because apes frequently gesture with limbs and hands, a mode of communication thought to have been the starting point of human language evolution. The present study aimed to contrast brachiomanual gestures with orofacial movements and vocalizations in the natural communication of our closest primate relatives, bonobos (Pan paniscus) and chimpanzees (Pan troglodytes). We tested whether gesture is the more flexible form of communication by measuring the strength of association between signals and specific behavioral contexts, comparing groups of both the same and different ape species. Subjects were two captive bonobo groups, a total of 13 individuals, and two captive chimpanzee groups, a total of 34 individuals. The study distinguished 31 manual gestures and 18 facial/vocal signals. It was found that homologous facial/vocal displays were used very similarly by both ape species, yet the same did not apply",
       "journal": "Proceedings of the National Academy of Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-004-0247-6",
@@ -514,11 +1045,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037_0735-7036_118_3_265",
@@ -528,11 +1055,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037_0735-7036_118_2_232",
@@ -542,11 +1065,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1023_a:1021487710547",
@@ -556,11 +1075,7 @@
       "abstract": "",
       "journal": "International Journal of Primatology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1159_000021717",
@@ -570,11 +1085,7 @@
       "abstract": "<jats:p>Vocal communication in bonobos, <jats:italic>Pan paniscus</jats:italic>, has been studied mainly in captive groups. The few studies carried out in the wild are on only specific aspects of their behaviour. The aim of this study is to give a preliminary description of the vocal repertoire and a qualitative account of the contextual use of the vocalizations described. Observations were carried out on three wild communities, with a total of 68 individuals, for 685 h. No artificial feeding was used at any stage of the study. The vocal repertoire is composed of 15 vocal units and 19 sequences. There is great variability both in the sequences and in the vocal units, and the categories are not always completely discrete. The repertoire is compared to that of captive bonobos described by De Waal. Most sequences are used in various contexts, and for each behaviour there is a complete array of sequences and their variation. The behaviour patterns observed and the sequences uttered by the ",
       "journal": "Folia Primatologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_s0271-5309(99)00026-9",
@@ -584,11 +1095,7 @@
       "abstract": "",
       "journal": "Language &amp; Communication",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5134_143543",
@@ -598,11 +1105,7 @@
       "abstract": "",
       "journal": "Pan Africa News",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf02547670",
@@ -612,11 +1115,7 @@
       "abstract": "",
       "journal": "International Journal of Primatology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_4159_harvard_9780674183858_c37",
@@ -626,11 +1125,7 @@
       "abstract": "",
       "journal": "Understanding Chimpanzees",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_4159_harvard_9780674183858_c31",
@@ -640,11 +1135,7 @@
       "abstract": "",
       "journal": "Understanding Chimpanzees",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-119350-8_50017-3",
@@ -654,11 +1145,7 @@
       "abstract": "",
       "journal": "Progress in Ape Research",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31274_etd-180810-508",
@@ -668,14 +1155,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 26,
+  "paper_count": 41,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

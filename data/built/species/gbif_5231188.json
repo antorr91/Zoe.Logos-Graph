@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 23,
+    "claim_count": 18,
+    "doi_count": 22,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,78 +42,314 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "song"
+    "song",
+    "alarm call"
   ],
   "contexts": [
-    "cuckoo detection",
+    "territorial defence",
     "mate attraction",
-    "territorial defence"
+    "cuckoo detection"
   ],
   "functions": [
+    "territory signalling",
     "mate attraction",
-    "parasite detection",
-    "territory signalling"
+    "parasite detection"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "cuckoo detection",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "cuckoo detection",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "parasite detection",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territory signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1674,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1673,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1672,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1671,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1670,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1669,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1668,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1667,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1666,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1665,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1664,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1663,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1662,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1661,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1660,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1659,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1658,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1657,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Acrocephalus scirpaceus",
     "recordings": [],
     "external_links": []
@@ -148,11 +384,39 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1038/s41598-018-28275-3",
+      "url": "https://doi.org/10.1038/s41598-018-28275-3",
+      "title": "Evolutionary significance of antiparasite, antipredator and learning phenotypes of avian nest defence",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0201482",
+      "url": "https://doi.org/10.1371/journal.pone.0201482",
+      "title": "Influence of habitat suitability and sex-related detectability on density and population size estimates of habitat-specialist warblers",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.2305/iucn.uk.2017-3.rlts.t22714722a118738083.en",
       "url": "https://doi.org/10.2305/iucn.uk.2017-3.rlts.t22714722a118738083.en",
       "title": "Acrocephalus scirpaceus: BirdLife International",
       "year": 2016,
       "source": "crossref"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2019-3.rlts.t22714722a155436305.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2019-3.rlts.t22714722a155436305.en",
+      "title": "Acrocephalus scirpaceus: BirdLife International",
+      "year": 2016,
+      "source": "crossref"
+    },
+    {
+      "doi": "10.1002/ece3.1034",
+      "url": "https://doi.org/10.1002/ece3.1034",
+      "title": "Do females invest more into eggs when males sing more attractively? Postmating sexual selection strategies in a monogamous reed passerine",
+      "year": 2014,
+      "source": "pubmed"
     },
     {
       "doi": "10.1038/ncomms5117",
@@ -204,6 +468,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rspb.2004.2835",
+      "url": "https://doi.org/10.1098/rspb.2004.2835",
+      "title": "Learning fine-tunes a specific response of nestlings to the parental alarm calls of their own species",
+      "year": 2004,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1007/bf02462091",
       "url": "https://doi.org/10.1007/bf02462091",
       "title": "Langfristige Zunahme früher Bruten beim Teichrohrsänger (Acrocephalus scirpaceus) in einem südwestdeutschen Untersuchungsgebiet Long-term increase in numbers of early-fledged Reed Warblers (Acrocephalus scirpaceus) at Lake Constance (Southern Germany)",
@@ -248,11 +519,7 @@
       "abstract": "<jats:p>Teichrohrsänger überwintern im äquatorialen Afrika und kehren von dort oftmals ins vorjährige Brutgebiet zurück. Diese Ortstreue und der Ablauf des Fortpflanzungsgeschehens haben maßgeblichen Einfluss auf die biologische Fitness der Art. Eine norddeutsche Population wurde über 25 Jahre an zwei Seen für eine synoptische Studie der Phänologie im Brutgebiet und der Rückkehrraten untersucht, welche auch Rückschlüsse auf Dispersal und Umsiedlung, Brut- und Schlupfortstreue, Populationsdynamik und Zuggeschehen erlauben. Dazu wurden in den Monaten Mai bis September der Jahre 1989 bis 2014 in drei Untersuchungsteilgebieten insgesamt 2.796 Teichrohrsänger (2.114 diesjährige Jungvögel und 682 adulte Brutvögel) gefangen und beringt.\r\nIn der ersten Maihälfte (3.–14. Mai) konnten fast nur Durchzügler beringt werden, wohingegen heimische Reviervögel erst ab dem 15. Mai im Untersuchungsgebiet wiederholt gefangen wurden. Altvögel wurden letztmalig in der zweiten Augusthälfte (ausnahmsweise noc",
       "journal": "CORAX",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t22714722a166376541_en",
@@ -262,11 +529,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_95702",
@@ -276,11 +539,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41467-019-10293-y",
@@ -290,11 +549,37 @@
       "abstract": "Culture (behaviour based on socially transmitted information) is present in diverse animal species, yet how it interacts with genetic evolution remains largely unexplored. Here, we review the evidence for gene-culture coevolution in animals, especially birds, cetaceans and primates. We describe how culture can relax or intensify selection under different circumstances, create new selection pressures by changing ecology or behaviour, and favour adaptations, including in other species. Finally, we illustrate how, through culturally mediated migration and assortative mating, culture can shape population genetic structure and diversity. This evidence suggests strongly that animal culture plays an important evolutionary role, and we encourage explicit analyses of gene-culture coevolution in nature.",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_30059562",
+      "title": "Influence of habitat suitability and sex-related detectability on density and population size estimates of habitat-specialist warblers",
+      "year": 2018,
+      "doi": "10.1371/journal.pone.0201482",
+      "abstract": "Knowledge about the population size and trends of common bird species is crucial for setting conservation priorities and management actions. Multi-species large-scale monitoring schemes have often provided such estimates relying on extrapolation of relative abundances in particular habitats to large-scale areas. Here we show an alternative to inference-rich predictive models, proposing methods to deal with caveats of population size estimations in habitat-specialist species, reed warblers (Acrocephalus scirpaceus and Acrocephalus arundinaceus). Reed warblers were only found in pure reedbeds within riparian woodlands or in riparian vegetation scattered within or around reedbed patches, as expected according to their habitat specialization. The proportion of individuals located in reedbed associated with lotic and lentic waters differed between species, and no reed warbler was recorded in reedbed located along dry streams. This indicates that microhabitat features or their effects on reedbed structure and other factors made a proportion of the apparently available habitat unsuitable for both warbler species. Most warblers detected were males performing territorial singing (females seldom sing and do not perform elaborate territorial song, and are undistinguishable from males by plumage). The regional population sizes of the warbler species (~4000 individuals of A. scirpaceus and ~ 1000 individuals of A. arundinaceus) were much smaller than those estimated for the same area by transforming relative abundance obtained at a national scale to population size through extrapolation by habitat at a regional scale. These results highlight the importance of considering the habitat actually used and its suitability, the manner of sex-related detection, population sex-ratio and their interactions in population estimates. Ideally, the value of predictive methods to estimate population size of common species should be tested before conducting large-scale monitoring, rather than a ",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30002381",
+      "title": "Evolutionary significance of antiparasite, antipredator and learning phenotypes of avian nest defence",
+      "year": 2018,
+      "doi": "10.1038/s41598-018-28275-3",
+      "abstract": "Avian nest defence, which is expected to serve both antiparasite and antipredator functions, may benefit or be detrimental to birds, although selective forces that potentially operate on nest defence have not been quantified as a whole. Together with fitness values, we analysed two traits of nest defence, intensity and plasticity, in two distantly related passerine species, yellow warbler (Setophaga petechia) in North America and reed warbler (Acrocephalus scirpaceus) in Europe, both favourite host species for brood parasites. Breeders that escaped parasitism were the most vocal among reed warblers, whereas there was no specific defence phenotype that predicted prevention of parasitism in yellow warblers. Breeders that escaped nest predation were, in both species, those with the most distractive response at the first exposure to a nest-threatening event, such as the experimental predation or parasitism simulated at the nest. However, increasing defence intensity benefited yellow warblers but was detrimental to reed warblers, because intense defence responses attracted predators. Adaptiveness of nest defence was revealed by nest defence phenotypes when examined in concert with the seasonal fitness (i.e. measures of reproductive success). Results revealed selective forces favoured yellow warblers with strong defence phenotypes. Opposite forces were instead revealed among reed warblers whose favoured phenotypes were strong, yet less flexible, defenders.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29185512",
+      "title": "Female cuckoo calls misdirect host defences towards the wrong enemy",
+      "year": 2017,
+      "doi": "10.1038/s41559-017-0279-3",
+      "abstract": "Prey are sensitive to even subtle cues of predation risk, which provides the evolutionary potential for parasites to exploit host risk perception. Brood parasitic common cuckoos (Cuculus canorus) lay their eggs in the nests of host species and their secretive laying behaviour enables them to evade host defences. Therefore, it seems paradoxical that female cuckoos often give a conspicuous 'chuckle' call after parasitizing a host's clutch. Here, we show that this hawk-like chuckle call increases the success of parasitism by diverting host parents' attention away from the clutch and towards their own safety. In our field experiments, reed warbler (Acrocephalus scirpaceus) hosts paid no more attention to the 'cuck-oo' call of the male common cuckoo than the call of a harmless dove. However, the chuckle call of the female cuckoo had the same effect as the call of a predatory hawk in distracting the warblers' attention and reducing rejection of a foreign egg. Our results show that the female cuckoo enhances her success by manipulating a fundamental trade-off in host defences between clutch and self-protection.",
+      "journal": "Nature ecology & evolution",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2017-3_rlts_t22714722a118738083_en",
@@ -304,11 +589,17 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2019-3_rlts_t22714722a155436305_en",
+      "title": "Acrocephalus scirpaceus: BirdLife International",
+      "year": 2016,
+      "doi": "10.2305/iucn.uk.2019-3.rlts.t22714722a155436305.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_ncomms5117",
@@ -318,11 +609,7 @@
       "abstract": "",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1146_annurev-ecolsys-120213-091603",
@@ -332,11 +619,17 @@
       "abstract": "The interactions between avian obligate interspecific brood parasites and their hosts provide tractable systems for studying coevolutionary processes in nature. This review highlights recent advances in understanding coevolution in these systems. First, we discuss the evolution and phylogenetic history of avian brood parasitism. Next, we examine coevolved adaptations and counteradaptations in brood parasites and hosts at all stages of the host nesting cycle: those that precede laying of the parasitic egg and those at the egg, chick, and fledgling stages. We then consider the factors that affect the evolution of offense and defense portfolios (the suites of adaptations and counteradaptations across the nesting cycle), and the outcomes of coevolutionary interactions between brood parasites and hosts. Ongoing efforts to document the diversity of host defenses and parasite offenses will facilitate understanding of coevolutionary processes and the ecological and evolutionary consequences of",
       "journal": "Annual Review of Ecology Evolution and Systematics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24834329",
+      "title": "Do females invest more into eggs when males sing more attractively? Postmating sexual selection strategies in a monogamous reed passerine",
+      "year": 2014,
+      "doi": "10.1002/ece3.1034",
+      "abstract": "Maternal investment can play an important role for offspring fitness, especially in birds, as females have to provide their eggs with all the necessary nutrients for the development of the embryo. It is known that this type of maternal investment can be influenced by the quality of the male partner. In this study, we first verify that male song is important in the mate choice of female Eurasian reed warblers, as males mate faster when their singing is more complex. Furthermore, female egg investment varies in relation to male song characteristics. Interestingly, clutch size, egg weight, or size, which can be considered as an high-cost investment, is not influenced by male song characteristics, whereas comparably low-cost investment types like investment into diverse egg components are adjusted to male song characteristics. In line with this, our results suggest that female allocation rules depend on investment type as well as song characteristics. For example, egg white lysozyme is positively correlated with male song complexity. In contrast, a negative correlation exists between-song speed and syllable repetitiveness and egg yolk weight as well as egg yolk testosterone concentration. Thus, our results suggest that female egg investment is related to male song performance in several aspects, but female investment patterns regarding various egg compounds are not simply correlated.",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1080_11250003_2013_845261",
@@ -346,11 +639,7 @@
       "abstract": "Contextual variation in the loud calls of strepsirhine primates is poorly understood. To understand whether songs given by indris in different contexts represent acoustically distinct variants and have the potential to elicit context-specific behaviours in conspecific listeners, we investigated the acoustic variability of these songs and the distance travelled by vocalizers after their emissions. Songs of 41 individuals were recorded from 16 indri groups in four different forest sites in eastern Madagascar. We collected a total of 270 duets and choruses arising during territorial defence, advertisement and cohesion. We demonstrated that the structure of indri songs conveyed context-specific information through their overall duration, but shared the sequential pattern of harsh units (roars) followed by long notes and, finally, descending phrases. Analysing in detail individual contributions to advertisement songs and cohesion songs, we found that the acoustic structure of units could be",
       "journal": "Italian Journal of Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arp086",
@@ -360,11 +649,7 @@
       "abstract": "Recognition of brood parasitic cuckoo nestlings poses a challenge to hosts because cues expressed by cuckoos and host young may be very similar. In theory, hosts should use flexible recognition rules that maximize the likelihood of rejecting cuckoo nestlings while minimizing the risk of rejecting their own young. Our previous work revealed that female superb fairy-wrens Malurus cyaneus often abandoned nestling cuckoos and that the presence of a single chick in the nest was 1 trigger for abandonment because fairy-wrens also sometimes abandoned a single fairy-wren chick. Here we use a combination of 20 years of observational data, a cross-fostering experiment, and a brood size reduction experiment to determine the basis for individual variability in the chick-rejection rules of superb fairy-wrens in response to parasitism by Horsfield's bronze-cuckoos Chalcites basalis. We show that the decision to abandon a single chick is based on integration of learned recognition cues and external cu",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arm108",
@@ -374,11 +659,7 @@
       "abstract": "Obligate avian brood parasitism typically involves one of 2 strategies: parasite chicks are either 1) virulent and evict all other eggs and nest mates to be raised alone or 2) more tolerant and share foster parental care with host chicks for some or the entirety of the nestling period. We studied the consequences of experimentally forced mixed broods of age-matched one common cuckoo (Cuculus canorus) and 2 great reed warbler (Acrocephalus arundinaceus) chicks. In these broods, both cuckoo and host chicks grew slower than did either individual cuckoos or great reed warblers in broods of 1 parasite or 3 host chicks, respectively. Video records showed that in mixed broods, cuckoo chicks received feedings less frequently than the 33% predicted by chance at 4 days of age but parental food allocations increased to chance levels at 8 days of age. The consistent patterns of lower growth rates arose even though chicks in broods of 1 parasite and 2 hosts received the largest prey items per feedi",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1365-2435_2006_01207_x",
@@ -388,11 +669,7 @@
       "abstract": "1 Habitat structure has been considered as a main factor shaping the evolution of bird song acoustics. 2 Based on expected differential patterns of sound degradation in different habitats, the acoustic adaptation hypothesis (AAH) proposes that songs with lower frequencies, narrower frequency ranges and longer inter-element intervals should occur more frequently in densely vegetated compared with herbaceous habitats. 3 Empirical tests of the AAH have provided mixed results. Here, we review for the first time the literature on this topic using a meta-analytical, quantitative approach. 4 Maximum, minimum, peak frequency and frequency range were found to be significantly lower in closed compared with open habitats, but the mean size of the effect of habitat was small. Inter-element intervals were not affected by habitat structure. 5 The AAH implicitly assumes that birds are selected to maximize song broadcast range and minimize degradation, while it neglects the potential role of energetic",
       "journal": "Functional Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arh051",
@@ -402,11 +679,17 @@
       "abstract": "Only a few studies have focussed on the consistency of sexual selection patterns in space and time. One such case is the great reed warbler (Acrocephalus arundinaceus), for which studies in Germany in 1981–1982 and Sweden in 1987–1991 strongly suggested that the size of a male's song repertoire was the target of mate choice and sexual selection. Studying the same German population once again in 1994–2000, we investigated the consistency of these patterns over time as well as between populations. Our reanalysis of the data from 1981–1982 shows that male repertoire size was positively correlated with male pairing success (harem size) and with clutch size (adjusted for seasonal effects), whereas no such correlations were found during 1994–2000 in the same population. We suggest that the earlier correlations were probably caused indirectly by covariation with territory quality, and that a decline in population size has changed the role of territory quality. In the Swedish population, an ea",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_15539356",
+      "title": "Learning fine-tunes a specific response of nestlings to the parental alarm calls of their own species",
+      "year": 2004,
+      "doi": "10.1098/rspb.2004.2835",
+      "abstract": "Parent birds often give alarm calls when a predator approaches their nest. However, it is not clear whether these alarms function to warn nestlings, nor is it known whether nestling responses are species-specific. The parental alarms of reed warblers, Acrocephalus scirpaceus (\"churr\"), dunnocks, Prunella modularis (\"tseep\"), and robins, Erithacus rubecula (\"seee\") are very different. Playback experiments revealed that nestlings of all three species ceased begging only in response to conspecific alarm calls. These differences between species in response are not simply a product of differences in raising environment, because when newly hatched dunnocks and robins were cross-fostered to nests of the other two species, they did not develop a response to their foster species' alarms. Instead, they still responded specifically to their own species' alarms. However, their response was less strong than that of nestlings raised normally by their own species. We suggest that, as in song development, a neural template enables nestlings to recognize features of their own species' signals from a background of irrelevant sounds, but learning then fine-tunes the response to reduce recognition errors.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_bf02462091",
@@ -416,11 +699,17 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_10512653",
+      "title": "How selfish is a cuckoo chick?",
+      "year": 1999,
+      "doi": "10.1006/anbe.1999.1197",
+      "abstract": "We studied the begging display of nestling cuckoos, Cuculus canorus, reared by reed warbler, Acrocephalus scirpaceus, hosts, to test various hypotheses for the cuckoo's unusually rapid begging call. The hypotheses are not mutually exclusive but focus on different parts of the chain: chick need-begging signals-provisioning by hosts. We reject two hypotheses. (1) Cuckoo chicks do not use their exaggerated begging to counteract host rejection: begging displays varied with hunger and functioned entirely to solicit food. (2) Cuckoos also do not exaggerate their begging calls simply because they need more food than a host brood. Single cuckoos grew at a similar rate to a brood of four reed warblers, and more slowly than a blackbird, Turdus merula, chick (a nonparasitic chick of similar size). Our data support two other hypotheses. (3) To elicit sufficient care in reed warbler nests, the cuckoo must exaggerate the vocal component of its display to compensate for its deficient visual signal (a single gape) compared with a host brood. Thus rapid calling reflects the way the cuckoo exploits the provisioning rules that hosts use to feed their own young. (4) In theory, cuckoos should be more selfish than host young because their greed is unconstrained by kinship. Our data are equivocal; compared with host broods, cuckoos solicited a higher provisioning rate in relation to one measure of need but not for another. We discuss whether cuckoos are likely to have gens-specific begging displays. Copyright 1999 The Association for the Study of Animal Behaviour.",
+      "journal": "Animal behaviour",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_34080_os_v5_23001",
@@ -430,11 +719,7 @@
       "abstract": "<jats:p>We have studied post-fledging movements among Reed Warblers and Sedge Warblers by comparing recapture rates between three different ringing sites in South Central Sweden. The positions of these three sites forms a triangle with Kvismaren in the west, Essön in the north and Segersjö in the east. Each side of the triangle is approximately 10 kilometres. A canal connects Kvismaren and Segersjö enabling the birds to move in their natural habitat between these sites. Lake Kvismaren and Essön has no such connection. Segersjö and Essön are both situated at the southern shoreline of lake Hjälmaren but bays and peninsulas make the distance of the shoreline 26 kilometres long, i.e. 16 kilometres longer than the linear distance. We discuss different hypotheses that may explain the post-fledging dispersal. Our results indicate that there is a higher recapture rate of birds between Segersjö and Kvismaren than between Essön and Kvismaren. Both Reed and Sedge Warblers feed primarily in reed b",
       "journal": "Ornis Svecica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_part_75565",
@@ -444,11 +729,7 @@
       "abstract": "",
       "journal": "Revue suisse de zoologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927026_0057",
@@ -458,14 +739,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 23,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 15,
-    "claim_count": 8,
-    "doi_count": 16,
-    "media_count": 0
+    "paper_count": 31,
+    "claim_count": 18,
+    "doi_count": 25,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -46,14 +46,14 @@
     "knock"
   ],
   "contexts": [
+    "spawning",
     "courtship",
-    "male competition",
-    "spawning"
+    "male competition"
   ],
   "functions": [
-    "male competition",
     "mate attraction",
-    "spawning coordination"
+    "spawning coordination",
+    "male competition"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -61,57 +61,293 @@
         "value": "grunt",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "knock",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
+        "value": "spawning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "male competition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "spawning",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "male competition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "spawning coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "male competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 244,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 243,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 242,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 241,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 240,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 239,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 238,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 237,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 236,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 235,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 234,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 233,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 232,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 231,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 230,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 229,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 228,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 227,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -119,6 +355,62 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/ece3.73316",
+      "url": "https://doi.org/10.1002/ece3.73316",
+      "title": "Male Agonistic Behavior on Atlantic Cod Spawning Grounds",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/eap.70136",
+      "url": "https://doi.org/10.1002/eap.70136",
+      "title": "Weak effects of local prey density and spatial overlap on predation intensity in a temperate marine ecosystem",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/jfb.15850",
+      "url": "https://doi.org/10.1111/jfb.15850",
+      "title": "Temperature and body size affect movement of juvenile Atlantic cod (Gadus morhua) and saithe (Pollachius virens) at nearshore nurseries",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0319536",
+      "url": "https://doi.org/10.1371/journal.pone.0319536",
+      "title": "Soundscape and fish passive acoustic monitoring around a North Sea gas-production platform in the Dogger Bank",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/biology14070870",
+      "url": "https://doi.org/10.3390/biology14070870",
+      "title": "Exploring the Potential of Extracellular Vesicles from Atlantic Cod (",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-024-74896-2",
+      "url": "https://doi.org/10.1038/s41598-024-74896-2",
+      "title": "Sex-specific vertical movements of spawning atlantic cod in coastal habitats inferred from acoustic telemetry",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s42003-024-06952-6",
+      "url": "https://doi.org/10.1038/s42003-024-06952-6",
+      "title": "Rapid predator-prey balance shift follows critical-population-density transmission between cod (Gadus morhua) and capelin (Mallotus villosus)",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.240339",
+      "url": "https://doi.org/10.1098/rsos.240339",
+      "title": "Strong site fidelity, residency and local behaviour of Atlantic cod (",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1007/s11160-020-09598-9",
       "url": "https://doi.org/10.1007/s11160-020-09598-9",
@@ -197,6 +489,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1007/s10162-004-4043-4",
+      "url": "https://doi.org/10.1007/s10162-004-4043-4",
+      "title": "Hearing in Fishes under Noise Conditions",
+      "year": 2005,
+      "source": "openalex"
+    },
+    {
       "doi": "10.1242/jeb.01809",
       "url": "https://doi.org/10.1242/jeb.01809",
       "title": "Are hearing sensitivities of freshwater fish adapted to the ambient noise in their habitats?",
@@ -234,6 +533,156 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_42040851",
+      "title": "Male Agonistic Behavior on Atlantic Cod Spawning Grounds",
+      "year": 2026,
+      "doi": "10.1002/ece3.73316",
+      "abstract": "The mating system of the iconic Atlantic cod (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41272402",
+      "title": "Weak effects of local prey density and spatial overlap on predation intensity in a temperate marine ecosystem",
+      "year": 2025,
+      "doi": "10.1002/eap.70136",
+      "abstract": "Quantifying the impact of lower trophic level species abundance on higher trophic level predators (and vice versa) is critical for understanding marine ecosystem dynamics and for implementing ecosystem-based management. Trophic ecosystem models generally predict a tight coupling between prey and fish predators, such that higher abundance of lower trophic species increases the abundance of higher trophic level predators. This assumes that predator feeding rates are limited by prey availability to some degree. Despite being a key component of predator-prey interactions and multispecies fisheries management, relatively few studies have assessed the impacts of prey availability on predation patterns of mobile, generalist fish predators using spatiotemporal models and local-scale stomach content, predator, and prey data. In this study, we explore the association between local density of key prey and predator stomach contents, and predator-prey spatiotemporal overlap and predation indices, using the Baltic Sea as a case study. We use three decades of spatially resolved biomass and stomach content data on Atlantic cod (Gadus morhua), and biomass data on three of its key prey: herring (Clupea harengus), the isopod Saduria entomon, and sprat (Sprattus sprattus). Using geostatistical generalized linear mixed-effects models fitted to relative biomass density and prey-mass-per-predator-mass, we estimate spatiotemporal trends and annual indices of biomass- weighted and area-expanded per-capita and population-level predation, predator-prey overlap, and the correlation between these indices. Range shifts have resulted in reduced predator-prey overlap over time, which is now the lowest in three decades. For Saduria, we find an association between prey availability and stomach contents, but not for herring or sprat. Similarly, only in Saduria do we find a positive correlation between population-level predation indices and the spatiotemporal overlap. Although behavioral interactions ",
+      "journal": "Ecological applications : a publication of the Ecological Society of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40760860",
+      "title": "Northern cod (Gadus morhua) movement: insights from acoustic telemetry and genomics",
+      "year": 2025,
+      "doi": "10.1111/jfb.70167",
+      "abstract": "Knowledge of the timing and diversity of fish movements within a commercially exploited stock complex is required to ensure the sustainability of fisheries. Although migration can be driven by environmental factors, genomic mechanisms also play an important role in this complex life-history trait. The northern cod (Gadus morhua) stock complex, off the coast of Newfoundland and Labrador, once supported the largest fishery in the world. Like other Atlantic cod stocks, northern cod is believed to include components with diverse migratory patterns. Here we used telemetry to track the movement of 847 acoustically tagged northern cod caught and released from inshore and offshore sites. Four different migratory phenotypes were distinguished: (i) cod that moved along the Northwest Atlantic Fisheries Organization (NAFO) Divisions 2J3KL (3P4RS), (ii) cod that remained year-round mainly north of the Notre Dame Channel (NAFO Divisions 2J and north of 3K), (iii) cod that remained year-round mainly south of the Notre Dame Channel (NAFO Divisions south of 3K and 3L) and (iv) cod that remained year-round inshore. Whole-genome sequences of 77 tagged cod showed no relation between chromosomal inversions and the four migratory phenotypes described here but revealed genomic regions encoding for hormone receptors that show differentiation between cod detected north versus south of the Notre Dame Channel during the peak spawning season. This study demonstrates the synergistic value of an interdisciplinary approach that combines genomic with acoustic telemetry data along with life-history information (i.e., spawning time) to elucidate the complex spatial-temporal dynamics of a widespread marine species under exploitation.",
+      "journal": "Journal of fish biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40723426",
+      "title": "Exploring the Potential of Extracellular Vesicles from Atlantic Cod (",
+      "year": 2025,
+      "doi": "10.3390/biology14070870",
+      "abstract": "Novel therapeutic approaches for wound healing have included biomaterials from the Atlantic cod (",
+      "journal": "Biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40482351",
+      "title": "Free-ranging Atlantic cod did not change their behaviour in response to a sparker seismic sound source",
+      "year": 2025,
+      "doi": "10.1016/j.marenvres.2025.107254",
+      "abstract": "Sparkers are seismic sources commonly used to survey the seabed in areas planned for offshore wind farms. The almost continuous sounds produced by sparkers, with most energy in the frequency range 50Hz - 4 kHz, are audible to both fish and marine mammals and may cause disturbance and behavioural reactions. Here, we conducted a sparker exposure experiment with wild, free-ranging, tagged Atlantic cod (Gadus morhua). The fish were exposed to sound from a real sparker, experiencing varying sound exposure levels up to 130 dB re 1μPa",
+      "journal": "Marine environmental research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40173135",
+      "title": "Soundscape and fish passive acoustic monitoring around a North Sea gas-production platform in the Dogger Bank",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0319536",
+      "abstract": "This study provides temporo-spatial characterisation of the underwater soundscape in proximity of a relatively newly installed offshore gas-production platform in the North Sea's Dogger Bank Special Area of Conservation, recorded by Static Acoustic Monitoring at different distances from the wellhead (70 m, 5 Km and 10 km). Long-Term Spectrogram Analysis and percentile Power Spectral Densities demonstrated strong acoustic similarity between sites; no biophonic acoustic-mass phenomena were present. All locations were characterized by Underwater Radiated Noise, concentrated < 2 kHz, which dominated the soundscape. Fish acoustic community analysis was performed to explore occurrence, richness, abundance, diel, and seasonal patterns of putative fish sounds. Principal Component Analysis was used to infer potential sound-emitting species, and was performed on North Sea fish sounds downloaded from the Global Inventory of known fish sounds (https://fishsounds.net/), analyzed for the same acoustic features used to characterize fish sounds recorded during this study. The fish acoustic community was characterized by low levels of diversity (acoustic richness ranging from 1 to 2) and abundance (never above 2 sounds min-1). The fish sound type 'Pulse Series' (PS), emitted at the 70 m and at the 5 km station in low abundance in September from ca. 19:00 to 23:00, was characterized by acoustic features with the closest linear combination to those typifying sounds emitted by Eutrigla gurnardus. The fish sound type 'Low-frequency Down-Sweep' (LF-DS) was recorded at all stations and was characterized by acoustic features with the closest linear combination to those typifying grunts emitted by Gadus morhua. This study represents the first application of fish acoustic community analysis in the context of environmental management of an operational offshore gas production platform.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39826433",
+      "title": "Increased fish abundance, biodiversity, and body size near a North Sea oil and gas platform",
+      "year": 2025,
+      "doi": "10.1016/j.marenvres.2025.106959",
+      "abstract": "In the North Sea, offshore oil and gas (O&G) platforms must be totally removed through decommissioning at the end of their productive life. However, the role of O&G platforms in marine ecosystems, especially for fish assemblages, is not well enough defined yet. Here, we document the association between an O&G platform in the North Sea and the fish assemblages along a distance gradient of 1-600 m from the platform. Scientific angling provided data on fish biodiversity, abundance, and body size. In addition, acoustic data on fish density and target strength were collected to explore spatial and diel fish distributions. The angling data comprised 1217 fish from 11 species, with the highest fish abundance, and all species occurring, within 20 m from the platform. Platform proximity was positively associated with fish biodiversity, and total fish abundance, as well as the specific abundances of Atlantic cod Gadus morhua, dab Limanda limanda, whiting Merlangius merlangus, and mackerel Scomber scombrus. Body sizes of Atlantic cod, whiting, and mackerel were also positively associated with the platform. Absent non-native or invasive species provided no support for stepping stone scenarios. This study highlights the attraction of a variety of fish species towards O&G platforms in the North Sea. Potential local loss of marine biodiversity following full platform removal should be considered in future discussions on platform decommissioning policies.",
+      "journal": "Marine environmental research",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38924061",
+      "title": "Temperature and body size affect movement of juvenile Atlantic cod (Gadus morhua) and saithe (Pollachius virens) at nearshore nurseries",
+      "year": 2025,
+      "doi": "10.1111/jfb.15850",
+      "abstract": "Seasonal migrations of marine fish between shallow summer feeding habitats and deep overwintering grounds are driven by fluctuations in the biotic and abiotic environment as well as by changes in the internal state. Ontogenetic shifts in physiology and metabolism affect the response to environmental drivers and may lead to changes in migration timing and propensity. In this study, we investigated the effect of temperature and body size on migration timing and depth distribution in acoustically tagged Atlantic cod, Gadus morhua, and saithe, Pollachius virens, during the period of seasonal migration from shallow summer habitats. The results from our study revealed a wide range of horizontal and vertical distribution of age 1 and 2 G. morhua within the fjord. Larger G. morhua inhabited deeper, cooler waters than smaller juveniles, likely reflecting size-dependent thermal preferences and predation pressure. Conversely, juvenile P. virens occupied primarily shallow waters close to land. The variation in depth distribution of G. morhua was mainly explained by body size and not, against our predictions, by water temperature. Conversely, the dispersal from the in-fjord habitats occurred when water temperatures were high, suggesting that seasonal temperature fluctuations can trigger the migration timing of P. virens and larger G. morhua from summer habitats. Partial migration of small juvenile G. morhua from in-fjord foraging grounds, likely influenced by individual body condition, suggested seasonal migration as a flexible strategy that individuals may use to reduce predation and energetic expenditure. Predation mortality rates of tagged juveniles were higher than previously suggested and are the first robust predation mortality rates for juvenile G. morhua and P. virens estimated based on acoustic transmitters with acidity sensors. The results have relevance for climate-informed marine spatial planning as under the scenario of increasing ocean temperatures, increasing summ",
+      "journal": "Journal of fish biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39472503",
+      "title": "Rapid predator-prey balance shift follows critical-population-density transmission between cod (Gadus morhua) and capelin (Mallotus villosus)",
+      "year": 2024,
+      "doi": "10.1038/s42003-024-06952-6",
+      "abstract": "Sensing limitations have impeded knowledge about how individual predator-prey interactions build to organized multi-species group behaviour across an ecosystem. Population densities of overlapping interacting oceanic fish predator and prey species, however, can be instantaneously distinguished and quantified from roughly the elemental individual to spatial scales spanning thousands of square kilometres by wide-area multispectral underwater-acoustic sensing, as shown here. This enables fundamental mechanisms behind large-scale ordered predator-prey interactions to be investigated. Critical population densities that transition random individual behaviour to ordered group behaviour are found to rapidly propagate to form vast adversarial prey and predator shoals of capelin and surrounding cod in the Barents Sea Arctic ecosystem for these keystone species. This leads to a sudden major shift in predator-prey balance. Only a small change in local behaviour triggers the shift due to an unstable equilibrium. Such unstable equilibria and associated balance shifts at predation hotspots are often overlooked as blind spots in present ocean ecosystem monitoring and assessment due to use of highly undersampled spatio-temporal sampling methods.",
+      "journal": "Communications biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39369150",
+      "title": "Sex-specific vertical movements of spawning atlantic cod in coastal habitats inferred from acoustic telemetry",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-74896-2",
+      "abstract": "Fish spawning location and behaviour can be challenging to detect, especially in deep water. Here we utilise two large acoustic telemetry datasets from western and mid Norway to study the vertical movement dimension of individual Atlantic cod Gadus morhua spawning behaviour in their natural habitats. The datasets comprise ~ 6 million depth detections from 644 sexed, mature cod, collected at seven different Norwegian coastal cod spawning grounds during 2017-2021. During the spawning period, females were typically found at shallower depths compared to males, while this pattern was much less pronounced or absent outside this period. Furthermore, we identify a hitherto undescribed sex-dependent vertical movement behaviour: periodic descents, where females made deep dives, putatively associated with egg release and spawning, approximately every third day. Females not showing this behaviour tended to occupy deeper positions in the water column than the \"periodic descent\" females and hence may approach and retreat from spawning males more horizontally. These observed sex-specific behaviours correspond well to the lek-like description of the cod mating system and with cod reproductive physiology, where females are known to mature and release batches of eggs at intervals of several days as part of a bet-hedging strategy.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39076370",
+      "title": "Strong site fidelity, residency and local behaviour of Atlantic cod (",
+      "year": 2024,
+      "doi": "10.1098/rsos.240339",
+      "abstract": "Globally, biogenic temperate reefs are among the most threatened habitats. In the North Sea in particular, large shellfish reefs were lost owing to fishing activities in the 1900s. The impact of offshore wind farms (OWFs) on marine wildlife is extensive, and it offers the possibility to reintroduce new hard substrate habitats that are protected from fisheries at a large scale. In addition to the submerged structures of OWFs, marine hard substrate habitat can be further enhanced by providing extra artificial reefs. In an operational OWF along the Dutch coast, four artificial reefs (two with a scour bed and two without) were deployed in the vicinity of a wind turbine. Acoustic telemetry was used to monitor the fine-scale movement of 64 Atlantic cod (",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38958489",
+      "title": "Acoustic monitoring of artificial reefs reveals Atlantic cod and weakfish spawning and presence of individual bottlenose dolphins",
+      "year": 2024,
+      "doi": "10.1121/10.0026461",
+      "abstract": "The artificial reefs in New York's waters provide structure in areas that are typically flat and sandy, creating habitat for a multitude of species as an area to spawn, forage, and reside. Passive acoustic data collected on the Fire Island and Shinnecock artificial reefs between 2018 and 2022 detected spawning-associated calls of weakfish (Cynoscion regalis) and Atlantic cod (Gadus morhua), as well as the presence of individual bottlenose dolphins (Tursiops truncatus) through their signature whistles. Weakfish and Atlantic cod were more vocally active on the Fire Island reef, where Atlantic cod grunts peaked during a new moon phase in December, and weakfish spawning experienced variable peaks between mid-July and mid-August on both reefs. Fifty-seven individual bottlenose dolphins were identified, with whistle repeats ranging from seconds to years apart. Passive acoustic monitoring allows for simultaneous collection of information on multiple species at different trophic levels as well as behavioral information that helps managers understand how these animals utilize these habitats, which can lead to improved conservation measures.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38211875",
+      "title": "Continuous sound from a marine vibrator causes behavioural responses of free-ranging, spawning Atlantic cod (Gadus morhua)",
+      "year": 2024,
+      "doi": "10.1016/j.envpol.2024.123322",
+      "abstract": "Marine vibrators are a new technology being developed for seismic surveys. These devices can transmit continuous instead of impulsive sound and operate over a narrower frequency band and at lower peak pressure than airguns, which is assumed to reduce their environmental impacts. We exposed spawning Atlantic cod (Gadus morhua) to sound produced by a prototype, but full-scale, marine vibrator, and monitored behavioural responses of tagged cod using acoustic telemetry. Fish were exposed to 10 × 3 h continuous sound treatments over a 4-day period using a randomised-block design. Sound exposure levels were comparable to airgun exposure experiments conducted previously with the same set-up ranging from ∼115 to 145 dB re 1 μPa",
+      "journal": "Environmental pollution (Barking, Essex : 1987)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37843043",
+      "title": "Atlantic cod individual spatial behaviour and stable isotope associations in a no-take marine reserve",
+      "year": 2023,
+      "doi": "10.1111/1365-2656.14014",
+      "abstract": "Foraging is a behavioural process and, therefore, individual behaviour and diet are theorized to covary. However, few comparisons of individual behaviour type and diet exist in the wild. We tested whether behaviour type and diet covary in a protected population of Atlantic cod, Gadus morhua. Working in a no-take marine reserve, we could collect data on natural behavioural variation and diet choice with minimal anthropogenic disturbance. We inferred behaviour using acoustic telemetry and diet from stable isotope compositions (expressed as δ",
+      "journal": "The Journal of animal ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37485731",
+      "title": "Movement diversity and partial sympatry of coastal and Northeast Arctic cod ecotypes at high latitudes",
+      "year": 2023,
+      "doi": "10.1111/1365-2656.13989",
+      "abstract": "Movement diversity within species represent an important but often neglected, component of biodiversity that affects ecological and genetic interactions, as well as the productivity of exploited systems. By combining individual tracking data from acoustic telemetry with novel genetic analyses, we describe the movement diversity of two Atlantic cod Gadus morhua ecotypes in two high-latitude fjord systems: the highly migratory Northeast Arctic cod (NEA cod) that supports the largest cod fishery in the world, and the more sedentary Norwegian coastal cod, which is currently in a depleted state. As predicted, coastal cod displayed a higher level of fjord residency than NEA cod. Of the cod tagged during the spawning season, NEA cod left the fjords permanently to a greater extent and earlier compared to coastal cod, which to a greater extent remained resident and left the fjords temporarily. Despite this overall pattern, horizontal movements atypical for the ecotypes were common with some NEA cod remaining within the fjords year-round and some coastal cod displaying a low fjord fidelity. Fjord residency and exit timing also differed with spawning status and body size, with spawning cod and large individuals tagged during the feeding season more prone to leave the fjords and earlier than non-spawning and smaller individuals. While our results confirm a lower fjord dependency for NEA cod, they highlight a movement diversity within each ecotype and sympatric residency between ecotypes, previously undetected by population-level monitoring. This new knowledge is relevant for the management, which should base their fisheries advice for these interacting ecotypes on their habitat use and seasonal movements.",
+      "journal": "The Journal of animal ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1007_s11160-020-09598-9",
       "title": "Predicting the effects of anthropogenic noise on fish reproduction",
       "year": 2020,
@@ -241,11 +690,7 @@
       "abstract": "Abstract Aquatic animals use and produce sound for critical life functions, including reproduction. Anthropogenic noise is recognized as a global source of environmental pollution and adequate conservation and management strategies are urgently needed. It becomes therefore critical to identify the reproductive traits that render a species vulnerable to acoustic disturbances, and the types of anthropogenic noise that are most likely to impact reproduction. Here, we provide predictions about noise impact on fish reproduction following a two-step approach: first, we grouped documented effects of noise into three mechanistic categories: stress, masking and hearing-loss, and test which type of noise (continuous vs intermittent and regular vs irregular) was most likely to produce a significant response in each category with either a meta-analysis or a quantitative review, depending on data availability. Second, we reviewed existing literature to predict which reproductive traits would render",
       "journal": "Reviews in Fish Biology and Fisheries",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_81933",
@@ -255,11 +700,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-319-25582-8_10069",
@@ -269,11 +710,7 @@
       "abstract": "",
       "journal": "The Western Arctic Seas Encyclopedia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41598-017-14743-9",
@@ -283,11 +720,7 @@
       "abstract": "Stellwagen Bank National Marine Sanctuary is located in Massachusetts Bay off the densely populated northeast coast of the United States; subsequently, the marine inhabitants of the area are exposed to elevated levels of anthropogenic underwater sound, particularly due to commercial shipping. The current study investigated the alteration of estimated effective communication spaces at three spawning locations for populations of the commercially and ecologically important fishes, Atlantic cod (Gadus morhua) and haddock (Melanogrammus aeglefinus). Both the ambient sound pressure levels and the estimated effective vocalization radii, estimated through spherical spreading models, fluctuated dramatically during the three-month recording periods. Increases in sound pressure level appeared to be largely driven by large vessel activity, and accordingly exhibited a significant positive correlation with the number of Automatic Identification System tracked vessels at the two of the three sites. T",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2016_0839",
@@ -297,11 +730,7 @@
       "abstract": "Anthropogenically driven environmental changes affect our planet at an unprecedented scale and are considered to be a key threat to biodiversity. According to the World Health Organization, anthropogenic noise is one of the most hazardous forms of anthropogenically driven environmental change and is recognized as a major global pollutant. However, crucial advances in the rapidly emerging research on noise pollution focus exclusively on single aspects of noise pollution, e.g. on behaviour, physiology, terrestrial ecosystems, or on certain taxa. Given that more than two-thirds of our planet is covered with water, there is a pressing need to get a holistic understanding of the effects of anthropogenic noise in aquatic ecosystems. We found experimental evidence for negative effects of anthropogenic noise on an individual's development, physiology, and/or behaviour in both invertebrates and vertebrates. We also found that species differ in their response to noise, and highlight the potentia",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fevo_2016_00028",
@@ -311,11 +740,7 @@
       "abstract": "An astonishing diversity of inner ears and accessory hearing structures (AHS) that can enhance hearing has evolved in fishes. Inner ears mainly differ in the size of the otolith end organs, the shape and orientation of the sensory epithelia, and the orientation patterns of ciliary bundles of sensory hair cells. Despite our profound morphological knowledge of inner ear variation, two main questions remain widely unanswered. (i) What selective forces and/or constraints led to the evolution of this inner ear diversity? (ii) How is the morphological variability linked to hearing abilities? Improved hearing is mainly based on the ability of many fish species to transmit oscillations of swim bladder walls or other gas-filled bladders to the inner ears. Swim bladders may be linked to the inner ears via a chain of ossicles (in otophysans), anterior extensions (e.g. some cichlids, squirrelfishes), or the gas bladders may touch the inner ears directly (labyrinth fishes). Studies on catfishes and",
       "journal": "Frontiers in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_aru029",
@@ -325,11 +750,7 @@
       "abstract": "Anthropogenic (man-made) noise has changed the acoustic environment both on land and underwater and is now recognized as a pollutant of international concern. Increasing numbers of studies are assessing how noise pollution affects animals across a range of scales, from individuals to communities, but the topic receiving the most research attention has been acoustic communication.",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7287_peerj_20v0_1_reviews_2",
@@ -339,11 +760,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_tree_2010_04_005",
@@ -353,11 +770,7 @@
       "abstract": "",
       "journal": "Trends in Ecology & Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_icb_icp055",
@@ -367,11 +780,7 @@
       "abstract": "In social species animals should fine-tune the expression of their social behavior to social environments in order to avoid the costs of engaging in costly social interactions. Therefore, social competence, defined as the ability of an animal to optimize the expression of its social behavior as a function of the available social information, should be considered as a performance trait that impacts on the Darwinian fitness of the animal. Social competence is based on behavioral plasticity which, in turn, can be achieved by different neural mechanisms of plasticity, namely by rewiring or by biochemically switching nodes of a putative neural network underlying social behavior. Since steroid hormones respond to social interactions and have receptors extensively expressed in the social behavioral neural network, it is proposed that steroids play a key role in the hormonal modulation of social plasticity. Here, we propose a reciprocal model for the action of androgens on short-term behaviora",
       "journal": "Integrative and Comparative Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1601-5223_1988_tb00678_x",
@@ -381,11 +790,7 @@
       "abstract": "",
       "journal": "Hereditas",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1242_jeb_01809",
@@ -395,11 +800,17 @@
       "abstract": "Several groups of fishes, among them two thirds of all freshwater fishes, have developed hearing specializations that enhance auditory sensitivity and broaden frequency ranges compared with hearing non-specialists (generalists), which lack such adaptations. It has been speculated that the enhanced sensitivities of these so-called hearing specialists have evolved in quiet habitats such as lakes, backwaters of rivers, slowly flowing streams or the deep sea. To test this hypothesis, noise levels and frequency spectra of four different freshwater habitats near Vienna, Austria (Danube River, Triesting stream, Lake Neusiedl, backwaters of the Danube River), were recorded and played back to native fish species while simultaneously measuring their auditory thresholds using the auditory evoked potential (AEP) recording technique. As a representative of hearing specialists, we chose the common carp (Cyprinus carpio, Cyprinidae) and for the hearing generalists the European perch (Perca fluviatili",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1007_s10162-004-4043-4",
+      "title": "Hearing in Fishes under Noise Conditions",
+      "year": 2005,
+      "doi": "10.1007/s10162-004-4043-4",
+      "abstract": "",
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_15366_archaeofauna2002_11_002",
@@ -409,11 +820,7 @@
       "abstract": "<jats:p>Resumen</jats:p>",
       "journal": "Archaeofauna",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_0305-0491(81)90084-5",
@@ -423,11 +830,7 @@
       "abstract": "",
       "journal": "Comparative Biochemistry and Physiology Part B: Comparative Biochemistry",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_23860_diss-1790",
@@ -437,14 +840,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 15,
+  "paper_count": 31,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

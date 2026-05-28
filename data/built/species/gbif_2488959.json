@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 5,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 26,
+    "claim_count": 4,
+    "doi_count": 22,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,12 +45,12 @@
     "hooting"
   ],
   "contexts": [
-    "mate attraction",
-    "territorial defence"
+    "territorial defence",
+    "mate attraction"
   ],
   "functions": [
-    "pair bonding",
-    "territory signalling"
+    "territory signalling",
+    "pair bonding"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,46 +58,107 @@
         "value": "hooting",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "pair bonding",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "pair bonding",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 927,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 926,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 925,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 924,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Bubo bubo",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.5040/9781399410809.0011",
+      "url": "https://doi.org/10.5040/9781399410809.0011",
+      "title": "Eagle Owl",
+      "year": 2024,
+      "source": "crossref"
+    },
     {
       "doi": "10.2307/jj.6230179.66",
       "url": "https://doi.org/10.2307/jj.6230179.66",
@@ -162,11 +223,25 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1371/journal.pone.0008696",
+      "url": "https://doi.org/10.1371/journal.pone.0008696",
+      "title": "Moonlight Makes Owls More Chatty",
+      "year": 2010,
+      "source": "openalex"
+    },
+    {
       "doi": "10.5253/078.097.0403",
       "url": "https://doi.org/10.5253/078.097.0403",
       "title": "Great Horned Owl<i>Bubo virginianus</i>Vocalizations and Associated Behaviours",
       "year": 2009,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0003014",
+      "url": "https://doi.org/10.1371/journal.pone.0003014",
+      "title": "Owls may use faeces and prey feathers to signal current reproduction",
+      "year": 2008,
+      "source": "pubmed"
     },
     {
       "doi": "10.1111/j.1439-0310.2007.01414.x",
@@ -234,6 +309,16 @@
   ],
   "papers": [
     {
+      "paper_id": "10_5040_9781399410809_0011",
+      "title": "Eagle Owl",
+      "year": 2024,
+      "doi": "10.5040/9781399410809.0011",
+      "abstract": "",
+      "journal": "Owls of Europe",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
       "paper_id": "10_2478_orhu-2023-0019",
       "title": "Vocal interaction between Eurasian Eagle-Owl <i>(Bubo bubo)</i> and canines (Carnivora, Canidae)",
       "year": 2023,
@@ -241,11 +326,7 @@
       "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>We recorded vocal interaction in the natural environment of an Eurasian Eagle-Owl <jats:italic>(Bubo bubo)</jats:italic> with canines Gray Wolves <jats:italic>(Canis lupus)</jats:italic>, Red Foxes <jats:italic>(Vulpes vulpes)</jats:italic> and domestic dogs <jats:italic>(Canis familiaris)</jats:italic>. Vocalization was recorded using Olympus digital voice recorders. The calls of the male Eurasian Eagle-Owl were recorded by us in the frequency range of 200–420 Hz. The howl of a Gray Wolf was recorded in the frequency range from 300 to 1,100 Hz. Red Fox barking was recorded in the frequency range from 750 to 1,000 Hz. Barking of domestic dogs was recorded in the frequency range from 250 to 1,500 Hz. The vocalization of the Eurasian Eagle-Owl had an independent character inherent in the biology of the species. The Eurasian Eagle-Owl, with its cries, involuntarily provoked the entry of canines into joint vocal interaction, which ca",
       "journal": "Ornis Hungarica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_jj_6230179_66",
@@ -255,11 +336,7 @@
       "abstract": "",
       "journal": "The Birds of Ancient Egypt",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_17475_kastorman_1000378",
@@ -269,11 +346,7 @@
       "abstract": "<jats:p xml:lang=\"en\">Abstract&#x0D;\nAim of study: The aim of this study was to contribute to the data on the diet of Eurasian Eagle Owl (Bubo bubo) in Turkey.&#x0D;\nArea of study: This study was conducted near the Yedikır Dam (Amasya)&#x0D;\nMaterial and methods: A total of 12 pellets of the Eurasian Eagle Owl collected in Yedikır Dam was analyzed. The remains of the skull and lower jaw were used for the identification of mammals. &#x0D;\nMain results: 60 preys were identified to belong to 6 different taxa (5 Rodents and 1 Passerine). The main prey was Mus spp. (35.0%). Only one bird remain was recorded from pellets.&#x0D;\nHighlights: Pellet analyses were the first step for understanding the diet of B. bubo. Considering, B. bubo is an opportunistic predator and can consume medium-sized mammals and large-sized birds. Hence, a diet study supported with remains that are directly collected from the nest or perching site and their surroundings will reveal more objectively prey preferences fo",
       "journal": "Kastamonu Üniversitesi Orman Fakültesi Dergisi",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_10277",
@@ -283,11 +356,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_121884",
@@ -297,11 +366,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3917_poesi_162_0041",
@@ -311,11 +376,7 @@
       "abstract": "",
       "journal": "Po&amp;sie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_17721_1728_2748_2016_71_27-31",
@@ -325,11 +386,27 @@
       "abstract": "<jats:p>The article deals with the results of research into species composition of birds whose remains were discovered in Eagle-owl pellets in Ciscaucasia region. The materials collected in three locations of the region have very low similarity index which doesn't exceed 0,1 (Sørensen index). This fact indicates a high level of Eagle-owl polyphagia. During the research, the birds of prey (ex. Goshawk and a Rough-legged buzzard) as well as rare Tawny owl and Long-eared owl were identified. A part of birds in the nourishment of eagle-owls increases during autumnal migrations. The poultry is extremely rare found among Eagle-owl prey.</jats:p>",
       "journal": "Bulletin of Taras Shevchenko National University of Kyiv. Series: Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_26143188",
+      "title": "Behavioural and physiological responses of wood mice (Apodemus sylvaticus) to experimental manipulations of predation and starvation risk",
+      "year": 2015,
+      "doi": "10.1016/j.physbeh.2015.06.037",
+      "abstract": "Body weight and the levels of stored body fat have fitness consequences. Greater levels of fat may provide protection against catastrophic failures in the food supply, but they may also increase the risk of predation. Animals may therefore regulate their fatness according to their perceived risks of predation and starvation: the starvation-predation trade-off model. We tested the predictions of this model in wood mice (Apodemus sylvaticus) by experimentally manipulating predation risk and starvation risk. We predicted that under increased predation risk individuals would lose weight and under increased starvation risk they would gain it. We simulated increased predation risk by playing the calls made by predatory birds (owls: Tyto alba and Bubo bubo) to the mice. Control groups included exposure to calls of a non-predatory bird (blackbird: Turdus merula) or silence. Mice exposed to owl calls at night lost weight relative to the silence group, mediated via reduced food intake, but exposure to owl calls in the day had no significant effect. Exposure to blackbird calls at night also resulted in weight loss, but blackbird calls in the day had no effect. Mice seemed to have a generalised response to bird calls at night irrespective of their actual source. This could be because in the wild any bird calling at night will be a predation risk, and any bird calling in the day would not be, because at that time the mice would normally be resting, and hence not exposed to avian predators. Consequently, mice have not evolved to distinguish different types of call but only to respond to the time of day that they occur. Mice exposed to stochastic 24h starvation events altered their behaviour (reduced activity) during the refeeding days that followed the deprivation periods to regain the lost mass. However, they only marginally elevated their food intake and consequently had reduced body weight/fat storage compared to that of the control unstarved group. This response may have been",
+      "journal": "Physiology & behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25847092",
+      "title": "Quantifying space use of breeders and floaters of a long-lived species using individual movement data",
+      "year": 2015,
+      "doi": "10.1007/s00114-015-1271-x",
+      "abstract": "To date, animal movement studies have mostly analysed the movement behaviours of individuals at specific times of their lives, but we lack detailed information on how individual movements may be affected by the various and different changes that individuals experience throughout their life (e.g. life history phases, experience, age). Here, we attempt to identify differences in home range and movement behaviour between two different statuses, disperser vs. breeder, of a long-lived species (the eagle owl Bubo bubo). Information on home range and movement behaviour between different stages of an individual life are crucial for species conservation and management, as well as for basic knowledge on space use and rhythm of activity. Does the transition from an exploratory stage to moving within more familiar surroundings call for changes in the movement behaviour? We observed notable differences during the two stages of the owls' lives, with individuals having different home range behaviours and rhythms of activity depending on their social status. Significant differences in home range behaviour between the sexes began only with the acquisition of a breeding site. Breeders showed larger home ranges than dispersing individuals, although nightly variation of home ranges size was higher for dispersers than for breeders. Finally, dispersers were active throughout the night, whereas breeders displayed a less active movement phase at both the beginning and end of the night. Our results demonstrate it is important to consider individual variations in space use and movement behaviour due to the different life history phases that they attain during their lifetime. The knowledge of the different needs of a species across life stages may represent an important tool for species conservation because each phase of an individual life may need different requirements.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1371_journal_pone_0077557",
@@ -339,11 +416,17 @@
       "abstract": "Individual variability influences the demographic and evolutionary dynamics of spatially structured populations, and conversely ecological and evolutionary dynamics provide the context under which variations at the individual level occur. Therefore, it is essential to identify and characterize the importance of the different factors that may promote or hinder individual variability. Animal signaling is a prime example of a type of behavior that is largely dependent on both the features of individuals and the characteristics of the population to which they belong. After 10 years studying the dynamics of a population of a long-lived species, the eagle owl (Bubo bubo), we investigated the emergence and maintenance of traits that reveal individual identity by focusing on vocal features. We found that individuals inhabiting a high density population characterized by a relative lack of heterogeneity (in terms of prey availability and breeding success) among breeding sites might be selected f",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24204869",
+      "title": "Population characteristics may reduce the levels of individual call identity",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0077557",
+      "abstract": "Individual variability influences the demographic and evolutionary dynamics of spatially structured populations, and conversely ecological and evolutionary dynamics provide the context under which variations at the individual level occur. Therefore, it is essential to identify and characterize the importance of the different factors that may promote or hinder individual variability. Animal signaling is a prime example of a type of behavior that is largely dependent on both the features of individuals and the characteristics of the population to which they belong. After 10 years studying the dynamics of a population of a long-lived species, the eagle owl (Bubo bubo), we investigated the emergence and maintenance of traits that reveal individual identity by focusing on vocal features. We found that individuals inhabiting a high density population characterized by a relative lack of heterogeneity (in terms of prey availability and breeding success) among breeding sites might be selected for reducing the levels of identity. Two non-mutually exclusive hypotheses may explain the structural call patterns we detected: (1) similarity in calls may be principally a consequence of the particular characteristics of the population; and (2) high density may encourage individuals to mimic each other's vocalizations in a cascade effect, leading to a widespread and unique communication network.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_beheco_arq086",
@@ -353,11 +436,27 @@
       "abstract": "Many birds utter alarm calls when they encounter predators, and previous work has revealed that variation in the characteristics of the alarm, or ''chick-a-dee,'' calls of black-capped (Poecile atricapilla) and Carolina (P. carolinensis) chickadees conveys information about predator size and threat. Little is known, however, about possible information conveyed by the similar ''chick-a-dee'' alarm call of tufted titmice (Baeolophus bicolor). During the winters of 2008 and 2009, free-ranging flocks (N 8) of tufted titmice were presented with models of several species of raptors that varied in size, and titmice responses were monitored. Smaller, higher threat predators (e.g., eastern screech-owl, Megascops asio) elicited longer mobbing bouts and alarm calls with more notes (D-notes) than larger lower threat predators (e.g., red-tailed hawk, Buteo jamaicensis). During playback experiments, titmice took longer to return to feeding after playbacks of alarm calls given in response to a small ",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1371_journal_pone_0008696",
+      "title": "Moonlight Makes Owls More Chatty",
+      "year": 2010,
+      "doi": "10.1371/journal.pone.0008696",
+      "abstract": "Our results support the idea that moon phase affects the visual signaling behavior of this species, and provide a starting point for examination of this method of communication by nocturnal species.",
+      "journal": "PLoS ONE",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20098700",
+      "title": "Moonlight makes owls more chatty",
+      "year": 2010,
+      "doi": "10.1371/journal.pone.0008696",
+      "abstract": "BACKGROUND: Lunar cycles seem to affect many of the rhythms, temporal patterns and behaviors of living things on Earth. Ambient light is known to affect visual communication in animals, with the conspicuousness of visual signals being largely determined by the light available for reflection by the sender. Although most previous studies in this context have focused on diurnal light, moonlight should not be neglected from the perspective of visual communication among nocturnal species. We recently discovered that eagle owls Bubo bubo communicate with conspecifics using a patch of white throat plumage that is repeatedly exposed during each call and is only visible during vocal displays. METHODOLOGY/PRINCIPAL FINDINGS: Here we provide evidence that this species uses moonlight to increase the conspicuousness of this visual signal during call displays. We found that call displays are directly influenced by the amount of moonlight, with silent nights being more frequent during periods with no-moonlight than moonlight. Furthermore, high numbers of calling bouts were more frequent at moonlight. Finally, call posts were located on higher positions on moonlit nights. CONCLUSIONS/SIGNIFICANCE: Our results support the idea that moon phase affects the visual signaling behavior of this species, and provide a starting point for examination of this method of communication by nocturnal species.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_5253_078_097_0403",
@@ -367,11 +466,17 @@
       "abstract": "Visual observations of nocturnal species such as owls can be difficult. Knowledge of vocalizations associated with particular behaviours is therefore an extremely useful tool in studying owls in the field. For this purpose, I studied the vocalizations and behaviours of the Great Horned Owl Bubo virginianus, collecting observations on a female human-imprinted individual and wild pairs. Spectrographically, Great Horned Owl calls were divided into three main categories: hoots, chitters, and squawks. These categories were further subdivided into five types of hoots, four types of chitters, and five types of squawks based on inflection, number of syllables, duration, pitch, volume, and behavioural context. Two types of non-vocal communication were also distinguished: hisses and bill clacking. Although owl vocalizations are generally considered innate and variation between individuals should not differ in basic makeup and behavioural context, further verification on wild owls is encouraged.",
       "journal": "Ardea",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_18714382",
+      "title": "Owls may use faeces and prey feathers to signal current reproduction",
+      "year": 2008,
+      "doi": "10.1371/journal.pone.0003014",
+      "abstract": "BACKGROUND: Many animals communicate by marking focal elements of their home range with different kinds of materials. Visual signaling has been demonstrated to play a previously unrecognized role in the intraspecific communication of eagle owls (Bubo bubo), in both territorial and parent-offspring contexts. Visual signals may play a role in a variety of circumstances in this crepuscular and nocturnal species. METHODOLOGY/PRINCIPAL FINDINGS: Here, we report that a large amount of extremely visible white faeces and prey feathers appear during the breeding season on posts and plucking sites in proximity to the nest, potentially representing a way for eagle owls to mark their territory. We present descriptive and experimental evidence showing that faeces and prey remains could act as previously unrecognized visual signals in a nocturnal avian predator. This novel signaling behavior could indicate the owls' current reproductive status to potential intruders, such as other territorial owls or non-breeding floaters. Faeces and prey feather markings may also advertise an owl's reproductive status or function in mate-mate communication. CONCLUSIONS/SIGNIFICANCE: We speculate that faeces marks and plucking may represent an overlooked but widespread method for communicating current reproduction to conspecifics. Such marking behavior may be common in birds, and we may now be exploring other questions and mechanisms in territoriality.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1439-0310_2007_01414_x",
@@ -381,11 +486,17 @@
       "abstract": "Abstract Complex begging display by bird offspring has predominantly been investigated in diurnal species, which have conspicuous gape colours or plumage features. In nocturnal species, in contrast, such visual communication has received little attention because the assumption is that they exclusively rely on vocal communication. Here, we use a field experiment to investigate whether eagle owls, Bubo bubo, communicate through visual signals at night. We artificially decreased the brightness of the white feathers surrounding fledgling eagle owls’ mouths during the post‐fledging dependence period, and investigated the effect of this treatment by comparing the condition of these birds to that of birds who received a control treatment. Several physiological parameters considered in our analyses indicate that control owlets were in better condition than owlets with brightness‐reduced mouth feathers, which suggests that they received more or better food from feeding parents who discriminated",
       "journal": "Ethology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_17555036",
+      "title": "[Successful rehabilitation and release with a subsequent brood of a one-eyed eagle owl (Bubo bubo)]",
+      "year": 2007,
+      "doi": null,
+      "abstract": "The rehabilitation and release of injured or ill raptors and owls is widespread. The overall aim of this intervention is the successful reintroduction of the bird into the wild population. Though many injuries are treatable, it is thought that vision-impaired birds have no change of survival and their release is refused. Here we report a case study and give a description of the rehabilitation and subsequent release of an injured Eagle Owl (Bubo bubo). The bird was found with an injured eye and a paralysed wing in the district of Soest, North Rhine-Westphalia, Germany. While the paralysis healed, the bird stayed blind in one eye. Nevertheless it was released with a radio-transmitter. The female Eagle Owl could be followed by radio-telemetry for more than half a year after release, by visual and acoustic skills for a full year after release. Although the female was only two years old, it paired successful with a partner, and raised a brood with three offspring. No differences in the behaviour compared to non-handicapped birds could be detected. This one-eyed Eagle Owl demonstrates not only survival, but also successful reproduction following reintegration into the wild population. However, low intraspecific competition in the area might have contributed to the reproductive success of the owl.",
+      "journal": "Berliner und Munchener tierarztliche Wochenschrift",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1469-7998_2006_00205_x",
@@ -395,11 +506,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>We quantified temporal and spatial patterns of adult eagle owl <jats:italic>Bubo bubo</jats:italic> vocal behaviour throughout an entire year. The duration of adult eagle owl vocal displays showed significant differences during different periods of the year: there was one major peak in the pre‐laying period, when duets of mates were also more frequent. The daily distribution of adult vocalizations showed a similar pattern among the different periods, with vocal activity being most intense at sunset and sunrise. Analyses of the characteristics of call posts showed that the choice of such focal points was guided by the trade‐off between the need to defend the territory and within‐pair communication inside the core areas, as well as efficient communication with neighbours.</jats:p>",
       "journal": "Journal of Zoology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_beheco_arl060",
@@ -409,11 +516,7 @@
       "abstract": "Nocturnal species may communicate by visual signals more frequently than previously thought. In fact, such species are habitually active around sunset and sunrise, when light conditions are still suitable for visual communication. We investigated the communication function of a visual cue in the eagle owl Bubo bubo, a nocturnal predator. In this species, territorial and courtship displays peak during the sunset and sunrise periods and involve the display of a white badge located on the throat whose reflectance properties are sex and period dependent. Experimental intrusions were conducted at 30 eagle owl territories in order to understand the function of the white badge during contests. We analyzed the reactions of both male and female owners toward a taxidermic mount with a normal brightness and a brightness-reduced white badge, with both male and female territorial calls. Our results indicate that the white badge of eagle owls plays an important role in visual communication during co",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1742-9994-2-10",
@@ -423,11 +526,7 @@
       "abstract": "Identifying the individuals within a population can generate information on life history parameters, generate input data for conservation models, and highlight behavioural traits that may affect management decisions and error or bias within census methods. Individual animals can be discriminated by features of their vocalisations. This vocal individuality can be utilised as an alternative marking technique in situations where the marks are difficult to detect or animals are sensitive to disturbance. Vocal individuality can also be used in cases were the capture and handling of an animal is either logistically or ethically problematic. Many studies have suggested that vocal individuality can be used to count and monitor populations over time; however, few have explicitly tested the method in this role. In this review we discuss methods for extracting individuality information from vocalisations and techniques for using this to count and monitor populations over time. We present case stu",
       "journal": "Frontiers in Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf01643587",
@@ -437,11 +536,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_jmor_1051380103",
@@ -451,11 +546,7 @@
       "abstract": "Abstract Middle and inner ear anatomy correlates with neurophysiological responses to a wide range of sound frequencies for species of the Gerbillinae representing generalized, intermediate, and specialized anatomical conditions. Neurophysiological data were recorded from 81 specimens of 13 species representing six genera. Anatomical parameters involved in the process of hearing were correlated with the neurophysiological data to assess the effects of different degrees of anatomical specialization on hearing. The 13 species tested in this manner have graphic curves of auditory sensitivity of remarkably similar disposition over the frequencies tested and to those published for Kangaroo Rats. Ears with anatomical specializations show greater auditory sensitivity. The natural history of the Gerbillinae, particularly the kinds of predators, degree of predation, and habitat is reviewed and utilized to interpret the significance of the degree of auditory specialization in the forms studied a",
       "journal": "Journal of Morphology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5040_9781472597175_ch-010",
@@ -465,11 +556,7 @@
       "abstract": "",
       "journal": "Owls of Europe",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927002_0079",
@@ -479,14 +566,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 26,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

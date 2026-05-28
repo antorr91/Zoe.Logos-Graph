@@ -24,10 +24,10 @@
     "color": "amber"
   },
   "stats": {
-    "paper_count": 19,
-    "claim_count": 10,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 8,
+    "doi_count": 27,
+    "recording_count": 1
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Male_and_female_chicken_sitting_together.jpg/330px-Male_and_female_chicken_sitting_together.jpg",
@@ -45,91 +45,201 @@
     "call"
   ],
   "contexts": [
-    "early social communication",
-    "parent-offspring interaction"
+    "parent-offspring interaction",
+    "early social communication"
   ],
   "functions": [
-    "filial imprinting",
     "maternal recognition",
+    "filial imprinting",
     "social signalling"
   ],
   "communication_profile": {
     "vocalisations": [
       {
         "value": "call",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "contexts": [
       {
-        "value": "early social communication",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
-      },
-      {
         "value": "parent-offspring interaction",
         "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "source": "llm",
+        "evidence_count": 1
+      },
+      {
+        "value": "early social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
     "functions": [
       {
-        "value": "filial imprinting",
+        "value": "maternal recognition",
         "confidence": 0.9,
-        "source": "extraction",
+        "source": "llm",
         "evidence_count": 1
       },
       {
-        "value": "maternal recognition",
+        "value": "filial imprinting",
         "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "source": "llm",
+        "evidence_count": 1
       },
       {
         "value": "social signalling",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 2
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 4
       }
     ],
-    "methods": [
-      {
-        "value": "computational acoustic analysis",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "heart rate measurement",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "playback experiment",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      },
-      {
-        "value": "preference test",
-        "confidence": 0.9,
-        "source": "extraction",
-        "evidence_count": 1
-      }
-    ]
+    "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 4424,
+      "confidence": 0.9,
+      "curation_status": "seed",
+      "evidence_count": 1,
+      "evidence_text": "",
+      "support_level": "explicit",
+      "extraction_method": "llm",
+      "paper_id": "paper_008",
+      "paper_title": "Prenatal acoustic learning of maternal calls in domestic chicks",
+      "doi": "",
+      "year": 2022
+    },
+    {
+      "claim_id": 4423,
+      "confidence": 0.9,
+      "curation_status": "seed",
+      "evidence_count": 1,
+      "evidence_text": "",
+      "support_level": "explicit",
+      "extraction_method": "llm",
+      "paper_id": "paper_008",
+      "paper_title": "Prenatal acoustic learning of maternal calls in domestic chicks",
+      "doi": "",
+      "year": 2022
+    },
+    {
+      "claim_id": 2206,
+      "confidence": 0.9,
+      "curation_status": "seed",
+      "evidence_count": 1,
+      "evidence_text": "",
+      "support_level": "explicit",
+      "extraction_method": "llm",
+      "paper_id": "paper_008",
+      "paper_title": "Prenatal acoustic learning of maternal calls in domestic chicks",
+      "doi": "",
+      "year": 2022
+    },
+    {
+      "claim_id": 2205,
+      "confidence": 0.9,
+      "curation_status": "seed",
+      "evidence_count": 1,
+      "evidence_text": "",
+      "support_level": "explicit",
+      "extraction_method": "llm",
+      "paper_id": "paper_008",
+      "paper_title": "Prenatal acoustic learning of maternal calls in domestic chicks",
+      "doi": "",
+      "year": 2022
+    },
+    {
+      "claim_id": 2114,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 4,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2113,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2112,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 2111,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Gallus gallus",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1067414",
+        "provider": "xeno-canto",
+        "provider_id": "1067414",
+        "type": "song (XC1067414)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1067414",
+        "audio": "https://xeno-canto.org/1067414/download",
+        "sono": "outputs\\spectrograms\\gbif_9457155.png",
+        "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "attribution": "XC · Ding Li Yong"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1016/j.psj.2024.103758",
+      "url": "https://doi.org/10.1016/j.psj.2024.103758",
+      "title": "Acoustic features and morphological parameters of the domestic chickens",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.240114",
+      "url": "https://doi.org/10.1098/rsos.240114",
+      "title": "Exposure to calls before hatching affects the post-hatching behaviour of domestic chickens",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.11594/nstp.2024.4180",
       "url": "https://doi.org/10.11594/nstp.2024.4180",
@@ -138,11 +248,39 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1371/journal.pone.0297715",
+      "url": "https://doi.org/10.1371/journal.pone.0297715",
+      "title": "Pharmacological validation of an attention bias test for conventional broiler chickens",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1590/1519-6984.276805",
       "url": "https://doi.org/10.1590/1519-6984.276805",
       "title": "Comparative study of the quality of breast meat of free-range chicken (Gallus gallus domesticus) and conventional chicken (Gallus gallus)",
       "year": 2024,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-022-01701-w",
+      "url": "https://doi.org/10.1007/s10071-022-01701-w",
+      "title": "Free-range domestic chickens can distinguish between different alarm calls of Japanese tits",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0291416",
+      "url": "https://doi.org/10.1371/journal.pone.0291416",
+      "title": "Roosters do not warn the bird in the mirror: The cognitive ecology of mirror self-recognition",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-020-01440-w",
+      "url": "https://doi.org/10.1007/s10071-020-01440-w",
+      "title": "Wild great tits' alarm calls prompt vigilant behaviours in free-range chickens",
+      "year": 2021,
+      "source": "pubmed"
     },
     {
       "doi": "10.15517/am.v33i1.44815",
@@ -157,6 +295,13 @@
       "title": "Internal Anatomy of Domestic Cock (Gallus Gallus Domesticus)",
       "year": 2021,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsif.2020.0086",
+      "url": "https://doi.org/10.1098/rsif.2020.0086",
+      "title": "Spectral entropy of early-life distress calls as an iceberg indicator of chicken welfare",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.1079/cabicompendium.82019",
@@ -180,11 +325,25 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1016/j.applanim.2018.07.007",
+      "url": "https://doi.org/10.1016/j.applanim.2018.07.007",
+      "title": "Examining affective structure in chickens: valence, intensity, persistence and generalization measured using a Conditioned Place Preference Test",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1007/s10071-016-1064-4",
       "url": "https://doi.org/10.1007/s10071-016-1064-4",
       "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
       "year": 2017,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rsos.171286",
+      "url": "https://doi.org/10.1098/rsos.171286",
+      "title": "Sound attenuation in the ear of domestic chickens (",
+      "year": 2017,
+      "source": "pubmed"
     },
     {
       "doi": "10.3168/jds.2017-12651",
@@ -243,6 +402,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rspb.2014.0838",
+      "url": "https://doi.org/10.1098/rspb.2014.0838",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
       "doi": "10.11606/d.47.2024.tde-11022025-140202",
       "url": "https://doi.org/10.11606/d.47.2024.tde-11022025-140202",
       "title": "Comportamento vocal de galinhas poedeiras (&gt;i&lt;Gallus gallus domesticus&gt;/i&lt;) no contexto da postura",
@@ -252,6 +418,36 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41562568",
+      "title": "Distress calls as social stressors affecting chicken welfare",
+      "year": 2026,
+      "doi": "10.1098/rsbl.2025.0534",
+      "abstract": "Social signals about current environmental risks can shape development in young animals. Distress calls made by young chickens (Gallus gallus domesticus) may also encode affective state, with high arousal, potentially 'anxiety-like' state characterized by continuous calling, and learned helplessness or potentially 'depression-like' state by a more intermittent pattern. During early life (age 4-7 days), we played chicks artificial stimuli mimicking these two call patterns. Growth effects suggest caller affective state can modulate this social signal: chicks exposed to bouts of 'Continuous' calls grew faster and were heavier by late commercial life (day 43) than Controls. In contrast, chicks exposed to 'Intermittent' calling showed slow, then compensatory, growth. A third experimental treatment with similar 'noisiness' to distress calls did not influence growth. Responses to a late-life social isolation trial suggested lasting impacts on stressor perception or resilience. Comb temperature elevation during isolation, indicating acute stress, was greatest in the Continuous group. Call rate decline during isolation, potentially indicating a tendency towards learned helplessness, was steep in all three experimental treatments; hence, noise-related disturbance from vocalizations may also shape development. Distress calls are consequently an important consideration in farms, where young are raised at high density and one individual is heard by many.",
+      "journal": "Biology letters",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41109154",
+      "title": "Improving extracellular vesicle isolation from non-mammalian blood plasma: Enhancing efficiency through adjusted osmolarity",
+      "year": 2025,
+      "doi": "10.1016/j.rvsc.2025.105927",
+      "abstract": "Extracellular vesicles (EVs) are membrane-bound particles released by cells. They play an essential role in intercellular communication by transporting RNA, DNA, proteins, and lipids. While the biology of mammalian EVs is well characterized, comparatively little is known about EVs in non-mammalian vertebrates. This gap limits our understanding of the evolutionary conservation and functional diversity of EV-mediated signaling. In this study, we present a standardized and broadly applicable protocol for isolating EVs from the blood plasma of four representative non-mammalian vertebrate species: chicken (Gallus gallus domesticus), corn snake (Pantherophis guttatus), African clawed frog (Xenopus laevis), and common carp (Cyprinus carpio L.). The protocol, based on ultracentrifugation, offers a practical and accessible method without the need for specialized equipment or commercial kits. By facilitating the study of EVs across diverse vertebrate taxa, this work contributes to the broader understanding of EV biology, including their potential roles in evolutionarily conserved signaling pathways and virus transmission.",
+      "journal": "Research in veterinary science",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39788304",
+      "title": "Are domestic chickens born with predator recognition? Validation of a sound playback experiment",
+      "year": 2025,
+      "doi": "10.1016/j.beproc.2025.105139",
+      "abstract": "Predation risk can influence behavioral decisions of animals in various ways. Prey animals have the opportunity to choose antipredation behaviors and escape strategies only by quickly and accurately identifying predators. As precocial birds, domestic chickens (Gallus gallus domesticus) have no adaptation period after hatching and must immediately survive under predation risk. They possess a strong ability to identify threats through vocalizations. To explore whether domestic chickens have innate predator recognition ability and whether the antipredation behavior of breeding chickens is stronger than that of non-breeding chickens. We tested the antipredation behaviors of three types of flocks (non-breeding chickens; hen with chicks; isolated chicks) of domestic chickens in response to sparrowhawk (Accipiter nisus) calls using playback experiments, while Oriental turtle dove (Streptopelia orientalis) calls were used as a control. We found that breeding hens are significantly more vigilant than non-breeding chickens. We also found that although isolated chicks can exhibit antipredator behavior, they cannot accurately identify the calls of predators and non-predators. Therefore, it can be concluded that domestic chickens exhibit varying degrees of vigilance towards predator calls at different stages of their life history. Reproductive costs can lead to increased vigilance in domestic chickens. The accurate identification of predators by domestic chickens is not innate, but gradually formed over time.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "paper_001",
       "title": "Exploratory analysis of early-life chick calls",
       "year": 2024,
@@ -259,11 +455,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "pilot",
-      "developmental_stage": "early-life",
-      "main_outcome": "Early-life calls show structured acoustic variation consistent with social signalling.",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "pilot"
     },
     {
       "paper_id": "10_11594_nstp_2024_4180",
@@ -273,11 +465,7 @@
       "abstract": "",
       "journal": "Nusantara Science and Technology Proceedings",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1590_1519-6984_276805",
@@ -287,11 +475,57 @@
       "abstract": "<jats:p>Abstract This study compares the physicochemical characteristics of breast meat (Pectoralis major) from conventional chicken and free-range chicken production systems. Analyses of pH, instrumental color measurement, weight loss from cooking (WLC), and water retention capacity (WRC) were carried out. Average pH values were slightly higher for conventional chicken samples. WLC did not show a significant difference between conventional and free-range chicken samples. The WRC was better and higher for the free-range chicken samples than the conventional ones. The mean values for luminosity (L*) were within the normal range, with slightly higher values for conventional chicken. In chromatids a* and b*, there was a tendency towards a more reddish color for free-range chicken samples. The differences found for types of production can be explained mainly by the difference in age at slaughter, the degree of physical activity, animal feeding, among other characteristics that differentiat",
       "journal": "Brazilian Journal of Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_39144491",
+      "title": "Exposure to calls before hatching affects the post-hatching behaviour of domestic chickens",
+      "year": 2024,
+      "doi": "10.1098/rsos.240114",
+      "abstract": "The soundscape experienced by animals early in life can affect their behaviour later in life. For birds, sounds experienced in the egg can influence how individuals learn to respond to specific calls post-hatching. However, how early acoustic experiences affect subsequent social behaviour remains unknown. Here, we investigate how exposure to maternal 'cluck' calls pre-hatching affects the behaviour of domestic chickens (",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38663204",
+      "title": "Acoustic features and morphological parameters of the domestic chickens",
+      "year": 2024,
+      "doi": "10.1016/j.psj.2024.103758",
+      "abstract": "Acoustic characteristics reflect male quality and play a role in female mate choice. Thus, the frequency of vocalizations and temporal characteristics are often related to body size within and across species. However, it is less clear whether acoustic features can reveal information about individual quality in the domestic chicken (Gallus gallus domesticus) populations. Here, we investigated the relationship between morphological parameters and acoustic features in male and female free-ranged domestic chickens in Liuzhi, Guizhou, southwest China, and further examined whether acoustic characteristics correlate with internal organs, including the heart, liver, testis, and spleen in male chickens, and whether the cackling call of females indicates body size and mass. We found that both male and female chickens differ significantly in their morphological parameters; however, based on acoustic parameters, they only differ in high frequency. Morphological parameters displayed no relationship with the frequency and duration of calls in both male and female chickens. Furthermore, none of the frequency or temporal parameters of the calls we studied were related to the internal body parameters of males.",
+      "journal": "Poultry science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38593170",
+      "title": "Pharmacological validation of an attention bias test for conventional broiler chickens",
+      "year": 2024,
+      "doi": "10.1371/journal.pone.0297715",
+      "abstract": "Fear and anxiety are considered concerns for animal welfare as they are associated with negative affective states. This study aimed to pharmacologically validate an attention bias test (ABT) for broiler chickens (Gallus gallus domesticus) as a cognitive bias test to determine anxiety. Two-hundred-and-four male Ross 708 broiler chickens were arbitrarily allocated to either the anxiogenic or control treatment at 25 days of age (n = 102/treatment). Birds from the anxiogenic group were administered with 2.5 mg of β-CCM (β-carboline-3-carboxylic acid-N-methylamide [FG 7142]) per kg of body weight through an intraperitoneal injection (0.1 ml/100 g of body weight). Birds from the control group were administered with 9 mg of a saline solution per kg of body weight. During ABT, birds were tested in groups of three (n = 34 groups of three birds/treatment) with commercial feed and mealworms as positive stimuli and a conspecific alarm call as a negative stimulus. Control birds were 45 s faster to begin feeding than anxiogenic birds. Birds from the control group vocalized 40 s later and stepped 57 s later than birds from the anxiogenic group. The occurrence of vigilance behaviors did not differ between treatments. This study was successful in pharmacologically validating an attention bias test for fast-growing broiler chickens, testing three birds simultaneously. Our findings showed that latencies to begin feeding, first vocalization, and first step were valid measures to quantify anxiety.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37878556",
+      "title": "Roosters do not warn the bird in the mirror: The cognitive ecology of mirror self-recognition",
+      "year": 2023,
+      "doi": "10.1371/journal.pone.0291416",
+      "abstract": "Touching a mark on the own body when seeing this mark in a mirror is regarded as a correlate of self-awareness and seems confined to great apes and a few further species. However, this paradigm often produces false-negative results and possibly dichotomizes a gradual evolutionary transition of self-recognition. We hypothesized that this ability is more widespread if ecologically tested and developed such a procedure for a most unlikely candidate: chickens (Gallus gallus domesticus). Roosters warn conspecifics when seeing an aerial predator, but not when alone. Exploiting this natural behavior, we tested individual roosters alone, with another male, or with a mirror while a hawk's silhouette flew above them. Roosters mainly emitted alarm calls in the presence of another individual but not when alone or seeing themselves in the mirror. In contrast, our birds failed the classic mirror test. Thus, chickens possibly recognize their reflection as their own, strikingly showing how much cognition is ecologically embedded.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36209189",
+      "title": "Free-range domestic chickens can distinguish between different alarm calls of Japanese tits",
+      "year": 2023,
+      "doi": "10.1007/s10071-022-01701-w",
+      "abstract": "Heterospecific eavesdropping of alarm information is an anti-predator adaptation in the wild as it improves the monitoring of shared predators and hence provides opportunities to avoid predators. Our current understanding of heterospecific eavesdropping information is based primarily on studies of bird, primate, or ungulate populations in the wild, whereas little is known regarding the ability of domesticated species to respond to alarm signals from wild individuals. Using sound playback experiments, we assessed the behavioral responses of free-range domestic chickens (Gallus gallus domesticus) in Hainan to alarm calls (test playback) and songs (control playback) of wild Japanese tits (Parus minor). The results revealed that free-range domestic chickens showed greater vigilance to the alarm calls of Japanese tits than to the songs of Japanese tits, especially their alarm calls for Siberian chipmunks (Tamias sibiricus). Furthermore, individual-foraging single chickens were significantly more vigilant than those foraging collectively in groups. Our findings suggest that free-range domestic chickens are as capable as wild birds in responding to heterospecific alarm calls and are likely to be able to distinguish between different types of heterospecific alarm calls.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "paper_008",
@@ -301,11 +535,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "pilot",
-      "developmental_stage": "embryo",
-      "main_outcome": "Embryonic chicks exposed to maternal calls in ovo show preferential cardiac and behavioural responses to those calls after hatching, indicating prenatal acoustic learning.",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "pilot"
     },
     {
       "paper_id": "10_21275_sr21629121631",
@@ -315,11 +545,7 @@
       "abstract": "",
       "journal": "International Journal of Science and Research (IJSR)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_15517_am_v33i1_44815",
@@ -329,11 +555,37 @@
       "abstract": "<jats:p>Introduction. The growth of the population and the consumption of protein sources such as chicken meat, have maximized the generation of poultry waste (chicken manure), this leads to the development of efficient management alternatives for the conversion of this waste into by-products such as organic fertilizers. Numerous investigations conclude the remarkable effect of compost obtained from poultry waste on the development and growth of crops, which provide high content of essential nutrients as an amendment in agroecological agriculture, within the circular economy and the sustainable development of production. Objective. To carry out a review on the management plans of waste from the poultry sector through composting for use in agriculture in the region of Cordoba Veracruz Mexico. Development. The study was carried out between January and June 2020, through an exhaustive bibliographic search and the analysis of local experiences in the production of organic fertilizers with ",
       "journal": "Agronomía Mesoamericana",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_33867548",
+      "title": "Evaluation of intravenous T-61 as a euthanasia method for birds",
+      "year": 2021,
+      "doi": null,
+      "abstract": "The use of T-61 as a sole euthanasia agent for birds was investigated. Nine broiler chickens",
+      "journal": "The Canadian veterinary journal = La revue veterinaire canadienne",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33037460",
+      "title": "Wild great tits' alarm calls prompt vigilant behaviours in free-range chickens",
+      "year": 2021,
+      "doi": "10.1007/s10071-020-01440-w",
+      "abstract": "The ability to use heterospecific alarm calls is adaptive in the wild, as it provides an opportunity to avoid predators. We now know that several species are able to respond to alarm calls intended for others. However, this capacity has never been investigated in domestic animals. The capacity to use heterospecific alarm calls may be relevant for free-range domestic species, especially when they share predators with wild signallers. Using playback experiments, we investigated the vigilance behaviour of free-range naked neck chickens (Gallus gallus domesticus) when confronted with alarm calls (test playbacks) and songs (control playbacks) of a commonly occurring wild passerine, the great tit (Parus major). We found that subjects exhibited an increased vigilance to alarm calls compared to songs, therefore, showing that chickens respond to heterospecific signals as wild birds do. Recently, there has been an increased interest for free-range poultry production, notably because of the benefits of this farming method for chicken welfare. Although future studies are required to address this question, mortality due to predation may be reduced through the implementation of structures in areas frequented by wild heterospecific signallers.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32517633",
+      "title": "Spectral entropy of early-life distress calls as an iceberg indicator of chicken welfare",
+      "year": 2020,
+      "doi": "10.1098/rsif.2020.0086",
+      "abstract": "Chicks (",
+      "journal": "Journal of the Royal Society, Interface",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_82019",
@@ -343,11 +595,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5220_0008505300460050",
@@ -357,11 +605,7 @@
       "abstract": "",
       "journal": "Proceedings of the International Conference on Natural Resources and Technology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_23880_izab-16000149",
@@ -371,11 +615,37 @@
       "abstract": "",
       "journal": "International Journal of Zoology and Animal Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_30283162",
+      "title": "Examining affective structure in chickens: valence, intensity, persistence and generalization measured using a Conditioned Place Preference Test",
+      "year": 2018,
+      "doi": "10.1016/j.applanim.2018.07.007",
+      "abstract": "When measuring animals' valenced behavioural responses to stimuli, the Conditioned Place Preference (CPP) test goes a step further than many approach-based and avoidance-based tests by establishing whether a learned preference for, or aversion to, the location in which the stimulus was encountered can be generated. We designed a novel, four-chambered CPP test to extend the capability of the usual CPP paradigm to provide information on four key features of animals' affective responses: valence, scale, persistence and generalization. Using this test, we investigated the affective responses of domestic chickens (",
+      "journal": "Applied animal behaviour science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29914677",
+      "title": "Epitope mapping of Salmonella flagellar hook-associated protein, FlgK, with mass spectrometry-based immuno-capture proteomics using chicken (Gallus gallus domesticus) sera",
+      "year": 2018,
+      "doi": "10.1016/j.vetimm.2018.05.006",
+      "abstract": "Salmonella, a Gram-negative rod, is the leading foodborne pathogen associated with human acute bacterial gastroenteritis worldwide. The Salmonella flagellum is responsible for bacterial movement, colonization and invasion in the host gastrointestinal tract. The flagellum has a complex structure, composed of more than 35 proteins. Among them, we were interested in the flagellar hook-associated protein (FlgK), which is an immunodominant protein in chickens. In this communication, we applied mass spectrometry-based proteomics in conjunction with chicken immunized sera to map the linear immunoepitopes in the FlgK protein, validated the epitopes with peptide ELISA, and determined serum reactivity to the epitopes from commercial chickens. We previously demonstrated the FlgK proteins are highly conserved among Salmonella serovars. The rFlgK protein was produced by the recombinant technique, and was able to induce immune response in chickens. Further, this study identified four peptides (AEG, GAQ, TAD and LEI) in the rFlgK protein that were captured by sera from chickens immunized with the rFlgK protein. These four peptides were also reacted to 64 individual serum samples collected from 44 - 52 weeks old chickens, suggesting that these peptides may represent the shared immuno-epitopes on the FlgK protein. The findings of the specific shared linear immuno-epitopes on the FlgK protein in this study provide a rationale for further evaluation to determine their utility as epitope vaccines covering multiple serotypes for chicken immunization, and subsequently, for providing safer poultry products for human consumption.",
+      "journal": "Veterinary immunology and immunopathology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29157881",
+      "title": "Deformation of avian middle ear structures under static pressure loads, and potential regulation mechanisms",
+      "year": 2018,
+      "doi": "10.1016/j.zool.2017.11.003",
+      "abstract": "Static pressure changes can alter the configuration and mechanical behavior of the chain of ossicles, which may affect the acoustic transfer function. In mammals, the Eustachian tube plays an important role in restoring ambient middle ear pressure, hence restoring the acoustic transfer function and excluding barotrauma of the middle and inner ear. Ambient pressure fluctuations can be potentially extreme in birds and due to the simple structure of the avian middle ear (one ossicle, one muscle), regulation of the middle ear pressure via reflexive opening of the pharyngotympanic tube appears all the more important. In this study the deformations of the chicken (Gallus gallus domesticus) middle ear structures, as a result of middle ear pressure alterations, are quantified, using micro-CT scanning. It was experimentally tested whether reflexive opening of the pharyngotympanic tube to restore ambient middle ear pressure is present in chicken and mallard (Anas platyrhynchos) and whether this mechanism depends on sensing middle ear pressure indirectly via deformations of the middle ear components or sensing the middle ear pressure directly. A translation of the columella footplate was observed when middle ear pressure was kept at 1kPa and -1kPa relative to ambient pressure. Deformation of the tympanic membrane was larger than the columella footplate translation. Bending and deformation of the extracolumella was observed. Opening of the pharyngotympanic tube occurred at random pressure for both chicken and mallard when middle ear pressure was raised and lowered by 1.5kPa relative to ambient pressure. We also did not find a difference in middle ear venting rate when middle ear pressure was held constant at 0.5, 1, 1.5, -0.5, -1 and -1.5kPa for chickens and at 1, 2, 4, -1, -2 and -4kPa for mallards. As a result, no statement can be made about pressure within the avian middle ear being measured directly or indirectly. Our experiments do not support the presence of a short-loop ",
+      "journal": "Zoology (Jena, Germany)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3168_jds_2017-12651",
@@ -385,11 +655,7 @@
       "abstract": "The effects of high ambient temperatures on production animals, once thought to be limited to tropical areas, has extended into northern latitudes in response to the increasing global temperature. The number of days where the temperature-humidity index (THI) exceeds the comfort threshold (>72) is increasing in the northern United States, Canada, and Europe. Compounded by the increasing number of dairy animals and the intensification of production, heat stress has become one of the most important challenges facing the dairy industry today. The objectives of this review were to present an overview of the effects of heat stress on dairy cattle welfare and highlight important research gaps in the literature. We will also briefly discuss current heat abatement strategies, as well as the sustainability of future heat stress management. Heat stress has negative effects on the health and biological functioning of dairy cows through depressed milk production and reduced reproductive performance",
       "journal": "Journal of Dairy Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-016-1064-4",
@@ -399,11 +665,17 @@
       "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_29291112",
+      "title": "Sound attenuation in the ear of domestic chickens (",
+      "year": 2017,
+      "doi": "10.1098/rsos.171286",
+      "abstract": "Because the quadrate and the eardrum are connected, the hypothesis was tested that birds attenuate the transmission of sound through their ears by opening the bill, which potentially serves as an additional protective mechanism for self-generated vocalizations. In domestic chickens, it was examined if a difference exists between hens and roosters, given the difference in vocalization capacity between the sexes. To test the hypothesis, vibrations of the columellar footplate were measured",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rspb_2015_2889",
@@ -413,11 +685,7 @@
       "abstract": "Why animal communication displays are so complex and how they have evolved are active foci of research with a long and rich history. Progress towards an evolutionary analysis of signal complexity, however, has been constrained by a lack of hypotheses to explain similarities and/or differences in signalling systems across taxa. To address this, we advocate incorporating a systems approach into studies of animal communication--an approach that includes comprehensive experimental designs and data collection in combination with the implementation of systems concepts and tools. A systems approach evaluates overall display architecture, including how components interact to alter function, and how function varies in different states of the system. We provide a brief overview of the current state of the field, including a focus on select studies that highlight the dynamic nature of animal signalling. We then introduce core concepts from systems biology (redundancy, degeneracy, pluripotentialit",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_21708_avb_2015_9_2_5361",
@@ -427,11 +695,7 @@
       "abstract": "",
       "journal": "Acta Veterinaria Brasilica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fnbeh_2015_00076",
@@ -441,11 +705,7 @@
       "abstract": "In 2005, Holy and Guo advanced the idea that male mice produce ultrasonic vocalizations (USV) with some features similar to courtship songs of songbirds. Since then, studies showed that male mice emit USV songs in different contexts (sexual and other) and possess a multisyllabic repertoire. Debate still exists for and against plasticity in their vocalizations. But the use of a multisyllabic repertoire can increase potential flexibility and information, in how elements are organized and recombined, namely syntax. In many bird species, modulating song syntax has ethological relevance for sexual behavior and mate preferences. In this study we exposed adult male mice to different social contexts and developed a new approach of analyzing their USVs based on songbird syntax analysis. We found that male mice modify their syntax, including specific sequences, length of sequence, repertoire composition, and spectral features, according to stimulus and social context. Males emit longer and simpl",
       "journal": "Frontiers in Behavioral Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_czoolo_58_5_698",
@@ -455,11 +715,7 @@
       "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_anbehav_2009_07_004",
@@ -469,11 +725,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1095-8312_1996_tb01442_x",
@@ -483,11 +735,7 @@
       "abstract": "Secondary sexual characters in many species function both in male-male competition and as cues for female choice.Based on a literature compilation of existing knowledge of traits with this dual function, we propose that they commonly arise through intrasexual selection processes and serve as honest signals to other males regarding fighting ability or dominance.Faking these traits, here called armaments, (i.e.weapons and status badges) is difficult, as they are constantly put to trial in male-male contests.Females that subsequently utilize them as indicators of male phenotypic quality when selecting a partner Wiu benefit by acquiring males of higher quality to father their offspring.Thus, evolution of armaments through male-male competition is seen as a usually initiating process, whereas female choice later may assume a role as an additional selective factor.The reverse, that males use information from traits evolved through female choice, is, however, also possible.The traditional vie",
       "journal": "Biological Journal of the Linnean Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_s0003-3472(05)80499-3",
@@ -497,11 +745,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_11606_d_47_2024_tde-11022025-140202",
@@ -511,14 +755,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 19,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 8,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 33,
+    "claim_count": 18,
+    "doi_count": 32,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -47,8 +47,8 @@
   ],
   "contexts": [
     "distress",
-    "play",
-    "social communication"
+    "social communication",
+    "play"
   ],
   "functions": [
     "distress signalling",
@@ -61,13 +61,13 @@
         "value": "squeak",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "ultrasonic vocalisation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -75,19 +75,19 @@
         "value": "distress",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "play",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "play",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -95,30 +95,364 @@
         "value": "distress signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "play invitation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social bonding",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 196,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 195,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 194,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 193,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 192,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 191,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 190,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 189,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 188,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 187,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 186,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 185,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 184,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 183,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 182,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 181,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 180,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 179,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1186/s12864-026-12549-6",
+      "url": "https://doi.org/10.1186/s12864-026-12549-6",
+      "title": "MitoCommun: a database for decoding mitochondrial communication networks",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ps.8652",
+      "url": "https://doi.org/10.1002/ps.8652",
+      "title": "New polymorphisms of Vkork1 gene related to anticoagulant resistance of rats and mice in Italy",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-90272-0",
+      "url": "https://doi.org/10.1038/s41598-025-90272-0",
+      "title": "Conspecific presence facilitates 22-kHz ultrasonic calls in male rats exposed to cat odor",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2025.0343",
+      "url": "https://doi.org/10.1098/rsbl.2025.0343",
+      "title": "Rodent indent not self-evident: a case of mistaken identity of the 'Chicago Rat Hole'",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1128/jvi.01357-24",
+      "url": "https://doi.org/10.1128/jvi.01357-24",
+      "title": "High astrovirus diversity in an endemic bat species suggests multiple spillovers from synanthropic rodents and birds",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1080/09524622.2024.2303691",
+      "url": "https://doi.org/10.1080/09524622.2024.2303691",
+      "title": "Sleep fragmentation disrupts vocal interactions in rats",
+      "year": 2024,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/cz/zoad035",
+      "url": "https://doi.org/10.1093/cz/zoad035",
+      "title": "Species recognition and the divergences in the chemical and ultrasonic signals between two coexisting",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.221181",
+      "url": "https://doi.org/10.1098/rsos.221181",
+      "title": "Do rats (",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.isci.2023.107081",
+      "url": "https://doi.org/10.1016/j.isci.2023.107081",
+      "title": "An appeasing pheromone ameliorates fear responses in the brown rat (",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-44081-y",
+      "url": "https://doi.org/10.1038/s41598-023-44081-y",
+      "title": "Sensitivity to the sonority sequencing principle in rats (Rattus norvegicus)",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1073/pnas.2300794120",
+      "url": "https://doi.org/10.1073/pnas.2300794120",
+      "title": "Unraveling female communication through scent marks in the Norway rat",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12983-023-00512-0",
+      "url": "https://doi.org/10.1186/s12983-023-00512-0",
+      "title": "Effects of reduced kinematic and social play experience on affective appraisal of human-rat play in rats",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fbioe.2023.1099924",
+      "url": "https://doi.org/10.3389/fbioe.2023.1099924",
+      "title": "Design of a biocatalytic cascade for the enzymatic sulfation of unsulfated chondroitin with",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1183/16000617.0056-2022",
+      "url": "https://doi.org/10.1183/16000617.0056-2022",
+      "title": "A pulmonologist's guide to perform and analyse cross-species single lung cell transcriptomics",
+      "year": 2022,
+      "source": "pubmed"
+    },
     {
       "doi": "10.23880/izab-16000245",
       "url": "https://doi.org/10.23880/izab-16000245",
@@ -248,6 +582,166 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41545919",
+      "title": "MitoCommun: a database for decoding mitochondrial communication networks",
+      "year": 2026,
+      "doi": "10.1186/s12864-026-12549-6",
+      "abstract": "UNLABELLED: Mitochondria are highly dynamic signaling organelles that engage in continuous bidirectional communication with the cytoplasm and participate in biological processes such as cell death, inflammation, and epigenetic modification. Mitochondria receive, process and export various types of signals, ranging from metabolites to non-coding RNAs. Despite their central importance, progress in understanding mitochondrial signaling has been hampered by the fragmented characterization of their communication networks. In this study, we present MitoCommun, a manually curated database comprising 580 mitochondria-derived signaling events from five model species:  SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s12864-026-12549-6. UNLABELLED: ● Comprehensive data were curated for different mitochondrial communications. ● A user-friendly database was developed for browsing and searching the results. ● Multiple signals and pathways were collected, combining detailed cell stresses. ● Mitochondrial signaling networks were integrated across organisms, organelles and functions. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s12864-026-12549-6.",
+      "journal": "BMC genomics",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41089057",
+      "title": "Rodent indent not self-evident: a case of mistaken identity of the 'Chicago Rat Hole'",
+      "year": 2025,
+      "doi": "10.1098/rsbl.2025.0343",
+      "abstract": "The 'Chicago Rat Hole' is a remarkable full body impression ostensibly created by a brown rat (",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40038355",
+      "title": "Conspecific presence facilitates 22-kHz ultrasonic calls in male rats exposed to cat odor",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-90272-0",
+      "abstract": "Rats (Rattus norvegicus) exhibit defensive behaviors such as hiding, freezing, and fleeing when confronted with predators. They also may emit long-duration, flat frequency (~ 22-kHz), ultrasonic vocalizations (USVs) in response to predator detection. These are in contrast to the shorter, higher frequency (~ 50-kHz), frequency modulated USVs often associated with positive affective states. Long duration ~ 22-kHz vocalizations can trigger defensive behaviors in other rats. Here, we studied the impact of a predator-associated stimulus (cat fur) and the context in which it was experienced on these ~ 22-kHz and ~ 50-kHz USVs in laboratory rats, along with how the presence of conspecifics (none, one, or two familiar rats) influenced these vocalizations. Group-housed rats were habituated to a testing arena with a hide box alone or in pairs or trios. The next day, they were exposed to cat fur (1 g) in the arena, and defensive behaviors and USVs were recorded. Subsequently, the rats returned to the arena without cat fur to assess contextual fear. Cat fur prompted significant hiding and ~ 22-kHz USVs, especially in social groups. However, ~ 22-kHz USVs were not elicited by the context alone in any social grouping. Cat fur also suppressed ~ 50-kHz USVs, with recovery faster in trios, indicating a social buffering effect. These findings suggest that predator cues induce ~ 22-kHz USVs that are influenced by social context, perhaps indicating an altruistic communicative function.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39840948",
+      "title": "High astrovirus diversity in an endemic bat species suggests multiple spillovers from synanthropic rodents and birds",
+      "year": 2025,
+      "doi": "10.1128/jvi.01357-24",
+      "abstract": "Beyond the role of bats as natural host reservoirs of infectious agents, the impact of viral spillover from other animal species to bats has been neglected. Given the limited virus-host specificity of astroviruses (AstVs) and their propensity for cross-species transmission, we hypothesized that AstVs could be transmitted within animal communities (rodents, birds, and bats) and that native endemic bats may be exposed to viruses hosted by other species. We investigated the presence of AstV RNA in 3,796 biological samples collected in Reunion Island from",
+      "journal": "Journal of virology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39815713",
+      "title": "New polymorphisms of Vkork1 gene related to anticoagulant resistance of rats and mice in Italy",
+      "year": 2025,
+      "doi": "10.1002/ps.8652",
+      "abstract": "BACKGROUND: Anticoagulant rodenticides (ARs) are a very effective tool to control rodent pest populations. Nevertheless, AR resistance has been documented worldwide. ARs block the cycle of vitamin K, leading to the death of the animal by internal bleeding: mutations in Vkorc1 gene can cause resistance. The spreading of AR-resistant rodents could lead to an increase of their populations, the associated diffusion of zoonotic pathogens, and to the amplified exposure of non-target animals to ARs, thus it is important to study its diffusion widely. This study aimed to report firstly the presence of Vkorc1 mutations in synanthropic rodents from the Emilia-Romagna region, Italy, and evaluate their role in resistance by means of molecular docking analysis. RESULTS: A total of 67 animals were analyzed: 24 Rattus norvegicus, 35 Rattus rattus and eight Mus musculus. Single nucleotide polymorphisms (SNPs) associated with AR resistance, in homozygosis or heterozygosis, were detected in 6/8 mice, on codons 128 and 139, and 13/24 R. norvegicus, on codons 61 and 139, and in 10/35 R. rattus, on codon 59. Furthermore, several newly described missense mutations were detected in all the tested species: the molecular docking analysis suggests a role of some of these (e.g., I123S and F87L) in resistance to brodifacoum, both in rats and in mice. CONCLUSION: The discovery of AR resistance SNPs in the 43.28% of tested rodents sounds as an alarm bell that requires the introduction of an integrated control approach, where ARs are not used routinely, but under specific monitoring evaluation. © 2025 The Author(s). Pest Management Science published by John Wiley & Sons Ltd on behalf of Society of Chemical Industry.",
+      "journal": "Pest management science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_1080_09524622_2024_2303691",
+      "title": "Sleep fragmentation disrupts vocal interactions in rats",
+      "year": 2024,
+      "doi": "10.1080/09524622.2024.2303691",
+      "abstract": "Repeated interruption of the sleep cycle, commonly known as sleep fragmentation, is associated with a plethora of health issues, ranging from mood swings and memory loss to severe neurodegenerative disorders. Despite being a significant health problem with consequences on the social lives of individuals, its effect on vocal communication has been poorly studied. Here we show that sleep fragmentation induces a decrease in vocal production of a social rodent, without altering the acoustic characteristics of the vocalisations emitted. We conducted an experimental study using <i>Rattus norvegicus</i> rats, known for their ultrasonic vocal repertoire, in which we frequently woke pairs of individuals during their daily sleeping period. The rats whose sleep was artificially fragmented produced fewer vocalisations during their active periods than control pairs whose sleep was not disturbed. This decrease in vocal activity occurred after only two phases of fragmented sleep and was maintained th",
+      "journal": "Bioacoustics",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_39497584",
+      "title": "The effects of radiofrequency electromagnetic radiation emitted by mobile phones on rat parotid gland histology - an experimental study",
+      "year": 2024,
+      "doi": "10.26355/eurrev_202410_36864",
+      "abstract": "OBJECTIVE: The advancement of telecommunication technology and devices promptly transformed mobile phones into indispensable objects in our day-to-day lives, but their biological effects remain unclear. Therefore, this study aimed to investigate the potential histopathological changes induced by mobile phone radiation in the parotid gland and the nearby tissues. MATERIALS AND METHODS: Thirty female Rattus Norvegicus rats were divided into three groups: group 1 (exposed for 30 days), group 2 (exposed for 60 days), and control group (non-exposed). Each subject was exposed to mobile phone radiation in the form of a phone call for two hours every day for their subsequent exposure time. The exposure was always directed towards the same side of the face throughout the whole exposure period. At the end of the exposure period, a comprehensive examination was conducted, including inspection of the orofacial structures, tissue sections of the parotid glands, overlying skin, oral mucosa, and cervical lymph nodes, as well as obtaining smears from the oral cavity. To highlight the presence of micronuclei within the exfoliated squamous cells of the oral epithelium, Feulgen stain was performed. RESULTS: The results showed a significant activation of the fibroblasts in the parotid gland septa, in both exposed experimental groups, compared to the control group. We also detected significant cervical lymph node reactive changes, hyperkeratosis of the oral epithelium, and activated fibroblasts in the dermis and oral mucosa lamina propria in both experimental groups. Dermal fibrosis and lamina propria fibrosis were significantly increased in the second experimental group, compared to the control group. Moreover, vascular congestion in the parotid gland, dermal, and lamina propria fibrosis were significantly increased in the second study group compared to the first one. CONCLUSIONS: These findings suggest that exposure to mobile phone radiation may lead to pathological changes in the par",
+      "journal": "European review for medical and pharmacological sciences",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39176055",
+      "title": "Species recognition and the divergences in the chemical and ultrasonic signals between two coexisting",
+      "year": 2024,
+      "doi": "10.1093/cz/zoad035",
+      "abstract": "The ability to recognize and differentiate between conspecifics and heterospecifics as well as their signals is critical for the coexistence of closely related species. In the genus",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39076801",
+      "title": "Do rats (",
+      "year": 2024,
+      "doi": "10.1098/rsos.221181",
+      "abstract": "Octave equivalence describes the perception that two notes separated by a doubling in frequency have a similar quality. In humans, octave equivalence is important to both music and language learning and is found cross-culturally. Cross-species studies comparing human and non-human animals can help illuminate the necessary pre-conditions to developing octave equivalence. Here, we tested whether rats (",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37821980",
+      "title": "Effects of reduced kinematic and social play experience on affective appraisal of human-rat play in rats",
+      "year": 2023,
+      "doi": "10.1186/s12983-023-00512-0",
+      "abstract": "BACKGROUND: Play is a common and developmentally important behaviour in young mammals. Specifically in Norway rats (Rattus norvegicus), reduced opportunity to engage in rough-and-tumble (RT) play has been associated with impaired development in social competence. However, RT play is a complex behaviour having both a kinematic aspect (i.e., performing complex 3D manoeuvres during play fights) and a social aspect (interacting with a playful partner). There has been little research so far on disentangling the two aspects in RT play, especially on how these two aspects affect the affective appraisal of the intense physical contact during play. RESULTS: To examine the developmental effects of kinematic and social play reduction on affective appraisal in rats, we subjected male Long-Evans rats from 21 days old to RT play experience that was reduced either kinematically (through playing in a low ceiling environment) or socially (through playing with a less playful Fischer-344 rat). Starting at 35 days, we measured their production of positively (50-kHz) and negatively (22-kHz) valenced ultrasonic vocalisations (USVs) in a 2-min standardised human-rat play procedure that mimicked the playful sequences of nape contact, pinning, and belly stimulation ('tickling') for ten days. We hypothesised that the rats with kinematically or socially reduced play would perceive the 'tickling' less positively and thus emit positive ultrasonic vocalisations at lower rates compared to control rats with non-reduced play experience. Our results confirmed that each of the treatments reduced play differently: while the kinematic reduction abolished playful pinnings entirely, the social reduction decreased the pinnings and made play highly asymmetric. During the tickling procedure, rats mostly produced 50 kHz USV, indicating that they appraised the procedure as positive. There was a wide inter individual variance and high individual consistency in rats' USV responses to 'tickling'. Crucially, neit",
+      "journal": "Frontiers in zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37813950",
+      "title": "Sensitivity to the sonority sequencing principle in rats (Rattus norvegicus)",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-44081-y",
+      "abstract": "Albeit diverse, human languages exhibit universal structures. A salient example is the syllable, an important structure of language acquisition. The structure of syllables is determined by the Sonority Sequencing Principle (SSP), a linguistic constraint according to which phoneme intensity must increase at onset, reaching a peak at nucleus (vowel), and decline at offset. Such structure generates an intensity pattern with an arch shape. In humans, sensitivity to restrictions imposed by the SSP on syllables appears at birth, raising questions about its emergence. We investigated the biological mechanisms at the foundations of the SSP, testing a nonhuman, non-vocal-learner species with the same language materials used with humans. Rats discriminated well-structured syllables (e.g., pras) from ill-structured ones (e.g., lbug) after being familiarized with syllabic structures conforming to the SSP. In contrast, we did not observe evidence that rats familiarized with syllables that violate such constraint discriminated at test. This research provides the first evidence of sensitivity to the SSP in a nonhuman species, which likely stems from evolutionary-ancient cross-species biological predispositions for natural acoustic patterns. Humans' early sensitivity to the SSP possibly emerges from general auditory processing that favors sounds depicting an arch-shaped envelope, common amongst animal vocalizations. Ancient sensory mechanisms, responsible for processing vocalizations in the wild, would constitute an entry-gate for human language acquisition.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37426349",
+      "title": "An appeasing pheromone ameliorates fear responses in the brown rat (",
+      "year": 2023,
+      "doi": "10.1016/j.isci.2023.107081",
+      "abstract": "The brown rat (",
+      "journal": "iScience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37307448",
+      "title": "Unraveling female communication through scent marks in the Norway rat",
+      "year": 2023,
+      "doi": "10.1073/pnas.2300794120",
+      "abstract": "Chemical communication by females remains poorly understood, with most attention focused on female advertisement of sexual receptivity to males or mother-offspring communication. However, in social species, scents are likely to be important for mediating competition and cooperation between females determining individual reproductive success. Here, we explore chemical signaling by female laboratory rats (",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36726741",
+      "title": "Design of a biocatalytic cascade for the enzymatic sulfation of unsulfated chondroitin with",
+      "year": 2023,
+      "doi": "10.3389/fbioe.2023.1099924",
+      "abstract": "Sulfation of molecules in living organisms is a process that plays a key role in their functionality. In mammals, the sulfation of polysaccharides (glycosaminoglycans) that form the proteoglycans present in the extracellular matrix is particularly important. These polysaccharides, through their degree and sulfation pattern, are involved in a variety of biological events as signal modulators in communication processes between the cell and its environment. Because of this great biological importance, there is a growing interest in the development of efficient and sustainable sulfation processes, such as those based on the use of sulfotransferase enzymes. These enzymes have the disadvantage of being 3'-phosphoadenosine 5'-phosphosulfate (PAPS) dependent, which is expensive and difficult to obtain. In the present study, a modular multienzyme system was developed to allow the",
+      "journal": "Frontiers in bioengineering and biotechnology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35896273",
+      "title": "A pulmonologist's guide to perform and analyse cross-species single lung cell transcriptomics",
+      "year": 2022,
+      "doi": "10.1183/16000617.0056-2022",
+      "abstract": "Single-cell ribonucleic acid sequencing is becoming widely employed to study biological processes at a novel resolution depth. The ability to analyse transcriptomes of multiple heterogeneous cell types in parallel is especially valuable for cell-focused lung research where a variety of resident and recruited cells are essential for maintaining organ functionality. We compared the single-cell transcriptomes from publicly available and unpublished datasets of the lungs in six different species: human (",
+      "journal": "European respiratory review : an official journal of the European Respiratory Society",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35850093",
+      "title": "The Effects of Rearing in a Shelved Environment on Behavioral and Physiological Markers of Welfare in Rats (Rattus norvegicus)",
+      "year": 2022,
+      "doi": "10.1159/000525967",
+      "abstract": "Early-life experiences are critical modifiers of development. An important component of early-life experience is the nature of maternal interactions, which can be modified by stress. During rearing, mothers are typically allocated to single-level cages where they are readily accessible to pups, a potentially stressful scenario not reflective of nature. Accordingly, mothers regularly removed from the rearing environment interact differently with their offspring, leading to long-term changes in offspring physiology and behavior. Such changes commonly include modifications within the hypothalamic-pituitary-adrenal axis, of which corticosterone is a major component. Modifications in the hypothalamic-pituitary-adrenal axis may also be manifested through changes in affective behavior and assessed via tests such as the open field and elevated plus maze as well as via ultrasonic vocalization (USV) analysis. As a means of assessing the impact of rearing in a shelved environment, we allocated mothers to standard single-level cages or cages with an integrated shelf, which allowed the mother to temporarily escape pups. While there were no differences in fecal cortico-sterone, behavior in the elevated plus maze, or USVs, male rats reared in standard cages weighed more, and all standard single-level housed rats spent more time in the center of the open field. The observed differences indicate that allocating nursing mothers to shelved environments throughout the postnatal period has long-lasting effects on offspring behavior that must be considered when establishing dam enrichment protocols.",
+      "journal": "Developmental neuroscience",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_32388_yocwsr",
       "title": "Rattus norvegicus",
       "year": 2020,
@@ -255,11 +749,7 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_23880_izab-16000245",
@@ -269,11 +759,7 @@
       "abstract": "",
       "journal": "International Journal of Zoology and Animal Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32388_beyxqs",
@@ -283,11 +769,7 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7554_elife_54020",
@@ -297,11 +779,7 @@
       "abstract": "The Norway rat has important impacts on our life. They are amongst the most used research subjects, resulting in ground-breaking advances. At the same time, wild rats live in close association with us, leading to various adverse interactions. In face of this relevance, it is surprising how little is known about their natural behaviour. While recent laboratory studies revealed their complex social skills, little is known about their social behaviour in the wild. An integration of these different scientific approaches is crucial to understand their social life, which will enable us to design more valid research paradigms, develop more effective management strategies, and to provide better welfare standards. Hence, I first summarise the literature on their natural social behaviour. Second, I provide an overview of recent developments concerning their social cognition. Third, I illustrate why an integration of these areas would be beneficial to optimise our interactions with them.",
       "journal": "eLife",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_25732_pm_2019_105_1_005",
@@ -311,11 +789,7 @@
       "abstract": "<jats:p>В статье обсуждаются вопросы оценки вероятности заселения серыми крысами (Rattus norvegicus Berk.) пищевых предприятий города Костромы. Показаны результаты оценки санитарно-технического состояния объектов, пест-опасности. Продемонстрирована зависимость частоты обнаружения серых крыс от емкости среды их обитания.</jats:p>\n                                                                                            <jats:p>The article discusses the analysis of appearance probability assessment of a Brown rat (Rattus norvegicus Berk.) at food enterprises in the city of Kostroma. The results of the assessment of the sanitary-technical state of the investigated objects, the estimation of the pest-hazard are shown. The dependence of the frequency of detection of a Brown rat on the capacity of their habitat was demonstrated.</jats:p>",
       "journal": "ПЕСТ-МЕНЕДЖМЕНТ",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_53591_rug_v120i2_707",
@@ -325,11 +799,7 @@
       "abstract": "<jats:p>La ciudad de Guayaquil presenta como problema de salud los roedores, debido al exceso de desperdicios y basurales donde habitan. Debido a esto se realizó un estudio parasitológico para conocer la existencia de Nippostrongylus brasiliensisen diferentes zonas urbanas de la ciudad. Se recolectó, en dos años (2013­-2015), 139 roedores de los cuales: 20 pertenecen a la especie Rattus rattus y 119 a Rattus norvegicus; con un total de 99 roedores positivos para N. brasiliensis. En 5 de los 9 sectores seleccionados de la urbe. El nematodo Nippostrongylusbrasiliensis fue el parásito más prevalente en las zonas: Coop. Madrigal Norte, Sauces 7, Cdla. Naval Norte, El Quinto Guayas y Cdla. Miraflores donde se encontró la mayor cantidad de nematodos. Se reporta por primera vez Nippostrongylusbrasiliensis en Rattusspp., en la ciudad de Guayaquil, provincia del Guayas.</jats:p>",
       "journal": "Revista Universidad de Guayaquil",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2174_1570159x13999150210141444",
@@ -339,11 +809,7 @@
       "abstract": "Pharmacological studies of emotional arousal and initiation of emotional states in rats measured by their ultrasonic vocalizations are reviewed. It is postulated that emission of vocalizations is an inseparable feature of emotional states and it evolved from mother-infant interaction. Positive emotional states are associated with emission of 50 kHz vocalizations that could be induced by rewarding situations and dopaminergic activation of the nucleus accumbens and are mediated by D1, D2, and partially D3 dopamine receptors. Three biologically significant subtypes of 50 kHz vocalizations have been identified, all expressing positive emotional states: (1) flat calls without frequency modulation that serve as contact calls during social interactions; (2) frequencymodulated calls without trills that signal rewarding and significantly motivated situation; and (3) frequency-modulated calls with trills or trills themselves that are emitted in highly emotional situations associated with intensi",
       "journal": "Current Neuropharmacology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0003067",
@@ -353,11 +819,7 @@
       "abstract": "BTBR T+ tf/J (BTBR) is an inbred mouse strain that displays social abnormalities and repetitive behaviors analogous to the first and third diagnostic symptoms of autism. Here we investigate ultrasonic vocalizations in BTBR, to address the second diagnostic symptom of autism, communication deficits. As compared to the commonly used C57BL/6J (B6) strain, BTBR pups called more loudly and more frequently when separated from their mothers and siblings. Detailed analysis of ten categories of calls revealed an unusual pattern in BTBR as compared to B6. BTBR emitted high levels of harmonics, two-syllable, and composite calls, but minimal numbers of chevron-shaped syllables, upward, downward, and short calls. Because body weights were higher in BTBR than B6 pups, one possible explanation was that larger thoracic size was responsible for the louder calls and different distribution of syllable categories. To test this possibility, we recorded separation calls from FVB/NJ, a strain with body weigh",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_3227-06_2007",
@@ -367,11 +829,7 @@
       "abstract": "Experience-dependent plasticity during development results in the emergence of highly adapted representations of the external world in the adult brain. Previous studies have convincingly shown that the primary auditory cortex (A1) of the rat possesses a postnatal period of sensory input-driven plasticity but its precise timing (onset, duration, end) has not been defined. In the present study, we examined the effects of pure-tone exposure on the auditory cortex of developing rat pups at different postnatal ages with a high temporal resolution. We found that pure-tone exposure resulted in profound, persistent alterations in sound representations in A1 only if the exposure occurred during a brief period extending from postnatal day 11 (P11) to P13. We also found that postnatal sound exposure in this epoch led to striking alterations in the cortical representation of sound intensity.",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3758_bf03196002",
@@ -381,11 +839,7 @@
       "abstract": "",
       "journal": "Learning & Behavior",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_22-16-07308_2002",
@@ -395,11 +849,7 @@
       "abstract": "Microinjection of the GABA(A) agonist muscimol in the rostral medial accumbens shell in rats elicits appetitive eating behavior, but in the caudal shell instead elicits fearful defensive treading behavior. To further test the hypothesis that rostral shell muscimol microinjections produce positive motivational states, whereas caudal shell muscimol produces negative states, we measured behavioral place preference/avoidance conditioning and affective hedonic and aversive orofacial expressions of taste-elicited \"liking\" and \"disliking\" (gapes, etc.) in addition to fear and feeding behaviors. Farthest rostral muscimol microinjections (75 ng) caused increased eating behavior and also caused positive conditioned place preferences and increased positive hedonic reactions to the taste of sucrose. By contrast, caudal shell microinjections elicited negative defensive treading and caused robust negative conditioned place avoidance and negative aversive reactions to sucrose or quinine tastes. Inter",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf02245590",
@@ -409,11 +859,7 @@
       "abstract": "",
       "journal": "Psychopharmacology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-662-11002-7",
@@ -423,11 +869,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-662-11002-7_7",
@@ -437,11 +879,7 @@
       "abstract": "",
       "journal": "Zur Topographie der Medulla spinalis der Albinoratte (Rattus norvegicus) / Contributions to the Topography of the Spinal Cord of the Albino Rat (Rattus norvegicus)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-662-11002-7_1",
@@ -451,11 +889,7 @@
       "abstract": "",
       "journal": "Zur Topographie der Medulla spinalis der Albinoratte (Rattus norvegicus) / Contributions to the Topography of the Spinal Cord of the Albino Rat (Rattus norvegicus)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1126_science_176_4041_1349",
@@ -465,11 +899,7 @@
       "abstract": "During the refractory period that follows ejaculation, the male rat regularly emits 22-kilohertz vocalizations. These cease after about three-fourths of the total period has elapsed, and this corresponds to an \"absolute refractory period\" during which the male cannot spontaneously initiate copulation. Similar 22-kilohertz vocalizations occur in other social contexts, and in general they appear to be desist-contact signals.",
       "journal": "Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_springerreference_104545",
@@ -479,14 +909,10 @@
       "abstract": "",
       "journal": "SpringerReference",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 33,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

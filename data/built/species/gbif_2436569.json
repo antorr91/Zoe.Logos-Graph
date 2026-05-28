@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 19,
-    "claim_count": 9,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 27,
+    "doi_count": 27,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,457 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "click",
+    "wail",
     "purr",
-    "wail"
+    "click"
   ],
   "contexts": [
-    "alarm",
+    "territorial defence",
     "social communication",
-    "territorial defence"
+    "alarm"
   ],
   "functions": [
-    "group cohesion",
+    "territory signalling",
     "predator warning",
-    "territory signalling"
+    "group cohesion"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "click",
+        "value": "wail",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "purr",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "wail",
+        "value": "click",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "group cohesion",
+        "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territory signalling",
+        "value": "group cohesion",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 575,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 574,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 573,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 572,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 571,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 570,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 569,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 568,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 567,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 566,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 565,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 564,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 563,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 562,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 561,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 560,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 559,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 558,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 557,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 556,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 555,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 554,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 553,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 552,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 551,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 550,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 549,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1098/rstb.2023.0197",
+      "url": "https://doi.org/10.1098/rstb.2023.0197",
+      "title": "Benefits but not the dual functions of submissive signals differ between two Malagasy primates",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10329-020-00878-3",
+      "url": "https://doi.org/10.1007/s10329-020-00878-3",
+      "title": "Agonistic vocalization behaviour in the male ring-tailed lemur (Lemur catta)",
+      "year": 2021,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1159/000508808",
       "url": "https://doi.org/10.1159/000508808",
@@ -141,6 +508,34 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1038/s41598-018-27322-3",
+      "url": "https://doi.org/10.1038/s41598-018-27322-3",
+      "title": "Costs of injury for scent signalling in a strepsirrhine primate",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/cz/zox023",
+      "url": "https://doi.org/10.1093/cz/zox023",
+      "title": "Modeling individual vocal differences in group-living lemurs using vocal tract morphology",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ajp.22584",
+      "url": "https://doi.org/10.1002/ajp.22584",
+      "title": "Paternity in wild ring-tailed lemurs (Lemur catta): Implications for male mating strategies",
+      "year": 2016,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.160076",
+      "url": "https://doi.org/10.1098/rsos.160076",
+      "title": "Mix it and fix it: functions of composite olfactory signals in ring-tailed lemurs",
+      "year": 2016,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1111/2041-210x.12584",
       "url": "https://doi.org/10.1111/2041-210x.12584",
       "title": "<scp>BORIS</scp>: a free, versatile open‐source event‐logging software for video/audio coding and live observations",
@@ -148,11 +543,25 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1098/rsbl.2014.0831",
+      "url": "https://doi.org/10.1098/rsbl.2014.0831",
+      "title": "Baby on board: olfactory cues indicate pregnancy and fetal sex in a non-human primate",
+      "year": 2015,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1038/ncomms5747",
       "url": "https://doi.org/10.1038/ncomms5747",
       "title": "The evolutionary origin of human hyper-cooperation",
       "year": 2014,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2014.0071",
+      "url": "https://doi.org/10.1098/rspb.2014.0071",
+      "title": "Individual recognition through olfactory-auditory matching in lemurs",
+      "year": 2014,
+      "source": "pubmed"
     },
     {
       "doi": "10.1098/rstb.2013.0074",
@@ -262,6 +671,26 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_38768209",
+      "title": "Benefits but not the dual functions of submissive signals differ between two Malagasy primates",
+      "year": 2024,
+      "doi": "10.1098/rstb.2023.0197",
+      "abstract": "Many animals use formalized signals to communicate dominance relationships. In some primates, such as macaques, the function of such signals varies with dominance style. Despotic species produce unidirectional submission signals that have a dual function: in conflict contexts, they signal a willingness to withdraw, whereas in peaceful contexts, they indicate the agreement to subordination. More despotic species produce these calls to a lesser extent than less despotic species. Here, we investigated whether the use of unidirectional submission signals is also related to dominance style in two lemur species and whether signalling subordination stabilizes social relationships at the group level. Ring-tailed lemurs (",
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33459940",
+      "title": "Agonistic vocalization behaviour in the male ring-tailed lemur (Lemur catta)",
+      "year": 2021,
+      "doi": "10.1007/s10329-020-00878-3",
+      "abstract": "Vocalizations are used by group-living animals as aggressive and submissive signals during agonistic interactions, and are also used to maintain dominance hierarchies in many species. For gregarious strepsirrhines with large vocal repertoires and differentiated dominance ranks like the ring-tailed lemur (Lemur catta), agonistic vocalization use is important to study to better understand their social adaptations.To determine whether ring-tailed lemur vocalizations such as the yip, cackle, twitter, chutter, and plosive bark were used as aggressive or submissive signals during agonism and uttered at different rates by males of differing dominance ranks and ages, 565 h of focal data were collected on 31 individual males aged ≥ 1 year from Beza Mahafaly Special Reserve, Madagascar. Yip, cackle, and twitter vocalizations were consistently used during agonistic submissive interactions with both males and females, chutter vocalizations were used during aggressive agonistic interactions with males and submissive agonistic interactions with males and females, and plosive bark vocalizations were used across behavioural contexts but not particularly during agonism. Males of all ages employed all vocalizations, and while low-ranking males uttered yip calls at higher rates, males of all dominance ranks uttered cackle, twitter, chutter, and plosive bark vocalizations. These results advance our knowledge of how male lemurs utilize agonistic vocalizations to maintain inter-individual relationships with males and females, and improve our overall understanding of the function of different agonistic vocalizations in wild lemurs.",
+      "journal": "Primates; journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1159_000508808",
       "title": "Affiliative Contact Calls during Group Travel: Chirp and Wail Vocalization Use in the Male Ring-Tailed Lemur (Lemur catta)",
       "year": 2020,
@@ -269,11 +698,37 @@
       "abstract": "Affiliative vocalizations occur across primate taxa and may be used to maintain spatial cohesion and/or to regulate social interactions in group-living species. For gregarious strepsirhines like the ring-tailed lemur (Lemur catta), with large vocal repertoires and several distinct affiliative vocalizations including the chirp and wail, it is important to understand behavioural usage of these vocalizations to gain insight into their social interactions. To determine whether chirp and wail vocalizations facilitate group cohesion, regulate interactions to achieve socially positive outcomes, and are correlated with differences in individual characteristics such as dominance rank and age, I collected 565 h of focal data on 31 males aged ≥1 year at Beza Mahafaly Special Reserve, Madagascar, from March to July 2010. I found that chirp and wail vocalizations occurred at the highest rates during group-wide travel compared to other behaviours. Although nearest neighbour distance did not influenc",
       "journal": "Folia Primatologica",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_33202230",
+      "title": "Evidence for a male sex pheromone in a primate?",
+      "year": 2020,
+      "doi": "10.1016/j.cub.2020.10.006",
+      "abstract": "Pheromones mediate a wide range of functions across the animal kingdom [1], and such chemosensory communication is especially widespread among mammals [2]. In a recent paper in Current Biology, Shirasu, Ito et al. [3] describe the results of a series of chemical and behavioral studies that identified three aldehyde odors released from the wrist gland of ring-tailed lemurs (Lemur catta) that could represent the first identified sex pheromones in male primates. Observations of a captive group and controlled presentations of isolated male scent samples showed captive female lemurs sniffing antebrachial scent marks longer on average during the breeding season. Comparison of the chemical profiles of antebrachial secretions between breeding- and non-breeding-season samples revealed three aldehydes putatively responsible for the female response, the concentration of one of these subsequently shown to increase following testosterone injection of one male. Average sniffing duration of two females increased slightly with increasing concentrations of two of the three aldehydes in one experiment, and so did the response of seven other females to swabs with mixtures of the three compounds, compared to individually presented aldehydes. From these results, the authors conclude that \"it is conceivable that the identified C12 and C14 aldehydes are putative sex pheromones that aid male-female interactions among lemurs.\" Here, I argue that, in fact, more data are needed to determine whether antebrachial marking and these substances are actually involved in mediating the attractiveness of males to females during the breeding season. My specific concerns pertain to several aspects of the methods that produce ambiguous results and conclusions that are too strong, especially when considering the broader context of lemur biology.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33202228",
+      "title": "Lack of evidence for pheromones in lemurs",
+      "year": 2020,
+      "doi": "10.1016/j.cub.2020.10.005",
+      "abstract": "As chemicals that elicit unlearned, functionally specialized, and species-specific responses [1] or 'stereotyped behavior' [2], pheromones differ from mammalian scent signatures that comprise complex, variable mixtures, convey multiple messages via learned chemical combinations, and elicit generalized responses [1]. Studying ring-tailed lemur (Lemur catta) behavior and semiochemistry, a recent study by Shirasu, Ito et al. [2] claimed to have identified \"the first sex pheromones in primates.\" However, reliance on one male in most chemical procedures and on few females in behavioral procedures constrains statistical analyses and challenges the broad applicability of their findings. Also, the non-independent testing of even fewer signaler-recipient dyads downplays the critical role of learning and memory in primate communication [1] - an argument that refuted earlier claims of primate pheromones [3,4]. Here, we challenge each of their four highlighted findings and interpretations.",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32756063",
+      "title": "Affiliative Contact Calls during Group Travel: Chirp and Wail Vocalization Use in the Male Ring-Tailed Lemur (Lemur catta)",
+      "year": 2020,
+      "doi": "10.1159/000508808",
+      "abstract": "Affiliative vocalizations occur across primate taxa and may be used to maintain spatial cohesion and/or to regulate social interactions in group-living species. For gregarious strepsirhines like the ring-tailed lemur (Lemur catta), with large vocal repertoires and several distinct affiliative vocalizations including the chirp and wail, it is important to understand behavioural usage of these vocalizations to gain insight into their social interactions. To determine whether chirp and wail vocalizations facilitate group cohesion, regulate interactions to achieve socially positive outcomes, and are correlated with differences in individual characteristics such as dominance rank and age, I collected 565 h of focal data on 31 males aged ≥1 year at Beza Mahafaly Special Reserve, Madagascar, from March to July 2010. I found that chirp and wail vocalizations occurred at the highest rates during group-wide travel compared to other behaviours. Although nearest neighbour distance did not influence calling rate, focal animals maintained the same distance or were located closer to nearest neighbours after calling. Both chirp and wail calls were heard in behavioural contexts without agonism rather than agonistic contexts. No relationship was found between male calling rate and dominance rank or age, although the chirp showed a non-significant tendency to be produced at higher rates by younger males. Overall, my results indicated that ring-tailed lemur males of all ages and dominance ranks used both chirp and wail vocalizations as contact calls during group-wide travel events, helping individuals maintain proximity to other group members during movement. Chirp and wail vocalizations may additionally help regulate the caller's social interactions and promote increased tolerance from conspecifics. These findings add to our understanding of the breadth of communication behaviour in wild lemurs, thus furthering our knowledge of the social lives and cognitive abilities of strepsirhines",
+      "journal": "Folia primatologica; international journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_77054",
@@ -283,11 +738,37 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_30045037",
+      "title": "Restating the Case for a Sharp Population Decline in Lemur catta",
+      "year": 2018,
+      "doi": "10.1159/000489676",
+      "abstract": "As with many other species in the primate order, ring-tailed lemurs (Lemur catta) are threatened with extinction. Our articles documented declines in wild ring-tailed lemur populations and noted that fewer than 2,500 wild ring-tailed lemurs are known to persist in 32 [Gould and Sauther: Primate Conservation 2016; 30: 89-101] and 34 [LaFleur et al.: Folia Primatologica 2017; 87: 320-330] sites. A criticism of our articles [Murphy et al.: International Journal of Primatology 2017; 38: 623-628] suggested that we have inadequately sampled ring-tailed lemur populations and habitats, and misused the literature. We disagree, and provide both a detailed rebuttal and responses to specific critique points herein. Moreover, we restate our case outlining a dramatic decline of ring-tailed lemurs resulting from anthropogenic pressures (deforestation, severe habitat fragmentation, extraction for the pet and bushmeat trades). We pose several thought-provoking questions as to when is the appropriate time for researchers to \"sound the alarm\" about a species' decline, and remain committed to understanding the drivers of unsustainable exploitation of this emblematic lemur, and preventing their extinction in the wild.",
+      "journal": "Folia primatologica; international journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29959333",
+      "title": "Costs of injury for scent signalling in a strepsirrhine primate",
+      "year": 2018,
+      "doi": "10.1038/s41598-018-27322-3",
+      "abstract": "Honesty is crucial in animal communication when signallers are conveying information about their condition. Condition dependence implies a cost to signal production; yet, evidence of such cost is scarce. We examined the effects of naturally occurring injury on the quality and salience of olfactory signals in ring-tailed lemurs (Lemur catta). Over a decade, we collected genital secretions from 23 (13 male, 10 female) adults across 34 unique injuries, owing primarily to intra-group fights. Using gas chromatography-mass spectrometry, we tested for differences in the chemical composition of secretions across pre-injury, injury and recovery, in animals that did and did not receive antibiotics. Lemur genital secretions were significantly dampened and altered during injury, with patterns of change varying by sex, season and antibiotics. Using behavioural bioassays (excluding odorants from antibiotic-treated animals), we showed that male 'recipients' discriminated injury status based on scent alone, directing more competitive counter marking towards odorants from injured vs. uninjured male 'signallers.' That injured animals could not maintain their normal signatures provides rare evidence of the energetic cost to signal production. That conspecifics detected olfactory-encoded 'weakness' suggests added behavioural costs: By influencing the likelihood of intra- or inter-sexual conflict, condition-dependent signals could have important implications for socio-reproductive behaviour.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29492006",
+      "title": "Modeling individual vocal differences in group-living lemurs using vocal tract morphology",
+      "year": 2017,
+      "doi": "10.1093/cz/zox023",
+      "abstract": "Vocal individuality is widespread in social animals. Individual variation in vocalizations is a prerequisite for discriminating among conspecifics and may have facilitated the evolution of large complex societies. Ring-tailed lemurs",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_2041-210x_12584",
@@ -297,11 +778,47 @@
       "abstract": "Summary Quantitative aspects of the study of animal and human behaviour are increasingly relevant to test hypotheses and find empirical support for them. At the same time, photo and video cameras can store a large number of video recordings and are often used to monitor the subjects remotely. Researchers frequently face the need to code considerable quantities of video recordings with relatively flexible software, often constrained by species‐specific options or exact settings. BORIS is a free, open‐source and multiplatform standalone program that allows a user‐specific coding environment to be set for a computer‐based review of previously recorded videos or live observations. Being open to user‐specific settings, the program allows a project‐based ethogram to be defined that can then be shared with collaborators, or can be imported or modified. Projects created in BORIS can include a list of observations, and each observation may include one or two videos (e.g. simultaneous screening ",
       "journal": "Methods in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_27391113",
+      "title": "Paternity in wild ring-tailed lemurs (Lemur catta): Implications for male mating strategies",
+      "year": 2016,
+      "doi": "10.1002/ajp.22584",
+      "abstract": "In group-living species with male dominance hierarchies where receptive periods of females do not overlap, high male reproductive skew would be predicted. However, the existence of female multiple mating and alternative male mating strategies can call into question single-male monopolization of paternity in groups. Ring-tailed lemurs (Lemur catta) are seasonally breeding primates that live in multi-male, multi-female groups. Although established groups show male dominance hierarchies, male dominance relationships can break down during mating periods. In addition, females are the dominant sex and mate with multiple males during estrus, including group residents, and extra-group males-posing the question of whether there is high or low male paternity skew in groups. In this study, we analyzed paternity in a population of wild L. catta from the Bezà Mahafaly Special Reserve in southwestern Madagascar. Paternity was determined with 80-95% confidence for 39 offspring born to nine different groups. We calculated male reproductive skew indices for six groups, and our results showed a range of values corresponding to both high and low reproductive skew. Between 21% and 33% of offspring (3 of 14 or three of nine, counting paternity assignments at the 80% or 95% confidence levels, respectively) were sired by extra-troop males. Males siring offspring within the same group during the same year appear to be unrelated. Our study provides evidence of varying male reproductive skew in different L. catta groups. A single male may monopolize paternity across one or more years, while in other groups, >1 male can sire offspring within the same group, even within a single year. Extra-group mating is a viable strategy that can result in extra-group paternity for L. catta males.",
+      "journal": "American journal of primatology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_27152222",
+      "title": "Mix it and fix it: functions of composite olfactory signals in ring-tailed lemurs",
+      "year": 2016,
+      "doi": "10.1098/rsos.160076",
+      "abstract": "Animals communicating via scent often deposit composite signals that incorporate odorants from multiple sources; however, the function of mixing chemical signals remains understudied. We tested both a 'multiple-messages' and a 'fixative' hypothesis of composite olfactory signalling, which, respectively, posit that mixing scents functions to increase information content or prolong signal longevity. Our subjects-adult, male ring-tailed lemurs (Lemur catta)-have a complex scent-marking repertoire, involving volatile antebrachial (A) secretions, deposited pure or after being mixed with a squalene-rich paste exuded from brachial (B) glands. Using behavioural bioassays, we examined recipient responses to odorants collected from conspecific strangers. We concurrently presented pure A, pure B and mixed A + B secretions, in fresh or decayed conditions. Lemurs preferentially responded to mixed over pure secretions, their interest increasing and shifting over time, from sniffing and countermarking fresh mixtures, to licking and countermarking decayed mixtures. Substituting synthetic squalene (S)-a well-known fixative-for B secretions did not replicate prior results: B secretions, which contain additional chemicals that probably encode salient information, were preferred over pure S. Whereas support for the 'multiple-messages' hypothesis underscores the unique contribution from each of an animal's various secretions, support for the 'fixative' hypothesis highlights the synergistic benefits of composite signals.",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_26022308",
+      "title": "Antipredator Vocalization Usage in the Male Ring-Tailed Lemur (Lemur catta)",
+      "year": 2015,
+      "doi": "10.1159/000369064",
+      "abstract": "The ring-tailed lemur (Lemur catta) is a group-living strepsirrhine primate endemic to Madagascar that faces considerable predation pressure from aerial and terrestrial predators. This species engages in mobbing and vigilance behavior in response to predators, and has referential alarm vocalizations. Because L. catta is female dominant, less is known about the alarm calls of males. We tested 3 hypotheses for male antipredator vocalization behavior on L. catta at the Bezà Mahafaly Special Reserve in Madagascar: the predator confusion, group maintenance, and predation risk allocation hypotheses. We found support for 2 hypotheses. When a male L. catta made an antipredator call, other group members vocalized in response. Dominant males did not make alarm calls at higher rates than subordinate males. Predators were more abundant on the western side of Parcel 1, but an even greater number of antipredator vocalizations occurred in this area than predator abundance warranted. We show that male L. catta consistently participated in group-level antipredator vocalization usage in high-risk locations. Although female L. catta are known to hold the primary role in group defense, male L. catta are also key participants in group-wide behaviors that may confuse or drive away predators.",
+      "journal": "Folia primatologica; international journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25716086",
+      "title": "Baby on board: olfactory cues indicate pregnancy and fetal sex in a non-human primate",
+      "year": 2015,
+      "doi": "10.1098/rsbl.2014.0831",
+      "abstract": "Olfactory cues play an integral, albeit underappreciated, role in mediating vertebrate social and reproductive behaviour. These cues fluctuate with the signaller's hormonal condition, coincident with and informative about relevant aspects of its reproductive state, such as pubertal onset, change in season and, in females, timing of ovulation. Although pregnancy dramatically alters a female's endocrine profiles, which can be further influenced by fetal sex, the relationship between gestation and olfactory cues is poorly understood. We therefore examined the effects of pregnancy and fetal sex on volatile genital secretions in the ring-tailed lemur (Lemur catta), a strepsirrhine primate possessing complex olfactory mechanisms of reproductive signalling. While pregnant, dams altered and dampened their expression of volatile chemicals, with compound richness being particularly reduced in dams bearing sons. These changes were comparable in magnitude with other, published chemical differences among lemurs that are salient to conspecifics. Such olfactory 'signatures' of pregnancy may help guide social interactions, potentially promoting mother-infant recognition, reducing intragroup conflict or counteracting behavioural mechanisms of paternity confusion; cues that also advertise fetal sex may additionally facilitate differential sex allocation.",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "lit_gbif_2436569_11",
@@ -311,11 +828,7 @@
       "abstract": "Sex-specific calls are used in male-male agonistic encounters and male-female courtship in many animal species. The ring-tailed lemur (Lemur catta) is a gregarious Malagasy strepsirhine with twenty-two distinct vocalizations for adults, including two male-specific vocalizations and an additional vocalization with male-specific functions: the howl, the squeal, and the purr. Proposed intra-sexual agonistic functions for these three vocalizations have never been empirically tested. This study&amp;rsquo;s purpose was to investigate the functions of howling, squealing, and purring in the ring-tailed lemur, and to assess the relationships between the rates of these vocalizations and male dominance. From March to July 2010, I collected 600 hours of total data and 480 hours of focal data on male ring-tailed lemurs aged three and older at Beza Mahafaly Special Reserve, Madagascar. I observed each male continuously for 30 minutes at a time and noted behaviours including all vocalizations and all",
       "journal": "TSpace (University of Toronto)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_ncomms5747",
@@ -325,11 +838,27 @@
       "abstract": "",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25139722",
+      "title": "Male-specific use of the purr in the ring-tailed lemur (Lemur catta)",
+      "year": 2014,
+      "doi": "10.1159/000363057",
+      "abstract": "In mammals, purring has been described in mostly affiliative contexts. In the ring-tailed lemur (Lemur catta), both males and females purr, but only males were observed purring in agonistic contexts. In order to determine whether male ring-tailed lemurs purr as aggressive displays during intrasexual agonistic encounters, 480 h of focal data were collected on 25 adult males from Beza Mahafaly Special Reserve, Madagascar, from March to July 2010. The male purring rate increased during periods of male-male agonism when compared to times without intrasexual agonism, and the purring rate was positively correlated with male dominance rank. However, the purring rate was not significantly higher during winning agonistic interactions when compared with losing encounters. My results indicate that the male ring-tailed lemur purr is used most frequently as an agonistic vocalization in male-male encounters, in addition to being used less frequently in other social contexts, including during tail-waving at females, resting, scent-marking, feeding and copulation. Dominant males have higher purring rates across social situations, suggesting that the purring rate may be driven by intrinsic male qualities rather than functioning as a meaningful signal in each disparate social context. Male purring in intrasexual agonistic encounters can be added to previously described social contexts for ring-tailed lemur purring.",
+      "journal": "Folia primatologica; international journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24741013",
+      "title": "Individual recognition through olfactory-auditory matching in lemurs",
+      "year": 2014,
+      "doi": "10.1098/rspb.2014.0071",
+      "abstract": "Individual recognition can be facilitated by creating representations of familiar individuals, whereby information from signals in multiple sensory modalities become linked. Many vertebrate species use auditory-visual matching to recognize familiar conspecifics and heterospecifics, but we currently do not know whether representations of familiar individuals incorporate information from other modalities. Ring-tailed lemurs (Lemur catta) are highly visual, but also communicate via scents and vocalizations. To investigate the role of olfactory signals in multisensory recognition, we tested whether lemurs can recognize familiar individuals through matching scents and vocalizations. We presented lemurs with female scents that were paired with the contact call either of the female whose scent was presented or of another familiar female from the same social group. When the scent and the vocalization came from the same individual versus from different individuals, females showed greater interest in the scents, and males showed greater interest in both the scents and the vocalizations, suggesting that lemurs can recognize familiar females via olfactory-auditory matching. Because identity signals in lemur scents and vocalizations are produced by different effectors and often encountered at different times (uncoupled in space and time), this matching suggests lemurs form multisensory representations through a newly recognized sensory integration underlying individual recognition.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rstb_2013_0074",
@@ -339,11 +868,17 @@
       "abstract": "During the latter half of the last century, evidence of reproductive competition between males and male selection by females led to the development of a stereotypical view of sex differences that characterized males as competitive and aggressive, and females as passive and choosy, which is currently being revised. Here, we compare social competition and its consequences for selection in males and females and argue that similar selection processes operate in both sexes and that contrasts between the sexes are quantitative rather than qualitative. We suggest that classifications of selection based on distinction between the form of competition or the components of fitness that are involved introduce unnecessary complexities and that the most useful approach in understanding the evolution and distribution of differences and similarities between the sexes is to compare the operation of selection in males and females in different reproductive systems.",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23900852",
+      "title": "Brief communication: Effect of size biases in the coefficient of variation on assessing intraspecific variability in the prosimian skeleton",
+      "year": 2013,
+      "doi": "10.1002/ajpa.22334",
+      "abstract": "This study examines the effect of a measurement size bias in coefficients of variation on the evaluation of intraspecific skeletal variability in a sample of eight prosimian species (Eulemur fulvus, Hapalemur griseus, Lemur catta, Varecia variegata, Galago senegalensis, Otolemur crassicaudatus, Nycticebus coucang, and Tarsius syrichta). Measurements with smaller means were expected to have higher coefficients of variation (CVs) due to the impact of instrumental precision on the ability to assess variability. This was evaluated by testing for a negative correlation between CVs and means in the total sample, within each species, and within each measurement, and by testing for the leveraging impact of small measurements on the significance of comparisons of variability between regions of the prosimian skeleton. Three comparisons were made: cranial versus postcranial variability, epiphysis versus diaphysis variability, and forelimb versus hindlimb variability. CVs were significantly negatively correlated with means within the total sample (r(2) = 0.208, P < 0.0001) and within each species. CVs and means were significantly correlated within only three of the measurements, which may reflect the relatively low body size range of the species studied. As predicted by the higher variability of smaller measurements, removing the smallest measurements from comparisons of variable classes containing measurements of different mean magnitudes pushed the comparisons below significance. These results indicate caution should be exercised when using CVs to assess variability across sets of measurements with different means.",
+      "journal": "American journal of physical anthropology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1469-7998_2009_00661_x",
@@ -353,11 +888,7 @@
       "abstract": "The field of animal vocal communication has benefited greatly from improved understanding of vocal production mechanisms and specifically from the generalization of the source-filter theory of speech production to non-human mammals. The application of the source-filter theory has enabled researchers to decompose the acoustic structure of vocal signals according to their mode of production and thereby to predict the acoustic variation that is caused by anatomical or physiological attributes of the caller. The source-filter theory states that vocal signals result from a two-stage production, with the glottal wave generated in the larynx (the source), being subsequently filtered in the supralaryngeal vocal tract (the filter). This theory predicts that independent indexical information such as body size, weight, age and sex can be contained in both the glottal wave (mostly characterized by its fundamental frequency), and the spectral envelope of the radiated vocalization (mostly characteri",
       "journal": "Journal of Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_ajp_20416",
@@ -367,11 +898,7 @@
       "abstract": "The population of brown lemurs has rapidly grown since their founders were introduced to the Berenty Reserve. The founders consist of two species (Eulemur fulvus rufus and E. collaris). To characterize the behavior of the population and to examine whether these characteristics affect population growth, I investigated the habitat use and social structure of the population of brown lemurs at Berenty (Berenty Eulemur). Behavior data were collected focusing on horizontal and vertical habitat use, activity rhythms, and intergroup relationships. These data were compared with the data of E. fulvus in other areas, with the previous studies done at Berenty, and with data on Berenty Lemur catta. Berenty Eulemur maintained a home range size comparable to E. f. rufus in the western deciduous dry forest, but was found at a lower level of the forest and had larger overlapping home ranges. Berenty Eulemur use food resources earlier in the morning than L. catta, intergroup conflict was avoided by voca",
       "journal": "American Journal of Primatology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-0-387-34126-2_1",
@@ -381,11 +908,7 @@
       "abstract": "",
       "journal": "Ringtailed Lemur Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-0-387-34126-2_12",
@@ -395,11 +918,7 @@
       "abstract": "",
       "journal": "Ringtailed Lemur Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-0-387-34126-2",
@@ -409,11 +928,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-0-387-34126-2_8",
@@ -423,11 +938,7 @@
       "abstract": "",
       "journal": "Ringtailed Lemur Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1159_000021684",
@@ -437,11 +948,7 @@
       "abstract": "",
       "journal": "Folia Primatologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1159_000156787",
@@ -451,11 +958,7 @@
       "abstract": "Phylogenetic relationships among the extant lemurid prosimians were assessed cladistically using stereotyped vocal, olfactory, and visual communication characters. Among our results are 3 findings of particular importance. First, our data are consistent with those from several recent studies of highly repeated DNA fragments in supporting a close phyletic affinity between Lemur catta and the genus Hapalemur. Moreover, our results indicate that L. catta is nested within the Hapalemur clade as the sister taxon to Hapalemur griseus/Hapalemur aureus. We interpret character states shared between Hapalemur simus and L. catta as primitive retentions by L. catta. Second, our findings agree with the DNA data in proposing a sister group relationship for Eulemur coronatus and Eulemur rubriventer. Third, our results question the validity of assigning Varecia variegata to the Lemuridae. For the characters we examined, Varecia more resembled indrids than lemurids, and the position of Varecia could be",
       "journal": "Folia Primatologica",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1159_000156749",
@@ -465,11 +968,7 @@
       "abstract": "<jats:p>The vocal repertoire of the ringtailed lemur (Lemur cαttα) is described quantitatively and spectrographically. Structure, usage and inferred function of the vocalizations of adults and immatures are examined and discussed. The size, acoustic variability and development of the ringtailed lemur’s vocal repertoire are compared to prior assessments for this species as well as for other primates. With up to 22 different adult call types, the ringtailed lemur has a moderately large vocal repertoire for a primate.</jats:p>",
       "journal": "Folia Primatologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_ajp_1350110208",
@@ -479,11 +978,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>A vocalization of the ringtailed lemur (<jats:italic>Lemur catta</jats:italic>) was examined for individual differences according to several temporal‐ and frequency‐dependent variables. Vocalizations were tape recorded at the Duke University Primate Center (Durham, NC) and spectrographically analyzed. Significant differences were found in pair‐wise comparisons of call structure among the study subjects, thus providing the physical basis for individual discrimination. A separate analysis comparing degree of kinship and vocal similarity revealed a positive but nonsignificant correlation between these two variables. This study represents an initial examination of vocal individuality in prosimian primates.</jats:p>",
       "journal": "American Journal of Primatology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-1-4684-2121-7_12",
@@ -493,11 +988,7 @@
       "abstract": "",
       "journal": "Lemur Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-1-4615-6428-7_44",
@@ -507,11 +998,7 @@
       "abstract": "",
       "journal": "An Atlas of Mammalian Chromosomes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-0-387-73945-8_8",
@@ -521,14 +1008,10 @@
       "abstract": "",
       "journal": "Chemical Signals in Vertebrates 11",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 19,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

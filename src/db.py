@@ -239,9 +239,12 @@ def compute_profile_level(con: sqlite3.Connection, species_id: str) -> str:
         SELECT
             m.image_url,
             (SELECT COUNT(*) FROM open_literature WHERE species_id = ?) AS doi_count,
-            (SELECT COUNT(*) FROM media_assets WHERE species_id = ?) AS media_count,
-            (SELECT COUNT(*) FROM communication_claims
-             WHERE species_id = ? AND source = 'extraction') AS extracted_claims
+            (SELECT COUNT(*) FROM media_assets    WHERE species_id = ?) AS media_count,
+            (SELECT COUNT(*) FROM claim_evidence ce
+             JOIN communication_claims cc ON ce.claim_id = cc.claim_id
+             WHERE cc.species_id = ?
+               AND ce.extraction_method IN ('llm', 'manual', 'curated')
+            ) AS extracted_claims
         FROM species s
         LEFT JOIN species_metadata m ON s.species_id = m.species_id
         WHERE s.species_id = ?

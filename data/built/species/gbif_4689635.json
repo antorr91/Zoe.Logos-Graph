@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 11,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 33,
+    "claim_count": 48,
+    "doi_count": 34,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -43,19 +43,19 @@
   "inat_id": null,
   "vocalisations": [
     "infrasonic call",
-    "rumble",
-    "trumpet"
+    "trumpet",
+    "rumble"
   ],
   "contexts": [
-    "alarm",
     "bee alarm",
+    "social bonding",
     "long-distance communication",
-    "social bonding"
+    "alarm"
   ],
   "functions": [
-    "bee avoidance",
     "contact maintenance",
     "group coordination",
+    "bee avoidance",
     "predator warning"
   ],
   "communication_profile": {
@@ -64,82 +64,828 @@
         "value": "infrasonic call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "rumble",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "trumpet",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "rumble",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "bee alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "long-distance communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social bonding",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "long-distance communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "bee avoidance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "contact maintenance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "group coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "bee avoidance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1172,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1171,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1170,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1169,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1168,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1167,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1166,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1165,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1164,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1163,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1162,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1161,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1160,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1159,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1158,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1157,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1156,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1155,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1154,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1153,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1152,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1151,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1150,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1149,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1148,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1147,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1146,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1145,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1144,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1143,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1142,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1141,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1140,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1139,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1138,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1137,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1136,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1135,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1134,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1133,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1132,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1131,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1130,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1129,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1128,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1127,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1126,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1125,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "xeno_canto",
     "xc_query": "",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "elephantvoices_ev-rumble-01",
+        "provider": "elephantvoices",
+        "provider_id": "ev-rumble-01",
+        "type": "African elephant rumble — ElephantVoices",
+        "rec": "Joyce Poole",
+        "loc": "",
+        "date": "",
+        "url": "https://www.elephantvoices.org/elephants-in-recovery/sound-archive.html",
+        "audio": "",
+        "sono": "",
+        "license": "Educational use",
+        "attribution": "ElephantVoices / Joyce Poole"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1007/s00442-025-05860-8",
+      "url": "https://doi.org/10.1007/s00442-025-05860-8",
+      "title": "Wind conditions do not consistently affect large-scale movement decisions of large savanna herbivores",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-025-16994-3",
+      "url": "https://doi.org/10.1038/s41598-025-16994-3",
+      "title": "Asian elephants (Elephas maximus) recognise human visual attention from body and face orientation",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3758/s13420-024-00655-y",
+      "url": "https://doi.org/10.3758/s13420-024-00655-y",
+      "title": "Do elephants really never forget? What we know about elephant memory and a call for further investigation",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s42003-024-06133-5",
+      "url": "https://doi.org/10.1038/s42003-024-06133-5",
+      "title": "Multimodal communication and audience directedness in the greeting behaviour of semi-captive African savannah elephants",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7717/peerj.17767",
+      "url": "https://doi.org/10.7717/peerj.17767",
+      "title": "The use of vocal coordination in male African elephant group departures: evidence of active leadership and consensus",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2023.0202",
+      "url": "https://doi.org/10.1098/rsbl.2023.0202",
+      "title": "Frightened of giants: fear responses to elephants approach that of predators",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-022-20920-2",
+      "url": "https://doi.org/10.1038/s41598-022-20920-2",
+      "title": "A pachyderm perfume: odour encodes identity and group membership in African elephants",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-022-24214-5",
+      "url": "https://doi.org/10.1038/s41598-022-24214-5",
+      "title": "An odorant-binding protein in the elephant's trunk is finely tuned to sex pheromone (Z)-7-dodecenyl acetate",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani12040495",
+      "url": "https://doi.org/10.3390/ani12040495",
+      "title": "Social Disruption Impairs Predatory Threat Assessment in African Elephants",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani12091162",
+      "url": "https://doi.org/10.3390/ani12091162",
+      "title": "Male African Elephant (",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsif.2021.0264",
+      "url": "https://doi.org/10.1098/rsif.2021.0264",
+      "title": "Seismic localization of elephant rumbles as a monitoring approach",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2021.0774",
+      "url": "https://doi.org/10.1098/rspb.2021.0774",
+      "title": "Noise matters: elephants show risk-avoidance behaviour in response to human-generated seismic cues",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rstb.2020.0254",
+      "url": "https://doi.org/10.1098/rstb.2020.0254",
+      "title": "Operant control and call usage learning in African elephants",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani11102990",
+      "url": "https://doi.org/10.3390/ani11102990",
+      "title": "Monitoring Behaviour in African Elephants during Introduction into a New Group: Differences between Related and Unrelated Animals",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7717/peerj.10736",
+      "url": "https://doi.org/10.7717/peerj.10736",
+      "title": "Acoustic cues to individuality in wild male adult African savannah elephants (",
+      "year": 2021,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1079/cabicompendium.31399",
       "url": "https://doi.org/10.1079/cabicompendium.31399",
@@ -253,6 +999,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.70675/00691cd8z238dz4aefzb682zc12d70ad58c4",
+      "url": "https://doi.org/10.70675/00691cd8z238dz4aefzb682zc12d70ad58c4",
+      "title": "Trunk grasping and manipulation of the African savannah elephants (Loxodonta africana) : behavioural and morpho-functional variability",
+      "year": null,
+      "source": "crossref"
+    },
+    {
       "doi": "10.70675/4ca94175z453ez4752z8648z3e9e95ec7a2b",
       "url": "https://doi.org/10.70675/4ca94175z453ez4752z8648z3e9e95ec7a2b",
       "title": "Towards a multidimensional indicator of the welfare of African Savanna elephants (Loxodonta africana)",
@@ -269,6 +1022,156 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41902847",
+      "title": "Wind conditions do not consistently affect large-scale movement decisions of large savanna herbivores",
+      "year": 2026,
+      "doi": "10.1007/s00442-025-05860-8",
+      "abstract": "To decide where and when to move, animals combine memorised information with environmental cues. Wind speed and direction can affect the way animals perceive the environment by reducing the detection and shaping the spatial distribution of sensory cues. Although these cues are expected to be used for forage localisation and predation avoidance in large herbivores, for instance, we still do not know to what extent wind can ultimately influence their large-scale movement decisions. To tackle this knowledge gap, we used GPS data from four species of large African herbivores experiencing contrasted predation risks (blue wildebeest, Connochaetes taurinus, plain zebras, Equus quagga, African buffalo, Syncerus caffer, African elephant, Loxodonta africana), in multiple protected areas. We first investigated whether individuals reduce predation risk by avoiding long-distance movements under windy conditions. We then analysed whether they favour moving upwind to maximise their information gain as they travel. We found no clear decrease in the largest step length as wind speed increases and suggest that local habitat could buffer the strength of wind speed (i.e. topography or vegetation). We, however, found that large herbivores tend to move upwind rather than cross- or downwind, although the effect was generally small. We point out that individuals might be more constrained in their use of cues carried by the wind than initially thought, due to the existence of dominant wind directions at all sites. Altogether, our study suggests that wind has little general, consistent, effects on large herbivore movement decisions. Some sites or species-specific results, however, call for delving deeper into the context-specificity of wind effects.",
+      "journal": "Oecologia",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41038927",
+      "title": "Asian elephants (Elephas maximus) recognise human visual attention from body and face orientation",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-16994-3",
+      "abstract": "Visual attention has mostly been studied in primarily visual species, such as nonhuman primates. Although elephants rely more on acoustic and olfactory cues, they also use visual displays and gestures to communicate. Smet and Byrne (2014) showed that African savanna elephants (Loxodonta africana) recognise human visual attention based on face and body orientation, but this has not been investigated in Asian elephants (Elephas maximus). We tested ten captive female elephants in Thailand and analysed the frequency of experimenter-directed signals in a food-requesting task based on the experimenter's body and face orientation. Elephants gestured most when both the experimenter's body and face were oriented towards them, and body orientation appeared to be a stronger visual cue than face orientation, but this effect was only observed when her face was also oriented towards the elephant. This suggests that elephants are not sensitive to face or body orientation alone and rely on a combination of body and face cues to recognise human visual attention. These findings suggest that Asian elephants understand the importance of visual attention for effective communication, contributing to our understanding of cognitive abilities across the elephant taxon and visual attention in animals.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39438402",
+      "title": "Do elephants really never forget? What we know about elephant memory and a call for further investigation",
+      "year": 2025,
+      "doi": "10.3758/s13420-024-00655-y",
+      "abstract": "Despite popular culture's promotion of the elephant's ability to \"never forget,\" there is remarkably limited empirical research on the memory capacities of any living elephant species (Asian, Elephas maximus; African savanna, Loxodonta africana; African forest, Loxodonta cyclotis). A growing body of literature on elephant cognition and behavioral ecology has provided insight into the elephant's ability to behave flexibly in changing physical and social environments, but little direct evidence of how memory might relate to this flexibility exists. In this paper, we review and discuss the potential relationships between what we know about elephant cognition and behavior and the elephants' memory for the world around them as they navigate their physical, social, and spatial environments. We also discuss future directions for investigating elephant memory and implications for such research on elephant conservation and human-elephant conflict mitigation.",
+      "journal": "Learning & behavior",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39056054",
+      "title": "The use of vocal coordination in male African elephant group departures: evidence of active leadership and consensus",
+      "year": 2024,
+      "doi": "10.7717/peerj.17767",
+      "abstract": "Group-living animals engage in coordinated vocalizations to depart from a location as a group, and often, to come to a consensus about the direction of movement. Here, we document for the first time, the use of coordinated vocalizations, the \"let's go\" rumble, in wild male African elephant group departures from a waterhole. We recorded vocalizations and collected behavioral data as known individuals engaged in these vocal bouts during June-July field seasons in 2005, 2007, 2011, and 2017 at Mushara waterhole within Etosha National Park, Namibia. During departure events, we documented which individuals were involved in the calls, the signature structure of each individual's calls, as well as the ordering of callers, the social status of the callers, and those who initiated departure. The \"let's go\" rumble was previously described in tight-knit family groups to keep the family together during coordinated departures. Male elephants are described as living in loose social groups, making this finding particularly striking. We found that this vocal coordination occurs in groups of closely associated, highly bonded individuals and rarely occurs between looser associates. The three individuals most likely to initiate the \"let's go\" rumble bouts were all highly socially integrated, and one of these individuals was also the most dominant overall. This finding suggests that more socially integrated individuals might be more likely to initiate, or lead, a close group of associates in the context of leaving the waterhole, just as a high-ranking female would do in a family group. The fact that many individuals were involved in the vocal bouts, and that departure periods could be shorter, longer, or the same amount of time as pre-departure periods, all suggest that there is consensus with regard to the act of leaving, even though the event was triggered by a lead individual.",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38724671",
+      "title": "Multimodal communication and audience directedness in the greeting behaviour of semi-captive African savannah elephants",
+      "year": 2024,
+      "doi": "10.1038/s42003-024-06133-5",
+      "abstract": "Many species communicate by combining signals into multimodal combinations. Elephants live in multi-level societies where individuals regularly separate and reunite. Upon reunion, elephants often engage in elaborate greeting rituals, where they use vocalisations and body acts produced with different body parts and of various sensory modalities (e.g., audible, tactile). However, whether these body acts represent communicative gestures and whether elephants combine vocalisations and gestures during greeting is still unknown. Here we use separation-reunion events to explore the greeting behaviour of semi-captive elephants (Loxodonta africana). We investigate whether elephants use silent-visual, audible, and tactile gestures directing them at their audience based on their state of visual attention and how they combine these gestures with vocalisations during greeting. We show that elephants select gesture modality appropriately according to their audience's visual attention, suggesting evidence of first-order intentional communicative use. We further show that elephants integrate vocalisations and gestures into different combinations and orders. The most frequent combination consists of rumble vocalisations with ear-flapping gestures, used most often between females. By showing that a species evolutionarily distant to our own primate lineage shows sensitivity to their audience's visual attention in their gesturing and combines gestures with vocalisations, our study advances our understanding of the emergence of first-order intentionality and multimodal communication across taxa.",
+      "journal": "Communications biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37817576",
+      "title": "Frightened of giants: fear responses to elephants approach that of predators",
+      "year": 2023,
+      "doi": "10.1098/rsbl.2023.0202",
+      "abstract": "Animals are faced with a variety of dangers or threats, which are increasing in frequency with ongoing environmental change. While our understanding of fearfulness of such dangers is growing in the context of predation and parasitism risk, the extent to which non-trophic, interspecific dangers elicit fear in animals remains less appreciated. We provide an experimental test for fear responses of savannah ungulates to a dominant and aggressive megaherbivore, the African bush elephant (",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36411331",
+      "title": "An odorant-binding protein in the elephant's trunk is finely tuned to sex pheromone (Z)-7-dodecenyl acetate",
+      "year": 2022,
+      "doi": "10.1038/s41598-022-24214-5",
+      "abstract": "Chemical communication in elephants has been well studied at the chemical and behavioural levels. Pheromones have been identified in the Asian elephant (Elephas maximus), including (Z)-7-dodecenyl acetate and frontalin, and their specific effects on the sexual behaviour of elephants have been accurately documented. In contrast, our knowledge on the proteins mediating detection of pheromones in elephants remains poor and superficial, with only three annotated and reliable entries in sequence databases, two of them being odorant-binding proteins (OBPs), and the third a member of von Ebner's gland (VEG) proteins. Proteomic analysis of trunk wash extract from African elephant (Loxodonta africana) identified one of the OBPs (LafrOBP1) as the main component. We therefore expressed LafrOBP1 and its Asian elephant orthologue in yeast Pichia pastoris and found that both recombinant proteins, as well as the natural LafrOBP1 are tuned to (Z)-7-dodecenyl acetate, but have no affinity for frontalin. Both the natural and recombinant LafrOBP1 carry post-translational modifications such as O-glycosylation, phosphorylation and acetylation, but as these modifications affect only a very small amount of the protein, we cannot establish their potential effects on the ligand-binding properties of OBP1.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36202901",
+      "title": "A pachyderm perfume: odour encodes identity and group membership in African elephants",
+      "year": 2022,
+      "doi": "10.1038/s41598-022-20920-2",
+      "abstract": "Group-living animals that live in complex social systems require effective modes of communication to maintain social cohesion, and several acoustic, olfactory and visual signaling systems have been described. Individuals need to discriminate between in- and out-group odour to both avoid inbreeding and to identify recipients for reciprocal behaviour. The presence of a unique group odour, identified in several social mammals, is a proposed mechanism whereby conspecifics can distinguish group from non-group members. African elephants (Loxodonta africana) live in stable, socially complex, multi-female, fission-fusion groups, characterized by female philopatry, male dispersal and linear dominance hierarchies. Elephant social behaviour suggests that individuals use odour to monitor the sex, reproductive status, location, health, identity and social status of conspecifics. To date, it is not clear what fixed or variable information is contained in African elephant secretions, and whether odour encodes kinship or group membership information. Here we use SPME GC-MS generated semiochemical profiles for temporal, buccal and genital secretions for 113 wild African elephants and test their relationship with measures of genetic relatedness. Our results reveal the existence of individual identity odour profiles in African elephants as well as a signature for age encoded in temporal gland and buccal secretions. Olfactory signatures for genetic relatedness were found in labial secretions of adult sisters. While group odour was not correlated with group genetic relatedness, our analysis identified \"group membership\" as a significant factor explaining chemical differences between social groups. Saturated and short-chain fatty acids (SCFAs), derived from key volatile compounds from bacterial fermentation, were identified in temporal, buccal and genital secretions suggesting that group odour in African elephants may be the result of bacterial elements of the gut microbiome. The frequen",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35565588",
+      "title": "Male African Elephant (",
+      "year": 2022,
+      "doi": "10.3390/ani12091162",
+      "abstract": "Driven by reproductive motives, male African elephants (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35203203",
+      "title": "Social Disruption Impairs Predatory Threat Assessment in African Elephants",
+      "year": 2022,
+      "doi": "10.3390/ani12040495",
+      "abstract": "The transmission of reliable information between individuals is crucial for group-living animals. This is particularly the case for cognitively advanced mammals with overlapping generations that acquire detailed social and ecological knowledge over long lifetimes. Here, we directly compare the ecological knowledge of elephants from two populations, with radically different developmental histories, to test whether profound social disruption affects their ability to assess predatory threat. Matriarchs (≤50 years of age) and their family groups received playbacks of three lions versus a single lion roaring. The family groups in the natural Amboseli population (Kenya) reliably assessed the greater predatory threat presented by three lions roaring versus one. However, in the socially disrupted Pilanesberg population (South Africa), no fine-scale distinctions were made between the numbers of roaring lions. Our results suggest that the removal of older and more experienced individuals in highly social species, such as elephants, is likely to impact the acquisition of ecological knowledge by younger group members, particularly through the lack of opportunity for social learning and cultural transmission of knowledge. This is likely to be exacerbated by the trauma experienced by juvenile elephants that witnessed the culling of family members and were translocated to new reserves. With increasing levels of anthropogenic disturbance, it is important that conservation practitioners consider the crucial role that population structure and knowledge transfer plays in the functioning and resilience of highly social and long-lived species.",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34680009",
+      "title": "Monitoring Behaviour in African Elephants during Introduction into a New Group: Differences between Related and Unrelated Animals",
+      "year": 2021,
+      "doi": "10.3390/ani11102990",
+      "abstract": "The introduction of elephants into new groups is necessary for breeding programmes. However, behavioural studies on the reactions of these animals at first encounters are missing. In the present study, female African elephants",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34482733",
+      "title": "Operant control and call usage learning in African elephants",
+      "year": 2021,
+      "doi": "10.1098/rstb.2020.0254",
+      "abstract": "Elephants exhibit remarkable vocal plasticity, and case studies reveal that individuals of African savannah (",
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34255988",
+      "title": "Seismic localization of elephant rumbles as a monitoring approach",
+      "year": 2021,
+      "doi": "10.1098/rsif.2021.0264",
+      "abstract": "African elephants (",
+      "journal": "Journal of the Royal Society, Interface",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34187196",
+      "title": "Noise matters: elephants show risk-avoidance behaviour in response to human-generated seismic cues",
+      "year": 2021,
+      "doi": "10.1098/rspb.2021.0774",
+      "abstract": "African elephants (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33552734",
+      "title": "Acoustic cues to individuality in wild male adult African savannah elephants (",
+      "year": 2021,
+      "doi": "10.7717/peerj.10736",
+      "abstract": "The ability to recognize conspecifics plays a pivotal role in animal communication systems. It is especially important for establishing and maintaining associations among individuals of social, long-lived species, such as elephants. While research on female elephant sociality and communication is prevalent, until recently male elephants have been considered far less social than females. This resulted in a dearth of information about their communication and recognition abilities. With new knowledge about the intricacies of the male elephant social structure come questions regarding the communication basis that allows for social bonds to be established and maintained. By analyzing the acoustic parameters of social rumbles recorded over 1.5 years from wild, mature, male African savanna elephants (",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1079_cabicompendium_31399",
       "title": "Loxodonta africana",
       "year": 2019,
@@ -276,11 +1179,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_mam_12106",
@@ -290,11 +1189,7 @@
       "abstract": "Abstract Despite growing evidence that males often associate in all‐male groups, there has been no review of male savannah elephant Loxodonta africana social relationships or of the use of vocal communication within these male groups. We assess the evidence for all‐male group formation and for the use of vocal communication by males throughout the savannah elephant range of southern and eastern Africa, as well as in ex‐situ studies of captive animals. We derived data from two quantitative reviews of the published literature, for associations and for vocalisations, respectively. We supplemented these structured reviews with searches for books and of bibliographies. We compiled evidence from 30 studies on associative groups, and found that group size was the most commonly reported variable (mean group size reported 2–4.9; range reported 2–40 when excluding studies that included lone males). We found 22 studies reporting evidence of vocal communication in males. A total of four studies we",
       "journal": "Mammal Review",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_j_ctt19b9jmw_42",
@@ -304,11 +1199,7 @@
       "abstract": "",
       "journal": "Animals of Kruger National Park",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3106_041_038_0210",
@@ -318,11 +1209,7 @@
       "abstract": "",
       "journal": "Mammal Study",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_acprof:oso_9780199583560_003_0007",
@@ -332,11 +1219,7 @@
       "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>African elephants (Loxodonta africana) are thought by many to experience rich emotional lives. One window into the emotional lives of animals is through an examination of emotion as expressed in the voice. Here I review the evidence for the vocal expression of emotions in African elephants. In doing so, I also speculate as to how complex vocal communication systems in elephants and other animals could have evolved from simple vocal expressions of basic emotions.</jats:p>",
       "journal": "Evolution of Emotional Communication",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_zoo_20251",
@@ -346,11 +1229,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>Research on vocal communication in African elephants has increased in recent years, both in the wild and in captivity, providing an opportunity to present a comprehensive review of research related to their vocal behavior. Current data indicate that the vocal repertoire consists of perhaps nine acoustically distinct call types, “rumbles” being the most common and acoustically variable. Large vocal production anatomy is responsible for the low‐frequency nature of rumbles, with fundamental frequencies in the infrasonic range. Additionally, resonant frequencies of rumbles implicate the trunk in addition to the oral cavity in shaping the acoustic structure of rumbles. Long‐distance communication is thought possible because low‐frequency sounds propagate more faithfully than high‐frequency sounds, and elephants respond to rumbles at distances of up to 2.5 km. Elephant ear anatomy appears designed for detecting low frequencies, and experiments demonst",
       "journal": "Zoo Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1080_09524622_2009_9753603",
@@ -360,11 +1239,7 @@
       "abstract": "ABSTRACT Research on African elephant (Loxodonta africana) vocal communication has increased in recent years, yet there has been very little data collected on the vocal production of infant African elephants. Vocalizations were recorded from a group of five adult female African elephants and 3 dependent offspring (1 male and 2 female) at Disney's Animal Kingdom, Florida, U.S.A., using custom-designed audio-recording collars worn by the adult females. We measured both source and filter features of infant ‘rumble’ vocalizations made during affiliative social interactions and after cessation of nursing from adult females. Rumble vocalizations produced in the ‘nurse cessation’ context exhibited an upward shift in formant frequency locations, compared to rumbles produced during the ‘affiliation’ context. Additionally, call duration increased and fundamental frequencies decreased after nurse cessations for the male, but both females showed the opposite acoustic response. When infant rumbles ",
       "journal": "Bioacoustics",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_zoo_20063",
@@ -374,11 +1249,7 @@
       "abstract": "",
       "journal": "Zoo Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_434455a",
@@ -388,11 +1259,7 @@
       "abstract": "",
       "journal": "Nature",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1121_1_4783860",
@@ -402,11 +1269,7 @@
       "abstract": "<jats:p>This study examines the interactive nature of vocalizations produced within African elephant herds during waterhole visits at Etosha National Park, Namibia. The temporal organization and physical characteristics of 1025 vocalizations, documented within 14.8 h of acoustic field recordings, were analyzed using a variety of statistical tests. Temporal distribution analyses indicated that calls were clumped in time (Kologorov–Smirnov, average significant p=0.001&amp;lt;th&amp;gt;58) and the majority of the calls occurred after herds began the process of departing a waterhole (Wilcoxon signed rank, p=0.0012). In addition, 84% of all calls began within 30 s of another call. Based on the analysis of the temporal patterning of calls, a conversational series of vocalizations was defined as calls separated by less than 30 s of silence. The majority of calls in a conversational series are overlapping or contiguous, indicating that multiple elephants are involved in the exchange. A variety",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1006_anbe_2003_2047",
@@ -416,11 +1279,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1006_anbe_2000_1406",
@@ -430,11 +1289,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_69649_pachyderm_v16i1_761",
@@ -444,11 +1299,7 @@
       "abstract": "<jats:p>The Sudanian region of Cameroon covers about 198,000 sq kms and comprises two major domains; the Sahelian and the Sudanian. The Waza-Logone floodplain, which lies in the sahelian domain, contains about 1100 elephant, one of the largest populations of the this region of west and central Africa.  Waza NP is the core for elephant  migrations in the sahelian region of northern Cameroon. Three subpopulations have been indentified in Waza: one  migrates between the two Parks tending to be in Kalamaloue in the dry season and Waza during the wet season; a second one is resident throughout the year but moves to different habitat areas according to seasons; and, a third uses the southern part of the Park in the dry season and  moves into agricultural areas to the south during the wet season.  Recently an influx of elephants, probably from Chad, brings the number in the Kaele area to over 320. (Tchamba 1995). Populations in Faro, Benoue, Boubandjidah NPs are 60, 540 and 660 giving a total",
       "journal": "Pachyderm",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1080_00445096_1970_11447400",
@@ -458,11 +1309,7 @@
       "abstract": "",
       "journal": "Zoologica Africana",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_51415_10321_377",
@@ -472,11 +1319,7 @@
       "abstract": "<jats:p>Introduction This dissertation entails a homoeopathic proving of ivory from the male African elephant (Loxodonta africana) 30CH with a subsequent comparison to Lac Loxodonta africana. Objectives The primary objective of this proving was to determine the effects of homoeopathically prepared ivory from the male African elephant (Loxodonta africana) in a 30CH dilution and was achieved by administering the remedy to a group of healthy individuals (provers) who will document all symptoms that arise as a result of taking the remedy. These symptoms will be used to identify the therapeutic indications of homoeopathic ivory. With these specific indications being documented the remedy can then be utilized in the sick individual, that present with similar symptoms, to induce a cure. A further objective of this proving is to report any variation that may exist in the comparison of two remedies, namely Lac Loxodonta africana (milk derived from the African elephant) and the remedy used in th",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_6260_table-2",
@@ -486,11 +1329,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_4ca94175z453ez4752z8648z3e9e95ec7a2b",
@@ -500,14 +1339,20 @@
       "abstract": "<jats:title>Vers un indicateur multidimensionnel du bien-être des éléphants d'Afrique de Savane (Loxodonta africana)</jats:title>\n                <jats:p xml:lang=\"fr\">Il existe un gradient de stratégies de gestion de la faune sauvage en Afrique du Sud, démontrant une intensification des méthodes de gestion des populations animales avec la réduction de la taille de l'aire de conservation. Cette approche pose des questions éthiques en terme de bien-être animal. L'éléphant de Savane d'Afrique (Loxodonta africana), autrefois décimé en Afrique du Sud, a été réintroduit dans les aires de conservation donnant lieu à d'une part, une myriade de petites populations sauvages fragmentées et à la hiérarchie sociale souvent incomplète, et d'autre part des populations non contrôlées à la densité devenue très forte, accusées de dommages environnementaux. L'exposition touristique est aussi une caractéristique particulière de ces populations sud-africaines dont les conséquences physiologiques et compor",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_70675_00691cd8z238dz4aefzb682zc12d70ad58c4",
+      "title": "Trunk grasping and manipulation of the African savannah elephants (Loxodonta africana) : behavioural and morpho-functional variability",
+      "year": null,
+      "doi": "10.70675/00691cd8z238dz4aefzb682zc12d70ad58c4",
+      "abstract": "<jats:title>Saisies et manipulations avec la trompe chez les éléphants de savane d’Afrique (Loxodonta africana) : variabilités comportementales et morpho-fonctionnelles</jats:title>\n                <jats:p xml:lang=\"fr\">La trompe est un organe fondamental pour les éléphants : ils l'emploient pour connaître leur environnement, établir des liens sociaux, utiliser des outils, ou encore manipuler eau et nourriture. Ce Proboscis est ainsi capable d'accomplir des fonctions à la fois puissantes et délicates. Or, son évolution et ses adaptations restent une énigme. Quels sont les paramètres qui ont pu jouer un rôle dans l'évolution de cet organe ? Si les trompes ne se fossilisent pas, il est tout à fait possible d'aborder leurs adaptations en étudiant les Proboscidés actuels, dont les populations varient en termes de comportements et de milieux de vie. L'enjeu est donc de comprendre quels sont les liens existants entre le milieu, la variabilité morpho-fonctionnelle, et la variabilité comportem",
+      "journal": "",
+      "open_access": 0,
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 33,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

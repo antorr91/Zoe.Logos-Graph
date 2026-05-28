@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 9,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 20,
+    "claim_count": 27,
+    "doi_count": 19,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,450 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "dook",
     "hiss",
+    "dook",
     "screech"
   ],
   "contexts": [
-    "alarm",
+    "play",
     "contact",
-    "play"
+    "alarm"
   ],
   "functions": [
-    "alarm",
+    "play invitation",
     "contact maintenance",
-    "play invitation"
+    "alarm"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "dook",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "hiss",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "dook",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "screech",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "play",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "contact",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
-      {
-        "value": "play",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
       {
         "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      }
+    ],
+    "functions": [
+      {
+        "value": "play invitation",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "contact maintenance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "play invitation",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1298,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1297,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1296,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1295,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1294,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1293,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1292,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1291,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1290,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1289,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1288,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1287,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1286,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1285,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1284,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1283,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1282,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1281,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1280,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1279,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1278,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1277,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1276,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1275,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1274,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1273,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1272,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.30802/AALAS-JAALAS-24-086",
+      "url": "https://doi.org/10.30802/AALAS-JAALAS-24-086",
+      "title": "An Overview of Anesthetic Procedures for Ferret (Mustela putorius furo) Preclinical Brain MRI: A Call for Standardization",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.31533/pubvet.v19n08e1823",
       "url": "https://doi.org/10.31533/pubvet.v19n08e1823",
@@ -197,6 +557,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1111/ejn.13116",
+      "url": "https://doi.org/10.1111/ejn.13116",
+      "title": "Structural and functional connectivity between the lateral posterior-pulvinar complex and primary visual cortex in the ferret",
+      "year": 2016,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.3389/fnins.2015.00363",
       "url": "https://doi.org/10.3389/fnins.2015.00363",
       "title": "The scent of wolves: pyrazine analogs induce avoidance and vigilance behaviors in prey",
@@ -255,11 +622,17 @@
       "abstract": "<jats:p>Ferrets have been gaining popularity as companion animals, which has increased veterinary interest in their diseases, including diabetes mellitus (DM). In Brazil, their importation is regulated by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA), which requires sterilization and removal of the anal glands to control population growth and odor. The pancreas in these animals has both endocrine and exocrine functions, with β-cells responsible for insulin production. DM in ferrets, although rare, occurs mainly between two and seven years of age and may be associated with insulinoma, pancreatitis and obesity. Clinical signs of DM include persistent hyperglycemia, polyuria, polydipsia, lethargy, weight loss, and dehydration. Diagnosis is based on biochemical analyses (abnormally high blood glucose levels and elevated serum fructosamine), urinalysis (polyuria and glycosuria), and clinical history findings such as polyphagia, polydipsia, and hyporexia.",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40035279",
+      "title": "An Overview of Anesthetic Procedures for Ferret (Mustela putorius furo) Preclinical Brain MRI: A Call for Standardization",
+      "year": 2025,
+      "doi": "10.30802/AALAS-JAALAS-24-086",
+      "abstract": "Neuroscience research has been increasingly active during the last 2 decades, largely driven by the high prevalence and increasing burden of neurologic disorders. While rodents are essential models for biomedical research of neurologic disorders, they lack similar brain anatomy and protein expression profiles to humans, thus limiting their translational value as models of traumatic brain injury, stroke, Alzheimer's disease, and Parkinson's disease. The use of ferrets as a model species in neuroscience has been increasing due to their neuroanatomical similarities with humans, including a gyrencephalic brain and larger white matter-to-gray matter ratio. Compared with nonhuman primates, sheep, and swine, ferrets also have the advantages of reduced size, lower housing costs, and lower phylogenetic order. These, among other advantages, make ferrets a promising species to bridge research gaps and complement traditional rodent studies. Although modern neuroscience research in ferrets relies heavily on advanced imaging techniques such as magnetic resonance imaging (MRI), most of the preclinical MRI installations are not designed or optimized for use with ferrets. In this paper we discuss the intricacies and limitations that need to be considered when performing ferret MRI procedures. Reviews of ferret biologic peculiarities, anesthetic protocols, management of complications, and the impact of these factors on MRI outcomes are presented. Standardizing anesthesia protocols for the conduct of MRI in ferrets will aid in better physiologic monitoring as well as imaging outcomes that ultimately benefit the science being conducted.",
+      "journal": "Journal of the American Association for Laboratory Animal Science : JAALAS",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1590_1678-4162-13061",
@@ -269,11 +642,7 @@
       "abstract": "<jats:p>ABSTRACT Insulinoma is a tumor of pancreatic beta cells that occurs in ferrets and can lead to symptoms such as hypoglycemia, lethargy, and seizures. Prognosis varies depending on the extent of the tumor and response to treatment. This study describes the follow-up, diagnosis, and therapeutic management of two cases of insulinoma in ferrets. Clinical signs of reported animals varied according to the severity and duration of hypoglycemia. Presumptive diagnosis was based on clinical signs, hematological monitoring (evidenced by hypochromic anemia), biochemical analysis (increased alanine aminotransferase enzyme and hypoglycemia), and imaging exams (hepatomegaly and splenomegaly in one case of this study). Treatment varied according to the intensity of clinical signs, but both cases resulted in death. Regular veterinary follow-up and early detection are important to improve animal quality of life.</jats:p>",
       "journal": "Arquivo Brasileiro de Medicina Veterinária e Zootecnia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_applanim_2023_106055",
@@ -283,11 +652,7 @@
       "abstract": "Having one or more non-human animals in our company became a steadily growing custom around the world. The terminology that describes these non-consumable animals encompasses a wide range as well (e.g. ‘hobby animals’, ‘pets’, ‘exotic animals’). However, their customary dubbing as ‘companion animals’ raises several questions that warrant for a systematic approach. In this review, we based our approach on the fundamental four questions developed for studying behaviour by Tinbergen, through which behaviour-based descriptors can be found for the various criteria that consider an animal as being a companion to humans. There is little consensus about whether a companion animal would be (1) any animal that people keep for other than consumption or working purposes; or in a more narrow sense, (2) companion animals should provide hedonistic value through rewarding interactions with their owners; or in the strictest sense, (3) only those animals can be regarded as companion animals that stay wi",
       "journal": "Applied Animal Behaviour Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s00429-023-02648-5",
@@ -297,11 +662,7 @@
       "abstract": "",
       "journal": "Brain Structure and Function",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_biopsycho_2022_108382",
@@ -311,11 +672,17 @@
       "abstract": "Mammals show clear changes in heart rate linked to lung ventilation, characterized as respiratory sinus arrhythmia (RSA). These changes are controlled in part by variations in the level of inhibitory control exerted on the heart by the parasympathetic arm of the autonomic nervous system (PNS). This originates from preganglionic neurons in the nucleus ambiguous that supply phasic, respiration-related activity to the cardiac branch of the vagus nerve, via myelinated, efferent fibres with rapid conduction velocities. An elaboration of these central mechanisms, under the control of a 'vagal system' has been endowed by psychologists with multiple functions concerned with 'social engagement' in mammals and, in particular, humans. Long-term study of cardiorespiratory interactions (CRI) in other major groups of vertebrates has established that they all show both tonic and phasic control of heart rate, imposed by the PNS. This derives centrally from neurones located in variously distributed nuc",
       "journal": "Biological Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_36227716",
+      "title": "First serological study of Dirofilaria immitis antibodies in household domestic ferrets (Mustela putorius furo) in southern Spain - Short communication",
+      "year": 2022,
+      "doi": "10.1556/004.2022.00032",
+      "abstract": "Dirofilaria immitis is an endemic mosquito-borne pathogen widely spread throughout Europe as well as North and South America. Infection by D. immitis has been reported in domestic ferrets, although little is known about the occurrence and the epidemiological features of this nematode in this species. The aim of the present retrospective study was to assess the prevalence of D. immitis antibodies using an in-house enzyme-linked immunosorbent assay specifically developed for use in ferrets. One hundred and eighty-six serum samples were obtained from the Province of Valencia (Spain), an area endemic for dirofilariosis. Of the 186 serum samples included in the study, 27 (14.51%) were classified as D. immitis seropositive and 159 samples as D. immitis seronegative. The results provide valuable information on the seroprevalence of D. immitis infection in domestic ferrets in an area endemic for this vector-borne pathogen. The presence of seropositive ferrets should be taken into account and preventive measures should be implemented, including the possibility of serological screening for the early detection of Dirofilaria antibodies as a serological marker of exposure. This is the first study that demonstrates the presence of D. immitis exposure in ferrets in Spain. Veterinarians working in endemic areas should be aware of this infection in ferrets and their susceptibility.",
+      "journal": "Acta veterinaria Hungarica",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_32388_wscfmt",
@@ -325,11 +692,7 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_74434",
@@ -339,11 +702,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1101_709501",
@@ -353,11 +712,7 @@
       "abstract": "ABSTRACT Primates and rodents, which descended from a common ancestor more than 90 million years ago, exhibit profound differences in behavior and cognitive capacity. Modifications, specializations, and innovations to brain cell types may have occurred along each lineage. We used Drop-seq to profile RNA expression in more than 184,000 individual telencephalic interneurons from humans, macaques, marmosets, and mice. Conserved interneuron types varied significantly in abundance and RNA expression between mice and primates, but varied much more modestly among primates. In adult primates, the expression patterns of dozens of genes exhibited spatial expression gradients among neocortical interneurons, suggesting that adult neocortical interneurons are imprinted by their local cortical context. In addition, we found that an interneuron type previously associated with the mouse hippocampus—the “ivy cell”, which has neurogliaform characteristics—has become abundant across the neocortex of huma",
       "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3390_ani9100835",
@@ -367,11 +722,7 @@
       "abstract": "This study assessed the feasibility and reproducibility of a previously validated temperament test (TT) for shelter dogs. The test was developed to measure dog behaviour in the kennel, and traits of sociability towards people and other dogs, docility to leash, playfulness, cognitive skills, and reactivity. We introduced the use of differently sized fake dogs to check their appropriateness in correctly assessing sociability to dogs to broaden its applicability (as the original study used real stimulus dogs). We hypothesised that dogs' responses may be modulated by the body size of the stimulus dog presented. The reduction analysis of the TT scores extracted five main dimensions (explaining 70.8% of variance), with high internal consistency (alpha > 0.65) and being broadly consistent with existing research. Behavioural components that were extracted from the fake dog experiment showed that dogs are likely to show signs of anxiety and fear toward both the real and fake dog. Dogs' response",
       "journal": "Animals",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_oso_9780198759805_003_0003",
@@ -381,11 +732,17 @@
       "abstract": "The musteloids are the most speciose of the carnivorans and have a global distribution. They display a wide diversity of morphological and physiological form and function, which have been shaped by their adaptation to a wide variety of ecological niches, ranging from the Arctic to the tropics and deserts to the seas. This chapter explores how several morphological and physiological adaptations are key to their successful diversification, including an elongated body, a highly insulating pelage, powerful teeth and jaws, anal sacs for olfactory communication or chemical defence, and reproductive physiologies that allow females to optimise their reproductive output. While many of these adaptations are shared by other carnivorans, it is their combination in musteloids that has allowed them to diversify so successfully globally.",
       "journal": "Oxford University Press eBooks",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_26505737",
+      "title": "Structural and functional connectivity between the lateral posterior-pulvinar complex and primary visual cortex in the ferret",
+      "year": 2016,
+      "doi": "10.1111/ejn.13116",
+      "abstract": "The role of higher-order thalamic structures in sensory processing remains poorly understood. Here, we used the ferret (Mustela putorius furo) as a novel model species for the study of the lateral posterior (LP)-pulvinar complex and its structural and functional connectivity with area 17 [primary visual cortex (V1)]. We found reciprocal anatomical connections between the lateral part of the LP nucleus of the LP-pulvinar complex (LPl) and V1. In order to investigate the role of this feedback loop between LPl and V1 in shaping network activity, we determined the functional interactions between LPl and the supragranular, granular and infragranular layers of V1 by recording multiunit activity and local field potentials. Coherence was strongest between LPl and the supragranular V1, with the most distinct peaks in the delta and alpha frequency bands. Inter-area interaction measured by spike-phase coupling identified the delta frequency band being dominated by the infragranular V1 and multiple frequency bands that were most pronounced in the supragranular V1. This inter-area coupling was differentially modulated by full-field synthetic and naturalistic visual stimulation. We also found that visual responses in LPl were distinct from those in V1 in terms of their reliability. Together, our data support a model of multiple communication channels between LPl and the layers of V1 that are enabled by oscillations in different frequency bands. This demonstration of anatomical and functional connectivity between LPl and V1 in ferrets provides a roadmap for studying the interaction dynamics during behaviour, and a template for identifying the activity dynamics of other thalamo-cortical feedback loops.",
+      "journal": "The European journal of neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3389_fnins_2015_00363",
@@ -395,11 +752,7 @@
       "abstract": "The common gray wolf (Canis lupus) is an apex predator located at the top of the food chain in the Northern Hemisphere. It preys on rodents, rabbits, ungulates, and many other kinds of mammal. However, the behavioral evidence for, and the chemical basis of, the fear-inducing impact of wolf urine on prey are unclear. Recently, the pyrazine analogs 2, 6-dimethylpyrazine, 2, 3, 5-trimethylpyrazine and 3-ethyl-2, 5-dimethyl pyrazine were identified as kairomones in the urine of wolves. When mice were confronted with a mixture of purified pyrazine analogs, vigilance behaviors, including freezing and excitation of neurons at the accessory olfactory bulb, were markedly increased. Additionally, the odor of the pyrazine cocktail effectively suppressed the approach of deer to a feeding area, and for those close to the feeding area elicited fear-related behaviors such as the \"tail-flag,\" \"flight,\" and \"jump\" actions. In this review, we discuss the transfer of chemical information from wolf to pre",
       "journal": "Frontiers in Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_chemse_bjr025",
@@ -409,11 +762,17 @@
       "abstract": "Scent is used across taxa to communicate information about signaler identity. Eurasian otters Lutra lutra are mainly solitary and thought to use scent as their primary means of communication. Little is known, however, about what information otters communicate through scent or what social function this performs. Headspace solid-phase microextraction and gas chromatography-mass spectrometry were used to sample and analyze volatile organic compounds from anal scent gland secretion from 158 otters of differing sex, age, and female reproductive status. Univariate and multivariate differences were clear between adult and juvenile otters. Complex sex differences were apparent in adult otters but not in younger individuals, suggesting the use of this scent secretion in mate attraction. The scent of pregnant and lactating females was highly differentiated from male and juvenile scent, but anecdotal reports suggest females avoid communication during these times.",
       "journal": "Chemical Senses",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_8801708",
+      "title": "Cystic urogenital anomalies in ferrets (Mustela putorius furo)",
+      "year": 1996,
+      "doi": "10.1177/030098589603300204",
+      "abstract": "Single or multiple semispherical to bilobulated fluid-filled cystic structures of variable size were observed on the dorsal aspects of the urinary bladder of four male and two female ferrets (Mustela putorius furo). All ferrets had been neutered. On physical examination, the cysts were palpated as caudal abdominal masses. Three of the six ferrets presented with dysuria, and two ferrets had signs compatible with endocrine dysfunction. Adrenal cortical hyperplasia or neoplasia were observed in all of the five ferrets examined. Sex hormones assayed in one of the six ferrets revealed elevated levels of serum estrodiol. The posterior aspect of the cysts was located on and/or attached to the trigone or neck of the bladder, with variable intraluminal communication with the bladder and/or the urethra. The anterior aspect of the cysts projected dorsally or dorsocranially into the caudal abdomen. The cysts were thin walled and contained urinelike fluid (n = 5) or viscous yellow fluid (n = 1). Histologically, the cyst walls were composed of three layers, epithelium, muscle, and serosa, with fibrovascular stroma between layers. The epithelium consisted of simple to stratified transitional, columnar, or squamous epithelial cells. The muscular layer consisted of intermittent bundles and/or single to double layers of continuous to discontinuous smooth muscle. The serosal layer consisted of loose fibrous stroma covered by flattened mesothelial cells. The cystic anomalies in these ferrets were most likely derived from the urogenital glands/ducts or other remnants.",
+      "journal": "Veterinary pathology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1136_vr_105_21_492-a",
@@ -423,11 +782,7 @@
       "abstract": "",
       "journal": "Veterinary Record",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-1-4615-6422-5_27",
@@ -437,11 +792,7 @@
       "abstract": "",
       "journal": "An Atlas of Mammalian Chromosomes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_21142_tb_2021_1829",
@@ -451,11 +802,7 @@
       "abstract": "<jats:p>Se presenta una revisión actualizada sobre las enfermedades gastrointestinales más comunes en los hurones domésticos (Mustela putorius furo). Se recopiló información proveniente tanto de artículos científicos como de literatura gris. La revisión permitió clasificar a estas enfermedades en infecciosas y no infecciosas. Dentro de las infecciosas se describe a la coccidiosis, enteritis por coronavirus e infecciones bacterianas, mientras que en enfermedades no infecciosas se describe a de la Enfermedad Inflamatoria Intestinal (IBD) y la obstrucción por cuerpo extraño. Se resumen los siguientes aspectos sobre cada enfermedad: etiología, factores predisponentes, signos clínicos, diagnóstico, tratamiento y prevención. Todas estas enfermedades pueden considerarse para realizar diagnósticos diferenciales puesto que comparten signos clínicos similares y solo con determinadas pruebas se puede llegar al diagnóstico definitivo.</jats:p>",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1021_acs_jafc_4c09820_s001",
@@ -465,14 +812,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 20,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

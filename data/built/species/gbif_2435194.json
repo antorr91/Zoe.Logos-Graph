@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 19,
-    "claim_count": 13,
-    "doi_count": 20,
-    "media_count": 0
+    "paper_count": 36,
+    "claim_count": 75,
+    "doi_count": 32,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,87 +42,87 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "chirp",
+    "trill",
     "hiss",
     "meow",
     "purr",
-    "trill"
+    "chirp"
   ],
   "contexts": [
+    "play",
+    "hunting",
     "alarm",
     "contact",
-    "hunting",
-    "play",
     "solicitation"
   ],
   "functions": [
     "attention solicitation",
-    "contact maintenance",
-    "predator response"
+    "predator response",
+    "contact maintenance"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "chirp",
+        "value": "trill",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "hiss",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "meow",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "purr",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "trill",
+        "value": "chirp",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "play",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "contact",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "hunting",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "play",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "contact",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "solicitation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -130,25 +130,1002 @@
         "value": "attention solicitation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "contact maintenance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 492,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 491,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 490,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 489,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 488,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 487,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 486,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 485,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 484,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 483,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 482,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 481,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 480,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 479,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 478,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 477,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 476,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 475,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 474,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 473,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 472,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 471,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 470,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 469,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 468,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 467,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 466,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 465,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 464,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 463,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 462,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 461,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 460,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 459,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 458,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 457,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 456,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 455,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 454,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 453,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 452,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 451,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 450,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 449,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 448,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 447,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 446,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 445,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 444,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 443,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 442,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 441,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 440,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 439,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 438,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 437,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 436,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 435,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 434,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 433,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 432,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 431,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 430,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 429,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 428,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 427,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 426,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 425,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 424,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 423,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 422,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 421,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 420,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 419,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 418,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
@@ -169,11 +1146,88 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1038/s41598-025-31536-7",
+      "url": "https://doi.org/10.1038/s41598-025-31536-7",
+      "title": "Meows encode less individual information than purrs and show greater variability in domestic than in wild cats",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0324055",
+      "url": "https://doi.org/10.1371/journal.pone.0324055",
+      "title": "Association between androgen receptor gene and behavioral traits in cats (Felis catus)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.11612",
+      "url": "https://doi.org/10.1002/ece3.11612",
+      "title": "A non-invasive approach to measuring body dimensions of wildlife with camera traps: A felid field trial",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.70749",
+      "url": "https://doi.org/10.1002/ece3.70749",
+      "title": "Recognition of Predator Type and Risk Level in Azure-Winged Magpies (",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-024-01847-9",
+      "url": "https://doi.org/10.1007/s10071-024-01847-9",
+      "title": "Do domestic budgerigars perceive predation risk?",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fvets.2024.1445108",
+      "url": "https://doi.org/10.3389/fvets.2024.1445108",
+      "title": "A long-lasting gel-based diffuser of feline pheromone can help reduce undesirable behaviors in cats at home: comparison with an electric diffuser",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ijms25084343",
+      "url": "https://doi.org/10.3390/ijms25084343",
+      "title": "Proteomic Analysis of Domestic Cat Blastocysts and Their Secretome Produced in an In Vitro Culture System without the Presence of the Zona Pellucida",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-45997-1",
+      "url": "https://doi.org/10.1038/s41598-023-45997-1",
+      "title": "Characterization of the microbiome and volatile compounds in anal gland secretions from domestic cats (Felis catus) using metagenomics and metabolomics",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-2883555/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-2883555/v1",
+      "title": "Characterization of the microbiome and volatile compounds in anal gland secretions from domestic cats (Felis catus) using metagenomics and metabolomics",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.30782/jrvm.1342716",
       "url": "https://doi.org/10.30782/jrvm.1342716",
       "title": "Kedi (Felis Catus) Ovaryumlarında TGF-α’nın İmmunohistokimyasal Yerleşimi Immunohistochemical Localization of TGF-α in Cat’s (Felis Catus) Ovary",
       "year": 2023,
       "source": "crossref"
+    },
+    {
+      "doi": "10.3390/ani13091528",
+      "url": "https://doi.org/10.3390/ani13091528",
+      "title": "Multimodal Communication in the Human-Cat Relationship: A Pilot Study",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.4142/jvs.22277",
+      "url": "https://doi.org/10.4142/jvs.22277",
+      "title": "Profiling",
+      "year": 2023,
+      "source": "pubmed"
     },
     {
       "doi": "10.3390/ani10122390",
@@ -221,6 +1275,13 @@
       "doi": "10.1007/s10071-015-0897-6",
       "url": "https://doi.org/10.1007/s10071-015-0897-6",
       "title": "What’s inside your cat’s head? A review of cat (Felis silvestris catus) cognition research past, present and future",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1186/1742-9994-12-s1-s12",
+      "url": "https://doi.org/10.1186/1742-9994-12-s1-s12",
+      "title": "Stable individual differences in separation calls during early development in cats and mice",
       "year": 2015,
       "source": "openalex"
     },
@@ -304,11 +1365,17 @@
       "abstract": "<jats:p>Resenha crítica da obra original: Ferraz A, Barwaldt ET, Castro TA, Lima CM, Sapin CF, Pinto DM, et al. Diagnóstico coproparasitológico de Lagochilascaris sp. em gato doméstico (Felis catus). Rev Acad Cienc Anim. 2021;19:e19203. https://doi.org/10.7213/acad.2021.19203\n </jats:p>",
       "journal": "Revista Acadêmica Ciência Animal",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41485111",
+      "title": "Stress in Indoor and Outdoor Cats: Association between Hair Cortisol Levels, Housing Style, and Guardians' Perceptions of Behavior",
+      "year": 2026,
+      "doi": "10.1080/10888705.2025.2610233",
+      "abstract": "This study evaluated hair cortisol as a biomarker of chronic stress in 34 domestic cats (",
+      "journal": "Journal of applied animal welfare science : JAAWS",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1037_com0000418_supp",
@@ -318,11 +1385,97 @@
       "abstract": "",
       "journal": "Journal of Comparative Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41366409",
+      "title": "Meows encode less individual information than purrs and show greater variability in domestic than in wild cats",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-31536-7",
+      "abstract": "Domestication has shaped animal vocal behaviour, increasing flexibility and responsiveness to humans. In domestic cats (Felis catus), two vocalisations, meows and purrs, have distinct communicative roles. Meows are context-dependent signals primarily directed at humans; purrs are stereotyped, low-frequency sounds produced in affiliative contexts. Vocal individuality, key in mammalian communication, supports social recognition and interaction, but its presence across cats' call types remains poorly understood. We examined whether cats encode individual identity in meows and purrs, hypothesising that meows might show stronger signatures due to their human-directed nature. We analysed 276 meows from 14 cats and 557 purrs from 21 cats. Both call types carried sufficient individual information, but purrs had significantly higher classification accuracy (84.6%) and encoded more information content (4.47 bit) than meows (63.2%, 2.65 bit). To place individuality in a domestication framework, we compared domestic cat meows with those of five wild relatives: African wildcat, European wildcat, jungle cat, cheetah, and cougar. Domestic cat meows showed greater acoustic dispersion than those of wild cats, reflecting increased vocal plasticity through domestication. These findings demonstrate how domestication has shaped feline vocalisations, with purrs acting as stable identity cues and meows emphasising flexibility over recognisability.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40434955",
+      "title": "Association between androgen receptor gene and behavioral traits in cats (Felis catus)",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0324055",
+      "abstract": "Cats (Felis catus) are companions familiar to people worldwide. Despite their popularity, few studies have investigated the genetic background of their behavior. This study aimed to explore the relationship between candidate gene genotypes and behavioral traits in cats. Behavioral traits were assessed by cat owners using the Feline Behavioral Assessment and Research Questionnaire (Fe-BARQ), comprising 23 categories. The target gene was the androgen receptor gene (AR) associated with behavioral phenotypes such as aggressiveness across species. Specifically, the polymorphism of glutamine repeats within the AR exon 1 region was analyzed in 280 neutered/spayed mixed-breed cats (145 males and 135 females), revealing eight alleles with 15-22 repeats. These alleles were categorized into two groups based on the median: short (≤18 repeats) and long (≥19 repeats) types. Generalized linear model analysis revealed that cats carrying the short types displayed higher \"purring\" scores. Furthermore, male cats with short-type alleles showed higher \"directed calls/vocalizations\" scores, whereas females with short-type alleles showed higher \"stranger-directed aggression\" scores, than their respective counterparts with long-type alleles. Additionally, the comparative analysis of the homologous regions of felid AR genes revealed that long alleles with 20-22 repeats were specific to cats. This finding suggests that cats with a strong tendency to receive human care from birth may survive without vocal communication, leading to an increase in the frequency of the long alleles. This study provides the first evidence that AR glutamine repeats may be associated with specific behavioral traits in cats, and the findings have potential applications in improving animal welfare by predicting behavioral tendencies based on genetic data.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40419249",
+      "title": "Domestic cats and predation on a free-ranging primate, Gursky's tarsier (Tarsius spectrumgurskyae)",
+      "year": 2025,
+      "doi": "10.1163/14219980-bja10054",
+      "abstract": "Introduced species, also known as invasive species, alien species and exotic species, are a major contributing factor to environmental problems in that they modify or disrupt the ecosystem they colonize. While some invasive species arrive in new areas through natural migration, more often than not they are introduced by the activities of humans. For example, domestic cats (Felis catus) were introduced by humans and are now common pets. Cats have been so successful invading new areas that their worldwide population is reported to exceed 500 million. Over 3 decades of u observations, cats were observed 169 times while observing Gursky's tarsier. Over time, the frequency that cats were observed while observing tarsiers increased. Similarly, the distance from the village that cats were observed increased over time indicating that the cats are moving further into the protected area. The tarsiers exhibited numerous responses to the presence of a cat. They always alarm called, and occasionally mobbed the cat. Several behavioral changes were made including increasing time traveling, increasing their height in the forest canopy, decreasing distance between group members. The cats attempted to prey on a tarsier 19 times. Twelve attempts were successful. Given that cat predation is known to have already caused faunal extinctions on islands, this threat to the tarsiers and other endemic species in Tangkoko Nature Reserve should not be taken lightly. One potential way to mitigate the negative impacts of cats on the tarsier population is by developing bylaws that restrict cat ownership adjacent to protected areas.",
+      "journal": "Folia primatologica; international journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39691435",
+      "title": "Recognition of Predator Type and Risk Level in Azure-Winged Magpies (",
+      "year": 2024,
+      "doi": "10.1002/ece3.70749",
+      "abstract": "Predation events are an important key factor determining the survival and reproduction of prey species. To cope, prey species have evolved various anti-predator strategies, including mechanisms for accurate predator identification and distinguishing predator types and risk levels. Birds rely on visual, auditory, and olfactory cues to perceive and categorize predators. However, previous studies have focused on single sensory modalities and have largely been conducted during breeding seasons. Thus, analyses of the accuracy and differences in predator recognition cues, especially during non-breeding periods, are needed. In this study, predator recognition in Azure-winged Magpies (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39268519",
+      "title": "A long-lasting gel-based diffuser of feline pheromone can help reduce undesirable behaviors in cats at home: comparison with an electric diffuser",
+      "year": 2024,
+      "doi": "10.3389/fvets.2024.1445108",
+      "abstract": "Using pheromone diffusers is part of the strategy to control stress-related behaviors in cats (",
+      "journal": "Frontiers in veterinary science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38952652",
+      "title": "A non-invasive approach to measuring body dimensions of wildlife with camera traps: A felid field trial",
+      "year": 2024,
+      "doi": "10.1002/ece3.11612",
+      "abstract": "Dimensions of body size are an important measurement in animal ecology, although they can be difficult to obtain due to the effort and cost associated with the invasive nature of these measurements. We avoid these limitations by using camera trap images to derive dimensions of animal size. To obtain measurements of object dimensions using this method, the size of the object in pixels, the focal length of the camera, and the distance to that object must be known. We describe a novel approach of obtaining the distance to the object through the creation of a portable distance marker, which, when photographed, creates a \"reference image\" to determine the position of the animal within an image. This method allows for the retrospective analysis of existing datasets and eliminates the need for permanent in-field distance markers. We tested the accuracy of this methodology under controlled conditions with objects of known size resembling",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38673927",
+      "title": "Proteomic Analysis of Domestic Cat Blastocysts and Their Secretome Produced in an In Vitro Culture System without the Presence of the Zona Pellucida",
+      "year": 2024,
+      "doi": "10.3390/ijms25084343",
+      "abstract": "Domestic cat blastocysts cultured without the zona pellucida exhibit reduced implantation capacity. However, the protein expression profile has not been evaluated in these embryos. The objective of this study was to evaluate the protein expression profile of domestic cat blastocysts cultured without the zona pellucida. Two experimental groups were generated: (1) domestic cat embryos generated by IVF and cultured in vitro (zona intact, (ZI)) and (2) domestic cat embryos cultured in vitro without the zona pellucida (zona-free (ZF group)). The cleavage, morula, and blastocyst rates were estimated at days 2, 5 and 7, respectively. Day 7 blastocysts and their culture media were subjected to liquid chromatography-tandem mass spectrometry (LC-MS/MS). The UniProt",
+      "journal": "International journal of molecular sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38429588",
+      "title": "Do domestic budgerigars perceive predation risk?",
+      "year": 2024,
+      "doi": "10.1007/s10071-024-01847-9",
+      "abstract": "Predation risk may affect the foraging behavior of birds. However, there has been little research on the ability of domestic birds to perceive predation risk and thus adjust their feeding behavior. In this study, we tested whether domestic budgerigars (Melopsittacus undulatus) perceived predation risk after the presentation of specimens and sounds of sparrowhawks (Accipiter nisus), domestic cats (Felis catus), and humans, and whether this in turn influenced their feeding behavior. When exposed to visual or acoustic stimuli, budgerigars showed significantly longer latency to feed under sparrowhawk, domestic cat, and human treatments than with controls. Budgerigars responded more strongly to acoustic stimuli than visual stimuli, and they showed the longest latency to feed and the least number of feeding times in response to sparrowhawk calls. Moreover, budgerigars showed shorter latency to feed and greater numbers of feeding times in response to human voices than to sparrowhawk or domestic cat calls. Our results suggest that domestic budgerigars may identify predation risk through visual or acoustic signals and adjust their feeding behavior accordingly.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38395238",
+      "title": "Relationship between acoustic traits of protesting cries of domestic kittens (Felis catus) and their individual chances for survival",
+      "year": 2024,
+      "doi": "10.1016/j.beproc.2024.105009",
+      "abstract": "Domestic cat (Felis catus) mothers may rely on offspring cries to allocate resources in use of individuals with greater chances for survival and sacrifice the weak ones in case of impossibility to raise the entire large litter. Potential victims of this maternal strategy can enhance their chances of survival, by producing vocalizations with traits mimicking those of higher-quality offspring. We compared acoustic traits of 4990 cries produced during blood sampling by 57 two-week-old captive feral kittens (28 males, 29 females); 47 of them survived to 90 days of age and 10 died by reasons not related to traumas or aggression. No relationship was found between acoustic parameters and kitten survival, however, positive relationship was found between survival and body weight. The cries had moderate cues to individuality and lacked cues to sex. Body weight correlated positively with fundamental frequency and negatively with call rate, duration, peak frequency and power quartiles. We discuss that dishonesty of acoustic traits of kitten quality could develop as adaptation for misleading a mother from allocation resources between the weaker and stronger individuals, thus enhancing individual chances for survival for the weaker littermates. Physical constraint, as body weight, may prevent extensive developing the deceptive vocal traits.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_30782_jrvm_1342716",
@@ -332,11 +1485,57 @@
       "abstract": "<jats:p xml:lang=\"tr\">Transforme edici büyüme faktörü alfa (TGF-α), ovaryumlarda ovositlerin olgunlaşmasında, granüloza hücrelerinin proliferasyonunda ve diferansiyasyonunda önemli roller oynayan bir büyüme faktörüdür. Bu çalışma, erişkin kedi ovaryumlarında ilk defa TGF-α’nın immunohistokimyasal yerleşiminin belirlenmesi amacıyla yapıldı. Çalışmada 10 adet, evcil, erişkin kedi ovaryumu kullanıldı. Dokular %10’luk tamponlanmış nötr formol solüsyonunda tespit edildi ve rutin histolojik prosedür uygulandı. Kesitlere Crossman’ın üçlü boyaması uygulanarak ovaryumların genel histolojik yapısı ve indirekt streptavidin-biotin-peroksidaz kompleks yöntemi uygulanarak TGF-α’nın immunohistokimyasal yerleşimi incelendi. Ovaryumlarda TGF-α’ya ait pozitif boyamaların sadece granüloza hücrelerinde, teka interna hücrelerinde, folliküllerin ovositlerinde ve teka lutein hücrelerinde olduğu görüldü. Primordiyal folliküllerin ovositlerinde, büyük antral ve atretik foliküllerin granüloza hücrelerinde şidde",
       "journal": "Journal of Research in Veterinary Medicine",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_37938241",
+      "title": "Characterization of the microbiome and volatile compounds in anal gland secretions from domestic cats (Felis catus) using metagenomics and metabolomics",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-45997-1",
+      "abstract": "Many mammals rely on volatile organic chemical compounds (VOCs) produced by bacteria for their communication and behavior, though little is known about the exact molecular mechanisms or bacterial species that are responsible. We used metagenomic sequencing, mass-spectrometry based metabolomics, and culturing to profile the microbial and volatile chemical constituents of anal gland secretions in twenty-three domestic cats (Felis catus), in attempts to identify organisms potentially involved in host odor production. We found that the anal gland microbiome was dominated by bacteria in the genera Corynebacterium, Bacteroides, Proteus, Lactobacillus, and Streptococcus, and showed striking variation among individual cats. Microbiome profiles also varied with host age and obesity. Metabolites such as fatty-acids, ketones, aldehydes and alcohols were detected in glandular secretions. Overall, microbiome and metabolome profiles were modestly correlated (r = 0.17), indicating that a relationship exists between the bacteria in the gland and the metabolites produced in the gland. Functional analyses revealed the presence of genes predicted to code for enzymes involved in VOC metabolism such as dehydrogenases, reductases, and decarboxylases. From metagenomic data, we generated 85 high-quality metagenome assembled genomes (MAGs). Of importance were four MAGs classified as Corynebacterium frankenforstense, Proteus mirabilis, Lactobacillus johnsonii, and Bacteroides fragilis. They represent strong candidates for further investigation of the mechanisms of volatile synthesis and scent production in the mammalian anal gland.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37271506",
+      "title": "Profiling",
+      "year": 2023,
+      "doi": "10.4142/jvs.22277",
+      "abstract": "BACKGROUND: Poor disease management and irregular vector control could predispose sheltered animals to disease such as feline  OBJECTIVES: This study investigated the status of  METHODS:  RESULTS:  CONCLUSIONS: The present study provides the first comparison on the",
+      "journal": "Journal of veterinary science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37214811",
+      "title": "Characterization of the microbiome and volatile compounds in anal gland secretions from domestic cats (Felis catus) using metagenomics and metabolomics",
+      "year": 2023,
+      "doi": "10.21203/rs.3.rs-2883555/v1",
+      "abstract": "Animals rely on volatile chemical compounds for their communication and behavior. Many of these compounds are sequestered in endocrine and exocrine glands and are synthesized by anaerobic microbes. While the volatile organic compound (VOC) or microbiome composition of glandular secretions has been investigated in several mammalian species, few have linked specific bacterial taxa to the production of volatiles or to specific microbial gene pathways. Here, we use metagenomic sequencing, mass-spectrometry based metabolomics, and culturing to profile the microbial and volatile chemical constituents of anal gland secretions in twenty-three domestic cats (",
+      "journal": "Research square",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37174564",
+      "title": "Multimodal Communication in the Human-Cat Relationship: A Pilot Study",
+      "year": 2023,
+      "doi": "10.3390/ani13091528",
+      "abstract": "Across all species, communication implies that an emitter sends signals to a receiver, through one or more channels. Cats can integrate visual and auditory signals sent by humans and modulate their behaviour according to the valence of the emotion perceived. However, the specific patterns and channels governing cat-to-human communication are poorly understood. This study addresses whether, in an extraspecific interaction, cats are sensitive to the communication channel used by their human interlocutor. We examined three types of interactions-vocal, visual, and bimodal-by coding video clips of 12 cats living in cat cafés. In a fourth (control) condition, the human interlocutor refrained from emitting any communication signal. We found that the modality of communication had a significant effect on the latency in the time taken for cats to approach the human experimenter. Cats interacted significantly faster to visual and bimodal communication compared to the \"no communication\" pattern, as well as to vocal communication. In addition, communication modality had a significant effect on tail-wagging behaviour. Cats displayed significantly more tail wagging when the experimenter engaged in no communication (control condition) compared to visual and bimodal communication modes, indicating that they were less comfortable in this control condition. Cats also displayed more tail wagging in response to vocal communication compared to the bimodal communication. Overall, our data suggest that cats display a marked preference for both visual and bimodal cues addressed by non-familiar humans compared to vocal cues only. Results arising from the present study may serve as a basis for practical recommendations to navigate the codes of human-cat interactions.",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36931836",
+      "title": "Assessing cats' (Felis catus) sensitivity to human pointing gestures",
+      "year": 2023,
+      "doi": "10.1037/com0000338",
+      "abstract": "A wide range of nonhuman animal species has been shown to be able to respond to human referential signals, such as pointing gestures. The aim of the present study was to replicate previous findings showing cats to be sensitive to human pointing cues (Miklósi et al., 2005). In our study, we presented two types of human pointing gestures-momentary ipsilateral (direct pointing) and momentary cross-body pointing. We tested nine rescue cats in a two-way object-choice task. On a group level, the success rate of cats was 74.4%. Cats performed significantly above chance level in both the ipsilateral and cross-body pointing conditions. Trial number, rewarded side, and type of gesture did not significantly affect the cats' performances in the experiment. On an individual level, five out of seven cats who completed 20 trials performed significantly above chance level. Two cats only completed 10 trials. One of them succeeded in eight and the other in six of these trials. The results of our study replicate previous findings of cats being responsive to human ipsilateral pointing cues and add additional knowledge about their ability to follow cross-body pointing cues. Our results highlight that a domestic species, socialized in a group setting, may possess heterospecific communication skills. Further research is needed to exclude alternative parsimonious explanations, such as local and stimulus enhancements. (PsycInfo Database Record (c) 2023 APA, all rights reserved).",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3390_ani10122390",
@@ -346,11 +1545,7 @@
       "abstract": "Although the domestic cat (<i>Felis catus</i>) is probably the most widespread companion animal in the world and interacts in a complex and multifaceted way with humans, the human-cat relationship and reciprocal communication have received far less attention compared, for example, to the human-dog relationship. Only a limited number of studies have considered what people understand of cats' human-directed vocal signals during daily cat-owner interactions. The aim of the current study was to investigate to what extent adult humans recognize cat vocalizations, namely meows, emitted in three different contexts: waiting for food, isolation, and brushing. A second aim was to evaluate whether the level of human empathy toward animals and cats and the participant's gender would positively influence the recognition of cat vocalizations. Finally, some insights on which acoustic features are relevant for the main investigation are provided as a serendipitous result. Two hundred twenty-five adult",
       "journal": "Animals",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_31533_pubvet_v13n8a387_1-6",
@@ -360,11 +1555,7 @@
       "abstract": "<jats:p>The objective of this study was to compare the serum biochemical profile of cats (Felis catus domesticus) submitted to a dry diet and fed a mixed diet (dry damp diet). Eight domestic cats residing in the São Luís city were selected, based on the type of diet consumed (dry or mixed), being determined the serum concentrations of urea, creatinine, total serum protein and fractions, glucose, cholesterol, activities serum levels of ALT, AST and FA. The results obtained showed statistically significant differences only for urea (P &lt; 0.05), which may or may not be the result of dietary influence. The use of moist food as part of the feline diet was therefore a good strategy for the organic balance of these animals, necessitating a larger sample number to determine the real influence of the diet on the biochemical profiles, since other factors may have influenced the observed results.</jats:p>",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31533_pubvet_v12n10a190_1-9",
@@ -374,11 +1565,7 @@
       "abstract": "<jats:p>Felines present peculiarities, among them the recognizement of pain is a big challenge for the clinical and surgical routine of veterinary medicine, as well the metabolism of some drugs in their bodies. This study’s objective was to evaluate and compare the efficiency of two anesthetic protocols: association of dexmedetomidine-dextrocetamine-methadone and the continuous infusion of alfentanil and dexmedetomidine midazolam-methadone and continuous infusion of fentanyl, during procedures of ovariohysterectomy on cats. The parametric cardiorespiratory, oxycapnometric variants, response to nociceptive stimuli, latency period, anesthetic plane quality and possible side effects were evaluated. Both protocols can be recommended to perform the ovariohysterectomy surgery on cats since they don’t significantly alter the physiological responses from the animals. The exploratory analysis of this experiment based itself on verifications of the presuppositions of the experimental model, the ",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_22256_pubvet_v12n1a12_1-3",
@@ -388,11 +1575,7 @@
       "abstract": "<jats:p>Pediculosis in cats is uncommon and poorly reported. There is a very high host specificity that facilitates identification. No other report of this parasite was found in the southern state of Rio de Janeiro (Quatis city), which describes the incidence of Felicola subrostratus in this region of Brazil. The clinical signs observed were: Alopecia, tricorrexia, intense pruritus, irritability, behavioral changes, etc. Identification of the parasite was made and the treatment was proposed, which was successful with elimination of the parasites, and improvement of the clinical signs.</jats:p>",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "lit_gbif_2435194_13",
@@ -402,11 +1585,17 @@
       "abstract": "The cat (Felis catus, Linneaus 1758) has lived around or with humans for at least 10,000 years, and is now one of the most popular pets of the world with more than 600 millionindividuals. Domestic cats have developed a more extensive, variable and complex vocal repertoire than most other members of the Carnivora, which may be explained by their social organisation, their nocturnal activity and the long period of association between mother and young. Still, we know surprisingly little about the phonetic characteristics of these sounds, and about the interaction between cats and humans. Members of the research project Melody in human–cat communication (Meowsic) investigate the prosodic characteristics of cat vocalisations as well as the communication between human and cat. The first step includes a categorisation of cat vocalisations. In the next step it will be investigated how humans perceive the vocal signals of domestic cats. This paper presents an outline of the project which has on",
       "journal": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_2435194_12",
+      "title": "Phonetic Characteristics of Domestic Cat Vocalisations",
+      "year": 2017,
+      "doi": null,
+      "abstract": "The cat (Felis catus, Linneaus 1758) has lived around or with humans for at least 10,000 years, and is now one of the most popular pets of the world with more than 600 millionindividuals. Domestic cats have developed a more extensive, variable and complex vocal repertoire than most other members of the Carnivora, which may be explained by their social organisation, their nocturnal activity and the long period of association between mother and young. Still, we know surprisingly little about the phonetic characteristics of these sounds, and about the interaction between cats and humans. Members of the research project Melody in human–cat communication (Meowsic) investigate the prosodic characteristics of cat vocalisations as well as the communication between human and cat. The first step includes a categorisation of cat vocalisations. In the next step it will be investigated how humans perceive the vocal signals of domestic cats. This paper presents an outline of the project which has on",
+      "journal": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_18258_7011",
@@ -416,11 +1605,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_ncomms12739",
@@ -430,11 +1615,7 @@
       "abstract": "Recent studies have revealed that some mammals possess adaptations that enable them to produce vocal signals with much lower fundamental frequency (F0) and formant frequency spacing (ΔF) than expected for their size. Although these adaptations are assumed to reflect selection pressures for males to lower frequency components and exaggerate body size in reproductive contexts, this hypothesis has not been tested across a broad range of species. Here we show that male terrestrial mammals produce vocal signals with lower ΔF (but not F0) than expected for their size in mating systems with greater sexual size dimorphism. We also reveal that males produce calls with higher than expected F0 and ΔF in species with increased sperm competition. This investigation confirms that sexual selection favours the use of ΔF as an acoustic size exaggerator and supports the notion of an evolutionary trade-off between pre-copulatory signalling displays and sperm production.",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-015-0897-6",
@@ -444,11 +1625,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_17109_azh_61_4_373_2015",
@@ -458,11 +1635,17 @@
       "abstract": "By transforming landscapes, human activity creates new types of habitats with altered environmental characteristics that never existed before. As the process of habitat urbanization bears impact on more and more natural habitats, it is essential for us to understand the changes we bring forth in the ecological forces shaping urban animal communities. Birds are perhaps the most frequently studied model organisms by urban ecologists. It is a well known general pattern that urban avian communities have typically reduced species richness, while the density of a few successful species is often higher in cities than in adjacent more natural habitats. But it is less understood which mechanisms generate and uphold these community-level changes. In this review we discuss the most important components of the urban environment influencing birds' physiology, behaviour or morphology, and compile several recent studies to illustrate their effects. To understand urban food webs we also review the res",
       "journal": "Acta Zoologica Academiae Scientiarum Hungaricae",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1186_1742-9994-12-s1-s12",
+      "title": "Stable individual differences in separation calls during early development in cats and mice",
+      "year": 2015,
+      "doi": "10.1186/1742-9994-12-s1-s12",
+      "abstract": "BACKGROUND: The development of ethologically meaningful test paradigms in young animals is an essential step in the study of the ontogeny of animal personality. Here we explore the possibility to integrate offspring separation (distress) calls into the study of consistent individual differences in behaviour in two species of mammals, the domestic cat (Felis silvestris catus) and the mound-building mouse (Mus spicilegus). Such vocal responses in young mammals are a potentially useful test option as they represent an important element of mother-offspring communication with strong implications for offspring survival. In addition, the neural control of vocalisation is closely associated with emotional state. RESULTS: We found marked similarities in the pattern of individual responses of the young of both species to separation from their mother and littermates. In the domestic cat as well as in the mound-building mouse, individual differences in the frequency of calls and to a lesser extent",
+      "journal": "Frontiers in Zoology",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-013-0620-4",
@@ -472,11 +1655,7 @@
       "abstract": "",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_czoolo_58_5_698",
@@ -486,11 +1665,7 @@
       "abstract": "Abstract In contrast to the cries of human infants, sounds made by non-human infants in different stressful behavioral contexts (hunger or physical discomfort, isolation, capture by humans or predators) are usually treated as distinct types of vocalizations. However, if distress vocalizations produced by different species and in different contexts share a common motivational state and associated neurochemical pathways, we can expect them to share a common acoustic structure and adaptive function, showing only limited variation that corresponds to the infant’s level of arousal. Based on this premise, we review the acoustic structure and adaptive function of two types of distress calls, those given when infants were isolated from their mothers (isolation calls) or captured by humans (capture calls). We conducted a within-context comparison examining the two call types across a diverse selection of mammalian species and other vertebrate groups, followed by a comparison of how acoustic str",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_82598",
@@ -500,11 +1675,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_cognition_2005_02_005",
@@ -514,11 +1685,7 @@
       "abstract": "",
       "journal": "Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_jfms_2003_09_013",
@@ -528,11 +1695,7 @@
       "abstract": "An increasing body of research work has made it clear that, while Felis catus can survive in the solitary state, social groups with an internal structure, are formed whenever there are sufficient food resources to support them. Most people who have cats have two or more cats. Failure to understand what will promote either friendly or aggressive behavior can lead to various behavior problems, including aggression and conflict over resources, such as food, resting sites and litterboxes. An understanding of the natural social organization, relationships and communication between cats is therefore essential, and is the subject of this paper.",
       "journal": "Journal of Feline Medicine and Surgery",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5962_bhl_title_57410",
@@ -542,11 +1705,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_21708_bdtd_ppgca_tese_11458",
@@ -556,14 +1715,10 @@
       "abstract": "<jats:p>O sequenciamento do gene 16S RNA ribossômico (16S rRNA) permitiu maior\nabrangência nos estudos de comunidades bacterianas em sistemas orgânicos saudáveis,\ncomo também em condições patológicas. Assim, tivemos dois objetivos neste estudo,\ntais como: investigar o bacterioma em amostras de úteros felino saudável; e descrever a\ncomunidade bacteriana em um ambiente materno-fetal em quadro de falha reprodutiva\n(FR). Para isso, foram coletados fragmentos uterinos de cinco gatas (não gestantes e\nsadias) e fragmentos uterinos e de órgãos fetais oriundos de uma gata com morte fetal\nno último terço de gestação. Após a extração de DNA de todas as amostras, foi\nrealizado reação para amplificação para sequenciamento genômico para regiões\nvariáveis V3 e V4 do gene 16S rRNA. As amostras das gatas sadias não amplificaram\npara o gene 16S rRNA, porém foi descrito o bacterioma no quadro de FR. Foram\nidentificados 119 OTUs (OTU - Operational Taxonomic Unit) de 5 filos e 15 e 13\ngêneros do útero e do",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 19,
+  "paper_count": 36,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

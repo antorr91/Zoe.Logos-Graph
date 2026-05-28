@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 22,
-    "claim_count": 9,
-    "doi_count": 23,
-    "media_count": 0
+    "paper_count": 38,
+    "claim_count": 27,
+    "doi_count": 31,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,14 +42,14 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "grunt",
     "grunt-train",
-    "hum"
+    "hum",
+    "grunt"
   ],
   "contexts": [
     "courtship",
-    "male competition",
-    "territorial defence"
+    "territorial defence",
+    "male competition"
   ],
   "functions": [
     "male-male competition",
@@ -59,22 +59,22 @@
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "grunt",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "grunt-train",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "hum",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "grunt",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -82,19 +82,19 @@
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "male competition",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "male competition",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -102,23 +102,376 @@
         "value": "male-male competition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 291,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 290,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 289,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 288,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 287,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 286,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 285,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 284,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 283,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 282,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 281,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 280,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 279,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 278,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 277,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 276,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 275,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 274,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 273,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 272,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 271,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 270,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 269,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 268,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 267,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 266,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 265,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -126,6 +479,55 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1101/2025.11.03.686280",
+      "url": "https://doi.org/10.1101/2025.11.03.686280",
+      "title": "Dopamine D1Aa and D2a Receptor Expression in the Auditory System of a Vocal Fish",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1242/jeb.250239",
+      "url": "https://doi.org/10.1242/jeb.250239",
+      "title": "Reproductive state-dependent cell turnover in the inner ear of the plainfin midshipman fish (Porichthys notatus)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41467-023-43794-y",
+      "url": "https://doi.org/10.1038/s41467-023-43794-y",
+      "title": "Midbrain node for context-specific vocalisation in fish",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2023.1839",
+      "url": "https://doi.org/10.1098/rspb.2023.1839",
+      "title": "Functional plasticity of the swim bladder as an acoustic organ for communication in a vocal fish",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/cne.25257",
+      "url": "https://doi.org/10.1002/cne.25257",
+      "title": "Oxytocin-like receptor expression in evolutionarily conserved nodes of a vocal network associated with male courtship in a teleost fish",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1152/jn.00315.2022",
+      "url": "https://doi.org/10.1152/jn.00315.2022",
+      "title": "Reproductive state modulates utricular auditory sensitivity in a vocal fish",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fphys.2022.1036594",
+      "url": "https://doi.org/10.3389/fphys.2022.1036594",
+      "title": "Ca",
+      "year": 2022,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1002/cne.24629",
       "url": "https://doi.org/10.1002/cne.24629",
@@ -267,6 +669,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.2307/1438409",
+      "url": "https://doi.org/10.2307/1438409",
+      "title": "Observations on the Habits and Early Life History of the Batrachoid Fish, Porichthys notatus Girard",
+      "year": 1948,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1152/ajplegacy.1924.70.3.496",
       "url": "https://doi.org/10.1152/ajplegacy.1924.70.3.496",
       "title": "PHYSIOLOGICAL REACTIONS AND STRUCTURE OF THE VOCAL APPARATUS OF THE CALIFORNIA SINGING FISH, PORICHTHYS NOTATUS",
@@ -290,6 +699,156 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_42065623",
+      "title": "Fishing with sound: Insights into the plainfin midshipman's reproductive ecology from field acoustic playbacks",
+      "year": 2026,
+      "doi": "10.1121/10.0043817",
+      "abstract": "The long-duration advertisement \"hums\" produced by type I male plainfin midshipman fish (Porichthys notatus) are tonal signals consisting of a fundamental frequency and multiple harmonics. Using acoustic playback of synthetic, hum-like stimuli under natural conditions, we found that the fundamental frequency is likely required for females' final entry into a type I male's nest, whereas higher harmonics may play a limited role. We found no evidence of phonotaxis in type I and type II males. Additionally, the observed decrease in body size of captured individuals over the breeding season suggests that larger individuals migrate earlier to spawning sites.",
+      "journal": "JASA express letters",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41563146",
+      "title": "Acoustic behavior and diversity of fish calling in the Channel Islands",
+      "year": 2026,
+      "doi": "10.1121/10.0042167",
+      "abstract": "Many fish species are suspected to produce sound, but the variety of sounds they produce is still largely undocumented. This study investigated the presence and diversity of fish sounds in the Channel Islands National Marine Sanctuary. Besides regular sounds from three known species-bocaccio (Sebastes paucispinis), plainfin midshipman (Porichthys notatus), and white seabass (Atractoscion nobilis)-two unusual sound types were observed that require further analyses and for which the species is still unknown: Unidentified Fish or UF200 and UF450. Sound types had distinct acoustic signatures and varied in diel presence. Monitoring fish sounds is a promising technique for non-invasive monitoring of fish presence with conservation applications.",
+      "journal": "JASA express letters",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41280123",
+      "title": "Dopamine D1Aa and D2a Receptor Expression in the Auditory System of a Vocal Fish",
+      "year": 2025,
+      "doi": "10.1101/2025.11.03.686280",
+      "abstract": "Although dopamine receptors (DAR's) have been identified in various vertebrate neural circuits, their expression in the central auditory system remains poorly characterized. Reproductive-state changes in catecholamine innervation of central auditory nuclei in the plainfin midshipman fish (",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39898409",
+      "title": "Reproductive state-dependent cell turnover in the inner ear of the plainfin midshipman fish (Porichthys notatus)",
+      "year": 2025,
+      "doi": "10.1242/jeb.250239",
+      "abstract": "Plainfin midshipman fish (Porichthys notatus) exhibit seasonal auditory plasticity that enhances their reproductive success. During the summer, type I male midshipman acoustically court females and both the males and females exhibit increased auditory sensitivity during this period. The enhanced auditory sensitivity is associated with increased density of sensory hair cells in the saccule but not the utricle, suggesting that different mechanisms underlie physiological plasticity in distinct inner ear regions. To better understand how shifts in hair cell number occur within auditory tissues, we examined cell turnover across breeding states and sexes in midshipman fish. We found that reproductive type I males exhibited less saccular cell proliferation than non-reproductive males without a change in cell death, indicating a net loss of saccular cells during the breeding season. By contrast, saccular cell proliferation increased in summer females, with no seasonal changes in other inner ear epithelia. Collectively, our data reveal that multiple mechanisms are likely to contribute to seasonal auditory plasticity within a single species, potentially within the ear of an individual animal.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39884266",
+      "title": "Brain Activation Patterns and Dopaminergic Neuron Activity in Response to Conspecific Advertisement Calls in Reproductive versus Non-Reproductive Male Plainfin Midshipman Fish (<italic>Porichthys notatus</italic>)",
+      "year": 2025,
+      "doi": "10.1159/000543759",
+      "abstract": "INTRODUCTION: The plainfin midshipman fish (Porichthys notatus) relies on the production and reception of social acoustic signals for reproductive success. During spawning, male midshipman fish produce long duration advertisement calls to attract females, which use their auditory sense to locate and access calling males. While seasonal changes based on reproductive state in inner-ear auditory sensitivity and frequency encoding in midshipman are well documented, little is known about reproductive-state-dependent changes in central auditory sensitivity and auditory neural responsiveness to conspecific advertisement calls. Previous research indicates that forebrain dopaminergic neurons are preferentially active in response to conspecific advertisement calls and during female auditory-driven behavior in the breeding season. These dopamine neurons project to both the inner ear and central auditory nuclei and contribute to regulation of inner-ear auditory sensitivity based on reproductive state. The present study tested the hypothesis that exposure to the male advertisement call would elicit differential activation in auditory brain nuclei and in the forebrain auditory-projecting dopaminergic nucleus in reproductive versus non-reproductive male midshipman. METHODS: Fish were collected during the spring reproductive and winter non-reproductive months and were exposed to a playback of the advertisement call or ambient noise (control). Immunohistochemistry identified activated neurons (pS6-ir; proxy for neural activation) in midbrain and forebrain auditory and dopaminergic nuclei. RESULTS AND CONCLUSIONS: Our results revealed that in key auditory and dopaminergic areas, the greatest activation (most pS6-ir cells) occurred in reproductive males exposed to the advertisement call.",
+      "journal": "Brain, behavior and evolution",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39847969",
+      "title": "Boat noise reduces vocalization rate and alters vocal characteristics in wild plainfin midshipman fish",
+      "year": 2025,
+      "doi": "10.1016/j.marpolbul.2025.117563",
+      "abstract": "Anthropogenic noise pollution has been accelerating at an alarming rate, greatly altering aquatic soundscapes. Animals use various mechanisms to avoid acoustic masking in noisy environments, including altering calling rates or the frequency (pitch) of their vocalizations or increasing the amplitude (loudness) of their vocalizations (i.e., exhibiting the Lombard effect), but few studies have examined this vocal plasticity in fishes. We tested the effects of in situ motorboat noise on the agonistic and mating vocalizations of nesting plainfin midshipman fish (Porichthys notatus), and found that midshipman fish reduce and alter their vocalizations in the presence of boat noise. During boat noise, fish produced four times fewer agonistic vocalizations compared to ambient control periods. The fish also increased the frequency of mating hums and the amplitude of grunts and growls during boat noise. This study is the first to experimentally demonstrate the Lombard effect in fishes using real motorboat noise.",
+      "journal": "Marine pollution bulletin",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38703628",
+      "title": "Boat noise impedes vocalizations of wild plainfin midshipman fish",
+      "year": 2024,
+      "doi": "10.1016/j.marpolbul.2024.116412",
+      "abstract": "Marine noise is recognised as a growing threat that can induce maladaptive behavioural changes in many aquatic animals, including fishes. The plainfin midshipman is a soniferous fish with a prolonged breeding period, during which males produce tonal hums that attract females, and grunts and growls during agonistic interactions. In this study, we used acoustic recordings to assess the effects of boat noise on the presence, peak frequencies, and durations of plainfin midshipman calls in the wild. We found that all three call types were less likely to occur, and the peak frequencies of hums and grunts increased in the presence of boat noise. We also show that loud and quiet boat noise affected plainfin midshipman vocalizations similarly. As anthropogenic noise is likely to increase in the ocean, it will be important to understand how such noise can affect communication systems, and consequently population health and resiliency.",
+      "journal": "Marine pollution bulletin",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38479349",
+      "title": "A tale of two males: Behavioral and neural mechanisms of alternative reproductive tactics in midshipman fish",
+      "year": 2024,
+      "doi": "10.1016/j.yhbeh.2024.105507",
+      "abstract": "An amalgam of investigations at the interface of neuroethology and behavioral neuroendocrinology first established the most basic behavioral, neuroanatomical, and neurophysiological characters of vocal-acoustic communication morphs in the plainfin midshipman fish, Porichthys notatus Girard. This foundation has led, in turn, to the repeated demonstration that neuro-behavioral mechanisms driving reproductive-related, vocal-acoustic behaviors can be uncoupled from gonadal state for two adult male phenotypes that follow alternative reproductive tactics (ARTs).",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38167237",
+      "title": "Midbrain node for context-specific vocalisation in fish",
+      "year": 2024,
+      "doi": "10.1038/s41467-023-43794-y",
+      "abstract": "Vocalizations communicate information indicative of behavioural state across divergent social contexts. Yet, how brain regions actively pattern the acoustic features of context-specific vocal signals remains largely unexplored. The midbrain periaqueductal gray (PAG) is a major site for initiating vocalization among mammals, including primates. We show that PAG neurons in a highly vocal fish species (Porichthys notatus) are activated in distinct patterns during agonistic versus courtship calling by males, with few co-activated during a non-vocal behaviour, foraging. Pharmacological manipulations within vocally active PAG, but not hindbrain, sites evoke vocal network output to sonic muscles matching the temporal features of courtship and agonistic calls, showing that a balance of inhibitory and excitatory dynamics is likely necessary for patterning different call types. Collectively, these findings support the hypothesis that vocal species of fish and mammals share functionally comparable PAG nodes that in some species can influence the acoustic structure of social context-specific vocal signals.",
+      "journal": "Nature communications",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38087920",
+      "title": "Functional plasticity of the swim bladder as an acoustic organ for communication in a vocal fish",
+      "year": 2023,
+      "doi": "10.1098/rspb.2023.1839",
+      "abstract": "Teleost fishes have evolved a number of sound-producing mechanisms, including vibrations of the swim bladder. In addition to sound production, the swim bladder also aids in sound reception. While the production and reception of sound by the swim bladder has been described separately in fishes, the extent to which it operates for both in a single species is unknown. Here, using morphological, electrophysiological and modelling approaches, we show that the swim bladder of male plainfin midshipman fish (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36796532",
+      "title": "Dopamine injections to the midbrain periaqueductal gray inhibit vocal-motor production in a teleost fish",
+      "year": 2023,
+      "doi": "10.1016/j.physbeh.2023.114131",
+      "abstract": "Across vertebrates, the midbrain periaqueductal gray (PAG) plays a critical role in social and vocal behavior. Dopaminergic neurotransmission also modulates these behaviors, and dopaminergic innervation of the PAG has been well documented. Nonetheless, the potential role of dopamine in shaping vocal production at the level of the PAG is not well understood. Here, we tested the hypothesis that dopamine modulates vocal production in the PAG, using a well-characterized vertebrate model system for the study of vocal communication, the plainfin midshipman fish, Porichthys notatus. We found that focal dopamine injections to the midshipman PAG rapidly and reversibly inhibited vocal production triggered by stimulation of known vocal-motor structures in the preoptic area / anterior hypothalamus. While dopamine inhibited vocal-motor output, it did not alter behaviorally-relevant parameters of this output, such as vocalization duration and frequency. Dopamine-induced inhibition of vocal production was prevented by the combined blockade of D1- and D2-like receptors but was unaffected by isolated blockade of either D1-receptors or D2-receptors. Our results suggest dopamine neuromodulation in the midshipman PAG may inhibit natural vocal behavior, in courtship and/or agonistic social contexts.",
+      "journal": "Physiology & behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36388096",
+      "title": "Ca",
+      "year": 2022,
+      "doi": "10.3389/fphys.2022.1036594",
+      "abstract": "Over the past two decades, mounting evidence has demonstrated that a mechanism known as store-operated Ca",
+      "journal": "Frontiers in physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36286323",
+      "title": "Reproductive state modulates utricular auditory sensitivity in a vocal fish",
+      "year": 2022,
+      "doi": "10.1152/jn.00315.2022",
+      "abstract": "The plainfin midshipman,",
+      "journal": "Journal of neurophysiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35332923",
+      "title": "Long duration advertisement calls of nesting male plainfin midshipman fish are honest indicators of size and condition",
+      "year": 2022,
+      "doi": "10.1242/jeb.243889",
+      "abstract": "The plainfin midshipman fish (Porichthys notatus) has long served as a model organism for neuroethology research on acoustic communication and related social behaviors. Type I or 'singing' males produce highly stereotyped, periodic advertisement calls that are the longest known uninterrupted vertebrate vocalizations. Despite the extensive literature on the acoustic behaviour of this species, it remains unclear whether reproductive males signal their quality via their highly energetic, multiharmonic advertisement calls. Here, we recorded the advertisement calls of 22 reproductive type I males at night in a controlled laboratory setting in which males were housed in aquaria maintained at a constant temperature (13.9±0.3°C). The duration of the advertisement calls from type I males was observed to increase from the first call of the night to the middle call after which call duration remained steady until the early morning hours and first light. A strong positive correlation was observed between loudness (sound pressure level and maximum sound pressure level) of the advertisement call and body size (mass and standard length; rs>0.8). In addition, an asymptotic relationship was observed between the harmonic frequencies (f0-f10) of the advertisement calls and male body condition, with harmonic frequencies initially increasing with body condition indices, but then plateauing when body condition measures were high. Taken together, our results suggest that type I male advertisement calls provide reliable honest information about male quality regarding size and body condition. Such condition-dependent information of calling males could potentially be used by receptive females to help facilitate mate choice decisions.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34614539",
+      "title": "Oxytocin-like receptor expression in evolutionarily conserved nodes of a vocal network associated with male courtship in a teleost fish",
+      "year": 2022,
+      "doi": "10.1002/cne.25257",
+      "abstract": "Neuropeptides, including oxytocin-like peptides, are a conserved group of hormones that regulate a wide range of social behaviors, including vocal communication. In the current study, we evaluate whether putative brain sites for the actions of isotocin (IT), the oxytocin (OT) homolog of teleost fishes are associated with vocal courtship and circuitry in the plainfin midshipman fish (Porichthys notatus). During the breeding season, nesting males produce advertisement calls known as \"hums\" to acoustically court females at night and attract them to nests. We first identify IT receptor (ITR) mRNA in evolutionarily conserved regions of the forebrain preoptic area (POA), anterior hypothalamus (AH), and midbrain periaqueductal gray (PAG), and in two topographically separate populations within the hindbrain vocal pattern generator- duration-coding vocal prepacemaker (VPP) and amplitude-coding vocal motor nuclei (VMN) that also innervate vocal muscles. We also verify that ITR expression overlaps known distribution sites of OT-like immunoreactive fibers. Next, using phosphorylated ribosomal subunit 6 (pS6) as a marker for activated neurons, we demonstrate that ITR-containing neurons in the anterior parvocellular POA, AH, PAG, VPP, and VMN are activated in humming males. Posterior parvocellular and magno/gigantocellular divisions of the POA remain constitutively active in nonhumming males that are also in a reproductive state. Together with prior studies of midshipman fish and other vertebrates, our findings suggest that IT-signaling influences male courtship behavior, in part, by acting on brain regions that broadly influence behavioral state (POA) as well as the initiation (POA and PAG) and temporal structure (VPP and VMN) of advertisement hums.",
+      "journal": "The Journal of comparative neurology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1002_cne_24629",
       "title": "Melatonin receptor expression in vocal, auditory, and neuroendocrine centers of a highly vocal fish, the plainfin midshipman (<scp><i>Porichthys notatus</i></scp>)",
       "year": 2019,
@@ -297,11 +856,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>Melatonin plays a central role in entraining activity to the day–night cycle in vertebrates. Here, we investigate neuroanatomical substrates of melatonin‐dependent vocal–acoustic behavior in the nocturnal and highly vocal teleost fish, the plainfin midshipman (<jats:styled-content style=\"fixed-case\"><jats:italic>Porichthys notatus</jats:italic></jats:styled-content>). Using in situ hybridization (ISH) and quantitative real‐time PCR (qPCR), we assess the mRNA distribution and transcript abundance of melatonin receptor subtype 1B (<jats:italic>mel1b</jats:italic>), shown to be important for vocalization in midshipman fish and songbirds. ISH shows robust <jats:italic>mel1b</jats:italic> expression in major nodes of the central vocal and auditory networks in the subpallium, preoptic area (POA), anterior hypothalamus, dorsal thalamus, posterior tuberculum, midbrain torus semicircularis and periaqueductal gray, and hindbrain. <jats:italic>Mel1b</jats:",
       "journal": "Journal of Comparative Neurology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_jchemneu_2014_01_001",
@@ -311,11 +866,7 @@
       "abstract": "",
       "journal": "Journal of Chemical Neuroanatomy",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0070474",
@@ -325,11 +876,7 @@
       "abstract": "While the neural circuitry and physiology of the auditory system is well studied among vertebrates, far less is known about how the auditory system interacts with other neural substrates to mediate behavioral responses to social acoustic signals. One species that has been the subject of intensive neuroethological investigation with regard to the production and perception of social acoustic signals is the plainfin midshipman fish, Porichthys notatus, in part because acoustic communication is essential to their reproductive behavior. Nesting male midshipman vocally court females by producing a long duration advertisement call. Females localize males by their advertisement call, spawn and deposit all their eggs in their mate's nest. As multiple courting males establish nests in close proximity to one another, the perception of another male's call may modulate individual calling behavior in competition for females. We tested the hypothesis that nesting males exposed to advertisement calls ",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1080_09524622_2011_647866",
@@ -339,11 +886,7 @@
       "abstract": "",
       "journal": "Bioacoustics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1523_jneurosci_4928-11_2012",
@@ -353,11 +896,7 @@
       "abstract": "The plainfin midshipman fish, Porichthys notatus, is a seasonal breeding teleost fish for which vocal-acoustic communication is essential for its reproductive success. Female midshipman use the saccule as the primary end organ for hearing to detect and locate \"singing\" males that produce multiharmonic advertisement calls during the summer breeding season. Previous work has shown that female auditory sensitivity changes seasonally with reproductive state; summer reproductive females become better suited than winter nonreproductive females to detect and encode the dominant higher harmonic components in the male's advertisement call, which are potentially critical for mate selection and localization. Here, we test the hypothesis that these seasonal changes in female auditory sensitivity are concurrent with seasonal increases in saccular hair cell receptors. We show that there is increased hair cell density in reproductive females and that this increase is not dependent on body size since ",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1152_jn_00236_2009",
@@ -367,11 +906,7 @@
       "abstract": "<jats:p>The plainfin midshipman fish, Porichthys notatus, is a seasonally breeding species of marine teleost fish that generates acoustic signals for intraspecific social and reproductive-related communication. Female midshipman use the inner ear saccule as the main acoustic endorgan for hearing to detect and locate vocalizing males that produce multiharmonic advertisement calls during the breeding season. Previous work showed that the frequency sensitivity of midshipman auditory saccular afferents changed seasonally with female reproductive state such that summer reproductive females became better suited than winter nonreproductive females to encode the dominant higher harmonics of the male advertisement calls. The focus of this study was to test the hypothesis that seasonal reproductive-dependent changes in saccular afferent tuning is paralleled by similar changes in saccular sensitivity at the level of the hair-cell receptor. Here, I examined the evoked response properties of midshi",
       "journal": "Journal of Neurophysiology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1749-4877_2008_00133_x",
@@ -381,11 +916,7 @@
       "abstract": "The plainfin midshipman fish (Porichthys notatus Girard, 1854) is a vocal species of batrachoidid fish that generates acoustic signals for intraspecific communication during social and reproductive activity and has become a good model for investigating the neural and endocrine mechanisms of vocal-acoustic communication. Reproductively active female plainfin midshipman fish use their auditory sense to detect and locate \"singing\" males, which produce a multiharmonic advertisement call to attract females for spawning. The seasonal onset of male advertisement calling in the midshipman fish coincides with an increase in the range of frequency sensitivity of the female's inner ear saccule, the main organ of hearing, thus leading to enhanced encoding of the dominant frequency components of male advertisement calls. Non-reproductive females treated with either testosterone or 17β-estradiol exhibit a dramatic increase in the inner ear's frequency sensitivity that mimics the reproductive female'",
       "journal": "Integrative Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_heares_2008_12_007",
@@ -395,11 +926,7 @@
       "abstract": "",
       "journal": "Hearing Research",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2305_iucn_uk_2010-3_rlts_t183724a8165351_en",
@@ -409,11 +936,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00359-006-0195-5",
@@ -423,11 +946,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Physiology A",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1242_jeb_01742",
@@ -437,11 +956,7 @@
       "abstract": "<jats:title>SUMMARY</jats:title>\n               <jats:p>The auditory system of adult midshipman fish Porichthys notatusGirard is an important sensory receiver system used during intraspecific social communication to encode conspecific vocalizations, but the response properties and function of this system in the pre-adult stages are unknown. Midshipman fish, like other teleosts, use the saccule as the main acoustic end organ of the inner ear. In this study, we examined the discharge properties and the frequency response dynamics of auditory saccular afferent neurons in pre-adult midshipman (∼4–12 months of age) to determine whether encoding of auditory information, inclusive of conspecific vocalizations,changes across life history stages. Extracellular single unit recordings were made from saccular afferents while sound was presented via an underwater speaker. Comparisons with adult data show that the resting discharge rate and auditory threshold sensitivity increased with age/size,whil",
       "journal": "Journal of Experimental Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00114-004-0531-y",
@@ -451,11 +966,7 @@
       "abstract": "",
       "journal": "Naturwissenschaften",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_ygcen_2003_12_007",
@@ -465,11 +976,7 @@
       "abstract": "",
       "journal": "General and Comparative Endocrinology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_1096-9861(20000703)422:3<363::aid-cne4>3_0_co;2-8",
@@ -479,11 +986,7 @@
       "abstract": "Arginine vasotocin (AVT) and its mammalian homologue arginine vasopressin (AVP) modulate reproduction-related and other social behaviors in a broad range of vertebrate species. These functions of AVT/AVP may be in part achieved through the modulation of sensorimotor integration, although experimental evidence supporting this hypothesis remains limited. In the present experiments, we demonstrate (1) AVT innervation of candidate vocal-acoustic brain regions, and (2) AVT modulation of vocal-motor physiology in the plainfin midshipman fish (Porichthys notatus), which uses vocalizations in both mate attraction and agonistic contexts. AVT distribution was compared with known vocally active brain regions and to central auditory and vocal pathways. AVT-immunoreactive fibers and putative terminals descend almost exclusively from the preoptic area and are found in two primary candidate sites for vocal-acoustic integration - the anterior tuberal hypothalamus and paralemniscal midbrain tegmentum. ",
       "journal": "The Journal of Comparative Neurology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_s0166-4328(97)00182-4",
@@ -493,11 +996,7 @@
       "abstract": "",
       "journal": "Behavioural Brain Research",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-94-017-1356-6_9",
@@ -507,11 +1006,7 @@
       "abstract": "",
       "journal": "Developments in environmental biology of fishes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1446452",
@@ -521,11 +1016,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-94-009-7296-4_22",
@@ -535,11 +1026,7 @@
       "abstract": "",
       "journal": "Developments in environmental biology of fishes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1444196",
@@ -549,11 +1036,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1440735",
@@ -563,11 +1046,17 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_2307_1438409",
+      "title": "Observations on the Habits and Early Life History of the Batrachoid Fish, Porichthys notatus Girard",
+      "year": 1948,
+      "doi": "10.2307/1438409",
+      "abstract": "",
+      "journal": "Copeia",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1152_ajplegacy_1924_70_3_496",
@@ -577,11 +1066,7 @@
       "abstract": "",
       "journal": "American Journal of Physiology-Legacy Content",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1086_279770",
@@ -591,14 +1076,10 @@
       "abstract": "",
       "journal": "The American Naturalist",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 22,
+  "paper_count": 38,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

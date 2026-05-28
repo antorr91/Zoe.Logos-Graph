@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 5,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 25,
+    "claim_count": 4,
+    "doi_count": 23,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -45,12 +45,12 @@
     "song"
   ],
   "contexts": [
-    "mate attraction",
-    "territorial defence"
+    "territorial defence",
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,43 +58,112 @@
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1678,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1677,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1676,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1675,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Phylloscopus collybita",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1104591",
+        "provider": "xeno-canto",
+        "provider_id": "1104591",
+        "type": "song (XC1104591)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1104591",
+        "audio": "https://xeno-canto.org/1104591/download",
+        "sono": "outputs\\spectrograms\\gbif_5231193.png",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "XC · Hannu Varkki"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
@@ -111,6 +180,20 @@
       "title": "Angry birds calling: an advanced system of signalling aggression to moderate conflict in the common chiffchaff",
       "year": 2023,
       "source": "openalex"
+    },
+    {
+      "doi": "10.3390/pathogens12050712",
+      "url": "https://doi.org/10.3390/pathogens12050712",
+      "title": "Host Cells of",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1371/journal.pone.0257074",
+      "url": "https://doi.org/10.1371/journal.pone.0257074",
+      "title": "Seasonality and social factors, but not noise pollution, influence the song characteristics of two leaf warbler species",
+      "year": 2021,
+      "source": "pubmed"
     },
     {
       "doi": "10.1016/j.anbehav.2020.04.016",
@@ -134,6 +217,27 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1111/1365-2656.13059",
+      "url": "https://doi.org/10.1111/1365-2656.13059",
+      "title": "Aircraft sound exposure leads to song frequency decline and elevated aggression in wild chiffchaffs",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.2782",
+      "url": "https://doi.org/10.1002/ece3.2782",
+      "title": "Patterns of genetic, phenotypic, and acoustic variation across a chiffchaff (",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1534/g3.117.300152",
+      "url": "https://doi.org/10.1534/g3.117.300152",
+      "title": "Heterogeneous Patterns of Genetic Diversity and Differentiation in European and Siberian Chiffchaff (",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.2173/bow-on.100422",
       "url": "https://doi.org/10.2173/bow-on.100422",
       "title": "422. Notes on the vocalizations of Common Chiffchaff (Phylloscopus collybita)",
@@ -153,6 +257,13 @@
       "title": "Mice do not require auditory input for the normal development of their ultrasonic vocalizations",
       "year": 2012,
       "source": "openalex"
+    },
+    {
+      "doi": "10.12657/ornis.2010.4.9",
+      "url": "https://doi.org/10.12657/ornis.2010.4.9",
+      "title": "Jaki to ptak? Zagadka numer 61: Pierwiosnek syberyjski Phylloscopus collybita tristis",
+      "year": 2010,
+      "source": "crossref"
     },
     {
       "doi": "10.1111/j.1420-9101.2003.00682.x",
@@ -227,11 +338,7 @@
       "abstract": "",
       "journal": "Birds of the World",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_anbehav_2023_04_009",
@@ -241,11 +348,27 @@
       "abstract": "Many animals produce vocal signals during agonistic interactions that convey their ability and motivation to escalate the conflict. Often, such disputes follow ritualized, sequential phases with increasing aggression, favouring the assessment of individuals' chances of winning. This allows for individuals to withdraw before getting involved in a serious fight. Birds are well known for the variety of information encoded in their vocalizations, sometimes including specific features that signal aggression. A particular case may be so-called ‘tret calls’ produced by chiffchaffs, Phylloscopus collybita, a song affix for which the communicative role is not well understood. Here, we describe the acoustic structure and use of tret calls during simulated conflicts using playback. Our results show that tret calls are a low-amplitude vocalization and that birds increased tret calling after playback stimulation, suggesting a role as an aggressive signal similar to soft song in other species. Howev",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_37242382",
+      "title": "Host Cells of",
+      "year": 2023,
+      "doi": "10.3390/pathogens12050712",
+      "abstract": "",
+      "journal": "Pathogens (Basel, Switzerland)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34473797",
+      "title": "Seasonality and social factors, but not noise pollution, influence the song characteristics of two leaf warbler species",
+      "year": 2021,
+      "doi": "10.1371/journal.pone.0257074",
+      "abstract": "Changes in the acoustic signalling of animals occupying urban ecosystems is often associated with the masking effects of noise pollution, but the way in which they respond to noise pollution is not straightforward. An increasing number of studies indicate that responses can be case specific, and some species have been found to respond differently to high levels of natural versus anthropogenic noise, as well as different levels of the latter. While the perception of noise between species may vary with its source, amplitude and temporal features, some species may possess broader environmental tolerance to noise pollution, as they use higher frequency vocalizations that are less masked by low-frequency urban noise. In this study, we explored the song variation of two closely related leaf warblers, the Common Chiffchaff Phylloscopus collybita and the Willow Warbler Phylloscopus trochilus, inhabiting urban green spaces and nonurban forests. The main goal of our study was to evaluate the impact of moderate levels of noise pollution on the songs of species which use higher frequency vocalizations and large frequency bandwidth. Previous studies found that the Common Chiffchaff modified their song in response to intense noise pollution, while no such data is available for the Willow Warbler. However, the majority of urban green spaces, which serve as wildlife hot spots in urban environments are usually polluted with moderate noise levels, which may not mask the acoustic signals of species that communicate with higher frequency. We analysed the spectral and temporal song parameters of both warblers and described the ambient noise present in males' territories. Additionally, we looked at the social and seasonal aspects of bird song, since there is more than just noise in urban ecosystems which may affect acoustic communication. We found no evidence for noise-related bird song divergence in either species, however, we showed that social factors, time of day and season influence",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t103843725a199149673_en",
@@ -255,11 +378,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_anbehav_2020_04_016",
@@ -269,11 +388,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rsif_2018_0940",
@@ -283,11 +398,37 @@
       "abstract": "Many animals emit vocal sounds which, independently from the sounds' function, contain some individually distinctive signature. Thus the automatic recognition of individuals by sound is a potentially powerful tool for zoology and ecology research and practical monitoring. Here, we present a general automatic identification method that can work across multiple animal species with various levels of complexity in their communication systems. We further introduce new analysis techniques based on dataset manipulations that can evaluate the robustness and generality of a classifier. By using these techniques, we confirmed the presence of experimental confounds in situations resembling those from past studies. We introduce data manipulations that can reduce the impact of these confounds, compatible with any classifier. We suggest that assessment of confounds should become a standard part of future studies to ensure they do not report over-optimistic results. We provide annotated recordings us",
       "journal": "Journal of The Royal Society Interface",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_31435938",
+      "title": "Aircraft sound exposure leads to song frequency decline and elevated aggression in wild chiffchaffs",
+      "year": 2019,
+      "doi": "10.1111/1365-2656.13059",
+      "abstract": "The ubiquitous anthropogenic low-frequency noise impedes communication by masking animal signals. To overcome this communication barrier, animals may increase the frequency, amplitude and delivery rate of their acoustic signals, making them more easily heard. However, a direct impact of intermittent, high-level aircraft noise on birds' behaviour living close to a runway has not been studied in detail. We recorded common chiffchaffs Phylloscopus collybita songs near two airports and nearby control areas, and we measured sound levels in their territories at Manchester Airport. The song recordings were made in between aircraft movements, when ambient sound levels were similar between airport and control populations. We also conducted playback experiments at the airport and a control population to test the salience of airport, and control population specific songs. In contrast to the general pattern of increased song frequency in noisy areas, we show that common chiffchaffs at airports show a negative relationship between noise exposure level and song frequency. Experimental data show that chiffchaffs living near airports also respond more aggressively to song playback. Since the decrease in song frequency results in increased overlap with aircraft noise, these findings cannot be explained as an adaptation to improve communication. The increased levels of aggression suggest that chiffchaffs, like humans, might be affected behaviourally by extreme noise pollution. These findings should influence environmental impact assessments for airport expansions globally.",
+      "journal": "The Journal of animal ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29054864",
+      "title": "Heterogeneous Patterns of Genetic Diversity and Differentiation in European and Siberian Chiffchaff (",
+      "year": 2017,
+      "doi": "10.1534/g3.117.300152",
+      "abstract": "Identification of candidate genes for trait variation in diverging lineages and characterization of mechanistic underpinnings of genome differentiation are key steps toward understanding the processes underlying the formation of new species. Hybrid zones provide a valuable resource for such investigations, since they allow us to study how genomes evolve as species exchange genetic material and to associate particular genetic regions with phenotypic traits of interest. Here, we use whole-genome resequencing of both allopatric and hybridizing populations of the European (",
+      "journal": "G3 (Bethesda, Md.)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28405281",
+      "title": "Patterns of genetic, phenotypic, and acoustic variation across a chiffchaff (",
+      "year": 2017,
+      "doi": "10.1002/ece3.2782",
+      "abstract": "Characterizing patterns of evolution of genetic and phenotypic divergence between incipient species is essential to understand how evolution of reproductive isolation proceeds. Hybrid zones are excellent for studying such processes, as they provide opportunities to assess trait variation in individuals with mixed genetic background and to quantify gene flow across different genomic regions. Here, we combine plumage, song, mtDNA and whole-genome sequence data and analyze variation across a sympatric zone between the European and the Siberian chiffchaff (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2173_bow-on_100422",
@@ -297,11 +438,7 @@
       "abstract": "",
       "journal": "Ornithological Notes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2305_iucn_uk_2019-3_rlts_t103843725a155613186_en",
@@ -311,11 +448,17 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_24050853",
+      "title": "Being angry, singing fast? Signalling of aggressive motivation by syllable rate in a songbird with slow song",
+      "year": 2013,
+      "doi": "10.1016/j.beproc.2013.06.012",
+      "abstract": "Syllable rate has been shown to play a role in male-male aggressive interactions and has been proposed to serve as a male quality indicator in several bird species. In those with fast syllable rates, males often increase rates when singing in aggressive context, and respond differently to test stimuli of varying rates. We asked whether the syllable rate fulfils a similar signalling function in the chiffchaff (Phylloscopus collybita), a songbird species with a slow syllable rate. We confronted 36 chiffchaff males with one of three playback types differing in syllable rate: control (non-manipulated rate), fast, or slow (artificially increased and decreased syllable rate, respectively). We recorded tested males' songs and behaviour before and during the experiment. Our results indicate that syllable rate might be an aggressive signal in chiffchaff. Males that physically attacked the loudspeaker during experiments sang faster songs spontaneously, and those that continued singing during the playback responded to fast and non-manipulated stimuli with substantial increase of syllable rate. Indirect evidence further suggests that syllable rate in chiffchaff is unlikely constrained by respiratory demands; thus, we propose that syllable rate in this species functions as a conventional signal of male aggressiveness rather than an index of quality.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1186_1471-2202-13-40",
@@ -325,11 +468,27 @@
       "abstract": "The results indicate that auditory experience is not a prerequisite for the development of species-specific vocalizations in mice. Thus, mouse models are of only limited suitability to study the evolution of vocal learning, a crucial component in the development of human speech. Nevertheless, ultrasonic vocalizations of mice constitute a valuable readout in studies of the genetic foundations of social and communicative behavior.",
       "journal": "BMC Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_12657_ornis_2010_4_9",
+      "title": "Jaki to ptak? Zagadka numer 61: Pierwiosnek syberyjski Phylloscopus collybita tristis",
+      "year": 2010,
+      "doi": "10.12657/ornis.2010.4.9",
+      "abstract": "",
+      "journal": "Ornis Polonica",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_19760890",
+      "title": "Genetic and vocal differentiation in hybrid zones of passerine birds: Siberian and European chiffchaffs (Phylloscopus [collybita] tristis and Ph. [c.] abietinus) in the southern Urals",
+      "year": 2009,
+      "doi": "10.1134/s0012496609040231",
+      "abstract": "",
+      "journal": "Doklady biological sciences : proceedings of the Academy of Sciences of the USSR, Biological sciences sections",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1420-9101_2003_00682_x",
@@ -339,11 +498,17 @@
       "abstract": "The theory of reinforcement predicts that natural selection against the production of unfit hybrids favours traits that increase assortative mating. Whether culturally inherited traits, such as bird song, can increase assortative mating by reinforcement is largely unknown. We compared songs of pied (Ficedula hypoleuca) and collared flycatchers (F. albicollis) from two hybrid zones of different ages with songs from allopatric populations. Previously, a character divergence in male plumage traits has been shown to reinforce premating isolation in sympatric flycatchers. In contrast, we find that the song of the pied flycatcher has converged towards that of the collared flycatcher (mixed singing). However, a corresponding divergence in the collared flycatcher shows that the species differences in song characters are maintained in sympatry. Genetic analyses suggest that mixed song is not caused by introgression from the collared flycatcher, but rather due to heterospecific copying. Circumst",
       "journal": "Journal of Evolutionary Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_11918782",
+      "title": "Amplified fragment length polymorphism analysis identifies hybrids between two subspecies of warblers",
+      "year": 2002,
+      "doi": "10.1046/j.0962-1083.2001.01455.x",
+      "abstract": "In the western Pyrenees (Southwest France and Northwest Spain), a narrow hybrid zone exists between the common chiffchaff Phylloscopus (collybita) collybita and the Iberian chiffchaff Phylloscopus (c.) brehmii. In this zone, which is approximately 20 km wide, mixed matings and individuals singing the songs of both taxa occur at substantial frequencies (24 and 8.6%, respectively), suggesting frequent hybridization. Previous studies have shown very weak mitochondrial gene flow (Nm = 0.065), whereas four microsatellites suggested much higher nuclear gene flow (Nm = 4.9). In this study we used the amplified fragment length polymorphism (AFLP) method in order to identify hybrids and early backcrosses. We typed 91 birds from both allopatric and sympatric areas for 12 informative AFLP markers (of > 141 polymorphic fragments), obtained by screening 13 AFLP primer combinations. These individuals were previously typed for song (brehmii, collybita or mixed singers), mitochondrial DNA (mtDNA) haplotype and allelic genotypes at four microsatellite loci. Assignment tests demonstrated that in the zone of sympatry, a substantial number of intermediate genotypes existed among the birds previously believed to be pure collybita and brehmii, based on song and mtDNA haplotype. The majority of the mixed singers had intermediate genotypes. Our data suggest that the fraction of the adult population having a hybrid origin (hybrids or backcrosses) is in the order of 10%. With such a frequency of genetic hybrids, there would have been much more mtDNA introgression than observed, had female hybrids been perfectly fertile/viable. This result is consistent with male-biased gene flow and Haldane's rule.",
+      "journal": "Molecular ecology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_34080_os_v9_22920",
@@ -353,11 +518,7 @@
       "abstract": "",
       "journal": "Ornis Svecica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1163_156853996x00602",
@@ -367,11 +528,7 @@
       "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>The males of most bird species help to raise the young, and females may suffer costs from polygyny because of having to share the male parental care. In the chiffchaff (Phylloscopus collybita) nests of monogamously and polygynously mated females had similar success in relation to the proportion of fledged young. Overall, male chiffchaffs provided little assistance to females during the nestling period, but they increased help when the young left the nest. Females who choose already-paired males (secondary females) incurred lower reproductive success, because they were unable to start a second brood after raising their first brood. Primary and monogamous females which received male help in the form of food provisioning during the fledgling period were more likely to attempt a second brood. This is the first study that reports associated costs to secondary females due to the lack of paternal aid after the young have fledged the nest. How",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf01918465",
@@ -381,11 +538,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_0003-3472(89)90149-8",
@@ -395,11 +548,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_s0003-3472(88)80088-5",
@@ -409,11 +558,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_s0003-3472(88)80034-4",
@@ -423,11 +568,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5040_9781472927040_0424",
@@ -437,14 +578,10 @@
       "abstract": "",
       "journal": "The Birds of Africa : The Malagasy Region",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 25,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

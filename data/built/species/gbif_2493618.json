@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 7,
-    "doi_count": 16,
-    "media_count": 0
+    "paper_count": 31,
+    "claim_count": 12,
+    "doi_count": 28,
+    "recording_count": 1
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Rbruni.JPG/330px-Rbruni.JPG",
@@ -46,13 +46,13 @@
     "song"
   ],
   "contexts": [
+    "vocal learning",
     "courtship",
-    "social communication",
-    "vocal learning"
+    "social communication"
   ],
   "functions": [
-    "mate attraction",
-    "social learning"
+    "social learning",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -60,58 +60,252 @@
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
+        "value": "vocal learning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "courtship",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "vocal learning",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "social learning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1023,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1022,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1021,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1020,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1019,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1018,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1017,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1016,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1015,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1014,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1013,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1012,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Lonchura striata",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1036272",
+        "provider": "xeno-canto",
+        "provider_id": "1036272",
+        "type": "uncertain (XC1036272)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1036272",
+        "audio": "https://xeno-canto.org/1036272/download",
+        "sono": "outputs\\spectrograms\\gbif_2493618.png",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "XC · Jairam Vijayan"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1016/j.isci.2026.114981",
+      "url": "https://doi.org/10.1016/j.isci.2026.114981",
+      "title": "High-throughput assessment of vocal modulation following chemogenetic inhibition in songbirds",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.0576-24.2025",
+      "url": "https://doi.org/10.1523/JNEUROSCI.0576-24.2025",
+      "title": "The Temporal Organization of Learned Vocal Behavior Is Predicted by Species Rather Than Experience",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fpsyg.2025.1488762",
+      "url": "https://doi.org/10.3389/fpsyg.2025.1488762",
+      "title": "Social context affects sequence modification learning in birdsong",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.2305/iucn.uk.2024-2.rlts.t22719806a263764391.en",
       "url": "https://doi.org/10.2305/iucn.uk.2024-2.rlts.t22719806a263764391.en",
@@ -120,11 +314,74 @@
       "source": "crossref"
     },
     {
+      "doi": "10.3389/fpsyg.2024.1490858",
+      "url": "https://doi.org/10.3389/fpsyg.2024.1490858",
+      "title": "Role of the ventral portion of intermediate arcopallium in stability of female Bengalese finch song preferences",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7554/eLife.93272",
+      "url": "https://doi.org/10.7554/eLife.93272",
+      "title": "Lesions in a songbird vocal circuit increase variability in song syntax",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/texcom/tgad016",
+      "url": "https://doi.org/10.1093/texcom/tgad016",
+      "title": "Reversible inhibition of the basal ganglia prolongs repetitive vocalization but only weakly affects sequencing at branch points in songbirds",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1152/jn.00551.2021",
+      "url": "https://doi.org/10.1152/jn.00551.2021",
+      "title": "Preparing to sing: respiratory patterns underlying motor readiness for song",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fphys.2022.884404",
+      "url": "https://doi.org/10.3389/fphys.2022.884404",
+      "title": "Effect of Darkness on Intrinsic Motivation for Undirected Singing in Bengalese Finch (",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7554/eLife.75691",
+      "url": "https://doi.org/10.7554/eLife.75691",
+      "title": "Shared mechanisms of auditory and non-auditory vocal learning in the songbird brain",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1101/2021.03.23.436696",
       "url": "https://doi.org/10.1101/2021.03.23.436696",
       "title": "Effects of domestication on neophobia: A comparison between the domesticated Bengalese finch (\n                  <i>Lonchura striata var. domestica</i>\n                  ) and its wild ancestor, the white-rumped munia (\n                  <i>Lonchura striata</i>\n                  )",
       "year": 2021,
       "source": "crossref"
+    },
+    {
+      "doi": "10.7554/eLife.61610",
+      "url": "https://doi.org/10.7554/eLife.61610",
+      "title": "Songbirds can learn flexible contextual control over syllable sequencing",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-020-58983-8",
+      "url": "https://doi.org/10.1038/s41598-020-58983-8",
+      "title": "Statistical learning for vocal sequence acquisition in a songbird",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1152/jn.00142.2019",
+      "url": "https://doi.org/10.1152/jn.00142.2019",
+      "title": "Manipulations of inhibition in cortical circuitry differentially affect spectral and temporal features of Bengalese finch song",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.2173/bow.whrmun.01",
@@ -227,6 +484,46 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41952276",
+      "title": "Domestication Effects on Immune Response: Comparison of Phytohemagglutinin-Induced Skin Swelling in Domesticated Bengalese Finch and Its Wild Ancestor, White-Rumped Munia",
+      "year": 2026,
+      "doi": "10.1002/jez.70087",
+      "abstract": "The domesticated Bengalese finch (Lonchura striata var. domestica) exhibits more complex songs and altered physiological and behavioral traits compared with its wild ancestor, the white-rumped munia (Lonchura striata). Domestication has been suggested to be associated with immune function, and domestication-related physiological and behavioral traits are thought to co-vary with immune traits. Comparing immune responses between the Bengalese finch and the white-rumped munia provides an opportunity to explore phenotypic differences associated with domestication. In this study, we assessed cell-mediated immune responses using phytohemagglutinin (PHA), a lectin that induces local skin swelling. This PHA-induced swelling (PHA response) is a widely used index of T cell-mediated immunity in ecological immunology. Our results showed that the Bengalese finch exhibited a significantly greater PHA response than the white-rumped munia, indicating higher cell-mediated immune activity in the domesticated birds. These findings suggest a possible association between immune function and domestication-related phenotypic changes, including fearfulness, song complexity, and stress responsiveness.",
+      "journal": "Journal of experimental zoology. Part A, Ecological and integrative physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41809052",
+      "title": "High-throughput assessment of vocal modulation following chemogenetic inhibition in songbirds",
+      "year": 2026,
+      "doi": "10.1016/j.isci.2026.114981",
+      "abstract": "Chemogenetic tools that enable reversible manipulation of neuronal activity are essential for studying the neural bases of behavior, yet their application in songbirds remains limited. Here, we evaluated inhibitory DREADD (designer receptors exclusively activated by designer drugs)-mediated suppression in two widely studied songbird species: zebra finches (",
+      "journal": "iScience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39973966",
+      "title": "Social context affects sequence modification learning in birdsong",
+      "year": 2025,
+      "doi": "10.3389/fpsyg.2025.1488762",
+      "abstract": "Social interactions are crucial for imitative vocal learning such as human speech learning or song learning in songbirds. Recently, introducing specific learned modifications into adult song by experimenter-controlled reinforcement learning has emerged as a key protocol to study aspects of vocal learning in songbirds. This form of adult plasticity does not require conspecifics as a model for imitation or to provide social feedback on song performance. We therefore hypothesized that social interactions are irrelevant to, or even inhibit, song modification learning. We tested whether social context affects song sequence learning in adult male Bengalese finches (",
+      "journal": "Frontiers in psychology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39890464",
+      "title": "The Temporal Organization of Learned Vocal Behavior Is Predicted by Species Rather Than Experience",
+      "year": 2025,
+      "doi": "10.1523/JNEUROSCI.0576-24.2025",
+      "abstract": "Birdsong is hierarchically organized in time, like speech and other communication behaviors. Syllables are produced in sequences to form song motifs and bouts. While syllables are copied from tutors, the factors that determine song temporal organization, including syllable sequencing (syntax), are unknown. Here, we tested the roles of learning and species genetics in song organization. We manipulated juvenile song experience and genetics in three species of estrildid finches (zebra finches,",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_2305_iucn_uk_2024-2_rlts_t22719806a263764391_en",
       "title": "Lonchura striata: BirdLife International",
       "year": 2024,
@@ -234,11 +531,77 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_39877227",
+      "title": "Role of the ventral portion of intermediate arcopallium in stability of female Bengalese finch song preferences",
+      "year": 2024,
+      "doi": "10.3389/fpsyg.2024.1490858",
+      "abstract": "The process of decision making is a complex procedure influenced by both external and internal conditions. Songbirds provide an excellent model to investigate the neural mechanisms of decision making, because females rely on acoustic signals called songs as important stimuli in directing their mate choice. Previous experiments by our group and others have implicated secondary auditory brain sites in female evaluation of song quality, including the caudal portions of the nidopallium (NC) and mesopallium (CM). Recent pathway tracing experiments reveal a convergence of those sites onto a third region, the ventral portion of the intermediate arcopallium (AIV), suggesting that AIV may also play an important role in song evaluation and mate choice. Here we combined behavioral testing with lesion inactivation to investigate the role of AIV in song preference of female Bengalese finches (",
+      "journal": "Frontiers in psychology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38635312",
+      "title": "Lesions in a songbird vocal circuit increase variability in song syntax",
+      "year": 2024,
+      "doi": "10.7554/eLife.93272",
+      "abstract": "Complex skills like speech and dance are composed of ordered sequences of simpler elements, but the neuronal basis for the syntactic ordering of actions is poorly understood. Birdsong is a learned vocal behavior composed of syntactically ordered syllables, controlled in part by the songbird premotor nucleus HVC (proper name). Here, we test whether one of HVC's recurrent inputs, mMAN (medial magnocellular nucleus of the anterior nidopallium), contributes to sequencing in adult male Bengalese finches (",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37675437",
+      "title": "Reversible inhibition of the basal ganglia prolongs repetitive vocalization but only weakly affects sequencing at branch points in songbirds",
+      "year": 2023,
+      "doi": "10.1093/texcom/tgad016",
+      "abstract": "Although vocal signals, including languages and songbird syllables, are composed of a finite number of acoustic elements, diverse vocal sequences are composed of a combination of these elements, which are linked together by syntactic rules. However, the neural basis of syntactic vocalization generation remains poorly understood. Here, we report that inhibition using tetrodotoxin (TTX) and manipulations of gamma-aminobutyric acid (GABA) receptors within the basal ganglia Area X or lateral magnocellular nucleus of the anterior neostriatum (LMAN) alter and prolong repetitive vocalization in Bengalese finches (",
+      "journal": "Cerebral cortex communications",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37433016",
+      "title": "The effects of Wnt, BMP, and Notch signaling pathways on cell proliferation and neural differentiation in a song control nucleus (HVC) of Lonchura striata",
+      "year": 2023,
+      "doi": "10.1002/dneu.22920",
+      "abstract": "There is obvious sexual dimorphism in the song control system of songbirds. In the higher vocal center (HVC), cell proliferation and neuronal differentiation contribute to the net addition of neurons. However, the mechanism underlying these changes is unclear. Given that Wnt, Bmp, and Notch pathways are involved in cell proliferation and neuronal differentiation, no reports are available to study the role of the three pathways in the song control system. To address the issue, we studied cell proliferation in the ventricle zone overlying the developing HVC and neural differentiation within the HVC of Bengalese finches (Lonchura striata) at posthatching day 15 when HVC progenitor cells are generated on a large scale and differentiate into neurons, after Wnt and Bmp pathways were activated by using a pharmacological agonist (LiCl) or Bmp4, respectively, and the Notch pathway was inhibited by an inhibitor (N-[N-(3,5-difluorophenacetyl)-l-alanyl]-S-phenylglycine t-butyl ester), DAPT). The results indicated that both cell proliferation and neural differentiation toward HVC neurons increased significantly after activation of the Wnt signaling pathway or inhibition of the Notch signaling pathway. Although cell proliferation was increased, neural differentiation was inhibited after treatment with Bmp4. There was obvious synergetic enhancement in the number of proliferating cells after the coregulation of two or three signaling pathways. In addition, synergetic enhancement was also found in the Wnt and Notch pathways in neural differentiation toward neurons within HVC. These results suggest that the three signaling pathways are involved in cell proliferation and neural differentiation of HVC.",
+      "journal": "Developmental neurobiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36416416",
+      "title": "Preparing to sing: respiratory patterns underlying motor readiness for song",
+      "year": 2022,
+      "doi": "10.1152/jn.00551.2021",
+      "abstract": "Evidence for motor preparation and planning comes from neural activity preceding neural commands to activate the effectors; such preparatory activity is observed in pallial areas controlling learned motor behaviors. Vocal learning in songbirds is an example of a learned, sequential motor behavior that is a respiratory motor act and where there is evidence for neuromuscular planning. Respiration is the foundation of vocalization, elucidating the neural control of song motor planning requires studying respiratory antecedents of song initiation. Despite the importance of respiration in song production, few studies have investigated respiratory antecedents of impending vocalizations. Therefore, we investigated respiratory patterns in male zebra finches (",
+      "journal": "Journal of neurophysiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36107757",
+      "title": "Shared mechanisms of auditory and non-auditory vocal learning in the songbird brain",
+      "year": 2022,
+      "doi": "10.7554/eLife.75691",
+      "abstract": "Songbirds and humans share the ability to adaptively modify their vocalizations based on sensory feedback. Prior studies have focused primarily on the role that auditory feedback plays in shaping vocal output throughout life. In contrast, it is unclear how non-auditory information drives vocal plasticity. Here, we first used a reinforcement learning paradigm to establish that somatosensory feedback (cutaneous electrical stimulation) can drive vocal learning in adult songbirds. We then assessed the role of a songbird basal ganglia thalamocortical pathway critical to auditory vocal learning in this novel form of vocal plasticity. We found that both this circuit and its dopaminergic inputs are necessary for non-auditory vocal learning, demonstrating that this pathway is critical for guiding adaptive vocal changes based on both auditory and somatosensory signals. The ability of this circuit to use both auditory and somatosensory information to guide vocal learning may reflect a general principle for the neural systems that support vocal plasticity across species.",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35694395",
+      "title": "Effect of Darkness on Intrinsic Motivation for Undirected Singing in Bengalese Finch (",
+      "year": 2022,
+      "doi": "10.3389/fphys.2022.884404",
+      "abstract": "The zebra finch (ZF) and the Bengalese finch (BF) are animal models that have been commonly used for neurobiological studies on vocal learning. Although they largely share the brain structure for vocal learning and production, BFs produce more complex and variable songs than ZFs, providing a great opportunity for comparative studies to understand how animals learn and control complex motor behaviors. Here, we performed a comparative study between the two species by focusing on intrinsic motivation for non-courtship singing (\"undirected singing\"), which is critical for the development and maintenance of song structure. A previous study has demonstrated that ZFs dramatically increase intrinsic motivation for undirected singing when singing is temporarily suppressed by a dark environment. We found that the same procedure in BFs induced the enhancement of intrinsic singing motivation to much smaller degrees than that in ZFs. Moreover, unlike ZFs that rarely sing in dark conditions, substantial portion of BFs exhibited frequent singing in darkness, implying that such \"dark singing\" may attenuate the enhancement of intrinsic singing motivation during dark periods. In addition, measurements of blood corticosterone levels in dark and light conditions provided evidence that although BFs have lower stress levels than ZFs in dark conditions, such lower stress levels in BFs are not the major factor responsible for their frequent dark singing. Our findings highlight behavioral and physiological differences in spontaneous singing behaviors of BFs and ZFs and provide new insights into the interactions between singing motivation, ambient light, and environmental stress.",
+      "journal": "Frontiers in physiology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1101_2021_03_23_436696",
@@ -248,11 +611,27 @@
       "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Bengalese finches (\n                  <jats:italic>Lonchura striata</jats:italic>\n                  var.\n                  <jats:italic>domestica</jats:italic>\n                  ) have more complex song traits than their wild ancestors, white-rumped munias (\n                  <jats:italic>Lonchura striata</jats:italic>\n                  ). Domesticated finches are likely able to allocate more resources to song development rather than allocating resources to mechanisms aimed at coping with predation, which are no longer needed under domesticated conditions. Here, we aimed to examine the effects of changes in selection pressure due to domestication on the behaviour of Bengalese finches and to contemplate the possible evolutionary mechanisms underlying these changes. To do so, we compared neophobic responses to novel-object conditions as an assessment of reactions to potential predators. We studied groups of Beng",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_34530107",
+      "title": "Effects of domestication on neophobia: A comparison between the domesticated Bengalese finch (Lonchura striata var. domestica) and its wild ancestor, the white-rumped munia (Lonchura striata)",
+      "year": 2021,
+      "doi": "10.1016/j.beproc.2021.104502",
+      "abstract": "Bengalese finches (Lonchura striata var. domestica) have more complex song traits than their wild ancestors, white-rumped munias (Lonchura striata). Domesticated finches are likely able to allocate more resources to reproduction (e.g. singing) rather than to mechanisms intended for coping with predation, which are no longer needed under domesticated conditions. Here, we aimed to examine the effects of changes in selection pressure due to domestication on the behaviour of Bengalese finches and to contemplate the possible evolutionary mechanisms underlying these changes. To do so, we compared neophobic responses to novel-object conditions as an assessment of reactions to potential predators. We studied groups of Bengalese finches and white-rumped munias and found that Bengalese finches were more likely to eat the food provided to them under novel-object conditions. Bengalese finches had a shorter latency time to eat, and this latency time was less affected by the novel object in the case of Bengalese finches compared to white-rumped munias. Therefore, Bengalese finches have reduced neophobic responses due to domestication. The behavioural strategies of white-rumped munias appear to be more suitable for natural environments, which include unpredictable risks, whereas Bengalese finches have likely adapted their behaviour to the conditions of artificial selection.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34060473",
+      "title": "Songbirds can learn flexible contextual control over syllable sequencing",
+      "year": 2021,
+      "doi": "10.7554/eLife.61610",
+      "abstract": "The flexible control of sequential behavior is a fundamental aspect of speech, enabling endless reordering of a limited set of learned vocal elements (syllables or words). Songbirds are phylogenetically distant from humans but share both the capacity for vocal learning and neural circuitry for vocal control that includes direct pallial-brainstem projections. Based on these similarities, we hypothesized that songbirds might likewise be able to learn flexible, moment-by-moment control over vocalizations. Here, we demonstrate that Bengalese finches ( Human speech and birdsong share numerous parallels. Both humans and birds learn their vocalizations during critical phases early in life, and both learn by imitating adults. Moreover, both humans and songbirds possess specific circuits in the brain that connect the forebrain to midbrain vocal centers. Humans can flexibly control what they say and how by reordering a fixed set of syllables into endless combinations, an ability critical to human speech and language. Birdsongs also vary depending on their context, and melodies to seduce a mate will be different from aggressive songs to warn other males to stay away. However, so far it was unclear whether songbirds are also capable of modifying songs independent of social or other naturally relevant contexts. To test whether birds can control their songs in a purposeful way, Veit et al. trained adult male Bengalese finches to change the sequence of their songs in response to random colored lights that had no natural meaning to the birds. A specific computer program was used to detect different variations on a theme that the bird naturally produced (for example, “ab-c” versus “ab-d”), and rewarded birds for singing one sequence when the light was yellow, and the other when it was green. Gradually, the finches learned to modify their songs and were able to switch between the appropriate sequences as soon as the light cues changed. This ability persisted for days, even without an",
+      "journal": "eLife",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2173_bow_whrmun_01",
@@ -262,11 +641,27 @@
       "abstract": "",
       "journal": "Birds of the World",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_32041978",
+      "title": "Statistical learning for vocal sequence acquisition in a songbird",
+      "year": 2020,
+      "doi": "10.1038/s41598-020-58983-8",
+      "abstract": "Birdsong is a learned communicative behavior that consists of discrete acoustic elements (\"syllables\") that are sequenced in a controlled manner. While the learning of the acoustic structure of syllables has been extensively studied, relatively little is known about sequence learning in songbirds. Statistical learning could contribute to the acquisition of vocal sequences, and we investigated the nature and extent of sequence learning at various levels of song organization in the Bengalese finch, Lonchura striata var. domestica. We found that, under semi-natural conditions, pupils (sons) significantly reproduced the sequence statistics of their tutor's (father's) songs at multiple levels of organization (e.g., syllable repertoire, prevalence, and transitions). For example, the probability of syllable transitions at \"branch points\" (relatively complex sequences that are followed by multiple types of transitions) were significantly correlated between the songs of tutors and pupils. We confirmed the contribution of learning to sequence similarities between fathers and sons by experimentally tutoring juvenile Bengalese finches with the songs of unrelated tutors. We also discovered that the extent and fidelity of sequence similarities between tutors and pupils were significantly predicted by the prevalence of sequences in the tutor's song and that distinct types of sequence modifications (e.g., syllable additions or deletions) followed distinct patterns. Taken together, these data provide compelling support for the role of statistical learning in vocal production learning and identify factors that could modulate the extent of vocal sequence learning.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31967928",
+      "title": "Manipulations of inhibition in cortical circuitry differentially affect spectral and temporal features of Bengalese finch song",
+      "year": 2020,
+      "doi": "10.1152/jn.00142.2019",
+      "abstract": "The interplay between inhibition and excitation can regulate behavioral expression and control, including the expression of communicative behaviors like birdsong. Computational models postulate varying degrees to which inhibition within vocal motor circuitry influences birdsong, but few studies have tested these models by manipulating inhibition. Here we enhanced and attenuated inhibition in the cortical nucleus HVC (used as proper name) of Bengalese finches (",
+      "journal": "Journal of neurophysiology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3389_fnbeh_2016_00113",
@@ -276,11 +671,7 @@
       "abstract": "",
       "journal": "Frontiers in Behavioral Neuroscience",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2305_iucn_uk_2016-3_rlts_t22719806a94645276_en",
@@ -290,11 +681,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1121_1_4968577",
@@ -304,11 +691,7 @@
       "abstract": "Online regulation of vocalization in response to auditory feedback is one of the essential issues for vocal communication. One such audio-vocal interaction is the Lombard effect, an involuntary increase in vocal amplitude in response to the presence of background noise. Along with vocal amplitude, other acoustic characteristics, including fundamental frequency (F0), also change in some species. Bengalese finches (Lonchura striata var. domestica) are a suitable model for comparative, ethological, and neuroscientific studies on audio-vocal interaction because they require real-time auditory feedback of their own songs to maintain normal singing. Here, the changes in amplitude and F0 with a focus on the distinct song elements (i.e., notes) of Bengalese finches under noise presentation are demonstrated. To accurately analyze these acoustic characteristics, two different bandpass-filtered noises at two levels of sound intensity were used. The results confirmed that the Lombard effect occurs",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2014_1370",
@@ -318,11 +701,7 @@
       "abstract": "Many animals produce vocal sequences that appear complex. Most researchers assume that these sequences are well characterized as Markov chains (i.e. that the probability of a particular vocal element can be calculated from the history of only a finite number of preceding elements). However, this assumption has never been explicitly tested. Furthermore, it is unclear how language could evolve in a single step from a Markovian origin, as is frequently assumed, as no intermediate forms have been found between animal communication and human language. Here, we assess whether animal taxa produce vocal sequences that are better described by Markov chains, or by non-Markovian dynamics such as the 'renewal process' (RP), characterized by a strong tendency to repeat elements. We examined vocal sequences of seven taxa: Bengalese finches Lonchura striata domestica, Carolina chickadees Poecile carolinensis, free-tailed bats Tadarida brasiliensis, rock hyraxes Procavia capensis, pilot whales Globice",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2305_iucn_uk_2012-1_rlts_t22719806a38418240_en",
@@ -332,11 +711,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fnevo_2012_00012",
@@ -346,11 +721,7 @@
       "abstract": "Vocal learners such as humans and songbirds can learn to produce elaborate patterns of structurally organized vocalizations, whereas many other vertebrates such as non-human primates and most other bird groups either cannot or do so to a very limited degree. To explain the similarities among humans and vocal-learning birds and the differences with other species, various theories have been proposed. One set of theories are motor theories, which underscore the role of the motor system as an evolutionary substrate for vocal production learning. For instance, the motor theory of speech and song perception proposes enhanced auditory perceptual learning of speech in humans and song in birds, which suggests a considerable level of neurobiological specialization. Another, a motor theory of vocal learning origin, proposes that the brain pathways that control the learning and production of song and speech were derived from adjacent motor brain pathways. Another set of theories are cognitive theo",
       "journal": "Frontiers in Evolutionary Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_czoolo_55_5_357",
@@ -360,11 +731,7 @@
       "abstract": "Abstract Over-shadowed by eye-catching vocal and visual signals, chemical communication has long been overlooked in birds. This study aimed at exploring whether volatile composition of the uropygial gland secretion (UGS) of birds was associated with the information about sex, individual and species. By using dichloromethane extraction and gas chromatography-mass spectrometry (GC-MS), we analyzed the UGS volatiles of domesticated Bengalese finches (Lonchura striata, Estrildiea) which is also known as white-rumped munias. We characterized 16 volatile molecules from the UGS, including eight n-alkanols, five diesters, an ester, an aldehyde and a fatty acid, and quantified them in terms of GC peak area percentages (relative abundances). Among these compounds, hexadecanol and octadecanol were major components in both sexes. The former was richer in males than in females and the latter richer in females than in males, suggesting that they might be male and female pheromone candidates, respect",
       "journal": "Current Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_2448-08_2008",
@@ -374,11 +741,7 @@
       "abstract": "Birdsong is a learned behavior remarkable for its high degree of stereotypy. Nevertheless, adult birds display substantial rendition-by-rendition variation in the structure of individual song elements or \"syllables.\" Previous work suggests that some of this variation is actively generated by the avian basal ganglia circuitry for purposes of motor exploration. However, it is unknown whether and how natural variations in premotor activity drive variations in syllable structure. Here, we recorded from the premotor nucleus robust nucleus of the arcopallium (RA) in Bengalese finches and measured whether neural activity covaried with syllable structure across multiple renditions of individual syllables. We found that variations in premotor activity were significantly correlated with variations in the acoustic features (pitch, amplitude, and spectral entropy) of syllables in approximately a quarter of all cases. In these cases, individual neural recordings predicted 8.5 +/- 0.3% (mean +/- SE)",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1642_0004-8038(2006)123[639:aciunc]2_0_co;2",
@@ -388,11 +751,7 @@
       "abstract": "SUCCESSFUL ACOUSTIC COMMUNICATION requires that sounds propagate through the environment between the sender and receiver; vocalizations that transmit effectively in the habitat in which they are used are favored by natural selection. This adaptation hypothesis (Morton 1975, Wiley and Richards 1978, Richards and Wiley 1980, Ryan and Brenowitz 1985) laid the groundwork for the drive concept (Endler 1992), which describes how environment affects the evolution of sensory systems and signals in all modalities. By allowing us to examine animal signals as adaptations shaped by selection, this framework has lead to a greater understanding of the bewildering diversity of animal signals. One of the environmental factors that exerts selection pressure on acoustic signals is ambient noise (Ryan and Brenowitz 1985). To elicit a response from a receiver, signals must be detectable in background noise; the detectability of a signal is determined by the signal-to-noise ratio (SNR) and the masked audit",
       "journal": "The Auk",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_4369-03_2004",
@@ -402,11 +761,7 @@
       "abstract": "Most vertebrates communicate acoustically, but few, among them humans, dolphins and whales, bats, and three orders of birds, learn this trait. FOXP2 is the first gene linked to human speech and has been the target of positive selection during recent primate evolution. To test whether the expression pattern of FOXP2 is consistent with a role in learned vocal communication, we cloned zebra finch FoxP2 and its close relative FoxP1 and compared mRNA and protein distribution in developing and adult brains of a variety of avian vocal learners and non-learners, and a crocodile. We found that the protein sequence of zebra finch FoxP2 is 98% identical with mouse and human FOXP2. In the avian and crocodilian forebrain, FoxP2 was expressed predominantly in the striatum, a basal ganglia brain region affected in patients with FOXP2 mutations. Strikingly, in zebra finches, the striatal nucleus Area X, necessary for vocal learning, expressed more FoxP2 than the surrounding tissue at post-hatch days 3",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2108_zsj_16_319",
@@ -416,11 +771,7 @@
       "abstract": "",
       "journal": "Zoological Science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_beheco_2_4_267",
@@ -430,11 +781,7 @@
       "abstract": "",
       "journal": "Behavioral Ecology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_0531-5565(67)90035-6",
@@ -444,14 +791,10 @@
       "abstract": "",
       "journal": "Experimental Gerontology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 31,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

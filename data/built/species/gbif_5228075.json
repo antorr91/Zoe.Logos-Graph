@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 8,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 18,
+    "doi_count": 21,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -42,32 +42,32 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "caw"
+    "caw",
+    "alarm call"
   ],
   "contexts": [
     "predator response",
-    "social communication",
-    "territorial defence"
+    "territorial defence",
+    "social communication"
   ],
   "functions": [
+    "territory signalling",
     "individual recognition",
-    "predator warning",
-    "territory signalling"
+    "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "caw",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -75,47 +75,298 @@
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territory signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1576,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1575,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1574,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1573,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1572,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1571,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1570,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1569,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1568,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1567,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1566,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1565,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1564,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1563,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1562,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1561,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1560,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1559,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Corvus corone",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1089434",
+        "provider": "xeno-canto",
+        "provider_id": "1089434",
+        "type": "nocturnal flight call (XC1089434)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1089434",
+        "audio": "https://xeno-canto.org/1089434/download",
+        "sono": "outputs\\spectrograms\\gbif_5228075.png",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "XC · Vandousselaere Patrick"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
@@ -139,6 +390,20 @@
       "title": "The ontogeny of vocal identity in carrion crows (Corvus corone)",
       "year": 2025,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-023-01785-y",
+      "url": "https://doi.org/10.1007/s10071-023-01785-y",
+      "title": "Are you better than me? Social comparisons in carrion crows (Corvus corone)",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.0739-20.2021",
+      "url": "https://doi.org/10.1523/JNEUROSCI.0739-20.2021",
+      "title": "Neural Code of Motor Planning and Execution during Goal-Directed Movements in Crows",
+      "year": 2021,
+      "source": "pubmed"
     },
     {
       "doi": "10.1002/cne.25112/v1/review2",
@@ -225,6 +490,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.5962/p.323946",
+      "url": "https://doi.org/10.5962/p.323946",
+      "title": "Carrion-Crow, Corvus corone [Pl. 58]",
+      "year": 1873,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1016/j.anbehav.2017.03.001",
       "url": "https://doi.org/10.1016/j.anbehav.2017.03.001",
       "title": "",
@@ -255,11 +527,7 @@
       "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>For social species, the ability to identify individual group members is crucial. Vocalizations often carry individual signatures that can serve as cues for the caller’s identity. However, it is still unclear how consistent these signatures are and how early they develop. Here, we investigate the development of vocal individuality in hand-raised carrion crows. Over the course of four weeks, spanning both the nestling and fledgling stage, we recorded vocalisations of known individuals across various behavioural contexts. We show that vocal individuality is present early on and is encoded by several acoustic parameters whose importance remains consistent as the birds age. Additionally, while vocal dissimilarity between individuals generally increased over time, the pattern of change varied across contexts. Our findings highlight the dynamic nature of vocal individuality coding during early life and provide new insights into the r",
       "journal": "Animal Cognition",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-025-01985-8",
@@ -269,11 +537,7 @@
       "abstract": "Many communicative systems have been selected for efficiency, shaped by the trade-off between information transmission and energetic or temporal constraints. Linguistic laws such as Menzerath's law-predicting shorter elements in longer sequences-have emerged as widespread principles across vocal communication in many species. While these laws have been predominantly studied at the species level, the influence of individual and social factors remain underexplored. In this study, we investigated adherence to Menzerath's law in the vocal communication of carrion crows, Corvus corone corone, hooded crows, Corvus corone cornix and hybrids. Our findings show that crow call sequences adhere to Menzerath's law, with shorter calls occurring in longer sequences, demonstrating structural efficiency in vocal communication. In carrion crows specifically, we analysed call sequences in relation to individual characteristics (sex, age) and social variables (group size, dominance status, strength of af",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_s10071-025-02018-0",
@@ -283,11 +547,67 @@
       "abstract": "Understanding vocal communication is essential to unraveling avian social behavior and cognition; however, audio recording remains particularly challenging in field studies involving wild populations. In this study, we deployed a lightweight, multi-sensor biologging device (MiniDTAG) designed for medium- to large-sized birds. The device integrates a microphone, accelerometer, magnetometer, and pressure sensors into a 12.5 g package, enabling high-fidelity acoustic and behavioral data collection. We deployed 52 MiniDTAGs over three breeding seasons in free-ranging cooperatively breeding carrion crows (Corvus corone) in northern Spain. The auto-releasing attachment method allowed the birds to free themselves from the tag after 18.5 days, on average. We recovered 87% tags, collecting over 83 h of data per device on average. Using a machine learning model (Voxaboxen), we detected over 127,000 vocalizations and assigned them to focal tagged individuals, adult conspecifics, crow chicks, and ",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_41402471",
+      "title": "The ontogeny of vocal identity in carrion crows (Corvus corone)",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-02021-5",
+      "abstract": "For social species, the ability to identify individual group members is crucial. Vocalizations often carry individual signatures that can serve as cues for the caller's identity. However, it is still unclear how consistent these signatures are and how early they develop. Here, we investigate the development of vocal individuality in hand-raised carrion crows. Over the course of four weeks, spanning both the nestling and fledgling stage, we recorded vocalisations of known individuals across various behavioural contexts. We show that vocal individuality is present early on and is encoded by several acoustic parameters whose importance remains consistent as the birds age. Additionally, while vocal dissimilarity between individuals generally increased over time, the pattern of change varied across contexts. Our findings highlight the dynamic nature of vocal individuality coding during early life and provide new insights into the relationship between vocal and social development in corvids.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41160145",
+      "title": "Capturing vocal communication in a free-living corvid: high-resolution data from low-impact miniaturized tags",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-02018-0",
+      "abstract": "Understanding vocal communication is essential to unraveling avian social behavior and cognition; however, audio recording remains particularly challenging in field studies involving wild populations. In this study, we deployed a lightweight, multi-sensor biologging device (MiniDTAG) designed for medium- to large-sized birds. The device integrates a microphone, accelerometer, magnetometer, and pressure sensors into a 12.5 g package, enabling high-fidelity acoustic and behavioral data collection. We deployed 52 MiniDTAGs over three breeding seasons in free-ranging cooperatively breeding carrion crows (Corvus corone) in northern Spain. The auto-releasing attachment method allowed the birds to free themselves from the tag after 18.5 days, on average. We recovered 87% tags, collecting over 83 h of data per device on average. Using a machine learning model (Voxaboxen), we detected over 127,000 vocalizations and assigned them to focal tagged individuals, adult conspecifics, crow chicks, and parasitic great spotted cuckoo nestlings (Clamator glandarius) with high precision and recall. We also explored the potential of accelerometer data to identify specific behaviors within a cooperative context, namely anti-predator mobbing. To evaluate logger impact, we analyzed 825 h of video from 22 crow groups and found minimal effects on brood feeding rates and reproductive success. Our results highlight the MiniDTAG's potential to advance the study of animal communication by capturing vocalizations across the whole range of amplitudes. This approach opens new avenues for exploring the mechanisms of cooperation and information exchange in complex social systems and lays the groundwork for future comparative studies in corvid communication.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40742461",
+      "title": "Vocal efficiency in crows",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01985-8",
+      "abstract": "Many communicative systems have been selected for efficiency, shaped by the trade-off between information transmission and energetic or temporal constraints. Linguistic laws such as Menzerath's law-predicting shorter elements in longer sequences-have emerged as widespread principles across vocal communication in many species. While these laws have been predominantly studied at the species level, the influence of individual and social factors remain underexplored. In this study, we investigated adherence to Menzerath's law in the vocal communication of carrion crows, Corvus corone corone, hooded crows, Corvus corone cornix and hybrids. Our findings show that crow call sequences adhere to Menzerath's law, with shorter calls occurring in longer sequences, demonstrating structural efficiency in vocal communication. In carrion crows specifically, we analysed call sequences in relation to individual characteristics (sex, age) and social variables (group size, dominance status, strength of affiliative relationships). Interestingly, adherence to Menzerath's law was stronger in males and younger individuals, while no effects were found for group size, dominance, or affiliative relationships. This study provides the first evidence of Menzerath's law in corvid vocal communication and suggests that individual-level traits, rather than broader social dynamics, may shape vocal efficiency. These findings broaden our understanding of widespread principles in animal communication and raise new questions about the ontogeny and flexibility of vocal efficiency in complex social species.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37219737",
+      "title": "Are you better than me? Social comparisons in carrion crows (Corvus corone)",
+      "year": 2023,
+      "doi": "10.1007/s10071-023-01785-y",
+      "abstract": "Comparing oneself to others is a key process in humans that allows individuals to gauge their performances and abilities and thus develop and calibrate their self-image. Little is known about its evolutionary foundations. A key feature of social comparison is the sensitivity to other individuals' performance. Recent studies on primates produced equivocal results, leading us to distinguish between a 'strong' variant of the social comparison hypothesis formulated for humans and a 'weak' variant found in non-human primates that would comprise some elements of human social comparison. Here, we focus on corvids that are distantly related to primates and renowned for their socio-cognitive skills. We were interested in whether crows' task performances were influenced (i) by the presence of a conspecific co-actor performing the same discrimination task and (ii) by the simulated acoustic cues of a putative co-actor performing better or worse than themselves. Crows reached a learning criterion quicker when tested simultaneously as compared to when tested alone, indicating a facilitating effect of social context. The performance of a putative co-actor influenced their performance: crows were better at discriminating familiar images when their co-actor was better than they were. Standard extremity (how pronounced the difference was between the performance of the subject and that of the co-actor), and category membership (affiliation status and sex), of the putative co-actors had no effect on their performance. Our findings are in line with the 'weak' variant of social comparison and indicate that elements of human social comparison can be found outside of primates.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33608384",
+      "title": "Neural Code of Motor Planning and Execution during Goal-Directed Movements in Crows",
+      "year": 2021,
+      "doi": "10.1523/JNEUROSCI.0739-20.2021",
+      "abstract": "The planning and execution of head-beak movements are vital components of bird behavior. They require integration of sensory input and internal processes with goal-directed motor output. Despite its relevance, the neurophysiological mechanisms underlying action planning and execution outside of the song system are largely unknown. We recorded single-neuron activity from the associative endbrain area nidopallium caudolaterale (NCL) of two male carrion crows (",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33474740",
+      "title": "A histological study of the song system of the carrion crow (Corvus corone)",
+      "year": 2021,
+      "doi": "10.1002/cne.25112",
+      "abstract": "The song system of songbirds (oscines) is one of the best studied neuroethological model systems. So far, it has been treated as a relatively constrained sensorimotor system. Songbirds such as crows, however, are also known for their capability to cognitively control their audio-vocal system. Yet, the neuroanatomy of the corvid song system has never been explored systematically. We aim to close this scientific gap by presenting a stereotactic investigation of the extended song system of the carrion crow (Corvus corone), an oscine songbird of the corvid family that has become an interesting model system for cognitive neuroscience. In order to identify and delineate the song nuclei, the ascending auditory nuclei, and the descending vocal-motor nuclei, four stains were applied. In addition to the classical Nissl-, myelin-, and a combination of Nissl-and-myelin staining, staining for tyrosine hydroxylase was used to reveal the distribution of catecholaminergic neurons (dopaminergic, noradrenergic, and adrenergic) in the song system. We show that the crow brain contains the important song-related nuclei, including auditory input and motor output structures, and map them throughout the brain. Fiber-stained sections reveal putative connection patterns between the crow's song nuclei comparable to other songbirds.",
+      "journal": "The Journal of comparative neurology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1002_cne_25112_v1_review3",
@@ -297,11 +617,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_cne_25112_v1_review2",
@@ -311,11 +627,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_15461",
@@ -325,11 +637,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00265-018-2607-2",
@@ -339,11 +647,7 @@
       "abstract": "In the last decades, the assumption that complex social life is cognitively challenging, and thus can drive mental evolution, has received much support from empirical studies in nonhuman primates. While extending the scope to other mammals and birds, different views have been adopted on what constitutes social complexity and which specific cognitive skills are selected for. Notably, many avian species form \"open\" groups as non-breeders (i.e., seasonally and before sexual maturity) that have been largely ignored as potential sources of social complexity. Reviewing 30 years of research on ravens, we illustrate the socio-ecological conditions faced by these birds as non-breeders and discuss how these relate to their socio-cognitive skills. We argue that the non-breeding period is key to understand raven social life and, to a larger extent, avian social life in general. We furthermore emphasize how the combination of the large-scale perspective (defining social system components: e.g., soc",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_88281",
@@ -353,11 +657,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10071-016-1064-4",
@@ -367,11 +667,37 @@
       "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28099075",
+      "title": "OCCURRENCE AND RELEVANCE OF MYCOPLASMA STURNI IN FREE-RANGING CORVIDS IN GERMANY",
+      "year": 2017,
+      "doi": "10.7589/2015-12-350",
+      "abstract": "Several Mycoplasma spp. are well-known pathogens in poultry. In birds of prey, White Storks ( Ciconia ciconia ), and some waterfowl (Anatidae, Pelecanidae) species, mycoplasmas occur commonly and seem to be apathogenic or commensal and most likely belong to the physiologic microbial flora of the respiratory tract. In other bird species, such as Common Nightingales ( Luscinia megarhynchos ) and tits (Paridae), Mycoplasma spp. are absent in healthy birds. In corvids, the prevalence and role of Mycoplasma spp. in disease remains unclear. In previous studies, Mycoplasma sturni was detected in diseased corvids; however, those studies included only a limited sample size or preselected individuals. We collected tracheal swabs of 97 free-ranging Corvidae, including 68 randomly selected individuals from hunting bags and 29 birds that had been admitted to a veterinary clinic. Tracheal swabs were examined for Mycoplasma spp. using culture and genus-specific PCR. If Mycoplasma spp. were detected, the species were identified by sequencing the 16S ribosomal (r) RNA gene and 16-23S rRNA intergenic transcribed spacer region. Five of 68 (7%) of the hunted birds and nine of 29 (31%) of the birds admitted to the veterinary clinic were PCR positive. In 13 of 14 PCR-positive samples, mycoplasmas were cultured and M. sturni was the only mycoplasmal species identified. None of the positive corvids from the hunting bags had clinical signs, whereas five of nine birds admitted to the veterinary clinic showed apathy, lameness, injuries, or fractures, which may not be associated with mycoplasmal infections. These data support the notion that M. sturni is the Mycoplasma sp. most frequently found in corvids, though its prevalence and ability to cause disease may involve interaction with other aspects of bird health.",
+      "journal": "Journal of wildlife diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_26067282",
+      "title": "Carrion crows learn to discriminate between calls of reliable and unreliable conspecifics",
+      "year": 2015,
+      "doi": "10.1007/s10071-015-0879-8",
+      "abstract": "Partner choice on the basis of an individual's reliability is expected to stabilize social interactions. In this experiment, we tested whether carrion crows (Corvus corone corone) learn to differentiate between calls of reliable or unreliable individuals. Crows were kept in an aviary that comprised four visually but not acoustically isolated compartments, separated by a central room. In an association phase, a dead crow placed in the central compartment was visible only to one of the four crow groups, whilst alert calls of a conspecific were played back. Therefore, these calls were reliable for that group, but unreliable for the three other groups. The procedure was repeated, using a different reliable caller for each group. In two test sessions, 1 month apart, reliable and unreliable model individuals were played back, but no dead crow was presented. We quantified birds' attention behaviour and the number of vocalisations emitted. In the association phase, crows were more attentive towards the reliable compared with the unreliable stimuli and called more in response to reliable compared to unreliable individuals. In the test and repeat phase, attention behaviour did not differ between reliability conditions, but the pattern of vocal behaviour reversed, with crows calling less frequent when listening to reliable compared with unreliable calls. Vocal responses of crows suggest that they can discriminate between reliable and unreliable callers.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25447513",
+      "title": "Behavioural responses to olfactory cues in carrion crows",
+      "year": 2015,
+      "doi": "10.1016/j.beproc.2014.11.009",
+      "abstract": "Until recently, the use of olfactory signals in birds has been largely ignored, despite the fact that birds do possess a fully functioning olfactory system and have been shown to use odours in social and foraging tasks, predator detection and orientation. The present study investigates whether carrion crows (Corvus corone corone), a bird species living in complex social societies, respond behaviourally to olfactory cues of conspecifics. During our experiment, carrion crows were observed less often close to the conspecific scent compared to a control side. Because conspecific scent was extracted during handling, a stressful procedure for birds, we interpreted the general avoidance of the 'scent' side as disfavour against a stressed conspecific. However, males, unlike females, showed less avoidance towards the scent of a familiar individual compared to an unfamiliar one, which might reflect a stronger interest in the information conveyed and/or willingness to provide social support.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1365-294x_2009_04471_x",
@@ -381,11 +707,17 @@
       "abstract": "Recent advances in sequencing technology promise to provide new strategies for studying population differentiation and speciation phenomena in their earliest phases. We focus here on the black carrion crow (Corvus [corone] corone), which forms a zone of hybridization and overlap with the grey coated hooded crow (Corvus [corone] cornix). However, although these semispecies are taxonomically distinct, previous analyses based on several types of genetic markers did not reveal significant molecular differentiation between them. We here corroborate this result with sequence data obtained from a set of 25 nuclear intronic loci. Thus, the system represents a case of a very early phase of species divergence that requires new molecular approaches for its description. We have therefore generated RNAseq expression profiles using barcoded massively parallel pyrosequencing of brain mRNA from six individuals of the carrion crow and five individuals from a hybrid zone with the hooded crow. We obtaine",
       "journal": "Molecular Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_18177178",
+      "title": "Measurements and predictions of hooded crow (Corvus corone cornix) call propagation over open field habitats",
+      "year": 2008,
+      "doi": "10.1121/1.2817363",
+      "abstract": "In a study of hooded crow communication over open fields an excellent correspondence is found between the attenuation spectra predicted by a \"turbulence-modified ground effect plus atmospheric absorption\" model, and crow call attenuation data. Sound propagation predictions and background noise measurements are used to predict an optimal frequency range for communication (\"sound communication window\") from an average of crow call spectra predicted for every possible combination of the sender/receiver separations 300, 600, 900, and 1200 m and heights 3,6,9 m thereby creating a matrix assumed relevant to crow interterritorial communication. These predictions indicate an optimal frequency range for sound communication between 500 Hz and 2 kHz. Since this corresponds to the frequency range in which crow calls have their main energy and crow hearing in noise is particularly sensitive, it suggests a specific adaptation to the ground effect. Sound propagation predictions, together with background noise measurements and hearing data, are used to estimate the radius of the hooded crow active space. This is found to be roughly 1 km in moderately windy conditions. It is concluded that the propagation modeling of the sort introduced here could be used for assessing the impact of human noise on animal communication.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_2326_jjo_56_163",
@@ -395,11 +727,27 @@
       "abstract": "",
       "journal": "Japanese Journal of Ornithology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_18095479",
+      "title": "[Differences in vocalization and morphology of the syrinx between Carrion crows (Corvus corone) and Jungle crows (C. macrorhynchos)]",
+      "year": 2007,
+      "doi": null,
+      "abstract": "The vocal characteristics and the morph of the syrinx in Carrion crows (Corvus corone) and those in Jungle crows (C. macrorhynchos) were compared. The vocalizations of both species of crow were recorded into sonograms and analyzed. The appearance and inner configuration of the syrinx were observed using stereoscopic microscope. In addition, the inside diameter of the syrinx, the sizes of the labia and the attached position of the syringeal muscles were measured. The attached figures of syringeal muscles were different between the two species. The vocalizations of Carrion crows were noisier than possibly because their labias were noticeably smaller than those of Jungle crows. The attachment patterns of the syringeal muscles in Jungle crows suggested that they allow for more flexibility on the inside structure of the syrinx. The inner space of the syrinx in Jungle crows was also wider than those of Carrion crows. These results suggested that Jungle crows may be able to make various vocalizations because of these morphological characteristics.",
+      "journal": "Kaibogaku zasshi. Journal of anatomy",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_16521788",
+      "title": "Hearing sensitivity and critical ratios of hooded crows (Corvus corone cornix)",
+      "year": 2006,
+      "doi": "10.1121/1.2159431",
+      "abstract": "The hearing threshold and critical ratios were estimated psycho-acoustically for captive wild-caught hooded crows by a yes/no procedure and the method of constant stimuli. Human subjects were tested in the same setup for direct comparison and to check for experimental artifacts. The hooded crows were found to have excellent low-frequency hearing capabilities compared to other passerine birds. Their hearing sensitivity is very close to that of humans at and below 5.6 kHz. The distribution of the critical ratios differed from that of the average bird and humans in being rather constant with frequency and not increasing monotonically. It furthermore showed a middle region of 5-6 dB lower critical ratio values between 500 Hz and 2 kHz. It is suggested that this improved range for hearing in noise is an adaptation to long distance communication. Human critical ratios gave the expected values and were between 3 and 6 dB lower than those of the crows.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_icb_38_1_179",
@@ -409,11 +757,7 @@
       "abstract": "SYNOPSIS. The developmental processes through which songbirds acquire their species—typical songs have been well—studied from a proximate perspective, but less attention has been given to the ultimate question of why birds learn to sing. We present a new hypothesis for the adaptive significance of song learning in songbirds, suggesting that this specialized form of vocal development provides an indicator mechanism by which females can accurately assess the quality of potential mates. This hypothesis expands on the established idea that song can provide an indicator of male quality, but it explicitly links the variation in song expression that females use to choose mates to the developmental processes through which song is acquired. How well a male sings—reflected in repertoire size or in other learned features of a male's singing behavior—provides an honest indicator of quality because the timing of song learning and, more importantly, the timing of the development of brain structures ",
       "journal": "American Zoologist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "lit_gbif_5228075_10",
@@ -423,11 +767,17 @@
       "abstract": "Carrion crows (Corvus corone corone, L.) are highly intelligent birds in whose behaviour vocal communication plays a conspicuous part. Observation of crows reveals that their vocal repertoire is rich and varied. This study investigates the functions of the various acoustic signals produced by crows. Firstly, the signal repertoire of crows in the study area is described quantitatively with respect to call structure; previous studies have produced only variable, subjective definitions of crow calls. Next, the functions of the range of vocalizations are investigated using quantitative analyses with respect to context of the occurrence of call types in nature, and of the variation in call morphology. The use of vocalizations in selected naturally occurring contexts is then examined further by experiment. Decoys were used in controlled contexts to present some stimuli of territorial and anti-predator behaviour to a number of territorial pairs. Several discrete call types were identified, mo",
       "journal": "Figshare",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5228075_11",
+      "title": "Aspects of vocal communication in the carrion crow, Corvus corone corone",
+      "year": 1995,
+      "doi": null,
+      "abstract": "Carrion crows (Corvus corone corone, L.) are highly intelligent birds in whose behaviour vocal communication plays a conspicuous part. Observation of crows reveals that their vocal repertoire is rich and varied. This study investigates the functions of the various acoustic signals produced by crows. Firstly, the signal repertoire of crows in the study area is described quantitatively with respect to call structure; previous studies have produced only variable, subjective definitions of crow calls. Next, the functions of the range of vocalizations are investigated using quantitative analyses with respect to context of the occurrence of call types in nature, and of the variation in call morphology. The use of vocalizations in selected naturally occurring contexts is then examined further by experiment. Decoys were used in controlled contexts to present some stimuli of territorial and anti-predator behaviour to a number of territorial pairs. Several discrete call types were identified, mo",
+      "journal": "Figshare",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1080_11250009409355878",
@@ -437,11 +787,7 @@
       "abstract": "",
       "journal": "Bolletino di zoologia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1515_znc-1973-1-213",
@@ -451,11 +797,7 @@
       "abstract": "<jats:p>The uropygial gland fat from the jackdaw, the carrion and the hooded crow are shown to be ester waxes. Chemotaxonomically the latter two are undiscernible. Their uropygial waxes consist of 4- and 6-monomethyl-, 4.6-, 4.8-, and 4.10-dimethyl- and 4.6.10- and 4.6.12-trimethyl- substituted fatty acids and n- (59.7%) as well as monomethyl-branched alkanols with branches in 4-, 6-, 10-, and 14-position. In contrast to the jackdaw they show no relation to the earlier investigated rook.</jats:p>\n               <jats:p>The uropygial gland fat from the jackdaw is composed of n- (35.7%) and 2-methyl-substituted fatty acids (64.3%) and w-(87.5%) and 2 methyl-substituted alkanols (12,5).</jats:p>",
       "journal": "Zeitschrift für Naturforschung C",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1364722",
@@ -465,11 +807,17 @@
       "abstract": "Journal Article The Evolutionary and Taxonomic Significance of Sexual Dimorphism and Hybridization in Birds Get access Charles G. Sibley Charles G. Sibley Department of Conservation, Cornell University, Ithaca, New York Search for other works by this author on: Oxford Academic Google Scholar The Condor, Volume 59, Issue 3, 1 May 1957, Pages 166–191, https://doi.org/10.2307/1364722 Published: 01 May 1957",
       "journal": "Ornithological Applications",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_5962_p_323946",
+      "title": "Carrion-Crow, Corvus corone [Pl. 58]",
+      "year": 1873,
+      "doi": "10.5962/p.323946",
+      "abstract": "",
+      "journal": "The birds of Great Britain",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_35376_10324_64916",
@@ -479,11 +827,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472926975_0262",
@@ -493,14 +837,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

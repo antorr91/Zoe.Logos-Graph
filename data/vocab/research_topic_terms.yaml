@@ -1,0 +1,272 @@
+# data/vocab/research_topic_terms.yaml
+# ─────────────────────────────────────────────────────────────────────────────
+# Controlled vocabulary for research topics in Zoe.Logos.
+#
+# A topic is the scientific question or cognitive capacity investigated by a paper.
+# It is NOT a context (behavioural situation) or a function (communicative role).
+#
+# Use this vocabulary when the paper's central research question concerns a
+# cognitive, developmental, evolutionary, or ecological phenomenon — not just
+# the situation in which a signal occurs.
+#
+# Examples:
+#   context:courtship   + topic:mate_choice        (paper testing female preference)
+#   context:group_move  + topic:individual_recognition (paper testing who-knows-whom)
+#   (no context)        + topic:vocal_learning      (paper on song acquisition)
+#
+# topic_category values:
+#   developmental  — ontogenetic processes and learning windows
+#   cognitive      — perception, memory, categorisation, discrimination
+#   social         — group dynamics, social bonds, hierarchy
+#   perceptual     — sensory processing of signals
+#   evolutionary   — selective pressures on signal form and use
+#   ecological     — environmental effects on signals and communication
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Developmental topics ───────────────────────────────────────────────────────
+
+- topic_id: topic:vocal_learning
+  canonical_label: vocal learning
+  topic_category: developmental
+  parent_topic_id: null
+  aliases:
+    - song learning
+    - acoustic learning
+    - vocal acquisition
+    - vocal development
+    - learned vocalisation
+    - imitative learning
+  definition: >
+    The process by which animals acquire, practise, or refine vocalisations
+    through auditory experience and imitation, as opposed to innate production.
+  scope_note: >
+    Use when the paper's primary research question concerns HOW a vocalisation
+    is acquired. Distinguish from context:vocal_learning (the developmental
+    situation in which signals are produced). If the paper is about the timing
+    of learning, also add topic:sensitive_period.
+
+- topic_id: topic:sensitive_period
+  canonical_label: sensitive period
+  topic_category: developmental
+  parent_topic_id: topic:vocal_learning
+  aliases:
+    - critical period
+    - learning window
+    - song crystallisation window
+    - sensitive phase
+  definition: >
+    A developmental window of heightened plasticity during which auditory
+    experience has maximal influence on vocal output.
+  scope_note: >
+    Use when the paper explicitly characterises the timing or boundaries of
+    a learning-sensitive window. Always co-assign topic:vocal_learning.
+
+- topic_id: topic:song_crystallisation
+  canonical_label: song crystallisation
+  topic_category: developmental
+  parent_topic_id: topic:vocal_learning
+  aliases:
+    - song stabilisation
+    - subsong to crystallised song
+    - plastic to stereotyped
+  definition: >
+    The transition from variable, exploratory song to the stereotyped adult
+    song pattern at the end of the vocal learning period.
+
+- topic_id: topic:prenatal_learning
+  canonical_label: prenatal learning
+  topic_category: developmental
+  parent_topic_id: topic:vocal_learning
+  aliases:
+    - embryonic learning
+    - in ovo learning
+    - in utero vocal learning
+  definition: >
+    Acoustic learning that occurs before hatching or birth, through
+    in-egg or in-utero auditory experience.
+
+# ── Cognitive topics ───────────────────────────────────────────────────────────
+
+- topic_id: topic:individual_recognition
+  canonical_label: individual recognition
+  topic_category: cognitive
+  parent_topic_id: null
+  aliases:
+    - individual discrimination
+    - individual identification
+    - identity processing
+    - familiar-unfamiliar discrimination
+  definition: >
+    The cognitive capacity to discriminate between specific known individuals
+    on the basis of signal features.
+  scope_note: >
+    Use when the paper tests whether animals can tell individuals apart.
+    Distinguish from fn:individual_recognition (the communicative function
+    of encoding identity in a signal). Both may apply simultaneously.
+
+- topic_id: topic:call_categorisation
+  canonical_label: call categorisation
+  topic_category: cognitive
+  parent_topic_id: null
+  aliases:
+    - acoustic categorisation
+    - signal classification
+    - call type discrimination
+    - categorical perception
+  definition: >
+    The cognitive capacity to group acoustic signals into discrete categories
+    (e.g. alarm call types, call repertoire classes).
+
+- topic_id: topic:referential_signalling
+  canonical_label: referential signalling
+  topic_category: cognitive
+  parent_topic_id: null
+  aliases:
+    - functional reference
+    - semantic signalling
+    - signal meaning
+    - predator-specific signalling
+  definition: >
+    The capacity of a signal to encode information about a specific external
+    referent (e.g. a particular predator category), independently of the
+    signaller's arousal state.
+
+- topic_id: topic:signal_learning
+  canonical_label: signal learning
+  topic_category: cognitive
+  parent_topic_id: null
+  aliases:
+    - call meaning learning
+    - learned signal interpretation
+    - semantic learning
+  definition: >
+    The process by which receivers learn the meaning or appropriate response
+    to a signal through experience.
+
+# ── Social topics ──────────────────────────────────────────────────────────────
+
+- topic_id: topic:mate_choice
+  canonical_label: mate choice
+  topic_category: social
+  parent_topic_id: null
+  aliases:
+    - female choice
+    - male choice
+    - partner preference
+    - sexual selection
+    - mate preference
+  definition: >
+    The process by which one sex (typically females) evaluates and selects
+    among potential mates on the basis of signal features.
+  scope_note: >
+    Use when the paper tests or models mate choice decisions. Distinct from
+    fn:mate_attraction (the signal function) and context:courtship (the situation).
+
+- topic_id: topic:kin_communication
+  canonical_label: kin communication
+  topic_category: social
+  parent_topic_id: null
+  aliases:
+    - parent-offspring communication
+    - sibling communication
+    - family recognition
+  definition: >
+    Communication specifically involving or adapted to interactions between kin.
+
+- topic_id: topic:cultural_transmission
+  canonical_label: cultural transmission
+  topic_category: social
+  parent_topic_id: topic:vocal_learning
+  aliases:
+    - cultural evolution
+    - song culture
+    - dialect evolution
+    - social transmission of signals
+  definition: >
+    The non-genetic spread of signal forms or repertoires through social
+    learning across individuals or generations.
+
+# ── Perceptual topics ─────────────────────────────────────────────────────────
+
+- topic_id: topic:auditory_perception
+  canonical_label: auditory perception
+  topic_category: perceptual
+  parent_topic_id: null
+  aliases:
+    - acoustic perception
+    - hearing
+    - auditory processing
+    - sound perception
+  definition: >
+    Perceptual processing of acoustic signals by the receiver, including
+    frequency discrimination, temporal resolution, and source localisation.
+
+- topic_id: topic:vocal_tract_acoustics
+  canonical_label: vocal tract acoustics
+  topic_category: perceptual
+  parent_topic_id: null
+  aliases:
+    - syrinx mechanics
+    - source-filter theory
+    - acoustic production mechanism
+    - formant structure
+  definition: >
+    Physical and biomechanical properties of the vocal apparatus that shape
+    acoustic signal structure.
+
+# ── Ecological topics ──────────────────────────────────────────────────────────
+
+- topic_id: topic:acoustic_adaptation
+  canonical_label: acoustic adaptation
+  topic_category: ecological
+  parent_topic_id: null
+  aliases:
+    - habitat acoustics
+    - acoustic adaptation hypothesis
+    - signal transmission
+    - environmental filtering
+  definition: >
+    The hypothesis that signal structure evolves to maximise transmission
+    efficiency in a specific acoustic environment (e.g. dense forest vs open habitat).
+
+- topic_id: topic:noise_effects
+  canonical_label: noise effects
+  topic_category: ecological
+  parent_topic_id: null
+  aliases:
+    - anthropogenic noise
+    - urban noise
+    - masking
+    - acoustic disturbance
+    - traffic noise
+  definition: >
+    Effects of ambient noise (natural or anthropogenic) on signal production,
+    transmission, reception, and behavioural response.
+
+# ── Evolutionary topics ────────────────────────────────────────────────────────
+
+- topic_id: topic:signal_evolution
+  canonical_label: signal evolution
+  topic_category: evolutionary
+  parent_topic_id: null
+  aliases:
+    - vocalisation evolution
+    - call evolution
+    - phylogenetics of communication
+    - comparative analysis
+  definition: >
+    Evolutionary origins, diversification, and phylogenetic distribution
+    of signal types across taxa.
+
+- topic_id: topic:honest_signalling
+  canonical_label: honest signalling
+  topic_category: evolutionary
+  parent_topic_id: null
+  aliases:
+    - signal reliability
+    - costly signalling
+    - handicap principle
+    - signal honesty
+  definition: >
+    Theoretical framework for why signals reliably encode information about
+    sender quality, condition, or motivation despite potential for deception.

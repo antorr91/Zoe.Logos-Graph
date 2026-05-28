@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 18,
+    "doi_count": 30,
+    "recording_count": 0
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Corvus_corax_ad_berlin_090516.jpg/330px-Corvus_corax_ad_berlin_090516.jpg",
@@ -42,8 +42,8 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
-    "call"
+    "call",
+    "alarm call"
   ],
   "contexts": [
     "foraging",
@@ -51,23 +51,23 @@
     "social communication"
   ],
   "functions": [
+    "social coordination",
     "individual recognition",
-    "predator warning",
-    "social coordination"
+    "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -75,45 +75,281 @@
         "value": "foraging",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "social coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social coordination",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 913,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 912,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 911,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 910,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 909,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 908,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 907,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 906,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 905,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 904,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 903,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 902,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 901,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 900,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 899,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 898,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 897,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 896,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Corvus corax",
     "recordings": [],
     "external_links": []
@@ -127,11 +363,46 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1007/s10071-025-01976-9",
+      "url": "https://doi.org/10.1007/s10071-025-01976-9",
+      "title": "When to mob? plasticity of antipredator behavior in common ravens' families (Corvus corax) across offspring development",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.4324/9781003285120-8",
       "url": "https://doi.org/10.4324/9781003285120-8",
       "title": "Knowledge asymmetry, and Corvus Corax in Greenland/Denmark",
       "year": 2023,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rsos.220132",
+      "url": "https://doi.org/10.1098/rsos.220132",
+      "title": "Early social environment affects attention to social cues in juvenile common ravens,",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12983-022-00477-6",
+      "url": "https://doi.org/10.1186/s12983-022-00477-6",
+      "title": "Social dynamics impact scolding behaviour in captive groups of common ravens (Corvus corax)",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3758/s13420-020-00455-0",
+      "url": "https://doi.org/10.3758/s13420-020-00455-0",
+      "title": "Who is crying wolf? Seasonal effect on antipredator response to age-specific alarm calls in common ravens, Corvus corax",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3389/fpsyg.2020.581794",
+      "url": "https://doi.org/10.3389/fpsyg.2020.581794",
+      "title": "Rapid Learning and Long-Term Memory for Dangerous Humans in Ravens (",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.1007/s00265-018-2607-2",
@@ -141,11 +412,32 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1073/pnas.1817066116",
+      "url": "https://doi.org/10.1073/pnas.1817066116",
+      "title": "Negative emotional contagion and cognitive bias in common ravens (",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.15460",
       "url": "https://doi.org/10.1079/cabicompendium.15460",
       "title": "Corvus corax",
       "year": 2019,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1098/rspb.2018.0375",
+      "url": "https://doi.org/10.1098/rspb.2018.0375",
+      "title": "Attacked ravens flexibly adjust signalling behaviour according to audience composition",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12983-018-0255-z",
+      "url": "https://doi.org/10.1186/s12983-018-0255-z",
+      "title": "Raven food calls indicate sender's age and sex",
+      "year": 2018,
+      "source": "pubmed"
     },
     {
       "doi": "10.1007/s10071-016-1064-4",
@@ -160,6 +452,34 @@
       "title": "Humans recognize emotional arousal in vocalizations across all classes of terrestrial vertebrates: evidence for acoustic universals",
       "year": 2017,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1186/s12983-017-0244-7",
+      "url": "https://doi.org/10.1186/s12983-017-0244-7",
+      "title": "Calls during agonistic interactions vary with arousal and raise audience attention in ravens",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2016.04.005",
+      "url": "https://doi.org/10.1016/j.anbehav.2016.04.005",
+      "title": "Territorial raven pairs are sensitive to structural changes in simulated acoustic displays of conspecifics",
+      "year": 2016,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2014.10.015",
+      "url": "https://doi.org/10.1016/j.anbehav.2014.10.015",
+      "title": "With whom to dine? Ravens' responses to food-associated calls depend on individual characteristics of the caller",
+      "year": 2015,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.12966/abc.08.04.2014",
+      "url": "https://doi.org/10.12966/abc.08.04.2014",
+      "title": "Craving Ravens: Individual 'haa' Call Rates at Feeding Sites as Cues to Personality and Levels of Fission-Fusion Dynamics?",
+      "year": 2014,
+      "source": "pubmed"
     },
     {
       "doi": "10.1098/rstb.2012.0216",
@@ -232,6 +552,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1038/s41598-020-67872-1",
+      "url": "https://doi.org/10.1038/s41598-020-67872-1",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
       "doi": "10.5040/9781472926975.0263",
       "url": "https://doi.org/10.5040/9781472926975.0263",
       "title": "Corvus corax Linnaeus. Common Raven. Grand Corbeau",
@@ -248,11 +575,17 @@
       "abstract": "<jats:p>Zum Verhalten und der Erscheinungsform der Kolkraben.</jats:p>",
       "journal": "CORAX",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40608153",
+      "title": "When to mob? plasticity of antipredator behavior in common ravens' families (Corvus corax) across offspring development",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01976-9",
+      "abstract": "The ability to respond appropriately to predators is essential for survival. Because response options vary with predation context, anti-predator behavior is often flexible, context dependent and shaped by learning. Corvids engage in predator mobbing, which contains a vocal component (scolding) and predator-directed behaviors (approaches, attacks). Individuals typically gang up for mobbing and pass on information about predators; yet their expression of antipredator behavior is influenced by factors such as social status, age, and rearing conditions. Here we investigated the development of antipredator behavior in ravens, specifically the onset of mobbing and the extent to which these responses are affected by parental agitation. We exposed 12 captive families to a potentially dangerous human (DH) at two stages of offspring development: shortly after fledging and near independence. We tested the hypotheses that (i) parents are more protective when the offspring are young and that (ii) offspring show more predator-directed behaviors with increasing age. We found that (i) adults mobbed significantly more during the early test period and (ii) offspring were less likely to ignore the DH and showed increased engagement during the late test period. These findings suggest that parental anti-predator investment diminishes as offspring develop greater motoric and cognitive abilities. This reduced investment may encourage offspring to independently assess and respond to threats. Yet, they hardly engage in mobbing while they are with their parents. Future studies may clarify if the increase in offsprings' interindividual variance in both mobbing components are indicative for the emergence of individuality.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_4324_9781003285120-8",
@@ -262,11 +595,57 @@
       "abstract": "",
       "journal": "Perspectives on Knowledge Communication",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36503565",
+      "title": "Social dynamics impact scolding behaviour in captive groups of common ravens (Corvus corax)",
+      "year": 2022,
+      "doi": "10.1186/s12983-022-00477-6",
+      "abstract": "BACKGROUND: Predator avoidance can have immense impacts on fitness, yet individual variation in the expression of anti-predator behaviour remains largely unexplained. Existing research investigating learning of novel predators has focused either on individuals or groups, but not both. Testing in individual settings allows evaluations of learning or personality differences, while testing in group settings makes it impossible to distinguish any such individual differences from social dynamics. In this study, we investigate the effect of social dynamics on individual anti-predator behaviour. We trained 15 captive ravens to recognize and respond to a novel experimental predator and then exposed them to this predator in both group and isolation settings across 1.5 years to tease apart individual differences from social effects and evaluate two hypotheses: (1) weaker anti-predator responses of some individuals in the group occurred, because they failed to recognize the experimental predator as a threat, leading to weak responses when separated, or (2) some individuals had learned the new threat, but their scolding intensity was repressed in the group trials due to social dynamics (such as dominance rank), leading to increased scolding intensity when alone. RESULTS: We found that dominance significantly influences scolding behaviour in the group trials; top-ranked individuals scold more and earlier than lower ranking ones. However, in the separation trials scolding duration is no longer affected by rank. CONCLUSIONS: We speculate that, while top-ranked individuals use their anti-predator responses to signal status in the group, lower-ranking ravens may be suppressed from, or are less capable of, performing intense anti-predator behaviour while in the group. This suggests that, in addition to its recruitment or predator-deterrent effects, alarm calling may serve as a marker of individual quality to conspecifics.",
+      "journal": "Frontiers in zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35774139",
+      "title": "Early social environment affects attention to social cues in juvenile common ravens,",
+      "year": 2022,
+      "doi": "10.1098/rsos.220132",
+      "abstract": "Social competence, i.e. defined as the ability to adjust the expression of social behaviour to the available social information, is known to be influenced by early-life conditions. Brood size might be one of the factors determining such early conditions, particularly in species with extended parental care. We here tested in ravens whether growing up in families of different sizes affects the chicks' responsiveness to social information. We experimentally manipulated the brood size of 13 captive raven families, creating either small or large families. Simulating dispersal, juveniles were separated from their parents and temporarily housed in one of two captive non-breeder groups. After five weeks of socialization, each raven was individually tested in a playback setting with food-associated calls from three social categories: sibling, familiar unrelated raven they were housed with, and unfamiliar unrelated raven from the other non-breeder aviary. We found that individuals reared in small families were more attentive than birds from large families, in particular towards the familiar unrelated peer. These results indicate that variation in family size during upbringing can affect how juvenile ravens value social information. Whether the observed attention patterns translate into behavioural preferences under daily life conditions remains to be tested in future studies.",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35771525",
+      "title": "Investigation of mirror-self recognition in ravens (Corvus corax)",
+      "year": 2022,
+      "doi": "10.1037/com0000319",
+      "abstract": "Large-brained birds, such as corvids and parrots, tend to fail tests for self-recognition (mirror self-recognition [MSR]), but the limited positive evidence for MSR in these species has been questioned due to methodological limitations. In the present study, we aimed to investigate MSR in ravens by performing three mirror tests: a mirror exposure test, a mirror preference test, and a mark test. Across all three tests, the ravens' behavior was not consistent with MSR. Three out of six ravens infrequently interacted with the mirror and the nonmirror surfaces. Two birds explored the mirror and occasionally displayed contingent behaviors. Finally, the ravens made very few social displays toward the mirror, suggesting that at this stage they did not treat their reflection as a conspecific. These findings, along with the current evidence available, raise further questions on the validity of relying on one test to establish self-recognition and call for the development of methods beyond mirror tests to explore self-recognition in nonhuman animals. (PsycInfo Database Record (c) 2022 APA, all rights reserved).",
+      "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33420703",
+      "title": "Who is crying wolf? Seasonal effect on antipredator response to age-specific alarm calls in common ravens, Corvus corax",
+      "year": 2021,
+      "doi": "10.3758/s13420-020-00455-0",
+      "abstract": "Communication about threats including those posed by the presence of predators occurs mainly through acoustic signals called alarm calls. The comprehension of these calls by receivers and their rapid antipredator response are crucial in terms of survival. However, to avoid overreaction, individuals should evaluate whether or not an antipredator response is needed by paying attention to who is calling. For instance, we could expect adults to be more experienced with predator encounters than juveniles and thus elicit stronger antipredator responses in others when alarming. Similarly, we could expect a stronger response to alarm calls when more than one individual is calling. To test these assumptions, we applied a playback experiment to wild ravens, in which we manipulated the age class (adult or juvenile) and the number (one or two) of the callers. Our results revealed a seasonal effect of age class but no effect of number of callers. Specifically, the ravens responded with stronger antipredator behaviour (vigilance posture) towards alarm calls from adults as compared to juveniles in summer and autumn, but not in spring. We discuss alternative interpretations for this unexpected seasonal pattern and argue for more studies on call-based communication in birds to understand what type of information is relevant under which conditions.",
+      "journal": "Learning & behavior",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33192900",
+      "title": "Rapid Learning and Long-Term Memory for Dangerous Humans in Ravens (",
+      "year": 2020,
+      "doi": "10.3389/fpsyg.2020.581794",
+      "abstract": "Like many predatory species, humans have pronounced individual differences in their interactions with potential prey: some humans pose a lethal threat while others may provide valuable resources. Recognizing individual humans would thus allow prey species to maximize potential rewards while ensuring survival. Previous studies on corvids showed they can recognize and remember individual humans. For instance, wild American crows produced alarm calls toward specifically masked humans up to 2.7 years after those humans had caught and ringed them while wearing that mask. However, individual behavior of the crows or the impact of social features on their responses, was hardly examined. Here, we studied predator learning and social effects on responses, using a similar method, in captive common ravens (",
+      "journal": "Frontiers in psychology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_15460",
@@ -276,11 +655,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00265-018-2607-2",
@@ -290,11 +665,37 @@
       "abstract": "In the last decades, the assumption that complex social life is cognitively challenging, and thus can drive mental evolution, has received much support from empirical studies in nonhuman primates. While extending the scope to other mammals and birds, different views have been adopted on what constitutes social complexity and which specific cognitive skills are selected for. Notably, many avian species form \"open\" groups as non-breeders (i.e., seasonally and before sexual maturity) that have been largely ignored as potential sources of social complexity. Reviewing 30 years of research on ravens, we illustrate the socio-ecological conditions faced by these birds as non-breeders and discuss how these relate to their socio-cognitive skills. We argue that the non-breeding period is key to understand raven social life and, to a larger extent, avian social life in general. We furthermore emphasize how the combination of the large-scale perspective (defining social system components: e.g., soc",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_31110007",
+      "title": "Negative emotional contagion and cognitive bias in common ravens (",
+      "year": 2019,
+      "doi": "10.1073/pnas.1817066116",
+      "abstract": "Emotional contagion is described as an emotional state matching between subjects, and has been suggested to facilitate communication and coordination in complex social groups. Empirical studies typically focus on the measurement of behavioral contagion and emotional arousal, yet, while highly important, such an approach often disregards an additional evaluation of the underlying emotional valence. Here, we studied emotional contagion in ravens by applying a judgment bias paradigm to assess emotional valence. We experimentally manipulated positive and negative affective states in demonstrator ravens, to which they responded with increased attention and interest in the positive condition, as well as increased redirected behavior and a left-eye lateralization in the negative condition. During this emotion manipulation, another raven observed the demonstrator's behavior, and we used a bias paradigm to assess the emotional valence of the observer to determine whether emotional contagion had occurred. Observers showed a pessimism bias toward the presented ambiguous stimuli after perceiving demonstrators in a negative state, indicating emotional state matching based on the demonstrators' behavioral cues and confirming our prediction of negative emotional contagion. We did not find any judgment bias in the positive condition. This result critically expands upon observational studies of contagious play in ravens, providing experimental evidence that emotional contagion is present not only in mammalian but also in avian species. Importantly, this finding also acts as a stepping stone toward understanding the evolution of empathy, as this essential social skill may have emerged across these taxa in response to similar socioecological challenges.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29875298",
+      "title": "Attacked ravens flexibly adjust signalling behaviour according to audience composition",
+      "year": 2018,
+      "doi": "10.1098/rspb.2018.0375",
+      "abstract": "A fundamental attribute of social intelligence is the ability to monitor third-party relationships, which has been repeatedly demonstrated in primates, and recently also in captive ravens. It is yet unknown how ravens make use of this ability when dealing with different types of social relationships simultaneously during complex real-life situations. Free-ranging non-breeder ravens live in societies characterized by high fission-fusion dynamics and structured by age, pair-bond status and kinship. Here, we show that free-ranging ravens modify communication during conflicts according to audience composition. When being attacked by dominant conspecifics, victims of aggression signal their distress via defensive calls. Victims increased call rates when their kin were in the bystander audience, but reduced call rates when the bystanders were bonding partners of their aggressors. Hence, ravens use social knowledge flexibly and probably based on their own need (i.e. alert nearby allies and avoid alerting nearby rivals).",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29563949",
+      "title": "Raven food calls indicate sender's age and sex",
+      "year": 2018,
+      "doi": "10.1186/s12983-018-0255-z",
+      "abstract": "BACKGROUND: Acoustic parameters of animal signals have been shown to correlate with various phenotypic characteristics of the sender. These acoustic characteristics can be learned and categorized and thus are a basis for perceivers' recognition abilities. One of the most demanding capacities is individual recognition, achievable only after repeated interactions with the same individual. Still, class-level recognition might be potentially important to perceivers who have not previously encountered callers but can classify unknown individuals according to the already learned categories. Especially for species with high fission-fusion dynamics that repeatedly encounter unknown individuals it may be advantageous to develop class-level recognition. We tested whether frequency-, temporal-, and amplitude-related acoustic parameters of vocalizations emitted by ravens, a species showing high fission-fusion dynamics in non-breeder aggregations, are connected to phenotypic characteristics and thus have the potential for class-level recognition. RESULTS: The analysis of 418 food calls revealed that some components summarizing acoustic parameters were differentiated by age-classes and sex. CONCLUSIONS: Together, the results provide evidence for the co-variation of vocal characteristics and respective sex and age categories, a prerequisite for class-level recognition in perceivers. Perceivers that are ignorant of the caller's identity can thus potentially recognize these class-level differences for decision-making processes in feeding contexts.",
+      "journal": "Frontiers in zoology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s10071-016-1064-4",
@@ -304,11 +705,7 @@
       "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
       "journal": "Animal Cognition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2017_0990",
@@ -318,11 +715,57 @@
       "abstract": "Writing over a century ago, Darwin hypothesized that vocal expression of emotion dates back to our earliest terrestrial ancestors. If this hypothesis is true, we should expect to find cross-species acoustic universals in emotional vocalizations. Studies suggest that acoustic attributes of aroused vocalizations are shared across many mammalian species, and that humans can use these attributes to infer emotional content. But do these acoustic attributes extend to non-mammalian vertebrates? In this study, we asked human participants to judge the emotional content of vocalizations of nine vertebrate species representing three different biological classes-Amphibia, Reptilia (non-aves and aves) and Mammalia. We found that humans are able to identify higher levels of arousal in vocalizations across all species. This result was consistent across different language groups (English, German and Mandarin native speakers), suggesting that this ability is biologically rooted in humans. Our findings ",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_29299036",
+      "title": "Calls during agonistic interactions vary with arousal and raise audience attention in ravens",
+      "year": 2017,
+      "doi": "10.1186/s12983-017-0244-7",
+      "abstract": "BACKGROUND: Acoustic properties of vocalizations can vary with the internal state of the caller, and may serve as reliable indicators for a caller's emotional state, for example to prevent conflicts. Thus, individuals may associate distinct characteristics in acoustic signals of conspecifics with specific social contexts, and adjust their behaviour accordingly to prevent escalation of conflicts. Common ravens ( RESULTS: Individuals were more likely to utter defensive calls when the attack involved contact aggression, and when the attacker was higher in rank than the victim. Defensive calls produced during intense conflicts were longer and uttered at higher rates, and showed higher fundamental frequency- and amplitude-related measures than calls uttered during low-intensity aggression, indicating arousal-based changes in defensive calls. Playback experiments showed that ravens were more likely to react in response to defensive calls with higher fundamental frequency by orientating towards the speakers as compared to original calls and calls manipulated in duration. CONCLUSIONS: Arousal-based changes are encoded in acoustic parameters of defensive calls in attacked ravens, and bystanders in the audience pay attention to the degree of arousal in attacked conspecifics. Our findings imply that common ravens can regulate conflicts with conspecifics by means of vocalizations, and are able to gather social knowledge from conspecific calls.",
+      "journal": "Frontiers in zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28535928",
+      "title": "Vocal similarity in long-distance and short-distance vocalizations in raven pairs (Corvus corax) in captivity",
+      "year": 2017,
+      "doi": "10.1016/j.beproc.2017.05.013",
+      "abstract": "Vocal interactions in many birds are characterized by imitation or the matching of vocalizations whereby one individual makes its vocalizations more similar to those of a conspecific. This behaviour is aided by vocal learning, which allows birds to change the vocalizations already in their repertoires, or to add new ones. The majority of studies on vocal similarity have been focussing on the songs of birds rather than their calls, with evidence for vocal similarity in calls being rather scarce. Here, we investigated whether ravens make their calls acoustically similar to one another by analysing the extent to which short- and long-distance calls of their vocal repertoires exhibited vocal similarity. Our results showed that long-distance calls, but not short-distance calls, are highly similar between pair partners. This effect may be explained by the different functions underlying short- and long-distance communication in ravens, with vocal similarity possibly being scaffolded by specific social matrices such as pair-bonds and/or strong social relationships.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_27346889",
+      "title": "Territorial raven pairs are sensitive to structural changes in simulated acoustic displays of conspecifics",
+      "year": 2016,
+      "doi": "10.1016/j.anbehav.2016.04.005",
+      "abstract": "Human language involves combining items into meaningful, syntactically structured wholes. The evolutionary origin of syntactic abilities has been investigated by testing pattern perception capacities in nonhuman animals. New World primates can respond spontaneously to structural changes in acoustic sequences and songbirds can learn to discriminate between various patterns in operant tasks. However, there is no conclusive evidence that songbirds respond spontaneously to structural changes in patterns without reinforcement or training. In this study, we tested pattern perception capacities of common ravens,",
+      "journal": "Animal behaviour",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25598542",
+      "title": "With whom to dine? Ravens' responses to food-associated calls depend on individual characteristics of the caller",
+      "year": 2015,
+      "doi": "10.1016/j.anbehav.2014.10.015",
+      "abstract": "Upon discovering food, common ravens,",
+      "journal": "Animal behaviour",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25984563",
+      "title": "Craving Ravens: Individual 'haa' Call Rates at Feeding Sites as Cues to Personality and Levels of Fission-Fusion Dynamics?",
+      "year": 2014,
+      "doi": "10.12966/abc.08.04.2014",
+      "abstract": "Common ravens aggregate in large non-breeder flocks for roosting and foraging until they achieve the status of territorial breeders. When discovering food, they produce far-reaching yells or 'haa' calls, which attract conspecifics. Due to the high levels of fission-fusion dynamics in non-breeders' flocks, assemblies of feeding ravens were long thought to represent anonymous aggregations. Yet, non-breeders vary in their degree of vagrancy, and 'haa' calls convey individually distinct acoustic features, which are perceived by conspecifics. These findings give rise to the assumption that raven societies are based on differential social relationships on an individual level. We investigated the occurrence of 'haa' calling and individual call rates in a group of individually marked free-ranging ravens. Calling mainly occurred in subadult and adult females, which showed low levels of vagrancy. Call rates differed significantly between individuals and with residency status, and were correlated with calling frequency and landing frequency. Local ravens called more often and at higher rates, and were less likely to land at the feeding site than vagrant birds. The results are discussed with respect to individual degrees of vagrancy, which may have an impact on social knowledge and communication in this species.",
+      "journal": "Animal behavior and cognition",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rstb_2012_0216",
@@ -332,11 +775,17 @@
       "abstract": "With the exception of a few model species, individual differences in cognition remain relatively unstudied in non-human animals. One intriguing possibility is that variation in cognition is functionally related to variation in personality. Here, we review some examples and present hypotheses on relationships between personality (or behavioural syndromes) and individual differences in cognitive style. Our hypotheses are based largely on a connection between fast-slow behavioural types (BTs; e.g. boldness, aggressiveness, exploration tendency) and cognitive speed-accuracy trade-offs. We also discuss connections between BTs, cognition and ecologically important aspects of decision-making, including sampling, impulsivity, risk sensitivity and choosiness. Finally, we introduce the notion of cognition syndromes, and apply ideas from theories on adaptive behavioural syndromes to generate predictions on cognition syndromes.",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25892846",
+      "title": "Ontogeny of Social Relations and Coalition Formation in Common Ravens (",
+      "year": 2012,
+      "doi": null,
+      "abstract": "The social intelligence hypothesis, originally developed for primates to explain their high intelligence and large relative brain size, assumes that challenges posed by social life in complex societies with many group members lead to the evolution of advanced cognitive abilities. In birds, pair-bonded species have larger brains than non-pair bonded species, indicating that the quality of social relationships better predicts social complexity than group size. Ravens are a long-term monogamous and territorial species, renowned for their sophisticated socio-cognitive skills and complex social relationships. Notably, during their early years they live in fission-fusion-like non-breeder societies in which social relationships could be of particular importance. Here we observed the development of dominance and affiliative relationships in 12 hand-raised captive ravens, examining the influence of age, sex and kinship on social interactions. Furthermore, we investigated at which developmental step a stable hierarchy emerged, whether third-party interventions played a role and how selectively birds intervened in others' conflicts. At 4-5 months post-fledging, we found an increase in socio-positive behaviour and a decrease in aggression, along with the establishment of a linear dominance rank hierarchy. In line with kin selection theory, siblings exhibited a greater degree of tolerance and engaged in more socio-positive behaviour. In their first few months, ravens frequently intervened in others' conflicts but supported mainly the aggressor; later on, their support became more selective towards kin and close social partners. These findings indicate that ravens engage in sophisticated social behaviours and form stable relationships already in their first year of life.",
+      "journal": "International journal of comparative psychology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1038_ncomms1567",
@@ -346,11 +795,7 @@
       "abstract": "",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1439-0310_1964_tb01212_x",
@@ -360,11 +805,7 @@
       "abstract": "",
       "journal": "Zeitschrift für Tierpsychologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0010605",
@@ -374,11 +815,7 @@
       "abstract": "Our findings suggest that in ravens, bystanders may console victims with whom they share a valuable relationship, thus alleviating the victims' post-conflict distress. Conversely victims may affiliate with bystanders after a conflict in order to reduce the likelihood of renewed aggression. These results stress the importance of relationship quality in determining the occurrence and function of post-conflict interactions, and show that ravens may be sensitive to the emotions of others.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3758_bf03196002",
@@ -388,11 +825,7 @@
       "abstract": "",
       "journal": "Learning & Behavior",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2737_psw-gtr-149",
@@ -402,11 +835,7 @@
       "abstract": "This volume contains in part papers presented at the Symposium on Monitoring Bird Population Trends by Point Counts, which was held November 6-7, 1991, in Beltsville, Md., in response to the need for standardization of methods to monitor bird populations by point counts. Data from various investigators working under a wide variety of conditions are presented, and various aspects of point count methodology are examined. Point counts of birds are the most widely used quantitative method and involve an observer recording birds from a single point for a standardized time period. Statistical aspects of sampling and analysis were discussed and applied to the objectives of point counts. Symposium participants agreed upon standards of point counts that should have wide applicability to a variety of habitats and terrain.",
       "journal": "",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_21248_corax_v3_397",
@@ -416,11 +845,7 @@
       "abstract": "<jats:p>Diese Arbeit zeigt den Rückgang des Kolkrabenbestandes auf einer Untersuchungsfläche von 2.280 qkm im Landesteil Schleswig, auf der 1951 - 49 Bp., 1965 - 36 Bp. und 1970 noch 18 Bp. brüteten. Der beschleunigte Zusammenbruch dieser Brutpopulation, der mit einem Ausbleiben von Jungrabenvergesellschaftungen parallel lief, wird auf verstärkte menschliche Nachstellungen zurückgeführt (1964-1966 wurden 75 Totfunde zumeist in Nähe des Brutbaumes erfaßt). Die Anzahl der flüggen Jungraben pro Horst blieb aber bei erfolgreichen Bruten mit 3,0 bis 3,3 nahezu unverändert, so daß eine indirekte chronische Vergiftung durch Giftstoffe, die die Generationsfähigkeit beeinträchtigen, wahrscheinlich ausscheidet.</jats:p>",
       "journal": "CORAX",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_21248_corax_v3_399",
@@ -430,11 +855,7 @@
       "abstract": "<jats:p>Die Analyse der Gewölle, die an den Horst- und Schlafplätzen gesammelt wurden, ergab Unterschiede zwischen Alt- und Jungraben im Volumenanteil der Nahrungsreste. In der qualitativen Zusammensetzung der Nahrung glichen sich Jung- und Altraben sehr. Allgemein zeichnet sich der Kolkrabe als Vertilger von Mäusen und Ratten mit 75 % (259 Ex) Nahrungsanteil aus. Es konnten nur 40 Vögel nachgewiesen wer den, davon 14 Hühnervögel. Insgesamt wurden 2.083 Gewölle auf ihren Inhalt untersucht.</jats:p>",
       "journal": "CORAX",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_21248_corax_v2_247",
@@ -444,11 +865,7 @@
       "abstract": "<jats:p>1. Die Bestandsaufnahme des Kolkraben, die von 376 Mitarbeitern unterstützt wurde, erbrachte 1965/66 in Schleswig-Holstein 192 Brutplätze.\r\n2. Ein Überwiegen der Buche als Horstbaum bei 227 = 80 % von 300 Angaben spiegelt die fast einseitige Bewaldung im Hauptsiedlungsgebiet der östlichen Kreise wieder. Die Wahl des Horstbaumes richtet sich dank der Anpassungsfähigkeit des Raben nach den vorhandenen Waldtypen.\r\n3. In den drei Jahren 1964-1966 wurden 70 Kolkraben tot in unserem Land aufgefunden. Als Hauptursache werden Vergiftungen durch Strychninphosphor-Eier angesehen. Die Aufzuchtergebnisse bei Ausfall eines Altvogels waren in vier von fünf Fällen bei verringerter Jungenzahl positiv.\r\n4. Der Legebeginn einer möglichen Neuverpaarung innerhalb einer Brutperiode nach dem Tod des Partners und eines Nachgeleges lag um den 20. April.</jats:p>",
       "journal": "CORAX",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1474-919x_1962_tb08677_x",
@@ -458,11 +875,7 @@
       "abstract": "",
       "journal": "Ibis",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472926975_0263",
@@ -472,14 +885,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

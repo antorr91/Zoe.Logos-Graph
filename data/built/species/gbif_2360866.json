@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 5,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 4,
+    "doi_count": 24,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,8 +45,8 @@
     "pulse"
   ],
   "contexts": [
-    "alarm",
-    "social communication"
+    "social communication",
+    "alarm"
   ],
   "functions": [
     "alarm communication",
@@ -58,21 +58,21 @@
         "value": "pulse",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -80,17 +80,71 @@
         "value": "alarm communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "shoal cohesion",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 208,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 207,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 206,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 205,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -104,6 +158,48 @@
       "title": "STUDY OF THE EMBRYONIC AND POST-EMBRYONIC STAGES OF DANIO RERIO (DANIO RERIO HAMILTON 1822) IN AQUARIUM CONDITIONS",
       "year": 2026,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1111/ejn.70173",
+      "url": "https://doi.org/10.1111/ejn.70173",
+      "title": "Individual Differences in Boldness Influence Working Memory and Stress-Induced Repetitive Behaviors in Zebrafish",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12964-025-02433-3",
+      "url": "https://doi.org/10.1186/s12964-025-02433-3",
+      "title": "Enabling mechanistic studies of EVs in vivo: a protocol for isolation and cell-specific labelling in larval zebrafish",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani15233452",
+      "url": "https://doi.org/10.3390/ani15233452",
+      "title": "Complex Sound Discrimination in Zebrafish: Auditory Learning Within a Novel \"Go/Go\" Decision-Making Paradigm",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani15243511",
+      "url": "https://doi.org/10.3390/ani15243511",
+      "title": "Divergent Embryo Responses to Chemical Cues in Two Freshwater Fishes with Different Parental Care Strategies",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ijms27010059",
+      "url": "https://doi.org/10.3390/ijms27010059",
+      "title": "Integrated Assessment of the Cardiotoxic and Neurobehavioral Effects of 3,4-Methylenedioxypyrovalerone (MDPV) in Zebrafish Embryos",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/toxics13070592",
+      "url": "https://doi.org/10.3390/toxics13070592",
+      "title": "Acute Dermatotoxicity of Green-Synthesized Silver Nanoparticles (AgNPs) in Zebrafish Epidermis",
+      "year": 2025,
+      "source": "pubmed"
     },
     {
       "doi": "10.47820/recima21.v6i12.7001",
@@ -234,11 +330,37 @@
       "abstract": "",
       "journal": "BAKU STATE UNIVERSITY JOURNAL of LIFE SCIENCES &amp; BIOLOGY",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41937095",
+      "title": "An unwanted prescription: Trace fluoxetine exposure disrupts the enteric nervous system, gut-liver axis and somatic growth in zebrafish (Danio rerio)",
+      "year": 2026,
+      "doi": "10.1016/j.etap.2026.105016",
+      "abstract": "Fluoxetine (FLX), a widely prescribed selective serotonin reuptake inhibitor, frequently enters aquatic ecosystems through human excretion and improper disposal, reaching organisms at trace but biologically active concentrations. As FLX disrupts multiple physiological pathways in aquatic species, we aimed to describe its chronic effects on the enteric nervous system (ENS), serotonergic enteric neurons (SENs), gut-liver axis, and somatic growth at trace concentrations (0.5, 5, and 50ngL",
+      "journal": "Environmental toxicology and pharmacology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41564962",
+      "title": "Metabolomic insights into gut-brain axis dysregulation under unpredictable chronic stress in zebrafish",
+      "year": 2026,
+      "doi": "10.1016/j.cbpc.2026.110457",
+      "abstract": "Growing evidence indicates that depression is closely associated with disturbances in the gut-brain axis. Although rodent models are currently widely utilised in depression pathophysiology research, the zebrafish (Danio rerio) has become a valuable and promising alternative model species. This study examined changes in neuroendocrine and neurochemical markers associated with behavioural modifications in a zebrafish model of unpredictable chronic stress (UCS). Following a 14-day UCS procedure, the open-field test (OFT), social interaction test (SIT), and light-dark test (LDT) were conducted. Whole-body cortisol and IL-1β levels, along with metabolomics analysis of brain and intestinal tissues, were performed for neuroendocrine and neurochemical assessment. Depression-like behaviours such as increased immobility time (P = 0.0009) and impaired social interaction (P = 0.0306) were observed, alongside elevated levels of cortisol (P < 0.0001) and IL-1β (P = 0.0255). NMR-based metabolomics analysis revealed alterations in valine, alanine, glutamate, and choline in both brain and intestinal tissues in UCS zebrafish, indicating disruption of amino acid metabolism, highlighting the involvement of bidirectional gut-brain axis communication. The glycine, serine, and threonine pathways were most significantly perturbed in UCS zebrafish, suggesting compromised redox homeostasis leads to neuroinflammation in the pathophysiology of depression-related chronic stress related to the gut-brain axis. This study demonstrates that zebrafish is a valuable alternative vertebrate model for exploring the systemic impacts of unpredictable chronic stress (UCS) on the gut-brain axis.",
+      "journal": "Comparative biochemistry and physiology. Toxicology & pharmacology : CBP",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41468792",
+      "title": "Aroclor 1254 impairs visual and neurosensory signaling pathways independent of the aryl hydrocarbon receptor in larval zebrafish",
+      "year": 2026,
+      "doi": "10.1016/j.aquatox.2025.107695",
+      "abstract": "Aroclor 1254 is a mixture of polychlorinated biphenyl (PCB) congeners that are present in aquatic systems originating from coolants, solvents, plasticizers, and shipbreaking. Aroclor 1254 can induce an eye tremor response in early life stage zebrafish (Danio rerio) following exposure to between 22.7 and 4140 µg/L Aroclor 1254 at 102 h post fertilization (hpf), as shown in our recent study. However, the underlying mechanism that induces this response, either acting through the aryl hydrocarbon receptor (AhR) or non-AhR pathways, is not well characterized. As such, transcriptomics, morphology, and targeted behavioral functions were assessed using previously exposed larvae. Transcriptomic profiling was conducted in 102 hpf larvae to elucidate what may be driving this tremor response using in silico bioinformatic software. Subsequent eye tremor responses, a visually mediated behavioral function assay, and eye morphology were assessed in 7 day post fertilization (dpf) larvae after embryonic treatment. Parkinson's signaling pathway, opioid signaling pathway, and the negative regulation of general cell signaling and communication were the top enriched dose-dependent pathways predicted. Eye diameters were significantly decreased in 7 dpf larvae exposed to 173 µg/L Aroclor 1254, whereas the number of eye saccades, assessed with an optokinetic response assay, and eye tremor response behavior were increased following exposure to a concentration of ≥ 173 µg/L Aroclor 1254. This suggests that Aroclor 1254 acts through a cross-talk of visual and neuronal-based mechanisms, and that non-AhR pathways may be more important than AhR pathways in inducing visual effects, which may influence survivorship and recruitment in early life stage wild fish.",
+      "journal": "Aquatic toxicology (Amsterdam, Netherlands)",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_47820_recima21_v6i12_7001",
@@ -248,11 +370,127 @@
       "abstract": "<jats:p>O selênio (Se) é essencial para o funcionamento celular de todos os organismos e desempenha papel protetor dos efeitos nocivos causados pelos radicais livres. O Danio rerio (zebrafish) é um modelo animal muito utilizado em muitas pesquisas, possui diversas vantagens como: semelhança fisiológica com mamíferos, facilidade de manipulação genética, larvas opticamente claras, além disso, são animais altamente férteis, de baixo custo e manutenção devido ao seu tamanho. O objetivo deste trabalho é realizar uma revisão integrativa da literatura disponível sobre o papel e a suplementação de Se em Danio rerio. A revisão foi realizada nas bases de dados Pubmed, BVS, Scopus, Web of Science e Periódico da Capes, realizando uma busca avançada por meio das palavras chaves selecionadas. Mais de 700 artigos foram identificados. Os artigos incluídos foram publicados em inglês, português ou espanhol, a partir do ano de 2005 até 2023, também foram considerados artigos que avaliaram o papel do Se e",
       "journal": "RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41515939",
+      "title": "Integrated Assessment of the Cardiotoxic and Neurobehavioral Effects of 3,4-Methylenedioxypyrovalerone (MDPV) in Zebrafish Embryos",
+      "year": 2025,
+      "doi": "10.3390/ijms27010059",
+      "abstract": "Synthetic cathinones such as 3,4-methylenedioxypyrovalerone (MDPV) are potent psychostimulants with high abuse potential, yet their systemic toxicity and neurobehavioral effects remain poorly characterized during early development. Using",
+      "journal": "International journal of molecular sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41463796",
+      "title": "Divergent Embryo Responses to Chemical Cues in Two Freshwater Fishes with Different Parental Care Strategies",
+      "year": 2025,
+      "doi": "10.3390/ani15243511",
+      "abstract": "Chemical information is one of the most important modes of communication among aquatic organisms. However, it remains unclear whether fish embryos are innately responsive to ecologically-related chemical cues from the cues of their cohort competitors, potential caring or risky cues from parents, or chemical alarm cues from damaged embryos, and whether these response patterns differ between species that model alternative parental care strategies. Here, we examined embryo responses in heart rate and incubation performance to different conspecific chemical cues (companion embryo odours, maternal odours, maternal + companion odours, embryonic alarm cues, or water controls) in zebrafish (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41375510",
+      "title": "Complex Sound Discrimination in Zebrafish: Auditory Learning Within a Novel \"Go/Go\" Decision-Making Paradigm",
+      "year": 2025,
+      "doi": "10.3390/ani15233452",
+      "abstract": "Previous anatomic and physiologic studies of the peripheral and central auditory system, with rare exceptions, have relied on the use of tonal stimuli. Here, we test the hypothesis that zebrafish,",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41264945",
+      "title": "From adults to offspring: Wi-Fi RF-EMR exposure in adult zebrafish impairs reproduction and transgenerationally effects development and behavior of progeny",
+      "year": 2025,
+      "doi": "10.1016/j.scitotenv.2025.180982",
+      "abstract": "The widespread presence of wireless communication technologies in modern human society is raising concerns about the biological effects of radiofrequency electromagnetic radiation (RF-EMR). In this study the impacts of Wi-Fi induced RF-EMR exposure in Danio rerio (zebrafish) were examined. Adult zebrafish were exposed to 4 h of RF-EMR daily from a 4G Wi-Fi router over a 30-day period. The exposed adult fish were bred under exposure free condition, on the 10th, 20th and 30th day of experiment. Fertilized embryos obtained from these breeding events were maintained under EMF-free conditions and were observed up to 10 dpf and analysed for developmental and neurobehavioral changes. After completion of the exposure on the 30th day, the adult male and female gonads were processed for histomorphological study. Histopathological analysis revealed significant testicular abnormalities, including seminiferous tubule disintegration, reduced spermatids, and abnormal lumina. Ovaries showed notable follicular degeneration and stromal disruption. Significant rates of mortality and gross morphological abnormalities like yolk sac edema, pericardial edema, curved axis and tail deformities were found in the progeny of exposed fish. Malformation rates increased significantly with longer adult exposure periods. Neurobehavioral tests on these larvae at 10 dpf showed anxiety-like behavior. The results indicated progressive decline in reproductive health of adults and increased adversities in the progeny. The study highlights long-term biological risks of widespread electromagnetic radiation exposure and calls for further research into potential transgenerational effects.",
+      "journal": "The Science of the total environment",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41088362",
+      "title": "Enabling mechanistic studies of EVs in vivo: a protocol for isolation and cell-specific labelling in larval zebrafish",
+      "year": 2025,
+      "doi": "10.1186/s12964-025-02433-3",
+      "abstract": "BACKGROUND: Extracellular vesicles (EVs) are critical mediators of intercellular communication in development, physiology, and disease. In vivo models such as Drosophila melanogaster, Caenorhabditis elegans, and Danio rerio (zebrafish) now provide powerful platforms to visualize EV dynamics in real time. However, the full potential of these models remains underutilized due to the lack of reliable, cell-specific EV labelling tools and robust EV isolation protocols. Here, we present an optimized workflow for the isolation of EVs from zebrafish larvae and the in vivo labelling of EVs in a cell-type-specific manner. METHODS: To isolate EVs from larval zebrafish, we used size exclusion chromatography (SEC). By comparing different tissue digestion methods and performing step-by-step optimisation of sample preparation prior to SEC, we established a novel protocol that enables EV isolation without compromising cell viability. EV size and concentration were assessed by nanoparticle tracking analysis (NTA), with subsequent characterization by transmission electron microscopy (TEM) and Western blotting. To evaluate the sensitivity of our protocol, we treated zebrafish larvae with GW4869, a known inhibitor of EV biogenesis, and assessed the dose-dependent effects on EV release. To specifically label EVs from distinct cell types, we have generated a UAS: CD63-GFP construct which can be expressed under control of the Gal4 transcriptional activator. RESULTS: Through a systematic comparison of tissue dissociation techniques, we identify Bacillus licheniformis protease as a superior alternative to conventional collagenase treatment, which compromises cell integrity. Treatment with GW4869 confirmed that EV biogenesis and release can be inhibited in a dose-dependent manner and demonstrated that our protocol is sensitive enough to detect and quantify changes in EV levels. To enable cell-specific EV tracking in vivo, we combined the UAS: CD63-GFP construct with a radial glia-specific Ga",
+      "journal": "Cell communication and signaling : CCS",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40955529",
+      "title": "Impacts of real microplastic leachates on the development and behavior of developing zebrafish (",
+      "year": 2025,
+      "doi": "10.1039/d5em00415b",
+      "abstract": "Plastic pollution in aquatic environments has increased, raising concerns about the toxicity of microplastics (MPs) and their additives to developing organisms. Numerous studies have examined the physical toxicity of microplastic particles, while comparatively few have investigated the effects of their leachates, particularly on organismal neurodevelopment and behavior. Additives from the MPs can desorb into the surrounding environment, generating leachates that may impact early development. This study evaluated the effects of early developmental exposure to MP leachates on early developing zebrafish (",
+      "journal": "Environmental science. Processes & impacts",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40925416",
+      "title": "Assessing adult zebrafish despair-like behaviors in the small vertical cylinder immobility test (VCIT)",
+      "year": 2025,
+      "doi": "10.1016/j.jneumeth.2025.110569",
+      "abstract": "BACKGROUND: Affective disorders represent a major global health burden. Animal models are widely used for modeling brain disorders and neuroactive drug discovery. A novel powerful tool in translational neuroscience research, zebrafish (Danio rerio) provide multiple behavioral assays relevant to anxiety-like and depression-related conditions (including despair-like behavior, a common feature in depression). NEW METHOD: Here, we introduce a novel behavioral paradigm for assessing zebrafish locomotion and despair-like phenotypes, the small 5-mL glass vertical cylinder immobility test (VCIT). Conceptually similar to rodent and other zebrafish 'despair'-like models, the VCIT protocol is based on restricting fish locomotion vertically for 5 min in head-first position, to assess their locomotion and despair-like immobility. RESULTS: The test was sensitive to acute and chronic stressors that increased immobility duration (alarm pheromone, net chasing, chronic sleep deprivation and 12-week unpredictable stress), as well as to bidirectional modulation of zebrafish behavior by various acute and chronic neuroactive drugs. The VCIT immobility was reduced by psychostimulants nicotine and arecoline, as well as a conventional antidepressant fluoxetine. In contrast, the immobility in this test was increased by a pro-depressant dopamine-depleting drug reserpine, and remained unaltered by an anxiolytic agent ethanol or anxiogenic drugs caffeine and GBR-12909 (vanoxerine). COMPARISONS WITH EXISTING METHOD(S): The VCIT provides an easy-to-perform, minimally invasive, non-traumatic, and procedurally simpler and faster model of assessing zebrafish stress-evoked despair-like phenotypes. CONCLUSIONS: The VCIT is sensitive to various stress-related manipulations and bidirectional pharmacological modulation, hence emphasizing the growing relevance and potential of zebrafish in advancing neuropsychiatric research and identifying innovative treatments for neuropsychiatric disorders.",
+      "journal": "Journal of neuroscience methods",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40897016",
+      "title": "Cross-taxa sublethal impacts of plant protection products on honeybee in-hive and zebrafish swimming behaviours at environmentally relevant concentrations",
+      "year": 2025,
+      "doi": "10.1016/j.envint.2025.109750",
+      "abstract": "Single and mixture exposure to plant protection products (PPPs) can affect non-target organisms at sublethal concentrations, yet the ecological relevance of behavioural effects remains underexplored. Behavioural disruptions can compromise survival and fitness, with exposure occurring across terrestrial and aquatic ecosystems. Here, we assess the behavioural impact of environmentally relevant PPP concentrations on two ecologically and toxicologically important model species: honeybees (Apis mellifera) and zebrafish (Danio rerio). These organisms represent distinct exposure pathways: pollinator-specific routes such as oral uptake of contaminated nectar and pollen or contact during overspray and foraging, and freshwater contamination via runoff. In honeybees, in-hive behaviours were monitored using a snapshot method from days three to ten after exposure, while zebrafish behavioural endpoints were quantified using a 26-endpoint visual and acoustic motor response (VAMR) assay. Sublethal PPP exposure (1.99-7.81 ng/µL in honeybee hives, 0.0253-27.5 ng/µL in zebrafish assay) caused significant, substance-specific behavioural alterations. In honeybees, flupyradifurone (SIVANTO® prime) significantly decreased foraging and nectar processing, while boscalid (Cantus®) and terbuthylazine (ClickPro®) minimised brood-tending behaviours. Insecticides and fungicides affected honeybees most, while zebrafish embryos were especially sensitive to the herbicide terbuthylazine. They exhibited concentration-dependent neurotoxic phenotypes, with behavioural profiles of the PPPs mixture (consistent with concentrations in German streams: 41.54 % boscalid, 0.013 % flupyradifurone, 58.45 % terbuthylazine) shifting along a terbuthylazine-boscalid gradient. These findings show that PPPs can elicit pronounced behavioural changes in non-target species, even at low environmental concentrations. These results support incorporating in-hive and early-life stage behavioural assays into pesticide risk ass",
+      "journal": "Environment international",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40867073",
+      "title": "Cold storage of alarm substance reduces the behavioural stress response of zebrafish (Danio rerio)",
+      "year": 2025,
+      "doi": "10.1111/jfb.70200",
+      "abstract": "Alarm substance (AS) is widely used in zebrafish (Danio rerio, Hamilton, 1822) antipredator research to elicit an alarm reaction. This alarm reaction consists of stereotypical behaviours, including freezing, erratic swimming and a tendency to dwell at the bottom of the tank (geotaxis). Because the active compound in AS is known to degrade rapidly, many investigators choose to freeze AS until use, whereas others argue for collecting AS freshly the morning of an experimental session. As part of efforts to reduce the number of donor fish necessary for an experiment, we sought to investigate whether AS maintained overnight under cold storage could elicit an equivalent alarm response to AS of equivalent dilution collected freshly. Our results indicate that exposure to AS stored overnight at -20°C elicited a diminished alarm response compared to fresh AS of equivalent dilution. Although frozen AS may still be sufficient for many studies, our results suggest that AS is most potent when collected fresh the morning of experimentation.",
+      "journal": "Journal of fish biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40850377",
+      "title": "Autism spectrum disorder-like behaviors in developing zebrafish exposed to particulate matter",
+      "year": 2025,
+      "doi": "10.1016/j.ntt.2025.107548",
+      "abstract": "Autism spectrum disorder (ASD) is a group of neurodevelopmental disorders that can impact communication and social behaviors. Evidence suggests that the causes of ASD are likely a combination of genetic and environmental factors, such as air pollution. Particulate matter (PM) is the solid and liquid portion of air pollution that can vary in size and has been associated with many health impacts, including cardiorespiratory impacts, and has more recently been found to be associated with the prevalence of ASD. However, little is known about the phenotypic presentations of this association between PM and ASD, therefore, the zebrafish (Danio rerio) model was employed to study behaviors often associated with ASD as a result of PM exposure. Zebrafish larvae were exposed for a total of 5 days to PM standard reference material (SRM1649b) and a commonly used home remedy, melatonin, beginning at 6 h post-fertilization and various behavioral assays were performed on subsequent days for a total of 13 days. Observed and quantified behaviors were compared to a positive control, valproic acid (VPA). Generally, PM exposure did not elicit behavior resembling that of VPA exposure and the interactions between PM and VPA did not induce additive or synergistic behavioral patterns, as expected. Melatonin supplementation did not ameliorate most of the observed behavioral impacts of PM or VPA exposure. These results have prompted additional questions about the phenotypic presentations of ASD as a result of PM exposure and contribute to growing knowledge about disease-environment interactions.",
+      "journal": "Neurotoxicology and teratology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40711036",
+      "title": "Acute Dermatotoxicity of Green-Synthesized Silver Nanoparticles (AgNPs) in Zebrafish Epidermis",
+      "year": 2025,
+      "doi": "10.3390/toxics13070592",
+      "abstract": "Silver nanoparticles (AgNPs), lauded for their unique antibacterial and physicochemical attributes, are proliferating across industrial sectors, raising concerns about their environmental fate, in aquatic systems. While \"green\" synthesis offers a sustainable production route with reduced chemical byproducts, the safety of these AgNPs for aquatic fauna remains uncertain due to nanoparticle-specific effects. Conversely, mast cells play crucial roles in fish immunity, orchestrating innate and adaptive immune responses by releasing diverse mediators and recognizing danger signals. Goblet cells are vital for mucosal immunity and engaging in immune surveillance, regulation, and microbiota interactions. The interplay between these two cell types is critical for maintaining mucosal homeostasis, is central to defending against fish diseases and is highly responsive to environmental cues. This study investigates the acute dermatotoxicity of environmentally relevant AgNP concentrations (0, 0.031, 0.250, and 5.000 μg/L) on zebrafish epidermis. A 96 h assay revealed a biphasic response: initial mucin hypersecretion at lower AgNP levels, suggesting an early stress response, followed by a concentration-dependent collapse of mucosal integrity at higher exposures, with mucus degradation and alarm cell depletion. A rapid and generalized increase in epidermal mucus production was observed across all AgNP exposure groups within two hours of exposure. Further mechanistic insights into AgNP-induced toxicity were revealed by concentration-dependent alterations in goblet cell dynamics. Lower AgNP concentrations initially led to an increase in both goblet cell number and size. However, at the highest concentration, this trend reversed, with a significant decrease in goblet cell numbers and size evident between 48 and 96 h post-exposure. The simultaneous presence of neutral and acidic mucins indicates a dynamic epidermal response suggesting a primary physical barrier function, with acidic mu",
+      "journal": "Toxics",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40600462",
+      "title": "Individual Differences in Boldness Influence Working Memory and Stress-Induced Repetitive Behaviors in Zebrafish",
+      "year": 2025,
+      "doi": "10.1111/ejn.70173",
+      "abstract": "Individual differences in traits, such as boldness, significantly impact survival and adaptability by shaping responses to environmental challenges, including stress. Bolder individuals take greater risks to access resources and often display higher impulsivity, affecting behavioral domains like memory and cognition. Coping mechanisms in response to stressful situations may also differ between bold and shy individuals, with bold fish tending towards impulsive, less inhibited responses, whereas shy fish adopt cautious, controlled strategies. Despite these distinctions, the connections between boldness, stress reactivity, cognitive performance, and maladaptive behaviors remain poorly understood. Here, we used the zebrafish (Danio rerio) to examine these relationships. Boldness was assessed using the novel tank diving test, classifying fish as bold or shy based on overall and vertical exploratory activity. We then exposed fish to conspecific alarm substance (CAS), an acute naturalistic stressor, and assessed cognitive outcomes in the FMP Y-maze. Our results revealed distinct responses, with bold zebrafish showing poorer working memory performance and higher levels of repetitive behaviors following stress compared to shy fish, underscoring the impact of individual differences on stress reactivity and cognition. A positive correlation between boldness and repetitive behaviors was found for both control and CAS-exposed fish, indicating that boldness influences the escape strategies adopted by different phenotypes on the FMP Y-maze, especially in patterns associated with repetitive behaviors. These findings advance our understanding of how boldness influences stress responses and cognitive outcomes, providing a framework to examine resilience, impulsivity, and repetitive behaviors in translational neurobehavioral research.",
+      "journal": "The European journal of neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_heares_2020_107952",
@@ -262,11 +500,7 @@
       "abstract": "",
       "journal": "Hearing Research",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_86419",
@@ -276,11 +510,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_48086_asd0012",
@@ -290,11 +520,7 @@
       "abstract": "",
       "journal": "FUTURE BIOCHEMISTRY AND BIOSCIENCE",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fncir_2015_00039",
@@ -304,11 +530,7 @@
       "abstract": "Adult zebrafish are robustly social animals whereas larva is not. We designed an assay to determine at what stage of development zebrafish begin to interact with and prefer other fish. One week old zebrafish do not show significant social preference whereas most 3 weeks old zebrafish strongly prefer to remain in a compartment where they can view conspecifics. However, for some individuals, the presence of conspecifics drives avoidance instead of attraction. Social preference is dependent on vision and requires viewing fish of a similar age/size. In addition, over the same 1-3 weeks period larval zebrafish increasingly tend to coordinate their movements, a simple form of social interaction. Finally, social preference and coupled interactions are differentially modified by an NMDAR antagonist and acute exposure to ethanol, both of which are known to alter social behavior in adult zebrafish.",
       "journal": "Frontiers in Neural Circuits",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3389_fnins_2015_00414",
@@ -318,11 +540,7 @@
       "abstract": "Although there is general agreement that the central nucleus of the amygdala (CeA) is critical for triggering the neuroendocrine response to visual threats, there is uncertainty about the role of subcortical visual pathways in this process. Primates in general appear to depend less on subcortical visual pathways than other mammals. Yet, imaging studies continue to indicate a role for the superior colliculus and pulvinar nucleus in fear activation, despite disconnects in how these brain structures communicate not only with each other but with the amygdala. Studies in fish and amphibians suggest that the neuroendocrine response to visual threats has remained relatively unchanged for hundreds of millions of years, yet there are still significant data gaps with respect to how visual information is relayed to telencephalic areas homologous to the CeA, particularly in fish. In fact ray finned fishes may have evolved an entirely different mechanism for relaying visual information to the telen",
       "journal": "Frontiers in Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2210_pdb4bxr_pdb",
@@ -332,11 +550,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s11160-012-9297-z",
@@ -346,11 +560,7 @@
       "abstract": "A recent survey lists more than 100 papers utilizing the auditory evoked potential (AEP) recording technique for studying hearing in fishes. More than 95 % of these AEP-studies were published after Kenyon et al. introduced a non-invasive electrophysiological approach in 1998 allowing rapid evaluation of hearing and repeated testing of animals. First, our review compares AEP hearing thresholds to behaviorally gained thresholds. Second, baseline hearing abilities are described and compared in 111 fish species out of 51 families. Following this, studies investigating the functional significance of various accessory hearing structures (Weberian ossicles, swim bladder, otic bladders) by eliminating these morphological structures in various ways are dealt with. Furthermore, studies on the ontogenetic development of hearing are summarized. The AEP-technique was frequently used to study the effects of high sound/noise levels on hearing in particular by measuring the temporary threshold shifts ",
       "journal": "Reviews in Fish Biology and Fisheries",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1471-2202-11-58",
@@ -360,11 +570,7 @@
       "abstract": "This is the most comprehensive study of sex-, social-, and reproductive-related steroid receptor mRNA expression in the peripheral auditory system of any single vertebrate. Our data suggest that changes in steroid receptor mRNA expression in the inner ear could be a regulatory mechanism for physiological state-dependent auditory plasticity across vertebrates.",
       "journal": "BMC Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_008474",
@@ -374,11 +580,7 @@
       "abstract": "The ontogenetic development of acoustic communication has so far only been investigated in one fish species. In order to determine whether detectability of conspecific sounds changes during growth in a species with limited hearing abilities (generalist), we investigated the development of auditory sensitivity and agonistic vocalizations in the Lusitanian toadfish Halobatrachus didactylus. Agonistic grunts were recorded, their sound pressure levels determined, and auditory sensitivities measured in five different size groups ranging from 3 to 32 cm standard length. Hearing thresholds were obtained using the auditory evoked potentials (AEP) recording technique. Dominant frequency, sound duration and number of pulses decreased, whereas pulse period and sound level increased with increasing fish size. The best hearing was below 300 Hz in all groups. Lower hearing sensitivity was found in the smallest juveniles at 100 Hz as well as at higher frequencies (800 and 1000 Hz). Comparisons betwee",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_3354_meps285213",
@@ -388,11 +590,7 @@
       "abstract": "Recent evidence suggests that pelagic larvae of coral reef fishes are active in their dispersal and return to a reef; however, the mechanisms used to navigate are unknown. Sound is a potentially important cue for organisms in marine environments, especially in noisy environments like coral reefs. The auditory brainstem response (ABR) technique was used to measure hearing of a wide size range of sergeant major damselfish Abudefduf saxatilis. Complete audiograms were measured for 32 fish ranging in size from 11 to 121 mm. Significant effects of standard length on hearing thresholds at 100 and 200 Hz were detected. at these lower frequencies, thresholds increased with an increase in size. All fish were most sensitive to the lower frequencies (100 to 400 Hz). The frequency range over which fish could detect sounds was dependent upon the size of the fish; the larger fish (&gt;50 mm) were more likely to respond to higher frequencies (1000 to 1600 Hz). A. saxatilis has poor hearing sensitivit",
       "journal": "Marine Ecology Progress Series",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1523_jneurosci_21-22-08943_2001",
@@ -402,11 +600,7 @@
       "abstract": "Although teleost fish have higher levels of brain aromatase activity than any other vertebrate group, its function remains speculative, and no study has identified its cellular basis. A previous study determined aromatase activity in a vocal fish, the plainfin midshipman (Porichthys notatus), and found highest levels in the telencephalon and lower levels in the sonic hindbrain, which was dimorphic between and within (males) sexes. We have now localized aromatase-containing cells in the midshipman brain both by immunocytochemistry using teleost-specific aromatase antibodies and by in situ hybridization using midshipman-specific aromatase probes. Aromatase-immuno-reactivity and mRNA hybridization signal are consistent with relative levels of aromatase activity in different brain regions: concentrated in the dimorphic sonic motor nucleus, in a band just beneath the periaqueductal gray in the midbrain, in ventricular regions in the hypothalamus, and highest levels in the telencephalon espe",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7717_peerj_2988_table-5",
@@ -416,11 +610,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_18002_10612_3354",
@@ -430,11 +620,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_7094_fig-3",
@@ -444,11 +630,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7717_peerj_2988_table-6",
@@ -458,14 +640,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

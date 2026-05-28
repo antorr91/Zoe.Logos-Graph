@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 7,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 9,
+    "doi_count": 27,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,13 +45,13 @@
     "bleat"
   ],
   "contexts": [
-    "alarm",
     "mother-offspring",
-    "social contact"
+    "social contact",
+    "alarm"
   ],
   "functions": [
-    "contact maintenance",
     "individual recognition",
+    "contact maintenance",
     "separation distress"
   ],
   "communication_profile": {
@@ -60,58 +60,233 @@
         "value": "bleat",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mother-offspring",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social contact",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "contact maintenance",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "contact maintenance",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "separation distress",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1468,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1467,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1466,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1465,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1464,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1463,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1462,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1461,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1460,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "freesound",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s42003-026-09729-1",
+      "url": "https://doi.org/10.1038/s42003-026-09729-1",
+      "title": "Single-nucleus RNA sequencing provides insights into the genetic mechanisms underlying reproductive adaptability in Tibetan sheep (Ovis aries)",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/genes16040363",
+      "url": "https://doi.org/10.3390/genes16040363",
+      "title": "Whole-Genome Resequencing in Sheep: Applications in Breeding, Evolution, and Conservation",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/vms3.1450",
+      "url": "https://doi.org/10.1002/vms3.1450",
+      "title": "Seasonal investigation of the macroscopic and microscopic structure of the sinus interdigitalis in Hamdani crossbred sheep (Ovis aries)",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-024-01895-1",
+      "url": "https://doi.org/10.1007/s10071-024-01895-1",
+      "title": "Do sheep (Ovis aries) discriminate human emotional odors?",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s11250-022-03050-9",
+      "url": "https://doi.org/10.1007/s11250-022-03050-9",
+      "title": "Impacts of short-term water restriction on Pelibuey sheep: physiological and blood parameters",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/gigascience/giab096",
+      "url": "https://doi.org/10.1093/gigascience/giab096",
+      "title": "An improved ovine reference genome assembly to facilitate in-depth functional annotation of the sheep genome",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/jas/skac090",
+      "url": "https://doi.org/10.1093/jas/skac090",
+      "title": "Short Communication: Maternal obesity alters ovine endometrial gene expression during peri-implantation development",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/vetsci9110647",
+      "url": "https://doi.org/10.3390/vetsci9110647",
+      "title": "Histomorphology and Chemical Constituents of Interdigital Gland of Vembur Sheep,",
+      "year": 2022,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1016/j.applanim.2021.105264",
       "url": "https://doi.org/10.1016/j.applanim.2021.105264",
@@ -132,6 +307,13 @@
       "title": "Fungos de armazenagem e micotoxinas em dieta para ovinos (Ovis aries L.): Estudo de caso Storage fungi and mycotoxins in sheep diet (Ovis aries L.): a case study Hongos de almacenamiento y micotoxinas en la dieta para ovinos (Ovis aries L.): estudio de caso",
       "year": 2017,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s11262-016-1374-2",
+      "url": "https://doi.org/10.1007/s11262-016-1374-2",
+      "title": "Short communication: antiviral activity of porcine IFN-λ3 against porcine epidemic diarrhea virus in vitro",
+      "year": 2016,
+      "source": "pubmed"
     },
     {
       "doi": "10.1079/cabicompendium.71353",
@@ -241,6 +423,86 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41703277",
+      "title": "Single-nucleus RNA sequencing provides insights into the genetic mechanisms underlying reproductive adaptability in Tibetan sheep (Ovis aries)",
+      "year": 2026,
+      "doi": "10.1038/s42003-026-09729-1",
+      "abstract": "The Tibetan sheep is an ideal model animal for investigating adaptations to hypoxia and an important livestock species; however, the reproductive mechanisms that characterize its adaptive responses in extreme environments remain poorly understood. In this study, we employ single-nucleus RNA sequencing to characterize the transcriptomic landscape of the Tibetan sheep testis at four key developmental stages: newborn, pre-sexual maturity, and post-sexual maturity to adulthood. We constructed a single-nucleus transcriptomic atlas and identified two distinct subtypes of spermatogonial stem cells (SSCs): quiescent and active. Notably, we observed that pre-sexually mature Sertoli cells exhibit three distinct transcriptional states. Furthermore, we also identified a transitional state Sertoli cell that links immature and mature Sertoli cells. Analysis of testicular intercellular communication networks provides evidence for understanding somatic-germ cell interactions during spermatogenesis. Our study provides a comprehensive atlas of Tibetan sheep testicular development, revealing key insights into the dynamic changes and regulatory mechanisms of spermatogenesis and somatic cell maturation from birth to adulthood. These findings contribute to a detailed understanding of the genetic mechanisms underlying testicular development in Tibetan sheep and offer valuable insights and references for the study and comprehension of reproductive adaptations in other highland male domestic animals.",
+      "journal": "Communications biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40282323",
+      "title": "Whole-Genome Resequencing in Sheep: Applications in Breeding, Evolution, and Conservation",
+      "year": 2025,
+      "doi": "10.3390/genes16040363",
+      "abstract": "Sheep (",
+      "journal": "Genes",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39060454",
+      "title": "Do sheep (Ovis aries) discriminate human emotional odors?",
+      "year": 2024,
+      "doi": "10.1007/s10071-024-01895-1",
+      "abstract": "While sheep can detect and discriminate human emotions through visual and vocal cues, their reaction to human body odors remains unknown. The present study aimed to determine whether sheep (Ovis aries) can detect human odors, olfactorily discriminate stressed from non-stressed individuals, and behave accordingly based on the emotional valence of the odors. Axillary secretions from 34 students were collected following an oral examination (stress odor) or a regular class (non-stress odor). Fourteen female and 15 male lambs were then exposed to these odors through a habituation-dishabituation procedure. The habituation stimulus was presented four times for one minute, followed by the dishabituation stimulus presented once for one minute. Behavioral variables included spatiality relative to target odors, approach/withdrawal, ear positioning, sniffing, ingestion, and vocalization. Both female and male lambs more often positioned their ears backwards/forwards, and asymmetrically when exposed to the dishabituation stimulus, but regardless of their stress or non-stress value. They also changed their approach behavior when exposed to the dishabituation stimuli. Lambs displayed some behavioral signs of discrimination between the habituation and dishabituation odors, but regardless of their relation to stress or non-stress of human donors. In sum, this exploratory study suggests that young sheep respond negatively to the odor of unfamiliar humans, without showing any specific emotional contagion related to the stress odor. This exploratory study suggests young ovines can detect human body odor, a further step toward understanding the human-sheep relationship.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38595037",
+      "title": "Seasonal investigation of the macroscopic and microscopic structure of the sinus interdigitalis in Hamdani crossbred sheep (Ovis aries)",
+      "year": 2024,
+      "doi": "10.1002/vms3.1450",
+      "abstract": "BACKGROUND: The odours of different body parts and structures, such as external genitalia, female urine, ventral tail radix, infraorbital sinus and interdigital sinus, have a strong attractiveness for rams. The sinus interdigitalis is considered an important trail gland for sexual behaviour, as its odour is included in the list of strongly attractive structures for male animals during the breeding season, being important in pheromone production. OBJECTIVES: In the present study, the effects of sex and breeding season on the morphological and histological structure of the interdigital gland were investigated in Hamdani crossbred sheep (Ovis aries). METHODS: Sinus interdigitalis glands located on the forelimbs and hind limbs were collected from 10 male and 10 female sheep during both breeding and non-breeding seasons. The gland's position in the forelimbs and hind limbs was determined radiographically. The glands were examined macroscopically, histologically and immunohistochemically in both seasons. RESULTS: In all animals, the topographic location of the gland between the digits was determined to be distal to the phalanx proximalis and at the level of the phalanx media. The mean weight of the gland in male and female animals was 1.07 ± 0.03 and 1.4 ± 0.11 g, respectively. In general, the results of morphometric measurements were higher during the breeding season, and the increase was more pronounced in female animals. In histological examinations, it was determined that both neck and body parts of the tissues consisted of a structure consisting of a connective tissue capsule at the outermost, dermis, epidermis and lumen underneath. Immunohistochemically staining revealed that oestrogen receptors showed positive immunoreactions only in the intracytoplasmic localization of apocrine sweat glands. In terms of morphological, histological and oestrogen receptors, it was thought that the gland may play a role in sexual communication.",
+      "journal": "Veterinary medicine and science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36423097",
+      "title": "Histomorphology and Chemical Constituents of Interdigital Gland of Vembur Sheep,",
+      "year": 2022,
+      "doi": "10.3390/vetsci9110647",
+      "abstract": "The interdigital gland is a specialized skin gland located between the digits of Artiodactyla (i.e., even-toed ungulates). Its secretion participates in semiochemical communication, and protects from ultraviolet radiation as well as fungal and bacterial infections of the feet. The present study aimed at finding if there are male-female differences in the anatomy, morphology, and volatile compounds of the interdigital gland of the South Indian breed of Vembur sheep. A total of 24 sheep (12 each of male and female) were spotted at the slaughterhouse and the interdigital gland was removed for examination. The anatomical examination revealed it to resemble a tobacco pipe and to consist of a body, flexure, and excretory duct with an external orifice located at the cleft of the digits. Morphometrically, the interdigital glands differed between males and females. The gland possesses a distinct fibrous capsule, epidermis, and dermis. The fibrous capsule contains several parallel bundles of collagen fibers, nerve fibers, and blood vessels, etc. The epidermis consists of keratinized squamous epithelium formed of stratum basale, stratum granulosum and stratum spinosum. The dermis consists of hair follicles, nerve plexuses, arrector pili muscles, and apocrine and sebaceous glandular lobules. The latter, lined by a simple cuboidal epithelium, are arranged in clusters of acini in the upper portion of the dermis. The apocrine secretory lobules, made up of parenchymal cells, are found in the lower portion of the dermis. The density and diameter of the apocrine and sebaceous secretory lobules were significantly higher in the males than females. Scanning electron microscopic (SEM) analysis confirmed the apocrine and sebaceous secretory components. Twenty-three major compounds were identified in the interdigital gland postings of male and female sheep, among which butanoic acid, 2-methylpropanoic acid, 1-heptanol and octadecanoic acid were present only in the male glandular post, wher",
+      "journal": "Veterinary sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35772750",
+      "title": "Short Communication: Maternal obesity alters ovine endometrial gene expression during peri-implantation development",
+      "year": 2022,
+      "doi": "10.1093/jas/skac090",
+      "abstract": "Exposure to maternal obesity in utero is associated with marked developmental effects in offspring that may not be evident until adulthood. Mechanisms regulating the programming effects of maternal obesity on fetal development have been reported, but little is known about how maternal obesity affects the earliest periods of embryonic development. This work explored how obesity influences endometrial gene expression during the peri-implantation period using a sheep model. Ewes were assigned randomly to diets that produced an obese state or maintained a lean state. After 4 mo, obese and lean ewes were bred and then euthanized at day 14 post-breeding. The uterus was excised, conceptuses were flushed, and endometrial tissue was collected. Isolated RNA from endometrial tissues (n = 6 ewes/treatment) were sequenced using an Illumina-based platform. Reads were mapped to the Ovis aries genome (Oar_4.0). Differential gene expression was determined, and results were filtered (false discovery rate ≤ 0.05 and ≥2-fold change, ≥0.2 reads/kilobase/million reads). Differentially expressed genes (DEGs) were identified (n = 699), with 171 downregulated and 498 upregulated in obese vs. lean endometrium, respectively. The most pronounced gene ontology categories identified were cellular process, metabolic process, and biological regulation. Enrichments were detected within the DEGs for genes involved with immune system processes, negative regulation of apoptosis, cell growth, and cell adhesion. A literature search revealed that 125 DEGs were associated with either the trophoblast lineage or the placenta. Genes within this grouping were involved with wingless/integrated signaling, angiogenesis, and integrin signaling. In summary, these data indicate that the peri-implantation endometrium is responsive to maternal obesity. Transcript profile analyses suggest that the endometrial immune response, adhesion, and angiogenesis may be especially susceptible to obesity. Thus, alterations in ute",
+      "journal": "Journal of animal science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35134925",
+      "title": "An improved ovine reference genome assembly to facilitate in-depth functional annotation of the sheep genome",
+      "year": 2022,
+      "doi": "10.1093/gigascience/giab096",
+      "abstract": "BACKGROUND: The domestic sheep (Ovis aries) is an important agricultural species raised for meat, wool, and milk across the world. A high-quality reference genome for this species enhances the ability to discover genetic mechanisms influencing biological traits. Furthermore, a high-quality reference genome allows for precise functional annotation of gene regulatory elements. The rapid advances in genome assembly algorithms and emergence of sequencing technologies with increasingly long reads provide the opportunity for an improved de novo assembly of the sheep reference genome. FINDINGS: Short-read Illumina (55× coverage), long-read Pacific Biosciences (75× coverage), and Hi-C data from this ewe retrieved from public databases were combined with an additional 50× coverage of Oxford Nanopore data and assembled with canu v1.9. The assembled contigs were scaffolded using Hi-C data with Salsa v2.2, gaps filled with PBsuitev15.8.24, and polished with Nanopolish v0.12.5. After duplicate contig removal with PurgeDups v1.0.1, chromosomes were oriented and polished with 2 rounds of a pipeline that consisted of freebayes v1.3.1 to call variants, Merfin to validate them, and BCFtools to generate the consensus fasta. The ARS-UI_Ramb_v2.0 assembly is 2.63 Gb in length and has improved continuity (contig NG50 of 43.18 Mb), with a 19- and 38-fold decrease in the number of scaffolds compared with Oar_rambouillet_v1.0 and Oar_v4.0. ARS-UI_Ramb_v2.0 has greater per-base accuracy and fewer insertions and deletions identified from mapped RNA sequence than previous assemblies. CONCLUSIONS: The ARS-UI_Ramb_v2.0 assembly is a substantial improvement in contiguity that will optimize the functional annotation of the sheep genome and facilitate improved mapping accuracy of genetic variant and expression data for traits in sheep.",
+      "journal": "GigaScience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35006405",
+      "title": "Impacts of short-term water restriction on Pelibuey sheep: physiological and blood parameters",
+      "year": 2022,
+      "doi": "10.1007/s11250-022-03050-9",
+      "abstract": "One of the projected effects of climate change is a reduction in rainfall in certain regions of the world. Hence, the agricultural and livestock sectors will have to cope with increasing incidences of water shortage while still maintaining productivity levels to feed an ever increasing global population. This short communication reports on the effect of a 2-week water stress on Pelibuey sheep in Cuba. Three treatments were compared, viz. supply of water ad libitum, water supplied once every 3 or 6 days. Following exposure to the water stress, the results showed no changes in sheep body weight or rectal temperature. However, respiration frequency was affected with water stress causing a reduction from 23.3 to 13.3 respirations per min in control and water-deprived animals, respectively. Furthermore, there was evidence for hemoconcentration in response to water stress (levels of hemoglobin increased from 9.2 to 13.1 g L",
+      "journal": "Tropical animal health and production",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1016_j_applanim_2021_105264",
       "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
       "year": 2021,
@@ -248,11 +510,7 @@
       "abstract": "Public concern for farm animal welfare is increasing. Animal welfare is defined as the balance of positive and negative emotions, where positive emotions are key to a good animal life. Emotion is defined as an experience that varies in valence and arousal. Many methods developed to identify positive emotions in animals involve disadvantages. For example, they require training the animals, are age specific or invasive. Vocalisations are a promising indicator of positive emotions. We aimed to review current knowledge on farm animal vocalisations putatively associated with positive emotions and discuss the potential of vocalisations as an on-farm tool to assess positive emotions in farm animals. Vocalisation types and acoustic structures that can potentially be used to identify positive emotions depend upon species. In pigs, lower frequency vocalisations are produced more in positive situations, however, within grunts, higher frequencies reflect positive situations. In horses, more snorts",
       "journal": "Applied Animal Behaviour Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_32388_fc05mk",
@@ -262,11 +520,37 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_29360558",
+      "title": "Dynamics of social behaviour at parturition in a gregarious ungulate",
+      "year": 2018,
+      "doi": "10.1016/j.beproc.2018.01.013",
+      "abstract": "Group living is the behavioural response that results when individuals assess the costs vs benefits of sociality, and these trade-offs vary across an animal's life. Here we quantitatively assess how periparturient condition (mother/non-mother) and births affect the dynamics of social interactions of a gregarious ungulate, and how such can help to explain evolutionary hypotheses of the mother-offspring bond. To achieve this we used data of the individual movement of a group of Scottish blackface sheep (Ovis aries) marked with GPS collars and properties of mathematical graphs (networks). Euclidean pair-wise distance between sheep were threshold at different percentiles to determine network links, and these thresholds have a profound effect on the connectivity of the resulting network. Births increased the average pair-wise distance between mothers, and between mothers and non-mothers, with less effect on the distance between non-mothers. Mothers occupied peripheral positions within the flock, more evident following births. Associations between individuals (i.e. network community change) were highly dynamic, though mothers were less likely to change community than non-mothers, especially after births. Births hampered individual communication within the flock (assessed via network closeness centrality), especially in mothers. Overall leadership (lead positioning relative to flock movement) was not associated to reproductive condition, and individual leadership rank was not affected by births. A ten minute GPS acquisition time was adequate to capture complex social dynamics in sheep movement. The results on mother's isolation behaviour support the hypotheses of selection for maternal imprint facilitation, reducing risks to nursing alien offspring, and group/multilevel selection on group formation.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29079944",
+      "title": "Short communication: milk production and lamb development in Saint Croix and Katahdin hair sheep breeds (Ovis aries)",
+      "year": 2018,
+      "doi": "10.1007/s11250-017-1448-8",
+      "abstract": "The aim of the present study was to characterize milk production and preweaning development of lambs from Katahdin and Saint Croix sheep. Milk production was measured weekly, from birth to 8 weeks using oxytocin technique, in 12 Katahdin (62.0 ± 5.0 kg) and 11 Saint Croix (46.2 ± 4.83 kg) multiparous ewes. The mean daily milk production for the Katahdin ewes was 1.38 ± 0.54 L/day and for the Saint Croix ewes it was 1.26 ± 0.49 L/day (P > 0.05) (mean ± SE for each group). However, more colostrum was produced immediately after parturition by the Katahdin than Saint Croix ewes (P < 0.001). The lamb's weight and weight gain were recorded weekly. The birth weight of lambs from both breeds was similar but at weaning, the Katahdin lambs were heavier (16.46 ± 0.58 kg) than the Saint Croix lambs (12.90 ± 0.59 kg) (P < 0.001). Furthermore, a significant positive correlation was found between daily milk yield and daily gain weight in both breeds, but with a greater slope in Katahdin lambs in comparison with Saint Croix lambs. It was concluded that Saint Croix and Katahdin hair sheep breeds produced similar amounts of milk during lactation, but the latter produced heavier lambs at weaning.",
+      "journal": "Tropical animal health and production",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28144801",
+      "title": "A brief and critical review on hydrofluorosis in diverse species of domestic animals in India",
+      "year": 2018,
+      "doi": "10.1007/s10653-017-9913-x",
+      "abstract": "India is one of the fluoride-endemic countries where the maximum numbers of ground or drinking water sources are naturally fluoridated. In India, a total of 23, out of 36 states and union territories have drinking water contaminated with fluoride in varying concentration. In the present scenario, especially in rural India, besides the surface waters (perennial ponds, dams, rivers, etc.), bore wells and hand pumps are the principal drinking water sources for domestic animals such as cattle (Bos taurus), water buffaloes (Bubalus bubalis), sheep (Ovis aries), goats (Capra hircus), horses (Equus caballus), donkeys (Equus asinus) and dromedary camels (Camelus dromedarius). Out of 23 states, 17 states, namely Andhra Pradesh, Assam, Bihar, Chhattisgarh, Gujarat, Haryana, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha (Orissa), Punjab, Rajasthan, Telangana, Uttar Pradesh and West Bengal, have fluoride beyond the maximum permissible limit of 1.0 or 1.5 ppm in drinking water. This situation is a great concern for the animal health because fluoride is a slow toxicant and causes chronic diverse serious health hazards or toxic effects. Despite the fact that domestic animals are the basic income sources in rural areas and possess a significant contributory role not only in the agriculture sector but also in the strengthening of economy as well as in sustainable development of the country, research work on chronic fluoride intoxication (hydrofluorosis) due to drinking of fluoridated water in domestic animals rearing in various fluoride-endemic states is not enough as compared to work done in humans. However, some interesting and excellent research works conducted on different aspects of hydrofluorosis in domesticated animals rearing in different states are briefly and critically reviewed in the present communication. Author believes that this review paper not only will be more useful for researchers to do some more advance research work on fluoride-induced toxic",
+      "journal": "Environmental geochemistry and health",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_22256_pubvet_v11n12_1210-1219",
@@ -276,11 +560,17 @@
       "abstract": "<jats:p>Fungi and their storage conditions (moisture) and contamination by mycotoxins in foods offered to sheep were evaluated. Crioula animals created at Farm Ressacada – UFSC and with weakened health. The samples of alfalfa hay (Medicago sativa L.) were stored at 3 points (entrance of the shed, sheepfold and room), besides (b) pasture (B. decumbens) obtained in the field and (c) ration (Corn and soybean) stored in the sheepfold. The most detected fungal genus was Aspergillus, followed by Penicillium in 75 and 40% of the samples, respectively. Toxigenic strains (AFLs producers) were identified. As regards moisture (mc and aw) the contents ranged from 12-40% (mean: 12%) and aw: 0.5029-0.9888 (mean: 0.5783), considered adequate for fungal growth. Mycotoxins (AFLs: AFB1, AFB2, AFG1, AFG2) were detected at levels of 128 μg/kg in the hay samples. Cleaning conditions (warehouse and machinery) are of the utmost importance, since samples newly arrived at the shelter of the sheep are contamina",
       "journal": "Pubvet",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_28290268",
+      "title": "Molecular characterisation, genetic variability and detection of a functional polymorphism influencing the promoter activity of OXT gene in goat and sheep",
+      "year": 2017,
+      "doi": "10.1017/S0022029917000097",
+      "abstract": "The purpose of the study described in this Research Communication was to report the full characterisation of the goat and sheep oxytocin-neurophysin I gene (OXT), their promoters and amino acid sequences. Using the genomic DNA as template, we sequenced and compared the whole OXT gene (3 exons), plus 958/960 nucleotides at the 5' flanking region and 478/477 nucleotides at the 3' flanking region, in 46 sheep and 24 goats belonging to different breeds/genetic types reared in Italy, Greece and Germany. The comparison of the obtained sequences showed a high degree of genetic variability at these loci. In particular, we focused on the SNP g.438T > C as possible example of trans-specific polymorphism. This SNP alters a putative binding site of the transcription factor Oct-1. The set-up of a luciferase assay confirmed that the C variant of this SNP negatively affects the promoter activity of the sheep OXT gene. The results of this study suggest that the SNP g.438T > C might be useful to promote association studies with traits/physiological processes controlled by this hormone.",
+      "journal": "The Journal of dairy research",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_71353",
@@ -290,11 +580,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_27470155",
+      "title": "Short communication: antiviral activity of porcine IFN-λ3 against porcine epidemic diarrhea virus in vitro",
+      "year": 2016,
+      "doi": "10.1007/s11262-016-1374-2",
+      "abstract": "A new family of IFNs called type III IFN or IFN-λ has been described, and shown to induce antiviral activity against several viruses in the cell culture. In this study, the molecular cloning, expression, and antiporcine epidemic diarrhea virus (PEDV) activity of porcine IFN-λ3 (poIFN-λ3) were reported. The full-length poIFN-λ3 cDNA sequence encoded 196 amino acids with a 23 amino acid signal peptide. Sequence alignments showed that poIFN-λ3 had an amino acid sequence similarity to Ovis aries (78.1 %), Bos taurus (76.0 %), Tupaia belangeri (71.3 %), Equus caballus (69.9 %), and Homo sapiens (69.9 %). The phylogenetic analysis based on the genomic sequences indicated that poIFN-λ3 is located in the same branch as B. taurus and O. aries IFN-λ3. The poIFN-λ3 without a signal anchor sequence was efficiently expressed in Escherichia coli, and the purified recombinant poIFN-λ3 exhibited significant antiviral effects against PEDV in a dose- and time-dependent manner. This inhibitory effect of poIFN-λ3 on PEDV was observed under three different treatment conditions. The highest inhibition of PEDV was observed in Vero E6 cell cultures pretreated with poIFN-λ3 (prior to PEDV infection). In addition, poIFN-λ3 was able to induce the expression of IFN-stimulated genes, including ISG15, OAS1, and Mx1 in Vero E6 cells. These data demonstrate that poIFN-λ3 has antiviral activity against PEDV and may serve as a useful biotherapeutic candidate to inhibit PEDV or other viruses in swine.",
+      "journal": "Virus genes",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_24408960",
+      "title": "Temporal changes in the neonatal recognition cue of Dohne Merino lambs (Ovis aries)",
+      "year": 2014,
+      "doi": "10.1093/chemse/bjt075",
+      "abstract": "The strong bond that is formed between ewe and lamb after parturition is important for lamb survival. Evidence exists that the ewe mainly employs olfactory recognition cues to distinguish her lamb from other lambs in the flock. We have found that volatile organic compounds in the wool of Merino lambs that presumably constitute the neonatal recognition cue in sheep undergo temporal changes, at least during the first 100 days of their lives. To compensate for changes in the composition of the recognition cue, ewes are compelled to sample the changing effluvia of lambs to refresh their memories of their lambs' odor in order to preserve the exclusive olfactory attachment to their lambs. These changes could be the reason for the well-known regular sniffing of ewes at their lambs. Parallel changes in the effluvia of twin lambs ensure the retention of the previously observed intratwin similarity of the recognition cues of twin lambs. The coherent manner in which these changes take place probably contributes to the cohesion in a flock of sheep.",
+      "journal": "Chemical senses",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rstb_2011_0280",
@@ -304,11 +610,7 @@
       "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1751-0147-53-28",
@@ -318,11 +620,7 @@
       "abstract": "Weaning of beef calves is usually done abruptly and early compared to the natural weaning of the species, and is associated with simultaneous exposure of calves to a range of social and environmental stressors. Behavioural and physiological responses to weaning indicate detrimental effects on the welfare of these animals. The development and assessment of weaning methods aiming at reducing or avoiding this problem must be supported by scientific knowledge of the morphological, physiological and psychological mechanisms involved in the establishment, maintenance and braking of the cow-calf bond. Solutions also depend on the understanding of the various stressors associated with weaning, among which are the change in diet, cessation of nursing, separation from the dam, the change to a new spatial environment and the need for social reorganization following removal of the adults from the group. This review discusses these issues and assesses the effectiveness of the methods so far propose",
       "journal": "Acta veterinaria Scandinavica",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_71349",
@@ -332,11 +630,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_anbehav_2010_01_021",
@@ -346,11 +640,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1471-2202-11-58",
@@ -360,11 +650,17 @@
       "abstract": "This is the most comprehensive study of sex-, social-, and reproductive-related steroid receptor mRNA expression in the peripheral auditory system of any single vertebrate. Our data suggest that changes in steroid receptor mRNA expression in the inner ear could be a regulatory mechanism for physiological state-dependent auditory plasticity across vertebrates.",
       "journal": "BMC Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_20562352",
+      "title": "Technical note: High fidelity of whole-genome amplified sheep (Ovis aries) deoxyribonucleic acid using a high-density single nucleotide polymorphism array-based genotyping platform",
+      "year": 2010,
+      "doi": "10.2527/jas.2009-2723",
+      "abstract": "Advances in high-throughput genotyping technologies have afforded researchers the opportunity to study ever-increasing numbers of SNP in animal genomes. However, many studies encounter difficulties in obtaining sufficient quantities of high-quality DNA for such analyses, particularly when the source biological material is limited or degraded. The recent development of in vitro whole-genome amplification approaches has permitted researchers to circumvent these challenges by increasing the amount of usable DNA in normally small-quantity samples. Here, we assess the performance of whole-genome amplification products generated from ovine genomic DNA using a high-throughput SNP genotyping platform, the newly developed Illumina ovineSNP50 BeadChip. Our results demonstrate a high genotype call rate for conventional genomic DNA and whole-genome amplified genomic DNA. The data also reveal an exceptionally high concordance rate ( > or = 99%) between the genotypes generated from whole-genome amplified products and their conventional genomic DNA counterparts. This study supports the use of whole-genome amplification as a viable solution for the analysis of high-density SNP genotypic data using compromised or limited starting material.",
+      "journal": "Journal of animal science",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_9775_kvfd_2009_385",
@@ -374,11 +670,7 @@
       "abstract": "",
       "journal": "Kafkas Universitesi Veteriner Fakultesi Dergisi",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1601-5223_1985_tb00497_x",
@@ -388,11 +680,7 @@
       "abstract": "",
       "journal": "Hereditas",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1051_rnd:2006023",
@@ -402,11 +690,7 @@
       "abstract": "New-born lambs have limited energy reserves and need a rapid access to colostrum to maintain homeothermy and survive. In addition to energy, colostrum provides immunoglobulins which ensure passive systemic immunity. Therefore, getting early access to the udder is essential for the neonate. The results from the literature reviewed here highlight the importance of the birth site as the location where the mutual bonding between the mother and her young takes place. Attraction to birth fluids by the periparturient ewe leads to intense licking of the lamb. Grooming not only dries, cleans and stimulates the newborn it also facilitates bonding through learning of its individual odour. Ewes having twins should ideally stay on the birth site for at least six hours in order to establish a strong bond with both lambs and favour lambs survival. However, primiparous ewes or ewes having high levels of emotivity are more likely to exhibit poor maternal behaviour. In addition, difficult parturition an",
       "journal": "annales de biologie animale biochimie biophysique",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1086_506971",
@@ -416,11 +700,7 @@
       "abstract": "Parent-offspring recognition is usually crucial for survival of young. In mammals, olfaction often only permits identification at short range, and vocalizations are important at longer distances. Following and hiding antipredator strategies found in newborn mammals may also affect parental recognition mechanisms. We investigated mother-offspring recognition in fallow deer, an ungulate hider species. We analyzed the structure of adult female and fawn contact calls to determine whether they are individually distinctive and tested for mother-offspring recognition. Only females (and not fawns) have individualized vocalizations, with the fundamental frequency as the most distinctive parameter. Playback experiments showed that fawns can distinguish the calls of their mothers from those of other females, but mothers could not discriminate their own and alien fawn calls. Thus, the vocal identification process is unidirectional. In followers, mother-offspring acoustic recognition is mutual, and",
       "journal": "The American Naturalist",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-662-06820-5_21",
@@ -430,11 +710,7 @@
       "abstract": "",
       "journal": "Ecology of Ungulates",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_bjn2002743",
@@ -444,11 +720,7 @@
       "abstract": "Maternal undernutrition in pregnancy results in low birth-weights and impaired postnatal survival in sheep. Largely anecdotal evidence suggests that the expression of appropriate maternal and neonate behaviours may also be disrupted by undernutrition. In the present study, we investigated the effect of a moderate (35 %) reduction in ewe nutritional intake in pregnancy on the expression of ewe-lamb bonding behaviours in primiparous Scottish Blackface ewes. Low-intake (L) ewes had significantly higher plasma progesterone than high-intake (H) ewes from mid-gestation onwards (e.g. plasma progesterone at 20 weeks (ng/ml): H 15.72, L 22.38, sed 1.80, P<0.001), and a lower oestradiol: progesterone value than H ewes at delivery (H 0.46, L 0.35, sed 0.05, P<0.05). Lamb birth-weight was reduced in the L lambs compared with H lambs (mean body weight (kg): H 3.31, L 3.00, sed 0.14, P<0.05), but the incidence of malpresentation at delivery was greater in L lambs. L ewes spent significantly less tim",
       "journal": "British Journal Of Nutrition",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1046_j_1365-2052_1999_00455_x",
@@ -458,11 +730,7 @@
       "abstract": "",
       "journal": "Animal Genetics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_11606_d_10_2006_tde-15062007-165924",
@@ -472,14 +740,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

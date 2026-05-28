@@ -1,0 +1,180 @@
+# data/vocab/function_terms.yaml
+# ─────────────────────────────────────────────────────────────────────────────
+# Controlled vocabulary for communicative functions in Zoe.Logos.
+#
+# A function describes the putative adaptive or proximate purpose
+# of a signal, as stated or clearly implied by the source.
+#
+# IMPORTANT: only assign a function when the source EXPLICITLY attributes
+# it to the signal. Do not infer function from context alone.
+#
+# Format per entry:
+#   function_id:        unique ID (fn:<slug>)
+#   canonical_label:    English label
+#   parent_function_id: ID of parent function (optional)
+#   aliases:            variant labels from literature
+#   definition:         1–2 sentences
+#   scope_note:         annotation guidance
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Reproductive functions ────────────────────────────────────────────────────
+
+- function_id: fn:mate_attraction
+  canonical_label: mate attraction
+  parent_function_id: null
+  aliases:
+    - female attraction
+    - male advertisement
+    - sexual signalling
+    - attracting a mate
+    - advertisement
+  definition: >
+    Signal function of attracting or inducing approach of a potential
+    mate; typically associated with long-range acoustic signals.
+  scope_note: >
+    Source should explicitly state mate attraction, female choice,
+    or sexual advertisement. Do not assign from courtship context alone.
+
+- function_id: fn:mate_quality_advertisement
+  canonical_label: mate quality advertisement
+  parent_function_id: fn:mate_attraction
+  aliases:
+    - honest signal of quality
+    - fitness indicator
+    - condition indicator
+  definition: >
+    Signal that encodes information about the sender's quality,
+    condition, or genetic fitness, used in mate choice.
+
+# ── Social functions ──────────────────────────────────────────────────────────
+
+- function_id: fn:individual_recognition
+  canonical_label: individual recognition
+  parent_function_id: null
+  aliases:
+    - individual identification
+    - identity signalling
+    - signature signalling
+  definition: >
+    Signal function of encoding individual identity, enabling receivers
+    to discriminate between specific known individuals.
+
+- function_id: fn:group_cohesion
+  canonical_label: group cohesion
+  parent_function_id: null
+  aliases:
+    - flock cohesion
+    - social cohesion
+    - group coordination
+    - group maintenance
+  definition: >
+    Signal function of maintaining spatial proximity and coordination
+    among group members.
+
+- function_id: fn:kin_recognition
+  canonical_label: kin recognition
+  parent_function_id: fn:individual_recognition
+  aliases:
+    - family recognition
+    - offspring recognition
+    - parent recognition
+  definition: >
+    Signal function of distinguishing close relatives from non-relatives,
+    including parent–offspring and sibling recognition.
+
+# ── Anti-predator functions ───────────────────────────────────────────────────
+
+- function_id: fn:predator_warning
+  canonical_label: predator warning
+  parent_function_id: null
+  aliases:
+    - alarm function
+    - threat warning
+    - warning signal
+    - alerting conspecifics
+  definition: >
+    Signal function of alerting conspecifics (or heterospecifics) to
+    the presence of a predator or threat.
+  scope_note: >
+    Assign only when source explicitly attributes an alarm or warning
+    function. Do not infer from alarm call context alone.
+
+- function_id: fn:predator_deterrence
+  canonical_label: predator deterrence
+  parent_function_id: fn:predator_warning
+  aliases:
+    - pursuit deterrence
+    - predator assessment
+  definition: >
+    Signal directed at the predator itself to deter attack or
+    signal that detection has occurred (pursuit-deterrence hypothesis).
+
+- function_id: fn:recruitment
+  canonical_label: recruitment
+  parent_function_id: null
+  aliases:
+    - mobbing recruitment
+    - group assembly
+    - inter-specific alarm
+  definition: >
+    Signal function of recruiting conspecifics or heterospecifics
+    to a location, often for predator mobbing.
+
+# ── Learning and development ──────────────────────────────────────────────────
+
+- function_id: fn:social_learning
+  canonical_label: social learning
+  parent_function_id: null
+  aliases:
+    - vocal learning function
+    - imitation
+    - cultural transmission
+  definition: >
+    Signal function related to the acquisition or transmission of
+    vocalisations through observation and imitation.
+
+# ── Information transfer ───────────────────────────────────────────────────────
+
+- function_id: fn:food_location
+  canonical_label: food location
+  parent_function_id: null
+  aliases:
+    - food call
+    - foraging signal
+    - recruitment to food
+  definition: >
+    Signal function of directing conspecifics to food resources.
+
+- function_id: fn:spatial_orientation
+  canonical_label: spatial orientation
+  parent_function_id: null
+  aliases:
+    - navigation
+    - echolocation function
+    - biosonar
+  definition: >
+    Signal function of mapping the environment using echo returns,
+    used in echolocating bats and cetaceans.
+
+# ── Parent-offspring ──────────────────────────────────────────────────────────
+
+- function_id: fn:parental_provisioning
+  canonical_label: parental provisioning
+  parent_function_id: null
+  aliases:
+    - begging response
+    - food solicitation
+    - offspring provisioning
+  definition: >
+    Signal function of eliciting food provision from parents or
+    caregivers.
+
+- function_id: fn:maternal_recognition
+  canonical_label: maternal recognition
+  parent_function_id: fn:kin_recognition
+  aliases:
+    - mother recognition
+    - imprinting signal
+  definition: >
+    Signal function enabling offspring to recognise and orient
+    towards their mother or primary caregiver.

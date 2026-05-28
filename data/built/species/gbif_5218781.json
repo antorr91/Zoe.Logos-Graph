@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 9,
-    "doi_count": 18,
-    "media_count": 0
+    "paper_count": 29,
+    "claim_count": 27,
+    "doi_count": 25,
+    "recording_count": 0
   },
   "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Spotted_hyena_%28Crocuta_crocuta%29.jpg/330px-Spotted_hyena_%28Crocuta_crocuta%29.jpg",
@@ -42,39 +42,39 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "giggle",
+    "whoop",
     "grunt",
-    "whoop"
+    "giggle"
   ],
   "contexts": [
     "group coordination",
-    "social communication",
-    "territorial defence"
+    "territorial defence",
+    "social communication"
   ],
   "functions": [
+    "submission signalling",
     "individual recognition",
-    "long-distance communication",
-    "submission signalling"
+    "long-distance communication"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "giggle",
+        "value": "whoop",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "grunt",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "whoop",
+        "value": "giggle",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -82,43 +82,396 @@
         "value": "group coordination",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "social communication",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "social communication",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "submission signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "long-distance communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "submission signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1217,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1216,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1215,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1214,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1213,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1212,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1211,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1210,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1209,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1208,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1207,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1206,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1205,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1204,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1203,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1202,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1201,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1200,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1199,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1198,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1197,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1196,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1195,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1194,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1193,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1192,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1191,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -126,6 +479,13 @@
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/ece3.70920",
+      "url": "https://doi.org/10.1002/ece3.70920",
+      "title": "War-Induced Behavioral Change in Spotted Hyena (",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.3390/ani15101366",
       "url": "https://doi.org/10.3390/ani15101366",
@@ -155,6 +515,27 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1093/cz/zoab076",
+      "url": "https://doi.org/10.1093/cz/zoab076",
+      "title": "Visual communication in social play of a hierarchical carnivore species: the case of wild spotted hyenas",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/molbev/msac011",
+      "url": "https://doi.org/10.1093/molbev/msac011",
+      "title": "Long-Read Genome Sequencing Provides Molecular Insights into Scavenging and Societal Complexity in Spotted Hyena Crocuta crocuta",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-021-01518-6",
+      "url": "https://doi.org/10.1038/s41598-021-01518-6",
+      "title": "Lion and spotted hyena distributions within a buffer area of the Serengeti-Mara ecosystem",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.87560",
       "url": "https://doi.org/10.1079/cabicompendium.87560",
       "title": "Crocuta crocuta",
@@ -167,6 +548,13 @@
       "title": "Spotted Hyena",
       "year": 2016,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2015.02.003",
+      "url": "https://doi.org/10.1016/j.anbehav.2015.02.003",
+      "title": "Long-distance communication facilitates cooperation among wild spotted hyaenas,",
+      "year": 2015,
+      "source": "pubmed"
     },
     {
       "doi": "10.1111/brv.12160",
@@ -211,6 +599,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1098/rsbl.2008.0526",
+      "url": "https://doi.org/10.1098/rsbl.2008.0526",
+      "title": "Parallels between playbacks and Pleistocene tar seeps suggest sociality in an extinct sabretooth cat, Smilodon",
+      "year": 2009,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1371/journal.pone.0002431",
       "url": "https://doi.org/10.1371/journal.pone.0002431",
       "title": "Female Chimpanzees Use Copulation Calls Flexibly to Prevent Social Competition",
@@ -246,6 +641,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1098/rspb.2015.2730",
+      "url": "https://doi.org/10.1098/rspb.2015.2730",
+      "title": "",
+      "year": null,
+      "source": "seed"
+    },
+    {
       "doi": "10.5040/9781472926951.0062",
       "url": "https://doi.org/10.5040/9781472926951.0062",
       "title": "Crocuta crocuta Spotted Hyaena : Fr. Hyène tachetée; Ger. Fleckenhyäne (Tüpfelhyäne)",
@@ -262,11 +664,27 @@
       "abstract": "<jats:p>Spotted hyenas live in fission–fusion social societies, requiring them to adopt a flexible multimodal communication system across variable spatial scales. However, researchers have extensively studied acoustic and olfactory signals for conspecific communication compared to visual signals, especially in wild populations. Here, we reviewed 46 articles on the Web of Science on social communication in wild and captive spotted hyena populations to synthesize our collective knowledge of the extent to which spotted hyenas utilize sensory cues to communicate and how flexible they are between captive and wild populations. Across all articles, 54% focused on acoustic communication (n = 25), 33% on olfaction (n = 15), leaving only 13% on vision (n = 6). Most of this research studied wild populations (82%; n = 38), leaving an intriguing gap in our knowledge of captive populations and their potential for developing behavioral innovations due to their robust social cognition (i.e., modifying",
       "journal": "Animals",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40427244",
+      "title": "The Complementary Role of Gestures in Spotted Hyena (",
+      "year": 2025,
+      "doi": "10.3390/ani15101366",
+      "abstract": "Spotted hyenas live in fission-fusion social societies, requiring them to adopt a flexible multimodal communication system across variable spatial scales. However, researchers have extensively studied acoustic and olfactory signals for conspecific communication compared to visual signals, especially in wild populations. Here, we reviewed 46 articles on the Web of Science on social communication in wild and captive spotted hyena populations to synthesize our collective knowledge of the extent to which spotted hyenas utilize sensory cues to communicate and how flexible they are between captive and wild populations. Across all articles, 54% focused on acoustic communication (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40008060",
+      "title": "War-Induced Behavioral Change in Spotted Hyena (",
+      "year": 2025,
+      "doi": "10.1002/ece3.70920",
+      "abstract": "In Tigray, northern Ethiopia, there is a long tradition of peaceful coexistence between spotted hyenas (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1002_wlb3_01405_v1_review2",
@@ -276,11 +694,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2139_ssrn_4623780",
@@ -290,11 +704,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1101_2023_09_19_558384",
@@ -304,11 +714,37 @@
       "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The spotted hyaena lives in unusually large social groups for a carnivore. Since the infertility trap normally limits the size of social groups in mammals, it seems likely that this species has evolved some way of mitigating the stresses involved. In primates, this usually takes the form of female-female alliances, often embedded in multilevel social systems. I show (1) that the distribution of hyaena clan sizes is multimodal, with a fractal scaling close to 3 and a base unit of 12-15 individuals (3-5 reproductive females) and (2) that fertility is a trade off between the benefits of having more males in the group and the costs incurred by having more females, with 4-5 as the limit on the number of females that can live together without their reproductive rates falling below the demographic replacement rate. I present evidence that females buffer themselves against the infertility trap by forming matrilineal alliances that in tu",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36090136",
+      "title": "Visual communication in social play of a hierarchical carnivore species: the case of wild spotted hyenas",
+      "year": 2022,
+      "doi": "10.1093/cz/zoab076",
+      "abstract": "Communication relies on signals that can be produced via different sensory modalities to modify receivers' behavior. During social interactions, the possibility to perceive subtle visual cues enhances the use of facial expressions to exchange information. One of the most appropriate fields to explore the specific design features of visual signals is play fighting. Here, we explored the production and potential role of Relaxed Open Mouth (ROM) and Head Bobbing (HB) in regulating play fighting of wild spotted hyenas",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35038730",
+      "title": "Long-Read Genome Sequencing Provides Molecular Insights into Scavenging and Societal Complexity in Spotted Hyena Crocuta crocuta",
+      "year": 2022,
+      "doi": "10.1093/molbev/msac011",
+      "abstract": "The spotted hyena (Crocuta crocuta) is a large and unique terrestrial carnivore. It is a particularly fascinating species due to its distinct phenotypic traits, especially its complex social structure and scavenging lifestyle, with associated high dietary exposure to microbial pathogens. However, the underlying molecular mechanisms related to these phenotypes remain elusive. Here, we sequenced and assembled a high-quality long-read genome of the spotted hyena, with a contig N50 length of ∼13.75 Mb. Based on comparative genomics, immunoglobulin family members (e.g., IGKV4-1) showed significant adaptive duplications in the spotted hyena and striped hyena. Furthermore, immune-related genes (e.g., CD8A, LAG3, and TLR3) experienced species-specific positive selection in the spotted hyena lineage. These results suggest that immune tolerance between the spotted hyena and closely related striped hyena has undergone adaptive divergence to cope with prolonged dietary exposure to microbial pathogens from scavenging. Furthermore, we provided the potential genetic insights underlying social complexity, hinting at social behavior and cognition. Specifically, the RECNE-associated genes (e.g., UGP2 and ACTR2) in the spotted hyena genome are involved in regulation of social communication. Taken together, our genomic analyses provide molecular insights into the scavenging lifestyle and societal complexity of spotted hyenas.",
+      "journal": "Molecular biology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34782674",
+      "title": "Lion and spotted hyena distributions within a buffer area of the Serengeti-Mara ecosystem",
+      "year": 2021,
+      "doi": "10.1038/s41598-021-01518-6",
+      "abstract": "Most large carnivore populations are declining due to anthropogenic activities including direct persecution, prey depletion, habitat loss and degradation. protected areas (PAs) can help maintain viable large carnivore populations; however, anthropogenic activities occurring near and within PA borders or edges can reduce their effectiveness. We investigated the influence of edge effects on abundance of lions (Panthera leo) and spotted hyenas (Crocuta crocuta) in Maswa Game Reserve (MGR), a part of the Serengeti ecosystem in northern Tanzania. We conducted repeated call-ins to attract and enumerate lions and hyenas at 20 stations in MGR during June-July 2017. We used N-mixture models to estimate hyena and lion abundance in relation to land cover and distance from the south-western MGR borders which are adjacent to villages. We found lowest lion and hyena abundances by the south-western border, with abundance of both species increasing toward the eastern border adjacent to Serengeti National Park. Lions were uniformly distributed among land covers whereas hyenas were more abundant in woodlands. We suggest that reduced lion and hyena abundance near human settlements was in response to depleted prey, due to human actions. We recommend ecologically compatible land uses and effective border patrols to mitigate these adverse effects.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_87560",
@@ -318,11 +754,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_j_ctt19b9jmw_27",
@@ -332,11 +764,17 @@
       "abstract": "",
       "journal": "Animals of Kruger National Park",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_25908882",
+      "title": "Long-distance communication facilitates cooperation among wild spotted hyaenas,",
+      "year": 2015,
+      "doi": "10.1016/j.anbehav.2015.02.003",
+      "abstract": "Calls that catalyse group defence, as in the mobbing of predators, appear to facilitate cooperation by recruiting receivers to act collectively. However, even when such signals reliably precede cooperative behaviour, the extent to which the calls function as recruitment signals is unclear. Calls might simply arouse listeners' attention, setting off a cascade of independent responses to the threat. By contrast, they might convey information, for example, about signaller identity and the nature of a threat that affects receivers' decisions to participate. We explored this distinction by investigating a possible long-distance recruitment call used by spotted hyaenas. These social carnivores live in fission-fusion clans and individuals disperse widely within their territories. Putative recruitment calls must therefore attract receivers that are distant from the inciting threat and free to opt out of risky collective aggression. Hyaenas compete with lions over food, and neighbouring clans sometimes engage in violent border clashes. These high-stakes contests are decided based on numerical asymmetries, so hyaenas can only protect critical resources if the dispersed clan can converge quickly at conflict sites. We recorded and analysed whoop bouts produced in multiple contexts and found that bouts produced in response to signs of lion-hyaena conflict had shorter inter-whoop intervals than spontaneous 'display' bouts. In subsequent field playback experiments, resting hyaenas were significantly more likely to move in response to 'recruitment' bouts with shortened intervals than to otherwise identical 'display' bouts. Whereas only stimulus type predicted movement, lower-ranked subjects responded most quickly, perhaps because their feeding opportunities depend on arriving early at any kill site. Results demonstrate that hyaenas possess a signal that can reliably recruit allies across long distances, despite moderating effects of individual circumstances on the strength of recei",
+      "journal": "Animal behaviour",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_brv_12160",
@@ -346,11 +784,7 @@
       "abstract": "Animal acoustic communication often takes the form of complex sequences, made up of multiple distinct acoustic units. Apart from the well-known example of birdsong, other animals such as insects, amphibians, and mammals (including bats, rodents, primates, and cetaceans) also generate complex acoustic sequences. Occasionally, such as with birdsong, the adaptive role of these sequences seems clear (e.g. mate attraction and territorial defence). More often however, researchers have only begun to characterise - let alone understand - the significance and meaning of acoustic sequences. Hypotheses abound, but there is little agreement as to how sequences should be defined and analysed. Our review aims to outline suitable methods for testing these hypotheses, and to describe the major limitations to our current and near-future knowledge on questions of acoustic sequences. This review and prospectus is the result of a collaborative effort between 43 scientists from the fields of animal behavio",
       "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2013_0074",
@@ -360,11 +794,7 @@
       "abstract": "During the latter half of the last century, evidence of reproductive competition between males and male selection by females led to the development of a stereotypical view of sex differences that characterized males as competitive and aggressive, and females as passive and choosy, which is currently being revised. Here, we compare social competition and its consequences for selection in males and females and argue that similar selection processes operate in both sexes and that contrasts between the sexes are quantitative rather than qualitative. We suggest that classifications of selection based on distinction between the form of competition or the components of fitness that are involved introduce unnecessary complexities and that the most useful approach in understanding the evolution and distribution of differences and similarities between the sexes is to compare the operation of selection in males and females in different reproductive systems.",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2013_1726",
@@ -374,11 +804,7 @@
       "abstract": "Long-term social memory is important, because it is an ecologically relevant test of cognitive capacity, it helps us understand which social relationships are remembered and it relates two seemingly disparate disciplines: cognition and sociality. For dolphins, long-term memory for conspecifics could help assess social threats as well as potential social or hunting alliances in a very fluid and complex fission-fusion social system, yet we have no idea how long dolphins can remember each other. Through a playback study conducted within a multi-institution dolphin breeding consortium (where animals are moved between different facilities), recognition of unfamiliar versus familiar signature whistles of former tank mates was assessed. This research shows that dolphins have the potential for lifelong memory for each other regardless of relatedness, sex or duration of association. This is, to my knowledge, the first study to show that social recognition can last for at least 20 years in a non",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rstb_2012_0214",
@@ -388,11 +814,7 @@
       "abstract": "Animal cognition experiments frequently reveal striking individual variation but rarely consider its causes and largely ignore its potential consequences. Studies often focus on a subset of high-performing subjects, sometimes viewing evidence from a single individual as sufficient to demonstrate the cognitive capacity of a species. We argue that the emphasis on demonstrating species-level cognitive capacities detracts from the value of individual variation in understanding cognitive development and evolution. We consider developmental and evolutionary interpretations of individual variation and use meta-analyses of data from published studies to examine predictors of individual performance. We show that reliance on small sample sizes precludes robust conclusions about individual abilities as well as inter- and intraspecific differences. We advocate standardization of experimental protocols and pooling of data between laboratories to improve statistical rigour. Our analyses show that co",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_srep00615",
@@ -402,11 +824,7 @@
       "abstract": "Symbiotic microbes can benefit their animal hosts by enhancing the diversity of communication signals available to them. The fermentation hypothesis for chemical recognition posits that 1) fermentative bacteria in specialized mammalian scent glands generate odorants that mammals co-opt to communicate with one another, and 2) that variation in scent gland odors is due to underlying variation in the structure of bacterial communities within scent glands. For example, group-specific social odors are suggested to be due to members of the same social group harboring more similar bacterial communities in their scent glands than do members of different social groups. We used 16S rRNA gene surveys to show that 1) the scent secretions of spotted hyenas are densely populated by fermentative bacteria whose closest relatives are well-documented odor producers, and that 2) these bacterial communities are more similar among hyenas from the same social group than among those from different groups.",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1472-6785-10-9",
@@ -416,11 +834,27 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Background</jats:title><jats:p>Among mammals living in social groups, individuals form communication networks where they signal their identity and social status, facilitating social interaction. In spite of its importance for understanding of mammalian societies, the coding of individual-related information in the vocal signals of non-primate mammals has been relatively neglected. The present study focuses on the spotted hyena<jats:italic>Crocuta crocuta</jats:italic>, a social carnivore known for its complex female-dominated society. We investigate if and how the well-known hyena's laugh, also known as the giggle call, encodes information about the emitter.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>By analyzing acoustic structure in both temporal and frequency domains, we show that the hyena's laugh can encode information about age, individual identity and dominant/subordinate status, providing cues to r",
       "journal": "BMC Ecology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_20353550",
+      "title": "What the hyena's laugh tells: sex, age, dominance and individual signature in the giggling call of Crocuta crocuta",
+      "year": 2010,
+      "doi": "10.1186/1472-6785-10-9",
+      "abstract": "BACKGROUND: Among mammals living in social groups, individuals form communication networks where they signal their identity and social status, facilitating social interaction. In spite of its importance for understanding of mammalian societies, the coding of individual-related information in the vocal signals of non-primate mammals has been relatively neglected. The present study focuses on the spotted hyena Crocuta crocuta, a social carnivore known for its complex female-dominated society. We investigate if and how the well-known hyena's laugh, also known as the giggle call, encodes information about the emitter. RESULTS: By analyzing acoustic structure in both temporal and frequency domains, we show that the hyena's laugh can encode information about age, individual identity and dominant/subordinate status, providing cues to receivers that could enable assessment of the social position of an emitting individual. CONCLUSIONS: The range of messages encoded in the hyena's laugh is likely to play a role during social interactions. This call, together with other vocalizations and other sensory channels, should ensure an array of communication signals that support the complex social system of the spotted hyena. Experimental studies are now needed to decipher precisely the communication network of this species.",
+      "journal": "BMC ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_18957359",
+      "title": "Parallels between playbacks and Pleistocene tar seeps suggest sociality in an extinct sabretooth cat, Smilodon",
+      "year": 2009,
+      "doi": "10.1098/rsbl.2008.0526",
+      "abstract": "Inferences concerning the lives of extinct animals are difficult to obtain from the fossil record. Here we present a novel approach to the study of extinct carnivores, using a comparison between fossil records (n=3324) found in Late Pleistocene tar seeps at Rancho La Brea in North America and counts (n=4491) from playback experiments used to estimate carnivore abundance in Africa. Playbacks and tar seep deposits represent competitive, potentially dangerous encounters where multiple predators are lured by dying herbivores. Consequently, in both records predatory mammals and birds far outnumber herbivores. In playbacks, two large social species, lions, Panthera leo, and spotted hyenas, Crocuta crocuta, actively moved towards the sounds of distressed prey and made up 84 per cent of individuals attending. Small social species (jackals) were next most common and solitary species of all sizes were rare. In the La Brea record, two species dominated, the presumably social dire wolf Canis dirus (51%), and the sabretooth cat Smilodon fatalis (33%). As in the playbacks, a smaller social canid, the coyote Canis latrans, was third most common (8%), and known solitary species were rare (<4%). The predominance of Smilodon and other striking similarities between playbacks and the fossil record support the conclusion that Smilodon was social.",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1371_journal_pone_0002431",
@@ -430,11 +864,17 @@
       "abstract": "The adaptive function of copulation calls in female primates has been debated for years. One influential idea is that copulation calls are a sexually selected trait, which enables females to advertise their receptive state to males. Male-male competition ensues and females benefit by getting better mating partners and higher quality offspring. We analysed the copulation calling behaviour of wild female chimpanzees (Pan troglodytes schweinfurthii) at Budongo Forest, Uganda, but found no support for the male-male competition hypothesis. Hormone analysis showed that the calling behaviour of copulating females was unrelated to their fertile period and likelihood of conception. Instead, females called significantly more while with high-ranking males, but suppressed their calls if high-ranking females were nearby. Copulation calling may therefore be one potential strategy employed by female chimpanzees to advertise receptivity to high-ranked males, confuse paternity and secure future support",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_17972270",
+      "title": "External genital morphology of the ring-tailed lemur (Lemur catta): females are naturally \"masculinized\"",
+      "year": 2008,
+      "doi": "10.1002/jmor.10594",
+      "abstract": "The extravagance and diversity of external genitalia have been well characterized in male primates; however, much less is known about sex differences or variation in female form. Our study represents a departure from traditional investigations of primate reproductive anatomy because we 1) focus on external rather than internal genitalia, 2) measure both male and female structures, and 3) examine a strepsirrhine rather than an anthropoid primate. The subjects for morphological study were 21 reproductively intact, adult ring-tailed lemurs (Lemur catta), including 10 females and 11 males, two of which (one per sex) subsequently died of natural causes and also served as specimens for gross anatomical dissection. Male external genitalia presented a typical masculine configuration, with a complex distal penile morphology. In contrast, females were unusual among mammals, presenting an enlarged, pendulous external clitoris, tunneled by the urethra. Females had a shorter anogenital distance and a larger urethral meatus than did males, but organ diameter and circumference showed no sex differences. Dissection confirmed these characterizations. Noteworthy in the male were the presence of a \"levator penis\" muscle and discontinuity in the corpus spongiosum along the penile shaft; noteworthy in the female were an elongated clitoral shaft and glans clitoridis. The female urethra, while incorporated within the clitoral body, was not surrounded by erectile tissue, as we detected no corpus spongiosum. The os clitoridis was 43% the length and 24% the height of the os penis. On the basis of these first detailed descriptions of strepsirrhine external genitalia (for either sex), we characterize those of the female ring-tailed lemur as moderately \"masculinized.\" Our results highlight certain morphological similarities and differences between ring-tailed lemurs and the most male-like of female mammals, the spotted hyena (Crocuta crocuta), and call attention to a potential hormonal mechanis",
+      "journal": "Journal of morphology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1186_1742-9994-2-10",
@@ -444,11 +884,17 @@
       "abstract": "Identifying the individuals within a population can generate information on life history parameters, generate input data for conservation models, and highlight behavioural traits that may affect management decisions and error or bias within census methods. Individual animals can be discriminated by features of their vocalisations. This vocal individuality can be utilised as an alternative marking technique in situations where the marks are difficult to detect or animals are sensitive to disturbance. Vocal individuality can also be used in cases were the capture and handling of an animal is either logistically or ethically problematic. Many studies have suggested that vocal individuality can be used to count and monitor populations over time; however, few have explicitly tested the method in this role. In this review we discuss methods for extracting individuality information from vocalisations and techniques for using this to count and monitor populations over time. We present case stu",
       "journal": "Frontiers in Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_15054888",
+      "title": "Separation as a natural cue to danger in the spotted hyena (Crocuta crocuta)",
+      "year": 2004,
+      "doi": "10.1002/dev.20003",
+      "abstract": "Spotted hyena biology suggests mothers and infants will exhibit one of two alternative responses to separation: (a) Due to prolonged dependency, infants will act similarly to Old World monkeys, displaying distress and proximity seeking behaviors; or (b) because mother-infant separations are frequent in the wild, infants will exhibit little distress or change in reunion behavior. Hence, reunion behavior following mother-infant separation was compared to control periods in captive hyena (Crocuta crocuta) mothers and infants at two developmental periods. Significant increases (p < or =.05) in distress (i.e., agitated arousal and increased vocalization) and proximity maintenance (i.e., cub and maternal approaches, and maternal monitoring) as well as a trend towards increased sibling aggression following separation were observed. Responsibility for proximity maintenance, assessed by the Hinde Index, adhered to patterns common to primates---with cubs assuming increased responsibility later in development. Findings are discussed in light of hyena ecology and Attachment Theory.",
+      "journal": "Developmental psychobiology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_978-1-4615-0671-3_18",
@@ -458,11 +904,17 @@
       "abstract": "",
       "journal": "Chemical Signals in Vertebrates 9",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_10458890",
+      "title": "Vocal recognition in the spotted hyaena and its possible implications regarding the evolution of intelligence",
+      "year": 1999,
+      "doi": "10.1006/anbe.1999.1157",
+      "abstract": "Spotted hyaenas, Crocuta crocuta, are gregarious carnivores whose social lives share much in common with those of cercopithecine primates. We conducted playback experiments to determine whether free-living hyaenas are capable of identifying individual conspecifics on the basis of their long-distance vocalization, the 'whoop'. When prerecorded cub whoops were played to mothers and other breeding females (controls), mothers responded significantly more vigorously to whoops of their own cubs than did controls. We also tested the hypothesis that specific vocal recognition abilities are based on kinship in this species. Listeners that were related to the whooping cub responded more vigorously to recorded vocalizations than did unrelated individuals, with response intensity in some cases increasing directly with the size of the coefficient of relatedness (r). Our final goal was to determine whether control animals in these experiments can recognize third-party social relationships among other group members, an ability demonstrated by vervet monkeys, Cercopithecus aethiops, in similar playback experiments conducted by earlier investigators. In contrast to vervets, control females in the present experiments were no more likely to look at the mother of the whooping cub than at other control females after playback. This suggests that hyaenas may accomplish many of the same social feats as do vervets without possessing the ability to recognize third-party relationships. If confirmed in other domains of hyaena social life, our findings have important implications regarding selection pressures favouring the evolution of intelligence. Copyright 1999 The Association for the Study of Animal Behaviour.",
+      "journal": "Animal behaviour",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1749-6632_1997_tb51950_x",
@@ -472,11 +924,7 @@
       "abstract": "",
       "journal": "Annals of the New York Academy of Sciences",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-1-4615-6424-9_28",
@@ -486,11 +934,7 @@
       "abstract": "",
       "journal": "An Atlas of Mammalian Chromosomes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472926951_0062",
@@ -500,14 +944,10 @@
       "abstract": "",
       "journal": "Mammals of Africa : Carnivores, Pangolins, Equids and Rhinoceroses",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 29,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

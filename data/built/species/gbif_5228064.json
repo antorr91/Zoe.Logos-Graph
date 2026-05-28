@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 9,
-    "claim_count": 9,
-    "doi_count": 10,
-    "media_count": 0
+    "paper_count": 20,
+    "claim_count": 27,
+    "doi_count": 19,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,85 +42,438 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
     "mimicry",
+    "alarm call",
     "scream"
   ],
   "contexts": [
-    "alarm",
+    "territorial defence",
     "social communication",
-    "territorial defence"
+    "alarm"
   ],
   "functions": [
+    "predator warning",
     "individual recognition",
-    "mimicry",
-    "predator warning"
+    "mimicry"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mimicry",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm call",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "scream",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mimicry",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "predator warning",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1558,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1557,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1556,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1555,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1554,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1553,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1552,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1551,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1550,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1549,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1548,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1547,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1546,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1545,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1544,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1543,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1542,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1541,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1540,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1539,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1538,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1537,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1536,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1535,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1534,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1533,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1532,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Garrulus glandarius",
     "recordings": [],
     "external_links": []
@@ -169,6 +522,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.3758/s13420-020-00434-5",
+      "url": "https://doi.org/10.3758/s13420-020-00434-5",
+      "title": "Convergent evolution of complex cognition: Insights from the field of avian cognition into the study of self-awareness",
+      "year": 2020,
+      "source": "openalex"
+    },
+    {
       "doi": "10.1079/cabicompendium.82118",
       "url": "https://doi.org/10.1079/cabicompendium.82118",
       "title": "Garrulus glandarius",
@@ -176,11 +536,67 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1186/s12898-019-0270-8",
+      "url": "https://doi.org/10.1186/s12898-019-0270-8",
+      "title": "Increased songbird nest depredation due to Aleppo pine (Pinus halepensis) encroachment in Mediterranean shrubland",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-016-1064-4",
+      "url": "https://doi.org/10.1007/s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10336-015-1207-4",
+      "url": "https://doi.org/10.1007/s10336-015-1207-4",
+      "title": "Nest predation research: recent findings and future perspectives",
+      "year": 2015,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1007/s10071-013-0676-1",
+      "url": "https://doi.org/10.1007/s10071-013-0676-1",
+      "title": "Behavioural coordination of dogs in a cooperative problem-solving task with a conspecific and a human partner",
+      "year": 2013,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rstb.2012.0214",
+      "url": "https://doi.org/10.1098/rstb.2012.0214",
+      "title": "Individual variation in cognitive performance: developmental and evolutionary perspectives",
+      "year": 2012,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1093/beheco/arq221",
+      "url": "https://doi.org/10.1093/beheco/arq221",
+      "title": "Sound familiar? Acoustic similarity provokes responses to unfamiliar heterospecific alarm calls",
+      "year": 2011,
+      "source": "openalex"
+    },
+    {
       "doi": "10.56617/tl.4551",
       "url": "https://doi.org/10.56617/tl.4551",
       "title": "A szajkó (Garrulus glandarius L.) szerepe és jelentősége a természetközeli erdőgazdálkodásban Die Rolle und Bedeutung des Eichelhähers (Garrulus glandarius L.) in der naturnahe Forstwirtschaft",
       "year": 2005,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1093/beheco/arh116",
+      "url": "https://doi.org/10.1093/beheco/arh116",
+      "title": "Cost of mobbing call to breeding pied flycatcher, Ficedula hypoleuca",
+      "year": 2004,
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3758/bf03200074",
+      "url": "https://doi.org/10.3758/bf03200074",
+      "title": "Object permanence in the African Grey parrot (Psittacus erithacus)",
+      "year": 1986,
+      "source": "openalex"
     },
     {
       "doi": "10.1007/s10071-019-01296-3",
@@ -206,11 +622,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_14729v0_2_reviews_2",
@@ -220,11 +632,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_14729v0_2_reviews_1",
@@ -234,11 +642,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_14729v0_1_reviews_1",
@@ -248,11 +652,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_14729v0_2_reviews_3",
@@ -262,11 +662,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_7287_peerj_14729v0_1_reviews_2",
@@ -276,11 +672,17 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_3758_s13420-020-00434-5",
+      "title": "Convergent evolution of complex cognition: Insights from the field of avian cognition into the study of self-awareness",
+      "year": 2020,
+      "doi": "10.3758/s13420-020-00434-5",
+      "abstract": "",
+      "journal": "Learning & Behavior",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_82118",
@@ -290,11 +692,87 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31847851",
+      "title": "Increased songbird nest depredation due to Aleppo pine (Pinus halepensis) encroachment in Mediterranean shrubland",
+      "year": 2019,
+      "doi": "10.1186/s12898-019-0270-8",
+      "abstract": "BACKGROUND: In recent decades, a decrease of passerine densities was documented in Mediterranean shrublands. At the same time, a widespread encroachment of Aleppo pines (Pinus halepensis) to Mediterranean shrubland occurred. Such changes in vegetation structure may affect passerine predator assemblage and densities, and in turn impact passerine densities. Depredation during the nesting season is an important factor to influence passerine population size. Understanding the effects of changes in vegetation structure (pine encroachment) on passerine nesting success is the main objective of this study. We do so by assessing the effects of Aleppo pine encroachment on Sardinian warbler (Sylvia melanocephala) nest depredation in Mediterranean shrublands. We examined direct and indirect predation pressures through a gradients of pine density, using four methods: (1) placing dummy nests; (2) acoustic monitoring of mobbing events; (3) direct observations on nest predation using cameras; and (4) observation of Eurasian jay (Garrulus glandarius) behaviour as indirect evidence of predation risk. RESULTS: We found that Aleppo pine encroachment to Mediterranean shrublands increased nest predation by Eurasian jays. Nest predation was highest in mixed shrubland and pines. These areas are suitable for warblers but had high occurrence rate of Eurasian jays. CONCLUSIONS: Encroaching pines directly increase activity of Eurasian jays in shrubland habitats, which reduced the nesting success of Sardinian warblers. These findings are supported by multiple methodologies, illustrating different predation pressures along a gradient of pine densities in natural shrublands. Management of Aleppo pine seedlings and removal of unwanted trees in natural shrubland might mitigate arrival and expansion of predators and decrease the predation pressure on passerine nests.",
+      "journal": "BMC ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_1007_s10071-016-1064-4",
+      "title": "Thinking chickens: a review of cognition, emotion, and behavior in the domestic chicken",
+      "year": 2017,
+      "doi": "10.1007/s10071-016-1064-4",
+      "abstract": "Domestic chickens are members of an order, Aves, which has been the focus of a revolution in our understanding of neuroanatomical, cognitive, and social complexity. At least some birds are now known to be on par with many mammals in terms of their level of intelligence, emotional sophistication, and social interaction. Yet, views of chickens have largely remained unrevised by this new evidence. In this paper, I examine the peer-reviewed scientific data on the leading edge of cognition, emotions, personality, and sociality in chickens, exploring such areas as self-awareness, cognitive bias, social learning and self-control, and comparing their abilities in these areas with other birds and other vertebrates, particularly mammals. My overall conclusion is that chickens are just as cognitively, emotionally and socially complex as most other birds and mammals in many areas, and that there is a need for further noninvasive comparative behavioral research with chickens as well as a re-framing",
+      "journal": "Animal Cognition",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28342237",
+      "title": "An ecosystem services approach to the ecological effects of salvage logging: valuation of seed dispersal",
+      "year": 2017,
+      "doi": "10.1002/eap.1539",
+      "abstract": "Forest disturbances diminish ecosystem services and boost disservices. Because post-disturbance management intends to recover the greatest possible value, selling timber often prevails over other considerations. Ecological research has shown diverse effects of salvage logging, yet such research has focused on the biophysical component of post-disturbance ecosystems and lacks the link with human well-being. Here we bridge that gap under the ecosystem services framework by assessing the impact of post-fire management on a non-timber value. By employing the replacement cost method, we calculated the value of the post-fire natural regeneration of Holm oaks in southern Spain under three post-fire management options by considering the cost of planting instead. The value of this ecosystem service in non-intervention areas doubled that of salvage-logged stands due to the preference for standing dead trees by the main seed disperser. Still, most of the value resulted from the resprouting capacity of oaks. The value of this and other ecosystem services should be added to traditional cost/benefit analyses of post-disturbance management. We thus call for a more holistic approach to salvage logging research, one that explicitly links ecological processes with human well-being through ecosystem services, to better inform decision-makers on the outcomes of post-disturbance management.",
+      "journal": "Ecological applications : a publication of the Ecological Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_1007_s10336-015-1207-4",
+      "title": "Nest predation research: recent findings and future perspectives",
+      "year": 2015,
+      "doi": "10.1007/s10336-015-1207-4",
+      "abstract": "Nest predation is a key source of selection for birds that has attracted increasing attention from ornithologists. The inclusion of new concepts applicable to nest predation that stem from social information, eavesdropping or physiology has expanded our knowledge considerably. Recent methodological advancements now allow focus on all three players within nest predation interactions: adults, offspring and predators. Indeed, the study of nest predation now forms a vital part of avian research in several fields, including animal behaviour, population ecology, evolution and conservation biology. However, within nest predation research there are important aspects that require further development, such as the comparison between ecological and evolutionary antipredator responses, and the role of anthropogenic change. We hope this review of recent findings and the presentation of new research avenues will encourage researchers to study this important and interesting selective pressure, and ult",
+      "journal": "Journal für Ornithologie",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24889656",
+      "title": "Pilfering Eurasian jays use visual and acoustic information to locate caches",
+      "year": 2014,
+      "doi": "10.1007/s10071-014-0763-y",
+      "abstract": "Pilfering corvids use observational spatial memory to accurately locate caches that they have seen another individual make. Accordingly, many corvid cache-protection strategies limit the transfer of visual information to potential thieves. Eurasian jays (Garrulus glandarius) employ strategies that reduce the amount of visual and auditory information that is available to competitors. Here, we test whether or not the jays recall and use both visual and auditory information when pilfering other birds' caches. When jays had no visual or acoustic information about cache locations, the proportion of available caches that they found did not differ from the proportion expected if jays were searching at random. By contrast, after observing and listening to a conspecific caching in gravel or sand, jays located a greater proportion of caches, searched more frequently in the correct substrate type and searched in fewer empty locations to find the first cache than expected. After only listening to caching in gravel and sand, jays also found a larger proportion of caches and searched in the substrate type where they had heard caching take place more frequently than expected. These experiments demonstrate that Eurasian jays possess observational spatial memory and indicate that pilfering jays may gain information about cache location merely by listening to caching. This is the first evidence that a corvid may use recalled acoustic information to locate and pilfer caches.",
+      "journal": "Animal cognition",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "10_1007_s10071-013-0676-1",
+      "title": "Behavioural coordination of dogs in a cooperative problem-solving task with a conspecific and a human partner",
+      "year": 2013,
+      "doi": "10.1007/s10071-013-0676-1",
+      "abstract": "The process of domestication has arguably provided dogs (Canis familiaris) with decreased emotional reactivity (reduced fear and aggression) and increased socio-cognitive skills adaptive for living with humans. It has been suggested that dogs are uniquely equipped with abilities that have been identified as crucial in cooperative problem-solving, namely social tolerance and the ability to attend to other individuals' behaviour. Accordingly, dogs might be hypothesised to perform well in tasks in which they have to work together with a human partner. Recently, researchers have found that dogs successfully solved a simple cooperative task with another dog. Due to the simplicity of the task, this study was, however, unable to provide clear evidence as to whether the dogs' successful performance was based on the cognitive ability of behavioural coordination, namely the capacity to link task requirements to the necessity of adjusting one's actions to the partner's behaviour. Here, we tested ",
+      "journal": "Animal Cognition",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1098_rstb_2012_0214",
+      "title": "Individual variation in cognitive performance: developmental and evolutionary perspectives",
+      "year": 2012,
+      "doi": "10.1098/rstb.2012.0214",
+      "abstract": "Animal cognition experiments frequently reveal striking individual variation but rarely consider its causes and largely ignore its potential consequences. Studies often focus on a subset of high-performing subjects, sometimes viewing evidence from a single individual as sufficient to demonstrate the cognitive capacity of a species. We argue that the emphasis on demonstrating species-level cognitive capacities detracts from the value of individual variation in understanding cognitive development and evolution. We consider developmental and evolutionary interpretations of individual variation and use meta-analyses of data from published studies to examine predictors of individual performance. We show that reliance on small sample sizes precludes robust conclusions about individual abilities as well as inter- and intraspecific differences. We advocate standardization of experimental protocols and pooling of data between laboratories to improve statistical rigour. Our analyses show that co",
+      "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1093_beheco_arq221",
+      "title": "Sound familiar? Acoustic similarity provokes responses to unfamiliar heterospecific alarm calls",
+      "year": 2011,
+      "doi": "10.1093/beheco/arq221",
+      "abstract": "Eavesdropping on the alarm calls of other species can provide vertebrates with valuable information about danger, and often responses to heterospecific calls seem to be acquired through learning. However, animals might not require learning to respond to heterospecific alarm calls that are acoustically similar to conspecific calls. Although previous work suggests that learning is necessary for superb fairy-wrens to develop responses to heterospecific alarms, acoustic similarity might also be important. We tested whether fairy-wrens responded to playback of unfamiliar alarm calls and if the strength of responses was affected by acoustic similarity to conspecific calls. We then determined which acoustic properties were likely to be used in alarm call identification. Birds fled to cover after playback of calls that were acoustically similar to their own but did not usually respond to less similar calls. Fairy-wren aerial alarm calls are high-frequency and rapidly frequency modulated; their",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_56617_tl_4551",
@@ -304,11 +782,27 @@
       "abstract": "<jats:p>Nach der Zielvorstellungen einer ökologisch orientierten Forstwirtschaft findet der Eichelhäher heute immer mehr Beachtung. Mehrere Untersuchungen hinsichtlich seine Nahrung haben bewiesen, daß er sich hauptsächtlich mit landwirtschaftlich und forstwirtschaftlich schädlichen Insekten ernährt. Viele Autoren weisen auch auf die Nützlichkeit des Eichelhähers bei der Samenausbreitung hin. Der Eichelhäher trägt durch das Verstecken von Eicheln und Bucheckern im Boden zur wünschenswerten natürlichen Verjüngung des Waldes und zur Anreicherung der Nadelholzbeständen mit Laubbäumen wesentlich bei. Vom Eichelhäher eingebrachte Eichen können die strukturelle und damit die Arten-Diversität der Wald erhöhen. Gemäß der neue forstwirtschaftliche Betrachtung ist die Veränderung der derzeitigen Baumartenzusammensetzung besonders aus Stabilitätsgesichtspunkten wünschenswert. Bei der Waldverjüngung sollen die standortsgemäßer Laubbaumarten bevorzugt werden. Nach Ergebnissen mehrere Versuche, könn",
       "journal": "TÁJÖKOLÓGIAI LAPOK",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1093_beheco_arh116",
+      "title": "Cost of mobbing call to breeding pied flycatcher, Ficedula hypoleuca",
+      "year": 2004,
+      "doi": "10.1093/beheco/arh116",
+      "abstract": "Mobbing signals advertise the location of a stalking predator to all prey in an area and recruit them into the inspection aggregation. Such behavior usually causes the predator to move to another area. However, mobbing calls could be eavesdropped by other predators. Because the predation cost of mobbing calls is poorly known, we investigated whether the vocalizations of the mobbing pied flycatcher, Ficedula hypoleuca, a small hole nesting passerine, increase the risk of nest predation. We used mobbing calls of pied flycatchers to examine if they could lure predators such as the marten, Martes martes. This predator usually hunts by night and may locate its mobbing prey while resting nearby during the day. Within each of 56 experimental plots, from the top of one nest-box we played back mobbing sounds of pied flycatchers, whereas blank tapes were played from the top of another nestbox. The trials with mobbing calls were carried out before sunset. We put pieces of recently abandoned nests",
+      "journal": "Behavioral Ecology",
+      "open_access": 1,
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_3758_bf03200074",
+      "title": "Object permanence in the African Grey parrot (Psittacus erithacus)",
+      "year": 1986,
+      "doi": "10.3758/bf03200074",
+      "abstract": "",
+      "journal": "Animal Learning & Behavior",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_5040_9781472926975_0275",
@@ -318,14 +812,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 9,
+  "paper_count": 20,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

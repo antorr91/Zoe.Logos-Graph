@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 19,
-    "claim_count": 8,
-    "doi_count": 20,
-    "media_count": 0
+    "paper_count": 35,
+    "claim_count": 18,
+    "doi_count": 33,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -46,14 +46,14 @@
     "song"
   ],
   "contexts": [
-    "mate attraction",
+    "vocal learning",
     "territorial defence",
-    "vocal learning"
+    "mate attraction"
   ],
   "functions": [
-    "mate attraction",
     "song dialect",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -61,64 +61,314 @@
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
+        "value": "vocal learning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
-      {
-        "value": "vocal learning",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
+        "evidence_count": 2
+      }
+    ],
+    "functions": [
       {
         "value": "song dialect",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 971,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 970,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 969,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 968,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 967,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 966,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 965,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 964,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 963,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 962,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 961,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 960,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 959,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 958,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 957,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 956,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 955,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 954,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Zonotrichia leucophrys",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1038/s41597-025-04889-x",
+      "url": "https://doi.org/10.1038/s41597-025-04889-x",
+      "title": "Genome assemblies of Nuttall's White-crowned sparrow (Zonotrichia leucophrys nuttalli) and Rufous-collared sparrow (Zonotrichia capensis)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1073/pnas.2400596121",
+      "url": "https://doi.org/10.1073/pnas.2400596121",
+      "title": "Adult neurogenesis is necessary for functional regeneration of a forebrain neural circuit",
+      "year": 2024,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1098/rspb.2024.2409/v1/review1",
       "url": "https://doi.org/10.1098/rspb.2024.2409/v1/review1",
@@ -134,6 +384,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1371/journal.pone.0304348",
+      "url": "https://doi.org/10.1371/journal.pone.0304348",
+      "title": "Song and genetic divergence within a subspecies of white-crowned sparrow (Zonotrichia leucophrys nuttalli)",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.5751/jfo-00301-940302",
       "url": "https://doi.org/10.5751/jfo-00301-940302",
       "title": "Sex determination of Eastern White-crowned Sparrows ( Zonotrichia leucophrys leucophrys ) using wing chord length",
@@ -141,11 +398,53 @@
       "source": "crossref"
     },
     {
+      "doi": "10.7717/peerj.13297",
+      "url": "https://doi.org/10.7717/peerj.13297",
+      "title": "Experimentally broadcast ocean surf and river noise alters birdsong",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/ENEURO.0023-20.2020",
+      "url": "https://doi.org/10.1523/ENEURO.0023-20.2020",
+      "title": "Inflammation Induced by Natural Neuronal Death and LPS Regulates Neural Progenitor Cell Proliferation in the Healthy Adult Brain",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.2375-19.2019",
+      "url": "https://doi.org/10.1523/JNEUROSCI.2375-19.2019",
+      "title": "Brain-Derived Neurotrophic Factor Has a Transsynaptic Trophic Effect on Neural Activity in an Adult Forebrain Circuit",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.3389/fevo.2020.587120",
       "url": "https://doi.org/10.3389/fevo.2020.587120",
       "title": "Territory Quality Predicts Avian Vocal Performance Across an Urban-Rural Gradient",
       "year": 2020,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1002/cne.24552",
+      "url": "https://doi.org/10.1002/cne.24552",
+      "title": "Seasonal changes in neuronal turnover in a forebrain nucleus in adult songbirds",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/dneu.22719",
+      "url": "https://doi.org/10.1002/dneu.22719",
+      "title": "Rapamycin blocks the neuroprotective effects of sex steroids in the adult birdsong system",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.beproc.2018.02.010",
+      "url": "https://doi.org/10.1016/j.beproc.2018.02.010",
+      "title": "Song ontogeny in Nuttall's white-crowned sparrows tutored with individual phrases",
+      "year": 2019,
+      "source": "pubmed"
     },
     {
       "doi": "10.1038/s41598-018-36276-5",
@@ -169,11 +468,32 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1038/s41598-018-25834-6",
+      "url": "https://doi.org/10.1038/s41598-018-25834-6",
+      "title": "Urban sparrows respond to a sexually selected trait with increased aggression in noise",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.3037",
+      "url": "https://doi.org/10.1002/ece3.3037",
+      "title": "White-crowned sparrow males show immediate flexibility in song amplitude but not in song minimum frequency in response to changes in noise levels in the field",
+      "year": 2017,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1002/ecs2.1916",
       "url": "https://doi.org/10.1002/ecs2.1916",
       "title": "Immediate signaling flexibility in response to experimental noise in urban, but not rural, white‐crowned sparrows",
       "year": 2017,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.160994",
+      "url": "https://doi.org/10.1242/jeb.160994",
+      "title": "Effects of a social cue on reproductive development and pre-alternate molt in seasonally breeding migrant and resident female songbirds (",
+      "year": 2017,
+      "source": "pubmed"
     },
     {
       "doi": "10.1642/auk-17-2.1",
@@ -195,6 +515,13 @@
       "title": "Brain transcriptome sequencing and assembly of three songbird model systems for the study of social behavior",
       "year": 2014,
       "source": "openalex"
+    },
+    {
+      "doi": "10.2305/iucn.uk.2012-1.rlts.t22721088a39914243.en",
+      "url": "https://doi.org/10.2305/iucn.uk.2012-1.rlts.t22721088a39914243.en",
+      "title": "Zonotrichia leucophrys: BirdLife International",
+      "year": 2012,
+      "source": "crossref"
     },
     {
       "doi": "10.1037//0735-7036.115.2.172",
@@ -262,6 +589,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_40180969",
+      "title": "Genome assemblies of Nuttall's White-crowned sparrow (Zonotrichia leucophrys nuttalli) and Rufous-collared sparrow (Zonotrichia capensis)",
+      "year": 2025,
+      "doi": "10.1038/s41597-025-04889-x",
+      "abstract": "The Zonotrichia sparrows, belonging to the Passerellidae family, are widely studied for their vocalizations and genetic diversity. Here, we present two high-quality genome assemblies for Zonotrichia species; the northern hemisphere Nuttall's white-crowned sparrow (Zonotrichia leucophrys nuttalli, NWCS) and the southern hemisphere rufous-collared sparrow (Zonotrichia capensis chilensis, RUFS). These assemblies were assembled using PacBio long-reads and Omni-C chromatin conformation technology, integrated with RNA-sequencing data to provide genome annotations. The NWCS assembly comprises 1.12 Gb anchored to 30 chromosomes, while the RUFS assembly includes 1.11 Gb on 27 chromosomes. Both assemblies exhibit high completeness and contiguity, with 96.6% and 96.9% complete BUSCOs (Benchmarking Universal Single-Copy Orthologs) for NWCS and RUFS, respectively. These genome assemblies provide valuable resources for future research on genetic divergence, vocal learning, evolution and responses to climate change within the Zonotrichia genus.",
+      "journal": "Scientific data",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1098_rspb_2024_2409_v1_review2",
       "title": "Review for \"Mitochondrial remodelling supports migration in white-crowned sparrows ( &lt;i&gt;Zonotrichia leucophrys&lt;/i&gt; )\"",
       "year": 2024,
@@ -269,11 +606,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rspb_2024_2409_v1_review1",
@@ -283,11 +616,27 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_38968119",
+      "title": "Adult neurogenesis is necessary for functional regeneration of a forebrain neural circuit",
+      "year": 2024,
+      "doi": "10.1073/pnas.2400596121",
+      "abstract": "In adult songbirds, new neurons are born in large numbers in the proliferative ventricular zone in the telencephalon and migrate to the adjacent song control region HVC (acronym used as proper name) [A. Reiner",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38809922",
+      "title": "Song and genetic divergence within a subspecies of white-crowned sparrow (Zonotrichia leucophrys nuttalli)",
+      "year": 2024,
+      "doi": "10.1371/journal.pone.0304348",
+      "abstract": "Animal culture evolves alongside genomes, and the two modes of inheritance-culture and genes-interact in myriad ways. For example, stable geographic variation in culture can act as a reproductive barrier, thereby facilitating genetic divergence between \"cultural populations.\" White-crowned sparrows (Zonotrichia leucophrys) are a well-established model species for bird song learning and cultural evolution, as they have distinct, geographically discrete, and culturally transmitted song types (i.e., song dialects). In this study, we tested the hypothesis that divergence between culturally transmitted songs drives genetic divergence within Nuttall's white-crowned sparrows (Z. l. nuttalli). In accordance with sexual selection theory, we hypothesized that cultural divergence between mating signals both preceded and generated genetic divergence. We characterized the population structure and song variation in the subspecies and found two genetically differentiated populations whose boundary coincides with a major song boundary at Monterey Bay, California. We then conducted a song playback experiment that demonstrated males discriminate between songs based on their degree of divergence from their local dialect. These results support the idea that discrimination against non-local songs is driving genetic divergence between the northern and southern populations. Altogether, this study provides evidence that culturally transmitted bird songs can act as the foundation for speciation by sexual selection.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_5751_jfo-00301-940302",
@@ -297,11 +646,37 @@
       "abstract": "",
       "journal": "Journal of Field Ornithology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_35602893",
+      "title": "Experimentally broadcast ocean surf and river noise alters birdsong",
+      "year": 2022,
+      "doi": "10.7717/peerj.13297",
+      "abstract": "Anthropogenic noise and its effects on acoustic communication have received considerable attention in recent decades. Yet, the natural acoustic environment's influence on communication and its role in shaping acoustic signals remains unclear. We used large-scale playbacks of ocean surf in coastal areas and whitewater river noise in riparian areas to investigate how natural sounds influences song structure in six songbird species. We recorded individuals defending territories in a variety of acoustic conditions across 19 study sites in California and 18 sites in Idaho. Acoustic characteristics across the sites included naturally quiet 'control' sites, 'positive control' sites that were adjacent to the ocean or a whitewater river and thus were naturally noisy, 'phantom' playback sites that were exposed to continuous broadcast of low-frequency ocean surf or whitewater noise, and 'shifted' playback sites with continuous broadcast of ocean surf or whitewater noise shifted up in frequency. We predicted that spectral and temporal song structure would generally correlate with background sound amplitude and that signal features would differ across site types based on the spectral profile of the acoustic environment. We found that the ways in which song structure varied with background acoustics were quite variable from species to species. For instance, in Idaho both the frequency bandwidth and duration of lazuli bunting (",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34124755",
+      "title": "What is Known-and not Known-About Acoustic Communication in an Urban Soundscape",
+      "year": 2021,
+      "doi": "10.1093/icb/icab131",
+      "abstract": "Urban environments have some of the most highly modified soundscapes on the planet, affecting the way many animals communicate using acoustic signals. Communication involves transmission of information via signals, such as bird song, between a signaler and a receiver. Much work has focused on the effects of urbanization on signalers and their signals, yet very little is known about how noise pollution affects receiver behaviors and sensory systems. Here, we synthesize key findings to date regarding avian acoustic communication in the urban environment and delineate key gaps in knowledge for future work. We leverage our own work comparing current and historical songs from urban and rural habitats for a subspecies of white-crowned sparrows (Zonotrichia leucophrys nuttalli). We use this system, along with findings from other systems, to answer three key questions in the field: (1) Is song variation consistent with temporal and spatial variation in anthropogenic noise? (2) How are birds adjusting their song to the urban environment? (3) How does song 'urbanization' affect signal function? Our synthesis illustrates that the adjustments birds make to their songs in noisy environments can improve signal detection, but potentially at the cost of signal function. Many key gaps in knowledge need to be addressed to complete our understanding of how acoustic communication systems evolve in urban areas, specifically in regard to sexual selection and female preference, as well as how receivers perceive signals in an urban environment.",
+      "journal": "Integrative and comparative biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34082131",
+      "title": "Cytonuclear discordance in the crowned-sparrows, Zonotrichia atricapilla and Zonotrichia leucophrys",
+      "year": 2021,
+      "doi": "10.1016/j.ympev.2021.107216",
+      "abstract": "The golden-crowned (Zonotrichia atricapilla) and white-crowned (Z. leucophrys) sparrows have been presented as a compelling case for rapid speciation. They display divergence in song and plumage with overlap in their breeding ranges implying reproductive isolation, but have almost identical mitochondrial genomes. Previous research proposed hybridization and subsequent mitochondrial introgression as an alternate explanation, but lacked robust nuclear gene trees to distinguish between introgression and incomplete lineage sorting. We test for signatures of these processes between Z. atricapilla and Z. leucophrys, and investigate the relationships among Z. leucophrys subspecies, using mitochondrial sequencing and a reduced representation nuclear genomic dataset. Contrary to the paraphyly evident in mitochondrial gene trees, we confirmed the reciprocal monophyly of Z. atricapilla and Z. leucophrys using large panels of single nucleotide polymorphisms (SNPs). The pattern of cytonuclear discordance is consistent with limited, historical hybridization and mitochondrial introgression, rather than a recent origin and incomplete lineage sorting between recent sister species. We found evidence of nuclear phylogeographic structure within Z. leucophrys with two distinct clades. Altogether, our results indicate deeper divergences between Z. atricapilla and Z. leucophrys than inferred using mitochondrial markers. Our results demonstrate the limitations of relying solely on mitochondrial DNA for taxonomy, and raise questions about the possibility of selection on the mitochondrial genome during temperature oscillations (e.g. during the Pleistocene). Historical mitochondrial introgression facilitated by past environmental changes could cause erroneous dating of lineage splitting in other taxa when based on mitochondrial DNA alone.",
+      "journal": "Molecular phylogenetics and evolution",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3389_fevo_2020_587120",
@@ -311,11 +686,27 @@
       "abstract": "Human activity around the globe is a growing source of selection pressure on animal behavior and communication systems. Some animals can modify their vocalizations to avoid masking from anthropogenic noise. However, such modifications can also affect the salience of these vocalizations in functional contexts such as competition and mate choice. Such is the case in the well-studied Nuttall's white-crowned sparrow ( Zonotrichia leucophrys nuttalli ), which lives year-round in both urban San Francisco and nearby rural Point Reyes. A performance feature of this species' song is salient in territorial defense, such that higher performance songs elicit stronger responses in simulated territorial intrusions; but songs with lower performance values transmit better in anthropogenic noise. A key question then is whether vocal performance signals male quality and ability to obtain high quality territories in urban populations. We predicted white-crowned sparrows with higher vocal performance will",
       "journal": "Frontiers in Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_32424053",
+      "title": "Inflammation Induced by Natural Neuronal Death and LPS Regulates Neural Progenitor Cell Proliferation in the Healthy Adult Brain",
+      "year": 2020,
+      "doi": "10.1523/ENEURO.0023-20.2020",
+      "abstract": "Inflammation is typically considered a negative response to injury or insult; however, recent advances demonstrate that inflammatory cells regulate development, plasticity, and homeostasis through anticytotoxic, progenerative responses. Here, we extend analyses of neuroinflammation to natural neurodegenerative and homeostatic states by exploiting seasonal plasticity in cytoarchitecture of the avian telencephalic song control nucleus, high vocal center [HVC (proper name)], in the songbird Gambel's white-crowned sparrow (",
+      "journal": "eNeuro",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31857358",
+      "title": "Brain-Derived Neurotrophic Factor Has a Transsynaptic Trophic Effect on Neural Activity in an Adult Forebrain Circuit",
+      "year": 2020,
+      "doi": "10.1523/JNEUROSCI.2375-19.2019",
+      "abstract": "While hormone-driven plasticity in the adult brain is well studied, the underlying cellular and molecular mechanisms are less well understood. One example of this is seasonal plasticity in the avian brain, where song nuclei exhibit hormonally driven changes in response to changing photoperiod and circulating sex steroid hormones. Hormone receptor activation in song nucleus HVC (proper name) elicits a robust change in activity in target nucleus RA (robust nucleus of the arcopallium), but the molecular signal responsible for this is unknown. This study addressed whether brain-derived neurotrophic factor (BDNF) mediates a transsynaptic effect from HVC to RA in male Gambel's white-crowned sparrows (",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_59114",
@@ -325,11 +716,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_s41598-018-36276-5",
@@ -339,11 +726,7 @@
       "abstract": "Background noise can interfere with acoustic communication and subsequently influence signaling behavior. Immediate signaling flexibility (ISF) is a context-dependent form of behavioral plasticity that allows animals to temporarily change their acoustic behavior in response to noise fluctuations and potentially improve the chances of successful communication in noisy environments. The adaptive value of ISF is ultimately contingent on the response of the intended receiver, and there are differential effects on receiver response depending on which signal component is modified. However, there is scant research on whether ISF involves modification of a signal component specifically linked to mate attraction or territory defense. Our study addresses this knowledge gap and provides important insight into whether males employ short-term signal modification in a manner that could affect mate pairing success in birds. Specifically, we explore the maladaptive potential of ISF in the San Francisc",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arz142",
@@ -353,11 +736,57 @@
       "abstract": "Abstract Learned traits, such as foraging strategies and communication signals, can change over time via cultural evolution. Using historical recordings, we investigate the cultural evolution of birdsong over nearly a 50-year period. Specifically, we examine the parts of white-crowned sparrow (Zonotrichia leucophrys nuttalli) songs used for mate attraction and territorial defense. We compared historical (early 1970s) recordings with contemporary (mid-2010s) recordings from populations within and near San Francisco, CA and assessed the vocal performance of these songs. Because birds exposed to anthropogenic noise tend to sing at higher minimum frequencies with narrower frequency bandwidths, potentially reducing one measure of song performance, we hypothesized that other song features, such as syllable complexity, might be exaggerated, as an alternative means to display performance capabilities. We found that vocal performance increased between historical and contemporary songs, with a l",
       "journal": "Behavioral Ecology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_31509642",
+      "title": "Rapamycin blocks the neuroprotective effects of sex steroids in the adult birdsong system",
+      "year": 2019,
+      "doi": "10.1002/dneu.22719",
+      "abstract": "In adult songbirds, the telencephalic song nucleus HVC and its efferent target RA undergo pronounced seasonal changes in morphology. In breeding birds, there are increases in HVC volume and total neuron number, and RA neuronal soma area compared to nonbreeding birds. At the end of breeding, HVC neurons die through caspase-dependent apoptosis and thus, RA neuron size decreases. Changes in HVC and RA are driven by seasonal changes in circulating testosterone (T) levels. Infusing T, or its metabolites 5α-dihydrotestosterone (DHT) and 17 β-estradiol (E2), intracerebrally into HVC (but not RA) protects HVC neurons from death, and RA neuron size, in nonbreeding birds. The phosphoinositide 3-kinase (PI3K)-Akt (a serine/threonine kinase)-mechanistic target of rapamycin (mTOR) signaling pathway is a point of convergence for neuroprotective effects of sex steroids and other trophic factors. We asked if mTOR activation is necessary for the protective effect of hormones in HVC and RA of adult male Gambel's white-crowned sparrows (Zonotrichia leucophrys gambelii). We transferred sparrows from breeding to nonbreeding hormonal and photoperiod conditions to induce regression of HVC neurons by cell death and decrease of RA neuron size. We infused either DHT + E2, DHT + E2 plus the mTOR inhibitor rapamycin, or vehicle alone in HVC. Infusion of DHT + E2 protected both HVC and RA neurons. Coinfusion of rapamycin with DHT + E2, however, blocked the protective effect of hormones on HVC volume and neuron number, and RA neuron size. These results suggest that activation of mTOR is an essential downstream step in the neuroprotective cascade initiated by sex steroid hormones in the forebrain.",
+      "journal": "Developmental neurobiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30760726",
+      "title": "Noise-induced vocal plasticity in urban white-crowned sparrows does not involve adjustment of trill performance components",
+      "year": 2019,
+      "doi": "10.1038/s41598-018-36276-5",
+      "abstract": "Background noise can interfere with acoustic communication and subsequently influence signaling behavior. Immediate signaling flexibility (ISF) is a context-dependent form of behavioral plasticity that allows animals to temporarily change their acoustic behavior in response to noise fluctuations and potentially improve the chances of successful communication in noisy environments. The adaptive value of ISF is ultimately contingent on the response of the intended receiver, and there are differential effects on receiver response depending on which signal component is modified. However, there is scant research on whether ISF involves modification of a signal component specifically linked to mate attraction or territory defense. Our study addresses this knowledge gap and provides important insight into whether males employ short-term signal modification in a manner that could affect mate pairing success in birds. Specifically, we explore the maladaptive potential of ISF in the San Francisco, California population of Zonotrichia leucophrys nuttalli by testing for changes in trill bandwidth and rate-the specific trill structure components known to influence the receiver's perception of vocal performance in this species-before and during noise broadcast experiments. Although Zonotrichia leucophrys nuttalli are capable of ISF, we found no evidence that noise induces temporary adjustment of the trill structure traits used by receivers to assess vocal performance.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30291632",
+      "title": "Seasonal changes in neuronal turnover in a forebrain nucleus in adult songbirds",
+      "year": 2019,
+      "doi": "10.1002/cne.24552",
+      "abstract": "Neuronal death and replacement, or neuronal turnover, in the adult brain are one of many fundamental processes of neural plasticity. The adult avian song control circuit provides an excellent model for exploring mature neuronal death and replacement by new neurons. In the song control nucleus, HVC of adult male Gambel's white-crowned sparrows (Zonotrichia leucophrys gambelli) nearly 68,000 neurons are added each breeding season and die during the subsequent nonbreeding season. To accommodate large seasonal differences in HVC neuron number, the balance between neuronal addition and death in HVC must differ between seasons. To determine whether maintenance of new HVC neurons changes within and between breeding and nonbreeding conditions, we pulse-labeled two different cohorts of new HVC neurons under both conditions and quantified their maintenance. We show that the maintenance of new HVC neurons, as well as new nonneuronal cells, was higher at the onset of breeding conditions than at the onset of nonbreeding conditions. Once a steady-state HVC volume and neuronal number were attained in either breeding or nonbreeding conditions, neuronal and nonneuronal maintenance were similarly low. We found that new neuronal number correlated with a new nonneuronal number within each cohort of new neurons. Together, these data suggest that sex steroids promote the survival of an initial population of new neurons and nonneuronal cells entering HVC. However, once HVC is fully grown or regressed, neuronal and nonneuronal cell turnover is regulated by a common mechanism likely independent of direct sex steroid signaling.",
+      "journal": "The Journal of comparative neurology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29462650",
+      "title": "Song ontogeny in Nuttall's white-crowned sparrows tutored with individual phrases",
+      "year": 2019,
+      "doi": "10.1016/j.beproc.2018.02.010",
+      "abstract": "Behavioral ontogeny involves the interaction of innate predispositions and experience. In bird song learning, one approach to exploring this interaction is to examine the songs rehearsed by young birds whose exposure to tutor models has been carefully controlled. Here, I analyzed the rehearsed repertoire in Nuttall's white-crowned sparrows (Zonotrichia leucophrys nuttalli) tutored with individual phrases of conspecific and heterospecific songs. The proportions of phrase types rehearsed indicate that the learning biases evident in crystallized song are manifest early on, suggesting preferential memorization rather than preferential retention during attrition. The proportion of songs beginning with whistles increased during song rehearsal and phrase sequence variability decreased, consistent with the idea that innate syntax specifications guide song rehearsal. Single-phrase tutored birds overproduced phrases to the same extent previously observed in birds tutored with full, normal song but retained fewer phrase types in their crystallized repertoires. This suggests that in this subspecies, acquired syntax information does not affect the number of phrase types memorized and rehearsed but does affect repertoire attrition at the end of the sensorimotor phase. I discuss these results with a focus on the action of innate templates in song development and subspecies differences in this process.",
+      "journal": "Behavioural processes",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29760398",
+      "title": "Urban sparrows respond to a sexually selected trait with increased aggression in noise",
+      "year": 2018,
+      "doi": "10.1038/s41598-018-25834-6",
+      "abstract": "Animals modify acoustic communication signals in response to noise pollution, but consequences of these modifications are unknown. Vocalizations that transmit best in noise may not be those that best signal male quality, leading to potential conflict between selection pressures. For example, slow paced, narrow bandwidth songs transmit better in noise but are less effective in mate choice and competition than fast paced, wide bandwidth songs. We test the hypothesis that noise affects response to song pace and bandwidth in the context of competition using white-crowned sparrows (Zonotrichia leucophrys). We measure male response to song variation along a gradient of ambient noise levels in San Francisco, CA. We find that males discriminate between wide and narrow bandwidth songs but not between slow and fast paced songs. These findings are biologically relevant because songs in noisy areas tend to have narrow bandwidths. Therefore, this song phenotype potentially increases transmission distance in noise, but elicits weaker responses from competitors. Further, we find that males respond more strongly to stimuli in noisier conditions, supporting the 'urban anger' hypothesis. We suggest that noise affects male responsiveness to song, possibly leading to more territorial conflict in urban areas.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1642_auk-17-2_1",
@@ -367,11 +796,7 @@
       "abstract": "Vocal communication in songbirds is important for aggressive signaling, such that an honest signal allows receivers to assess a competitor's qualities. One aspect of song that conspecifics may assess is vocal performance. An example of vocal performance is how well an individual performs the trade-off between trill rate and bandwidth in production of repeated notes. This type of vocal performance (vocal deviation) is thought to be an honest signal because a male's ability to maximize both bandwidth and trill rate is limited by motor constraints on sound modification. Further, how well a male can repeat this trade-off may provide receivers with information about the signaler, and a male's own level of vocal performance can affect the strength of response to high-performance songs. We tested whether males assess each other based on vocal performance in an important model species, the White-crowned Sparrow (Zonotrichia leucophrys). We show that male White-crowned Sparrows respond more str",
       "journal": "The Auk",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1002_ecs2_1916",
@@ -381,11 +806,7 @@
       "abstract": "Abstract Background noise can interfere with acoustic communication. Signal modifications have the potential to increase signal‐to‐noise ratios and reduce the masking effect of noise. Immediate signaling flexibility, a type of vocal plasticity, allows animals to modify their signal to optimize transmission depending on ambient noise conditions. Results from previous studies provide conflicting evidence about whether expression of immediate signaling flexibility is dependent upon the signaler having prior experience with noisy environments. To improve our understanding of vocal plasticity, we examined immediate signaling flexibility in white‐crowned sparrows Zonotrichia leucophrys nuttalli in urban and rural locations. We experimentally broadcast noise with three different spectral profiles—city (low frequency), inverse of city (high frequency), and white (equal intensity at all frequencies)—successfully to 107 males and measured multiple features of songs produced prior to and during t",
       "journal": "Ecosphere",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_22261_jea_z9tqhu",
@@ -395,11 +816,27 @@
       "abstract": "Background noise can interfere with and influence acoustic communication behavior. Signal interference is dependent on the amplitude and spectral characteristic of background noise, which varies over space and time. The likelihood of signal interference is greater when background noise is concentrated within the same frequency bands of an animal’s vocalization, but even a partial masking effect can elicit signaling behavior modification. Relative to a rural landscape, background noise in an urban landscape is disproportionately comprised by anthro- pogenic sound, which fluctuates in amplitude throughout the day and occurs primarily in low frequencies (0–2 kHz). In this study, we examined if urban-rural differences in vocal activity patterns exist in a species Zonotrichia leucophrys nuttalli that communicates above the frequency range of anthropogenic noise (2–8 kHz). We tested whether vocal activity patterns changed in relation to sound in the high or low frequency bands within and bet",
       "journal": "Journal of Ecoacoustics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_28814612",
+      "title": "Effects of a social cue on reproductive development and pre-alternate molt in seasonally breeding migrant and resident female songbirds (",
+      "year": 2017,
+      "doi": "10.1242/jeb.160994",
+      "abstract": "To time reproduction optimally, birds have evolved diverse mechanisms by which they respond to environmental changes that help them anticipate and prepare for the breeding season. While residents initiate reproductive preparation and breed in the same geographic location, migrant birds simultaneously prepare for breeding and migration far from their breeding grounds. As a result, it is hypothesized that migrant and resident birds use environmental cues differently to prepare to breed and that there is adaptive specialization in mechanisms regulating reproductive preparation. Specifically, residents are expected to rely more on non-photic cues (e.g. food, temperature, social cues) than migrants. We tested this general prediction using a social cue manipulation. First, we compared the effects of subspecies-appropriate recorded male song on reproductive development in migrants and residents on a naturally increasing photoperiod. Second, we tested the sensitivity of migrant-specific life history events (fattening and pre-alternate molt) to song treatment. After 82 days, residents had higher luteinizing hormone and greater ovarian development than migrants, but song treatment had no effect on these metrics in either subspecies. Song advanced pre-alternate molt but had no effect on fattening in migrants. While our study does not support specialization in social cue use in migrants and residents, it is consistent with findings in the literature of specialization in photoperiodic response. It also demonstrates for the first time that social cues can influence molt in a migrant species. Additional findings from a pilot study looking at responses to a live male suggest it is important to test other kinds of social cues.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_28690825",
+      "title": "White-crowned sparrow males show immediate flexibility in song amplitude but not in song minimum frequency in response to changes in noise levels in the field",
+      "year": 2017,
+      "doi": "10.1002/ece3.3037",
+      "abstract": "The soundscape acts as a selective agent on organisms that use acoustic signals to communicate. A number of studies document variation in structure, amplitude, or timing of signal production in correspondence with environmental noise levels thus supporting the hypothesis that organisms are changing their signaling behaviors to avoid masking. The time scale at which organisms respond is of particular interest. Signal structure may evolve across generations through processes such as cultural or genetic transmission. Individuals may also change their behavior during development (ontogenetic change) or in real time (i.e., immediate flexibility). These are not mutually exclusive mechanisms, and all must be investigated to understand how organisms respond to selection pressures from the soundscape. Previous work on white-crowned sparrows (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_7717_peerj_396",
@@ -409,11 +846,17 @@
       "abstract": "Emberizid sparrows (emberizidae) have played a prominent role in the study of avian vocal communication and social behavior. We present here brain transcriptomes for three emberizid model systems, song sparrow Melospiza melodia, white-throated sparrow Zonotrichia albicollis, and Gambel's white-crowned sparrow Zonotrichia leucophrys gambelii. Each of the assemblies covered fully or in part, over 89% of the previously annotated protein coding genes in the zebra finch Taeniopygia guttata, with 16,846, 15,805, and 16,646 unique BLAST hits in song, white-throated and white-crowned sparrows, respectively. As in previous studies, we find tissue of origin (auditory forebrain versus hypothalamus and whole brain) as an important determinant of overall expression profile. We also demonstrate the successful isolation of RNA and RNA-sequencing from post-mortem samples from building strikes and suggest that such an approach could be useful when traditional sampling opportunities are limited. These t",
       "journal": "PeerJ",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_2305_iucn_uk_2012-1_rlts_t22721088a39914243_en",
+      "title": "Zonotrichia leucophrys: BirdLife International",
+      "year": 2012,
+      "doi": "10.2305/iucn.uk.2012-1.rlts.t22721088a39914243.en",
+      "abstract": "",
+      "journal": "IUCN Red List of Threatened Species",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037__0735-7036_115_2_172",
@@ -423,11 +866,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037_0735-7036_115_2_172",
@@ -437,11 +876,7 @@
       "abstract": "",
       "journal": "Journal of Comparative Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1006_anbe_2000_1498",
@@ -451,11 +886,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1523_jneurosci_06-06-01643_1986",
@@ -465,11 +896,7 @@
       "abstract": "Neuronal activity in the hyperstriatum ventrale, pars caudale (HVc) is associated with and necessary for the production of song by songbirds. HVc neurons also respond to acoustic stimuli. The present investigation assessed the auditory response properties of neurons in HVc by testing with the individual bird's own (autogenous) song and the songs of conspecific birds. Throughout HVc, multiunit clusters preferentially responded to autogenous song. Selectivity for autogenous song was apparent even when compared to similar intradialect songs, and neuronal clusters preferred autogenous song over the (tutor) song model that birds heard during the impressionable phase early in life. The responses to autogenous song were stable in the adult. HVc neurons were sensitive to the acoustic parameters of autogenous song and consistently exhibited a diminished response to modified song. In contrast, field L neurons, which are presumed to be a source of auditory input to HVc, did not exhibit selectivit",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_978-3-642-95255-5_4",
@@ -479,11 +906,7 @@
       "abstract": "",
       "journal": "Neurohistological Studies of the Hypothalamo-Hypophysial System of Zonotrichia leucophrys gambelii (Aves, Passeriformes)",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00340293",
@@ -493,11 +916,7 @@
       "abstract": "",
       "journal": "Zeitschrift f�r Zellforschung und Mikroskopische Anatomie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_978-3-642-46207-8_26",
@@ -507,11 +926,7 @@
       "abstract": "",
       "journal": "Aspects of Neuroendocrinology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1364317",
@@ -521,14 +936,10 @@
       "abstract": "",
       "journal": "The Condor",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 19,
+  "paper_count": 35,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

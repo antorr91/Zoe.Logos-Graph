@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 6,
+    "paper_count": 18,
+    "claim_count": 8,
     "doi_count": 17,
-    "media_count": 0
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -50,8 +50,8 @@
     "social communication"
   ],
   "functions": [
-    "flock cohesion",
-    "mate attraction"
+    "mate attraction",
+    "flock cohesion"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -59,13 +59,13 @@
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -73,33 +73,139 @@
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "flock cohesion",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "flock cohesion",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1828,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1827,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1826,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1825,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1824,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1823,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1822,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1821,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Carduelis carduelis",
     "recordings": [],
     "external_links": []
@@ -234,11 +340,7 @@
       "abstract": "",
       "journal": "Datasets - Sistema SALVE - ICMBio",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90498",
@@ -248,11 +350,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90518",
@@ -262,11 +360,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90516",
@@ -276,11 +370,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90499",
@@ -290,11 +380,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_90519",
@@ -304,11 +390,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1093_beheco_aru232",
@@ -318,11 +400,17 @@
       "abstract": "Over the last century, expanding urbanization has led to a strong increase in the levels of background noise. This noise pollution has been shown to negatively affect wildlife (e.g., reduced species diversity and density, reduced breeding success), especially birds. Most research addressing the effects of anthropogenic noise has focused on avian communication and, to date, very little is known regarding the impact of chronic noise exposure on nonvocal behavior such as antipredator behavior. Here, we exposed free-living house sparrows (Passer domesticus) breeding in nest-boxes to either a playback of traffic noise (disturbed birds) or the rural background noise of the study site (no playback: control birds) during their first breeding attempt. We tested whether one of the female's antipredator behaviors (i.e., flushing distance) was affected by exposure to chronic noise and investigated the impact of chronic noise on reproductive performances. Disturbed females flushed more rapidly than",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23678738",
+      "title": "The seroprevalence of avipoxvirus and its association with avian malaria (Plasmodium spp.) infection in introduced passerine birds in the southern regions of the North Island of New Zealand",
+      "year": 2013,
+      "doi": "10.1637/10285-061912-ResNote.1",
+      "abstract": "Blood samples were collected from 65 free-ranging birds from six species in the southern North Island of New Zealand. Sera from the birds were tested for the presence of avipoxvirus (APV) antibodies by enzyme-linked immunosorbent assay (ELISA), and blood cells from 55 birds were also tested for Plasmodium spp. by PCR. Forty-five birds (69.2%) tested seropositive to APV. Song thrushes (Turdus philomelos) presented the highest seroprevalence at 100% (4/4), followed by Eurasian blackbirds (Turdus merula) (96.86%, 31/32), chaffinches (Fringilla coelebs) (54.55%, 6/11), starlings (Sturnus vulgaris) (25%, 3/12), greenfinches (Carduelis chloris) (25%, 1/4), and European goldfinches (Carduelis carduelis) (0%, 0/2). Plasmodium spp. DNA was detected in 15/55 birds (27.3%), including 11 Eurasian blackbirds, one song thrush, and three starlings. Eight Eurasian blackbird isolates (73%) grouped within the subgenus Novyella. Two Eurasian blackbird isolates and the song thrush isolate clustered within a different group with previously reported lineages LINN1 and AFTRU5. In addition, all three starling isolates clustered within the well-characterized lineage Plasmodium (Huffia) elongatum GRW06. All Plasmodium-positive Eurasian blackbirds and the song thrush were seropositive to APV, whereas only 67% of Plasmodium-positive starlings showed evidence of previous exposure to APV. A significant relationship between birds seropositive to APV and birds infected by Plasmodium spp. was observed (chi2 = 5.69, df = 1, P = 0.0086). To the authors' knowledge this is the first report describing the seroprevalence of APV and its association with Plasmodium spp. infection in introduced bird species in New Zealand.",
+      "journal": "Avian diseases",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rstb_2011_0280",
@@ -332,11 +420,7 @@
       "abstract": "Ornaments, weapons and aggressive behaviours may evolve in female animals by mate choice and intrasexual competition for mating opportunities-the standard forms of sexual selection in males. However, a growing body of evidence suggests that selection tends to operate in different ways in males and females, with female traits more often mediating competition for ecological resources, rather than mate acquisition. Two main solutions have been proposed to accommodate this disparity. One is to expand the concept of sexual selection to include all mechanisms related to fecundity; another is to adopt an alternative conceptual framework-the theory of social selection-in which sexual selection is one component of a more general form of selection resulting from all social interactions. In this study, we summarize the history of the debate about female ornaments and weapons, and discuss potential resolutions. We review the components of fitness driving ornamentation in a wide range of systems, a",
       "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1558-5646_2010_01067_x",
@@ -346,11 +430,17 @@
       "abstract": "Visual signals are shaped by variation in the signaling environment through a process termed sensory drive, sometimes leading to speciation. However, the evidence for sensory drive in acoustic signals is restricted to comparisons between highly dissimilar habitats, or single-species studies in which it is difficult to rule out the influence of undetected ecological variables, pleiotropic effects, or chance. Here we assess whether this form of sensory drive-often termed \"acoustic adaptation\"-can generate signal divergence across ecological gradients. By studying avian communities in two Amazonian forest types, we show that songs of 17 \"bamboo-specialist\" bird species differ in predictable ways from their nearest relatives in adjacent terra firme forest. We also demonstrate that the direction of song divergence is correlated with the sound transmission properties of habitats, rather than with genetic divergence, ambient noise, or pleiotropic effects of mass and bill size. Our findings in",
       "journal": "Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_19249374",
+      "title": "The species status of the Corsican finch Carduelis corsicana assessed by three genetic markers with different rates of evolution",
+      "year": 2009,
+      "doi": "10.1016/j.ympev.2009.02.014",
+      "abstract": "Citril finches Carduelis c. citrinella and Corsican finches Carduelis c. corsicana represent two closely related forms, endemic to European mountains and some Mediterranean Islands. Their taxonomic status has recently been disputed based on the results from mitochondrial genes. We show that the use of different genetic markers may lead to different results in these two putative species. Using the mitochondrial ATP8+6 we found a clear difference between C. c. citrinella and C. c. corsicana (3.2%) suggesting a divergence time of 1.2MYR. In contrast, no clear difference was found using two nuclear genes. The mismatch between the different markers suggests that the separation of C. c. citrinella and C. c. corsicana is likely to be a rather recent event, involving bottlenecks, which have enhanced the divergence in the mtDNA. Our results call for caution when using mtDNA alone for assessing times of divergence and rates of evolution. We did not find any support for the view that C. c. corsicana is more related to Carduelis carduelis than C. c. citrinella as proposed by previous studies.",
+      "journal": "Molecular phylogenetics and evolution",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1111_j_1474-919x_2008_00875_x",
@@ -360,11 +450,7 @@
       "abstract": "This paper is the fifth report of the Taxonomic Sub-Committee of the BOU Records Committee relating to the British List. Species-level decisions are based on criteria outlined by Helbig et al. (2002. Ibis 144: 518–525). The fourth report of the Sub-Committee was published in Ibis 149: 853–857. The Palearctic Black-throated Loon G. arctica should be treated as a separate species from the Nearctic Pacific Loon G. pacifica, on the basis of diagnostic differences in plumage (colour of the anterior femoral tract and the bases of nape feathers), sympatry in eastern Siberia and Alaska, and a number of supporting average biometric and plumage differences (Solovyev 1992. Bulleten Moskovskogo Obschestva Ispytatelei Prorody, Otdel Biologichesky 97: 18–28; Douglas & Sowl 1993. Western Birds 24: 98–100). Wink et al. (2002. Charadrius 38: 239–245) found no sequence differences between Black-throated and Pacific Loons, and low variation in general among the loons; however, Brown et al. (2008. BMC Bio",
       "journal": "Ibis",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arl060",
@@ -374,11 +460,7 @@
       "abstract": "Nocturnal species may communicate by visual signals more frequently than previously thought. In fact, such species are habitually active around sunset and sunrise, when light conditions are still suitable for visual communication. We investigated the communication function of a visual cue in the eagle owl Bubo bubo, a nocturnal predator. In this species, territorial and courtship displays peak during the sunset and sunrise periods and involve the display of a white badge located on the throat whose reflectance properties are sex and period dependent. Experimental intrusions were conducted at 30 eagle owl territories in order to understand the function of the white badge during contests. We analyzed the reactions of both male and female owners toward a taxidermic mount with a normal brightness and a brightness-reduced white badge, with both male and female territorial calls. Our results indicate that the white badge of eagle owls plays an important role in visual communication during co",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_63172_830007ejgngz",
@@ -388,11 +470,7 @@
       "abstract": "",
       "journal": "Notornis",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_0021-8790_2004_00814_x",
@@ -402,11 +480,7 @@
       "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1642_0004-8038(2002)119[0897:ftstta]2_0_co;2",
@@ -416,11 +490,7 @@
       "abstract": "RICHARD C. BANKS, 10, CARLA CICERO,2 JON L. DUNN,3 ANDREW W. KRATTER,4 PAMELA C. RASMUSSEN,5,9 J. V. REMSEN, JR.,6 JAMES D. RISING,7 AND DOUGLAS F. STOTZ8 'U.S. Geological Survey, Patuxent Wildlife Research Center, National Museum of Natural History, MRC-111, Washington, DC 20560-011 1, USA; 2Museum of Vertebrate Zoology, 3101 Valley Life Sciences Building, University of California, Berkeley, California 94720-3160, USA; 3RR2, Box 52R, Bishop, California 93514, USA; 4Florida Museum of Natural History, PO. Box 117800, University of Florida, Gainesville, Florida 32611, USA; 'Department of Systematic Biology, National Museuni of Natural History, Washington, D.C. 20560-0116, USA; 6Museum of Natural Science, Louisiana State University, Foster Hall 119, Baton Rouge, Louisiana 70803, USA; 7Department of Zoology, Ramsay Wright Zoological Labs, University of Toronto, Toronto, Ontario M5S 3G5, Canada; and 8Environmental and Conservation Programs, Field Museum of Natural History, 1400 S. Lake Shor",
       "journal": "The Auk",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_46867_c48w2q",
@@ -430,11 +500,7 @@
       "abstract": "We now know that laterality in various forms is a characteristic of a wide range of species, and that it apparently developed very early in evolution. Yet, some hundred years had to elapse after the discov- ery that there was lateralization, or asymmetry, for control of speech in the human brain, before any earnest attempts were made to dis- cover or recognise the presence of laterality in nonhuman species (see The reason for this delay appears to have been the belief that lateralization of brain function was a char- acteristic unique to the human species, placing our species above all other species. This belief had been preceded by a well-developed mythology sur- rounding the sinistral-dextral dichotomy of handedness in humans (Corballis, 1983, pp. 1-9), and the belief that dextrality was also a uniquely human characteristic. It has been argued that shared tool use by humans caused laterality of limb use and, in turn, specializa- tion of the left hemisphere for language",
       "journal": "International Journal of Comparative Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_14264_1a5fb33",
@@ -444,14 +510,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 18,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

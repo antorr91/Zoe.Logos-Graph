@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 17,
-    "claim_count": 7,
-    "doi_count": 16,
-    "media_count": 0
+    "paper_count": 22,
+    "claim_count": 12,
+    "doi_count": 17,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -46,13 +46,13 @@
     "song"
   ],
   "contexts": [
-    "mate attraction",
     "territorial defence",
+    "mate attraction",
     "underwater foraging"
   ],
   "functions": [
-    "mate attraction",
-    "territory signalling"
+    "territory signalling",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -60,53 +60,211 @@
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "underwater foraging",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1993,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1992,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1991,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1990,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1989,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1988,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1987,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1986,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1985,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1984,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1983,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1982,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Cinclus cinclus",
     "recordings": [],
     "external_links": []
@@ -146,6 +304,13 @@
       "title": "The structure and context of male and female song in White-throated Dippers",
       "year": 2018,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0205101",
+      "url": "https://doi.org/10.1371/journal.pone.0205101",
+      "title": "The effect of early life conditions on song traits in male dippers (Cinclus cinclus)",
+      "year": 2018,
+      "source": "pubmed"
     },
     {
       "doi": "10.2305/iucn.uk.2018-2.rlts.t22708156a131946814.en",
@@ -234,11 +399,17 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40818461",
+      "title": "Stream noise induces song plasticity and a shift to visual signals in a riverine songbird",
+      "year": 2025,
+      "doi": "10.1016/j.cub.2025.07.049",
+      "abstract": "Environmental noise can severely impair acoustic communication, thereby affecting key behaviors such as predator avoidance,",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_21956_wellcomeopenres_25673_r113369",
@@ -248,11 +419,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t22708156a166342358_en",
@@ -262,11 +429,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fpsyg_2020_01370",
@@ -276,11 +439,7 @@
       "abstract": "Our understanding of the behavioral and physiological mechanisms of monogamy largely comes from studies of behavioral interactions unique to pair-bonded individuals. By focusing on these highly marked behaviors, a remarkable conservation in the mechanisms underlying pair bonding has been revealed; however, we continue to know very little about the range of behavioral and neurobiological mechanisms that could explain the great diversity of pair-bonding phenotypes that exists both within and across species. In order to capture the dynamic nature of bonds over time and across contexts, we need specific, operationally-defined behavioral variables relevant across such a diversity of scenarios. Additionally, we need to be able to situate these behavioral variables within broader frameworks that allow us to interpret and compare patterns seen across species. Here I review what is known about behavioral synchrony with respect to pair bonding and discuss using synchrony as such a variable as we",
       "journal": "Frontiers in Psychology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2305_iucn_uk_2018-2_rlts_t22708156a131946814_en",
@@ -290,11 +449,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10336-018-1599-z",
@@ -304,11 +459,17 @@
       "abstract": "Female song in birds is more widespread than previously thought but remains poorly studied. Relatively few researchers have compared the structure and function of female song with that of conspecific males, especially in non-duetting species. Here we investigate male and female song in the White-throated Dipper (Cinclus cinclus; hereafter ‘Dipper’), a highly territorial and largely monogamous passerine with a complex song in both sexes. The songs of individually marked birds were recorded over a 3-year period in order to compare the acoustic structure and production of song in males and females at different stages of the breeding cycle. No differences were found in the complexity, frequency or temporal characteristics of male and female songs. However, unpaired males recorded early in the breeding season sang more complex songs than males that were paired up and nest-building or whose breeding attempts were underway, suggesting that male song is used for mate attraction. By contrast, f",
       "journal": "Journal für Ornithologie",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_30427834",
+      "title": "The effect of early life conditions on song traits in male dippers (Cinclus cinclus)",
+      "year": 2018,
+      "doi": "10.1371/journal.pone.0205101",
+      "abstract": "Song complexity and singing frequency in male birds are shaped by female choice; they signal male quality because song is costly to develop and produce. The timing of song learning and the development of the brain structures involved occur during a period when chicks are exposed to a number of potential stressors. The quality and quantity of song produced by adults may therefore reflect the level of stress experienced during early life, a theory known as the 'developmental stress hypothesis'. We tested this hypothesis using song recordings and life-history data from an individually marked, long-term study population of wild dippers (Cinclus cinclus). The extent to which early life conditions predict adult song traits was investigated using natal brood size as a measure of sibling competition; the rate of provisioning by parents as a proxy for nutritional stress; and residuals of the linear regression between body mass and tarsus length as a measure of nestling condition. The syllable diversity in the songs of adult males was positively correlated with their body condition as nestlings, but there was no significant correlation with either provisioning rate or brood size. Provisioning rate did, however, predict song rate; males in relatively poor condition as nestlings or those raised in smaller broods which were fed more frequently by their parents sang at a higher rate in adulthood. These results support the developmental stress hypothesis and provide some of the first evidence from a wild bird of how the conditions experienced during early life impact adult song. Song traits may therefore provide females with information regarding both the current condition and developmental history of males.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s10336-017-1449-4",
@@ -318,11 +479,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2305_iucn_uk_2016-3_rlts_t22708156a87941635_en",
@@ -332,11 +489,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "lit_gbif_5789823_11",
@@ -346,11 +499,17 @@
       "abstract": "La théorie de la sélection sexuelle a drastiquement orienté l’effort de recherche sur la communication acoustique chez les oiseaux : les mâles apprennent et produisent des chants élaborés et les femelles choisissent. Par conséquent (1) la production vocale chez les femelles a été négligée, (2) les cris (la majorité de la communication sociale) ont été peu étudiés. Contrairement aux chants, les cris ont été considérés comme innés et aucun effet de l’environnement sur leur structure n’était attendu. J’ai donc posé la question de la flexibilité vocale (court-terme) et de la plasticité vocale (au cours du développement) chez les femelles, en étudiant les cris majoritairement. J’ai étudié deux contextes où les deux sexes vocalisent: la communication dans le couple au nid et la communication parent-jeunes. Les vocalisations produites au nid par les couples montrent-elles de la flexibilité en réponse au bruit? Le développement des cris est-il influencé par l’environnement social ? J’ai travai",
       "journal": "HAL (Le Centre pour la Communication Scientifique Directe)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5789823_10",
+      "title": "Acoustic communication in female songbirds : functions, flexibility and plasticity in calls",
+      "year": 2016,
+      "doi": null,
+      "abstract": "La théorie de la sélection sexuelle a drastiquement orienté l’effort de recherche sur la communication acoustique chez les oiseaux : les mâles apprennent et produisent des chants élaborés et les femelles choisissent. Par conséquent (1) la production vocale chez les femelles a été négligée, (2) les cris (la majorité de la communication sociale) ont été peu étudiés. Contrairement aux chants, les cris ont été considérés comme innés et aucun effet de l’environnement sur leur structure n’était attendu. J’ai donc posé la question de la flexibilité vocale (court-terme) et de la plasticité vocale (au cours du développement) chez les femelles, en étudiant les cris majoritairement. J’ai étudié deux contextes où les deux sexes vocalisent: la communication dans le couple au nid et la communication parent-jeunes. Les vocalisations produites au nid par les couples montrent-elles de la flexibilité en réponse au bruit? Le développement des cris est-il influencé par l’environnement social ? J’ai travai",
+      "journal": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_13157_arla_59_1_2012_111",
@@ -360,11 +519,7 @@
       "abstract": "",
       "journal": "Ardeola",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1525_bio_2011_61_3_6",
@@ -374,11 +529,7 @@
       "abstract": "This article presents a unifying theory of soundscape ecology, which brings the idea of the soundscape-the collection of sounds that emanate from landscapes-into a research and application focus. Our conceptual framework of soundscape ecology is based on the causes and consequences of biological (biophony), geophysical (geophony), and human-produced (anthrophony) sounds. We argue that soundscape ecology shares many parallels with landscape ecology, and it should therefore be considered a branch of this maturing field. We propose a research agenda for soundscape ecology that includes six areas: (1) measurement and analytical challenges, (2) spatial-temporal dynamics, (3) soundscape linkage to environmental covariates, ( We present case studies that illustrate different approaches to understanding soundscape dynamics. Because soundscapes are our auditory link to nature, we also argue for their protection, using the knowledge of how sounds are produced by the environment and humans.",
       "journal": "BioScience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1525_cond_2009_080057",
@@ -388,11 +539,17 @@
       "abstract": "Resumen. Las llamadas de alarma que inducen la huida frecuentemente comunican informacin sobre el tipo de depredador y el peligro asociado con ste. Sin embargo, se conoce menos sobre como las llamadas de asedio que inducen el acercamiento codifican esta informacin. Estudiamos las llamadas de asedio de Corvus brachyrhynchos para determinar si estas llamadas proporcionan informacin sobre el depredador o sobre el nivel de peligro mediante la presentacin de un modelo de lechuza (que representa un ave depredadora) y de un mapache (Procyon lotor, que representa un mamfero depredador). Encontramos que C. brachyrhynchos emite los mismos tipos de vocalizaciones en respuesta a ambas clases de depredadores. Sin embrago, nuestros resultados sugieren que las llamadas con una duracin mayor, tasas mayores e intervalos ms cortos entre llamadas, reflejan un mayor grado de peligro. Tambin encontramos diferencias significativas en la estructura de las llamadas entre las pruebas; stas pueden reflejar dife",
       "journal": "Ornithological Applications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_18669305",
+      "title": "[Relations between the ectosomatic and the entosomatic organs]",
+      "year": 2008,
+      "doi": null,
+      "abstract": "A.N. Severtsov, when introduced the concepts of ecto- and entosomatic organs, illustrated them by three examples of adaptations, namely by the blindness of some subterranean vertebrates, by the \"suckers\" on the geckos' fingers and toes, and by the flattened body shape of skates and rays. Morphology of the pterygoideus muscle in some song-birds, which is one of the most complicated jaw muscles, is considered here in the framework of those concepts. This muscle displays mosaic variation among bird taxa while the arrangement of skeletal and ligamentous components is rather monotonous. The ventromedial portion of the muscle predominates in the Vietnamese babblers (Garrulax leucolophus, Alcippe peracensis, and Yuhina zantholeuca; fam. Timaliidae), in the leafbird Aegithina lafresnayei (fam. Chloropsidae), and in the drongo Dicrurus aeneus (fam. Dicruridae). One part of this portion, m. retractor palatini, is relatively big in the starling, Gracula religiosa (fam. Sturnidae), and in the dipper, Cinclus cinclus (fam. Trogloditidae). Both muscular bulks (entosomatic organs after Severtsov) affect clearly and directly properties of the bill (ectosomatic organ) without any visible differences in its construction. They provide the upper jaw with additional force (directed downward while grasping a prey) and so fasten it against the passive deviation during tearing or pulling off the food item (the mandible does not accept those forces). These two versions of the muscle morphology are parallel in the functional sense and are independent in respect to their evolutionary origin. The ventromedial portion, judging by its attachment to the mandible close to the center of the quadrato-mandibular joint, is neutral in respect to its adduction, and the m. retractor palatini is not connected to it. Thus, muscular portions under consideration, in spite of their position deep in the feeding apparatus, behave as ectosomatic organs. Deviations in their morphology are not the answer to any an",
+      "journal": "Zhurnal obshchei biologii",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "lit_gbif_5789823_14",
@@ -402,11 +559,17 @@
       "abstract": "Question: Is the production of bird song costly? Analyses of oxygen consumption during singing provided conflicting results. &#13;\\n&#13;\\nData studied: Data on 28 passerine species with quantitative information on song complexity and field metabolic rate, which reflects energy requirements of wild birds. The phylogenetic relationship data came from molecular sources. &#13;\\n&#13;\\nSearch method: Generalized least squares models to control for phylogenetic associations. First, we adjusted field metabolic rate to body size, and calculated the phylogenetic correlation between relative field metabolic rate and measures of song complexity. Second, we compared song complexity of birds inhabiting and and mesic environments. &#13;\\n&#13;\\nConclusion: A measure of short-term song complexity, relative syllable repertoire size, is positively and significantly related to relative field metabolic rate. Species from and habitats have less complex songs than species from mesic habitats.",
       "journal": "Repository of the Academy's Library (Library of the Hungarian Academy of Sciences)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_5789823_13",
+      "title": "Avian song complexity is associated with high field metabolic rate",
+      "year": 2006,
+      "doi": null,
+      "abstract": "Question: Is the production of bird song costly? Analyses of oxygen consumption during singing provided conflicting results. &#13;\\n&#13;\\nData studied: Data on 28 passerine species with quantitative information on song complexity and field metabolic rate, which reflects energy requirements of wild birds. The phylogenetic relationship data came from molecular sources. &#13;\\n&#13;\\nSearch method: Generalized least squares models to control for phylogenetic associations. First, we adjusted field metabolic rate to body size, and calculated the phylogenetic correlation between relative field metabolic rate and measures of song complexity. Second, we compared song complexity of birds inhabiting and and mesic environments. &#13;\\n&#13;\\nConclusion: A measure of short-term song complexity, relative syllable repertoire size, is positively and significantly related to relative field metabolic rate. Species from and habitats have less complex songs than species from mesic habitats.",
+      "journal": "Repository of the Academy's Library (Library of the Hungarian Academy of Sciences)",
+      "open_access": 1,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arh167",
@@ -416,11 +579,7 @@
       "abstract": "Neural correlates of bird song involve the volume of particular song nuclei in the brain that govern song development, production, and perception. Intra-and interspecific variation in the volume of these song nuclei are associated with overall brain size, suggesting that the integration of complex songs into the brain requires general neural augmentation. In a comparative study of passerine birds based on generalized least square models, we tested this hypothesis by exploring the interspecific relationship between overall brain size and repertoire size. We found no significant association between song complexity of males and brain size adjusted for body size. However, species in which males produced complex songs tended to have sex differences in overall brain size. This pattern became stronger when we controlled statistically for female song complexity by using sex differences in song complexity. In species with large differences in song complexity, females evolved smaller brains than",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1600-0587_1987_tb00760_x",
@@ -430,11 +589,7 @@
       "abstract": "<jats:p>The diet of dippers in south west Norway was investigated by faecal analysis during the 1985 breeding season. Overall, the diets of adults and nestlings were similar and consisted mostly of nymphs and larvae of Baetidae (mayflies). Leuctridae/Nemouridae (stoneflies). Hydropsychidae, Limnephilidae and Rhyaeophilidae (caddisflies). However, strong trends were apparent with nestling age: large items such as caddisflies declined in adult diet but increased in nestling diet as the chicks grew. The pattern probably reflected the growing energy demands of the brood in a central‐place. Because some of the items of dietary importance are scarce in acidic streams, we stress the need for research on the influences of acidification on the ecology of Scandinavian dippers.</jats:p>",
       "journal": "Ecography",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf01951427",
@@ -444,11 +599,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927019_0217",
@@ -458,14 +609,10 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 17,
+  "paper_count": 22,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

@@ -1,0 +1,173 @@
+# data/vocab/context_terms.yaml
+# ─────────────────────────────────────────────────────────────────────────────
+# Controlled vocabulary for ethological / behavioural contexts in Zoe.Logos.
+#
+# A context describes the situation in which a signal is produced.
+# It is NOT the same as the function (= why the signal is produced).
+#
+# Format per entry:
+#   context_id:        unique ID (context:<slug>)
+#   canonical_label:   English label
+#   parent_context_id: ID of parent context (for hierarchical browsing)
+#   aliases:           variant labels from literature
+#   definition:        1–2 sentences
+#   scope_note:        annotation guidance
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Reproductive contexts ─────────────────────────────────────────────────────
+
+- context_id: context:courtship
+  canonical_label: courtship
+  parent_context_id: null
+  aliases:
+    - courtship display
+    - mate choice context
+    - sexual display
+    - mating context
+  definition: >
+    Interactions preceding or accompanying pair formation and mating,
+    including song contests, visual displays, and close-range signalling.
+  scope_note: >
+    Source should describe male–female or same-sex interactions linked to
+    reproduction. Distinguish from general territorial behaviour.
+
+- context_id: context:territory
+  canonical_label: territorial defence
+  parent_context_id: null
+  aliases:
+    - territorial behaviour
+    - territory defence
+    - inter-male contest
+    - boundary signalling
+  definition: >
+    Signalling during defence or advertisement of a territory against
+    conspecific competitors.
+
+# ── Anti-predator contexts ────────────────────────────────────────────────────
+
+- context_id: context:predator_response
+  canonical_label: predator response
+  parent_context_id: null
+  aliases:
+    - anti-predator context
+    - predator detection
+    - threat response
+    - danger context
+    - alarm context
+  definition: >
+    Signalling triggered by detection of a predator, potential threat,
+    or simulated threat (e.g. model/playback experiments).
+  scope_note: >
+    Use when source describes predator presence, alarm, or threat.
+    Includes both aerial and terrestrial predator contexts.
+
+- context_id: context:aerial_predator
+  canonical_label: aerial predator
+  parent_context_id: context:predator_response
+  aliases:
+    - raptor threat
+    - hawk alarm
+    - aerial threat
+  definition: >
+    Specific context of aerial predator approach, triggering
+    characteristic alarm calls in many species.
+
+- context_id: context:terrestrial_predator
+  canonical_label: terrestrial predator
+  parent_context_id: context:predator_response
+  aliases:
+    - ground predator
+    - snake alarm
+    - mammalian predator context
+  definition: >
+    Specific context of terrestrial predator detection.
+
+# ── Social contexts ───────────────────────────────────────────────────────────
+
+- context_id: context:group_cohesion
+  canonical_label: group cohesion
+  parent_context_id: null
+  aliases:
+    - flock cohesion
+    - group movement
+    - contact maintenance
+    - social contact
+    - foraging group
+  definition: >
+    Signalling among group members to maintain spatial cohesion,
+    coordinate movement, or announce individual position.
+
+- context_id: context:parent_offspring
+  canonical_label: parent-offspring interaction
+  parent_context_id: null
+  aliases:
+    - parent-offspring communication
+    - mother-pup interaction
+    - brood communication
+    - nestling-parent interaction
+  definition: >
+    Signalling between parents and dependent offspring, including
+    provisioning requests, recognition, and brooding.
+
+- context_id: context:individual_recognition
+  canonical_label: individual recognition
+  parent_context_id: null
+  aliases:
+    - individual identity
+    - individual discrimination
+    - signature recognition
+  definition: >
+    Signalling or signal-processing context in which individual identity
+    is encoded or decoded from the signal.
+
+# ── Vocal learning ────────────────────────────────────────────────────────────
+
+- context_id: context:vocal_learning
+  canonical_label: vocal learning
+  parent_context_id: null
+  aliases:
+    - song learning
+    - acoustic learning
+    - developmental vocalisation
+    - sensorimotor learning
+    - tutoring context
+  definition: >
+    Developmental context in which animals acquire, practise,
+    or refine vocalisations through learning, imitation, or tutoring.
+  scope_note: >
+    Use when the source describes a learning phase, tutor-pupil interaction,
+    sensitive period, or developmental trajectory.
+
+- context_id: context:sensitive_period
+  canonical_label: sensitive period
+  parent_context_id: context:vocal_learning
+  aliases:
+    - critical period
+    - song learning window
+  definition: >
+    Developmental window during which animals are maximally sensitive
+    to auditory input for vocal learning.
+
+# ── Foraging and resource contexts ────────────────────────────────────────────
+
+- context_id: context:foraging
+  canonical_label: foraging
+  parent_context_id: null
+  aliases:
+    - food search
+    - feeding context
+    - resource location
+  definition: >
+    Signalling during active food searching or feeding.
+
+# ── Migration ─────────────────────────────────────────────────────────────────
+
+- context_id: context:migration
+  canonical_label: migration
+  parent_context_id: null
+  aliases:
+    - flight context
+    - nocturnal flight call
+    - seasonal movement
+  definition: >
+    Signalling during migratory flight or at stopover sites.

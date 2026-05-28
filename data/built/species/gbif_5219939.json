@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 9,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 33,
+    "claim_count": 27,
+    "doi_count": 30,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,59 +42,59 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "bark",
+    "roar",
     "bellow",
-    "roar"
+    "bark"
   ],
   "contexts": [
-    "alarm",
     "rutting",
-    "territorial defence"
+    "territorial defence",
+    "alarm"
   ],
   "functions": [
     "mate competition",
-    "predator warning",
-    "territory signalling"
+    "territory signalling",
+    "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "bark",
+        "value": "roar",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "bellow",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "roar",
+        "value": "bark",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "rutting",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "alarm",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "functions": [
@@ -102,30 +102,425 @@
         "value": "mate competition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "predator warning",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "predator warning",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1451,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1450,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1449,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1448,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1447,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1446,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1445,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1444,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1443,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1442,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1441,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1440,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1439,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1438,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1437,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1436,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1435,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1434,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1433,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1432,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1431,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1430,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1429,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1428,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1427,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1426,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1425,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1186/s12862-025-02420-9",
+      "url": "https://doi.org/10.1186/s12862-025-02420-9",
+      "title": "Seed dispersal dynamics in northern Iran: a comparative analysis of native large mammals and domestic sheep",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani15020252",
+      "url": "https://doi.org/10.3390/ani15020252",
+      "title": "Proteomics of the Dark-Ventral-Patch Sexual Signal in Male Red Deer",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani13050903",
+      "url": "https://doi.org/10.3390/ani13050903",
+      "title": "Monitoring of Alarm Reactions of Red Deer (",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani12111433",
+      "url": "https://doi.org/10.3390/ani12111433",
+      "title": "Unintentional Recovery of Parasitic Diversity Following Restoration of Red Deer (",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s00114-021-01742-0",
+      "url": "https://doi.org/10.1007/s00114-021-01742-0",
+      "title": "Vocal phenotype of male rutting roars and genetic markers delineate East European red deer (Cervus elaphus) from Central and West European populations",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1111/joa.13519",
+      "url": "https://doi.org/10.1111/joa.13519",
+      "title": "Roars, groans and moans: Anatomical correlates of vocal diversity in polygynous deer",
+      "year": 2021,
+      "source": "pubmed"
+    },
     {
       "doi": "10.20506/rst.39.3.3197",
       "url": "https://doi.org/10.20506/rst.39.3.3197",
@@ -155,11 +550,32 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1371/journal.pone.0221980",
+      "url": "https://doi.org/10.1371/journal.pone.0221980",
+      "title": "The intensity of male-male competition may affect chemical scent constituents in the dark ventral patch of male Iberian red deer",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s13104-018-3833-4",
+      "url": "https://doi.org/10.1186/s13104-018-3833-4",
+      "title": "Between-year vocal aging in female red deer (Cervus elaphus)",
+      "year": 2018,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.89932",
       "url": "https://doi.org/10.1079/cabicompendium.89932",
       "title": "Cervus elaphus nelsoni",
       "year": 2017,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s11692-015-9357-0",
+      "url": "https://doi.org/10.1007/s11692-015-9357-0",
+      "title": "Female Sexual Preferences Toward Conspecific and Hybrid Male Mating Calls in Two Species of Polygynous Deer,",
+      "year": 2016,
+      "source": "pubmed"
     },
     {
       "doi": "10.1038/ncomms12739",
@@ -183,11 +599,25 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1186/s12983-014-0094-5",
+      "url": "https://doi.org/10.1186/s12983-014-0094-5",
+      "title": "The power of oral and nasal calls to discriminate individual mothers and offspring in red deer, Cervus elaphus",
+      "year": 2015,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1371/journal.pone.0063841",
       "url": "https://doi.org/10.1371/journal.pone.0063841",
       "title": "Roaring High and Low: Composition and Possible Functions of the Iberian Stag's Vocal Repertoire",
       "year": 2013,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1371/journal.pone.0083946",
+      "url": "https://doi.org/10.1371/journal.pone.0083946",
+      "title": "Do red deer stags (Cervus elaphus) use roar fundamental frequency (F0) to assess rivals?",
+      "year": 2013,
+      "source": "pubmed"
     },
     {
       "doi": "10.1371/journal.pcbi.1000897",
@@ -262,6 +692,76 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41859996",
+      "title": "SNP panel for the evaluation of genetic diversity and relatedness in red deer (Cervus elaphus)",
+      "year": 2026,
+      "doi": "10.24425/pjvs.2026.158503",
+      "abstract": "Blood samples from 385 red deer (Cervus elaphus) acquired during officially approved hunting in different hunting divisions throughout Poland were used to isolate the genomic DNA. All individuals were genotyped by Bovine BeadChip (Illumina) for 54,174 Single Nucleotide Polymorphism (SNP) markers. SNPs of inappropriate clusters, with a marker call rate lower than 95% and with a Minor Allele Frequency (MAF) lower than 0.01, located on sex chromosomes and mitochondrial DNA, were removed. In total, 12,146 SNP markers were included for further analysis. Observed and expected heterozygosity amounted to 0.025 and 0.035, respectively. Among 12,146 markers, a panel of 142 SNPs were selected for relatedness analysis. The selected SNPs were unlinked and had a MAF higher than 0.2. This set of SNPs showed a probability of parentage exclusion of 1.42x10-6 and 9.91x10-19 for one and two known parents, respectively. The probability of identity was estimated at 6.84x10-53. The probabilities obtained in this study are sufficient for the monitoring and effective management of the genetic diversity of red deer in Poland and are a cost-effective complementary tool for forensic applications.",
+      "journal": "Polish journal of veterinary sciences",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40963123",
+      "title": "Seed dispersal dynamics in northern Iran: a comparative analysis of native large mammals and domestic sheep",
+      "year": 2025,
+      "doi": "10.1186/s12862-025-02420-9",
+      "abstract": "BACKGROUND: Seed dispersal through endozoochory plays a fundamental role in maintaining plant population dynamics, genetic connectivity, and habitat resilience, particularly in mountainous biodiversity hotspots. Large herbivores and omnivores can facilitate this process by transporting viable seeds across fragmented landscapes. However, the functional differences in dispersal capacity between native and domestic herbivores remain poorly understood. This study compares the seed dispersal effectiveness of three native large mammals Caspian red deer ( RESULTS: From 226 scat samples collected across elevations of 2300–3850 m, 264 seedlings belonging to 40 plant species germinated. Brown bears showed the highest dispersal effectiveness ( CONCLUSION: Native large mammals are key contributors to the dispersal of diverse native and endemic plant species in CAPA. In contrast, domestic sheep exhibit low dispersal effectiveness and tend to propagate non-native or invasive flora. These findings underscore the ecological importance of preserving native large mammal populations and implementing rewilding and grazing management strategies to safeguard plant diversity and ecosystem function in alpine environments under increasing anthropogenic pressure. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s12862-025-02420-9.",
+      "journal": "BMC ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39858252",
+      "title": "Proteomics of the Dark-Ventral-Patch Sexual Signal in Male Red Deer",
+      "year": 2025,
+      "doi": "10.3390/ani15020252",
+      "abstract": "Sexual signals in animals encompass a variety of forms including visual, acoustic, and chemical signals that are fundamental for intra- and interspecific communication, including sexual selection processes. Among these, odor signals play a critical role. Chemical compounds involved in sexual signaling vary in nature, with lipids and proteins being particularly important. In the male Iberian red deer (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36899760",
+      "title": "Monitoring of Alarm Reactions of Red Deer (",
+      "year": 2023,
+      "doi": "10.3390/ani13050903",
+      "abstract": "The study analyzes red deer responses to disturbances during the day and different exposures to tourists, to establish the more appropriate times to carry out activities inside the Paneveggio deer enclosure. The alarm reactions of red deer were observed after presenting different types of visual stimuli inside and outside the fence, in order to answer some questions: Which stimuli produce the strongest reactions from the animals? Do animals differently react to stimuli presented outside and inside the fence? On which days and times are the animals more sensitive to disturbances? Are there different reactions between the males and females? The results suggest that the red deer adversely react to the disturbance at different degrees of intensity in relation to day, sex, tourist and where the stimuli are presented. It was observed that during the days with the highest tourist presence, the animals were particularly alarmed; discomfort accumulation produced the highest number of alarm reactions on Monday. For these reasons, it would be opportune to manage the pasture on Tuesday, Wednesday and Thursday, scheduled at specific times of day, preferably far from the estimated presence of tourists.",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35681897",
+      "title": "Unintentional Recovery of Parasitic Diversity Following Restoration of Red Deer (",
+      "year": 2022,
+      "doi": "10.3390/ani12111433",
+      "abstract": "Red deer (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34342877",
+      "title": "Roars, groans and moans: Anatomical correlates of vocal diversity in polygynous deer",
+      "year": 2021,
+      "doi": "10.1111/joa.13519",
+      "abstract": "Eurasian deer are characterized by the extraordinary diversity of their vocal repertoires. Male sexual calls range from roars with relatively low fundamental frequency (hereafter f",
+      "journal": "Journal of anatomy",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34185170",
+      "title": "Vocal phenotype of male rutting roars and genetic markers delineate East European red deer (Cervus elaphus) from Central and West European populations",
+      "year": 2021,
+      "doi": "10.1007/s00114-021-01742-0",
+      "abstract": "This study investigates a population of red deer Cervus elaphus, founded by 10 individuals introduced in the nineteenth century from Germany to the Voronezh region of the European part of Southern Russia and then developed without further introductions. We characterize for the first time the vocal phenotype of the Voronezh red deer male rutting calls in comparison with similar data on the Pannonian (native Central European) and Iberian (native West European) red deer obtained by the authors during preceding studies. In addition, we provide for the first time the genetic data on Pannonian red deer. In Voronezh stags, the number of roars per bout (2.85 ± 1.79) was lower than in Pannonian (3.18 ± 2.17) but higher than in Iberian (2.11 ± 1.71) stags. In Voronezh stags, the duration of main (the longest within bouts) roars was longer (2.46 ± 1.14 s) than in Pannonian (1.13 ± 0.50 s) or Iberian (1.90 ± 0.50 s) stags. The maximum fundamental frequency of main roars was similar between Voronezh (175 ± 60 Hz) and Pannonian (168 ± 61 Hz) but higher in Iberian stags (223 ± 35 Hz). Mitochondrial cytochrome b gene analysis of red deer from the three study populations partially supports the bioacoustical data, of closer similarity between Voronezh and Pannonian populations. In contrast, microsatellite DNA analysis delineates Voronezh red deer from either Pannonian or Iberian red deer. We discuss that population bottlenecking might affect the acoustics of the rutting roars, in addition to genotype.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_32388_i9kjro",
       "title": "Cervus elaphus Horn Oil",
       "year": 2020,
@@ -269,11 +769,7 @@
       "abstract": "",
       "journal": "Definitions",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_20506_rst_39_3_3197",
@@ -283,11 +779,17 @@
       "abstract": "",
       "journal": "Revue Scientifique et Technique de l'OIE",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_32307161",
+      "title": "Short communication: Red deer (Cervus elaphus) colostrum during its transition to milk",
+      "year": 2020,
+      "doi": "10.3168/jds.2019-17779",
+      "abstract": "We studied changes in chemical composition, somatic cell count, and immunoglobulin G (IgG) and M (IgM) content in red deer (Cervus elaphus) colostrum during the transition to milk at different times after parturition (<5 h, 24 h, 48 h, 2 wk, and 4 wk). The production level was higher at 2 and 4 wk of lactation than during the first day after parturition, with intermediate values at 48 h postpartum. Fat content did not vary during the study period. However, total protein and casein contents were particularly high in the initial 5 h after parturition, decreasing to approximately 50% after 24 h postpartum. Conversely, lactose concentration was low in the beginning (<5 h), increasing gradually throughout the study. Similarly, dry matter dropped during the first 24 h and then remained constant throughout the study. Urea content decreased during the study, showing a slight recovery at 4 wk. Somatic cell count was higher during the first hours after parturition and gradually decreased throughout the study period. The IgG content was higher before 5 h postpartum than at 24 h postpartum. After 5 h, the level of IgG decreased progressively until it reached 0.18 mg/mL at 4 wk of lactation. We observed a similar pattern for IgM content, but it decreased more quickly than IgG and was not detected after 2 wk. In the case of deer, milk should be considered transitional from 24 to 48 h after parturition, and samples collected after 2 wk can be considered mature milk.",
+      "journal": "Journal of dairy science",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_89934",
@@ -297,11 +799,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1079_cabicompendium_89929",
@@ -311,11 +809,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31479490",
+      "title": "The intensity of male-male competition may affect chemical scent constituents in the dark ventral patch of male Iberian red deer",
+      "year": 2019,
+      "doi": "10.1371/journal.pone.0221980",
+      "abstract": "During the mating season, Iberian red deer males (Cervus elaphus hispanicus) present a large visible dark ventral area in their abdomen. This characteristic dark-haired area is formed by the impregnation of the hair with sprayed urine and gland secretions and contains volatile compounds that can be used in intraspecific communication. Here, we used gas chromatography-mass spectrometry (GC-MS) to describe the lipophilic chemicals from the dark ventral patch of males from different populations with different levels of intrasexual competition. Amongst all the compounds found, m-cresol, benzoic acid, cholesterol and 4-hydroxy-benzenopropanoic acid were the most abundant. The proportions of these compounds varied with age as well as with the level of intra-sexual competition, independently of age. In particular, red deer males experiencing higher intra-sexual competition had lower proportions of aromatic compounds (especially m-cresol) but higher proportions of carboxylic acids on their dark bellies. Males in a high male-male competition situation, invest in volatile compounds that can reveal their age, dominance status and condition, and that, in addition, enhance this signal. On the contrary, males from low intra-sexual competition populations have chemical profiles more characteristic of young individuals. This research shows a first glance of how secretion of volatile compounds of male deer can be modulated due to the intensity of male-male competition in the population.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30333068",
+      "title": "Between-year vocal aging in female red deer (Cervus elaphus)",
+      "year": 2018,
+      "doi": "10.1186/s13104-018-3833-4",
+      "abstract": "OBJECTIVES: Studying animal vocal aging has potential implication in the field of animal welfare and for modeling human voice aging. The objective was to examine, using a repeated measures approach, the between-year changes of weight, social discomfort score (bites of other hinds on hind pelt), body condition score (fat reserves) and acoustic variables of the nasal (closed-mouth) and the oral (open-mouth) contact calls produced by farmed red deer hinds (Cervus elaphus) toward their young. RESULTS: Repeated measures ANOVA revealed that with an increase of hind age for 1 year, the acoustic variables of their nasal contact calls (the beginning and maximum fundamental frequencies, the depth of frequency modulation and the peak frequency) decreased, whereas in their oral contact calls only the end fundamental frequency decreased. Duration and power quartiles did not change in any call type. Body weight and body condition score increased between years, whereas discomfort score decreased. Results of this study revealed directly the short-term effects of aging on the acoustics of the nasal contact calls in the same hinds. This study also confirmed that elevated emotional arousal during emission of the oral contact masks the effects of aging on vocalization in female red deer.",
+      "journal": "BMC research notes",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_89932",
@@ -325,11 +839,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_15298_rusjtheriol_15_2_03",
@@ -339,11 +849,7 @@
       "abstract": "",
       "journal": "Russian Journal of Theriology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_ncomms12739",
@@ -353,11 +859,27 @@
       "abstract": "Recent studies have revealed that some mammals possess adaptations that enable them to produce vocal signals with much lower fundamental frequency (F0) and formant frequency spacing (ΔF) than expected for their size. Although these adaptations are assumed to reflect selection pressures for males to lower frequency components and exaggerate body size in reproductive contexts, this hypothesis has not been tested across a broad range of species. Here we show that male terrestrial mammals produce vocal signals with lower ΔF (but not F0) than expected for their size in mating systems with greater sexual size dimorphism. We also reveal that males produce calls with higher than expected F0 and ΔF in species with increased sperm competition. This investigation confirms that sexual selection favours the use of ΔF as an acoustic size exaggerator and supports the notion of an evolutionary trade-off between pre-copulatory signalling displays and sperm production.",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_27690621",
+      "title": "[A rare zoonosis in Hungary: cercarial dermatitis caused by Schistosoma turkestanicum blood-fluke]",
+      "year": 2016,
+      "doi": "10.1556/650.2016.30515",
+      "abstract": "Several trematodes that parasitize vertebrate animals utilize swimming aquatic larvae to infect the host percutaneously. The most important ones among these parasites are the blood-flukes of birds and mammals comprising species that are also zoonotic. Within this latter group are species that cause the bilharziasis or schistosomiasis of inhabitants of the tropical countries, and other trematode species that are able to penetrate human skin, but do not develop to an adult form of the worm in the body. In temperate climates this latter type of infection occurs mainly in the form of an unpleasant inflammation of the skin and is often called \"swimmer's itch\". In most of these cases, the origin of the larvae remains unexplored, the source of the infection is neglected by the medical or veterinarian practitioners. Herein we report for the first time in Hungary that the cause of such dermatitis was the cercariae of Schistosoma turkestanicum, which infected red deer (Cervus elaphus) in this country. The local name of this pristine disease is \"water mange\" and it occurs only in one of the floodplains of the Danube. On the basis of informal communication this symptom seems to be rather regular among people who do fishing or have a bath in the habitat of the blood-fluke. In the case of adequate anamnesis it is worth examining the origin of the cercarial dermatitis which may give cross-reactions with human schistosomiasis during serological tests. Orv. Hetil., 2016, 157(40), 1579-1586.",
+      "journal": "Orvosi hetilap",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_27217596",
+      "title": "Female Sexual Preferences Toward Conspecific and Hybrid Male Mating Calls in Two Species of Polygynous Deer,",
+      "year": 2016,
+      "doi": "10.1007/s11692-015-9357-0",
+      "abstract": "The behavioral processes at the basis of hybridization and introgression are understudied in terrestrial mammals. We use a unique model to test the role of sexual signals as a reproductive barrier to introgression by investigating behavioral responses to male sexual calls in estrous females of two naturally allopatric but reproductively compatible deer species, red deer and sika deer. Previous studies demonstrated asymmetries in acoustic species discrimination between these species: most but not all female red deer prefer conspecific over sika deer male calls while female sika deer exhibit no preference differences. Here, we extend this examination of acoustic species discrimination to the role of male sexual calls in introgression between parent species and hybrids. Using two-speaker playback experiments, we compared the preference responses of estrous female red and sika deer to male sexual calls from conspecifics versus red × sika hybrids. These playbacks simulate early secondary contact between previously allopatric species after hybridization has occurred. Based on previous conspecific versus heterospecific playbacks, we predicted that most female red deer would prefer conspecific calls while female sika deer would show no difference in their preference behaviors toward conspecific and hybrid calls. However, results show that previous asymmetries did not persist as neither species exhibited more preferences for conspecific over hybrid calls. Thus, vocal behavior is not likely to deter introgression between these species during the early stages of sympatry. On a wider scale, weak discrimination against hybrid sexual signals could substantially contribute to this important evolutionary process in mammals and other taxa.",
+      "journal": "Evolutionary biology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1016_j_mambio_2015_09_002",
@@ -367,11 +889,27 @@
       "abstract": "",
       "journal": "Mammalian Biology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25610491",
+      "title": "The power of oral and nasal calls to discriminate individual mothers and offspring in red deer, Cervus elaphus",
+      "year": 2015,
+      "doi": "10.1186/s12983-014-0094-5",
+      "abstract": "BACKGROUND: In most species, acoustical cues are crucial for mother-offspring recognition. Studies of a few species of ungulates showed that potential for individual recognition may differ between nasal and oral contact calls. RESULTS: Vocalizations of 28 hinds and 31 calves of farmed Iberian red deer (Cervus elaphus hispanicus) were examined with discriminant function analyses (DFA) to determine whether acoustic structure of their oral and nasal contact calls encodes information about the caller's identity. Contact calls were elicited by brief separation of individually identified animals by a distance over 10 m or by a bar fence. Both oral and nasal calls of both hinds and calves showed high potential to discriminate individuals. In hinds, individuality was significantly higher in the oral than in the nasal calls, whereas in calves, individuality was equally well expressed in both oral and nasal calls. For calves, the maximum fundamental frequency was higher and the duration was longer in oral calls than in nasal calls. For hinds, the maximum fundamental frequency and the duration were indistinguishable between oral and nasal calls. Compared to the pooled sample of oral and nasal calls, separate oral or nasal call samples provided better classifying accuracy to individual in either hinds or calves. Nevertheless, in both hinds and calves, even in the pooled sample of oral and nasal calls, the degree of individual identity was 2-3 times greater than expected by chance. For hinds that provided calls in both years, cross-validation of calls collected in 2012 with discriminant functions created with calls from 2011 showed a strong decrease of classifying accuracy to individual. CONCLUSIONS: These results suggest different potentials of nasal and oral calls to allow the discrimination of individuals among hinds, but not among red deer calves. The high potential of individual recognition even with the pooled sample of oral and nasal calls allows mother and young to remem",
+      "journal": "Frontiers in zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_25119193",
+      "title": "Response of red deer stags (Cervus elaphus) to playback of harsh versus common roars",
+      "year": 2014,
+      "doi": "10.1007/s00114-014-1217-8",
+      "abstract": "Red deer stags (Cervus elaphus) give two distinct types of roars during the breeding season, the \"common roar\" and the \"harsh roar.\" Harsh roars are more frequent during contexts of intense competition, and characterized by a set of features that increase their perceptual salience, suggesting that they signal heightened arousal. While common roars have been shown to encode size information and mediate both male competition and female choice, to our knowledge, the specific function of harsh roars during male competition has not yet been studied. Here, we investigate the hypothesis that the specific structure of male harsh roars signals high arousal to competitors. We contrast the behavioral responses of free ranging, harem-holding stags to the playback of harsh roars from an unfamiliar competitor with their response to the playback of common roars from the same animal. We show that males react less strongly to sequences of harsh roars than to sequences of common roars, possibly because they are reluctant to escalate conflicts with highly motivated and threatening unfamiliar males in the absence of visual information. While future work should investigate the response of stags to harsh roars from familiar opponents, our observations remain consistent with the hypothesis that harsh roars may signal motivation during male competition, and illustrate how intrasexual selection can contribute to the diversification of male vocal signals.",
+      "journal": "Die Naturwissenschaften",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1371_journal_pone_0063841",
@@ -381,11 +919,17 @@
       "abstract": "We provide a detailed description of the rutting vocalisations of free-ranging male Iberian deer (Cervus elaphus hispanicus, Hilzheimer 1909), a geographically isolated and morphologically differentiated subspecies of red deer Cervus elaphus. We combine spectrographic examinations, spectral analyses and automated classifications to identify different call types, and compare the composition of the vocal repertoire with that of other red deer subspecies. Iberian stags give bouts of roars (and more rarely, short series of barks) that are typically composed of two different types of calls. Long Common Roars are mostly given at the beginning or at the end of the bout, and are characterised by a high fundamental frequency (F0) resulting in poorly defined formant frequencies but a relatively high amplitude. In contrast, Short Common Roars are typically given in the middle or at the end of the bout, and are characterised by a lower F0 resulting in relatively well defined vocal tract resonances",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24386312",
+      "title": "Do red deer stags (Cervus elaphus) use roar fundamental frequency (F0) to assess rivals?",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0083946",
+      "abstract": "It is well established that in humans, male voices are disproportionately lower pitched than female voices, and recent studies suggest that this dimorphism in fundamental frequency (F0) results from both intrasexual (male competition) and intersexual (female mate choice) selection for lower pitched voices in men. However, comparative investigations indicate that sexual dimorphism in F0 is not universal in terrestrial mammals. In the highly polygynous and sexually dimorphic Scottish red deer Cervus elaphus scoticus, more successful males give sexually-selected calls (roars) with higher minimum F0s, suggesting that high, rather than low F0s advertise quality in this subspecies. While playback experiments demonstrated that oestrous females prefer higher pitched roars, the potential role of roar F0 in male competition remains untested. Here we examined the response of rutting red deer stags to playbacks of re-synthesized male roars with different median F0s. Our results show that stags' responses (latencies and durations of attention, vocal and approach responses) were not affected by the F0 of the roar. This suggests that intrasexual selection is unlikely to strongly influence the evolution of roar F0 in Scottish red deer stags, and illustrates how the F0 of terrestrial mammal vocal sexual signals may be subject to different selection pressures across species. Further investigations on species characterized by different F0 profiles are needed to provide a comparative background for evolutionary interpretations of sex differences in mammalian vocalizations.",
+      "journal": "PloS one",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1371_journal_pcbi_1000897",
@@ -395,11 +939,7 @@
       "abstract": "Male Rocky Mountain elk (Cervus elaphus nelsoni) produce loud and high fundamental frequency bugles during the mating season, in contrast to the male European Red Deer (Cervus elaphus scoticus) who produces loud and low fundamental frequency roaring calls. A critical step in understanding vocal communication is to relate sound complexity to anatomy and physiology in a causal manner. Experimentation at the sound source, often difficult in vivo in mammals, is simulated here by a finite element model of the larynx and a wave propagation model of the vocal tract, both based on the morphology and biomechanics of the elk. The model can produce a wide range of fundamental frequencies. Low fundamental frequencies require low vocal fold strain, but large lung pressure and large glottal flow if sound intensity level is to exceed 70 dB at 10 m distance. A high-frequency bugle requires both large muscular effort (to strain the vocal ligament) and high lung pressure (to overcome phonation threshold",
       "journal": "PLoS Computational Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1111_j_1469-7998_2009_00661_x",
@@ -409,11 +949,7 @@
       "abstract": "The field of animal vocal communication has benefited greatly from improved understanding of vocal production mechanisms and specifically from the generalization of the source-filter theory of speech production to non-human mammals. The application of the source-filter theory has enabled researchers to decompose the acoustic structure of vocal signals according to their mode of production and thereby to predict the acoustic variation that is caused by anatomical or physiological attributes of the caller. The source-filter theory states that vocal signals result from a two-stage production, with the glottal wave generated in the larynx (the source), being subsequently filtered in the supralaryngeal vocal tract (the filter). This theory predicts that independent indexical information such as body size, weight, age and sex can be contained in both the glottal wave (mostly characterized by its fundamental frequency), and the spectral envelope of the radiated vocalization (mostly characteri",
       "journal": "Journal of Zoology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_017004",
@@ -423,11 +959,7 @@
       "abstract": "<jats:title>SUMMARY</jats:title>\n               <jats:p>The vocal folds of male Rocky Mountain elk (Cervus elaphus nelsoni) are about 3 cm long. If fundamental frequency were to be predicted by a simple vibrating string formula, as is often done for the human larynx, such long vocal folds would bear enormous stress to produce the species-specific mating call with an average fundamental frequency of 1 kHz. Predictions would be closer to 50 Hz. Vocal fold histology revealed the presence of a large vocal ligament between the vocal fold epithelium and the thyroarytenoid muscle. In tensile tests, the stress–strain response of vocal fold epithelium and the vocal ligament were determined. Elasticity of both tissue structures reached quantitative values similar to human tissue. It seems unlikely that the longitudinal stress in elk vocal folds can exceed that in human vocal folds by an order of magnitude to overcome the drop in fundamental frequency due to a 3:1 increase in vocal fold length. A",
       "journal": "Journal of Experimental Biology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1371_journal_pone_0003113",
@@ -437,11 +969,7 @@
       "abstract": "Our study is the first to show that sexually selected vocalisations can signal social dominance in mammals other than primates, and reveals that independent acoustic components encode accurate information on different phenotypic aspects of male quality.",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf02189696",
@@ -451,11 +979,7 @@
       "abstract": "",
       "journal": "Zeitschrift für Jagdwissenschaft",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_4098_at_arch_89-37",
@@ -465,11 +989,7 @@
       "abstract": "",
       "journal": "Acta Theriologica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_bf00329611",
@@ -479,11 +999,7 @@
       "abstract": "",
       "journal": "Zeitschrift f�r Parasitenkunde",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1044_jshr_0302_156",
@@ -493,11 +1009,7 @@
       "abstract": "No AccessJournal of Speech and Hearing ResearchResearch Article1 Jun 1960Vocal Pitch Variation Related to Changes in Vocal Fold Length Harry Hollien Harry Hollien Google Scholar More articles by this author https://doi.org/10.1044/jshr.0302.156 SectionsAboutPDF ToolsAdd to favoritesDownload CitationTrack Citations ShareFacebookTwitterLinked In Additional Resources FiguresReferencesRelatedDetailsCited by Musicae Scientiae27:1 (70-93)1 Mar 2023Time-of-day practices echo circadian physiological arousal: An enculturated embodied practice in Hindustani classical musicTanushree Agrawal, Daniel Shanahan, David Huron and Hannah Keller Concurrency and Computation: Practice and Experience34:2630 Nov 2022Automated gender‐Parkinson's disease detection at the same time via a hybrid deep model using human voiceDuygu Kaya European Journal of Neurology29:1 (81-90)1 Jan 2022Automated speech analysis in early untreated Parkinson's disease: Relation to gender and dopaminergic transporter imagingJan Rusz,",
       "journal": "Journal of Speech and Hearing Research",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1044_jshr_0302_157",
@@ -507,14 +1019,10 @@
       "abstract": "No AccessJournal of Speech and Hearing ResearchResearch Article1 Jun 1960Measurements of the Vocal Folds during Changes in Pitch Harry Hollien, and G. Paul Moore Harry Hollien Google Scholar and G. Paul Moore Google Scholar https://doi.org/10.1044/jshr.0302.157 SectionsAboutPDF ToolsAdd to favoritesDownload CitationTrack Citations ShareFacebookTwitterLinked In Additional Resources FiguresReferencesRelatedDetailsCited by Hearing Research427 (108665)1 Jan 2023Age-related changes in auditory temporal processing assessed using forward maskingParisa Heidari, Ghassem Mohammadkhani, Arash Bayat, Nematollah Rouhbakhsh and Brian C.J. Moore Vibration5:4 (692-710)13 Oct 2022Prediction of Voice Fundamental Frequency and Intensity from Surface Electromyographic Signals of the Face and NeckJennifer M. Vojtech, Claire L. Mitchell, Laura Raiff, Joshua C. Kline and Gianluca De Luca NeuroImage (118326)1 Jun 2021Human larynx motor cortices coordinate respiration for vocal-motor controlMichel Belyk, Rache",
       "journal": "Journal of Speech and Hearing Research",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 33,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

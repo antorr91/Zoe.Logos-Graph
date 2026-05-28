@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 8,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 18,
+    "doi_count": 30,
+    "recording_count": 1
   },
   "image": {
     "url": "",
@@ -46,14 +46,14 @@
     "gowk"
   ],
   "contexts": [
-    "brood parasitism",
+    "territorial defence",
     "mate attraction",
-    "territorial defence"
+    "brood parasitism"
   ],
   "functions": [
-    "host deception",
+    "territory signalling",
     "mate attraction",
-    "territory signalling"
+    "host deception"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -61,64 +61,364 @@
         "value": "cuckoo call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "gowk",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "brood parasitism",
+        "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territorial defence",
+        "value": "brood parasitism",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "host deception",
+        "value": "territory signalling",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "territory signalling",
+        "value": "host deception",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1097,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1096,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1095,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1094,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1093,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1092,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1091,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1090,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1089,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1088,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1087,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1086,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1085,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1084,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1083,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1082,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1081,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1080,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "xeno_canto",
     "xc_query": "Cuculus canorus",
-    "recordings": [],
+    "recordings": [
+      {
+        "id": "xc_1102212",
+        "provider": "xeno-canto",
+        "provider_id": "1102212",
+        "type": "song (XC1102212)",
+        "rec": "",
+        "loc": "",
+        "date": "",
+        "url": "https://xeno-canto.org/1102212",
+        "audio": "https://xeno-canto.org/1102212/download",
+        "sono": "outputs\\spectrograms\\gbif_2496237.png",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "XC · Garai József"
+      }
+    ],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1002/ece3.71704",
+      "url": "https://doi.org/10.1002/ece3.71704",
+      "title": "Exploiting Nest Defense Behavior of Hosts: A Case Study of Successful Parasitism by a Common Cuckoo",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.71820",
+      "url": "https://doi.org/10.1002/ece3.71820",
+      "title": "Supernormal Stimulus Begging Calls of Brood-Parasitic Nestlings Depress the Parental Care in an Uncommon Host",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.72069",
+      "url": "https://doi.org/10.1002/ece3.72069",
+      "title": "Female Cuckoo Calls Are More Effective at Attracting Breeding Male Cuckoos and Their Hosts Than Male Cuckoo Calls",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.72338",
+      "url": "https://doi.org/10.1002/ece3.72338",
+      "title": "Transmission of Urgency Levels in the Alarm Calls of the Oriental Reed Warbler",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-025-01966-x",
+      "url": "https://doi.org/10.1007/s10071-025-01966-x",
+      "title": "Acoustic overtones improve the discrimination of conspecific female calls by male common cuckoos from similar heterospecific calls",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s10071-025-02029-x",
+      "url": "https://doi.org/10.1007/s10071-025-02029-x",
+      "title": "Red-backed Shrikes (Lanius collurio) resist acoustic mimicry by the Common Cuckoo (Cuculus canorus)",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/cz/zoae063",
+      "url": "https://doi.org/10.1093/cz/zoae063",
+      "title": "Sparrowhawk imitation or convergent alarm signal? A new hypothesis for bubbling call of cuckoos with empirical testing",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.33910/2686-9519-2025-17-2-263-268",
       "url": "https://doi.org/10.33910/2686-9519-2025-17-2-263-268",
@@ -127,11 +427,46 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1002/ece3.11437",
+      "url": "https://doi.org/10.1002/ece3.11437",
+      "title": "Three sympatric host nestlings eavesdrop on cuckoo nestling distress calls",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-024-64270-7",
+      "url": "https://doi.org/10.1038/s41598-024-64270-7",
+      "title": "Reactions of wintering passerines to male calls of the European cuckoo Cuculus canorus",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1002/ece3.9664",
+      "url": "https://doi.org/10.1002/ece3.9664",
+      "title": "Red-backed shrike (",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1038/s41598-022-05661-6",
       "url": "https://doi.org/10.1038/s41598-022-05661-6",
       "title": "Syntax errors do not disrupt acoustic communication in the common cuckoo",
       "year": 2022,
       "source": "openalex"
+    },
+    {
+      "doi": "10.3390/ani12151990",
+      "url": "https://doi.org/10.3390/ani12151990",
+      "title": "Female Cuckoo Calls Deceive Their Hosts by Evoking Nest-Leaving Behavior: Variation under Different Levels of Parasitism",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani12212896",
+      "url": "https://doi.org/10.3390/ani12212896",
+      "title": "Effects of Valley Topography on Acoustic Communication in Birds: Why Do Birds Avoid Deep Valleys in Daqinggou Nature Reserve?",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.1016/j.beproc.2021.104472",
@@ -197,6 +532,13 @@
       "source": "openalex"
     },
     {
+      "doi": "10.12657/ornis.2012.3.4",
+      "url": "https://doi.org/10.12657/ornis.2012.3.4",
+      "title": "Genetyczne zagadki specjalizacji u kukułki Cuculus canorus",
+      "year": 2012,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1111/j.0021-8790.2004.00814.x",
       "url": "https://doi.org/10.1111/j.0021-8790.2004.00814.x",
       "title": "The impact of environmental noise on song amplitude in a territorial bird",
@@ -248,11 +590,117 @@
       "abstract": "",
       "journal": "Amurian Zoological Journal",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_41331161",
+      "title": "Red-backed Shrikes (Lanius collurio) resist acoustic mimicry by the Common Cuckoo (Cuculus canorus)",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-02029-x",
+      "abstract": "UNLABELLED: The vocal mimicry exhibited by female Common Cuckoos ( SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s10071-025-02029-x.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41234812",
+      "title": "Transmission of Urgency Levels in the Alarm Calls of the Oriental Reed Warbler",
+      "year": 2025,
+      "doi": "10.1002/ece3.72338",
+      "abstract": "Many animals communicate predator-related information to conspecifics through alarm calls that exhibit acoustic structural variations encoding key parameters such as predator type, body size, and urgency of danger. In previous studies, the oriental reed warbler (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40896090",
+      "title": "Female Cuckoo Calls Are More Effective at Attracting Breeding Male Cuckoos and Their Hosts Than Male Cuckoo Calls",
+      "year": 2025,
+      "doi": "10.1002/ece3.72069",
+      "abstract": "Vocalizations during the breeding season play a significant role in both intra- and inter-specific communications. There have been numerous studies on the calls and functions of the common cuckoo (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40860761",
+      "title": "Sparrowhawk imitation or convergent alarm signal? A new hypothesis for bubbling call of cuckoos with empirical testing",
+      "year": 2025,
+      "doi": "10.1093/cz/zoae063",
+      "abstract": "Alarm calls in bird vocalizations serve as acoustic signals announcing danger. Owing to the convergent evolution of alarm calls, some bird species can benefit from eavesdropping on certain parameters of alarm calls of other species. Vocal mimicry, displayed by many bird species, aids defense against predators and may help brood parasites during parasitism. In the coevolutionary dynamics between brood parasites, such as the common cuckoo (",
+      "journal": "Current zoology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40686526",
+      "title": "Supernormal Stimulus Begging Calls of Brood-Parasitic Nestlings Depress the Parental Care in an Uncommon Host",
+      "year": 2025,
+      "doi": "10.1002/ece3.71820",
+      "abstract": "During the nestling period, brood-parasitic birds stimulate host parents to provide food through complex visual and auditory signals, including emitting supernormal stimuli in the form of begging calls to increase the feeding frequency. However, whether the begging calls of brood-parasitic nestlings act as a universal type of supernormal stimulus signal and their effects on less common host species still require further research. In this study, we used playback recordings to verify the impact of the begging calls of Common Cuckoo (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40584652",
+      "title": "Exploiting Nest Defense Behavior of Hosts: A Case Study of Successful Parasitism by a Common Cuckoo",
+      "year": 2025,
+      "doi": "10.1002/ece3.71704",
+      "abstract": "In this study, we document the case of a common cuckoo (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40471390",
+      "title": "Acoustic overtones improve the discrimination of conspecific female calls by male common cuckoos from similar heterospecific calls",
+      "year": 2025,
+      "doi": "10.1007/s10071-025-01966-x",
+      "abstract": "Acoustic communication in obligate brood parasitic common cuckoos (Cuculus canorus) plays an important role both in social contacts within its own and with other species (including its many hosts). For example, the female cuckoo's bubbling call putatively mimics the call of the Eurasian sparrowhawk (Accipiter nisus) to serve as defence from host songbirds mobbing the parasitic female. However, several other, both raptorial and harmless, sympatric bird species also have similar vocalizations to the bubbling call (including the Eurasian kestrel, Falco tinnunculus, and the Eurasian green woodpecker, Picus viridis). Bubbling calls are also used by female cuckoos for conspecific communication with male conspecifics and so the discrimination of acoustically similar con- vs. heterospecific calls should be functionally relevant for cuckoos. We expanded upon a published playback study with all the above species' calls presented to male cuckoos. The subjects approached the speaker in 100% when conspecific females' bubbling calls were played back, but rarely (6-12%) did so when either acoustically similar natural calls of sympatric species were used. However, as structurally the bubbling call has no harmonic overtones, but the calls of the other species contain them, we also conducted playbacks with manipulated sound files where the harmonics were removed. Harmonic-free heterospecific calls attracted male cuckoos more often (40-50%) than natural heterospecific calls but still less so than the natural conspecific call. These results reveal the functional importance of the presence of harmonical overtones in heterospecific calls as they can serve to reduce perceptual auditory errors in male cuckoos.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38902276",
+      "title": "Reactions of wintering passerines to male calls of the European cuckoo Cuculus canorus",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-64270-7",
+      "abstract": "The reaction of birds to the nest parasite, the European cuckoo Cuculus canorus, has been the subject of extensive testing in various aspects. However, while the cuckoo is a long-distance migrant, some of its hosts are sedentary species. In this study, we aimed to investigate whether species, primarily hosts, react to the presence of the cuckoo also in the winter season. This behaviour may involve an attempt to drive the parasite away from locations that will subsequently become their breeding sites. During playback experiments conducted in the winter of 2021/2022 in Poland, we demonstrated that numerous bird species react to the male cuckoo calls in winter. These calls may be perceived as a source of danger, particularly by cuckoo hosts, who responded to this call more frequently than non-hosts and the control species (pigeon). Nonetheless, the birds' reactions were not strong, as they did not approach the source of the call. However, our results are constrained by the limited number of cuckoo host species wintering in Poland. To better evaluate the intensity of bird responses to the male cuckoo's call during the non-breeding season, further studies should be conducted in regions where a greater variety of species, especially those most susceptible to parasitism, overwinter.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38756686",
+      "title": "Three sympatric host nestlings eavesdrop on cuckoo nestling distress calls",
+      "year": 2024,
+      "doi": "10.1002/ece3.11437",
+      "abstract": "In predator-prey interactions, the prey faces extreme challenges from predation, which drives the evolution of defense or anti-predator mechanisms. Compared with adult birds, nestlings are more vulnerable but not helpless. However, data on whether nestlings eavesdrop on the danger signals transmitted by other prey nestlings and the mechanisms of eavesdropping remain limited. In brood parasitism, common cuckoo (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38692462",
+      "title": "Behavioral responses to predator and heterospecific alarm calls are habitat-specific in Eurasian tree sparrows",
+      "year": 2024,
+      "doi": "10.1016/j.beproc.2024.105043",
+      "abstract": "Acoustic communication plays a vital role in predator-prey interactions. Although habitat structure has been shown to affect anti-predator tactics, little is known about how animals vary their behaviors in response to predator calls or heterospecific alarm calls in different environments. Here we used sound playbacks to test the responses of Eurasian tree sparrows (Passer montanus) foraging in harvested/unharvested rice paddy and open residential area. In the first experiment, we tested their behavioral responses to dove calls, male common cuckoo (Cuculus canorus) calls, hawk-like calls mimicked by female common cuckoo, sparrowhawk (Accipiter nisus) calls, and human yell calls produced to scare birds (predator signal playbacks). In the second experiment, we tested their behavioral responses to the Japanese tit's (Parus minor) territorial songs and alarm calls (heterospecific alarm signal playbacks). Results showed that the tree sparrows had less fleeing in unharvested ripe rice paddy than in harvested rice paddy and open residential area. In predator signal playbacks, call type affected the escape behavior of sparrows in unharvested rice paddy and open residential area but not harvested rice paddy. In alarm signal playbacks, tit alarm calls evoked more fleeing than territorial songs in harvested rice paddy and open residential area but not unharvested rice paddy. These results suggest that anthropogenic habitat changes may influence avian anti-predator tactics.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36738942",
+      "title": "Soft calls do not modulate aggressiveness in male common cuckoos toward conspecific territorial intruders: A sequential playback study",
+      "year": 2023,
+      "doi": "10.1016/j.beproc.2023.104840",
+      "abstract": "In many bird species loud broadcast calls serve as aggressive signals with a large effective radius, whereas soft calls may indicate aggression at a closer distance, and are often directed at a nearby conspecific individual. Male common cuckoos (Cuculus canorus) are famous for their simple cu-coo calls, which are long-range broadcast calls, uttered in long sequences during the breeding season. Cuckoos also produce soft calls, including a single gowk (wah), a series of gowks (gowk series), or a harsher single variant, the guo call. To our knowledge, no previous study has attempted to understand the function of cuckoos' soft calls. We conducted a sequential playback experiment by (i) first attracting male cuckoos with \"cu-coo\" calls, and then (ii) playing heterospecific control calls or one of several types of cuckoo soft calls. While the \"cu-coo\" call attracted focal males, neither the soft conspecific calls nor the heterospecific control calls elicited an additional response. Finally, the gowk series calls did not alter cuckoos' approach to the speaker when played together with \"cu-coo\" calls. As cuckoos' soft calls did not increase or decrease aggression, they instead may advertise the cuckoo's presence and position for a nearby conspecific.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1038_s41598-022-05661-6",
@@ -262,11 +710,47 @@
       "abstract": "When acoustic communication signals are distorted, receivers may misunderstand the signal, rendering it ineffective. Common cuckoos (Cuculus canorus) are popularly known for the males' simple, two-note advertisement calls, the \"cu-coo\" used for declaring the male's breeding territories. Cuckoos do not learn their calls (vocal non-learners), so they are expected to have a limited ability to produce different acoustic signals. Nevertheless, male cuckoos appear to make syntax errors (e.g., repeated, reversed, or fragmented elements) even in their simple advertisement calls. We conducted a playback experiment with male cuckoos, broadcasting ten call types, including seven modified calls with errors (e.g. \"cu-cu\", and \"coo-cu\") and three natural calls used for comparisons (\"cu-coo\", \"cu-cu-coo\", and interspecific control). Male cuckoos responded in a manner suggesting that the presence of the first (\"cu\") note of the natural 2-note \"cu-coo\" call in any form or combination yield effective si",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_36582776",
+      "title": "Red-backed shrike (",
+      "year": 2022,
+      "doi": "10.1002/ece3.9664",
+      "abstract": "The red-backed shrike (",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36359019",
+      "title": "Effects of Valley Topography on Acoustic Communication in Birds: Why Do Birds Avoid Deep Valleys in Daqinggou Nature Reserve?",
+      "year": 2022,
+      "doi": "10.3390/ani12212896",
+      "abstract": "To investigate the effects of valley topography on the acoustic transmission of avian vocalisations, we carried out playback experiments in Daqinggou valley, Inner Mongolia, China. During the experiments, we recorded the vocalisations of five avian species, the large-billed crow (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36027693",
+      "title": "Quantitative analysis of vocalisation types in male common cuckoos' \"gowk\" call complex",
+      "year": 2022,
+      "doi": "10.1016/j.zool.2022.126043",
+      "abstract": "Acoustic communication of animals often contains two types of vocalizations: loud sounds for long-range and soft sounds for short-range signalling. Brood parasitic common cuckoos (Cuculus canorus) are suitable study objects for research on acoustic signalling as they have a simple acoustic repertoire, of which the loud territorial advertisement calls of males, the \"cu-coo\", is the most famous type. Although a distinct group of soft calls has also been reported in early naturalists' works, no systematic studies compared them acoustically. Even the classification of these soft calls is lacking. Here we surveyed these neglected types of calls, and evaluated them through bioacustic analyses. Specifically, we compared the following soft calls: single gowk, guo, and the series of gowk calls. The advertisement call (\"cu-coo\") was used as the referent for these comparisons. As the male's gowk series call most typically contains 3-5 elements with decreasing volume (disappearing at the end), we compared the first two elements of this call. Our analyses revealed great acoustic similarities between three call types (gowk series call 1st note, gowk series call 2nd note, and single gowk call), and the distinctiveness of the other call type (guo) from this group. Structurally the gowk cannot be regarded as a separate call from a male's gowk series call, and the only difference is that the series call contains a set of the gowk calls. Our classification of cuckoo calls offers the possibility for further research into their functional importance and communicative role in male-male or female-male social contexts.",
+      "journal": "Zoology (Jena, Germany)",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35953979",
+      "title": "Female Cuckoo Calls Deceive Their Hosts by Evoking Nest-Leaving Behavior: Variation under Different Levels of Parasitism",
+      "year": 2022,
+      "doi": "10.3390/ani12151990",
+      "abstract": "The common cuckoo (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_30980_kjo_2021_12_28_2_97",
@@ -276,11 +760,7 @@
       "abstract": "",
       "journal": "The Korean Journal of Ornithology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_j_beproc_2021_104472",
@@ -290,11 +770,7 @@
       "abstract": "Duetting is a coordinated form of acoustic communication with participants uttering calls or songs simultaneously and/or sequentially. Duetting is often observed in pair-bonded species, with mated females and males both contributing to the communal vocal output. We observed duetting between the sexes in the common cuckoo (Cuculus canorus), an obligate brood parasitic species without known pair formation. Specifically, female cuckoos use their sex-specific bubbling calls for duetting, while male cuckoos use a 3-note variant (\"cu-cu-coo\") of their typical and well-known 2-note (\"cu-coo\") territorial advertisement calls. The maximum frequency of the elements in the male's 3-note variants was higher relative to the 2-note calls, while durations of both the elements and the inter-element intervals were shorter. The vast majority (95 %) of the 3-note calling was detected together with the bubbling call, implying an intersexual duetting function, with the female calls preceding these male cal",
       "journal": "Behavioural Processes",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2305_iucn_uk_2021-3_rlts_t22683873a166219659_en",
@@ -304,11 +780,7 @@
       "abstract": "",
       "journal": "IUCN Red List of Threatened Species",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00114-020-01680-3",
@@ -318,11 +790,7 @@
       "abstract": "Female-only colour polymorphism is rare in birds, but occurs in brood parasitic cuckoos (Cuculidae). Obligate brood parasites leave incubation and parental care to other species (hosts), so female-female interactions can play a role in how parasites guard critical resources (host nests) within their laying areas. The plumage of adult female common cuckoos (Cuculus canorus) is either rufous (typically rare) or grey (common), whereas adult male conspecifics are monochromatic (grey). In previous studies, hosts and conspecific males responded with less intensity toward the rare female morph in support of a negative frequency-dependent benefit of female plumage polychromatism. Here, we assessed responses of both conspecific females and males to vocal playbacks of female calls, coupled with one of two 3D models of the different morphs of female cuckoos. At our study population, the rufous female morph was as common as the grey morph; therefore, we predicted similarly high rates of conspecifi",
       "journal": "Die Naturwissenschaften",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1079_cabicompendium_86624",
@@ -332,11 +800,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00265-019-2665-0",
@@ -346,11 +810,7 @@
       "abstract": "The two-note call of the male common cuckoo (Cuculus canorus), the so-called “cu-coo”, is well known to people as a natural and cultural signal. However, the so-called “bubbling” call of the female cuckoo is almost unknown to most, and its function in the social organization of cuckoos remains understudied. We carried out a study of a possible intraspecific communication function of female bubbling calls, using playbacks to female cuckoos in their natural environment. Regarding vocal responses, both female and male cuckoos paid attention to the bubbling calls as they consistently responded acoustically by calling but did not so during control playbacks of collared dove (Streptopelia decaocto) calls. Accordingly, in about 63% of trials, females approached the loudspeaker closely and 81% uttered bubbling calls themselves during the experiment. These results are consistent with a function that the bubbling call plays a role in territorial signaling and defense among females. Male cuckoos ",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1126_science_aan0221",
@@ -360,11 +820,7 @@
       "abstract": "Coloration mediates the relationship between an organism and its environment in important ways, including social signaling, antipredator defenses, parasitic exploitation, thermoregulation, and protection from ultraviolet light, microbes, and abrasion. Methodological breakthroughs are accelerating knowledge of the processes underlying both the production of animal coloration and its perception, experiments are advancing understanding of mechanism and function, and measurements of color collected noninvasively and at a global scale are opening windows to evolutionary dynamics more generally. Here we provide a roadmap of these advances and identify hitherto unrecognized challenges for this multi- and interdisciplinary field.",
       "journal": "Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_ncomms5117",
@@ -374,11 +830,7 @@
       "abstract": "",
       "journal": "Nature Communications",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1146_annurev-ecolsys-120213-091603",
@@ -388,11 +840,17 @@
       "abstract": "The interactions between avian obligate interspecific brood parasites and their hosts provide tractable systems for studying coevolutionary processes in nature. This review highlights recent advances in understanding coevolution in these systems. First, we discuss the evolution and phylogenetic history of avian brood parasitism. Next, we examine coevolved adaptations and counteradaptations in brood parasites and hosts at all stages of the host nesting cycle: those that precede laying of the parasitic egg and those at the egg, chick, and fledgling stages. We then consider the factors that affect the evolution of offense and defense portfolios (the suites of adaptations and counteradaptations across the nesting cycle), and the outcomes of coevolutionary interactions between brood parasites and hosts. Ongoing efforts to document the diversity of host defenses and parasite offenses will facilitate understanding of coevolutionary processes and the ecological and evolutionary consequences of",
       "journal": "Annual Review of Ecology Evolution and Systematics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_12657_ornis_2012_3_4",
+      "title": "Genetyczne zagadki specjalizacji u kukułki Cuculus canorus",
+      "year": 2012,
+      "doi": "10.12657/ornis.2012.3.4",
+      "abstract": "",
+      "journal": "Ornis Polonica",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_0021-8790_2004_00814_x",
@@ -402,11 +860,7 @@
       "abstract": "Summary The impact of environmental background noise on the performance of territorial songs was examined in free‐ranging nightingales ( Luscinia megarhynchos Brehm). An analysis of sound pressure levels revealed that males at noisier locations sang with higher sound levels than birds in territories less affected by background sounds. This is the first evidence of a noise‐dependent vocal amplitude regulation in the natural environment of an animal. The results yielded demonstrate that the birds tried to mitigate the impairments on their communication caused by masking noise. This behaviour may help to maintain a given transmission distance of songs, which are used in territory defence and mate attraction. At the same time, birds forced to sing with higher amplitudes have to bear the increased costs of singing. This suggests that in songbirds the level of environmental noise in a territory will contribute to its quality and thus considerably affect the behavioural ecology of singing mal",
       "journal": "Journal of Animal Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_5962_p_323954",
@@ -416,11 +870,7 @@
       "abstract": "",
       "journal": "The birds of Great Britain",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_p_317421",
@@ -430,11 +880,7 @@
       "abstract": "",
       "journal": "The Birds of Europe",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927002_0049",
@@ -444,11 +890,7 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472927040_0302",
@@ -458,14 +900,10 @@
       "abstract": "",
       "journal": "The Birds of Africa : The Malagasy Region",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

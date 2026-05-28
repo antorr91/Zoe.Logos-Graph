@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 20,
-    "claim_count": 5,
-    "doi_count": 21,
-    "media_count": 0
+    "paper_count": 35,
+    "claim_count": 4,
+    "doi_count": 28,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -49,8 +49,8 @@
     "mate attraction"
   ],
   "functions": [
-    "mate attraction",
-    "species recognition"
+    "species recognition",
+    "mate attraction"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -58,7 +58,7 @@
         "value": "advertisement call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
@@ -66,44 +66,133 @@
         "value": "chorus",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "species recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 345,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 344,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 343,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 342,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Hyla chrysoscelis",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
     {
+      "doi": "10.1007/s00359-025-01783-0",
+      "url": "https://doi.org/10.1007/s00359-025-01783-0",
+      "title": "Evidence that interval-counting neurons play a critical role in call recognition by Cope's gray treefrogs",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rspb.2025.0585",
+      "url": "https://doi.org/10.1098/rspb.2025.0585",
+      "title": "Complex choice environments shelter unattractive signallers from sexual selection",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1242/jeb.250570",
+      "url": "https://doi.org/10.1242/jeb.250570",
+      "title": "Resting metabolic rate is repeatable, but does not affect call characteristics, in the gray treefrog Hyla chrysoscelis",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s00360-021-01399-1",
+      "url": "https://doi.org/10.1007/s00360-021-01399-1",
+      "title": "Arginine vasotocin affects motivation to call, but not calling plasticity, in Cope's gray treefrog Hyla chrysoscelis",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1016/j.anbehav.2022.05.003",
       "url": "https://doi.org/10.1016/j.anbehav.2022.05.003",
       "title": "Vocal sacs do not function in multimodal mate attraction under nocturnal illumination in Cope's grey treefrog",
       "year": 2022,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2022.1306",
+      "url": "https://doi.org/10.1098/rspb.2022.1306",
+      "title": "Sensory biases in response to novel complex acoustic signals in male and female grey treefrogs,",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.1101/2022.03.31.486641",
@@ -118,6 +207,20 @@
       "title": "Anuran Vocal Communication: Effects of Genome Size, Cell Number and Cell Size",
       "year": 2021,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1242/jeb.243405",
+      "url": "https://doi.org/10.1242/jeb.243405",
+      "title": "Neural basis of acoustic species recognition in a cryptic species complex",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsbl.2020.0573",
+      "url": "https://doi.org/10.1098/rsbl.2020.0573",
+      "title": "Treefrogs exploit temporal coherence to form perceptual objects of communication signals",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.1079/cabicompendium.78877",
@@ -248,6 +351,76 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41313399",
+      "title": "Evidence that interval-counting neurons play a critical role in call recognition by Cope's gray treefrogs",
+      "year": 2026,
+      "doi": "10.1007/s00359-025-01783-0",
+      "abstract": "Species recognition is essential for reproductive isolation and plays a central role in the evolution of mating signals. In acoustically communicating species, temporal features of calls are critical for distinguishing conspecific from heterospecific signals. Anurans rely heavily on the precise timing of pulse trains for mate recognition. Females of Hyla chrysoscelis use the species-specific temporal structure of male advertisement (Adv) calls-specifically pulse rate (PR)-to select mates. For stimuli with the Adv call PR (40-60 pulses/s), females require at least ~ 6-7 pulses to approach a sound source, implicating interval-counting neurons (ICNs) in call recognition. To test this model and further investigate the neural basis of this temporal selectivity, we used behavioral and neurophysiological approaches. We lengthened interpulse intervals (IPIs) in pulse trains either at a single midpoint or in an alternating fashion while holding pulse number and, thus, stimulus energy constant. In phonotaxis assays, females showed sharply reduced responses when even one IPI was lengthened twofold or more, revealing high sensitivity to temporal irregularity. Single-unit in vivo extracellular recordings from the auditory midbrain revealed that ICNs exhibited a progressive decline in activity with increasing IPI length, closely mirroring behavioral trends. In contrast, long-interval neurons (LINs) responded more strongly to temporally irregular stimuli. These results support the hypothesis that ICNs mediate behavioral selectivity for conspecific Adv call temporal patterns, whereas LINs may contribute to processing other call types. Our study directly links a defined neuronal population to natural behavior, underscoring how midbrain temporal computations underlie species-specific recognition in Hyla chrysoscelis.",
+      "journal": "Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40897321",
+      "title": "Complex choice environments shelter unattractive signallers from sexual selection",
+      "year": 2025,
+      "doi": "10.1098/rspb.2025.0585",
+      "abstract": "For many animals, options abound when choosing a mate in socially complex environments like a breeding chorus or lek. In such environments, receivers often choose their mate based on individual differences in signal repetition rate. However, signallers also differ in the regularity with which they produce repeated signals. Irregularity in signalling introduces uncertainty in decision-making by masking the among-individual variation in signalling rate that is a target of mate choice. At present, we know little about how the complexity of the choice environment affects selection on rate and regularity, two signalling behaviours that receivers can only compare after sampling series of signals produced by multiple signallers. In this study of female grey treefrogs (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40554771",
+      "title": "Resting metabolic rate is repeatable, but does not affect call characteristics, in the gray treefrog Hyla chrysoscelis",
+      "year": 2025,
+      "doi": "10.1242/jeb.250570",
+      "abstract": "Consistent among-individual variation in behavior is widespread and often has consequences for fitness. However, the mechanistic basis of repeatable variation in behavior is less understood. Metabolic rate is a likely candidate to drive repeatability in behavior because energy metabolism can limit behavioral expression. There are competing hypotheses for the relationship (or lack thereof) between levels of maintenance metabolism such as resting metabolic rate (RMR) and the expression of behaviors. On the one hand, RMR may show a negative relationship with behavior if higher RMR limits energy that can be allocated to other processes. On the other hand, RMR may positively correlate with behavior if high RMR leads to greater energy production ability. To test these hypotheses, we examined the relationship between RMR and repeatable, highly energetically costly sexual signals in male Cope's grey treefrogs (Hyla chrysoscelis). We recorded individual male acoustic advertisement calls in the field and measured their RMR the following day. We made repeated measurements of RMR across multiple captures of the same individuals to assess the repeatability of metabolic rates, and whether consistency in RMR decreases over time. There was no evidence that RMR affected call characteristics in H. chrysoscelis. Nevertheless, RMR was significantly repeatable. We found that RMR decreased across the breeding season, which reduced the consistency in RMR measurements of the same individual over time. We conclude that calling in H. chrysoscelis does not provide information to mates or rivals on male RMR, although other aspects of metabolism may still drive individual variation in calling.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40167344",
+      "title": "Auditory streaming and rhythmic masking release in Cope's gray treefrog",
+      "year": 2025,
+      "doi": "10.1121/10.0036251",
+      "abstract": "Auditory streaming involves perceptually assigning overlapping sound sequences to their respective sources. Although critical for acoustic communication, few studies have investigated the role of auditory streaming in nonhuman animals. This study used the rhythmic masking release paradigm to investigate auditory streaming in Cope's gray treefrog (Hyla chrysoscelis). In this paradigm, the temporal rhythm of a Target sequence is masked in the presence of a Distractor sequence. A release from masking can be induced by adding a Captor sequence that perceptually \"captures\" the Distractor into an auditory stream segregated from the Target. Here, the Target was a sequence of repeated pulses mimicking the rhythm of the species' advertisement call. Gravid females exhibited robust phonotaxis to the Target alone, but responses declined significantly when Target pulses were interleaved with those of a Distractor at the same frequency, indicating the Target's attractive temporal rhythm was masked. However, addition of a remote-frequency Captor resulted in a significant increase in responses to the Target, suggesting the Target could be segregated from a separate stream consisting of integrated Distractor and Captor sequences. This result sheds light on how auditory streaming may facilitate acoustic communication in frogs and other animals.",
+      "journal": "The Journal of the Acoustical Society of America",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38525953",
+      "title": "Partitioning variance in a signaling trade-off under sexual selection reveals among-individual covariance in trait allocation",
+      "year": 2024,
+      "doi": "10.1093/evolut/qpae050",
+      "abstract": "Understanding the evolution of traits subject to trade-offs is challenging because phenotypes can (co)vary at both the among- and within-individual levels. Among-individual covariation indicates consistent, possibly genetic, differences in how individuals resolve the trade-off, while within-individual covariation indicates trait plasticity. There is also the potential for consistent among-individual differences in behavioral plasticity, although this has rarely been investigated. We studied the sources of (co)variance in two characteristics of an acoustic advertisement signal that trade-off with one another and are under sexual selection in the gray treefrog, Hyla chrysoscelis: call duration and call rate. We recorded males on multiple nights calling spontaneously and in response to playbacks simulating different competition levels. Call duration, call rate, and their product, call effort, were all repeatable both within and across social contexts. Call duration and call rate covaried negatively, and the largest covariance was at the among-individual level. There was extensive plasticity in calling with changes in social competition, and we found some evidence for among-individual variance in call rate plasticity. The significant negative among-individual covariance in trait values is perpendicular to the primary direction of sexual selection in this species, indicating potential limits on the response to selection.",
+      "journal": "Evolution; international journal of organic evolution",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37401503",
+      "title": "Biogeography and the evolution of acoustic communication in the polyploid North American grey treefrog complex",
+      "year": 2023,
+      "doi": "10.1111/mec.17061",
+      "abstract": "After polyploid species are formed, interactions between diploid and polyploid lineages may generate additional diversity in novel cytotypes and phenotypes. In anurans, mate choice by acoustic communication is the primary method by which individuals identify their own species and assess suitable mates. As such, the evolution of acoustic signals is an important mechanism for contributing to reproductive isolation and diversification in this group. Here, we estimate the biogeographical history of the North American grey treefrog complex, consisting of the diploid Hyla chrysoscelis and the tetraploid Hyla versicolor, focusing specifically on the geographical origin of whole genome duplication and the expansion of lineages out of glacial refugia. We then test for lineage-specific differences in mating signals by applying comparative methods to a large acoustic data set collected over 52 years that includes >1500 individual frogs. Along with describing the overall biogeographical history and call diversity, we found evidence that the geographical origin of H. versicolor and the formation of the midwestern polyploid lineage are both associated with glacial limits, and that the southwestern polyploid lineage is associated with a shift in acoustic phenotype relative to the diploid lineage with which they share a mitochondrial lineage. In H. chrysoscelis, we see that acoustic signals are largely split by Eastern and Western lineages, but that northward expansion along either side of the Appalachian Mountains is associated with further acoustic diversification. Overall, results of this study provide substantial clarity on the evolution of grey treefrogs as it relates to their biogeography and acoustic communication.",
+      "journal": "Molecular ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36305902",
+      "title": "Female preferences for the spectral content of advertisement calls in Cope's gray treefrog (Hyla chrysoscelis)",
+      "year": 2023,
+      "doi": "10.1007/s00359-022-01575-w",
+      "abstract": "Amphibians have inner ears with two sensory papillae tuned to different frequency ranges of airborne sounds. In frogs, male advertisement calls possess distinct spectral components that match the tuning of one or both sensory papillae. Female preferences for the spectral content of advertisement calls can depend on signal amplitude and can vary among closely related lineages. In this study of Cope's gray tree frog (Hyla chrysoscelis), we investigated the amplitude dependence of female preferences for the spectral content of male advertisement calls, which have a \"bimodal\" spectrum with separate low-frequency (1.25 kHz) and high-frequency (2.5 kHz) components. In two-alternative choice tests, females generally preferred synthetic calls with bimodal spectra over \"unimodal\" calls having only one of the two spectral components. They also preferred unimodal calls with a high-frequency component over one with the low-frequency component. With few exceptions, preferences were largely independent of amplitude across both a 30 dB range of overall signal amplitude and an 11 dB range in the relative amplitudes of the two spectral components. We discuss these results in the context of evolutionary lability in female preferences for the spectral content of advertisement calls in North American tree frogs in the genus Hyla.",
+      "journal": "Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1016_j_anbehav_2022_05_003",
       "title": "Vocal sacs do not function in multimodal mate attraction under nocturnal illumination in Cope's grey treefrog",
       "year": 2022,
@@ -255,11 +428,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1101_2022_03_31_486641",
@@ -269,11 +438,27 @@
       "abstract": "Abstract Animals often communicate acoustically in noisy social environments, yet how receivers extract relevant information from overlapping sounds is poorly understood. Studies of animal communication in noise are typically based on a traditional filterbank model of hearing focused on energetic masking , where spectrotemporal overlap in peripheral auditory filters limits signal audibility. By contrast, studies of human speech show that background sounds can also interfere with selecting and attending to otherwise audible signals in a phenomenon known as informational masking . Whether informational masking constrains acoustic communication in nonhuman animals remains poorly understood. Through controlled laboratory experiments with treefrogs ( Hyla chrysoscelis ), we demonstrate, for the first time in a nonhuman animal, that informational masking can impair crucial mate-choice decisions when vocal signals and other concurrent sounds share similar temporal features. These impacts span",
       "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_36196544",
+      "title": "Sensory biases in response to novel complex acoustic signals in male and female grey treefrogs,",
+      "year": 2022,
+      "doi": "10.1098/rspb.2022.1306",
+      "abstract": "The sensory bias hypothesis proposes that female preferences for male sexual signalling traits evolved in contexts other than mating. Individuals of both sexes may experience similar selection pressures in these contexts; thus males may have similar biases to females for variation in signal traits. We tested this prediction in the grey treefrog,",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34401940",
+      "title": "Arginine vasotocin affects motivation to call, but not calling plasticity, in Cope's gray treefrog Hyla chrysoscelis",
+      "year": 2022,
+      "doi": "10.1007/s00360-021-01399-1",
+      "abstract": "The ability to respond to competition is critical for social behaviors involved in mating, territoriality and foraging. Physiological mechanisms of competitive social behaviors may determine not only baseline behavior, but possibly also the plasticity of the response to competition. We examined the effects of the neuropeptide arginine vasotocin (AVT), which is implicated in social behavior in non-mammalian vertebrates, on both spontaneous acoustic advertisement calling behavior and the plastic response to a simulated competitive challenge in Cope's gray treefrogs, Hyla chrysoscelis. We injected males either with AVT or a saline control and then analyzed recordings of spontaneous calling prior to playback, playback of average advertisement calls, playback of highly competitive advertisement calls, and spontaneous calling after playback. We found a tendency for AVT-treated males to be more likely to resume calling, and AVT males had higher call rates than control males, although they did not differ in pulse number or call effort. There were no differences between the AVT and control treatments in the plasticity of calling behavior in response to simulated competitors. Our results generally align with other studies on how AVT affects anuran vocalizations, and suggest that its primary effect is on motivation to call, with less of an effect on plasticity in response to competition. Nevertheless, these effects on call motivation are significant, because mating success is often determined more by participation in the chorus than by the values of specific call characteristics.",
+      "journal": "Journal of comparative physiology. B, Biochemical, systemic, and environmental physiology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1159_000520913",
@@ -283,11 +468,47 @@
       "abstract": "Significant variation in genome size occurs among anuran amphibians and can affect cell size and number. In the gray treefrog complex in North America, increases in cell size in autotriploids of the diploid (Hyla chrysoscelis) altered the temporal structure of mate-attracting vocalizations and auditory selectivity for these properties. Here, we show that the tetraploid species (Hyla versicolor) also has significantly fewer brain neurons than H. chrysoscelis. With regard to cell size in tissues involved in vocal communication, spinal motor neurons were larger in tetraploids than in diploids and comparable to differences in erythrocyte size; smaller increases were found in one of the three auditory centers in the torus semicircularis. Future studies should address questions about how environmental conditions during development affect cell numbers and size and the causal relationships between these cellular changes and the vocal communication system.",
       "journal": "Brain Behavior and Evolution",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_34796902",
+      "title": "Neural basis of acoustic species recognition in a cryptic species complex",
+      "year": 2021,
+      "doi": "10.1242/jeb.243405",
+      "abstract": "Sexual traits that promote species recognition are important drivers of reproductive isolation, especially among closely related species. Identifying neural processes that shape species differences in recognition is crucial for understanding the causal mechanisms of reproductive isolation. Temporal patterns are salient features of sexual signals that are widely used in species recognition by several taxa, including anurans. Recent advances in our understanding of temporal processing by the anuran auditory system provide an opportunity to investigate the neural basis of species-specific recognition. The anuran inferior colliculus consists of neurons that are selective for temporal features of calls. Of potential relevance are auditory neurons known as interval-counting neurons (ICNs) that are often selective for the pulse rate of conspecific advertisement calls. Here, we tested the hypothesis that ICNs mediate acoustic species recognition by exploiting the known differences in temporal selectivity in two cryptic species of gray treefrog (Hyla chrysoscelis and Hyla versicolor). We examined the extent to which the threshold number of pulses required to elicit behavioral responses from females and neural responses from ICNs was similar within each species but potentially different between the two species. In support of our hypothesis, we found that a species difference in behavioral pulse number thresholds closely matched the species difference in neural pulse number thresholds. However, this relationship held only for ICNs that exhibited band-pass tuning for conspecific pulse rates. Together, these findings suggest that differences in temporal processing of a subset of ICNs provide a mechanistic explanation for reproductive isolation between two cryptic treefrog species.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_34788770",
+      "title": "Anuran Vocal Communication: Effects of Genome Size, Cell Number and Cell Size",
+      "year": 2021,
+      "doi": "10.1159/000520913",
+      "abstract": "Significant variation in genome size occurs among anuran amphibians and can affect cell size and number. In the gray treefrog complex in North America, increases in cell size in autotriploids of the diploid (Hyla chrysoscelis) altered the temporal structure of mate-attracting vocalizations and auditory selectivity for these properties. Here, we show that the tetraploid species (Hyla versicolor) also has significantly fewer brain neurons than H. chrysoscelis. With regard to cell size in tissues involved in vocal communication, spinal motor neurons were larger in tetraploids than in diploids and comparable to differences in erythrocyte size; smaller increases were found in one of the three auditory centers in the torus semicircularis. Future studies should address questions about how environmental conditions during development affect cell numbers and size and the causal relationships between these cellular changes and the vocal communication system.",
+      "journal": "Brain, behavior and evolution",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32961090",
+      "title": "Treefrogs exploit temporal coherence to form perceptual objects of communication signals",
+      "year": 2020,
+      "doi": "10.1098/rsbl.2020.0573",
+      "abstract": "For many animals, navigating their environment requires an ability to organize continuous streams of sensory input into discrete 'perceptual objects' that correspond to physical entities in visual and auditory scenes. The human visual and auditory systems follow several Gestalt laws of perceptual organization to bind constituent features into coherent perceptual objects. A largely unexplored question is whether nonhuman animals follow similar Gestalt laws in perceiving behaviourally relevant stimuli, such as communication signals. We used females of Cope's grey treefrog (",
+      "journal": "Biology letters",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32791012",
+      "title": "Revisiting the evolution of the North American tetraploid treefrog (",
+      "year": 2020,
+      "doi": "10.1139/gen-2020-0031",
+      "abstract": "",
+      "journal": "Genome",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_78877",
@@ -297,11 +518,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_31227859",
+      "title": "The paradox of hearing at the lek: auditory sensitivity increases after breeding in female gray treefrogs (Hyla chrysoscelis)",
+      "year": 2019,
+      "doi": "10.1007/s00359-019-01354-0",
+      "abstract": "Both behavioral receptivity and neural sensitivity to acoustic mate attraction signals vary across the reproductive cycle, particularly in seasonally breeding animals. Across a variety of taxa receptivity to signals increases, as does peripheral auditory sensitivity, as females transition from a non-breeding to breeding condition. We recently documented decreases in receptivity to acoustic mate attraction signals and circulating hormone levels, but an increase in peripheral auditory sensitivity to call-like stimuli following oviposition in Cope's gray treefrogs (Hyla chrysoscelis). However, it is not known if changes in auditory sensitivity are confined to the frequency range of calls, or if they result from more generalized changes in the auditory periphery. Here, we used auditory brainstem responses (ABRs) to evaluate peripheral frequency sensitivity in female Cope's gray treefrogs before and after oviposition. We found lower ABR thresholds, greater ABR amplitudes, and shorter ABR latencies following oviposition. Changes were most pronounced and consistent at lower frequencies associated with the amphibian papilla, but were also detectable at higher frequencies corresponding to the tuning of the basilar papilla. Furthermore, only ABR latencies were correlated with circulating steroid hormones (testosterone). Changes in peripheral processing may result from changes in metabolic function or sensorineural adaptation to chorus noise.",
+      "journal": "Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_30653979",
+      "title": "The difference a day makes: Breeding remodels hearing, hormones and behavior in female Cope's gray treefrogs (Hyla chrysoscelis)",
+      "year": 2019,
+      "doi": "10.1016/j.yhbeh.2019.01.001",
+      "abstract": "In seasonal breeders, there are behavioral, endocrine, and neural adaptations that promote the sexual receptivity of females and tune their sensory systems to detect and discriminate among advertising males and to successfully copulate. What happens immediately after this key life history event is unclear, but this transitional moment offers a window into the mechanisms that remodel sexual phenotypes. In this study of wild female Cope's gray treefrogs (Hyla chrysoscelis), we tested the hypothesis that oviposition results in a suite of coordinated changes in the sexual phenotype. Specifically, we predicted that sexual receptivity and discrimination behaviors would decline along with circulating concentrations of steroid hormones (corticosterone, estradiol, testosterone) and auditory sensitivity to the acoustic frequencies emphasized in male advertisement calls. We conducted these trait measurements before and after oviposition (ca. 24-h period). There was a 100% decrease in behavioral responsiveness after oviposition, and the concentrations of all three steroids plummeted during this brief window of time, especially testosterone. Moreover, higher concentrations of corticosterone-an important component of the endocrine stress response-were associated with longer response latencies, suggesting that adrenal hormones should be considered in future studies on the hormonal basis of mate choice. Counter to our prediction, auditory sensitivity increased following oviposition, and the amplitude of the auditory brainstem response was influenced by concentrations of estradiol. In pre-oviposition females auditory sensitivity diminished with increasing estradiol concentrations, while sensitivity increased with increasing estradiol concentrations in post-oviposition females, suggesting non-linear estrogenic modulation of peripheral auditory neural recruitment. Overall, our results indicate that there is considerable remodeling of behavioral output following oviposition that co-occ",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1093_beheco_aru029",
@@ -311,11 +548,7 @@
       "abstract": "Anthropogenic (man-made) noise has changed the acoustic environment both on land and underwater and is now recognized as a pollutant of international concern. Increasing numbers of studies are assessing how noise pollution affects animals across a range of scales, from individuals to communities, but the topic receiving the most research attention has been acoustic communication.",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1121_1_4800670",
@@ -325,11 +558,7 @@
       "abstract": "",
       "journal": "Proceedings of Meetings on Acoustics",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s00265-013-1489-6",
@@ -339,11 +568,7 @@
       "abstract": "Many animals use multimodal (both visual and acoustic) components in courtship signals. The acoustic communication of anuran amphibians can be masked by the presence of environmental background noise, and multimodal displays may enhance receiver detection in complex acoustic environments. In the present study, we measured sound pressure levels of concurrently calling males of the Small Torrent Frog (<i>Micrixalus saxicola</i>) and used acoustic playbacks and an inflatable balloon mimicking a vocal sac to investigate male responses to controlled unimodal (acoustic) and multimodal (acoustic and visual) dynamic stimuli in the frogs' natural habitat. Our results suggest that abiotic noise of the stream does not constrain signal detection, but males are faced with acoustic interference and masking from conspecific chorus noise. Multimodal stimuli elicited greater response from males and triggered significantly more visual signal responses than unimodal stimuli. We suggest that the vocal sac",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1121_1_3699271",
@@ -353,11 +578,7 @@
       "abstract": "An important aspect of hearing and acoustic communication is the ability to discriminate differences in sound level. Little is known about level discrimination in anuran amphibians (frogs and toads), for which vocal communication in noisy social environments is often critical for reproduction. This study used two-choice phonotaxis tests to investigate the ability of females of Cope's gray treefrog (Hyla chrysoscelis) to discriminate between two advertisement calls differing only in sound pressure level by 2, 4, or 6 dB. Tests were conducted in the presence and absence of chorus-shaped noise (73 dB) and using two different ranges of signal levels (73-79 dB and 79-85 dB). Females discriminated between two signals differing by as little as 2-4 dB. In contrast to expectations based on the \"near miss to Weber's law\" in birds and mammals, level discrimination was slightly better at the lower range of signal amplitudes, a finding consistent with earlier studies of frogs and insects. Realistic",
       "journal": "The Journal of the Acoustical Society of America",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pone_0021191",
@@ -367,11 +588,7 @@
       "abstract": "Vocal communication in crowded social environments is a difficult problem for both humans and nonhuman animals. Yet many important social behaviors require listeners to detect, recognize, and discriminate among signals in a complex acoustic milieu comprising the overlapping signals of multiple individuals, often of multiple species. Humans exploit a relatively small number of acoustic cues to segregate overlapping voices (as well as other mixtures of concurrent sounds, like polyphonic music). By comparison, we know little about how nonhuman animals are adapted to solve similar communication problems. One important cue enabling source segregation in human speech communication is that of frequency separation between concurrent voices: differences in frequency promote perceptual segregation of overlapping voices into separate \"auditory streams\" that can be followed through time. In this study, we show that frequency separation (ΔF) also enables frogs to segregate concurrent vocalizations,",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1554_04-471",
@@ -381,11 +598,7 @@
       "abstract": "",
       "journal": "Evolution",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_0014-3820_2005_tb00998_x",
@@ -395,11 +608,7 @@
       "abstract": "",
       "journal": "Evolution",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_sj_hdy_6885270",
@@ -409,11 +618,7 @@
       "abstract": "",
       "journal": "Heredity",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_1446670",
@@ -423,11 +628,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1564278",
@@ -437,11 +638,7 @@
       "abstract": "",
       "journal": "Journal of Herpetology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1444428",
@@ -451,11 +648,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1444732",
@@ -465,11 +658,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5962_bhl_title_52057",
@@ -479,11 +668,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1442547",
@@ -493,11 +678,7 @@
       "abstract": "",
       "journal": "Copeia",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_2307_1350483",
@@ -507,11 +688,7 @@
       "abstract": "",
       "journal": "Chesapeake Science",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32469_10355_71297",
@@ -521,14 +698,10 @@
       "abstract": "<jats:p xml:lang=\"en\">Polyploidy occurs when organisms have more than the typical two copies chromosome sets. Polyploidy has occurred many times throughout plant and vertebrate evolution, and recently in diverse families of frogs. Male treefrogs produce acoustic advertisement-calls to attract females. Females reliably choose males of their own species on the basis of their advertisement-calls, which allows two gray treefrog species to live and breed amidst each other. To investigate the effects of polyploidy on behavior, I created artificial polyploids of the diploid gray treefrog, Hyla chrysoscelis. Polyploid males produce advertisement calls with slower pulse-rates, and consisting of pulses with slower rise-times, both in the direction of the tetraploid species, H. versicolor. Polyploid females also demonstrate a preference for calls with slower pulse-rates, and demonstrate weak preference for slow rise-time pulses, as do females of H. versicolor. These parallel effects of polyploidy",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 20,
+  "paper_count": 35,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

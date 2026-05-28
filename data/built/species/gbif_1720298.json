@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 18,
-    "claim_count": 9,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 34,
+    "claim_count": 27,
+    "doi_count": 25,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -47,14 +47,14 @@
     "courtship song"
   ],
   "contexts": [
-    "courtship",
     "male combat",
+    "courtship",
     "mate attraction"
   ],
   "functions": [
-    "female assessment",
     "mate attraction",
-    "rival deterrence"
+    "rival deterrence",
+    "female assessment"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -62,63 +62,416 @@
         "value": "aggression song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "calling song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "courtship song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "courtship",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "male combat",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "courtship",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "female assessment",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "rival deterrence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "female assessment",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 126,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 125,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 124,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 123,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 122,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 121,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 120,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 119,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 118,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 117,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 116,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 115,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 114,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 113,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 112,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 111,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 110,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 109,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 108,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 107,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 106,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 105,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 104,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 103,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 102,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 101,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 100,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -127,11 +480,32 @@
   },
   "open_papers": [
     {
+      "doi": "10.22458/urj.v18i1.6175",
+      "url": "https://doi.org/10.22458/urj.v18i1.6175",
+      "title": "Efecto del sustrato de oviposición en la eficiencia reproductiva de Acheta domesticus (Orthoptera: Gryllidae) Effect of oviposition substrate on the reproductive efficiency of Acheta domesticus (Orthoptera: Gryllidae)",
+      "year": 2026,
+      "source": "crossref"
+    },
+    {
       "doi": "10.1016/j.yhbeh.2022.105191",
       "url": "https://doi.org/10.1016/j.yhbeh.2022.105191",
       "title": "Octopamine affects courtship call structure in male Acheta domesticus crickets",
       "year": 2022,
       "source": "crossref"
+    },
+    {
+      "doi": "10.3390/nu15010191",
+      "url": "https://doi.org/10.3390/nu15010191",
+      "title": "The Interaction between Message Sensation Value and Food Neophobia in Communication about Insect-Based Foods: An Experiment with Italian Consumers",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/foods9050574",
+      "url": "https://doi.org/10.3390/foods9050574",
+      "title": "Effects of Traditional Processing Techniques on the Nutritional and Microbiological Quality of Four Edible Insect Species Used for Food and Feed in East Africa",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.3920/jiff2020.0061",
@@ -169,6 +543,20 @@
       "source": "openalex"
     },
     {
+      "doi": "10.1002/ece3.76",
+      "url": "https://doi.org/10.1002/ece3.76",
+      "title": "Phenotypic covariance structure and its divergence for acoustic mate attraction signals among four cricket species",
+      "year": 2012,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1007/s00265-012-1418-0",
+      "url": "https://doi.org/10.1007/s00265-012-1418-0",
+      "title": "Does mating experience of male house crickets affect their behavior to subsequent females and female choice?",
+      "year": 2012,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1007/s00265-009-0743-4",
       "url": "https://doi.org/10.1007/s00265-009-0743-4",
       "title": "Song amplitude and body size in birds",
@@ -188,6 +576,13 @@
       "title": "Seismic signals in a courting male jumping spider (Araneae:Salticidae)",
       "year": 2003,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1098/rspb.2000.1263",
+      "url": "https://doi.org/10.1098/rspb.2000.1263",
+      "title": "Size-dependent response to conspecific mating calls by male crickets",
+      "year": 2000,
+      "source": "pubmed"
     },
     {
       "doi": "10.3758/bf03200077",
@@ -262,6 +657,26 @@
   ],
   "papers": [
     {
+      "paper_id": "10_22458_urj_v18i1_6175",
+      "title": "Efecto del sustrato de oviposición en la eficiencia reproductiva de Acheta domesticus (Orthoptera: Gryllidae) Effect of oviposition substrate on the reproductive efficiency of Acheta domesticus (Orthoptera: Gryllidae)",
+      "year": 2026,
+      "doi": "10.22458/urj.v18i1.6175",
+      "abstract": "<jats:p>RESUMEN. Introducción: Acheta domesticus posee rasgos morfológicos distintivos y un claro dimorfismo sexual que facilitan su identificación y manejo. Su relevancia como fuente proteica para la alimentación humana y animal, junto con el reciente aumento de la industria de insectos comestibles en Costa Rica, evidencia la necesidad de desarrollar y estandarizar protocolos reproductivos que optimicen la oviposición, el desarrollo embrionario y la supervivencia de A. domesticus en sistemas de cría intensiva. Objetivo: Evaluar la calidad y preferencia de sustratos orgánicos como medio de oviposición para hembras de A. domesticus. Métodos: Entre octubre y diciembre de 2024, analizamos el efecto de cuatro sustratos orgánicos (arena de río, fibra de coco, tierra agrícola y peat moss) sobre el desarrollo reproductivo de A. domesticus. Realizamos dos ensayos independientes: uno para evaluar la calidad del sustrato y otro para determinar la preferencia de oviposición. En el primer ensayo a",
+      "journal": "UNED Research Journal",
+      "open_access": 0,
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_37262368",
+      "title": "Differential impacts of ionizing radiation on a sexually dimorphic trait in male and female",
+      "year": 2023,
+      "doi": "10.1080/09553002.2023.2219731",
+      "abstract": "PURPOSE: In many Orthopteran species, including crickets, forewings exhibit substantial sexual dimorphism driven by sexual selection. In the cricket,  MATERIALS AND METHODS: We applied ionizing radiation (0--27.8 Gy) as a stressor as dose can be precisely applied as well as its relevance in both environmental contamination and use in the Sterile Insect Technique. RESULTS: A canonical variate analysis indicated that wing shape was significantly altered in males at all doses; .58 Gy, 2.3 Gy, 4.6 Gy, 16.2 Gy, and 23.2 Gy. In females, shape was significantly altered at 27.8 Gy and 23.2 Gy groups and to a lesser extent at .58 Gy and 16.2 Gy. Linear regression analysis of centroid size indicated a dose dependent decline in wing size in both sexes, with males exhibiting more decline. Fluctuating asymmetry, a measure of environmental sensitivity, revealed that males were more sensitive to shape changes due to stress than females. This difference in sensitivity is likely due to the complexity of male forewings. CONCLUSION: These results expand understanding of sex dimorphism in stress responses and sensitivity to ionizing radiation.",
+      "journal": "International journal of radiation biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1016_j_yhbeh_2022_105191",
       "title": "Octopamine affects courtship call structure in male Acheta domesticus crickets",
       "year": 2022,
@@ -269,11 +684,37 @@
       "abstract": "",
       "journal": "Hormones and Behavior",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_36615852",
+      "title": "The Interaction between Message Sensation Value and Food Neophobia in Communication about Insect-Based Foods: An Experiment with Italian Consumers",
+      "year": 2022,
+      "doi": "10.3390/nu15010191",
+      "abstract": "Currently, insects are considered as a promising alternative protein source due to their nutritional content and their environmental sustainability. Notwithstanding this, generally consumers show reluctance towards the introduction of edible insects into their diet, mostly influenced by food neophobia. Persuasive communication strategies (e.g., informational vs. emotional appeals) have been a major topic in consumer behavior research. Scholars often refer to the construct of message sensation value (MSV), which is defined as the intensity of audio, visual, and content features of a message that elicit sensory, affective, and arousal responses. In this work, a computer-based experiment (N = 148) was conducted to investigate the effectiveness of messages based on different levels of MSV in promoting the intention to eat insect-based foods, and interactions between MSV and food neophobia. Results indicate that, MSV, food neophobia, and their interaction significantly affect the willingness to consume insect-based food products with or without visible insects, highlighting novel pathways for segmenting consumers, in order to strengthen the communication effects.",
+      "journal": "Nutrients",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35533572",
+      "title": "Octopamine affects courtship call structure in male Acheta domesticus crickets",
+      "year": 2022,
+      "doi": "10.1016/j.yhbeh.2022.105191",
+      "abstract": "Secondary sexual displays vary considerably in both type and structure both within and across animal species. Although such variation is of keen interest to evolutionary biologists, the functional factors driving variation in male displays are poorly understood. In crickets, acoustic calls are produced by muscular contractions via stridulation of file and scraper wing components. We tested the effect of varying octopamine, an important biogenic amine neurohormone in invertebrates, on call production in male Acheta domesticus house crickets by blocking the octopamine receptors that influence skeletal muscle function with epinastine, a synthetic octopamine antagonist. We then measured male courtship calls and analyzed the call structure to quantify the differences in call structure based on the changes in carrier frequency, and whether chirps or ticks are a more prevalently expressed frequency in treated vs untreated males. Males treated with epinastine exhibited clear differences in call structure compared to untreated controls, such that epinastine-treated males were more likely to produce simpler calls and to exhibit their carrier frequencies as ticks rather than chirps. Thus, we were able to directly modify male courtship calling performance during mating interactions by altering the neuropharmacological milieu, demonstrating the potential role of biogenic amines in contributing to the diversity of call types in nature.",
+      "journal": "Hormones and behavior",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33471571",
+      "title": "Impacts of ionization radiation on the cuticular hydrocarbon profile and mating success of male house crickets (",
+      "year": 2021,
+      "doi": "10.1080/09553002.2021.1876954",
+      "abstract": "PURPOSE: Ionizing radiation is well known to have drastic impacts on major life history features including survivorship, growth, fertility, and longevity. What is much less appreciated is how radiation stress can cause changes to more subtle traits, such as those associated with sexual signaling, an underappreciated but vital aspect of insect reproduction. In the House Cricket ( MATERIALS AND METHODS: Here, we analyze the impacts of ionizing radiation on the cuticular hydrocarbons of male crickets and its subsequent impacts on mating success. We exposed juvenile (14-day, 4th instar) male crickets to a broad range of radiation doses (2 Gy - 2 Gy). RESULTS: We detected significant changes in individual cuticular hydrocarbons across a broad range of doses in mature male crickets using gas-liquid chromatography. Specifically, dose was identified as a significant contributing factor to hydrocarbon increases  CONCLUSION: Insect chemical communication can be species specific, and functionally specialized. Here, we show that radiation can alter the chemical signals used to attract mates in a large bodied insect and this may be a contributing factor to the described reduction in male mating success. Further research should be conducted to further analyze the various modes of communication employed by male crickets to attract mates i.e. acoustic signaling, and how this may also contribute to the reduction in mating success seen in irradiated males.",
+      "journal": "International journal of radiation biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3920_jiff2020_0061",
@@ -283,11 +724,17 @@
       "abstract": "The recent interest in using insects as food and feed is based on their capacity to be a sustainable alternative to other protein sources. When farmed as mini livestock, the question is raised as to whether they are ‘sentient beings’ (self-conscious)? In researching this topic, the problem is that humans often expect animals to have the same subjective experience as we do (anthropomorphic) and consider themselves as the centre of the universe (anthropocentric). We discuss insects’ sentience by looking at their brain, behaviour, and communicative abilities. The miniature brains of insects seem to be arranged in a very efficient functional way due to their very long evolutionary history. As for their behaviour, insects are capable of social and associative learning. Even dopamine, a neurotransmitter involved in reward and pleasure, plays a role. Human communication is mainly verbal, while for insects other means of information exchange are more important, such as tactile, chemical, visua",
       "journal": "Journal of Insects as Food and Feed",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_32375385",
+      "title": "Effects of Traditional Processing Techniques on the Nutritional and Microbiological Quality of Four Edible Insect Species Used for Food and Feed in East Africa",
+      "year": 2020,
+      "doi": "10.3390/foods9050574",
+      "abstract": "Edible insects are increasingly being considered as food and feed ingredients because of their rich nutrient content. Already, edible insect farming has taken-off in Africa, but quality and safety concerns call for simple, actionable hazard control mechanisms. We examined the effects of traditional processing techniques-boiling, toasting, solar-drying, oven-drying, boiling + oven-drying, boiling + solar-drying, toasting + oven-drying, toasting + solar-drying-on the proximate composition and microbiological quality of adult",
+      "journal": "Foods (Basel, Switzerland)",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_2661",
@@ -297,11 +744,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1038_srep27585",
@@ -311,11 +754,7 @@
       "abstract": "Until recently, the prevailing theory about male African elephants (Loxodonta africana) was that, once adult and sexually mature, males are solitary and targeted only at finding estrous females. While this is true during the state of 'musth' (a condition characterized by aggressive behavior and elevated androgen levels), 'non-musth' males exhibit a social system seemingly based on companionship, dominance and established hierarchies. Research on elephant vocal communication has so far focused on females, and very little is known about the acoustic structure and the information content of male vocalizations. Using the source and filter theory approach, we analyzed social rumbles of 10 male African elephants. Our results reveal that male rumbles encode information about individuality and maturity (age and size), with formant frequencies and absolute fundamental frequency values having the most informative power. This first comprehensive study on male elephant vocalizations gives importan",
       "journal": "Scientific Reports",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1371_journal_pgen_1005009",
@@ -325,11 +764,17 @@
       "abstract": "To increase individual male fitness, males of various species remain near a (potential) mating partner and repel their rivals (mate-guarding). Mate-guarding is assumed to be mediated by two different types of motivation: sexual motivation toward the opposite sex and competitive motivation toward the same sex. The genetic/molecular mechanisms underlying how mate presence affects male competitive motivation in a triadic relationship has remained largely unknown. Here we showed that male medaka fish prominently exhibit mate-guarding behavior. The presence of a female robustly triggers male-male competition for the female in a triadic relationship (2 males and 1 female). The male-male competition resulted in one male occupying a dominant position near the female while interfering with the other male's approach of the female. Paternity testing revealed that the dominant male had a significantly higher mating success rate than the other male in a triadic relationship. We next generated medak",
       "journal": "PLoS Genetics",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_25978343",
+      "title": "Calling Behavior of Male Acheta domesticus Crickets Infected with Paragordius varius (Nematomorpha: Gordiida)",
+      "year": 2015,
+      "doi": "10.1645/15-765.1",
+      "abstract": "It is well established that parasites in the phylum Nematomorpha induce suicide behavior of their insect hosts to bring adult worms to the appropriate habitat for emergence. It is not well established, however, whether other nematomorph-induced behavioral alterations occur before worm emergence. The purpose of our study was to evaluate the effect of the nematomorph Paragordius varius on the calling behavior of the male house cricket Acheta domesticus . We hypothesized that cricket calling, an energetically expensive and risky behavior, would be a potential target for nematomorph-induced behavioral alterations. We assessed if and how infection with P. varius affects A. domesticus calling behavior and whether the presence of wings at time of exposure to P. varius influenced changes in calling behavior. We recorded the calling behavior of male A. domesticus over the course of their infection after exposure to P. various before or after wing development. Additionally, we assessed whether winged crickets were \"callers\" or \"noncallers\" before exposure. We found that regardless of cricket developmental stage (or age) at time of infection, infected crickets spent significantly less time calling than their uninfected counterparts but only during the later stages of infection. Developmental stage at infection did affect whether crickets became callers: when infected before wing development significantly more uninfected crickets initiated calling; there was no difference between infected and uninfected crickets when infected as winged adults. Infection was a factor in whether callers stopped calling, with more infected crickets ceasing to call than uninfected crickets. This is the first study to show that infection with nematomorphs affects calling behavior of their insect host. Cricket calling behavior is immensely complex and although it was difficult to elucidate the adaptive nature of these parasite-induced behavioral changes, this study lays the groundwork for future stud",
+      "journal": "The Journal of parasitology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1371_journal_pone_0103452",
@@ -339,11 +784,37 @@
       "abstract": "Animals employ an array of signals (i.e. visual, acoustic, olfactory) for communication. Natural selection favours signals, receptors, and signalling behaviour that optimise the received signal relative to background noise. When the signal is used for more than one function, antagonisms amongst the different signalling functions may constrain the optimisation of the signal for any one function. Sexual selection through mate choice can strongly modify the effects of natural selection on signalling systems ultimately causing maladaptive signals to evolve. Echolocating bats represent a fascinating group in which to study the evolution of signalling systems as unlike bird songs or frog calls, echolocation has a dual role in foraging and communication. The function of bat echolocation is to generate echoes that the calling bat uses for orientation and food detection with call characteristics being directly related to the exploitation of particular ecological niches. Therefore, it is commonl",
       "journal": "PLoS ONE",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_24122113",
+      "title": "Glyphosate-based herbicide has contrasting effects on prey capture by two co-occurring wolf spider species",
+      "year": 2013,
+      "doi": "10.1007/s10886-013-0353-5",
+      "abstract": "Anthropogenic substances have the potential to affect animal behavior either because they present a novel stimulus or because they interfere with natural chemical communication pathways. Such shifts can alter the dynamic between predators and potential prey, which might affect population success as well as the strength of food web linkages. We examined the foraging of two wolf spiders, Tigrosa helluo and Pardosa milvina (Araneae, Lycosidae), that are abundant in agroecosystems where they are routinely exposed to herbicides. We tested the hypothesis that the presence of a commercial formulation of a glyphosate-based herbicide would affect the prey capture behavior of these two wolf spiders. We tested the larger Tigrosa foraging on Pardosa or crickets (Acheta domesticus) and the smaller Pardosa foraging on crickets. Tigrosa subdued crickets more quickly and with fewer lunges than it took them to capture Pardosa. The presence of herbicide allowed Tigrosa to orient toward and capture both prey species more quickly but it did not affect the number of lunges required to subdue either prey. Herbicide did not affect the timing of prey capture for Pardosa but it did cause them to use more lunges in the process. Thus, herbicide had contrasting effects on foraging behavior of these two agrobiont predators, which means that it could shift the direction and strength of food web linkages in complex ways.",
+      "journal": "Journal of chemical ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23162206",
+      "title": "Does mating experience of male house crickets affect their behavior to subsequent females and female choice?",
+      "year": 2012,
+      "doi": "10.1007/s00265-012-1418-0",
+      "abstract": "Male mating experience was shown to play an important role in settling conflicts between males; however, little is known about whether and how prior access to females influences male behavior during intersexual interactions and female choice itself. Here, I experimentally test this relationship in the house cricket (Acheta domesticus) by combining one-on-one interaction between the male and female with direct comparison of males by the female, but precluding aggression between males. I found that solitary males were more active during subsequent courtship displays than paired males, suggesting the detrimental effect of mating on courtship performance. At the same time, females spent significantly more time close to solitary males or playbacks of male's natural courtship songs, and responded positively to the condition of males, ignoring body size of males. In contrast, females responded similarly to computer-modified playbacks of courtship songs of solitary and paired males with standardized rate of phrases and amplitudes; however, when females were additionally allowed to contact with anesthetized males they spent more time close to bigger males, irrespective of the acoustic parameters of courtship songs. These results show that although females were able to differentiate between many behavioral and morphological characteristics of males, including voluntary and intrinsic ones, they preferred traits conditional upon the costliness of male's displays. In addition, mating experience appeared to be a crucial factor in the choice of a particular costly mating strategy by males.",
+      "journal": "Behavioral ecology and sociobiology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_22408735",
+      "title": "Phenotypic covariance structure and its divergence for acoustic mate attraction signals among four cricket species",
+      "year": 2012,
+      "doi": "10.1002/ece3.76",
+      "abstract": "The phenotypic variance-covariance matrix (P) describes the multivariate distribution of a population in phenotypic space, providing direct insight into the appropriateness of measured traits within the context of multicollinearity (i.e., do they describe any significant variance that is independent of other traits), and whether trait covariances restrict the combinations of phenotypes available to selection. Given the importance of P, it is therefore surprising that phenotypic covariances are seldom jointly analyzed and that the dimensionality of P has rarely been investigated in a rigorous statistical framework. Here, we used a repeated measures approach to quantify P separately for populations of four cricket species using seven acoustic signaling traits thought to enhance mate attraction. P was of full or almost full dimensionality in all four species, indicating that all traits conveyed some information that was independent of the other traits, and that phenotypic trait covariances do not constrain the combinations of signaling traits available to selection. P also differed significantly among species, although the dominant axis of phenotypic variation (p(max)) was largely shared among three of the species (Acheta domesticus, Gryllus assimilis, G. texensis), but different in the fourth (G. veletis). In G. veletis and A. domesticus, but not G. assimilis and G. texensis, p(max) was correlated with body size, while p(max) was not correlated with residual mass (a condition measure) in any of the species. This study reveals the importance of jointly analyzing phenotypic traits.",
+      "journal": "Ecology and evolution",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1007_s00265-009-0743-4",
@@ -353,11 +824,7 @@
       "abstract": "Bird song is a sexually selected multidimensional signal. A fundamental question regarding the evolution of sexually selected signals is what information they convey and how their honesty is maintained. Song amplitude is a performance-related signal trait that varies considerably between individuals, but this signal dimension has been neglected in past studies. I found that median song amplitude in male nightingales (Luscinia megarhynchos) and zebra finches (Taeniopygia guttata) did not vary significantly with body size or residual body mass. In contrast, I found a significant negative correlation between body size (and also residual mass) and the maximum song amplitude during interactive singing in nightingales. However, the function of these more subtle differences in song amplitude remains to be investigated. By and large, the results of this study suggest that mean song amplitude is unlikely to indicate a bird’s body size or current condition (measured as residual mass).",
       "journal": "Behavioral Ecology and Sociobiology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1186_1472-6785-4-1",
@@ -367,11 +834,7 @@
       "abstract": "We conclude that, most likely, the investigated duet type is a postconflict victory display - a novel function of duets. Furthermore the duet is a rare example among birds of a context-specific song. The conspicuousness of the display suggests that it is directed not only to losers of an agonistic encounter but also to other pairs of birds in neighbouring territories.",
       "journal": "BMC Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1242_jeb_00634",
@@ -381,11 +844,67 @@
       "abstract": "Visual displays in jumping spiders have long been known to be among the most elaborate animal communication behaviours. We now show that one species, Habronattus dossenus, also exhibits an unprecedented complexity of signalling behaviour in the vibratory (seismic) modality. We videotaped courtship behaviour and used laser vibrometry to record seismic signals and observed that each prominent visual signal is accompanied by a subsequent seismic component. Three broad categories of seismic signals were observed ('thumps', 'scrapes' and 'buzzes'). To further characterize these signals we used synchronous high-speed video and laser vibrometry and observed that only one seismic signal component was produced concurrently with visual signals. We examined the mechanisms by which seismic signals are produced through a series of signal ablation experiments. Preventing abdominal movements effectively 'silenced' seismic signals but did not affect any visual component of courtship behaviour. Prevent",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_12589693",
+      "title": "Prolonged response to calling songs by the L3 auditory interneuron in female crickets (Acheta domesticus): possible roles in regulating phonotactic threshold and selectiveness for call carrier frequency",
+      "year": 2003,
+      "doi": "10.1002/jez.a.10243",
+      "abstract": "L3, an auditory interneuron in the prothoracic ganglion of female crickets (Acheta domesticus) exhibited two kinds of responses to models of the male's calling song (CS): a previously described, phasically encoded immediate response; a more tonically encoded prolonged response. The onset of the prolonged response required 3-8 sec of stimulation to reach its maximum spiking rate and 6-20 sec to decay once the calling song ceased. It did not encode the syllables of the chirp. The prolonged response was sharply selective for the 4-5 kHz carrier frequency of the male's calling songs and its threshold tuning matched the threshold tuning of phonotaxis, while the immediate response of the same neuron was broadly tuned to a wide range of carrier frequencies. The thresholds for the prolonged response covaried with the changing phonotactic thresholds of 2- and 5-day-old females. Treatment of females with juvenile hormone reduced the thresholds for both phonotaxis and the prolonged response by equivalent amounts. Of the 3 types of responses to CSs provided by the ascending L1 and L3 auditory interneurons, the threshold for L3's prolonged response, on average, best matched the same females phonotactic threshold. The prolonged response was stimulated by inputs from both ears while L3's immediate response was driven only from its axon-ipsilateral ear. The prolonged response was not selective for either the CS's syllable period or chirp rate.",
+      "journal": "Journal of experimental zoology. Part A, Comparative experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_12589692",
+      "title": "Prolonged response to calling songs by the L3 auditory interneuron in female crickets (Acheta domesticus): intracellular evaluation",
+      "year": 2003,
+      "doi": "10.1002/jez.a.10242",
+      "abstract": "The L3 auditory interneuron in female Acheta domesticus, produces two different responses to the male calling song: an immediate response and a prolonged response. The prolonged response exhibited spiking activity and a correlated prolonged depolarization, both of which are clearly seen in intracellular recordings. The morphology revealed by intracellular staining was clearly the L3 neuron. The amplitude of the prolonged depolarization associated with the prolonged response increased with increases in sound intensity, resulting in increased spiking rates. Both depolarization and sound presentation increased the spiking rate and the slope of pre-potentials (thus leading to spiking threshold more quickly). Injecting hyperpolarizing current had the expected opposite effect. The effects of positive current injection and sound presentation were additive, resulting in spiking rates that were approximately double the rates in response to sound alone. Short postsynaptic potentials (PSPs), whose duration ranged from 15-60 ms, which may lead to action potentials were also observed in all recordings and summated with the prolonged depolarization, increasing the probability of spiking.",
+      "journal": "Journal of experimental zoology. Part A, Comparative experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_12770077",
+      "title": "For uptake of yolk precursors, epithelial cell-oocyte gap junctional communication is required by insects representing six different orders",
+      "year": 2002,
+      "doi": "10.1016/s0022-1910(02)00095-1",
+      "abstract": "For uptake of vitellogenin protein into nascent yolk spheres, communication through open gap junction channels between the follicle epithelium and oocyte is required by six different insects representing six different orders. It was recently shown in the hemipteran, Oncopeltus fasciatus, that endocytic uptake of yolk protein resulting in the formation of nascent yolk spheres depended upon an intact epithelium communicating with the oocyte through patent gap junctions. Following treatment with octanol, which down-regulated gap junctions below the level of dye coupling, vitellogenin uptake was terminated. Yet, for another hemipteran, Dysdercus intermedius, it has been shown that yolk spheres can form even when all epithelial cells have been stripped from the oocyte. To determine if the mechanism seen in Oncopeltus is present in other insects, we utilized the same techniques to study nascent yolk sphere production in a dipteran, Drosophila melanogaster, a lepidopteran, Actias luna, a hymenopteran, Xylocopa virginica, a coleopteran, Tenebrio molitor and an orthopteran, Acheta domesticus. In each of these, when gap junctions were down-regulated yolk uptake quickly stopped. That six different insects from six different orders all required a gap junctionally transmitted chemical signal of epithelial cell origin suggests that this mechanism is widespread throughout the insects.",
+      "journal": "Journal of insect physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_11413627",
+      "title": "Size-dependent response to conspecific mating calls by male crickets",
+      "year": 2000,
+      "doi": "10.1098/rspb.2000.1263",
+      "abstract": "Male sexual displays provide females with information that is crucial to their reproductive decisions. That same information is available to eavesdroppers, with potential consequences for both signaller and receiver. We present empirical evidence for size-dependent responses to intersexual communication by conspecific rivals. Acoustic features of a male house cricket's (Acheta domesticus) mating call are positively associated with its size, with females preferring the calls of larger males. In order to investigate whether conspecific males make use of the information content of mating calls, we examined their phonotactic responses to call recordings that differ in attractiveness to females. Males of all sizes exhibited positive phonotaxis, with smaller males showing a clear preference for female-preferred calls. Smaller males were also less likely to seek contact with the speaker playing their chosen call. We discuss possible explanations for this size-dependent male behaviour.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_9794780",
+      "title": "Female house crickets, Acheta domesticus, prefer the chirps of large males",
+      "year": 1997,
+      "doi": "10.1006/anbe.1997.0584",
+      "abstract": "This study demonstrates that invertebrate acoustic signals can provide information about male phenotypic attributes, and that females can use this acoustic information in mate choice to select a phenotypically superior mate. I investigated the relationships between a male acoustic sexual signal, the phenotype of the signaller, and the female response to signal variation. I recorded and analysed the calling songs of male house crickets, Acheta domesticus. The analyses showed that chirps convey information about male size. With the exception of amplitude, the mean number of pulses per chirp was the best predictor of male size. I performed a laboratory tape-playback experiment to determine female preference during phonotaxis. Females preferred tapes playing the chirps of large males, specifically chirps with a greater number of pulses per chirp. Selection on the female preference is discussed.Copyright 1997 The Association for the Study of Animal Behaviour",
+      "journal": "Animal behaviour",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_1795239",
+      "title": "Attractiveness of the male Acheta domesticus calling song to females. III. The relation of age-correlated changes in syllable period recognition and phonotactic threshold to juvenile hormone III biosynthesis",
+      "year": 1991,
+      "doi": "10.1007/BF00194903",
+      "abstract": "1. Most crickets first demonstrated positive phonotaxis to 65 dB CSs having a 53-62 ms SP by day 3 following the imaginal molt (Fig. 3B). The onset of copulatory readiness occurred on average at 3.2 days. 2. The attractive range of SPs for most females became progressively broader as they aged (Fig. 4). Three to 4-day-old females were attracted to a smaller number of CS SPs than were 20-21 day old females (Fig. 4). 3. Older, less selective females did not typically respond to the same range of CS SPs (Fig. 6). However, they were more likely to respond to some SPs (especially 50 ms) than to others (Fig. 7). 4. The phonotactic threshold decreased from 95 dB or greater on day 0 to a mean of 55 dB by day 3, during a period of increasing JHIII biosynthesis, and thereafter remained at that level (Fig. 8). 5. During a period of maximal JHIII production, 3-5 day-old females usually responded to 4 of the 7 SPs presented (Fig. 8). Females older than 12 days were unselective for CS SP, and JHIII synthesis remained at a level below the peak production on day 4 (Fig. 8). 6. Older females, that were unselective for CS SP, became as selective as 3 to 5-day-old females within 4 days of topical application of JHIII (Figs. 9-11).",
+      "journal": "Journal of comparative physiology. A, Sensory, neural, and behavioral physiology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_3758_bf03200077",
@@ -395,11 +914,7 @@
       "abstract": "",
       "journal": "Animal Learning & Behavior",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_0022-1910(76)90181-5",
@@ -409,11 +924,7 @@
       "abstract": "",
       "journal": "Journal of Insect Physiology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32597_honors_202",
@@ -423,11 +934,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32597_honors_96_",
@@ -437,11 +944,7 @@
       "abstract": "<jats:p>This research addresses some of the possible factors that affect male Acheta domesticus phonotactic responses to calls of males of the same species. The study examines cricket age and social interaction with females as possible factors affecting this behavior. Through Friedman rank test analysis, the study attempts to demonstrate a link between these factors and the responsiveness of the male crickets in the study. As the crickets aged, they responded to a wider ranges of syllable periods, which may imply that they follow a similar pattern of decreasing selectivity in their response with age as their female counterparts. A Friedman's rank test was done on the data to determine whether there was a statistically significant difference within any of the syllable period as the crickets aged. This test showed slight significance in the syllable periods 50ms and 90 ms. Socializaion with females had minimal effects on male phonotactic behavior.</jats:p>",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31390_gradschool_disstheses_6548",
@@ -451,11 +954,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31390_gradschool_disstheses_4046",
@@ -465,11 +964,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32597_honors_246_",
@@ -479,11 +974,7 @@
       "abstract": "<jats:p>Phonotaxis is defined as the movement of organisms in response to an auditory stimulus. It plays an important role in helping animals find a potential mate, and thus it is worthwhile to understand what factors may influence phonotaxis. Phonotactic behavior in virgin female cricket Acheta domesticus has been the focus of multiple studies, which have reported a degree of variability among individuals. Several factors that have been reported to influence such variability include age, environmental temperature, and the presence of certain neuromodulators. This study investigated possible changes in the behavioral responses of young females when raised with males but not allowed to mate. The results of this study showed a significant difference in the behavioral response of young male-exposed females compared to young virgin females. These results suggest that factors other than mating may alter selectivity in the females’ phonotactic response and its underlying neural elements cont",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32597_honors_56_",
@@ -493,11 +984,7 @@
       "abstract": "<jats:p>Positive phonotaxis occurs when a female cricket walks toward the source of an auditory stimulus. This study tested the effects of light intensity and time of day on phonotaxis of female Acheta domesticus. First, females were tested at four times of day; second, under three light intensities; and third, under four combinations of light intensity and time of day. Our results show that these two factors combined exert a more pronounced effect on female A. domesticus selectivity than either factor individually, and subsequent research will test these factors against the current neuronal model for SP-selective phonotaxis.</jats:p>",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_32597_honors_165_",
@@ -507,14 +994,10 @@
       "abstract": "<jats:p>Selective phonotaxis by female crickets has been shown to be variable. Mechanisms which underlie such behavioral variability are being studied. Juvenile Hormone III is a neuromodulator that has been shown to increase selectivity in phonotactic behavior of female crickets. In an attempt to further explore its effects on the behavioral responses of femaile crickets, experiments have been performed with chelerythrine cloride that is known to have an opposite effect of Juvenile Hormone III. Chelerythrine chloride, a potent protein kinase C blocker, has been hypothesized to block the effect of Juvenile Hormone III which acts through a protein kinase C pathway, leading to a reduced selectiveness in the female's behavioral response.</jats:p>",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 18,
+  "paper_count": 34,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

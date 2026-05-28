@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 19,
-    "claim_count": 9,
-    "doi_count": 19,
-    "media_count": 0
+    "paper_count": 37,
+    "claim_count": 27,
+    "doi_count": 28,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,464 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "alarm call",
+    "song",
     "call",
-    "song"
+    "alarm call"
   ],
   "contexts": [
-    "mate attraction",
     "predator response",
+    "mate attraction",
     "territorial defence"
   ],
   "functions": [
+    "territory signalling",
     "mate attraction",
-    "predator warning",
-    "territory signalling"
+    "predator warning"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "alarm call",
+        "value": "song",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "song",
+        "value": "alarm call",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "predator response",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
+        "value": "territory signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "predator warning",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "territory signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 1794,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1793,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1792,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1791,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1790,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1789,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1788,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1787,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1786,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1785,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1784,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1783,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1782,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1781,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1780,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1779,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1778,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1777,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1776,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1775,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1774,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1773,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1772,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1771,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1770,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1769,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 1768,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "xeno_canto",
+    "provider": "external_links",
     "xc_query": "Parus major",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.1093/beheco/araf058",
+      "url": "https://doi.org/10.1093/beheco/araf058",
+      "title": "Parental control: ecology drives plasticity in parental response to offspring signals",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/ani14223199",
+      "url": "https://doi.org/10.3390/ani14223199",
+      "title": "Artificial Light at Night Advances the Onset of Vocal Activity in Both Male and Female Great Tits During the Breeding Season, While Noise Pollution Has Less Impact and Only in Females",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/icb/icad120",
+      "url": "https://doi.org/10.1093/icb/icad120",
+      "title": "Repeat Sampling of Female Passerines During Reproduction Reveals Surprising Higher Plasma Oxidative Damage During Resting Compared to Active State",
+      "year": 2023,
+      "source": "pubmed"
+    },
     {
       "doi": "10.30980/kjo.2023.12.30.2.175",
       "url": "https://doi.org/10.30980/kjo.2023.12.30.2.175",
@@ -139,6 +513,34 @@
       "title": "PFENOLOGY OF THE GREAT TIT  (PARUS MAJOR) IN BIROBIDZHAN (JEWISH AUTONOMOUS REGION)",
       "year": 2023,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1007/s10071-020-01440-w",
+      "url": "https://doi.org/10.1007/s10071-020-01440-w",
+      "title": "Wild great tits' alarm calls prompt vigilant behaviours in free-range chickens",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12864-020-07329-9",
+      "url": "https://doi.org/10.1186/s12864-020-07329-9",
+      "title": "Temporal changes in DNA methylation and RNA expression in a small song bird: within- and between-tissue comparisons",
+      "year": 2021,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/beheco/araa040",
+      "url": "https://doi.org/10.1093/beheco/araa040",
+      "title": "Extraterritorial forays by great tits are associated with dawn song in unexpected ways",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rstb.2019.0473",
+      "url": "https://doi.org/10.1098/rstb.2019.0473",
+      "title": "The signal detection problem of aposematic prey revisited: integrating prior social and personal experience",
+      "year": 2020,
+      "source": "pubmed"
     },
     {
       "doi": "10.1079/cabicompendium.71673",
@@ -204,11 +606,25 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1007/s00265-006-0164-6",
+      "url": "https://doi.org/10.1007/s00265-006-0164-6",
+      "title": "Heterospecific song matching in two closely related songbirds (Parus major and P. caeruleus): great tits match blue tits but not vice versa",
+      "year": 2006,
+      "source": "openalex"
+    },
+    {
       "doi": "10.1163/1568539042360152",
       "url": "https://doi.org/10.1163/1568539042360152",
       "title": "Degradation of Great Tit (Parus Major) Song Before And After Foliation: Implications for Vocal Communication in a Deciduous Forest",
       "year": 2004,
       "source": "crossref"
+    },
+    {
+      "doi": "10.1642/0004-8038(2004)121[0184:icbmaf]2.0.co;2",
+      "url": "https://doi.org/10.1642/0004-8038(2004)121[0184:icbmaf]2.0.co;2",
+      "title": "INTERACTIVE COMMUNICATION BETWEEN MALE AND FEMALE GREAT TITS (PARUS MAJOR) DURING THE DAWN CHORUS",
+      "year": 2004,
+      "source": "openalex"
     },
     {
       "doi": "10.2307/3676789",
@@ -262,6 +678,76 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_42014081",
+      "title": "Early quantity discrimination in the wild: first insights from juvenile great tits",
+      "year": 2026,
+      "doi": "10.1098/rspb.2026.0281",
+      "abstract": "Quantity discrimination is an important aspect of numerical cognition that is utilized across taxa in various ecological contexts, including foraging and predator avoidance. Recent research has identified that the developing young of several species possess spontaneous quantity discrimination abilities, though these are often limited compared with adults. These studies have been conducted exclusively in captivity using visual stimuli, and so there is a need for studies investigating quantity discrimination abilities in developing young in the wild. In this study, we presented post-fledgling juvenile great tits (Parus major) with the mobbing calls of one, three or five conspecific callers, and one, three or five heterospecific (blue tit, Cyanistes caeruleus) callers to investigate their quantity discrimination abilities in an anti-predator context. Juvenile great tits were more likely to respond to playbacks of multiple callers compared with one caller, regardless of whether callers were conspecific or heterospecific. These findings support those of previous work in captivity and suggest that quantity discrimination abilities are present from an early age. As the first study to our knowledge to investigate quantity discrimination in developing young in the wild, our results have important implications for the ontogeny of quantity discrimination, as well as its adaptive value to wild animals.",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_41609994",
+      "title": "Behavioural Effects of Persistent Human Disturbance: A Playback Experiment in a Forest Bird",
+      "year": 2026,
+      "doi": "10.1111/ele.70316",
+      "abstract": "Increasing human presence and activities expose wild animals to persistent disturbances. Disturbed populations often become tolerant towards humans, although the underlying mechanisms are poorly understood. We used playback experiments to manipulate perceived level of human disturbance in great tits (Parus major). In the first year, incubating females remained more often on the nest, and parents during brood care exhibited a lower level of vigilance and tended to have shorter return latencies in the human disturbance treatment than in control treatments, demonstrating an increased tolerance. These differences disappeared in the second year. Tolerance was also influenced by distance to roads and the frequency of nest visits by researchers. These results support that behavioural tolerance can quickly emerge by phenotypic plasticity in natural populations, although other mechanisms may also influence behavioural responses after longer exposure to human disturbances, resulting in a complex set of processes involved in the spread of tolerance.",
+      "journal": "Ecology letters",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40949608",
+      "title": "Parental control: ecology drives plasticity in parental response to offspring signals",
+      "year": 2025,
+      "doi": "10.1093/beheco/araf058",
+      "abstract": "Birds differ in their parent-offspring interactions, and these differences may be caused by environmental variation. When food is plentiful, the chicks that are begging the most are fed the most. When food is scarce, parents instead feed the largest offspring. This change could due to offspring adjusting their behaviour, or to confounding factors not directly related to current food availability, such as brood size. Alternatively, it could equally be due to parents responding to signals differently based on their experience of food availability in the recent past, for example, over the past weeks. We tested between these competing explanations experimentally, by manipulating food availability in a population of wild great tits,",
+      "journal": "Behavioral ecology : official journal of the International Society for Behavioral Ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40056916",
+      "title": "The demographic drivers of cultural evolution in bird song",
+      "year": 2025,
+      "doi": "10.1016/j.cub.2025.02.016",
+      "abstract": "Social learning can give rise to shared behavioral patterns that persist as culture within animal communities,",
+      "journal": "Current biology : CB",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39595252",
+      "title": "Artificial Light at Night Advances the Onset of Vocal Activity in Both Male and Female Great Tits During the Breeding Season, While Noise Pollution Has Less Impact and Only in Females",
+      "year": 2024,
+      "doi": "10.3390/ani14223199",
+      "abstract": "Artificial light at night (ALAN) and noise pollution are two important stressors associated with urbanisation that can have a profound impact on animal behaviour and physiology, potentially disrupting biological rhythms. Although the influence of ALAN and noise pollution on daily activity patterns of songbirds has been clearly demonstrated, studies often focus on males, and the few that examined females have not included the potential influence of males on female activity patterns. Using free-living pairs of great tits (",
+      "journal": "Animals : an open access journal from MDPI",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39437975",
+      "title": "Individual consistency of hissing displays across night and day in a free-living female songbird",
+      "year": 2024,
+      "doi": "10.1016/j.beproc.2024.105113",
+      "abstract": "Birds have evolved a variety of antipredator strategies, which have been extensively studied during day-time. Yet, how diurnal birds directly respond to nocturnal predation threats remains largely elusive, despite that predation risk can be high during both night- and day-time. One form of antipredator behaviour found in several tit species when confronted with a predator at the nest is the hissing display. As for many forms of antipredator behaviour, studies on hissing displays have so far focussed on the day-time. Here, we exposed cavity-nesting free-living female great tits (Parus major) to simulated predator intrusions inside their nest box during both night- and day-time. We showed that 28 % of females uttered at least one hissing call during night-time, while the occurrence of hissing calls was higher during day-time (84 %). Hissing females at night, compared to non-hissing females, produced more hissing calls during day-time, providing evidence for individual cross-context consistency. Night-time hissing behaviour did not predict lay date, clutch size, breeding or nest success, indicating the absence of consequences in terms of current reproduction. Together, we reveal the hitherto undescribed occurrence of hissing displays at night in a cavity-nesting bird, while simultaneously strengthening the evidence for the existence of hissing behavioural types.",
+      "journal": "Behavioural processes",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_39241452",
+      "title": "Contributions of birds to the feeding of ticks at host community level: Effects of tick burden, host density and yearly fluctuations",
+      "year": 2024,
+      "doi": "10.1016/j.ttbdis.2024.102390",
+      "abstract": "The eco-epidemiology of tick-borne diseases hinges on the abundance and distribution of hosts that sustain tick populations and the pathogens they carry. Research into the role of bird species in the feeding of Ixodes ricinus ticks, the primary tick species of veterinary and public health importance in Europe, remains scarce. This study endeavors to bridge these knowledge gaps by (i) assessing the density of feeding ticks (DFT) within a bird community to pinpoint species making substantial contributions, and (ii) exploring interannual variations in DFT over an extended timeline. Furthermore, we investigate whether variations in individual tick burden (TB) were more closely associated with the characteristics of bird species or interannual variations affecting the density of questing tick, using interannual TB variation as a surrogate. To fulfill these aims, we conducted a 13-year longitudinal study monitoring I. ricinus ticks feeding on a bird community in a periurban forest in France, covering breeding periods from 2007 to 2019. Within this community, we identified seven principal bird species significantly contributing to I. ricinus tick feeding: the Common Blackbird (Turdus merula), the Song Thrush (Turdus philomelos), the European Robin (Erithacus rubecula), the Dunnock (Prunella modularis), the Eurasian Blackcap (Sylvia atricapilla), the Great Tit (Parus major), and the Common Nightingale (Luscinia megarhynchos). Our results show that the bird community's contribution to tick feeding remained relatively consistent from year-to-year, though certain years displayed higher or lower DFT values related to the average over the study period. Moreover, five out the seven major species accounted for 80 % to 95 % of DFT annually. Consequently, we emphasized the need to broaden the scope of future research on bird contributions to tick population dynamics beyond merely thrushes (Turdidae species), to encompass a more diverse range of species, particularly those common bir",
+      "journal": "Ticks and tick-borne diseases",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_30980_kjo_2023_12_30_2_175",
       "title": "A mixed brood following the usurpation of a Great Tit Parus major nest by Varied Tit Parus varius",
       "year": 2023,
@@ -269,11 +755,7 @@
       "abstract": "",
       "journal": "The Korean Journal of Ornithology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_31433_2618-9593-2023-26-2-44-48",
@@ -283,11 +765,87 @@
       "abstract": "<jats:p>The author reveals phenological parameters of the Great Tit in Birobidzhan (Jewish Autonomous region) and shows the dates for the first, mass, and early morning singing of males; the period of courtship and competition for females, laying eggs and incubation of full clutches; the appearance of chicks and fledglings, migrations, late broods and autumn singing. In the period from the end of December to the third decade of March, there occurs a distribution of birds over nesting territories and formation of pairs. The period of early morning singing of males, from the third decade of March to the third decade of June, is the height of the breeding season.</jats:p>",
       "journal": "Regional problems",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_37698890",
+      "title": "Repeat Sampling of Female Passerines During Reproduction Reveals Surprising Higher Plasma Oxidative Damage During Resting Compared to Active State",
+      "year": 2023,
+      "doi": "10.1093/icb/icad120",
+      "abstract": "Traditional models of oxidative stress predict accumulation of damage caused by reactive oxygen species (ROS) production as highly correlated with aerobic metabolism, a prediction under increasing scrutiny. Here, we repeat sampled female great tits (Parus major) at two opposite levels of energy use during the period of maximum food provisioning to nestlings, once at rest and once during activity. Our results were in contrast to the above prediction, namely significantly higher levels of oxidative damage during rest opposed to active phase. This discrepancy could not be explained neither using levels of \"first line\" antioxidant enzymes activity measured from erythrocytes, nor from total nonenzymatic antioxidant capacity measured from plasma, as no differences were found between states. Significantly higher levels of uric acid, a potent antioxidant, were seen in the plasma during the active phase than in rest phase, which may explain the lower levels of oxidative damage despite high levels of physical activity. Our results challenge the hypothesis that oxidative stress is elevated during times with high energy use and call for more profound understanding of potential drivers of the modulation of oxidative stress such as metabolic state of the animal, and thus also the time of sampling in general.",
+      "journal": "Integrative and comparative biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37323075",
+      "title": "Are animal personality, body condition, physiology and structural size integrated? A comparison of species, populations and sexes, and the value of study replication",
+      "year": 2023,
+      "doi": "10.1111/1365-2656.13966",
+      "abstract": "A major question in behavioural ecology is why behaviour, physiology and morphology are often integrated into syndromes. In great tits, Parus major, for example, explorative males are larger (vs. smaller) and leaner (vs. heavier) compared to less explorative individuals. Unfortunately, considerable debate exists on whether patterns found in specific studies are replicable. This debate calls for study replication among species, populations and sexes. We measured behavioural (exploration), physiological (breathing rate) and morphological traits (body mass, tarsus length, wing length, bill length) in two species (great vs. blue tits Cyanistes caeruleus), two populations (Forstenrieder Park vs. Starnberg) and two sexes (males vs. females). We then tested whether the same pattern of integration characterized all unique combinations of these three biological categories (hereafter called datasets). We used a multi-year repeated measures set-up to estimate among-individual trait correlation matrices for each dataset. We then used structural equation modelling to test for size-dependent behaviour and physiology, size-corrected (i.e. size-independent) behaviour-physiology correlations and size-corrected body mass-dependent behaviour and physiology. Finally, we used meta-analyses to test which structural paths were generally (vs. conditionally) supported (vs. unsupported). We found general and consistent support for size-dependent physiology and size-corrected body mass-dependent physiology across datasets: faster breathers were smaller but heavier for their size. Unexpectedly, condition-dependent behaviour was not supported: explorative birds were neither leaner, nor was this relationship heterogeneous across datasets. All other hypothesized patterns were dataset-specific: the covariance between size and behaviour, and between behaviour and physiology differed in sign between datasets, and both were, on average, not supported. This heterogeneity was not explained by any of ou",
+      "journal": "The Journal of animal ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35509187",
+      "title": "Male song stability shows cross-year repeatability but does not affect reproductive success in a wild passerine bird",
+      "year": 2022,
+      "doi": "10.1111/1365-2656.13736",
+      "abstract": "Predictable behaviour (or 'behavioural stability') might be favoured in certain ecological contexts, for example when representing a quality signal. Costs associated with producing stable phenotypes imply selection should favour plasticity in stability when beneficial. Repeatable among-individual differences in degree of stability are simultaneously expected if individuals differ in ability to pay these costs, or in how they resolve cost-benefit trade-offs. Bird song represents a prime example, where stability may be costly yet beneficial when stable singing is a quality signal favoured by sexual selection. Assuming energetic costs, ecological variation (e.g. in food availability) should result in both within- and among-individual variation in stability. If song stability represents a quality signal, we expect directional selection favouring stable singers. For a 3-year period, we monitored 12 nest box plots of great tits Parus major during breeding. We recorded male songs during simulated territory intrusions, twice during their mate's laying stage and twice during incubation. Each preceding winter, we manipulated food availability. Assuming that stability is costly, we expected food-supplemented males to sing more stable songs. We also expected males to sing more stable songs early in the breeding season (when paternity is not decided) and stable singers to have increased reproductive success. We found strong support for plasticity in stability for two key song characteristics: minimum frequency and phrase length. Males were plastic because they became more stable over the season, contrary to expectations. Food supplementation did not affect body condition but increased stability in minimum frequency. This treatment effect occurred only in 1 year, implying that food supplementation affected stability only in interaction with (unknown) year-specific ecological factors. We found no support for directional, correlational or fluctuating selection on the stability in m",
+      "journal": "The Journal of animal ecology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_35332918",
+      "title": "Risk-taking coping style correlates with SERT SNP290 polymorphisms in free-living great tits",
+      "year": 2022,
+      "doi": "10.1242/jeb.243342",
+      "abstract": "The coping style of an individual in relation to potentially dangerous situations has been suggested to be inherited in a polygenic fashion, SERT being one of the candidate genes. In this study, we assessed in free-living great tits (Parus major) the association between SNP290 in the SERT promoter and three standard fear-related behaviors: the response of the birds to a black-and-white flag fixed to the top of the nest box, distress calling rate of the birds in the hand once captured and the hissing call of incubating females when approached by a predator. We found a strong association between SNP290 polymorphism and the three risk-taking behaviors, with birds with genotype CT entering the nest box with the flag faster and displaying more distress calls and fewer hissing calls. CT birds could therefore be described as more proactive than CC individuals. These results also suggest that hissing behavior should be regarded as a fear-induced shy behavior, and confirm that SERT has an important function in relation to risk aversion behaviors and coping style.",
+      "journal": "The Journal of experimental biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33413102",
+      "title": "Temporal changes in DNA methylation and RNA expression in a small song bird: within- and between-tissue comparisons",
+      "year": 2021,
+      "doi": "10.1186/s12864-020-07329-9",
+      "abstract": "BACKGROUND: DNA methylation is likely a key mechanism regulating changes in gene transcription in traits that show temporal fluctuations in response to environmental conditions. To understand the transcriptional role of DNA methylation we need simultaneous within-individual assessment of methylation changes and gene expression changes over time. Within-individual repeated sampling of tissues, which are essential for trait expression is, however, unfeasible (e.g. specific brain regions, liver and ovary for reproductive timing). Here, we explore to what extend between-individual changes in DNA methylation in a tissue accessible for repeated sampling (red blood cells (RBCs)) reflect such patterns in a tissue unavailable for repeated sampling (liver) and how these DNA methylation patterns are associated with gene expression in such inaccessible tissues (hypothalamus, ovary and liver). For this, 18 great tit (Parus major) females were sacrificed at three time points (n = 6 per time point) throughout the pre-laying and egg-laying period and their blood, hypothalamus, ovary and liver were sampled. RESULTS: We simultaneously assessed DNA methylation changes (via reduced representation bisulfite sequencing) and changes in gene expression (via RNA-seq and qPCR) over time. In general, we found a positive correlation between changes in CpG site methylation in RBCs and liver across timepoints. For CpG sites in close proximity to the transcription start site, an increase in RBC methylation over time was associated with a decrease in the expression of the associated gene in the ovary. In contrast, no such association with gene expression was found for CpG site methylation within the gene body or the 10 kb up- and downstream regions adjacent to the gene body. CONCLUSION: Temporal changes in DNA methylation are largely tissue-general, indicating that changes in RBC methylation can reflect changes in DNA methylation in other, often less accessible, tissues such as the liver in our ca",
+      "journal": "BMC genomics",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_33037460",
+      "title": "Wild great tits' alarm calls prompt vigilant behaviours in free-range chickens",
+      "year": 2021,
+      "doi": "10.1007/s10071-020-01440-w",
+      "abstract": "The ability to use heterospecific alarm calls is adaptive in the wild, as it provides an opportunity to avoid predators. We now know that several species are able to respond to alarm calls intended for others. However, this capacity has never been investigated in domestic animals. The capacity to use heterospecific alarm calls may be relevant for free-range domestic species, especially when they share predators with wild signallers. Using playback experiments, we investigated the vigilance behaviour of free-range naked neck chickens (Gallus gallus domesticus) when confronted with alarm calls (test playbacks) and songs (control playbacks) of a commonly occurring wild passerine, the great tit (Parus major). We found that subjects exhibited an increased vigilance to alarm calls compared to songs, therefore, showing that chickens respond to heterospecific signals as wild birds do. Recently, there has been an increased interest for free-range poultry production, notably because of the benefits of this farming method for chicken welfare. Although future studies are required to address this question, mortality due to predation may be reduced through the implementation of structures in areas frequented by wild heterospecific signallers.",
+      "journal": "Animal cognition",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32760175",
+      "title": "Extraterritorial forays by great tits are associated with dawn song in unexpected ways",
+      "year": 2020,
+      "doi": "10.1093/beheco/araa040",
+      "abstract": "Conspicuous male signals often play an important role in both attracting mates and deterring rivals. In territorial species with extrapair mating, female and male forays to other territories may be an important component underlying female choice and male mating success and might be influenced by male advertisement signals. Yet, whether off-territory foraying is associated with male signals is still not well understood. Here, we tested how female and male forays are associated with short-range visual and long-range acoustic signals (dawn song). We used an automated radio tracking system to follow the movements of wild great tits (",
+      "journal": "Behavioral ecology : official journal of the International Society for Behavioral Ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32420858",
+      "title": "The signal detection problem of aposematic prey revisited: integrating prior social and personal experience",
+      "year": 2020,
+      "doi": "10.1098/rstb.2019.0473",
+      "abstract": "Ever since Alfred R. Wallace suggested brightly coloured, toxic insects warn predators about their unprofitability, evolutionary biologists have searched for an explanation of how these aposematic prey evolve and are maintained in natural populations. Understanding how predators learn about this widespread prey defence is fundamental to addressing the problem, yet individuals differ in their foraging decisions and the predominant application of associative learning theory largely ignores predators' foraging context. Here we revisit the suggestion made 15 years ago that signal detection theory provides a useful framework to model predator learning by emphasizing the integration of prior information into predation decisions. Using multiple experiments where we modified the availability of social information using video playback, we show that personal information (sampling aposematic prey) improves how predators (great tits,",
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_71673",
@@ -297,11 +855,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_ece3_2686",
@@ -311,11 +865,7 @@
       "abstract": "Signals play a key role in the ecology and evolution of animal populations, influencing processes such as sexual selection and conflict resolution. In many species, sexually selected signals have a dual function: attracting mates and repelling rivals. Yet, to what extent males and females under natural conditions differentially respond to such signals remains poorly understood, due to a lack of field studies that simultaneously track both sexes. Using a novel spatial tracking system, we tested whether or not the spatial behavior of male and female great tits (<i>Parus major</i>) changes in relation to the vocal response of a territorial male neighbor to an intruder. We tracked the spatial behavior of male and female great tits (<i>N </i>=<i> </i>44), 1 hr before and 1 hr after simulating territory intrusions, employing automatized Encounternet radio-tracking technology. We recorded the spatial and vocal response of the challenged males and quantified attraction and repulsion of neighbo",
       "journal": "Ecology and Evolution",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_2173_bow-on_100217",
@@ -325,11 +875,7 @@
       "abstract": "",
       "journal": "Ornithological Notes",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_ibi_12374",
@@ -339,11 +885,7 @@
       "abstract": "Although most bird species show monogamous pair bonds and bi‐parental care, little is known of how mated birds coordinate their activities. Whether or not partners communicate with each other to adjust their behaviour remains an open question. During incubation and the first days after hatching, one parent – generally the female – stays in the nest for extended periods, and might depend on acoustic communication to exchange information with its mate outside. The Great Tit Parus major is an interesting study system to investigate intra‐pair communication at the nest because males address songs to their mate while she is in the nest cavity, and females answer the male from the cavity with calls. However, the function of this communication remains unknown. In this study, we recorded the vocalizations and observed the resulting behaviour of Great Tit pairs around the nest at different breeding stages (laying, incubation and chick‐rearing). We observed vocal exchanges (vocalization bouts, a",
       "journal": "Ibis",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_j_cub_2016_09_058",
@@ -353,11 +895,7 @@
       "abstract": "Anthropogenic noise is one of the fastest growing and most ubiquitous types of environmental pollution and can impair acoustic communication in a variety of animals [1]. Recent research has shown that birds can adjust acoustic parameters of their sexual signals (songs) in noisy environments [2,3], yet we know little about other types of vocalizations. Anti-predator signals contain subtle information that is critical for avoiding predation [4,5], and failure to detect these calls [6,7] as a result of anthropogenic noise pollution could have large fitness consequences by negatively impacting survival. We investigated whether traffic noise impacts both the production and perception of avian alarm calls using a combination of lab and field experiments with great tits (Parus major), a songbird that frequently inhabits noise-polluted environments. In response to experimental noise manipulation in controlled laboratory conditions, great tits increased the amplitude, but not the frequency para",
       "journal": "Current Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arv210",
@@ -367,11 +905,7 @@
       "abstract": "Predation induces strong selection on phenotypic traits, affecting prey via consumptive and nonconsumptive effects. Communication is important for territorial behavior, but can increase susceptibility to predators. Therefore, predation risk should influence prey communication patterns, territoriality, and fitness. We evaluated how this trade-off is resolved via 2 manipulations of perceived predation risk using audio playback in wild great tits ( Parus major ). In the first experiment, we examined the immediate response of individuals to playback; the second experiment, replicated across 2 years, examined both immediate and carry-over effects (over days) of playback broadcast for a 5-month period (March–July) in 12 nest box populations. Birds exposed to predator sounds showed decreased singing and increased alarming compared to controls, both immediately and on days without play back exposure (carry-over effects). Perceived predation risk did not affect how birds responded to simulated ",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1086_656275",
@@ -381,11 +915,7 @@
       "abstract": "In cities with intense low-frequency traffic noise, birds have been observed to sing louder and at a higher pitch. Several studies argue that higher song pitch is an adaptation to reduce masking from noise, and it has even been suggested that the song divergence between urban and nonurban songs might lead to reproductive isolation. Here we present models of signal transmission to compare the benefits of raised song amplitude and song pitch in terms of sound transmission. We chose two bird species that sing with higher pitch in urban areas, the great tit (Parus major) and the blackbird (Turdus merula). For both species, we calculated communication distances in response to different levels of urban noise and in their natural forest habitats. We found that an increase in vocal pitch increased communication distance only marginally. In contrast, vocal amplitude adjustments had a strong and significantly larger effect. Our results indicate that frequency changes of urban songs are not very ",
       "journal": "The American Naturalist",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1098_rspb_2010_0598",
@@ -395,11 +925,7 @@
       "abstract": "Individuals often differ consistently in behaviour across time and contexts, and such consistent behavioural differences are commonly described as personality. Personality can play a central role in social behaviour both in dyadic interactions and in social networks. We investigated whether explorative behaviour, as proxy of personality of territorial male great tits (Parus major), predicts their own and their neighbours' territorial responses towards simulated intruders. Several weeks prior to playback, subjects were taken from the wild to test their exploratory behaviour in a standard context in the laboratory. Exploratory behaviour provides a proxy of personality along a slow-fast explorer continuum. Upon release, males were radio-tracked and subsequently exposed to interactive playback simulating a more or a less aggressive territorial intruder (by either overlapping or alternating broadcast songs with the subjects' songs). At the same time, we radio-tracked a neighbour of the play",
       "journal": "Proceedings of the Royal Society B Biological Sciences",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1093_beheco_arm142",
@@ -409,11 +935,17 @@
       "abstract": "",
       "journal": "Behavioral Ecology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1007_s00265-006-0164-6",
+      "title": "Heterospecific song matching in two closely related songbirds (Parus major and P. caeruleus): great tits match blue tits but not vice versa",
+      "year": 2006,
+      "doi": "10.1007/s00265-006-0164-6",
+      "abstract": "",
+      "journal": "Behavioral Ecology and Sociobiology",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1163_1568539042360152",
@@ -423,11 +955,17 @@
       "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>Songbirds living in temperate forests experience great seasonal changes in habitat acoustics during the part of the breeding season when singing activity is high. These changes, which are brought about by accelerated vegetation growth and leaf burst in spring, affect sound propagation and potentially render vocal communication more difficult as the total number of scattering and absorbing obstacles increases. We investigated this in a sound transmission experiment in which representative great tit (Parus major) songs were broadcast in a typical forest habitat before and after foliation. Speaker and microphone were placed at natural separation distances and in typical sender and receiver positions. For each song note we quantified several aspects of sound degradation and found that they all increased considerably when leaves were present. Before foliation the same amount of degradation would only be obtained by doubling the transmission",
       "journal": "Behaviour",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1642_0004-8038(2004)121[0184:icbmaf]2_0_co;2",
+      "title": "INTERACTIVE COMMUNICATION BETWEEN MALE AND FEMALE GREAT TITS (PARUS MAJOR) DURING THE DAWN CHORUS",
+      "year": 2004,
+      "doi": "10.1642/0004-8038(2004)121[0184:icbmaf]2.0.co;2",
+      "abstract": "Abstract Studies of the dawn chorus in birds have focused mainly on the behavior and song output of males and on the function(s) of male song. Less attention has been paid to the females' behavior and to communication between members of a pair. In Great Tits (Parus major), males sing vigorously at dawn in the vicinity of the female's nest hole just before and during egg laying. We studied the female's vocal behavior during the dawn chorus as well as communication between pair members. All females vocally interacted with their mates from inside the nest box. Females produced a sound with a very low sound-pressure level only audible from few meters, which we have named the “quiet call.” This quiet call was unique to females and was only produced from inside the nest box. To our knowledge, our study is the first to show that both members of a pair vocally interact during the dawn chorus. Given that many temperate-zone bird species have similar life histories as the Great Tit, it is very l",
+      "journal": "The Auk",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_2307_3676789",
@@ -437,11 +975,7 @@
       "abstract": "",
       "journal": "Ornis Scandinavica",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "lit_gbif_5788204_15",
@@ -451,11 +985,17 @@
       "abstract": "Pp. 95-131 in Acoustic communication in birds, vol. 1 (D. E. Kroodsma and E. H. Miller, Eds.). New York, Academic Press. DOOLING, R. J., T. J. PARK, D. D. BROWN, K. OKANOYA, & S. D. SOLI. 1987. Perceptual organization of acoustic stimuli by Budgerigars (Melopsittacus undulatus): II. vocal signals. J. Comp. Psychol. 101: 367-381. FALLS, J. B., A. G. HORN, & T. E. DICKINSON. 1988. How Western Meadowlarks classify their songs: evidence from song matching. Anim. Behav. 36: 579-585. LAMBRECHTS, M., & A. A. DHONDT. 1986. Male quality, reproduction, and survival in the Great Tit (Parus major). Behav. Ecol. Sociobiol. 19: 57-63. McGREGOR, P. K., & J. R. KREBS. 1982. Song types in a population of Great Tits (Parus major): their distribution, abundance, and acquisition by individuals. Behaviour 79: 126-152. NELSON, D. A. 1988. Feature weighting in species song recognition by the Field Sparrow (Spizella pusilla). Behaviour 106: 158-182. SAS INSTnuTE INC. 1986. SAS user's guide: statistics, 1986 e",
       "journal": "",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_9705453_15",
+      "title": "Identification of nest predators by photography, dummy eggs, and adhesive tape",
+      "year": 1991,
+      "doi": null,
+      "abstract": "Pp. 95-131 in Acoustic communication in birds, vol. 1 (D. E. Kroodsma and E. H. Miller, Eds.). New York, Academic Press. DOOLING, R. J., T. J. PARK, D. D. BROWN, K. OKANOYA, & S. D. SOLI. 1987. Perceptual organization of acoustic stimuli by Budgerigars (Melopsittacus undulatus): II. vocal signals. J. Comp. Psychol. 101: 367-381. FALLS, J. B., A. G. HORN, & T. E. DICKINSON. 1988. How Western Meadowlarks classify their songs: evidence from song matching. Anim. Behav. 36: 579-585. LAMBRECHTS, M., & A. A. DHONDT. 1986. Male quality, reproduction, and survival in the Great Tit (Parus major). Behav. Ecol. Sociobiol. 19: 57-63. McGREGOR, P. K., & J. R. KREBS. 1982. Song types in a population of Great Tits (Parus major): their distribution, abundance, and acquisition by individuals. Behaviour 79: 126-152. NELSON, D. A. 1988. Feature weighting in species song recognition by the Field Sparrow (Spizella pusilla). Behaviour 106: 158-182. SAS INSTnuTE INC. 1986. SAS user's guide: statistics, 1986 e",
+      "journal": "",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf01644359",
@@ -465,11 +1005,7 @@
       "abstract": "",
       "journal": "Journal für Ornithologie",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1002_dev_420150204",
@@ -479,11 +1015,7 @@
       "abstract": "<jats:title>Abstract</jats:title><jats:p>The reactions of 10‐day‐old great tit nestlings to 3 auditory stimuli were studied. The stimuli, presented on a series of feeding occasions, were (1) the species' “seeet” alarm call, (2) a song strophe of the great tit, and (3) a song strophe of the tree‐creeper (<jats:italic>Certhia familiaris</jats:italic>). In contrast to earlier findings in studies of older nestlings, these younger nestlings did not respond to the alarm call with cessation of begging. However, a significant differential effect of the alarm call was demonstrated when the conditioning rates for the nestlings' begging response to each of the 3 stimuli were determined. Thus, conditioning was significantly slower to the alarm call than to the other stimuli. The results agree with the general conception that responses to species‐specific calls develop gradually during early ontogenesis. Thus fear responses to the alarm call, such as cessation of begging and “freezing,” which are e",
       "journal": "Developmental Psychobiology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1037_h0077680",
@@ -493,11 +1025,7 @@
       "abstract": "",
       "journal": "Journal of Comparative and Physiological Psychology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_5040_9781472926975_0052",
@@ -507,11 +1035,7 @@
       "abstract": "",
       "journal": "The Birds of Africa",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_70675_1598a404z7742z48eaz980fze728e132f5c7",
@@ -521,14 +1045,10 @@
       "abstract": "<jats:p xml:lang=\"fr\">Les soins biparentaux impliquent que mâles et femelles travaillent ensemble et ajustent leur comportement l’un à l’autre. De nombreuses études théoriques et empiriques se sont intéressées à la façon dont un parent réagit face à une augmentation ou une diminution de l’effort parental de son partenaire. Mais très peu se sont intéressées aux mécanismes qui permettent cet ajustement. C’est chez les oiseaux qu’on trouve le plus d’espèces à soins biparentaux. Parce que ce sont des animaux qui produisent beaucoup de sons, la communication acoustique pourrait jouer un rôle dans l’organisation des soins parentaux. Le but de cette thèse est de contribuer à vérifier cette hypothèse en comparant deux espèces d’oiseaux qui diffèrent dans la façon dont le mâle et la femelle se partagent les soins parentaux. Chez le diamant mandarin, le mâle et la femelle participent tous les deux à l’incubation des oeufs tandis que c’est la femelle seule qui se charge de cette tâche chez la més",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 19,
+  "paper_count": 37,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

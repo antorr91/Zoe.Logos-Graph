@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 16,
-    "claim_count": 7,
-    "doi_count": 17,
-    "media_count": 0
+    "paper_count": 32,
+    "claim_count": 9,
+    "doi_count": 25,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -45,14 +45,14 @@
     "stridulation"
   ],
   "contexts": [
-    "mate attraction",
     "swarming",
-    "territorial defence"
+    "territorial defence",
+    "mate attraction"
   ],
   "functions": [
+    "swarm coordination",
     "mate attraction",
-    "rival deterrence",
-    "swarm coordination"
+    "rival deterrence"
   ],
   "communication_profile": {
     "vocalisations": [
@@ -60,51 +60,170 @@
         "value": "stridulation",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "mate attraction",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "swarming",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "territorial defence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      }
-    ],
-    "functions": [
+        "evidence_count": 2
+      },
       {
         "value": "mate attraction",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      }
+    ],
+    "functions": [
+      {
+        "value": "swarm coordination",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
+      },
+      {
+        "value": "mate attraction",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "rival deterrence",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
-      },
-      {
-        "value": "swarm coordination",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 153,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 152,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 151,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 150,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 149,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 148,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 147,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 146,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 145,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
     "provider": "external_links",
     "xc_query": "",
@@ -113,11 +232,32 @@
   },
   "open_papers": [
     {
+      "doi": "10.1007/s10886-025-01687-y",
+      "url": "https://doi.org/10.1007/s10886-025-01687-y",
+      "title": "Cuticular Hydrocarbon Differentiation Between Body Parts of Schistocerca gregaria Locusts",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1093/beheco/arae061",
       "url": "https://doi.org/10.1093/beheco/arae061",
       "title": "The scent of offspring: chemical profiles of larvae change during development and affect parental behavior in a burying beetle",
       "year": 2024,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1186/s12915-024-01941-x",
+      "url": "https://doi.org/10.1186/s12915-024-01941-x",
+      "title": "SNMP1 is critical for sensitive detection of the desert locust aromatic courtship inhibition pheromone phenylacetonitrile",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1073/pnas.2200759119",
+      "url": "https://doi.org/10.1073/pnas.2200759119",
+      "title": "Sexual repurposing of juvenile aposematism in locusts",
+      "year": 2022,
+      "source": "pubmed"
     },
     {
       "doi": "10.1079/cabicompendium.49833",
@@ -127,11 +267,39 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1523/JNEUROSCI.2279-19.2019",
+      "url": "https://doi.org/10.1523/JNEUROSCI.2279-19.2019",
+      "title": "Physiological Basis of Noise-Induced Hearing Loss in a Tympanal Ear",
+      "year": 2020,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-019-47253-x",
+      "url": "https://doi.org/10.1038/s41598-019-47253-x",
+      "title": "Juvenile Hormone receptor Met is essential for ovarian maturation in the Desert Locust, Schistocerca gregaria",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1242/jeb.206052",
       "url": "https://doi.org/10.1242/jeb.206052",
       "title": "How do red-eyed treefrog embryos sense motion in predator attacks? Assessing the role of vestibular mechanoreception",
       "year": 2019,
       "source": "openalex"
+    },
+    {
+      "doi": "10.3390/insects10100350",
+      "url": "https://doi.org/10.3390/insects10100350",
+      "title": "A Subset of Odorant Receptors from the Desert Locust",
+      "year": 2019,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.2310-17.2018",
+      "url": "https://doi.org/10.1523/JNEUROSCI.2310-17.2018",
+      "title": "The Role of the Mechanotransduction Ion Channel Candidate Nanchung-Inactive in Auditory Transduction in an Insect Ear",
+      "year": 2018,
+      "source": "pubmed"
     },
     {
       "doi": "10.1126/science.aan0221",
@@ -190,6 +358,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1127/entom.gen/22/1997/109",
+      "url": "https://doi.org/10.1127/entom.gen/22/1997/109",
+      "title": "Perception of Species-specific Volatile Substances in the Desert Locust Schistocerca gregaria (Caelifera: Acrididae)",
+      "year": 1997,
+      "source": "crossref"
+    },
+    {
       "doi": "10.26021/6852",
       "url": "https://doi.org/10.26021/6852",
       "title": "The breeding system of the South Island Rifleman (Acanthisitta Chloris) at Kowhai Bush, Kaikoura, New Zealand.",
@@ -234,6 +409,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41677934",
+      "title": "Cuticular Hydrocarbon Differentiation Between Body Parts of Schistocerca gregaria Locusts",
+      "year": 2026,
+      "doi": "10.1007/s10886-025-01687-y",
+      "abstract": "UNLABELLED: Insects cover their bodies with a layer of cuticular hydrocarbons (CHCs) that reduce water loss and serve as communication signals and potentially as lubricants. CHC composition is highly diverse, varying among individuals and species. However, CHC variation has been rarely studied between different body parts of the same individual. Whether intra-individual CHC variation across the insect body arises from differences in diffusion rates between different CHCs or from distinct functional roles of the CHC layer across body regions remains unknown. Here, we analyzed the CHC composition of antennae, head, thorax, abdomen, front legs, hind femur and tibia, as well as whole-body extracts of the desert locust  SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s10886-025-01687-y.",
+      "journal": "Journal of chemical ecology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1093_beheco_arae061",
       "title": "The scent of offspring: chemical profiles of larvae change during development and affect parental behavior in a burying beetle",
       "year": 2024,
@@ -241,11 +426,17 @@
       "abstract": "Chemical cues and signals, especially in insects, play a pivotal role in mediating interactions between individuals. Past studies have largely focused on adult semiochemicals and have neglected those of juvenile stages. Especially in the context of parental care, the larval odor might have a profound impact on parenting behavior, guiding parents in how much resources they should allocate to the different developmental stages. However, whether ontogenetic changes occur in subsocial species and whether larval-emitted scents influence parent-offspring interactions is largely unknown. Using 3 different sampling techniques, we analyzed the cuticular and VOC profile of the 3 larval instars of the burying beetle <i>Nicrophorus vespilloides</i>, which is known for its elaborate parental care. We found distinct differences in the cuticular and VOC profiles across the 3 larval stages. Second-instar larvae, which receive more frequent feedings from parents than the other larval stages, released g",
       "journal": "Behavioral Ecology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_38973001",
+      "title": "SNMP1 is critical for sensitive detection of the desert locust aromatic courtship inhibition pheromone phenylacetonitrile",
+      "year": 2024,
+      "doi": "10.1186/s12915-024-01941-x",
+      "abstract": "BACKGROUND: Accurate detection of pheromones is crucial for chemical communication and reproduction in insects. In holometabolous flies and moths, the sensory neuron membrane protein 1 (SNMP1) is essential for detecting long-chain aliphatic pheromones by olfactory neurons. However, its function in hemimetabolous insects and its role for detecting pheromones of a different chemical nature remain elusive. Therefore, we investigated the relevance of SNMP1 for pheromone detection in a hemimetabolous insect pest of considerable economic importance, the desert locust Schistocerca gregaria, which moreover employs the aromatic pheromone phenylacetonitrile (PAN) to govern reproductive behaviors. RESULTS: Employing CRISPR/Cas-mediated gene editing, a mutant locust line lacking functional SNMP1 was established. In electroantennography experiments and single sensillum recordings, we found significantly decreased electrical responses to PAN in SNMP1-deficient (SNMP1 CONCLUSIONS: Our findings emphasize the importance of SNMP1 for chemical communication in a hemimetabolous insect pest. Moreover, they show that SNMP1 plays a crucial role in pheromone detection that goes beyond long-chain aliphatic substances and includes aromatic compounds controlling reproductive behaviors.",
+      "journal": "BMC biology",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_49833",
@@ -255,11 +446,27 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_35969777",
+      "title": "Sexual repurposing of juvenile aposematism in locusts",
+      "year": 2022,
+      "doi": "10.1073/pnas.2200759119",
+      "abstract": "Adaptive plasticity requires an integrated suite of functional responses to environmental variation, which can include social communication across life stages. Desert locusts (",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_32144181",
+      "title": "Physiological Basis of Noise-Induced Hearing Loss in a Tympanal Ear",
+      "year": 2020,
+      "doi": "10.1523/JNEUROSCI.2279-19.2019",
+      "abstract": "Acoustic overexposure, such as listening to loud music too often, results in noise-induced hearing loss. The pathologies of this prevalent sensory disorder begin within the ear at synapses of the primary auditory receptors, their postsynaptic partners and their supporting cells. The extent of noise-induced damage, however, is determined by overstimulation of primary auditory receptors, upstream of where the pathologies manifest. A systematic characterization of the electrophysiological function of the upstream primary auditory receptors is warranted to understand how noise exposure impacts on downstream targets, where the pathologies of hearing loss begin. Here, we used the experimentally-accessible locust ear (male,",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1242_jeb_206052",
@@ -269,11 +476,37 @@
       "abstract": "The widespread ability to alter timing of hatching in response to environmental cues can serve as a defense against threats to eggs. Arboreal embryos of red-eyed treefrogs, <i>Agalychnis callidryas</i>, can hatch up to 30% prematurely to escape predation. This escape-hatching response is cued by physical disturbance of eggs during attacks, including vibrations or motion, and thus depends critically on mechanosensory ability. Predator-induced hatching appears later in development than flooding-induced, hypoxia-cued hatching; thus, its onset is not constrained by the development of hatching ability. It may, instead, reflect the development of mechanosensor function. We hypothesize that vestibular mechanoreception mediates escape-hatching in snake attacks, and that the developmental period when hatching-competent embryos fail to flee from snakes reflects a sensory constraint. We assessed the ontogenetic congruence of escape-hatching responses and an indicator of vestibular function, the v",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_31627262",
+      "title": "A Subset of Odorant Receptors from the Desert Locust",
+      "year": 2019,
+      "doi": "10.3390/insects10100350",
+      "abstract": "In the desert locust",
+      "journal": "Insects",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_31346226",
+      "title": "Juvenile Hormone receptor Met is essential for ovarian maturation in the Desert Locust, Schistocerca gregaria",
+      "year": 2019,
+      "doi": "10.1038/s41598-019-47253-x",
+      "abstract": "Juvenile hormones (JH) are key endocrine regulators produced by the corpora allata (CA) of insects. Together with ecdysteroids, as well as nutritional cues, JH coordinates different aspects of insect postembryonic development and reproduction. The function of the recently characterized JH receptor, Methoprene-tolerant (Met), appears to be conserved in different processes regulated by JH. However, its functional interactions with other hormonal signalling pathways seem highly dependent on the feeding habits and on the developmental and reproductive strategies employed by the insect species investigated. Here we report on the effects of RNA interference (RNAi) mediated SgMet knockdown during the first gonadotrophic cycle in female desert locusts (Schistocerca gregaria). This voracious, phytophagous pest species can form migrating swarms that devastate field crops and harvests in several of the world's poorest countries. A better knowledge of the JH signalling pathway may contribute to the development of novel, more target-specific insecticides to combat this very harmful swarming pest. Using RNAi, we show that the JH receptor Met is essential for ovarian maturation, vitellogenesis and associated ecdysteroid biosynthesis in adult female S. gregaria. Interestingly, knockdown of SgMet also resulted in a significant decrease of insulin-related peptide (SgIRP) and increase of neuroparsin (SgNP) 3 and 4 transcript levels in the fat body, illustrating the existence of an intricate regulatory interplay between different hormonal factors. In addition, SgMet knockdown in females resulted in delayed display of copulation behaviour with virgin males, when compared with dsGFP injected control animals. Moreover, we observed an incapacity of adult dsSgMet injected female locusts to oviposit during the time of the experimental setup. As such, SgMet is an essential gene playing crucial roles in the endocrine communication necessary for successful reproduction of the desert locust.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_29540551",
+      "title": "The Role of the Mechanotransduction Ion Channel Candidate Nanchung-Inactive in Auditory Transduction in an Insect Ear",
+      "year": 2018,
+      "doi": "10.1523/JNEUROSCI.2310-17.2018",
+      "abstract": "Insect auditory receivers provide an excellent comparative resource to understand general principles of auditory transduction, but analysis of the electrophysiological properties of the auditory neurons has been hampered by their tiny size and inaccessibility. Here we pioneer patch-clamp recordings from the auditory neurons of Müller's organ of the desert locust",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1126_science_aan0221",
@@ -283,11 +516,17 @@
       "abstract": "Coloration mediates the relationship between an organism and its environment in important ways, including social signaling, antipredator defenses, parasitic exploitation, thermoregulation, and protection from ultraviolet light, microbes, and abrasion. Methodological breakthroughs are accelerating knowledge of the processes underlying both the production of animal coloration and its perception, experiments are advancing understanding of mechanism and function, and measurements of color collected noninvasively and at a global scale are opening windows to evolutionary dynamics more generally. Here we provide a roadmap of these advances and identify hitherto unrecognized challenges for this multi- and interdisciplinary field.",
       "journal": "Science",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_27554189",
+      "title": "Composition and emission dynamics of migratory locust volatiles in response to changes in developmental stages and population density",
+      "year": 2017,
+      "doi": "10.1111/1744-7917.12396",
+      "abstract": "Chemical communication plays an important role in density-dependent phase change in locusts. However, the volatile components and emission patterns of the migratory locust, Locusta migratoria, are largely unknown. In this study, we identified the chemical compositions and emission dynamics of locust volatiles from the body and feces and associated them with developmental stages, sexes and phase changes. The migratory locust shares a number of volatile components with the desert locust (Schistocerca gregaria), but the emission dynamics of the two locust species are significantly different. The body odors of the gregarious nymphs in the migratory locust consisted of phenylacetonitrile (PAN), benzaldehyde, guaiacol, phenol, aliphatic acids and 2,3-butanediol, and PAN was the dominant volatile. Volatiles from the fecal pellets of the nymphs primarily consist of guaiacol and phenol. Principal component analysis (PCA) showed significant differences in the volatile profiles between gregarious and solitary locusts. PAN and 4-vinylanisole concentrations were significantly higher in gregarious individuals than in solitary locusts. Gregarious mature males released significantly higher amounts of PAN and 4-vinylanisole during adulthood than mature females and immature adults of both sexes. Furthermore, PAN and 4-vinylanisole were completely lost in gregarious nymphs during the solitarization process, but were obtained by solitary nymphs during gregarization. The amounts of benzaldehyde, guaiacol and phenol only unidirectionally decreased from solitary to crowded treatment. Aliphatic aldehydes (C7 to C10), which were previously reported as locust volatiles, are now identified as environmental contaminants. Therefore, our results illustrate the precise odor profiles of migratory locusts during developmental stages, sexes and phase change. However, the function and role of PAN and other aromatic compounds during phase transition need further investigation.",
+      "journal": "Insect science",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1603_ice_2016_95194",
@@ -297,11 +536,7 @@
       "abstract": "",
       "journal": "2016 International Congress of Entomology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_3389_fnins_2016_00223",
@@ -311,11 +546,7 @@
       "abstract": "Insect sounds dominate the acoustic environment in many natural habitats such as rainforests or meadows on a warm summer day. Among acoustic insects, usually males are the calling sex; they generate signals that transmit information about the species-identity, sex, location, or even sender quality to conspecific receivers. Males of some insect species generate signals at distinct time intervals, and other males adjust their own rhythm relative to that of their conspecific neighbors, which leads to fascinating acoustic group displays. Although signal timing in a chorus can have important consequences for the calling energetics, reproductive success and predation risk of individuals, still little is known about the selective forces that favor the evolution of insect choruses. Here, we review recent advances in our understanding of the neuronal network responsible for acoustic pattern generation of a signaler, and pattern recognition in receivers. We also describe different proximate mech",
       "journal": "Frontiers in Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_7554_elife_07277",
@@ -325,11 +556,27 @@
       "abstract": "Many animal species, including insects, are capable of acoustic duetting, a complex social behavior in which males and females tightly control the rate and timing of their courtship song syllables relative to each other. The mechanisms underlying duetting remain largely unknown across model systems. Most studies of duetting focus exclusively on acoustic interactions, but the use of multisensory cues should aid in coordinating behavior between individuals. To test this hypothesis, we develop Drosophila virilis as a new model for studies of duetting. By combining sensory manipulations, quantitative behavioral assays, and statistical modeling, we show that virilis females combine precisely timed auditory and tactile cues to drive song production and duetting. Tactile cues delivered to the abdomen and genitalia play the larger role in females, as even headless females continue to coordinate song production with courting males. These data, therefore, reveal a novel, non-acoustic, mechanism ",
       "journal": "eLife",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_23867828",
+      "title": "Identification of pheromone-like compounds in male reproductive organs of the oriental locust Locusta migratoria",
+      "year": 2013,
+      "doi": "10.1016/j.bbrc.2013.07.015",
+      "abstract": "Despite the great economical interest of locusts in agriculture, knowledge on their chemoreception systems is still poor. Phenylacetonitrile is recognised as a pheromone of the desert locust Schistocerca gregaria, triggering gregarization, promoting aggregation and inhibiting courtship. However, in the other major locust species, Locusta migratoria, pheromones have not been reported. We have identified the two isomers of naphthylpropionitrile from the male reproductive organs of L. migratoria. Chemical synthesis has confirmed the identity of the two compounds. Both isomers show significant affinity to CSP91, a protein reported in the testis, but not to three other proteins of the same family (CSP180, CSP540 and CSP884) expressed in female accessory glands. The striking similarity of these compounds with phenylacetonitrile and the unusual nature of such chemicals strongly suggest that naphthylpropionitrile could be pheromones for L. migratoria, while their site of expression and binding activity indicate a role in communication between sexes.",
+      "journal": "Biochemical and biophysical research communications",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_23782271",
+      "title": "The role of gap junction proteins in the development of neural network functional topology",
+      "year": 2013,
+      "doi": "10.1111/imb.12036",
+      "abstract": "Gap junctions (GJs) provide a common form of intercellular communication in most animal cells and tissues, from Hydra to human, including electrical synaptic signalling. Cell coupling via GJs has an important role in development in general, and in neural network development in particular. However, quantitative studies monitoring GJ proteins throughout nervous system development are few. Direct investigations demonstrating a role for GJ proteins by way of experimental manipulation of their expression are also rare. In the current work we focused on the role of invertebrate GJ proteins (innexins) in the in vitro development of neural network functional topology, using two-dimensional neural culture preparations derived from the frontal ganglion of the desert locust, Schistocerca gregaria. Immunocytochemistry and quantitative real-time PCR revealed a dynamic expression pattern of the innexins during development of the cultured networks. Changes were observed both in the levels and in the localization of expression. Down-regulating the expression of innexins, by using double-strand RNA for the first time in locust neural cultures, induced clear changes in network morphology, as well as inhibition of synaptogenesis, thus suggesting a role for GJs during the development of the functional topology of neuronal networks.",
+      "journal": "Insect molecular biology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1523_jneurosci_4207-11_2012",
@@ -339,11 +586,17 @@
       "abstract": "Noisy or spontaneous activity is common in neural systems and poses a challenge to detecting and discriminating signals. Here we use the locust to answer fundamental questions about noise in the olfactory system: Where does spontaneous activity originate? How is this activity propagated or reduced throughout multiple stages of neural processing? What mechanisms favor the detection of signals despite the presence of spontaneous activity? We found that spontaneous activity long observed in the secondary projection neurons (PNs) originates almost entirely from the primary olfactory receptor neurons (ORNs) rather than from spontaneous circuit interactions in the antennal lobe, and that spontaneous activity in ORNs tonically depolarizes the resting membrane potentials of their target PNs and local neurons (LNs) and indirectly tonically depolarizes tertiary Kenyon cells (KCs). However, because these neurons have different response thresholds, in the absence of odor stimulation, ORNs and PNs ",
       "journal": "Journal of Neuroscience",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "pmid_22409323",
+      "title": "Spectral clustering in peptidomics studies allows homology searching and modification profiling: HomClus, a versatile tool",
+      "year": 2012,
+      "doi": "10.1021/pr201114m",
+      "abstract": "Many genomes of nonmodel organisms are yet to be annotated. Peptidomics research on those organisms therefore cannot adopt the commonly used database-driven identification strategy, leaving the more difficult de novo sequencing approach as the only alternative. The reported tool uses the growing resources of publicly or in-house available fragmentation spectra and sequences of (model) organisms to elucidate the identity of peptides of experimental spectra of nonannotated species. Clustering algorithms are implemented to infer the identity of unknown peak lists based on their publicly or in-house available counterparts. The reported tool, which we call the HomClus-tool, can cope with post-translational modifications and amino acid substitutions. We applied this tool on two locusts (Schistocerca gregaria and Locusta migratoria) LC-MALDI-TOF/TOF datasets. Compared to a Mascot database search (using the available UniProt-KB proteins of these species), we were able to double the amount of peptide identifications for both spectral sets. Known bioactive peptides from Drosophila melanogaster (i.e., fragmentations spectra generated in silico thereof) were used as a starting point for clustering, trying to reveal their experimental homologues' counterparts.",
+      "journal": "Journal of proteome research",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1242_jeb_057901",
@@ -353,11 +606,7 @@
       "abstract": "Acoustically interacting males of the tropical katydid Mecopoda elongata synchronize their chirps imperfectly, so that one male calls consistently earlier in time than the other. In choice situations, females prefer the leader signal, and it has been suggested that a neuronal mechanism based on directional hearing may be responsible for the asymmetric, stronger representation of the leader signal in receivers. Here, we investigated the potential mechanism in a pair of interneurons (TN1 neuron) of the afferent auditory pathway, known for its contralateral inhibitory input in directional hearing. In this interneuron, conspecific signals are reliably encoded under natural conditions, despite high background noise levels. Unilateral presentations of a conspecific chirp elicited a TN1 response where each suprathreshold syllable in the chirp was reliably copied in a phase-locked fashion. Two identical chirps broadcast with a 180 deg spatial separation resulted in a strong suppression of the ",
       "journal": "Journal of Experimental Biology",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1055_s-0030-1250443",
@@ -367,11 +616,47 @@
       "abstract": "",
       "journal": "Homoeopathic Links",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_19124078",
+      "title": "Innexin genes and gap junction proteins in the locust frontal ganglion",
+      "year": 2009,
+      "doi": "10.1016/j.ibmb.2008.12.002",
+      "abstract": "Gap junctions (GJs) belong to one of the most conserved cellular structures in multicellular organisms. They probably serve similar functions in all Metazoa, providing one of the most common forms of intercellular communication. GJs are widely distributed in embryonic cells and tissues and have been attributed an important role in development, modulating cell growth and differentiation. These channels have been also implicated in mediating electrical synaptic signaling; Coupling through GJs is now accepted as a major pathway that supports network behavior and contributes to physiological rhythms. Here we focus on the physiology and molecular biology of GJs in a recently established model for the study of rhythm-generating networks and their role in behavior: the frontal ganglion (FG) of the desert locust, Schistocerca gregaria. Four novel genes of the invertebrate GJs (innexin) gene family were found to be expressed in the FG: Sg-inx1, Sg-inx2, Sg-inx3 and Sg-inx4. Immunohistochemistry revealed that some of the neurons in the FG express at least one innexin protein, INX1. We also established the presence of functional gap junction proteins in the FG and demonstrated functional electrical coupling between the neurons in the FG. This study forms the basis for further investigation of the role of GJs in network development and behavior.",
+      "journal": "Insect biochemistry and molecular biology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_18678281",
+      "title": "Fascicle switching generates a chiasmal neuroarchitecture in the embryonic central body of the grasshopper Schistocerca gregaria",
+      "year": 2008,
+      "doi": "10.1016/j.asd.2008.07.005",
+      "abstract": "The central body is a prominent neuropilar structure in the midbrain of the grasshopper and is characterized by a fan-shaped array of fiber columns, which are part of a chiasmal system linking anterior and posterior commissures. These columns are established during embryogenesis and comprise axons from cell clusters in the pars intercerebralis, which project to the central body via the so-called w, x, y, z tracts. Up to mid-embryogenesis the primary axon scaffold in both the brain and ventral nerve cord comprises a simple orthogonal arrangement of commissural and longitudinal fiber pathways. No chiasmata are present and this pattern is maintained during subsequent development of the ventral nerve cord. In the midbrain, individual axons entering the commissural system from each of the w, x, y, z tracts after mid-embryogenesis (55%) are seen to systematically de-fasciculate from an anterior commissure and re-fasciculate with another more posterior commissure en route across the midline, a feature we call \"fascicle switching\". Since the w, x, y, z tracts are bilaterally symmetrical, fascicle switching generates chiasmata at stereotypic locations across the midbrain. Choice points for leaving and entering fascicles mark the anterior and posterior positions of each future column. As the midbrain neuropil expands, the anterior and posterior groups of commissures condense, so that the chiasmata spanning the widening gap between them become progressively more orthogonally oriented. A columnar neuroarchitecture resembling that of the adult central body is already apparent at 70% of embryogenesis.",
+      "journal": "Arthropod structure & development",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_17427931",
+      "title": "New isoforms of odorant-binding proteins and potential semiochemicals of locusts",
+      "year": 2007,
+      "doi": "10.1002/arch.20176",
+      "abstract": "To obtain more information on the elements of chemical communication in the migratory locust (Locusta migratoria) (Orthoptera: Acrididae), we have searched for additional odorant-binding proteins (OBPs) and for volatiles in the feces that could represent potential semiochemicals for this species. A two-dimensional electrophoretic (2DE) analysis of an antennal extract showed only three closely positioned spots that were recognized by the antiserum against locust OBP. Three genes were also identified using PCR and 5'RACE-PCR approaches, encoding isoforms differing from each other for a single amino acid substitution. The gas-chromatographic-electroantennogram (GC-EAD) headspace analysis of a feces sample revealed the presence of several compounds that elicited dose-dependent electrophysiological responses in the antennae of both sexes. Most of these compounds are different from those identified in the feces of the desert locust (Schistocerca gregaria) and reported to be behaviorally active. Ligand-binding experiments performed with such volatiles and recombinant OBP did not show affinity, thus indicating that the binding pocket of OBP requires larger molecules than those so far identified.",
+      "journal": "Archives of insect biochemistry and physiology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_15355238",
+      "title": "Chemical ecology of locusts and related acridids",
+      "year": 2005,
+      "doi": "10.1146/annurev.ento.50.071803.130345",
+      "abstract": "The results and insights from recent research on the chemical ecology of polymorphic acridids are reviewed. Many of the new findings come from studies on the desert locust, Schistocerca gregaria, which has continued to be the primary research insect in most laboratories. Earlier confusion between stimuli associated with phase change and social cohesion has been resolved. The roles of chemotactile and olfactory cues together with tactile and visual stimuli in key locust processes, comprising gregarization, social cohesion, synchronous maturation, mating, oviposition, and maternal transfer of gregarious character, are better understood. Some of the key pheromones of the gregarious phase have been characterized. Chemical communication is also shown to be important in the life style of the solitarious phase. The behavioral pattern and responses of this phase reflect a strong propensity of the species to exploit opportunities under appropriate conditions to form or join the crowd and to gregarize. Outstanding questions are highlighted.",
+      "journal": "Annual review of entomology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1127_entom_gen_26_2002_161",
@@ -381,11 +666,17 @@
       "abstract": "",
       "journal": "Entomologia Generalis",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "10_1127_entom_gen_22_1997_109",
+      "title": "Perception of Species-specific Volatile Substances in the Desert Locust Schistocerca gregaria (Caelifera: Acrididae)",
+      "year": 1997,
+      "doi": "10.1127/entom.gen/22/1997/109",
+      "abstract": "",
+      "journal": "Entomologia Generalis",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_26021_6852",
@@ -395,11 +686,7 @@
       "abstract": "Two populations of Riflemen (Acanthisitta chloris chloris) at Kowhai Bush. Kaikoura on the east coast of the South Island of New Zealand were studied for four and three years. It was predicted that because Riflemen were exceptionally small and potentially energetically constrained they would employ a highly cooperative parental care system. Riflemen parents displayed a high degree of cooperation throughout the breeding cycle. Parental effort was measured throughout the breeding cycle which entailed rearing two broods. Prior to and during laying first clutches the male fed the female and it was estimated that courtship-feeding supplied the female with the extra food required for oogenesis. Incubation was shared with the male sitting for about half as long again as the female during the day and the female only sitting during the night. Male parents fed offspring about one and a half times as often as females did. Sometimes parents benefitted from helpers feeding their offspring with the ",
       "journal": "University of Canterbury Research Repository (University of Canterbury)",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_springerreference_86075",
@@ -409,11 +696,7 @@
       "abstract": "",
       "journal": "SpringerReference",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_0-306-48380-7_1207",
@@ -423,11 +706,7 @@
       "abstract": "",
       "journal": "Encyclopedia of Entomology",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1021_bi060998w_s002",
@@ -437,11 +716,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1021_bi060998w_s001",
@@ -451,14 +726,10 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     }
   ],
-  "paper_count": 16,
+  "paper_count": 32,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",

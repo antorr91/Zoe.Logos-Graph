@@ -24,10 +24,10 @@
     "color": "teal"
   },
   "stats": {
-    "paper_count": 25,
-    "claim_count": 9,
-    "doi_count": 25,
-    "media_count": 0
+    "paper_count": 42,
+    "claim_count": 27,
+    "doi_count": 39,
+    "recording_count": 0
   },
   "image": {
     "url": "",
@@ -42,90 +42,464 @@
   "conservation_status": "",
   "inat_id": null,
   "vocalisations": [
-    "coo",
     "grunt",
+    "coo",
     "scream"
   ],
   "contexts": [
-    "alarm",
+    "social communication",
     "dominance",
-    "social communication"
+    "alarm"
   ],
   "functions": [
-    "affiliation signalling",
     "individual recognition",
+    "affiliation signalling",
     "status display"
   ],
   "communication_profile": {
     "vocalisations": [
       {
-        "value": "coo",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "grunt",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "coo",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "scream",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "contexts": [
       {
-        "value": "alarm",
+        "value": "social communication",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
         "value": "dominance",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       },
       {
-        "value": "social communication",
+        "value": "alarm",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "functions": [
       {
-        "value": "affiliation signalling",
-        "confidence": 0.5,
-        "source": "seed",
-        "evidence_count": 1
-      },
-      {
         "value": "individual recognition",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
+      },
+      {
+        "value": "affiliation signalling",
+        "confidence": 0.5,
+        "source": "seed",
+        "evidence_count": 2
       },
       {
         "value": "status display",
         "confidence": 0.5,
         "source": "seed",
-        "evidence_count": 1
+        "evidence_count": 2
       }
     ],
     "methods": []
   },
+  "claims": [
+    {
+      "claim_id": 548,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 547,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 546,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 545,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 544,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 543,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 542,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 541,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 540,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 539,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 538,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 537,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 536,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 535,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 534,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 533,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 532,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 531,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 530,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 529,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 528,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 527,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 526,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 525,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 524,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 523,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    },
+    {
+      "claim_id": 522,
+      "confidence": 0.5,
+      "curation_status": "seed",
+      "evidence_count": 2,
+      "evidence_text": "",
+      "support_level": "inferred",
+      "extraction_method": "seed",
+      "paper_id": "",
+      "paper_title": "",
+      "doi": "",
+      "year": null
+    }
+  ],
   "audio": {
-    "provider": "macaulay",
+    "provider": "external_links",
     "xc_query": "",
     "recordings": [],
     "external_links": []
   },
   "open_papers": [
+    {
+      "doi": "10.21203/rs.3.rs-8734095/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-8734095/v1",
+      "title": "Single-Cell Atlas of Fetal Immune Development Across Lung, Spleen, and Umbilical Cord Blood in Nonhuman Primates",
+      "year": 2026,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1016/j.isci.2025.112179",
+      "url": "https://doi.org/10.1016/j.isci.2025.112179",
+      "title": "Maternal care predicts facial expression processing in macaques",
+      "year": 2025,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1098/rsos.250243",
+      "url": "https://doi.org/10.1098/rsos.250243",
+      "title": "Vocal membranes lower the phonation threshold pressure in rhesus macaques (",
+      "year": 2025,
+      "source": "pubmed"
+    },
     {
       "doi": "10.1098/rsos.250243/v2/decision1",
       "url": "https://doi.org/10.1098/rsos.250243/v2/decision1",
@@ -162,6 +536,13 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1093/cercor/bhad394",
+      "url": "https://doi.org/10.1093/cercor/bhad394",
+      "title": "Direct interhemispheric cortical communication via thalamic commissures: a new white matter pathway in the primate brain",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1098/rsos.250243/v1/decision1",
       "url": "https://doi.org/10.1098/rsos.250243/v1/decision1",
       "title": "Decision letter for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
@@ -183,6 +564,69 @@
       "source": "crossref"
     },
     {
+      "doi": "10.1098/rspb.2024.0984",
+      "url": "https://doi.org/10.1098/rspb.2024.0984",
+      "title": "Facial expressivity in dominant macaques is linked to group cohesion",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1101/2024.01.09.574911",
+      "url": "https://doi.org/10.1101/2024.01.09.574911",
+      "title": "Taking identity-by-descent analysis into the wild: Estimating realized relatedness in free-ranging macaques",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1523/JNEUROSCI.0703-23.2023",
+      "url": "https://doi.org/10.1523/JNEUROSCI.0703-23.2023",
+      "title": "Neuronal Population Encoding of Identity in Primate Prefrontal Cortex",
+      "year": 2024,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1038/s41598-023-37558-3",
+      "url": "https://doi.org/10.1038/s41598-023-37558-3",
+      "title": "Humans recognize affective cues in primate vocalizations: acoustic and phylogenetic perspectives",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1093/oons/kvad006",
+      "url": "https://doi.org/10.1093/oons/kvad006",
+      "title": "Hierarchical organization of rhesus macaque behavior",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1101/2023.06.15.545128",
+      "url": "https://doi.org/10.1101/2023.06.15.545128",
+      "title": "Direct interhemispheric cortical communication via thalamic commissures: a new white-matter pathway in the primate brain",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.1186/s12859-022-05046-6",
+      "url": "https://doi.org/10.1186/s12859-022-05046-6",
+      "title": "SVhound: detection of regions that harbor yet undetected structural variation",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.3390/molecules28072894",
+      "url": "https://doi.org/10.3390/molecules28072894",
+      "title": "Utilizing Contrast-Enhanced Ultrasonography with Phosphatidylserine Microbubbles to Detect Placental Inflammation in Rhesus Macaques",
+      "year": 2023,
+      "source": "pubmed"
+    },
+    {
+      "doi": "10.7717/peerj.14471",
+      "url": "https://doi.org/10.7717/peerj.14471",
+      "title": "Humans read emotional arousal in monkey vocalizations: evidence for evolutionary continuities in communication",
+      "year": 2022,
+      "source": "pubmed"
+    },
+    {
       "doi": "10.1079/cabicompendium.76105",
       "url": "https://doi.org/10.1079/cabicompendium.76105",
       "title": "Macaca mulatta (rhesus macaque)",
@@ -202,6 +646,13 @@
       "title": "A voice region in the monkey brain",
       "year": 2008,
       "source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.anbehav.2006.11.006",
+      "url": "https://doi.org/10.1016/j.anbehav.2006.11.006",
+      "title": "When males call, females listen: sex differences in responsiveness to rhesus monkey, Macaca mulatta, copulation calls",
+      "year": 2007,
+      "source": "crossref"
     },
     {
       "doi": "10.1006/anbe.1999.1312",
@@ -304,6 +755,16 @@
   ],
   "papers": [
     {
+      "paper_id": "pmid_41727615",
+      "title": "Single-Cell Atlas of Fetal Immune Development Across Lung, Spleen, and Umbilical Cord Blood in Nonhuman Primates",
+      "year": 2026,
+      "doi": "10.21203/rs.3.rs-8734095/v1",
+      "abstract": "The fetal immune system develops within a tightly regulated environment that balances immune tolerance with readiness for postnatal antigen exposure. However, limited access to fetal tissues has constrained our understanding of immune ontogeny across distinct anatomical compartments. Here, we present a high-resolution, multi-tissue single-cell transcriptional atlas of the late-gestation (GD130-135) rhesus macaque (",
+      "journal": "Research square",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
       "paper_id": "10_1098_rsos_250243_v2_review1",
       "title": "Review for \"Vocal membranes lower the phonation threshold pressure in rhesus macaques ( &lt;i&gt;Macaca mulatta&lt;/i&gt; )\"",
       "year": 2025,
@@ -311,11 +772,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_250243_v2_review2",
@@ -325,11 +782,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_250243_v3_review1",
@@ -339,11 +792,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_250243_v3_decision1",
@@ -353,11 +802,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_250243_v2_decision1",
@@ -367,11 +812,37 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_40568543",
+      "title": "Vocal membranes lower the phonation threshold pressure in rhesus macaques (",
+      "year": 2025,
+      "doi": "10.1098/rsos.250243",
+      "abstract": "The vocal membrane, an extended part of the vocal fold, is present in a broad range of species including non-human primates. Its contribution to animal vocalizations has long been of interest. A theoretical study (Mergell P, Fitch T, Herzel H. 1999 Modeling the role of nonhuman vocal membranes in phonation.",
+      "journal": "Royal Society open science",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40463958",
+      "title": "Maternal care predicts facial expression processing in macaques",
+      "year": 2025,
+      "doi": "10.1016/j.isci.2025.112179",
+      "abstract": "Facial expressions are common across mammals and are essential for social communication. In humans, a rich early social environment is important for the appropriate development of facial expression processing. Whether other animals are similarly reliant on social input for facial expression development, or have a more fixed system, is unknown. Here, we investigated how maternal care influences facial expression processing skills in rhesus macaques (",
+      "journal": "iScience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_40257405",
+      "title": "Is Sociability Generally Linked to Infection? A Study Based on Rhesus and Japanese Macaques",
+      "year": 2025,
+      "doi": "10.1002/ajp.70037",
+      "abstract": "Parasite infection is one key risk inherent in group living and is considered to influence the formation and evolution of animal societies. Previous studies investigating the relationship between sociability (a measure of an individual's level of social engagement) and parasite infection have yielded mixed results, with some observing positive relationships between social network centrality and infection and others observing negative or no sociability-infection links. Here, we aggregated behavioral and parasitological data from three groups of rhesus macaques (Macaca mulatta brevicaudus) in China and two groups of Japanese macaques (Macaca fuscata and Macaca fuscata yakui) to test whether sociability generally predicts geohelminth infection in macaques with similar social structure. We discovered variability in the relationship between sociability and geohelminth infection across these different groups of macaques, and results did not support a general pattern linking sociability to geohelminth infection. Among the five groups, we found a significant positive relationship between sociability and infection in only one group. These results call into question how generally useful an indicator social network centrality metrics are in predicting geohelminth parasite infection across individuals, at least relative to other factors that influence infection dynamics. We discuss potential confounds when examining relationships between sociability and infection across populations and groups, and encourage future studies that can account for these while focusing on the mechanisms that might link social factors and parasite infection to fully understand this relationship.",
+      "journal": "American journal of primatology",
+      "open_access": 0,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1098_rsos_250243_v1_review2",
@@ -381,11 +852,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_250243_v1_review1",
@@ -395,11 +862,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1098_rsos_250243_v1_decision1",
@@ -409,11 +872,117 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
+    },
+    {
+      "paper_id": "pmid_39013427",
+      "title": "Facial expressivity in dominant macaques is linked to group cohesion",
+      "year": 2024,
+      "doi": "10.1098/rspb.2024.0984",
+      "abstract": "Social living affords primates (including humans) many benefits. Communication has been proposed to be the key mechanism used to bond social connections, which could explain why primates have evolved such expressive faces. We assessed whether the facial expressivity of the dominant male (quantified from the coding of anatomically based facial movement) was related to social network properties (based on social proximity and grooming) in nine groups of captive rhesus macaques (",
+      "journal": "Proceedings. Biological sciences",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_38260273",
+      "title": "Taking identity-by-descent analysis into the wild: Estimating realized relatedness in free-ranging macaques",
+      "year": 2024,
+      "doi": "10.1101/2024.01.09.574911",
+      "abstract": "Biological relatedness is a key consideration in studies of behavior, population structure, and trait evolution. Except for parent-offspring dyads, pedigrees capture relatedness imperfectly. The number and length of DNA segments that are identical-by-descent (IBD) yield the most precise estimates of relatedness. Here, we leverage novel methods for estimating locus-specific IBD from low coverage whole genome resequencing data to demonstrate the feasibility and value of resolving fine-scaled gradients of relatedness in free-living animals. Using primarily 4-6× coverage data from a rhesus macaque (",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37963766",
+      "title": "Neuronal Population Encoding of Identity in Primate Prefrontal Cortex",
+      "year": 2024,
+      "doi": "10.1523/JNEUROSCI.0703-23.2023",
+      "abstract": "The ventrolateral prefrontal cortex (VLPFC) shows robust activation during the perception of faces and voices. However, little is known about what categorical features of social stimuli drive neural activity in this region. Since perception of identity and expression are critical social functions, we examined whether neural responses to naturalistic stimuli were driven by these two categorical features in the prefrontal cortex. We recorded single neurons in the VLPFC, while two male rhesus macaques (",
+      "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37950874",
+      "title": "Direct interhemispheric cortical communication via thalamic commissures: a new white matter pathway in the primate brain",
+      "year": 2024,
+      "doi": "10.1093/cercor/bhad394",
+      "abstract": "Cortical neurons of eutherian mammals project to the contralateral hemisphere, crossing the midline primarily via the corpus callosum and the anterior, posterior, and hippocampal commissures. We recently reported and named the thalamic commissures (TCs) as an additional interhemispheric axonal fiber pathway connecting the cortex to the contralateral thalamus in the rodent brain. Here, we demonstrate that TCs also exist in primates and characterize the connectivity of these pathways with high-resolution diffusion-weighted MRI, viral axonal tracing, and fMRI. We present evidence of TCs in both New World (Callithrix jacchus and Cebus apella) and Old World primates (Macaca mulatta). Further, like rodents, we show that the TCs in primates develop during the embryonic period, forming anatomical and functionally active connections of the cortex with the contralateral thalamus. We also searched for TCs in the human brain, showing their presence in humans with brain malformations, although we could not identify TCs in healthy subjects. These results pose the TCs as a vital fiber pathway in the primate brain, allowing for more robust interhemispheric connectivity and synchrony and serving as an alternative commissural route in developmental brain malformations.",
+      "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37787449",
+      "title": "Talon cusp expression in Cayo Santiago rhesus macaques (Macaca mulatta)",
+      "year": 2024,
+      "doi": "10.1002/ajpa.24855",
+      "abstract": "OBJECTIVES: This brief communication documents the prevalence of maxillary central incisor talon cusps in Cayo Santiago rhesus monkeys (Macaca mulatta) and assesses whether talon cusp presence occurs at equivalent frequencies across matrilines. MATERIALS AND METHODS: The data on cusp presence vs. absence were analyzed by logistic regression in 170 monkeys (82 females, 78 males) from seven different matrilines. Sample sizes per matriline ranged from 10 to 42. Observations of talon cusps were blind with respect to matriline and sex. RESULTS: Talon cusps were present in 9.4% of the sample. By matriline, cusp frequencies ranged from 0%-Matrilines 073 and 106%-to 19.1% in Matriline 076. The frequency of the talon cusp in Matriline 076 was significantly greater than the frequency of the cusp in the remainder of the sample. There was no statistically significant difference in the frequency of the talon cusp by sex. CONCLUSIONS: This study suggests that the talon cusp in rhesus monkeys, as in humans and baboons, is a rare trait. Elevated prevalence of the talon cusp in Matriline 076 suggests the possibility of a genetic influence on talon cusp expression.",
+      "journal": "American journal of biological anthropology",
+      "open_access": 0,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37577290",
+      "title": "Hierarchical organization of rhesus macaque behavior",
+      "year": 2023,
+      "doi": "10.1093/oons/kvad006",
+      "abstract": "Primatologists, psychologists and neuroscientists have long hypothesized that primate behavior is highly structured. However, delineating that structure has been impossible due to the difficulties of precision behavioral tracking. Here we analyzed a dataset consisting of continuous measures of the 3D position of two male rhesus macaques (",
+      "journal": "Oxford open neuroscience",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37407601",
+      "title": "Humans recognize affective cues in primate vocalizations: acoustic and phylogenetic perspectives",
+      "year": 2023,
+      "doi": "10.1038/s41598-023-37558-3",
+      "abstract": "Humans are adept at extracting affective information from vocalizations of humans and other animals. However, the extent to which human recognition of vocal affective cues of other species is due to cross-taxa similarities in acoustic parameters or the phylogenetic closeness between species is currently unclear. To address this, we first analyzed acoustic variation in 96 affective vocalizations, taken from agonistic and affiliative contexts, of humans and three other primates-rhesus macaques (Macaca mulatta), chimpanzees and bonobos (Pan troglodytes and Pan paniscus). Acoustic analyses revealed that agonistic chimpanzee and bonobo vocalizations were similarly distant from agonistic human voices, but chimpanzee affiliative vocalizations were significantly closer to human affiliative vocalizations, than those of bonobos, indicating a potential derived vocal evolution in the bonobo lineage. Second, we asked 68 human participants to categorize and also discriminate vocalizations based on their presumed affective content. Results showed that participants reliably categorized human and chimpanzee vocalizations according to affective content, but not bonobo threat vocalizations nor any macaque vocalizations. Participants discriminated all species calls above chance level except for threat calls by bonobos and macaques. Our results highlight the importance of both phylogenetic and acoustic parameter level explanations in cross-species affective perception, drawing a more complex picture to the origin of vocal emotions.",
+      "journal": "Scientific reports",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37398056",
+      "title": "Direct interhemispheric cortical communication via thalamic commissures: a new white-matter pathway in the primate brain",
+      "year": 2023,
+      "doi": "10.1101/2023.06.15.545128",
+      "abstract": "Cortical neurons of eutherian mammals project to the contralateral hemisphere, crossing the midline primarily via the corpus callosum and the anterior, posterior, and hippocampal commissures. We recently reported an additional commissural pathway in rodents, termed the thalamic commissures (TCs), as another interhemispheric axonal fiber pathway that connects cortex to the contralateral thalamus. Here, we demonstrate that TCs also exist in primates and characterize the connectivity of these pathways with high-resolution diffusion-weighted magnetic resonance imaging, viral axonal tracing, and functional MRI. We present evidence of TCs in both New World (",
+      "journal": "bioRxiv : the preprint server for biology",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_37049657",
+      "title": "Utilizing Contrast-Enhanced Ultrasonography with Phosphatidylserine Microbubbles to Detect Placental Inflammation in Rhesus Macaques",
+      "year": 2023,
+      "doi": "10.3390/molecules28072894",
+      "abstract": "The ability to comprehensively monitor physiological and detect pathophysiologic processes early during pregnancy can reduce maternal and fetal morbidity and mortality. Contrast-enhanced ultrasound (CEUS) is a non-invasive imaging technology that utilizes the acoustic detection of microbubbles to examine vascular spaces. Furthermore, microbubbles conjugated to specific compounds can focus studies on precise physiological pathways. We hypothesized that CEUS with phosphatidylserine microbubbles (MB-PS) could be employed to monitor placental inflammation. We tested this hypothesis in rhesus macaques (",
+      "journal": "Molecules (Basel, Switzerland)",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36670361",
+      "title": "SVhound: detection of regions that harbor yet undetected structural variation",
+      "year": 2023,
+      "doi": "10.1186/s12859-022-05046-6",
+      "abstract": "BACKGROUND: Recent population studies are ever growing in number of samples to investigate the diversity of a population or species. These studies reveal new polymorphism that lead to important insights into the mechanisms of evolution, but are also important for the interpretation of these variations. Nevertheless, while the full catalog of variations across entire species remains unknown, we can predict which regions harbor additional not yet detected variations and investigate their properties, thereby enhancing the analysis for potentially missed variants. RESULTS: To achieve this we developed SVhound ( https://github.com/lfpaulin/SVhound ), which based on a population level SVs dataset can predict regions that harbor unseen SV alleles. We tested SVhound using subsets of the 1000 genomes project data and showed that its correlation (average correlation of 2800 tests r = 0.7136) is high to the full data set. Next, we utilized SVhound to investigate potentially missed or understudied regions across 1KGP and CCDG. Lastly we also apply SVhound on a small and novel SV call set for rhesus macaque (Macaca mulatta) and discuss the impact and choice of parameters for SVhound. CONCLUSIONS: SVhound is a unique method to identify potential regions that harbor hidden diversity in model and non model organisms and can also be potentially used to ensure high quality of SV call sets.",
+      "journal": "BMC bioinformatics",
+      "open_access": 1,
+      "source": "pubmed"
+    },
+    {
+      "paper_id": "pmid_36518288",
+      "title": "Humans read emotional arousal in monkey vocalizations: evidence for evolutionary continuities in communication",
+      "year": 2022,
+      "doi": "10.7717/peerj.14471",
+      "abstract": "Humans and other mammalian species communicate emotions in ways that reflect evolutionary conservation and continuity, an observation first made by Darwin. One approach to testing this hypothesis has been to assess the capacity to perceive the emotional content of the vocalizations of other species. Using a binary forced choice task, we tested perception of the emotional intensity represented in coos and screams of infant and juvenile female rhesus macaques (",
+      "journal": "PeerJ",
+      "open_access": 1,
+      "source": "pubmed"
     },
     {
       "paper_id": "10_1079_cabicompendium_76105",
@@ -423,11 +992,7 @@
       "abstract": "",
       "journal": "CABI Compendium",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1007_s10764-012-9652-x",
@@ -437,11 +1002,7 @@
       "abstract": "",
       "journal": "International Journal of Primatology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1038_nn2043",
@@ -451,11 +1012,17 @@
       "abstract": "",
       "journal": "Nature Neuroscience",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "10_1016_j_anbehav_2006_11_006",
+      "title": "When males call, females listen: sex differences in responsiveness to rhesus monkey, Macaca mulatta, copulation calls",
+      "year": 2007,
+      "doi": "10.1016/j.anbehav.2006.11.006",
+      "abstract": "",
+      "journal": "Animal Behaviour",
+      "open_access": 0,
+      "source": "crossref"
     },
     {
       "paper_id": "10_1006_anbe_1999_1312",
@@ -465,11 +1032,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1007_bf02557587",
@@ -479,11 +1042,7 @@
       "abstract": "",
       "journal": "Primates",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_s0166-2236(98)01260-0",
@@ -493,11 +1052,7 @@
       "abstract": "",
       "journal": "Trends in Neurosciences",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "lit_gbif_2436567_18",
@@ -507,11 +1062,7 @@
       "abstract": "",
       "journal": "Medical Entomology and Zoology",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1006_anbe_1996_0103",
@@ -521,11 +1072,17 @@
       "abstract": "The social behaviour of many species of non-human primates suggests a capacity for both individual and kin recognition. In these species, the ability to signal and perceive identity at a distance may be an important adaptation facilitating intra-group social communication. Variation in vocalizations is hypothesized to provide a basis for this ability. Playback experiments were conducted to test for vocal recognition of contact calls between adult female rhesus macaques,Macaca mulatta. Single-trial playbacks of the contact call of either a matrilineal relative or a familiar, non-relative group member were used to test for discrimination of kin from non-kin. Females responded significantly faster and longer to the contact calls of matrilineal relatives. A habituation–discrimination paradigm was then used to test for individual recognition. Females habituated to successive presentations of different exemplars of the contact calls of one matrilineal relative, then showed a significant rebo",
       "journal": "Animal Behaviour",
       "open_access": 1,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
+    },
+    {
+      "paper_id": "lit_gbif_2436567_19",
+      "title": "Social communication and vocal recognition in free-ranging rhesus monkeys (Macaca mulatta)",
+      "year": 1996,
+      "doi": null,
+      "abstract": "",
+      "journal": "Medical Entomology and Zoology",
+      "open_access": 0,
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_s0003-3472(84)80325-5",
@@ -535,11 +1092,7 @@
       "abstract": "",
       "journal": "Animal Behaviour",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     },
     {
       "paper_id": "10_1016_b978-0-124-69350-0_x5001-7",
@@ -549,11 +1102,7 @@
       "abstract": "",
       "journal": "",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-469350-0_50001-6",
@@ -563,11 +1112,7 @@
       "abstract": "",
       "journal": "Macaca Mulatta",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-469350-0_50002-8",
@@ -577,11 +1122,7 @@
       "abstract": "",
       "journal": "Macaca Mulatta",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-469350-0_50004-1",
@@ -591,11 +1132,7 @@
       "abstract": "",
       "journal": "Macaca Mulatta",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-469350-0_50018-1",
@@ -605,11 +1142,7 @@
       "abstract": "",
       "journal": "Macaca Mulatta",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-469350-0_50019-3",
@@ -619,11 +1152,7 @@
       "abstract": "",
       "journal": "Macaca Mulatta",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1016_b978-0-12-469350-0_50003-x",
@@ -633,11 +1162,7 @@
       "abstract": "",
       "journal": "Macaca Mulatta",
       "open_access": 0,
-      "source": "crossref",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "crossref"
     },
     {
       "paper_id": "10_1111_j_1469-7998_1962_tb05698_x",
@@ -647,14 +1172,10 @@
       "abstract": "Noises are difficult to describe, and this has been a barrier to understanding their meanings and using them in studies of behaviour. In the present study tape recordings and spectro‐graphic analysis were used to learn the properties of the noises and help to describe them. Noises fall into two groups, harsh noises and clear calls, which are considered seprately. Eight harsh noises associated with agonistic behaviour and four occurring in “friendly” situations are described. Clear calls show more individual variation and examples typical of five situations are given. A wide range of intermediates between the basic noises make a large “vocabulary” available to express small differences of mood.",
       "journal": "Proceedings of the Zoological Society of London",
       "open_access": 0,
-      "source": "openalex",
-      "developmental_stage": "unknown",
-      "main_outcome": "",
-      "dataset_available": "unknown",
-      "dataset_name": null
+      "source": "openalex"
     }
   ],
-  "paper_count": 25,
+  "paper_count": 42,
   "provenance": {
     "taxonomy_source": "GBIF backbone",
     "media_source": "Wikimedia Commons",
