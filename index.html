@@ -1,12 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url=outputs/index.html">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zoe.Logos-Graph</title>
-<link rel="canonical" href="outputs/index.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #072928;
+    --surface: #0c332f;
+    --surface2: #123f39;
+    --border: rgba(255,255,255,0.08);
+    --border2: rgba(255,255,255,0.14);
+    --text: #eaf3ef;
+    --muted: #7fa39c;
+    --hint: #466b64;
+    --amber: #48a89a;
+    --teal: #2cb88a;
+    --violet: #9b8ef0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 17px;
+    color: var(--text);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    letter-spacing: -0.02em;
+  }
+  .logo .accent { color: var(--amber); }
+  .logo-sub { font-family: 'DM Sans', sans-serif; font-size: 11px; color: var(--muted); font-weight: 300; margin-left: 8px; letter-spacing: 0; }
+  .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+  .nav-links a { font-size: 13px; color: var(--muted); text-decoration: none; }
+  .nav-links a:hover { color: var(--text); }
+  .nav-gh {
+    font-size: 12px;
+    padding: 5px 14px;
+    border: 1px solid var(--border2);
+    border-radius: 99px;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .nav-gh:hover { border-color: rgba(72,168,154,0.4); color: var(--amber); }
+
+  /* HERO BG — trees on body, light overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: url('tree.jpg') center top/cover no-repeat;
+    opacity: 0.55;
+    z-index: -2;
+    pointer-events: none;
+  }
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(7,41,40,0.15) 0%, rgba(7,41,40,0.45) 100%);
+    z-index: -1;
+    pointer-events: none;
+  }
+  .hero-bg { position: relative; }
+  .hero-section { position: relative; z-index: 2; }
+  nav { background: rgba(7,41,40,0.92) !important; backdrop-filter: blur(12px); }
+  .tools-section { position: relative; z-index: 2; background: rgba(7,41,40,0.92); border-radius: 16px; padding: 3rem 2rem !important; margin: 2rem auto 3rem; }
+  .tool-card { background: var(--surface) !important; }
+  .tool-card:hover { background: var(--surface2) !important; }
+  .pipeline { background: var(--surface) !important; }
+  .tools-grid { background: transparent; }
+  footer { background: rgba(7,41,40,0.95); position: relative; z-index: 2; }
+  /* HERO */
+  .hero-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5rem 2rem 4rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-label {
+    font-size: 11px;
+    color: var(--amber);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .hero-label::before { content: ''; display: block; width: 24px; height: 1px; background: var(--amber); }
+  .hero-title {
+    font-style: normal;
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(36px, 6vw, 60px);
+    font-weight: 400;
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+  }
+  .hero-title em { font-style: normal; color: var(--text); }
+  .hero-desc {
+    font-size: 16px;
+    color: #d4d7de;
+    line-height: 1.75;
+    font-weight: 400;
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.8);
+  }
+  .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn-primary {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    padding: 10px 22px;
+    background: var(--amber);
+    color: #072928;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .btn-primary:hover { background: #3a9387; }
+  .btn-ghost {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    padding: 10px 22px;
+    background: none;
+    color: var(--muted);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn-ghost:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+
+  /* STATS */
+  .stats {
+    display: flex;
+    gap: 0;
+    border-top: 1px solid var(--border);
+    margin-top: 4rem;
+  }
+  .stat {
+    flex: 1;
+    padding: 1.5rem 0;
+    border-right: 1px solid var(--border);
+  }
+  .stat:last-child { border-right: none; }
+  .stat-n {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    color: var(--text);
+    display: block;
+  }
+  .stat-l { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+  /* TOOLS */
+  .tools-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  .section-label {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 2rem;
+    white-space: nowrap;
+  }
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 4rem;
+  }
+  .tool-card {
+    background: var(--surface);
+    padding: 1.75rem;
+    text-decoration: none;
+    display: block;
+    transition: background 0.15s;
+    position: relative;
+  }
+  .tool-card:hover { background: var(--surface2); }
+  .tool-icon {
+    font-size: 22px;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .tool-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  .tool-desc { font-size: 13px; color: var(--muted); line-height: 1.6; font-weight: 300; }
+  .tool-tag {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 99px;
+    border: 1px solid var(--border);
+    color: var(--hint);
+  }
+  .tool-tag.live { border-color: rgba(44,184,138,0.35); color: var(--teal); background: rgba(44,184,138,0.08); }
+
+  /* PIPELINE */
+  .pipeline {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    background: var(--surface);
+    margin-bottom: 4rem;
+  }
+  .pipe-step { text-align: center; flex-shrink: 0; }
+  .pipe-n {
+    font-size: 11px;
+    color: var(--amber);
+    margin-bottom: 4px;
+    display: block;
+  }
+  .pipe-label { font-size: 12px; color: var(--text); font-weight: 300; }
+  .pipe-arr { color: var(--hint); font-size: 16px; padding: 0 12px; flex-shrink: 0; }
+
+  /* FOOTER */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--hint);
+  }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--text); }
+</style>
 </head>
-<body style="font-family:system-ui,sans-serif;background:#0e0f11;color:#d4d7de;display:flex;align-items:center;justify-content:center;height:100vh;margin:0">
-<p>Loading Zoe.Logos-Graph… if nothing happens, <a href="outputs/index.html" style="color:#e8a427">click here</a>.</p>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">
+    <span>Zoe<span class="accent">.</span>Logos<span class="accent">-</span>Graph</span><span class="logo-sub">v1.0</span>
+  </a>
+  <div class="nav-links">
+    <a href="species_explorer.html">species</a>
+    <a href="literature.html">literature</a>
+    <a href="graph_explorer.html">graph</a>
+    <a href="compare.html">compare</a>
+    <a class="nav-gh" href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">github →</a>
+  </div>
+</nav>
+
+<div class="hero-bg">
+<section class="hero-section">
+  <h1 class="hero-title">
+    A knowledge graph<br>
+    for <em>animal communication</em><br>
+    literature
+  </h1>
+  <p class="hero-desc">
+    Zoe.Logos-Graph reads scientific abstracts on animal vocal communication,
+    extracts structured knowledge using an LLM, and builds an explorable graph
+    linking species, vocalisations, contexts, functions, methods, and papers.
+  </p>
+  <div class="hero-cta">
+    <a class="btn-primary" href="species_explorer.html">explore species →</a>
+    <a class="btn-ghost" href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">view on github</a>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <span class="stat-n">273</span><span class="stat-l">species</span>
+    </div>
+    <div class="stat">
+      <span class="stat-n">2292</span><span class="stat-l">peer-reviewed papers</span>
+    </div>
+    <div class="stat">
+      <span class="stat-n">16</span>
+      <span class="stat-l">research themes</span>
+    </div>
+    <div class="stat">
+      <span class="stat-n">7</span>
+      <span class="stat-l">classes</span>
+    </div>
+  </div>
+</section>
+</div>
+
+<section class="tools-section">
+  <h2 style="font-family:'DM Serif Display',serif;font-style:normal;color:var(--text);font-size:22px;font-weight:400;margin-bottom:1.5rem;white-space:nowrap;letter-spacing:0">Species communication profiles</h2>
+  <div class="tools-grid">
+    <a class="tool-card" href="species_explorer.html">
+      <span class="tool-tag live">live</span>
+      <span class="tool-icon">◎</span>
+      <div class="tool-title">Species explorer</div>
+      <div class="tool-desc">273 species · search in 6 languages · thematic tagging · acoustic profiles · curated papers with DOI · species comparison.</div>
+    </a>
+    <a class="tool-card" href="literature.html">
+      <span class="tool-tag live">live</span>
+      <span class="tool-icon">◫</span>
+      <div class="tool-title">Literature explorer</div>
+      <div class="tool-desc">papers organised by 16 research themes. Vocal learning · referential communication · syntax · echolocation · and more.</div>
+    </a>
+    <a class="tool-card" href="graph_explorer.html">
+      <span class="tool-tag live">live</span>
+      <span class="tool-icon">⬡</span>
+      <div class="tool-title">Graph explorer</div>
+      <div class="tool-desc">Interactive force graph with 3 modes: by theme, by class, by function. Drag nodes, zoom, double-click for species details.</div>
+    </a>
+    <a class="tool-card" href="https://github.com/antorr91/Zoe.Logos-Graph/blob/main/data/annotations/ANNOTATION_GUIDELINES_v1.md" target="_blank">
+      <span class="tool-tag">docs</span>
+      <span class="tool-icon">◻</span>
+      <div class="tool-title">Annotation guidelines</div>
+      <div class="tool-desc">Field-by-field extraction rules, worked examples, and inter-annotator agreement targets.</div>
+    </a>
+    <a class="tool-card" href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">
+      <span class="tool-tag">github</span>
+      <span class="tool-icon">◈</span>
+      <div class="tool-title">Source & pipeline</div>
+      <div class="tool-desc">Python pipeline: schema · validation · LLM extraction · SQLite DB · community detection · systematic review generator.</div>
+    </a>
+  </div>
+
+  <div class="section-label">pipeline</div>
+  <div class="pipeline">
+    <div class="pipe-step"><span class="pipe-n">01</span><span class="pipe-label">abstracts</span></div>
+    <div class="pipe-arr">→</div>
+    <div class="pipe-step"><span class="pipe-n">02</span><span class="pipe-label">annotation</span></div>
+    <div class="pipe-arr">→</div>
+    <div class="pipe-step"><span class="pipe-n">03</span><span class="pipe-label">LLM extraction</span></div>
+    <div class="pipe-arr">→</div>
+    <div class="pipe-step"><span class="pipe-n">04</span><span class="pipe-label">validation</span></div>
+    <div class="pipe-arr">→</div>
+    <div class="pipe-step"><span class="pipe-n">05</span><span class="pipe-label">normalisation</span></div>
+    <div class="pipe-arr">→</div>
+    <div class="pipe-step"><span class="pipe-n">06</span><span class="pipe-label">graph</span></div>
+    <div class="pipe-arr">→</div>
+    <div class="pipe-step"><span class="pipe-n">07</span><span class="pipe-label">exploration</span></div>
+  </div>
+</section>
+
+<footer>
+  <span>Zoe.Logos-Graph · pilot v1.0 · computational ethology</span>
+  <span><a href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">github.com/antorr91/Zoe.Logos-Graph</a></span>
+</footer>
+
 </body>
 </html>
