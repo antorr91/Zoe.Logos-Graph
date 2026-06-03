@@ -8,15 +8,15 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0e0f11;
-    --surface: #161820;
-    --surface2: #1e2028;
+    --bg: #072928;
+    --surface: #0c332f;
+    --surface2: #123f39;
     --border: rgba(255,255,255,0.08);
     --border2: rgba(255,255,255,0.14);
-    --text: #e8e9ec;
-    --muted: #7a7e8a;
-    --hint: #454854;
-    --amber: #e8a427;
+    --text: #eaf3ef;
+    --muted: #7fa39c;
+    --hint: #466b64;
+    --amber: #48a89a;
     --teal: #2cb88a;
     --violet: #9b8ef0;
   }
@@ -53,7 +53,7 @@
     color: var(--text);
     text-decoration: none;
   }
-  .nav-gh:hover { border-color: rgba(232,164,39,0.4); color: var(--amber); }
+  .nav-gh:hover { border-color: rgba(72,168,154,0.4); color: var(--amber); }
 
   /* HERO BG — trees on body, light overlay */
   body::before {
@@ -69,19 +69,19 @@
     content: '';
     position: fixed;
     inset: 0;
-    background: linear-gradient(180deg, rgba(14,15,17,0.15) 0%, rgba(14,15,17,0.45) 100%);
+    background: linear-gradient(180deg, rgba(7,41,40,0.15) 0%, rgba(7,41,40,0.45) 100%);
     z-index: -1;
     pointer-events: none;
   }
   .hero-bg { position: relative; }
   .hero-section { position: relative; z-index: 2; }
-  nav { background: rgba(14,15,17,0.92) !important; backdrop-filter: blur(12px); }
-  .tools-section { position: relative; z-index: 2; background: rgba(14,15,17,0.92); border-radius: 16px; padding: 3rem 2rem !important; margin: 2rem auto 3rem; }
+  nav { background: rgba(7,41,40,0.92) !important; backdrop-filter: blur(12px); }
+  .tools-section { position: relative; z-index: 2; background: rgba(7,41,40,0.92); border-radius: 16px; padding: 3rem 2rem !important; margin: 2rem auto 3rem; }
   .tool-card { background: var(--surface) !important; }
   .tool-card:hover { background: var(--surface2) !important; }
   .pipeline { background: var(--surface) !important; }
   .tools-grid { background: transparent; }
-  footer { background: rgba(14,15,17,0.95); position: relative; z-index: 2; }
+  footer { background: rgba(7,41,40,0.95); position: relative; z-index: 2; }
   /* HERO */
   .hero-section {
     max-width: 900px;
@@ -125,14 +125,14 @@
     font-size: 14px;
     padding: 10px 22px;
     background: var(--amber);
-    color: #0e0f11;
+    color: #072928;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
     font-weight: 500;
   }
-  .btn-primary:hover { background: #d49522; }
+  .btn-primary:hover { background: #3a9387; }
   .btn-ghost {
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
@@ -162,7 +162,7 @@
   .stat-n {
     font-family: 'DM Serif Display', serif;
     font-size: 32px;
-    color: var(--amber);
+    color: var(--text);
     display: block;
   }
   .stat-l { font-size: 12px; color: var(--muted); margin-top: 2px; }
@@ -311,7 +311,7 @@
 </div>
 
 <section class="tools-section">
-  <h2 style="font-family:'DM Serif Display',serif;font-style:italic;color:var(--amber);font-size:22px;font-weight:400;margin-bottom:1.5rem;white-space:nowrap;letter-spacing:0">Species communication profiles</h2>
+  <h2 style="font-family:'DM Serif Display',serif;font-style:normal;color:var(--text);font-size:22px;font-weight:400;margin-bottom:1.5rem;white-space:nowrap;letter-spacing:0">Species communication profiles</h2>
   <div class="tools-grid">
     <a class="tool-card" href="species_explorer.html">
       <span class="tool-tag live">live</span>
@@ -323,7 +323,7 @@
       <span class="tool-tag live">live</span>
       <span class="tool-icon">◫</span>
       <div class="tool-title">Literature explorer</div>
-      <div class="tool-desc">232 papers organised by 16 research themes. Vocal learning · referential communication · syntax · echolocation · and more.</div>
+      <div class="tool-desc">papers organised by 16 research themes. Vocal learning · referential communication · syntax · echolocation · and more.</div>
     </a>
     <a class="tool-card" href="graph_explorer.html">
       <span class="tool-tag live">live</span>

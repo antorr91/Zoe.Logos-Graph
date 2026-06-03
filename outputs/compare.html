@@ -7,10 +7,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0e0f11;--surface:#161820;--surface2:#1e2028;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);--text:#e8e9ec;--muted:#7a7e8a;--hint:#454854;--amber:#e8a427;--amber-dim:rgba(232,164,39,0.12);--teal:#2cb88a;--teal-dim:rgba(44,184,138,0.12);--violet:#9b8ef0;--violet-dim:rgba(155,142,240,0.12)}
+:root{--bg:#072928;--surface:#0c332f;--surface2:#123f39;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);--text:#eaf3ef;--muted:#7fa39c;--hint:#466b64;--amber:#48a89a;--amber-dim:rgba(72,168,154,0.12);--teal:#2cb88a;--teal-dim:rgba(44,184,138,0.12);--violet:#9b8ef0;--violet-dim:rgba(155,142,240,0.12)}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
-nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50;background:rgba(14,15,17,0.85);backdrop-filter:blur(16px)}
+nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50;background:rgba(7,41,40,0.85);backdrop-filter:blur(16px)}
 .logo{font-family:'DM Serif Display',serif;font-size:17px;color:var(--text);text-decoration:none;letter-spacing:-0.02em}
 .logo .a{color:var(--amber)}
 .logo-sub{font-size:11px;color:var(--muted);font-weight:300;margin-left:8px;font-family:'DM Sans'}
@@ -33,7 +33,7 @@ tr:hover td{background:var(--surface)}
 .ogrid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
 .ocard{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1rem}
 .ocard h4{font-size:12px;color:var(--text);margin-bottom:.5rem}
-.stag{font-size:10px;padding:3px 8px;border-radius:99px;display:inline-block;margin:2px;background:var(--amber-dim);color:var(--amber);border:1px solid rgba(232,164,39,.25)}
+.stag{font-size:10px;padding:3px 8px;border-radius:99px;display:inline-block;margin:2px;background:var(--amber-dim);color:var(--amber);border:1px solid rgba(72,168,154,.25)}
 .utag{font-size:10px;padding:3px 8px;border-radius:99px;display:inline-block;margin:2px;background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
 @media(max-width:700px){.ogrid{grid-template-columns:1fr}.cmp-slots{flex-direction:column}}
 </style>
@@ -50,7 +50,7 @@ tr:hover td{background:var(--surface)}
   </div>
 </nav>
 <div class="main">
-  <h1 style="font-family:'DM Serif Display',serif;font-size:28px;font-weight:400;margin-bottom:.4rem">Species <em style="color:var(--amber);font-style:italic">comparison</em></h1>
+  <h1 style="font-family:'DM Serif Display',serif;font-size:28px;font-weight:400;margin-bottom:.4rem">Species <em style="color:var(--text);font-style:normal">comparison</em></h1>
   <p style="font-size:13px;color:var(--muted);margin-bottom:1.5rem">Select 2–4 species from the <a href="species_explorer.html" style="color:var(--amber)">Species tab</a> (click ✓), then return here.</p>
   <div id="cmp-slots" class="cmp-slots"></div>
   <div id="cmp-result"></div>

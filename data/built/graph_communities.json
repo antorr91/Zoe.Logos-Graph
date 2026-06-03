@@ -15,7 +15,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -76,7 +77,7 @@
       "id": "sp:Astatotilapia burtoni",
       "label": "Burton's mouthbrooder",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#6c5ce7",
       "size": 15.2,
       "data": {
@@ -88,7 +89,8 @@
         "themes": [
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -149,7 +151,7 @@
       "id": "sp:Carassius auratus",
       "label": "goldfish",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#6c5ce7",
       "size": 15.2,
       "data": {
@@ -160,7 +162,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -203,7 +206,7 @@
       "id": "sp:Danio rerio",
       "label": "zebrafish",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#6c5ce7",
       "size": 14.0,
       "data": {
@@ -214,7 +217,8 @@
         "image_url": "",
         "themes": [
           "multimodal"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -248,7 +252,7 @@
       "id": "sp:Gadus morhua",
       "label": "atlantic cod",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#6c5ce7",
       "size": 16.4,
       "data": {
@@ -259,7 +263,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -293,7 +298,7 @@
       "id": "sp:Hippocampus reidi",
       "label": "longsnout seahorse",
       "type": "species",
-      "community": 2,
+      "community": 0,
       "color": "#6c5ce7",
       "size": 15.2,
       "data": {
@@ -305,7 +310,8 @@
         "themes": [
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -368,14 +374,15 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Oreochromis niloticus",
       "label": "nile tilapia",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#6c5ce7",
       "size": 15.2,
       "data": {
@@ -386,14 +393,15 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Pollachius virens",
       "label": "saithe",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#6c5ce7",
       "size": 14.0,
       "data": {
@@ -404,7 +412,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -422,7 +431,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -438,7 +448,7 @@
       "id": "sp:Sebastes mystinus",
       "label": "blue rockfish",
       "type": "species",
-      "community": 0,
+      "community": 1,
       "color": "#6c5ce7",
       "size": 15.2,
       "data": {
@@ -449,7 +459,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -471,10 +482,44 @@
       "data": {}
     },
     {
+      "id": "sp:Allobates femoralis",
+      "label": "brilliant-thighed poison frog",
+      "type": "species",
+      "community": 2,
+      "color": "#ffd93d",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Allobates femoralis",
+        "class_": "Amphibia",
+        "order_": "Anura",
+        "family": "Aromobatidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Bombina bombina",
+      "label": "european fire-bellied toad",
+      "type": "species",
+      "community": 3,
+      "color": "#ffd93d",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Bombina bombina",
+        "class_": "Amphibia",
+        "order_": "Anura",
+        "family": "Bombinatoridae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Bombina variegata",
       "label": "yellow-bellied toad",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 14.0,
       "data": {
@@ -485,7 +530,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -528,7 +574,7 @@
       "id": "sp:Bufo bufo",
       "label": "common toad",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 15.2,
       "data": {
@@ -539,7 +585,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -585,7 +632,28 @@
         "themes": [
           "multimodal",
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
+      }
+    },
+    {
+      "id": "sp:Dendropsophus ebraccatus",
+      "label": "hourglass treefrog",
+      "type": "species",
+      "community": 4,
+      "color": "#ffd93d",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Dendropsophus ebraccatus",
+        "class_": "Amphibia",
+        "order_": "Anura",
+        "family": "Hylidae",
+        "image_url": "",
+        "themes": [
+          "emotion",
+          "individual_recognition"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -603,14 +671,15 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Engystomops pustulosus",
       "label": "túngara frog",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 16.4,
       "data": {
@@ -622,7 +691,8 @@
         "themes": [
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -656,7 +726,7 @@
       "id": "sp:Hyla arborea",
       "label": "european treefrog",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 14.0,
       "data": {
@@ -668,14 +738,15 @@
         "themes": [
           "honest_signalling",
           "turn_taking"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Hyla chrysoscelis",
       "label": "gray treefrog",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 14.0,
       "data": {
@@ -686,7 +757,29 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
+      }
+    },
+    {
+      "id": "sp:Hyperolius marmoratus",
+      "label": "painted reed frog",
+      "type": "species",
+      "community": 5,
+      "color": "#ffd93d",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Hyperolius marmoratus",
+        "class_": "Amphibia",
+        "order_": "Anura",
+        "family": "Hyperoliidae",
+        "image_url": "",
+        "themes": [
+          "emotion",
+          "honest_signalling",
+          "multimodal"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -704,7 +797,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -720,7 +814,7 @@
       "id": "sp:Litoria caerulea",
       "label": "Australian green tree frog",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 12.8,
       "data": {
@@ -731,14 +825,32 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
+      }
+    },
+    {
+      "id": "sp:Pelophylax ridibundus",
+      "label": "marsh frog",
+      "type": "species",
+      "community": 6,
+      "color": "#ffd93d",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Pelophylax ridibundus",
+        "class_": "Amphibia",
+        "order_": "Anura",
+        "family": "Ranidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Pseudacris crucifer",
       "label": "spring peeper",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 12.8,
       "data": {
@@ -750,14 +862,15 @@
         "themes": [
           "honest_signalling",
           "turn_taking"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Rana temporaria",
       "label": "common frog",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 14.0,
       "data": {
@@ -768,14 +881,15 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Rhinella marina",
       "label": "cane toad",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 14.0,
       "data": {
@@ -786,14 +900,15 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Xenopus laevis",
       "label": "african clawed frog",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ffd93d",
       "size": 15.2,
       "data": {
@@ -804,7 +919,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -820,7 +936,7 @@
       "id": "sp:Acanthisitta chloris",
       "label": "rifleman",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 11.6,
       "data": {
@@ -832,7 +948,8 @@
         "themes": [
           "parent_offspring",
           "vocal_learning"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -863,6 +980,45 @@
       "data": {}
     },
     {
+      "id": "sp:Acrocephalus arundinaceus",
+      "label": "great reed warbler",
+      "type": "species",
+      "community": 7,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Acrocephalus arundinaceus",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Acrocephalidae",
+        "image_url": "",
+        "themes": [
+          "deception"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Acrocephalus palustris",
+      "label": "marsh warbler",
+      "type": "species",
+      "community": 8,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Acrocephalus palustris",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Acrocephalidae",
+        "image_url": "",
+        "themes": [
+          "deception",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Acrocephalus scirpaceus",
       "label": "reed warbler",
       "type": "species",
@@ -879,7 +1035,8 @@
           "alarm",
           "deception",
           "parent_offspring"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -922,7 +1079,7 @@
       "id": "sp:Aegithalos caudatus",
       "label": "long-tailed tit",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 14.0,
       "data": {
@@ -935,7 +1092,8 @@
           "individual_recognition",
           "cooperation",
           "alarm"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -1000,7 +1158,8 @@
           "vocal_learning",
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -1019,7 +1178,8 @@
         "themes": [
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -1030,6 +1190,28 @@
       "color": "#2cb88a",
       "size": 7,
       "data": {}
+    },
+    {
+      "id": "sp:Amazona amazonica",
+      "label": "orange-winged amazon",
+      "type": "species",
+      "community": 9,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Amazona amazonica",
+        "class_": "Aves",
+        "order_": "Psittaciformes",
+        "family": "Psittacidae",
+        "image_url": "",
+        "themes": [
+          "cultural_transmission",
+          "dialects",
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
     },
     {
       "id": "sp:Anas platyrhynchos",
@@ -1047,7 +1229,8 @@
         "themes": [
           "alarm",
           "honest_signalling"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -1102,14 +1285,15 @@
         "themes": [
           "honest_signalling",
           "alarm"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
       "id": "sp:Aptenodytes patagonicus",
       "label": "king penguin",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1121,7 +1305,8 @@
         "themes": [
           "individual_recognition",
           "parent_offspring"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -1158,7 +1343,8 @@
         "themes": [
           "cooperation",
           "multimodal"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -1183,7 +1369,7 @@
       "id": "sp:Ara macao",
       "label": "scarlet macaw",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1195,7 +1381,8 @@
         "themes": [
           "vocal_learning",
           "individual_recognition"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -1220,7 +1407,7 @@
       "id": "sp:Branta canadensis",
       "label": "Canada goose",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 17.6,
       "data": {
@@ -1232,7 +1419,8 @@
         "themes": [
           "alarm",
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -1269,7 +1457,8 @@
         "themes": [
           "honest_signalling",
           "individual_recognition"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -1291,10 +1480,32 @@
       "data": {}
     },
     {
+      "id": "sp:Cacatua galerita",
+      "label": "sulphur-crested cockatoo",
+      "type": "species",
+      "community": 10,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Cacatua galerita",
+        "class_": "Aves",
+        "order_": "Psittaciformes",
+        "family": "Psittacidae",
+        "image_url": "",
+        "themes": [
+          "dialects",
+          "honest_signalling",
+          "turn_taking",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Calidris pusilla",
       "label": "semipalmated sandpiper",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1305,7 +1516,8 @@
         "image_url": "",
         "themes": [
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -1327,10 +1539,30 @@
       "data": {}
     },
     {
+      "id": "sp:Cardinalis cardinalis",
+      "label": "northern cardinal",
+      "type": "species",
+      "community": 11,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Cardinalis cardinalis",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Cardinalidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "dialects"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Carduelis carduelis",
       "label": "european goldfinch",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1342,7 +1574,8 @@
         "themes": [
           "cooperation",
           "individual_recognition"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -1360,7 +1593,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -1378,7 +1612,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -1391,10 +1626,30 @@
       "data": {}
     },
     {
+      "id": "sp:Corvus brachyrhynchos",
+      "label": "american crow",
+      "type": "species",
+      "community": 12,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Corvus brachyrhynchos",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Corvidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Corvus corax",
       "label": "common raven",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 17.6,
       "data": {
@@ -1408,7 +1663,8 @@
           "individual_recognition",
           "cooperation",
           "multimodal"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -1433,7 +1689,7 @@
       "id": "sp:Corvus corone",
       "label": "carrion crow",
       "type": "species",
-      "community": 0,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1445,7 +1701,8 @@
         "themes": [
           "alarm",
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -1458,10 +1715,71 @@
       "data": {}
     },
     {
+      "id": "sp:Corvus frugilegus",
+      "label": "rook",
+      "type": "species",
+      "community": 13,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Corvus frugilegus",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Corvidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Corvus monedula",
+      "label": "western jackdaw",
+      "type": "species",
+      "community": 14,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Corvus monedula",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Corvidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "cultural_transmission",
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Corvus moneduloides",
+      "label": "new caledonian crow",
+      "type": "species",
+      "community": 15,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Corvus moneduloides",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Corvidae",
+        "image_url": "",
+        "themes": [
+          "dialects",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Coturnix japonica",
       "label": "japanese quail",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1473,7 +1791,8 @@
         "themes": [
           "parent_offspring",
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -1489,7 +1808,7 @@
       "id": "sp:Cuculus canorus",
       "label": "common cuckoo",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#4ecdc4",
       "size": 14.0,
       "data": {
@@ -1501,7 +1820,8 @@
         "themes": [
           "deception",
           "parent_offspring"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -1548,14 +1868,15 @@
           "vocal_learning",
           "alarm",
           "honest_signalling"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
       "id": "sp:Cyanocitta cristata",
       "label": "blue jay",
       "type": "species",
-      "community": 0,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 18.799999999999997,
       "data": {
@@ -1568,7 +1889,8 @@
           "alarm",
           "deception",
           "cooperation"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -1599,6 +1921,25 @@
       "data": {}
     },
     {
+      "id": "sp:Cyanocitta stelleri",
+      "label": "steller's jay",
+      "type": "species",
+      "community": 16,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Cyanocitta stelleri",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Corvidae",
+        "image_url": "",
+        "themes": [
+          "dialects"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Dryobates pubescens",
       "label": "hairy woodpecker",
       "type": "species",
@@ -1614,7 +1955,8 @@
         "themes": [
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -1633,7 +1975,29 @@
         "themes": [
           "honest_signalling",
           "alarm"
-        ]
+        ],
+        "learning": "closed-ended"
+      }
+    },
+    {
+      "id": "sp:Forpus passerinus",
+      "label": "green-rumped parrotlet",
+      "type": "species",
+      "community": 17,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Forpus passerinus",
+        "class_": "Aves",
+        "order_": "Psittaciformes",
+        "family": "Psittacidae",
+        "image_url": "",
+        "themes": [
+          "dialects",
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -1653,14 +2017,34 @@
           "vocal_learning",
           "dialects",
           "cultural_transmission"
-        ]
+        ],
+        "learning": "closed-ended"
+      }
+    },
+    {
+      "id": "sp:Gallus gallus",
+      "label": "red junglefowl / chicken",
+      "type": "species",
+      "community": 18,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Gallus gallus",
+        "class_": "Aves",
+        "order_": "Galliformes",
+        "family": "Phasianidae",
+        "image_url": "",
+        "themes": [
+          "syntax"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Gallus gallus domesticus",
       "label": "domestic chick",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1674,7 +2058,8 @@
           "alarm",
           "parent_offspring",
           "deception"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -1708,7 +2093,7 @@
       "id": "sp:Garrulus glandarius",
       "label": "eurasian jay",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 16.4,
       "data": {
@@ -1720,7 +2105,8 @@
         "themes": [
           "alarm",
           "referential"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -1757,7 +2143,27 @@
         "themes": [
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "closed-ended"
+      }
+    },
+    {
+      "id": "sp:Geothlypis trichas",
+      "label": "common yellowthroat",
+      "type": "species",
+      "community": 19,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Geothlypis trichas",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Parulidae",
+        "image_url": "",
+        "themes": [
+          "dialects"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -1776,7 +2182,8 @@
         "themes": [
           "honest_signalling",
           "alarm"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -1796,7 +2203,8 @@
           "vocal_learning",
           "dialects",
           "honest_signalling"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -1812,7 +2220,7 @@
       "id": "sp:Lonchura striata domestica",
       "label": "bengalese finch",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1824,7 +2232,8 @@
         "themes": [
           "vocal_learning",
           "syntax"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -1861,7 +2270,8 @@
         "themes": [
           "vocal_learning",
           "honest_signalling"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -1874,10 +2284,29 @@
       "data": {}
     },
     {
+      "id": "sp:Manacus vitellinus",
+      "label": "golden-collared manakin",
+      "type": "species",
+      "community": 20,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Manacus vitellinus",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Pipridae",
+        "image_url": "",
+        "themes": [
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Melopsittacus undulatus",
       "label": "budgerigar",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -1889,7 +2318,8 @@
         "themes": [
           "vocal_learning",
           "individual_recognition"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -1918,7 +2348,8 @@
           "vocal_learning",
           "dialects",
           "honest_signalling"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -1946,7 +2377,8 @@
         "themes": [
           "vocal_learning",
           "honest_signalling"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -1959,10 +2391,30 @@
       "data": {}
     },
     {
+      "id": "sp:Nestor notabilis",
+      "label": "kea",
+      "type": "species",
+      "community": 21,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Nestor notabilis",
+        "class_": "Aves",
+        "order_": "Psittaciformes",
+        "family": "Psittacidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Nucifraga columbiana",
       "label": "Clark's nutcracker",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 14.0,
       "data": {
@@ -1974,7 +2426,8 @@
         "themes": [
           "individual_recognition",
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -2013,14 +2466,15 @@
           "honest_signalling",
           "alarm",
           "dialects"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
       "id": "sp:Parus minor",
       "label": "japanese tit",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -2033,7 +2487,8 @@
           "syntax",
           "referential",
           "alarm"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -2067,7 +2522,7 @@
       "id": "sp:Passer domesticus",
       "label": "house sparrow",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#4ecdc4",
       "size": 16.4,
       "data": {
@@ -2079,7 +2534,8 @@
         "themes": [
           "dialects",
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -2099,7 +2555,8 @@
           "honest_signalling",
           "multimodal",
           "alarm"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -2117,7 +2574,8 @@
         "image_url": "",
         "themes": [
           "dialects"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -2136,14 +2594,15 @@
         "themes": [
           "dialects",
           "vocal_learning"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
       "id": "sp:Pica pica",
       "label": "eurasian magpie",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -2155,7 +2614,8 @@
         "themes": [
           "alarm",
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -2183,7 +2643,8 @@
         "themes": [
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -2204,7 +2665,8 @@
           "alarm",
           "syntax",
           "cooperation"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -2220,7 +2682,7 @@
       "id": "sp:Psittacus erithacus",
       "label": "african grey parrot",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#4ecdc4",
       "size": 15.2,
       "data": {
@@ -2233,7 +2695,8 @@
           "vocal_learning",
           "referential",
           "cultural_transmission"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -2255,6 +2718,27 @@
       "data": {}
     },
     {
+      "id": "sp:Pygoscelis adeliae",
+      "label": "adélie penguin",
+      "type": "species",
+      "community": 22,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Pygoscelis adeliae",
+        "class_": "Aves",
+        "order_": "Sphenisciformes",
+        "family": "Spheniscidae",
+        "image_url": "",
+        "themes": [
+          "honest_signalling",
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Quiscalus quiscula",
       "label": "common grackle",
       "type": "species",
@@ -2270,7 +2754,8 @@
         "themes": [
           "vocal_learning",
           "cooperation"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -2298,7 +2783,8 @@
         "themes": [
           "cooperation",
           "individual_recognition"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -2314,7 +2800,7 @@
       "id": "sp:Serinus canaria",
       "label": "domestic canary",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#4ecdc4",
       "size": 14.0,
       "data": {
@@ -2326,7 +2812,8 @@
         "themes": [
           "vocal_learning",
           "cultural_transmission"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -2345,14 +2832,94 @@
         "themes": [
           "honest_signalling",
           "dialects"
-        ]
+        ],
+        "learning": "limited"
+      }
+    },
+    {
+      "id": "sp:Spheniscus demersus",
+      "label": "african penguin",
+      "type": "species",
+      "community": 23,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Spheniscus demersus",
+        "class_": "Aves",
+        "order_": "Sphenisciformes",
+        "family": "Spheniscidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Spheniscus humboldti",
+      "label": "humboldt penguin",
+      "type": "species",
+      "community": 24,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Spheniscus humboldti",
+        "class_": "Aves",
+        "order_": "Sphenisciformes",
+        "family": "Spheniscidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Strix occidentalis",
+      "label": "spotted owl",
+      "type": "species",
+      "community": 25,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Strix occidentalis",
+        "class_": "Aves",
+        "order_": "Strigiformes",
+        "family": "Strigidae",
+        "image_url": "",
+        "themes": [
+          "deception",
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Sturnus unicolor",
+      "label": "spotless starling",
+      "type": "species",
+      "community": 26,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Sturnus unicolor",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Sturnidae",
+        "image_url": "",
+        "themes": [
+          "parent_offspring"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Sturnus vulgaris",
       "label": "european starling",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#4ecdc4",
       "size": 16.4,
       "data": {
@@ -2365,7 +2932,8 @@
           "vocal_learning",
           "syntax",
           "cultural_transmission"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -2411,7 +2979,8 @@
         "themes": [
           "vocal_learning",
           "dialects"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -2431,14 +3000,15 @@
           "honest_signalling",
           "alarm",
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
       "id": "sp:Taeniopygia guttata",
       "label": "zebra finch",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#4ecdc4",
       "size": 16.4,
       "data": {
@@ -2451,7 +3021,8 @@
           "vocal_learning",
           "cultural_transmission",
           "honest_signalling"
-        ]
+        ],
+        "learning": "closed-ended learner"
       }
     },
     {
@@ -2488,7 +3059,27 @@
         "themes": [
           "vocal_learning",
           "honest_signalling"
-        ]
+        ],
+        "learning": "open-ended"
+      }
+    },
+    {
+      "id": "sp:Turdoides bicolor",
+      "label": "southern pied babbler",
+      "type": "species",
+      "community": 27,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Turdoides bicolor",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Leiothrichidae",
+        "image_url": "",
+        "themes": [
+          "deception"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -2509,7 +3100,27 @@
           "dialects",
           "alarm",
           "honest_signalling"
-        ]
+        ],
+        "learning": "closed-ended"
+      }
+    },
+    {
+      "id": "sp:Turdus migratorius",
+      "label": "american robin",
+      "type": "species",
+      "community": 28,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Turdus migratorius",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Turdidae",
+        "image_url": "",
+        "themes": [
+          "vocal_learning"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -2528,7 +3139,27 @@
         "themes": [
           "vocal_learning",
           "honest_signalling"
-        ]
+        ],
+        "learning": "closed-ended"
+      }
+    },
+    {
+      "id": "sp:Tympanuchus cupido",
+      "label": "greater prairie chicken",
+      "type": "species",
+      "community": 29,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Tympanuchus cupido",
+        "class_": "Aves",
+        "order_": "Galliformes",
+        "family": "Phasianidae",
+        "image_url": "",
+        "themes": [
+          "vocal_learning"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -2547,7 +3178,8 @@
         "themes": [
           "individual_recognition",
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -2558,6 +3190,26 @@
       "color": "#e8a427",
       "size": 11,
       "data": {}
+    },
+    {
+      "id": "sp:Vidua chalybeata",
+      "label": "village indigobird",
+      "type": "species",
+      "community": 30,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Vidua chalybeata",
+        "class_": "Aves",
+        "order_": "Passeriformes",
+        "family": "Viduidae",
+        "image_url": "",
+        "themes": [
+          "cultural_transmission",
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
     },
     {
       "id": "sp:Zonotrichia leucophrys",
@@ -2576,7 +3228,8 @@
           "vocal_learning",
           "dialects",
           "cultural_transmission"
-        ]
+        ],
+        "learning": "closed-ended"
       }
     },
     {
@@ -2589,10 +3242,30 @@
       "data": {}
     },
     {
+      "id": "sp:Loligo vulgaris",
+      "label": "european squid",
+      "type": "species",
+      "community": 31,
+      "color": "#fd79a8",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Loligo vulgaris",
+        "class_": "Cephalopoda",
+        "order_": "Myopsida",
+        "family": "Loliginidae",
+        "image_url": "",
+        "themes": [
+          "echolocation",
+          "multimodal"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Octopus vulgaris",
       "label": "common octopus",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#fd79a8",
       "size": 12.8,
       "data": {
@@ -2604,7 +3277,8 @@
         "themes": [
           "multimodal",
           "deception"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -2638,7 +3312,7 @@
       "id": "sp:Sepia officinalis",
       "label": "common cuttlefish",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#fd79a8",
       "size": 12.8,
       "data": {
@@ -2650,7 +3324,8 @@
         "themes": [
           "multimodal",
           "deception"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -2663,10 +3338,27 @@
       "data": {}
     },
     {
+      "id": "sp:Crocodylus porosus",
+      "label": "saltwater crocodile",
+      "type": "species",
+      "community": 32,
+      "color": "#ffd93d",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Crocodylus porosus",
+        "class_": "Crocodylia",
+        "order_": "",
+        "family": "Crocodylidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Acheta domesticus",
       "label": "house cricket",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 15.2,
       "data": {
@@ -2677,7 +3369,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -2711,7 +3404,7 @@
       "id": "sp:Aedes aegypti",
       "label": "yellow fever mosquito",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 11.6,
       "data": {
@@ -2722,7 +3415,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -2735,10 +3429,27 @@
       "data": {}
     },
     {
+      "id": "sp:Anopheles gambiae",
+      "label": "african malaria mosquito",
+      "type": "species",
+      "community": 33,
+      "color": "#a29bfe",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Anopheles gambiae",
+        "class_": "Insecta",
+        "order_": "Diptera",
+        "family": "Culicidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Apis mellifera",
       "label": "honey bee",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 18.799999999999997,
       "data": {
@@ -2750,7 +3461,8 @@
         "themes": [
           "referential",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -2835,10 +3547,29 @@
       "data": {}
     },
     {
+      "id": "sp:Bombus terrestris",
+      "label": "buff-tailed bumblebee",
+      "type": "species",
+      "community": 34,
+      "color": "#a29bfe",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Bombus terrestris",
+        "class_": "Insecta",
+        "order_": "Hymenoptera",
+        "family": "Apidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Chorthippus biguttulus",
       "label": "bow-winged grasshopper",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 14.0,
       "data": {
@@ -2850,7 +3581,8 @@
         "themes": [
           "honest_signalling",
           "turn_taking"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -2863,10 +3595,27 @@
       "data": {}
     },
     {
+      "id": "sp:Cicada orni",
+      "label": "manna ash cicada",
+      "type": "species",
+      "community": 35,
+      "color": "#a29bfe",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Cicada orni",
+        "class_": "Insecta",
+        "order_": "Hemiptera",
+        "family": "Cicadidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Drosophila melanogaster",
       "label": "fruit fly",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 17.6,
       "data": {
@@ -2878,7 +3627,8 @@
         "themes": [
           "honest_signalling",
           "multimodal"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -2927,10 +3677,27 @@
       "data": {}
     },
     {
+      "id": "sp:Ephippiger ephippiger",
+      "label": "saddle-bearing bushcricket",
+      "type": "species",
+      "community": 36,
+      "color": "#a29bfe",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Ephippiger ephippiger",
+        "class_": "Insecta",
+        "order_": "Orthoptera",
+        "family": "Tettigoniidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Galleria mellonella",
       "label": "greater wax moth",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 14.0,
       "data": {
@@ -2941,7 +3708,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -2975,7 +3743,7 @@
       "id": "sp:Gryllus bimaculatus",
       "label": "field cricket",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 18.799999999999997,
       "data": {
@@ -2987,7 +3755,8 @@
         "themes": [
           "honest_signalling",
           "turn_taking"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -3012,7 +3781,7 @@
       "id": "sp:Magicicada septendecim",
       "label": "17-year periodical cicada",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 15.2,
       "data": {
@@ -3024,7 +3793,8 @@
         "themes": [
           "honest_signalling",
           "cooperation"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -3037,10 +3807,27 @@
       "data": {}
     },
     {
+      "id": "sp:Oecanthus pellucens",
+      "label": "italian tree cricket",
+      "type": "species",
+      "community": 37,
+      "color": "#a29bfe",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Oecanthus pellucens",
+        "class_": "Insecta",
+        "order_": "Orthoptera",
+        "family": "Gryllidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Schistocerca gregaria",
       "label": "desert locust",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 14.0,
       "data": {
@@ -3052,14 +3839,15 @@
         "themes": [
           "cooperation",
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Teleogryllus oceanicus",
       "label": "pacific field cricket",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#a29bfe",
       "size": 15.2,
       "data": {
@@ -3071,7 +3859,8 @@
         "themes": [
           "honest_signalling",
           "alarm"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -3108,14 +3897,15 @@
         "themes": [
           "honest_signalling",
           "turn_taking"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Acinonyx jubatus",
       "label": "cheetah",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -3127,7 +3917,8 @@
         "themes": [
           "individual_recognition",
           "parent_offspring"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -3158,6 +3949,40 @@
       "data": {}
     },
     {
+      "id": "sp:Alces alces",
+      "label": "moose",
+      "type": "species",
+      "community": 38,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Alces alces",
+        "class_": "Mammalia",
+        "order_": "Artiodactyla",
+        "family": "Cervidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Alouatta caraya",
+      "label": "black howler monkey",
+      "type": "species",
+      "community": 39,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Alouatta caraya",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Atelidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Alouatta palliata",
       "label": "mantled howler monkey",
       "type": "species",
@@ -3173,7 +3998,8 @@
         "themes": [
           "honest_signalling",
           "cooperation"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -3186,10 +4012,51 @@
       "data": {}
     },
     {
+      "id": "sp:Arctocephalus tropicalis",
+      "label": "subantarctic fur seal",
+      "type": "species",
+      "community": 40,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Arctocephalus tropicalis",
+        "class_": "Mammalia",
+        "order_": "Carnivora",
+        "family": "Otariidae",
+        "image_url": "",
+        "themes": [
+          "honest_signalling",
+          "individual_recognition",
+          "parent_offspring"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Balaena mysticetus",
+      "label": "bowhead whale",
+      "type": "species",
+      "community": 41,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Balaena mysticetus",
+        "class_": "Mammalia",
+        "order_": "Cetacea",
+        "family": "Balaenidae",
+        "image_url": "",
+        "themes": [
+          "echolocation",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Balaenoptera acutorostrata",
       "label": "common minke whale",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -3200,7 +4067,8 @@
         "image_url": "",
         "themes": [
           "dialects"
-        ]
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -3225,7 +4093,7 @@
       "id": "sp:Balaenoptera musculus",
       "label": "blue whale",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -3237,7 +4105,8 @@
         "themes": [
           "infrasound",
           "dialects"
-        ]
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -3262,7 +4131,7 @@
       "id": "sp:Balaenoptera physalus",
       "label": "fin whale",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -3274,7 +4143,8 @@
         "themes": [
           "infrasound",
           "dialects"
-        ]
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -3287,10 +4157,33 @@
       "data": {}
     },
     {
+      "id": "sp:Bison bison",
+      "label": "american bison",
+      "type": "species",
+      "community": 42,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Bison bison",
+        "class_": "Mammalia",
+        "order_": "Artiodactyla",
+        "family": "Bovidae",
+        "image_url": "",
+        "themes": [
+          "echolocation",
+          "emotion",
+          "honest_signalling",
+          "individual_recognition",
+          "infrasound"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Bos taurus",
       "label": "domestic cattle",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -3303,7 +4196,8 @@
           "emotion",
           "individual_recognition",
           "parent_offspring"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -3355,7 +4249,7 @@
       "id": "sp:Callicebus nigrifrons",
       "label": "black-fronted titi monkey",
       "type": "species",
-      "community": 0,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -3368,14 +4262,15 @@
           "syntax",
           "referential",
           "alarm"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Callithrix jacchus",
       "label": "common marmoset",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -3388,7 +4283,8 @@
           "vocal_learning",
           "turn_taking",
           "individual_recognition"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -3435,7 +4331,8 @@
           "individual_recognition",
           "cooperation",
           "dialects"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -3469,7 +4366,7 @@
       "id": "sp:Canis lupus familiaris",
       "label": "domestic dog",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 22.4,
       "data": {
@@ -3482,7 +4379,8 @@
           "emotion",
           "individual_recognition",
           "referential"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -3543,7 +4441,7 @@
       "id": "sp:Capra hircus",
       "label": "domestic goat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -3555,7 +4453,8 @@
         "themes": [
           "emotion",
           "parent_offspring"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -3577,10 +4476,30 @@
       "data": {}
     },
     {
+      "id": "sp:Capreolus capreolus",
+      "label": "roe deer",
+      "type": "species",
+      "community": 43,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Capreolus capreolus",
+        "class_": "Mammalia",
+        "order_": "Artiodactyla",
+        "family": "Cervidae",
+        "image_url": "",
+        "themes": [
+          "emotion",
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Carollia perspicillata",
       "label": "Seba's short-tailed bat",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -3592,7 +4511,8 @@
         "themes": [
           "echolocation",
           "vocal_learning"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -3626,7 +4546,7 @@
       "id": "sp:Castor canadensis",
       "label": "North American beaver",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -3639,7 +4559,8 @@
           "alarm",
           "multimodal",
           "parent_offspring"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -3655,7 +4576,7 @@
       "id": "sp:Cavia porcellus",
       "label": "guinea pig",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -3667,7 +4588,8 @@
         "themes": [
           "emotion",
           "individual_recognition"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -3701,7 +4623,7 @@
       "id": "sp:Cebus capucinus",
       "label": "white-faced capuchin",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -3714,14 +4636,15 @@
           "referential",
           "alarm",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
       "id": "sp:Cercocebus atys",
       "label": "sooty mangabey",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 12.8,
       "data": {
@@ -3733,14 +4656,38 @@
         "themes": [
           "referential",
           "alarm"
-        ]
+        ],
+        "learning": "social"
+      }
+    },
+    {
+      "id": "sp:Cercopithecus diana",
+      "label": "diana monkey",
+      "type": "species",
+      "community": 44,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Cercopithecus diana",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Cercopithecidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "individual_recognition",
+          "referential",
+          "syntax",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Cercopithecus mitis",
       "label": "blue monkey",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -3753,7 +4700,8 @@
           "referential",
           "syntax",
           "alarm"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -3775,10 +4723,30 @@
       "data": {}
     },
     {
+      "id": "sp:Cercopithecus nictitans",
+      "label": "putty-nosed monkey",
+      "type": "species",
+      "community": 45,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Cercopithecus nictitans",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Cercopithecidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "syntax"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Cervus elaphus",
       "label": "red deer",
       "type": "species",
-      "community": 0,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -3789,7 +4757,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -3823,7 +4792,7 @@
       "id": "sp:Chlorocebus pygerythrus",
       "label": "vervet monkey",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 12.8,
       "data": {
@@ -3835,7 +4804,8 @@
         "themes": [
           "referential",
           "alarm"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -3851,7 +4821,7 @@
       "id": "sp:Crocuta crocuta",
       "label": "spotted hyena",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -3864,7 +4834,8 @@
           "individual_recognition",
           "cooperation",
           "honest_signalling"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -3889,7 +4860,7 @@
       "id": "sp:Cynomys ludovicianus",
       "label": "black-tailed prairie dog",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -3902,14 +4873,35 @@
           "referential",
           "alarm",
           "syntax"
-        ]
+        ],
+        "learning": "social"
+      }
+    },
+    {
+      "id": "sp:Dama dama",
+      "label": "fallow deer",
+      "type": "species",
+      "community": 46,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Dama dama",
+        "class_": "Mammalia",
+        "order_": "Artiodactyla",
+        "family": "Cervidae",
+        "image_url": "",
+        "themes": [
+          "honest_signalling",
+          "infrasound"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Delphinapterus leucas",
       "label": "beluga whale",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -3922,7 +4914,8 @@
           "vocal_learning",
           "echolocation",
           "individual_recognition"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -3956,7 +4949,7 @@
       "id": "sp:Desmodus rotundus",
       "label": "common vampire bat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -3969,14 +4962,15 @@
           "echolocation",
           "cooperation",
           "individual_recognition"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
       "id": "sp:Elephas maximus",
       "label": "asian elephant",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -3989,7 +4983,8 @@
           "infrasound",
           "individual_recognition",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -4014,7 +5009,7 @@
       "id": "sp:Eptesicus fuscus",
       "label": "big brown bat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -4025,7 +5020,8 @@
         "image_url": "",
         "themes": [
           "echolocation"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -4050,7 +5046,7 @@
       "id": "sp:Equus caballus",
       "label": "domestic horse",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 21.2,
       "data": {
@@ -4062,7 +5058,8 @@
         "themes": [
           "individual_recognition",
           "emotion"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -4120,10 +5117,27 @@
       "data": {}
     },
     {
+      "id": "sp:Eschrichtius robustus",
+      "label": "gray whale",
+      "type": "species",
+      "community": 47,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Eschrichtius robustus",
+        "class_": "Mammalia",
+        "order_": "Cetacea",
+        "family": "Eschrichtiidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Eubalaena glacialis",
       "label": "North Atlantic right whale",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -4134,7 +5148,8 @@
         "image_url": "",
         "themes": [
           "infrasound"
-        ]
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -4165,10 +5180,49 @@
       "data": {}
     },
     {
+      "id": "sp:Eulemur fulvus",
+      "label": "common brown lemur",
+      "type": "species",
+      "community": 48,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Eulemur fulvus",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Lemuridae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "referential"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Eumetopias jubatus",
+      "label": "steller sea lion",
+      "type": "species",
+      "community": 49,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Eumetopias jubatus",
+        "class_": "Mammalia",
+        "order_": "Carnivora",
+        "family": "Otariidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Felis catus",
       "label": "domestic cat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 23.6,
       "data": {
@@ -4181,7 +5235,8 @@
           "emotion",
           "individual_recognition",
           "multimodal"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -4230,10 +5285,70 @@
       "data": {}
     },
     {
+      "id": "sp:Galago senegalensis",
+      "label": "senegal bushbaby",
+      "type": "species",
+      "community": 50,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Galago senegalensis",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Galagidae",
+        "image_url": "",
+        "themes": [
+          "multimodal",
+          "parent_offspring",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Giraffa camelopardalis",
+      "label": "giraffe",
+      "type": "species",
+      "community": 51,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Giraffa camelopardalis",
+        "class_": "Mammalia",
+        "order_": "Artiodactyla",
+        "family": "Giraffidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "infrasound"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Globicephala macrorhynchus",
+      "label": "short-finned pilot whale",
+      "type": "species",
+      "community": 52,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Globicephala macrorhynchus",
+        "class_": "Mammalia",
+        "order_": "Cetacea",
+        "family": "Delphinidae",
+        "image_url": "",
+        "themes": [
+          "echolocation"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Globicephala melas",
       "label": "long-finned pilot whale",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -4245,7 +5360,8 @@
         "themes": [
           "cooperation",
           "cultural_transmission"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -4261,7 +5377,7 @@
       "id": "sp:Gorilla gorilla",
       "label": "western gorilla",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -4274,7 +5390,8 @@
           "multimodal",
           "honest_signalling",
           "emotion"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -4317,7 +5434,7 @@
       "id": "sp:Halichoerus grypus",
       "label": "grey seal",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 12.8,
       "data": {
@@ -4328,14 +5445,35 @@
         "image_url": "",
         "themes": [
           "vocal_learning"
-        ]
+        ],
+        "learning": "open-ended"
+      }
+    },
+    {
+      "id": "sp:Helogale parvula",
+      "label": "common dwarf mongoose",
+      "type": "species",
+      "community": 53,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Helogale parvula",
+        "class_": "Mammalia",
+        "order_": "Carnivora",
+        "family": "Herpestidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "referential"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Heterocephalus glaber",
       "label": "naked mole-rat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -4348,7 +5486,8 @@
           "dialects",
           "individual_recognition",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -4368,6 +5507,25 @@
       "color": "#2cb88a",
       "size": 6,
       "data": {}
+    },
+    {
+      "id": "sp:Hippopotamus amphibius",
+      "label": "common hippopotamus",
+      "type": "species",
+      "community": 54,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Hippopotamus amphibius",
+        "class_": "Mammalia",
+        "order_": "Artiodactyla",
+        "family": "Hippopotamidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
     },
     {
       "id": "sp:Homo sapiens",
@@ -4397,7 +5555,8 @@
           "parent_offspring",
           "alarm",
           "honest_signalling"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -4444,7 +5603,8 @@
           "turn_taking",
           "honest_signalling",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -4482,14 +5642,35 @@
           "turn_taking",
           "cultural_transmission",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
+      }
+    },
+    {
+      "id": "sp:Lagenorhynchus obliquidens",
+      "label": "pacific white-sided dolphin",
+      "type": "species",
+      "community": 55,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Lagenorhynchus obliquidens",
+        "class_": "Mammalia",
+        "order_": "Cetacea",
+        "family": "Delphinidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "turn_taking"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Lemur catta",
       "label": "ring-tailed lemur",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -4502,7 +5683,8 @@
           "referential",
           "alarm",
           "multimodal"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -4530,14 +5712,15 @@
         "themes": [
           "vocal_learning",
           "dialects"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
       "id": "sp:Loxodonta africana",
       "label": "african elephant",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -4553,14 +5736,37 @@
           "cooperation",
           "cultural_transmission",
           "vocal_learning"
-        ]
+        ],
+        "learning": "social"
+      }
+    },
+    {
+      "id": "sp:Loxodonta cyclotis",
+      "label": "african forest elephant",
+      "type": "species",
+      "community": 56,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Loxodonta cyclotis",
+        "class_": "Mammalia",
+        "order_": "Proboscidea",
+        "family": "Elephantidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "infrasound",
+          "syntax",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Lycaon pictus",
       "label": "African wild dog",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -4572,7 +5778,8 @@
         "themes": [
           "cooperation",
           "referential"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -4612,10 +5819,52 @@
       "data": {}
     },
     {
+      "id": "sp:Macaca fascicularis",
+      "label": "long-tailed macaque",
+      "type": "species",
+      "community": 57,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Macaca fascicularis",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Cercopithecidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "cultural_transmission",
+          "emotion",
+          "parent_offspring"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Macaca fuscata",
+      "label": "japanese macaque",
+      "type": "species",
+      "community": 58,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Macaca fuscata",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Cercopithecidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "turn_taking"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Macaca mulatta",
       "label": "rhesus macaque",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -4628,7 +5877,8 @@
           "individual_recognition",
           "cooperation",
           "emotion"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -4659,10 +5909,34 @@
       "data": {}
     },
     {
+      "id": "sp:Marmota flaviventris",
+      "label": "yellow-bellied marmot",
+      "type": "species",
+      "community": 59,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Marmota flaviventris",
+        "class_": "Mammalia",
+        "order_": "Rodentia",
+        "family": "Sciuridae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "emotion",
+          "individual_recognition",
+          "referential",
+          "syntax",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Marmota marmota",
       "label": "alpine marmot",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 12.8,
       "data": {
@@ -4675,14 +5949,15 @@
           "referential",
           "alarm",
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
       "id": "sp:Megaptera novaeangliae",
       "label": "humpback whale",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -4695,14 +5970,15 @@
           "vocal_learning",
           "cultural_transmission",
           "dialects"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
       "id": "sp:Mephitis mephitis",
       "label": "striped skunk",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -4714,7 +5990,8 @@
         "themes": [
           "emotion",
           "multimodal"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -4725,6 +6002,23 @@
       "color": "#e8a427",
       "size": 6,
       "data": {}
+    },
+    {
+      "id": "sp:Meriones unguiculatus",
+      "label": "mongolian gerbil",
+      "type": "species",
+      "community": 60,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Meriones unguiculatus",
+        "class_": "Mammalia",
+        "order_": "Rodentia",
+        "family": "Muridae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
     },
     {
       "id": "sp:Microcebus murinus",
@@ -4742,7 +6036,8 @@
         "themes": [
           "individual_recognition",
           "honest_signalling"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -4758,7 +6053,7 @@
       "id": "sp:Mirounga angustirostris",
       "label": "northern elephant seal",
       "type": "species",
-      "community": 0,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -4770,14 +6065,35 @@
         "themes": [
           "individual_recognition",
           "honest_signalling"
-        ]
+        ],
+        "learning": "limited"
+      }
+    },
+    {
+      "id": "sp:Mirounga leonina",
+      "label": "southern elephant seal",
+      "type": "species",
+      "community": 61,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Mirounga leonina",
+        "class_": "Mammalia",
+        "order_": "Carnivora",
+        "family": "Phocidae",
+        "image_url": "",
+        "themes": [
+          "honest_signalling",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Monodon monoceros",
       "label": "narwhal",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -4789,14 +6105,15 @@
         "themes": [
           "echolocation",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
       "id": "sp:Mus musculus",
       "label": "house mouse",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -4809,7 +6126,8 @@
           "vocal_learning",
           "honest_signalling",
           "parent_offspring"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -4843,7 +6161,7 @@
       "id": "sp:Mustela putorius furo",
       "label": "domestic ferret",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -4854,7 +6172,8 @@
         "image_url": "",
         "themes": [
           "emotion"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -4876,10 +6195,30 @@
       "data": {}
     },
     {
+      "id": "sp:Myotis daubentonii",
+      "label": "daubenton's bat",
+      "type": "species",
+      "community": 62,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Myotis daubentonii",
+        "class_": "Mammalia",
+        "order_": "Chiroptera",
+        "family": "Vespertilionidae",
+        "image_url": "",
+        "themes": [
+          "echolocation",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Myotis lucifugus",
       "label": "little brown bat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -4890,7 +6229,28 @@
         "image_url": "",
         "themes": [
           "echolocation"
-        ]
+        ],
+        "learning": "innate"
+      }
+    },
+    {
+      "id": "sp:Noctilio leporinus",
+      "label": "greater bulldog bat",
+      "type": "species",
+      "community": 63,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Noctilio leporinus",
+        "class_": "Mammalia",
+        "order_": "Chiroptera",
+        "family": "Noctilionidae",
+        "image_url": "",
+        "themes": [
+          "echolocation",
+          "individual_recognition"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -4910,7 +6270,8 @@
           "turn_taking",
           "cooperation",
           "honest_signalling"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -4932,10 +6293,51 @@
       "data": {}
     },
     {
+      "id": "sp:Octodon degus",
+      "label": "common degu",
+      "type": "species",
+      "community": 64,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Octodon degus",
+        "class_": "Mammalia",
+        "order_": "Rodentia",
+        "family": "Octodontidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "emotion",
+          "parent_offspring"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Odobenus rosmarus",
+      "label": "walrus",
+      "type": "species",
+      "community": 65,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Odobenus rosmarus",
+        "class_": "Mammalia",
+        "order_": "Carnivora",
+        "family": "Odobenidae",
+        "image_url": "",
+        "themes": [
+          "parent_offspring",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Orcinus orca",
       "label": "orca",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -4950,7 +6352,8 @@
           "dialects",
           "cooperation",
           "echolocation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -4975,7 +6378,7 @@
       "id": "sp:Ovis aries",
       "label": "domestic sheep",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -4987,14 +6390,34 @@
         "themes": [
           "individual_recognition",
           "parent_offspring"
-        ]
+        ],
+        "learning": "limited"
+      }
+    },
+    {
+      "id": "sp:Pagophilus groenlandicus",
+      "label": "harp seal",
+      "type": "species",
+      "community": 66,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Pagophilus groenlandicus",
+        "class_": "Mammalia",
+        "order_": "Carnivora",
+        "family": "Phocidae",
+        "image_url": "",
+        "themes": [
+          "vocal_learning"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Pan paniscus",
       "label": "bonobo",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -5007,7 +6430,8 @@
           "emotion",
           "cooperation",
           "referential"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -5059,7 +6483,7 @@
       "id": "sp:Pan troglodytes",
       "label": "chimpanzee",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -5074,7 +6498,8 @@
           "cooperation",
           "emotion",
           "multimodal"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -5099,7 +6524,7 @@
       "id": "sp:Panthera leo",
       "label": "lion",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -5112,7 +6537,8 @@
           "honest_signalling",
           "individual_recognition",
           "cooperation"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -5131,7 +6557,8 @@
         "themes": [
           "honest_signalling",
           "infrasound"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5147,7 +6574,7 @@
       "id": "sp:Papio anubis",
       "label": "olive baboon",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -5160,7 +6587,45 @@
           "individual_recognition",
           "emotion",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
+      }
+    },
+    {
+      "id": "sp:Papio ursinus",
+      "label": "chacma baboon",
+      "type": "species",
+      "community": 67,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Papio ursinus",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Cercopithecidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Petaurus breviceps",
+      "label": "sugar glider",
+      "type": "species",
+      "community": 68,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Petaurus breviceps",
+        "class_": "Mammalia",
+        "order_": "Diprotodontia",
+        "family": "Petauridae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
       }
     },
     {
@@ -5179,7 +6644,8 @@
         "themes": [
           "honest_signalling",
           "infrasound"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5198,14 +6664,15 @@
         "themes": [
           "individual_recognition",
           "honest_signalling"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
       "id": "sp:Phocoena phocoena",
       "label": "harbour porpoise",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -5216,14 +6683,35 @@
         "image_url": "",
         "themes": [
           "echolocation"
-        ]
+        ],
+        "learning": "innate"
+      }
+    },
+    {
+      "id": "sp:Phyllostomus discolor",
+      "label": "pale spear-nosed bat",
+      "type": "species",
+      "community": 69,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Phyllostomus discolor",
+        "class_": "Mammalia",
+        "order_": "Chiroptera",
+        "family": "Phyllostomidae",
+        "image_url": "",
+        "themes": [
+          "echolocation",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Physeter macrocephalus",
       "label": "sperm whale",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -5238,7 +6726,8 @@
           "echolocation",
           "dialects",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -5272,7 +6761,7 @@
       "id": "sp:Pipistrellus pipistrellus",
       "label": "common pipistrelle",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -5283,14 +6772,96 @@
         "image_url": "",
         "themes": [
           "echolocation"
-        ]
+        ],
+        "learning": "limited"
+      }
+    },
+    {
+      "id": "sp:Pongo abelii",
+      "label": "sumatran orangutan",
+      "type": "species",
+      "community": 70,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Pongo abelii",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Hominidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "cultural_transmission",
+          "deception",
+          "syntax",
+          "turn_taking"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Pongo pygmaeus",
+      "label": "bornean orangutan",
+      "type": "species",
+      "community": 71,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Pongo pygmaeus",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Hominidae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "individual_recognition",
+          "syntax",
+          "turn_taking"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Propithecus coquereli",
+      "label": "coquerel's sifaka",
+      "type": "species",
+      "community": 72,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Propithecus coquereli",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Indriidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Pteropus poliocephalus",
+      "label": "grey-headed flying fox",
+      "type": "species",
+      "community": 73,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Pteropus poliocephalus",
+        "class_": "Mammalia",
+        "order_": "Chiroptera",
+        "family": "Pteropodidae",
+        "image_url": "",
+        "themes": [
+          "echolocation"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Pteropus vampyrus",
       "label": "large flying fox",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -5302,7 +6873,8 @@
         "themes": [
           "cooperation",
           "individual_recognition"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -5327,7 +6899,7 @@
       "id": "sp:Rangifer tarandus",
       "label": "reindeer",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -5338,7 +6910,8 @@
         "image_url": "",
         "themes": [
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5354,7 +6927,7 @@
       "id": "sp:Rattus norvegicus",
       "label": "norway rat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -5366,7 +6939,8 @@
         "themes": [
           "emotion",
           "parent_offspring"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -5382,7 +6956,7 @@
       "id": "sp:Rhinolophus ferrumequinum",
       "label": "greater horseshoe bat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 14.0,
       "data": {
@@ -5394,14 +6968,15 @@
         "themes": [
           "echolocation",
           "dialects"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Rousettus aegyptiacus",
       "label": "Egyptian fruit bat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -5413,7 +6988,8 @@
         "themes": [
           "vocal_learning",
           "individual_recognition"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -5438,7 +7014,7 @@
       "id": "sp:Saccopteryx bilineata",
       "label": "greater sac-winged bat",
       "type": "species",
-      "community": 1,
+      "community": 0,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -5450,7 +7026,8 @@
         "themes": [
           "vocal_learning",
           "parent_offspring"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -5481,10 +7058,29 @@
       "data": {}
     },
     {
+      "id": "sp:Saguinus oedipus",
+      "label": "cotton-top tamarin",
+      "type": "species",
+      "community": 74,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Saguinus oedipus",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Callitrichidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Saimiri sciureus",
       "label": "squirrel monkey",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -5496,7 +7092,47 @@
         "themes": [
           "individual_recognition",
           "alarm"
-        ]
+        ],
+        "learning": "social"
+      }
+    },
+    {
+      "id": "sp:Sarcophilus harrisii",
+      "label": "tasmanian devil",
+      "type": "species",
+      "community": 75,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Sarcophilus harrisii",
+        "class_": "Mammalia",
+        "order_": "Dasyuromorphia",
+        "family": "Dasyuridae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Sciurus carolinensis",
+      "label": "eastern gray squirrel",
+      "type": "species",
+      "community": 76,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Sciurus carolinensis",
+        "class_": "Mammalia",
+        "order_": "Rodentia",
+        "family": "Sciuridae",
+        "image_url": "",
+        "themes": [
+          "echolocation",
+          "referential"
+        ],
+        "learning": "unknown"
       }
     },
     {
@@ -5515,14 +7151,15 @@
         "themes": [
           "turn_taking",
           "honest_signalling"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
       "id": "sp:Sousa chinensis",
       "label": "Indo-Pacific humpback dolphin",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -5534,14 +7171,15 @@
         "themes": [
           "echolocation",
           "individual_recognition"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
       "id": "sp:Spermophilus beecheyi",
       "label": "california ground squirrel",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -5553,14 +7191,15 @@
         "themes": [
           "referential",
           "alarm"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
       "id": "sp:Stenella frontalis",
       "label": "Atlantic spotted dolphin",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -5573,7 +7212,8 @@
           "vocal_learning",
           "echolocation",
           "individual_recognition"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -5586,10 +7226,32 @@
       "data": {}
     },
     {
+      "id": "sp:Stenella longirostris",
+      "label": "spinner dolphin",
+      "type": "species",
+      "community": 77,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Stenella longirostris",
+        "class_": "Mammalia",
+        "order_": "Cetacea",
+        "family": "Delphinidae",
+        "image_url": "",
+        "themes": [
+          "cultural_transmission",
+          "echolocation",
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Suricata suricatta",
       "label": "meerkat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 15.2,
       "data": {
@@ -5602,14 +7264,15 @@
           "referential",
           "alarm",
           "cooperation"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
       "id": "sp:Sus scrofa domesticus",
       "label": "domestic pig",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 20.0,
       "data": {
@@ -5621,14 +7284,36 @@
         "themes": [
           "emotion",
           "honest_signalling"
-        ]
+        ],
+        "learning": "limited"
+      }
+    },
+    {
+      "id": "sp:Symphalangus syndactylus",
+      "label": "siamang",
+      "type": "species",
+      "community": 78,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Symphalangus syndactylus",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Hylobatidae",
+        "image_url": "",
+        "themes": [
+          "emotion",
+          "honest_signalling",
+          "turn_taking"
+        ],
+        "learning": "unknown"
       }
     },
     {
       "id": "sp:Tadarida brasiliensis",
       "label": "mexican free-tailed bat",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 17.6,
       "data": {
@@ -5640,7 +7325,8 @@
         "themes": [
           "echolocation",
           "honest_signalling"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -5651,6 +7337,43 @@
       "color": "#9b8ef0",
       "size": 6,
       "data": {}
+    },
+    {
+      "id": "sp:Tapirus terrestris",
+      "label": "lowland tapir",
+      "type": "species",
+      "community": 79,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Tapirus terrestris",
+        "class_": "Mammalia",
+        "order_": "Perissodactyla",
+        "family": "Tapiridae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Tarsius syrichta",
+      "label": "philippine tarsier",
+      "type": "species",
+      "community": 80,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Tarsius syrichta",
+        "class_": "Mammalia",
+        "order_": "Primates",
+        "family": "Tarsiidae",
+        "image_url": "",
+        "themes": [
+          "individual_recognition",
+          "parent_offspring"
+        ],
+        "learning": "unknown"
+      }
     },
     {
       "id": "sp:Tarsius tarsier",
@@ -5668,7 +7391,8 @@
         "themes": [
           "turn_taking",
           "echolocation"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5684,7 +7408,7 @@
       "id": "sp:Theropithecus gelada",
       "label": "gelada",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -5697,7 +7421,8 @@
           "vocal_learning",
           "individual_recognition",
           "turn_taking"
-        ]
+        ],
+        "learning": "social"
       }
     },
     {
@@ -5710,10 +7435,50 @@
       "data": {}
     },
     {
+      "id": "sp:Trichosurus vulpecula",
+      "label": "common brushtail possum",
+      "type": "species",
+      "community": 81,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Trichosurus vulpecula",
+        "class_": "Mammalia",
+        "order_": "Diprotodontia",
+        "family": "Phalangeridae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Tursiops aduncus",
+      "label": "indo-pacific bottlenose dolphin",
+      "type": "species",
+      "community": 82,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Tursiops aduncus",
+        "class_": "Mammalia",
+        "order_": "Cetacea",
+        "family": "Delphinidae",
+        "image_url": "",
+        "themes": [
+          "deception",
+          "echolocation",
+          "individual_recognition",
+          "syntax",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Tursiops truncatus",
       "label": "bottlenose dolphin",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -5728,7 +7493,8 @@
           "individual_recognition",
           "echolocation",
           "cooperation"
-        ]
+        ],
+        "learning": "open-ended"
       }
     },
     {
@@ -5750,6 +7516,46 @@
       "data": {}
     },
     {
+      "id": "sp:Urocitellus beldingi",
+      "label": "belding's ground squirrel",
+      "type": "species",
+      "community": 83,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Urocitellus beldingi",
+        "class_": "Mammalia",
+        "order_": "Rodentia",
+        "family": "Sciuridae",
+        "image_url": "",
+        "themes": [
+          "alarm",
+          "individual_recognition",
+          "vocal_learning"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Ursus americanus",
+      "label": "american black bear",
+      "type": "species",
+      "community": 84,
+      "color": "#ff6b6b",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Ursus americanus",
+        "class_": "Mammalia",
+        "order_": "Carnivora",
+        "family": "Ursidae",
+        "image_url": "",
+        "themes": [
+          "cultural_transmission"
+        ],
+        "learning": "unknown"
+      }
+    },
+    {
       "id": "sp:Ursus arctos",
       "label": "brown bear",
       "type": "species",
@@ -5765,7 +7571,8 @@
         "themes": [
           "honest_signalling",
           "emotion"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5781,7 +7588,7 @@
       "id": "sp:Vulpes vulpes",
       "label": "red fox",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 18.799999999999997,
       "data": {
@@ -5793,14 +7600,15 @@
         "themes": [
           "emotion",
           "individual_recognition"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
       "id": "sp:Zalophus californianus",
       "label": "California sea lion",
       "type": "species",
-      "community": 0,
+      "community": 1,
       "color": "#ff6b6b",
       "size": 16.4,
       "data": {
@@ -5812,7 +7620,8 @@
         "themes": [
           "individual_recognition",
           "parent_offspring"
-        ]
+        ],
+        "learning": "limited"
       }
     },
     {
@@ -5831,7 +7640,8 @@
         "themes": [
           "infrasound",
           "parent_offspring"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5850,14 +7660,15 @@
         "themes": [
           "multimodal",
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
       "id": "sp:Chelonia mydas",
       "label": "green sea turtle",
       "type": "species",
-      "community": 2,
+      "community": 1,
       "color": "#e17055",
       "size": 11.6,
       "data": {
@@ -5868,7 +7679,8 @@
         "image_url": "",
         "themes": [
           "parent_offspring"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5905,7 +7717,8 @@
         "themes": [
           "infrasound",
           "parent_offspring"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5933,7 +7746,8 @@
         "themes": [
           "multimodal",
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5952,7 +7766,8 @@
         "themes": [
           "multimodal",
           "honest_signalling"
-        ]
+        ],
+        "learning": "innate"
       }
     },
     {
@@ -5963,6 +7778,108 @@
       "color": "#e8a427",
       "size": 6,
       "data": {}
+    },
+    {
+      "id": "sp:Gekko gecko",
+      "label": "tokay gecko",
+      "type": "species",
+      "community": 85,
+      "color": "#e84393",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Gekko gecko",
+        "class_": "Squamata",
+        "order_": "",
+        "family": "Gekkonidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Caretta caretta",
+      "label": "loggerhead sea turtle",
+      "type": "species",
+      "community": 86,
+      "color": "#00cec9",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Caretta caretta",
+        "class_": "Testudines",
+        "order_": "",
+        "family": "Cheloniidae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Amphiprion clarkii",
+      "label": "clark's anemonefish",
+      "type": "species",
+      "community": 87,
+      "color": "#74b9ff",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Amphiprion clarkii",
+        "class_": "",
+        "order_": "Perciformes",
+        "family": "Pomacentridae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Halobatrachus didactylus",
+      "label": "lusitanian toadfish",
+      "type": "species",
+      "community": 88,
+      "color": "#fab1a0",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Halobatrachus didactylus",
+        "class_": "",
+        "order_": "Batrachoidiformes",
+        "family": "Batrachoididae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Opsanus tau",
+      "label": "oyster toadfish",
+      "type": "species",
+      "community": 89,
+      "color": "#ff7675",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Opsanus tau",
+        "class_": "",
+        "order_": "Batrachoidiformes",
+        "family": "Batrachoididae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
+    },
+    {
+      "id": "sp:Pomacentrus partitus",
+      "label": "bicolor damselfish",
+      "type": "species",
+      "community": 90,
+      "color": "#4ecdc4",
+      "size": 8.0,
+      "data": {
+        "scientific_name": "Pomacentrus partitus",
+        "class_": "",
+        "order_": "Perciformes",
+        "family": "Pomacentridae",
+        "image_url": "",
+        "themes": [],
+        "learning": "unknown"
+      }
     }
   ],
   "edges": [
@@ -92857,18 +94774,18 @@
       "id": 0,
       "color": "#4ecdc4",
       "species": [
+        "17-year periodical cicada",
         "Alston's singing mouse",
         "American alligator",
-        "California sea lion",
+        "Australian green tree frog",
+        "Burton's mouthbrooder",
         "Eurasian blue tit",
+        "North Atlantic right whale",
+        "Seba's short-tailed bat",
         "Weddell seal",
+        "african clawed frog",
         "american bullfrog",
-        "barn owl",
-        "black crested gibbon",
-        "black-fronted titi monkey",
-        "blue jay",
-        "blue rockfish",
-        "brown thrasher"
+        "atlantic cod"
       ],
       "traits": [
         "mate attraction",
@@ -92876,75 +94793,847 @@
         "territory signalling",
         "song",
         "call",
-        "alarm call",
-        "predator warning",
-        "courtship"
+        "courtship",
+        "advertisement call",
+        "species recognition"
       ],
-      "size": 56
+      "size": 94
     },
     {
       "id": 1,
       "color": "#ff6b6b",
       "species": [
-        "17-year periodical cicada",
-        "Australian green tree frog",
-        "Burton's mouthbrooder",
+        "African wild dog",
+        "Atlantic spotted dolphin",
+        "California sea lion",
+        "Canada goose",
+        "Clark's nutcracker",
+        "Egyptian fruit bat",
         "Indian peafowl",
-        "North Atlantic right whale",
-        "Seba's short-tailed bat",
-        "african clawed frog",
-        "atlantic cod",
-        "barn swallow",
-        "bengalese finch",
-        "black-capped chickadee",
-        "blue whale"
+        "Indo-Pacific humpback dolphin",
+        "North American beaver",
+        "african elephant",
+        "african grey parrot",
+        "alpine marmot"
       ],
       "traits": [
-        "mate attraction",
-        "courtship",
-        "song",
-        "call",
-        "species recognition",
         "alarm",
-        "advertisement call",
-        "male competition"
+        "social communication",
+        "call",
+        "individual recognition",
+        "mate attraction",
+        "predator warning",
+        "alarm call",
+        "group coordination"
       ],
-      "size": 56
+      "size": 90
     },
     {
       "id": 2,
       "color": "#ffd93d",
       "species": [
-        "African wild dog",
-        "Atlantic spotted dolphin",
-        "Canada goose",
-        "Clark's nutcracker",
-        "Egyptian fruit bat",
-        "Indo-Pacific humpback dolphin",
-        "North American beaver",
-        "african elephant",
-        "african grey parrot",
-        "alpine marmot",
-        "asian elephant",
-        "beluga whale"
+        "brilliant-thighed poison frog"
       ],
-      "traits": [
-        "social communication",
-        "alarm",
-        "individual recognition",
-        "call",
-        "group coordination",
-        "predator warning",
-        "contact maintenance",
-        "alarm call"
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 3,
+      "color": "#6c5ce7",
+      "species": [
+        "european fire-bellied toad"
       ],
-      "size": 72
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 4,
+      "color": "#a29bfe",
+      "species": [
+        "hourglass treefrog"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 5,
+      "color": "#fd79a8",
+      "species": [
+        "painted reed frog"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 6,
+      "color": "#00b894",
+      "species": [
+        "marsh frog"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 7,
+      "color": "#0984e3",
+      "species": [
+        "great reed warbler"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 8,
+      "color": "#e17055",
+      "species": [
+        "marsh warbler"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 9,
+      "color": "#fdcb6e",
+      "species": [
+        "orange-winged amazon"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 10,
+      "color": "#e84393",
+      "species": [
+        "sulphur-crested cockatoo"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 11,
+      "color": "#00cec9",
+      "species": [
+        "northern cardinal"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 12,
+      "color": "#74b9ff",
+      "species": [
+        "american crow"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 13,
+      "color": "#fab1a0",
+      "species": [
+        "rook"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 14,
+      "color": "#ff7675",
+      "species": [
+        "western jackdaw"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 15,
+      "color": "#4ecdc4",
+      "species": [
+        "new caledonian crow"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 16,
+      "color": "#ff6b6b",
+      "species": [
+        "steller's jay"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 17,
+      "color": "#ffd93d",
+      "species": [
+        "green-rumped parrotlet"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 18,
+      "color": "#6c5ce7",
+      "species": [
+        "red junglefowl / chicken"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 19,
+      "color": "#a29bfe",
+      "species": [
+        "common yellowthroat"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 20,
+      "color": "#fd79a8",
+      "species": [
+        "golden-collared manakin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 21,
+      "color": "#00b894",
+      "species": [
+        "kea"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 22,
+      "color": "#0984e3",
+      "species": [
+        "adélie penguin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 23,
+      "color": "#e17055",
+      "species": [
+        "african penguin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 24,
+      "color": "#fdcb6e",
+      "species": [
+        "humboldt penguin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 25,
+      "color": "#e84393",
+      "species": [
+        "spotted owl"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 26,
+      "color": "#00cec9",
+      "species": [
+        "spotless starling"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 27,
+      "color": "#74b9ff",
+      "species": [
+        "southern pied babbler"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 28,
+      "color": "#fab1a0",
+      "species": [
+        "american robin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 29,
+      "color": "#ff7675",
+      "species": [
+        "greater prairie chicken"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 30,
+      "color": "#4ecdc4",
+      "species": [
+        "village indigobird"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 31,
+      "color": "#ff6b6b",
+      "species": [
+        "european squid"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 32,
+      "color": "#ffd93d",
+      "species": [
+        "saltwater crocodile"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 33,
+      "color": "#6c5ce7",
+      "species": [
+        "african malaria mosquito"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 34,
+      "color": "#a29bfe",
+      "species": [
+        "buff-tailed bumblebee"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 35,
+      "color": "#fd79a8",
+      "species": [
+        "manna ash cicada"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 36,
+      "color": "#00b894",
+      "species": [
+        "saddle-bearing bushcricket"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 37,
+      "color": "#0984e3",
+      "species": [
+        "italian tree cricket"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 38,
+      "color": "#e17055",
+      "species": [
+        "moose"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 39,
+      "color": "#fdcb6e",
+      "species": [
+        "black howler monkey"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 40,
+      "color": "#e84393",
+      "species": [
+        "subantarctic fur seal"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 41,
+      "color": "#00cec9",
+      "species": [
+        "bowhead whale"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 42,
+      "color": "#74b9ff",
+      "species": [
+        "american bison"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 43,
+      "color": "#fab1a0",
+      "species": [
+        "roe deer"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 44,
+      "color": "#ff7675",
+      "species": [
+        "diana monkey"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 45,
+      "color": "#4ecdc4",
+      "species": [
+        "putty-nosed monkey"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 46,
+      "color": "#ff6b6b",
+      "species": [
+        "fallow deer"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 47,
+      "color": "#ffd93d",
+      "species": [
+        "gray whale"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 48,
+      "color": "#6c5ce7",
+      "species": [
+        "common brown lemur"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 49,
+      "color": "#a29bfe",
+      "species": [
+        "steller sea lion"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 50,
+      "color": "#fd79a8",
+      "species": [
+        "senegal bushbaby"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 51,
+      "color": "#00b894",
+      "species": [
+        "giraffe"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 52,
+      "color": "#0984e3",
+      "species": [
+        "short-finned pilot whale"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 53,
+      "color": "#e17055",
+      "species": [
+        "common dwarf mongoose"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 54,
+      "color": "#fdcb6e",
+      "species": [
+        "common hippopotamus"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 55,
+      "color": "#e84393",
+      "species": [
+        "pacific white-sided dolphin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 56,
+      "color": "#00cec9",
+      "species": [
+        "african forest elephant"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 57,
+      "color": "#74b9ff",
+      "species": [
+        "long-tailed macaque"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 58,
+      "color": "#fab1a0",
+      "species": [
+        "japanese macaque"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 59,
+      "color": "#ff7675",
+      "species": [
+        "yellow-bellied marmot"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 60,
+      "color": "#4ecdc4",
+      "species": [
+        "mongolian gerbil"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 61,
+      "color": "#ff6b6b",
+      "species": [
+        "southern elephant seal"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 62,
+      "color": "#ffd93d",
+      "species": [
+        "daubenton's bat"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 63,
+      "color": "#6c5ce7",
+      "species": [
+        "greater bulldog bat"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 64,
+      "color": "#a29bfe",
+      "species": [
+        "common degu"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 65,
+      "color": "#fd79a8",
+      "species": [
+        "walrus"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 66,
+      "color": "#00b894",
+      "species": [
+        "harp seal"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 67,
+      "color": "#0984e3",
+      "species": [
+        "chacma baboon"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 68,
+      "color": "#e17055",
+      "species": [
+        "sugar glider"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 69,
+      "color": "#fdcb6e",
+      "species": [
+        "pale spear-nosed bat"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 70,
+      "color": "#e84393",
+      "species": [
+        "sumatran orangutan"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 71,
+      "color": "#00cec9",
+      "species": [
+        "bornean orangutan"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 72,
+      "color": "#74b9ff",
+      "species": [
+        "coquerel's sifaka"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 73,
+      "color": "#fab1a0",
+      "species": [
+        "grey-headed flying fox"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 74,
+      "color": "#ff7675",
+      "species": [
+        "cotton-top tamarin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 75,
+      "color": "#4ecdc4",
+      "species": [
+        "tasmanian devil"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 76,
+      "color": "#ff6b6b",
+      "species": [
+        "eastern gray squirrel"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 77,
+      "color": "#ffd93d",
+      "species": [
+        "spinner dolphin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 78,
+      "color": "#6c5ce7",
+      "species": [
+        "siamang"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 79,
+      "color": "#a29bfe",
+      "species": [
+        "lowland tapir"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 80,
+      "color": "#fd79a8",
+      "species": [
+        "philippine tarsier"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 81,
+      "color": "#00b894",
+      "species": [
+        "common brushtail possum"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 82,
+      "color": "#0984e3",
+      "species": [
+        "indo-pacific bottlenose dolphin"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 83,
+      "color": "#e17055",
+      "species": [
+        "belding's ground squirrel"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 84,
+      "color": "#fdcb6e",
+      "species": [
+        "american black bear"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 85,
+      "color": "#e84393",
+      "species": [
+        "tokay gecko"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 86,
+      "color": "#00cec9",
+      "species": [
+        "loggerhead sea turtle"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 87,
+      "color": "#74b9ff",
+      "species": [
+        "clark's anemonefish"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 88,
+      "color": "#fab1a0",
+      "species": [
+        "lusitanian toadfish"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 89,
+      "color": "#ff7675",
+      "species": [
+        "oyster toadfish"
+      ],
+      "traits": [],
+      "size": 1
+    },
+    {
+      "id": 90,
+      "color": "#4ecdc4",
+      "species": [
+        "bicolor damselfish"
+      ],
+      "traits": [],
+      "size": 1
     }
   ],
   "stats": {
-    "n_species": 184,
+    "n_species": 273,
     "n_claims": 269,
     "n_edges": 1198,
-    "n_communities": 3
+    "n_communities": 91
   }
 }

@@ -28,7 +28,7 @@ except ImportError:
 
 PROJ = Path(__file__).parent
 OUT = PROJ / 'outputs'
-BUILT = PROJ / 'data' / 'built'
+BUILT = PROJ / 'outputs' / 'data' / 'built'
 BUILT.mkdir(parents=True, exist_ok=True)
 
 CLASS_COLORS = {'Aves':'#4ecdc4','Mammalia':'#ff6b6b','Amphibia':'#ffd93d',
@@ -51,7 +51,7 @@ for sp in SPECIES:
     G.add_node(sid, node_type='species', label=sp['en'],
                scientific_name=sp['sci'], class_=sp.get('class_',''),
                order_=sp.get('order_',''), family=sp.get('family',''),
-               themes=sp.get('themes',[]),
+               themes=sp.get('themes',[]), learning=sp.get('learning',''),
                image_url=sp.get('image',{}).get('url','') if isinstance(sp.get('image'),dict) else '')
     for v in sp.get('voc',[]):
         if not v or v == '—': continue
@@ -119,7 +119,7 @@ for nid, data in G.nodes(data=True):
             'scientific_name': data.get('scientific_name',''),
             'class_': data.get('class_',''), 'order_': data.get('order_',''),
             'family': data.get('family',''), 'image_url': data.get('image_url',''),
-            'themes': data.get('themes',[]),
+            'themes': data.get('themes',[]), 'learning': data.get('learning',''),
         } if nt=='species' else {},
     })
 
