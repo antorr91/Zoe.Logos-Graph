@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zoe.Logos-Graph, Literature by Theme</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+
+
+:root{--bg:#072928;--surface:#0c332f;--surface2:#123f39;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);--text:#eaf3ef;--muted:#7fa39c;--hint:#466b64;--amber:#48a89a;--amber-dim:rgba(72,168,154,0.12);--teal:#2cb88a;--teal-dim:rgba(44,184,138,0.12);--violet:#9b8ef0;--violet-dim:rgba(155,142,240,0.12);--blue:#5b9cf6;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50;background:rgba(7,41,40,0.85);backdrop-filter:blur(16px)}
+.logo{font-family:'DM Serif Display',serif;font-size:17px;color:var(--text);text-decoration:none;letter-spacing:-0.02em}
+.logo .a{color:var(--amber)}
+.logo-sub{font-size:11px;color:var(--muted);font-weight:300;margin-left:8px;font-family:'DM Sans',sans-serif}
+.nav-links{display:flex;gap:1.5rem;align-items:center}
+.nav-links a{font-size:13px;color:var(--muted);text-decoration:none}.nav-links a:hover{color:var(--text)}
+
+.layout{display:grid;grid-template-columns:260px 1fr;min-height:calc(100vh - 57px)}
+.sidebar{border-right:1px solid var(--border);padding:1.5rem;overflow-y:auto;position:sticky;top:57px;height:calc(100vh - 57px)}
+.main{padding:1.5rem 2rem;max-width:900px}
+
+.sidebar h3{font-size:10px;font-weight:500;color:var(--hint);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.75rem;margin-top:1.25rem}
+.sidebar h3:first-child{margin-top:0}
+
+input[type=text],select{width:100%;font-family:'DM Sans',sans-serif;font-size:13px;padding:8px 11px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;color:var(--text);outline:none;margin-bottom:.5rem}
+input[type=text]:focus,select:focus{border-color:rgba(72,168,154,.5)}
+input::placeholder{color:var(--hint)}
+select option{background:var(--surface)}
+
+.chip-group{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:.75rem}
+.chip{font-size:11px;padding:3px 9px;border-radius:99px;border:1px solid var(--border);color:var(--hint);cursor:pointer;background:none;font-family:'DM Sans',sans-serif;transition:all .15s}
+.chip:hover,.chip.on{color:var(--amber);border-color:rgba(72,168,154,.4);background:var(--amber-dim)}
+.chip.teal.on{color:var(--teal);border-color:rgba(44,184,138,.4);background:var(--teal-dim)}
+.chip.violet.on{color:var(--violet);border-color:rgba(155,142,240,.4);background:var(--violet-dim)}
+
+.stat-row{display:flex;gap:8px;margin-bottom:1rem}
+.stat{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center}
+.stat-n{font-family:'DM Mono',monospace;font-size:20px;color:var(--text);display:block}
+.stat-l{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+
+.tabs{display:flex;border-bottom:1px solid var(--border);margin-bottom:1.5rem}
+.tab{font-size:13px;padding:8px 16px;border:none;background:none;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;font-family:'DM Sans',sans-serif}
+.tab:hover{color:var(--text)}.tab.on{color:var(--amber);border-bottom-color:var(--amber)}
+
+/* Paper cards */
+.paper-list{display:flex;flex-direction:column;gap:0}
+.pc{border-bottom:1px solid var(--border);padding:16px 0}
+.pc:last-child{border-bottom:none}
+.pc-title{font-size:14px;font-weight:400;color:var(--blue);margin-bottom:4px;cursor:pointer;text-decoration:none;display:block;line-height:1.4}
+.pc-title:hover{text-decoration:underline}
+.pc-meta{font-size:11px;color:var(--hint);margin-bottom:6px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pc-journal{color:var(--muted);font-style:italic}
+.pc-outcome{font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:8px;font-weight:300;font-style:italic}
+.pc-tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
+.ptag{font-size:10px;padding:2px 7px;border-radius:99px;border:1px solid}
+.ptag-v{color:var(--amber);border-color:rgba(72,168,154,.3);background:var(--amber-dim)}
+.ptag-c{color:var(--teal);border-color:rgba(44,184,138,.3);background:var(--teal-dim)}
+.ptag-f{color:var(--violet);border-color:rgba(155,142,240,.3);background:var(--violet-dim)}
+.ptag-m{color:var(--muted);border-color:var(--border);background:var(--surface2)}
+.pc-actions{display:flex;gap:6px;flex-wrap:wrap}
+.pact{font-size:11px;padding:3px 9px;border:1px solid var(--border2);border-radius:4px;background:none;color:var(--muted);cursor:pointer;font-family:'DM Sans',sans-serif;text-decoration:none;display:inline-block}
+.pact:hover{color:var(--amber);border-color:rgba(72,168,154,.4)}
+.oa-badge{font-size:10px;padding:2px 6px;border-radius:4px;background:var(--teal-dim);color:var(--teal);border:1px solid rgba(44,184,138,.3)}
+
+/* Evidence matrix */
+.matrix-wrap{overflow-x:auto;margin-bottom:1.5rem}
+.matrix{border-collapse:collapse;width:100%;font-size:11px}
+.matrix th{background:var(--surface);border:1px solid var(--border);padding:8px 10px;text-align:left;font-weight:500;color:var(--muted);white-space:nowrap;position:sticky;top:0}
+.matrix td{border:1px solid var(--border);padding:7px 10px;color:var(--text);vertical-align:top}
+.matrix tr:hover td{background:var(--surface2)}
+.cell-yes{color:var(--teal);font-weight:500}
+.cell-no{color:var(--hint)}
+.conf-bar{height:3px;border-radius:2px;background:rgba(72,168,154,.3);margin-top:3px}
+.conf-fill{height:3px;border-radius:2px;background:var(--amber)}
+
+/* Empty state */
+.empty{text-align:center;padding:3rem;color:var(--muted);font-size:13px;font-weight:300}
+.empty code{font-family:'DM Mono',monospace;font-size:11px;color:var(--amber);background:var(--surface);padding:2px 6px;border-radius:4px}
+.loading{text-align:center;padding:2rem;color:var(--muted);font-size:13px}
+
+/* Export popup */
+.epop{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center}
+.ebox{background:var(--surface);border:1px solid var(--border2);border-radius:12px;padding:1.5rem;max-width:480px;width:90%}
+.ebox h3{font-size:15px;font-weight:500;color:var(--text);margin-bottom:1rem}
+.ebox p{font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:1rem}
+.ebox code{display:block;font-family:'DM Mono',monospace;font-size:11px;color:var(--teal);background:var(--bg);border-radius:8px;padding:12px;margin-bottom:1rem;white-space:pre-wrap;word-break:break-all}
+.ebtns{display:flex;gap:8px}
+.eb{font-size:12px;padding:7px 16px;border-radius:6px;cursor:pointer;font-family:'DM Sans',sans-serif;border:none}
+.ebp{background:var(--amber);color:#072928}.ebg{background:none;border:1px solid var(--border2);color:var(--muted)}
+
+.main{max-width:900px;margin:0 auto;padding:2rem}
+
+.main{max-width:900px;margin:0 auto;padding:2rem}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html">
+    <span>Zoe<span class="a">.</span>Logos<span class="a">-</span>Graph</span>
+    <span class="logo-sub">v1.1</span>
+  </a>
+  <div class="nav-links">
+    <a href="species_explorer.html">species</a>
+    <a href="literature.html" style="color:var(--text)">literature</a>
+    <a href="graph_explorer.html">graph</a>
+    <a href="compare.html">compare</a>
+    <a class="nav-gh" href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">github →</a>
+  </div>
+</nav>
+<style>
+.g-main{max-width:880px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+.g-h1{font-family:'DM Serif Display',serif;font-size:34px;font-weight:400;color:var(--text);line-height:1.15;margin-bottom:.6rem}
+.g-sub{font-size:15px;color:var(--muted);line-height:1.7;max-width:640px;margin-bottom:1.6rem}
+.g-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:.5rem}
+.g-controls .lbl{font-size:12px;color:var(--muted);margin-right:4px}
+.g-controls button{font:inherit;font-size:12.5px;padding:5px 13px;border-radius:99px;cursor:pointer;
+  background:transparent;color:var(--muted);border:1px solid var(--border)}
+.g-controls button.on{background:var(--amber-dim);color:var(--amber);border-color:rgba(72,168,154,.5)}
+.g-hint{font-size:11.5px;color:var(--hint);margin-bottom:1.8rem}
+.g-list{display:flex;flex-direction:column;gap:0}
+.g-book{display:flex;gap:18px;padding:1.4rem 0;border-top:1px solid var(--border)}
+.g-year{font-family:'DM Serif Display',serif;font-size:19px;color:var(--amber);min-width:54px;padding-top:2px}
+.g-body{flex:1}
+.g-title{font-family:'DM Serif Display',serif;font-size:19px;color:var(--text);line-height:1.25;margin-bottom:3px}
+.g-meta{font-size:12.5px;color:var(--muted);margin-bottom:8px}
+.g-note{font-size:14px;color:#cfe0db;line-height:1.65;margin-bottom:9px}
+.g-tag{display:inline-block;font-size:10px;padding:2px 9px;border-radius:99px;margin-right:8px}
+.g-lvl{display:inline-block;font-size:10px;padding:2px 9px;border-radius:99px;margin-right:8px}
+.g-link{font-size:12.5px;color:var(--amber);text-decoration:none}
+.g-link:hover{text-decoration:underline}
+.g-foot{margin-top:2.5rem;font-size:12px;color:var(--hint);border-top:1px solid var(--border);padding-top:1.2rem}
+</style>
+
+<div class="g-main">
+  <h1 class="g-h1">On the Shoulders of Giants</h1>
+  <p class="g-sub">This section features a selection of essential books to help you better understand and appreciate the study of communication across different species.</p>
+  <div class="g-controls">
+    <span class="lbl">Sort</span>
+    <button id="sYear" class="on" onclick="setSort('year')">by year</button>
+    <button id="sLevel" onclick="setSort('level')">by accessibility</button>
+  </div>
+  <div class="g-hint">By accessibility orders the list from books for the general reader to more technical and academic works.</div>
+  <div class="g-list" id="books"></div>
+  <div class="g-foot">A selected reading list. Links point to publishers or book search; full author names, years and publishers are given for citation.</div>
+</div>
+<script>
+const BOOKS = [{"sy": 1872, "y": "1872", "lvl": 2, "a": "Charles Darwin", "t": "The Expression of the Emotions in Man and Animals", "pub": "John Murray, 1872", "tag": "emotion", "col": "#e84393", "note": "The founding text of comparative communication. Emotions and their expression are treated as evolved, shared signals across humans and animals.", "lvlLabel": "intermediate", "link": "https://www.google.com/search?q=The%20Expression%20of%20the%20Emotions%20in%20Man%20and%20Animals%20Charles%20Darwin"}, {"sy": 1934, "y": "1934", "lvl": 2, "a": "Jakob von Uexkull", "t": "A Foray into the Worlds of Animals and Humans: With A Theory of Meaning", "pub": "University of Minnesota Press, 2010 (German original 1934)", "tag": "semiotics / Umwelt", "col": "#a29bfe", "note": "The origin of the Umwelt concept and a foundation of biosemiotics: each animal lives in its own world of meaning.", "lvlLabel": "intermediate", "link": "https://www.google.com/search?q=A%20Foray%20into%20the%20Worlds%20of%20Animals%20and%20Humans%3A%20With%20A%20Theory%20of%20Meaning%20Jakob%20von%20Uexkull"}, {"sy": 1949, "y": "1949", "lvl": 1, "a": "Konrad Lorenz", "t": "King Solomon's Ring", "pub": "Methuen, 1952 (German original 1949)", "tag": "ethology", "col": "#fab1a0", "note": "A founding classic of ethology, full of vivid first hand observations of how animals behave and signal, written for a general reader.", "lvlLabel": "general", "link": "https://www.google.com/search?q=King%20Solomon%27s%20Ring%3A%20New%20Light%20on%20Animal%20Ways%20Konrad%20Lorenz"}, {"sy": 1957, "y": "1957", "lvl": 3, "a": "Noam Chomsky", "t": "Syntactic Structures", "pub": "Mouton, 1957", "tag": "syntax", "col": "#ffd93d", "note": "Defined generative grammar and the formal benchmark of human syntax against which syntax in animal signals is measured.", "lvlLabel": "technical", "link": "https://www.google.com/search?q=Syntactic%20Structures%20Noam%20Chomsky"}, {"sy": 1967, "y": "1967", "lvl": 3, "a": "Karl von Frisch", "t": "The Dance Language and Orientation of Bees", "pub": "Harvard University Press, 1967", "tag": "referential", "col": "#ff6b6b", "note": "The honeybee waggle dance, a landmark demonstration of symbolic, referential communication in a non human animal.", "lvlLabel": "technical", "link": "https://www.google.com/search?q=The%20Dance%20Language%20and%20Orientation%20of%20Bees%20Karl%20von%20Frisch"}, {"sy": 1994, "y": "1994", "lvl": 1, "a": "Steven Pinker", "t": "The Language Instinct", "pub": "William Morrow, 1994", "tag": "language", "col": "#ffd93d", "note": "The classic argument that language is a biological adaptation, the human end of the communication continuum.", "lvlLabel": "general", "link": "https://www.google.com/search?q=The%20Language%20Instinct%20Steven%20Pinker"}, {"sy": 1995, "y": "1995", "lvl": 1, "a": "Roger Payne", "t": "Among Whales", "pub": "Charles Scribner's Sons, 1995", "tag": "whale song", "col": "#4ecdc4", "note": "A personal account by the scientist who revealed humpback whale song, on listening to and understanding whales.", "lvlLabel": "general", "link": "https://www.google.com/search?q=Among%20Whales%20Roger%20Payne"}, {"sy": 1996, "y": "1996", "lvl": 3, "a": "Marc D. Hauser", "t": "The Evolution of Communication", "pub": "MIT Press, 1996", "tag": "comparative", "col": "#c9a86a", "note": "A comprehensive comparative synthesis of communication across taxa: design, function, and evolution of signals.", "lvlLabel": "technical", "link": "https://www.google.com/search?q=The%20Evolution%20of%20Communication%20Marc%20D.%20Hauser"}, {"sy": 1998, "y": "1998", "lvl": 1, "a": "Katy Payne", "t": "Silent Thunder: In the Presence of Elephants", "pub": "Simon & Schuster, 1998", "tag": "infrasound", "col": "#e17055", "note": "The discovery that elephants communicate using infrasound, told through years of close field observation.", "lvlLabel": "general", "link": "https://www.google.com/search?q=Silent%20Thunder%3A%20In%20the%20Presence%20of%20Elephants%20Katy%20Payne"}, {"sy": 2003, "y": "2003", "lvl": 3, "a": "John Maynard Smith & David Harper", "t": "Animal Signals", "pub": "Oxford University Press, 2003", "tag": "honest signalling", "col": "#00b894", "note": "The theoretical backbone of signal reliability: when and why signals are honest, and how costs keep them so.", "lvlLabel": "technical", "link": "https://www.google.com/search?q=Animal%20Signals%20John%20Maynard%20Smith%20%26%20David%20Harper"}, {"sy": 2004, "y": "2004", "lvl": 2, "a": "Peter R. Marler & Hans Slabbekoorn (Eds.)", "t": "Nature's Music: The Science of Birdsong", "pub": "Elsevier / Academic Press, 2004", "tag": "birdsong", "col": "#4ecdc4", "note": "The standard science of birdsong reference: production, learning, function and neurobiology, by leading researchers.", "lvlLabel": "intermediate", "link": "https://www.google.com/search?q=Nature%27s%20Music%3A%20The%20Science%20of%20Birdsong%20Peter%20R.%20Marler%20%26%20Hans%20Slabbekoorn%20%28Eds.%29"}, {"sy": 2005, "y": "2005", "lvl": 1, "a": "David Rothenberg", "t": "Why Birds Sing: A Journey into the Mystery of Bird Song", "pub": "Basic Books, 2005", "tag": "musicality", "col": "#c9a86a", "note": "A musician's exploration of birdsong as music, mixing science with aesthetics.", "lvlLabel": "general", "link": "https://www.google.com/search?q=Why%20Birds%20Sing%3A%20A%20Journey%20into%20the%20Mystery%20of%20Bird%20Song%20David%20Rothenberg"}, {"sy": 2005, "y": "2005", "lvl": 1, "a": "Donald E. Kroodsma", "t": "The Singing Life of Birds: The Art and Science of Listening to Birdsong", "pub": "Houghton Mifflin, 2005", "tag": "birdsong", "col": "#4ecdc4", "note": "A leading birdsong scientist invites the reader to listen closely, blending field stories with the science of song learning.", "lvlLabel": "general", "link": "https://www.google.com/search?q=The%20Singing%20Life%20of%20Birds%3A%20The%20Art%20and%20Science%20of%20Listening%20to%20Birdsong%20Donald%20E.%20Kroodsma"}, {"sy": 2005, "y": "2005", "lvl": 3, "a": "William A. Searcy & Stephen Nowicki", "t": "The Evolution of Animal Communication: Reliability and Deception in Signaling Systems", "pub": "Princeton University Press, 2005 (Monographs in Behavior and Ecology)", "tag": "reliability & deception", "col": "#636e72", "note": "A rigorous treatment of when animal signals are reliable and when deception is possible, a cornerstone of signalling theory.", "lvlLabel": "technical", "link": "https://www.google.com/search?q=The%20Evolution%20of%20Animal%20Communication%3A%20Reliability%20and%20Deception%20in%20Signaling%20Systems%20William%20A.%20Searcy%20%26%20Stephen%20Nowicki"}, {"sy": 2008, "y": "2008", "lvl": 2, "a": "Michael Tomasello", "t": "Origins of Human Communication", "pub": "MIT Press, 2008", "tag": "multimodal", "col": "#00cec9", "note": "Gestural origins and shared intentionality, and how cooperative communication may have bootstrapped language.", "lvlLabel": "intermediate", "link": "https://www.google.com/search?q=Origins%20of%20Human%20Communication%20Michael%20Tomasello"}, {"sy": 2010, "y": "2010", "lvl": 2, "a": "W. Tecumseh Fitch", "t": "The Evolution of Language", "pub": "Cambridge University Press, 2010", "tag": "vocal learning", "col": "#4ecdc4", "note": "The field's major modern synthesis, integrating vocal learning, comparative biology, and the deep history of language.", "lvlLabel": "intermediate", "link": "https://www.google.com/search?q=The%20Evolution%20of%20Language%20W.%20Tecumseh%20Fitch"}, {"sy": 2012, "y": "2012", "lvl": 1, "a": "Con Slobodchikoff", "t": "Chasing Doctor Dolittle: Learning the Language of Animals", "pub": "St. Martin's Press, 2012", "tag": "referential", "col": "#ff6b6b", "note": "Prairie dog alarm calls as functionally referential words, a case study for animal language at the edge of syntax.", "lvlLabel": "general", "link": "https://www.google.com/search?q=Chasing%20Doctor%20Dolittle%3A%20Learning%20the%20Language%20of%20Animals%20Con%20Slobodchikoff"}, {"sy": 2013, "y": "2013", "lvl": 3, "a": "Henrik Brumm (Ed.)", "t": "Animal Communication and Noise", "pub": "Springer, 2013 (Animal Signals and Communication, vol. 2)", "tag": "noise", "col": "#636e72", "note": "An edited volume on how noise, natural and man made, shapes animal communication across insects, fish, amphibians, birds and mammals.", "link": "https://link.springer.com/book/10.1007/978-3-642-41494-7", "lvlLabel": "technical"}, {"sy": 2015, "y": "2015", "lvl": 1, "a": "Carl Safina", "t": "Beyond Words: What Animals Think and Feel", "pub": "Henry Holt, 2015", "tag": "animal minds", "col": "#a29bfe", "note": "A vivid argument, built on elephants, wolves and whales, that animals have rich inner lives and communicate meaning.", "lvlLabel": "general", "link": "https://www.google.com/search?q=Beyond%20Words%3A%20What%20Animals%20Think%20and%20Feel%20Carl%20Safina"}, {"sy": 2017, "y": "2017", "lvl": 3, "a": "Charles Brown & Tobias Riede (Eds.)", "t": "Comparative Bioacoustics: An Overview", "pub": "Bentham Science, 2017", "tag": "bioacoustics", "col": "#0984e3", "note": "An accessible introduction to the whole field of bioacoustics, from sound production and reception to analysis methods.", "link": "https://www.eurekaselect.com/node/148912/comparative-bioacoustics-an-overview", "lvlLabel": "technical"}, {"sy": 2017, "y": "2017", "lvl": 1, "a": "Daniel L. Everett", "t": "How Language Began: The Story of Humanity's Greatest Invention", "pub": "Liveright / Profile Books, 2017", "tag": "origins", "col": "#c9a86a", "note": "A bold account of language as a gradually invented cultural tool, rooted in hominin communication.", "lvlLabel": "general", "link": "https://www.google.com/search?q=How%20Language%20Began%3A%20The%20Story%20of%20Humanity%27s%20Greatest%20Invention%20Daniel%20L.%20Everett"}, {"sy": 2018, "y": "2018", "lvl": 3, "a": "Hans Slabbekoorn, Robert J. Dooling & Arthur N. Popper", "t": "Man-Made Sounds and Animals", "pub": "In Effects of Anthropogenic Noise on Animals (Springer Handbook of Auditory Research, vol. 66), pp. 1–22, Springer, 2018", "tag": "anthropogenic noise", "col": "#636e72", "note": "How man made sound can undermine animals' ability to use the acoustic information in their environment, introduced across fishes, amphibians, birds and mammals.", "link": "https://link.springer.com/chapter/10.1007/978-1-4939-8574-6_1", "lvlLabel": "technical"}, {"sy": 2019, "y": "2019", "lvl": 1, "a": "Henkjan Honing", "t": "The Evolving Animal Orchestra: In Search of What Makes Us Musical", "pub": "MIT Press, 2019", "tag": "musicality", "col": "#c9a86a", "note": "Is musicality, like language, a shared biological trait? A quest across species for rhythm, beat, and the roots of music.", "link": "https://mitpress.mit.edu/9780262039321/the-evolving-animal-orchestra/", "lvlLabel": "general"}, {"sy": 2019, "y": "2019", "lvl": 1, "a": "Eva Meijer", "t": "Animal Languages: The Secret Conversations of the Living World", "pub": "John Murray, 2019 (trans. Laura Watkinson); MIT Press, 2020", "tag": "animal language", "col": "#6c5ce7", "note": "A philosopher's accessible tour of how animals communicate, from prairie dog descriptions to birdsong grammar, arguing that we should learn to listen to them.", "link": "https://www.google.com/search?q=Animal%20Languages%20Eva%20Meijer%20", "lvlLabel": "general"}, {"sy": 2022, "y": "2022", "lvl": 1, "a": "Tom Mustill", "t": "How to Speak Whale: A Voyage into the Future of Animal Communication", "pub": "William Collins / Grand Central, 2022", "tag": "decoding", "col": "#00cec9", "note": "How new recording and machine learning tools are opening the prospect of decoding animal communication, starting with whales.", "lvlLabel": "general", "link": "https://www.google.com/search?q=How%20to%20Speak%20Whale%3A%20A%20Voyage%20into%20the%20Future%20of%20Animal%20Communication%20Tom%20Mustill"}, {"sy": 2022, "y": "2022", "lvl": 1, "a": "Karen Bakker", "t": "The Sounds of Life: How Digital Technology Is Bringing Us Closer to the Worlds of Animals and Plants", "pub": "Princeton University Press, 2022", "tag": "digital bioacoustics", "col": "#0984e3", "note": "How sensors, recording and artificial intelligence are revealing and beginning to decode the sounds of species from whales to plants.", "lvlLabel": "general", "link": "https://www.google.com/search?q=The%20Sounds%20of%20Life%3A%20How%20Digital%20Technology%20Is%20Bringing%20Us%20Closer%20to%20the%20Worlds%20of%20Animals%20and%20Plants%20Karen%20Bakker"}, {"sy": 2022, "y": "2022", "lvl": 3, "a": "Christine Erbe & Jeanette A. Thomas (Eds.)", "t": "Exploring Animal Behavior Through Sound: Volume 1: Methods", "pub": "Springer / ASA Press, 2022 (open access)", "tag": "methods", "col": "#74b9ff", "note": "An open access volume on the methods of animal bioacoustics: recording equipment, analysis tools, acoustic terminology, sound propagation and the effects of noise.", "link": "https://link.springer.com/book/10.1007/978-3-030-97540-1", "lvlLabel": "technical"}, {"sy": 2024, "y": "2024", "lvl": 1, "a": "Arik Kershenbaum", "t": "Why Animals Talk: The New Science of Animal Communication", "pub": "Viking / Penguin, 2024", "tag": "comparative", "col": "#c9a86a", "note": "A zoologist's recent tour of why and how wolves, dolphins, parrots and others communicate, and what counts as language.", "lvlLabel": "general", "link": "https://www.google.com/search?q=Why%20Animals%20Talk%3A%20The%20New%20Science%20of%20Animal%20Communication%20Arik%20Kershenbaum"}, {"sy": 2025, "y": "2025", "lvl": 3, "a": "Christine Erbe & Jeanette A. Thomas (Eds.)", "t": "Exploring Animal Behavior Through Sound: Volume 2: Applications", "pub": "Springer, 2025 (open access)", "tag": "applications", "col": "#74b9ff", "note": "The companion volume, applying bioacoustic methods across taxa: invertebrates, insects, amphibians, reptiles, fishes, birds, and subterranean, terrestrial and marine mammals.", "link": "https://link.springer.com/book/10.1007/978-3-031-83460-8", "lvlLabel": "technical"}, {"sy": 2025, "y": "2025", "lvl": 3, "a": "Daria Valente & Andrea Ravignani", "t": "Bioacoustics and Rhythm", "pub": "In L. Raviv & C. Boeckx (Eds.), The Oxford Handbook of Approaches to Language Evolution, pp. 539–552, Oxford University Press, 2025", "tag": "rhythm", "col": "#fd79a8", "note": "A current overview of rhythm in animal acoustic signals and its place in the evolution of language and music.", "link": "https://www.google.com/search?q=The%20Oxford%20Handbook%20of%20Approaches%20to%20Language%20Evolution%20Raviv%20Boeckx", "lvlLabel": "technical"}];
+const LVLCOL = {1:"#48a89a", 2:"#d9c08a", 3:"#7fa39c"};
+let mode = 'year';
+function setSort(m){
+  mode = m;
+  document.getElementById('sYear').classList.toggle('on', m==='year');
+  document.getElementById('sLevel').classList.toggle('on', m==='level');
+  render();
+}
+function render(){
+  const list = BOOKS.slice();
+  if(mode==='year') list.sort((a,b)=> a.sy-b.sy || a.lvl-b.lvl);
+  else list.sort((a,b)=> a.lvl-b.lvl || a.sy-b.sy);
+  document.getElementById('books').innerHTML = list.map(b => `
+    <div class="g-book">
+      <div class="g-year">${b.y}</div>
+      <div class="g-body">
+        <div class="g-title">${b.t}</div>
+        <div class="g-meta">${b.a} · ${b.pub}</div>
+        <div class="g-note">${b.note}</div>
+        <span class="g-tag" style="background:${b.col}22;color:${b.col};border:0.5px solid ${b.col}66">${b.tag}</span>
+        <span class="g-lvl" style="background:${LVLCOL[b.lvl]}1f;color:${LVLCOL[b.lvl]};border:0.5px solid ${LVLCOL[b.lvl]}55">${b.lvlLabel}</span>
+        <a class="g-link" href="${b.link}" target="_blank" rel="noopener">view ↗</a>
+      </div>
+    </div>`).join('');
+}
+render();
+</script>
+</body>
+</html>

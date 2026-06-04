@@ -34,7 +34,17 @@ parser.add_argument('--per-species', type=int, default=6)
 parser.add_argument('--limit', type=int, default=None)
 parser.add_argument('--only-birds', action='store_true')
 parser.add_argument('--debug', action='store_true')
+parser.add_argument('--refresh', action='store_true',
+                    help='ignore cache and re-fetch (use after raising --per-species or to clean duplicates)')
+parser.add_argument('--min-quality', default='E',
+                    help='lowest Xeno-Canto quality to keep: A (best) .. E (default E = keep all)')
 args = parser.parse_args()
+
+QRANK = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4}
+def qk(rec):
+    q = (rec.get('q', '') or '').strip().upper()[:1]
+    return QRANK.get(q, 5)   # unscored -> 5 (kept, but ranked last)
+SEEN_IDS = set()   # cross-species: never reuse the same recording on two species
 
 API_KEY = os.environ.get('XC_API_KEY')
 if not API_KEY:
@@ -69,9 +79,9 @@ def fetch_url(url, timeout=30, retries=3):
         print("      [debug] " + last_err)
     return None
 
-def search_xc(sci_name, per_species):
+def search_xc(sci_name):
     cache_f = CACHE / (re.sub(r'[^a-z0-9]+', '_', sci_name.lower()) + '.json')
-    if cache_f.exists():
+    if cache_f.exists() and not args.refresh:
         return json.loads(cache_f.read_text())
     if not API_KEY:
         return []
@@ -96,10 +106,24 @@ def search_xc(sci_name, per_species):
 
     recordings = data.get('recordings', []) or []
     result = []
-    for r in recordings[:per_species]:
+    seen_id = set()
+    seen_sig = set()
+    for r in recordings:                      # process the WHOLE pool, not just the first N
         f = r.get('file', '')
         if not f:
             continue
+        rid = r.get('id', '')
+        if rid and rid in seen_id:            # exact duplicate id
+            continue
+        # content signature: same recordist + date + type + length + country => re-upload / same take
+        sig = ((r.get('rec', '') or '').strip().lower(), (r.get('date', '') or '').strip(),
+               (r.get('type', '') or '').strip().lower(), (r.get('length', '') or '').strip(),
+               (r.get('cnt', '') or '').strip())
+        if any(sig) and sig in seen_sig:
+            continue
+        seen_id.add(rid)
+        seen_sig.add(sig)
+
         if f.startswith('//'):
             f = 'https:' + f
         sono = r.get('sono', {})
@@ -112,10 +136,11 @@ def search_xc(sci_name, per_species):
         if rurl.startswith('//'):
             rurl = 'https:' + rurl
         elif not rurl.startswith('http'):
-            rurl = "https://xeno-canto.org/%s" % r.get('id', '')
+            rurl = "https://xeno-canto.org/%s" % rid
         result.append({
-            'id': r.get('id', ''),
+            'id': rid,
             'type': (r.get('type', 'call') or 'call').lower(),
+            'q': (r.get('q', '') or '').strip(),
             'loc': r.get('loc', ''),
             'cnt': r.get('cnt', ''),
             'rec': r.get('rec', ''),
@@ -126,7 +151,14 @@ def search_xc(sci_name, per_species):
             'url': rurl,
             'license': 'CC licensed',
         })
-    cache_f.write_text(json.dumps(result))
+
+    # best quality first (A..E, unscored last)
+    result.sort(key=qk)
+    # optional quality floor
+    floor = QRANK.get((args.min_quality or 'E').strip().upper()[:1], 4)
+    result = [x for x in result if qk(x) <= floor or qk(x) == 5]
+
+    cache_f.write_text(json.dumps(result))   # cache the FULL deduped pool
     return result
 
 print("Loading species data...")
@@ -149,7 +181,12 @@ for i, sp in enumerate(to_process, 1):
     sci = sp['sci']
     cls = sp.get('class_', '')
     print("[%d/%d] %s (%s)" % (i, len(to_process), sci, cls), end=' ')
-    recs = search_xc(sci, args.per_species)
+    recs = search_xc(sci)
+    # drop any recording already used by another species, then keep the best N
+    recs = [r for r in recs if not (r.get('id') and r['id'] in SEEN_IDS)][:args.per_species]
+    for r in recs:
+        if r.get('id'):
+            SEEN_IDS.add(r['id'])
     if recs:
         sp['recordings'] = recs
         total_recordings += len(recs)
@@ -170,7 +207,9 @@ nj = json.dumps(SPECIES, ensure_ascii=False, separators=(',', ':'))
 html = re.sub(r'const EMBEDDED_DB = \[.*?\];', 'const EMBEDDED_DB = %s;' % nj, html, flags=re.DOTALL)
 html_path.write_text(html, encoding='utf-8')
 
-for fname in ['graph_explorer.html', 'compare.html']:
+# Re-embed only where the media tab needs it. compare.html now uses a custom
+# DB (with 'wiki' for images), so we must NOT overwrite it here.
+for fname in ['graph_explorer.html']:
     fp = OUT / fname
     if fp.exists():
         c = fp.read_text(encoding='utf-8')
