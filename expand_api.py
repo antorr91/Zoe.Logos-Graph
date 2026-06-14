@@ -140,12 +140,13 @@ Output ONLY the finding sentence(s), nothing else. No introduction, no quotes.""
         print(f"    LLM error: {e}")
         return None
 
+import embedded_db as edb
+
 # ── LOAD EXISTING DATA ─────────────────────────────────────────────────────
 print(f"Loading existing data...")
 html_path = OUT / 'species_explorer.html'
 html = html_path.read_text(encoding='utf-8')
-m = re.search(r'const EMBEDDED_DB = (\[.*?\]);', html, re.DOTALL)
-SPECIES = json.loads(m.group(1))
+SPECIES, _DB_EQ, _DB_END = edb.load(html)
 print(f"  Loaded {len(SPECIES)} species, {sum(len(s.get('papers',[])) for s in SPECIES)} papers")
 
 # Filter species to process
@@ -235,29 +236,14 @@ for i, sp in enumerate(to_process, 1):
     # Save incrementally every 10 species (in case of interruption)
     if i % 10 == 0:
         print(f"\n💾 Saving checkpoint... ({added_papers} papers added so far)")
-        new_db_json = json.dumps(SPECIES, ensure_ascii=False, separators=(',',':'))
-        new_html = re.sub(r'const EMBEDDED_DB = \[.*?\];',
-                          f'const EMBEDDED_DB = {new_db_json};',
-                          html, flags=re.DOTALL)
-        html_path.write_text(new_html, encoding='utf-8')
+        html_path.write_text(edb.write(html, SPECIES, _DB_EQ, _DB_END), encoding='utf-8')
 
 # ── FINAL SAVE ─────────────────────────────────────────────────────────────
 print(f"\n💾 Final save...")
-new_db_json = json.dumps(SPECIES, ensure_ascii=False, separators=(',',':'))
-new_html = re.sub(r'const EMBEDDED_DB = \[.*?\];',
-                  f'const EMBEDDED_DB = {new_db_json};',
-                  html, flags=re.DOTALL)
-html_path.write_text(new_html, encoding='utf-8')
-
-# Update other HTML files
-for fname in ['graph_explorer.html', 'compare.html']:
-    fpath = OUT / fname
-    if fpath.exists():
-        content = fpath.read_text(encoding='utf-8')
-        new_content = re.sub(r'const (THEME_DB|DB) = \[.*?\];',
-                             lambda mat: f"const {mat.group(1)} = {new_db_json};",
-                             content, count=1, flags=re.DOTALL)
-        fpath.write_text(new_content, encoding='utf-8')
+html_path.write_text(edb.write(html, SPECIES, _DB_EQ, _DB_END), encoding='utf-8')
+# NOTE: graph_explorer.html and compare.html are intentionally NOT overwritten here
+# (they use their own data: graph_communities.json and a slim compare DB).
+# After adding papers, rebuild them with build_graph_data.py and your compare build.
 
 total_papers = sum(len(s.get('papers',[])) for s in SPECIES)
 print(f"\n✓ DONE")

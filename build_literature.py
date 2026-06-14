@@ -218,10 +218,11 @@ function buildFilters(){{
   const counts = {{all: PAPERS.length}};
   for(const id in THEMES) counts[id] = PAPERS.filter(p=>p.t.includes(id)).length;
   const el = document.getElementById('filters');
-  let html = `<button class="tf on" data-id="all" onclick="setTheme('all')" style="border-color:rgba(232,164,39,.5);color:var(--amber);background:var(--amber-dim)">All themes (${{counts.all}})</button>`;
+  let html = `<button class="tf on" data-id="all" onclick="setTheme('all')" style="border-color:rgba(72,168,154,.5);color:var(--amber);background:var(--amber-dim)">All themes (${{counts.all}})</button>`;
   for(const [id,meta] of Object.entries(THEMES)){{
     html += `<button class="tf" data-id="${{id}}" onclick="setTheme('${{id}}')">${{meta.label}} (${{counts[id]}})</button>`;
   }}
+  html += `<a class=\"tf\" href=\"giants.html\" style=\"border-color:#c9a86a99;color:#d9c08a;background:rgba(201,168,106,.12);text-decoration:none;font-weight:500\">Books</a>`;
   el.innerHTML = html;
 }}
 function setTheme(id){{

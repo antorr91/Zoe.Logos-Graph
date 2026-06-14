@@ -8,25 +8,39 @@ __pycache__/
 dist/
 build/
 .eggs/
+
 # Environment / secrets
 .env
 .env.*
+
 # Generated data caches (reproducible)
 data/processed/
 data/cache/
+
 # Jupyter
 .ipynb_checkpoints/
+
 # OS
 .DS_Store
 Thumbs.db
+
 # IDE
 .vscode/settings.json
 .idea/
 
-
+# Heavy / reproducible local data (not needed for the static site)
 data/discovery/
 data/papers/
 merge_log.txt
+
+# Duplicates and old files
 outputs/approved_papers.json
 outputs/index_old.html
+
+# Backups (timestamped) and working review files
 *.bak
+*.backup-*
+paper_review.csv
+paper_actions.csv
+species_paper_review.csv
+literature_added.csv

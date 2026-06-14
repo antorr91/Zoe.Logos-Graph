@@ -25,6 +25,19 @@ try:
     HAS_LOUVAIN = True
 except ImportError:
     HAS_LOUVAIN = False
+try:
+    import igraph as _ig
+    import leidenalg as _la
+    HAS_LEIDEN = True
+except ImportError:
+    HAS_LEIDEN = False
+import argparse
+_ap = argparse.ArgumentParser()
+_ap.add_argument('--method', choices=['leiden', 'louvain', 'greedy'], default='leiden',
+                 help='community detection algorithm (default: leiden)')
+_ap.add_argument('--resolution', type=float, default=1.0,
+                 help='higher = more, smaller communities (default 1.0)')
+ARGS = _ap.parse_args()
 
 PROJ = Path(__file__).parent
 OUT = PROJ / 'outputs'
@@ -39,9 +52,9 @@ COMMUNITY_COLORS = ['#4ecdc4','#ff6b6b','#ffd93d','#6c5ce7','#a29bfe','#fd79a8',
 
 # ── Load species from species_explorer.html ──
 print("Loading species from species_explorer.html...")
+import embedded_db as edb   # robust EMBEDDED_DB reader (must be in project root)
 html = (OUT / 'species_explorer.html').read_text(encoding='utf-8')
-m = re.search(r'const EMBEDDED_DB = (\[.*?\]);', html, re.DOTALL)
-SPECIES = json.loads(m.group(1))
+SPECIES, _db_eq, _db_end = edb.load(html)
 print(f"  {len(SPECIES)} species")
 
 # ── Build bipartite graph: species <-> voc/function/context ──
@@ -87,15 +100,44 @@ for trait, sps in trait_to_species.items():
 
 # ── Community detection (Louvain on species projection) ──
 print("Detecting communities...")
-if HAS_LOUVAIN and Gsp.number_of_edges() > 0:
-    part = community_louvain.best_partition(Gsp, weight='weight', random_state=42)
+
+def _leiden_partition(Gsp, resolution):
+    nodes = list(Gsp.nodes())
+    idx = {n: i for i, n in enumerate(nodes)}
+    edges = [(idx[a], idx[b]) for a, b in Gsp.edges()]
+    weights = [Gsp[a][b].get('weight', 1) for a, b in Gsp.edges()]
+    g = _ig.Graph(n=len(nodes), edges=edges)
+    p = _la.find_partition(g, _la.RBConfigurationVertexPartition,
+                           weights=weights, n_iterations=-1, seed=42,
+                           resolution_parameter=resolution)
+    part = {}
+    for cid, members in enumerate(p):
+        for vi in members:
+            part[nodes[vi]] = cid
+    return part
+
+method = ARGS.method
+if Gsp.number_of_edges() == 0:
+    method = 'greedy'
+elif method == 'leiden' and not HAS_LEIDEN:
+    print("  leiden not installed (pip install python-igraph leidenalg), falling back")
+    method = 'louvain' if HAS_LOUVAIN else 'greedy'
+elif method == 'louvain' and not HAS_LOUVAIN:
+    method = 'greedy'
+
+if method == 'leiden':
+    part = _leiden_partition(Gsp, ARGS.resolution)
+elif method == 'louvain':
+    part = community_louvain.best_partition(Gsp, weight='weight',
+                                            random_state=42, resolution=ARGS.resolution)
 else:
-    # fallback: greedy modularity
     from networkx.algorithms.community import greedy_modularity_communities
     comms = greedy_modularity_communities(Gsp, weight='weight')
     part = {}
     for i, c in enumerate(comms):
-        for n in c: part[n] = i
+        for n in c:
+            part[n] = i
+print(f"  method: {method}  (resolution {ARGS.resolution})")
 # propagate species community to whole bipartite graph
 communities_bip = dict(part)
 n_comm = len(set(part.values())) if part else 0
