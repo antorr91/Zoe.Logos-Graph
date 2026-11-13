@@ -1,0 +1,1202 @@
+[
+  {
+    "source": "openalex",
+    "openalex_id": "W2028573915",
+    "doi": "10.3813/aaa.918758",
+    "pmid": "",
+    "title": "Artificial Neural Network Approach for Revealing Individuality, Group Membership and Age Information in Goat Kid Contact Calls",
+    "abstract": "Machine learning techniques are becoming an important tool for studying animal vocal communication. The goat (Capra hircus) is a very social species, in which vocal communication and recognition are important. We tested the reliability of a Multi-Layer Perceptron (feed-forward Artificial Neural Network, ANN) to automate the process of classification of calls according to individual identity, group membership and maturation in this species. Vocalisations were obtained from 10 half-sibling (same father but different mothers) goat kids, belonging to 3 distinct social groups. We recorded 157 contact calls emitted during first week, and 164 additional calls recorded from the same individuals at 5 weeks. For each call, we measured 27 spectral and temporal acoustic parameters using a custom built program in Praat software. For each classification task we built stratified 10-fold cross-validated neural networks. The input nodes corresponded to the acoustic parameters measured on each signal. ANNs were trained with the error back-propagation algorithm. The number of hidden units was set to the number of attributes + classes. Each model was trained for 350 epochs (learning rate 0.2; momentum 0.2). To estimate a reliable error for the models, we repeated 10-fold cross-validation iterations 10 times and calculated the average predictive performance. The accuracy was 71.13 ±1.16% for vocal individuality, 79.59 ±0.75% for social group and 91.37 ± 0.76% for age of the vocalising animal. Our results demonstrate that ANNs are a powerful tool for studying vocal cues to individuality, group membership and maturation in contact calls. The performances we achieved were higher than those obtained for the same classification tasks using classical statistical methods such as Discriminant Function Analysis. Further studies, investigating the reliability of these algorithms for the realtime classification of contact calls and comparing ANNs with other machine learning techniques are important to develop technology to remotely monitor the vocalisations of domestic livestock.",
+    "authors": [
+      "Livio Favaro",
+      "Elodie F. Briefer",
+      "Alan G. McElligott"
+    ],
+    "year": 2014,
+    "venue": "Acta acustica united with Acustica",
+    "venue_issn": "1610-1928",
+    "venue_type": "journal",
+    "cited_by": 27,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Artificial neural network",
+      "Group (periodic table)",
+      "Communication",
+      "Artificial intelligence",
+      "Quantum mechanics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2149820199",
+    "doi": "10.3389/fnevo.2012.00012",
+    "pmid": "22912615",
+    "title": "Birds, primates, and spoken language origins: behavioral phenotypes and neurobiological substrates",
+    "abstract": "Vocal learners such as humans and songbirds can learn to produce elaborate patterns of structurally organized vocalizations, whereas many other vertebrates such as non-human primates and most other bird groups either cannot or do so to a very limited degree. To explain the similarities among humans and vocal-learning birds and the differences with other species, various theories have been proposed. One set of theories are motor theories, which underscore the role of the motor system as an evolutionary substrate for vocal production learning. For instance, the motor theory of speech and song perception proposes enhanced auditory perceptual learning of speech in humans and song in birds, which suggests a considerable level of neurobiological specialization. Another, a motor theory of vocal learning origin, proposes that the brain pathways that control the learning and production of song and speech were derived from adjacent motor brain pathways. Another set of theories are cognitive theories, which address the interface between cognition and the auditory-vocal domains to support language learning in humans. Here we critically review the behavioral and neurobiological evidence for parallels and differences between the so-called vocal learners and vocal non-learners in the context of motor and cognitive theories. In doing so, we note that behaviorally vocal-production learning abilities are more distributed than categorical, as are the auditory-learning abilities of animals. We propose testable hypotheses on the extent of the specializations and cross-species correspondences suggested by motor and cognitive theories. We believe that determining how spoken language evolved is likely to become clearer with concerted efforts in testing comparative data from many non-human animal species.",
+    "authors": [
+      "Christopher I. Petkov",
+      "Erich D. Jarvis"
+    ],
+    "year": 2012,
+    "venue": "Frontiers in Evolutionary Neuroscience",
+    "venue_issn": "1663-070X",
+    "venue_type": "journal",
+    "cited_by": 405,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Spoken language",
+      "Communication",
+      "Neuroscience",
+      "Cognitive psychology",
+      "Linguistics",
+      "Biochemistry"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2081208888",
+    "doi": "10.1371/journal.pone.0046610",
+    "pmid": "23071596",
+    "title": "Of Mice, Birds, and Men: The Mouse Ultrasonic Song System Has Some Features Similar to Humans and Song-Learning Birds",
+    "abstract": "Humans and song-learning birds communicate acoustically using learned vocalizations. The characteristic features of this social communication behavior include vocal control by forebrain motor areas, a direct cortical projection to brainstem vocal motor neurons, and dependence on auditory feedback to develop and maintain learned vocalizations. These features have so far not been found in closely related primate and avian species that do not learn vocalizations. Male mice produce courtship ultrasonic vocalizations with acoustic features similar to songs of song-learning birds. However, it is assumed that mice lack a forebrain system for vocal modification and that their ultrasonic vocalizations are innate. Here we investigated the mouse song system and discovered that it includes a motor cortex region active during singing, that projects directly to brainstem vocal motor neurons and is necessary for keeping song more stereotyped and on pitch. We also discovered that male mice depend on auditory feedback to maintain some ultrasonic song features, and that sub-strains with differences in their songs can match each other's pitch when cross-housed under competitive social conditions. We conclude that male mice have some limited vocal modification abilities with at least some neuroanatomical features thought to be unique to humans and song-learning birds. To explain our findings, we propose a continuum hypothesis of vocal learning.",
+    "authors": [
+      "Gustavo Arriaga",
+      "Eric P. Zhou",
+      "Erich D. Jarvis"
+    ],
+    "year": 2012,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 299,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Vocal learning",
+      "Courtship",
+      "Auditory feedback",
+      "Brainstem",
+      "Singing",
+      "Communication"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2003448645",
+    "doi": "10.1086/506971",
+    "pmid": "16947115",
+    "title": "Mother‐Young Recognition in an Ungulate Hider Species: A Unidirectional Process",
+    "abstract": "Parent-offspring recognition is usually crucial for survival of young. In mammals, olfaction often only permits identification at short range, and vocalizations are important at longer distances. Following and hiding antipredator strategies found in newborn mammals may also affect parental recognition mechanisms. We investigated mother-offspring recognition in fallow deer, an ungulate hider species. We analyzed the structure of adult female and fawn contact calls to determine whether they are individually distinctive and tested for mother-offspring recognition. Only females (and not fawns) have individualized vocalizations, with the fundamental frequency as the most distinctive parameter. Playback experiments showed that fawns can distinguish the calls of their mothers from those of other females, but mothers could not discriminate their own and alien fawn calls. Thus, the vocal identification process is unidirectional. In followers, mother-offspring acoustic recognition is mutual, and therefore the different antipredator strategies of newborn mammals may have shaped the modalities of parent-offspring acoustic recognition.",
+    "authors": [
+      "Marco V. G. Torriani",
+      "Elisabetta Vannoni",
+      "Alan G. McElligott"
+    ],
+    "year": 2006,
+    "venue": "The American Naturalist",
+    "venue_issn": "0003-0147",
+    "venue_type": "journal",
+    "cited_by": 124,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Process (computing)",
+      "Zoology",
+      "Ecology",
+      "Evolutionary biology",
+      "Habitat",
+      "Operating system"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2002413075",
+    "doi": "10.1371/journal.pone.0003113",
+    "pmid": "18769619",
+    "title": "Low Frequency Groans Indicate Larger and More Dominant Fallow Deer (Dama dama) Males",
+    "abstract": "BACKGROUND: Models of honest advertisement predict that sexually selected calls should signal male quality. In most vertebrates, high quality males have larger body sizes that determine higher social status and in turn higher reproductive success. Previous research has emphasised the importance of vocal tract resonances or formant frequencies of calls as cues to body size in mammals. However, the role of the acoustic features of vocalisations as cues to other quality-related phenotypic characteristics of callers has rarely been investigated. METHODOLOGY/PRINCIPAL FINDINGS: We examined whether the acoustic structure of fallow deer groans provides reliable information on the quality of the caller, by exploring the relationships between male quality (body size, dominance rank, and mating success) and the frequency components of calls (fundamental frequency, formant frequencies, and formant dispersion). We found that body size was not related to the fundamental frequency of groans, whereas larger males produced groans with lower formant frequencies and lower formant dispersion. Groans of high-ranking males were characterised by lower minimum fundamental frequencies and to a lesser extent, by lower formant dispersions. Dominance rank was the factor most strongly related to mating success, with higher-ranking males having higher mating success. The minimum fundamental frequency and the minimum formant dispersion were indirectly related to male mating success (through dominance rank). CONCLUSION/SIGNIFICANCE: Our study is the first to show that sexually selected vocalisations can signal social dominance in mammals other than primates, and reveals that independent acoustic components encode accurate information on different phenotypic aspects of male quality.",
+    "authors": [
+      "Elisabetta Vannoni",
+      "Alan G. McElligott"
+    ],
+    "year": 2008,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 168,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Mating",
+      "Sexual selection",
+      "Audiology",
+      "Evolutionary biology",
+      "Zoology",
+      "Genetics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3132357474",
+    "doi": "10.1016/j.applanim.2021.105264",
+    "pmid": "",
+    "title": "Vocalisations in farm animals: A step towards positive welfare assessment",
+    "abstract": "Public concern for farm animal welfare is increasing. Animal welfare is defined as the balance of positive and negative emotions, where positive emotions are key to a good animal life. Emotion is defined as an experience that varies in valence and arousal. Many methods developed to identify positive emotions in animals involve disadvantages. For example, they require training the animals, are age specific or invasive. Vocalisations are a promising indicator of positive emotions. We aimed to review current knowledge on farm animal vocalisations putatively associated with positive emotions and discuss the potential of vocalisations as an on-farm tool to assess positive emotions in farm animals. Vocalisation types and acoustic structures that can potentially be used to identify positive emotions depend upon species. In pigs, lower frequency vocalisations are produced more in positive situations, however, within grunts, higher frequencies reflect positive situations. In horses, more snorts and shorter, lower frequency whinnies could be linked to positive situations. In cows, closed-mouth vocalisations (lower in frequency) might be more common in positive emotions. Food calls and fast clucks may be linked to positive emotions in chickens. In goats, the fundamental frequency shows less fluctuations during positive compared to negative situations. A link between vocalisations and positive emotions has not been shown yet in sheep. Overall, a combination of vocalisations and other measures of emotions could be a promising on-farm tool to monitor positive emotions.",
+    "authors": [
+      "Karin A. Laurijs",
+      "Elodie F. Briefer",
+      "Inonge Reimert",
+      "Laura E. Webb"
+    ],
+    "year": 2021,
+    "venue": "Applied Animal Behaviour Science",
+    "venue_issn": "0168-1591",
+    "venue_type": "journal",
+    "cited_by": 121,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Animal welfare",
+      "Valence (chemistry)",
+      "Arousal",
+      "Welfare",
+      "Social psychology",
+      "Developmental psychology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3197304224",
+    "doi": "10.1098/rstb.2020.0244",
+    "pmid": "34482736",
+    "title": "Vocal production learning in mammals revisited",
+    "abstract": "Vocal production learning, the ability to modify the structure of vocalizations as a result of hearing those of others, has been studied extensively in birds but less attention has been given to its occurrence in mammals. We summarize the available evidence for vocal learning in mammals from the last 25 years, updating earlier reviews on the subject. The clearest evidence comes from cetaceans, pinnipeds, elephants and bats where species have been found to copy artificial or human language sounds, or match acoustic models of different sound types. Vocal convergence, in which parameter adjustments within one sound type result in similarities between individuals, occurs in a wider range of mammalian orders with additional evidence from primates, mole-rats, goats and mice. Currently, the underlying mechanisms for convergence are unclear with vocal production learning but also usage learning or matching physiological states being possible explanations. For experimental studies, we highlight the importance of quantitative comparisons of seemingly learned sounds with vocal repertoires before learning started or with species repertoires to confirm novelty. Further studies on the mammalian orders presented here as well as others are needed to explore learning skills and limitations in greater detail. This article is part of the theme issue 'Vocal learning in animals and humans'.",
+    "authors": [
+      "Vincent M. Janik",
+      "Mirjam Knörnschild"
+    ],
+    "year": 2021,
+    "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+    "venue_issn": "0962-8436",
+    "venue_type": "journal",
+    "cited_by": 124,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Vocal learning",
+      "Novelty",
+      "Sound production",
+      "Range (aeronautics)",
+      "Communication",
+      "Cognitive psychology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2888879249",
+    "doi": "10.1098/rsos.180491",
+    "pmid": "30225038",
+    "title": "Goats prefer positive human emotional facial expressions",
+    "abstract": "Domestication has shaped the physiology and the behaviour of animals to better adapt to human environments. Therefore, human facial expressions may be highly informative for animals domesticated for working closely with people, such as dogs and horses. However, it is not known whether other animals, and particularly those domesticated primarily for production, such as goats, are capable of perceiving human emotional cues. In this study, we investigated whether goats can distinguish human facial expressions when simultaneously shown two images of an unfamiliar human with different emotional valences (positive/happy or negative/angry). Both images were vertically attached to a wall on one side of a test arena, 1.3 m apart, and goats were released from the opposite side of the arena (distance of 4.0 m) and were free to explore and interact with the stimuli during the trials. Each of four test trials lasted 30 s. Overall, we found that goats preferred to interact first with happy faces, meaning that they are sensitive to human facial emotional cues. Goats interacted first, more often and for longer duration with positive faces when they were positioned on the right side. However, no preference was found when the positive faces were placed on the left side. We show that animals domesticated for production can discriminate human facial expressions with different emotional valences and prefer to interact with positive ones. Therefore, the impact of domestication on animal cognitive abilities may be more far-reaching than previously assumed.",
+    "authors": [
+      "Christian Nawroth",
+      "Natalia Albuquerque",
+      "Carine Savalli",
+      "Marie-Sophie Single",
+      "Alan G. McElligott"
+    ],
+    "year": 2018,
+    "venue": "Royal Society Open Science",
+    "venue_issn": "2054-5703",
+    "venue_type": "journal",
+    "cited_by": 92,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Domestication",
+      "Facial expression",
+      "Cognition",
+      "Preference",
+      "Cognitive psychology",
+      "Social psychology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2056373143",
+    "doi": "10.1086/432777",
+    "pmid": "",
+    "title": "Market Economy and the Loss of Folk Knowledge of Plant Uses: Estimates from the Tsimane’ of the Bolivian Amazon",
+    "abstract": "For most of human history, people's main form of knowledge has been adapted to the local environment and based on experience and empirical testing.",
+    "authors": [
+      "Victòria Reyes-García",
+      "Vincent Vadez",
+      "Elizabeth Byron",
+      "Lilian Apaza",
+      "William R. Leonard",
+      "Eddy Pérez-Then",
+      "David Wilkie"
+    ],
+    "year": 2005,
+    "venue": "Current Anthropology",
+    "venue_issn": "0011-3204",
+    "venue_type": "journal",
+    "cited_by": 175,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Wildlife",
+      "Amazon rainforest",
+      "Ecology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2162945036",
+    "doi": "10.1186/1742-9994-11-20",
+    "pmid": "24666734",
+    "title": "Goats excel at learning and remembering a highly novel cognitive task",
+    "abstract": "INTRODUCTION: The computational demands of sociality (maintaining group cohesion, reducing conflict) and ecological problems (extractive foraging, memorizing resource locations) are the main drivers proposed to explain the evolution cognition. Different predictions follow, about whether animals would preferentially learn new tasks socially or not, but the prevalent view today is that intelligent species should excel at social learning. However, the predictions were originally used to explain primate cognition, and studies of species with relatively smaller brains are rare. By contrast, domestication has often led to a decrease in brain size, which could affect cognition. In domestic animals, the relaxed selection pressures compared to a wild environment could have led to reduced social and physical cognition. Goats possess several features commonly associated with advanced cognition, such as successful colonization of new environments and complex fission-fusion societies. Here, we assessed goat social and physical cognition as well as long-term memory of a complex two-step foraging task (food box cognitive challenge), in order to investigate some of the main selection pressures thought to affect the evolution of ungulate cognition. RESULTS: The majority of trained goats (9/12) successfully learned the task quickly; on average, within 12 trials. After intervals of up to 10 months, they solved the task within two minutes, indicating excellent long-term memory. The goats did not learn the task faster after observing a demonstrator than if they did not have that opportunity. This indicates that they learned through individual rather than social learning. CONCLUSIONS: The individual learning abilities and long-term memory of goats highlighted in our study suggest that domestication has not affected goat physical cognition. However, these cognitive abilities contrast with the apparent lack of social learning, suggesting that relatively intelligent species do not always preferentially learn socially. We propose that goat cognition, and maybe more generally ungulate cognition, is mainly driven by the need to forage efficiently in harsh environments and feed on plants that are difficult to access and to process, more than by the computational demands of sociality. Our results could also explain why goats are so successful at colonizing new environments.",
+    "authors": [
+      "Elodie F. Briefer",
+      "Samaah Haque",
+      "Luigi Baciadonna",
+      "Alan G. McElligott"
+    ],
+    "year": 2014,
+    "venue": "Frontiers in Zoology",
+    "venue_issn": "1742-9994",
+    "venue_type": "journal",
+    "cited_by": 81,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Foraging",
+      "Cognition",
+      "Sociality",
+      "Cognitive psychology",
+      "Memorization",
+      "Task (project management)"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1998792979",
+    "doi": "10.1186/1741-7007-10-97",
+    "pmid": "23206242",
+    "title": "Segmental concatenation of individual signatures and context cues in banded mongoose (Mungos mungo) close calls",
+    "abstract": "BACKGROUND: All animals are anatomically constrained in the number of discrete call types they can produce. Recent studies suggest that by combining existing calls into meaningful sequences, animals can increase the information content of their vocal repertoire despite these constraints. Additionally, signalers can use vocal signatures or cues correlated to other individual traits or contexts to increase the information encoded in their vocalizations. However, encoding multiple vocal signatures or cues using the same components of vocalizations usually reduces the signals' reliability. Segregation of information could effectively circumvent this trade-off. In this study we investigate how banded mongooses (Mungos mungo) encode multiple vocal signatures or cues in their frequently emitted graded single syllable close calls. RESULTS: The data for this study were collected on a wild, but habituated, population of banded mongooses. Using behavioral observations and acoustical analysis we found that close calls contain two acoustically different segments. The first being stable and individually distinct, and the second being graded and correlating with the current behavior of the individual, whether it is digging, searching or moving. This provides evidence of Marler's hypothesis on temporal segregation of information within a single syllable call type. Additionally, our work represents an example of an identity cue integrated as a discrete segment within a single call that is independent from context. This likely functions to avoid ambiguity between individuals or receivers having to keep track of several context-specific identity cues. CONCLUSIONS: Our study provides the first evidence of segmental concatenation of information within a single syllable in non-human vocalizations. By reviewing descriptions of call structures in the literature, we suggest a general application of this mechanism. Our study indicates that temporal segregation and segmental concatenation of vocal signatures or cues is likely a common, but so far neglected, dimension of information coding in animal vocal communication. We argue that temporal segregation of vocal signatures and cues evolves in species where communication of multiple unambiguous signals is crucial, but is limited by the number of call types produced.",
+    "authors": [
+      "David A. Jansen",
+      "Michael A. Cant",
+      "Marta B. Manser"
+    ],
+    "year": 2012,
+    "venue": "BMC Biology",
+    "venue_issn": "1741-7007",
+    "venue_type": "journal",
+    "cited_by": 82,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Context (archaeology)",
+      "Encoding (memory)",
+      "Population",
+      "Communication",
+      "Neuroscience",
+      "Demography"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2795077282",
+    "doi": "10.1007/s10539-018-9612-8",
+    "pmid": "29606782",
+    "title": "Self domestication and the evolution of language",
+    "abstract": "We set out an account of how self-domestication plays a crucial role in the evolution of language. In doing so, we focus on the growing body of work that treats language structure as emerging from the process of cultural transmission. We argue that a full recognition of the importance of cultural transmission fundamentally changes the kind of questions we should be asking regarding the biological basis of language structure. If we think of language structure as reflecting an accumulated set of changes in our genome, then we might ask something like, “What are the genetic bases of language structure and why were they selected?” However, if cultural evolution can account for language structure, then this question no longer applies. Instead, we face the task of accounting for the origin of the traits that enabled that process of structure-creating cultural evolution to get started in the first place. In light of work on cultural evolution, then, the new question for biological evolution becomes, “How did those precursor traits evolve?” We identify two key precursor traits: (1) the transmission of the communication system through learning; and (2) the ability to infer the communicative intent associated with a signal or action. We then describe two comparative case studies—the Bengalese finch and the domestic dog—in which parallel traits can be seen emerging following domestication. Finally, we turn to the role of domestication in human evolution. We argue that the cultural evolution of language structure has its origin in an earlier process of self-domestication.",
+    "authors": [
+      "James Thomas",
+      "Simon Kirby"
+    ],
+    "year": 2018,
+    "venue": "Biology & Philosophy",
+    "venue_issn": "0169-3867",
+    "venue_type": "journal",
+    "cited_by": 121,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Domestication",
+      "Language evolution",
+      "Evolutionary biology",
+      "Linguistics",
+      "Ecology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2960536811",
+    "doi": "10.1186/s12983-019-0323-z",
+    "pmid": "31320917",
+    "title": "Goats distinguish between positive and negative emotion-linked vocalisations",
+    "abstract": "BACKGROUND: Evidence from humans suggests that the expression of emotions can regulate social interactions and promote coordination within a group. Despite its evolutionary importance, social communication of emotions in non-human animals is still not well understood. Here, we combine behavioural and physiological measures, to determine if animals can distinguish between vocalisations linked to different emotional valences (positive and negative). Using a playback paradigm, goats were habituated to listen to a conspecific call associated with positive or negative valence (habituation phase) and were subsequently exposed to a variant of the same call type (contact call) associated with the opposite valence (dishabituation phase), followed by a final call randomly selected from the habituation phase as control (rehabituation phase). The effects of the calls on the occurrence of looking and cardiac responses in these phases were recorded and compared. RESULTS: We found that when the valence of the call variant changed, goats were more likely to look at the source of the sound, indicating that they could distinguish calls based on their valence. Heart rate was not affected by the valence of the calls played, whereas heart-rate variability tended to be higher in the habituation and rehabituation phases, when positive calls were played compared to negative ones. Together, the behavioural and physiological measures provide evidence suggesting, first, that goats are able to distinguish call variants based on their valence, and second, that goat behaviour and cardiac responses are affected by call valence. CONCLUSION: This study indicates that auditory modalities are a potent means to communicate emotions in non-human animals. These findings can contribute to our understanding of the evolution of emotion perception in non-human animals.",
+    "authors": [
+      "Luigi Baciadonna",
+      "Elodie F. Briefer",
+      "Livio Favaro",
+      "Alan G. McElligott"
+    ],
+    "year": 2019,
+    "venue": "Frontiers in Zoology",
+    "venue_issn": "1742-9994",
+    "venue_type": "journal",
+    "cited_by": 47,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Habituation",
+      "Valence (chemistry)",
+      "Cognition",
+      "Neuroscience",
+      "Quantum mechanics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2090333250",
+    "doi": "10.1371/journal.pone.0061174",
+    "pmid": "23613804",
+    "title": "Visual Cues Given by Humans Are Not Sufficient for Asian Elephants (Elephas maximus) to Find Hidden Food",
+    "abstract": "Recent research suggests that domesticated species--due to artificial selection by humans for specific, preferred behavioral traits--are better than wild animals at responding to visual cues given by humans about the location of hidden food. \\Although this seems to be supported by studies on a range of domesticated (including dogs, goats and horses) and wild (including wolves and chimpanzees) animals, there is also evidence that exposure to humans positively influences the ability of both wild and domesticated animals to follow these same cues. Here, we test the performance of Asian elephants (Elephas maximus) on an object choice task that provides them with visual-only cues given by humans about the location of hidden food. Captive elephants are interesting candidates for investigating how both domestication and human exposure may impact cue-following as they represent a non-domesticated species with almost constant human interaction. As a group, the elephants (n = 7) in our study were unable to follow pointing, body orientation or a combination of both as honest signals of food location. They were, however, able to follow vocal commands with which they were already familiar in a novel context, suggesting the elephants are able to follow cues if they are sufficiently salient. Although the elephants' inability to follow the visual cues provides partial support for the domestication hypothesis, an alternative explanation is that elephants may rely more heavily on other sensory modalities, specifically olfaction and audition. Further research will be needed to rule out this alternative explanation.",
+    "authors": [
+      "Joshua M. Plotnik",
+      "Jennifer J. Pokorny",
+      "Titiporn Keratimanochaya",
+      "Christine E. Webb",
+      "Hana F. Beronja",
+      "Alice Hennessy",
+      "James Hill",
+      "Virginia J. Hill",
+      "Rebecca Kiss",
+      "Caitlin Maguire"
+    ],
+    "year": 2013,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 55,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Elephas",
+      "Feeding behavior",
+      "Zoology",
+      "Evolutionary biology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1994969535",
+    "doi": "10.1371/journal.pone.0047895",
+    "pmid": "23110123",
+    "title": "An Operant Conditioning Method for Studying Auditory Behaviors in Marmoset Monkeys",
+    "abstract": "The common marmoset (Callithrix jacchus) is a small New World primate that has increasingly been used as a non-human model in the fields of sensory, motor, and cognitive neuroscience. However, little knowledge exists regarding behavioral methods in this species. Developing an understanding of the neural basis of perception and cognition in an animal model requires measurement of both brain activity and behavior. Here we describe an operant conditioning behavioral training method developed to allow controlled psychoacoustic measurements in marmosets. We demonstrate that marmosets can be trained to consistently perform a Go/No-Go auditory task in which a subject licks at a feeding tube when it detects a sound. Correct responses result in delivery of a food reward. Crucially, this operant conditioning task generates little body movement and is well suited for pairing behavior with single-unit electrophysiology. Successful implementation of an operant conditioning behavior opens the door to a wide range of new studies in the field of auditory neuroscience using the marmoset as a model system.",
+    "authors": [
+      "Evan D. Remington",
+      "Michael S. Osmanski",
+      "Xiaoqin Wang"
+    ],
+    "year": 2012,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 64,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Marmoset",
+      "Neuroscience",
+      "Primate",
+      "Sensory system",
+      "Perception",
+      "Cognitive psychology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1975267282",
+    "doi": "10.1371/journal.pone.0000900",
+    "pmid": "17878935",
+    "title": "Accelerated FoxP2 Evolution in Echolocating Bats",
+    "abstract": "FOXP2 is a transcription factor implicated in the development and neural control of orofacial coordination, particularly with respect to vocalisation. Observations that orthologues show almost no variation across vertebrates yet differ by two amino acids between humans and chimpanzees have led to speculation that recent evolutionary changes might relate to the emergence of language. Echolocating bats face especially challenging sensorimotor demands, using vocal signals for orientation and often for prey capture. To determine whether mutations in the FoxP2 gene could be associated with echolocation, we sequenced FoxP2 from echolocating and non-echolocating bats as well as a range of other mammal species. We found that contrary to previous reports, FoxP2 is not highly conserved across all nonhuman mammals but is extremely diverse in echolocating bats. We detected divergent selection (a change in selective pressure) at FoxP2 between bats with contrasting sonar systems, suggesting the intriguing possibility of a role for FoxP2 in the evolution and development of echolocation. We speculate that observed accelerated evolution of FoxP2 in bats supports a previously proposed function in sensorimotor coordination.",
+    "authors": [
+      "Gang Li",
+      "Jinhong Wang",
+      "Stephen J. Rossiter",
+      "Gareth Jones",
+      "Shuyi Zhang"
+    ],
+    "year": 2007,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 132,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Human echolocation",
+      "Evolutionary biology",
+      "Gene",
+      "Neuroscience",
+      "Genetics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2087245461",
+    "doi": "10.1038/srep09989",
+    "pmid": "25897781",
+    "title": "Segregation of information about emotional arousal and valence in horse whinnies",
+    "abstract": "Studying vocal correlates of emotions is important to provide a better understanding of the evolution of emotion expression through cross-species comparisons. Emotions are composed of two main dimensions: emotional arousal (calm versus excited) and valence (negative versus positive). These two dimensions could be encoded in different vocal parameters (segregation of information) or in the same parameters, inducing a trade-off between cues indicating emotional arousal and valence. We investigated these two hypotheses in horses. We placed horses in five situations eliciting several arousal levels and positive as well as negative valence. Physiological and behavioral measures collected during the tests suggested the presence of different underlying emotions. First, using detailed vocal analyses, we discovered that all whinnies contained two fundamental frequencies (\"F0\" and \"G0\"), which were not harmonically related, suggesting biphonation. Second, we found that F0 and the energy spectrum encoded arousal, while G0 and whinny duration encoded valence. Our results show that cues to emotional arousal and valence are segregated in different, relatively independent parameters of horse whinnies. Most of the emotion-related changes to vocalizations that we observed are similar to those observed in humans and other species, suggesting that vocal expression of emotions has been conserved throughout evolution.",
+    "authors": [
+      "Elodie F. Briefer",
+      "Anne-Laure Maigrot",
+      "Roi Mandel",
+      "Sabrina Briefer Freymond",
+      "Iris Bachmann",
+      "Edna Hillmann"
+    ],
+    "year": 2015,
+    "venue": "Scientific Reports",
+    "venue_issn": "2045-2322",
+    "venue_type": "journal",
+    "cited_by": 111,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Arousal",
+      "Valence (chemistry)",
+      "Audiology",
+      "Cognition",
+      "Social psychology",
+      "Neuroscience"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2145970638",
+    "doi": "10.1186/s12983-014-0094-5",
+    "pmid": "25610491",
+    "title": "The power of oral and nasal calls to discriminate individual mothers and offspring in red deer, Cervus elaphus",
+    "abstract": "BACKGROUND: In most species, acoustical cues are crucial for mother-offspring recognition. Studies of a few species of ungulates showed that potential for individual recognition may differ between nasal and oral contact calls. RESULTS: Vocalizations of 28 hinds and 31 calves of farmed Iberian red deer (Cervus elaphus hispanicus) were examined with discriminant function analyses (DFA) to determine whether acoustic structure of their oral and nasal contact calls encodes information about the caller's identity. Contact calls were elicited by brief separation of individually identified animals by a distance over 10 m or by a bar fence. Both oral and nasal calls of both hinds and calves showed high potential to discriminate individuals. In hinds, individuality was significantly higher in the oral than in the nasal calls, whereas in calves, individuality was equally well expressed in both oral and nasal calls. For calves, the maximum fundamental frequency was higher and the duration was longer in oral calls than in nasal calls. For hinds, the maximum fundamental frequency and the duration were indistinguishable between oral and nasal calls. Compared to the pooled sample of oral and nasal calls, separate oral or nasal call samples provided better classifying accuracy to individual in either hinds or calves. Nevertheless, in both hinds and calves, even in the pooled sample of oral and nasal calls, the degree of individual identity was 2-3 times greater than expected by chance. For hinds that provided calls in both years, cross-validation of calls collected in 2012 with discriminant functions created with calls from 2011 showed a strong decrease of classifying accuracy to individual. CONCLUSIONS: These results suggest different potentials of nasal and oral calls to allow the discrimination of individuals among hinds, but not among red deer calves. The high potential of individual recognition even with the pooled sample of oral and nasal calls allows mother and young to remember only one set of acoustic variables for mutual vocal recognition. Poor between-year stability of individual characteristics of hind oral and nasal calls would require updating keys to individual recognition each calving season.",
+    "authors": [
+      "Olga V. Sibiryakova",
+      "Ilya A. Volodin",
+      "Vera A. Matrosova",
+      "Elena V. Volodina",
+      "Andrés J. García",
+      "Laureano Gallego",
+      "Tomás Landete‐Castillejos"
+    ],
+    "year": 2015,
+    "venue": "Frontiers in Zoology",
+    "venue_issn": "1742-9994",
+    "venue_type": "journal",
+    "cited_by": 38,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Cervus elaphus",
+      "Discriminant function analysis",
+      "Physiology",
+      "Veterinary medicine",
+      "Demography",
+      "Ecology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3038548119",
+    "doi": "10.1136/vr.105964",
+    "pmid": "32631849",
+    "title": "Prioritisation of animal welfare issues in the UK using expert consensus",
+    "abstract": "BACKGROUND: The welfare of all animals under human management is an area of consistent public concern, but strategies to improve welfare may vary across species. In this study, expert consensus, using a modified Delphi approach, was used to prioritise welfare issues of farmed and companion animals in the UK. METHODS: The study involved 117 experts, divided between eight species groups. Experts were recruited from a broad range of disciplines. Two rounds of online surveys were conducted using the online survey tool, and the final round was an in-person workshop with a subsection of experts (n=21). The experts agreed that welfare issues should be ranked considering three categories: (1) severity, (2) duration and (3) perceived prevalence. RESULTS: A comprehensive list of welfare issues was generated for each species by discussion boards (cats, rabbits and horses) or by literature review (dogs, pigs, poultry, cattle and small ruminants). In the first online survey, the experts scored each welfare issue using the three categories (severity, duration and prevalence) on a 6-point Likert scale, where 1=never/none and 6=always/high. Lists of welfare issues were reduced to 25 per cent-59 per cent of the total number, by determining mean ranks from expert ratings. In round 2, experts were asked whether they agreed or disagreed with the rankings. In the final stage, during the workshop, the top-ranking welfare issues for animals were determined for individual animals (considering the greatest severity and duration, in the expert's opinion) and for perceived prevalence. CONCLUSIONS: Overall, prioritised welfare issues included lack of knowledge of welfare needs, social behaviour issues, problem behaviours, inappropriate diet and environment, lack of veterinary care, consequences from breeding decisions, poor pain management, delayed euthanasia and chronic ill health. The Delphi process resulted in consensus on the most significant welfare challenges of animals in the UK and can help to guide future research and education priority decisions.",
+    "authors": [
+      "Fiona C. Rioja-Lang",
+      "Heather Bacon",
+      "Melanie Connor",
+      "Catherine M Dwyer"
+    ],
+    "year": 2020,
+    "venue": "Veterinary Record",
+    "venue_issn": "0042-4900",
+    "venue_type": "journal",
+    "cited_by": 66,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Welfare",
+      "Likert scale",
+      "Animal welfare",
+      "Ranking (information retrieval)",
+      "Delphi method",
+      "Expert opinion"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1886459574",
+    "doi": "10.1186/s13104-015-1394-3",
+    "pmid": "26353836",
+    "title": "Nocturnal “humming” vocalizations: adding a piece to the puzzle of giraffe vocal communication",
+    "abstract": "BACKGROUND: Recent research reveals that giraffes (Giraffa camelopardalis sp.) exhibit a socially structured, fission-fusion system. In other species possessing this kind of society, information exchange is important and vocal communication is usually well developed. But is this true for giraffes? Giraffes are known to produce sounds, but there is no evidence that they use vocalizations for communication. Reports on giraffe vocalizations are mainly anecdotal and the missing acoustic descriptions make it difficult to establish a call nomenclature. Despite inconclusive evidence to date, it is widely assumed that giraffes produce infrasonic vocalizations similar to elephants. In order to initiate a more detailed investigation of the vocal communication in giraffes, we collected data of captive individuals during day and night. We particularly focussed on detecting tonal, infrasonic or sustained vocalizations. FINDINGS: We collected over 947 h of audio material in three European zoos and quantified the spectral and temporal components of acoustic signals to obtain an accurate set of acoustic parameters. Besides the known burst, snorts and grunts, we detected harmonic, sustained and frequency-modulated \"humming\" vocalizations during night recordings. None of the recorded vocalizations were within the infrasonic range. CONCLUSIONS: These results show that giraffes do produce vocalizations, which, based on their acoustic structure, might have the potential to function as communicative signals to convey information about the physical and motivational attributes of the caller. The data further reveal that the assumption of infrasonic communication in giraffes needs to be considered with caution and requires further investigations in future studies.",
+    "authors": [
+      "Anton Baotic",
+      "Florian Sicks",
+      "Angela S. Stoeger"
+    ],
+    "year": 2015,
+    "venue": "BMC Research Notes",
+    "venue_issn": "1756-0500",
+    "venue_type": "journal",
+    "cited_by": 32,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Vocal communication",
+      "Nocturnal",
+      "Bioacoustics",
+      "Range (aeronautics)",
+      "Speech recognition",
+      "Communication"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3129773007",
+    "doi": "10.1038/s41598-021-83614-1",
+    "pmid": "33627739",
+    "title": "Occurrences of non-linear phenomena and vocal harshness in dog whines as indicators of stress and ageing",
+    "abstract": "During social interactions, acoustic parameters of tetrapods' vocalisations reflect the emotional state of the caller. Higher levels of spectral noise and the occurrence of irregularities (non-linear phenomena NLP) might be negative arousal indicators in alarm calls, although less is known about other distress vocalisations. Family dogs experience different levels of stress during separation from their owner and may vocalise extensively. Analysing their whines can provide evidence for the relationship between arousal and NLP. We recorded 167 family dogs' separation behaviour including vocalisations, assessed their stress level based on behaviour and tested how these, their individual features, and owner reported separation-related problems (SRP) relate to their whines' (N = 4086) spectral noise and NLP. Dogs with SRP produced NLP whines more likely. More active dogs and dogs that tried to escape produced noisier whines. Older dogs' whines were more harmonic than younger ones', but they also showed a higher NLP ratio. Our results show that vocal harshness and NLP are associated with arousal in contact calls, and thus might function as stress indicators. The higher occurrence of NLP in older dogs irrespective to separation stress suggests loss in precise neural control of the larynx, and hence can be a potential ageing indicator.",
+    "authors": [
+      "András Marx",
+      "Rita Lenkei",
+      "Paula Pérez Fraga",
+      "Viktória Bakos",
+      "Enikő Kubinyi",
+      "Tamás Faragó"
+    ],
+    "year": 2021,
+    "venue": "Scientific Reports",
+    "venue_issn": "2045-2322",
+    "venue_type": "journal",
+    "cited_by": 39,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Arousal",
+      "Stress (linguistics)",
+      "Distress",
+      "Audiology",
+      "Cognitive psychology",
+      "Speech recognition"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2587076419",
+    "doi": "10.1186/s12983-017-0193-1",
+    "pmid": "28203263",
+    "title": "Perception of emotional valence in horse whinnies",
+    "abstract": "BACKGROUND: Non-human animals often produce different types of vocalisations in negative and positive contexts (i.e. different valence), similar to humans, in which crying is associated with negative emotions and laughter is associated with positive ones. However, some types of vocalisations (e.g. contact calls, human speech) can be produced in both negative and positive contexts, and changes in valence are only accompanied by slight structural differences. Although such acoustically graded signals associated with opposite valence have been highlighted in some species, it is not known if conspecifics discriminate them, and if contagion of emotional valence occurs as a result. We tested whether domestic horses perceive, and are affected by, the emotional valence of whinnies produced by both familiar and unfamiliar conspecifics. We measured physiological and behavioural reactions to whinnies recorded during emotionally negative (social separation) and positive (social reunion) situations. RESULTS: We show that horses perceive acoustic cues to both valence and familiarity present in whinnies. They reacted differently (respiration rate, head movements, height of the head and latency to respond) to separation and reunion whinnies when produced by familiar, but not unfamiliar individuals. They were also more emotionally aroused (shorter inter-pulse intervals and higher locomotion) when hearing unfamiliar compared to familiar whinnies. In addition, the acoustic parameters of separation and reunion whinnies affected the physiology and behaviour of conspecifics in a continuous way. However, we did not find clear evidence for contagion of emotional valence. CONCLUSIONS: Horses are thus able to perceive changes linked to emotional valence within a given vocalisation type, similar to perception of affective prosody in humans. Whinnies produced in either separation or reunion situations seem to constitute acoustically graded variants with distinct functions, enabling horses to increase their apparent vocal repertoire size.",
+    "authors": [
+      "Elodie F. Briefer",
+      "Roi Mandel",
+      "Anne-Laure Maigrot",
+      "Sabrina Briefer Freymond",
+      "Iris Bachmann",
+      "Edna Hillmann"
+    ],
+    "year": 2017,
+    "venue": "Frontiers in Zoology",
+    "venue_issn": "1742-9994",
+    "venue_type": "journal",
+    "cited_by": 60,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Valence (chemistry)",
+      "Perception",
+      "Cognitive psychology",
+      "Audiology",
+      "Communication",
+      "Cognition"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W37508083",
+    "doi": "10.3390/ani13142307",
+    "pmid": "",
+    "title": "Factors determining small deformation behaviour of gels",
+    "abstract": "To ensure the optimal living conditions of farm animals, it is essential to understand how their senses work and the way in which they perceive their environment. Most animals have a different hearing range compared to humans; thus, some aversive sounds may go unnoticed by caretakers. The auditory pathways may act through the nervous system on the cardiovascular, gastrointestinal, endocrine, and immune systems. Therefore, noise may lead to behavioral activation (arousal), pain, and sleep disorders. Sounds on farms may be produced by machines, humans, or animals themselves. It is worth noting that vocalization may be very informative to the breeder as it is an expression of an emotional state. This information can be highly beneficial in maintaining a high level of livestock welfare. Moreover, understanding learning theory, conditioning, and the potential benefits of certain sounds can guide the deliberate use of techniques in farm management to reduce the aversiveness of certain events.",
+    "authors": [
+      "van T. Vliet"
+    ],
+    "year": 1999,
+    "venue": "",
+    "venue_issn": "",
+    "venue_type": "",
+    "cited_by": 24,
+    "is_oa": false,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Deformation (meteorology)",
+      "Composite material"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2756151528",
+    "doi": "10.2117/psysoc.2016.112",
+    "pmid": "",
+    "title": "CATS BEG FOR FOOD FROM THE HUMAN WHO LOOKS AT AND CALLS TO THEM: ABILITY TO UNDERSTAND HUMANS’ ATTENTIONAL STATES",
+    "abstract": "We tested whether cats (Felis catus) could recognize human attentional states when begging for food from one of two unfamiliar actors. Cats were tested under three conditions that differed in the actors’ actions: Visual only condition—the actor looking at the cat silently versus facing sideways silently; Visual and Auditory condition—the actor looking at and calling to the cat versus looking at the cat silently; and Auditory only condition—the actor facing down and calling to the cat versus facing down silently. In the Visual and Auditory condition, cats preferred the actor who was calling to them. In the Visual only and the Auditory only conditions, the cats showed no preference for the actors’ attentional states. There was a modest difference in the preference between the Visual and Auditory condition and the Auditory only condition. These results suggest that cats can use vocal cues of attention toward them only in situations in which humans are looking at them.",
+    "authors": [
+      "Yuki Ito",
+      "Arii Watanabe",
+      "Saho Takagi",
+      "Minori Arahori",
+      "Atsuko Saito"
+    ],
+    "year": 2016,
+    "venue": "PSYCHOLOGIA",
+    "venue_issn": "0033-2852",
+    "venue_type": "journal",
+    "cited_by": 28,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "CATS",
+      "Preference",
+      "Begging",
+      "Cognitive psychology",
+      "Audiology",
+      "Developmental psychology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2994731256",
+    "doi": "10.12966/abc.05.03.2015",
+    "pmid": "",
+    "title": "Dialects in Animals: Evidence, Development and Potential Functions",
+    "abstract": "Dialects are one of the parallels that have long been established between human language and animal communication. We discuss the potential functional parallels between human and animal dialects, arguing that in both cases different mechanisms and functions may be at stake where large geographical versus very localized (e.g. social) variations are concerned. Birdsong studies in particular, but also recent studies of mammal vocalizations, show that the use of the term \"dialect\" to refer to within-species vocal variations in animal species is more than a metaphor and that animal dialects offer a possibility to explore the causes and functions of linguistic variation and change, one of the challenges in exploring the origin of diversity of language families. We present here an original view, as our approach was not \"primate-centered,\" and take into consideration \"homoplasy\" (analogy) as a potential mechanism to explain that different taxa have evolved the same functional response to social constraints.",
+    "authors": [
+      "Laurence Henry",
+      "Stéphanie Barbu",
+      "Alban Lemasson",
+      "Martine Hausberger"
+    ],
+    "year": 2015,
+    "venue": "Animal Behavior and Cognition",
+    "venue_issn": "2372-4323",
+    "venue_type": "journal",
+    "cited_by": 46,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": []
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2957005342",
+    "doi": "10.1111/1365-2435.13407",
+    "pmid": "",
+    "title": "Vocal information and the navigation of social decisions in bats: Is social complexity linked to vocal complexity?",
+    "abstract": "Abstract To make adaptive behavioural decisions, animals must acquire and process information from their natural and social environment. Reducing uncertainty regarding the actions and goals of conspecifics is especially important for group‐living animals. Bats are often highly gregarious and use versatile social vocalizations to mediate social interactions. These social vocalizations encode a substantial amount of ecologically relevant information, such as individual identity, sex and kin. Decoding this information enables receivers to make informed decisions on resource allocation, mate choice, territorial defence and cooperation. Erroneous decisions on such crucial aspects of bats’ social behaviour can be costly due to reduced reproductive success or survival. Increasingly complex social interactions require social vocalizations encoding more information which, in turn, could facilitate the evolution of even more complex social interactions. Evidence for the positive correlation of social and vocal complexity is available for several taxa but is currently very limited for bats. We conducted a phylogenetic comparative analysis to link the information content encoded in bats’ social vocalizations to the complexity of their social lives, that is the level of uncertainty associated with assessing individual identity. We focused on three different vocalization types encoding individual signatures (pup isolation calls, adult contact calls and male‐specific vocalizations). Information content in bit (i.e. the number of binary decisions necessary to discriminate among N individuals) was used as an estimate of vocal complexity; relevant social group size (i.e. the number of conspecifics whose identity a receiver could confuse) was used as an estimate of social complexity. Our phylogenetic comparative analysis detected a positive relationship between the information content of vocalizations and the respective relevant social group size. This relationship suggests a positive feedback loop between social and vocal complexity for bat vocalizations and highlights the importance of vocal information for negotiating fitness‐relevant social decisions of bats. In conclusion, our work suggests that social complexity drives vocal complexity in bats. Future studies on other hitherto understudied taxa are necessary to establish a comprehensive theory on the multi‐faceted co‐evolution of sociality and communication in the animal kingdom. A free Plain Language Summary can be found within the Supporting Information of this article.",
+    "authors": [
+      "Mirjam Knörnschild",
+      "Ahana Aurora Fernandez",
+      "Martina Nagy"
+    ],
+    "year": 2019,
+    "venue": "Functional Ecology",
+    "venue_issn": "0269-8463",
+    "venue_type": "journal",
+    "cited_by": 30,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Social complexity",
+      "Social group",
+      "Cognitive psychology",
+      "Communication",
+      "Social psychology",
+      "Social science"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2036318993",
+    "doi": "10.1371/journal.pone.0094253",
+    "pmid": "24710177",
+    "title": "The Effects of Prenatal Stocking Densities on the Fear Responses and Sociality of Goat (Capra hircus) Kids",
+    "abstract": "Prenatal stress (stress experienced by a pregnant mother) and its effects on offspring have been comprehensively studied but relatively little research has been done on how prenatal social stress affects farm animals such as goats. Here, we use the operational description of 'stress' as \"physical or perceived threats to homeostasis.\" The aim of this study was to investigate the prenatal effects of different herd densities on the fear responses and sociality of goat kids. Pregnant Norwegian dairy goats were exposed to high, medium or low prenatal animal density treatments throughout gestation (1.0, 2.0 or 3.0 m2 per animal, respectively). One kid per litter was subjected to two behavioral tests at 5 weeks of age. The 'social test' was applied to assess the fear responses, sociality and social recognition skills when presented with a familiar and unfamiliar kid and the 'separation test' assessed the behavioral coping skills when isolated. The results indicate goat kids from the highest prenatal density of 1.0 m2 were more fearful than the kids from the lower prenatal densities (i.e. made more escape attempts (separation test: P < 0.001) and vocalizations (social test: P < 0.001; separation test: P < 0.001). This effect was more pronounced in females than males in the high density (vocalizations; social test: P < 0.001; separation test: P = 0.001) and females were generally more social than males. However, goat kids did not differentiate between a familiar and an unfamiliar kid at 5 weeks of age and sociality was not affected by the prenatal density treatment. We conclude that high animal densities during pregnancy in goats produce offspring that have a higher level of fear, particularly in females. Behavioral changes in offspring that occur as an effect of prenatal stress are of high importance as many of the females are recruited to the breeding stock of dairy goats.",
+    "authors": [
+      "Rachel M. Chojnacki",
+      "Judit Vas",
+      "Inger Lise Andersen"
+    ],
+    "year": 2014,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 17,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Sociality",
+      "Capra hircus",
+      "Litter",
+      "Herd",
+      "Social stress",
+      "Stocking"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2001775013",
+    "doi": "10.3389/fpsyg.2012.00558",
+    "pmid": "23272000",
+    "title": "Do Owners Have a Clever Hans Effect on Dogs? Results of a Pointing Study",
+    "abstract": "Dogs are exceptionally successful at interpreting human pointing gestures to locate food hidden in one of two containers. However, it has repeatedly been questioned whether dogs rely on the pointing gesture or their success is increased by subtle cues from their human handler. In two experiments we used a standard two-way object-choice task to focus on this potential Clever Hans effect. We investigated if and how owners' knowledge and beliefs influenced their dogs' performance. In two experiments, as is typical in such pointing tasks, the owners sat behind their dogs, in close auditory and tactile contact with them. In Experiment 1, we systematically manipulated the owners' knowledge of whether or not their dog should follow the pointing gesture, but at the same time instructed the owners to refrain from influencing the choice of their dog. We found no influence of subtle cues from the owners, if indeed they existed: dogs in the different groups followed the pointing uniformly. Furthermore, in the absence of pointing dogs chose randomly, even though the owners had been informed about the location of the reward. In Experiment 2, owners were instructed to actively influence the choice of their dogs, and they, indeed, succeeded in sending their dogs to the container they believed to be baited. However, their influence was significantly weaker if the experimenter had previously pointed to the other location. Overall the pointing gesture seems to have a strong effect on the choice of dogs in an object-choice task. Pointing can lead the dogs to success without help from their owners as well as it can counteract clear directional instructions provided by the owners.",
+    "authors": [
+      "Teresa Schmidjell",
+      "Friederike Range",
+      "Ludwig Huber",
+      "Zsófia Virányi"
+    ],
+    "year": 2012,
+    "venue": "Frontiers in Psychology",
+    "venue_issn": "1664-1078",
+    "venue_type": "journal",
+    "cited_by": 38,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Gesture",
+      "Task (project management)",
+      "Object (grammar)",
+      "Cognitive psychology",
+      "Social psychology",
+      "Communication"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3022899453",
+    "doi": "10.26451/abc.07.02.12.2020",
+    "pmid": "",
+    "title": "Evolving views on cognition in animal vocal communication: Contributions from scream research",
+    "abstract": "The last four decades have seen major advances in the study of the cognitive bases of animal vocal communication. The conceptual delineation of senders and receivers has led to a focus on the cognitive processes involved in call production and usage, and those concerning call perception. We review selected relevant literature and discuss how recent thought-specifically, the recognition of a distinction between acoustic variation within versus between call types-expands focus from two to four key questions, specifically, the identification of factors that influence: (1) the usage of different call types, (2) the particular acoustic structure of a vocalization, (3) receivers' responses to different call types, and (4) receivers' responses to acoustic variation within a call type. We present the findings of a case study examining the relationship between emotional arousal and the acoustics of scream classes of rhesus macaques (Macaca mulatta) and discuss how the findings relate to broader issues in animal vocal communication and cognition. Screams are phylogenetically widespread, generally highly emotional, and in some taxa, convey complex information about social interactions, making them a promising subject for future research addressing contemporary questions in the field.",
+    "authors": [
+      "Jay W. Schwartz",
+      "Jonathan Engelberg",
+      "Harold Gouzoules"
+    ],
+    "year": 2020,
+    "venue": "Animal Behavior and Cognition",
+    "venue_issn": "2372-4323",
+    "venue_type": "journal",
+    "cited_by": 33,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Cognition",
+      "Vocal communication",
+      "Cognitive science",
+      "Communication",
+      "Linguistics",
+      "Cognitive psychology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2954162752",
+    "doi": "10.1007/s10071-019-01284-z",
+    "pmid": "",
+    "title": "Comparing interspecific socio-communicative skills of socialized juvenile dogs and miniature pigs",
+    "abstract": "Previous research proves dogs’ outstanding success in socio-communicative interactions with humans; however, little is known about other domestic species’ interspecific skills when kept as companion animals. Our aim was to assess highly socialized young miniature pigs’ spontaneous reactions in interactions with humans in direct comparison with that of young family dogs. All subjects experienced similar amount of socialization in human families. In Study 1, we investigated the appearance of human-oriented behaviours without the presence of food (Control condition) when a previously provided food reward was withheld (Food condition). In Study 2, we measured responsiveness to two types of the distal pointing gesture (dynamic sustained and momentary) in a two-way object choice test. In the Control condition of Study 1, the duration of pigs’ and dogs’ orientation towards and their frequency of touching the human’s body was similar. In the Food condition, these behaviours and orienting to the human’s face were intensified in both species. However, pigs exhibited face-orientation to an overall lesser extent and almost exclusively in the Food condition. In Study 2, only dogs relied spontaneously on the distal dynamic-sustained pointing gesture, while all pigs developed side bias. The results suggest that individual familiarization to a human environment enables the spontaneous appearance of similar socio-communicative behaviours in dogs and pigs, however, species predispositions might cause differences in the display of specific signals as well as in the success of spontaneously responding to certain types of the human pointing gestures.",
+    "authors": [
+      "L. Gerencsér",
+      "Paula Pérez Fraga",
+      "Melinda Lovas",
+      "Dóra Újváry",
+      "Attila Andics"
+    ],
+    "year": 2019,
+    "venue": "Animal Cognition",
+    "venue_issn": "1435-9448",
+    "venue_type": "journal",
+    "cited_by": 35,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Gesture",
+      "Juvenile",
+      "Developmental psychology",
+      "Socialization",
+      "Orientation (vector space)",
+      "Ecology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2152252120",
+    "doi": "10.1186/1742-9994-11-14",
+    "pmid": "24555438",
+    "title": "Modeling the origins of mammalian sociality: moderate evidence for matrilineal signatures in mouse lemur vocalizations",
+    "abstract": "INTRODUCTION: Maternal kin selection is a driving force in the evolution of mammalian social complexity and it requires that kin are distinctive from nonkin. The transition from the ancestral state of asociality to the derived state of complex social groups is thought to have occurred via solitary foraging, in which individuals forage alone, but, unlike the asocial ancestors, maintain dispersed social networks via scent-marks and vocalizations. We hypothesize that matrilineal signatures in vocalizations were an important part of these networks. We used the solitary foraging gray mouse lemur (Microcebus murinus) as a model for ancestral solitary foragers and tested for matrilineal signatures in their calls, thus investigating whether such signatures are already present in solitary foragers and could have facilitated the kin selection thought to have driven the evolution of increased social complexity in mammals. Because agonism can be very costly, selection for matrilineal signatures in agonistic calls should help reduce agonism between unfamiliar matrilineal kin. We conducted this study on a well-studied population of wild mouse lemurs at Ankarafantsika National Park, Madagascar. We determined pairwise relatedness using seven microsatellite loci, matrilineal relatedness by sequencing the mitrochondrial D-loop, and sleeping group associations using radio-telemetry. We recorded agonistic calls during controlled social encounters and conducted a multi-parametric acoustic analysis to determine the spectral and temporal structure of the agonistic calls. We measured 10 calls for each of 16 females from six different matrilineal kin groups. RESULTS: Calls were assigned to their matriline at a rate significantly higher than chance (pDFA: correct = 47.1%, chance = 26.7%, p = 0.03). There was a statistical trend for a negative correlation between acoustic distance and relatedness (Mantel Test: g = -1.61, Z = 4.61, r = -0.13, p = 0.058). CONCLUSIONS: Mouse lemur agonistic calls are moderately distinctive by matriline. Because sleeping groups consisted of close maternal kin, both genetics and social learning may have generated these acoustic signatures. As mouse lemurs are models for solitary foragers, we recommend further studies testing whether the lemurs use these calls to recognize kin. This would enable further modeling of how kin recognition in ancestral species could have shaped the evolution of complex sociality.",
+    "authors": [
+      "Sharon E. Kessler",
+      "Ute Radespiel",
+      "Alida I. F. Hasiniaina",
+      "Lisette M. C. Leliveld",
+      "Leanne T. Nash",
+      "Elke Zimmermann"
+    ],
+    "year": 2014,
+    "venue": "Frontiers in Zoology",
+    "venue_issn": "1742-9994",
+    "venue_type": "journal",
+    "cited_by": 20,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Sociality",
+      "Kin selection",
+      "Foraging",
+      "Kin recognition",
+      "Vocal communication",
+      "Evolutionary biology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W4214777739",
+    "doi": "10.1038/s41598-022-07300-6",
+    "pmid": "35233051",
+    "title": "Music modulates emotional responses in growing pigs",
+    "abstract": "There is a lack of clarity on whether pigs can emotionally respond to musical stimulation and whether that response is related to music structure. Qualitative Behavioral Assessment (QBA) was used to evaluate effects of 16 distinct musical pieces (in terms of harmonic structure) on emotional responses in nursery pigs (n = 30) during four periods: \"habituation\", \"treatments\", \"breaks\" and \"final\". Data were evaluated using Principal component analysis (PCA). Two principal components (PC) were considered in the analysis: PC1, characterized as a positive emotions index, included the emotional responses content, playful, sociable, and happy, whereas PC2, characterized as a negative emotions index, included fearful, inquisitive, and uneasy with positive loadings, and relaxed and calm with negative loadings. Musical stimulation (treatment) increased (P < 0.01) both emotional indices, compared to other periods and this response was influenced by harmonic characteristics of the music. We concluded that pigs have a wide variety of emotional responses, with different affective states related to the music structure used, providing evidence of its potential use as environmental enrichment for this species.",
+    "authors": [
+      "Juliana Zapata Cardona",
+      "Maria Camila Ceballos",
+      "Ariel Marcel Tarazona Morales",
+      "Edimer David Jaramillo",
+      "Berardo de J Rodríguez"
+    ],
+    "year": 2022,
+    "venue": "Scientific Reports",
+    "venue_issn": "2045-2322",
+    "venue_type": "journal",
+    "cited_by": 20,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Habituation",
+      "Principal component analysis",
+      "Emotional stress",
+      "CLARITY",
+      "Stimulation",
+      "Arousal"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2964529173",
+    "doi": "10.1371/journal.pone.0219749",
+    "pmid": "31356642",
+    "title": "Ultrasonic vocalization of pup and adult fat-tailed gerbils (Pachyuromys duprasi)",
+    "abstract": "Ultrasonic vocalizations (USVs) of laboratory rodents indicate animal emotional arousal and may serve as models of human disorders. We analysed spectrographically USV calls of pup and adult fat-tailed gerbils Pachyuromys duprasi during 420-s tests, including isolation, touch and handling. Based on combination of six different USV syllable contour shapes and six different note compositions, we classified 782 USV syllables of 24 pups aged 5-10 days to 18 types and 232 syllables of 7 adults to 24 types. Pups and adults shared 16 of these 26 USV types. Percentages of USV syllables with certain contour shapes differed between pups and adults. The contour shape and note composition significantly affected most acoustic variables of USV syllables in either pups or adults. The 1-note USV syllables were most common in either pups or adults. Pup USV syllables were overall longer and higher-frequency than adult ones, reminiscent of the USV ontogenetic pathway of bats and distinctive to rats and mice. We discuss that the USV syllable types of fat-tailed gerbils were generally similar in contour shapes and note compositions with USV syllable types of mice and rats, what means that software developed for automated classifying of mice ultrasound might be easily adapted or re-tuned to gerbil USV calls. However, using fat-tailed gerbils as model for biomedical research including control of USV vocalization is only possible since 6th day of pup life, because of the delayed emergence of USV calls in ontogeny of this species.",
+    "authors": [
+      "Alexandra S. Zaytseva",
+      "Ilya A. Volodin",
+      "Olga G. Ilchenko",
+      "Elena V. Volodina"
+    ],
+    "year": 2019,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 32,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Syllable",
+      "Ontogeny",
+      "Adult male",
+      "Rodent",
+      "Arousal",
+      "Audiology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2541568845",
+    "doi": "10.1371/journal.pone.0164988",
+    "pmid": "27792731",
+    "title": "Piglets Learn to Use Combined Human-Given Visual and Auditory Signals to Find a Hidden Reward in an Object Choice Task",
+    "abstract": "Although animals rarely use only one sense to communicate, few studies have investigated the use of combinations of different signals between animals and humans. This study assessed for the first time the spontaneous reactions of piglets to human pointing gestures and voice in an object-choice task with a reward. Piglets (Sus scrofa domestica) mainly use auditory signals-individually or in combination with other signals-to communicate with their conspecifics. Their wide hearing range (42 Hz to 40.5 kHz) fits the range of human vocalisations (40 Hz to 1.5 kHz), which may induce sensitivity to the human voice. However, only their ability to use visual signals from humans, especially pointing gestures, has been assessed to date. The current study investigated the effects of signal type (visual, auditory and combined visual and auditory) and piglet experience on the piglets' ability to locate a hidden food reward over successive tests. Piglets did not find the hidden reward at first presentation, regardless of the signal type given. However, they subsequently learned to use a combination of auditory and visual signals (human voice and static or dynamic pointing gestures) to successfully locate the reward in later tests. This learning process may result either from repeated presentations of the combination of static gestures and auditory signals over successive tests, or from transitioning from static to dynamic pointing gestures, again over successive tests. Furthermore, piglets increased their chance of locating the reward either if they did not go straight to a bowl after entering the test area or if they stared at the experimenter before visiting it. Piglets were not able to use the voice direction alone, indicating that a combination of signals (pointing and voice direction) is necessary. Improving our communication with animals requires adapting to their individual sensitivity to human-given signals.",
+    "authors": [
+      "Sandy Bensoussan",
+      "Maude Cornil",
+      "Marie-Christine Meunier-Salaün",
+      "Céline Tallet"
+    ],
+    "year": 2016,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 19,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Gesture",
+      "Task (project management)",
+      "Object (grammar)",
+      "Communication",
+      "SIGNAL (programming language)",
+      "Auditory system"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2163385973",
+    "doi": "10.1093/chemse/bjr105",
+    "pmid": "22104031",
+    "title": "Expression of Vomeronasal Receptors and Related Signaling Molecules in the Nasal Cavity of a Caudate Amphibian (Plethodon shermani)",
+    "abstract": "G-protein-coupled receptors are responsible for binding to chemosensory cues and initiating responses in vertebrate olfactory neurons. We investigated the genetic diversity and expression of one family of G-protein-coupled receptors in a terrestrial caudate amphibian (the red-legged salamander, Plethodon shermani). We used degenerate RT-PCR to isolate vomeronasal type 2 receptors (V2Rs)--including full-length sequences--and compared them with other vertebrate V2Rs with phylogenetic analyses. We also amplified a salamander Golf, a G-protein usually expressed in the main olfactory epithelium (MOE) of vertebrates, and an ion channel expressed in the rodent vomeronasal organ: trpc2. We then localized mRNA expression of V2Rs, trpc2, and Golf in the olfactory and vomeronasal epithelia with in situ hybridization. The mRNA transcripts of V2Rs and trpc2 were detected solely in the vomeronasal epithelium of P. shermani. Furthermore, there were differences in the density of cells that expressed particular subclasses of V2Rs: 2 probes showed sexually dimorphic expression, whereas a third did not. Although Golf mRNA was expressed primarily in the MOE, Golf transcripts also were found in the vomeronasal epithelium. Thus, some aspects of mRNA expression of vomeronasal receptors and related molecules differ between salamanders and frogs, and between salamanders and mice.",
+    "authors": [
+      "Karen M. Kiemnec‐Tyburczy",
+      "Sarah K. Woodley",
+      "Richard A. Watts",
+      "Stevan J. Arnold",
+      "Lynne D. Houck"
+    ],
+    "year": 2011,
+    "venue": "Chemical Senses",
+    "venue_issn": "0379-864X",
+    "venue_type": "journal",
+    "cited_by": 30,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Receptor",
+      "Amphibian",
+      "Olfactory system",
+      "Salamander",
+      "Cell biology",
+      "Endocrinology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3093425361",
+    "doi": "10.3389/fpsyg.2020.579346",
+    "pmid": "33178082",
+    "title": "Talking to Cows: Reactions to Different Auditory Stimuli During Gentle Human-Animal Interactions",
+    "abstract": "The quality of the animal-human relationship and, consequently, the welfare of animals can be improved by gentle interactions such as stroking and talking. The perception of different stimuli during these interactions likely plays a key role in their emotional experience, but studies are scarce. During experiments, the standardization of verbal stimuli could be increased by using a recording. However, the use of a playback might influence the perception differently than ‘live’ talking, which is closer to on-farm practice. Thus, we compared heifers’ (n = 28) reactions to stroking while an experimenter was talking soothingly (‘live’) or while a recording of the experimenter talking soothingly was played (‘playback’). Each animal was tested three times per condition and each trial comprised three phases: pre-stimulus, stimulus (stroking and talking) and post-stimulus. In both conditions, similar phrases with positive content were spoken calmly, using long low-pitched vowels. All tests were video recorded and analyzed for behaviors associated with different affective states. Effects on the heifers’ cardiac parameters were assessed using analysis of heart rate variability. Independently of the auditory stimuli, longer durations of neck stretching occurred during stroking, supporting our hypothesis of a positive perception of stroking. Observation of ear positions revealed longer durations of the back up position and less ear flicking and changes of ear positions during stroking. The predicted decrease in HR during stroking was not confirmed; instead we found a slightly increased mean HR during stroking with a subsequent decrease in HR, which was stronger after stroking with live talking. In combination with differences in HRV parameters, our findings suggest that live talking might have been more pleasurable to the animals and had a stronger relaxing effect than ‘playback’. The results regarding the effects of the degree of standardization of the stimulus on the variability of the data were inconclusive. We thus conclude that the use of recorded auditory stimuli to promote positive affective states during human-animal interactions in experimental settings is possible, but not necessarily preferable.",
+    "authors": [
+      "Annika Lange",
+      "Lisa Bauer",
+      "Andreas Futschik",
+      "Susanne Waiblinger",
+      "Stephanie Lürzel"
+    ],
+    "year": 2020,
+    "venue": "Frontiers in Psychology",
+    "venue_issn": "1664-1078",
+    "venue_type": "journal",
+    "cited_by": 29,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Cognitive psychology",
+      "Communication",
+      "Neuroscience",
+      "Cognitive science",
+      "Perception"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2767174485",
+    "doi": "10.26451/abc.04.04.13.2017",
+    "pmid": "",
+    "title": "Vocal Communication and the Importance of Mother-Offspring Relations in Cattle",
+    "abstract": "As Marino and Allen (2017) comprehensively highlight, cattle are not just simple herd animals, but instead show evidence for complex cognitive and social behaviors, as well as rich emotional lives. Nevertheless, these aspects of the lives of cattle, which are potentially important for improving their welfare, remain relatively understudied. Vocal communication in cattle also plays a central role in individual recognition and the coordination of social behaviors, and it is particularly relevant for the bond between mothers and their offspring. The importance of mother-offspring recognition, and motheroffspring bonds in early life, are crucial to the development of appropriate behavioral repertoires as calves mature into adult cattle.",
+    "authors": [
+      "Mónica Padilla de la Torre",
+      "Alan G. McElligott"
+    ],
+    "year": 2017,
+    "venue": "Animal Behavior and Cognition",
+    "venue_issn": "2372-4323",
+    "venue_type": "journal",
+    "cited_by": 11,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Vocal communication",
+      "Communication",
+      "Developmental psychology",
+      "Audiology",
+      "Pregnancy",
+      "Genetics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W4377139618",
+    "doi": "10.3389/fpsyg.2023.1089566",
+    "pmid": "37275711",
+    "title": "How do goats “read” 2D-images of familiar and unfamiliar conspecifics?",
+    "abstract": "To study individual recognition in animals, discrimination tasks are often conducted by presenting 2D images of real conspecifics. However, animals may discriminate the images merely as visual stimulus combinations without establishing referential relationships to the individuals depicted. In the current study, we investigated whether goats are able to discriminate photos of familiar and unfamiliar conspecifics, whether they not only process the photos as visual stimuli, but also understand them as virtual copies of real conspecifics and whether they grasp the concept of familiarity. Using a computer-controlled learning device, in three tests, goats of two experimental groups (A and B) had to discriminate portrait (Te1), profile (Te2) or headless body photos (Te3) of conspecifics. Tests were presented as 4-choice tasks, with one photo from Group A (rewarded) plus three photos from Group B (distractors). That is, the rewarded photo was familiar to Group A, but unfamiliar to Group B. Finally, in a reversal test (Te4) we reversed this principle. The goats learned the discriminations in Te1 to Te3 within two (Te1 and Te2) and three training days (Te3), respectively, and they needed between 91 [CL (66, 126)] and 174 [CL (126, 241)] trials to reach the learning criterion, with no statistically significant differences between the groups. In Te4, in contrast, the animals took 403 [Group A; CL (291, 557)] and 385 [Group B; CL (286, 519)] trials, respectively, to learn the task. The lack of spontaneous preferences for the photo of the familiar conspecific in the pretests of Te1 to Te3 in Group A, as well as the lack of differences in the number of trials to learn the discriminations between both groups, do not at first glance suggest that the goats established a correspondence between real conspecifics and their 2D representations. However, the higher number of trials in Te4 suggests that both groups formed the learning rule of choosing either the known (Group A) or the unknown goat (Group B) over the course of Te1 to Te3 and then failed after the rule was reversed, providing evidence that goats can associate 2D photos of conspecifics with real animals.",
+    "authors": [
+      "Jan Langbein",
+      "Mauricio Moreno-Zambrano",
+      "Katrin Siebert"
+    ],
+    "year": 2023,
+    "venue": "Frontiers in Psychology",
+    "venue_issn": "1664-1078",
+    "venue_type": "journal",
+    "cited_by": 14,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Stimulus (psychology)",
+      "Communication",
+      "Cognitive psychology",
+      "Social psychology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3005742601",
+    "doi": "10.3758/s13420-020-00415-8",
+    "pmid": "32043270",
+    "title": "Development of point following behaviors in shelter dogs",
+    "abstract": "Pet dogs are known to be responsive to human pointing gestures, but shelter dogs have repeatedly demonstrated poor abilities to follow human pointing, although they can be explicitly trained quickly. This study evaluated the time course in which shelter dogs learn to follow points without explicit training, when given typical interactions with humans. In a longitudinal evaluation, the development of point following was tracked in seven shelter dogs in a training program (enriched human exposure), seven dogs in a traditional shelter (control population), and evaluated once in pet dogs. Twice a week for 6 weeks, shelter dogs' point-following performance was evaluated in 10 probe trials in which an experimenter pointed to one of two containers equidistant from the dog. To avoid direct training, dogs were given a treat for approaching and touching either container; although correct responses were recorded for touching the pointed-towards container within 30 s. Pet dogs were tested in only one session. All shelter dogs initially showed the expected poor performance. However, enriched shelter dogs receiving enriched human exposure showed significant improvements reaching an identical performance to pet dogs within 7 weeks. In comparison, shelter dogs under standard conditions showed an initial improvement, but performance reached asymptote close to chance levels and lower than that of enriched dogs or pet dogs. Together, these results suggest that enriched experiences with humans, typical of pet dogs, is sufficient for dogs to learn to follow points without explicit training.",
+    "authors": [
+      "Tatjana Jarvis",
+      "Nathanial J. Hall"
+    ],
+    "year": 2020,
+    "venue": "Learning & Behavior",
+    "venue_issn": "1543-4494",
+    "venue_type": "journal",
+    "cited_by": 22,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Population",
+      "Gesture",
+      "Equidistant",
+      "Veterinary medicine",
+      "Communication",
+      "Audiology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1476926224",
+    "doi": "",
+    "pmid": "",
+    "title": "Effects of the Eden woodchip industry on terrestrial vertebrates with recommendations for management",
+    "abstract": "This report reviews research into the effects of integrated logging or clearfelling on populations of forest birds and mammals in the Eden District in southeastern New South Wales, Australia.",
+    "authors": [
+      "Harry F. Recher",
+      "W.G. Rohan-Jones",
+      "Peter Smith"
+    ],
+    "year": 1980,
+    "venue": "Murdoch Research Repository (Murdoch University)",
+    "venue_issn": "",
+    "venue_type": "repository",
+    "cited_by": 87,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Capra hircus",
+    "concepts": [
+      "Environmental resource management",
+      "Natural resource economics"
+    ]
+  },
+  {
+    "source": "pubmed",
+    "pmid": "28386412",
+    "doi": "10.1098/rsos.160346",
+    "openalex_id": "",
+    "title": "Cross-modal recognition of familiar conspecifics in goats.",
+    "abstract": "When identifying other individuals, animals may match current cues with stored information about that individual from the same sensory modality. Animals may also be able to combine current information with previously acquired information from other sensory modalities, indicating that they possess complex cognitive templates of individuals that are independent of modality. We investigated whether goats (Capra hircus) possess cross-modal representations (auditory-visual) of conspecifics. We presented subjects with recorded conspecific calls broadcast equidistant between two individuals, one of which was the caller. We found that, when presented with a stablemate and another herd member, goats looked towards the caller sooner and for longer than the non-caller, regardless of caller identity. By contrast, when choosing between two herd members, other than their stablemate, goats did not show a preference to look towards the caller. Goats show cross-modal recognition of close social partners, but not of less familiar herd members. Goats may employ inferential reasoning when identifying conspecifics, potentially facilitating individual identification based on incomplete information. Understanding the prevalence of cross-modal recognition and the degree to which different sensory modalities are integrated provides insight into how animals learn about other individuals, and the evolution of animal communication.",
+    "authors": [
+      "Pitcher BJ",
+      "Briefer EF",
+      "Baciadonna L",
+      "McElligott AG"
+    ],
+    "year": 2017,
+    "venue": "Royal Society open science",
+    "venue_issn": "2054-5703",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "target_species": "Capra hircus",
+    "concepts": []
+  }
+]

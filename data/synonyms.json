@@ -1,0 +1,4796 @@
+{
+  "_about": "Names used to recognise which atlas species a paper is about. manual: other scientific names (edit freely). common_names: extra English names. plain_names: everyday words used only when a text names no species more precisely. domestic_forms: wild name -> domestic species, when the text says it is about the domestic form. gbif: filled automatically by fetch_papers.py.",
+  "manual": {
+    "Coloeus monedula": [
+      "Corvus monedula"
+    ],
+    "Otospermophilus beecheyi": [
+      "Spermophilus beecheyi"
+    ],
+    "Dryobates pubescens": [
+      "Picoides pubescens"
+    ],
+    "Leuconotopicus villosus": [
+      "Dryobates villosus",
+      "Picoides villosus"
+    ],
+    "Hyla chrysoscelis": [
+      "Dryophytes chrysoscelis"
+    ],
+    "Dryophytes versicolor": [
+      "Hyla versicolor"
+    ],
+    "Litoria caerulea": [
+      "Ranoidea caerulea",
+      "Pelodryas caerulea"
+    ],
+    "Lithobates catesbeianus": [
+      "Rana catesbeiana",
+      "Aquarana catesbeiana"
+    ],
+    "Lithobates pipiens": [
+      "Rana pipiens"
+    ],
+    "Lithobates sphenocephalus": [
+      "Rana sphenocephala"
+    ],
+    "Lithobates berlandieri": [
+      "Rana berlandieri"
+    ],
+    "Engystomops pustulosus": [
+      "Physalaemus pustulosus"
+    ],
+    "Epidalea calamita": [
+      "Bufo calamita"
+    ],
+    "Anaxyrus americanus": [
+      "Bufo americanus"
+    ],
+    "Taeniopygia guttata": [
+      "Taeniopygia castanotis",
+      "Poephila guttata"
+    ],
+    "Chlorocebus pygerythrus": [
+      "Chlorocebus aethiops",
+      "Cercopithecus aethiops"
+    ],
+    "Poecile atricapillus": [
+      "Parus atricapillus"
+    ],
+    "Cyanistes caeruleus": [
+      "Parus caeruleus"
+    ],
+    "Physeter macrocephalus": [
+      "Physeter catodon"
+    ],
+    "Lonchura striata domestica": [
+      "Lonchura domestica"
+    ],
+    "Mustela putorius furo": [
+      "Mustela furo"
+    ],
+    "Canis lupus familiaris": [
+      "Canis familiaris"
+    ],
+    "Gallus gallus domesticus": [
+      "Gallus domesticus"
+    ],
+    "Sus scrofa domesticus": [
+      "Sus domesticus"
+    ],
+    "Callicebus nigrifrons": [
+      "Plecturocebus nigrifrons"
+    ],
+    "Papio ursinus": [
+      "Papio cynocephalus ursinus"
+    ],
+    "Dryobates minor": [
+      "Dendrocopos minor"
+    ]
+  },
+  "common_names": {
+    "Orcinus orca": [
+      "killer whale"
+    ],
+    "Tursiops truncatus": [
+      "common bottlenose dolphin",
+      "bottlenose dolphins"
+    ],
+    "Gorilla gorilla": [
+      "western lowland gorilla"
+    ],
+    "Glis glis": [
+      "edible dormouse",
+      "fat dormouse"
+    ],
+    "Taeniopygia guttata": [
+      "zebra finch"
+    ],
+    "Melopsittacus undulatus": [
+      "budgerigar",
+      "budgie"
+    ],
+    "Pan troglodytes": [
+      "chimpanzee"
+    ],
+    "Pan paniscus": [
+      "bonobo"
+    ],
+    "Corvus frugilegus": [
+      "rooks"
+    ],
+    "Nestor notabilis": [
+      "keas"
+    ],
+    "Indri indri": [
+      "indris"
+    ],
+    "Canis lupus": [
+      "gray wolf",
+      "grey wolves",
+      "gray wolves"
+    ],
+    "Gallus gallus domesticus": [
+      "domestic chicken",
+      "domestic fowl",
+      "domestic chick"
+    ],
+    "Mus musculus": [
+      "laboratory mice",
+      "house mice"
+    ],
+    "Rattus norvegicus": [
+      "laboratory rats",
+      "norway rats",
+      "brown rat"
+    ]
+  },
+  "plain_names": {
+    "Canis lupus familiaris": [
+      "dog",
+      "dogs",
+      "puppy",
+      "puppies"
+    ],
+    "Felis catus": [
+      "cat",
+      "cats",
+      "kitten",
+      "kittens"
+    ],
+    "Equus caballus": [
+      "horse",
+      "horses",
+      "foal",
+      "foals"
+    ],
+    "Sus scrofa domesticus": [
+      "pig",
+      "pigs",
+      "piglet",
+      "piglets",
+      "sow",
+      "sows"
+    ],
+    "Bos taurus": [
+      "cattle",
+      "cow",
+      "cows",
+      "calf",
+      "calves",
+      "heifers",
+      "dairy cows"
+    ],
+    "Ovis aries": [
+      "sheep",
+      "lamb",
+      "lambs",
+      "ewe",
+      "ewes"
+    ],
+    "Capra hircus": [
+      "goat",
+      "goats"
+    ],
+    "Gallus gallus domesticus": [
+      "chicken",
+      "chickens",
+      "hen",
+      "hens",
+      "broiler",
+      "broilers"
+    ],
+    "Mus musculus": [
+      "mouse",
+      "mice"
+    ],
+    "Rattus norvegicus": [
+      "rat",
+      "rats"
+    ],
+    "Panthera leo": [
+      "lion",
+      "lions"
+    ],
+    "Panthera tigris": [
+      "tiger",
+      "tigers"
+    ],
+    "Panthera pardus": [
+      "leopard",
+      "leopards"
+    ],
+    "Puma concolor": [
+      "puma",
+      "pumas",
+      "cougar",
+      "cougars"
+    ],
+    "Canis lupus": [
+      "wolf",
+      "wolves"
+    ],
+    "Alces alces": [
+      "moose"
+    ],
+    "Orcinus orca": [
+      "orca",
+      "orcas"
+    ],
+    "Apis mellifera": [
+      "honey bee",
+      "honey bees",
+      "honeybee",
+      "honeybees"
+    ],
+    "Homo sapiens": [
+      "infant-directed speech",
+      "human infants"
+    ]
+  },
+  "domestic_forms": {
+    "Gallus gallus": {
+      "to": "Gallus gallus domesticus",
+      "if": "domestic|chicken|\\bhens?\\b|broiler|laying",
+      "unless": "junglefowl"
+    },
+    "Canis lupus": {
+      "to": "Canis lupus familiaris",
+      "if": "\\bdogs?\\b|domestic",
+      "unless": "\\bwol(f|ves)\\b"
+    },
+    "Sus scrofa": {
+      "to": "Sus scrofa domesticus",
+      "if": "\\bpigs?\\b|piglets?|domestic",
+      "unless": "wild boar"
+    },
+    "Lonchura striata": {
+      "to": "Lonchura striata domestica",
+      "if": "bengalese|domestic",
+      "unless": "white-rumped munia"
+    }
+  },
+  "gbif": {
+    "Amphiprion ocellaris": [
+      "Amphiprion bicolor",
+      "Amphiprion melanurus"
+    ],
+    "Astatotilapia burtoni": [
+      "Chromis burtoni",
+      "Haplochromis burtoni",
+      "Tilapia burtoni",
+      "Tilapia nadinae"
+    ],
+    "Carassius auratus": [
+      "Carasius auratus",
+      "Carassius auratus americanus",
+      "Carassius auratus argenteaphthalmus",
+      "Carassius auratus ater",
+      "Carassius auratus auratus",
+      "Carassius auratus buergeri",
+      "Carassius auratus burgeri",
+      "Carassius auratus cantonensis",
+      "Carassius auratus coeruleus",
+      "Carassius auratus discolor",
+      "Carassius auratus elegans",
+      "Carassius auratus europensis",
+      "Carassius auratus grandoculis",
+      "Carassius auratus gyrantes",
+      "Carassius auratus italianus"
+    ],
+    "Danio rerio": [
+      "Barilius rerio",
+      "Brachydanio frankei",
+      "Brachydanio rerio",
+      "Cyprinus chapalio",
+      "Cyprinus rerio",
+      "Danio frankei",
+      "Danio lineatus",
+      "Nuria rerio",
+      "Perilampus striatus"
+    ],
+    "Gadus morhua": [
+      "Asellus major",
+      "Gadus arenosus",
+      "Gadus callarias",
+      "Gadus callarias hiemalis",
+      "Gadus callarias kildinensis",
+      "Gadus callarius",
+      "Gadus heteroglossus",
+      "Gadus morhua callarias",
+      "Gadus morhua kildinensis",
+      "Gadus morhua morhua",
+      "Gadus nanus",
+      "Gadus ruber",
+      "Gadus rupestris",
+      "Gadus vertagus",
+      "Morhua punctatus"
+    ],
+    "Hippocampus reidi": [
+      "Hippocampus obtusus",
+      "Hippocampus poeyi"
+    ],
+    "Lutjanus campechanus": [
+      "Lutjanus blackfordii",
+      "Lutjanus campechianus",
+      "Mesoprion campechanus",
+      "Neomaenis aya"
+    ],
+    "Oreochromis niloticus": [
+      "Chromis guentheri",
+      "Chromis nilotica",
+      "Oreochromis cancellatus cancellatus",
+      "Oreochromis cancellatus filoa",
+      "Oreochromis nilotica filoa",
+      "Oreochromis nilotics",
+      "Oreochromis niloticus baringoensis",
+      "Oreochromis niloticus cancellatus",
+      "Oreochromis niloticus eduardianus",
+      "Oreochromis niloticus edwardianus",
+      "Oreochromis niloticus filoa",
+      "Oreochromis niloticus lancellatus",
+      "Oreochromis niloticus niloticus",
+      "Oreochromis niloticus sugutae",
+      "Oreochromis niloticus tana"
+    ],
+    "Pollachius virens": [
+      "Gadus carbonarius",
+      "Gadus colinus",
+      "Gadus purpureus",
+      "Gadus sey",
+      "Gadus virens",
+      "Merlangus carbonarius",
+      "Merlangus purpureus",
+      "Merlangus virens",
+      "Polachius virens",
+      "Pollachius carbonarius"
+    ],
+    "Porichthys notatus": [],
+    "Sebastes mystinus": [
+      "Sebastichthys mystinus",
+      "Sebastodes mystinus"
+    ],
+    "Acris blanchardi": [
+      "Acris crepitans blanchardi",
+      "Acris crepitans paludicola",
+      "Acris gryllus blanchardi",
+      "Acris gryllus paludicola",
+      "Hyla ocularis blanchardi"
+    ],
+    "Acris crepitans": [
+      "Acris crepitans crepitans",
+      "Acris gryllus crepitans"
+    ],
+    "Acris gryllus": [
+      "Acris acheta",
+      "Acris gryllus achetae",
+      "Acris gryllus bufonia",
+      "Acris gryllus dorsalis",
+      "Acris gryllus gryllus",
+      "Hylodes gryllus",
+      "Rana dorsalis",
+      "Rana gryllus"
+    ],
+    "Adelotus brevis": [
+      "Cryptotis brevis"
+    ],
+    "Allobates femoralis": [
+      "Dendrobates femoralis",
+      "Epipedobates femoralis",
+      "Phyllobates femoralis",
+      "Prostherapis femoralis"
+    ],
+    "Alytes obstetricans": [
+      "Alytes campanisonus boscai",
+      "Alytes obstetricans almogavarii",
+      "Alytes obstetricans boscai",
+      "Alytes obstetricans pertinax",
+      "Alytes obstetricians",
+      "Bombinator obstetricans",
+      "Bufo obstetricans",
+      "Obstetricans vulgaris",
+      "Rana obstetricans"
+    ],
+    "Anaxyrus americanus": [
+      "Anaxyrus americanus americanus",
+      "Anaxyrus americanus charlesmithi",
+      "Anaxyrus charlesmithi",
+      "Bufo americanus",
+      "Bufo americanus alani",
+      "Bufo americanus americanus",
+      "Bufo americanus charlesmithi",
+      "Bufo americanus copei",
+      "Bufo americanus quadripunctatus",
+      "Bufo copei",
+      "Bufo lentiginosus americanus",
+      "Bufo terrestris americanus",
+      "Bufo terrestris charlesmithi",
+      "Bufo terrestris copei",
+      "Chilophryne americana"
+    ],
+    "Anaxyrus fowleri": [
+      "Bufo compactilis fowleri",
+      "Bufo fowleri",
+      "Bufo hobarti",
+      "Bufo lentiginosus fowleri",
+      "Bufo woodhousii fowleri",
+      "Bufo woodhousii velatus"
+    ],
+    "Anaxyrus quercicus": [
+      "Bufo dialophus",
+      "Bufo quercicus",
+      "Chilophryne dialopha",
+      "Incilius dialophus"
+    ],
+    "Anaxyrus speciosus": [
+      "Bufo compactilis speciosus",
+      "Bufo lentiginosus speciosus",
+      "Bufo pliocompactilis",
+      "Bufo speciosus",
+      "Bufo spectabilis"
+    ],
+    "Anaxyrus terrestris": [
+      "Buffo clamosus",
+      "Bufo clamosus",
+      "Bufo erythronotus",
+      "Bufo lentiginosus",
+      "Bufo lentiginosus lentiginosus",
+      "Bufo lentiginosus pachycephalus",
+      "Bufo musicus",
+      "Bufo terrestris",
+      "Chilophryne lentiginosa",
+      "Incilius lentiginosus",
+      "Rana lentiginosa",
+      "Rana musica",
+      "Rana terrestris",
+      "Telmatobius lentiginosus"
+    ],
+    "Anaxyrus woodhousii": [
+      "Anaxyrus woodhousii australis",
+      "Anaxyrus woodhousii woodhousii",
+      "Bufo aduncus",
+      "Bufo antecessor",
+      "Bufo compactilis woodhousii",
+      "Bufo frontosus",
+      "Bufo lentiginosus frontosus",
+      "Bufo lentiginosus woodhousei",
+      "Bufo planiorum",
+      "Bufo woodhousei australis",
+      "Bufo woodhousei bexarensis",
+      "Bufo woodhousii",
+      "Bufo woodhousii australis",
+      "Bufo woodhousii woodhousii",
+      "Incilius woodhousei"
+    ],
+    "Arthroleptella lightfooti": [
+      "Arthroleptis lightfooti",
+      "Pararthroleptis lightfooti",
+      "Phrynobatrachus lightfooti"
+    ],
+    "Arthroleptella villiersi": [
+      "Arthroleptella bicolor villiersi"
+    ],
+    "Boana pulchella": [
+      "Hyla agrestis",
+      "Hyla albovittata",
+      "Hyla bracteator",
+      "Hyla leucomelas",
+      "Hyla leucotaenia",
+      "Hyla mocquardi",
+      "Hyla pulchella",
+      "Hyla pulchella pulchella",
+      "Hyla vautieri",
+      "Hypsiboas pulchellus",
+      "Scinax vautierii"
+    ],
+    "Bombina bombina": [
+      "Bombina bombina arifiyensi",
+      "Bombina bombina danubialis",
+      "Bombina bombina viridis",
+      "Bombina ignea",
+      "Bombinator bombina",
+      "Bombinator igneus",
+      "Bombinator variegatus bombina",
+      "Bombitator bombinus",
+      "Buffo ignicolor",
+      "Bufo bombina",
+      "Bufo cruentus",
+      "Bufo igneus",
+      "Bufo pluvialis",
+      "Rana bombina",
+      "Rana cruenta"
+    ],
+    "Bombina variegata": [
+      "Bombina igneus brevipes",
+      "Bombina maculatus",
+      "Bombina salsa",
+      "Bombina salsa csikii",
+      "Bombina variegata csikii",
+      "Bombina variegata gracilis",
+      "Bombina variegata kolombatovici",
+      "Bombina variegata scabra",
+      "Bombinator appeninicus",
+      "Bombinator brevipes",
+      "Bombinator pachypus brevipes",
+      "Bombinator pachypus kolombatovici",
+      "Bombinator pachypus nigriventris",
+      "Bombinator scaber",
+      "Bombinator variegata"
+    ],
+    "Breviceps montanus": [],
+    "Bufo bufo": [
+      "Bombinator ventricosus",
+      "Bufavus meneghinii",
+      "Buffo strumosus",
+      "Bufo alpinus",
+      "Bufo bufo bufo",
+      "Bufo carbunculus",
+      "Bufo cinereus",
+      "Bufo cinereus hybridus",
+      "Bufo cinereus medius",
+      "Bufo cinereus minor",
+      "Bufo communis",
+      "Bufo commutatus",
+      "Bufo ferruginosus",
+      "Bufo minutus",
+      "Bufo palmarum"
+    ],
+    "Bufotes viridis": [
+      "Bufo roseus",
+      "Bufo schreberianus",
+      "Bufo sitibundus",
+      "Bufo variabilis crucigera",
+      "Bufo variabilis sitibunda",
+      "Bufo viridis",
+      "Bufo viridis crucigera",
+      "Bufo viridis viridis",
+      "Epidalea viridis",
+      "Pseudepidalea viridis",
+      "Rana picta",
+      "Rana sitibunda"
+    ],
+    "Cacosternum boettgeri": [
+      "Arthroleptis boettgeri",
+      "Arthroleptis schebeni",
+      "Cacosternum boettgeri boettgeri"
+    ],
+    "Crinia glauerti": [
+      "Ranidella glauerti"
+    ],
+    "Crinia parinsignifera": [
+      "Ranidella parinsignifera"
+    ],
+    "Crinia signifera": [
+      "Camariolius varius",
+      "Crinia affinis halmaturina",
+      "Crinia fasciata",
+      "Crinia georgiana laevipes",
+      "Crinia georgiana varia",
+      "Crinia signifera englishi",
+      "Crinia signifera montana",
+      "Crinia signifera signifera",
+      "Crinia stictiventris",
+      "Crinia verrucosa",
+      "Cystignathus sydneyensis",
+      "Pterophryne fasciata",
+      "Pterophrynus fasciatus",
+      "Pterophrynus varius",
+      "Pterophrynus verrucosus"
+    ],
+    "Dendrobates auratus": [
+      "Dendrobates amoenus",
+      "Dendrobates latimaculatus",
+      "Dendrobates tinctorius auratus",
+      "Dendrobates trivittatus aurata",
+      "Hylaplesia aurata",
+      "Hylaplesia tinctoria latimaculata",
+      "Phyllobates auratus"
+    ],
+    "Dendropsophus ebraccatus": [
+      "Hyla ebraccata",
+      "Hyla weyerae"
+    ],
+    "Dryophytes avivoca": [
+      "Hyla avivoca",
+      "Hyla avivoca avivoca",
+      "Hyla avivoca ogechiensis",
+      "Hyla phaeocrypta ogechiensis"
+    ],
+    "Dryophytes cinereus": [
+      "Calamita carolinensis",
+      "Calamita cinereus",
+      "Calamita lateralis",
+      "Hyla blochii",
+      "Hyla carolinensis",
+      "Hyla carolinensis semifasciata",
+      "Hyla cinerea",
+      "Hyla cinerea cinerea",
+      "Hyla cinerea evittata",
+      "Hyla cinerea semifasciata",
+      "Hyla evittata",
+      "Hyla holmani",
+      "Hyla lateralis",
+      "Hyla semifasciata",
+      "Rana bilineata"
+    ],
+    "Dryophytes femoralis": [
+      "Auletris femoralis",
+      "Calamita femoralis",
+      "Hyla femoralis",
+      "Hyla femoralis femoralis"
+    ],
+    "Dryophytes gratiosus": [
+      "Epedaphus gratiosus",
+      "Hyla gratiosa"
+    ],
+    "Dryophytes immaculatus": [
+      "Dryophytes suweonensis",
+      "Hyla arborea immaculata",
+      "Hyla chinensis immaculata",
+      "Hyla immaculata",
+      "Hyla suweonensis"
+    ],
+    "Dryophytes japonicus": [
+      "Hyla arborea japonica",
+      "Hyla arborea stepheni",
+      "Hyla arborea ussuriensis",
+      "Hyla heinzsteinitzi",
+      "Hyla japonica",
+      "Hyla japonica japonica",
+      "Hyla japonica stepheni",
+      "Hyla sodeicampi",
+      "Hyla stepheni",
+      "Hyla ussuriensis"
+    ],
+    "Dryophytes squirellus": [
+      "Auletris squirella",
+      "Calamita squirella",
+      "Dendrohyas squirella",
+      "Hyla delitescens",
+      "Hyla flavigula",
+      "Hyla goini",
+      "Hyla squirella"
+    ],
+    "Dryophytes versicolor": [
+      "Dendrohyas versicolor",
+      "Hyla phaeocrypta phaeocrypta",
+      "Hyla richardii",
+      "Hyla versicolor",
+      "Hyla versicolor phaeocrypta",
+      "Hyla versicolor versicolor"
+    ],
+    "Duttaphrynus melanostictus": [
+      "Ansonia kamblei",
+      "Bufo bengalensis",
+      "Bufo camortensis",
+      "Bufo carinatus",
+      "Bufo chlorogaster",
+      "Bufo dubius",
+      "Bufo flaviventris",
+      "Bufo gymnauchen",
+      "Bufo isos",
+      "Bufo longecristatus",
+      "Bufo melanostictus",
+      "Bufo melanostictus hazarensis",
+      "Bufo melanostictus melanostictus",
+      "Bufo tienhoensis",
+      "Docidophryne isos"
+    ],
+    "Eleutherodactylus campi": [
+      "Eleutherodactylus cystignathoides campi",
+      "Syrrhophus campi",
+      "Syrrhophus cystignathoides campi"
+    ],
+    "Eleutherodactylus coqui": [],
+    "Eleutherodactylus johnstonei": [
+      "Eleutherodactylus barbudensis",
+      "Eleutherodactylus johnstoni",
+      "Eleutherodactylus johnstonii",
+      "Hyla barbudensis",
+      "Hylodes johnstonei"
+    ],
+    "Eleutherodactylus planirostris": [
+      "Eleutherodactylus planirostris planirostris",
+      "Eleutherodactylus ricordii planirostris",
+      "Euhyas planirostris",
+      "Hylodes planirostris"
+    ],
+    "Engystomops pustulosus": [
+      "Bufo atrigularis",
+      "Bufo pustulosus",
+      "Bufo stentor",
+      "Engystomops stentor",
+      "Eupemphix pustulosa",
+      "Eupemphix pustulosa trinitatis",
+      "Eupemphix pustulosus ruthveni",
+      "Eupemphix pustulosus trinitatis",
+      "Eupemphix ruthveni",
+      "Eupemphix stentor",
+      "Eupemphix trinitatis",
+      "Microphryne pustulosa",
+      "Paludicola pustulosa",
+      "Peralaimos stentor",
+      "Physalaemus pustulosus"
+    ],
+    "Epidalea calamita": [
+      "Bufo calamita",
+      "Bufo calamita alpestris",
+      "Bufo cruciatus",
+      "Bufo cursor",
+      "Bufo portentosa",
+      "Bufo viridis calamita",
+      "Rana ecaudata",
+      "Rana fetidissima",
+      "Rana foetidissima",
+      "Rana mephitica",
+      "Rana portentosa"
+    ],
+    "Fejervarya limnocharis": [
+      "? limnocharis",
+      "Dicroglossus limnocharis",
+      "Euphlyctis limnocharis",
+      "Fejervarya wasl",
+      "Limnonectes limnocharis",
+      "Rana limnocharis limnocharis",
+      "Rana lymnocharis",
+      "Rana wasl"
+    ],
+    "Gastrophryne carolinensis": [
+      "Engystoma carolinense",
+      "Engystoma carolinensis",
+      "Engystoma rugosum",
+      "Gastrophryne carolinense",
+      "Gastrophryne carolinensis carolinensis",
+      "Gastrophryne rugosum",
+      "Microhyla carolinensis",
+      "Microhyla carolinensis carolinensis",
+      "Stenocephalus carolinensis"
+    ],
+    "Gastrophryne olivacea": [
+      "Engystoma areolata",
+      "Engystoma olivaceum",
+      "Engystoma texense",
+      "Engystoma texensis",
+      "Gastrophryne areolata",
+      "Gastrophryne carolinensis olivacea",
+      "Gastrophryne olivacea olivacea",
+      "Gastrophryne texana",
+      "Gastrophryne texense",
+      "Microhyla areolata",
+      "Microhyla carolinensis olivacea",
+      "Microhyla olivacea",
+      "Microhyla olivacea olivacea"
+    ],
+    "Geocrinia victoriana": [
+      "Crinia froggatti",
+      "Crinia laevis froggatti",
+      "Crinia victoriana"
+    ],
+    "Hyla arborea": [
+      "Calamita arboreus",
+      "Calamita viridis",
+      "Dendrohyas arborea",
+      "Dendrohyas arborea daudinii",
+      "Hyas arborea",
+      "Hyla arborea arborea",
+      "Hyla arborea cretensis",
+      "Hyla arborea kretensis",
+      "Hyla viridis",
+      "Hyla vulgaris",
+      "Hylaria viridis",
+      "Rana arborea",
+      "Rana viridis"
+    ],
+    "Hyla chrysoscelis": [
+      "Hyla femoralis chrysoscelis",
+      "Hyla versicolor chrysoscelis",
+      "Hyla versicolor sandersi"
+    ],
+    "Hyla intermedia": [
+      "Hyla arborea intermedia",
+      "Hyla italica",
+      "Hylaria variegata"
+    ],
+    "Hyla meridionalis": [
+      "Hyla africana",
+      "Hyla arborea meridionalis",
+      "Hyla barytonus",
+      "Hyla perezii",
+      "Hyla viridis meridionalis"
+    ],
+    "Hyla orientalis": [
+      "Hyla arborea gumilevskii",
+      "Hyla arborea orientalis",
+      "Hyla arborea schelkownikowi"
+    ],
+    "Hyperolius marmoratus": [
+      "Hyperolius albifrons",
+      "Hyperolius alborufus",
+      "Hyperolius aposematicus",
+      "Hyperolius asper",
+      "Hyperolius breviceps",
+      "Hyperolius citrinus",
+      "Hyperolius decoratus",
+      "Hyperolius dermatus",
+      "Hyperolius fuelleborni",
+      "Hyperolius fuliginosus",
+      "Hyperolius fumosus",
+      "Hyperolius granulosus",
+      "Hyperolius guttolineatus",
+      "Hyperolius latirostris",
+      "Hyperolius lestagei"
+    ],
+    "Hypopachus variolosus": [
+      "Engystoma inguinalis",
+      "Engystoma variolosum",
+      "Hypopachus alboventer",
+      "Hypopachus alboventer reticulatus",
+      "Hypopachus caprimimus",
+      "Hypopachus championi",
+      "Hypopachus cuneus",
+      "Hypopachus cuneus nigroreticulatus",
+      "Hypopachus globulosus",
+      "Hypopachus inguinalis",
+      "Hypopachus maculatus",
+      "Hypopachus ovis",
+      "Hypopachus oxyrrhinus",
+      "Hypopachus oxyrrhinus ovis",
+      "Hypopachus oxyrrhinus taylori"
+    ],
+    "Incilius nebulifer": [
+      "Bufo nebulifer",
+      "Bufo nebulifera",
+      "Chilophryne nebulifera",
+      "Cranopsis nebulifer",
+      "Ollotis nebulifer"
+    ],
+    "Kaloula borealis": [
+      "Cacopoides borealis",
+      "Cacopoides tornieri",
+      "Callula tornieri",
+      "Kaloula manchuriensis",
+      "Kaloula tornieri",
+      "Kaloula wolterstorffi"
+    ],
+    "Kaloula pulchra": [
+      "Callula macrodactyla",
+      "Callula pulchra",
+      "Calohyla pulchra",
+      "Caloula pulchra",
+      "Hylaedactylus bivittatus",
+      "Kaloula macrocephala",
+      "Kaloula pulchra hainana",
+      "Kaloula pulchra macrocephala",
+      "Kaloula pulchra pulchra"
+    ],
+    "Kassina senegalensis": [
+      "Cassina angeli",
+      "Cassina argyreivittis",
+      "Cassina senegalensis",
+      "Cystignathus argyreivittis",
+      "Cystignathus senegalensis",
+      "Hylambates senegalensis",
+      "Kassina argyreivittis",
+      "Kassina argyreivittis ruandae",
+      "Kassina argyreivittis sudanica",
+      "Kassina argyreivittis uelensis",
+      "Kassina benueana",
+      "Kassina deserticola",
+      "Kassina modesta",
+      "Kassina senegalensis angeli",
+      "Kassina senegalensis deserticola"
+    ],
+    "Leptodactylus albilabris": [
+      "Cystignathus albilabris",
+      "Leptodactylus dominicensis"
+    ],
+    "Leptodactylus fragilis": [
+      "Cystignathus fragilis"
+    ],
+    "Leptodactylus fuscus": [
+      "Cystignathus fuscus",
+      "Cystignathus schomburgkii",
+      "Cystignathus sibilatrix",
+      "Leptodactylus gualambensis",
+      "Leptodactylus raniformis",
+      "Leptodactylus sybilator",
+      "Leptodactylus sybilatrix",
+      "Rana fusca",
+      "Rana sibilatrix"
+    ],
+    "Leptodactylus gracilis": [
+      "Cystignathus gracilis",
+      "Leptodactylus gracilis delattini"
+    ],
+    "Leptodactylus melanonotus": [
+      "Cystignathus echinatus",
+      "Cystignathus melanonotus",
+      "Cystignathus microtis",
+      "Cystignathus perlaevis",
+      "Leptodactylus echinatus",
+      "Leptodactylus microtis",
+      "Leptodactylus occidentalis",
+      "Leptodactylus perlaevis"
+    ],
+    "Limnodynastes dumerilii": [
+      "Heliorana grayi",
+      "Heliorana superciliaris",
+      "Limnodynastes dorsalis dumerilii",
+      "Limnodynastes dorsalis grayi",
+      "Limnodynastes dorsalis insularis",
+      "Limnodynastes dumerili dumerili",
+      "Limnodynastes dumerili grayi",
+      "Limnodynastes dumerili insularis",
+      "Limnodynastes dumerili variegatus",
+      "Limnodynastes dumerilii fryi",
+      "Platyplectrum dumerilii",
+      "Platyplectrum fryi",
+      "Platyplectrum grayi",
+      "Platyplectrum insularis",
+      "Platyplectrum variegatus"
+    ],
+    "Limnodynastes peronii": [
+      "Borborocoetes peronii",
+      "Cystignathus peronii",
+      "Limnodynastes krefti",
+      "Limnodynastes lineatus",
+      "Limnodynastes peronii krefftii",
+      "Limnodynastes peronii lineatus",
+      "Limnodynastes peronii peronii",
+      "Wagleria peronii"
+    ],
+    "Limnodynastes tasmaniensis": [
+      "Limnodynastes affinis",
+      "Limnodynastes peronii rugulosus",
+      "Limnodynastes peronii tasmaniensis",
+      "Limnodynastes platycephalus",
+      "Limnodynastes tasmanicus",
+      "Limnodynastes tasmaniensis platycephalus"
+    ],
+    "Lithobates areolatus": [
+      "Lithobates areolatus areolatus",
+      "Lithobates areolatus circulosus",
+      "Rana areolata",
+      "Rana areolata areolata",
+      "Rana areolata circulosa",
+      "Rana circulosa",
+      "Rana virescens areolata"
+    ],
+    "Lithobates berlandieri": [
+      "Rana austricola",
+      "Rana berlandieri",
+      "Rana berlandieri berlandieri",
+      "Rana halecina austricola",
+      "Rana halecina berlandieri",
+      "Rana pipiens austricola",
+      "Rana pipiens berlandieri",
+      "Rana virescens austricola",
+      "Rana virescens berlandieri"
+    ],
+    "Lithobates catesbeianus": [
+      "Lithobates catesbiana",
+      "Rana catesbeiana",
+      "Rana mugiens",
+      "Rana scapularis"
+    ],
+    "Lithobates clamitans": [
+      "Lithobates clamitans clamitans",
+      "Lithobates clamitans melanota",
+      "Rana calamitans",
+      "Rana clamata",
+      "Rana clamator",
+      "Rana clamitans",
+      "Rana clamitans clamitans",
+      "Rana clamitans melanota",
+      "Rana flaviviridis",
+      "Rana fontinalis",
+      "Rana horiconensis",
+      "Rana nigricans",
+      "Ranaria melanota"
+    ],
+    "Lithobates grylio": [
+      "Rana grylio"
+    ],
+    "Lithobates kauffeldi": [
+      "Rana kauffeldi"
+    ],
+    "Lithobates palustris": [
+      "Rana palustris",
+      "Rana palustris mansuetii",
+      "Rana palustris palustris",
+      "Rana pardalis"
+    ],
+    "Lithobates pipiens": [
+      "Rana brachycephala",
+      "Rana burnsi",
+      "Rana kandiyohi",
+      "Rana noblei",
+      "Rana pipiens",
+      "Rana pipiens brachycephala",
+      "Rana pipiens burnsi",
+      "Rana pipiens kandiyohi",
+      "Rana pipiens pipiens",
+      "Rana virescens brachycephala"
+    ],
+    "Lithobates septentrionalis": [
+      "Rana septentrionalis",
+      "Rana sinuata"
+    ],
+    "Lithobates sphenocephalus": [
+      "Lithobates sphenocephalus sphenocephalus",
+      "Lithobates sphenocephalus utricularius",
+      "Rana halecina sphenocephala",
+      "Rana pipiens sphenocephala",
+      "Rana sphenocephala",
+      "Rana sphenocephala sphenocephala",
+      "Rana sphenocephala utricularius",
+      "Rana utricularia sphenocephala",
+      "Rana utricularia utricularia",
+      "Rana utricularius",
+      "Rana virescens",
+      "Rana virescens sphenocephala"
+    ],
+    "Lithobates sylvaticus": [
+      "Rana cantabridgensis cantabridgensis",
+      "Rana cantabridgensis latiremis",
+      "Rana cantabrigensis",
+      "Rana cantabrigensis evittata",
+      "Rana maslini",
+      "Rana pensylvanica",
+      "Rana sylvatica",
+      "Rana sylvatica cantabrigensis",
+      "Rana sylvatica cherokiana",
+      "Rana sylvatica latiremis",
+      "Rana sylvatica sylvatica",
+      "Rana temporaria cantabrigensis",
+      "Rana temporaria sylvatica"
+    ],
+    "Lithobates virgatipes": [
+      "Rana virgatipes"
+    ],
+    "Litoria caerulea": [
+      "Dryopsophus caeruleus",
+      "Hyla caerulea",
+      "Hyla caerulea caerulea",
+      "Hyla cyanea",
+      "Hyla irrorata",
+      "Litoria irrorata",
+      "Pelodryas caerulea",
+      "Pelodryas irrorata",
+      "Rana caerulea"
+    ],
+    "Litoria ewingii": [
+      "Hyla calliscelis",
+      "Hyla ewingii",
+      "Hyla ewingii calliscelis",
+      "Hyla ewingii ewingii",
+      "Hyla ewingii iuxtaewingii",
+      "Hyla inguinalis",
+      "Hyla parvidens",
+      "Rawlinsonia calliscelis",
+      "Rawlinsonia parvidens"
+    ],
+    "Litoria fallax": [
+      "Dryomantis fallax",
+      "Dryomantis glauerti",
+      "Hyla bicolor glauerti",
+      "Hyla glauerti",
+      "Hylomantis fallax",
+      "Litoria glauerti"
+    ],
+    "Litoria peronii": [
+      "Dendrohyas peronii",
+      "Hyla peronii",
+      "Pengilleyia peronii"
+    ],
+    "Litoria verreauxii": [
+      "Hyla ewingi alpina",
+      "Hyla ewingi loveridgei",
+      "Hyla ewingi oberonensis",
+      "Hyla ewingi orientalis",
+      "Hyla ewingii verreauxii",
+      "Hyla verreauxii",
+      "Litoria verreauxi alpina",
+      "Litoria verreauxi verreauxii",
+      "Rawlinsonia alpina",
+      "Rawlinsonia oberonensis",
+      "Rawlinsonia verreauxii"
+    ],
+    "Microbatrachella capensis": [
+      "Microbatrachus capensis",
+      "Phrynobatrachus capensis"
+    ],
+    "Microhyla fissipes": [
+      "Microhyla eremita"
+    ],
+    "Nidirana adenopleura": [
+      "Babina adenopleura",
+      "Babina caldwelli",
+      "Hylarana adenopleura",
+      "Hylorana adenopleura",
+      "Nidirana caldwelli",
+      "Rana adenopleura",
+      "Rana caldwelli"
+    ],
+    "Osteopilus septentrionalis": [
+      "Dendrohyas septentrionalis",
+      "Hyla dominicensis insulsa",
+      "Hyla dominicensis septentrionalis",
+      "Hyla insulsa",
+      "Hyla microterodisca",
+      "Hyla schebestana",
+      "Hyla septentrionalis",
+      "Hyla septentrionalis septentrionalis",
+      "Osteopilus gratiosa",
+      "Trachycephalus insulsus",
+      "Trachycephalus marmoratus",
+      "Trachycephalus septentrionalis",
+      "Trachycephalus wrightii"
+    ],
+    "Pelodytes punctatus": [
+      "Alytes punctatus",
+      "Bombinator plicatus",
+      "Cystignathus punctatus",
+      "Ostetricans punctatus",
+      "Pelodytes daudini",
+      "Pelodytes plicatus",
+      "Rana daudini",
+      "Rana plicata",
+      "Rana punctata"
+    ],
+    "Pelophylax lessonae": [
+      "Hylarana lessonae",
+      "Pelophylax esculentus",
+      "Rana bosci",
+      "Rana esculenta",
+      "Rana esculenta bolkayi",
+      "Rana esculenta hungarica",
+      "Rana esculenta lessonae",
+      "Rana hispanica",
+      "Rana lessonae",
+      "Rana lessonae lessonae",
+      "Rana lessonae pannonica",
+      "Rana maritima"
+    ],
+    "Pelophylax nigromaculatus": [
+      "Hoplobatrachus davidi",
+      "Hoplobatrachus reinhardtii",
+      "Hylarana nigromaculata",
+      "Rana esculenta japonica",
+      "Rana esculenta nigromaculata",
+      "Rana nigromaculata",
+      "Rana nigromaculata mongolia",
+      "Rana nigromaculata nigromaculata",
+      "Rana nigromaculata reinhardtii",
+      "Rana nigromaculata schybanovi",
+      "Rana reinhardtii"
+    ],
+    "Pelophylax perezi": [
+      "Hylarana perezi",
+      "Rana esculenta perezi",
+      "Rana grafi",
+      "Rana perezi",
+      "Rana ridibunda perezi"
+    ],
+    "Pelophylax ridibundus": [
+      "Bufo cachinnans",
+      "Bufo ridibundus",
+      "Hylarana ridibunda",
+      "Rana cachinnans",
+      "Rana caucasica",
+      "Rana dentex",
+      "Rana esculenta cachinnans",
+      "Rana esculenta ridibunda",
+      "Rana esculenta susana",
+      "Rana florinskii",
+      "Rana fortis",
+      "Rana mangischlakensis",
+      "Rana persica",
+      "Rana ridibunda",
+      "Rana ridibunda ridibunda"
+    ],
+    "Pseudacris brachyphona": [
+      "Chorophilus feriarum brachyphonus",
+      "Hyla brachyphona"
+    ],
+    "Pseudacris clarkii": [
+      "Chorophilus triseriatus clarkii",
+      "Helocaetes clarkii",
+      "Hyla clarkii",
+      "Pseudacris nigrita clarkii",
+      "Pseudacris triseriata clarkii"
+    ],
+    "Pseudacris crucifer": [
+      "Acris pickeringii",
+      "Hyla crucifer",
+      "Hyla crucifer bartramiana",
+      "Hyla crucifer crucifer",
+      "Hyla crucifera",
+      "Hyla crucifera bartramiana",
+      "Hyla crucifera crucifera",
+      "Hyla pickeringii",
+      "Hyliola pickeringii",
+      "Hylodes pickeringii",
+      "Parapseudacris crucifer",
+      "Pseudacris crucifer bartramiana",
+      "Pseudacris crucifer crucifer"
+    ],
+    "Pseudacris feriarum": [
+      "Chorophilus feriarum feriarum",
+      "Chorophilus nigritus feriarum",
+      "Helocaetes feriarum",
+      "Hyla feriarum",
+      "Pseudacris feriarum feriarum",
+      "Pseudacris nigrita feriarum",
+      "Pseudacris triseriata feriarum"
+    ],
+    "Pseudacris fouquettei": [],
+    "Pseudacris kalmi": [
+      "Chorophilus triseriatus corporalis",
+      "Pseudacris feriarum kalmi",
+      "Pseudacris nigrita kalmi",
+      "Pseudacris triseriata kalmi"
+    ],
+    "Pseudacris maculata": [
+      "Chorophilus nigritus septentrionalis",
+      "Chorophilus septentrionalis",
+      "Hyla canadensis",
+      "Hyla triseriata maculata",
+      "Hylodes maculatus",
+      "Pseudacris nigrita maculata",
+      "Pseudacris nigrita septentrionalis",
+      "Pseudacris septentrionalis",
+      "Pseudacris triseriata maculata"
+    ],
+    "Pseudacris nigrita": [
+      "Acris nigrita",
+      "Chorophilus nigritus",
+      "Chorophilus nigritus verrucosus",
+      "Chorophilus verrucosus",
+      "Cystignathus nigritus",
+      "Helocaetes nigrita",
+      "Hyla nigrita",
+      "Hyla verrucosa",
+      "Pseudacris nigrita nigrita",
+      "Pseudacris nigrita verrucosa",
+      "Pseudacris verrucosus",
+      "Rana nigrita"
+    ],
+    "Pseudacris ocularis": [
+      "? ocularis",
+      "Acris ocularis",
+      "Chorophilus angulatus",
+      "Chorophilus ocularis",
+      "Cystignathus ocularis",
+      "Hyla ocularis",
+      "Hylodes ocularis",
+      "Limnaoedus ocularis"
+    ],
+    "Pseudacris regilla": [
+      "Hyla regilla",
+      "Hyla regilla cascadae",
+      "Hyla regilla pacifica",
+      "Hyla regilla regilla",
+      "Hyla regilla scapularis",
+      "Hyla scapularis",
+      "Hyliola regilla",
+      "Pseudacris pacifica"
+    ],
+    "Pseudacris streckeri": [
+      "Pseudacris streckeri streckeri"
+    ],
+    "Pseudacris triseriata": [
+      "Chorophilus nigritus triseriatus",
+      "Chorophilus triseriatus",
+      "Chorophilus triseriatus triseriatus",
+      "Helocaetes triseriatus",
+      "Hyla triseriata",
+      "Pseudacris nigrita triseriata",
+      "Pseudacris triseriata triseriata"
+    ],
+    "Rana arvalis": [
+      "Rana altaica",
+      "Rana angustifrongs",
+      "Rana arvalis altaica",
+      "Rana arvalis arvalis",
+      "Rana arvalis issaltschikovi",
+      "Rana arvalis striata",
+      "Rana arvalis wolterstorffi",
+      "Rana asiatica oxyrrhinus",
+      "Rana oxyrhina",
+      "Rana oxyrhinus striatus",
+      "Rana oxyrrhinus",
+      "Rana palustris",
+      "Rana temporaria arvalis",
+      "Rana temporaria oxyrrhina",
+      "Rana terrestris"
+    ],
+    "Rana dalmatina": [
+      "Rana agilis",
+      "Rana alpina",
+      "Rana gracilis"
+    ],
+    "Rana temporaria": [
+      "Alytes campanisonus campanisonus",
+      "Alytes grandis",
+      "Bufo campanisonus",
+      "Rana alpina",
+      "Rana aragonensis",
+      "Rana atra",
+      "Rana campanisona",
+      "Rana flaviventris",
+      "Rana fusca honnorati",
+      "Rana glacialis",
+      "Rana honnorati",
+      "Rana hyla",
+      "Rana mehelyi",
+      "Rana muta",
+      "Rana rufa"
+    ],
+    "Ranoidea raniformis": [
+      "Chirodryas raniformis",
+      "Dryopsophus raniformis",
+      "Hyla aurea major",
+      "Hyla aurea raniformis",
+      "Hyla aureus raniformis",
+      "Litoria aurea raniformis",
+      "Litoria raniformis",
+      "Ranoidea major"
+    ],
+    "Rhinella horribilis": [
+      "Bufo angustipes",
+      "Bufo horribilis",
+      "Bufo marinus horribilis"
+    ],
+    "Rhinella marina": [
+      "Bombinator horridus",
+      "Bombinator maculatus",
+      "Bufo albicans",
+      "Bufo brasiliensis",
+      "Bufo horridus",
+      "Bufo humeralis",
+      "Bufo lazarus",
+      "Bufo maculiventris",
+      "Bufo marinis",
+      "Bufo marinus",
+      "Bufo marinus fluminensis",
+      "Bufo marinus horribilis",
+      "Bufo marinus marinus",
+      "Bufo marinus napensis",
+      "Bufo pithecodactylus"
+    ],
+    "Scaphiopus couchii": [
+      "Scaphiopus couchii couchii",
+      "Scaphiopus couchii rectifrenis",
+      "Scaphiopus couchii varius",
+      "Scaphiopus laticeps",
+      "Scaphiopus rectifrenis",
+      "Scaphiopus varius",
+      "Scaphiopus varius rectifrenis",
+      "Scaphiopus varius varius",
+      "Spea laticeps"
+    ],
+    "Scaphiopus holbrookii": [
+      "Rana albus",
+      "Rana holbrookii",
+      "Rana holbrookii albus",
+      "Scaphiopus albus",
+      "Scaphiopus holbrookii albus",
+      "Scaphiopus holbrookii holbrookii",
+      "Scaphiopus solitarius"
+    ],
+    "Sclerophrys gutturalis": [
+      "Amietophrynus gutturalis",
+      "Bufo gutturalis",
+      "Bufo ngamiensis",
+      "Bufo regularis gutturalis",
+      "Bufo regularis ngamiensis"
+    ],
+    "Smilisca baudinii": [
+      "Hyla baudinii",
+      "Hyla beltrani",
+      "Hyla muricolor",
+      "Hyla pansosana",
+      "Hyla vanvlietii",
+      "Hyla vociferans",
+      "Smilisca daulinia"
+    ],
+    "Strongylopus fasciatus": [
+      "Rana fasciata",
+      "Rana fasciata fasciata",
+      "Stronglylopus fasciatus",
+      "Strongylopus fasciatus fasciatus"
+    ],
+    "Strongylopus grayii": [
+      "Dicroglossus grayi",
+      "Rana grayi dorsalis",
+      "Rana grayii",
+      "Rana grayii grayii",
+      "Strongylopus grayii grayii"
+    ],
+    "Sylvirana guentheri": [
+      "Boulengerana guentheri",
+      "Hylarana guentheri",
+      "Limnodytes elegans",
+      "Rana elegans",
+      "Rana guentheri"
+    ],
+    "Xenopus laevis": [
+      "? boiei",
+      "Bufo laevis",
+      "Dactylethera boiei",
+      "Dactylethera laevis",
+      "Dactylethra bufonia",
+      "Dactylethra capensis",
+      "Dactylethra delalandii",
+      "Dactylethra laevis",
+      "Dactylethra levis",
+      "Engystoma laevis",
+      "Leptopus boiei",
+      "Leptopus oxydactylus",
+      "Pipa africana",
+      "Pipa bufonia",
+      "Pipa laevis"
+    ],
+    "Zhangixalus arvalis": [
+      "Rhacophorus arvalis"
+    ],
+    "Zhangixalus moltrechti": [
+      "Rhacophorus moltrechti",
+      "Rhacophorus schlegelii moltrechti"
+    ],
+    "Acanthis flammea": [
+      "Carduelis flammea",
+      "Carduelis rufescens",
+      "Fringilla flammea",
+      "Fringilla linaria",
+      "Linota canescens"
+    ],
+    "Acanthisitta chloris": [
+      "Sitta chloris"
+    ],
+    "Acrocephalus arundinaceus": [
+      "Acrocephalus arundinacea",
+      "Acrocephalus turdoides",
+      "Sylvia turdoides",
+      "Turdus arundinaceus"
+    ],
+    "Acrocephalus dumetorum": [],
+    "Acrocephalus palustris": [
+      "Motacilla palustris",
+      "Motacilla spec",
+      "Sylvia palustris"
+    ],
+    "Acrocephalus schoenobaenus": [
+      "Acrocephalus scheonobaenus",
+      "Motacilla schoenobaenus",
+      "Salicaria phragmites"
+    ],
+    "Acrocephalus scirpaceus": [
+      "Acrocephalus scirpeus",
+      "Salicaria strepera",
+      "Turdus scirpaceus"
+    ],
+    "Actitis hypoleucos": [
+      "Actites hypoleucos",
+      "Totanus hypoleucos",
+      "Tringa hypoleucos",
+      "Tringa hypoleucos hypoleucos"
+    ],
+    "Aegithalos caudatus": [
+      "Aegithalos caudatus tyrrhenius",
+      "Parus caudatus"
+    ],
+    "Aegolius funereus": [
+      "Noctua temgmalmi",
+      "Strix funerea"
+    ],
+    "Agelaius phoeniceus": [
+      "Oriolus phoeniceus"
+    ],
+    "Alauda arvensis": [
+      "Alauda cantarella"
+    ],
+    "Alcedo atthis": [
+      "Alcedo atthis corsicana",
+      "Gracula spec"
+    ],
+    "Amazona amazonica": [
+      "Psittacus amazonicus"
+    ],
+    "Anas crecca": [
+      "Anas circia",
+      "Anas crecca crecca",
+      "Anas crecca nimia",
+      "Nettion crecca",
+      "Nettium crecca",
+      "Querquedula crecca"
+    ],
+    "Anas platyrhynchos": [
+      "Anas boschas",
+      "Anas oustaleti"
+    ],
+    "Anser albifrons": [],
+    "Anser anser": [
+      "Anser cinereus",
+      "Anser ferus"
+    ],
+    "Anthornis melanura": [],
+    "Anthus campestris": [
+      "Alauda campestris"
+    ],
+    "Anthus pratensis": [
+      "Alauda pratensis"
+    ],
+    "Anthus richardi": [],
+    "Anthus spinoletta": [
+      "Alauda spec",
+      "Alauda spinoletta",
+      "Anthus petrosus spinoletta"
+    ],
+    "Anthus trivialis": [
+      "Alauda trivialis",
+      "Anthus arboreus"
+    ],
+    "Antrostomus carolinensis": [
+      "Caprimulgus carolinensis"
+    ],
+    "Antrostomus vociferus": [
+      "Caprimulgus vociferus",
+      "Caprimulgus vociferus vociferus"
+    ],
+    "Aphelocoma californica": [
+      "Aphelocoma coerulescens superciliosa",
+      "Garrulus californicus"
+    ],
+    "Aptenodytes patagonicus": [
+      "Aptenodytes longirostris"
+    ],
+    "Apus apus": [
+      "Cypselus apus",
+      "Cypselus murarius",
+      "Hirundo apus"
+    ],
+    "Ara macao": [
+      "Psittacus macao"
+    ],
+    "Ardea cinerea": [],
+    "Asio otus": [
+      "Asio vulgaris",
+      "Strix otus"
+    ],
+    "Athene noctua": [
+      "Noctua passerina",
+      "Strix noctua"
+    ],
+    "Baeolophus bicolor": [
+      "Baeolophus bicolor bicolor",
+      "Parus bicolor",
+      "Parus bicolor bicolor"
+    ],
+    "Baeolophus inornatus": [
+      "Parus inornatus"
+    ],
+    "Bombycilla cedrorum": [],
+    "Botaurus stellaris": [
+      "Ardea stellaris"
+    ],
+    "Branta canadensis": [],
+    "Bubo bubo": [
+      "Bubo maximus",
+      "Strix bubo",
+      "Strix spec"
+    ],
+    "Bubo virginianus": [],
+    "Burhinus oedicnemus": [
+      "Burhinus scolopax",
+      "Oedicnemus crepitans"
+    ],
+    "Buteo buteo": [
+      "Buteo vulgaris",
+      "Falco buteo",
+      "Falco vulgaris"
+    ],
+    "Buteo jamaicensis": [
+      "Falco jamaicensis"
+    ],
+    "Buteo lineatus": [
+      "Falco lineatus"
+    ],
+    "Cacatua galerita": [
+      "Cacatura galerita",
+      "Psittacus galeritus"
+    ],
+    "Calidris alpina": [
+      "Calidris variabilis",
+      "Erolia alpina",
+      "Pelidna alpina",
+      "Tringa variabilis"
+    ],
+    "Calidris pusilla": [
+      "Ereunetes pusillus",
+      "Tringa pusilla"
+    ],
+    "Calypte anna": [
+      "Ornismya anna"
+    ],
+    "Cantorchilus leucotis": [
+      "Thryothorus leucotis"
+    ],
+    "Caprimulgus europaeus": [],
+    "Cardellina pusilla": [
+      "? pusilla",
+      "Muscicapa pusilla",
+      "Wilsonia pusilla"
+    ],
+    "Cardinalis cardinalis": [
+      "Loxia cardinalis",
+      "Richmondena cardinalis"
+    ],
+    "Carduelis carduelis": [
+      "Carduelis elegans",
+      "Fringilla carduelis"
+    ],
+    "Carpodacus erythrinus": [
+      "Erythrina erythrina",
+      "Loxia erythrina"
+    ],
+    "Catharus fuscescens": [
+      "Turdus fuscescens",
+      "Turdus spec"
+    ],
+    "Catharus guttatus": [
+      "Muscicapa guttata"
+    ],
+    "Catharus ustulatus": [
+      "Hylocichla ustulata",
+      "Turdus ustulatus"
+    ],
+    "Certhia americana": [],
+    "Certhia brachydactyla": [
+      "Certhia brachydactyla bureaui",
+      "Certhia brachydactyla parisi"
+    ],
+    "Certhia familiaris": [
+      "Certhia familiaris costa",
+      "Certhia familiaris gerbei",
+      "Certhia familiaris pyrenaica",
+      "Certhia familiaris rhenana"
+    ],
+    "Cettia cetti": [
+      "Sylvia cetti"
+    ],
+    "Charadrius dubius": [
+      "Argialitis curonica",
+      "Charadrius dubius coronicus",
+      "Chardrius dubius"
+    ],
+    "Charadrius hiaticula": [
+      "Charadrus hiaticula"
+    ],
+    "Charadrius vociferus": [
+      "Aegialitis vocifera",
+      "Oxyechus vociferus"
+    ],
+    "Chloris chloris": [],
+    "Chordeiles minor": [
+      "Caprimulgus minor"
+    ],
+    "Chroicocephalus ridibundus": [
+      "Chroicocephalus ridibundus ridibundus",
+      "Larus ridibundus",
+      "Larus ridibundus ridibundus"
+    ],
+    "Cinclus cinclus": [
+      "Cinclus cinclus meridionalis",
+      "Cinclus cinclus pyrenaicus",
+      "Cinclus cinclus sapsworthi",
+      "Cinclus meridionalis",
+      "Sturnus cinclus",
+      "Sturnus spec"
+    ],
+    "Cisticola juncidis": [
+      "Cisticola juncidus juncidus",
+      "Sylvia juncidis",
+      "Sylvia spec"
+    ],
+    "Cistothorus palustris": [
+      "? palustris",
+      "Telmatodytes palustris"
+    ],
+    "Coccothraustes coccothraustes": [
+      "Coccothraustes coccothraustes insularis",
+      "Coccothraustes vulgaris",
+      "Loxia coccothraustes"
+    ],
+    "Coccyzus americanus": [
+      "Coccyzus americanus americanus",
+      "Coccyzus americanus occidentalis",
+      "Cuculus americanus"
+    ],
+    "Coereba flaveola": [],
+    "Colaptes auratus": [
+      "Cuculus auratus"
+    ],
+    "Colluricincla harmonica": [],
+    "Coloeus monedula": [
+      "Coelus monedula",
+      "Corvus monedula"
+    ],
+    "Columba livia": [
+      "Columba livia feral"
+    ],
+    "Columba palumbus": [],
+    "Contopus virens": [
+      "Muscicapa virens"
+    ],
+    "Corvus brachyrhynchos": [],
+    "Corvus corax": [],
+    "Corvus cornix": [
+      "Corvus corone cornix"
+    ],
+    "Corvus corone": [],
+    "Corvus frugilegus": [],
+    "Corvus moneduloides": [],
+    "Corvus ossifragus": [],
+    "Coturnix coturnix": [
+      "Coturnix communis",
+      "Coturnix corturnix",
+      "Coturnix vulgaris",
+      "Tetrao spec"
+    ],
+    "Coturnix japonica": [
+      "Coturnix ussuriensis",
+      "Coturnix vulgaris japonica"
+    ],
+    "Crex crex": [
+      "Crex pratensis",
+      "Gallinula crex",
+      "Rallus crex",
+      "Rallus spec"
+    ],
+    "Cuculus canorus": [
+      "Cuculus canorus kleinschmidti"
+    ],
+    "Curruca melanocephala": [],
+    "Cyanistes caeruleus": [
+      "Parus caeruleus",
+      "Parus caeruleus touraudericus"
+    ],
+    "Cyanocitta cristata": [
+      "Corvus cristatus"
+    ],
+    "Cyanocitta stelleri": [
+      "Corvus stelleri"
+    ],
+    "Cyclarhis gujanensis": [
+      "Tanagra gujanensis"
+    ],
+    "Cygnus cygnus": [
+      "Anas cygnus",
+      "Anas musicus",
+      "Anas spec",
+      "Cygnus ferus",
+      "Cygnus musicus",
+      "Olor cygnus"
+    ],
+    "Dacelo novaeguineae": [
+      "Dacelo gigas"
+    ],
+    "Delichon urbicum": [
+      "Delichon urbica urbica",
+      "Hirundo urbica"
+    ],
+    "Dendrocopos major": [
+      "Dendrocopos anglicus",
+      "Dryobates major",
+      "Dryocopus major",
+      "Picoides major",
+      "Picus major"
+    ],
+    "Dendrocoptes medius": [
+      "Dendrocopos medius",
+      "Dendropicos medius",
+      "Leiopicus medius",
+      "Picoides medius",
+      "Picus medius"
+    ],
+    "Dryobates minor": [
+      "Dendrocopos minor",
+      "Dryobates comminutus",
+      "Picoides minor",
+      "Picus minor"
+    ],
+    "Dryobates pubescens": [
+      "Dendrocopos pubescens",
+      "Picoides pubescens",
+      "Picus pubescens"
+    ],
+    "Dryocopus martius": [
+      "Picus martius"
+    ],
+    "Dryocopus pileatus": [
+      "Ceophloeus pileatus",
+      "Hylatomus pileatus",
+      "Picus pileatus"
+    ],
+    "Dumetella carolinensis": [
+      "Muscicapa carolinensis",
+      "Musicapa caroliniensis"
+    ],
+    "Emberiza calandra": [
+      "Emberiza calandra parroti",
+      "Emberiza miliaria",
+      "Miliaria calandra"
+    ],
+    "Emberiza cirlus": [
+      "Emberiza cirlus cirlus",
+      "Emberiza cirlus nigrostriata"
+    ],
+    "Emberiza citrinella": [],
+    "Emberiza hortulana": [],
+    "Emberiza schoeniclus": [
+      "Emberiza schoeniclus turonensis",
+      "Fringilla spec",
+      "Schoeniclus schoeniclus"
+    ],
+    "Empidonax difficilis": [],
+    "Empidonax minimus": [
+      "Tyrannula minima"
+    ],
+    "Empidonax traillii": [
+      "Muscicapa traillii"
+    ],
+    "Empidonax virescens": [
+      "Platyrhynchos virescens"
+    ],
+    "Erithacus rubecula": [
+      "Erithacus dandalus sardus",
+      "Erithacus rubecula armoricanus",
+      "Erithacus rubecula sardus",
+      "Motacilla rubecula",
+      "Motacilla spec"
+    ],
+    "Eudynamys scolopaceus": [
+      "Cuculus scolopaceus",
+      "Eudynamis scolopaceus"
+    ],
+    "Falco peregrinus": [],
+    "Falco tinnunculus": [
+      "Cerchneis tinnunculus"
+    ],
+    "Ficedula hypoleuca": [
+      "Motacilla hypoleuca",
+      "Muscicapa atricapilla",
+      "Muscicapa hypoleuca"
+    ],
+    "Ficedula parva": [
+      "Ficedula parva parva",
+      "Muscicapa parva"
+    ],
+    "Forpus passerinus": [
+      "Psittacus passerinus"
+    ],
+    "Fringilla coelebs": [],
+    "Fringilla montifringilla": [],
+    "Fulica atra": [
+      "Fulica prior",
+      "Fulicula atra"
+    ],
+    "Gallinago gallinago": [
+      "Capella gallinago",
+      "Gallinago coelestris",
+      "Gallinago gallinago faeroeensi",
+      "Gallino gallino"
+    ],
+    "Gallinula chloropus": [
+      "Fulica chloropus",
+      "Fulica spec",
+      "Gallinula brodkorbi",
+      "Gallinula chloropus brodkorbi",
+      "Gallinula ochropus"
+    ],
+    "Gallus gallus": [
+      "Gallus domesticus"
+    ],
+    "Gallus gallus domesticus": [],
+    "Garrulus glandarius": [
+      "Corvus glandarius"
+    ],
+    "Geospiza fortis": [],
+    "Geothlypis trichas": [
+      "Turdus spec",
+      "Turdus trichas"
+    ],
+    "Glaucidium brasilianum": [
+      "Strix brasiliana"
+    ],
+    "Glaucidium passerinum": [
+      "Glaucidium pesserinum",
+      "Strix passerina"
+    ],
+    "Grus canadensis": [
+      "Antigone canadensis",
+      "Antigone canadensis canadensis",
+      "Antigone canadensis rowani",
+      "Ardea canadensis",
+      "Grus proavus",
+      "Megalornis canadensis"
+    ],
+    "Grus grus": [
+      "Ardea grus",
+      "Grus cinereus",
+      "Grus communis",
+      "Grus lilfordi",
+      "Megalornis grus"
+    ],
+    "Gymnorhina tibicen": [
+      "Coracias tibicen",
+      "Cracticus tibicen tibicen"
+    ],
+    "Haematopus ostralegus": [],
+    "Haemorhous mexicanus": [
+      "Carpodacus mexicanus",
+      "Fringilla mexicana"
+    ],
+    "Haemorhous purpureus": [
+      "Carpodacus purpureus",
+      "Fringilla purpurea"
+    ],
+    "Henicorhina leucophrys": [],
+    "Himantopus himantopus": [
+      "Charadrius himantopus",
+      "Charadrius spec",
+      "Himantopus atropterus",
+      "Himantopus candidus",
+      "Himantopus himantopus himantopus",
+      "Himantopus melanopterus",
+      "Himantopus rubropterus"
+    ],
+    "Hippolais icterina": [
+      "Sylvia icterina"
+    ],
+    "Hippolais polyglotta": [
+      "Sylvia polyglotta"
+    ],
+    "Hirundo rustica": [
+      "Chelidon rustica"
+    ],
+    "Hylocichla mustelina": [
+      "Catharus mustelinus",
+      "Catharus mustelinus mustelinus",
+      "Turdus mustelinus"
+    ],
+    "Icteria virens": [
+      "Turdus virens"
+    ],
+    "Icterus galbula": [
+      "Coracias galbula",
+      "Icterus galbula galbula"
+    ],
+    "Ixobrychus minutus": [
+      "Ardea minuta",
+      "Ardetta minuta"
+    ],
+    "Junco hyemalis": [],
+    "Jynx torquilla": [],
+    "Lanius collurio": [],
+    "Larus argentatus": [],
+    "Leiothlypis celata": [
+      "Oreothlypis celata",
+      "Sylvia celatus",
+      "Vermivora celata"
+    ],
+    "Leiothlypis peregrina": [
+      "Oreothlypis peregrina",
+      "Sylvia peregrina",
+      "Vermivora peregrina"
+    ],
+    "Leiothlypis ruficapilla": [
+      "Oreothlypis ruficapilla",
+      "Sylvia ruficapilla",
+      "Vermivora ruficapilla"
+    ],
+    "Leuconotopicus villosus": [
+      "Dendrocopos villosus",
+      "Dryobates villosus",
+      "Picoides villosus",
+      "Picus villosus"
+    ],
+    "Linaria cannabina": [
+      "Acanthis cannabina",
+      "Acanthis cannabina cannabina",
+      "Carduelis cannabina",
+      "Fringilla cannabina"
+    ],
+    "Locustella fluviatilis": [
+      "Sylvia fluviatilis"
+    ],
+    "Locustella luscinioides": [
+      "Sylvia luscinioides"
+    ],
+    "Locustella naevia": [
+      "Motacilla naevia",
+      "Salicaria locustella"
+    ],
+    "Lonchura striata domestica": [],
+    "Lophophanes cristatus": [
+      "Lophophanes cristatus brunnescens",
+      "Parus cristatus",
+      "Parus cristatus brunnescens",
+      "Parus cristatus heimi",
+      "Parus scoticus"
+    ],
+    "Loxia curvirostra": [
+      "Loxia curvirostra reai",
+      "Loxia curvirostra vividior"
+    ],
+    "Loxia pytyopsittacus": [],
+    "Lullula arborea": [
+      "Alauda arborea"
+    ],
+    "Luscinia luscinia": [
+      "Erithacus luscinia",
+      "Motacilla luscinia",
+      "Philomela luscinia"
+    ],
+    "Luscinia megarhynchos": [
+      "Erithacus megarhynchos",
+      "Luscinia megarhynchos corsa"
+    ],
+    "Luscinia svecica": [
+      "Cyanecula svecica",
+      "Erithacus svecicus",
+      "Motacilla svecica",
+      "Phoenicura suecica"
+    ],
+    "Manacus vitellinus": [
+      "? vitellinus",
+      "Manacus manacus vitellinus"
+    ],
+    "Mareca penelope": [
+      "Anas penelope"
+    ],
+    "Megaceryle alcyon": [
+      "Alcedo alcyon",
+      "Ceryle alcyon",
+      "Ceryle alcyon alcyon",
+      "Megaceryle alcyon alcyon",
+      "Megaceryle alcyon caurina",
+      "Streptoceryle alcyon"
+    ],
+    "Megascops asio": [
+      "Otus asio",
+      "Strix asio"
+    ],
+    "Melanerpes carolinus": [
+      "Centurus carolinus",
+      "Centurus carolinus carolinus",
+      "Centurus carolinus harpaceus",
+      "Centurus carolinus perplexus",
+      "Centurus carolinus zebra",
+      "Picus carolinus"
+    ],
+    "Melanerpes formicivorus": [
+      "Picus formicivorus"
+    ],
+    "Melopsittacus undulatus": [
+      "Psittacus undulatus"
+    ],
+    "Melospiza georgiana": [
+      "Zonotrichia georgiana",
+      "Zonotrichia georgiana georgiana"
+    ],
+    "Melospiza melodia": [
+      "Zonotrichia melodia",
+      "Zonotrichia melodia melodia"
+    ],
+    "Merops apiaster": [],
+    "Mimus polyglottos": [
+      "Mimus polyglottus",
+      "Turdus polyglottos",
+      "Turdus polyglottus"
+    ],
+    "Mniotilta varia": [
+      "Motacilla varia"
+    ],
+    "Molothrus ater": [
+      "Muluthrus ater",
+      "Oriolus ater"
+    ],
+    "Motacilla alba": [],
+    "Motacilla cinerea": [
+      "Motacilla boarula",
+      "Motacilla caspica",
+      "Motacilla caspica grisea",
+      "Motacilla melanope",
+      "Parus caspicus"
+    ],
+    "Motacilla flava": [
+      "Budytes flavus",
+      "Budytes rayi",
+      "Motacilla flava rayi",
+      "Motacilla rayi"
+    ],
+    "Muscicapa striata": [
+      "Motacilla striata",
+      "Muscicapa grisola"
+    ],
+    "Myiarchus crinitus": [
+      "Myiarchus crinitus boreus",
+      "Myiarchus crinitus crinitus",
+      "Turdus crinitus"
+    ],
+    "Nestor notabilis": [],
+    "Ninox boobook": [
+      "Strix boobook"
+    ],
+    "Nucifraga columbiana": [
+      "Corvus columbianus"
+    ],
+    "Numenius arquata": [
+      "Scolopax arcuata",
+      "Scolopax spec",
+      "Tringa arquata"
+    ],
+    "Numenius phaeopus": [],
+    "Nycticorax nycticorax": [
+      "Ardea nycticorax",
+      "Ardea spec",
+      "Nycticorax gardeni"
+    ],
+    "Nyctidromus albicollis": [
+      "Caprimulgus albicollis"
+    ],
+    "Oriolus oriolus": [
+      "Coracias oriolus",
+      "Coracias spec",
+      "Oriolus galbula"
+    ],
+    "Orthotomus sutorius": [],
+    "Otus scops": [
+      "Otus aldrovandi",
+      "Otus giu",
+      "Strix scops",
+      "Strix spec"
+    ],
+    "Pachycephala pectoralis": [],
+    "Pandion haliaetus": [
+      "Falco haliaetus",
+      "Falco spec"
+    ],
+    "Parkesia motacilla": [
+      "Seiurus motacilla",
+      "Turdus motacilla"
+    ],
+    "Parkesia noveboracensis": [
+      "Motacilla noveboracensis",
+      "Seiurus noveboracensis",
+      "Seiurus noveboracensis limnaeus",
+      "Seiurus noveboracensis notabilis",
+      "Seiurus noveboracensis noveboracensis"
+    ],
+    "Parus major": [
+      "Parus corsus",
+      "Parus newtoni"
+    ],
+    "Parus minor": [],
+    "Passer domesticus": [
+      "Fringilla domestica"
+    ],
+    "Passer montanus": [
+      "Fringilla montana",
+      "Passer montanus hispaniae"
+    ],
+    "Passerculus sandwichensis": [
+      "Ammodramus sandwichensis",
+      "Emberiza spec"
+    ],
+    "Passerella iliaca": [
+      "Zonotrichia iliaca"
+    ],
+    "Passerina cyanea": [
+      "Tanagra cyanea"
+    ],
+    "Pavo cristatus": [],
+    "Periparus ater": [
+      "Parus ater",
+      "Periparus melanolophus"
+    ],
+    "Phasianus colchicus": [],
+    "Pheucticus ludovicianus": [
+      "Loxia ludovicianus"
+    ],
+    "Pheucticus melanocephalus": [
+      "Guiraca melanocephala"
+    ],
+    "Phoenicurus ochruros": [
+      "Motacilla ochruros",
+      "Motacilla spec",
+      "Ruticilla tithys"
+    ],
+    "Phoenicurus phoenicurus": [
+      "Motacilla phoenicurus",
+      "Phoenicura ruticilla"
+    ],
+    "Phylloscopus bonelli": [
+      "Rhadina bonelli",
+      "Sylvia bonelli",
+      "Sylvia spec"
+    ],
+    "Phylloscopus collybita": [
+      "Sylvia collybita",
+      "Sylvia rufa"
+    ],
+    "Phylloscopus humei": [
+      "? humei",
+      "Abrornis humei",
+      "Reguloides humei"
+    ],
+    "Phylloscopus ibericus": [
+      "Phyllopneuste brehmii",
+      "Phylloscopus brehmii",
+      "Phylloscopus brehmii brehmii",
+      "Phylloscopus collybita brehmii",
+      "Phylloscopus collybita ibericus"
+    ],
+    "Phylloscopus inornatus": [
+      "Abrornis inornata",
+      "Phylloscopus superciliosus",
+      "Regulus inornatus"
+    ],
+    "Phylloscopus sibillatrix": [
+      "Motacilla sibilatrix",
+      "Motacilla spec",
+      "Rhadina sibilatrix",
+      "Sylvia sylvicola"
+    ],
+    "Phylloscopus trochiloides": [
+      "Acanthiza trochiloides",
+      "Phylloscopus trochiloides viridianus",
+      "Seicercus trochiloides"
+    ],
+    "Phylloscopus trochilus": [
+      "Motacilla fitis",
+      "Motacilla trochilus",
+      "Phylloscopus trochilus fitis"
+    ],
+    "Pica pica": [
+      "Corvus pica",
+      "Corvus spec",
+      "Pica caudata",
+      "Pica caudata melanotos",
+      "Pica galliae",
+      "Pica rusicola"
+    ],
+    "Picus canus": [
+      "Pincus canus"
+    ],
+    "Picus viridis": [],
+    "Pipilo erythrophthalmus": [
+      "Pipilo erythropthalmus"
+    ],
+    "Pipilo maculatus": [],
+    "Piranga olivacea": [
+      "Tanagra olivacea"
+    ],
+    "Piranga rubra": [
+      "Fringilla rubra"
+    ],
+    "Pitangus sulphuratus": [
+      "Lanius sulphuratus"
+    ],
+    "Pluvialis apricaria": [
+      "Charadrius altifrons",
+      "Charadrius apricarius",
+      "Pluvialis apricaria albifrons",
+      "Pluvialis apricaria altifrons",
+      "Pluvialis apricaria apricaria"
+    ],
+    "Pluvialis squatarola": [
+      "Charadarius squatarola",
+      "Squatarola cinerea",
+      "Squatarola helvetica",
+      "Squatarola squatarola",
+      "Tringa spec",
+      "Vanellus melanogaster"
+    ],
+    "Poecile atricapillus": [
+      "Parus atricapillus"
+    ],
+    "Poecile carolinensis": [
+      "Parus carolinensis"
+    ],
+    "Poecile montanus": [
+      "Parus cinereus montanus"
+    ],
+    "Poecile palustris": [
+      "Parus dresseri longirostris",
+      "Parus palustris",
+      "Parus palustris darti",
+      "Parus palustris longirostris"
+    ],
+    "Polioptila caerulea": [
+      "Motacilla caerulea"
+    ],
+    "Porzana porzana": [
+      "Porzana maruetta",
+      "Rallus porzana",
+      "Rallus spec"
+    ],
+    "Prunella modularis": [
+      "Accentor modularis",
+      "Motacilla modularis",
+      "Sylvia modularis"
+    ],
+    "Psaltriparus minimus": [],
+    "Psittacula krameri": [
+      "Alexandrinus krameri",
+      "Paleornis torquatus",
+      "Psittacus krameri"
+    ],
+    "Psittacus erithacus": [],
+    "Psophodes olivaceus": [
+      "Corvus olivaceus"
+    ],
+    "Pygoscelis adeliae": [
+      "Catarrhactes adeliae"
+    ],
+    "Pyrrhula pyrrhula": [
+      "Emberiza coccinea",
+      "Loxia pyrrhula",
+      "Loxia spec",
+      "Pyrrhula europaea",
+      "Pyrrhula pileata",
+      "Pyrrhula pyrrhula coccinea",
+      "Pyrrhula vulgaris"
+    ],
+    "Quiscalus mexicanus": [
+      "Cassidix mexicanus",
+      "Corvus mexicanus"
+    ],
+    "Quiscalus quiscula": [
+      "Gracula quiscula"
+    ],
+    "Rallus aquaticus": [],
+    "Ramphastos ambiguus": [],
+    "Regulus calendula": [
+      "Corthylio calendula",
+      "Corthylio calendula calendula",
+      "Motacilla calendula"
+    ],
+    "Regulus ignicapilla": [
+      "Sylvia ignicapilla"
+    ],
+    "Regulus regulus": [
+      "Motacilla regulus",
+      "Regulus cristatus",
+      "Regulus flavicapillus",
+      "Regulus regulus interni"
+    ],
+    "Regulus satrapa": [],
+    "Rupornis magnirostris": [
+      "Astur magnirostris",
+      "Buteo magnirostris",
+      "Falco magnirostris",
+      "Ruporni magnirostris"
+    ],
+    "Saxicola rubicola": [
+      "Motacilla rubicola",
+      "Pratincola rubicola",
+      "Saxicola torquata rubicola",
+      "Saxicola torquatus rubicola"
+    ],
+    "Sayornis phoebe": [
+      "Muscicapa phoebe"
+    ],
+    "Scolopax minor": [
+      "Philohela minor",
+      "Rusticola minor"
+    ],
+    "Scolopax rusticola": [
+      "Scolopax rusticola rusticola",
+      "Scolopax scolopax"
+    ],
+    "Seiurus aurocapilla": [
+      "Motacilla aurocapilla"
+    ],
+    "Serinus canaria": [
+      "Fringilla canaria"
+    ],
+    "Serinus serinus": [
+      "Carduelis serinus",
+      "Fringilla serinus",
+      "Fringilla spec",
+      "Serinus hortulanus"
+    ],
+    "Setophaga aestiva": [],
+    "Setophaga americana": [
+      "Parula americana",
+      "Parus americanus"
+    ],
+    "Setophaga citrina": [
+      "Muscicapa citrina",
+      "Wilsonia citrina"
+    ],
+    "Setophaga coronata": [
+      "Dendroica coronata",
+      "Dendroica coronata coronata",
+      "Dendroica coronata hooveri",
+      "Motacilla coronata",
+      "Setophaga coronata coronata",
+      "Setophaga coronata hooveri"
+    ],
+    "Setophaga pensylvanica": [
+      "Dendroica pensylvanica",
+      "Motacilla pensylvanica"
+    ],
+    "Setophaga petechia": [
+      "Dendroica petechia",
+      "Motacilla petechia"
+    ],
+    "Setophaga pinus": [
+      "Certhia pinus",
+      "Dendroica pinus",
+      "Sylvia pinus",
+      "Vermivora pinus"
+    ],
+    "Setophaga ruticilla": [
+      "Motacilla ruticilla",
+      "Setophaga ruticilla ruticilla",
+      "Setophaga ruticilla tricolora"
+    ],
+    "Setophaga virens": [
+      "Dendroica virens",
+      "Dendroica virens virens",
+      "Dendroica virens waynei",
+      "Motacilla virens"
+    ],
+    "Sialia sialis": [
+      "Motacilla sialis"
+    ],
+    "Sitta canadensis": [],
+    "Sitta carolinensis": [],
+    "Sitta europaea": [
+      "Sitta caesia",
+      "Sitta europaea hassica"
+    ],
+    "Spheniscus demersus": [
+      "Diomedea demersa"
+    ],
+    "Spheniscus humboldti": [],
+    "Spinus pinus": [
+      "? pinus",
+      "Carduelis pinus",
+      "Fringilla pinus"
+    ],
+    "Spinus psaltria": [
+      "Carduelis psaltria"
+    ],
+    "Spinus spinus": [
+      "Carduelis spinus",
+      "Fringilla spinus"
+    ],
+    "Spinus tristis": [
+      "Carduelis tristis",
+      "Fringilla tristis"
+    ],
+    "Spizella passerina": [],
+    "Spizella pusilla": [
+      "Fringilla pusilla",
+      "Spizella pusilla arenacea",
+      "Spizella pusilla pusilla"
+    ],
+    "Sterna hirundo": [
+      "Sterna fluviatilis"
+    ],
+    "Strepera graculina": [
+      "Corvus graculinus"
+    ],
+    "Streptopelia decaocto": [
+      "Columba decaocto",
+      "Columba risoria decaocto"
+    ],
+    "Streptopelia turtur": [
+      "Columba spec",
+      "Columba turtur",
+      "Stretopelia turtur",
+      "Turtur communis"
+    ],
+    "Strix aluco": [
+      "Strix stridula",
+      "Syrnium stridulum"
+    ],
+    "Strix occidentalis": [
+      "Syrnium occidentale"
+    ],
+    "Strix varia": [
+      "Strix varia georgica",
+      "Strix varia helveola",
+      "Strix varia varia"
+    ],
+    "Sturnella magna": [
+      "Alauda magna"
+    ],
+    "Sturnella neglecta": [
+      "Sturnella neglecta confluenta",
+      "Sturnella neglecta neglecta"
+    ],
+    "Sturnus unicolor": [],
+    "Sturnus vulgaris": [],
+    "Sylvia atricapilla": [
+      "Motacilla atricapilla"
+    ],
+    "Sylvia borin": [
+      "Motacilla borin",
+      "Motacilla spec"
+    ],
+    "Sylvia communis": [
+      "Curruca cinerea",
+      "Curruca communis",
+      "Curruca communis communis",
+      "Curruca communis icterops",
+      "Sylvia cinerea"
+    ],
+    "Sylvia curruca": [
+      "Curruca curruca",
+      "Curruca curruca althaea",
+      "Curruca curruca curruca",
+      "Curruca curruca margelanica",
+      "Curruca curruca minula",
+      "Curruca sylviella",
+      "Motacilla curruca",
+      "Sylvia carruca",
+      "Sylvia curruca althaea",
+      "Sylvia curruca margelanica",
+      "Sylvia curruca minula"
+    ],
+    "Tachybaptus ruficollis": [
+      "Colymbus ruficollis",
+      "Podiceps minor",
+      "Podiceps ruficollis",
+      "Podicipes fluviatilis"
+    ],
+    "Tachycineta bicolor": [
+      "Hirundo bicolor",
+      "Iridoprocne bicolor"
+    ],
+    "Taeniopygia guttata": [
+      "Fringilla guttata",
+      "Poephila guttata"
+    ],
+    "Thryomanes bewickii": [
+      "Troglodytes bewickii"
+    ],
+    "Thryothorus ludovicianus": [],
+    "Toxostoma curvirostre": [],
+    "Toxostoma rufum": [
+      "Turdus rufus"
+    ],
+    "Tringa glareola": [
+      "Rhyacophilus glareola",
+      "Totanus glareolus"
+    ],
+    "Tringa nebularia": [
+      "Glottis nebularia",
+      "Scolopax glottis",
+      "Scolopax nebularia",
+      "Totanus glottis",
+      "Tringa canescens",
+      "Tringa glottis"
+    ],
+    "Tringa ochropus": [
+      "Helodromus ochropus",
+      "Rhyacophilus ochropus",
+      "Totanus ochropus",
+      "Tringa spec"
+    ],
+    "Tringa totanus": [
+      "Totanus calidris",
+      "Tringa calidris"
+    ],
+    "Troglodytes aedon": [],
+    "Troglodytes hiemalis": [
+      "Nannus hiemalis"
+    ],
+    "Troglodytes musculus": [],
+    "Troglodytes pacificus": [
+      "Nannus pacificus"
+    ],
+    "Troglodytes troglodytes": [
+      "Motacilla troglodytes",
+      "Nannus troglodytes",
+      "Troglodytes parvulus",
+      "Troglodytes vulgaris"
+    ],
+    "Turdoides bicolor": [],
+    "Turdus iliacus": [
+      "Turdus musicus"
+    ],
+    "Turdus merula": [],
+    "Turdus migratorius": [],
+    "Turdus philomelos": [
+      "Turdus clarkii",
+      "Turdus ericetorum"
+    ],
+    "Turdus pilaris": [],
+    "Turdus torquatus": [],
+    "Turdus viscivorus": [
+      "Turdus viscivorus reiseri"
+    ],
+    "Tympanuchus cupido": [],
+    "Tyrannus melancholicus": [],
+    "Tyto alba": [
+      "Strix alba",
+      "Strix flammea"
+    ],
+    "Upupa epops": [],
+    "Vanellus vanellus": [
+      "Tringa vanellus",
+      "Vanellus cristatus",
+      "Vanellus vulgaris"
+    ],
+    "Vidua chalybeata": [],
+    "Vireo bellii": [],
+    "Vireo flavifrons": [
+      "Lanivireo flavifrons"
+    ],
+    "Vireo gilvus": [
+      "Muscicapa gilva"
+    ],
+    "Vireo griseus": [
+      "Tanagra grisea"
+    ],
+    "Vireo huttoni": [],
+    "Vireo olivaceus": [
+      "Muscicapa olivacea"
+    ],
+    "Vireo solitarius": [
+      "Muscicapa solitaria"
+    ],
+    "Zenaida macroura": [
+      "Columba macroura",
+      "Zenaidura macroura"
+    ],
+    "Zonotrichia albicollis": [
+      "Fringilla albicollis",
+      "Zonotrichia leucophrys albicollis"
+    ],
+    "Zonotrichia capensis": [],
+    "Zonotrichia leucophrys": [],
+    "Loligo vulgaris": [
+      "Loligo affinis",
+      "Loligo berthelotii",
+      "Loligo breviceps",
+      "Loligo mediterranea",
+      "Loligo microcephala",
+      "Loligo neglecta",
+      "Loligo pulchra",
+      "Loligo rangii",
+      "Sepia loligo"
+    ],
+    "Octopus vulgaris": [
+      "Octopus albus",
+      "Octopus americanus",
+      "Octopus bitentaculatus",
+      "Octopus brevitentaculatus",
+      "Octopus cassiopea",
+      "Octopus cassiopeia",
+      "Octopus coerulescentes",
+      "Octopus heteropus",
+      "Octopus maculatus",
+      "Octopus moschatus",
+      "Octopus niger",
+      "Octopus octopodia",
+      "Octopus pilosus",
+      "Octopus rabassin",
+      "Octopus ruber"
+    ],
+    "Sepia officinalis": [
+      "Sepia filliouxi",
+      "Sepia fischeri",
+      "Sepia mediterranea",
+      "Sepia officinalis mediterranea",
+      "Sepia officinalis officinalis",
+      "Sepia rugosa",
+      "Sepia veranyi",
+      "Sepia vicellius",
+      "Sepia zebrina"
+    ],
+    "Crocodylus porosus": [
+      "Crocodilus biporcatus",
+      "Crocodilus biporcatus raninus",
+      "Crocodilus oopholis",
+      "Crocodylus natans",
+      "Crocodylus nathani",
+      "Crocodylus porosus australis",
+      "Crocodylus porosus minikanna",
+      "Oopholis pondicherianus"
+    ],
+    "Acheta domesticus": [
+      "Acheta melanocephalus",
+      "Gryllulus domesticus",
+      "Gryllus aegyptiacus",
+      "Gryllus domesticus",
+      "Gryllus transversalis"
+    ],
+    "Aedes aegypti": [
+      "Culex aegypti",
+      "Culex albopalposus",
+      "Culex angustealatus",
+      "Culex annulitarsis",
+      "Culex argenteus",
+      "Culex augens",
+      "Culex bancrofti",
+      "Culex calopus",
+      "Culex elegans",
+      "Culex exagitans",
+      "Culex excitans",
+      "Culex fasciatus",
+      "Culex frater",
+      "Culex inexorabilis",
+      "Culex insatiabilis"
+    ],
+    "Aleeta curvicosta": [
+      "Abricta curvicosta",
+      "Abricta curyvicosii",
+      "Cicada curvicosta",
+      "Cicada tephrogaster",
+      "Tibicen curvicosta",
+      "Tibicen tephrogaster",
+      "Tibicina curvicosta"
+    ],
+    "Anopheles gambiae": [
+      "Anopheles costalis",
+      "Anopheles gracilis",
+      "Anopheles minor",
+      "Anopheles typicus"
+    ],
+    "Apis mellifera": [
+      "Apis adansonii",
+      "Apis aenigmaticus",
+      "Apis australis",
+      "Apis caffra",
+      "Apis cerifera",
+      "Apis daurica",
+      "Apis fasciata",
+      "Apis gregaria",
+      "Apis intermissa",
+      "Apis mellica cypria",
+      "Apis mellica remipes",
+      "Apis mellida caucasia",
+      "Apis mellifera acervorum",
+      "Apis mellifera adami",
+      "Apis mellifera adansoni"
+    ],
+    "Atrapsalta corticina": [
+      "Pauropsalta corticinus"
+    ],
+    "Barbitistes ocskayi": [
+      "Barbitistes frivaldskyi",
+      "Barbitistes oczkayi",
+      "Barbitistes oskayi",
+      "Odontura fischeri",
+      "Odontura ocskayi",
+      "Odontura oczkayi"
+    ],
+    "Bicolorana bicolor": [
+      "Locusta bicolor"
+    ],
+    "Bombus terrestris": [
+      "Apis virginalis",
+      "Bombus virginalis",
+      "Bremus fasciatus",
+      "Terrestribombus lucorum terrestriformis"
+    ],
+    "Canariola emarginata": [],
+    "Chorthippus biguttulus": [],
+    "Chorthippus brunneus": [
+      "Chortippus brunneus",
+      "Gomphocerippus brunneus",
+      "Gryllus brunneus"
+    ],
+    "Chorthippus dorsatus": [
+      "Gryllus dorsatus"
+    ],
+    "Chorthippus eisentrauti": [
+      "Chorthippus biguttulus eisentrauti",
+      "Glyptobothrus eisentrauti",
+      "Gomphocerippus eisentrauti",
+      "Stauroderus eisentrauti"
+    ],
+    "Chorthippus mollis": [],
+    "Chorthippus vagans": [
+      "Oedipoda vagans"
+    ],
+    "Cicada barbara": [
+      "Tettigia barbara"
+    ],
+    "Cicada orni": [
+      "Cicada ormi",
+      "Cicada orni lesbosiensis",
+      "Cicada ornia",
+      "Cicadetta orni",
+      "Macroprotopus oleae",
+      "Tettigia orni",
+      "Tettigia orni punctata",
+      "Tettigonia orni",
+      "Tettigonia punctata",
+      "Tibicen orni"
+    ],
+    "Conocephalus fuscus": [
+      "Anisoptera dilatatus",
+      "Anisoptera fusca",
+      "Conocephalus dilatatus",
+      "Conocephalus discolor",
+      "Xiphidion discolor",
+      "Xiphidion fusca",
+      "Xiphidium fuscum turanicum",
+      "Xiphidium fuscus"
+    ],
+    "Cyclochila australasiae": [
+      "Cicada olivacea",
+      "Cyclochila australasiae spreta",
+      "Cyclochila austrasiae",
+      "Tettigonia australasiae"
+    ],
+    "Cystosoma saundersii": [
+      "Cicada saundersii",
+      "Cystosoma laundersii"
+    ],
+    "Decticus albifrons": [
+      "Conocephalus albifrons",
+      "Decticus aeolicus",
+      "Locusta albifrons",
+      "Tettigonia albifrons"
+    ],
+    "Decticus verrucivorus": [
+      "Gryllus verrucivorus"
+    ],
+    "Drosophila melanogaster": [
+      "Drosophila aceti",
+      "Drosophila amelophaga",
+      "Drosophila amelophila",
+      "Drosophila ampelophaga",
+      "Drosophila ampelophila",
+      "Drosophila approximata",
+      "Drosophila artificialis",
+      "Drosophila cellaris",
+      "Drosophila emulata",
+      "Drosophila fasciata",
+      "Drosophila immatura",
+      "Drosophila melanocephala",
+      "Drosophila nigriventris",
+      "Drosophila pilosula",
+      "Drosophila uvarum"
+    ],
+    "Ephippiger diurnus": [
+      "Ephippiger ephippiger diurnus",
+      "Ephippigera diurna"
+    ],
+    "Ephippiger ephippiger": [
+      "Gryllus ephippiger"
+    ],
+    "Eumodicogryllus bordigalensis": [
+      "Gryllus bordigalensis"
+    ],
+    "Eupholidoptera schmidti": [
+      "Eupholidoptera chabrieri kaltenbachi",
+      "Eupholidoptera chabrieri schmidti",
+      "Pholidoptera chabrieri",
+      "Pholidoptera schmidti",
+      "Thamnotrizon schmidti"
+    ],
+    "Galanga labeculata": [
+      "Cicadetta labeculata",
+      "Melampsalta labeculata"
+    ],
+    "Galleria mellonella": [
+      "? cerella",
+      "Galleria austrina",
+      "Galleria cerea",
+      "Galleria cerealis",
+      "Galleria cereana",
+      "Galleria cerella",
+      "Galleria crombruggheela",
+      "Galleria mellomella",
+      "Galleria obliquella",
+      "Phalaena cereana",
+      "Phalaena mellonella",
+      "Tinea cerella",
+      "Tinea mellonella",
+      "Vindana obliquella"
+    ],
+    "Gryllotalpa gryllotalpa": [
+      "Acheta gryllotalpa",
+      "Curtilla gryllotalpa",
+      "Gryllotalpa gryllus",
+      "Gryllotalpa vulgaris",
+      "Gryllus gryllotalpa",
+      "Gryllus talpa"
+    ],
+    "Gryllus bimaculatus": [
+      "Acheta bimaculatus",
+      "Acheta capensis",
+      "Gryllus ater",
+      "Gryllus interruptus",
+      "Gryllus lugubris",
+      "Gryllus marginalis",
+      "Gryllus rubricollis",
+      "Liogryllus bimaculatus",
+      "Liogryllus campestris"
+    ],
+    "Gryllus campestris": [
+      "Acheta campestris",
+      "Acheta hybrida",
+      "Gryllus caudata",
+      "Gryllus cephalotes",
+      "Liogryllus campestris"
+    ],
+    "Gryllus pennsylvanicus": [
+      "Acheta nigra",
+      "Acheta pennsylvanicus",
+      "Gryllus abbreviatus",
+      "Gryllus angustus",
+      "Gryllus arenaceus",
+      "Gryllus assimilis pennsylvanicus",
+      "Gryllus luctuosus"
+    ],
+    "Hapithus saltator": [
+      "Apithes mcneilli",
+      "Orcharis saltator"
+    ],
+    "Henicopsaltria eydouxii": [
+      "Cicada eydouxii",
+      "Cicada eyedouxii",
+      "Henicopsaltria edouxi",
+      "Henicopsaltria eudouxi",
+      "Henicopsaltria eydouxia"
+    ],
+    "Hyalessa maculaticollis": [
+      "Cicada maculaticollis",
+      "Hyalessa fuscata",
+      "Oncotympana coreana nigrodorsalis",
+      "Oncotympana coreana pruinosa",
+      "Oncotympana coreanus",
+      "Oncotympana fuscata",
+      "Oncotympana maculaticoliis",
+      "Oncotympana maculaticolle",
+      "Oncotympana maculaticollis aka",
+      "Oncotympana maculaticollis clara",
+      "Oncotympana maculaticollis coreana",
+      "Oncotympana maculaticollis fuscata",
+      "Oncotympana maculaticollis makotoensis",
+      "Oncotympana maculaticollis mikado",
+      "Oncotympana maculaticollis nigroventris"
+    ],
+    "Isophya lemnotica": [],
+    "Leptophyes punctatissima": [
+      "Acrida standishii",
+      "Barbitistes glabricauda",
+      "Barbitistes punctatissima",
+      "Ephippiger virescens",
+      "Ephippigera virescens",
+      "Leptophytes punctatissima",
+      "Locusta automnalis",
+      "Locusta autumnalis",
+      "Locusta punctatissima",
+      "Odontura albopunctata",
+      "Odontura punctatissima",
+      "Odontura standishii"
+    ],
+    "Magicicada cassini": [
+      "Cicada cassinii",
+      "Cicada septendecim cassini",
+      "Magicicada cassanii",
+      "Magicicada septendecim cassini",
+      "Tibicen cassini",
+      "Tibicen septendecim cassini",
+      "Tibicina cassini",
+      "Tibicina septendecim cassini"
+    ],
+    "Magicicada septendecim": [
+      "? septemdecem",
+      "? septemdecim",
+      "? septendecem",
+      "Cicada costalis",
+      "Cicada sepetendecim",
+      "Cicada septedecim",
+      "Cicada septemdecem",
+      "Cicada septemdecim",
+      "Cicada septemdecims",
+      "Cicada septendecem",
+      "Cicada septendecim",
+      "Cicada septendicem",
+      "Magicicada decim",
+      "Magicicada sependecim",
+      "Magicicada sependesim"
+    ],
+    "Microcentrum rhombifolium": [
+      "Microcentrum affiliatum",
+      "Orophus rhombifolius",
+      "Phylloptera rhombifolia"
+    ],
+    "Nemobius sylvestris": [
+      "Acheta sylvestris"
+    ],
+    "Neocicada hieroglyphica": [
+      "Cicada hieroglyphica"
+    ],
+    "Neoconocephalus ensiger": [
+      "Conocephaloides ensiger",
+      "Conocephalus ensiger"
+    ],
+    "Neocurtilla hexadactyla": [
+      "Gryllotalpa azteca",
+      "Gryllotalpa borealis",
+      "Gryllotalpa brevipennis",
+      "Gryllotalpa columbia",
+      "Gryllotalpa columbiae",
+      "Gryllotalpa columbiana",
+      "Gryllotalpa hexadactyla",
+      "Gryllotalpa intermedia",
+      "Gryllotalpa longipennis",
+      "Neocurtilla hexadactyla hexadactyla",
+      "Neocurtilla hexadactyla spinosa",
+      "Neocurtilla spinosa"
+    ],
+    "Neotibicen canicularis": [
+      "Cicada canicularis",
+      "Cicada tibicen canicularis",
+      "Lyristes canicularis",
+      "Rihana canicularis",
+      "Tibicen canicularis",
+      "Tibicen caniculris",
+      "Tibicen canulatus"
+    ],
+    "Neotibicen linnei": [
+      "? tibicen",
+      "Cicada linnei",
+      "Fidicina tibicen",
+      "Lyristes linnei",
+      "Rihana tibicen",
+      "Tibicen linnei",
+      "Tibicen tibicen"
+    ],
+    "Neotibicen lyricen": [
+      "Cicada lyricen"
+    ],
+    "Neotibicen pruinosus": [],
+    "Neotibicen robinsonianus": [
+      "Lyristes robinsonianus",
+      "Tibicen robinsonianus"
+    ],
+    "Neotibicen superbus": [
+      "Cicada superba",
+      "Rihana superba",
+      "Tibicen superb",
+      "Tibicen superbus"
+    ],
+    "Neotibicen tibicen": [],
+    "Oecanthus argentinus": [
+      "Oecanthus nigricornis argentinus",
+      "Oecanthus rehnii"
+    ],
+    "Oecanthus dulcisonans": [],
+    "Oecanthus fultoni": [],
+    "Oecanthus nigricornis": [
+      "Oecanthus nigricornis nigricornis"
+    ],
+    "Oecanthus pellucens": [
+      "Gryllus pellucens",
+      "Oecanthus pellucidus"
+    ],
+    "Oecanthus quadripunctatus": [
+      "Oecanthus 4-punctatus",
+      "Oecanthus nigricornis quadripunctatus",
+      "Oecanthus quadrimaculatus"
+    ],
+    "Omocestus viridulus": [
+      "Gryllus viridulus"
+    ],
+    "Phaneroptera falcata": [
+      "Anerota falcata",
+      "Arnobia phyllopteroides",
+      "Decticus phyllopteroides",
+      "Gryllus falcata",
+      "Locusta libellula",
+      "Phaneroptera litifolia",
+      "Phaneroptera sinensis"
+    ],
+    "Phaneroptera nana": [
+      "Anerota quadripunctata",
+      "Phaneroptera conspersa",
+      "Phaneroptera nana nana",
+      "Phaneroptera quadripunctata",
+      "Phaneroptera quadripunctata quadripunctata",
+      "Phaneroptera tetrasticta"
+    ],
+    "Phaneroptera sparsa": [
+      "Phaneroptera africana",
+      "Phaneroptera lurida",
+      "Phaneroptera nana sparsa",
+      "Phaneroptera punctulata",
+      "Phaneroptera sexpunctata",
+      "Phaneroptera tenuicerca"
+    ],
+    "Pholidoptera griseoaptera": [
+      "Decticus apterus",
+      "Gryllus cinereus",
+      "Locusta aptera",
+      "Locusta cinerea",
+      "Locusta clypeata",
+      "Locusta griseoaptera",
+      "Olynthoscelis griseoaptera",
+      "Pholidoptera cinerea",
+      "Phulidoptea grisoaptera",
+      "Pterolepis aptera",
+      "Thamnotrizon cinereus",
+      "Xiphidion clypeata"
+    ],
+    "Platycleis affinis": [],
+    "Platycleis albopunctata": [
+      "Platycleis occidentalis",
+      "Tettigonia albopunctatus"
+    ],
+    "Platycleis intermedia": [],
+    "Platypleura kaempferi": [
+      "Cicada kaempfer",
+      "Cicada kaempferi",
+      "Platypleura fuscangulis",
+      "Platypleura hyalino-limbata",
+      "Platypleura kaempferi annamensis",
+      "Platypleura kaempferi brevipennis",
+      "Platypleura kaempferi dentivitta",
+      "Platypleura kaempferi formosana",
+      "Platypleura kaempferi fuscangulis",
+      "Platypleura kaempferi kaempferi",
+      "Platypleura kaempferi kyotonis",
+      "Platypleura kaempferi takasagona",
+      "Platypleura kaempheri",
+      "Platypleura kaenpferi",
+      "Platypleura koempferi"
+    ],
+    "Poecilimon affinis": [
+      "Odontura affinis"
+    ],
+    "Poecilimon ornatus": [
+      "Barbitistes fieberi",
+      "Ephippigera ornata",
+      "Odontura fieberi",
+      "Odontura ornata",
+      "Poecilimon greini",
+      "Poecilimon marzani",
+      "Poecilimon mistshenkoi marzani",
+      "Poecilimon mistshenkoi tinkae",
+      "Poecilimon mistshenkoi vlachinensis",
+      "Poecilimon pancici",
+      "Poecilimon tinkae",
+      "Poecilimon vlachinensis"
+    ],
+    "Popplepsalta notialis": [
+      "Pauropsalta notialis"
+    ],
+    "Psaltoda harrisii": [
+      "Cicada bicolor",
+      "Cicada dichroa",
+      "Cicada dichroma",
+      "Cicada harrisii",
+      "Fidicina subgutatta",
+      "Neopsaltoda morrisi",
+      "Psaltoda dichroa",
+      "Psaltoda longirostris",
+      "Tettigonia harrisii"
+    ],
+    "Psaltoda moerens": [
+      "Cicada moerens",
+      "Psaltoda meorens",
+      "Psaltoda moerans"
+    ],
+    "Psaltoda plaga": [
+      "Cicada argentata",
+      "Cicada plaga",
+      "Psaltoda argentata"
+    ],
+    "Pseudochorthippus parallelus": [
+      "Chorthippus caffer",
+      "Chorthippus longicornis",
+      "Gryllus parallelus"
+    ],
+    "Pteronemobius heydenii": [
+      "Gryllus heydenii"
+    ],
+    "Pterophylla camellifolia": [],
+    "Roeseliana roeselii": [
+      "Locusta roeselii"
+    ],
+    "Ruspolia nitidula": [
+      "Conocephalus ambiguus macropterus",
+      "Conocephalus bicolor",
+      "Conocephalus macropterus",
+      "Conocephalus mandibularis",
+      "Conocephalus minor",
+      "Conocephalus nitidulus",
+      "Conocephalus nitidulus bicolor",
+      "Conocephalus tuberculata",
+      "Gryllus nitidulus",
+      "Homorocoryphus eurostratus",
+      "Homorocoryphus nitidulus",
+      "Homorocoryphus nitidulus nitidulus",
+      "Locusta erythrosoma",
+      "Locusta lineata",
+      "Locusta mandibularis"
+    ],
+    "Saga hellenica": [],
+    "Schistocerca gregaria": [
+      "Gryllus gregarius"
+    ],
+    "Teleogryllus oceanicus": [
+      "Acheta oceanicus",
+      "Bryllus oceanicus",
+      "Gryllulus oceanicus",
+      "Gryllus innotabilis",
+      "Gryllus oceanicus"
+    ],
+    "Tessellana lagrecai": [
+      "Platycleis lagrecai"
+    ],
+    "Tettigettalna argentata": [
+      "Cicada argentata",
+      "Cicada argentea",
+      "Cicada sericans",
+      "Cicada servicans",
+      "Cicadetta argentata",
+      "Cicadetta argentata atra",
+      "Cicadetta sericans",
+      "Melampsalta argentata",
+      "Melampsalta argentata atra",
+      "Melampsalta atra",
+      "Melampsalta sericans",
+      "Tettigetta argentata",
+      "Tettigetta argentata argentata",
+      "Tettigetta argentata flavescens",
+      "Tettigetta argentata mauresqua"
+    ],
+    "Tettigonia cantans": [
+      "Gryllus cantans",
+      "Locusta cantans",
+      "Phasgonura cantans",
+      "Tettigonia gaverniensis"
+    ],
+    "Tettigonia viridissima": [
+      "Agraecia incognita",
+      "Conocephalus viridissimus",
+      "Eumenymus vaucherianus",
+      "Gryllus viridissimus",
+      "Locusta cantatrix",
+      "Locusta flava",
+      "Locusta maroccana",
+      "Locusta vaucheriana",
+      "Locusta viridissima",
+      "Phasgonura lozanoi",
+      "Phasgonura vaucheriana",
+      "Phasgonura viridissimus",
+      "Tettigonia intermedia",
+      "Tettigonia longealata",
+      "Tettigonia meridionalis"
+    ],
+    "Velarifictorus micado": [
+      "Gryllulus micado",
+      "Scapsipedus micado"
+    ],
+    "Yersinella raymondii": [
+      "Anterastes raymondii",
+      "Pterolepis raymondii",
+      "Rhacocleis dorsata",
+      "Rhacocleis raymondii",
+      "Thamnotrizon dorsatus"
+    ],
+    "Yoyetta celis": [
+      "Cicadetta celis"
+    ],
+    "Yoyetta repetens": [],
+    "Acinonyx jubatus": [
+      "Cynaelurus jubatus",
+      "Felis jubata"
+    ],
+    "Aeorestes cinereus": [
+      "Lasiurus cinereus",
+      "Lasiurus cinereus cinereus",
+      "Vespertilio cinereus",
+      "Vespertilio linereus"
+    ],
+    "Alces alces": [
+      "Alces alce",
+      "Alces antiquorum",
+      "Alces coronatus",
+      "Alces europaeus",
+      "Alces jubata",
+      "Alces machilis",
+      "Alces muswa",
+      "Alces palmatus",
+      "Alces runnymedensis",
+      "Cervalces americanus",
+      "Cervus alces"
+    ],
+    "Alouatta caraya": [
+      "Mycetes barbatus",
+      "Simia caraya",
+      "Simia straminea",
+      "Stentor niger"
+    ],
+    "Alouatta palliata": [
+      "Alouatta aequatorialis",
+      "Alouatta inclamax",
+      "Alouatta palliata inconsonans",
+      "Alouatta palliata matagalpae",
+      "Alouatta palliata quichua",
+      "Mycetes niger",
+      "Mycetes palliatus"
+    ],
+    "Alouatta pigra": [
+      "Alouatta palliata luctuosa",
+      "Alouatta palliata pigra",
+      "Alouatta pigra luctuosa",
+      "Mycetes villosus"
+    ],
+    "Alouatta seniculus": [
+      "Alouatta macconnelli insulanus",
+      "Mycetes seniculus",
+      "Simia seniculus"
+    ],
+    "Arctocephalus tropicalis": [
+      "Arctocephalus elegans",
+      "Arctocephalus tropicalis tropicalis",
+      "Arctophoca tropicalis",
+      "Gypsophoca tropicalis"
+    ],
+    "Artibeus watsoni": [
+      "Artibeus incomitatus",
+      "Dermanura incomitata",
+      "Dermanura watsoni"
+    ],
+    "Balaena mysticetus": [
+      "Balaena mysticetus arctica",
+      "Balaena mysticetus borealis",
+      "Balaena mysticetus groenlandica",
+      "Balaena mysticetus pitlekajensis",
+      "Balaena mysticetus roysii",
+      "Balaena prisca",
+      "Balaena vulgaris",
+      "Baloena mysticetus"
+    ],
+    "Balaenoptera acutorostrata": [
+      "Balaena gibbosa",
+      "Balaena microcephala",
+      "Balaena minima",
+      "Balaena minima borealis",
+      "Balaena rostrata",
+      "Balaenoptera acutorostrata thalmaha",
+      "Balaenoptera acuturostrata",
+      "Balaenoptera eschrichtius",
+      "Balaenoptera microcephala",
+      "Balaenoptera rostrata",
+      "Balaenoptera thalmaha",
+      "Balaenoptera thalmaha thalmaha",
+      "Pterobalaena acutorostrata",
+      "Pterobalaena minor",
+      "Pterobalaena minor bergensis"
+    ],
+    "Balaenoptera musculus": [
+      "Balaena borealis",
+      "Balaena maximus",
+      "Balaena musculus",
+      "Balaenoptera brevicauda",
+      "Balaenoptera carolinae",
+      "Balaenoptera gigas",
+      "Balaenoptera indica",
+      "Balaenoptera jubartes",
+      "Balaenoptera miramaris",
+      "Balaenoptera sulfurea",
+      "Cuvierius latirostris",
+      "Physalus boops",
+      "Physalus indicus",
+      "Physalus latirostris",
+      "Pterobalaena gigas"
+    ],
+    "Balaenoptera physalus": [
+      "Balaena antipodarum",
+      "Balaena maximus borealis",
+      "Balaena mysticetus major",
+      "Balaena physalis",
+      "Balaena physalus",
+      "Balaena rostrata australis",
+      "Balaena sulcata",
+      "Balaena tschudii",
+      "Balaenoptera antarctica",
+      "Balaenoptera antiquorum",
+      "Balaenoptera aragous",
+      "Balaenoptera australis",
+      "Balaenoptera blythii",
+      "Balaenoptera brasiliensis",
+      "Balaenoptera copei"
+    ],
+    "Barbastella barbastellus": [
+      "Barbastella communis",
+      "Barbastella daubentoni"
+    ],
+    "Bison bison": [
+      "Bison americanus",
+      "Bison americanus pennsylvanicus",
+      "Bison bison athabasacae",
+      "Bison bison athabascae",
+      "Bison bison bison",
+      "Bison bison septemtrionalis",
+      "Bison sylvestris",
+      "Bos americanus",
+      "Bos bison"
+    ],
+    "Bos taurus": [
+      "Bos domestic"
+    ],
+    "Callicebus nigrifrons": [
+      "Callicebus personatus brunello",
+      "Callicebus personatus nigrifrons",
+      "Callithrix chlorocnemius",
+      "Callithrix crinicaudus",
+      "Callithrix nigrifrons",
+      "Callithryx chlorocnemius",
+      "Jacchus grandis",
+      "Pithecia melanops"
+    ],
+    "Callithrix jacchus": [
+      "Hapale communis",
+      "Hapale jacchus",
+      "Hapale leucotes",
+      "Hapale leucotis",
+      "Jacchus albicollis",
+      "Jacchus vulgaris",
+      "Jacchus vulgaris rufus",
+      "Simia jacchus",
+      "Simia jacchus moschatus"
+    ],
+    "Callosciurus erythraeus": [
+      "Sciurus erythraeus"
+    ],
+    "Canis aureus": [
+      "Aureus aureus"
+    ],
+    "Canis latrans": [
+      "Canis andersoni",
+      "Canis caneloensis",
+      "Canis clepticus",
+      "Canis estor",
+      "Canis frustror",
+      "Canis goldmani",
+      "Canis hondurensis",
+      "Canis impavidus",
+      "Canis irvingtonensis",
+      "Canis jamesi",
+      "Canis lestes",
+      "Canis mearnsi",
+      "Canis microdon",
+      "Canis nebrascensis",
+      "Canis orcutti"
+    ],
+    "Canis lupus": [
+      "Canis furlongi",
+      "Canis nubilus",
+      "Canis pambasileus",
+      "Canis petrolei",
+      "Canis tundrarum",
+      "Lupus gigas",
+      "Lupus lupus"
+    ],
+    "Canis lupus familiaris": [
+      "Canis familiaris",
+      "Canis familiarus domesticus",
+      "Pachycyon robustus"
+    ],
+    "Capra hircus": [
+      "Capra domestic"
+    ],
+    "Capreolus capreolus": [
+      "Cervus capreolus"
+    ],
+    "Carollia perspicillata": [
+      "Hemiderma brevicauda",
+      "Hemiderma perspicillatum",
+      "Phyllostoma brevicaudum",
+      "Vespertilio perspicillata"
+    ],
+    "Castor canadensis": [
+      "Castor caecator",
+      "Castor canadensis acadicus",
+      "Castor canadensis baileyi",
+      "Castor canadensis belugae",
+      "Castor canadensis caecator",
+      "Castor canadensis canadensis",
+      "Castor canadensis carolinensis",
+      "Castor canadensis concisor",
+      "Castor canadensis duchesnei",
+      "Castor canadensis frondator",
+      "Castor canadensis idoneus",
+      "Castor canadensis labradorensis",
+      "Castor canadensis leucodontus",
+      "Castor canadensis mexicanus",
+      "Castor canadensis michiganensis"
+    ],
+    "Cavia porcellus": [
+      "Mus porcellus"
+    ],
+    "Cebus capucinus": [
+      "Cebus capucinus albulus",
+      "Cebus capucinus limitaneus",
+      "Cebus capucinus nigripectus",
+      "Cebus curtus",
+      "Cebus hypoleucus",
+      "Simia capucina"
+    ],
+    "Cercocebus atys": [
+      "Cercocebus aethiopicus",
+      "Cercocebus atys atys",
+      "Cercocebus atys lunulatus",
+      "Cercocebus fuliginosus",
+      "Cercopithecus lunulatus",
+      "Simia atys"
+    ],
+    "Cercopithecus diana": [
+      "Cercopithecus diana diana",
+      "Cercopithecus diana ignita",
+      "Simia diana",
+      "Simia faunus"
+    ],
+    "Cercopithecus mitis": [],
+    "Cercopithecus nictitans": [
+      "Simia nictitans",
+      "Simioa nicticans"
+    ],
+    "Cervus elaphus": [
+      "Cervus albicus",
+      "Cervus albifrons",
+      "Cervus albus",
+      "Cervus atlanticus",
+      "Cervus balticus",
+      "Cervus elaphus carpathicus",
+      "Cervus elaphus tauricus",
+      "Cervus germanicus",
+      "Cervus hippelaphus",
+      "Cervus hispanicus",
+      "Cervus mediterraneus",
+      "Cervus minor",
+      "Cervus montanus",
+      "Cervus neglectus",
+      "Cervus rhenanus"
+    ],
+    "Chlorocebus pygerythrus": [
+      "Cercopithecus aethiops pygerythrus",
+      "Cercopithecus pygerythrus",
+      "Simia pygerythrus"
+    ],
+    "Crocuta crocuta": [
+      "Canis crocuta",
+      "Crocotta kibotonensis",
+      "Crocotta panganensis",
+      "Crocuta crocuta fisi",
+      "Crocuta crocuta fortis",
+      "Crocuta nyassae",
+      "Crocuta nzoyae",
+      "Crocuta rufopicta",
+      "Crocuta thomasi",
+      "Hyaena capensis",
+      "Hyaena crocuta",
+      "Hyaena cuvieri",
+      "Hyaena gariepensis",
+      "Hyaena germinans",
+      "Hyaena leontiewi"
+    ],
+    "Cynomys ludovicianus": [
+      "Arctomys ludoviciana",
+      "Cynomys arizonensis",
+      "Cynomys cinereus",
+      "Cynomys meadensis",
+      "Cynomys pyrrotrichus",
+      "Monax missouriensis"
+    ],
+    "Dama dama": [
+      "Cervus albus",
+      "Cervus dama",
+      "Cervus leucaethiops",
+      "Cervus maura",
+      "Cervus mauricus",
+      "Cervus niger",
+      "Cervus platyceros",
+      "Cervus plinii"
+    ],
+    "Delphinapterus leucas": [
+      "Balaena albicans",
+      "Beluga angustata",
+      "Beluga borealis",
+      "Beluga canadensis",
+      "Beluga catodon",
+      "Beluga concreta",
+      "Beluga declivis",
+      "Beluga glacialis",
+      "Beluga kingii",
+      "Beluga rhinodon",
+      "Beluga vermontana",
+      "Catodon albicans",
+      "Catodon canadensis",
+      "Catodon candicans",
+      "Catodon sibbaldi"
+    ],
+    "Desmodus rotundus": [],
+    "Diceros bicornis": [],
+    "Elephas maximus": [
+      "Elephas asiaticus",
+      "Elephas gigas"
+    ],
+    "Eptesicus fuscus": [],
+    "Eptesicus nilssonii": [
+      "Eptesicus atratus",
+      "Eptesicus borealis",
+      "Eptesicus nilssonii nilssonii",
+      "Eptesicus nilssonii parvus",
+      "Eptesicus parvus",
+      "Vespertilio nilssonii"
+    ],
+    "Eptesicus serotinus": [
+      "Eptesicus boscai",
+      "Eptesicus incisivus",
+      "Eptesicus insularis",
+      "Eptesicus intermedius",
+      "Eptesicus kuhlii",
+      "Eptesicus meridionalis",
+      "Eptesicus okenii",
+      "Eptesicus rufescens",
+      "Eptesicus serotine",
+      "Eptesicus transylvanus",
+      "Eptesicus typus",
+      "Eptesicus wiedii"
+    ],
+    "Equus caballus": [
+      "Equus asinus hippagrus",
+      "Equus caballus caballus",
+      "Equus caballus domesticus",
+      "Equus caballus fossilis",
+      "Equus caballus gallicus",
+      "Equus caballus germanicus",
+      "Equus caballus piveteaui",
+      "Equus curvidens",
+      "Equus ferus caballus",
+      "Equus hippagrus",
+      "Equus neogaeus",
+      "Equus neogeus",
+      "Equus rectidens",
+      "Hipphaplus bravardi",
+      "Hippidium neogaeum"
+    ],
+    "Eschrichtius robustus": [
+      "Agaphelus gibbosus",
+      "Agaphelus glaucus",
+      "Balaena boops",
+      "Balaena gibbosa",
+      "Balaenoptera robusta",
+      "Eschrichtius gibbosus",
+      "Eschrichtius glaucus",
+      "Megaptera robusta",
+      "Plesiocetus robustus",
+      "Rachianectes glaucus",
+      "Rhachianectes glaucus"
+    ],
+    "Eubalaena glacialis": [
+      "Balaena biscayensis",
+      "Balaena cisarctica",
+      "Balaena eubalaena",
+      "Balaena euskariensis",
+      "Balaena glacialis",
+      "Balaena glacialis glacialis",
+      "Balaena islandica",
+      "Balaena mediterranea",
+      "Balaena mysticetus islandica",
+      "Balaena nordcaper",
+      "Balaena svendenborgii",
+      "Balaena swedenborgii",
+      "Balaena tarentina",
+      "Balaena vanbenedeniana",
+      "Balaena vanbenediana"
+    ],
+    "Eulemur fulvus": [
+      "Eulemur fulvus fulvus",
+      "Eulemur fulvus mayottensis",
+      "Lemur bruneus",
+      "Lemur fulvus",
+      "Lemur fulvus mayottensis",
+      "Lemur mayottensis"
+    ],
+    "Eumetopias jubatus": [
+      "Eumetopias stelleri",
+      "Otaria jubata",
+      "Otaria stellerii",
+      "Phoca jubata",
+      "Phoca stelleri"
+    ],
+    "Eumops glaucinus": [
+      "Dysopes glaucinus",
+      "Eumops glaucinus glaucinus"
+    ],
+    "Felis catus": [
+      "Felis catus domestica",
+      "Felis domesticus",
+      "Felis lybica domestica",
+      "Felis maniculata",
+      "Felis maniculata domestica",
+      "Felis silvestris catus"
+    ],
+    "Galago senegalensis": [],
+    "Giraffa camelopardalis": [
+      "Camelopardalis capensis",
+      "Cervus camelopardalis"
+    ],
+    "Glaucomys volans": [
+      "Mus volans",
+      "Sciuropterus volans"
+    ],
+    "Glis glis": [
+      "Glis esculentus",
+      "Glis glis abruttii",
+      "Glis glis argenteus",
+      "Glis glis italicus",
+      "Glis glis melonii",
+      "Glis glis minutus",
+      "Glis glis petruccii",
+      "Glis glis pindicus",
+      "Glis glis postus",
+      "Glis glis pyrenaicus",
+      "Glis glis spoliatus",
+      "Glis glis subalpinus",
+      "Glis glis tschetshenicus",
+      "Glis insularis",
+      "Glis italicus"
+    ],
+    "Globicephala macrorhynchus": [
+      "Delphinus fuscus",
+      "Globicephala baereckeii",
+      "Globicephala brachycephala",
+      "Globicephala brachypterus",
+      "Globicephala chinensis",
+      "Globicephala indica",
+      "Globicephala macrorhyncha",
+      "Globicephala mela",
+      "Globicephala melaena sieboldi",
+      "Globicephala melas scammonii",
+      "Globicephala scammoni",
+      "Globicephala scammonii",
+      "Globicephala scamonii",
+      "Globicephala sieboldii",
+      "Globicephala ventricosa"
+    ],
+    "Globicephala melas": [
+      "Delphinus deductor",
+      "Delphinus globiceps",
+      "Delphinus grampus",
+      "Delphinus grinda",
+      "Delphinus melaena",
+      "Delphinus melas",
+      "Globicephala edwardii",
+      "Globicephala melaena",
+      "Globicephala melas leucosagmaphora",
+      "Globicephala meloena",
+      "Globicephalus affinis",
+      "Globicephalus australis",
+      "Globicephalus chilensis",
+      "Globicephalus chiliensis",
+      "Globicephalus conductor"
+    ],
+    "Gorilla gorilla": [
+      "Troglodytes gorilla"
+    ],
+    "Halichoerus grypus": [
+      "Halichoerus griseus",
+      "Halichoerus grypha",
+      "Phoca atlantica",
+      "Phoca baltica",
+      "Phoca griseus",
+      "Phoca grypus",
+      "Phoca halichoerus",
+      "Phoca macrorhynchus",
+      "Phoca pachyrhynchus",
+      "Phocha halichoreus"
+    ],
+    "Helogale parvula": [
+      "Helogale undulata",
+      "Herpestes parvulus",
+      "Herpestes undulatus"
+    ],
+    "Heterocephalus glaber": [
+      "Heterocephalus ansorgei",
+      "Heterocephalus dunni",
+      "Heterocephalus phillipsi",
+      "Heterocephalus progrediens",
+      "Heterocephalus scortecci",
+      "Heterocephalus stygius"
+    ],
+    "Hippopotamus amphibius": [
+      "Hippopotamus incognitus"
+    ],
+    "Homo sapiens": [
+      "Homo americanus",
+      "Homo arabicus",
+      "Homo australasicus",
+      "Homo cafer",
+      "Homo capensis",
+      "Homo columbicus",
+      "Homo cro-magnonensis",
+      "Homo drennani",
+      "Homo fossilis protoaethiopicus",
+      "Homo grimaldii",
+      "Homo hottentotus",
+      "Homo hyperboreus",
+      "Homo indicus",
+      "Homo japeticus",
+      "Homo melaninus"
+    ],
+    "Hylobates lar": [
+      "Homo lar",
+      "Hylobates variegates",
+      "Hylobates varius"
+    ],
+    "Hylochoerus meinertzhageni": [],
+    "Hypsugo savii": [
+      "Pipistrellus agilis",
+      "Pipistrellus aristippe",
+      "Pipistrellus bonapartii",
+      "Pipistrellus leucippe",
+      "Pipistrellus maurus",
+      "Pipistrellus nigrans",
+      "Pipistrellus ochromixtus",
+      "Pipistrellus savii savii",
+      "Pipistrellus tauricus"
+    ],
+    "Ictidomys tridecemlineatus": [
+      "? tridecemlineatus",
+      "Sciurus tridecemlineatus",
+      "Spermophilus tridecemlineatus"
+    ],
+    "Indri indri": [
+      "Indri brevicaudatus",
+      "Indri indri indri",
+      "Indri indri variegatus",
+      "Indri niger",
+      "Indris ater",
+      "Indris brevicaudatus",
+      "Indris variegatus",
+      "Lemur indri",
+      "Lichanotus indri",
+      "Lichanotus mitratus",
+      "Pithelemur indri"
+    ],
+    "Lagenorhynchus obliquidens": [
+      "Delphinus longidens",
+      "Delphinus obliquidens",
+      "Lagenorhynchus longidens",
+      "Lagenorhynchus ognevi",
+      "Sagmatias obliquidens"
+    ],
+    "Lasionycteris noctivagans": [
+      "Vespertilio noctivagans"
+    ],
+    "Lasiurus blossevillii": [
+      "Vespertilio blossevilii",
+      "Vespertilio bonariensis"
+    ],
+    "Lemur catta": [
+      "Maki mococo"
+    ],
+    "Leptonychotes weddellii": [
+      "Leptonyx weddellii",
+      "Ogmorhinus weddelli",
+      "Otaria weddellii"
+    ],
+    "Loxodonta africana": [
+      "Elephas africana",
+      "Elephas capensis",
+      "Loxodonta africana africana"
+    ],
+    "Loxodonta cyclotis": [
+      "Elephas africanus albertensis",
+      "Elephas africanus cottoni",
+      "Elephas africanus cyclotis",
+      "Elephas africanus fransseni",
+      "Elephas africanus pumilio",
+      "Elephas capensis cyclotis",
+      "Loxodonta africana cyclotis"
+    ],
+    "Lycaon pictus": [
+      "Hyaena picta"
+    ],
+    "Macaca fascicularis": [
+      "Macaco fascicularis",
+      "Semnpithecus kra",
+      "Simia fascicularis"
+    ],
+    "Macaca fuscata": [
+      "Inuus fuscatus"
+    ],
+    "Macaca mulatta": [
+      "? fulvus",
+      "Cercopithecus mulatta",
+      "Inuus sanctijohannis",
+      "Macaca brachyurus",
+      "Macaca brevicaudatus",
+      "Macaca erythraea",
+      "Macaca fulvus",
+      "Macaca lasiotus",
+      "Macaca littoralis",
+      "Macaca mcmahoni",
+      "Macaca mulatta mcmahoni",
+      "Macaca nipalensis",
+      "Macaca oinops",
+      "Macaca rhesus",
+      "Macaca sancti-johannis"
+    ],
+    "Marmota flaviventris": [
+      "Arctomys flaviventer",
+      "Marmota engelhardti",
+      "Marmota flaviventer"
+    ],
+    "Marmota marmota": [
+      "Arctomys marmotta",
+      "Mus marmota"
+    ],
+    "Megaptera novaeangliae": [
+      "Balaena allamack",
+      "Balaena atlanticus",
+      "Balaena boops",
+      "Balaena gibbosa",
+      "Balaena lalandii",
+      "Balaena longimana",
+      "Balaena longipinna",
+      "Balaena nodosa",
+      "Balaena novaeangliae",
+      "Balaena sulcata antarctica",
+      "Balaenoptera antarctica",
+      "Balaenoptera astrolabae",
+      "Balaenoptera astrolabe",
+      "Balaenoptera australis",
+      "Balaenoptera capensis"
+    ],
+    "Mephitis mephitis": [
+      "Mephitis mesomelas",
+      "Viverra mephitis"
+    ],
+    "Meriones unguiculatus": [
+      "Gerbillus koslovi",
+      "Gerbillus unguiculatus",
+      "Meriones chihfengensis",
+      "Meriones koslovi",
+      "Meriones kurauchii",
+      "Meriones kurauchii chihfengensis",
+      "Pallasiomys unguiculatus selenginus"
+    ],
+    "Microcebus murinus": [
+      "Cheirogaleus minor",
+      "Chirogaleus gliroides",
+      "Galago madagascarensis",
+      "Galago madagascariensis",
+      "Lemur murinus",
+      "Lemur prehensilis",
+      "Lemur pusillus",
+      "Lemus murinus",
+      "Myscebus palmarum",
+      "Prosimia minima"
+    ],
+    "Miniopterus schreibersii": [
+      "Miniopterus schreibersii orsinii",
+      "Miniopterus schreibersii schreibersii",
+      "Vespertilio orsinii",
+      "Vespertilio schreibersii"
+    ],
+    "Mirounga angustirostris": [
+      "Macrorhinus angustirostris"
+    ],
+    "Mirounga leonina": [
+      "Macrorhinus leonina",
+      "Macrorhinus leoninus crosetensis",
+      "Macrorhinus leoninus macquariensis",
+      "Mirounga leonina crosetensis",
+      "Mirounga leonina falclandica",
+      "Mirounga leonina macquariensis",
+      "Otaria leonina",
+      "Phoca leonina"
+    ],
+    "Molossus molossus": [
+      "Molossus debilis",
+      "Molossus fortis",
+      "Molossus molossus debilis",
+      "Molossus molossus fortis",
+      "Molossus molossus molossus",
+      "Molossus molossus pygmaeus",
+      "Molossus pygmaeus",
+      "Vespertilio molossus"
+    ],
+    "Monodon monoceros": [
+      "Ceratodon monodon",
+      "Ceratodontis ceratodon",
+      "Monodon microcephalus",
+      "Monodon moneceros",
+      "Monodon monocerus",
+      "Monodon narhval",
+      "Monodon narhwal",
+      "Narwalus andersonianus",
+      "Narwalus microcephalus",
+      "Narwalus vulgaris",
+      "Tachynices megacephalus"
+    ],
+    "Muntiacus reevesi": [
+      "Cervulus bridgemani",
+      "Cervulus reevesi pingshiangicus",
+      "Cervulus sclateri",
+      "Cervulus sinensis",
+      "Cervus lachrymans",
+      "Cervus reevesi",
+      "Muntiacus lachrymans teesdalei"
+    ],
+    "Mus musculus": [
+      "Mus bactrianus tantillus",
+      "Mus domesticus",
+      "Mus molossinus",
+      "Mus molossinus yonakuni",
+      "Mus muscularus",
+      "Mus musculus cinereomaculatus",
+      "Mus musculus domesticus",
+      "Mus musculus varius",
+      "Mus nordmanni"
+    ],
+    "Mustela putorius furo": [
+      "Mustela furo"
+    ],
+    "Myotis capaccinii": [
+      "Myotis blasii",
+      "Myotis bureschi",
+      "Myotis dasypus",
+      "Myotis majori",
+      "Myotis megapodius",
+      "Myotis pellucens",
+      "Vespertilio capaccinii"
+    ],
+    "Myotis dasycneme": [
+      "Myotis limnophilus",
+      "Myotis major",
+      "Vespertilio dasycneme"
+    ],
+    "Myotis daubentonii": [
+      "Myotis aedilus",
+      "Myotis albus",
+      "Myotis capucinellus",
+      "Myotis daubentonii daubentonii",
+      "Myotis daubentonii nathalinae",
+      "Myotis daubentonii volgensis",
+      "Myotis lanatus",
+      "Myotis minutellus",
+      "Myotis nathalinae",
+      "Myotis nathalinea",
+      "Myotis staufferi",
+      "Myotis volgensis",
+      "Vespertilio daubentonii",
+      "Vespertilio volgensis"
+    ],
+    "Myotis lucifugus": [],
+    "Myotis nattereri": [
+      "Myotis nattereri nattereri",
+      "Myotis spelaeus",
+      "Myotis typicus",
+      "Vespertilio nattereri"
+    ],
+    "Myotis riparius": [
+      "Myotis simus riparius"
+    ],
+    "Noctilio leporinus": [],
+    "Nomascus concolor": [
+      "Hylobates concolor",
+      "Hylobates harlani",
+      "Hylobates niger",
+      "Nomascus harlani",
+      "Nomascus henrici",
+      "Nomascus niger",
+      "Simia concolor"
+    ],
+    "Nyctalus leisleri": [
+      "Nyctalus dasykarpos",
+      "Nyctalus leiseri",
+      "Nyctalus pachygnatus"
+    ],
+    "Nyctalus noctula": [
+      "Nyctalus altivolans",
+      "Nyctalus lardarius",
+      "Nyctalus magnus",
+      "Nyctalus minima",
+      "Nyctalus palustris",
+      "Nyctalus princeps",
+      "Nyctalus proterus"
+    ],
+    "Ochotona princeps": [
+      "Lepus princeps"
+    ],
+    "Octodon degus": [
+      "Sciurus degus"
+    ],
+    "Odobenus rosmarus": [
+      "Hemicaulodon effodiens",
+      "Odebenus rosmarus",
+      "Odobaenus rosmarus",
+      "Odobenotherium lartetianum",
+      "Odobenotherium virginianum",
+      "Odobenus arcticus",
+      "Odobenus virginianus",
+      "Phoca rosmarus",
+      "Rosmarus arcticus",
+      "Rosmarus rosmarus",
+      "Trichechus rosmarus",
+      "Trichechus virginianus"
+    ],
+    "Odocoileus virginianus": [
+      "Cervus virginianus",
+      "Dama virginiana",
+      "Odocoileus cooki",
+      "Odocoileus sheridanus"
+    ],
+    "Orcinus orca": [
+      "Delphinus duhameli",
+      "Delphinus gladiator",
+      "Delphinus grampus",
+      "Delphinus orca",
+      "Delphinus orca ensidoratus",
+      "Delphinus serra",
+      "Delphinus victorini",
+      "Grampus orca",
+      "Grampus rectipinna",
+      "Grampus vectipinna",
+      "Ophysia pacifica",
+      "Orca africana",
+      "Orca antarctica",
+      "Orca ater",
+      "Orca ater fusca"
+    ],
+    "Otospermophilus beecheyi": [
+      "Arctomys beecheyi",
+      "Sciurus beecheyi",
+      "Spermophilus beecheyi"
+    ],
+    "Otospermophilus variegatus": [
+      "Sciurus variegatus",
+      "Spermophilus buccatus",
+      "Spermophilus macrourus",
+      "Spermophilus variegatus"
+    ],
+    "Ovis aries": [
+      "Ovis domestic",
+      "Ovis laristanica"
+    ],
+    "Pagophilus groenlandicus": [
+      "Pagophilus groenlandicus groenlandicus",
+      "Pagophilus groenlandicus oceanicus",
+      "Pagophoca groenlandica",
+      "Phoca albicauda",
+      "Phoca albini",
+      "Phoca groenlandica",
+      "Phoca groenlica",
+      "Phoca leucopla",
+      "Phoca oceanica",
+      "Phoca semilunaris"
+    ],
+    "Pan paniscus": [
+      "Pan satyrus paniscus"
+    ],
+    "Pan troglodytes": [
+      "Simia troglodytes"
+    ],
+    "Panthera leo": [
+      "Felis imperialis",
+      "Felis leo"
+    ],
+    "Panthera pardus": [
+      "Felis pardus"
+    ],
+    "Panthera tigris": [
+      "Felis tigris"
+    ],
+    "Papio anubis": [
+      "Cynocephalus anubis",
+      "Cynocephalus choras",
+      "Cynocephalus doguera",
+      "Papio anubis doguera",
+      "Papio anubis furax",
+      "Papio anubis heuglini",
+      "Papio anubis lestes",
+      "Papio anubis neumanni",
+      "Papio anubis niloticus",
+      "Papio anubis olivaceus",
+      "Papio anubis tessellatus",
+      "Papio anubis tibestianus",
+      "Papio anubis vigilis",
+      "Papio doguera",
+      "Papio furax"
+    ],
+    "Papio ursinus": [
+      "Cercopithecus hamadryas ursinus",
+      "Simia hamadryas ursinus"
+    ],
+    "Peropteryx kappleri": [],
+    "Petaurus australis": [],
+    "Petaurus breviceps": [],
+    "Petaurus notatus": [],
+    "Phascolarctos cinereus": [
+      "Lipurus cinereus"
+    ],
+    "Phoca vitulina": [
+      "Callocephalus vitulina",
+      "Halichoerus antarcticus",
+      "Halicyon pealei"
+    ],
+    "Phocoena phocoena": [
+      "Delphinus phocaena",
+      "Delphinus phocoena",
+      "Delphinus ventricosus",
+      "Phocaena brachcium",
+      "Phocaena brachycium",
+      "Phocaena communis",
+      "Phocaena fuscus",
+      "Phocaena phocaena",
+      "Phocaena phocaena acuminata",
+      "Phocaena phocaena conidens",
+      "Phocaena tuberculifera",
+      "Phocena phocena",
+      "Phocoena relicta",
+      "Phocoena rondeletti",
+      "Phocoena vomerina"
+    ],
+    "Phyllostomus discolor": [],
+    "Physeter macrocephalus": [
+      "Catodon australis",
+      "Catodon colneti",
+      "Catodon krefftii",
+      "Catodon macrocephalus",
+      "Catodon trumpo",
+      "Cetus cylindricus",
+      "Delphinus bayeri",
+      "Meganeuron krefftii",
+      "Megistosaurus ensiformis",
+      "Phiseter cylindricus",
+      "Phiseter mular",
+      "Phiseter trumpo",
+      "Physalus cylindricus",
+      "Physeter andersonii",
+      "Physeter australasianus"
+    ],
+    "Pipistrellus abramus": [
+      "Vespertilio abramus",
+      "Vespertilio pumiloides",
+      "Vspertilio akokomuli"
+    ],
+    "Pipistrellus creticus": [
+      "Pipistrellus hanaki creticus"
+    ],
+    "Pipistrellus kuhlii": [
+      "Pipistrellus aegyptius",
+      "Pipistrellus deserti",
+      "Vesperugo kuhlii"
+    ],
+    "Pipistrellus nathusii": [
+      "Pipistrellus unicolor",
+      "Vespertilio nathusii"
+    ],
+    "Pipistrellus pipistrellus": [
+      "Pipistrellus brachyotos",
+      "Pipistrellus genei",
+      "Pipistrellus limbatus",
+      "Pipistrellus melanopterus",
+      "Pipistrellus murinus",
+      "Pipistrellus nigricans",
+      "Vesperugo pipistrellus"
+    ],
+    "Pipistrellus pygmaeus": [
+      "Vespertilio mediterraneus",
+      "Vespertilio pygmaeus"
+    ],
+    "Plecotus auritus": [
+      "Plecotus brevimanus"
+    ],
+    "Pongo abelii": [
+      "Pithecus satyrus abelii",
+      "Pithecus satyrus abongensis",
+      "Pithecus satyrus deliensis",
+      "Pithecus satyrus langkatensis",
+      "Simia abelii",
+      "Simia gigantica",
+      "Simia satyrus abelii"
+    ],
+    "Pongo pygmaeus": [
+      "Simia pygmaeus"
+    ],
+    "Procyon lotor": [
+      "Procyon gloveralleni",
+      "Procyon lotor flavidus",
+      "Procyon lotor gloveralleni",
+      "Procyon lotor maynardi",
+      "Procyon lotor varius",
+      "Procyon maynardi",
+      "Procyon minor",
+      "Procyon nanus",
+      "Procyon priscus",
+      "Procyon simus",
+      "Ursus lotor"
+    ],
+    "Propithecus coquereli": [
+      "? coquereli",
+      "Propithecus damonis",
+      "Propithecus verreauxi coquereli"
+    ],
+    "Pteropus poliocephalus": [],
+    "Pteropus vampyrus": [
+      "Pteropus assamensis",
+      "Pteropus caninus",
+      "Pteropus celaeno",
+      "Pteropus edwardsi",
+      "Pteropus funereus",
+      "Pteropus giganteus",
+      "Pteropus intermedius",
+      "Pteropus javanicus",
+      "Pteropus kalou",
+      "Pteropus kelaarti",
+      "Pteropus kopangi",
+      "Pteropus malaccensis",
+      "Pteropus natunae",
+      "Pteropus nudus",
+      "Pteropus pteronotus"
+    ],
+    "Puma concolor": [
+      "Felis aztecus",
+      "Felis bituminosa",
+      "Felis concolor",
+      "Felis coryi",
+      "Felis daggetti",
+      "Felis hawveri"
+    ],
+    "Rangifer tarandus": [
+      "Cervus tarandus",
+      "Rangifer muscatinensis",
+      "Rangifer spitzbergensis",
+      "Rangifer tarandus platyrhynchos"
+    ],
+    "Rattus norvegicus": [
+      "Epimys norvegicus",
+      "Epimys norvegicus socer",
+      "Mus caraco",
+      "Mus caspius",
+      "Mus decumanoides",
+      "Mus decumanus",
+      "Mus decumanus hybridus",
+      "Mus decumanus major",
+      "Mus griseipectus",
+      "Mus hibernicus",
+      "Mus humiliatus",
+      "Mus javanus",
+      "Mus magnirostris",
+      "Mus maniculatus",
+      "Mus maurus"
+    ],
+    "Rhinolophus ferrumequinum": [
+      "Rhinolophus ferrumequinum korai",
+      "Rhinolophus ferrumequinum martinoi",
+      "Rhinolophus hippocrepis"
+    ],
+    "Rhinolophus hipposideros": [],
+    "Rousettus aegyptiacus": [
+      "Rousettus egyptiacus"
+    ],
+    "Saccopteryx bilineata": [
+      "Urocryptus bilineatus"
+    ],
+    "Saguinus oedipus": [
+      "Jacchus oedipus",
+      "Leontopithecus oedipus",
+      "Oedipus titi",
+      "Seniocebus meticulous",
+      "Simia oedipus"
+    ],
+    "Saimiri sciureus": [
+      "Callithrix sciureus",
+      "Chrysothrix nigrivittata",
+      "Lemur leucopsis",
+      "Saimiri sciureus sciureus",
+      "Sapajou saimiri",
+      "Simia apedia",
+      "Simia morta",
+      "Simia sciurea"
+    ],
+    "Sarcophilus harrisii": [
+      "Ursinus harrisii"
+    ],
+    "Sciurus carolinensis": [],
+    "Sciurus griseus": [],
+    "Sciurus niger": [],
+    "Sciurus vulgaris": [
+      "Sciurus alpinus",
+      "Sciurus balcanicus",
+      "Sciurus carpathicus",
+      "Sciurus croaticus",
+      "Sciurus europaeus",
+      "Sciurus fuscoater",
+      "Sciurus graeca",
+      "Sciurus italicus",
+      "Sciurus leucurus",
+      "Sciurus lilaeus",
+      "Sciurus typicus",
+      "Sciurus vulgaris hoffmanni"
+    ],
+    "Scotinomys teguina": [
+      "Akodon irazu",
+      "Akodon teguina apricus",
+      "Scotinomys teguina cacabatus",
+      "Scotinomys teguina endersi",
+      "Scotinomys teguina episcopi",
+      "Scotinomys teguina escazuensis",
+      "Scotinomys teguina garichensis",
+      "Scotinomys teguina leridensis",
+      "Scotinomys teguina rufoniger",
+      "Scotinomys teguina stenopygius",
+      "Scotinomys teguina subnubilis"
+    ],
+    "Sousa chinensis": [
+      "Delphinus chinensis",
+      "Delphinus sinensis",
+      "Sotalia borneensis",
+      "Sotalia chinensis",
+      "Sotalia plumbea",
+      "Sotalia sinensis",
+      "Sousa borneensis",
+      "Sousa huangi",
+      "Sousa lentiginosa",
+      "Sousa queenslandensis",
+      "Steno chinensis",
+      "Steno lentiginosus"
+    ],
+    "Stenella frontalis": [
+      "Clymene doris",
+      "Clymenia doris",
+      "Clymenia fraenata",
+      "Clymenia frontalis",
+      "Delphinus doris",
+      "Delphinus fraenatus",
+      "Delphinus frenatus",
+      "Delphinus froenatus",
+      "Delphinus frontalis",
+      "Delphinus pernettensis",
+      "Delphinus pernettyi",
+      "Delphinus plagiodon",
+      "Prodelphinus doris",
+      "Prodelphinus fraenatus",
+      "Prodelphinus frenatus"
+    ],
+    "Stenella longirostris": [
+      "Champsodelphis longirostris",
+      "Champsodelphis renoui",
+      "Champsodelphis renovi",
+      "Champsodelphis stenorhynchus",
+      "Clymene stenorhynchus",
+      "Clymenia longirostris",
+      "Clymenia roseiventris",
+      "Clymenia stenorhynchus",
+      "Delphinus longirostris",
+      "Delphinus renoui",
+      "Delphinus renovi",
+      "Delphinus stenorhynchus",
+      "Fretidelphis roseiventris",
+      "Pomatodelphis stenorhynchus",
+      "Prodelphinus alope"
+    ],
+    "Suricata suricatta": [
+      "Viverra suricatta"
+    ],
+    "Sus scrofa": [
+      "Sus andamanensis",
+      "Sus aruensis",
+      "Sus attila",
+      "Sus babi",
+      "Sus baeticus",
+      "Sus castilianus",
+      "Sus celtica",
+      "Sus ceramensis",
+      "Sus continentalis",
+      "Sus domesticus",
+      "Sus enganus",
+      "Sus europaeus",
+      "Sus floresianus",
+      "Sus goramensis",
+      "Sus natunensis"
+    ],
+    "Sus scrofa domesticus": [],
+    "Symphalangus syndactylus": [
+      "Hylobates syndactylus",
+      "Hylobates syndactylus continentis",
+      "Siamanga syndactyla",
+      "Simia gibbon",
+      "Simia syndactyla",
+      "Symphalangus continentis",
+      "Symphalangus gibbon",
+      "Symphalangus subfossilis",
+      "Symphalangus syndactylus continentis",
+      "Symphalangus syndactylus volzi",
+      "Symphalangus volzi"
+    ],
+    "Tadarida brasiliensis": [],
+    "Tadarida teniotis": [
+      "Cephalotes teniotis",
+      "Dysopes rupelii",
+      "Tadarida cestoni",
+      "Tadarida nigrogriseus",
+      "Tadarida ruppellii",
+      "Tadarida savii",
+      "Tadarida teniotis rueppelli",
+      "Tadarida teniotis teniotis"
+    ],
+    "Tamias merriami": [
+      "Eutamias merriami",
+      "Neotamias merriami",
+      "Tamias pricei"
+    ],
+    "Tamias striatus": [
+      "Sciurus striatus"
+    ],
+    "Tamiasciurus douglasii": [
+      "Citellus douglasi",
+      "Sciurus douglasii"
+    ],
+    "Tamiasciurus hudsonicus": [
+      "Sciurus hudsonicus",
+      "Sciurus tenuidens"
+    ],
+    "Tapirus terrestris": [
+      "Hippopotamus terrestris"
+    ],
+    "Tarsius syrichta": [
+      "Tarsius syrichta syrichta"
+    ],
+    "Tarsius tarsier": [
+      "Didelphys macrotarsos",
+      "Lemur podje",
+      "Lemur spectrum",
+      "Lemur tarsier",
+      "Macrotarsus buffonii",
+      "Tarsius buffonii",
+      "Tarsius daubentonii",
+      "Tarsius fuscus fuscomanus",
+      "Tarsius macrotarsos",
+      "Tarsius pallassii",
+      "Tarsius podje",
+      "Tarsius spectrum",
+      "Tarsius spectrum spectrum"
+    ],
+    "Theropithecus gelada": [
+      "Macacus gelada"
+    ],
+    "Trichosurus vulpecula": [
+      "Didelphis vulpecula"
+    ],
+    "Tursiops aduncus": [
+      "Clymenia gudamu",
+      "Delphinus aduncus",
+      "Sotalia gadumu",
+      "Tursiops truncatus aduncus"
+    ],
+    "Tursiops truncatus": [
+      "Delphinus compressicauda",
+      "Delphinus cymodoce",
+      "Delphinus erebennus",
+      "Delphinus metis",
+      "Delphinus nesarnack",
+      "Delphinus nesarnak",
+      "Delphinus parvimanus",
+      "Delphinus troncatus",
+      "Delphinus truncatus",
+      "Delphinus tursio",
+      "Delphinus tursio obtusus",
+      "Phocoena compressicauda",
+      "Tursio compressicauda",
+      "Tursio cymodice",
+      "Tursio cymodoce"
+    ],
+    "Urocitellus beldingi": [
+      "Spermophilus beldingi"
+    ],
+    "Urocyon cinereoargenteus": [
+      "Canis cinereoargentatus",
+      "Canis cinereoargenteus",
+      "Canis virginianus",
+      "Urocyon californicus",
+      "Urocyon guatemalae",
+      "Urocyon parvidens",
+      "Vulpes pensylvanicus"
+    ],
+    "Ursus americanus": [
+      "Euarctos americanus",
+      "Euarctos vitabilis",
+      "Ursus amplidens",
+      "Ursus optimus"
+    ],
+    "Ursus arctos": [
+      "Ursus horribilis",
+      "Ursus procerus"
+    ],
+    "Vespertilio murinus": [
+      "Eptesicus murinus",
+      "Phyllostoma discolor",
+      "Vespertilio albogularis",
+      "Vespertilio discolor",
+      "Vespertilio kraschennikovi",
+      "Vespertilio michnoi",
+      "Vespertilio siculus",
+      "Vespertillio murinus"
+    ],
+    "Vulpes vulpes": [
+      "Canis vulpes",
+      "Vulpes palmaria"
+    ],
+    "Zalophus californianus": [
+      "Arctocephalus gilliespii",
+      "Eumetopias californiana",
+      "Otaria californiana",
+      "Otaria gillespii",
+      "Otaria gilliespii",
+      "Zalophus californianus californianus",
+      "Zalophus gilliespii"
+    ],
+    "Alligator mississippiensis": [
+      "Alligator lucius",
+      "Crocodilus cuvieri",
+      "Crocodilus lucius",
+      "Crocodilus mississipiensis",
+      "Crocodylus mississippiensis"
+    ],
+    "Anolis carolinensis": [
+      "Ameiua bullaris",
+      "Anolis baccatus",
+      "Anolis carolinensis seminolus",
+      "Anolis podargicus",
+      "Anolius carolinensis",
+      "Norops baccatus"
+    ],
+    "Chelonia mydas": [
+      "Caretta cepedii",
+      "Caretta esculenta",
+      "Caretta spec",
+      "Caretta thunbergi",
+      "Chelone mydas",
+      "Chelonia agassizii",
+      "Chelonia agassizzii",
+      "Chelonia albiventer",
+      "Chelonia bicarinata",
+      "Chelonia castanea",
+      "Chelonia formosa",
+      "Chelonia grisea",
+      "Chelonia japonica",
+      "Chelonia lachrymata",
+      "Chelonia lata"
+    ],
+    "Crocodylus niloticus": [
+      "Alligator cowiei",
+      "Crocodilus chamses",
+      "Crocodilus complanatus",
+      "Crocodilus hexaphractos",
+      "Crocodilus lacunosus",
+      "Crocodilus madagascariensis",
+      "Crocodilus marginatus",
+      "Crocodilus multiscutatus",
+      "Crocodilus octophractus",
+      "Crocodilus vulgaris",
+      "Crocodilus vulgaris madagascariensis",
+      "Crocodylus madagascariensis",
+      "Crocodylus worthingtoni"
+    ],
+    "Crotaphytus collaris": [
+      "Agama collaris",
+      "Crotaphytus baileyi",
+      "Crotaphytus collaris dickersonae"
+    ],
+    "Iguana iguana": [
+      "Iguana coerulea",
+      "Iguana emarginata",
+      "Iguana lophryoides",
+      "Iguana melanoderma",
+      "Iguana minima",
+      "Iguana sapidissima",
+      "Iguana squamosa",
+      "Iguana tuberculata",
+      "Iguana viridis",
+      "Iguana vulgaris",
+      "Lacerta iguana",
+      "Lacerta igvana"
+    ],
+    "Gekko gecko": [
+      "Gekko aculeatus",
+      "Gekko annulatus",
+      "Gekko guttatus",
+      "Gekko indicus",
+      "Gekko perlatus",
+      "Gekko tenuis",
+      "Gekko teres",
+      "Gekko verus",
+      "Gymnodactylus tenuis",
+      "Lacerta gecko",
+      "Platydactylus guttatus"
+    ],
+    "Caretta caretta": [
+      "Caouana cephalo",
+      "Caouana elongata",
+      "Caretta atra",
+      "Caretta caretta caretta",
+      "Caretta caretta gigas",
+      "Caretta gigas",
+      "Caretta nasuta",
+      "Cephalochelys oceanica",
+      "Chelonia caouana",
+      "Chelonia caretta",
+      "Chelonia dubia",
+      "Chelonia multiscutata",
+      "Chelonia pelasgica",
+      "Chelonia pelasgorum",
+      "Chelonia polyaspis"
+    ],
+    "Amphiprion clarkii": [
+      "Amphiprion boholensis",
+      "Amphiprion chrysargyrus",
+      "Amphiprion clarkia",
+      "Amphiprion japonicus",
+      "Amphiprion melanostolus",
+      "Amphiprion papuensis",
+      "Amphiprion snyderi",
+      "Amphiprion xanthurus",
+      "Anthias clarkii",
+      "Sparus milii"
+    ],
+    "Halobatrachus didactylus": [
+      "Batrachoides didactylus",
+      "Batrachoides planifrons",
+      "Batrachus algeriensis",
+      "Batrachus barbatus",
+      "Batrachus borealis",
+      "Batrachus conspicillum",
+      "Batrachus didactylus",
+      "Batrachus guentheri",
+      "Batrachus planifrons",
+      "Batrachus punctatus",
+      "Batrachus punctulatus"
+    ],
+    "Opsanus tau": [
+      "Batrachus tau",
+      "Gadus tau",
+      "Opsanus cerapalus"
+    ],
+    "Pomacentrus partitus": [
+      "Eupomacentrus partitus",
+      "Pomacentrus freemani"
+    ]
+  }
+}

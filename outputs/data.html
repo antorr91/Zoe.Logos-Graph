@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zoe.Logos-Graph, Data</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#072928;--surface:#0c332f;--surface2:#123f39;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);--text:#eaf3ef;--muted:#7fa39c;--hint:#466b64;--amber:#48a89a;--amber-dim:rgba(72,168,154,0.12);--gold:#e9b949}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50;background:rgba(7,41,40,0.85);backdrop-filter:blur(16px);flex-wrap:wrap;gap:.5rem}
+.logo{font-family:'DM Serif Display',serif;font-size:17px;color:var(--text);text-decoration:none;letter-spacing:-0.02em}
+.logo .a{color:var(--amber)}
+.logo-sub{font-size:11px;color:var(--muted);font-weight:300;margin-left:8px;font-family:'DM Sans',sans-serif}
+.nav-links{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap}
+.nav-links a{font-size:13px;color:var(--muted);text-decoration:none}.nav-links a:hover{color:var(--text)}
+.nav-gh{font-size:12px;padding:5px 14px;border:1px solid var(--border2);border-radius:99px;color:var(--text)!important}
+.main{max-width:1000px;margin:0 auto;padding:2.5rem 1.5rem 4rem;display:flex;flex-direction:column;gap:2.6rem}
+h1{font-family:'DM Serif Display',serif;font-size:34px;font-weight:400;line-height:1.15;margin-bottom:.6rem}
+h2{font-family:'DM Serif Display',serif;font-size:23px;font-weight:400;margin-bottom:.4rem}
+.sub{font-size:15px;color:var(--muted);line-height:1.7;max-width:680px}
+.stat-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:1.2rem}
+.stat{flex:1;min-width:120px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center}
+.stat-n{font-family:'DM Mono',monospace;font-size:20px;display:block}
+.stat-l{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px}
+.scroll{overflow-x:auto}
+.toggle{display:flex;gap:6px;margin:.8rem 0}
+.toggle button{font:inherit;font-size:12px;padding:4px 12px;border-radius:99px;border:1px solid var(--border2);background:none;color:var(--muted);cursor:pointer}
+.toggle button.on{color:var(--amber);border-color:rgba(72,168,154,.5);background:var(--amber-dim)}
+table.heat{border-collapse:separate;border-spacing:3px;font-size:12px;min-width:640px}
+.heat th{font-weight:400;color:var(--muted);padding:2px 6px;text-align:center;white-space:nowrap}
+.heat th.row{text-align:right;color:var(--text)}
+.heat td{width:96px;height:26px;border-radius:4px;text-align:center;font-family:'DM Mono',monospace;font-size:11px;font-variant-numeric:tabular-nums}
+.note{font-size:12px;color:var(--hint);margin-top:.7rem;line-height:1.6}
+.file{display:grid;grid-template-columns:minmax(150px,auto) 1fr auto;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--border);font-size:14px}
+.file:first-child{border-top:0}
+.file a{font-family:'DM Mono',monospace;color:var(--amber);text-decoration:none}
+.file a:hover{text-decoration:underline}
+.file span{color:var(--muted);font-size:13px}
+.file small{color:var(--hint);font-family:'DM Mono',monospace;font-size:11px}
+@media (max-width:640px){nav{padding:.8rem 1rem}.file{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html"><span>Zoe<span class="a">.</span>Logos<span class="a">-</span>Graph</span><span class="logo-sub">v1.1</span></a>
+  <div class="nav-links">
+    <a href="species_explorer.html">species</a>
+    <a href="taxonomy.html">taxonomy</a>
+    <a href="literature.html">literature</a>
+    <a href="graph_explorer.html">graph</a>
+    <a href="compare.html">compare</a>
+    <a href="data.html" style="color:var(--text)">data</a>
+    <a class="nav-gh" href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">github →</a>
+  </div>
+</nav>
+<div class="main">
+  <section>
+    <h1>Data and research gaps</h1>
+    <p class="sub">The atlas as open data: what is studied, where the gaps are, and the files behind every page. The data are updated on the 1st and 15th of every month.</p>
+    <div class="stat-row" id="stats"></div>
+  </section>
+
+  <section>
+    <h2>What is studied, and where</h2>
+    <p class="sub">Peer-reviewed papers on each research theme, for each zoological class. Dark cells are themes that are rarely studied in that class.</p>
+    <div class="toggle" id="mode">
+      <button class="on" data-m="per">papers per species</button>
+      <button data-m="tot">total papers</button>
+    </div>
+    <div class="panel scroll"><table class="heat" id="heat"></table></div>
+    <p class="note">Papers per species divides by the number of atlas species in the class, so classes with few species (reptiles, cephalopods) can look well studied with only a handful of papers. Switch to total papers to see the raw counts.</p>
+  </section>
+
+  <section>
+    <h2>Download the atlas</h2>
+    <p class="sub">Plain files for R, Python, Gephi or a spreadsheet. Each update replaces them; earlier versions stay in the GitHub history.</p>
+    <div class="panel" id="files" style="margin-top:1rem"></div>
+  </section>
+
+</div>
+<script>
+// written by build_site.py
+const GAPS = {"classes":{"Actinopterygii":15,"Amphibia":118,"Aves":338,"Cephalopoda":3,"Reptilia":9,"Insecta":90,"Mammalia":184},"themes":{"emotion":{"Reptilia":4,"Mammalia":84,"Aves":51,"Amphibia":5,"Insecta":1,"Actinopterygii":1},"individual_recognition":{"Aves":71,"Mammalia":100,"Reptilia":2,"Amphibia":1,"Actinopterygii":2},"honest_signalling":{"Amphibia":33,"Actinopterygii":7,"Aves":102,"Mammalia":45,"Insecta":20,"Reptilia":1},"vocal_learning":{"Aves":119,"Mammalia":71,"Reptilia":1,"Actinopterygii":1},"cultural_transmission":{"Aves":34,"Mammalia":25,"Amphibia":1},"dialects":{"Aves":78,"Mammalia":24,"Insecta":1,"Amphibia":13,"Reptilia":1},"parent_offspring":{"Aves":62,"Mammalia":35,"Reptilia":1,"Amphibia":1},"referential":{"Mammalia":59,"Aves":44,"Actinopterygii":1,"Amphibia":3,"Insecta":2},"echolocation":{"Mammalia":195,"Amphibia":2,"Insecta":4,"Aves":2,"Actinopterygii":2,"Reptilia":1},"alarm":{"Aves":128,"Mammalia":90,"Amphibia":4,"Reptilia":1,"Insecta":1,"Actinopterygii":2},"cooperation":{"Aves":40,"Mammalia":48,"Amphibia":1,"Reptilia":1},"multimodal":{"Mammalia":59,"Aves":24,"Amphibia":9,"Actinopterygii":5,"Reptilia":3,"Insecta":8,"Cephalopoda":1},"deception":{"Aves":51,"Mammalia":9,"Amphibia":3,"Insecta":4},"syntax":{"Aves":84,"Mammalia":51,"Amphibia":2,"Reptilia":1,"Insecta":1},"turn_taking":{"Mammalia":42,"Aves":19,"Insecta":4,"Amphibia":4},"infrasound":{"Mammalia":4,"Reptilia":1}},"labels":{"vocal_learning":"Vocal learning","referential":"Referential communication","syntax":"Syntax","individual_recognition":"Individual recognition","cultural_transmission":"Cultural transmission","turn_taking":"Turn-taking and duetting","honest_signalling":"Honest signalling","echolocation":"Echolocation","infrasound":"Infrasound","dialects":"Dialects","emotion":"Emotion","multimodal":"Multimodal","deception":"Deception","parent_offspring":"Parent-offspring","alarm":"Alarm","cooperation":"Cooperation"},"updated":"2026-11-13","totals":{"species":757,"papers":2763,"methods":170,"recordings":5529},"files":[["data/export/papers.csv","every paper with its species, themes, DOI and whether it is a methods paper",651],["data/export/recordings.csv","every recording with source, place, licence and audio link",1118],["data/export/species.csv","the species with taxonomy, number of papers and recordings",77],["data/built/graph_communities.json","the species network used by the graph page",2399],["data/built/graph_bipartite.graphml","the same network for Gephi, NetworkX or igraph",425]]};
+const s = GAPS.totals || {};
+document.getElementById('stats').innerHTML = [
+  [s.species,'species'],[s.papers,'papers on species pages'],[s.methods,'methods papers'],[s.recordings,'recordings'],[GAPS.updated,'last update']
+].map(([v,l]) => `<div class="stat"><span class="stat-n">${v ?? '—'}</span><span class="stat-l">${l}</span></div>`).join('');
+
+const classes = Object.keys(GAPS.classes || {}).sort((a,b) => GAPS.classes[b] - GAPS.classes[a]);
+const themes = Object.keys(GAPS.themes || {}).sort((a,b) => (GAPS.labels[a]||a).localeCompare(GAPS.labels[b]||b));
+function heat(mode){
+  const val = (t,c) => { const n = (GAPS.themes[t] || {})[c] || 0; return mode === 'per' ? n / GAPS.classes[c] : n; };
+  let max = 0; themes.forEach(t => classes.forEach(c => { max = Math.max(max, val(t,c)); }));
+  const col = v => { const x = max ? Math.sqrt(v / max) : 0; const a = [12,51,47], b = [233,185,73];
+    return `rgb(${a.map((u,i) => Math.round(u + (b[i]-u) * x)).join(',')})`; };
+  const ink = v => (max && Math.sqrt(v / max) > .55) ? '#072928' : '#cfe0db';
+  document.getElementById('heat').innerHTML =
+    `<tr><th></th>${classes.map(c => `<th>${c}<br><span style="color:var(--hint)">${GAPS.classes[c]} sp.</span></th>`).join('')}</tr>` +
+    themes.map(t => `<tr><th class="row">${GAPS.labels[t] || t}</th>${classes.map(c => { const v = val(t,c);
+      return `<td style="background:${col(v)};color:${ink(v)}" title="${GAPS.labels[t]||t} · ${c}: ${(GAPS.themes[t]||{})[c]||0} papers">${mode==='per' ? (v ? v.toFixed(2) : '0') : v}</td>`; }).join('')}</tr>`).join('');
+}
+document.querySelectorAll('#mode button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('#mode button').forEach(x => x.classList.toggle('on', x === b)); heat(b.dataset.m); });
+heat('per');
+
+document.getElementById('files').innerHTML = (GAPS.files || []).map(([path, desc, kb]) =>
+  `<div class="file"><a href="${path}">${path.split('/').pop()}</a><span>${desc}</span><small>${kb >= 1024 ? (kb/1024).toFixed(1)+' MB' : kb+' KB'}</small></div>`).join('');
+
+</script>
+</body>
+</html>

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 build_graph_data.py - Generates data/built/graph_communities.json for the
-graph explorer, reading directly from species_explorer.html (the 184-species
-source of truth). No SQLite dependency.
+graph explorer, reading directly from species_explorer.html (the source of
+truth). No SQLite dependency. Also writes graph_bipartite.graphml (download button).
 
 Produces the SAME json structure the original web/graph_explorer.html expects:
   nodes, edges, sp_edges, communities, stats
@@ -65,6 +65,7 @@ for sp in SPECIES:
                scientific_name=sp['sci'], class_=sp.get('class_',''),
                order_=sp.get('order_',''), family=sp.get('family',''),
                themes=sp.get('themes',[]), learning=sp.get('learning',''),
+               paper_count=len(sp.get('papers') or []),
                image_url=sp.get('image',{}).get('url','') if isinstance(sp.get('image'),dict) else '')
     for v in sp.get('voc',[]):
         if not v or v == '—': continue
@@ -162,12 +163,26 @@ for nid, data in G.nodes(data=True):
             'class_': data.get('class_',''), 'order_': data.get('order_',''),
             'family': data.get('family',''), 'image_url': data.get('image_url',''),
             'themes': data.get('themes',[]), 'learning': data.get('learning',''),
+            'paper_count': data.get('paper_count', 0),
         } if nt=='species' else {},
     })
 
 edges = [{'source':a,'target':b,'weight':d.get('weight',1)} for a,b,d in G.edges(data=True)]
 sp_edges = [{'source':a,'target':b,'weight':d['weight'],'shared':d['shared'][:6]}
             for a,b,d in Gsp.edges(data=True)]
+
+# species studied in the same paper ("studied together" view of the graph)
+by_doi = defaultdict(set)
+for sp in SPECIES:
+    for p in sp.get('papers') or []:
+        if p.get('doi'):
+            by_doi[p['doi'].lower()].add('sp:' + sp['sci'])
+pair_w = defaultdict(int)
+for sps in by_doi.values():
+    if 2 <= len(sps) <= 6:
+        for a, b in combinations(sorted(sps), 2):
+            pair_w[(a, b)] += 1
+paper_edges = [{'source': a, 'target': b, 'weight': w} for (a, b), w in sorted(pair_w.items())]
 
 comm_members = defaultdict(list); comm_traits = defaultdict(list)
 for nid, comm in communities_bip.items():
@@ -193,15 +208,26 @@ for cid in sorted(comm_members.keys()):
     })
 
 payload = {
-    'nodes': nodes, 'edges': edges, 'sp_edges': sp_edges,
+    'nodes': nodes, 'edges': edges, 'sp_edges': sp_edges, 'paper_edges': paper_edges,
     'communities': communities_summary,
     'stats': {
         'n_species': sum(1 for n in nodes if n['type']=='species'),
         'n_claims': sum(1 for n in nodes if n['type']!='species'),
         'n_edges': len(edges),
         'n_communities': len(communities_summary),
+        'n_paper_links': len(paper_edges),
     },
 }
+
+# GraphML for the download button (GraphML only takes plain values, so lists become text)
+H = G.copy()
+for _, d in H.nodes(data=True):
+    for k, v in list(d.items()):
+        if isinstance(v, (list, tuple, set)):
+            d[k] = '; '.join(map(str, v))
+        elif v is None:
+            d[k] = ''
+nx.write_graphml(H, BUILT / 'graph_bipartite.graphml')
 
 out = BUILT / 'graph_communities.json'
 out.write_text(json.dumps(payload, ensure_ascii=False, indent=2))

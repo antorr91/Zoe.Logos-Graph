@@ -2,24 +2,25 @@
 """
 seed_species.py - Zoe.Logos-Graph
 
-Insert the new species from species_master.csv into the atlas (species_explorer.html
-EMBEDDED_DB). Each new species gets its basic taxonomy (class/order/family), common
-name and Wikipedia title, and EMPTY curated fields (themes, learning, functions,
-frequency, semiotic, papers, audio) ready to be filled by the fetchers and by you.
+Add new species to the atlas (species_explorer.html EMBEDDED_DB) from a CSV with
+columns sci, en, class_, order_, family, wiki. Each new species gets its taxonomy,
+English name and Wikipedia title, and EMPTY curated fields (themes, learning,
+functions, frequency, semiotic) for you to fill. At the next update its papers
+(500 most cited, any year) and recordings are fetched automatically.
 
 Existing species are never touched. Uses the robust embedded_db reader/writer.
 
 USAGE
   python seed_species.py --dry-run        # show how many would be added
-  python seed_species.py                   # write into species_explorer.html (backup first)
-  python seed_species.py --csv species_master.csv --html outputs/species_explorer.html
+  python seed_species.py                   # write into species_explorer.html
+  python seed_species.py --csv new_species.csv --html outputs/species_explorer.html
 """
-import csv, argparse, shutil, datetime
+import csv, argparse
 from pathlib import Path
 import embedded_db as edb
 
 ap = argparse.ArgumentParser()
-ap.add_argument('--csv', default='species_master.csv')
+ap.add_argument('--csv', default='new_species.csv')
 ap.add_argument('--html', default='outputs/species_explorer.html')
 ap.add_argument('--dry-run', action='store_true')
 args = ap.parse_args()
@@ -41,7 +42,7 @@ def blank_species(row):
         'semiotic': 'unknown',
         'wiki': (row.get('wiki') or sci.replace(' ', '_')).strip(),
         'papers': [],
-        'xc': [],
+        'xc': sci,
         'recordings': [],
     }
 
@@ -69,10 +70,7 @@ def main():
     if added == 0:
         print('Nothing to add.'); return
 
-    bk = '%s.backup-%s' % (args.html, datetime.datetime.now().strftime('%Y%m%d-%H%M%S'))
-    shutil.copyfile(args.html, bk)
     html_path.write_text(edb.write(html, species, eq, end), encoding='utf-8')
-    print('Backup: %s' % bk)
     print('Wrote %s (%d species).' % (args.html, len(species)))
 
 

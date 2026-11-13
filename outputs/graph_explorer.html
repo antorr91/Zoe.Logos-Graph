@@ -93,9 +93,11 @@ input[type=range]{width:100%;accent-color:var(--amber);margin:.25rem 0}
   <div class="nav-r">
     <div class="nav-links">
       <a href="species_explorer.html">species</a>
+      <a href="taxonomy.html">taxonomy</a>
       <a href="literature.html">literature</a>
       <a href="graph_explorer.html" style="color:var(--text)">graph</a>
       <a href="compare.html">compare</a>
+    <a href="data.html">data</a>
     </div>
     <button class="nbtn" onclick="downloadSVG()">↓ SVG</button>
     <button class="nbtn" onclick="downloadJSON()">↓ JSON</button>
@@ -116,8 +118,11 @@ input[type=range]{width:100%;accent-color:var(--amber);margin:.25rem 0}
     <div class="mode-row">
       <button class="mode-btn on" id="grp-none" onclick="setGroupBy('none',this)">none</button>
       <button class="mode-btn" id="grp-sp" onclick="setGroupBy('species',this)">species</button>
+      <button class="mode-btn" id="grp-ord" onclick="setGroupBy('order',this)">order</button>
+      <button class="mode-btn" id="grp-fam" onclick="setGroupBy('family',this)">family</button>
       <button class="mode-btn" id="grp-theme" onclick="setGroupBy('theme',this)">communicative theme</button>
       <button class="mode-btn" id="grp-fn" onclick="setGroupBy('function',this)">communicative function</button>
+      <button class="mode-btn" id="grp-pap" onclick="setGroupBy('papers',this)">studied together</button>
     </div>
   </div>
 
@@ -209,10 +214,7 @@ async function load() {
     document.getElementById('graph-wrap').innerHTML = `
       <div style="display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:1rem">
         <p style="color:var(--muted);font-size:14px">Graph data not found.</p>
-        <code style="font-size:12px;color:var(--amber);background:var(--surface);padding:8px 14px;border-radius:8px">
-          python scripts/11_community_detection.py
-        </code>
-        <p style="color:var(--hint);font-size:12px">then refresh this page</p>
+        <p style="color:var(--hint);font-size:12px">please refresh this page</p>
       </div>`;
   }
 }
@@ -233,8 +235,16 @@ function buildCommunityLegend() {
 // ── Graph init ────────────────────────────────────────────────────────────────
 function getVisibleData() {
   // GROUP BY theme / function: build a hub-and-spoke graph
-  if (groupBy === 'theme' || groupBy === 'function') {
+  if (['theme','function','order','family'].includes(groupBy)) {
     return getGroupedData(groupBy);
+  }
+  // species studied in the same paper, line thickness = number of shared papers
+  if (groupBy === 'papers') {
+    const pe = (RAW_DATA.paper_edges || []).filter(e => e.weight >= minWeight);
+    const ids = new Set(); pe.forEach(e => { ids.add(e.source); ids.add(e.target); });
+    const nodes = RAW_DATA.nodes.filter(n => n.type === 'species' && ids.has(n.id) && speciesPasses(n));
+    const vis = new Set(nodes.map(n => n.id));
+    return { nodes, edges: pe.filter(e => vis.has(e.source) && vis.has(e.target)) };
   }
 
   // GROUP BY species: species-species projection (shared traits)
@@ -304,6 +314,8 @@ function getGroupedData(kind) {
     let keys = [];
     if (kind === 'theme') {
       keys = sp.data?.themes || [];
+    } else if (kind === 'order' || kind === 'family') {
+      keys = [kind === 'order' ? sp.data?.order_ : sp.data?.family].filter(Boolean);
     } else { // function
       // connect species to function nodes it links to in the bipartite graph
       keys = RAW_DATA.edges
@@ -313,10 +325,11 @@ function getGroupedData(kind) {
         .map(id => id.slice(3));
     }
     keys.forEach(k => {
-      const hubId = (kind==='theme'?'hub-theme:':'hub-fn:') + k;
+      const hubId = 'hub-' + kind + ':' + k;
       if (!hubs[hubId]) {
         let colour, label, htype;
         if (kind==='theme') { colour = THEME_COLORS[k] || '#888'; label = k.replace(/_/g,' '); htype='theme'; }
+        else if (kind==='order' || kind==='family') { colour = kind==='order' ? '#9b8ef0' : '#e9b949'; label = k; htype = kind; }
         else { colour = '#48a89a'; label = k; htype='function'; }
         hubs[hubId] = { id: hubId, label, type: htype, color: colour, size: 14, hub: true, count: 0, members: [] };
       }
@@ -331,7 +344,7 @@ function getGroupedData(kind) {
 
   // For function grouping, drop hubs with only 1 species (too cluttered otherwise)
   let keptHubs = Object.values(hubs);
-  if (kind === 'function') {
+  if (kind !== 'theme') {   // a group of one species says nothing
     const keepIds = new Set(keptHubs.filter(h => h.count >= 2).map(h => h.id));
     keptHubs = keptHubs.filter(h => keepIds.has(h.id));
     for (let i = edges.length - 1; i >= 0; i--) {
@@ -348,7 +361,7 @@ function getGroupedData(kind) {
 
 function setGroupBy(mode, btn) {
   groupBy = mode;
-  document.querySelectorAll('#grp-none,#grp-theme,#grp-fn,#grp-sp').forEach(b=>b.classList.remove('on'));
+  document.querySelectorAll('#grp-none,#grp-theme,#grp-fn,#grp-sp,#grp-ord,#grp-fam,#grp-pap').forEach(b=>b.classList.remove('on'));
   btn.classList.add('on');
   if (mode === 'species') {
     // species-species projection: use the original 'species' graph mode
@@ -389,7 +402,9 @@ function draw(nodes, edges, W, H) {
       const baseD = d.source?.type === 'species' && d.target?.type === 'species' ? 120 : 60;
       return baseD / Math.max(0.5, Math.log1p(d.weight || 1) * 0.5);
     }).strength(0.4))
-    .force('charge', d3.forceManyBody().strength(d => d.type==='species' ? -180 : -80))
+    .force('charge', d3.forceManyBody().strength(d => (d.type==='species' ? -180 : -80) * Math.min(1, 260 / nodes.length)))
+    .force('x', d3.forceX(W/2).strength(nodes.length > 300 ? 0.06 : 0))
+    .force('y', d3.forceY(H/2).strength(nodes.length > 300 ? 0.06 : 0))
     .force('center', d3.forceCenter(W/2, H/2).strength(0.05))
     .force('collision', d3.forceCollide(d => d.size * sizeScale + 4));
 
@@ -448,6 +463,13 @@ function draw(nodes, edges, W, H) {
 
   svg.on('click', () => closeDetail());
 
+  simulation.on('end', () => {
+    if (nodes.length < 2) return;
+    const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y), pad = 40;
+    const x0 = Math.min(...xs) - pad, x1 = Math.max(...xs) + pad, y0 = Math.min(...ys) - pad, y1 = Math.max(...ys) + pad;
+    const k = Math.min(1.5, W / (x1 - x0), H / (y1 - y0));
+    svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(W/2 - k * (x0 + x1) / 2, H/2 - k * (y0 + y1) / 2).scale(k));
+  });
   simulation.on('tick', () => {
     link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
         .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);

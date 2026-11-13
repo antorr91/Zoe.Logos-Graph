@@ -16,7 +16,7 @@ Run from the PROJECT ROOT (needs embedded_db.py there), NOT from outputs/.
   python build_compare.py
   python build_compare.py --species outputs/species_explorer.html --compare outputs/compare.html
 """
-import json, shutil, datetime, argparse
+import json, argparse
 from pathlib import Path
 
 ap = argparse.ArgumentParser()
@@ -60,8 +60,6 @@ def main():
 
     new = comp[:i] + 'const DB = ' + arr + ';\r\n' + comp[j:]
 
-    bk = args.compare + '.backup-' + datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
-    shutil.copyfile(args.compare, bk)
     with open(args.compare, 'w', encoding='utf-8', newline='') as f:
         f.write(new)
 
@@ -69,7 +67,6 @@ def main():
     print('wrote %s' % args.compare)
     print('  %d species, %d papers counted (np)' % (len(slim), total_np))
     print('  size: %.2f MB  (was %.2f MB)' % (len(new) / 1e6, len(comp) / 1e6))
-    print('  backup: %s' % bk)
 
 
 if __name__ == '__main__':

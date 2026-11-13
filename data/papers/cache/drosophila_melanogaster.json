@@ -1,0 +1,1847 @@
+[
+  {
+    "source": "openalex",
+    "openalex_id": "W3159728495",
+    "doi": "10.1038/s41586-021-03451-0",
+    "pmid": "33911273",
+    "title": "Towards complete and error-free genome assemblies of all vertebrate species",
+    "abstract": "Abstract High-quality and complete reference genome assemblies are fundamental for the application of genomics to biology, disease, and biodiversity conservation. However, such assemblies are available for only a few non-microbial species 1–4 . To address this issue, the international Genome 10K (G10K) consortium 5,6 has worked over a five-year period to evaluate and develop cost-effective methods for assembling highly accurate and nearly complete reference genomes. Here we present lessons learned from generating assemblies for 16 species that represent six major vertebrate lineages. We confirm that long-read sequencing technologies are essential for maximizing genome quality, and that unresolved complex repeats and haplotype heterozygosity are major sources of assembly error when not handled correctly. Our assemblies correct substantial errors, add missing sequence in some of the best historical reference genomes, and reveal biological discoveries. These include the identification of many false gene duplications, increases in gene sizes, chromosome rearrangements that are specific to lineages, a repeated independent chromosome breakpoint in bat genomes, and a canonical GC-rich pattern in protein-coding genes and their regulatory regions. Adopting these lessons, we have embarked on the Vertebrate Genomes Project (VGP), an international effort to generate high-quality, complete reference genomes for all of the roughly 70,000 extant vertebrate species and to help to enable a new era of discovery across the life sciences.",
+    "authors": [
+      "Arang Rhie",
+      "Shane McCarthy",
+      "Olivier Fédrigo",
+      "Joana Damas",
+      "Giulio Formenti",
+      "Sergey Koren",
+      "Marcela Uliano‐Silva",
+      "William Chow",
+      "Arkarachai Fungtammasan",
+      "Juwan Kim"
+    ],
+    "year": 2021,
+    "venue": "Nature",
+    "venue_issn": "0028-0836",
+    "venue_type": "journal",
+    "cited_by": 3031,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Evolutionary biology",
+      "Computational biology",
+      "Genetics",
+      "Gene"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2117078182",
+    "doi": "10.1101/gr.101410.109",
+    "pmid": "20357052",
+    "title": "The recombination landscape of the zebra finch <i>Taeniopygia guttata</i> genome",
+    "abstract": "Understanding the causes and consequences of variation in the rate of recombination is essential since this parameter is considered to affect levels of genetic variability, the efficacy of selection, and the design of association and linkage mapping studies. However, there is limited knowledge about the factors governing recombination rate variation. We genotyped 1920 single nucleotide polymorphisms in a multigeneration pedigree of more than 1000 zebra finches (Taeniopygia guttata) to develop a genetic linkage map, and then we used these map data together with the recently available draft genome sequence of the zebra finch to estimate recombination rates in 1 Mb intervals across the genome. The average zebra finch recombination rate (1.5 cM/Mb) is higher than in humans, but significantly lower than in chicken. The local rates of recombination in chicken and zebra finch were only weakly correlated, demonstrating evolutionary turnover of the recombination landscape in birds. The distribution of recombination events was heavily biased toward ends of chromosomes, with a stronger telomere effect than so far seen in any organism. In fact, the recombination rate was as low as 0.1 cM/Mb in intervals up to 100 Mb long in the middle of the larger chromosomes. We found a positive correlation between recombination rate and GC content, as well as GC-rich sequence motifs. Levels of linkage disequilibrium (LD) were significantly higher in regions of low recombination, showing that heterogeneity in recombination rates have left a footprint on the genomic landscape of LD in zebra finch populations.",
+    "authors": [
+      "Niclas Backström",
+      "Wolfgang Forstmeier",
+      "Holger Schielzeth",
+      "Harriet Mellenius",
+      "Kiwoong Nam",
+      "Elisabeth Bolund",
+      "Matthew T. Webster",
+      "Torbjörn Öst",
+      "Melanie Schneider",
+      "Bart Kempenaers"
+    ],
+    "year": 2010,
+    "venue": "Genome Research",
+    "venue_issn": "1088-9051",
+    "venue_type": "journal",
+    "cited_by": 250,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Zebra finch",
+      "Genetics",
+      "Evolutionary biology",
+      "Gene",
+      "Neuroscience"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2065698973",
+    "doi": "10.1186/gb-2010-11-6-r68",
+    "pmid": "20573239",
+    "title": "Molecular evolution of genes in avian genomes",
+    "abstract": "BACKGROUND: Obtaining a draft genome sequence of the zebra finch (Taeniopygia guttata), the second bird genome to be sequenced, provides the necessary resource for whole-genome comparative analysis of gene sequence evolution in a non-mammalian vertebrate lineage. To analyze basic molecular evolutionary processes during avian evolution, and to contrast these with the situation in mammals, we aligned the protein-coding sequences of 8,384 1:1 orthologs of chicken, zebra finch, a lizard and three mammalian species. RESULTS: We found clear differences in the substitution rate at fourfold degenerate sites, being lowest in the ancestral bird lineage, intermediate in the chicken lineage and highest in the zebra finch lineage, possibly reflecting differences in generation time. We identified positively selected and/or rapidly evolving genes in avian lineages and found an over-representation of several functional classes, including anion transporter activity, calcium ion binding, cell adhesion and microtubule cytoskeleton. CONCLUSIONS: Focusing specifically on genes of neurological interest and genes differentially expressed in the unique vocal control nuclei of the songbird brain, we find a number of positively selected genes, including synaptic receptors. We found no evidence that selection for beneficial alleles is more efficient in regions of high recombination; in fact, there was a weak yet significant negative correlation between omega and recombination rate, which is in the direction predicted by the Hill-Robertson effect if slightly deleterious mutations contribute to protein evolution. These findings set the stage for studies of functional genetics of avian genes.",
+    "authors": [
+      "Kiwoong Nam",
+      "Carina F. Mugal",
+      "Benoît Nabholz",
+      "Holger Schielzeth",
+      "Jochen B. W. Wolf",
+      "Niclas Backström",
+      "Axel Künstner",
+      "Christopher N. Balakrishnan",
+      "Andreas Heger",
+      "Chris P. Ponting"
+    ],
+    "year": 2010,
+    "venue": "Genome biology",
+    "venue_issn": "1474-7596",
+    "venue_type": "journal",
+    "cited_by": 218,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Evolutionary biology",
+      "Gene",
+      "Genetics",
+      "Computational biology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2765578131",
+    "doi": "10.1371/journal.pone.0185306",
+    "pmid": "29045412",
+    "title": "Self-domestication in Homo sapiens: Insights from comparative genomics",
+    "abstract": "This study identifies and analyzes statistically significant overlaps between selective sweep screens in anatomically modern humans and several domesticated species. The results obtained suggest that (paleo-)genomic data can be exploited to complement the fossil record and support the idea of self-domestication in Homo sapiens, a process that likely intensified as our species populated its niche. Our analysis lends support to attempts to capture the \"domestication syndrome\" in terms of alterations to certain signaling pathways and cell lineages, such as the neural crest.",
+    "authors": [
+      "Constantina Theofanopoulou",
+      "Simone Gastaldon",
+      "Thomas J. O’Rourke",
+      "Bridget Samuels",
+      "Angela Messner",
+      "Pedro Tiago Martins",
+      "Francesco Delogu",
+      "Saleh Alamri",
+      "Cédric Boeckx"
+    ],
+    "year": 2017,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 181,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Domestication",
+      "Homo sapiens",
+      "Evolutionary biology",
+      "Niche construction",
+      "Fossil Record",
+      "Genetics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2122085068",
+    "doi": "10.1093/beheco/arv088",
+    "pmid": "",
+    "title": "Heritability and the evolution of cognitive traits: Table 1",
+    "abstract": "A critical question in the study of the evolution of cognition and the brain concerns the extent to which variation in cognitive processes and associated neural mechanisms is adaptive and shaped by natural selection. In order to be available to selection, cognitive traits and their neural architecture must show heritable variation within a population, yet heritability of cognitive and neural traits is not often investigated in the field of behavioral ecology. In this commentary, we outline existing research pertaining to the relative influences of genes and environment in cognitive and underlying neural trait variation, as well as what is known of their heritable genetic architecture by focusing on several cognitive traits that have received much attention in behavioral ecology. It is important to demonstrate that cognitive traits can respond to selection, and we advocate for an increased emphasis on investigating trait heritability for enhancing our understanding of the ecological, genetic and neurobiological mechanisms that have shaped interspecific and intraspecific variation in cognitive traits.",
+    "authors": [
+      "Rebecca Croston",
+      "Carrie L. Branch",
+      "Dovid Y. Kozlovsky",
+      "Reuven Dukas",
+      "Vladimir V. Pravosudov"
+    ],
+    "year": 2015,
+    "venue": "Behavioral Ecology",
+    "venue_issn": "1045-2249",
+    "venue_type": "journal",
+    "cited_by": 142,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Heritability",
+      "Trait",
+      "Cognition",
+      "Evolutionary biology",
+      "Intraspecific competition",
+      "Variation (astronomy)"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1989648264",
+    "doi": "10.1523/jneurosci.5104-11.2012",
+    "pmid": "",
+    "title": "Neural Representations of Courtship Song in the<i>Drosophila</i>Brain",
+    "abstract": "Acoustic communication in drosophilid flies is based on the production and perception of courtship songs, which facilitate mating. Despite decades of research on courtship songs and behavior in Drosophila , central auditory responses have remained uncharacterized. In this study, we report on intracellular recordings from central neurons that innervate the Drosophila antennal mechanosensory and motor center (AMMC), the first relay for auditory information in the fly brain. These neurons produce graded-potential (nonspiking) responses to sound; we compare recordings from AMMC neurons to extracellular recordings of the receptor neuron population [Johnston's organ neurons (JONs)]. We discover that, while steady-state response profiles for tonal and broadband stimuli are significantly transformed between the JON population in the antenna and AMMC neurons in the brain, transient responses to pulses present in natural stimuli (courtship song) are not. For pulse stimuli in particular, AMMC neurons simply low-pass filter the receptor population response, thus preserving low-frequency temporal features (such as the spacing of song pulses) for analysis by postsynaptic neurons. We also compare responses in two closely related Drosophila species, Drosophila melanogaster and Drosophila simulans , and find that pulse song responses are largely similar, despite differences in the spectral content of their songs. Our recordings inform how downstream circuits may read out behaviorally relevant information from central neurons in the AMMC.",
+    "authors": [
+      "Sina Tootoonian",
+      "Philip Coen",
+      "Risa Kawai",
+      "Mala Murthy"
+    ],
+    "year": 2012,
+    "venue": "Journal of Neuroscience",
+    "venue_issn": "0270-6474",
+    "venue_type": "journal",
+    "cited_by": 91,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Courtship",
+      "Neuroscience",
+      "Population",
+      "Communication",
+      "Receptor",
+      "Zoology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2052109291",
+    "doi": "10.1523/jneurosci.3731-05.2006",
+    "pmid": "16510728",
+    "title": "Stimulus-Dependent Auditory Tuning Results in Synchronous Population Coding of Vocalizations in the Songbird Midbrain",
+    "abstract": "Physiological studies in vocal animals such as songbirds indicate that vocalizations drive auditory neurons particularly well. But the neural mechanisms whereby vocalizations are encoded differently from other sounds in the auditory system are unknown. We used spectrotemporal receptive fields (STRFs) to study the neural encoding of song versus the encoding of a generic sound, modulation-limited noise, by single neurons and the neuronal population in the zebra finch auditory midbrain. The noise was designed to match song in frequency, spectrotemporal modulation boundaries, and power. STRF calculations were balanced between the two stimulus types by forcing a common stimulus subspace. We found that 91% of midbrain neurons showed significant differences in spectral and temporal tuning properties when birds heard song and when birds heard modulation-limited noise. During the processing of noise, spectrotemporal tuning was highly variable across cells. During song processing, the tuning of individual cells became more similar; frequency tuning bandwidth increased, best temporal modulation frequency increased, and spike timing became more precise. The outcome was a population response to song that encoded rapidly changing sounds with power and precision, resulting in a faithful neural representation of the temporal pattern of a song. Modeling responses to song using the tuning to modulation-limited noise showed that the population response would not encode song as precisely or robustly. We conclude that stimulus-dependent changes in auditory tuning during song processing facilitate the high-fidelity encoding of the temporal pattern of a song.",
+    "authors": [
+      "Sarah M. N. Woolley",
+      "P. Gill",
+      "Frédéric E. Theunissen"
+    ],
+    "year": 2006,
+    "venue": "Journal of Neuroscience",
+    "venue_issn": "0270-6474",
+    "venue_type": "journal",
+    "cited_by": 143,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Stimulus (psychology)",
+      "Zebra finch",
+      "Population",
+      "Neuroscience",
+      "Neural coding",
+      "Songbird"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2036714609",
+    "doi": "10.1101/gr.102343.109",
+    "pmid": "20357053",
+    "title": "Sex bias and dosage compensation in the zebra finch versus chicken genomes: General and specialized patterns among birds",
+    "abstract": "We compared global patterns of gene expression between two bird species, the chicken and zebra finch, with regard to sex bias of autosomal versus Z chromosome genes, dosage compensation, and evolution of sex bias. Both species appear to lack a Z chromosome-wide mechanism of dosage compensation, because both have a similar pattern of significantly higher expression of Z genes in males relative to females. Unlike the chicken Z chromosome, which has female-specific expression of the noncoding RNA MHM (male hypermethylated) and acetylation of histone 4 lysine 16 (H4K16) near MHM, the zebra finch Z chromosome appears to lack the MHM sequence and acetylation of H4K16. The zebra finch also does not show the reduced male-to-female (M:F) ratio of gene expression near MHM similar to that found in the chicken. Although the M:F ratios of Z chromosome gene expression are similar across tissues and ages within each species, they differ between the two species. Z genes showing the greatest species difference in M:F ratio were concentrated near the MHM region of the chicken Z chromosome. This study shows that the zebra finch differs from the chicken because it lacks a specialized region of greater dosage compensation along the Z chromosome, and shows other differences in sex bias. These patterns suggest that different avian taxa may have evolved specific compensatory mechanisms.",
+    "authors": [
+      "Yuichiro Itoh",
+      "Kirstin Replogle",
+      "Yong‐Hwan Kim",
+      "Juli Wade",
+      "David F. Clayton",
+      "Arthur P. Arnold"
+    ],
+    "year": 2010,
+    "venue": "Genome Research",
+    "venue_issn": "1088-9051",
+    "venue_type": "journal",
+    "cited_by": 124,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Zebra finch",
+      "Genetics",
+      "Gene",
+      "Neuroscience"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2103340805",
+    "doi": "10.1242/jeb.00634",
+    "pmid": "14555743",
+    "title": "Seismic signals in a courting male jumping spider (Araneae:Salticidae)",
+    "abstract": "Visual displays in jumping spiders have long been known to be among the most elaborate animal communication behaviours. We now show that one species, Habronattus dossenus, also exhibits an unprecedented complexity of signalling behaviour in the vibratory (seismic) modality. We videotaped courtship behaviour and used laser vibrometry to record seismic signals and observed that each prominent visual signal is accompanied by a subsequent seismic component. Three broad categories of seismic signals were observed ('thumps', 'scrapes' and 'buzzes'). To further characterize these signals we used synchronous high-speed video and laser vibrometry and observed that only one seismic signal component was produced concurrently with visual signals. We examined the mechanisms by which seismic signals are produced through a series of signal ablation experiments. Preventing abdominal movements effectively 'silenced' seismic signals but did not affect any visual component of courtship behaviour. Preventing direct abdominal contact with the cephalothorax, while still allowing abdominal movement, only silenced thump and scrape signals but not buzz signals. Therefore, although there is a precise temporal coordination of visual and seismic signals, this is not due to a common production mechanism. Seismic signals are produced independently of visual signals, and at least three independent mechanisms are used to produce individual seismic signal components.",
+    "authors": [
+      "Damian O. Elias",
+      "Andrew C. Mason",
+      "Wayne P. Maddison",
+      "Ronald R. Hoy"
+    ],
+    "year": 2003,
+    "venue": "Journal of Experimental Biology",
+    "venue_issn": "0022-0949",
+    "venue_type": "journal",
+    "cited_by": 134,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Spider",
+      "Jumping",
+      "Zoology",
+      "Communication",
+      "Paleontology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1965772573",
+    "doi": "10.1186/1471-2164-9-131",
+    "pmid": "18366674",
+    "title": "The Songbird Neurogenomics (SoNG) Initiative: Community-based tools and strategies for study of brain gene function and evolution",
+    "abstract": "BACKGROUND: Songbirds hold great promise for biomedical, environmental and evolutionary research. A complete draft sequence of the zebra finch genome is imminent, yet a need remains for application of genomic resources within a research community traditionally focused on ethology and neurobiological methods. In response, we developed a core set of genomic tools and a novel collaborative strategy to probe gene expression in diverse songbird species and natural contexts. RESULTS: We end-sequenced cDNAs from zebra finch brain and incorporated additional sequences from community sources into a database of 86,784 high quality reads. These assembled into 31,658 non-redundant contigs and singletons, which we annotated via BLAST search of chicken and human databases. The results are publicly available in the ESTIMA:Songbird database. We produced a spotted cDNA microarray with 20,160 addresses representing 17,214 non-redundant products of an estimated 11,500-15,000 genes, validating it by analysis of immediate-early gene (zenk) gene activation following song exposure and by demonstrating effective cross hybridization to genomic DNAs of other songbird species in the Passerida Parvorder. Our assembly was also used in the design of the \"Lund-zfa\" Affymetrix array representing approximately 22,000 non-redundant sequences. When the two arrays were hybridized to cDNAs from the same set of male and female zebra finch brain samples, both arrays detected a common set of regulated transcripts with a Pearson correlation coefficient of 0.895. To stimulate use of these resources by the songbird research community and to maintain consistent technical standards, we devised a \"Community Collaboration\" mechanism whereby individual birdsong researchers develop experiments and provide tissues, but a single individual in the community is responsible for all RNA extractions, labelling and microarray hybridizations. CONCLUSION: Immediately, these results set the foundation for a coordinated set of 25 planned experiments by 16 research groups probing fundamental links between genome, brain, evolution and behavior in songbirds. Energetic application of genomic resources to research using songbirds should help illuminate how complex neural and behavioral traits emerge and evolve.",
+    "authors": [
+      "Kirstin Replogle",
+      "Arthur P. Arnold",
+      "Gregory F. Ball",
+      "Mark Band",
+      "Staffan Bensch",
+      "Eliot A. Brenowitz",
+      "Shu Dong",
+      "Jenny Drnevich",
+      "Margaret Ferris",
+      "Julia M. George"
+    ],
+    "year": 2008,
+    "venue": "BMC Genomics",
+    "venue_issn": "1471-2164",
+    "venue_type": "journal",
+    "cited_by": 136,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Zebra finch",
+      "Songbird",
+      "Repertoire",
+      "Gene",
+      "Computational biology",
+      "Genetics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2115553288",
+    "doi": "10.1093/icb/icu046",
+    "pmid": "24838746",
+    "title": "The History of Ecoimmunology and Its Integration with Disease Ecology",
+    "abstract": "Ecoimmunology is an example of how fruitful integrative approaches to biology can be. Since its emergence, ecoimmunology has sparked constructive debate on a wide range of topics, from the molecular mechanics of immune responses to the role of immunity in shaping the evolution of life histories. To complement the symposium Methods and Mechanisms in Ecoimmunology and commemorate the inception of the Division of Ecoimmunology and Disease Ecology within the Society for Integrative and Comparative Biology, we appraise the origins of ecoimmunology, with a focus on its continuing and valuable integration with disease ecology. Arguably, the greatest contribution of ecoimmunology to wider biology has been the establishment of immunity as an integral part of organismal biology, one that may be regulated to maximize fitness in the context of costs, constraints, and complex interactions. We discuss historical impediments and ongoing progress in ecoimmunology, in particular the thorny issue of what ecoimmunologists should, should not, or cannot measure, and what novel contributions ecoimmunologists have made to the understanding of host-parasite interactions. Finally, we highlight some areas to which ecoimmunology is likely to contribute in the near future.",
+    "authors": [
+      "Patrick M. Brock",
+      "Courtney C. Murdock",
+      "Lynn B. Martin"
+    ],
+    "year": 2014,
+    "venue": "Integrative and Comparative Biology",
+    "venue_issn": "1540-7063",
+    "venue_type": "journal",
+    "cited_by": 94,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Context (archaeology)",
+      "Ecology",
+      "Comparative biology",
+      "Environmental ethics",
+      "Host (biology)",
+      "Evolutionary biology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2113778750",
+    "doi": "10.1111/j.0014-3820.2006.tb00511.x",
+    "pmid": "17017067",
+    "title": "GEOGRAPHIC VARIATION OF GENETIC AND BEHAVIORAL TRAITS IN NORTHERN AND SOUTHERN TÚNGARA FROGS",
+    "abstract": "We use a combination of microsatellite marker analysis and mate-choice behavior experiments to assess patterns of reproductive isolation of the túngara frog Physalaemus pustulosus along a 550-km transect of 25 populations in Costa Rica and Panama. Earlier studies using allozymes and mitochondrial DNA defined two genetic groups of túngara frogs, one ranging from Mexico to northern Costa Rica (northern group), the second ranging from Panama to northern South America (southern group). Our more fine-scale survey also shows that the northern and southern túngara frogs are genetically different and geographically separated by a gap in the distribution in central Pacific Costa Rica. Genetic differences among populations are highly correlated with geographic distances. Temporal call parameters differed among populations as well as between genetic groups. Differences in calls were explained better by geographic distance than by genetic distance. Phonotaxis experiments showed that females preferred calls of males from their own populations over calls of males from other populations in about two-thirds to three-fourths of the contrasts tested. In mating experiments, females and males from the same group and females from the north with males from the south produced nests and tadpoles. In contrast, females from the south did not produce nests or tadpoles with males from the north. Thus, northern and southern túngara frogs have diverged both genetically and bioacoustically. There is evidence for some prezygotic isolation due to differences in mate recognition and fertilization success, but such isolation is hardly complete. Our results support the general observation that significant differences in sexual signals are often not correlated with strong genetic differentiation.",
+    "authors": [
+      "Heike Pröhl",
+      "Regina A. Koshy",
+      "Ulrich G. Mueller",
+      "A. Stanley Rand",
+      "Michael J. Ryan"
+    ],
+    "year": 2006,
+    "venue": "Evolution",
+    "venue_issn": "0014-3820",
+    "venue_type": "journal",
+    "cited_by": 78,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Panama",
+      "Ecology",
+      "Zoology",
+      "Mating",
+      "Transect",
+      "Evolutionary biology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2757288282",
+    "doi": "10.1002/ece3.3331",
+    "pmid": "",
+    "title": "The effect of temperature on male mating signals and female choice in the red mason bee, <i>Osmia bicornis</i> (L.)",
+    "abstract": "Abstract Climate change and the resulting changes in air temperature are known to have a major influence on most animals, especially poikilothermic insects, because they depend on the high enough temperatures to function. Previous studies have shown that various signals can be affected by changes in temperature. However, research into the effect of temperature on mating signals and subsequently communication between mates and on female choice is still rare. In the red mason bee, Osmia bicornis , which emerges early in spring and is therefore subject to extensive temperature changes, females choose suitable males based on, among other criteria, their thorax vibrations and odor. So far there has been no research into the effect of temperature changes on these signals. We therefore investigated whether the environmental temperature has an influence on the male's mating signals by measuring vibrations using a laser vibrometer and collecting male and female odor at different temperatures. Furthermore, we performed behavioral experiments in order to show whether there is an effect of temperature‐induced changes and female choice. Our results showed that rejected males differed in their vibrations between the two temperature settings but accepted ones did not. Temperature changes therefore seem to have a stronger effect on those males that are rejected by the females, whereas the accepted males are the ones that can produce desirable signals despite temperature fluctuations. Furthermore, we found that the differences in odor profiles were greater between temperature settings than between the sexes and that females change their preference for odor with temperature. We conclude that temperature strongly influences the male mating signals and therefore may have a major impact on sexual selection in this species. This is an important aspect to consider, not only in future studies on mating behavior, but also in view of our ever raising temperatures.",
+    "authors": [
+      "Taina Conrad",
+      "Carina Stöcker",
+      "Manfred Ayasse"
+    ],
+    "year": 2017,
+    "venue": "Ecology and Evolution",
+    "venue_issn": "2045-7758",
+    "venue_type": "journal",
+    "cited_by": 80,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Mating",
+      "Zoology",
+      "Ecology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2084611758",
+    "doi": "10.1098/rspb.2014.2734",
+    "pmid": "25740889",
+    "title": "Selection on male sex pheromone composition contributes to butterfly reproductive isolation",
+    "abstract": "Selection can facilitate diversification by inducing character displacement in mate choice traits that reduce the probability of maladaptive mating between lineages. Although reproductive character displacement (RCD) has been demonstrated in two-taxa case studies, the frequency of this process in nature is still debated. Moreover, studies have focused primarily on visual and acoustic traits, despite the fact that chemical communication is probably the most common means of species recognition. Here, we showed in a large, mostly sympatric, butterfly genus, a strong pattern of recurrent RCD for predicted male sex pheromone composition, but not for visual mate choice traits. Our results suggest that RCD is not anecdotal, and that selection for divergence in male sex pheromone composition contributed to reproductive isolation within the Bicyclus genus. We propose that selection may target olfactory mate choice traits as a more common sensory modality to ensure reproductive isolation among diverging lineages than previously envisaged.",
+    "authors": [
+      "Paul Bacquet",
+      "Oskar Brattström",
+      "Honglei Wang",
+      "Cerisse E. Allen",
+      "Christer Löfstedt",
+      "Paul M. Brakefield",
+      "Caroline M. Nieberding"
+    ],
+    "year": 2015,
+    "venue": "Proceedings of the Royal Society B Biological Sciences",
+    "venue_issn": "0962-8452",
+    "venue_type": "journal",
+    "cited_by": 89,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Sympatric speciation",
+      "Sexual selection",
+      "Sex pheromone",
+      "Pheromone",
+      "Evolutionary biology",
+      "Mating"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2124428430",
+    "doi": "10.1371/journal.pone.0014455",
+    "pmid": "21209935",
+    "title": "Intrinsic Activity in the Fly Brain Gates Visual Information during Behavioral Choices",
+    "abstract": "The small insect brain is often described as an input/output system that executes reflex-like behaviors. It can also initiate neural activity and behaviors intrinsically, seen as spontaneous behaviors, different arousal states and sleep. However, less is known about how intrinsic activity in neural circuits affects sensory information processing in the insect brain and variability in behavior. Here, by simultaneously monitoring Drosophila's behavioral choices and brain activity in a flight simulator system, we identify intrinsic activity that is associated with the act of selecting between visual stimuli. We recorded neural output (multiunit action potentials and local field potentials) in the left and right optic lobes of a tethered flying Drosophila, while its attempts to follow visual motion (yaw torque) were measured by a torque meter. We show that when facing competing motion stimuli on its left and right, Drosophila typically generate large torque responses that flip from side to side. The delayed onset (0.1-1 s) and spontaneous switch-like dynamics of these responses, and the fact that the flies sometimes oppose the stimuli by flying straight, make this behavior different from the classic steering reflexes. Drosophila, thus, seem to choose one stimulus at a time and attempt to rotate toward its direction. With this behavior, the neural output of the optic lobes alternates; being augmented on the side chosen for body rotation and suppressed on the opposite side, even though the visual input to the fly eyes stays the same. Thus, the flow of information from the fly eyes is gated intrinsically. Such modulation can be noise-induced or intentional; with one possibility being that the fly brain highlights chosen information while ignoring the irrelevant, similar to what we know to occur in higher animals.",
+    "authors": [
+      "Shiming Tang",
+      "Mikko Juusola"
+    ],
+    "year": 2010,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 60,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Stimulus (psychology)",
+      "Neuroscience",
+      "Sensory system",
+      "Reflex",
+      "Visual field",
+      "Arousal"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2067850204",
+    "doi": "10.1371/journal.pgen.1005009",
+    "pmid": "25719383",
+    "title": "An Essential Role of the Arginine Vasotocin System in Mate-Guarding Behaviors in Triadic Relationships of Medaka Fish (Oryzias latipes)",
+    "abstract": "To increase individual male fitness, males of various species remain near a (potential) mating partner and repel their rivals (mate-guarding). Mate-guarding is assumed to be mediated by two different types of motivation: sexual motivation toward the opposite sex and competitive motivation toward the same sex. The genetic/molecular mechanisms underlying how mate presence affects male competitive motivation in a triadic relationship has remained largely unknown. Here we showed that male medaka fish prominently exhibit mate-guarding behavior. The presence of a female robustly triggers male-male competition for the female in a triadic relationship (2 males and 1 female). The male-male competition resulted in one male occupying a dominant position near the female while interfering with the other male's approach of the female. Paternity testing revealed that the dominant male had a significantly higher mating success rate than the other male in a triadic relationship. We next generated medaka mutants of arginine-vasotocin (avt) and its receptors (V1a1, V1a2) and revealed that two genes, avt and V1a2, are required for normal mate-guarding behavior. In addition, behavioral analysis of courtship behaviors in a dyadic relationship and aggressive behaviors within a male group revealed that avt mutant males displayed decreased sexual motivation but showed normal aggression. In contrast, heterozygote V1a2 mutant males displayed decreased aggression, but normal mate-guarding and courtship behavior. Thus, impaired mate-guarding in avt and V1a2 homozygote mutants may be due to the loss of sexual motivation toward the opposite sex, and not to the loss of competitive motivation toward rival males. The different behavioral phenotypes between avt, V1a2 heterozygote, and V1a2 homozygote mutants suggest that there are redundant systems to activate V1a2 and that endogenous ligands activating the receptor may differ according to the social context.",
+    "authors": [
+      "Saori Yokoi",
+      "Teruhiro Okuyama",
+      "Yasuhiro Kamei",
+      "Kiyoshi Naruse",
+      "Yoshihito Taniguchi",
+      "Satoshi Ansai",
+      "Masato Kinoshita",
+      "Larry J. Young",
+      "Nobuaki Takemori",
+      "Takeo Kubo"
+    ],
+    "year": 2015,
+    "venue": "PLoS Genetics",
+    "venue_issn": "1553-7390",
+    "venue_type": "journal",
+    "cited_by": 97,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Courtship",
+      "Mating",
+      "Aggression",
+      "Zoology",
+      "Genetics",
+      "Developmental psychology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2007185934",
+    "doi": "10.1371/journal.pone.0100648",
+    "pmid": "24964149",
+    "title": "Drosophila FoxP Mutants Are Deficient in Operant Self-Learning",
+    "abstract": "Intact function of the Forkhead Box P2 (FOXP2) gene is necessary for normal development of speech and language. This important role has recently been extended, first to other forms of vocal learning in animals and then also to other forms of motor learning. The homology in structure and in function among the FoxP gene members raises the possibility that the ancestral FoxP gene may have evolved as a crucial component of the neural circuitry mediating motor learning. Here we report that genetic manipulations of the single Drosophila orthologue, dFoxP, disrupt operant self-learning, a form of motor learning sharing several conceptually analogous features with language acquisition. Structural alterations of the dFoxP locus uncovered the role of dFoxP in operant self-learning and habit formation, as well as the dispensability of dFoxP for operant world-learning, in which no motor learning occurs. These manipulations also led to subtle alterations in the brain anatomy, including a reduced volume of the optic glomeruli. RNAi-mediated interference with dFoxP expression levels copied the behavioral phenotype of the mutant flies, even in the absence of mRNA degradation. Our results provide evidence that motor learning and language acquisition share a common ancestral trait still present in extant invertebrates, manifest in operant self-learning. This 'deep' homology probably traces back to before the split between vertebrate and invertebrate animals.",
+    "authors": [
+      "Ezequiel Mendoza",
+      "Julien Colomb",
+      "Jürgen Rybak",
+      "Hans‐Joachim Pflüger",
+      "Troy Zars",
+      "Constance Scharff",
+      "Björn Brembs"
+    ],
+    "year": 2014,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 45,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Neuroscience",
+      "Motor learning",
+      "Gene",
+      "Genetics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2909694874",
+    "doi": "10.1534/genetics.118.301706",
+    "pmid": "30647070",
+    "title": "The Genetics of Mating Song Evolution Underlying Rapid Speciation: Linking Quantitative Variation to Candidate Genes for Behavioral Isolation",
+    "abstract": "Abstract A common component of divergence in mating behavior is the distinctive mating songs of insects, and identifying genes underlying natural variation in acoustic behavior is important for understanding targets of selection during speciation. Here... Differences in mating behaviors evolve early during speciation, eventually contributing to reproductive barriers between species. Knowledge of the genetic and genomic basis of these behaviors is therefore integral to a causal understanding of speciation. Acoustic behaviors are often part of the mating ritual in animal species. The temporal rhythms of mating songs are notably species-specific in many vertebrates and arthropods and often underlie assortative mating. Despite discoveries of mutations that disrupt the temporal rhythm of these songs, we know surprisingly little about genes affecting naturally occurring variation in the temporal pattern of singing behavior. In the rapidly speciating Hawaiian cricket genus Laupala, the striking species variation in song rhythms constitutes a behavioral barrier to reproduction between species. Here, we mapped the largest-effect locus underlying interspecific variation in song rhythm between two Laupala species to a narrow genomic region, wherein we find no known candidate genes affecting song temporal rhythm in Drosophila. Whole-genome sequencing, gene prediction, and functional annotation of this region reveal an exciting and promising candidate gene, the putative cyclic nucleotide-gated ion channel-like gene, for natural variation in mating behavior, suggesting that ion channels are important targets of selection on rhythmic signaling during establishment of behavioral isolation and rapid speciation.",
+    "authors": [
+      "Mingzi Xu",
+      "Kerry L. Shaw"
+    ],
+    "year": 2019,
+    "venue": "Genetics",
+    "venue_issn": "0016-6731",
+    "venue_type": "journal",
+    "cited_by": 40,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Evolutionary biology",
+      "Genetic algorithm",
+      "Genetics",
+      "Mating",
+      "Sympatric speciation",
+      "Gene"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2914161539",
+    "doi": "10.1371/journal.pone.0211652",
+    "pmid": "30753188",
+    "title": "Conserved regulation of neurodevelopmental processes and behavior by FoxP in Drosophila",
+    "abstract": "FOXP proteins form a subfamily of evolutionarily conserved transcription factors involved in the development and functioning of several tissues, including the central nervous system. In humans, mutations in FOXP1 and FOXP2 have been implicated in cognitive deficits including intellectual disability and speech disorders. Drosophila exhibits a single ortholog, called FoxP, but due to a lack of characterized mutants, our understanding of the gene remains poor. Here we show that the dimerization property required for mammalian FOXP function is conserved in Drosophila. In flies, FoxP is enriched in the adult brain, showing strong expression in ~1000 neurons of cholinergic, glutamatergic and GABAergic nature. We generate Drosophila loss-of-function mutants and UAS-FoxP transgenic lines for ectopic expression, and use them to characterize FoxP function in the nervous system. At the cellular level, we demonstrate that Drosophila FoxP is required in larvae for synaptic morphogenesis at axonal terminals of the neuromuscular junction and for dendrite development of dorsal multidendritic sensory neurons. In the developing brain, we find that FoxP plays important roles in α-lobe mushroom body formation. Finally, at a behavioral level, we show that Drosophila FoxP is important for locomotion, habituation learning and social space behavior of adult flies. Our work shows that Drosophila FoxP is important for regulating several neurodevelopmental processes and behaviors that are related to human disease or vertebrate disease model phenotypes. This suggests a high degree of functional conservation with vertebrate FOXP orthologues and established flies as a model system for understanding FOXP related pathologies.",
+    "authors": [
+      "Anna Castells‐Nobau",
+      "Ilse Eidhof",
+      "Michaela Fencková",
+      "Dova B. Brenman‐Suttner",
+      "Jolanda M. Scheffer-de Gooyert",
+      "Sheren Christine",
+      "Rosa L. Schellevis",
+      "Kiran J. van der Laan",
+      "Christine Quentin",
+      "Lisa van Ninhuijs"
+    ],
+    "year": 2019,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 45,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Nervous system",
+      "Neuroscience",
+      "Genetics",
+      "Gene",
+      "Cell biology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2909317331",
+    "doi": "10.3389/fevo.2018.00225",
+    "pmid": "",
+    "title": "The Role of Learning on Insect and Spider Sexual Behaviors, Sexual Trait Evolution, and Speciation",
+    "abstract": "We review experimental and theoretical evidence that learning in insects and spiders affects the expression of mate preferences and of sexual signals, the evolution of both traits, and ultimately patterns of assortative mating and speciation. Both males and females can modify their sexual preferences and signaling based on previous social interactions or the experience of visual, olfactory, gustatory, or auditory signals. Learning takes place during an early life exposure, previous personal sexual experiences or by observing the choices of others, and it can occur sometimes via very short (a few seconds) exposures to individuals or signals. We briefly review some of the molecular mechanisms that mediate learning in insects, as well as theoretical work that assesses how learning impacts the evolution of insect sexual traits and speciation. We suggest that future research should attempt to provide evidence of the adaptive nature of learning, which remains scarce in insects as well as in vertebrates, and explore further the mechanisms of learning in order to probe into their possible transgenerational inheritance. Future studies should also model how this process might further affect the evolution of sexual traits, and provide a unifying terminology for the underlying mechanisms of learning across diverse life-history contexts.",
+    "authors": [
+      "Éric Dion",
+      "Antónia Monteiro",
+      "Caroline M. Nieberding"
+    ],
+    "year": 2019,
+    "venue": "Frontiers in Ecology and Evolution",
+    "venue_issn": "2296-701X",
+    "venue_type": "journal",
+    "cited_by": 50,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Genetic algorithm",
+      "Trait",
+      "Evolutionary biology",
+      "Mating",
+      "Sexual selection",
+      "Terminology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2124762307",
+    "doi": "10.1111/j.1095-8312.2007.00753.x",
+    "pmid": "",
+    "title": "Song divergence at the edge of Amazonia: an empirical test of the peripatric speciation model",
+    "abstract": "The evolutionary divergence of mating signals provides a powerful basis for animal speciation. Divergence in sympatry strengthens reproductive isolation, and divergence in allopatry can reduce or eliminate gene flow between populations on secondary contact. In birds, the first of these processes has empirical support, but the second remains largely hypothetical. This is perhaps because most studies have focused on oscine passerines, whose song learning ability may reduce the influence of vocalizations in reproductive isolation. In suboscine passerines, the role of learning in song development is thought to be minimal, and the resultant signals are relatively fixed. To investigate the role of song in the early stages of peripatric speciation, we therefore studied a suboscine, the chestnut-tailed antbird Myrmeciza hemimelaena . We recorded male songs in a natural forest island (isolated for < 3000 years) at the southern fringe of Amazonia, and at two nearby sites in continuous forest. A previous study found the isolated population to be weakly differentiated genetically from the ancestral population suggesting that peripatric speciation was underway. In support of this, although we detected minor but significant differences in song structure between each site, the most divergent songs were those of island birds. On simulating secondary contact using playback, we found that pairs from the forest island responded more strongly to island (i.e. local) songs than to those from both nonisland sites, and vice versa. This pattern was not observed in pairs from one non-island site, which responded with equal strength to local songs and songs from the other non-island site. Island females were more likely to approach and sing after hearing local male songs, rather than songs from the non-island populations, and vice versa; nonisland females did not appear to discriminate between local songs and those from the other non-island site. These findings are consistent with the idea that vocal divergence arising in small populations at the edge of Amazonia may result in partial reproductive isolation when contact is resumed. They also suggest the possibility that song divergence in peripatry may, after much longer time-frames, act as a barrier to gene flow in suboscines, perhaps because of an inability to learn or recognize divergent songs on secondary contact.",
+    "authors": [
+      "Nathalie Seddon",
+      "Joseph A. Tobias"
+    ],
+    "year": 2007,
+    "venue": "Biological Journal of the Linnean Society",
+    "venue_issn": "0024-4066",
+    "venue_type": "journal",
+    "cited_by": 94,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Ecology",
+      "Genetic algorithm",
+      "Divergence (linguistics)",
+      "Population",
+      "Amazon rainforest",
+      "Evolutionary biology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2951590714",
+    "doi": "10.1371/journal.pgen.1007430",
+    "pmid": "30024883",
+    "title": "Drosophila species learn dialects through communal living",
+    "abstract": "Many species are able to share information about their environment by communicating through auditory, visual, and olfactory cues. In Drosophila melanogaster, exposure to parasitoid wasps leads to a decline in egg laying, and exposed females communicate this threat to naïve flies, which also depress egg laying. We find that species across the genus Drosophila respond to wasps by egg laying reduction, activate cleaved caspase in oocytes, and communicate the presence of wasps to naïve individuals. Communication within a species and between closely related species is efficient, while more distantly related species exhibit partial communication. Remarkably, partial communication between some species is enhanced after a cohabitation period that requires exchange of visual and olfactory signals. This interspecies \"dialect learning\" requires neuronal cAMP signaling in the mushroom body, suggesting neuronal plasticity facilitates dialect learning and memory. These observations establish Drosophila as genetic models for interspecies social communication and evolution of dialects.",
+    "authors": [
+      "Balint Z Kacsoh",
+      "Julianna Bozler",
+      "Giovanni Bosco"
+    ],
+    "year": 2018,
+    "venue": "PLoS Genetics",
+    "venue_issn": "1553-7390",
+    "venue_type": "journal",
+    "cited_by": 42,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Evolutionary biology",
+      "Zoology",
+      "Ecology",
+      "Hymenoptera",
+      "Genetics",
+      "Gene"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W4210805832",
+    "doi": "10.3920/jiff2020.0061",
+    "pmid": "",
+    "title": "Welfare of farmed insects",
+    "abstract": "The recent interest in using insects as food and feed is based on their capacity to be a sustainable alternative to other protein sources. When farmed as mini livestock, the question is raised as to whether they are ‘sentient beings’ (self-conscious)? In researching this topic, the problem is that humans often expect animals to have the same subjective experience as we do (anthropomorphic) and consider themselves as the centre of the universe (anthropocentric). We discuss insects’ sentience by looking at their brain, behaviour, and communicative abilities. The miniature brains of insects seem to be arranged in a very efficient functional way due to their very long evolutionary history. As for their behaviour, insects are capable of social and associative learning. Even dopamine, a neurotransmitter involved in reward and pleasure, plays a role. Human communication is mainly verbal, while for insects other means of information exchange are more important, such as tactile, chemical, visual, and vibrational. The distinction needs to be made between nociception and pain, the latter being an emotional experience. It is difficult to prove that insects can experience pain, although they have a large repertoire of withdrawal and defensive behavioural responses. The philosophical attitudes deal with how we view insects and their relations to humans. This also determines the ethical attitude and how we should treat them. Are they just there for our benefit or do we consider them as co-animals? Insects as food requires that many insects must be killed. However, the number killed may not be different when one chooses a plant-based diet. It is concluded that insects should be farmed and killed using the precautionary principle, which assumes that they can experience pain. To discuss the consequences for the industry sector that produces insects for food and feed, we used Brambell’s five freedoms as a framework.",
+    "authors": [
+      "A. van Huis"
+    ],
+    "year": 2020,
+    "venue": "Journal of Insects as Food and Feed",
+    "venue_issn": "2352-4588",
+    "venue_type": "journal",
+    "cited_by": 62,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Sentience",
+      "Anthropocentrism",
+      "Pleasure",
+      "Social psychology",
+      "Cognitive psychology",
+      "Environmental ethics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2923646283",
+    "doi": "10.1098/rstb.2018.0105",
+    "pmid": "30905296",
+    "title": "Mice Against Ticks: an experimental community-guided effort to prevent tick-borne disease by altering the shared environment",
+    "abstract": "Mice Against Ticks is a community-guided ecological engineering project that aims to prevent tick-borne disease by using CRISPR-based genome editing to heritably immunize the white-footed mice ( Peromyscus leucopus) responsible for infecting many ticks in eastern North America. Introducing antibody-encoding resistance alleles into the local mouse population is anticipated to disrupt the disease transmission cycle for decades. Technology development is shaped by engagement with community members and visitors to the islands of Nantucket and Martha's Vineyard, including decisions at project inception about which types of disease resistance to pursue. This engagement process has prompted the researchers to use only white-footed mouse DNA if possible, meaning the current project will not involve gene drive. Instead, engineered mice would be released in the spring when the natural population is low, a plan unlikely to increase total numbers above the normal maximum in autumn. Community members are continually asked to share their suggestions and concerns, a process that has already identified potential ecological consequences unanticipated by the research team that will likely affect implementation. As an early example of CRISPR-based ecological engineering, Mice Against Ticks aims to start small and simple by working with island communities whose mouse populations can be lastingly immunized without gene drive. This article is part of a discussion meeting issue 'The ecology and evolution of prokaryotic CRISPR-Cas adaptive immune systems'.",
+    "authors": [
+      "Joanna Buchthal",
+      "Sam Weiss Evans",
+      "Jeantine E. Lunshof",
+      "Sam R. Telford",
+      "Kevin M. Esvelt"
+    ],
+    "year": 2019,
+    "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+    "venue_issn": "0962-8436",
+    "venue_type": "journal",
+    "cited_by": 66,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Peromyscus",
+      "Tick",
+      "Population",
+      "Ecology",
+      "Resistance (ecology)",
+      "Genetics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3120765891",
+    "doi": "10.1093/jhered/esab001",
+    "pmid": "33438016",
+    "title": "Extensive Linkage and Genetic Coupling of Song and Preference Loci Underlying Rapid Speciation in<i>Laupala</i>Crickets",
+    "abstract": "In nature, closely related species commonly display divergent mating behaviors, suggesting a central role for such traits in the origin of species. Elucidating the genetic basis of divergence in these traits is necessary to understand the evolutionary process leading to reproductive barriers and speciation. The rapidly speciating Hawaiian crickets of the genus Laupala provides an ideal system for dissecting the genetic basis of mating behavior divergence. In Laupala, closely related species differ markedly in male song pulse rate and female preference for pulse rate. These behaviors play an important role in determining mating patterns. Previous studies identified a genetic architecture consisting of numerous small to moderate effect loci causing interspecific differences in pulse rate and preference, including colocalizing pulse rate and preference QTL on linkage group one (LG1). To further interrogate these QTL, we conduct a fine mapping study using high-density SNP linkage maps. With improved statistical power and map resolution, we provide robust evidence for genetic coupling between song and preference, along with two additional pulse rate QTL on LG1, revealing a more resolved picture of the genetic architecture underlying mating behavior divergence. Our sequence-based genetic map, along with dramatically narrowed QTL confidence intervals, allowed us to annotate genes within the QTL regions and identify several exciting candidate genes underlying variation in pulse rate and preference divergence. Such knowledge suggests potential molecular mechanisms underlying the evolution of behavioral barriers.",
+    "authors": [
+      "Mingzi Xu",
+      "Kerry L. Shaw"
+    ],
+    "year": 2021,
+    "venue": "Journal of Heredity",
+    "venue_issn": "0022-1503",
+    "venue_type": "journal",
+    "cited_by": 45,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Genetic algorithm",
+      "Preference",
+      "Evolutionary biology",
+      "Genetics",
+      "Gene",
+      "Statistics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2118475178",
+    "doi": "10.3389/fnbeh.2010.00034",
+    "pmid": "20661457",
+    "title": "Towards an integrative understanding of social behavior: new models and new opportunities",
+    "abstract": "Social interactions among conspecifics are a fundamental and adaptively significant component of the biology of numerous species. Such interactions give rise to group living as well as many of the complex forms of cooperation and conflict that occur within animal groups. Although previous conceptual models have focused on the ecological causes and fitness consequences of variation in social interactions, recent developments in endocrinology, neuroscience, and molecular genetics offer exciting opportunities to develop more integrated research programs that will facilitate new insights into the physiological causes and consequences of social variation. Here, we propose an integrative framework of social behavior that emphasizes relationships between ultimate-level function and proximate-level mechanism, thereby providing a foundation for exploring the full diversity of factors that underlie variation in social interactions, and ultimately sociality. In addition to identifying new model systems for the study of human psychopathologies, this framework provides a mechanistic basis for predicting how social behavior will change in response to environmental variation. We argue that the study of non-model organisms is essential for implementing this integrative model of social behavior because such species can be studied simultaneously in the lab and field, thereby allowing integration of rigorously controlled experimental manipulations with detailed observations of the ecological contexts in which interactions among conspecifics occur.",
+    "authors": [
+      "Daniel T. Blumstein"
+    ],
+    "year": 2010,
+    "venue": "Frontiers in Behavioral Neuroscience",
+    "venue_issn": "1662-5153",
+    "venue_type": "journal",
+    "cited_by": 86,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Sociality",
+      "Variation (astronomy)",
+      "Mechanism (biology)",
+      "Diversity (politics)",
+      "Cognitive science",
+      "Function (biology)"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2064256150",
+    "doi": "10.1186/1471-2164-13-727",
+    "pmid": "23268654",
+    "title": "Genome-wide annotation and analysis of zebra finch microRNA repertoire reveal sex-biased expression",
+    "abstract": "BACKGROUND: MicroRNAs (miRNAs) are small noncoding RNAs that regulate gene expression post-transcriptionally in a wide range of biological processes. The zebra finch (Taeniopygia guttata), an oscine songbird with characteristic learned vocal behavior, provides biologists a unique model system for studying vocal behavior, sexually dimorphic brain development and functions, and comparative genomics. RESULTS: We deep sequenced small RNA libraries made from the brain, heart, liver, and muscle tissues of adult male and female zebra finches. By mapping the sequence reads to the zebra finch genome and to known miRNAs in miRBase, we annotated a total of 193 miRNAs. Among them, 29 (15%) are avian specific, including three novel zebra finch specific miRNAs. Many of the miRNAs exhibit sequence heterogeneity including length variations, untemplated terminal nucleotide additions, and internal substitution events occurring at the uridine nucleotide within a GGU motif. We also identified seven Z chromosome-encoded miRNAs. Among them, miR-2954, an avian specific miRNA, is expressed at significantly higher levels in males than in females in all tissues examined. Target prediction analysis reveals that miR-2954, but not other Z-linked miRNAs, preferentially targets Z chromosome-encoded genes, including several genes known to be expressed in a sexually dimorphic manner in the zebra finch brain. CONCLUSIONS: Our genome-wide systematic analysis of mature sequences, genomic locations, evolutionary sequence conservation, and tissue expression profiles of the zebra finch miRNA repertoire provides a valuable resource to the research community. Our analysis also reveals a miRNA-mediated mechanism that potentially regulates sex-biased gene expression in avian species.",
+    "authors": [
+      "Guan‐Zheng Luo",
+      "Markus Hafner",
+      "Zhimin Shi",
+      "Miguel Brown",
+      "Guihai Feng",
+      "Thomas Tuschl",
+      "Xiu‐Jie Wang",
+      "XiaoChing Li"
+    ],
+    "year": 2012,
+    "venue": "BMC Genomics",
+    "venue_issn": "1471-2164",
+    "venue_type": "journal",
+    "cited_by": 49,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Zebra finch",
+      "Songbird",
+      "Genetics",
+      "Gene",
+      "Repertoire",
+      "Neuroscience"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2103693842",
+    "doi": "10.1523/jneurosci.13-05-02186.1993",
+    "pmid": "8478695",
+    "title": "An invertebrate calcium-binding protein of the calbindin subfamily: protein structure, genomic organization, and expression pattern of the calbindin-32 gene of Drosophila",
+    "abstract": "Antisera against vertebrate calcium-binding proteins cross-react with Drosophila nervous and muscle tissue. We have used an antiserum against carp parvalbumin to isolate from a Drosophila head cDNA library immunopositive expression clones. Tissue in situ hybridization identified a clone that labeled specific neurons and muscles similar to the parvalbumin-like immunohistochemical staining pattern. Five independent cDNAs derive from an mRNA whose open reading frame codes for a 310 amino acid polypeptide. Sequence analysis identifies six EF-hand calcium-binding domains and reveals 42% and 37% homology to chicken calretinin and calbindin D-28k, respectively. Since the positions of 9 out of 10 introns within the ORF are conserved from the Drosophila gene to both vertebrate genes, we conclude that we have identified the first invertebrate member of the calbindin sub-family of calcium-binding protein genes of the EF-hand homolog family. The calbindin-32 gene (cbn) maps to 53E on the second chromosome. It is expressed through most of ontogenesis with a selective distribution in the nervous system and in a few small adult thoracic muscles. The cloning of a Drosophila homolog to vertebrate neuronal Ca(2+)-binding proteins opens new routes to study the so far largely elusive function of these brain molecules.",
+    "authors": [
+      "Rita Reifegerste",
+      "S Grimm",
+      "Susanne Albert",
+      "Norbert Lipski",
+      "Gertrud Heimbeck",
+      "Alois Hofbauer",
+      "Pflugfelder Go",
+      "D Quack",
+      "Claudia Reichmuth",
+      "B Schug"
+    ],
+    "year": 1993,
+    "venue": "Journal of Neuroscience",
+    "venue_issn": "0270-6474",
+    "venue_type": "journal",
+    "cited_by": 35,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Parvalbumin",
+      "Gene",
+      "Molecular biology",
+      "Genetics",
+      "Calcium",
+      "Immunohistochemistry"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2611673124",
+    "doi": "10.3389/fnmol.2017.00112",
+    "pmid": "",
+    "title": "Protein-Protein Interaction Among the FoxP Family Members and their Regulation of Two Target Genes, VLDLR and CNTNAP2 in the Zebra Finch Song System",
+    "abstract": "The Forkhead transcription factor FOXP2 is implicated in speech perception and production. The avian homologue, FoxP2 , contributes to song learning and production in birds. In human cell lines, transcriptional activity of FOXP2 requires homo-dimerization or dimerization with paralogues FOXP1 or FOXP4. Whether FoxP dimerization occurs in the brain is unknown. We recently showed that FoxP1, FoxP2 and FoxP4 (FoxP1/2/4) proteins are co-expressed in neurons of Area X, a song control region in zebra finches. We now report on dimer- and oligomerization of zebra finch FoxPs and how this affects transcription. In cell lines and in the brain we identify homo- and hetero-dimers, and an oligomer composed of FoxP1/2/4. We further show that FoxP1/2/4 bind to the regulatory region of the target gene CNTNAP2 and FoxP1/4 to the regulatory region of VLDLR. Interestingly, FoxP1/2/4 individually or in combinations regulate the promoters for SV40, zebra finch VLDLR and CNTNAP2 differentially. These data exemplify the potential for complex transcriptional regulation of FoxP1/2/4, highlighting the need for future functional studies dissecting their differential regulation in the brain.",
+    "authors": [
+      "Ezequiel Mendoza",
+      "Constance Scharff"
+    ],
+    "year": 2017,
+    "venue": "Frontiers in Molecular Neuroscience",
+    "venue_issn": "1662-5099",
+    "venue_type": "journal",
+    "cited_by": 48,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Zebra finch",
+      "Gene",
+      "Neuroscience",
+      "Genetics",
+      "Cell biology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W3165263861",
+    "doi": "10.1038/s41598-021-90775-6",
+    "pmid": "34078943",
+    "title": "Contingency and determinism in the evolution of bird song sound frequency",
+    "abstract": "Sexual signals are archetypes of contingent evolution: hyper-diverse across species, often evolving fast and in unpredictable directions. It is unclear to which extent their evolutionary unpredictability weakens deterministic evolution, or takes place bounded by deterministic patterns of trait evolution. We compared the evolution of sound frequency in sexual signals (advertisement songs) and non-sexual social signals (calls) across > 500 genera of the crown songbird families. Contrary to the acoustic adaptation hypothesis, we found no evidence that forest species used lower sound frequencies in songs or calls. Consistent with contingent evolution in song, we found lower phylogenetic signal for the sound frequency of songs than calls, which suggests faster and less predictable evolution, and found unpredictable direction of evolution in lineages with longer songs, which presumably experience stronger sexual selection on song. Nonetheless, the most important deterministic pattern of sound frequency evolution-its negative association with body size-was stronger in songs than calls. This can be explained by songs being longer-range signals than most calls, and thus using sound frequencies that animals of a given size produce best at high amplitude. Results indicate that sexual selection can increase aspects of evolutionary contingency while strengthening, rather than weakening, deterministic patterns of evolution.",
+    "authors": [
+      "Jakob Isager Friis",
+      "Torben Dabelsteen",
+      "Gonçalo C. Cardoso"
+    ],
+    "year": 2021,
+    "venue": "Scientific Reports",
+    "venue_issn": "2045-2322",
+    "venue_type": "journal",
+    "cited_by": 33,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Sound (geography)",
+      "Contingency",
+      "Determinism",
+      "Evolutionary biology",
+      "Acoustics",
+      "Linguistics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2217977239",
+    "doi": "10.1098/rspb.2015.2222",
+    "pmid": "26631566",
+    "title": "Female preference for multi-modal courtship: multiple signals are important for male mating success in peacock spiders",
+    "abstract": "A long-standing goal for biologists has been to understand how female preferences operate in systems where males have evolved numerous sexually selected traits. Jumping spiders of the Maratus genus are exceptionally sexually dimorphic in appearance and signalling behaviour. Presumably, strong sexual selection by females has played an important role in the evolution of complex signals displayed by males of this group; however, this has not yet been demonstrated. In fact, despite apparent widespread examples of sexual selection in nature, empirical evidence is relatively sparse, especially for species employing multiple modalities for intersexual communication. In order to elucidate whether female preference can explain the evolution of multi-modal signalling traits, we ran a series of mating trials using Maratus volans. We used video recordings and laser vibrometry to characterize, quantify and examine which male courtship traits predict various metrics of mating success. We found evidence for strong sexual selection on males in this system, with success contingent upon a combination of visual and vibratory displays. Additionally, independently produced, yet correlated suites of multi-modal male signals are linked to other aspects of female peacock spider behaviour. Lastly, our data provide some support for both the redundant signal and multiple messages hypotheses for the evolution of multi-modal signalling.",
+    "authors": [
+      "Madeline Girard",
+      "Damian O. Elias",
+      "Michael M. Kasumovic"
+    ],
+    "year": 2015,
+    "venue": "Proceedings of the Royal Society B Biological Sciences",
+    "venue_issn": "0962-8452",
+    "venue_type": "journal",
+    "cited_by": 89,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Courtship",
+      "Mating",
+      "Preference",
+      "Modal",
+      "Zoology",
+      "Communication"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2013470245",
+    "doi": "10.1371/journal.pone.0046025",
+    "pmid": "23049926",
+    "title": "Song Choice Is Modulated by Female Movement in Drosophila Males",
+    "abstract": "Mate selection is critical to ensuring the survival of a species. In the fruit fly, Drosophila melanogaster, genetic and anatomical studies have focused on mate recognition and courtship initiation for decades. This model system has proven to be highly amenable for the study of neural systems controlling the decision making process. However, much less is known about how courtship quality is regulated in a temporally dynamic manner in males and how a female assesses male performance as she makes her decision of whether to accept copulation. Here, we report that the courting male dynamically adjusts the relative proportions of the song components, pulse song or sine song, by assessing female locomotion. Male flies deficient for olfaction failed to perform the locomotion-dependent song modulation, indicating that olfactory cues provide essential information regarding proximity to the target female. Olfactory mutant males also showed lower copulation success when paired with wild-type females, suggesting that the male's ability to temporally control song significantly affects female mating receptivity. These results depict the consecutive inter-sex behavioral decisions, in which a male smells the close proximity of a female as an indication of her increased receptivity and accordingly coordinates his song choice, which then enhances the probability of his successful copulation.",
+    "authors": [
+      "Alexander Trott",
+      "Nathan C. Donelson",
+      "Leslie C. Griffith",
+      "Aki Ejima"
+    ],
+    "year": 2012,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 24,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Courtship",
+      "Receptivity",
+      "Mating",
+      "Olfaction",
+      "Sexual selection",
+      "Zoology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1781918783",
+    "doi": "10.7554/elife.07277",
+    "pmid": "26046297",
+    "title": "Acoustic duetting in Drosophila virilis relies on the integration of auditory and tactile signals",
+    "abstract": "Many animal species, including insects, are capable of acoustic duetting, a complex social behavior in which males and females tightly control the rate and timing of their courtship song syllables relative to each other. The mechanisms underlying duetting remain largely unknown across model systems. Most studies of duetting focus exclusively on acoustic interactions, but the use of multisensory cues should aid in coordinating behavior between individuals. To test this hypothesis, we develop Drosophila virilis as a new model for studies of duetting. By combining sensory manipulations, quantitative behavioral assays, and statistical modeling, we show that virilis females combine precisely timed auditory and tactile cues to drive song production and duetting. Tactile cues delivered to the abdomen and genitalia play the larger role in females, as even headless females continue to coordinate song production with courting males. These data, therefore, reveal a novel, non-acoustic, mechanism for acoustic duetting. Finally, our results indicate that female-duetting circuits are not sexually differentiated, as males can also produce 'female-like' duets in a context-dependent manner.",
+    "authors": [
+      "Kelly M LaRue",
+      "Jan Clemens",
+      "Gordon J Berman",
+      "Mala Murthy"
+    ],
+    "year": 2015,
+    "venue": "eLife",
+    "venue_issn": "2050-084X",
+    "venue_type": "journal",
+    "cited_by": 36,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Neuroscience",
+      "Communication",
+      "Speech recognition",
+      "Sensory system",
+      "Genetics",
+      "Gene"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2083184176",
+    "doi": "10.1371/journal.pone.0045524",
+    "pmid": "23049809",
+    "title": "The Social Brain: Transcriptome Assembly and Characterization of the Hippocampus from a Social Subterranean Rodent, the Colonial Tuco-Tuco (Ctenomys sociabilis)",
+    "abstract": "Elucidating the genetic mechanisms that underlie complex adaptive phenotypes is a central problem in evolutionary biology. For behavioral biologists, the ability to link variation in gene expression to the occurrence of specific behavioral traits has long been a largely unobtainable goal. Social interactions with conspecifics represent a fundamental component of the behavior of most animal species. Although several studies of mammals have attempted to uncover the genetic bases for social relationships using a candidate gene approach, none have attempted more comprehensive, transcriptome-based analyses using high throughout sequencing. As a first step toward improved understanding of the genetic underpinnings of mammalian sociality, we generated a reference transcriptome for the colonial tuco-tuco (Ctenomys sociabilis), a social species of subterranean rodent that is endemic to southwestern Argentina. Specifically, we analyzed over 500 million Illumina sequencing reads derived from the hippocampi of 10 colonial tuco-tucos housed in captivity under a variety of social conditions. The resulting reference transcriptome provides a critical tool for future studies aimed at exploring relationships between social environment and gene expression in this non-model species of social mammal.",
+    "authors": [
+      "Matthew D. MacManes",
+      "Eileen A. Lacey"
+    ],
+    "year": 2012,
+    "venue": "PLoS ONE",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": 31,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Sociality",
+      "Evolutionary biology",
+      "Rodent",
+      "Genetics",
+      "Gene",
+      "Ecology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W1545465254",
+    "doi": "10.1186/s13071-015-0900-8",
+    "pmid": "26017472",
+    "title": "Phenotypic differentiation in love song traits among sibling species of the Lutzomyia longipalpis complex in Brazil",
+    "abstract": "BACKGROUND: Brazilian populations of Lutzomyia longipalpis may constitute a complex of cryptic species, and this report investigates the distribution and number of potential sibling species. One of the main differences observed among Brazilian populations is the type of acoustic signal produced by males during copulation. These copulation song differences seem to be evolving faster than neutral molecular markers and have been suggested to contribute to insemination failure observed in crosses between these sibling species. In previous studies, two main types of copulation songs were found, burst-type and pulse-type. The latter type can, in turn, be further subdivided into five different patterns. METHODS: We recorded male song from 13 new populations of the L. longipalpis complex from Brazil and compared the songs with 12 already available. RESULTS: Out of these 25 populations, 16 produce burst-type and 9 produce pulse-type songs. We performed a principal component analysis in these two main groups separately and an additional discriminant analysis in the pulse-type group. The pulse-type populations showed a clear separation between the five known patterns with a high correspondence of individuals to their correct group, confirming the differentiation between them. The distinctiveness of the burst-type subgroups was much lower than that observed among the pulse-type groups and no clear population structure was observed. This suggests that the burst-type populations represent a single species. CONCLUSION: Overall, our results are consistent with the existence in Brazil of at least six species of the L. longipalpis complex, one with a wide distribution comprising all the populations with burst-type songs, and five more closely related allopatric siblings with different pulse-type song patterns and more restricted distribution ranges.",
+    "authors": [
+      "Felipe M. Vigoder",
+      "Nataly A. Souza",
+      "Reginaldo P. Brazil",
+      "Rafaela Vieira Bruno",
+      "Pietra Lemos Costa",
+      "Michael G. Ritchie",
+      "Louis Bernard Klaczko",
+      "Alexandre A. Peixoto"
+    ],
+    "year": 2015,
+    "venue": "Parasites & Vectors",
+    "venue_issn": "1756-3305",
+    "venue_type": "journal",
+    "cited_by": 30,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Sibling species",
+      "Population",
+      "Entomology",
+      "Zoology",
+      "Evolutionary biology",
+      "Ecology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2160311156",
+    "doi": "10.1186/1471-2148-13-151",
+    "pmid": "23855797",
+    "title": "Hydrocarbon divergence and reproductive isolation in Timema stick insects",
+    "abstract": "BACKGROUND: Individuals commonly prefer certain trait values over others when choosing their mates. If such preferences diverge between populations, they can generate behavioral reproductive isolation and thereby contribute to speciation. Reproductive isolation in insects often involves chemical communication, and cuticular hydrocarbons, in particular, serve as mate recognition signals in many species. We combined data on female cuticular hydrocarbons, interspecific mating propensity, and phylogenetics to evaluate the role of cuticular hydrocarbons in diversification of Timema walking-sticks. RESULTS: Hydrocarbon profiles differed substantially among the nine analyzed species, as well as between partially reproductively-isolated T. cristinae populations adapted to different host plants. In no-choice trials, mating was more likely between species with similar than divergent hydrocarbon profiles, even after correcting for genetic divergences. The macroevolution of hydrocarbon profiles, along a Timema species phylogeny, fits best with a punctuated model of phenotypic change concentrated around speciation events, consistent with change driven by selection during the evolution of reproductive isolation. CONCLUSION: Altogether, our data indicate that cuticular hydrocarbon profiles vary among Timema species and populations, and that most evolutionary change in hydrocarbon profiles occurs in association with speciation events. Similarities in hydrocarbon profiles between species are correlated with interspecific mating propensities, suggesting a role for cuticular hydrocarbon profiles in mate choice and speciation in the genus Timema.",
+    "authors": [
+      "Tanja Schwander",
+      "Devin Arbuthnott",
+      "Regine Gries",
+      "Gerhard Gries",
+      "Patrik Nosil",
+      "Bernard J. Crespi"
+    ],
+    "year": 2013,
+    "venue": "BMC Evolutionary Biology",
+    "venue_issn": "1471-2148",
+    "venue_type": "journal",
+    "cited_by": 51,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Genetic algorithm",
+      "Evolutionary biology",
+      "Interspecific competition",
+      "Mating",
+      "Ecology",
+      "Zoology"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2139667605",
+    "doi": "10.1093/beheco/arv109",
+    "pmid": "",
+    "title": "Is there an evolutionary trade-off between quality signaling and social recognition?",
+    "abstract": "To successfully navigate their social environments animals need to assess conspecifics. Quality signals and social recognition are 2 assessment strategies that animals employ to evaluate potential rivals or mates. Despite substantial research on both assessment strategies, relatively little work has addressed how quality signals and social recognition interact. Here, we propose that quality signals and social recognition have an antagonistic evolutionary relationship, building on earlier assertions by Sievert Rohwer (American Zoologist, 1982). Both quality signals and social recognition provide animals access to information about conspecifics, allowing them to avoid costly confrontations or choose appropriate partners. We assert that, although the information gleaned from quality signals or social recognition overlaps, the processes by which information is acquired are distinct. Therefore, selection that favors quality signaling will lead to elaboration of signaling traits while disfavoring the elaboration of traits used in social recognition such as identity signals, learning, and memory. We first outline testable predictions for the hypothesis that quality signals and social recognition are antagonistic on evolutionary timescales, and we then explore its broader ramifications for understanding the distribution of signals and social recognition across taxa. Notably, the framework we propose emphasizes rarely considered factors such as body size that may tip the balance between the costs and benefits of each assessment strategy. Finally, we highlight the potential for important feedback between social assessment strategy and a species' socioecology.",
+    "authors": [
+      "Michael J. Sheehan",
+      "Thore J. Bergman"
+    ],
+    "year": 2015,
+    "venue": "Behavioral Ecology",
+    "venue_issn": "1045-2249",
+    "venue_type": "journal",
+    "cited_by": 85,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Quality (philosophy)",
+      "Identity (music)",
+      "Social recognition",
+      "Cognitive psychology",
+      "Communication",
+      "Acoustics"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W2196752154",
+    "doi": "10.1098/rstb.2015.0055",
+    "pmid": "26598732",
+    "title": "Genealogical correspondence of a forebrain centre implies an executive brain in the protostome–deuterostome bilaterian ancestor",
+    "abstract": "Orthologous genes involved in the formation of proteins associated with memory acquisition are similarly expressed in forebrain centres that exhibit similar cognitive properties. These proteins include cAMP-dependent protein kinase A catalytic subunit (PKA-Cα) and phosphorylated Ca(2+)/calmodulin-dependent protein kinase II (pCaMKII), both required for long-term memory formation which is enriched in rodent hippocampus and insect mushroom bodies, both implicated in allocentric memory and both possessing corresponding neuronal architectures. Antibodies against these proteins resolve forebrain centres, or their equivalents, having the same ground pattern of neuronal organization in species across five phyla. The ground pattern is defined by olfactory or chemosensory afferents supplying systems of parallel fibres of intrinsic neurons intersected by orthogonal domains of afferent and efferent arborizations with local interneurons providing feedback loops. The totality of shared characters implies a deep origin in the protostome-deuterostome bilaterian ancestor of elements of a learning and memory circuit. Proxies for such an ancestral taxon are simple extant bilaterians, particularly acoels that express PKA-Cα and pCaMKII in discrete anterior domains that can be properly referred to as brains.",
+    "authors": [
+      "Gabriella H. Wolff",
+      "Nicholas J. Strausfeld"
+    ],
+    "year": 2015,
+    "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+    "venue_issn": "0962-8436",
+    "venue_type": "journal",
+    "cited_by": 64,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Neuroscience",
+      "Evolutionary biology",
+      "Gene",
+      "Genetics",
+      "Afferent",
+      "Central nervous system"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W4392186914",
+    "doi": "10.3758/s13415-024-01171-2",
+    "pmid": "38413466",
+    "title": "Rodent tests of depression and anxiety: Construct validity and translational relevance",
+    "abstract": "Behavioral testing constitutes the primary method to measure the emotional states of nonhuman animals in preclinical research. Emerging as the characteristic tool of the behaviorist school of psychology, behavioral testing of animals, particularly rodents, is employed to understand the complex cognitive and affective symptoms of neuropsychiatric disorders. Following the symptom-based diagnosis model of the DSM, rodent models and tests of depression and anxiety focus on behavioral patterns that resemble the superficial symptoms of these disorders. While these practices provided researchers with a platform to screen novel antidepressant and anxiolytic drug candidates, their construct validity-involving relevant underlying mechanisms-has been questioned. In this review, we present the laboratory procedures used to assess depressive- and anxiety-like behaviors in rats and mice. These include constructs that rely on stress-triggered responses, such as behavioral despair, and those that emerge with nonaversive training, such as cognitive bias. We describe the specific behavioral tests that are used to assess these constructs and discuss the criticisms on their theoretical background. We review specific concerns about the construct validity and translational relevance of individual behavioral tests, outline the limitations of the traditional, symptom-based interpretation, and introduce novel, ethologically relevant frameworks that emphasize simple behavioral patterns. Finally, we explore behavioral monitoring and morphological analysis methods that can be integrated into behavioral testing and discuss how they can enhance the construct validity of these tests.",
+    "authors": [
+      "Sinem Gencturk",
+      "Güneş Ünal"
+    ],
+    "year": 2024,
+    "venue": "Cognitive Affective & Behavioral Neuroscience",
+    "venue_issn": "1530-7026",
+    "venue_type": "journal",
+    "cited_by": 118,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Construct (python library)",
+      "Anxiety",
+      "Cognition",
+      "Cognitive psychology",
+      "Translational research",
+      "Relevance (law)"
+    ]
+  },
+  {
+    "source": "openalex",
+    "openalex_id": "W4288515281",
+    "doi": "10.3389/fvets.2022.656833",
+    "pmid": "35968006",
+    "title": "Integrative Model of Human-Animal Interactions: A One Health–One Welfare Systemic Approach to Studying HAI",
+    "abstract": "The Integrative Model of Human-Animal Interactions (IMHAI) described herewith provides a conceptual framework for the study of interspecies interactions and aims to model the primary emotional processes involved in human-animal interactions. This model was developed from theoretical inputs from three fundamental disciplines for understanding interspecies interactions: neuroscience, psychology and ethology, with the objective of providing a transdisciplinary approach on which field professionals and researchers can build and collaborate. Seminal works in affective neuroscience offer a common basis between humans and animals and, as such, can be applied to the study of interspecies interactions from a One Health-One Welfare perspective. On the one hand, Jaak Panksepp's research revealed that primary/basic emotions originate in the deep subcortical regions of the brain and are shared by all mammals, including humans. On the other hand, several works in the field of neuroscience show that the basic physiological state is largely determined by the perception of safety. Thus, emotional expression reflects the state of an individual's permanent adaptation to ever-changing environmental demands. Based on this evidence and over 5 years of action research using grounded theory, alternating between research and practice, the IMHAI proposes a systemic approach to the study of primary-process emotional affects during interspecies social interactions, through the processes of emotional transfer, embodied communication and interactive emotional regulation. IMHAI aims to generate new hypotheses and predictions on affective behavior and interspecies communication. Application of such a model should promote risk prevention and the establishment of positive links between humans and animals thereby contributing to their respective wellbeing.",
+    "authors": [
+      "Charlène Leconstant",
+      "Élisabeth Spitz"
+    ],
+    "year": 2022,
+    "venue": "Frontiers in Veterinary Science",
+    "venue_issn": "2297-1769",
+    "venue_type": "journal",
+    "cited_by": 65,
+    "is_oa": true,
+    "work_type": "article",
+    "target_species": "Drosophila melanogaster",
+    "concepts": [
+      "Embodied cognition",
+      "Action (physics)",
+      "Ethology",
+      "Perception",
+      "Cognitive science",
+      "Cognitive psychology"
+    ]
+  },
+  {
+    "source": "pubmed",
+    "pmid": "39952248",
+    "doi": "10.1016/j.cell.2025.01.008",
+    "openalex_id": "",
+    "title": "Male-male interactions shape mate selection in Drosophila.",
+    "abstract": "Males of many species have evolved behavioral traits to both attract females and repel rivals. Here, we explore mate selection in Drosophila from both the male and female perspective to shed light on how these key components of sexual selection-female choice and male-male competition-work in concert to guide reproductive strategies. We find that male flies fend off competing suitors by interleaving their courtship of a female with aggressive wing flicks, which both repel competitors and generate a \"song\" that obscures the female's auditory perception of other potential mates. Two higher-order circuit nodes-P1a and pC1x neurons-are coordinately recruited to allow males to flexibly interleave these agonistic actions with courtship displays, assuring they persistently pursue females until their rival falters. Together, our results suggest that female mating decisions are shaped by male-male interactions, underscoring how a male's ability to subvert his rivals is central to his reproductive success.",
+    "authors": [
+      "Hindmarsh Sten T",
+      "Li R",
+      "Hollunder F",
+      "Eleazer S",
+      "Ruta V"
+    ],
+    "year": 2025,
+    "venue": "Cell",
+    "venue_issn": "1097-4172",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "40388613",
+    "doi": "10.1073/pnas.2417733122",
+    "openalex_id": "",
+    "title": "Inferring neural population codes for",
+    "abstract": "Social communication between animals is often mediated by sequences of acoustic signals, sometimes spanning long timescales. How auditory neural circuits respond to extended input sequences to guide behavior is not understood. We address this problem using Drosophila acoustic communication, a behavior involving the male's production of and female's response to long, highly variable courtship songs. Here we ask whether female neural and behavioral responses to song are better described by a linear-nonlinear feature detection model vs. a nonlinear accumulation model. Comparing both models against head-fixed neural recordings and pure-behavioral recordings of unrestrained courtship, we found that while both models could explain the neural data, the accumulation model better predicted female locomotion during courtship, outperforming several alternative predictors. To understand how the accumulation model encoded song to predict locomotion, we analyzed the relationship between neural activity simulated by the model and female locomotion during courtship-this revealed the model's reliance on heterogeneous nonlinear adaptation and slow integration. Finally, we asked how adaptation and integration processes could cooperate across the model neural population to encode temporal patterns in song. Simulations revealed how adaptation can transform song inputs prior to integration, allowing fine-scale song information to be retained in the population code for long periods. Thus, modeling fly auditory responses as a nonlinearly adaptive, accumulating population code accounts for female locomotor responses to song during courtship and suggests a biologically plausible mechanism for the online encoding of extended communication sequences.",
+    "authors": [
+      "Pang R",
+      "Baker CA",
+      "Murthy M",
+      "Pillow J"
+    ],
+    "year": 2025,
+    "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+    "venue_issn": "1091-6490",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "26560238",
+    "doi": "10.1016/j.heares.2015.10.017",
+    "openalex_id": "",
+    "title": "Auditory system of fruit flies.",
+    "abstract": "The fruit fly, Drosophila melanogaster, is an invaluable model for auditory research. Advantages of using the fruit fly include its stereotyped behavior in response to a particular sound, and the availability of molecular-genetic tools to manipulate gene expression and cellular activity. Although the receiver type in fruit flies differs from that in mammals, the auditory systems of mammals and fruit flies are strikingly similar with regard to the level of development, transduction mechanism, mechanical amplification, and central projections. These similarities strongly support the use of the fruit fly to study the general principles of acoustic information processing. In this review, we introduce acoustic communication and discuss recent advances in our understanding on hearing in fruit flies. This article is part of a Special Issue entitled <Annual Reviews 2016>.",
+    "authors": [
+      "Ishikawa Y",
+      "Kamikouchi A"
+    ],
+    "year": 2016,
+    "venue": "Hearing research",
+    "venue_issn": "1878-5891",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Review",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "36781214",
+    "doi": "10.1101/pdb.prot108107",
+    "openalex_id": "",
+    "title": "Probing Acoustic Communication during Fly Reproductive Behaviors.",
+    "abstract": "During reproduction, male and female flies use wing vibration to generate different acoustic signals. Males produce a courtship song before copulation that is easily recognized by unilateral wing vibration. In copula, females produce a distinct sound pattern (copulation song) with both wings. Sexual rejection of immature virgins and aggressive encounters between males are also accompanied by sound pulses generated by wing flicks. Fly song has frequency ranges audible to the human ear and can be directly listened to after appropriate amplification. When displayed in an oscillogram, audio recordings can be mapped on wing-movement patterns and thus provide a fast and precise method to sample and quantify motor behaviors with high temporal resolution. After recording different fly sounds, their effect on behavior can be tested in playback experiments.",
+    "authors": [
+      "von Philipsborn AC",
+      "Shohat-Ophir G",
+      "Rezaval C"
+    ],
+    "year": 2023,
+    "venue": "Cold Spring Harbor protocols",
+    "venue_issn": "1559-6095",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "34723794",
+    "doi": "10.7554/elife.68837",
+    "openalex_id": "",
+    "title": "Fast and accurate annotation of acoustic signals with deep neural networks.",
+    "abstract": "Acoustic signals serve communication within and across species throughout the animal kingdom. Studying the genetics, evolution, and neurobiology of acoustic communication requires annotating acoustic signals: segmenting and identifying individual acoustic elements like syllables or sound pulses. To be useful, annotations need to be accurate, robust to noise, and fast. We here introduce DeepAudioSegmenter (DAS), a method that annotates acoustic signals across species based on a deep-learning derived hierarchical presentation of sound. We demonstrate the accuracy, robustness, and speed of DAS using acoustic signals with diverse characteristics from insects, birds, and mammals. DAS comes with a graphical user interface for annotating song, training the network, and for generating and proofreading annotations. The method can be trained to annotate signals from new species with little manual annotation and can be combined with unsupervised methods to discover novel signal types. DAS annotates song with high throughput and low latency for experimental interventions in realtime. Overall, DAS is a universal, versatile, and accessible tool for annotating acoustic communication signals.",
+    "authors": [
+      "Steinfath E",
+      "Palacios-Muñoz A",
+      "Rottschäfer JR",
+      "Yuezak D",
+      "Clemens J"
+    ],
+    "year": 2021,
+    "venue": "eLife",
+    "venue_issn": "2050-084X",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "26874218",
+    "doi": "10.1016/j.conb.2016.01.013",
+    "openalex_id": "",
+    "title": "Singing on the fly: sensorimotor integration and acoustic communication in Drosophila.",
+    "abstract": "The capacity to communicate via acoustic signals is prevalent across the animal kingdom, from insects to humans. What are the neural circuit mechanisms that underlie this ability? New methods for behavioral analysis along with an unparalleled genetic toolkit have recently opened up studies of acoustic communication in the fruit fly, Drosophila melanogaster. Its nervous system comprises roughly 100,000 neurons, yet flies are able to both produce and process time-varying sounds during courtship. Just as with more complex animals, sensory feedback plays an important role in shaping communication between the sexes. Here, we review recent work in Drosophila that has laid the foundation for solving the mechanisms by which sensory information dynamically modulates behavior.",
+    "authors": [
+      "Coen P",
+      "Murthy M"
+    ],
+    "year": 2016,
+    "venue": "Current opinion in neurobiology",
+    "venue_issn": "1873-6882",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "36611081",
+    "doi": "10.1038/s41598-022-27349-7",
+    "openalex_id": "",
+    "title": "Evolutionary conservation and diversification of auditory neural circuits that process courtship songs in Drosophila.",
+    "abstract": "Acoustic communication signals diversify even on short evolutionary time scales. To understand how the auditory system underlying acoustic communication could evolve, we conducted a systematic comparison of the early stages of the auditory neural circuit involved in song information processing between closely-related fruit-fly species. Male Drosophila melanogaster and D. simulans produce different sound signals during mating rituals, known as courtship songs. Female flies from these species selectively increase their receptivity when they hear songs with conspecific temporal patterns. Here, we firstly confirmed interspecific differences in temporal pattern preferences; D. simulans preferred pulse songs with longer intervals than D. melanogaster. Primary and secondary song-relay neurons, JO neurons and AMMC-B1 neurons, shared similar morphology and neurotransmitters between species. The temporal pattern preferences of AMMC-B1 neurons were also relatively similar between species, with slight but significant differences in their band-pass properties. Although the shift direction of the response property matched that of the behavior, these differences are not large enough to explain behavioral differences in song preferences. This study enhances our understanding of the conservation and diversification of the architecture of the early-stage neural circuit which processes acoustic communication signals.",
+    "authors": [
+      "Ohashi TS",
+      "Ishikawa Y",
+      "Awasaki T",
+      "Su MP",
+      "Yoneyama Y",
+      "Morimoto N",
+      "Kamikouchi A"
+    ],
+    "year": 2023,
+    "venue": "Scientific reports",
+    "venue_issn": "2045-2322",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "35793679",
+    "doi": "10.1016/j.cub.2022.06.019",
+    "openalex_id": "",
+    "title": "Neural network organization for courtship-song feature detection in Drosophila.",
+    "abstract": "Animals communicate using sounds in a wide range of contexts, and auditory systems must encode behaviorally relevant acoustic features to drive appropriate reactions. How feature detection emerges along auditory pathways has been difficult to solve due to challenges in mapping the underlying circuits and characterizing responses to behaviorally relevant features. Here, we study auditory activity in the Drosophila melanogaster brain and investigate feature selectivity for the two main modes of fly courtship song, sinusoids and pulse trains. We identify 24 new cell types of the intermediate layers of the auditory pathway, and using a new connectomic resource, FlyWire, we map all synaptic connections between these cell types, in addition to connections to known early and higher-order auditory neurons-this represents the first circuit-level map of the auditory pathway. We additionally determine the sign (excitatory or inhibitory) of most synapses in this auditory connectome. We find that auditory neurons display a continuum of preferences for courtship song modes and that neurons with different song-mode preferences and response timescales are highly interconnected in a network that lacks hierarchical structure. Nonetheless, we find that the response properties of individual cell types within the connectome are predictable from their inputs. Our study thus provides new insights into the organization of auditory coding within the Drosophila brain.",
+    "authors": [
+      "Baker CA",
+      "McKellar C",
+      "Pang R",
+      "Nern A",
+      "Dorkenwald S",
+      "Pacheco DA",
+      "Eckstein N",
+      "Funke J",
+      "Dickson BJ",
+      "Murthy M"
+    ],
+    "year": 2022,
+    "venue": "Current biology : CB",
+    "venue_issn": "1879-0445",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "31564492",
+    "doi": "10.1016/j.cub.2019.08.008",
+    "openalex_id": "",
+    "title": "Shared Song Detector Neurons in Drosophila Male and Female Brains Drive Sex-Specific Behaviors.",
+    "abstract": "Males and females often produce distinct responses to the same sensory stimuli. How such differences arise-at the level of sensory processing or in the circuits that generate behavior-remains largely unresolved across sensory modalities. We address this issue in the acoustic communication system of Drosophila. During courtship, males generate time-varying songs, and each sex responds with specific behaviors. We characterize male and female behavioral tuning for all aspects of song and show that feature tuning is similar between sexes, suggesting sex-shared song detectors drive divergent behaviors. We then identify higher-order neurons in the Drosophila brain, called pC2, that are tuned for multiple temporal aspects of one mode of the male's song and drive sex-specific behaviors. We thus uncover neurons that are specifically tuned to an acoustic communication signal and that reside at the sensory-motor interface, flexibly linking auditory perception with sex-specific behavioral responses.",
+    "authors": [
+      "Deutsch D",
+      "Clemens J",
+      "Thiberge SY",
+      "Guan G",
+      "Murthy M"
+    ],
+    "year": 2019,
+    "venue": "Current biology : CB",
+    "venue_issn": "1879-0445",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "11948197",
+    "doi": "10.1242/jeb.205.9.1199",
+    "openalex_id": "",
+    "title": "The mechanical basis of Drosophila audition.",
+    "abstract": "In Drosophila melanogaster, antennal hearing organs mediate the detection of conspecific songs. Combining laser Doppler vibrometry, acoustic near-field measurements and anatomical analysis, we have investigated the first steps in Drosophila audition, i.e. the conversion of acoustic energy into mechanical vibrations and the subsequent transmission of vibrations to the auditory receptors in the base of the antenna. Examination of the mechanical responses of the antennal structures established that the distal antennal parts (the funiculus and the arista) together constitute a mechanical entity, the sound receiver. Unconventionally, this receiver is asymmetric, resulting in an unusual, rotatory pattern of vibration; in the presence of sound, the arista and the funiculus together rotate about the longitudinal axis of the latter. According to the mechanical response characteristics, the antennal receiver represents a moderately damped simple harmonic oscillator. The receiver's resonance frequency increases continuously with the stimulus intensity, demonstrating the presence of a non-linear stiffness that may be introduced by the auditory sense organ. This surprising, non-linear effect is relevant for close-range acoustic communication in Drosophila; by improving antennal sensitivity at low song intensities and reducing sensitivity when intensity is high, it brings about dynamic range compression in the fly's auditory system.",
+    "authors": [
+      "Göpfert MC",
+      "Robert D"
+    ],
+    "year": 2002,
+    "venue": "The Journal of experimental biology",
+    "venue_issn": "0022-0949",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "24964149",
+    "doi": "10.1371/journal.pone.0100648",
+    "openalex_id": "",
+    "title": "Drosophila FoxP mutants are deficient in operant self-learning.",
+    "abstract": "Intact function of the Forkhead Box P2 (FOXP2) gene is necessary for normal development of speech and language. This important role has recently been extended, first to other forms of vocal learning in animals and then also to other forms of motor learning. The homology in structure and in function among the FoxP gene members raises the possibility that the ancestral FoxP gene may have evolved as a crucial component of the neural circuitry mediating motor learning. Here we report that genetic manipulations of the single Drosophila orthologue, dFoxP, disrupt operant self-learning, a form of motor learning sharing several conceptually analogous features with language acquisition. Structural alterations of the dFoxP locus uncovered the role of dFoxP in operant self-learning and habit formation, as well as the dispensability of dFoxP for operant world-learning, in which no motor learning occurs. These manipulations also led to subtle alterations in the brain anatomy, including a reduced volume of the optic glomeruli. RNAi-mediated interference with dFoxP expression levels copied the behavioral phenotype of the mutant flies, even in the absence of mRNA degradation. Our results provide evidence that motor learning and language acquisition share a common ancestral trait still present in extant invertebrates, manifest in operant self-learning. This 'deep' homology probably traces back to before the split between vertebrate and invertebrate animals.",
+    "authors": [
+      "Mendoza E",
+      "Colomb J",
+      "Rybak J",
+      "Pflüger HJ",
+      "Zars T",
+      "Scharff C",
+      "Brembs B"
+    ],
+    "year": 2014,
+    "venue": "PloS one",
+    "venue_issn": "1932-6203",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "30180716",
+    "doi": "10.1121/1.5049791",
+    "openalex_id": "",
+    "title": "Auditory sensitivity, spatial dynamics, and amplitude of courtship song in",
+    "abstract": "Acoustic communication is an important component of courtship in Drosophila melanogaster. It takes the form of courtship song produced by males through the unilateral extension and vibration of a wing. Following the paradigm of sender-receiver matching, song content is assumed to match tuning in the auditory system, however, D. melanogaster audition is nonlinear and tuning dependent upon signal amplitude. At low stimulus amplitudes or in the absence of sound the antenna is tuned into song frequency, but as amplitude increases the antenna's resonance is shifted up by hundreds of Hertz. Accurate measurements of song amplitude have been elusive because of the strong dependency of amplitude upon the spatial geometry between sender and receiver. Here, D. melanogaster auditory directional sensitivity and the geometric position between the courting flies are quantified. It is shown that singing occurs primarily from positions resulting in direct stimulation of the female antenna. Using this information, it is established that the majority of song is louder than theoretically predicted and at these sound levels the female antenna should not amplify or be tuned into song. The study implies that Drosophila hearing, and, in particular, its active mechanisms, could function in a broader context than previously surmised.",
+    "authors": [
+      "Morley EL",
+      "Jonsson T",
+      "Robert D"
+    ],
+    "year": 2018,
+    "venue": "The Journal of the Acoustical Society of America",
+    "venue_issn": "1520-8524",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "22723479",
+    "doi": "10.1242/jeb.068940",
+    "openalex_id": "",
+    "title": "Directional cues in Drosophila melanogaster audition: structure of acoustic flow and inter-antennal velocity differences.",
+    "abstract": "Drosophila melanogaster have bilateral antisymmetric antennae that receive the particle velocity component of an acoustic stimulus. Acoustic communication is important in their courtship, which takes place in the acoustic near-field. Here, the small size of the dipole sound source (the male wing) and the rapid attenuation rate of particle velocity produce a spatially divergent sound field with highly variable magnitude. Also, male and female D. melanogaster are not usually stationary during courtship, resulting in a variable directionality of the acoustic stimulus. Using both particle image velocimetry and laser Doppler vibrometry, we examined the stimulus flow around the head of D. melanogaster to identify the actual geometry of the acoustic input to the antennae and its directional response. We reveal that the stimulus changes in both magnitude and direction as a function of its angle of incidence. Remarkably, directionality is substantial, with inter-antennal velocity differences of 25 dB at 140 Hz. For an organism whose auditory receivers are separated by only 660 ± 51 μm (mean ± s.d.), this inter-antennal velocity difference is far greater than differences in intensity observed between tympanal ears for organisms of similar scale. Further, the mechanical sensitivity of the antennae changes as a function of the angle of incidence of the acoustic stimulus, with peak responses along axes at 45 and 315 deg relative to the longitudinal body axis. This work indicates not only that the flies are able to detect differential cues in signal direction, but also that the male song structure may not be the sole determinant of mating success; his spatial positioning is also crucial to female sound reception and therefore also perhaps to her decision making.",
+    "authors": [
+      "Morley EL",
+      "Steinmann T",
+      "Casas J",
+      "Robert D"
+    ],
+    "year": 2012,
+    "venue": "The Journal of experimental biology",
+    "venue_issn": "1477-9145",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "20362428",
+    "doi": "10.1016/j.conb.2010.02.016",
+    "openalex_id": "",
+    "title": "Unraveling the auditory system of Drosophila.",
+    "abstract": "Acoustic communication in flies is based on the production and perception of courtship song. Drosophila males sing to females during the courtship ritual, while females listen for the correct species-specific song parameters before deciding to mate. While we know that song is important for mating, the neural mechanisms involved in song recognition remain mysterious. However, the last few years have seen major advances in our understanding of the auditory system of Drosophila, including delineation of the neurons involved in song production, detailed characterization of the auditory receptor organ, and mapping of auditory projections into the brain. The stage is being set to tackle the auditory system of Drosophila in much the same way as has been done for its olfactory system. This review covers recent work and discusses prospects for future research on Drosophila audition.",
+    "authors": [
+      "Murthy M"
+    ],
+    "year": 2010,
+    "venue": "Current opinion in neurobiology",
+    "venue_issn": "1873-6882",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "41780528",
+    "doi": "10.1016/j.cub.2026.02.003",
+    "openalex_id": "",
+    "title": "Recent social experience alters song behavior in Drosophila.",
+    "abstract": "Acoustic communication is widespread among animals, but only a small number of species develop their communication signals through learning.1 In most species, the production of acoustic signals is thought to be hard-wired. Male Drosophila melanogaster are born knowing how to perform their courtship songs,2,3 which comprise alternations of three syllable types (two \"pulse\" modes and one \"sine\" mode4). Although males do not learn their songs, their singing is highly flexible5: males adjust both pattern and amplitude relative to female feedback6,7 and internal state.8 We therefore asked whether males can change the mapping between social context and song production-a form of \"usage learning\" involving alteration of the context in which an innate signal is used.9,10 Social experience-dependent learning in male Drosophila has been studied mainly as associative suppression of courtship,11,12,13 leaving open whether males can adjust their courtship strategy. Such usage learning could optimize innate behaviors for novel circumstances and has been described in other animals.14,15,16 Here, we use closed-loop optogenetics to perturb female feedback and demonstrate that Drosophila melanogaster males that experience such perturbed feedback subsequently alter the context in which they sing with new females, enabling the dissection of the genetic, neural circuit, and evolutionary mechanisms of usage learning.",
+    "authors": [
+      "Roemschied FA",
+      "Ireland EC",
+      "Calhoun AJ",
+      "Choi M",
+      "Ahmed OM",
+      "Murthy M"
+    ],
+    "year": 2026,
+    "venue": "Current biology : CB",
+    "venue_issn": "1879-0445",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "22262877",
+    "doi": "10.1523/jneurosci.5104-11.2012",
+    "openalex_id": "",
+    "title": "Neural representations of courtship song in the Drosophila brain.",
+    "abstract": "Acoustic communication in drosophilid flies is based on the production and perception of courtship songs, which facilitate mating. Despite decades of research on courtship songs and behavior in Drosophila, central auditory responses have remained uncharacterized. In this study, we report on intracellular recordings from central neurons that innervate the Drosophila antennal mechanosensory and motor center (AMMC), the first relay for auditory information in the fly brain. These neurons produce graded-potential (nonspiking) responses to sound; we compare recordings from AMMC neurons to extracellular recordings of the receptor neuron population [Johnston's organ neurons (JONs)]. We discover that, while steady-state response profiles for tonal and broadband stimuli are significantly transformed between the JON population in the antenna and AMMC neurons in the brain, transient responses to pulses present in natural stimuli (courtship song) are not. For pulse stimuli in particular, AMMC neurons simply low-pass filter the receptor population response, thus preserving low-frequency temporal features (such as the spacing of song pulses) for analysis by postsynaptic neurons. We also compare responses in two closely related Drosophila species, Drosophila melanogaster and Drosophila simulans, and find that pulse song responses are largely similar, despite differences in the spectral content of their songs. Our recordings inform how downstream circuits may read out behaviorally relevant information from central neurons in the AMMC.",
+    "authors": [
+      "Tootoonian S",
+      "Coen P",
+      "Kawai R",
+      "Murthy M"
+    ],
+    "year": 2012,
+    "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+    "venue_issn": "1529-2401",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "28701929",
+    "doi": "10.3389/fncir.2017.00046",
+    "openalex_id": "",
+    "title": "Anatomic and Physiologic Heterogeneity of Subgroup-A Auditory Sensory Neurons in Fruit Flies.",
+    "abstract": "The antennal ear of the fruit fly detects acoustic signals in intraspecific communication, such as the courtship song and agonistic sounds. Among the five subgroups of mechanosensory neurons in the fly ear, subgroup-A neurons respond maximally to vibrations over a wide frequency range between 100 and 1,200 Hz. The functional organization of the neural circuit comprised of subgroup-A neurons, however, remains largely unknown. In the present study, we used 11 GAL4 strains that selectively label subgroup-A neurons and explored the diversity of subgroup-A neurons by combining single-cell anatomic analysis and Ca2+ imaging. Our findings indicate that the subgroup-A neurons that project into various combinations of subareas in the brain are more anatomically diverse than previously described. Subgroup-A neurons were also physiologically diverse, and some types were tuned to a narrow frequency range, suggesting that the response of subgroup-A neurons to sounds of a wide frequency range is due to the existence of several types of subgroup-A neurons. Further, we found that an auditory behavioral response to the courtship song of flies was attenuated when most subgroup-A neurons were silenced. Together, these findings characterize the heterogeneous functional organization of subgroup-A neurons, which might facilitate species-specific acoustic signal detection.",
+    "authors": [
+      "Ishikawa Y",
+      "Okamoto N",
+      "Nakamura M",
+      "Kim H",
+      "Kamikouchi A"
+    ],
+    "year": 2017,
+    "venue": "Frontiers in neural circuits",
+    "venue_issn": "1662-5110",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "23792025",
+    "doi": "10.1016/j.bbr.2013.06.020",
+    "openalex_id": "",
+    "title": "Monogenic heritable autism gene neuroligin impacts Drosophila social behaviour.",
+    "abstract": "Autism spectrum disorders (ASDs) are characterized by deficits in social interactions, language development and repetitive behaviours. Multiple genes involved in the formation, specification and maintenance of synapses have been identified as risk factors for ASDs development. Among these are the neuroligin genes which code for postsynaptic cell adhesion molecules that induce the formation of presynapses, promote their maturation and modulate synaptic functions in both vertebrates and invertebrates. Neuroligin-deficient mice display abnormal social and vocal behaviours that resemble ASDs symptoms. Here we show for the fly Drosophila melanogaster that deletion of the dnl2 gene, coding for one of four Neuroligin isoforms, impairs social interactions, alters acoustic communication signals, and affects the transition between different behaviours. dnl2-Deficient flies maintain larger distances to conspecifics and males perform less female-directed courtship and male-directed aggressive behaviours while the patterns of these behaviours and general locomotor activity were not different from wild type controls. Since tests for olfactory, visual and auditory perception revealed no sensory impairments of dnl2-deficient mutants, reduced social interactions seem to result from altered excitability in central nervous neuropils that initiate social behaviours. Our results demonstrate that Neuroligins are phylogenetically conserved not only regarding their structure and direct function at the synapse but also concerning a shared implication in the regulation of social behaviours that dates back to common ancestors of humans and flies. In addition to previously described mouse models, Drosophila can thus be used to study the contribution of Neuroligins to synaptic function, social interactions and their implication in ASDs.",
+    "authors": [
+      "Hahn N",
+      "Geurten B",
+      "Gurvich A",
+      "Piepenbrock D",
+      "Kästner A",
+      "Zanini D",
+      "Xing G",
+      "Xie W",
+      "Göpfert MC",
+      "Ehrenreich H"
+    ],
+    "year": 2013,
+    "venue": "Behavioural brain research",
+    "venue_issn": "1872-7549",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "24598544",
+    "doi": "10.1038/nature13131",
+    "openalex_id": "",
+    "title": "Dynamic sensory cues shape song structure in Drosophila.",
+    "abstract": "The generation of acoustic communication signals is widespread across the animal kingdom, and males of many species, including Drosophilidae, produce patterned courtship songs to increase their chance of success with a female. For some animals, song structure can vary considerably from one rendition to the next; neural noise within pattern generating circuits is widely assumed to be the primary source of such variability, and statistical models that incorporate neural noise are successful at reproducing the full variation present in natural songs. In direct contrast, here we demonstrate that much of the pattern variability in Drosophila courtship song can be explained by taking into account the dynamic sensory experience of the male. In particular, using a quantitative behavioural assay combined with computational modelling, we find that males use fast modulations in visual and self-motion signals to pattern their songs, a relationship that we show is evolutionarily conserved. Using neural circuit manipulations, we also identify the pathways involved in song patterning choices and show that females are sensitive to song features. Our data not only demonstrate that Drosophila song production is not a fixed action pattern, but establish Drosophila as a valuable new model for studies of rapid decision-making under both social and naturalistic conditions.",
+    "authors": [
+      "Coen P",
+      "Clemens J",
+      "Weinstein AJ",
+      "Pacheco DA",
+      "Deng Y",
+      "Murthy M"
+    ],
+    "year": 2014,
+    "venue": "Nature",
+    "venue_issn": "1476-4687",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "26762251",
+    "doi": "10.1002/cne.23955",
+    "openalex_id": "",
+    "title": "Organization of projection neurons and local neurons of the primary auditory center in the fruit fly Drosophila melanogaster.",
+    "abstract": "Acoustic communication between insects serves as an excellent model system for analyzing the neuronal mechanisms underlying auditory information processing. The detailed organization of auditory neural circuits in the brain has not yet been described. To understand the central auditory pathways, we used the brain of the fruit fly Drosophila melanogaster as a model and performed a large-scale analysis of the interneurons associated with the primary auditory center. By screening expression driver strains and performing single-cell labeling of these strains, we identified 44 types of interneurons innervating the primary auditory center. Five types were local interneurons whereas the other 39 types were projection interneurons connecting the primary auditory center with other brain regions. The projection neurons comprised three frequency-selective pathways and two frequency-embracive pathways. Mapping of their connection targets revealed that five neuropils in the brain-the wedge (WED), anterior ventrolateral protocerebrum, posterior ventrolateral protocerebrum (PVLP), saddle (SAD), and gnathal ganglia (GNG)-were intensively connected with the primary auditory center. In addition, several other neuropils, including visual and olfactory centers in the brain, were directly connected to the primary auditory center. The distribution patterns of the spines and boutons of the identified neurons suggest that auditory information is sent mainly from the primary auditory center to the PVLP, WED, SAD, GNG, and thoracico-abdominal ganglia. Based on these findings, we established the first comprehensive map of secondary auditory interneurons, which indicates the downstream information flow to parallel ascending pathways, multimodal pathways, and descending pathways.",
+    "authors": [
+      "Matsuo E",
+      "Seki H",
+      "Asai T",
+      "Morimoto T",
+      "Miyakawa H",
+      "Ito K",
+      "Kamikouchi A"
+    ],
+    "year": 2016,
+    "venue": "The Journal of comparative neurology",
+    "venue_issn": "1096-9861",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "30057309",
+    "doi": "10.1016/j.cub.2018.06.011",
+    "openalex_id": "",
+    "title": "Discovery of a New Song Mode in Drosophila Reveals Hidden Structure in the Sensory and Neural Drivers of Behavior.",
+    "abstract": "Deciphering how brains generate behavior depends critically on an accurate description of behavior. If distinct behaviors are lumped together, separate modes of brain activity can be wrongly attributed to the same behavior. Alternatively, if a single behavior is split into two, the same neural activity can appear to produce different behaviors. Here, we address this issue in the context of acoustic communication in Drosophila. During courtship, males vibrate their wings to generate time-varying songs, and females evaluate songs to inform mating decisions. For 50 years, Drosophila melanogaster song was thought to consist of only two modes, sine and pulse, but using unsupervised classification methods on large datasets of song recordings, we now establish the existence of at least three song modes: two distinct pulse types, along with a single sine mode. We show how this seemingly subtle distinction affects our interpretation of the mechanisms underlying song production and perception. Specifically, we show that visual feedback influences the probability of producing each song mode and that male song mode choice affects female responses and contributes to modulating his song amplitude with distance. At the neural level, we demonstrate how the activity of four separate neuron types within the fly's song pathway differentially affects the probability of producing each song mode. Our results highlight the importance of carefully segmenting behavior to map the underlying sensory, neural, and genetic mechanisms.",
+    "authors": [
+      "Clemens J",
+      "Coen P",
+      "Roemschied FA",
+      "Pereira TD",
+      "Mazumder D",
+      "Aldarondo DE",
+      "Pacheco DA",
+      "Murthy M"
+    ],
+    "year": 2018,
+    "venue": "Current biology : CB",
+    "venue_issn": "1879-0445",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  },
+  {
+    "source": "pubmed",
+    "pmid": "26365767",
+    "doi": "10.1016/j.neuron.2015.08.014",
+    "openalex_id": "",
+    "title": "Connecting Neural Codes with Behavior in the Auditory System of Drosophila.",
+    "abstract": "Brains are optimized for processing ethologically relevant sensory signals. However, few studies have characterized the neural coding mechanisms that underlie the transformation from natural sensory information to behavior. Here, we focus on acoustic communication in Drosophila melanogaster and use computational modeling to link natural courtship song, neuronal codes, and female behavioral responses to song. We show that melanogaster females are sensitive to long timescale song structure (on the order of tens of seconds). From intracellular recordings, we generate models that recapitulate neural responses to acoustic stimuli. We link these neural codes with female behavior by generating model neural responses to natural courtship song. Using a simple decoder, we predict female behavioral responses to the same song stimuli with high accuracy. Our modeling approach reveals how long timescale song features are represented by the Drosophila brain and how neural representations can be decoded to generate behavioral selectivity for acoustic communication signals.",
+    "authors": [
+      "Clemens J",
+      "Girardin CC",
+      "Coen P",
+      "Guan XJ",
+      "Dickson BJ",
+      "Murthy M"
+    ],
+    "year": 2015,
+    "venue": "Neuron",
+    "venue_issn": "1097-4199",
+    "venue_type": "journal",
+    "cited_by": null,
+    "is_oa": false,
+    "work_type": "Journal Article",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "target_species": "Drosophila melanogaster",
+    "concepts": []
+  }
+]

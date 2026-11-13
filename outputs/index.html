@@ -263,13 +263,15 @@
 
 <nav>
   <a class="logo" href="index.html">
-    <span>Zoe<span class="accent">.</span>Logos<span class="accent">-</span>Graph</span><span class="logo-sub">v1.0</span>
+    <span>Zoe<span class="accent">.</span>Logos<span class="accent">-</span>Graph</span><span class="logo-sub">v1.1</span>
   </a>
   <div class="nav-links">
     <a href="species_explorer.html">species</a>
+    <a href="taxonomy.html">taxonomy</a>
     <a href="literature.html">literature</a>
     <a href="graph_explorer.html">graph</a>
     <a href="compare.html">compare</a>
+    <a href="data.html">data</a>
     <a class="nav-gh" href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">github →</a>
   </div>
 </nav>
@@ -282,9 +284,9 @@
     literature
   </h1>
   <p class="hero-desc">
-    Zoe.Logos-Graph reads scientific abstracts on animal communication,
-    extracts structured knowledge using an LLM, and builds an explorable graph
-    linking species, vocalisations, contexts, functions, and papers.
+    Zoe.Logos-Graph collects peer-reviewed studies on animal communication,
+    links each one to the species it is about, and builds an explorable atlas of
+    species, signals, papers and recordings, updated every two weeks.
   </p>
   <div class="hero-cta">
     <a class="btn-primary" href="species_explorer.html">explore species →</a>
@@ -293,17 +295,17 @@
 
   <div class="stats">
     <div class="stat">
-      <span class="stat-n">762</span><span class="stat-l">species</span>
+      <span class="stat-n">757</span><span class="stat-l">species</span>
     </div>
     <div class="stat">
-      <span class="stat-n">8027</span><span class="stat-l">peer-reviewed papers</span>
+      <span class="stat-n">2763</span><span class="stat-l">peer-reviewed papers</span>
     </div>
     <div class="stat">
       <span class="stat-n">16</span>
       <span class="stat-l">research themes</span>
     </div>
     <div class="stat">
-      <span class="stat-n">10</span>
+      <span class="stat-n">7</span>
       <span class="stat-l">classes</span>
     </div>
   </div>
@@ -317,7 +319,7 @@
       <span class="tool-tag live">live</span>
       <span class="tool-icon">◎</span>
       <div class="tool-title">Species explorer</div>
-      <div class="tool-desc">762 species · search in 6 languages · thematic tagging · communication profiles · curated papers with DOI · species comparison.</div>
+      <div class="tool-desc">757 species · search in 6 languages · communication profiles · peer-reviewed papers with DOI · methods papers · recordings with spectrograms.</div>
     </a>
     <a class="tool-card" href="literature.html">
       <span class="tool-tag live">live</span>
@@ -329,7 +331,17 @@
       <span class="tool-tag live">live</span>
       <span class="tool-icon">⬡</span>
       <div class="tool-title">Graph explorer</div>
-      <div class="tool-desc">Interactive force graph with 3 modes: by theme, by class, by function. Drag nodes, zoom, double-click for species details.</div>
+      <div class="tool-desc">Interactive force graph: species grouped by order, family, communicative theme or function, or linked when studied in the same paper.</div>
+    </a>
+    <a class="tool-card" href="taxonomy.html"><span class="tool-tag live">new</span>
+      <span class="tool-icon">⋔</span>
+      <div class="tool-title">Taxonomy</div>
+      <div class="tool-desc">Every species from class to order, family and species, sized by the number of papers.</div>
+    </a>
+    <a class="tool-card" href="data.html"><span class="tool-tag live">new</span>
+      <span class="tool-icon">▦</span>
+      <div class="tool-title">Data and research gaps</div>
+      <div class="tool-desc">Which themes are studied in which classes, and the atlas as open files to download and cite.</div>
     </a>
     <a class="tool-card" href="https://github.com/antorr91/Zoe.Logos-Graph/blob/main/data/annotations/ANNOTATION_GUIDELINES_v1.md" target="_blank">
       <span class="tool-tag">docs</span>
@@ -341,21 +353,21 @@
       <span class="tool-tag">github</span>
       <span class="tool-icon">◈</span>
       <div class="tool-title">Source & pipeline</div>
-      <div class="tool-desc">Python pipeline: schema · validation · LLM extraction · embedded JSON · community detection · systematic review generator.</div>
+      <div class="tool-desc">Python scripts that update the atlas every two weeks: OpenAlex search · full abstracts · species attribution · recordings · community detection.</div>
     </a>
   </div>
 
   <div class="section-label">pipeline</div>
   <div class="pipeline">
-    <div class="pipe-step"><span class="pipe-n">01</span><span class="pipe-label">abstracts</span></div>
+    <div class="pipe-step"><span class="pipe-n">01</span><span class="pipe-label">new papers</span></div>
     <div class="pipe-arr">→</div>
-    <div class="pipe-step"><span class="pipe-n">02</span><span class="pipe-label">annotation</span></div>
+    <div class="pipe-step"><span class="pipe-n">02</span><span class="pipe-label">full abstracts</span></div>
     <div class="pipe-arr">→</div>
-    <div class="pipe-step"><span class="pipe-n">03</span><span class="pipe-label">LLM extraction</span></div>
+    <div class="pipe-step"><span class="pipe-n">03</span><span class="pipe-label">species attribution</span></div>
     <div class="pipe-arr">→</div>
-    <div class="pipe-step"><span class="pipe-n">04</span><span class="pipe-label">validation</span></div>
+    <div class="pipe-step"><span class="pipe-n">04</span><span class="pipe-label">topic check</span></div>
     <div class="pipe-arr">→</div>
-    <div class="pipe-step"><span class="pipe-n">05</span><span class="pipe-label">normalisation</span></div>
+    <div class="pipe-step"><span class="pipe-n">05</span><span class="pipe-label">recordings</span></div>
     <div class="pipe-arr">→</div>
     <div class="pipe-step"><span class="pipe-n">06</span><span class="pipe-label">graph</span></div>
     <div class="pipe-arr">→</div>
@@ -364,9 +376,10 @@
 </section>
 
 <footer>
-  <span>Zoe.Logos-Graph · pilot v1.0 · computational ethology</span>
+  <span>Zoe.Logos-Graph · v1.1 · computational ethology</span>
   <span><a href="https://github.com/antorr91/Zoe.Logos-Graph" target="_blank">github.com/antorr91/Zoe.Logos-Graph</a></span>
 </footer>
 
+<p style="text-align:center;font-size:11px;color:var(--hint);margin:0 0 2rem">Papers last updated <span id="last-update">2026-11-13</span></p>
 </body>
 </html>

@@ -1,0 +1,39 @@
+Zoe.Logos-Graph, aggiornamento v1.1
+
+1. Copia tutto il contenuto di questa cartella nella cartella del progetto
+   (E:\zoe-logos-graph), sovrascrivendo i file con lo stesso nome.
+   Dentro ci sono anche outputs\taxonomy.html, outputs\data.html e
+   .github\workflows\update.yml.
+
+2. Dalla cartella del progetto, con il .venv attivo:
+
+     python upgrade_site.py
+     python update_atlas.py --offline
+
+   Il primo aggiunge alle pagine esistenti menu, spettrogrammi, specie collegate,
+   filtro Methods e i nuovi raggruppamenti del grafo (si puo' lanciare piu' volte,
+   non rifa' quello che c'e' gia').
+   Il secondo ricalcola l'attribuzione e ricostruisce tutte le pagine, senza internet.
+
+3. Controlla il sito in locale:
+
+     python -m http.server 8000
+
+   e apri http://localhost:8000/outputs/index.html
+   (le pagine nuove sono Taxonomy e Data nel menu).
+
+4. Se va tutto bene, fai tu commit e push:
+
+     git add -A
+     git commit -m "Taxonomy and data pages, spectrograms, methods papers, stricter attribution"
+     git push
+
+5. Quando hai la chiave OpenAlex:
+
+     set OPENALEX_API_KEY=la_tua_chiave
+     set XC_API_KEY=la_tua_chiave_xeno_canto
+     python update_atlas.py
+
+   e poi su GitHub (Settings > Secrets and variables > Actions) aggiungi
+   OPENALEX_API_KEY, OPENALEX_EMAIL e XC_API_KEY per l'aggiornamento automatico
+   del 1 e del 15 di ogni mese.

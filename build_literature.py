@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""build_literature.py — Zoe.Logos-Graph
-Build paginated literature.html by theme. Source papers from approved_papers.json
-(full abstracts + themes + species) when --approved is given; otherwise from the
-EMBEDDED_DB of a species HTML. Fetched papers (new_papers.json) are merged too;
-papers without a species still appear, listed under their theme. Stdlib only.
+"""build_literature.py - Zoe.Logos-Graph
+Build paginated literature.html by theme from data/papers.json (the species of each
+paper come from assign_species.py). Papers without an atlas species still appear,
+listed under their theme. Stdlib only.
+
+  python build_literature.py
 """
 import argparse, json, re, html as H
+from atlas import METHODS_RX
 from urllib.parse import quote as urlquote
 
 THEMES = [
@@ -49,100 +51,25 @@ def clean(s):
     s=s.replace('&amp;lt;','<').replace('&amp;gt;','>').replace('&lt;','<').replace('&gt;','>')
     s=re.sub(r'</?i>','',s); s=re.sub(r'<[^>]+>','',s); return H.unescape(s).strip()
 
-def extract_db(html):
-    i=html.find("EMBEDDED_DB"); eq=html.find("[",i)
-    depth=0;instr=False;esc=False;end=None
-    for j in range(eq,len(html)):
-        ch=html[j]
-        if instr:
-            if esc:esc=False
-            elif ch=="\\":esc=True
-            elif ch=='"':instr=False
-        else:
-            if ch=='"':instr=True
-            elif ch=="[":depth+=1
-            elif ch=="]":
-                depth-=1
-                if depth==0:end=j;break
-    return json.loads(html[eq:end+1])
-
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument("--corpus", default="species_explorer.html", help="HTML with EMBEDDED_DB (used only if --approved not given)")
-    ap.add_argument("--approved", default="", help="approved_papers.json (full corpus, untruncated abstracts) — preferred source")
-    ap.add_argument("--new", default="", help="new_papers.json from fetch_by_theme.py")
-    ap.add_argument("--also", default="", help="extra json to include, e.g. new_papers_unmatched.json")
-    ap.add_argument("--template", default="literature.html", help="page to reuse head/nav/CSS from")
-    ap.add_argument("--out", default="literature.html")
+    ap.add_argument("--papers", default="data/papers.json", help="paper store written by assign_species.py")
+    ap.add_argument("--template", default="outputs/literature.html", help="page to reuse head/nav/CSS from")
+    ap.add_argument("--out", default="outputs/literature.html")
     ap.add_argument("--page", type=int, default=20)
-    ap.add_argument("--abstract-chars", type=int, default=600, help="cap abstract length shown (0 = full)")
+    ap.add_argument("--abstract-chars", type=int, default=500, help="cap abstract length shown (0 = full)")
     args=ap.parse_args()
 
-    db=None; total_species=0
-    if not args.approved:
-        corpus_html=open(args.corpus,encoding="utf-8",errors="replace").read()
-        db=extract_db(corpus_html)
-        total_species=len({s.get("sci","") for s in db if s.get("sci")})
-
-    papers={}  # key -> record
-    def add(rec, sci=""):
-        doi=(rec.get("doi") or "").lower()
-        key=doi or clean(rec.get("title","")).lower()
-        if not key: return
-        if key not in papers:
-            papers[key]={"title":rec.get("title",""),"journal":rec.get("journal",""),
-                         "year":rec.get("year") or 0,"doi":rec.get("doi","") or "",
-                         "url":rec.get("url",""),"open_access":1 if rec.get("open_access") else 0,
-                         "citations":rec.get("citations") or 0,"abstract":rec.get("abstract","") or rec.get("outcome",""),
-                         "themes":set(),"species":set()}
-        p=papers[key]
-        p["themes"] |= set(rec.get("themes") or [])
-        if sci: p["species"].add(sci)
-        if rec.get("citations"): p["citations"]=max(p["citations"], rec.get("citations") or 0)
-
-    # 1) papers from approved_papers.json (preferred: full abstracts + themes + species)
-    if args.approved:
-        ap_data=json.load(open(args.approved,encoding="utf-8"))
-        species=ap_data.get("species", ap_data if isinstance(ap_data,list) else [])
-        total_species=len({s.get("sci","") for s in species if s.get("sci")})
-        sci_list=[s.get("sci","") for s in species if s.get("sci")]
-        for sp in species:
-            sci=sp.get("sci","")
-            for pr in sp.get("papers",[]):
-                rec={
-                    "title":pr.get("title",""),
-                    "journal":pr.get("journal") or pr.get("venue") or "",
-                    "year":pr.get("year") or 0,
-                    "doi":pr.get("doi","") or "",
-                    "url":pr.get("url") or (("https://doi.org/"+pr.get("doi","")) if pr.get("doi") else ""),
-                    "open_access":1 if pr.get("is_oa") or pr.get("open_access") else 0,
-                    "citations":pr.get("citations") if pr.get("citations") is not None else (pr.get("cited_by") or 0),
-                    "abstract":pr.get("abstract","") or "",
-                    "themes":pr.get("themes") or [],
-                }
-                add(rec, sci)
-    else:
-        # corpus papers from the (truncated) EMBEDDED_DB
-        for sp in db:
-            sci=sp.get("sci","")
-            for pr in sp.get("papers",[]):
-                add(pr, sci)
-        sci_list=[s.get("sci","") for s in db if s.get("sci")]
-
-    # 2) new fetched papers (theme-tagged, species optional → try to detect a binomial)
-    def detect_sci(text):
-        t=text.lower()
-        for sci in sci_list:
-            if sci.lower() in t: return sci
-        return ""
-    for path in (args.new, args.also):
-        if not path: continue
-        data=json.load(open(path,encoding="utf-8"))
-        if isinstance(data,dict):
-            data=[x for v in data.values() for x in v]
-        for rec in data:
-            sci=detect_sci((rec.get("title","")+" "+rec.get("abstract","")))
-            add(rec, sci)
+    # papers on a species page + communication papers that name no atlas species;
+    # pending (not checked yet) and off-topic papers are left out
+    papers={}
+    for pr in json.load(open(args.papers,encoding="utf-8")):
+        if pr.get("status") not in ("species","general"): continue
+        papers[pr["doi"]]={"title":pr.get("title",""),"journal":pr.get("journal",""),"year":pr.get("year") or 0,
+                           "doi":pr["doi"],"url":pr.get("url",""),"open_access":pr.get("open_access") or 0,
+                           "citations":pr.get("citations") or 0,"abstract":pr.get("abstract",""),
+                           "themes":set(pr.get("themes") or []),"species":pr.get("species") or []}
+    total_species=len({s for p in papers.values() for s in p["species"]})
 
     # keyword densify every paper
     for p in papers.values():
@@ -152,15 +79,16 @@ def main():
     items=[]
     for p in papers.values():
         th=sorted(p["themes"])
-        if not th: continue
+        m=1 if METHODS_RX.search(p["title"]+" "+p["abstract"]) else 0
+        if not th and not m: continue
         doi=p["doi"]
         url=p["url"] or (("https://doi.org/"+doi) if doi else "https://scholar.google.com/scholar?q="+urlquote(clean(p["title"])))
         ab=clean(p["abstract"])
         if args.abstract_chars and len(ab)>args.abstract_chars:
             ab=ab[:args.abstract_chars].rsplit(" ",1)[0]+"…"
         items.append({"t":th,"ti":clean(p["title"]) or "(untitled)","j":clean(p["journal"]) or "—",
-                      "y":p["year"] or 0,"s":clean(sorted(p["species"])[0]) if p["species"] else "",
-                      "d":doi,"u":url,"o":p["open_access"],"c":p["citations"],"a":ab})
+                      "y":p["year"] or 0,"s":", ".join(p["species"][:3])+(" …" if len(p["species"])>3 else ""),
+                      "d":doi,"u":url,"o":p["open_access"],"c":p["citations"],"a":ab,"m":m})
     total_tagged=len(items)
 
     tpl=open(args.template,encoding="utf-8",errors="replace").read()
@@ -222,6 +150,7 @@ function buildFilters(){{
   for(const [id,meta] of Object.entries(THEMES)){{
     html += `<button class="tf" data-id="${{id}}" onclick="setTheme('${{id}}')">${{meta.label}} (${{counts[id]}})</button>`;
   }}
+  html += `<button class="tf" data-id="methods" onclick="setTheme('methods')" title="machine learning, signal processing, automatic detection, datasets">Methods (${{PAPERS.filter(p=>p.m).length}})</button>`;
   html += `<a class=\"tf\" href=\"giants.html\" style=\"border-color:#c9a86a99;color:#d9c08a;background:rgba(201,168,106,.12);text-decoration:none;font-weight:500\">Books</a>`;
   el.innerHTML = html;
 }}
@@ -229,7 +158,7 @@ function setTheme(id){{
   state.theme=id; state.page=1;
   document.querySelectorAll('.tf').forEach(b=>{{
     const on=b.dataset.id===id; b.classList.toggle('on',on);
-    if(on && id!=='all'){{const c=THEMES[id].color; b.style.borderColor=c+'99'; b.style.color=c; b.style.background=c+'1f';}}
+    if(on && id!=='all'){{const c=(THEMES[id]||{{color:'#e9b949'}}).color; b.style.borderColor=c+'99'; b.style.color=c; b.style.background=c+'1f';}}
     else if(id==='all' && b.dataset.id==='all'){{b.style.borderColor='rgba(232,164,39,.5)'; b.style.color='var(--amber)'; b.style.background='var(--amber-dim)';}}
     else {{b.style.borderColor=''; b.style.color=''; b.style.background='';}}
   }});
@@ -239,7 +168,8 @@ function onSearch(){{ state.q=document.getElementById('q').value.toLowerCase().t
 function onSort(){{ state.sort=document.getElementById('sort').value; state.page=1; render(); }}
 function filtered(){{
   let rows=PAPERS;
-  if(state.theme!=='all') rows=rows.filter(p=>p.t.includes(state.theme));
+  if(state.theme==='methods') rows=rows.filter(p=>p.m);
+  else if(state.theme!=='all') rows=rows.filter(p=>p.t.includes(state.theme));
   if(state.q){{const q=state.q; rows=rows.filter(p=>(p.ti+' '+p.s+' '+p.j+' '+p.a).toLowerCase().includes(q));}}
   rows=rows.slice();
   if(state.sort==='year') rows.sort((a,b)=>b.y-a.y||b.c-a.c);
@@ -249,7 +179,8 @@ function filtered(){{
 }}
 function esc(s){{return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}}
 function card(p){{
-  const badges=p.t.map(id=>{{const m=THEMES[id]; if(!m) return ''; return `<span class="pc-theme" style="background:${{m.color}}1f;color:${{m.color}};border:1px solid ${{m.color}}55">${{m.label}}</span>`;}}).join('');
+  const badges=p.t.map(id=>{{const m=THEMES[id]; if(!m) return ''; return `<span class="pc-theme" style="background:${{m.color}}1f;color:${{m.color}};border:1px solid ${{m.color}}55">${{m.label}}</span>`;}}).join('')
+    +(p.m?`<span class="pc-theme" style="background:#e9b9491f;color:#e9b949;border:1px solid #e9b94966">Methods</span>`:'');
   const oa=p.o? ' <span class="oa-badge">🔓 OA</span>':'';
   const cites=p.c? ` · ${{p.c}} citations`:'';
   const sp=p.s? `<span style="color:var(--teal);font-style:italic;margin-left:8px">${{esc(p.s)}}</span>`:'';
@@ -281,7 +212,7 @@ function render(){{
   document.getElementById('list').innerHTML=slice.length? slice.map(card).join('') : '<div class="empty">No papers match your filters.</div>';
   document.getElementById('pager').innerHTML=total>PAGE? pager(total):'';
   const from=total? start+1:0, to=Math.min(start+PAGE,total);
-  const tlabel=state.theme==='all'?'all themes':THEMES[state.theme].label;
+  const tlabel=state.theme==='all'?'all themes':state.theme==='methods'?'methods':THEMES[state.theme].label;
   document.getElementById('count').textContent=`${{from}}–${{to}} of ${{total}} papers · ${{tlabel}}`;
 }}
 buildFilters(); render();
