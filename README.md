@@ -1,7 +1,7 @@
 # Zoe.Logos-Graph
 
 **A comparative atlas of animal communication.**
-757 species · peer-reviewed papers updated every two weeks · an interactive knowledge graph.
+835 species · peer-reviewed papers updated every two weeks · an interactive knowledge graph.
 
 **The live site is available at:** https://antorr91.github.io/Zoe.Logos-Graph/outputs/index.html
 
@@ -11,13 +11,13 @@
 
 Zoe.Logos-Graph links species to the vocalisations they produce, the contexts in which those occur, the communicative functions they serve, and the peer-reviewed studies that document them. In the graph explorer, the literature on animal communication is presented as an explorable, comparable, and citable network.
 
-As a researcher passionate about animal communication, I built this as a personal project: a way to share with colleagues and friends a tool for studying the field. I am open to suggestions for improvements (feel free to email me at the address below).
+As a researcher passionate about animal communication, I built this as a personal project, a way to share with colleagues and friends a tool for studying the field. I am open to suggestions for improvements (feel free to email me at the address below).
 
 ---
 
 ## What the current repository covers so far
 
-- **757 species** across 7 zoological classes (Aves 338, Mammalia 184, Amphibia 118, Insecta 90, Actinopterygii 15, Reptilia 9, Cephalopoda 3).
+- **835 species** across 7 zoological classes (Aves 359, Mammalia 219, Amphibia 122, Insecta 95, Actinopterygii 25, Reptilia 11, Cephalopoda 4).
 - **Peer-reviewed papers**, each with a DOI and an open-access flag. Only journal articles are included; preprints are excluded. The current number is on the home page of the site.
 - **16 research themes** (vocal learning, referential signalling, syntax, dialects, echolocation, infrasound, alarm, cooperation, deception, multimodal signalling, parent-offspring communication, individual recognition, turn-taking, cultural transmission, emotion, and honest signalling).
 - **Recordings** from Xeno-Canto, iNaturalist and GBIF, with their original licences.
@@ -59,19 +59,6 @@ doi,species,decision,note
 ```
 
 `*` as species removes the paper from the whole atlas. Other names for a species (old scientific names, English names) go in `data/synonyms.json`.
-
-**By hand** (Python 3.10+, from the project root):
-
-```
-pip install -r requirements.txt
-set OPENALEX_API_KEY=...            # Windows (export on Mac/Linux)
-python update_atlas.py              # everything (needs internet)
-python update_atlas.py --offline    # attribution and pages only
-```
-
-**One-time setup on GitHub** (Settings > Secrets and variables > Actions): `OPENALEX_API_KEY` (free key from openalex.org/settings/api-key; without it OpenAlex allows only 100 searches a day, and an update needs about 760), `OPENALEX_EMAIL` (your e-mail, for Crossref) and `XC_API_KEY` (Xeno-Canto key, without it only iNaturalist and GBIF are used). If the OpenAlex daily budget runs out, what was found is kept and the next run finishes the job.
-
-To add species: put them in `new_species.csv` (sci, en, class_, order_, family, wiki) and run `python seed_species.py`; papers and recordings arrive with the next update.
 
 ---
 

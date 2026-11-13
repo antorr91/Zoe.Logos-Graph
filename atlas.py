@@ -166,7 +166,11 @@ class SpeciesNames:
 
         for s in species:
             sci = s['sci']
-            for n in [sci] + sorted(extra.get(sci, ())):
+            own = [sci] + sorted(extra.get(sci, ()))
+            w = sci.split()
+            if len(w) == 3 and ' '.join(w[:2]) not in self.sci:
+                own.append(' '.join(w[:2]))      # "Lonchura striata" for Lonchura striata domestica
+            for n in own:
                 add(n, sci)
                 g, *rest = n.split()
                 if rest:

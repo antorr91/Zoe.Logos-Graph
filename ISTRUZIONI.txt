@@ -1,39 +1,43 @@
-Zoe.Logos-Graph, aggiornamento v1.1
+Zoe.Logos-Graph v1.1, nuove specie
+set OPENALEX_API_KEY=WJP7cWXzRXObG6JmJI9VFB
+set OPENALEX_EMAIL=antonellatorr91@gmail.com
+set XC_API_KEY=e57d9b9bf04268e263822086c6ca2b5e8ed0b754
 
-1. Copia tutto il contenuto di questa cartella nella cartella del progetto
-   (E:\zoe-logos-graph), sovrascrivendo i file con lo stesso nome.
-   Dentro ci sono anche outputs\taxonomy.html, outputs\data.html e
-   .github\workflows\update.yml.
+python update_atlas.py
+
+0. Se avevi estratto registrazioni-v1.1.1.zip o registrazioni-media.zip,
+   cancella make_spectrograms.py (le registrazioni le rivediamo dopo).
+   Gli altri file vengono sovrascritti da questo pacchetto.
+
+1. Estrai questo zip direttamente in E:\zoe-logos-graph, sovrascrivendo.
+   Contiene anche data\synonyms.json (il tuo, con sette sinonimi in piu')
+   e new_species.csv (78 specie nuove).
 
 2. Dalla cartella del progetto, con il .venv attivo:
 
      python upgrade_site.py
+     python seed_species.py
      python update_atlas.py --offline
 
-   Il primo aggiunge alle pagine esistenti menu, spettrogrammi, specie collegate,
-   filtro Methods e i nuovi raggruppamenti del grafo (si puo' lanciare piu' volte,
-   non rifa' quello che c'e' gia').
-   Il secondo ricalcola l'attribuzione e ricostruisce tutte le pagine, senza internet.
+   seed_species.py aggiunge le 78 specie (757 -> 835).
+   update_atlas.py --offline assegna alle nuove specie i paper che sono gia'
+   nell'archivio e ricostruisce tutte le pagine.
 
-3. Controlla il sito in locale:
+3. Controlla in locale:
 
      python -m http.server 8000
 
-   e apri http://localhost:8000/outputs/index.html
-   (le pagine nuove sono Taxonomy e Data nel menu).
+   http://localhost:8000/outputs/index.html  (Ctrl+F5)
 
-4. Se va tutto bene, fai tu commit e push:
+4. Se va bene, commit e push:
 
      git add -A
-     git commit -m "Taxonomy and data pages, spectrograms, methods papers, stricter attribution"
+     git commit -m "78 new species, attribution fixes, taxonomy search fix, README intro"
      git push
 
-5. Quando hai la chiave OpenAlex:
+5. Con la chiave OpenAlex, per i paper delle nuove specie e quelli degli ultimi mesi:
 
      set OPENALEX_API_KEY=la_tua_chiave
-     set XC_API_KEY=la_tua_chiave_xeno_canto
      python update_atlas.py
 
-   e poi su GitHub (Settings > Secrets and variables > Actions) aggiungi
-   OPENALEX_API_KEY, OPENALEX_EMAIL e XC_API_KEY per l'aggiornamento automatico
-   del 1 e del 15 di ogni mese.
+   e poi di nuovo commit e push.

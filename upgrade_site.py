@@ -19,6 +19,7 @@ delete this file.
   python build_site.py
 """
 import re
+import atlas
 from pathlib import Path
 
 OUT = Path(__file__).parent / 'outputs'
@@ -331,6 +332,13 @@ def graph_page():
   });
   simulation.on('tick', () => {"""),
     ])
+    # species with no shared vocalisation or function float alone around the graph: leave them out
+    patch(page, 'no link, left out', [
+        ("""    return nodeIds.has(n.id) || (n.type === 'species');""",
+         """    return nodeIds.has(n.id);    // species with no link, left out"""),
+        ("""      g.append('text').text(d.label.split(' ')[0])""",
+         """      g.append('text').text(d.label.length <= 14 ? d.label : d.label.split(/[\\s-]/).pop())"""),
+    ])
 
 
 def compare_page():
@@ -412,11 +420,34 @@ def home_page():
     ])
 
 
+def taxonomy_page():
+    # the browser's own suggestions (things typed on other sites) are not species
+    patch('taxonomy.html', 'autocomplete="off"', [
+        ("""list="names">""", """list="names" autocomplete="off">"""),
+    ])
+
+
+def tidy_taxonomy():
+    """one name per order: the same family appeared under two orders in the taxonomy"""
+    html, species, eq, end = atlas.load_species()
+    fixed = 0
+    for sp in species:
+        if sp.get('order_') == 'Crocodylia':
+            sp['order_'] = 'Crocodilia'; fixed += 1
+        if sp.get('family') == 'Cichlidae' and sp.get('order_') != 'Cichliformes':
+            sp['order_'] = 'Cichliformes'; fixed += 1
+    if fixed:
+        atlas.save_species(html, species, eq, end)
+        done.append('species_explorer.html (taxonomy, %d orders renamed)' % fixed)
+
+
 if __name__ == '__main__':
     for p in ('index.html', 'species_explorer.html', 'literature.html', 'graph_explorer.html', 'compare.html', 'giants.html'):
         if (OUT / p).exists():
             menu(p)
     species_page()
+    tidy_taxonomy()
+    taxonomy_page()
     graph_page()
     compare_page()
     home_page()

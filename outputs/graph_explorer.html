@@ -260,7 +260,7 @@ function getVisibleData() {
     if (!visibleTypes.has(n.type)) return false;
     if (n.type === 'species' && !speciesPasses(n)) return false;
     if (useMode === 'species' && n.type !== 'species') return false;
-    return nodeIds.has(n.id) || (n.type === 'species');
+    return nodeIds.has(n.id);    // species with no link, left out
   });
   const visNodeIds = new Set(nodes.map(n => n.id));
   const visEdges = filteredEdges.filter(e => visNodeIds.has(eid(e.source)) && visNodeIds.has(eid(e.target)));
@@ -437,7 +437,7 @@ function draw(nodes, edges, W, H) {
     if (d.type === 'species') {
       g.append('circle').attr('r', r).attr('fill', speciesColour(d)).attr('fill-opacity', 0.85)
        .attr('stroke', '#fff').attr('stroke-opacity', 0.15).attr('stroke-width', 1);
-      g.append('text').text(d.label.split(' ')[0])
+      g.append('text').text(d.label.length <= 14 ? d.label : d.label.split(/[\s-]/).pop())
        .attr('text-anchor','middle').attr('dy','0.35em')
        .attr('font-size', Math.max(7, r * 0.55))
        .attr('fill','rgba(255,255,255,0.85)').attr('pointer-events','none');
