@@ -313,16 +313,29 @@ CORE = [r'vocal\w*', r'calls?', r'calling', r'songs?', r'singing', r'singers?', 
         r'whistl\w*', r'clicks?', r'barks?', r'barking', r'roar\w*', r'stridulat\w*', r'chirp\w*',
         r'rumbles?', r'growl\w*', r'repertoires?', r'playbacks?', r'dialects?', r'pheromon\w*',
         r'gestur\w*', r'begging', r'codas?', r'biosonar', r'sonar', r'howl\w*', r'trills?',
-        r'purr\w*', r'signall?ing', r'vibrational', r'tremulat\w*', r'mobbing', r'courtship',
+        r'purr\w*', r'vibrational', r'tremulat\w*', r'mobbing', r'courtship',
         r'birdsong', r'soundscapes?', r'alarm\w*', r'auditory', r'hearing', r'hoots?', r'grunts?',
         r'screams?', r'squeaks?', r'croak\w*', r'honest signals?', r'speech', r'voices?', r'harmonics?',
         r'flight tones?', r'phonotaxis', r'call types?', r'utteranc\w*', r'scent[- ]?mark\w*',
         r'mating signals?', r'status signals?', r'facial expressions?', r'facial signals?',
-        r'emotional contagion', r'(?:courtship|distraction|wing|bowing|threat|sexual) displays?']
+        r'emotional contagion', r'(?:courtship|distraction|wing|bowing|threat|sexual) displays?',
+        r'(?:honest|sexual|visual|vocal|acoustic|chemical|social|alarm|mating|courtship|warning|'
+        r'aposematic|status|aggressive|multimodal|seismic|vibrational|tactile|olfactory|colou?r|'
+        r'ornamental|dynamic|male|female) signall?ing']
 WEAK = [r'sounds?', r'noise', r'pitch', r'tones?', r'signals?', r'displays?', r'mimic\w*', r'mate choice',
-        r'female preferences?', r'hiss\w*', r'audio\w*', r'listen\w*', r'ears?']
+        r'female preferences?', r'hiss\w*', r'audio\w*', r'listen\w*', r'ears?',
+        r'signall?ing', r'timbre', r'language']
 CORE_RX = re.compile(r'\b(?:%s)\b' % '|'.join(CORE), re.I)
 WEAK_RX = re.compile(r'\b(?:%s)\b' % '|'.join(WEAK), re.I)
+
+# notes, reviews of books, anniversaries: not studies
+NOT_RESEARCH = re.compile(
+    r'^\s*(?:\d+|one hundred|fifty|a hundred) years ago\b|\bbook reviews?\b|^\s*reviews? of\b|'
+    r'\bin memoriam\b|\bobituar\w*|^\s*(?:a )?conversation with\b|^\s*birds of\b|'
+    r'\bbreeding birds of\b|\btaken in\b|\bnew records?\b|\bcorrigendum\b|\berratum\b|'
+    r'\b(?:first )?records? of\b|^\s*notes?\b|\bnatural history of\b|\bpopulation study\b|'
+    r'\bpredation (?:on|by)\b|\boccurrence\b|\bsightings?\b|'
+    r', by [A-Z][a-z]+ (?:[A-Z]\. )?[A-Z][a-z]+\s*$', re.I)
 
 # off-topic unless the text clearly says otherwise
 OFFTOPIC_RX = re.compile(
@@ -331,7 +344,9 @@ OFFTOPIC_RX = re.compile(
     r'bacteri\w*|parasit\w*|helminth\w*|carcass\w*|meat|dairy|pregnan\w*|placent\w*|tumou?r\w*|'
     r'cancer|immun\w*|pathogen\w*|toxic\w*|pesticide\w*|diet|seed dispers\w*|feather\w*|plumage|'
     r'moult\w*|molt\w*|population dynamics|abundance|point[- ]counts?|harvest\w*|hunting|road\w*|'
-    r'wind farm\w*)\b', re.I)
+    r'wind farm\w*|hearing loss|acoustic trauma|noise[- ]induced|ototox\w*|cochlear implants?|'
+    r'hearing[- ]impaired|densit(?:y|ies)|population (?:size|trends?|estimates?)|home ranges?|'
+    r'spring movements?)\b', re.I)
 
 # "cell signalling", "intercellular communication" are not animal communication
 CELLULAR = re.compile(
@@ -339,6 +354,8 @@ CELLULAR = re.compile(
     r'paracrine|endocrine|calcium|insulin|receptor)\s+(?:signall?ing|communication|signals?)\b|'
     r'\bsignall?ing (?:pathways?|molecules?|cascades?|proteins?)\b|'
     r'\b(?:brief|short|rapid|personal) communications?\b|'          # journal sections
+    r'\b(?:science|risk|public|stakeholder|health|media) communication\b|'
+    r'\bcalls? for\b|\bso[- ]called\b|\balarm clocks?\b|'
     r'\b(?:ultrasonic|acoustic) (?:sensors?|devices?|deterrents?|telemetry|tags?|tagging|transmitters?|receivers?|'
     r'tracking|cleaning|treatment)\b', re.I)
 

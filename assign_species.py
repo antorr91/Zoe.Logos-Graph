@@ -53,6 +53,8 @@ def assign(p, names):
     """-> (species list, status, reason)"""
     title, abstract = p['title'], p['abstract']
     full = p.get('abstract_full') or p.get('no_abstract')     # nothing more to wait for
+    if atlas.NOT_RESEARCH.search(title):
+        return [], 'offtopic', 'not a study (note, review of a book, anniversary)'
     comm = atlas.about_communication(names.strip(title), names.strip(abstract), full)
     if comm is False:
         return [], 'offtopic', 'not about communication'
@@ -70,6 +72,11 @@ def assign(p, names):
             return sorted(in_title), 'species', 'title (topic to check with the full abstract)'
         return sorted(in_title), 'species', 'title'
     in_abs = names.find(abstract, plain=False)
+    t_core, t_weak = atlas.comm_terms(names.strip(title))
+    if in_abs and not t_core and not (t_weak and comm):
+        # a species named only in the abstract of a paper whose title is not about
+        # communication is usually a passing mention (a list of birds, a comparison)
+        return [], 'general', 'species only in the abstract, title not about communication'
     if in_abs:
         top = max(in_abs.values())
         main = {s for s, n in in_abs.items() if n * 3 >= top}      # drop passing mentions
