@@ -441,12 +441,26 @@ def tidy_taxonomy():
         done.append('species_explorer.html (taxonomy, %d orders renamed)' % fixed)
 
 
+def new_classes():
+    """crustaceans and spiders: a filter on the species page and a colour in the taxonomy"""
+    patch('species_explorer.html', 'data-f="Malacostraca"', [
+        ("""    <button class="fchip" data-f="Cephalopoda">cephalopods</button>""",
+         """    <button class="fchip" data-f="Cephalopoda">cephalopods</button>
+    <button class="fchip" data-f="Malacostraca">crustaceans</button>
+    <button class="fchip" data-f="Arachnida">spiders</button>"""),
+    ])
+    patch('taxonomy.html', "Malacostraca:'", [
+        ("""Cephalopoda:'#d88fc4'}""", """Cephalopoda:'#d88fc4',Malacostraca:'#6cc4d8',Arachnida:'#c9a27a'}"""),
+    ])
+
+
 if __name__ == '__main__':
     for p in ('index.html', 'species_explorer.html', 'literature.html', 'graph_explorer.html', 'compare.html', 'giants.html'):
         if (OUT / p).exists():
             menu(p)
     species_page()
     tidy_taxonomy()
+    new_classes()
     taxonomy_page()
     graph_page()
     compare_page()

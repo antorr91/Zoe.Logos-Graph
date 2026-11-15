@@ -1,58 +1,58 @@
-## Zoe.Logos-Graph update, 2026-11-13
+## Zoe.Logos-Graph update, 2026-11-14
 
 | | before | after |
 |---|---:|---:|
-| species | 835 | 835 |
-| papers on species pages | 2763 | 3911 |
-| species-paper links | 3207 | 4548 |
-| recordings | 5529 | 5815 |
-| species with recordings | 717 | 766 |
+| species | 879 | 879 |
+| papers on species pages | 3911 | 13716 |
+| species-paper links | 4548 | 15712 |
+| recordings | 5815 | 5837 |
+| species with recordings | 766 | 773 |
 
-**New papers found:** 1284 (on a species page: 1089)
-- "Rodent-Run" Distraction Display By a Passerine, the Superb Blue Wren Malurus Cyaneus (L.) (1962) *Malurus cyaneus*
-- 100 Years Ago in the American Ornithologists’ Union (2022) *Fratercula arctica, Melopsittacus undulatus, Scolopax minor*
-- 1241-OR: A Cross-Species Systematic Atlas of cGAS-STING Signaling: Regulation of Retinal Angiogenesis in Physiological and Pathophysiological Contexts (2026) *Homo sapiens, Sus scrofa*
-- 156. Ketamine Increases Cyclic Adenosine Monophosphate Signaling as Measured by Phosphodiesterase 4-Specific Positron Emission Tomography Tracers in Rats and Monkeys (2026) *Rattus norvegicus*
-- 452. Notes on the vocalizations of Monk Parakeet (Myiopsitta monachus) and Cliff Parakeet (Myiopsitta luchsi) (2017) *Myiopsitta monachus*
-- A Case Study on the Influence of Birdsong on the Perception of Urban Energy Infrastructure Noise: A Psychoacoustic Approach (2026) *Erithacus rubecula, Parus major, Sylvia atricapilla*
-- A Communication-Aware Path Planning Algorithm for Power Inspection UAVs Using an Improved Grey Wolf Optimizer (2026) *Canis lupus*
-- A DIEL PATTERN IN VOCAL ACTIVITY OF SHORT‐BEAKED COMMON DOLPHINS, DELPHINUS DELPHIS (2000) *Delphinus delphis*
-- A GWO-Based Optimization for mmWave Integrated Sensing and Communications in IoT Systems (2026) *Canis lupus*
-- A Hybrid Quantum Optimization Framework for Oil Spill Detection Using Marine Radar (2026) *Canis aureus*
-- A Little Flute Music: Mimicry, Memory, and Narrativity (2013) *Menura novaehollandiae*
-- A NEW METHODOLOGICAL APPROACH TO CONTEXT ANALYSIS OF CALL PRODUCTION (2004) *Cercopithecus campbelli*
-- A Newly Reported Tactile Gesture for Grooming Initiation in Japanese Macaques ( Macaca fuscata ) at Awajishima, Japan (2026) *Macaca fuscata*
-- A Novel Context for Bird Song: Predator Calls Prompt Male Singing in the Kleptogamous Superb Fairy‐wren, Malurus cyaneus (1992) *Malurus cyaneus*
-- A Novel Hybrid Grey Wolf–Whale Particle Swarm Optimization Algorithm: A Metaheuristic Optimization of a Terahertz Antenna for Future Communications (2026) *Canis lupus*
-- A Novel Method to Infer Harbor Porpoise Foraging Behavior From Acoustic Data: A Comparative Assessment Against Established Techniques (2026) *Phocoena phocoena*
-- A Preliminary Study on the Function of Food Begging in Sichuan Snub-Nosed Monkeys (Rhinopithecus roxellana): Challenge to Begging for Nutritional Gain (2011) *Rhinopithecus roxellana*
-- A STUDY OF THE VOCAL REPERTOIRE OF THE BANDED MONGOOSE,MUNGOS MUNGO(GMELIN) (1987) *Mungos mungo*
-- A Ship-Assisted Vagrant? the Southernmost Record of Pipistrellus nathusii and Confirmation of the Occurrence of Nyctalus leisleri on Lanzarote (Canary Islands) (2026) *Nyctalus leisleri, Pipistrellus nathusii*
-- A Smart‐Alarm Detection and Deterrent System for Long‐Tailed Macaque Intrusion in Human Residential Zones (2026) *Macaca fascicularis*
-- A Survey of Black howler (Alouatta pigra) and spider (Ateles geoffroyi) monkeys along the río Lacantún, Chiapas, Mexico (2004) *Alouatta pigra, Ateles geoffroyi*
-- A WHRN mutation impacts ocular morphology in rhesus macaques (2026) *Macaca mulatta*
-- A basic study on the vocal sounds of bottlenose dolphins (Tursiops truncatus) according to situations in captivity (2026) *Tursiops truncatus*
-- A case of adoption of a howler monkey infant (Alouatta villosa) by a female spider monkey (Ateles geoffroyi) (1982) *Ateles geoffroyi*
-- A comparative evaluation of lab-generic and site-specific impulse response-based beamforming for enhanced automated bird call detection (2026) *Cyanistes caeruleus*
-- A comparative study of human and parrot phonation: Acoustic and articulatory correlates of vowels (1994) *Psittacus erithacus*
-- A corrected wideband ambiguity function for robust biosonar strategy analysis (2026) *Physeter macrocephalus*
-- A crescendo in the inner structure of snorts: a reflection of increasing arousal in rock hyrax songs? (2020) *Procavia capensis*
-- A cultural atlas of vocal variation: yellow-naped amazons exhibit contact call dialects throughout their Mesoamerican range (2023) *Amazona auropalliata*
-- A global response contributes to tissue size robustness upon local induction of apoptosis (2026) *Drosophila melanogaster, Xenopus laevis*
-- A heads-up on danger: a novel avian vigilance call changes subsequent responses to alarm calls (2025) *Malurus cyaneus*
-- A metaheuristic-based hybrid approach with grey wolf algorithm and salp swarm algorithm for feature selection in speech emotional classification (2026) *Canis lupus*
-- A method for identifying sounds used in the classification of alarm calls (2004) *Cynomys gunnisoni*
-- A micro-geography of fear: learning to eavesdrop on alarm calls of neighbouring heterospecifics (2011) *Malurus cyaneus, Manorina melanocephala*
-- A mixed strategy of counter-singing behavior in male rock hyrax vocal competitions (2016) *Procavia capensis*
-- A multifrequency method to classify and evaluate fisheries acoustics data (2006) *Clupea harengus*
-- A multifunctional warning signal behaves as an agonistic status signal in a poison frog (2015) *Oophaga pumilio*
-- A multisensory integrative forebrain area (NCC) in female zebra finches discriminates between normal and abnormal conspecific song (2026) *Taeniopygia guttata*
-- A new Andean rocket frog (Amphibia: Anura: Leptodactylidae: Leptodactylus) from urban spaces at Mérida, Venezuela (2026) *Leptodactylus melanonotus*
-- A new audio-visual technique for effectively monitoring nest predation and the behaviour of nesting birds (2009) *Malurus cyaneus*
+**New papers found:** 11711 (on a species page: 9800)
+- "Symbolic communication" between two pigeons (Columba livia) without unconditioned reinforcement. (1984) *Columba livia*
+- "The Twa Corbies" (2004) *Cyanocitta cristata*
+- 'Courtship Feeding' by the House Finch (1944) *Haemorhous mexicanus*
+- 'Courtship Feeding' in the Black-Capped Chickadee (1943) *Poecile atricapillus*
+- 'Food' Calls Produced By Adult Female Rhesus (Macaca Mulatta) and Japanese (M. Fuscata) Macaques, Their Normally-Raised Offspring, and Offspring Cross-Fostered Between Species (1992) *Macaca fuscata, Macaca mulatta*
+- (Z)-11-eicosen-1-ol, an important new pheromonal component from the sting of the honey bee,Apis mellifera L. (Hymenoptera, Apidae.) (1982) *Apis mellifera*
+- 01. Advertisement call of Johnstone’s whistling frog [Eleutherodactylus johnstonei] in Brazil (2022) *Eleutherodactylus johnstonei*
+- 100 Years Ago in The American Ornithologists' Union (2013) *Melospiza melodia, Spizella passerina, Turdus migratorius*
+- 100 Years Ago in The American Ornithologists' Union (2009) *Contopus virens, Tympanuchus cupido*
+- 100 Years Ago in The American Ornithologists' Union (2009) *Buteo jamaicensis, Haemorhous mexicanus*
+- 100 Years Ago in The American Ornithologists' Union (2005) *Pheucticus ludovicianus, Sturnella magna, Turdus merula*
+- 100 Years Ago in the American Ornithologists' Union (2018) *Sturnus vulgaris*
+- 100 Years Ago in the American Ornithologists' Union (2017) *Larus argentatus, Passer domesticus*
+- 100 Years Ago in the American Ornithologists' Union (2016) *Haemorhous purpureus, Molothrus ater, Pipilo maculatus, Setophaga petechia*
+- 100 Years Ago in the American Ornithologists' Union (2015) *Agelaius phoeniceus, Seiurus aurocapilla, Zonotrichia albicollis*
+- 100 Years Ago in the American Ornithologists' Union (2014) *Larus argentatus*
+- 100 Years Ago in the American Ornithologists' Union (2014) *Baeolophus bicolor, Scolopax minor, Sturnus vulgaris*
+- 100 Years Ago in the American Ornithologists’ Union (2021) *Tympanuchus cupido*
+- 100 Years Ago in the American Ornithologists’ Union (2021) *Colaptes auratus, Sturnus vulgaris, Troglodytes aedon, Turdus migratorius*
+- 100 Years Ago in the American Ornithologists’ Union (2020) *Regulus calendula, Setophaga coronata*
+- 100 Years Ago in the American Ornithologists’ Union (2020) *Loxia curvirostra, Passer domesticus*
+- 100 Years Ago in the American Ornithologists’ Union (2019) *Cyanocitta cristata, Hirundo rustica, Thryothorus ludovicianus*
+- 100 Years Ago in the American Ornithologists’ Union (2019) *Melospiza melodia*
+- 17 β‐Estradiolbenzoate‐dependent Song Induction in Juvenile Female Canaries (Serinus canaria): — Long‐term Measurements of Song Activity — (1989) *Serinus canaria*
+- 171. Notes on the vocalizations of Brown-capped Vireo (Vireo leucophrys) and Warbling Vireo (Vireo gilvus) (2016) *Vireo gilvus*
+- 172. Notes on the vocalizations of Red-eyed Vireo (Vireo olivaceus) (2016) *Vireo olivaceus*
+- 17α,20β-Dihydroxy-4-pregnen-3-one: a steroidal primer pheromone increasing milt volume in the goldfish, Carassius auratus (1986) *Carassius auratus*
+- 1803 Vocalization-specific activation of auditory cortical areas in japanese macaques (1996) *Macaca fuscata*
+- 19-P011 Involvement of the Hedgehog/Engrailed signaling in regeneration of the posterior structures in the amputated leg of the cricket Gryllus bimaculatus (2009) *Gryllus bimaculatus*
+- 20-Hz pulses and other vocalizations of fin whales, B a l a e n o p t e r a p h y s a l u s, in the Gulf of California, Mexico (1992) *Balaenoptera physalus*
+- 200 kHz Commercial Sonar Systems Generate Lower Frequency Side Lobes Audible to Some Marine Mammals (2014) *Delphinapterus leucas, Orcinus orca, Pseudorca crassidens, Tursiops truncatus*
+- 2015 Academy proceedings (2015) *Solenopsis invicta, Trachemys scripta*
+- 2020 Brina C. Kessel Award to Corey Tarwater, Ryan Germain, and Peter Arcese (2020) *Agelaius phoeniceus, Melospiza melodia*
+- 205. Notes on the vocalizations of Eurasian Jay (Garrulus glandarius) (2016) *Garrulus glandarius*
+- 2112 Vocal control system in ico in japanese quail chick (1996) *Coturnix japonica*
+- 217. Notes on the vocalizations of Great Tit (Parus major), Turkestan Tit (Parus bokharensis) and Green-backed Tit (Parus monticolus) (2016) *Parus major*
+- 23. Agonistic behavior and courtship behavior of male crickets, Gryllus bimaculatus (2007) *Gryllus bimaculatus*
+- 246. Notes on the vocalizations of Western Bonelli's Warbler (Phylloscopus bonelli) and Eastern Bonelli's Warbler (Phylloscopus orientalis) (2016) *Phylloscopus bonelli*
+- 258. Notes on the vocalizations of Bushtit (Psaltriparus minimus) (2016) *Psaltriparus minimus*
+- 259. Notes on the vocalizations of Long-tailed Tit (Aegithalos caudatus) (2016) *Aegithalos caudatus*
 
-**Species-paper links:** 1359 added, 18 removed (`reports/attribution_changes.csv`)
+**Species-paper links:** 11165 added, 1 removed (`reports/attribution_changes.csv`)
 
-**All papers:** species 3911, offtopic 3311, pending 1424, general 584
+**All papers:** species 13716, offtopic 3311, pending 1990, general 1924
 
 pending = waiting for the full abstract; general = about communication but naming no atlas species (Literature page only); offtopic = not about communication.
 

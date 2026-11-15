@@ -1,7 +1,7 @@
 # Zoe.Logos-Graph
 
 **A comparative atlas of animal communication.**
-835 species · peer-reviewed papers updated every two weeks · an interactive knowledge graph.
+879 species · peer-reviewed papers updated every two weeks · an interactive knowledge graph.
 
 **The live site is available at:** https://antorr91.github.io/Zoe.Logos-Graph/outputs/index.html
 
@@ -17,7 +17,7 @@ As a researcher passionate about animal communication, I built this as a persona
 
 ## What the current repository covers so far
 
-- **835 species** across 7 zoological classes (Aves 359, Mammalia 219, Amphibia 122, Insecta 95, Actinopterygii 25, Reptilia 11, Cephalopoda 4).
+- **879 species** across 9 zoological classes (Aves 359, Mammalia 219, Amphibia 122, Insecta 105, Actinopterygii 35, Reptilia 22, Cephalopoda 7, Malacostraca 6, Arachnida 4).
 - **Peer-reviewed papers**, each with a DOI and an open-access flag. Only journal articles are included; preprints are excluded. The current number is on the home page of the site.
 - **16 research themes** (vocal learning, referential signalling, syntax, dialects, echolocation, infrasound, alarm, cooperation, deception, multimodal signalling, parent-offspring communication, individual recognition, turn-taking, cultural transmission, emotion, and honest signalling).
 - **Recordings** from Xeno-Canto, iNaturalist and GBIF, with their original licences.

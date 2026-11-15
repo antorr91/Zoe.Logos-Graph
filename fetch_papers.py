@@ -73,15 +73,23 @@ def search_names(s, syn):
     return list(dict.fromkeys(n.replace('"', '') for n in names if n))[:4]
 
 
-def search(query, since, old):
-    """all journal articles matching the query; one OpenAlex search per page of 100"""
+# only papers that also speak of communication: for chickens, mice or zebrafish the most
+# cited papers are about genetics or medicine, and the communication ones would be missed
+COMM_QUERY = ('(vocal OR vocalization OR vocalisation OR call OR song OR acoustic OR sound OR '
+              'communication OR signal OR signalling OR display OR alarm OR pheromone OR '
+              'echolocation OR playback OR courtship OR gesture OR whistle OR chorus)')
+
+
+def search(query, since, deep):
+    """journal articles matching the query, one OpenAlex search per page of 100:
+    deep = the 1000 most cited of any year, otherwise those published since `since`"""
     out, cursor, pages = [], '*', 0
-    while cursor and pages < (20 if old else 5):
-        f = 'title_and_abstract.search:%s,has_doi:true,type:article' % query
-        if old:
+    while cursor and pages < (10 if deep else 20):
+        f = 'title_and_abstract.search:%s AND %s,has_doi:true,type:article' % (query, COMM_QUERY)
+        if not deep:
             f += ',from_publication_date:' + since
         data = atlas.openalex('works', filter=f, select=SELECT, per_page=100, cursor=cursor,
-                              **({} if old else {'sort': 'cited_by_count:desc'}))
+                              **({'sort': 'cited_by_count:desc'} if deep else {}))
         if data is None:
             return None
         out += data.get('results') or []
@@ -92,22 +100,26 @@ def search(query, since, old):
 
 
 def new_papers(species, papers, syn, since, state):
-    """species searched before: papers since the last run; species added to the atlas
-    since then: their 500 most cited papers of any year.
-    One search per species ("Taeniopygia guttata" OR "zebra finch"), so a run costs
-    about 760 of the 1000 daily searches of a free OpenAlex key."""
+    """species searched before: papers since the last run; new species (and, once, every
+    species after the search started asking for communication terms): their 1000 most
+    cited communication papers of any year.
+    One search per species and page ("Taeniopygia guttata" OR "zebra finch"), so a normal
+    run costs about one search per species of the 1000 a day of a free OpenAlex key; the
+    deep searches may need two or three days, each run goes on where the last one stopped."""
     names = atlas.SpeciesNames(species, syn)
-    done = set(state.get('species_searched') or [])
+    done = set(state.get('comm_searched') or [])
     found = 0
     todo = species[:args.limit] if args.limit else species
     for i, s in enumerate(todo, 1):
-        old = s['sci'] in done
+        deep = s['sci'] not in done
         ns = search_names(s, syn)
-        works = search('(%s)' % ' OR '.join('"%s"' % n for n in ns), since, old)
+        works = search('(%s)' % ' OR '.join('"%s"' % n for n in ns), since, deep)
         if works is None:                             # OR query refused: one name at a time
-            works = []
-            for n in ns:
-                works += search('"%s"' % n, since, old) or []
+            parts = [search('"%s"' % n, since, deep) for n in ns]
+            if all(w is None for w in parts):
+                print('  search failed for %s, it will be tried again next time' % s['sci'])
+                continue
+            works = [w for part in parts for w in part or []]
         for w in works:
             doi = atlas.norm_doi(w.get('doi'))
             if not doi or doi in papers or not journal_article(w):
@@ -118,7 +130,7 @@ def new_papers(species, papers, syn, since, state):
                 papers[doi] = p
                 found += 1
         done.add(s['sci'])
-        state['species_searched'] = sorted(done)
+        state['comm_searched'] = sorted(done)
         if i % 50 == 0:
             print('  %d/%d species, %d new papers' % (i, len(todo), found))
     print('new papers: %d' % found)

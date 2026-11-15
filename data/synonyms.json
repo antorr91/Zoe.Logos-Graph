@@ -104,6 +104,22 @@
     ],
     "Megaderma lyra": [
       "Lyroderma lyra"
+    ],
+    "Leptuca pugilator": [
+      "Uca pugilator"
+    ],
+    "Austruca mjoebergi": [
+      "Uca mjoebergi"
+    ],
+    "Xiphophorus hellerii": [
+      "Xiphophorus helleri"
+    ],
+    "Amatitlania nigrofasciata": [
+      "Archocentrus nigrofasciatus",
+      "Cichlasoma nigrofasciatum"
+    ],
+    "Neogobius melanostomus": [
+      "Apollonia melanostoma"
     ]
   },
   "common_names": {
@@ -269,7 +285,7 @@
   "domestic_forms": {
     "Gallus gallus": {
       "to": "Gallus gallus domesticus",
-      "if": "domestic|chicken|\\bhens?\\b|broiler|laying",
+      "if": "domestic|chicken|\\bchicks?\\b|\\bhens?\\b|broiler|laying|poultry",
       "unless": "junglefowl"
     },
     "Canis lupus": {
@@ -5339,6 +5355,335 @@
       "Loligo pealeii borealis",
       "Loligo pealeii pallida",
       "Loligo punctata"
+    ],
+    "Trachemys scripta": [
+      "Chrysemys elegans",
+      "Chrysemys scripta",
+      "Emys cumberlandensis",
+      "Emys elegans",
+      "Emys holbrooki",
+      "Emys sanguinolenta",
+      "Emys troosti",
+      "Emys vittata",
+      "Pseudemys elegans",
+      "Pseudemys grayi",
+      "Pseudemys scripta",
+      "Testudo scripta",
+      "Testudo serrata",
+      "Trachemys lineata"
+    ],
+    "Chelodina oblonga": [
+      "Chelodina colliei",
+      "Macrodiremys oblonga"
+    ],
+    "Chelus fimbriata": [
+      "Chelys boulengerii",
+      "Testudo bi-spinosa",
+      "Testudo fimbria",
+      "Testudo fimbriata",
+      "Testudo matamata",
+      "Testudo rapara",
+      "Testudo raparara",
+      "Testudo raxarara",
+      "Testudo torticollis"
+    ],
+    "Dermochelys coriacea": [
+      "Chelonia lutaria",
+      "Chelonias lutaria",
+      "Coriudo coriacea",
+      "Dermatochelys coriacea",
+      "Dermatochelys porcata",
+      "Dermocheles coriacea",
+      "Dermochelis atlantica",
+      "Dermochelys atlantica",
+      "Dermochelys coriacea coriacea",
+      "Dermochelys coriacea schlegelii",
+      "Dermochelys porcata",
+      "Sphargis angusta",
+      "Sphargis coriacea",
+      "Sphargis coriacea schlegelii",
+      "Sphargis mercurialis"
+    ],
+    "Testudo hermanni": [
+      "Chersine hermanni",
+      "Eurotestudo hermanni",
+      "Testudo enriquesi",
+      "Testudo graeca bettai",
+      "Testudo graeca boettgeri",
+      "Testudo graeca hercegovinensis",
+      "Testudo hermanni robertmertensi"
+    ],
+    "Gopherus agassizii": [
+      "Scaptochelys agassizii",
+      "Xerobates lepidocephalus"
+    ],
+    "Sphenodon punctatus": [
+      "Hatteria punctata",
+      "Sphenodon guntheri",
+      "Sphenodon punctatus reischeki"
+    ],
+    "Crotalus atrox": [
+      "Caudisona atrox sonoraensis",
+      "Crotalus cinereous",
+      "Crotalus confluentus"
+    ],
+    "Ptenopus garrulus": [
+      "Ptenopus maculatus",
+      "Stenodactylus garrulous",
+      "Stenodactylus garrulus"
+    ],
+    "Sceloporus undulatus": [
+      "Agama undulata",
+      "Lacerta fasciata",
+      "Lacerta hyacinthina",
+      "Lacerta undulata",
+      "Lopherpes dicyanelus",
+      "Sceloporus floridanus",
+      "Sceloporus thayerii",
+      "Sceloporus undulatus hyacinthinus",
+      "Stellio dicyanelus",
+      "Stellio undulatus"
+    ],
+    "Uta stansburiana": [
+      "Uta concinna",
+      "Uta elegans",
+      "Uta mannophorus",
+      "Uta parva",
+      "Uta stansburiana hesperis",
+      "Uta stansburiana stellata",
+      "Uta taylori"
+    ],
+    "Alpheus heterochaelis": [
+      "Alpheus andronyx",
+      "Alpheus lutarius",
+      "Crangon heterochaelis",
+      "Halopsyche lutaria"
+    ],
+    "Leptuca pugilator": [
+      "Gelasimus pugilator",
+      "Ocypoda pugilator",
+      "Uca citharoedicus",
+      "Uca pugilator"
+    ],
+    "Austruca mjoebergi": [],
+    "Homarus americanus": [
+      "Astacus americanus",
+      "Astacus marinus",
+      "Homarus mainensis"
+    ],
+    "Panulirus argus": [
+      "Palinurus americanus",
+      "Palinurus argus",
+      "Palinurus ricordi",
+      "Panulirus argus westonii"
+    ],
+    "Odontodactylus scyllarus": [
+      "Cancer scyllarus",
+      "Gonodactylus bleekeri",
+      "Gonodactylus elegans"
+    ],
+    "Schizocosa ocreata": [
+      "Schizocosa charonoides"
+    ],
+    "Habronattus dossenus": [],
+    "Maratus volans": [
+      "Maratus amoenus"
+    ],
+    "Latrodectus hasselti": [
+      "Latrodectus ancorifer",
+      "Latrodectus hasselti ancorifer",
+      "Latrodectus hasselti aruensis",
+      "Latrodectus hasselti indicus",
+      "Latrodectus indicus",
+      "Latrodectus mactans hasselti",
+      "Latrodectus scelio"
+    ],
+    "Padogobius bonelli": [
+      "Gobius bonelli",
+      "Gobius fluviatilis",
+      "Gobius martensii",
+      "Padagobius martensi",
+      "Padogobius martensii",
+      "Padogobius panizzae"
+    ],
+    "Neogobius melanostomus": [
+      "Apollonia melanostoma",
+      "Apollonia melanostomus affinis",
+      "Gobius affinis",
+      "Gobius cephalarges",
+      "Gobius chilo",
+      "Gobius exanthematicus",
+      "Gobius exanthematosus",
+      "Gobius grossholzii",
+      "Gobius lugens",
+      "Gobius melanio",
+      "Gobius melanostomus",
+      "Gobius melanostomus affinis",
+      "Gobius sulcatus",
+      "Gobius virescens",
+      "Neogobius cephalarges"
+    ],
+    "Sciaenops ocellatus": [
+      "Lutjanus triangulum",
+      "Perca ocellata"
+    ],
+    "Pollimyrus adspersus": [
+      "Marcusenius adspersus",
+      "Mormyrus adspersus"
+    ],
+    "Dascyllus aruanus": [
+      "Abudefduf caroli",
+      "Chaetodon abudafar",
+      "Chaetodon arcuanus",
+      "Chaetodon aruanus",
+      "Dascyllus arnanus",
+      "Dascyllus blochii",
+      "Pomacentrus devisi",
+      "Pomacentrus emamo",
+      "Pomacentrus trifasciatus",
+      "Tetradrachmum arcuatum",
+      "Tetradrachmum aruanum"
+    ],
+    "Xiphophorus hellerii": [
+      "Mollienisia helleri",
+      "Poecilia helleri",
+      "Xiphophorus brevis",
+      "Xiphophorus guentheri",
+      "Xiphophorus guntheri",
+      "Xiphophorus helleri brevis",
+      "Xiphophorus helleri helleri",
+      "Xiphophorus helleri strigatus",
+      "Xiphophorus hellerii guentheri",
+      "Xiphophorus jalapae",
+      "Xiphophorus rachovii",
+      "Xiphophorus strigatus",
+      "Xiphorus helleri"
+    ],
+    "Pygocentrus nattereri": [
+      "Pygocentrus altus",
+      "Pygocentrus natterei",
+      "Pygocentrus ternetzi",
+      "Rooseveltiella nattereri",
+      "Serrasalmo ternetzi",
+      "Serrasalmus natterei",
+      "Serrasalmus nattereri",
+      "Serrasalmus ternetzi"
+    ],
+    "Brachyhypopomus pinnicaudatus": [
+      "Hypopomus pinnicaudatus"
+    ],
+    "Cyprinella venusta": [
+      "Cliola urostigma",
+      "Cyprinella cercostigma",
+      "Cyprinella notata",
+      "Luxilus chickasavensis",
+      "Notropis cooglei",
+      "Notropis venustus"
+    ],
+    "Amatitlania nigrofasciata": [
+      "Archocentrus nigrofasciatus",
+      "Cichlasoma nigrofasciatum",
+      "Cichlosoma nigrofasciatum",
+      "Cryptoheros nigrofascaitus",
+      "Cryptoheros nigrofasciatus",
+      "Heros nigrofasciatus"
+    ],
+    "Ormia ochracea": [
+      "Phasiopteryx montana",
+      "Pyrrosia ochracea"
+    ],
+    "Ceratitis capitata": [
+      "Ceratitis asparagi",
+      "Ceratitis citripeda",
+      "Ceratitis citriperda",
+      "Ceratitis hispanica",
+      "Pardalaspis asparagi",
+      "Tephritis capitata",
+      "Trypeta capitata"
+    ],
+    "Photuris versicolor": [],
+    "Bombyx mori": [
+      "Bombyx arracanensis",
+      "Bombyx brunnea",
+      "Bombyx croesi",
+      "Bombyx croesiformis",
+      "Bombyx fortunatus",
+      "Bombyx meridionalis",
+      "Bombyx sinensis",
+      "Bombyx textor",
+      "Phalaena mori"
+    ],
+    "Ostrinia nubilalis": [
+      "Botys nubilalis",
+      "Ostrinia fanalis",
+      "Ostrinia flava",
+      "Ostrinia fuscalis",
+      "Ostrinia insignis",
+      "Ostrinia margarita",
+      "Ostrinia minor",
+      "Ostrinia paulalis",
+      "Ostrinia rubescens",
+      "Ostrinia silacealis",
+      "Pyralis nubilalis",
+      "Pyrausta nubilalis"
+    ],
+    "Heliconius erato": [
+      "Heliconius cynisca",
+      "Heliconius eratophylla",
+      "Heliconius xanthoceras",
+      "Papilio erato"
+    ],
+    "Mecopoda elongata": [
+      "Conocephalus elongatus",
+      "Gryllus elongatus",
+      "Gryllus ferruginea",
+      "Gryllus rufa",
+      "Locusta elongata",
+      "Locusta scalaris",
+      "Mecopoda burmeisteri",
+      "Mecopoda elongata burmeisteri",
+      "Mecopoda elongata elongata",
+      "Mecopoda elongata servillei",
+      "Mecopoda servillei",
+      "Mecopoda virens"
+    ],
+    "Oecanthus henryi": [],
+    "Lasius niger": [
+      "Formica niger",
+      "Formica nigra",
+      "Formica pallescens",
+      "Lasius alienoniger"
+    ],
+    "Polistes fuscatus": [
+      "Polistes exilis",
+      "Polistes fortunatus",
+      "Polistes laurentianus",
+      "Polistes pallidipes",
+      "Polistes pallipes",
+      "Polistes variatus",
+      "Vespa nestor"
+    ],
+    "Sepioteuthis lessoniana": [
+      "Sepioteuthis arctipinnis",
+      "Sepioteuthis brevis",
+      "Sepioteuthis doreiensis",
+      "Sepioteuthis guinensis",
+      "Sepioteuthis hemprichii",
+      "Sepioteuthis indica",
+      "Sepioteuthis krempfi",
+      "Sepioteuthis lunulata",
+      "Sepioteuthis malayana",
+      "Sepioteuthis mauritiana",
+      "Sepioteuthis neoguinaica",
+      "Sepioteuthis sieboldi",
+      "Sepioteuthis sinensis"
+    ],
+    "Sepia apama": [
+      "Amplisepia parysatis",
+      "Sepia palmata"
+    ],
+    "Octopus tetricus": [
+      "Octopus gibbsi"
     ]
   }
 }

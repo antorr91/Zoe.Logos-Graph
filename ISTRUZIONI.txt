@@ -1,43 +1,50 @@
-Zoe.Logos-Graph v1.1, nuove specie
-set OPENALEX_API_KEY=WJP7cWXzRXObG6JmJI9VFB
-set OPENALEX_EMAIL=antonellatorr91@gmail.com
-set XC_API_KEY=e57d9b9bf04268e263822086c6ca2b5e8ed0b754
+Zoe.Logos-Graph v1.1, nuove specie e ricerca dei paper corretta
 
-python update_atlas.py
+Questo pacchetto contiene tutto (anche quello di ricerca-paper.zip).
 
-0. Se avevi estratto registrazioni-v1.1.1.zip o registrazioni-media.zip,
-   cancella make_spectrograms.py (le registrazioni le rivediamo dopo).
-   Gli altri file vengono sovrascritti da questo pacchetto.
+0. Se nella cartella c'e' make_spectrograms.py, cancellalo
+   (le registrazioni le rivediamo dopo).
 
-1. Estrai questo zip direttamente in E:\zoe-logos-graph, sovrascrivendo.
-   Contiene anche data\synonyms.json (il tuo, con sette sinonimi in piu')
-   e new_species.csv (78 specie nuove).
+1. Estrai lo zip direttamente in E:\zoe-logos-graph, sovrascrivendo.
+   Contiene data\synonyms.json (il tuo, con alcuni sinonimi in piu')
+   e new_species.csv (122 specie nuove).
 
 2. Dalla cartella del progetto, con il .venv attivo:
 
      python upgrade_site.py
      python seed_species.py
-     python update_atlas.py --offline
 
-   seed_species.py aggiunge le 78 specie (757 -> 835).
-   update_atlas.py --offline assegna alle nuove specie i paper che sono gia'
-   nell'archivio e ricostruisce tutte le pagine.
+   seed_species.py aggiunge solo le specie che mancano: 122 se parti da 757,
+   44 se avevi gia' aggiunto le prime 78. Alla fine l'atlante ha 879 specie.
 
-3. Controlla in locale:
+3. Imposta le chiavi (valgono solo per quella finestra):
+
+     set OPENALEX_API_KEY=la_tua_chiave_openalex
+     set OPENALEX_EMAIL=la_tua_email
+     set XC_API_KEY=la_tua_chiave_xeno_canto
+
+4. Aggiornamento completo (paper, abstract, attribuzione, registrazioni, sito):
+
+     python update_atlas.py
+
+   Questa volta rifa' la ricerca approfondita per tutte le specie, con i termini
+   della comunicazione. Probabilmente finira' il budget giornaliero di OpenAlex:
+   lo script lo dice, salva tutto, e il giorno dopo rilanci lo stesso comando
+   per continuare da dove si era fermato.
+
+5. Controlla in locale:
 
      python -m http.server 8000
 
    http://localhost:8000/outputs/index.html  (Ctrl+F5)
 
-4. Se va bene, commit e push:
+6. Se va bene, commit e push:
 
      git add -A
-     git commit -m "78 new species, attribution fixes, taxonomy search fix, README intro"
+     git commit -m "122 new species, communication-focused paper search, attribution fixes"
      git push
 
-5. Con la chiave OpenAlex, per i paper delle nuove specie e quelli degli ultimi mesi:
+7. Figura per la tesi (fuori dal repository):
 
-     set OPENALEX_API_KEY=la_tua_chiave
-     python update_atlas.py
-
-   e poi di nuovo commit e push.
+     pip install matplotlib
+     python thesis_figure.py
