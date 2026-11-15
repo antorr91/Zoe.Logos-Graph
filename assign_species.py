@@ -55,6 +55,8 @@ def assign(p, names):
     full = p.get('abstract_full') or p.get('no_abstract')     # nothing more to wait for
     if atlas.NOT_RESEARCH.search(title):
         return [], 'offtopic', 'not a study (note, review of a book, anniversary)'
+    if atlas.BIOCHEM.search(title):
+        return [], 'offtopic', 'chemistry of the signal (molecules, genes), not communication'
     comm = atlas.about_communication(names.strip(title), names.strip(abstract), full)
     if comm is False:
         return [], 'offtopic', 'not about communication'
@@ -149,6 +151,14 @@ def main():
           % (n_links, sum(len(v) for v in before.values()),
              sum(r[0] == 'removed' for r in rows), sum(r[0] == 'added' for r in rows)))
     print('species without papers: %d' % sum(1 for s in species if not after[s['sci']]))
+    with open(atlas.REPORTS / 'few_papers.csv', 'w', encoding='utf-8', newline='') as f:
+        w = csv.writer(f)                              # to decide: search them better, or leave them out
+        w.writerow(['species', 'english', 'class', 'order', 'papers'])
+        for s in sorted(species, key=lambda s: (len(after[s['sci']]), s['sci'])):
+            if len(after[s['sci']]) < 5:
+                w.writerow([s['sci'], s.get('en', ''), s.get('class_', ''), s.get('order_', ''), len(after[s['sci']])])
+    print('species with fewer than 5 papers: %d -> reports/few_papers.csv'
+          % sum(1 for s in species if len(after[s['sci']]) < 5))
     if not args.apply:
         print('dry run: nothing written (use --apply)')
         return

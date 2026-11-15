@@ -321,7 +321,7 @@ CORE = [r'vocal\w*', r'calls?', r'calling', r'songs?', r'singing', r'singers?', 
         r'emotional contagion', r'(?:courtship|distraction|wing|bowing|threat|sexual) displays?',
         r'(?:honest|sexual|visual|vocal|acoustic|chemical|social|alarm|mating|courtship|warning|'
         r'aposematic|status|aggressive|multimodal|seismic|vibrational|tactile|olfactory|colou?r|'
-        r'ornamental|dynamic|male|female) signall?ing']
+        r'ornamental|dynamic|male|female|acoustic|vocal|courtship|threat|dominance|begging) signal(?:s|l?ing)?']
 WEAK = [r'sounds?', r'noise', r'pitch', r'tones?', r'signals?', r'displays?', r'mimic\w*', r'mate choice',
         r'female preferences?', r'hiss\w*', r'audio\w*', r'listen\w*', r'ears?',
         r'signall?ing', r'timbre', r'language']
@@ -337,6 +337,16 @@ NOT_RESEARCH = re.compile(
     r'\bpredation (?:on|by)\b|\boccurrence\b|\bsightings?\b|'
     r', by [A-Z][a-z]+ (?:[A-Z]\. )?[A-Z][a-z]+\s*$', re.I)
 
+# chemistry of signals rather than communication: molecules, their synthesis and genes
+BIOCHEM = re.compile(
+    r'\bbiosynthe\w*|\bsynthes[ie]s of\b|\benantiomer\w*|\bstereo(?:chem\w*|isomer\w*)|'
+    r'\bgas chromatograph\w*|\bGC-?MS\b|\bmass spectrometr\w*|\bchemical (?:identification|'
+    r'characteri[sz]ation|analysis|composition|structure)|\bidentification of (?:the |a )?(?:\w+ )?'
+    r'(?:sex |aggregation |alarm |trail )?pheromones?\b|\bstructure elucidation\b|\bodorant[- ]binding\b|'
+    r'\b(?:olfactory|odorant|gustatory|pheromone) receptor\w*|\bpheromone[- ]producing\b|'
+    r'\bdesaturase\w*|\bcuticular hydrocarbon profiles?\b|'
+    r'\bvolatile (?:compounds?|profiles?|organic)\b|\bsemiochemicals? for (?:monitoring|control|trapping)\b', re.I)
+
 # off-topic unless the text clearly says otherwise
 OFFTOPIC_RX = re.compile(
     r'\b(?:sperm(?! whales?)|semen|milk|mastitis|transcriptom\w*|proteom\w*|genom\w*|gene flow|'
@@ -346,13 +356,15 @@ OFFTOPIC_RX = re.compile(
     r'moult\w*|molt\w*|population dynamics|abundance|point[- ]counts?|harvest\w*|hunting|road\w*|'
     r'wind farm\w*|hearing loss|acoustic trauma|noise[- ]induced|ototox\w*|cochlear implants?|'
     r'hearing[- ]impaired|densit(?:y|ies)|population (?:size|trends?|estimates?)|home ranges?|'
-    r'spring movements?)\b', re.I)
+    r'spring movements?|optimi[sz]ation algorithms?|(?:grey wolf|whale) optimi[sz]\w*|particle swarm|metaheuristic\w*|OFDM|PAPR|photovoltaic|'
+    r'otitis|antler length)\b', re.I)
 
 # "cell signalling", "intercellular communication" are not animal communication
 CELLULAR = re.compile(
     r'\b(?:cell|cellular|intercellular|extracellular|synaptic|molecular|hormonal|immune|neuronal|'
     r'paracrine|endocrine|calcium|insulin|receptor)\s+(?:signall?ing|communication|signals?)\b|'
     r'\bsignall?ing (?:pathways?|molecules?|cascades?|proteins?)\b|'
+    r'\b(?!urine\b)\w+(?:in|ine|ase|one|ide)\s+signall?ing\b|\bsignal transduction\b|\bsignall?ing in \w+ neurons?\b|'
     r'\b(?:brief|short|rapid|personal) communications?\b|'          # journal sections
     r'\b(?:science|risk|public|stakeholder|health|media) communication\b|'
     r'\bcalls? for\b|\bso[- ]called\b|\balarm clocks?\b|'
@@ -471,3 +483,37 @@ def openalex(path, **params):
         time.sleep(2 ** i + 1)
     print('    giving up on', url.split('api_key')[0][:110])
     return None
+
+
+# ── searching OpenAlex ─────────────────────────────────────────────────────
+# only papers that also speak of communication: for chickens, mice or zebrafish the most
+# cited papers are about genetics or medicine, and the communication ones would be missed.
+# "signal" alone brings cell signalling and radio signals, so only signals of animals
+COMM_QUERY = ('(vocal OR vocalization OR vocalisation OR call OR song OR acoustic OR sound OR '
+              'communication OR display OR alarm OR pheromone OR echolocation OR playback OR '
+              'courtship OR gesture OR whistle OR chorus OR "acoustic signal" OR "visual signal" OR '
+              '"sexual signal" OR "alarm signal" OR "warning signal" OR "chemical signal" OR '
+              '"vibrational signal" OR "honest signal")')
+
+
+def search_names(s, syn, wide=False):
+    """scientific name, hand-written synonyms and English name; wide also adds the GBIF
+    synonyms and every English name (for species with few papers: an old name may be the
+    one the papers use)"""
+    names = [s['sci']] + (syn.get('manual') or {}).get(s['sci'], [])
+    ens = [e.strip() for e in re.split(r'[,/;]', s.get('en') or '') if e.strip()]
+    for en in (ens if wide else ens[:1]):
+        if en.count(' ') >= 1 and en.lower() not in GENERIC:
+            names.append(en)                          # "zebra finch", not "lion"
+    if wide:
+        names += [n for n in (syn.get('gbif') or {}).get(s['sci'], []) if good_synonym(n)]
+    return list(dict.fromkeys(n.replace('"', '') for n in names if n))[:8 if wide else 4]
+
+
+def count_comm_papers(s, syn):
+    """how many communication papers OpenAlex has for a species (None if it cannot tell)"""
+    q = '(%s)' % ' OR '.join('"%s"' % n for n in search_names(s, syn, wide=True))
+    data = openalex('works', filter='title_and_abstract.search:%s AND %s,has_doi:true,type:article'
+                    % (q, COMM_QUERY), per_page=1, select='id')
+    return ((data or {}).get('meta') or {}).get('count')
+

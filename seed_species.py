@@ -6,23 +6,30 @@ Add new species to the atlas (species_explorer.html EMBEDDED_DB) from a CSV with
 columns sci, en, class_, order_, family, wiki. Each new species gets its taxonomy,
 English name and Wikipedia title, and EMPTY curated fields (themes, learning,
 functions, frequency, semiotic) for you to fill. At the next update its papers
-(500 most cited, any year) and recordings are fetched automatically.
+(1000 most cited communication papers, any year) and recordings are fetched.
+
+Before adding a species, OpenAlex is asked how many communication papers it has
+(needs OPENALEX_API_KEY): species with fewer than --min-papers are left out and
+listed, so that the atlas does not fill up with empty pages.
 
 Existing species are never touched. Uses the robust embedded_db reader/writer.
 
 USAGE
   python seed_species.py --dry-run        # show how many would be added
   python seed_species.py                   # write into species_explorer.html
+  python seed_species.py --min-papers 0    # add them all, without asking OpenAlex
   python seed_species.py --csv new_species.csv --html outputs/species_explorer.html
 """
 import csv, argparse
 from pathlib import Path
 import embedded_db as edb
+import atlas
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--csv', default='new_species.csv')
 ap.add_argument('--html', default='outputs/species_explorer.html')
 ap.add_argument('--dry-run', action='store_true')
+ap.add_argument('--min-papers', type=int, default=5)
 args = ap.parse_args()
 
 
@@ -54,15 +61,31 @@ def main():
     have = {(s.get('sci') or '').lower() for s in species}
     print('Atlas currently has %d species.' % len(species))
 
-    added = 0
+    syn = atlas.read_json(atlas.SYNONYMS, {})
+    added, few, unchecked = 0, [], []
     with open(args.csv, encoding='utf-8') as f:
         for row in csv.DictReader(f):
             sci = (row.get('sci') or '').strip()
             if not sci or sci.lower() in have:
                 continue
-            species.append(blank_species(row))
+            new = blank_species(row)
+            if args.min_papers:
+                try:
+                    n = atlas.count_comm_papers(new, syn)
+                except atlas.OpenAlexLimit:
+                    n = None
+                if n is None:
+                    unchecked.append(sci)
+                elif n < args.min_papers:
+                    few.append('%s (%d)' % (sci, n))
+                    continue
+            species.append(new)
             have.add(sci.lower())
             added += 1
+    if few:
+        print('Left out, fewer than %d communication papers on OpenAlex: %s' % (args.min_papers, ', '.join(few)))
+    if unchecked:
+        print('Added without checking (OpenAlex did not answer): %s' % ', '.join(unchecked))
 
     print('New species to add: %d  ->  total would be %d' % (added, len(species)))
     if args.dry_run:

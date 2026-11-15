@@ -63,29 +63,12 @@ def journal_article(w):
             and not BAD_TITLE.search(w.get('title') or ''))
 
 
-def search_names(s, syn):
-    """scientific name, hand-written synonyms and English name (GBIF synonyms are only
-    used to recognise names: many are 19th-century names nobody uses)"""
-    names = [s['sci']] + (syn.get('manual') or {}).get(s['sci'], [])
-    en = re.split(r'[,/;]', s.get('en') or '')[0].strip()
-    if en.count(' ') >= 1 and en.lower() not in atlas.GENERIC:
-        names.append(en)                              # "zebra finch", not "lion"
-    return list(dict.fromkeys(n.replace('"', '') for n in names if n))[:4]
-
-
-# only papers that also speak of communication: for chickens, mice or zebrafish the most
-# cited papers are about genetics or medicine, and the communication ones would be missed
-COMM_QUERY = ('(vocal OR vocalization OR vocalisation OR call OR song OR acoustic OR sound OR '
-              'communication OR signal OR signalling OR display OR alarm OR pheromone OR '
-              'echolocation OR playback OR courtship OR gesture OR whistle OR chorus)')
-
-
 def search(query, since, deep):
     """journal articles matching the query, one OpenAlex search per page of 100:
     deep = the 1000 most cited of any year, otherwise those published since `since`"""
     out, cursor, pages = [], '*', 0
     while cursor and pages < (10 if deep else 20):
-        f = 'title_and_abstract.search:%s AND %s,has_doi:true,type:article' % (query, COMM_QUERY)
+        f = 'title_and_abstract.search:%s AND %s,has_doi:true,type:article' % (query, atlas.COMM_QUERY)
         if not deep:
             f += ',from_publication_date:' + since
         data = atlas.openalex('works', filter=f, select=SELECT, per_page=100, cursor=cursor,
@@ -108,11 +91,19 @@ def new_papers(species, papers, syn, since, state):
     deep searches may need two or three days, each run goes on where the last one stopped."""
     names = atlas.SpeciesNames(species, syn)
     done = set(state.get('comm_searched') or [])
+    rescued = set(state.get('rescue_searched') or [])     # few papers: searched once with every name
+    key = lambda s: '|'.join([s['sci']] + sorted((syn.get('manual') or {}).get(s['sci'], [])))
+    shown = {}
+    for p in papers.values():
+        if p.get('status') == 'species':
+            for x in p.get('species') or []:
+                shown[x] = shown.get(x, 0) + 1
     found = 0
     todo = species[:args.limit] if args.limit else species
     for i, s in enumerate(todo, 1):
-        deep = s['sci'] not in done
-        ns = search_names(s, syn)
+        wide = shown.get(s['sci'], 0) < 5 and key(s) not in rescued   # again if synonyms were added
+        deep = wide or s['sci'] not in done
+        ns = atlas.search_names(s, syn, wide)
         works = search('(%s)' % ' OR '.join('"%s"' % n for n in ns), since, deep)
         if works is None:                             # OR query refused: one name at a time
             parts = [search('"%s"' % n, since, deep) for n in ns]
@@ -131,6 +122,9 @@ def new_papers(species, papers, syn, since, state):
                 found += 1
         done.add(s['sci'])
         state['comm_searched'] = sorted(done)
+        if wide:
+            rescued.add(key(s))
+            state['rescue_searched'] = sorted(rescued)
         if i % 50 == 0:
             print('  %d/%d species, %d new papers' % (i, len(todo), found))
     print('new papers: %d' % found)

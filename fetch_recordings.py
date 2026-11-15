@@ -7,7 +7,9 @@ Check and top up the recordings shown in the Media tab of the species page.
   1. CHECK what is already there: links that are not audio files (Vimeo, archive.org
      pages, Xeno-Canto pages) are removed, http links become https (browsers block
      http audio on an https site), iNaturalist recordings whose observation is now
-     identified as another species are removed, broken links are removed.
+     identified as another species, or is 'casual' (no date, place or community
+     check), are removed, Xeno-Canto recordings of quality D and E are removed,
+     broken links are removed. The best recordings are listed first.
   2. TOP UP species with fewer than --per-species recordings from
        Xeno-Canto (birds, frogs, insects, bats; needs XC_API_KEY)
        iNaturalist (research-grade observations with sound, any animal)
@@ -83,7 +85,8 @@ def same_species(name, accepted):
 
 
 def inat_check(species, syn):
-    """remove iNaturalist recordings whose observation is identified as something else"""
+    """remove iNaturalist recordings whose observation is identified as something else or is
+    casual; keep the quality grade (research, needs_id) to show it on the page"""
     obs = {}
     for s in species:
         for r in s.get('recordings') or []:
@@ -91,9 +94,17 @@ def inat_check(species, syn):
             if r.get('source') == 'inat' and m:
                 obs[m.group(1)] = None
     ids = sorted(obs)
+    print('iNaturalist: checking %d observations (about %d minutes)' % (len(ids), len(ids) // 100 // 30 + 1), flush=True)
+    failed = 0
     for i in range(0, len(ids), 100):
+        if i and i % 500 == 0:
+            print('  %d/%d' % (i, len(ids)), flush=True)
         data = atlas.get_json('https://api.inaturalist.org/v1/observations?' + urlencode(
-            {'id': ','.join(ids[i:i + 100]), 'per_page': 100}))
+            {'id': ','.join(ids[i:i + 100]), 'per_page': 100}), tries=2, timeout=20)
+        failed = failed + 1 if data is None else 0
+        if failed == 3:                                 # not answering today: check them next time
+            print('  iNaturalist is not answering, the check is skipped this time')
+            break
         for o in (data or {}).get('results') or []:
             obs[str(o['id'])] = ((o.get('taxon') or {}).get('name') or '', o.get('quality_grade'))
         time.sleep(1)                                   # iNaturalist asks for ~1 request per second
@@ -104,12 +115,63 @@ def inat_check(species, syn):
         for r in s.get('recordings') or []:
             m = re.search(r'/observations/(\d+)', r.get('url') or '')
             got = obs.get(m.group(1)) if (r.get('source') == 'inat' and m) else None
-            if got and not same_species(got[0], acc):
+            if got and (not same_species(got[0], acc) or got[1] == 'casual'):
                 dropped += 1
                 continue
+            if got:
+                r['q'] = got[1] or ''
             keep.append(r)
         s['recordings'] = keep
-    print('iNaturalist: %d observations checked, %d recordings of another species removed' % (len(ids), dropped))
+    print('iNaturalist: %d observations checked, %d recordings removed (other species or casual)' % (len(ids), dropped))
+
+
+def xc_usable(r):
+    """quality A or B, a sound type the recordist is sure of, not an unattended recorder"""
+    return (r.get('q') in ('A', 'B') and 'uncertain' not in (r.get('type') or '').lower()
+            and (r.get('auto') or '').lower() != 'yes')
+
+
+def xc_sono(r):
+    sono = r.get('sono') or {}
+    url = sono.get('large') or sono.get('med') or ''
+    return ('https:' + url) if url.startswith('//') else url
+
+
+def xc_also(r):
+    """other species audible in the background, as the recordist listed them"""
+    return ', '.join(a for a in (r.get('also') or []) if a)[:120]
+
+
+def xc_refresh(species):
+    """Xeno-Canto recordings saved before quality and background species were kept:
+    ask Xeno-Canto again (ratings change over time) and keep only the usable ones"""
+    if not XC_KEY:
+        return
+    todo = [(s, r) for s in species for r in s['recordings'] if r.get('source') == 'xc' and 'also' not in r]
+    if not todo:
+        return
+    print('Xeno-Canto: checking %d recordings saved before quality was recorded (about %d minutes)'
+          % (len(todo), len(todo) // 120 + 1))
+    dropped = set()
+    for n, (s, r) in enumerate(todo, 1):
+        data = atlas.get_json('https://xeno-canto.org/api/3/recordings?' + urlencode(
+            {'query': 'nr:%s' % r['id'], 'key': XC_KEY}))
+        found = (data or {}).get('recordings') or []
+        if data is None:                                 # no answer: keep it, try next time
+            continue
+        if not found or not xc_usable(found[0]):
+            dropped.add(id(r))
+            continue
+        x = found[0]
+        r.update(q=x.get('q') or r.get('q', ''), sono=xc_sono(x) or r.get('sono', ''), also=xc_also(x),
+                 type=(x.get('type') or r.get('type') or 'recording').lower())
+        if n % 100 == 0:
+            print('  %d/%d' % (n, len(todo)))
+        time.sleep(0.3)
+    for s in species:
+        s['recordings'] = [r for r in s['recordings'] if id(r) not in dropped]
+    print('Xeno-Canto: %d recordings removed (quality C-E, uncertain type, automatic recorder, or deleted)'
+          % len(dropped))
 
 
 def from_xc(sci, acc):
@@ -122,11 +184,13 @@ def from_xc(sci, acc):
     for r in (data or {}).get('recordings') or []:
         if not same_species('%s %s' % (r.get('gen', ''), r.get('sp', '')), acc) or not r.get('file'):
             continue
+        if not xc_usable(r):
+            continue
         lic = re.search(r'licenses/([a-z-]+)/([\d.]+)', r.get('lic') or '')
         out.append(tidy({'source': 'xc', 'id': str(r.get('id')), 'type': (r.get('type') or 'recording').lower(),
                          'q': r.get('q') or '', 'rec': r.get('rec') or '', 'date': r.get('date') or '',
                          'cnt': r.get('cnt') or '', 'loc': r.get('loc') or '', 'duration': r.get('length') or '',
-                         'audio': r['file'], 'sono': (r.get('sono') or {}).get('med') or '',
+                         'audio': r['file'], 'sono': xc_sono(r), 'also': xc_also(r),
                          'url': 'https://xeno-canto.org/%s' % r.get('id'),
                          'license': 'CC %s %s' % (lic.group(1).upper(), lic.group(2)) if lic else ''}))
     return out
@@ -142,7 +206,7 @@ def from_inat(sci, acc):
             continue
         for snd in o.get('sounds') or []:
             if snd.get('file_url') and snd.get('license_code'):
-                out.append(tidy({'source': 'inat', 'id': str(snd.get('id')), 'type': 'recording', 'q': '',
+                out.append(tidy({'source': 'inat', 'id': str(snd.get('id')), 'type': 'recording', 'q': 'research',
                                  'rec': (o.get('user') or {}).get('login') or '', 'date': o.get('observed_on') or '',
                                  'cnt': o.get('place_guess') or '', 'duration': '', 'audio': snd['file_url'],
                                  'sono': '', 'url': 'https://www.inaturalist.org/observations/%s' % o['id'],
@@ -172,6 +236,14 @@ def from_gbif(sci, acc):
     return out
 
 
+# best first: Xeno-Canto A and iNaturalist research grade, then B, needs ID, unknown, C
+RANK = {'A': 0, 'research': 0, 'B': 1, 'needs_id': 2, '': 3}
+
+
+def best_first(recs):
+    return sorted(recs, key=lambda r: (RANK.get(r.get('q') or '', 3), bool(r.get('also'))))
+
+
 def main():
     html, species, eq, end = atlas.load_species()
     syn = atlas.read_json(atlas.SYNONYMS, {})
@@ -181,21 +253,26 @@ def main():
     bad = 0
     for s in species:
         recs = [tidy(r) for r in s.get('recordings') or []]
-        good = [r for r in recs if playable(r['audio'])]
+        good = [r for r in recs if playable(r['audio']) and r.get('q') not in ('C', 'D', 'E')
+                and 'uncertain' not in (r.get('type') or '')]
         bad += len(recs) - len(good)
         seen = set()
         s['recordings'] = [r for r in good if not (r['audio'] in seen or seen.add(r['audio']))]
-    print('not audio files (web pages, videos) or duplicates removed: %d' % bad)
+    print('not audio files (web pages, videos), quality C-E, uncertain type, or duplicates removed: %d' % bad)
     if args.offline:
+        for s in species:
+            s['recordings'] = best_first(s['recordings'])
         atlas.save_species(html, species, eq, end)
         return
     inat_check(species, syn)
+    xc_refresh(species)
     samples = {}                                       # a few files per archive are enough to spot a dead one
     for s in species:
         for r in s['recordings']:
             h = urlparse(r['audio']).netloc
             if 'inaturalist' not in h and 'xeno-canto' not in h and len(samples.setdefault(h, [])) < 3:
                 samples[h].append(r['audio'])
+    print('checking that the other archives still answer (%d)' % len(samples))
     dead = {h for h, urls in samples.items() if not any(reachable(u) for u in urls)}
     for s in species:
         s['recordings'] = [r for r in s['recordings'] if urlparse(r['audio']).netloc not in dead]
@@ -231,6 +308,8 @@ def main():
         if n % 100 == 0:
             print('  %d/%d species, %d recordings added' % (n, len(species), added))
 
+    for s in species:
+        s['recordings'] = best_first(s['recordings'])
     atlas.save_species(html, species, eq, end)
     after = sum(len(s['recordings']) for s in species)
     print('recordings: %d -> %d (%d added). Species with recordings: %d/%d'

@@ -17,6 +17,8 @@ delete this file.
 
   python upgrade_site.py
   python build_site.py
+
+The visit counter (GoatCounter, code zoelogo) is added to every page.
 """
 import re
 import atlas
@@ -64,14 +66,17 @@ METHODS_JS = (r"const METHODS_RX = /deep learning|machine learning|neural networ
 SPECTROGRAM = [
 (""".sono{width:100%;border-radius:8px;margin-bottom:10px;display:block;border:1px solid var(--border)}""",
 """.sono{width:100%;border-radius:8px;margin-bottom:10px;display:block;border:1px solid var(--border)}
-.specwrap{position:relative;margin-bottom:10px;cursor:pointer}
-.specwrap canvas{width:100%;height:150px;display:block;border-radius:8px;border:1px solid var(--border);background:#07161a}
-.spec-head{position:absolute;top:1px;bottom:1px;left:0;width:2px;background:#f2c14e;opacity:0;pointer-events:none}
-.spec-note{position:absolute;left:10px;top:8px;font-size:11px;color:var(--hint);pointer-events:none}"""),
+.specwrap{position:relative;height:160px;margin-bottom:10px;cursor:pointer;border-radius:8px;border:1px solid var(--border);background:#07161a;overflow:hidden}
+.spec-scroll{position:absolute;inset:0;overflow:hidden}
+.spec-scroll canvas{display:block;height:160px}
+.spec-head{position:absolute;top:0;bottom:0;left:0;width:2px;background:#f2c14e;box-shadow:0 0 6px rgba(242,193,78,.6);pointer-events:none}
+.spec-f{position:absolute;left:6px;top:4px;bottom:16px;display:flex;flex-direction:column;justify-content:space-between;font:10px 'DM Mono',monospace;color:rgba(255,255,255,.85);text-shadow:0 0 3px #000;pointer-events:none}
+.spec-note{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--hint);pointer-events:none}
+.specwrap img.sono{width:100%;height:100%;margin:0;border:0;border-radius:0;object-fit:fill;filter:invert(.92) hue-rotate(180deg)}"""),
 
 ("""          ${r.sono?`<img class="sono" src="${r.sono}" alt="spectrogram" onerror="this.style.display='none'">`:''}""",
-"""          ${r.sono?`<img class="sono" src="${r.sono}" alt="spectrogram" onerror="this.style.display='none'">`:
-            r.audio?`<div class="specwrap"><canvas class="spec" data-src="${r.audio}"></canvas><div class="spec-head"></div><div class="spec-note">loading spectrogram…</div></div>`:''}"""),
+"""          ${r.audio?`<div class="specwrap"${isXC&&r.sono?` data-sono="${r.sono.replace(/grey-(small|medium)\\.png$/,'grey-large.png')}"`:''}><div class="spec-scroll"><canvas class="spec" data-src="${r.audio}"></canvas></div><div class="spec-f"></div><div class="spec-head"></div><div class="spec-note">loading spectrogram…</div></div>`:
+            r.sono?`<img class="sono" src="${r.sono}" alt="spectrogram" onerror="this.style.display='none'">`:''}"""),
 
 ("""  html += `</div>`;
   tc.innerHTML = html;
@@ -83,9 +88,19 @@ SPECTROGRAM = [
 }
 
 // ── SPECTROGRAMS ───────────────────────────────────────────────────────
-// Xeno-Canto gives its own spectrogram image; for iNaturalist and GBIF the
-// spectrogram is computed here from the audio file (first 30 s), only when the
-// card is on screen. Click on it to play from that point.
+// The spectrogram is drawn here from the audio file (first 60 s), zoomed on the
+// frequencies that carry sound, and scrolls under the yellow line while the
+// recording plays; click on it to play from that point. Archives that do not let
+// a web page read their files keep the player only (Xeno-Canto shows its own image).
+const PX_PER_SEC = 80, MAX_SECS = 60, HEAD_AT = 0.25, SPEC_H = 160;
+const SPEC_COLORS = [[7,22,26],[20,60,80],[40,120,130],[90,180,140],[240,200,90],[255,250,220]];
+
+function specColor(v) {
+  v = Math.max(0, Math.min(1, v)) * (SPEC_COLORS.length - 1);
+  const i = Math.min(SPEC_COLORS.length - 2, Math.floor(v)), f = v - i, a = SPEC_COLORS[i], b = SPEC_COLORS[i + 1];
+  return [0, 1, 2].map(j => Math.round(a[j] + (b[j] - a[j]) * f));
+}
+
 function initSpectrograms(root) {
   const io = new IntersectionObserver(es => es.forEach(e => {
     if (e.isIntersecting) { io.unobserve(e.target); drawSpectrogram(e.target); }
@@ -94,17 +109,25 @@ function initSpectrograms(root) {
   root.querySelectorAll('.ac').forEach(card => {
     const a = card.querySelector('audio'), w = card.querySelector('.specwrap');
     if (!a || !w) return;
-    const head = w.querySelector('.spec-head');
-    a.addEventListener('timeupdate', () => {
-      const secs = +w.dataset.secs || a.duration;
-      if (!secs) return;
+    const place = () => {
+      const secs = +w.dataset.secs, head = w.querySelector('.spec-head'), sc = w.querySelector('.spec-scroll');
+      if (!secs || !head) return;
+      const t = Math.min(a.currentTime, secs);
+      if (sc && w.classList.contains('ready')) {
+        const px = +w.dataset.pxps;
+        sc.scrollLeft = Math.max(0, t * px - sc.clientWidth * HEAD_AT);
+        head.style.left = (t * px - sc.scrollLeft) + 'px';
+      } else head.style.left = (t / secs * 100) + '%';
       head.style.opacity = a.currentTime > secs ? 0 : 1;
-      head.style.left = (Math.min(a.currentTime, secs) / secs * 100) + '%';
-    });
+    };
+    const loop = () => { place(); if (!a.paused) requestAnimationFrame(loop); };
+    a.addEventListener('play', loop);
+    a.addEventListener('seeked', place);
     w.addEventListener('click', ev => {
-      const secs = +w.dataset.secs; if (!secs) return;
-      const r = w.getBoundingClientRect();
-      a.currentTime = (ev.clientX - r.left) / r.width * secs;
+      const secs = +w.dataset.secs, sc = w.querySelector('.spec-scroll');
+      if (!secs) return;
+      const r = w.getBoundingClientRect(), x = ev.clientX - r.left;
+      a.currentTime = (sc && w.classList.contains('ready')) ? (sc.scrollLeft + x) / +w.dataset.pxps : x / r.width * secs;
       a.play();
     });
   });
@@ -132,25 +155,18 @@ function fft(re, im) {
   }
 }
 
-const SPEC_COLORS = [[7,22,26],[20,60,80],[40,120,130],[90,180,140],[240,200,90],[255,250,220]];
-function specColor(v) {
-  v = Math.max(0, Math.min(1, v)) * (SPEC_COLORS.length - 1);
-  const i = Math.min(SPEC_COLORS.length - 2, Math.floor(v)), f = v - i, a = SPEC_COLORS[i], b = SPEC_COLORS[i + 1];
-  return [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f, a[2] + (b[2] - a[2]) * f];
-}
-
 async function drawSpectrogram(c) {
-  const w = c.parentElement, note = w.querySelector('.spec-note');
+  const w = c.closest('.specwrap'), note = w.querySelector('.spec-note');
   try {
     const res = await fetch(c.dataset.src);
     if (!res.ok) throw new Error(res.status);
     const ac = new OfflineAudioContext(1, 1, 96000);
     const audio = await ac.decodeAudioData(await res.arrayBuffer());
-    const sr = audio.sampleRate, secs = Math.min(audio.duration, 30);
+    const sr = audio.sampleRate, secs = Math.min(audio.duration, MAX_SECS);
     const x = audio.getChannelData(0).subarray(0, Math.floor(secs * sr));
-    const N = 1024, W = c.width = Math.max(300, Math.min(1400, Math.round(c.clientWidth * (window.devicePixelRatio || 1))));
-    const H = c.height = Math.round(150 * (window.devicePixelRatio || 1));
-    const hop = Math.max(1, (x.length - N) / W), win = new Float32Array(N);
+    const px = Math.max(PX_PER_SEC, w.clientWidth / secs), N = 1024, H = SPEC_H;
+    const W = Math.max(1, Math.round(secs * px)), hop = Math.max(1, (x.length - N) / W);
+    const win = new Float32Array(N);
     for (let i = 0; i < N; i++) win[i] = 0.5 - 0.5 * Math.cos(2 * Math.PI * i / (N - 1));
     const cols = [], mean = new Float32Array(N / 2);
     let top = -Infinity;
@@ -166,33 +182,40 @@ async function drawSpectrogram(c) {
       }
       cols.push(db);
     }
-    // show up to the highest frequency that carries sound (birds ~10 kHz, bats higher)
+    // only the frequency band that carries sound, with a margin (at least 1 kHz)
     const peak = Math.max(...mean);
-    let kMax = N / 2 - 1;
-    while (kMax > 0 && mean[kMax] < peak - 35) kMax--;
-    kMax = Math.max(Math.round((4000 / (sr / 2)) * (N / 2)), Math.min(N / 2 - 1, Math.round(kMax * 1.15)));
+    let lo = 0, hi = N / 2 - 1;
+    while (hi > 0 && mean[hi] < peak - 30) hi--;
+    while (lo < hi && mean[lo] < peak - 30) lo++;
+    const minSpan = 1000 / (sr / 2) * (N / 2), pad = Math.max(minSpan / 2, (hi - lo) * 0.2);
+    lo = Math.max(0, Math.round(lo - pad)); hi = Math.min(N / 2 - 1, Math.round(hi + pad));
+    c.width = W; c.height = H; c.style.width = W + 'px';
     const ctx = c.getContext('2d'), img = ctx.createImageData(W, H), range = 70;
     for (let col = 0; col < W; col++) {
       const db = cols[col];
       for (let y = 0; y < H; y++) {
-        const k = Math.round((1 - y / (H - 1)) * kMax);
+        const k = Math.round(hi - y / (H - 1) * (hi - lo));
         const [r, g, b] = specColor((db[k] - (top - range)) / range);
         const o = (y * W + col) * 4;
         img.data[o] = r; img.data[o + 1] = g; img.data[o + 2] = b; img.data[o + 3] = 255;
       }
     }
     ctx.putImageData(img, 0, 0);
-    const fmax = kMax / (N / 2) * sr / 2 / 1000, dpr = window.devicePixelRatio || 1;
-    ctx.font = (10 * dpr) + 'px sans-serif'; ctx.fillStyle = 'rgba(255,255,255,.75)';
-    ctx.fillText(fmax.toFixed(0) + ' kHz', 6 * dpr, 13 * dpr);
-    ctx.fillText((fmax / 2).toFixed(0) + ' kHz', 6 * dpr, H / 2 + 4 * dpr);
-    const tl = secs.toFixed(0) + ' s' + (audio.duration > 30 ? ' of ' + audio.duration.toFixed(0) : '');
-    ctx.fillText(tl, W - ctx.measureText(tl).width - 6 * dpr, H - 6 * dpr);
-    w.dataset.secs = secs;
+    ctx.font = '10px sans-serif'; ctx.fillStyle = 'rgba(255,255,255,.65)';
+    for (let t = 1; t < secs; t++) {                    // a tick every second, a label every 5
+      ctx.fillRect(Math.round(t * px), H - (t % 5 ? 4 : 8), 1, t % 5 ? 4 : 8);
+      if (t % 5 === 0) ctx.fillText(t + ' s', Math.round(t * px) + 3, H - 3);
+    }
+    const kHz = k => { const f = k / (N / 2) * sr / 2 / 1000; return f.toFixed(f < 10 ? 1 : 0) + ' kHz'; };
+    w.querySelector('.spec-f').innerHTML = `<span>${kHz(hi)}</span><span>${kHz(lo)}</span>`;
+    w.dataset.secs = secs; w.dataset.pxps = px;
+    w.classList.add('ready');
     note.remove();
   } catch (e) {
-    note.textContent = 'spectrogram not available for this archive';
-    c.style.height = '34px';
+    if (w.dataset.sono) {        // the archive keeps its file to itself: Xeno-Canto's own image (first 10 s)
+      w.innerHTML = `<img class="sono" src="${w.dataset.sono}" alt="spectrogram, first 10 s" onerror="this.parentElement.style.display='none'"><div class="spec-head"></div>`;
+      w.dataset.secs = 10;
+    } else w.style.display = 'none';
   }
 }
 
@@ -200,10 +223,29 @@ async function drawSpectrogram(c) {
 ]
 
 
+def first_spectrogram_out(h):
+    """pages upgraded with the first spectrogram (fixed image of the first 30 s):
+    take it out, so that the scrolling one goes in the same places"""
+    if 'function drawSpectrogram' not in h or 'PX_PER_SEC' in h:
+        return h
+    i, j = h.index('\n// ── SPECTROGRAMS'), h.index('\n// ── EXPORT')
+    h = h[:i] + h[j:]
+    h = h.replace('  initSpectrograms(tc);\n', '', 1)
+    h = re.sub(r'(\.sono\{[^\n]*\})\n\.specwrap\{.*?\n\.spec-note\{[^\n]*\}', r'\1', h, count=1, flags=re.S)
+    h = re.sub(r'          \$\{r\.sono.*?(?=\n          \$\{r\.audio\?`<audio)',
+               lambda m: """          ${r.sono?`<img class="sono" src="${r.sono}" alt="spectrogram" onerror="this.style.display='none'">`:''}""",
+               h, count=1, flags=re.S)
+    return h
+
+
 def species_page():
     page = 'species_explorer.html'
-    # spectrograms (iNaturalist and GBIF drawn in the browser, Xeno-Canto keeps its own image)
-    patch(page, 'function drawSpectrogram', SPECTROGRAM)
+    path = OUT / page
+    h = path.read_text(encoding='utf-8')
+    if first_spectrogram_out(h) != h:
+        path.write_text(first_spectrogram_out(h), encoding='utf-8')
+    # spectrograms that scroll with the recording (Xeno-Canto's own image when the file cannot be read)
+    patch(page, 'PX_PER_SEC', SPECTROGRAM)
     css = (".audio-mark{margin-left:6px;",
            "a.bdg{text-decoration:none}a.bdg:hover{filter:brightness(1.25)}\n"
            ".rels{display:flex;flex-wrap:wrap;gap:6px;margin-top:.4rem}\n"
@@ -420,6 +462,39 @@ def home_page():
     ])
 
 
+def recordings_page():
+    """quality grade on each recording, a 'best quality only' filter, other species
+    audible in the background, and a link to download the file"""
+    page = 'species_explorer.html'
+    patch(page, 'let bestOnly', [
+        ("""let activeMediaFilter = null;""",
+         """let activeMediaFilter = null;
+let bestOnly = false;     // Xeno-Canto quality A and iNaturalist research grade only
+const isBest = r => r.q === 'A' || r.q === 'research';
+const qualityLabel = q => q === 'research' ? 'research grade' : q === 'needs_id' ? 'needs ID' : q ? 'quality ' + q : '';"""),
+        ("""    html += `<p style="font-size:11px;color:var(--hint);margin-bottom:.8rem">${recs.length} recordings · ${providerLabel}</p>`;""",
+         """    html += `<p style="font-size:11px;color:var(--hint);margin-bottom:.8rem">${recs.length} recordings · ${providerLabel}</p>`;
+    const nBest = recs.filter(isBest).length;
+    if (nBest && nBest < recs.length)
+      html += `<div class="media-filters"><button class="mf-chip ${bestOnly ? 'on' : ''}" onclick="bestOnly=!bestOnly;rtab('media')" title="Xeno-Canto quality A, iNaturalist research grade">best quality only <span style="opacity:.55">${nBest}</span></button></div>`;"""),
+        ("""    const visible = recs.filter(r => {
+      if (!activeMediaFilter) return true;""",
+         """    const visible = recs.filter(r => {
+      if (bestOnly && !isBest(r)) return false;
+      if (!activeMediaFilter) return true;"""),
+        ("""'GBIF ')+r.id:''}${r.duration?' · '+r.duration+(String(r.duration).includes(':')?'':'s'):''}</span>""",
+         """'GBIF ')+r.id:''}${r.duration?' · '+r.duration+(String(r.duration).includes(':')?'':'s'):''}${r.q?' · '+qualityLabel(r.q):''}</span>"""),
+    ])
+    patch(page, 'class="rec-links"', [
+        (""".ac .rec-id{""", """.rec-links{display:flex;gap:16px;flex-wrap:wrap;align-items:baseline}
+.ac .rec-id{"""),
+        ("""${r.date?' · '+r.date:''}</div>""",
+         """${r.date?' · '+r.date:''}${r.also?'<br>also audible: '+r.also:''}</div>"""),
+        ("""          ${r.url?`<a class="xcl" href="${r.url}" target="_blank">${isXC?'XC'+r.id+' on Xeno-Canto':src==='inat'?'Observation on iNaturalist':src==='gbif'?'Record on GBIF':'view source'} →</a>`:''}""",
+         """          <div class="rec-links">${r.url?`<a class="xcl" href="${r.url}" target="_blank">${isXC?'XC'+r.id+' on Xeno-Canto':src==='inat'?'Observation on iNaturalist':src==='gbif'?'Record on GBIF':'view source'} →</a>`:''}${r.audio?`<a class="xcl" href="${r.audio}" download target="_blank" rel="noopener">download ↓</a>`:''}</div>"""),
+    ])
+
+
 def taxonomy_page():
     # the browser's own suggestions (things typed on other sites) are not species
     patch('taxonomy.html', 'autocomplete="off"', [
@@ -454,11 +529,28 @@ def new_classes():
     ])
 
 
+def visit_counter(code):
+    """GoatCounter on every page (no cookies, no personal data), and every species
+    opened counted as its own page, species/<id>, to see which ones people look at"""
+    tag = ('<script data-goatcounter="https://%s.goatcounter.com/count" async '
+           'src="//gc.zgo.at/count.js"></script>\n</head>' % code)
+    for p in sorted(OUT.glob('*.html')):
+        patch(p.name, 'data-goatcounter', [('</head>', tag)])
+    patch('species_explorer.html', 'goatcounter.count', [
+        ("""async function openSp(sid) {""",
+         """async function openSp(sid) {
+  if (window.goatcounter && window.goatcounter.count)
+    window.goatcounter.count({path: 'species/' + sid, title: sid, event: false});"""),
+    ])
+
+
 if __name__ == '__main__':
+    visit_counter('zoelogo')                     # GoatCounter: https://zoelogo.goatcounter.com
     for p in ('index.html', 'species_explorer.html', 'literature.html', 'graph_explorer.html', 'compare.html', 'giants.html'):
         if (OUT / p).exists():
             menu(p)
     species_page()
+    recordings_page()
     tidy_taxonomy()
     new_classes()
     taxonomy_page()
