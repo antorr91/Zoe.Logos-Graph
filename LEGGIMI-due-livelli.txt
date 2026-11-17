@@ -1,0 +1,46 @@
+Zoe.Logos-Graph v1.1, paper sicuri e paper da controllare
+
+Prima di tutto, NON fare commit dell'aggiornamento di oggi finche' non hai fatto il punto 2.
+
+1. Estrai lo zip in E:\zoe-logos-graph, sovrascrivendo.
+
+2. Rimetti le registrazioni tolte per errore (archive.org, observation.org,
+   tierstimmenarchiv.de, humboldt), prendendole dall'ultimo commit
+
+     python restore_recordings.py
+
+3. Attiva i due livelli e ricostruisci il sito
+
+     python upgrade_site.py
+     python update_atlas.py --offline
+
+   Le pagine delle specie hanno ora due filtri, Confident e To check.
+   Controlla in locale (python -m http.server 8000), poi commit e push
+
+     git add -A
+     git commit -m "Two levels of paper attribution, recordings restored"
+     git push
+
+4. Revisione a mano, quando vuoi
+
+     python make_review.py
+
+   Apri review\review.html nel browser. Per ogni paper scegli
+   correct, not this species, oppure not about communication.
+   Le scelte restano salvate nel browser, puoi fermarti e riprendere.
+   Filtra per specie e parti da quelle che ti servono (per esempio il pollo).
+
+5. Per salvare le decisioni clicca Download curation.csv e salva il file
+   sopra data\curation.csv (contiene gia' le righe vecchie). Poi
+
+     python update_atlas.py --offline
+
+   e commit e push. I paper confermati passano tra quelli sicuri,
+   quelli scartati spariscono.
+
+6. Dopo l'01:00, con le chiavi impostate, l'aggiornamento completo
+   cerca nei titoli i paper per le 83 specie che ancora non ne hanno
+
+     python update_atlas.py
+
+La cartella review\ non viene pubblicata (e' in .gitignore).

@@ -495,6 +495,26 @@ const qualityLabel = q => q === 'research' ? 'research grade' : q === 'needs_id'
     ])
 
 
+def two_levels():
+    """papers 'to check' (species or topic only in the abstract) apart from the confident ones"""
+    patch('species_explorer.html', 'let evLevel', [
+        ("""let evFilter = 'all';""", """let evFilter = 'all';
+let evLevel = 'sure';     // confident papers, or the ones still to check"""),
+        ("""      const nM = sorted.filter(isMethods).length;
+      if (nM) html += `<div class="ev-chips">${[['all','All',sorted.length],['comm','Communication',sorted.length-nM],['methods','Methods',nM]]""",
+         """      const nChk = sorted.filter(p => p.check).length;
+      const lv = (evLevel === 'sure' && nChk === sorted.length) ? 'check' : evLevel;
+      if (nChk) html += `<div class="ev-chips">${[['sure','Confident',sorted.length-nChk],['check','To check',nChk]]
+        .map(([k,l,n]) => `<button class="ev-chip ${lv===k?'on':''}" onclick="evLevel='${k}';rtab('evidence')" title="${k==='check'?'the species or the topic appears only in the abstract: found automatically, not yet checked':'species and topic in the title, or checked by hand'}">${l} (${n})</button>`).join('')}</div>`;
+      if (nChk && lv === 'check') html += `<p style="font-size:12px;color:var(--hint);margin:.2rem 0 .8rem">These papers name the species or the topic only in the abstract. They were found automatically and may include passing mentions.</p>`;
+      const levelled = nChk ? sorted.filter(p => !!p.check === (lv === 'check')) : sorted;
+      const nM = levelled.filter(isMethods).length;
+      if (nM) html += `<div class="ev-chips">${[['all','All',levelled.length],['comm','Communication',levelled.length-nM],['methods','Methods',nM]]"""),
+        ("""      const shown = (!nM || evFilter === 'all') ? sorted : sorted.filter(p => (evFilter === 'methods') === isMethods(p));""",
+         """      const shown = (!nM || evFilter === 'all') ? levelled : levelled.filter(p => (evFilter === 'methods') === isMethods(p));"""),
+    ])
+
+
 def taxonomy_page():
     # the browser's own suggestions (things typed on other sites) are not species
     patch('taxonomy.html', 'autocomplete="off"', [
@@ -551,6 +571,7 @@ if __name__ == '__main__':
             menu(p)
     species_page()
     recordings_page()
+    two_levels()
     tidy_taxonomy()
     new_classes()
     taxonomy_page()

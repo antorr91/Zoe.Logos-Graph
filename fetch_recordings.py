@@ -23,6 +23,7 @@ Check and top up the recordings shown in the Media tab of the species page.
 import os, re, time, argparse
 from urllib.parse import urlencode, urlparse
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 import atlas
 
 ap = argparse.ArgumentParser()
@@ -68,6 +69,8 @@ def reachable(url):
         req = Request(url, headers={'User-Agent': atlas.UA, 'Range': 'bytes=0-1'})
         with urlopen(req, timeout=20) as r:
             return r.status < 400
+    except HTTPError as e:                      # the server answered: only 'not found' means the file is gone
+        return e.code not in (404, 410)
     except Exception:
         return False
 
@@ -274,6 +277,9 @@ def main():
                 samples[h].append(r['audio'])
     print('checking that the other archives still answer (%d)' % len(samples))
     dead = {h for h, urls in samples.items() if not any(reachable(u) for u in urls)}
+    if dead and len(dead) == len(samples):             # all of them at once: the problem is our connection
+        print('no archive answers, probably a connection problem: nothing removed')
+        dead = set()
     for s in species:
         s['recordings'] = [r for r in s['recordings'] if urlparse(r['audio']).netloc not in dead]
     if dead:

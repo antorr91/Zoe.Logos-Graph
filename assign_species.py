@@ -109,6 +109,8 @@ def assign(p, names):
 def main():
     html, species, eq, end = atlas.load_species()
     papers = atlas.load_papers()
+    if not papers:
+        raise SystemExit('No papers found in data/archive/ (or data/papers.json): nothing changed.')
     names = atlas.SpeciesNames(species)
     cur = read_curation()
     before = collections.defaultdict(set)
@@ -134,6 +136,11 @@ def main():
             elif status == 'species':
                 status = 'general'
         p['species'], p['status'], p['why'] = sorted(sp), status, why
+        # confident: the species is named in the title and the title is about communication
+        # (or hearing), or you confirmed it in curation.csv; the others are 'to check'
+        in_title = names.find(p['title']) if sp else set()
+        t_core = atlas.comm_terms(names.strip(p['title']))[0] if sp else set()
+        p['sure'] = sorted(x for x in sp if c.get(x) == 'keep' or (x in in_title and t_core))
         text = p['title'] + ' ' + p['abstract']
         p['themes'] = atlas.themes_of(text) if p.get('abstract_full') else \
             sorted(set(p.get('themes') or []) | set(atlas.themes_of(text)))
@@ -166,6 +173,9 @@ def main():
     print('species-paper links: %d (before %d)   removed %d, added %d  -> reports/attribution_changes.csv'
           % (n_links, sum(len(v) for v in before.values()),
              sum(r[0] == 'removed' for r in rows), sum(r[0] == 'added' for r in rows)))
+    sure = sum(len(p.get('sure') or []) for p in papers.values() if p.get('status') == 'species')
+    print('confident links: %d, to check: %d (review them with: python make_review.py)'
+          % (sure, sum(len(v) for v in after.values()) - sure))
     print('species without papers: %d' % sum(1 for s in species if not after[s['sci']]))
     with open(atlas.REPORTS / 'few_papers.csv', 'w', encoding='utf-8', newline='') as f:
         w = csv.writer(f)                              # to decide: search them better, or leave them out
@@ -181,7 +191,8 @@ def main():
 
     for s in species:
         rows = sorted((papers[d] for d in after[s['sci']]), key=lambda p: (-(p['year'] or 0), -(p['citations'] or 0), p['doi']))
-        s['papers'] = [dict({k: p.get(k, '') for k in PAGE_FIELDS}, abstract=atlas.shorten(p['abstract']))
+        s['papers'] = [dict({k: p.get(k, '') for k in PAGE_FIELDS}, abstract=atlas.shorten(p['abstract']),
+                            **({} if s['sci'] in (p.get('sure') or []) else {'check': 1}))
                        for p in rows]
     atlas.save_papers(papers)
     atlas.save_species(html, species, eq, end)

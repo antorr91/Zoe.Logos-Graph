@@ -19,9 +19,10 @@ Questo pacchetto contiene tutto (anche quello di ricerca-paper.zip).
 
 3. Imposta le chiavi (valgono solo per quella finestra):
 
-     set OPENALEX_API_KEY=lWJP7cWXzRXObG6JmJI9VFB
-     set OPENALEX_EMAIL=atorrisi113@gmail.com
-     set XC_API_KEY=e57d9b9bf04268e263822086c6ca2b5e8ed0b754
+set OPENALEX_API_KEY=WJP7cWXzRXObG6JmJI9VFB
+set OPENALEX_EMAIL=atorrisi113@gmail.com
+set XC_API_KEY=e57d9b9bf04268e263822086c6ca2b5e8ed0b754
+python update_atlas.py
 
 4. Aggiornamento completo (paper, abstract, attribuzione, registrazioni, sito):
 
