@@ -2,7 +2,7 @@
 """
 fetch_papers.py - Zoe.Logos-Graph
 
-Keep data/papers.json up to date (stdlib only, no API key needed):
+Keep data/archive/ up to date (stdlib only, no API key needed):
 
   1. NEW papers: for every atlas species, OpenAlex journal articles published since
      the last run that name the species (scientific name, synonyms or English name)
@@ -41,7 +41,7 @@ BAD_TITLE = re.compile(r'^(?:erratum|corrigendum|correction|retraction|editorial
 
 
 def record(w):
-    """OpenAlex work -> paper record (same fields as data/papers.json)"""
+    """OpenAlex work -> paper record (same fields as data/archive/)"""
     doi = atlas.norm_doi(w.get('doi'))
     src = ((w.get('primary_location') or {}).get('source') or {})
     ab = atlas.clean(atlas.from_inverted(w.get('abstract_inverted_index')))
@@ -172,7 +172,7 @@ def abstracts_and_citations(papers):
             got += 1
 
     fields = 'doi,cited_by_count,abstract_inverted_index,open_access'
-    dois = sorted(d for d in papers if not re.search(r'[,|]', d))
+    dois = sorted(d for d, p in papers.items() if not re.search(r'[,|]', d) and not p.get('trashed'))
     openalex_done = True
     try:
         for i in range(0, len(dois), 50):            # 50 DOIs per OpenAlex request
@@ -258,7 +258,7 @@ def main():
         state['papers_since'] = atlas.today()
     state['papers_checked'] = atlas.today()
     atlas.write_json(atlas.STATE, state)
-    print('papers.json: %d papers (%+d)' % (len(papers), len(papers) - n0))
+    print('papers: %d papers (%+d)' % (len(papers), len(papers) - n0))
 
 
 if __name__ == '__main__':

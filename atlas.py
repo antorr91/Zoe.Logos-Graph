@@ -10,7 +10,7 @@ communication keywords, themes and small HTTP helpers. Stdlib only.
     names = atlas.SpeciesNames(species)
     names.find('Song learning in the zebra finch (Taeniopygia guttata)')
 """
-import json, re, os, sys, time, html as H
+import hashlib, json, re, os, sys, time, html as H
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.parse import urlencode
@@ -47,24 +47,42 @@ def save_species(html, species, eq, end):
     SPECIES_HTML.write_text(edb.write(html, species, eq, end), encoding='utf-8')
 
 
-# data/papers.json: one record per DOI, species decided by assign_species.py
+# data/archive/: one record per DOI, species decided by assign_species.py
 
 def norm_doi(d):
     d = (d or '').strip().lower()
     return re.sub(r'^(https?://(dx\.)?doi\.org/|doi:)', '', d)
 
 
+# split in 16 files (data/archive/papers_00.json ...) so that none reaches GitHub's size
+# limit; a paper always goes to the same file, chosen from its DOI
+PAPERS_DIR = PROJ / 'data' / 'archive'
+SHARDS = 16
+
+
+def shard_of(doi):
+    return int(hashlib.md5(doi.encode('utf-8')).hexdigest(), 16) % SHARDS
+
+
 def load_papers():
-    if not PAPERS.exists():
-        return {}
-    return {p['doi']: p for p in json.loads(PAPERS.read_text(encoding='utf-8'))}
+    files = sorted(PAPERS_DIR.glob('papers_[0-9][0-9].json')) if PAPERS_DIR.is_dir() else []
+    if not files:
+        files = [PAPERS] if PAPERS.exists() else []      # before the split: one file
+    return {p['doi']: p for f in files for p in json.loads(f.read_text(encoding='utf-8'))}
 
 
 def save_papers(papers):
-    # one paper per line -> readable diffs
-    rows = sorted(papers.values(), key=lambda p: (-(p.get('year') or 0), p['doi']))
-    PAPERS.write_text('[\n' + ',\n'.join(json.dumps(p, ensure_ascii=False, sort_keys=True) for p in rows)
-                      + '\n]\n', encoding='utf-8')
+    PAPERS_DIR.mkdir(exist_ok=True)
+    parts = [[] for _ in range(SHARDS)]
+    for p in papers.values():
+        parts[shard_of(p['doi'])].append(p)
+    for i, rows in enumerate(parts):
+        rows.sort(key=lambda p: (-(p.get('year') or 0), p['doi']))      # one paper per line: readable diffs
+        (PAPERS_DIR / ('papers_%02d.json' % i)).write_text(
+            '[\n' + ',\n'.join(json.dumps(p, ensure_ascii=False, sort_keys=True) for p in rows) + '\n]\n',
+            encoding='utf-8')
+    if PAPERS.exists():
+        PAPERS.unlink()                                     # the old single file
 
 
 def read_json(path, default):

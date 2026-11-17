@@ -2,7 +2,7 @@
 """
 assign_species.py - Zoe.Logos-Graph
 
-Decide, for every paper in data/papers.json, which species it belongs to, and
+Decide, for every paper in data/archive/, which species it belongs to, and
 write the result into the species page. Everything is recomputed from the text
 each time, so a paper filed under the wrong species in the past cannot stay there.
 
@@ -49,8 +49,22 @@ def read_curation():
     return out
 
 
+KEEP_IN_TRASH = ('doi', 'title', 'year', 'journal', 'status', 'why', 'species', 'added')
+
+
+def trash(p):
+    """off-topic papers keep only what is needed to recognise them, so that they are not
+    downloaded and judged again at every update, and the archive stays small"""
+    for k in list(p):
+        if k not in KEEP_IN_TRASH:
+            del p[k]
+    p.update(abstract='', abstract_full=True, themes=[], trashed=True)
+
+
 def assign(p, names):
     """-> (species list, status, reason)"""
+    if p.get('trashed'):                    # judged off topic before: only the title is kept
+        return [], 'offtopic', p.get('why') or 'not about communication'
     title, abstract = p['title'], p['abstract']
     full = p.get('abstract_full') or p.get('no_abstract')     # nothing more to wait for
     if atlas.NOT_RESEARCH.search(title):
@@ -123,6 +137,8 @@ def main():
         text = p['title'] + ' ' + p['abstract']
         p['themes'] = atlas.themes_of(text) if p.get('abstract_full') else \
             sorted(set(p.get('themes') or []) | set(atlas.themes_of(text)))
+        if status in ('offtopic', 'removed') and not p.get('trashed'):
+            trash(p)
         stats[status] += 1
 
     after = collections.defaultdict(set)
@@ -169,7 +185,7 @@ def main():
                        for p in rows]
     atlas.save_papers(papers)
     atlas.save_species(html, species, eq, end)
-    print('written: data/papers.json, outputs/species_explorer.html')
+    print('written: data/archive/, outputs/species_explorer.html')
 
 
 if __name__ == '__main__':

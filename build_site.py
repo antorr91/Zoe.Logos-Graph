@@ -5,7 +5,7 @@ build_site.py - Zoe.Logos-Graph
 Bring every page in line with species_explorer.html after an update:
   - home page numbers (species, papers, classes) and the "last updated" date
   - compare.html        (build_compare.py)
-  - literature.html     (build_literature.py, from data/papers.json)
+  - literature.html     (build_literature.py, from data/archive/)
   - graph data          (build_graph_data.py, needs networkx)
   - taxonomy.html       (class > order > family > species tree)
   - data.html           (research gaps, downloads) and the files in outputs/data/export/

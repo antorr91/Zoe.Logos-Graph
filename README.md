@@ -46,7 +46,7 @@ On the 1st and 15th of every month a GitHub Action (`.github/workflows/update.ym
 | 3 | `fetch_recordings.py` | checks the recordings and adds new ones from Xeno-Canto, iNaturalist and GBIF |
 | 4 | `build_site.py` | home page numbers, compare, literature, graph, taxonomy and data pages, CSV exports |
 
-A paper is shown under a species only if its title or abstract **names that species** (scientific name, synonym or specific English name) and it is about communication. Papers that name no atlas species stay in the Literature view. Every paper is in `data/papers.json`; its `status` says where it is shown (`species`, `general`, `pending` while the full abstract is missing, `offtopic`).
+A paper is shown under a species only if its title or abstract **names that species** (scientific name, synonym or specific English name) and it is about communication. Papers that name no atlas species stay in the Literature view. Every paper is in `data/archive/` (16 files, so that none gets too large); its `status` says where it is shown (`species`, `general`, `pending` while the full abstract is missing, `offtopic`).
 
 If something looks wrong during an update (for example a service is down and many papers would be lost), nothing is published and GitHub sends an e-mail about the failed run.
 

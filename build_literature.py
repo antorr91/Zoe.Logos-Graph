@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """build_literature.py - Zoe.Logos-Graph
-Build paginated literature.html by theme from data/papers.json (the species of each
+Build paginated literature.html by theme from data/archive/ (the species of each
 paper come from assign_species.py). Papers without an atlas species still appear,
 listed under their theme. Stdlib only.
 
   python build_literature.py
 """
 import argparse, json, re, html as H
-from atlas import METHODS_RX
+from atlas import METHODS_RX, load_papers
 from urllib.parse import quote as urlquote
 
 THEMES = [
@@ -53,7 +53,6 @@ def clean(s):
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument("--papers", default="data/papers.json", help="paper store written by assign_species.py")
     ap.add_argument("--template", default="outputs/literature.html", help="page to reuse head/nav/CSS from")
     ap.add_argument("--out", default="outputs/literature.html")
     ap.add_argument("--page", type=int, default=20)
@@ -63,7 +62,7 @@ def main():
     # papers on a species page + communication papers that name no atlas species;
     # pending (not checked yet) and off-topic papers are left out
     papers={}
-    for pr in json.load(open(args.papers,encoding="utf-8")):
+    for pr in load_papers().values():
         if pr.get("status") not in ("species","general"): continue
         papers[pr["doi"]]={"title":pr.get("title",""),"journal":pr.get("journal",""),"year":pr.get("year") or 0,
                            "doi":pr["doi"],"url":pr.get("url",""),"open_access":pr.get("open_access") or 0,
